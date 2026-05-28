@@ -351,6 +351,19 @@ const AboutPage = ({ onNavigate }) =>
             <li><strong>Rumors</strong> covers unconfirmed stories with confidence labels.</li>
           </ul>
         </section>
+        <section className="about-section">
+          <h2>Get in Touch</h2>
+          <p>
+            Game News Round-Up is run by people, and we would love to hear from you.
+            If you have spotted a mistake, have an idea or some feedback, or have a tip
+            or scoop you think we should cover, send it our way.
+          </p>
+          <p>
+            <a href="mailto:gnr@midaf.tech?subject=GAME%20NEWS%20ROUND-UP">
+              gnr@midaf.tech
+            </a>
+          </p>
+        </section>
         <section className="about-section about-section--dedication">
           <p className="about-dedication">
             Dedicated to Alexander <em>&ldquo;Joviex&rdquo;</em> Morano, a good friend who constantly
