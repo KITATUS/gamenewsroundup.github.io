@@ -109,19 +109,55 @@
           },
           "bullets": [
             "Arriving:",
-            "High On Life (Cloud, Console, and PC)",
-            "RoboCop: Rogue City (Cloud, PC, and Xbox Series S/X) – July 17",
-            "My Friendly Neighborhood (Cloud, Console, and PC) – July 17",
-            "Back to the Dawn (Cloud, Console, and PC) – July 18",
-            "Abiotic Factor (Cloud, PC, and Xbox Series S/X) – July 22",
-            "Wheel World (Cloud, PC, and Xbox Series S/X) – July 23",
-            "Wuchang: Fallen Feathers (Cloud, PC, and Xbox Series S/X) – July 24",
-            "Grounded 2 (Game Preview) (Cloud, PC, and Xbox Series S/X) – July 29",
-            "Farming Simulator 25 (Cloud, Console, and PC) – August 1",
+            {
+              "text": "High On Life (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "RoboCop: Rogue City (Cloud, PC, and Xbox Series S/X) – July 17",
+              "level": 1
+            },
+            {
+              "text": "My Friendly Neighborhood (Cloud, Console, and PC) – July 17",
+              "level": 1
+            },
+            {
+              "text": "Back to the Dawn (Cloud, Console, and PC) – July 18",
+              "level": 1
+            },
+            {
+              "text": "Abiotic Factor (Cloud, PC, and Xbox Series S/X) – July 22",
+              "level": 1
+            },
+            {
+              "text": "Wheel World (Cloud, PC, and Xbox Series S/X) – July 23",
+              "level": 1
+            },
+            {
+              "text": "Wuchang: Fallen Feathers (Cloud, PC, and Xbox Series S/X) – July 24",
+              "level": 1
+            },
+            {
+              "text": "Grounded 2 (Game Preview) (Cloud, PC, and Xbox Series S/X) – July 29",
+              "level": 1
+            },
+            {
+              "text": "Farming Simulator 25 (Cloud, Console, and PC) – August 1",
+              "level": 1
+            },
             "Leaving:",
-            "Gigantic (Cloud, Console, and PC)",
-            "Kunitsu-Gami: Path of the Goddess (Cloud, Console, and PC)",
-            "Turnip Boy Robs a Bank (Cloud, Console, and PC)"
+            {
+              "text": "Gigantic (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Kunitsu-Gami: Path of the Goddess (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Turnip Boy Robs a Bank (Cloud, Console, and PC)",
+              "level": 1
+            }
           ]
         }
       ]

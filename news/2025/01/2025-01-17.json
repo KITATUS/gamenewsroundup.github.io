@@ -33,24 +33,69 @@
           },
           "bullets": [
             "North America",
-            "New York – April 4-6",
-            "Los Angeles – April 11-13",
-            "Dallas – April 25-27",
-            "Toronto – April 25-27",
+            {
+              "text": "New York – April 4-6",
+              "level": 1
+            },
+            {
+              "text": "Los Angeles – April 11-13",
+              "level": 1
+            },
+            {
+              "text": "Dallas – April 25-27",
+              "level": 1
+            },
+            {
+              "text": "Toronto – April 25-27",
+              "level": 1
+            },
             "Europe",
-            "Paris – April 4-6",
-            "London – April 11-13",
-            "Milan – April 25-27",
-            "Berlin – April 25-27",
-            "Madrid – May 9-11",
-            "Amsterdam – May 9-11",
+            {
+              "text": "Paris – April 4-6",
+              "level": 1
+            },
+            {
+              "text": "London – April 11-13",
+              "level": 1
+            },
+            {
+              "text": "Milan – April 25-27",
+              "level": 1
+            },
+            {
+              "text": "Berlin – April 25-27",
+              "level": 1
+            },
+            {
+              "text": "Madrid – May 9-11",
+              "level": 1
+            },
+            {
+              "text": "Amsterdam – May 9-11",
+              "level": 1
+            },
             "Oceania",
-            "Melbourne – May 10-11",
+            {
+              "text": "Melbourne – May 10-11",
+              "level": 1
+            },
             "Asia",
-            "Tokyo (Makuhari) – April 26-27",
-            "Seoul – May 31 – June 1",
-            "Hong Kong – TBD",
-            "Taipei – TBD"
+            {
+              "text": "Tokyo (Makuhari) – April 26-27",
+              "level": 1
+            },
+            {
+              "text": "Seoul – May 31 – June 1",
+              "level": 1
+            },
+            {
+              "text": "Hong Kong – TBD",
+              "level": 1
+            },
+            {
+              "text": "Taipei – TBD",
+              "level": 1
+            }
           ]
         },
         {

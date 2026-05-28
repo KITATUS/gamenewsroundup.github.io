@@ -128,11 +128,23 @@
           },
           "bullets": [
             "For the nine months ended December 31, 2025",
-            "Sales: ¥9.4 trillion ($59.8 billion, up 2.3%)",
-            "Operating income: ¥1.3 trillion ($8.2 billion, up 21%)",
+            {
+              "text": "Sales: ¥9.4 trillion ($59.8 billion, up 2.3%)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥1.3 trillion ($8.2 billion, up 21%)",
+              "level": 1
+            },
             "Games & network services",
-            "Sales: ¥3.66 trillion ($23.2 billion, up 1.3%)",
-            "Operating income: ¥409.1 billion ($2.6 billion, up 27%)"
+            {
+              "text": "Sales: ¥3.66 trillion ($23.2 billion, up 1.3%)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥409.1 billion ($2.6 billion, up 27%)",
+              "level": 1
+            }
           ]
         },
         {

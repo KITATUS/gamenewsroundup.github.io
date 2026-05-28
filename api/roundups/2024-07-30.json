@@ -199,10 +199,22 @@
           },
           "bullets": [
             "For the three months ended June 30, 2024:",
-            "Net sales: ¥29.6 billion ($192 million), down 32.5% year-on-year",
-            "Digital Contents net sales: ¥21.4 billion ($138 million), down 43.5% year-on-year",
-            "Net income: ¥9.97 billion ($64.7 million), down 45.1% year-on-year",
-            "Arcade Operations up 18%, and Amusement Equipments up 147%"
+            {
+              "text": "Net sales: ¥29.6 billion ($192 million), down 32.5% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Digital Contents net sales: ¥21.4 billion ($138 million), down 43.5% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net income: ¥9.97 billion ($64.7 million), down 45.1% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Arcade Operations up 18%, and Amusement Equipments up 147%",
+              "level": 1
+            }
           ]
         }
       ]

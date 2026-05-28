@@ -155,11 +155,26 @@
           },
           "bullets": [
             "This is a complicated topic with a lot of nuance. The TL;DR is:",
-            "Yasuke, the \"black samurai\" featured in the game was known to be a real life person",
-            "Whether or not he was actually a samurai is unclear, with rumours suggesting he was a samurai coming primarily from Thomas Lockley, who apparently falsified Wikipedia entries since 2015 to promote his 2019 book",
-            "One camp is calling people racist for having a problem with Yasuke's portrayal in Assassin's Creed whereas another camp is claiming people are trying to revise history and eradiate Japan's culture",
-            "The Japanese Government has launched an investigation about the game and Yasuke in general",
-            "Thomas Lockley has removed all social media presence"
+            {
+              "text": "Yasuke, the \"black samurai\" featured in the game was known to be a real life person",
+              "level": 1
+            },
+            {
+              "text": "Whether or not he was actually a samurai is unclear, with rumours suggesting he was a samurai coming primarily from Thomas Lockley, who apparently falsified Wikipedia entries since 2015 to promote his 2019 book",
+              "level": 1
+            },
+            {
+              "text": "One camp is calling people racist for having a problem with Yasuke's portrayal in Assassin's Creed whereas another camp is claiming people are trying to revise history and eradiate Japan's culture",
+              "level": 1
+            },
+            {
+              "text": "The Japanese Government has launched an investigation about the game and Yasuke in general",
+              "level": 1
+            },
+            {
+              "text": "Thomas Lockley has removed all social media presence",
+              "level": 1
+            }
           ]
         }
       ]

@@ -53,18 +53,48 @@
           },
           "bullets": [
             "Essential (Monthly Games)",
-            "NBA 2K25",
-            "Alone in the Dark",
-            "Bomb Rush Cyberfunk",
-            "Destiny 2: The Final Shape",
+            {
+              "text": "NBA 2K25",
+              "level": 1
+            },
+            {
+              "text": "Alone in the Dark",
+              "level": 1
+            },
+            {
+              "text": "Bomb Rush Cyberfunk",
+              "level": 1
+            },
+            {
+              "text": "Destiny 2: The Final Shape",
+              "level": 1
+            },
             "Extra / Premium",
-            "Another Crab’s Treasure",
-            "Skull and Bones",
-            "Destiny 2: Legacy Collection",
-            "Grand Theft Auto III: The Definitive Edition",
+            {
+              "text": "Another Crab’s Treasure",
+              "level": 1
+            },
+            {
+              "text": "Skull and Bones",
+              "level": 1
+            },
+            {
+              "text": "Destiny 2: Legacy Collection",
+              "level": 1
+            },
+            {
+              "text": "Grand Theft Auto III: The Definitive Edition",
+              "level": 1
+            },
             "Classics",
-            "Myst",
-            "Riven"
+            {
+              "text": "Myst",
+              "level": 1
+            },
+            {
+              "text": "Riven",
+              "level": 1
+            }
           ]
         }
       ]

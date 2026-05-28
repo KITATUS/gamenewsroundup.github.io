@@ -128,9 +128,18 @@
           },
           "bullets": [
             "For the three months ended September 30, 2025:",
-            "Revenue: $77.7 billion (up 18% year-on-year)",
-            "Net income: $27.7 billion (up 12% year-on-year)",
-            "More Personal Computing (incl. Xbox) revenue: $13.8 billion (up 4% year-on-year)"
+            {
+              "text": "Revenue: $77.7 billion (up 18% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net income: $27.7 billion (up 12% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "More Personal Computing (incl. Xbox) revenue: $13.8 billion (up 4% year-on-year)",
+              "level": 1
+            }
           ]
         }
       ]

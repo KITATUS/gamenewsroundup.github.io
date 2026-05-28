@@ -73,18 +73,51 @@
           },
           "bullets": [
             "PlayStation Plus Premium and Extra:",
-            "UFC 5 (PS5)",
-            "Prince of Persia: The Lost Crown (PS4/5)",
-            "Captain Tsubasa: Rise of New Champions (PS4)",
-            "Mobile Suit Gundam Battle Operation Code Fairy (PS4/5)",
-            "Bang-On Balls: Chronicles (PS4/5)",
-            "You Suck at Parking (PS4/5)",
-            "Syberia – The World Before (PS4, PS5)",
+            {
+              "text": "UFC 5 (PS5)",
+              "level": 1
+            },
+            {
+              "text": "Prince of Persia: The Lost Crown (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Captain Tsubasa: Rise of New Champions (PS4)",
+              "level": 1
+            },
+            {
+              "text": "Mobile Suit Gundam Battle Operation Code Fairy (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Bang-On Balls: Chronicles (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "You Suck at Parking (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Syberia – The World Before (PS4, PS5)",
+              "level": 1
+            },
             "PlayStation Plus Premium:",
-            "Armored Core (PS4/5)",
-            "Armored Core: Project Phantasma (PS4/5)",
-            "Armored Core: Master of Arena (PS4/5)",
-            "Arcade Paradise VR (PSVR2)"
+            {
+              "text": "Armored Core (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Armored Core: Project Phantasma (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Armored Core: Master of Arena (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Arcade Paradise VR (PSVR2)",
+              "level": 1
+            }
           ]
         }
       ]

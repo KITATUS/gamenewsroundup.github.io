@@ -32,14 +32,29 @@
             "importance": "normal"
           },
           "bullets": [
-            "The company hasn't ruled out partnering with external developers on future games",
+            {
+              "text": "The company hasn't ruled out partnering with external developers on future games",
+              "level": 2
+            },
             "Remedy’s Control multiplayer game has entered full production: https://www.videogameschronicle.com/news/remedys-control-multiplayer-game-has-entered-full-production/",
-            "\"The core loop is engaging, and the game brings a unique Remedy angle to the genre\"",
+            {
+              "text": "\"The core loop is engaging, and the game brings a unique Remedy angle to the genre\"",
+              "level": 2
+            },
             "Tekken 8’s second DLC character and upcoming free updates have been revealed: https://www.videogameschronicle.com/news/tekken-8s-second-dlc-character-and-upcoming-free-updates-have-been-revealed/",
-            "Lidia from Tekken 7 will be joining the game in the Summer",
+            {
+              "text": "Lidia from Tekken 7 will be joining the game in the Summer",
+              "level": 2
+            },
             "Amazon's Fallout TV show was watched by 65m people in its first two weeks: https://www.eurogamer.net/amazons-fallout-tv-show-was-watched-by-65m-people-in-its-first-two-weeks",
-            "Second biggest Amazon show (behind Rings of Power)",
-            "Amazon hasn't qualified what it considers a viewer in its figures, so it's unclear how much of the series any of those counted have actually watched."
+            {
+              "text": "Second biggest Amazon show (behind Rings of Power)",
+              "level": 2
+            },
+            {
+              "text": "Amazon hasn't qualified what it considers a viewer in its figures, so it's unclear how much of the series any of those counted have actually watched.",
+              "level": 2
+            }
           ]
         }
       ]
@@ -67,7 +82,10 @@
             "importance": "normal"
           },
           "bullets": [
-            "The Chinese tech giant has tripled its shares in Remedy since late 2022",
+            {
+              "text": "The Chinese tech giant has tripled its shares in Remedy since late 2022",
+              "level": 2
+            },
             "Manor Lords sells 1m copies in 24 hours: https://www.eurogamer.net/manor-lords-sells-1m-copies-in-24-hours-reveals-whats-coming-next"
           ]
         }

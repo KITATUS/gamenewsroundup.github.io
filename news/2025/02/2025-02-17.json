@@ -76,15 +76,39 @@
           },
           "bullets": [
             "For the three months ending December 31, 2024",
-            "Net sales: SEK 7.4 billion ($680 million), down 3% year-on-year, including:",
-            "PC/console games: SEK 2.6 billion ($242 million), down 23% year-on-year",
-            "Mobile games: SEK 1.6 billion ($149 million), up 2% year-on-year",
-            "Net profit: SEK 960 million ($89 million, compared to net loss of SEK 1.8 billion / $167 million during the same period last year)",
+            {
+              "text": "Net sales: SEK 7.4 billion ($680 million), down 3% year-on-year, including:",
+              "level": 1
+            },
+            {
+              "text": "PC/console games: SEK 2.6 billion ($242 million), down 23% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Mobile games: SEK 1.6 billion ($149 million), up 2% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net profit: SEK 960 million ($89 million, compared to net loss of SEK 1.8 billion / $167 million during the same period last year)",
+              "level": 1
+            },
             "For the nine months ending December 31, 2024:",
-            "Net sales: SEK 16.9 billion ($1.5 billion), down 22% year-on-year including:",
-            "PC/console games: SEK 7.3 billion ($679 million), down 35% year-on-year",
-            "Mobile games: SEK 4.4 billion ($409 million), down 3% year-on-year",
-            "Net loss: SEK 1.3 billion ($121 million, compared to net loss of SEK 1.4 billion / $130 million during the same period last year)"
+            {
+              "text": "Net sales: SEK 16.9 billion ($1.5 billion), down 22% year-on-year including:",
+              "level": 1
+            },
+            {
+              "text": "PC/console games: SEK 7.3 billion ($679 million), down 35% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Mobile games: SEK 4.4 billion ($409 million), down 3% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net loss: SEK 1.3 billion ($121 million, compared to net loss of SEK 1.4 billion / $130 million during the same period last year)",
+              "level": 1
+            }
           ]
         },
         {

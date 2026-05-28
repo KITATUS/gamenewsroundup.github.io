@@ -89,7 +89,10 @@
           },
           "bullets": [
             "The lawsuit is based upon the fact that Sony have been blocking third parties selling game codes, leading to an artifical inflation of PS digital game pricing.",
-            "Nintendo and Xbox allow third-party sites to sell game codes, so they are unaffected by this lawsuit."
+            {
+              "text": "Nintendo and Xbox allow third-party sites to sell game codes, so they are unaffected by this lawsuit.",
+              "level": 1
+            }
           ]
         }
       ]

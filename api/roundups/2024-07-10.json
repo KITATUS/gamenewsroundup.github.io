@@ -137,12 +137,30 @@
           },
           "bullets": [
             "July 17th",
-            "Crisis Core: Final Fantasy VII Reunion",
-            "Remnant II",
-            "Pathfinder: Wrath of the Righteous – Enhanced Edition",
-            "Mount & Blade II: Bannerlord",
-            "No More Heroes 3",
-            "Travis Strikes Again: No More Heroes Complete Edition"
+            {
+              "text": "Crisis Core: Final Fantasy VII Reunion",
+              "level": 1
+            },
+            {
+              "text": "Remnant II",
+              "level": 1
+            },
+            {
+              "text": "Pathfinder: Wrath of the Righteous – Enhanced Edition",
+              "level": 1
+            },
+            {
+              "text": "Mount & Blade II: Bannerlord",
+              "level": 1
+            },
+            {
+              "text": "No More Heroes 3",
+              "level": 1
+            },
+            {
+              "text": "Travis Strikes Again: No More Heroes Complete Edition",
+              "level": 1
+            }
           ]
         }
       ]

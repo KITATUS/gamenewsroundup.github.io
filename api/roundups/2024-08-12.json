@@ -181,11 +181,23 @@
           },
           "bullets": [
             "Q2 2024:",
-            "Revenue: €10.3 million (up 16.2%)",
-            "Operating loss: €3.2 million (compared to operating loss of €4.8 million for same quarter last year)",
+            {
+              "text": "Revenue: €10.3 million (up 16.2%)",
+              "level": 1
+            },
+            {
+              "text": "Operating loss: €3.2 million (compared to operating loss of €4.8 million for same quarter last year)",
+              "level": 1
+            },
             "H1 2024:",
-            "Revenue: €21.1 million (up 33.7%)",
-            "Operating loss: €5.3 million (compared to operating loss of €10.4 million in 2023)"
+            {
+              "text": "Revenue: €21.1 million (up 33.7%)",
+              "level": 1
+            },
+            {
+              "text": "Operating loss: €5.3 million (compared to operating loss of €10.4 million in 2023)",
+              "level": 1
+            }
           ]
         },
         {

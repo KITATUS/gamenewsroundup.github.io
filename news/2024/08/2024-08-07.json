@@ -144,14 +144,35 @@
           },
           "bullets": [
             "Arriving",
-            "Creatures of Ava (Cloud, PC, and Xbox Series S/X) - 7th August",
-            "Crash Bandicoot N. Sane Trilogy (Cloud, Console, and PC) - 8th August",
-            "Mafia: Definitive Edition (Cloud, Console, and PC) - 13th August",
+            {
+              "text": "Creatures of Ava (Cloud, PC, and Xbox Series S/X) - 7th August",
+              "level": 1
+            },
+            {
+              "text": "Crash Bandicoot N. Sane Trilogy (Cloud, Console, and PC) - 8th August",
+              "level": 1
+            },
+            {
+              "text": "Mafia: Definitive Edition (Cloud, Console, and PC) - 13th August",
+              "level": 1
+            },
             "Leaving (15th August)",
-            "Airborne Kingdoms (Cloud, Console, and PC)",
-            "Offworld Trading Company (PC)",
-            "Shadow Warrior 3 (Cloud, Console, and PC)",
-            "The Texas Chain Saw Massacre (Cloud, Console, and PC)"
+            {
+              "text": "Airborne Kingdoms (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Offworld Trading Company (PC)",
+              "level": 1
+            },
+            {
+              "text": "Shadow Warrior 3 (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "The Texas Chain Saw Massacre (Cloud, Console, and PC)",
+              "level": 1
+            }
           ]
         }
       ]
@@ -175,9 +196,18 @@
           },
           "bullets": [
             "Q1 Numbers:",
-            "PS5 Sales: 2.4 million units, down from 3.3 million last year",
-            "Gaming Division Sales: Up 12% year-on-year",
-            "Operating Income: Up 32%, reaching ¥65.2 billion ($443 million)",
+            {
+              "text": "PS5 Sales: 2.4 million units, down from 3.3 million last year",
+              "level": 1
+            },
+            {
+              "text": "Gaming Division Sales: Up 12% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Operating Income: Up 32%, reaching ¥65.2 billion ($443 million)",
+              "level": 1
+            },
             "PS5 Sales: 61.7 million units sold to date"
           ]
         },
@@ -221,7 +251,10 @@
           },
           "bullets": [
             "Warner Bros. Discovery exec JB Perrette said earlier this year that the company’s games business revolves around four main intellectual properties, “which are all billion-dollar plus businesses themselves”.",
-            "The four IP are: Mortal Kombat, Game of Thrones, DC and Harry Potter"
+            {
+              "text": "The four IP are: Mortal Kombat, Game of Thrones, DC and Harry Potter",
+              "level": 1
+            }
           ]
         }
       ]

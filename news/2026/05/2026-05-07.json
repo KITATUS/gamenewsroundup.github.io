@@ -78,13 +78,31 @@
           },
           "bullets": [
             "For the three months ending March 31, 2026",
-            "Net revenue: $2.1 billion (up 12% year-on-year)",
-            "Net income: $461 million (up 81.5% year-on-year)",
-            "Net bookings: $1.86 billion (up 3.6% year-on-year)",
+            {
+              "text": "Net revenue: $2.1 billion (up 12% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net income: $461 million (up 81.5% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: $1.86 billion (up 3.6% year-on-year)",
+              "level": 1
+            },
             "For the 12 months ending March 31, 2026",
-            "Net revenue: $7.53 billion (up 1% year-on-year)",
-            "Net income: $887 million (down 20.9% year-on-year)",
-            "Net bookings: $8.03 billion (up 9% year-on-year)"
+            {
+              "text": "Net revenue: $7.53 billion (up 1% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net income: $887 million (down 20.9% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: $8.03 billion (up 9% year-on-year)",
+              "level": 1
+            }
           ]
         }
       ]

@@ -86,14 +86,35 @@
           },
           "bullets": [
             "Full Year Numbers",
-            "Revenue: €1.4 billion (down 21.8% year-on-year)",
-            "Net bookings: €1.5 billion (down 17.4% year-on-year)",
-            "Digital net bookings: €1.33 billion (down 16.0% year-on-year)",
-            "Back-catalogue net bookings: €1.28 billion (down 1.1% year-on-year)",
+            {
+              "text": "Revenue: €1.4 billion (down 21.8% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: €1.5 billion (down 17.4% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Digital net bookings: €1.33 billion (down 16.0% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Back-catalogue net bookings: €1.28 billion (down 1.1% year-on-year)",
+              "level": 1
+            },
             "Three Months Ending March 31, 2026",
-            "Revenue: €419.5 million (down 47.3% year-on-year)",
-            "Net bookings: €415 million (down 54% year-on-year)",
-            "Back-catalogue net bookings: €243 million"
+            {
+              "text": "Revenue: €419.5 million (down 47.3% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: €415 million (down 54% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Back-catalogue net bookings: €243 million",
+              "level": 1
+            }
           ]
         }
       ]

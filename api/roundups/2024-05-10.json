@@ -114,16 +114,31 @@
           "bullets": [
             "The Numbers:",
             "FY Ending March 31st:",
-            "Net Sales: were 152,410 million yen ($977M), which is up 21.0% year-over-year",
-            "Operating Income: was 57,081 million yen ($366M) which is up 12.3% year-over-year",
-            "Ordinary Income: was 59,422 million yen ($381M), which is up 15.7 % year-over-year",
-            "Net Income: 43,374 million yen ($278M) up 18.1 % year-over-year",
+            {
+              "text": "Net Sales: were 152,410 million yen ($977M), which is up 21.0% year-over-year",
+              "level": 1
+            },
+            {
+              "text": "Operating Income: was 57,081 million yen ($366M) which is up 12.3% year-over-year",
+              "level": 1
+            },
+            {
+              "text": "Ordinary Income: was 59,422 million yen ($381M), which is up 15.7 % year-over-year",
+              "level": 1
+            },
+            {
+              "text": "Net Income: 43,374 million yen ($278M) up 18.1 % year-over-year",
+              "level": 1
+            },
             "Highlights:",
             "Street Fighter 6 sold 3.3 million units",
             "Dragon’s Dogma 2 sold 2.6 million (series now at over 11 million units)",
             "Resident Evil 4 Remake sold 7.02 million units (series now at 36.29 million units)",
             "15 titles achieved over 1 million sales during this financial period.",
-            "Monster Hunter franchise has crossed 100 million cumulative sales"
+            {
+              "text": "Monster Hunter franchise has crossed 100 million cumulative sales",
+              "level": 1
+            }
           ]
         },
         {

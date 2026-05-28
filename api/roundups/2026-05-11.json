@@ -100,15 +100,39 @@
           },
           "bullets": [
             "Full Year Numbers",
-            "Net sales: ¥12.5 trillion ($79.7 billion, up 3.7% year-over-year)",
-            "Operating income: ¥1.4 trillion ($8.9 billion, up 13.4% year-over-year)",
-            "Game & Network Services net sales: ¥4.7 trillion ($29.9 billion, up 0.3% year-over-year)",
-            "Game & Network Services operating income: ¥463.3 billion ($2.9 billion, up 12%)",
+            {
+              "text": "Net sales: ¥12.5 trillion ($79.7 billion, up 3.7% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥1.4 trillion ($8.9 billion, up 13.4% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Game & Network Services net sales: ¥4.7 trillion ($29.9 billion, up 0.3% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Game & Network Services operating income: ¥463.3 billion ($2.9 billion, up 12%)",
+              "level": 1
+            },
             "Q4",
-            "Net sales: ¥3.03 trillion ($19.3 billion, up 8.3% year-over-year)",
-            "Operating income: ¥163.5 billion ($1.04 billion, up 24% year-over-year)",
-            "Game & Network Services net sales: ¥1.02 trillion ($6.5 billion, down 2.8% year-over-year)",
-            "Game & Network Services operating income: ¥54.1 billion ($345.1 million, down 41.6% year-over-year)"
+            {
+              "text": "Net sales: ¥3.03 trillion ($19.3 billion, up 8.3% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥163.5 billion ($1.04 billion, up 24% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Game & Network Services net sales: ¥1.02 trillion ($6.5 billion, down 2.8% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Game & Network Services operating income: ¥54.1 billion ($345.1 million, down 41.6% year-over-year)",
+              "level": 1
+            }
           ]
         },
         {

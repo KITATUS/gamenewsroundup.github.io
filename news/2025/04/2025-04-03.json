@@ -134,52 +134,187 @@
           },
           "bullets": [
             "Third Party Launch Games",
-            "Arcade Archives 2: Ridge Racer",
-            "Bravely Default Flying Fairy: HD Remaster",
-            "Civilization VII",
-            "Cyberpunk 2077: Ultimate Edition",
-            "Deltarune",
-            "Fast Fusion",
-            "Fortnite",
-            "Hitman: World of Assassination: Signature Edition",
-            "Hogwarts Legacy",
-            "Kunitsu-Gami: Path of the Goddess",
-            "Nobunaga’s Ambition: Awakening Complete Edition",
-            "Puyo Puyo Tetris 2S",
-            "Rune Factory: Guardians of Azuma",
-            "Split Fiction",
-            "Street Fighter 6",
-            "Survival Kids",
-            "Yakuza 0: Director’s Cut",
+            {
+              "text": "Arcade Archives 2: Ridge Racer",
+              "level": 1
+            },
+            {
+              "text": "Bravely Default Flying Fairy: HD Remaster",
+              "level": 1
+            },
+            {
+              "text": "Civilization VII",
+              "level": 1
+            },
+            {
+              "text": "Cyberpunk 2077: Ultimate Edition",
+              "level": 1
+            },
+            {
+              "text": "Deltarune",
+              "level": 1
+            },
+            {
+              "text": "Fast Fusion",
+              "level": 1
+            },
+            {
+              "text": "Fortnite",
+              "level": 1
+            },
+            {
+              "text": "Hitman: World of Assassination: Signature Edition",
+              "level": 1
+            },
+            {
+              "text": "Hogwarts Legacy",
+              "level": 1
+            },
+            {
+              "text": "Kunitsu-Gami: Path of the Goddess",
+              "level": 1
+            },
+            {
+              "text": "Nobunaga’s Ambition: Awakening Complete Edition",
+              "level": 1
+            },
+            {
+              "text": "Puyo Puyo Tetris 2S",
+              "level": 1
+            },
+            {
+              "text": "Rune Factory: Guardians of Azuma",
+              "level": 1
+            },
+            {
+              "text": "Split Fiction",
+              "level": 1
+            },
+            {
+              "text": "Street Fighter 6",
+              "level": 1
+            },
+            {
+              "text": "Survival Kids",
+              "level": 1
+            },
+            {
+              "text": "Yakuza 0: Director’s Cut",
+              "level": 1
+            },
             "Third Party Post-Launch Games",
-            "Borderlands 4",
-            "Daemon X Machina: Titanic Scion",
-            "EA Sports FC",
-            "EA Sports Madden NFL",
-            "Elden Ring: Tarnished Edition",
-            "Enter the Gungeon 2",
-            "Final Fantasy VII Remake Intergrade",
-            "Goodnight Universe",
-            "Hades II",
-            "Hollow Knight: Silksong",
-            "Human Fall Flat 2",
-            "Marvel Cosmic Invasion",
-            "NBA 2K",
-            "No Sleep For Kaname Date – From AI: The Somnium Files",
-            "Professor Layton and the New World of Steam",
-            "Project 007",
-            "Raidou Remastered: The Mystery of the Soulless Army",
-            "Reanimal",
-            "Shadow Labyrinth",
-            "Star Wars Outlaws",
-            "Starseeker: Astroneer Expeditions",
-            "Story of Seasons: Grand Bazaar",
-            "Tamagotchi Plaza",
-            "Tony Hawk’s Pro Skater 3+4",
-            "Two Point Museum",
-            "WWE 2K",
-            "Wild Hearts S",
-            "Witchbrook"
+            {
+              "text": "Borderlands 4",
+              "level": 1
+            },
+            {
+              "text": "Daemon X Machina: Titanic Scion",
+              "level": 1
+            },
+            {
+              "text": "EA Sports FC",
+              "level": 1
+            },
+            {
+              "text": "EA Sports Madden NFL",
+              "level": 1
+            },
+            {
+              "text": "Elden Ring: Tarnished Edition",
+              "level": 1
+            },
+            {
+              "text": "Enter the Gungeon 2",
+              "level": 1
+            },
+            {
+              "text": "Final Fantasy VII Remake Intergrade",
+              "level": 1
+            },
+            {
+              "text": "Goodnight Universe",
+              "level": 1
+            },
+            {
+              "text": "Hades II",
+              "level": 1
+            },
+            {
+              "text": "Hollow Knight: Silksong",
+              "level": 1
+            },
+            {
+              "text": "Human Fall Flat 2",
+              "level": 1
+            },
+            {
+              "text": "Marvel Cosmic Invasion",
+              "level": 1
+            },
+            {
+              "text": "NBA 2K",
+              "level": 1
+            },
+            {
+              "text": "No Sleep For Kaname Date – From AI: The Somnium Files",
+              "level": 1
+            },
+            {
+              "text": "Professor Layton and the New World of Steam",
+              "level": 1
+            },
+            {
+              "text": "Project 007",
+              "level": 1
+            },
+            {
+              "text": "Raidou Remastered: The Mystery of the Soulless Army",
+              "level": 1
+            },
+            {
+              "text": "Reanimal",
+              "level": 1
+            },
+            {
+              "text": "Shadow Labyrinth",
+              "level": 1
+            },
+            {
+              "text": "Star Wars Outlaws",
+              "level": 1
+            },
+            {
+              "text": "Starseeker: Astroneer Expeditions",
+              "level": 1
+            },
+            {
+              "text": "Story of Seasons: Grand Bazaar",
+              "level": 1
+            },
+            {
+              "text": "Tamagotchi Plaza",
+              "level": 1
+            },
+            {
+              "text": "Tony Hawk’s Pro Skater 3+4",
+              "level": 1
+            },
+            {
+              "text": "Two Point Museum",
+              "level": 1
+            },
+            {
+              "text": "WWE 2K",
+              "level": 1
+            },
+            {
+              "text": "Wild Hearts S",
+              "level": 1
+            },
+            {
+              "text": "Witchbrook",
+              "level": 1
+            }
           ]
         }
       ]
@@ -203,23 +338,71 @@
           },
           "bullets": [
             "Arriving",
-            "Borderlands 3 Ultimate Edition (Cloud, Console, and PC) – April 3",
-            "All You Need is Help (Console) – April 3",
-            "Still Wakes the Deep (Xbox Series S/X) – April 3",
-            "Wargroove 2 (Console) – April 3",
-            "Diablo III: Reaper of Souls – Ultimate Evil Edition (Console and PC) – April 8",
-            "South of Midnight (Cloud, PC, and Xbox Series S/X) – April 8",
-            "Commandos: Origins (Cloud, PC and Xbox Series S/X) – April 9",
-            "Blue Prince (Cloud, PC and Xbox Series S/X) – April 10",
-            "Hunt Showdown 1896 (PC) – April 15",
+            {
+              "text": "Borderlands 3 Ultimate Edition (Cloud, Console, and PC) – April 3",
+              "level": 1
+            },
+            {
+              "text": "All You Need is Help (Console) – April 3",
+              "level": 1
+            },
+            {
+              "text": "Still Wakes the Deep (Xbox Series S/X) – April 3",
+              "level": 1
+            },
+            {
+              "text": "Wargroove 2 (Console) – April 3",
+              "level": 1
+            },
+            {
+              "text": "Diablo III: Reaper of Souls – Ultimate Evil Edition (Console and PC) – April 8",
+              "level": 1
+            },
+            {
+              "text": "South of Midnight (Cloud, PC, and Xbox Series S/X) – April 8",
+              "level": 1
+            },
+            {
+              "text": "Commandos: Origins (Cloud, PC and Xbox Series S/X) – April 9",
+              "level": 1
+            },
+            {
+              "text": "Blue Prince (Cloud, PC and Xbox Series S/X) – April 10",
+              "level": 1
+            },
+            {
+              "text": "Hunt Showdown 1896 (PC) – April 15",
+              "level": 1
+            },
             "Leaving (April 15th)",
-            "Botany Manor",
-            "Coral Island",
-            "Harold Halibut",
-            "Homestead Arcana",
-            "Kona",
-            "Orcs Must Die! 3",
-            "Turbo Golf Racing"
+            {
+              "text": "Botany Manor",
+              "level": 1
+            },
+            {
+              "text": "Coral Island",
+              "level": 1
+            },
+            {
+              "text": "Harold Halibut",
+              "level": 1
+            },
+            {
+              "text": "Homestead Arcana",
+              "level": 1
+            },
+            {
+              "text": "Kona",
+              "level": 1
+            },
+            {
+              "text": "Orcs Must Die! 3",
+              "level": 1
+            },
+            {
+              "text": "Turbo Golf Racing",
+              "level": 1
+            }
           ]
         }
       ]

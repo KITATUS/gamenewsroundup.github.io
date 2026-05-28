@@ -157,13 +157,31 @@
           },
           "bullets": [
             "Q4",
-            "Net revenue: $1.583 billion (up 12% year-over year)",
-            "Net loss: $3.73 billion (compared to a $2.9 billion loss in the year-ago quarter)",
-            "Total net bookings: $1.582 billion (up 13% year-over-year)",
+            {
+              "text": "Net revenue: $1.583 billion (up 12% year-over year)",
+              "level": 1
+            },
+            {
+              "text": "Net loss: $3.73 billion (compared to a $2.9 billion loss in the year-ago quarter)",
+              "level": 1
+            },
+            {
+              "text": "Total net bookings: $1.582 billion (up 13% year-over-year)",
+              "level": 1
+            },
             "Full Year",
-            "Net revenue: $5.63 billion (up 5% year-over-year)",
-            "Net loss: $4.48 billion (compared to a $3.74 billion loss in the last fiscal year)",
-            "Total net bookings: $5.65 billion (up 6% year-over-year)"
+            {
+              "text": "Net revenue: $5.63 billion (up 5% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Net loss: $4.48 billion (compared to a $3.74 billion loss in the last fiscal year)",
+              "level": 1
+            },
+            {
+              "text": "Total net bookings: $5.65 billion (up 6% year-over-year)",
+              "level": 1
+            }
           ]
         }
       ]

@@ -53,17 +53,47 @@
           },
           "bullets": [
             "Extra + Premium",
-            "Sand Land | PS4/5",
-            "Soul Hackers 2 | PS5",
-            "Five Nights at Freddy’s: Help Wanted – Full Time Edition | PS4/5",
-            "Battlefield V | PS4",
-            "S.T.A.L.K.E.R.: Legends of the Zone Trilogy | PS4/5",
-            "Granblue Fantasy Versus: Rising | PS4/5",
-            "Humankind | PS4/5",
-            "Story of Seasons: A Wonderful Life | PS5",
-            "Gloomhaven Mercenaries Edition | PS4/5",
+            {
+              "text": "Sand Land | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Soul Hackers 2 | PS5",
+              "level": 1
+            },
+            {
+              "text": "Five Nights at Freddy’s: Help Wanted – Full Time Edition | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Battlefield V | PS4",
+              "level": 1
+            },
+            {
+              "text": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Granblue Fantasy Versus: Rising | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Humankind | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Story of Seasons: A Wonderful Life | PS5",
+              "level": 1
+            },
+            {
+              "text": "Gloomhaven Mercenaries Edition | PS4/5",
+              "level": 1
+            },
             "Premium",
-            "Battle Engine Aquila | PS4/5"
+            {
+              "text": "Battle Engine Aquila | PS4/5",
+              "level": 1
+            }
           ]
         }
       ]

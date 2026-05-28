@@ -80,10 +80,22 @@
           },
           "bullets": [
             "For the three months ended June 30, 2024:",
-            "Revenue: $893.5m, up 31% year-on-year",
-            "Bookings: $955.2m, up 22% year-on-year",
-            "DAUs: 79.5m, up 21% year-on-year",
-            "Hours engaged: 17.4bn, up 24% year-on-year"
+            {
+              "text": "Revenue: $893.5m, up 31% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Bookings: $955.2m, up 22% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "DAUs: 79.5m, up 21% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Hours engaged: 17.4bn, up 24% year-on-year",
+              "level": 1
+            }
           ]
         },
         {
@@ -119,16 +131,46 @@
           },
           "bullets": [
             "Top 10 Best Selling Switch Games:",
-            "Mario Kart 8 Deluxe - 62.90M",
-            "Animal Crossing: New Horizons - 45.85M",
-            "Super Smash Bros. Ultimate - 34.66M",
-            "Breath of the Wild - 32.05M",
-            "Super Mario Odyssey - 28.21M",
-            "Pokemon Sword/Shield - 26.35M",
-            "Pokemon Scarlet/Violet - 25.29M",
-            "Super Mario Party - 20.84M",
-            "Tears of the Kingdom - 20.80M",
-            "New Super Mario Bros. U Deluxe - 17.61M"
+            {
+              "text": "Mario Kart 8 Deluxe - 62.90M",
+              "level": 1
+            },
+            {
+              "text": "Animal Crossing: New Horizons - 45.85M",
+              "level": 1
+            },
+            {
+              "text": "Super Smash Bros. Ultimate - 34.66M",
+              "level": 1
+            },
+            {
+              "text": "Breath of the Wild - 32.05M",
+              "level": 1
+            },
+            {
+              "text": "Super Mario Odyssey - 28.21M",
+              "level": 1
+            },
+            {
+              "text": "Pokemon Sword/Shield - 26.35M",
+              "level": 1
+            },
+            {
+              "text": "Pokemon Scarlet/Violet - 25.29M",
+              "level": 1
+            },
+            {
+              "text": "Super Mario Party - 20.84M",
+              "level": 1
+            },
+            {
+              "text": "Tears of the Kingdom - 20.80M",
+              "level": 1
+            },
+            {
+              "text": "New Super Mario Bros. U Deluxe - 17.61M",
+              "level": 1
+            }
           ]
         }
       ]

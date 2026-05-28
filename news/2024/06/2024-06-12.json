@@ -33,11 +33,26 @@
           },
           "bullets": [
             "Some of the listings include:",
-            "FFXVI (Skobeloff)",
-            "FFIX Remake (Momo) with a Tetra Master Starter Pack & Thief's Knives bonus",
-            "Turok from Saber",
-            "The Last of Us Part 2 (Utah)",
-            "+ Many More"
+            {
+              "text": "FFXVI (Skobeloff)",
+              "level": 1
+            },
+            {
+              "text": "FFIX Remake (Momo) with a Tetra Master Starter Pack & Thief's Knives bonus",
+              "level": 1
+            },
+            {
+              "text": "Turok from Saber",
+              "level": 1
+            },
+            {
+              "text": "The Last of Us Part 2 (Utah)",
+              "level": 1
+            },
+            {
+              "text": "+ Many More",
+              "level": 1
+            }
           ]
         },
         {

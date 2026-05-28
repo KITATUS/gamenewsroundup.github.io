@@ -95,9 +95,18 @@
           },
           "bullets": [
             "20th March - 27th March",
-            "Jurassic World Evolution 2 (PC)",
-            "Super Meat Boy Forever (iOS/Android)",
-            "Eastern Exorcist (iOS/Android)"
+            {
+              "text": "Jurassic World Evolution 2 (PC)",
+              "level": 1
+            },
+            {
+              "text": "Super Meat Boy Forever (iOS/Android)",
+              "level": 1
+            },
+            {
+              "text": "Eastern Exorcist (iOS/Android)",
+              "level": 1
+            }
           ]
         }
       ]

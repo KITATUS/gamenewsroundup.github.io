@@ -126,10 +126,22 @@
           },
           "bullets": [
             "Investment will support four projects focused on creating tools and datasets for use in the wider industry",
-            "The Games Insight Database (Into Games CIC)",
-            "UK Video Games Econometrics (UKIE and Open Knowledge across Research and Entertainment)",
-            "Business development accelerator Aurora (Code Coven)",
-            "Access to Market: Self Publishing Toolkit (Film London)"
+            {
+              "text": "The Games Insight Database (Into Games CIC)",
+              "level": 2
+            },
+            {
+              "text": "UK Video Games Econometrics (UKIE and Open Knowledge across Research and Entertainment)",
+              "level": 2
+            },
+            {
+              "text": "Business development accelerator Aurora (Code Coven)",
+              "level": 2
+            },
+            {
+              "text": "Access to Market: Self Publishing Toolkit (Film London)",
+              "level": 2
+            }
           ]
         },
         {

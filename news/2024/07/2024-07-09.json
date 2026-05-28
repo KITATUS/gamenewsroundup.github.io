@@ -104,8 +104,14 @@
           },
           "bullets": [
             "Beginning with the upcoming Season 22, the three-month passes can only be purchased with real-world money. Players could use in-game AC currency to buy said passes, but that process will be phased out.",
-            "Further complicating matters is that each Season will be split into two battle passes. The first Premium pass will cost $10 per half season, while the Premium+ pass (which offers extra in-game rewards) will be $20.",
-            "So unless players stick with the free track, they may pay $20 or $40 for a full season. Per Respawn, the change was done to make things \"more approachable and realistic for our global player community.\""
+            {
+              "text": "Further complicating matters is that each Season will be split into two battle passes. The first Premium pass will cost $10 per half season, while the Premium+ pass (which offers extra in-game rewards) will be $20.",
+              "level": 1
+            },
+            {
+              "text": "So unless players stick with the free track, they may pay $20 or $40 for a full season. Per Respawn, the change was done to make things \"more approachable and realistic for our global player community.\"",
+              "level": 1
+            }
           ]
         }
       ]

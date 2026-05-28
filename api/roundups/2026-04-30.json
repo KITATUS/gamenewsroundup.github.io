@@ -87,10 +87,22 @@
           },
           "bullets": [
             "For the three months ended March 31, 2026:",
-            "Revenue: $82.9 billion (up 18%)",
-            "More personal computing (incl. Xbox revenue): $13.2 billion (down 1%)",
-            "Operating income: $38.4 billion (up 20%)",
-            "Net income: $31.8 billion (up 23%)"
+            {
+              "text": "Revenue: $82.9 billion (up 18%)",
+              "level": 1
+            },
+            {
+              "text": "More personal computing (incl. Xbox revenue): $13.2 billion (down 1%)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: $38.4 billion (up 20%)",
+              "level": 1
+            },
+            {
+              "text": "Net income: $31.8 billion (up 23%)",
+              "level": 1
+            }
           ]
         }
       ]

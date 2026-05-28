@@ -47,7 +47,10 @@
           },
           "bullets": [
             "GTA Onlines's daily average revenue is $1.3 million ($9.5 million a week)",
-            "Of that $9.5m weekly average, PC makes $264,273 whereas PS5 makes $4.4m (and other consoles fill in the remaining cash)",
+            {
+              "text": "Of that $9.5m weekly average, PC makes $264,273 whereas PS5 makes $4.4m (and other consoles fill in the remaining cash)",
+              "level": 3
+            },
             "GTA Online makes $498.8m a year.",
             "Red Dead Online makes $507,193 on average per week ($26.4 million per year)"
           ]

@@ -122,10 +122,22 @@
             "importance": "normal"
           },
           "bullets": [
-            "Battlefield 1 (PS4)",
-            "Ghostbusters: Spirits Unleashed (PS4, PS5)",
-            "Tour de France 2023 (PS4, PS5)",
-            "The Last Clockwinder (PSVR2)"
+            {
+              "text": "Battlefield 1 (PS4)",
+              "level": 1
+            },
+            {
+              "text": "Ghostbusters: Spirits Unleashed (PS4, PS5)",
+              "level": 1
+            },
+            {
+              "text": "Tour de France 2023 (PS4, PS5)",
+              "level": 1
+            },
+            {
+              "text": "The Last Clockwinder (PSVR2)",
+              "level": 1
+            }
           ]
         }
       ]

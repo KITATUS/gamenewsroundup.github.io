@@ -74,20 +74,59 @@
           },
           "bullets": [
             "Arriving:",
-            "Road 96 (Cloud, Console, and PC) – January 7",
-            "Lightyear Frontier (Game Preview) (Xbox Series S/X) – January 8",
-            "My Time at Sandrock (Console) – January 8",
-            "Robin Hood – Sherwood Builders (Xbox Series S/X) – January 8",
-            "Rolling Hills (Console) – January 8",
-            "EA Sports UFC 5 (Cloud and Xbox Series S/X) EA Play – January 14",
-            "Diablo (PC) – January 14",
+            {
+              "text": "Road 96 (Cloud, Console, and PC) – January 7",
+              "level": 1
+            },
+            {
+              "text": "Lightyear Frontier (Game Preview) (Xbox Series S/X) – January 8",
+              "level": 1
+            },
+            {
+              "text": "My Time at Sandrock (Console) – January 8",
+              "level": 1
+            },
+            {
+              "text": "Robin Hood – Sherwood Builders (Xbox Series S/X) – January 8",
+              "level": 1
+            },
+            {
+              "text": "Rolling Hills (Console) – January 8",
+              "level": 1
+            },
+            {
+              "text": "EA Sports UFC 5 (Cloud and Xbox Series S/X) EA Play – January 14",
+              "level": 1
+            },
+            {
+              "text": "Diablo (PC) – January 14",
+              "level": 1
+            },
             "Leaving (Jan 15th):",
-            "Common’Hood (Cloud, Console, and PC)",
-            "Escape Academy (Cloud, Console, and PC)",
-            "Exoprimal (Cloud, Console, and PC)",
-            "Figment (Cloud, Console, and PC)",
-            "Insurgency Sandstorm (Cloud, Console, and PC)",
-            "Those Who Remain (Cloud, Console, and PC)"
+            {
+              "text": "Common’Hood (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Escape Academy (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Exoprimal (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Figment (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Insurgency Sandstorm (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Those Who Remain (Cloud, Console, and PC)",
+              "level": 1
+            }
           ]
         }
       ]
@@ -145,9 +184,18 @@
           },
           "bullets": [
             "Three games budgets have been revealed in the document:",
-            "Black Ops 3 - Three year dev time, \"over $450 million in development costs over the game’s lifecycle\"",
-            "2007 Modern Warfare - “Infinity Ward developed the game over several years and has spent over $640 million in development costs throughout the game’s lifecycle.”",
-            "Black Ops Cold War - “Treyarch and Raven Software took years to create the game with a team of hundreds of creatives. They ultimately spent over $700 million in development costs over the game’s lifecycle.”"
+            {
+              "text": "Black Ops 3 - Three year dev time, \"over $450 million in development costs over the game’s lifecycle\"",
+              "level": 1
+            },
+            {
+              "text": "2007 Modern Warfare - “Infinity Ward developed the game over several years and has spent over $640 million in development costs throughout the game’s lifecycle.”",
+              "level": 1
+            },
+            {
+              "text": "Black Ops Cold War - “Treyarch and Raven Software took years to create the game with a team of hundreds of creatives. They ultimately spent over $700 million in development costs over the game’s lifecycle.”",
+              "level": 1
+            }
           ]
         }
       ]

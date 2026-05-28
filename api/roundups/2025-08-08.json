@@ -175,11 +175,23 @@
           },
           "bullets": [
             "Overall:",
-            "Sales income: ¥2.62 trillion ($17.8 billion), up 2% YoY",
-            "Operating income (after tariff impact): ¥340 billion ($2.3 billion), up 36% YoY (before tariff impact)",
+            {
+              "text": "Sales income: ¥2.62 trillion ($17.8 billion), up 2% YoY",
+              "level": 1
+            },
+            {
+              "text": "Operating income (after tariff impact): ¥340 billion ($2.3 billion), up 36% YoY (before tariff impact)",
+              "level": 1
+            },
             "Games & Network Services",
-            "Sales income: ¥937 billion ($6.4 billion), up 8%",
-            "Operating income: ¥148 billion ($1 billion), up 127% YoY"
+            {
+              "text": "Sales income: ¥937 billion ($6.4 billion), up 8%",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥148 billion ($1 billion), up 127% YoY",
+              "level": 1
+            }
           ]
         },
         {

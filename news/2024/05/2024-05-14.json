@@ -62,13 +62,31 @@
           "bullets": [
             "The Numbers:",
             "Year Ended March 31 2024:",
-            "**Sales**: ¥4.26 trillion (17% year-on-year)",
-            "**Sony’s Network services revenue**: ¥545.5 billion (up from ¥464.6 billion)",
-            "**Software sales (PS4/5)**: 286.4 million units (22.2 million increase year-on-year)",
+            {
+              "text": "**Sales**: ¥4.26 trillion (17% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "**Sony’s Network services revenue**: ¥545.5 billion (up from ¥464.6 billion)",
+              "level": 1
+            },
+            {
+              "text": "**Software sales (PS4/5)**: 286.4 million units (22.2 million increase year-on-year)",
+              "level": 1
+            },
             "Highlights:",
-            "Digital software accounted for 70% of annual game sales, compared to 67% last year",
-            "PS5 has sold 59.3 million units to date",
-            "Helldivers 2 is now PlayStation’s fastest-selling game launch ever, with sales “far exceeding expectations” at 12 million copies sold across PC and PS5 in its first 12 weeks"
+            {
+              "text": "Digital software accounted for 70% of annual game sales, compared to 67% last year",
+              "level": 1
+            },
+            {
+              "text": "PS5 has sold 59.3 million units to date",
+              "level": 1
+            },
+            {
+              "text": "Helldivers 2 is now PlayStation’s fastest-selling game launch ever, with sales “far exceeding expectations” at 12 million copies sold across PC and PS5 in its first 12 weeks",
+              "level": 1
+            }
           ]
         },
         {
@@ -129,20 +147,47 @@
             "**Profit attributable to owners of parent**: ¥15 billion ($96.2 million, down 69.7% YoY from ¥49.2 billion)",
             "The Aftermath:",
             "Square Enix Has Said:",
-            "FF16 sales fell short of expectations",
-            "FF7 Rebirth fell short of expectations",
-            "Foamstars fell short of expectations",
-            "Remains confident FF16 can achieve its goal over the original 18-month sales plan. Also, sales of Rebirth and Foamstars aren't necessarily bad.",
-            "Reorganized development team into five console teams, one smartphone game team",
-            "Has been relied too much on an individual's creativity",
-            "Will promote sharing game making how-how among teams and will seek best balance of individual creativity and organizational discipline",
-            "DQ12 remains under development",
+            {
+              "text": "FF16 sales fell short of expectations",
+              "level": 1
+            },
+            {
+              "text": "FF7 Rebirth fell short of expectations",
+              "level": 1
+            },
+            {
+              "text": "Foamstars fell short of expectations",
+              "level": 1
+            },
+            {
+              "text": "Remains confident FF16 can achieve its goal over the original 18-month sales plan. Also, sales of Rebirth and Foamstars aren't necessarily bad.",
+              "level": 1
+            },
+            {
+              "text": "Reorganized development team into five console teams, one smartphone game team",
+              "level": 1
+            },
+            {
+              "text": "Has been relied too much on an individual's creativity",
+              "level": 1
+            },
+            {
+              "text": "Will promote sharing game making how-how among teams and will seek best balance of individual creativity and organizational discipline",
+              "level": 1
+            },
+            {
+              "text": "DQ12 remains under development",
+              "level": 1
+            },
             "Investors Reacted:",
             "Sold shares heavily, stocks fell to the day's trading limit",
             "Square Enix Reacted:",
             "Layoffs",
             "Employees working in publishing, IT, and the Square Enix Indie Collective are losing their jobs.",
-            "American and United Kingdom offices are affected and are expected to be further affected"
+            {
+              "text": "American and United Kingdom offices are affected and are expected to be further affected",
+              "level": 1
+            }
           ]
         }
       ]

@@ -35,11 +35,26 @@
             "The event will allow guests to \"discover incredible marine life alongside some of the game's characters\" as they explore the 'Sea Life Islands', meet Tom Nook and Isabelle, and collect character stamps.",
             "There will also be a fossil dig to reveal the ancestors of marine life, as well as a search for Gulliver who washed up on the island's beaches.",
             "Locations:",
-            "Sea Life Manchester: 8th Feb – 9th March 2025",
-            "Sea Life Birmingham: 12th April - 5th May 2025",
-            "Sea Life Brighton: 24th May - 15th June 2025",
-            "Sea Life London: 30th June - 27th July 2025",
-            "Sea Life Chessington World of Adventures: 1st – 31st August 2025"
+            {
+              "text": "Sea Life Manchester: 8th Feb – 9th March 2025",
+              "level": 1
+            },
+            {
+              "text": "Sea Life Birmingham: 12th April - 5th May 2025",
+              "level": 1
+            },
+            {
+              "text": "Sea Life Brighton: 24th May - 15th June 2025",
+              "level": 1
+            },
+            {
+              "text": "Sea Life London: 30th June - 27th July 2025",
+              "level": 1
+            },
+            {
+              "text": "Sea Life Chessington World of Adventures: 1st – 31st August 2025",
+              "level": 1
+            }
           ]
         },
         {
@@ -97,18 +112,51 @@
           },
           "bullets": [
             "PlayStation Plus Extra and Premium | Game Catalog",
-            "God of War Ragnarök | PS4/5",
-            "Like a Dragon Gaiden: The Man Who Erased His Name | PS4/5",
-            "Atlas Fallen: Reign Of Sand | PS5",
-            "SD Gundam Battle Alliance | PS4/5",
-            "Sayonara Wild Hearts | PS4",
-            "ANNO: Mutationem | PS4/5",
-            "Orcs Must Die 3 | PS4/5",
-            "Citizen Sleeper | PS4/5",
-            "Poker Club | PS4",
+            {
+              "text": "God of War Ragnarök | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Like a Dragon Gaiden: The Man Who Erased His Name | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Atlas Fallen: Reign Of Sand | PS5",
+              "level": 1
+            },
+            {
+              "text": "SD Gundam Battle Alliance | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Sayonara Wild Hearts | PS4",
+              "level": 1
+            },
+            {
+              "text": "ANNO: Mutationem | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Orcs Must Die 3 | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Citizen Sleeper | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Poker Club | PS4",
+              "level": 1
+            },
             "PlayStation Plus Premium | PS VR2 & Classics",
-            "Indiana Jones and the Staff of Kings | PS4/5",
-            "Medievil 2 | PS4, PS5"
+            {
+              "text": "Indiana Jones and the Staff of Kings | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Medievil 2 | PS4, PS5",
+              "level": 1
+            }
           ]
         }
       ]

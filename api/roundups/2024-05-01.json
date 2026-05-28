@@ -34,7 +34,10 @@
           "bullets": [
             "June 9, 2024, starting at 10am PT / 1pm ET / 6pm BST",
             "The \"Redacted Direct\" will start immediately after the Xbox Games Showcase",
-            "Editors Note: SPOILERS: It's clear \"Redacted\" is the next Call of Duty: Black Ops title."
+            {
+              "text": "Editors Note: SPOILERS: It's clear \"Redacted\" is the next Call of Duty: Black Ops title.",
+              "level": 1
+            }
           ]
         },
         {
@@ -100,14 +103,38 @@
             "Brothers: A Tale of Two Sons (Cloud, Console, and PC) – May 14",
             "Leaving:",
             "May 15th",
-            "Eastern Exorcist (Cloud, Console, PC)",
-            "Eiyuden Chronicle Rising (Cloud, Console, PC)",
-            "Fuga: Melodies of Steel 2 (Cloud, Console, PC)",
-            "Ghostlore (Cloud, Console, PC)",
-            "Just Cause 4 Reloaded (Cloud, Console, PC)",
-            "Norco (Cloud, Console, PC)",
-            "SD Gundam Battle Alliance (Cloud, Console, PC)",
-            "Supraland Six Inches Under (Cloud, Console, PC)"
+            {
+              "text": "Eastern Exorcist (Cloud, Console, PC)",
+              "level": 2
+            },
+            {
+              "text": "Eiyuden Chronicle Rising (Cloud, Console, PC)",
+              "level": 2
+            },
+            {
+              "text": "Fuga: Melodies of Steel 2 (Cloud, Console, PC)",
+              "level": 2
+            },
+            {
+              "text": "Ghostlore (Cloud, Console, PC)",
+              "level": 2
+            },
+            {
+              "text": "Just Cause 4 Reloaded (Cloud, Console, PC)",
+              "level": 2
+            },
+            {
+              "text": "Norco (Cloud, Console, PC)",
+              "level": 2
+            },
+            {
+              "text": "SD Gundam Battle Alliance (Cloud, Console, PC)",
+              "level": 2
+            },
+            {
+              "text": "Supraland Six Inches Under (Cloud, Console, PC)",
+              "level": 2
+            }
           ]
         }
       ]

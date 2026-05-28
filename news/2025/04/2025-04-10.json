@@ -56,15 +56,39 @@
           },
           "bullets": [
             "Extra / Premium",
-            "Blue Prince (PS5) – April 10",
-            "EA Sports PGA Tour (PS5) – April 10",
-            "Hogwarts Legacy (PS4/5) – April 15",
-            "Lost Records: Bloom & Rage Tape 2 (PS5) – April 15",
-            "Battlefield 1 (PS4) – April 15",
-            "PlateUp! (PS4/5) – April 15",
+            {
+              "text": "Blue Prince (PS5) – April 10",
+              "level": 1
+            },
+            {
+              "text": "EA Sports PGA Tour (PS5) – April 10",
+              "level": 1
+            },
+            {
+              "text": "Hogwarts Legacy (PS4/5) – April 15",
+              "level": 1
+            },
+            {
+              "text": "Lost Records: Bloom & Rage Tape 2 (PS5) – April 15",
+              "level": 1
+            },
+            {
+              "text": "Battlefield 1 (PS4) – April 15",
+              "level": 1
+            },
+            {
+              "text": "PlateUp! (PS4/5) – April 15",
+              "level": 1
+            },
             "Premium (Classics)",
-            "Alone in the Dark 2 (PS1) – April 15",
-            "War of the Monsters (PS2) – April 15"
+            {
+              "text": "Alone in the Dark 2 (PS1) – April 15",
+              "level": 1
+            },
+            {
+              "text": "War of the Monsters (PS2) – April 15",
+              "level": 1
+            }
           ]
         }
       ]

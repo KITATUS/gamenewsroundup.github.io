@@ -133,10 +133,22 @@
           },
           "bullets": [
             "Q1 Numbers",
-            "Sales: €323.5 million (up 12.0% year-on-year)",
-            "Net bookings: €290.0 million (up 8.3%)",
-            "Digital net bookings: 257.2 million (up 6.6%)",
-            "Back-catalogue net bookings: 249.5 million (up 1.5%)"
+            {
+              "text": "Sales: €323.5 million (up 12.0% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: €290.0 million (up 8.3%)",
+              "level": 1
+            },
+            {
+              "text": "Digital net bookings: 257.2 million (up 6.6%)",
+              "level": 1
+            },
+            {
+              "text": "Back-catalogue net bookings: 249.5 million (up 1.5%)",
+              "level": 1
+            }
           ]
         }
       ]

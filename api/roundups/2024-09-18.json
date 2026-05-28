@@ -186,20 +186,59 @@
           },
           "bullets": [
             "Plus Extra and Premium",
-            "The Plucky Squire | PS5",
-            "Under The Waves | PS4/5",
-            "Night in the Woods | PS4/5",
-            "Chernobylite | PS4/5",
-            "Wild Card Football | PS4/5",
-            "Space Engineers | PS4/5",
-            "Road 96 | PS4/5",
-            "Ben 10 | PS4",
-            "Far Cry 5 | PS4",
+            {
+              "text": "The Plucky Squire | PS5",
+              "level": 1
+            },
+            {
+              "text": "Under The Waves | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Night in the Woods | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Chernobylite | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Wild Card Football | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Space Engineers | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Road 96 | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Ben 10 | PS4",
+              "level": 1
+            },
+            {
+              "text": "Far Cry 5 | PS4",
+              "level": 1
+            },
             "Premium",
-            "Pistol Whip | PS VR2",
-            "Secret Agent Clank | PS4/5",
-            "Sky Gunner | PS4/5",
-            "Mister Mosquito | PS4/5"
+            {
+              "text": "Pistol Whip | PS VR2",
+              "level": 1
+            },
+            {
+              "text": "Secret Agent Clank | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Sky Gunner | PS4/5",
+              "level": 1
+            },
+            {
+              "text": "Mister Mosquito | PS4/5",
+              "level": 1
+            }
           ]
         },
         {
@@ -243,7 +282,10 @@
           "bullets": [
             "Scopely says it has \"every intention\" of keeping on employees from the project.",
             "In a statement to Game Developer, a Scopely spokesperson indicated no staff had been laid off at time of writing, and said it intends to move impacted developers to other teams within the studio",
-            "The statement claims employees on the project will be moved onto Scopely's version of \"The Bench\""
+            {
+              "text": "The statement claims employees on the project will be moved onto Scopely's version of \"The Bench\"",
+              "level": 1
+            }
           ]
         },
         {

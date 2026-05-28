@@ -64,20 +64,59 @@
           },
           "bullets": [
             "Arriving",
-            "Commandoes Origins (Cloud, console, and PC)",
-            "Microsoft Flight Simulator 2024 (Cloud, Xbox Series S/X, and PC)",
-            "PowerWash Simulator 2 (Cloud, PC, and Xbox Series S/X) – 23rd October",
-            "Bounty Star (Cloud, PC, and Xbox Series S/X) – 23rd October",
-            "Super Fantasy Kingdom (PC) – 24th October",
-            "Halls of Torment (Cloud, PC, and Xbox Series S/X) – 28th October",
-            "The Outer Worlds 2 (Cloud and Xbox Series S/X) – 29th October",
-            "1000xResist (Cloud, PC, and Xbox Series S/X) – 4th November",
-            "Football Manager 26 (PC) – 4th November",
-            "Football Manager 26 Console (Cloud, Console) – 4th November",
+            {
+              "text": "Commandoes Origins (Cloud, console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Microsoft Flight Simulator 2024 (Cloud, Xbox Series S/X, and PC)",
+              "level": 1
+            },
+            {
+              "text": "PowerWash Simulator 2 (Cloud, PC, and Xbox Series S/X) – 23rd October",
+              "level": 1
+            },
+            {
+              "text": "Bounty Star (Cloud, PC, and Xbox Series S/X) – 23rd October",
+              "level": 1
+            },
+            {
+              "text": "Super Fantasy Kingdom (PC) – 24th October",
+              "level": 1
+            },
+            {
+              "text": "Halls of Torment (Cloud, PC, and Xbox Series S/X) – 28th October",
+              "level": 1
+            },
+            {
+              "text": "The Outer Worlds 2 (Cloud and Xbox Series S/X) – 29th October",
+              "level": 1
+            },
+            {
+              "text": "1000xResist (Cloud, PC, and Xbox Series S/X) – 4th November",
+              "level": 1
+            },
+            {
+              "text": "Football Manager 26 (PC) – 4th November",
+              "level": 1
+            },
+            {
+              "text": "Football Manager 26 Console (Cloud, Console) – 4th November",
+              "level": 1
+            },
             "Leaving (October 31st)",
-            "Jusant (Cloud, Console, and PC)",
-            "Metal Slug Tactics (Cloud, Console, and PC)",
-            "Return to Monkey Island (Cloud, Console, and PC)"
+            {
+              "text": "Jusant (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Metal Slug Tactics (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Return to Monkey Island (Cloud, Console, and PC)",
+              "level": 1
+            }
           ]
         }
       ]

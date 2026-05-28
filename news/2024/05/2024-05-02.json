@@ -33,7 +33,10 @@
           },
           "bullets": [
             "Players will be able to create links either directly on their PlayStation 5 console or using the PlayStation App.",
-            "The resulting link can then be shared as a simple URL or a scannable QR code via the social media or messaging platform of their choice."
+            {
+              "text": "The resulting link can then be shared as a simple URL or a scannable QR code via the social media or messaging platform of their choice.",
+              "level": 1
+            }
           ]
         }
       ]
@@ -62,8 +65,14 @@
           },
           "bullets": [
             "Matthew Bromberg will take on the role later this month",
-            "Bromberg previously served as group general manager of BioWare, before taking global responsibility for EA’s mobile business during a four-year spell with the    company that ended in July 2016.",
-            "He left to serve as chief operating officer of leading mobile game developer and publisher Zynga, where he worked until 2022."
+            {
+              "text": "Bromberg previously served as group general manager of BioWare, before taking global responsibility for EA’s mobile business during a four-year spell with the    company that ended in July 2016.",
+              "level": 1
+            },
+            {
+              "text": "He left to serve as chief operating officer of leading mobile game developer and publisher Zynga, where he worked until 2022.",
+              "level": 1
+            }
           ]
         },
         {

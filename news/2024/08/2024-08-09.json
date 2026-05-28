@@ -161,10 +161,22 @@
           },
           "bullets": [
             "For the three months ended June 30, 2024:",
-            "Net sales UP: 24.8% year-over-year to ¥280 billion ($1.9 billion",
-            "Profit UP: 56.3% to ¥34 billion ($233 million).",
-            "Digital entertainment sales UP: 55.8% to ¥106 billion ($725 million).",
-            "Amusement segment UP: 17% to ¥33 million ($225,760)."
+            {
+              "text": "Net sales UP: 24.8% year-over-year to ¥280 billion ($1.9 billion",
+              "level": 1
+            },
+            {
+              "text": "Profit UP: 56.3% to ¥34 billion ($233 million).",
+              "level": 1
+            },
+            {
+              "text": "Digital entertainment sales UP: 55.8% to ¥106 billion ($725 million).",
+              "level": 1
+            },
+            {
+              "text": "Amusement segment UP: 17% to ¥33 million ($225,760).",
+              "level": 1
+            }
           ]
         },
         {

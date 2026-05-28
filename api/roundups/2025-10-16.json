@@ -81,15 +81,39 @@
           },
           "bullets": [
             "Premium / Extra",
-            "Silent Hill 2 (PS5)",
-            "Until Dawn (PS5)",
-            "V Rising (PS5)",
-            "Yakuza: Like a Dragon (PS4/5)",
-            "Poppy Playtime: Chapter 1 (PS4/5)",
-            "As Dusk Falls (PS4/5)",
-            "Wizard with a Gun (PS5)",
+            {
+              "text": "Silent Hill 2 (PS5)",
+              "level": 1
+            },
+            {
+              "text": "Until Dawn (PS5)",
+              "level": 1
+            },
+            {
+              "text": "V Rising (PS5)",
+              "level": 1
+            },
+            {
+              "text": "Yakuza: Like a Dragon (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Poppy Playtime: Chapter 1 (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "As Dusk Falls (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Wizard with a Gun (PS5)",
+              "level": 1
+            },
             "Classics",
-            "Tekken 3 (PS1)"
+            {
+              "text": "Tekken 3 (PS1)",
+              "level": 1
+            }
           ]
         }
       ]

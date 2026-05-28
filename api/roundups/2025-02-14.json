@@ -33,11 +33,26 @@
           },
           "bullets": [
             "The five levels will appear on a weekly basis as follows:",
-            "Feb 13: Tick-Tock Shock",
-            "Feb 20: Thrust or Bust",
-            "Feb 27: Cock-A-Doodle-Doom",
-            "Mar 6: Hard to Bear",
-            "Mar 13: Armored Hardcore"
+            {
+              "text": "Feb 13: Tick-Tock Shock",
+              "level": 1
+            },
+            {
+              "text": "Feb 20: Thrust or Bust",
+              "level": 1
+            },
+            {
+              "text": "Feb 27: Cock-A-Doodle-Doom",
+              "level": 1
+            },
+            {
+              "text": "Mar 6: Hard to Bear",
+              "level": 1
+            },
+            {
+              "text": "Mar 13: Armored Hardcore",
+              "level": 1
+            }
           ]
         },
         {
@@ -102,13 +117,31 @@
           },
           "bullets": [
             "For the nine months ending December 31, 2024",
-            "Revenue: €990 million (down 31.4% year-on-year)",
-            "Net bookings: €944 million (down 34.8%)",
-            "Digital net bookings: €784 million (down 33.8%)",
-            "Back-catalogue net bookings: €762.3 million (down 27.7%)",
+            {
+              "text": "Revenue: €990 million (down 31.4% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: €944 million (down 34.8%)",
+              "level": 1
+            },
+            {
+              "text": "Digital net bookings: €784 million (down 33.8%)",
+              "level": 1
+            },
+            {
+              "text": "Back-catalogue net bookings: €762.3 million (down 27.7%)",
+              "level": 1
+            },
             "For the three months ending December 31, 2024",
-            "Net bookings: €301.8 million",
-            "Digital net bookings: €257.4 million"
+            {
+              "text": "Net bookings: €301.8 million",
+              "level": 1
+            },
+            {
+              "text": "Digital net bookings: €257.4 million",
+              "level": 1
+            }
           ]
         },
         {

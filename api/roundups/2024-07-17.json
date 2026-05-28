@@ -50,7 +50,10 @@
           },
           "bullets": [
             "Behaviour Interactive has confirmed cross-progression is coming to Dead by Daylight on 22nd July, enabling players to share their progress, inventory (excluding platform-exclusive items), paid currency, and DLC between owned versions of the game on PlayStation, Xbox, Steam, the Epic Games Store, and Windows Store using a Behaviour Account.",
-            "Progression and inventory can still be shared between platforms via Switch but paid currency and DLC bought on Nintendo's console can't be shared elsewhere. However, paid currency and DLC bought on a different platform can be used on Switch",
+            {
+              "text": "Progression and inventory can still be shared between platforms via Switch but paid currency and DLC bought on Nintendo's console can't be shared elsewhere. However, paid currency and DLC bought on a different platform can be used on Switch",
+              "level": 1
+            },
             "Lara Croft available now",
             "2v8 game mode releases on 25th July, enabling eight survivors to face off against two killers across five classic maps"
           ]
@@ -94,20 +97,59 @@
           },
           "bullets": [
             "Extra and Premium",
-            "Remnant II – Standard Edition | PS5",
-            "Crisis Core: Final Fantasy VII Reunion | PS4, PS5",
-            "Mount & Blade II: Bannerlord | PS4, PS5",
-            "The Jackbox Party Pack 9 | PS4, PS5",
-            "Pathfinder: Wrath of the Righteous | PS4, PS5",
-            "No More Heroes 3 | PS4, PS5",
-            "Travis Strikes Again: No More Heroes Complete Edition | PS4",
-            "Deadcraft | PS4",
-            "Steep | PS4",
+            {
+              "text": "Remnant II – Standard Edition | PS5",
+              "level": 1
+            },
+            {
+              "text": "Crisis Core: Final Fantasy VII Reunion | PS4, PS5",
+              "level": 1
+            },
+            {
+              "text": "Mount & Blade II: Bannerlord | PS4, PS5",
+              "level": 1
+            },
+            {
+              "text": "The Jackbox Party Pack 9 | PS4, PS5",
+              "level": 1
+            },
+            {
+              "text": "Pathfinder: Wrath of the Righteous | PS4, PS5",
+              "level": 1
+            },
+            {
+              "text": "No More Heroes 3 | PS4, PS5",
+              "level": 1
+            },
+            {
+              "text": "Travis Strikes Again: No More Heroes Complete Edition | PS4",
+              "level": 1
+            },
+            {
+              "text": "Deadcraft | PS4",
+              "level": 1
+            },
+            {
+              "text": "Steep | PS4",
+              "level": 1
+            },
             "Premium",
-            "Job Simulator | PS VR2",
-            "Summoner | PS4, PS5",
-            "Ratchet and Clank Size Matters | PS4, PS5",
-            "Jeanne d’Arc | PS4, PS5"
+            {
+              "text": "Job Simulator | PS VR2",
+              "level": 1
+            },
+            {
+              "text": "Summoner | PS4, PS5",
+              "level": 1
+            },
+            {
+              "text": "Ratchet and Clank Size Matters | PS4, PS5",
+              "level": 1
+            },
+            {
+              "text": "Jeanne d’Arc | PS4, PS5",
+              "level": 1
+            }
           ]
         },
         {
@@ -125,15 +167,39 @@
           },
           "bullets": [
             "Arriving:",
-            "Magical Delicacy (Cloud, Console, and PC) – July 16",
-            "Flock (Cloud, Console, and PC) – July 16",
-            "Flintlock: The Siege of Dawn (Cloud, PC, and Xbox Series S|X) – July 18",
-            "Dungeons of Hinterberg (Cloud, PC, and Xbox Series S|X) – July 18",
-            "Kunitsu-Gami: Path of the Goddess (Cloud, Console, and PC) – July 19",
+            {
+              "text": "Magical Delicacy (Cloud, Console, and PC) – July 16",
+              "level": 1
+            },
+            {
+              "text": "Flock (Cloud, Console, and PC) – July 16",
+              "level": 1
+            },
+            {
+              "text": "Flintlock: The Siege of Dawn (Cloud, PC, and Xbox Series S|X) – July 18",
+              "level": 1
+            },
+            {
+              "text": "Dungeons of Hinterberg (Cloud, PC, and Xbox Series S|X) – July 18",
+              "level": 1
+            },
+            {
+              "text": "Kunitsu-Gami: Path of the Goddess (Cloud, Console, and PC) – July 19",
+              "level": 1
+            },
             "Leaving",
-            "A Short Hike (Cloud, Console, and PC) - July 31",
-            "Train Sim World 4 (Cloud, Console, and PC) - July 31",
-            "Venba (Cloud, Console, and PC) - July 31"
+            {
+              "text": "A Short Hike (Cloud, Console, and PC) - July 31",
+              "level": 1
+            },
+            {
+              "text": "Train Sim World 4 (Cloud, Console, and PC) - July 31",
+              "level": 1
+            },
+            {
+              "text": "Venba (Cloud, Console, and PC) - July 31",
+              "level": 1
+            }
           ]
         }
       ]

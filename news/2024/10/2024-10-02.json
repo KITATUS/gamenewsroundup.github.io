@@ -125,17 +125,47 @@
           },
           "bullets": [
             "Arriving:",
-            "MLB The Show 24 (Console) – October 2, Game Pass Standard",
-            "Open Roads (Console) – October 2, Game Pass Standard",
-            "Sifu (Cloud, Console, and PC) – October 2, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
-            "Mad Streets (Cloud, Console, and PC) – October 7, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
-            "Inscryption (Cloud, Console, and PC) – October 10, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
+            {
+              "text": "MLB The Show 24 (Console) – October 2, Game Pass Standard",
+              "level": 1
+            },
+            {
+              "text": "Open Roads (Console) – October 2, Game Pass Standard",
+              "level": 1
+            },
+            {
+              "text": "Sifu (Cloud, Console, and PC) – October 2, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
+              "level": 1
+            },
+            {
+              "text": "Mad Streets (Cloud, Console, and PC) – October 7, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
+              "level": 1
+            },
+            {
+              "text": "Inscryption (Cloud, Console, and PC) – October 10, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
+              "level": 1
+            },
             "Leaving (October 15th):",
-            "Dyson Sphere Program (PC)",
-            "Everspace 2 (Cloud, Console, and PC)",
-            "From Space (Cloud, Console, and PC)",
-            "F1 Manager 2023 (Cloud, Console, and PC)",
-            "Scorn (Cloud, Console, and PC)"
+            {
+              "text": "Dyson Sphere Program (PC)",
+              "level": 1
+            },
+            {
+              "text": "Everspace 2 (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "From Space (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "F1 Manager 2023 (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Scorn (Cloud, Console, and PC)",
+              "level": 1
+            }
           ]
         }
       ]

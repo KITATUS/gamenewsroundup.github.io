@@ -103,7 +103,10 @@
           },
           "bullets": [
             "Third-party release Cult of the Lamb is the publisher’s most successful IP, with total lifetime revenue of more than $90 million.",
-            "This is followed by numerous first-party IP, including Astroneer ($80 million), Stronghold ($50 million across 9 games) and Serious Sam ($45 million across 11 games).",
+            {
+              "text": "This is followed by numerous first-party IP, including Astroneer ($80 million), Stronghold ($50 million across 9 games) and Serious Sam ($45 million across 11 games).",
+              "level": 1
+            },
             "According to the slides, “gamers are spending more time on known IPs as opposed to new IPs”, and Devolver plans to respond to this by “leaning further into our own popular IPs in a variety of ways”."
           ]
         },

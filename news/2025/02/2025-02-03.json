@@ -129,12 +129,27 @@
             "importance": "normal"
           },
           "bullets": [
-            "Revenue: ¥310.8 billion ($2 billion, up 22.8% year-on-year)",
-            "Business profit: ¥87.1 billion ($560 million, up 38.7% year-on-year)",
-            "Operating profit: ¥86.7 billion ($557 million, up 45.5% year-on-year)",
+            {
+              "text": "Revenue: ¥310.8 billion ($2 billion, up 22.8% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Business profit: ¥87.1 billion ($560 million, up 38.7% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Operating profit: ¥86.7 billion ($557 million, up 45.5% year-on-year)",
+              "level": 1
+            },
             "Digital Entertainment",
-            "Revenue: ¥228.8 billion ($1.4 billion, up 32% year-on-year)",
-            "Business profit: ¥80.8 billion ($519.7 million, up 44.6% year-on-year)"
+            {
+              "text": "Revenue: ¥228.8 billion ($1.4 billion, up 32% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Business profit: ¥80.8 billion ($519.7 million, up 44.6% year-on-year)",
+              "level": 1
+            }
           ]
         },
         {

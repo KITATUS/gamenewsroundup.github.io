@@ -100,13 +100,31 @@
           },
           "bullets": [
             "For the nine months ending December 31, 2025:",
-            "Revenue: €976.2 million (down 1.4% year-on-year)",
-            "Net bookings: €1.1 billion (up 18% year-on-year)",
-            "Digital net bookings: €941.7 million (up 20% year-on-year)",
-            "Back-catalogue net bookings: €1.03 billion (up 36.2% year-on-year)",
+            {
+              "text": "Revenue: €976.2 million (down 1.4% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: €1.1 billion (up 18% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Digital net bookings: €941.7 million (up 20% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Back-catalogue net bookings: €1.03 billion (up 36.2% year-on-year)",
+              "level": 1
+            },
             "For the three months ending December 31, 2025:",
-            "Net bookings: €338 million (up 12% year-on-year)",
-            "Digital net bookings: €297 million (up 10.7% year-on-year)"
+            {
+              "text": "Net bookings: €338 million (up 12% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Digital net bookings: €297 million (up 10.7% year-on-year)",
+              "level": 1
+            }
           ]
         },
         {
@@ -124,9 +142,18 @@
           },
           "bullets": [
             "For the nine months ended December 31, 2025:",
-            "Net sales: ¥335.2 billion ($2.1 billion, up 4% year-on-year)",
-            "Operating income: ¥19.8 billion ($129.2 million, down 54.6% year-on-year)",
-            "Ordinary income: ¥23.8 billion ($155.3 million, down 51.8% year-on-year)"
+            {
+              "text": "Net sales: ¥335.2 billion ($2.1 billion, up 4% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥19.8 billion ($129.2 million, down 54.6% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Ordinary income: ¥23.8 billion ($155.3 million, down 51.8% year-on-year)",
+              "level": 1
+            }
           ]
         }
       ]

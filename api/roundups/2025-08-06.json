@@ -109,18 +109,51 @@
           },
           "bullets": [
             "Arriving:",
-            "Rain World (Cloud, Console, and PC) – available now",
-            "Citizen Sleeper 2: Starward Vector (Xbox Series S/X) – August 6",
-            "Lonely Mountains: Snow Riders (Xbox Series S/X) – August 6",
-            "MechWarrior 5: Clans (Xbox Series S/X) – August 6",
-            "Orcs Must Die! Deathtrap (Xbox Series S/X) – August 6",
-            "Assassin’s Creed Mirage (Cloud, Console and PC) – August 7",
-            "Aliens: Fireteam Elite (Cloud, Console, and PC) – August 12",
-            "9 Kings (PC) – August 14",
+            {
+              "text": "Rain World (Cloud, Console, and PC) – available now",
+              "level": 1
+            },
+            {
+              "text": "Citizen Sleeper 2: Starward Vector (Xbox Series S/X) – August 6",
+              "level": 1
+            },
+            {
+              "text": "Lonely Mountains: Snow Riders (Xbox Series S/X) – August 6",
+              "level": 1
+            },
+            {
+              "text": "MechWarrior 5: Clans (Xbox Series S/X) – August 6",
+              "level": 1
+            },
+            {
+              "text": "Orcs Must Die! Deathtrap (Xbox Series S/X) – August 6",
+              "level": 1
+            },
+            {
+              "text": "Assassin’s Creed Mirage (Cloud, Console and PC) – August 7",
+              "level": 1
+            },
+            {
+              "text": "Aliens: Fireteam Elite (Cloud, Console, and PC) – August 12",
+              "level": 1
+            },
+            {
+              "text": "9 Kings (PC) – August 14",
+              "level": 1
+            },
             "Leaving August 15th:",
-            "Anthem (Console and PC)",
-            "Farming Simulator 2 (Cloud, Console, and PC)",
-            "Persona 3 Reload (Cloud, Console, and PC)"
+            {
+              "text": "Anthem (Console and PC)",
+              "level": 1
+            },
+            {
+              "text": "Farming Simulator 2 (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Persona 3 Reload (Cloud, Console, and PC)",
+              "level": 1
+            }
           ]
         }
       ]

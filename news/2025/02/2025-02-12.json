@@ -144,13 +144,31 @@
           },
           "bullets": [
             "Q4",
-            "Revenue: $988.2 million, up 32% year-on-year",
-            "Bookings: $1.36 billion, up 21% year-on-year",
-            "Net losses: $218.4 million, compared to $325 million in the same quarter last year",
+            {
+              "text": "Revenue: $988.2 million, up 32% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Bookings: $1.36 billion, up 21% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net losses: $218.4 million, compared to $325 million in the same quarter last year",
+              "level": 1
+            },
             "Full-year",
-            "Revenue: $3.6 billion, up 29% year-on-year",
-            "Bookings: $4.36 billion, up 24% year-on-year",
-            "Net losses: $935.5 million, compared to $1.16 billion last year"
+            {
+              "text": "Revenue: $3.6 billion, up 29% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Bookings: $4.36 billion, up 24% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net losses: $935.5 million, compared to $1.16 billion last year",
+              "level": 1
+            }
           ]
         }
       ]

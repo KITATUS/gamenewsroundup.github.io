@@ -69,7 +69,10 @@
           },
           "bullets": [
             "The revised credits now fully credit translators from Europe. Localisation staff have been listed, as well as a Special Thanks including all individual translators, all under Bandai Namco Europe",
-            "However, Latin America and Thai translators are only listed by the name of the agency, unlike those for Chinese and Korean",
+            {
+              "text": "However, Latin America and Thai translators are only listed by the name of the agency, unlike those for Chinese and Korean",
+              "level": 1
+            },
             "The original credits for the game credits Brazilian Portuguese and Latin American Spanish translators individually, but the new credits remove these names and instead includes a generic Special Thanks message."
           ]
         }

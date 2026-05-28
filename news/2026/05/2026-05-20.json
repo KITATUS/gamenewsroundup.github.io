@@ -87,7 +87,10 @@
           },
           "bullets": [
             "Fellowship Entertainment is planned to be established in 2027 and will be an “IP-led” entertainment company built around the development, publishing, and licensing of games, with a single, centralized business plan.",
-            "The new company will take over stewardship of The Lord of the Rings IP, and game franchises such as Tomb Raider, Darksiders, Dead Island, Kingdom Come Deliverance, Metro, and Remnant.",
+            {
+              "text": "The new company will take over stewardship of The Lord of the Rings IP, and game franchises such as Tomb Raider, Darksiders, Dead Island, Kingdom Come Deliverance, Metro, and Remnant.",
+              "level": 1
+            },
             "Embracer says Fellowship will ‘more actively’ explore Deus Ex, TimeSplitters, Legacy of Kain and Saints Row partnerships (developed by external partners)"
           ]
         },

@@ -234,17 +234,47 @@
             "importance": "normal"
           },
           "bullets": [
-            "Marvel’s Spider-Man 2",
-            "Test Drive Unlimited Solar Crown",
-            "Neva",
-            "Season: A Letter to the Future",
-            "Monster Hunter Stories 2: Wings of Ruin",
-            "Monster Hunter Stories",
-            "Venba",
-            "Echoes of the End: Enhanced Edition",
-            "Rugby 25",
+            {
+              "text": "Marvel’s Spider-Man 2",
+              "level": 1
+            },
+            {
+              "text": "Test Drive Unlimited Solar Crown",
+              "level": 1
+            },
+            {
+              "text": "Neva",
+              "level": 1
+            },
+            {
+              "text": "Season: A Letter to the Future",
+              "level": 1
+            },
+            {
+              "text": "Monster Hunter Stories 2: Wings of Ruin",
+              "level": 1
+            },
+            {
+              "text": "Monster Hunter Stories",
+              "level": 1
+            },
+            {
+              "text": "Venba",
+              "level": 1
+            },
+            {
+              "text": "Echoes of the End: Enhanced Edition",
+              "level": 1
+            },
+            {
+              "text": "Rugby 25",
+              "level": 1
+            },
             "PlayStation Plus Premium",
-            "Disney Pixar Wall-E"
+            {
+              "text": "Disney Pixar Wall-E",
+              "level": 1
+            }
           ]
         }
       ]

@@ -193,10 +193,22 @@
           },
           "bullets": [
             "The Numbers:",
-            "Operating Profit: ¥54.5 billion ($366 million), down 70.6% year-on-year",
-            "Net Sales: Video game business dropped 46.4% year-on-year",
-            "Mobile and IP-related Sales: Decreased 53.8% year-on-year",
-            "Switch Consoles: Sold 2.1 million in Q1, with a forecast of 13.5 million for the financial year"
+            {
+              "text": "Operating Profit: ¥54.5 billion ($366 million), down 70.6% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net Sales: Video game business dropped 46.4% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Mobile and IP-related Sales: Decreased 53.8% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Switch Consoles: Sold 2.1 million in Q1, with a forecast of 13.5 million for the financial year",
+              "level": 1
+            }
           ]
         }
       ]

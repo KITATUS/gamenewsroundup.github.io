@@ -162,11 +162,23 @@
           },
           "bullets": [
             "H1 (six months ended September 30, 2025)",
-            "Net sales: ¥2.1 trillion ($13.6 billion, up 5.2% year-on-year)",
-            "Operating income: ¥268.3 billion ($1.7 billion, up 31.3% year-on-year)",
+            {
+              "text": "Net sales: ¥2.1 trillion ($13.6 billion, up 5.2% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥268.3 billion ($1.7 billion, up 31.3% year-on-year)",
+              "level": 1
+            },
             "Q2 (three months ended September 30, 2025)",
-            "Net sales: ¥1.11 trillion ($7.19 billion, up 3.7% year-on-year)",
-            "Operating income: ¥120.4 billion ($780 billion, down 13.2% year-on-year)"
+            {
+              "text": "Net sales: ¥1.11 trillion ($7.19 billion, up 3.7% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Operating income: ¥120.4 billion ($780 billion, down 13.2% year-on-year)",
+              "level": 1
+            }
           ]
         }
       ]

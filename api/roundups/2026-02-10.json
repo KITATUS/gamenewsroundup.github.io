@@ -72,11 +72,23 @@
           },
           "bullets": [
             "Q4 2025",
-            "Revenue: €17 million (up 46.3%)",
-            "Operating profit: €0.7 million (compared to operating loss of €1.4 million in 2024)",
+            {
+              "text": "Revenue: €17 million (up 46.3%)",
+              "level": 1
+            },
+            {
+              "text": "Operating profit: €0.7 million (compared to operating loss of €1.4 million in 2024)",
+              "level": 1
+            },
             "FY 2025",
-            "Revenue: €59.5 million (up 17%)",
-            "Operating loss: €14.9 million (compared to €4.3 million in 2024)"
+            {
+              "text": "Revenue: €59.5 million (up 17%)",
+              "level": 1
+            },
+            {
+              "text": "Operating loss: €14.9 million (compared to €4.3 million in 2024)",
+              "level": 1
+            }
           ]
         },
         {

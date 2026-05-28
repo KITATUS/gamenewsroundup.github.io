@@ -81,15 +81,39 @@
           },
           "bullets": [
             "Extra / Premium",
-            "WWE 2K25 (PS4/5)",
-            "Persona 5 Tactica (PS4/5)",
-            "Green Hell PS4/5)",
-            "Fate/Samurai Remnant (PS4/5)",
-            "Crow Country (PS4/5)",
-            "The Invincible (PS5)",
-            "Conscript (PS5)",
+            {
+              "text": "WWE 2K25 (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Persona 5 Tactica (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Green Hell PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Fate/Samurai Remnant (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "Crow Country (PS4/5)",
+              "level": 1
+            },
+            {
+              "text": "The Invincible (PS5)",
+              "level": 1
+            },
+            {
+              "text": "Conscript (PS5)",
+              "level": 1
+            },
             "Premium",
-            "Legacy of Kain: Defiance (PS2)"
+            {
+              "text": "Legacy of Kain: Defiance (PS2)",
+              "level": 1
+            }
           ]
         }
       ]

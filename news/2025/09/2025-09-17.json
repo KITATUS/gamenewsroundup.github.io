@@ -123,29 +123,92 @@
           },
           "bullets": [
             "New releases",
-            "Roadcraft (Xbox Series X/S, Cloud) – available today on Game Pass Ultimate / Standard",
-            "Call of Duty: Modern Warfare 3 (Console) – September 17, now on Standard",
-            "For the King 2 (Console) – September 17, now on Standard",
-            "Overthrown (Xbox Series X/S) – September 17, now on Standard",
-            "Deep Rock Galactic: Survivor (Xbox Series X/S, PC, Cloud) – September 17, Game Pass Ultimate / PC",
-            "Frostpunk 2 (Xbox Series X/S, Cloud) – September 18, Game Pass Ultimate",
-            "Wobbly Life (Xbox Series X/S, PC, Cloud) – September 18, Game Pass Ultimate / Standard / PC",
-            "Hades (Console, PC, Cloud) – September 19, Game Pass Ultimate / Standard / PC",
-            "Endless Legend 2 (PC) – September 22, Game Pass Ultimate / PC",
-            "Sworn (Xbox Series X/S, PC, Cloud) – September 23, Game Pass Ultimate / PC",
-            "Peppa Pig: World Adventures (Xbox Series X/S, PC, Cloud) – September 25, Game Pass Ultimate / Standard / PC",
-            "Visions of Mana (Xbox Series X/S, PC, Cloud) – September 25, Game Pass Ultimate / Standard / PC",
-            "Lara Croft and the Guardian of Light (Console, PC, Cloud) – September 30, Game Pass Ultimate / Standard / PC",
-            "Sopa: Tale of the Stolen Potato (Console, PC, Cloud) – October 7, Game Pass Ultimate / PC",
+            {
+              "text": "Roadcraft (Xbox Series X/S, Cloud) – available today on Game Pass Ultimate / Standard",
+              "level": 1
+            },
+            {
+              "text": "Call of Duty: Modern Warfare 3 (Console) – September 17, now on Standard",
+              "level": 1
+            },
+            {
+              "text": "For the King 2 (Console) – September 17, now on Standard",
+              "level": 1
+            },
+            {
+              "text": "Overthrown (Xbox Series X/S) – September 17, now on Standard",
+              "level": 1
+            },
+            {
+              "text": "Deep Rock Galactic: Survivor (Xbox Series X/S, PC, Cloud) – September 17, Game Pass Ultimate / PC",
+              "level": 1
+            },
+            {
+              "text": "Frostpunk 2 (Xbox Series X/S, Cloud) – September 18, Game Pass Ultimate",
+              "level": 1
+            },
+            {
+              "text": "Wobbly Life (Xbox Series X/S, PC, Cloud) – September 18, Game Pass Ultimate / Standard / PC",
+              "level": 1
+            },
+            {
+              "text": "Hades (Console, PC, Cloud) – September 19, Game Pass Ultimate / Standard / PC",
+              "level": 1
+            },
+            {
+              "text": "Endless Legend 2 (PC) – September 22, Game Pass Ultimate / PC",
+              "level": 1
+            },
+            {
+              "text": "Sworn (Xbox Series X/S, PC, Cloud) – September 23, Game Pass Ultimate / PC",
+              "level": 1
+            },
+            {
+              "text": "Peppa Pig: World Adventures (Xbox Series X/S, PC, Cloud) – September 25, Game Pass Ultimate / Standard / PC",
+              "level": 1
+            },
+            {
+              "text": "Visions of Mana (Xbox Series X/S, PC, Cloud) – September 25, Game Pass Ultimate / Standard / PC",
+              "level": 1
+            },
+            {
+              "text": "Lara Croft and the Guardian of Light (Console, PC, Cloud) – September 30, Game Pass Ultimate / Standard / PC",
+              "level": 1
+            },
+            {
+              "text": "Sopa: Tale of the Stolen Potato (Console, PC, Cloud) – October 7, Game Pass Ultimate / PC",
+              "level": 1
+            },
             "Coming to Game Pass Core",
-            "Cities: Skyline: Remastered – October 1",
-            "Disney Dreamlight Valley – October 1",
-            "Warhammer 40,000: Darktide – October 1",
+            {
+              "text": "Cities: Skyline: Remastered – October 1",
+              "level": 1
+            },
+            {
+              "text": "Disney Dreamlight Valley – October 1",
+              "level": 1
+            },
+            {
+              "text": "Warhammer 40,000: Darktide – October 1",
+              "level": 1
+            },
             "Leaving on September 30",
-            "Ninja Gaiden Sigma (Console, PC, Cloud)",
-            "Ninja Gaiden Sigma 2 (Console, PC, Cloud)",
-            "Ninja Gaiden 3: Razor’s Edge (Console, PC, Cloud)",
-            "Terra Invicta (PC)"
+            {
+              "text": "Ninja Gaiden Sigma (Console, PC, Cloud)",
+              "level": 1
+            },
+            {
+              "text": "Ninja Gaiden Sigma 2 (Console, PC, Cloud)",
+              "level": 1
+            },
+            {
+              "text": "Ninja Gaiden 3: Razor’s Edge (Console, PC, Cloud)",
+              "level": 1
+            },
+            {
+              "text": "Terra Invicta (PC)",
+              "level": 1
+            }
           ]
         }
       ]

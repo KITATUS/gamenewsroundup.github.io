@@ -118,14 +118,35 @@
           },
           "bullets": [
             "For the full year ended March 31, 2025",
-            "Net sales: ¥1.2 trillion ($8.3 billion, down 30.3%)",
-            "Operating profit: ¥282.5 billion ($1.9 billion, down 46.6%)",
-            "Ordinary profit: ¥372.3 billion ($2.5 billion, down 45.3%)",
-            "Gross profit: ¥710.1 billion ($4.9 billion, down 25.5%)",
+            {
+              "text": "Net sales: ¥1.2 trillion ($8.3 billion, down 30.3%)",
+              "level": 1
+            },
+            {
+              "text": "Operating profit: ¥282.5 billion ($1.9 billion, down 46.6%)",
+              "level": 1
+            },
+            {
+              "text": "Ordinary profit: ¥372.3 billion ($2.5 billion, down 45.3%)",
+              "level": 1
+            },
+            {
+              "text": "Gross profit: ¥710.1 billion ($4.9 billion, down 25.5%)",
+              "level": 1
+            },
             "Forecast for the full year",
-            "Net sales: ¥1.9 trillion ($13.1 billion, up 63.1%)",
-            "Operating profit: ¥320 billion ($2.2 billion, up 13.3%)",
-            "Ordinary profit: ¥380 billion ($2.6 billion, up 2.1%)"
+            {
+              "text": "Net sales: ¥1.9 trillion ($13.1 billion, up 63.1%)",
+              "level": 1
+            },
+            {
+              "text": "Operating profit: ¥320 billion ($2.2 billion, up 13.3%)",
+              "level": 1
+            },
+            {
+              "text": "Ordinary profit: ¥380 billion ($2.6 billion, up 2.1%)",
+              "level": 1
+            }
           ]
         }
       ]

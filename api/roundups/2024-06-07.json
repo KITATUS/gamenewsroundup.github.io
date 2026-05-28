@@ -93,18 +93,51 @@
           },
           "bullets": [
             "Arriving:",
-            "Octopath Traveler (Cloud, Console, and PC) - Available now",
-            "Octopath Traveler 2 (Cloud, PC, and Xbox Series X/S) - Available now",
-            "Depersonalization (PC) – 12th June",
-            "Isonzo (Cloud, Console, and PC) – 13th June",
-            "The Callisto Protocol (Cloud, Console, and PC) - 13th June",
-            "Still Wakes the Deep (Cloud, PC, and Xbox Series X|S) – 18th June",
+            {
+              "text": "Octopath Traveler (Cloud, Console, and PC) - Available now",
+              "level": 1
+            },
+            {
+              "text": "Octopath Traveler 2 (Cloud, PC, and Xbox Series X/S) - Available now",
+              "level": 1
+            },
+            {
+              "text": "Depersonalization (PC) – 12th June",
+              "level": 1
+            },
+            {
+              "text": "Isonzo (Cloud, Console, and PC) – 13th June",
+              "level": 1
+            },
+            {
+              "text": "The Callisto Protocol (Cloud, Console, and PC) - 13th June",
+              "level": 1
+            },
+            {
+              "text": "Still Wakes the Deep (Cloud, PC, and Xbox Series X|S) – 18th June",
+              "level": 1
+            },
             "Leaving:",
-            "Bramble: The Mountain King (Cloud, Console, and PC)",
-            "High on Life (Cloud, Console, and PC)",
-            "Rune Factory 4 Special (Cloud, Console, and PC)",
-            "Spacelines from the Far Out (Cloud, Console, and PC)",
-            "The Bookwalker (Cloud, Console, and PC)"
+            {
+              "text": "Bramble: The Mountain King (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "High on Life (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Rune Factory 4 Special (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Spacelines from the Far Out (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "The Bookwalker (Cloud, Console, and PC)",
+              "level": 1
+            }
           ]
         },
         {
@@ -166,7 +199,10 @@
           },
           "bullets": [
             "On the low end, developers will pay $250,000 for a one-minute trailer.",
-            "The price goes up depending on length, from $350,000 for 90 seconds to a high of $550,000 for two and a half minutes.",
+            {
+              "text": "The price goes up depending on length, from $350,000 for 90 seconds to a high of $550,000 for two and a half minutes.",
+              "level": 1
+            },
             "Major publishers get \"earned editorial placements\" for free"
           ]
         }

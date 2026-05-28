@@ -103,8 +103,14 @@
           },
           "bullets": [
             "For the 12 months ended March 31, 2025:",
-            "Net sales: ¥169.6 billion ($1.15 billion, up 11.3% year-over-year)",
-            "Net income: ¥48.45 billion ($328 million, up 11.7% year-over-year)",
+            {
+              "text": "Net sales: ¥169.6 billion ($1.15 billion, up 11.3% year-over-year)",
+              "level": 1
+            },
+            {
+              "text": "Net income: ¥48.45 billion ($328 million, up 11.7% year-over-year)",
+              "level": 1
+            },
             "Eighth consecutive year of record results, 12th consecutive year of operating profit growth"
           ]
         }

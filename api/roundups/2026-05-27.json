@@ -87,13 +87,31 @@
           },
           "bullets": [
             "For the three months ending March 31, 2026:",
-            "Net revenue: $1.7 billion, up 6% year-on-year",
-            "Net bookings: $1.58 billion, flat year-on-year",
-            "Net loss: $59.6 million, down 98% year-on-year",
+            {
+              "text": "Net revenue: $1.7 billion, up 6% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: $1.58 billion, flat year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net loss: $59.6 million, down 98% year-on-year",
+              "level": 1
+            },
             "For the financial year ending March 31, 2026:",
-            "Net revenue: $6.2 billion, up 19% year-on-year",
-            "Net bookings: $6.72 billion, up 19% year-on-year",
-            "Net loss: $298.2 million, down 93% year-on-year"
+            {
+              "text": "Net revenue: $6.2 billion, up 19% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: $6.72 billion, up 19% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net loss: $298.2 million, down 93% year-on-year",
+              "level": 1
+            }
           ]
         }
       ]

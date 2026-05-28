@@ -72,11 +72,23 @@
           },
           "bullets": [
             "For the three months ending December 31, 2025",
-            "Revenue: SEK 874.8 million ($98.7 million), up 23% year-on-year",
-            "Operating profit: -SEK245.4 million (-$27.7 million), down 162% year-on-year",
+            {
+              "text": "Revenue: SEK 874.8 million ($98.7 million), up 23% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Operating profit: -SEK245.4 million (-$27.7 million), down 162% year-on-year",
+              "level": 1
+            },
             "For the 12 months ending December 31, 2025",
-            "Sales: SEK 2.2 billion ($248.3 million), level year-on-year",
-            "Operating profit: SEK 146 million ($16.5 million), an 80% decrease year-on-year"
+            {
+              "text": "Sales: SEK 2.2 billion ($248.3 million), level year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Operating profit: SEK 146 million ($16.5 million), an 80% decrease year-on-year",
+              "level": 1
+            }
           ]
         },
         {

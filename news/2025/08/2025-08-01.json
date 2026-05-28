@@ -142,9 +142,18 @@
           },
           "bullets": [
             "For the three months ended June 30, 2025:",
-            "Revenue: $76.4 billion (up 18% year-on-year)",
-            "Net income: $27.2 billion (up 24% year-on-year)",
-            "More Personal Computing (incl. Xbox) revenue: $13.5 billion (up 9% year-on-year)"
+            {
+              "text": "Revenue: $76.4 billion (up 18% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net income: $27.2 billion (up 24% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "More Personal Computing (incl. Xbox) revenue: $13.5 billion (up 9% year-on-year)",
+              "level": 1
+            }
           ]
         },
         {
@@ -162,10 +171,22 @@
           },
           "bullets": [
             "For the three months ended June 30, 2025:",
-            "Net sales: ¥45.5 billion ($303 million), up 53.7% year-on-year",
-            "Operating profit: ¥24.6 billion ($164 million), up 90.8% year-on-year",
-            "Ordinary profit: ¥22.9 billion ($153 million), up 69.7% year-on-year",
-            "Net income: ¥17.2 billion ($115 million), up 72.8% year-on-year"
+            {
+              "text": "Net sales: ¥45.5 billion ($303 million), up 53.7% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Operating profit: ¥24.6 billion ($164 million), up 90.8% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Ordinary profit: ¥22.9 billion ($153 million), up 69.7% year-on-year",
+              "level": 1
+            },
+            {
+              "text": "Net income: ¥17.2 billion ($115 million), up 72.8% year-on-year",
+              "level": 1
+            }
           ]
         },
         {
@@ -183,14 +204,35 @@
           },
           "bullets": [
             "Three months ended June 2025 (Q1 2025):",
-            "Revenue: $1.08 billion (up 21% year-on-year)",
-            "Bookings: $1.44 billion (up 51% year-on-year)",
-            "Net losses: $278.4 million",
+            {
+              "text": "Revenue: $1.08 billion (up 21% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Bookings: $1.44 billion (up 51% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net losses: $278.4 million",
+              "level": 1
+            },
             "Highlights:",
-            "Average Daily Active Users (“DAUs”) were 111.8 million, up 41% year-over-year.",
-            "Hours engaged were 27.4 billion, up 58% year-over-year",
-            "Average monthly unique payers were 23.4 million, up 42% year-over-year, and average bookings per monthly unique payer was $20.48",
-            "Average bookings per DAU (“ABPDAU”) was $12.86, up 7% year-over-year"
+            {
+              "text": "Average Daily Active Users (“DAUs”) were 111.8 million, up 41% year-over-year.",
+              "level": 1
+            },
+            {
+              "text": "Hours engaged were 27.4 billion, up 58% year-over-year",
+              "level": 1
+            },
+            {
+              "text": "Average monthly unique payers were 23.4 million, up 42% year-over-year, and average bookings per monthly unique payer was $20.48",
+              "level": 1
+            },
+            {
+              "text": "Average bookings per DAU (“ABPDAU”) was $12.86, up 7% year-over-year",
+              "level": 1
+            }
           ]
         }
       ]

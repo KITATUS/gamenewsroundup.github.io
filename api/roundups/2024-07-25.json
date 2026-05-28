@@ -126,7 +126,10 @@
           },
           "bullets": [
             "Women currently only make up 21.2% of employees at the firm",
-            "13.6% of its core talent are female"
+            {
+              "text": "13.6% of its core talent are female",
+              "level": 1
+            }
           ]
         },
         {

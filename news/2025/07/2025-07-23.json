@@ -142,10 +142,22 @@
           },
           "bullets": [
             "For the first quarter of 2025-26 financial year ending June 30, 2025",
-            "Revenue: €310.8 million ($365m, down 3.9% year-on-year)",
-            "Net bookings: €281.6 million ($331m, down 2.9%)",
-            "Digital net bookings: €250.2 million ($294m, down 2.7%)",
-            "Back-catalogue net bookings: €260.4 million ($306m, up 4.4%)"
+            {
+              "text": "Revenue: €310.8 million ($365m, down 3.9% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Net bookings: €281.6 million ($331m, down 2.9%)",
+              "level": 1
+            },
+            {
+              "text": "Digital net bookings: €250.2 million ($294m, down 2.7%)",
+              "level": 1
+            },
+            {
+              "text": "Back-catalogue net bookings: €260.4 million ($306m, up 4.4%)",
+              "level": 1
+            }
           ]
         },
         {

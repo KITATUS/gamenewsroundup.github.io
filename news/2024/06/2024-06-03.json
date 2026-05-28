@@ -114,18 +114,45 @@
           },
           "bullets": [
             "Friday",
-            "SummerGameFest Live Show",
-            "Day of Devs",
-            "Devolver Direct",
+            {
+              "text": "SummerGameFest Live Show",
+              "level": 1
+            },
+            {
+              "text": "Day of Devs",
+              "level": 1
+            },
+            {
+              "text": "Devolver Direct",
+              "level": 1
+            },
             "Saturday:",
-            "Future of Play",
-            "Wholesome Direct",
-            "Latin American Games",
-            "Women Led Games",
+            {
+              "text": "Future of Play",
+              "level": 1
+            },
+            {
+              "text": "Wholesome Direct",
+              "level": 1
+            },
+            {
+              "text": "Latin American Games",
+              "level": 1
+            },
+            {
+              "text": "Women Led Games",
+              "level": 1
+            },
             "Sunday:",
-            "Xbox Games Showcase",
+            {
+              "text": "Xbox Games Showcase",
+              "level": 1
+            },
             "Monday:",
-            "Ubisoft Forward"
+            {
+              "text": "Ubisoft Forward",
+              "level": 1
+            }
           ]
         }
       ]

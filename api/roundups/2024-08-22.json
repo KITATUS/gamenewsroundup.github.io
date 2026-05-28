@@ -50,9 +50,18 @@
           },
           "bullets": [
             "The new batch of Xbox consoles will be released on 15th October in select countries then releasing in another batch of countries following on 29th October",
-            "Xbox Series S 1TB in Robot White - £299.99",
-            "Xbox Series X 1TB Digital Edition - £429.99",
-            "Xbox Series X 2TB Galaxy Black Special Edition - £549.99"
+            {
+              "text": "Xbox Series S 1TB in Robot White - £299.99",
+              "level": 1
+            },
+            {
+              "text": "Xbox Series X 1TB Digital Edition - £429.99",
+              "level": 1
+            },
+            {
+              "text": "Xbox Series X 2TB Galaxy Black Special Edition - £549.99",
+              "level": 1
+            }
           ]
         },
         {

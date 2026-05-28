@@ -186,21 +186,66 @@
           },
           "bullets": [
             "The anthology series (titled Secret Level, made from the team behind Love, Death & Robots) will include episodes based on:",
-            "Armored Core",
-            "Concord",
-            "Crossfire",
-            "Dungeons & Dragons",
-            "Exodus",
-            "Honor of Kings",
-            "Mega Man",
-            "New World: Aeternum",
-            "PAC-MAN",
-            "Various PlayStation Studios games (such as Ghosts of Tsushima and God of War - possibly some sort of collab episode)",
-            "Sifu",
-            "Spelunky",
-            "The Outer Worlds",
-            "Unreal Tournament",
-            "Warhammer 40,000",
+            {
+              "text": "Armored Core",
+              "level": 1
+            },
+            {
+              "text": "Concord",
+              "level": 1
+            },
+            {
+              "text": "Crossfire",
+              "level": 1
+            },
+            {
+              "text": "Dungeons & Dragons",
+              "level": 1
+            },
+            {
+              "text": "Exodus",
+              "level": 1
+            },
+            {
+              "text": "Honor of Kings",
+              "level": 1
+            },
+            {
+              "text": "Mega Man",
+              "level": 1
+            },
+            {
+              "text": "New World: Aeternum",
+              "level": 1
+            },
+            {
+              "text": "PAC-MAN",
+              "level": 1
+            },
+            {
+              "text": "Various PlayStation Studios games (such as Ghosts of Tsushima and God of War - possibly some sort of collab episode)",
+              "level": 1
+            },
+            {
+              "text": "Sifu",
+              "level": 1
+            },
+            {
+              "text": "Spelunky",
+              "level": 1
+            },
+            {
+              "text": "The Outer Worlds",
+              "level": 1
+            },
+            {
+              "text": "Unreal Tournament",
+              "level": 1
+            },
+            {
+              "text": "Warhammer 40,000",
+              "level": 1
+            },
             "Secret Level will arrive on Prime Video on December 10"
           ]
         },
@@ -326,13 +371,31 @@
           },
           "bullets": [
             "Arriving:",
-            "Atlas Fallen (Cloud, PC and Xbox Series S/X) - August 22",
-            "Core Keeper (Cloud, PC and Xbox Series S/X) - August 27",
-            "Star Trucker (Cloud, Console and PC) - September 3",
+            {
+              "text": "Atlas Fallen (Cloud, PC and Xbox Series S/X) - August 22",
+              "level": 1
+            },
+            {
+              "text": "Core Keeper (Cloud, PC and Xbox Series S/X) - August 27",
+              "level": 1
+            },
+            {
+              "text": "Star Trucker (Cloud, Console and PC) - September 3",
+              "level": 1
+            },
             "Leaving (August 31st):",
-            "Atomic Heart (Cloud, Console, and PC)",
-            "Guilty Gear Strive (Cloud, Console, and PC)",
-            "NBA 2K24 (Cloud and Console)"
+            {
+              "text": "Atomic Heart (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "Guilty Gear Strive (Cloud, Console, and PC)",
+              "level": 1
+            },
+            {
+              "text": "NBA 2K24 (Cloud and Console)",
+              "level": 1
+            }
           ]
         }
       ]

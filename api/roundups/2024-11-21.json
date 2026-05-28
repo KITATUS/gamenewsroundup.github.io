@@ -95,8 +95,14 @@
           "bullets": [
             "Studio says affected employees \"aren't assigned to roles that our active projects require\"",
             "Reflector Entertainment is the developer behind Unknown 9: Awakening, the first in a series of action adventure games with a transmedia universe built around it. Other Unknown 9 outlets include a podcast audio drama, novels and a comic book series.",
-            "The studio landed Bandai Namco as publisher, with the Japanese company acquiring Reflector back in 2020 ahead of Unknown 9's release.",
-            "Unknown 9: Awakening was originally due for release this summer, but was delayed to October 18, 2024. It released to mixed reviews, and it unclear how well it has sold."
+            {
+              "text": "The studio landed Bandai Namco as publisher, with the Japanese company acquiring Reflector back in 2020 ahead of Unknown 9's release.",
+              "level": 2
+            },
+            {
+              "text": "Unknown 9: Awakening was originally due for release this summer, but was delayed to October 18, 2024. It released to mixed reviews, and it unclear how well it has sold.",
+              "level": 2
+            }
           ]
         },
         {

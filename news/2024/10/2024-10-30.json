@@ -75,9 +75,18 @@
           },
           "bullets": [
             "For the six months ended September 30, 2024, Capcom reported:",
-            "Net sales: ¥56.4 billion ($368 million), down 25% year-on-year",
-            "Operating income: ¥20.7 billion ($135 million), down 39% year-on-year",
-            "Net income: ¥15.2 billion ($99 million), down 40% year-on-year"
+            {
+              "text": "Net sales: ¥56.4 billion ($368 million), down 25% year-on-year",
+              "level": 2
+            },
+            {
+              "text": "Operating income: ¥20.7 billion ($135 million), down 39% year-on-year",
+              "level": 2
+            },
+            {
+              "text": "Net income: ¥15.2 billion ($99 million), down 40% year-on-year",
+              "level": 2
+            }
           ]
         },
         {

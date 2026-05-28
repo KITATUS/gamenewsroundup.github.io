@@ -101,15 +101,39 @@
           },
           "bullets": [
             "Q4 (3 months ended March 31, 2025)",
-            "Net sales: SEK 5.4 billion ($560.5 million, down 6% year-on-year)",
-            "PC/Console games: SEK 3 billion ($311.4 million, down 2% year-on-year)",
-            "Mobile: SEK 943 million ($97.9 million, down 31% year-on-year)",
-            "Entertainment & services: SEK 1.3 billion ($134.9 million, up 9% year-on-year)",
+            {
+              "text": "Net sales: SEK 5.4 billion ($560.5 million, down 6% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "PC/Console games: SEK 3 billion ($311.4 million, down 2% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Mobile: SEK 943 million ($97.9 million, down 31% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Entertainment & services: SEK 1.3 billion ($134.9 million, up 9% year-on-year)",
+              "level": 1
+            },
             "Full-year (12 months ended March 31, 2025)",
-            "Net sales: SEK 22.3 billion ($2.32 billion, down 18% year-on-year)",
-            "PC/Console games: SEK 1.5 billion ($155.7 million, down 27% year-on-year)",
-            "Mobile: SEK 5.3 billion ($550 million, down 9% year-on-year)",
-            "Entertainment & services: SEK 6.5 billion ($674.6 million, down 7% year-on-year)"
+            {
+              "text": "Net sales: SEK 22.3 billion ($2.32 billion, down 18% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "PC/Console games: SEK 1.5 billion ($155.7 million, down 27% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Mobile: SEK 5.3 billion ($550 million, down 9% year-on-year)",
+              "level": 1
+            },
+            {
+              "text": "Entertainment & services: SEK 6.5 billion ($674.6 million, down 7% year-on-year)",
+              "level": 1
+            }
           ]
         },
         {
