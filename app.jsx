@@ -12,13 +12,13 @@ const { TweaksPanel, useTweaks, TweakSection, TweakColor, TweakRadio, TweakToggl
 const { HomePage, DailyPage, ArchivePage, FeedsPage, AboutPage } = window;
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "accent": "#d4a417",
+  "accent": "#dd192a",
   "density": "comfortable",
   "showTags": false
 }/*EDITMODE-END*/;
 
 const accentMap = {
-  "#d4a417": "amber",
+  "#dd192a": "red",
   "#4a9eff": "blue",
   "#4aaa5e": "green",
 };
@@ -198,7 +198,7 @@ const App = () => {
   }, [activeDate, ready]);
 
   useEffect(() => {
-    document.body.dataset.accent  = accentMap[tweaks.accent] || 'amber';
+    document.body.dataset.accent  = accentMap[tweaks.accent] || 'red';
     document.body.dataset.density = tweaks.density || 'comfortable';
     document.body.dataset.showtags = String(tweaks.showTags !== false);
   }, [tweaks]);
@@ -226,7 +226,7 @@ const App = () => {
           <TweakColor
             label="Colour"
             value={tweaks.accent}
-            options={['#d4a417', '#4a9eff', '#4aaa5e']}
+            options={['#dd192a', '#4a9eff', '#4aaa5e']}
             onChange={v => setTweak('accent', v)}
           />
         </TweakSection>
