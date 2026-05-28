@@ -1,0 +1,91 @@
+{
+  "date": "2026-02-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/redoctane-announce-guitar-hero-successor-stage-tour-coming-l",
+      "entities": {
+        "games": [
+          { "id": "stage-tour", "name": "Stage Tour", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true },
+          { "id": "guitar-hero", "name": "Guitar Hero", "aliases": [], "genres": ["rhythm"], "franchise": "guitar-hero", "inferred": true }
+        ],
+        "studios": [
+          { "id": "redoctane", "name": "RedOctane", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "RedOctane announced Stage Tour, a successor to Guitar Hero, set to arrive in late 2026."
+    },
+    {
+      "ref": "business/assassin-s-creed-hexe-director-clint-hocking-has-left-ubisof",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-hexe", "name": "Assassin's Creed: Hexe", "aliases": [], "genres": ["action-adventure", "action-rpg", "open-world"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "splinter-cell-chaos-theory", "name": "Splinter Cell: Chaos Theory", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "splinter-cell", "inferred": true },
+          { "id": "far-cry-2", "name": "Far Cry 2", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "watch-dogs-legion", "name": "Watch Dogs: Legion", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "watch-dogs", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "clint-hocking", "name": "Clint Hocking", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Assassin's Creed: Hexe director Clint Hocking has left Ubisoft amid franchise upheaval."
+    },
+    {
+      "ref": "business/splash-damage-acquires-scum-dev-gamepires-from-jagex-splash",
+      "entities": {
+        "games": [
+          { "id": "scum", "name": "Scum", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "splash-damage", "name": "Splash Damage", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "gamepires", "name": "Gamepires", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ben-hopkinson", "name": "Ben Hopkinson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition", "leadership-change"],
+      "facts": [],
+      "summary": "Splash Damage acquired Scum developer Gamepires from Jagex, with Splash Damage CFO Ben Hopkinson named CEO of the combined joint venture backed by Emona Capital."
+    },
+    {
+      "ref": "business/riot-games-confirms-layoffs-within-publishing-division-12-ro",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 12, "unit": "roles", "currency": null,
+          "entity": "riot-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-02-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "12 roles affected across its publishing teams",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/production/riot-games-confirms-layoffs-within-publishing-division" } }
+      ],
+      "summary": "Riot Games confirmed layoffs within its publishing division, affecting 12 roles across its publishing teams."
+    }
+  ]
+}

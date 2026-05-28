@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hades-2-is-coming-to-playstation-5-and-xbox-series-s-x-on-ap",
+      "entities": {
+        "games": [
+          {
+            "id": "hades-2",
+            "name": "Hades 2",
+            "aliases": [],
+            "genres": ["action-rpg", "roguelike"],
+            "franchise": "hades",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "supergiant-games",
+            "name": "Supergiant Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series S/X",
+            "aliases": ["Xbox Series S/X"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-04-14",
+          "unit": "date",
+          "currency": null,
+          "entity": "hades-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "April 14th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/hades-2-is-finally-coming-to-playstation-and-xbox-next-month/"
+          }
+        }
+      ],
+      "summary": "Hades 2 is coming to PlayStation 5 and Xbox Series S/X on 14 April 2026."
+    },
+    {
+      "ref": "main_news/fox-mccloud-is-officially-appearing-in-the-super-mario-galax",
+      "entities": {
+        "games": [
+          {
+            "id": "star-fox",
+            "name": "Star Fox",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": "star-fox",
+            "inferred": true
+          },
+          {
+            "id": "super-mario-galaxy",
+            "name": "Super Mario Galaxy",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "super-mario",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Fox McCloud is officially appearing in The Super Mario Galaxy Movie."
+    },
+    {
+      "ref": "main_news/new-rpg-maker-entry-rpg-maker-with-announced-with-hd-2d-styl",
+      "entities": {
+        "games": [
+          {
+            "id": "rpg-maker-with",
+            "name": "RPG Maker WITH",
+            "aliases": [],
+            "genres": ["rpg", "simulation"],
+            "franchise": "rpg-maker",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "A new RPG Maker entry, RPG Maker WITH, was announced with an HD-2D style visual shift and is the first entry to let users share their projects and assets on console."
+    },
+    {
+      "ref": "business/meta-quest-usage-reaches-all-time-high-in-2025-despite-studi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "meta",
+            "name": "Meta",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "meta-quest",
+            "name": "Meta Quest",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings", "layoffs", "studio-closure"],
+      "facts": [],
+      "summary": "Meta Quest usage reached an all-time high in 2025 despite studio closures and layoffs, with over 100 titles generating more than $1 million in gross revenue and in-app purchase sales growing by over 10%."
+    }
+  ]
+}

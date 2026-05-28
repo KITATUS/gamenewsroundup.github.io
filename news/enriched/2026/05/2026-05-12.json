@@ -1,0 +1,120 @@
+{
+  "date": "2026-05-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sega-has-canceled-development-of-its-super-game-as-it-pivots",
+      "entities": {
+        "games": [
+          { "id": "crazy-taxi", "name": "Crazy Taxi", "aliases": [], "genres": ["racing"], "franchise": "crazy-taxi", "inferred": true },
+          { "id": "jet-set-radio", "name": "Jet Set Radio", "aliases": [], "genres": ["action"], "franchise": "jet-set-radio", "inferred": true },
+          { "id": "golden-axe", "name": "Golden Axe", "aliases": [], "genres": ["action"], "franchise": "golden-axe", "inferred": true },
+          { "id": "segagaga", "name": "SegaGaGa", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "SEGA", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "SEGA has cancelled development of its 'super game' as it pivots away from live service games."
+    },
+    {
+      "ref": "main_news/discord-nitro-now-includes-a-starter-edition-of-xbox-game-pa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "discord", "name": "Discord", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "partnership"],
+      "facts": [],
+      "summary": "Discord Nitro now includes a 'starter edition' of Xbox Game Pass."
+    },
+    {
+      "ref": "main_news/nintendo-is-changing-the-name-of-my-nintendo-store-later-thi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-store", "name": "Nintendo Store", "aliases": ["My Nintendo Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-05-27",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-store",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-05-12",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "later this month (May 27th)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-is-changing-the-name-of-my-nintendo-store-later-this-month/"
+          }
+        }
+      ],
+      "summary": "Nintendo is renaming My Nintendo Store to 'Nintendo Store' on 27 May 2026."
+    },
+    {
+      "ref": "business/shift-up-says-it-will-publish-stellar-blade-2-instead-of-son",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade-2", "name": "Stellar Blade 2", "aliases": [], "genres": ["action"], "franchise": "stellar-blade", "inferred": true },
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action"], "franchise": "stellar-blade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Shift Up says it will self-publish Stellar Blade 2 instead of Sony and is exploring further platform expansion for the first game."
+    },
+    {
+      "ref": "business/sony-maps-out-how-first-party-playstation-studios-are-utilis",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sony has detailed how its first-party PlayStation studios are using AI tools during development."
+    }
+  ]
+}

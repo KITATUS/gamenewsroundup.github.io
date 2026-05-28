@@ -1,0 +1,101 @@
+{
+  "date": "2026-05-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-announces-pictonico-a-new-mobile-game-that-turns-yo",
+      "entities": {
+        "games": [
+          { "id": "pictonico", "name": "Pictonico", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo announced Pictonico, a new mobile game that turns players' photos into mini-games."
+    },
+    {
+      "ref": "main_news/original-doom-soundtrack-to-be-inducted-into-us-national-rec",
+      "entities": {
+        "games": [
+          { "id": "doom", "name": "Doom", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "bobby-prince", "name": "Bobby Prince", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The original 1993 Doom soundtrack, composed by Bobby Prince, will be inducted into the US National Recording Registry."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-is-going-up-in-price-for-new-members-1-1-fo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "subscription"],
+      "facts": [
+        { "metric": "price", "value": 1, "unit": "price", "currency": "GBP",
+          "entity": "playstation-plus", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£1/$1 for one month",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-plus-is-going-up-in-price-for-new-members/" } },
+        { "metric": "price", "value": 1, "unit": "price", "currency": "USD",
+          "entity": "playstation-plus", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£1/$1 for one month",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-plus-is-going-up-in-price-for-new-members/" } },
+        { "metric": "price", "value": 3, "unit": "price", "currency": "GBP",
+          "entity": "playstation-plus", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£3/$3 for three-month option",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-plus-is-going-up-in-price-for-new-members/" } },
+        { "metric": "price", "value": 3, "unit": "price", "currency": "USD",
+          "entity": "playstation-plus", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£3/$3 for three-month option",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-plus-is-going-up-in-price-for-new-members/" } }
+      ],
+      "summary": "PlayStation Plus is raising prices for new members, with introductory offers of £1/$1 for one month and £3/$3 for three months."
+    },
+    {
+      "ref": "rumours/playstation-boss-hermen-hulst-tells-staff-that-single-player",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "hermen-hulst", "name": "Hermen Hulst", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that PlayStation boss Hermen Hulst told staff that single-player games will no longer come to PC going forward."
+    }
+  ]
+}

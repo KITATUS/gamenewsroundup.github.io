@@ -1,0 +1,301 @@
+{
+  "date": "2026-03-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-is-making-its-original-save-the-world-mode-free-to",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["survival", "tower-defense", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["free-game", "update-patch"],
+      "facts": [],
+      "summary": "Fortnite is making its original Save the World mode free-to-play."
+    },
+    {
+      "ref": "main_news/microsoft-quietly-retires-this-is-an-xbox-marketing-campaign",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Microsoft has quietly retired its \"This is an Xbox\" marketing campaign."
+    },
+    {
+      "ref": "free_games_subscription/march-ps-plus-game-catalog-titles-confirmed-warhammer-40-000",
+      "entities": {
+        "games": [
+          {
+            "id": "warhammer-40000-space-marine-2",
+            "name": "Warhammer 40,000: Space Marine 2",
+            "aliases": [],
+            "genres": ["tps", "action-adventure"],
+            "franchise": "warhammer-40000",
+            "inferred": true
+          },
+          {
+            "id": "ea-sports-madden-nfl-26",
+            "name": "EA Sports Madden NFL 26",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "madden-nfl",
+            "inferred": true
+          },
+          {
+            "id": "persona-5-royal",
+            "name": "Persona 5 Royal",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "persona",
+            "inferred": true
+          },
+          {
+            "id": "blasphemous-2",
+            "name": "Blasphemous 2",
+            "aliases": [],
+            "genres": ["metroidvania", "action-adventure"],
+            "franchise": "blasphemous",
+            "inferred": true
+          },
+          {
+            "id": "metal-eden",
+            "name": "Metal Eden",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "lord-of-the-rings-return-to-moria",
+            "name": "Lord of the Rings: Return to Moria",
+            "aliases": [],
+            "genres": ["survival"],
+            "franchise": "the-lord-of-the-rings",
+            "inferred": true
+          },
+          {
+            "id": "astroneer",
+            "name": "Astroneer",
+            "aliases": [],
+            "genres": ["survival", "sandbox"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "tekken-dark-resurrection",
+            "name": "Tekken Dark Resurrection",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "tekken",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps-plus",
+            "name": "PS Plus",
+            "aliases": ["PlayStation Plus"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Sony confirmed the March PS Plus Game Catalog titles, including Warhammer 40,000: Space Marine 2, EA Sports Madden NFL 26, Persona 5 Royal, Blasphemous 2, Metal Eden, Lord of the Rings: Return to Moria, Astroneer and Tekken Dark Resurrection."
+    },
+    {
+      "ref": "business/nintendo-s-share-price-climbs-15-in-two-days-following-the-s",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-pokopia",
+            "name": "Pokémon Pokopia",
+            "aliases": [],
+            "genres": ["life-sim"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "price_change_pct",
+          "value": 15,
+          "unit": "percent",
+          "currency": null,
+          "entity": "nintendo",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-03-12",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Nintendo’s share price climbs 15% in two days",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendos-share-price-climbs-15-in-two-days-following-the-success-of-pokemon-pokopia/"
+          }
+        },
+        {
+          "metric": "price_change_pct",
+          "value": 40,
+          "unit": "percent",
+          "currency": null,
+          "entity": "nintendo",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-03-12",
+          "period": "point_in_time",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "the share price had dropped 40% in three months",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendos-share-price-climbs-15-in-two-days-following-the-success-of-pokemon-pokopia/"
+          }
+        }
+      ],
+      "summary": "Nintendo's share price climbed 15% in two days following the success of Pokémon Pokopia, after having dropped 40% over the prior three months."
+    },
+    {
+      "ref": "business/silent-hill-2-remake-tops-5-million-players-includes-sales-s",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill-2-remake",
+            "name": "Silent Hill 2 Remake",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 5000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "silent-hill-2-remake",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-12",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill 2 Remake Tops 5 Million Players",
+          "source": {
+            "name": "VGChartz",
+            "domain": "vgchartz.com",
+            "url": "https://www.vgchartz.com/article/467265/silent-hill-2-remake-tops-5-million-players/"
+          }
+        }
+      ],
+      "summary": "Silent Hill 2 Remake has topped 5 million players, a figure that includes sales and subscription services."
+    },
+    {
+      "ref": "business/global-sales-of-pok-mon-pokopia-for-nintendo-switch-2-surpas",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-pokopia",
+            "name": "Pokémon Pokopia",
+            "aliases": [],
+            "genres": ["life-sim"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 2200000,
+          "unit": "units",
+          "currency": null,
+          "entity": "pokemon-pokopia",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-12",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Global Sales of Pokémon Pokopia for Nintendo Switch 2 Surpass 2.2 Million in First Four Days",
+          "source": {
+            "name": "Nintendo",
+            "domain": "nintendo.co.jp",
+            "url": "https://www.nintendo.co.jp/corporate/release/en/2026/260312.html"
+          }
+        }
+      ],
+      "summary": "Global sales of Pokémon Pokopia for Nintendo Switch 2 surpassed 2.2 million in its first four days."
+    }
+  ]
+}

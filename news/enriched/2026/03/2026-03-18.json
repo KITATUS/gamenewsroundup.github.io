@@ -1,0 +1,100 @@
+{
+  "date": "2026-03-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/io-interactive-and-mindseye-studio-barb-officially-end-partn",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": ["Mindseye"], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "hitman", "name": "Hitman", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "hitman", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "build-a-rocket-boy", "name": "Build A Rocket Boy", "aliases": ["BARB"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "dlc-expansion"],
+      "facts": [],
+      "summary": "IO Interactive and MindsEye studio Build A Rocket Boy (BARB) have officially ended their partnership, scrapping the planned Hitman crossover DLC, with BARB assuming sole publishing responsibilities for MindsEye."
+    },
+    {
+      "ref": "main_news/embark-mutually-parts-ways-with-co-founder-rob-runesson-foll",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": ["Embark"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "rob-runesson", "name": "Rob Runesson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Embark Studios has \"mutually parted ways\" with co-founder Rob Runesson following sexual misconduct allegations, saying its investigation did not substantiate the allegations but found the situation unsustainable."
+    },
+    {
+      "ref": "main_news/starfield-launches-on-ps5-on-april-7-2026",
+      "entities": {
+        "games": [
+          { "id": "starfield", "name": "Starfield", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-04-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "starfield",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Starfield launches on PS5 on April 7, 2026",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/starfield-is-finally-coming-to-ps5-next-month-alongside-new-content-and-ps5-pro-support/"
+          }
+        }
+      ],
+      "summary": "Starfield launches on PS5 on April 7, 2026."
+    },
+    {
+      "ref": "free_games_subscription/pok-mon-xd-gale-of-darkness-is-available-now-on-nintendo-swi",
+      "entities": {
+        "games": [
+          { "id": "pokemon-xd-gale-of-darkness", "name": "Pokémon XD: Gale of Darkness", "aliases": [], "genres": ["rpg", "jrpg"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "Pokémon XD: Gale of Darkness is available now on Nintendo Switch 2."
+    }
+  ]
+}

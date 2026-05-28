@@ -1,0 +1,76 @@
+{
+  "date": "2026-05-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/epic-announces-unreal-engine-6-which-will-run-the-next-era-o",
+      "entities": {
+        "games": [
+          { "id": "rocket-league", "name": "Rocket League", "aliases": [], "genres": ["sports", "racing"], "franchise": null, "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "unreal-engine-6", "name": "Unreal Engine 6", "aliases": ["UE6"], "inferred": false }
+        ],
+        "people": [
+          { "id": "tim-sweeney", "name": "Tim Sweeney", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Epic Games announced Unreal Engine 6, which will power the next era of Rocket League."
+    },
+    {
+      "ref": "business/star-citizen-tops-1-billion-crowdfunding-milestone",
+      "entities": {
+        "games": [
+          { "id": "star-citizen", "name": "Star Citizen", "aliases": [], "genres": ["simulation", "mmo"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "cloud-imperium-games", "name": "Cloud Imperium Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "sales-milestone"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1000000000, "unit": "money", "currency": "USD",
+          "entity": "star-citizen", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-26", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Star Citizen tops $1 billion crowdfunding milestone",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/star-citizen-tops-1-billion-sells-5000-unflyable-spaceship" } }
+      ],
+      "summary": "Star Citizen has surpassed $1 billion in crowdfunding."
+    },
+    {
+      "ref": "business/kenshi-sells-3-million-units",
+      "entities": {
+        "games": [
+          { "id": "kenshi", "name": "Kenshi", "aliases": [], "genres": ["rpg", "open-world", "sandbox", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "lo-fi-games", "name": "Lo-Fi Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 3000000, "unit": "units", "currency": null,
+          "entity": "kenshi", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-26", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Kenshi Sells 3 Million Units",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/233860/view/653728746655713085?l=english" } }
+      ],
+      "summary": "Kenshi has sold 3 million units."
+    }
+  ]
+}

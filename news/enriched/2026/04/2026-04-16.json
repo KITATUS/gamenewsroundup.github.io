@@ -1,0 +1,78 @@
+{
+  "date": "2026-04-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/facepunch-ends-developer-preview-for-game-creation-platform",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "facepunch", "name": "Facepunch", "aliases": ["Facepunch Studios"], "publisher": null, "inferred": false },
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "s-box", "name": "s&box", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-04-28", "unit": "date", "currency": null,
+          "entity": "s-box", "entity_type": "product", "scope": "product",
+          "as_of": "2026-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "reopens publicly on Steam April 28th",
+          "source": { "name": "sbox.game", "domain": "sbox.game", "url": "https://sbox.game/news/update-26-04-15" } }
+      ],
+      "summary": "Facepunch is ending the developer preview for its game-creation platform s&box and reopening it publicly on Steam on April 28th, having confirmed a deal with Valve to let games made in s&box be sold standalone on Steam."
+    },
+    {
+      "ref": "free_games_subscription/ps-plus-premium-and-extra-games-for-april-include-the-crew-m",
+      "entities": {
+        "games": [
+          { "id": "the-crew-motorfest", "name": "The Crew Motorfest", "aliases": [], "genres": ["racing", "open-world"], "franchise": "the-crew", "inferred": true },
+          { "id": "horizon-zero-dawn-remastered", "name": "Horizon Zero Dawn Remastered", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true },
+          { "id": "football-manager-26", "name": "Football Manager 26", "aliases": [], "genres": ["simulation", "sports"], "franchise": "football-manager", "inferred": true },
+          { "id": "warriors-abyss", "name": "Warriors: Abyss", "aliases": [], "genres": ["action-adventure", "roguelike"], "franchise": "warriors", "inferred": true },
+          { "id": "squirrel-with-a-gun", "name": "Squirrel with a Gun", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "the-casting-of-frank-stone", "name": "The Casting of Frank Stone", "aliases": [], "genres": ["horror", "adventure"], "franchise": "dead-by-daylight", "inferred": true },
+          { "id": "monster-train", "name": "Monster Train", "aliases": [], "genres": ["card", "roguelike"], "franchise": "monster-train", "inferred": true },
+          { "id": "wild-arms-4", "name": "Wild Arms 4", "aliases": [], "genres": ["jrpg"], "franchise": "wild-arms", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PS Plus", "aliases": ["PlayStation Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [],
+      "summary": "PS Plus Premium and Extra games for April include The Crew Motorfest, Horizon Zero Dawn Remastered, Football Manager 26, Warriors: Abyss, Squirrel with a Gun, The Casting of Frank Stone, Monster Train and Wild Arms 4."
+    },
+    {
+      "ref": "business/crimson-desert-surpasses-5-million-copies-sold-worldwide",
+      "entities": {
+        "games": [
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 5000000, "unit": "copies", "currency": null,
+          "entity": "crimson-desert", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Crimson Desert Surpasses 5 Million Copies Sold Worldwide",
+          "source": { "name": "GamesPress", "domain": "gamespress.com", "url": "https://www.gamespress.com/en-GB/Crimson-Desert-Surpasses-5-Million-Copies-Sold-Worldwide" } }
+      ],
+      "summary": "Crimson Desert has surpassed 5 million copies sold worldwide."
+    }
+  ]
+}

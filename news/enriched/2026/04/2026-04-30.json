@@ -1,0 +1,109 @@
+{
+  "date": "2026-04-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/starbreeze-to-capitalize-on-roblox-success-with-second-game",
+      "entities": {
+        "games": [
+          { "id": "notoriety-a-payday-experience", "name": "Notoriety: A Payday Experience", "aliases": [], "genres": ["shooter"], "franchise": "payday", "inferred": true }
+        ],
+        "studios": [
+          { "id": "starbreeze", "name": "Starbreeze", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "sales-milestone"],
+      "facts": [
+        { "metric": "review_score", "value": 92, "unit": "percent", "currency": null,
+          "entity": "notoriety-a-payday-experience", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-30", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "holds a 92% player approval rating",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/starbreeze-to-capitalize-on-roblox-success-with-second-game" } }
+      ],
+      "summary": "Starbreeze plans a second Roblox game following the success of Notoriety: A Payday Experience, which has surpassed 400 million visits and holds a 92% player approval rating."
+    },
+    {
+      "ref": "free_games_subscription/may-s-playstation-plus-essential-free-games-fc26-wuchang-fal",
+      "entities": {
+        "games": [
+          { "id": "ea-sports-fc-26", "name": "EA Sports FC 26", "aliases": ["FC26"], "genres": ["sports"], "franchise": "ea-sports-fc", "inferred": true },
+          { "id": "wuchang-fallen-feathers", "name": "Wuchang: Fallen Feathers", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "nine-sols", "name": "Nine Sols", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "May's PlayStation Plus Essential lineup comprises EA Sports FC 26, Wuchang: Fallen Feathers and Nine Sols."
+    },
+    {
+      "ref": "business/greedfall-developer-spiders-has-shut-down-after-nacon-recent",
+      "entities": {
+        "games": [
+          { "id": "greedfall", "name": "Greedfall", "aliases": [], "genres": ["action-rpg"], "franchise": "greedfall", "inferred": true }
+        ],
+        "studios": [
+          { "id": "spiders", "name": "Spiders", "aliases": [], "publisher": "nacon", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nacon", "name": "Nacon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Greedfall developer Spiders has shut down following publisher Nacon's recent filing for insolvency."
+    },
+    {
+      "ref": "business/microsoft-q3-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 82900000000, "unit": "money", "currency": "USD",
+          "entity": "microsoft", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-30", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $82.9 billion (up 18%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3" } },
+        { "metric": "revenue", "value": 13200000000, "unit": "money", "currency": "USD",
+          "entity": "microsoft", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-30", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "More personal computing (incl. Xbox revenue): $13.2 billion (down 1%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3" } },
+        { "metric": "operating_income", "value": 38400000000, "unit": "money", "currency": "USD",
+          "entity": "microsoft", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-30", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: $38.4 billion (up 20%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3" } },
+        { "metric": "profit", "value": 31800000000, "unit": "money", "currency": "USD",
+          "entity": "microsoft", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-30", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net income: $31.8 billion (up 23%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3" } }
+      ],
+      "summary": "Microsoft reported fiscal Q3 results for the three months ended March 31, 2026, with revenue of $82.9 billion (up 18%) and net income of $31.8 billion (up 23%)."
+    }
+  ]
+}

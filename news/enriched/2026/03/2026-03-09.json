@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nagoshi-studio-reportedly-facing-closure-after-netease-pulls",
+      "entities": {
+        "games": [
+          { "id": "gang-of-dragon", "name": "Gang of Dragon", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "nagoshi-studio", "name": "Nagoshi Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "funding-investment"],
+      "facts": [],
+      "summary": "Nagoshi Studio is reportedly facing closure after NetEase allegedly pulled funding for Gang of Dragon, a game announced three months earlier."
+    },
+    {
+      "ref": "main_news/capcom-quietly-removes-drm-system-enigma-it-added-to-3-year",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-4-remake", "name": "Resident Evil 4 Remake", "aliases": ["Resident Evil 4"], "genres": ["survival-horror", "action-adventure"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Capcom quietly removed the Enigma DRM system it had added to the Resident Evil 4 Remake the previous month, following player backlash over performance issues it introduced."
+    },
+    {
+      "ref": "business/nintendo-of-america-sues-us-government-over-tariffs",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo of America"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "Nintendo of America has sued the US government over tariffs."
+    }
+  ]
+}

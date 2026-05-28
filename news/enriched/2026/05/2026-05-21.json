@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/playstation-state-of-play-showcase-including-marvel-s-wolver",
+      "entities": {
+        "games": [
+          { "id": "marvels-wolverine", "name": "Marvel's Wolverine", "aliases": ["Marvel’s Wolverine"], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement", "reveal"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-06-03", "unit": "date", "currency": null,
+          "entity": "playstation-state-of-play", "entity_type": "product", "scope": "event",
+          "as_of": "2026-05-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "June 3rd at 10pm BST, 2pm PT, 5pm ET, 11pm CEST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/playstation-state-of-play-marvels-wolverine-announced/" } }
+      ],
+      "summary": "Sony announced a PlayStation State of Play showcase for June 3rd, expected to last over an hour and to be screened at US cinemas, including Marvel's Wolverine."
+    },
+    {
+      "ref": "main_news/uk-centric-gaming-showcase-for-one-night-only-announced-feat",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "criterion", "name": "Criterion", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-07-29", "unit": "date", "currency": null,
+          "entity": "for-one-night-only", "entity_type": "product", "scope": "event",
+          "as_of": "2026-05-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tuesday 29th July 2026 with a live studio audience",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/uk-gaming-showcase-for-one-night-only-announced-io-interactive-criterion/" } }
+      ],
+      "summary": "A UK-centric gaming showcase called For One Night Only, featuring IO Interactive and Criterion, was announced for Tuesday 29 July 2026 with a live studio audience."
+    },
+    {
+      "ref": "business/quantic-dream-s-multiplayer-game-spellcasters-chronicles-is",
+      "entities": {
+        "games": [
+          { "id": "spellcasters-chronicles", "name": "Spellcasters Chronicles", "aliases": [], "genres": [], "franchise": null, "inferred": false },
+          { "id": "star-wars-eclipse", "name": "Star Wars Eclipse", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "quantic-dream", "name": "Quantic Dream", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Quantic Dream is shutting down its multiplayer game Spellcasters Chronicles and reorganising the studio, while Star Wars Eclipse is unaffected."
+    },
+    {
+      "ref": "business/ubisoft-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1400000000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-21", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Revenue: €1.4 billion (down 21.8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ubisofts-full-fy26-financials-report-shows-a-sharp-decline-in-revenue-and-net-bookings" } },
+        { "metric": "revenue", "value": 419500000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-21", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Revenue: €419.5 million (down 47.3% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ubisofts-full-fy26-financials-report-shows-a-sharp-decline-in-revenue-and-net-bookings" } }
+      ],
+      "summary": "Ubisoft's full FY26 financial results showed revenue of €1.4 billion, a sharp 21.8% year-on-year decline, alongside falling net bookings."
+    }
+  ]
+}

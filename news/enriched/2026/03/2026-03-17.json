@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cyberpunk-2077-ps5-pro-enhanced-update-coming-soon",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5-pro", "name": "PS5 Pro", "aliases": ["PlayStation 5 Pro"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A PS5 Pro enhanced update for Cyberpunk 2077 is coming soon."
+    },
+    {
+      "ref": "main_news/nvidia-has-announced-dlss-5-the-next-generation-of-its-image",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nvidia", "name": "Nvidia", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Nvidia announced DLSS 5, its next-generation image enhancement technology, which it called the most significant breakthrough in computer graphics since real-time ray tracing, though online reaction was overwhelmingly negative."
+    },
+    {
+      "ref": "main_news/ps5-pro-s-major-pssr-update-is-rolling-out-to-more-games-thi",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-rebirth", "name": "Final Fantasy 7 Rebirth", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5-pro", "name": "PS5 Pro", "aliases": ["PlayStation 5 Pro"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The PS5 Pro's PSSR update is rolling out to more games this week, including the Silent Hill games and Final Fantasy 7 Rebirth."
+    },
+    {
+      "ref": "main_news/nintendo-released-a-new-handheld-mode-boost-feature-for-swit",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Nintendo Switch 2"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch 1", "aliases": ["Nintendo Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "hardware"],
+      "facts": [],
+      "summary": "Nintendo released a new Handheld Mode Boost feature for Switch 2 that lets Switch 1 games use TV mode performance modes in the Switch 2's handheld mode."
+    },
+    {
+      "ref": "business/court-tells-subnautica-2-publisher-krafton-to-reinstate-fire",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival", "adventure", "open-world"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "leadership-change", "early-access"],
+      "facts": [],
+      "summary": "A court told Subnautica 2 publisher Krafton to reinstate the fired CEO and let him handle the game's Early Access release, ruling that Krafton terminated the game leads' contracts without valid cause."
+    },
+    {
+      "ref": "business/saudi-crown-prince-mohammed-bin-salman-s-egdc-firm-has-acqui",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "mohammed-bin-salman", "name": "Mohammed Bin Salman", "aliases": ["Saudi Crown Prince Mohammed Bin Salman"], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 5, "unit": "percent", "currency": null,
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-03-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "EGDC firm has acquired 5% of **Capcom**",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/saudi-crown-prince-mohammed-bin-salmans-egdc-firm-has-acquired-5-in-capcom/" } },
+        { "metric": "equity_stake_pct", "value": 5, "unit": "percent", "currency": null,
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-03-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "his public investment fund already bought 5% of the company in 2022",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/saudi-crown-prince-mohammed-bin-salmans-egdc-firm-has-acquired-5-in-capcom/" } }
+      ],
+      "summary": "Saudi Crown Prince Mohammed Bin Salman's EGDC firm has acquired 5% of Capcom, on top of the 5% his public investment fund bought in 2022."
+    }
+  ]
+}

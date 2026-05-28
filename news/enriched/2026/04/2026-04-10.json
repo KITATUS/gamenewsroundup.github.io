@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/jon-gibson-the-head-of-transformation-at-keywords-studios-sa",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "keywords-studios", "name": "Keywords Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jon-gibson", "name": "Jon Gibson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Keywords Studios head of transformation Jon Gibson said that of the 500-plus AI tools tested by a leading game dev tech provider, only about half a dozen help in the right way."
+    },
+    {
+      "ref": "main_news/neill-blomkamp-s-blockchain-studio-gunzilla-games-hasn-t-pai",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gunzilla-games", "name": "Gunzilla Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "neill-blomkamp", "name": "Neill Blomkamp", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Employees allege that Neill Blomkamp's blockchain studio Gunzilla Games has not paid some staff for many months."
+    },
+    {
+      "ref": "business/konami-s-efootball-tops-1-billion-downloads",
+      "entities": {
+        "games": [
+          { "id": "efootball", "name": "eFootball", "aliases": [], "genres": ["sports", "simulation"], "franchise": "efootball", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "downloads",
+          "value": 1000000000,
+          "unit": "downloads",
+          "currency": null,
+          "entity": "efootball",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Konami's eFootball tops 1 billion downloads",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/konami-s-efootball-tops-1-billion-downloads" }
+        }
+      ],
+      "summary": "Konami's eFootball has surpassed 1 billion downloads."
+    }
+  ]
+}

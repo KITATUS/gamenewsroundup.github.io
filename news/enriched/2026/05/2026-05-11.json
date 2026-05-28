@@ -1,0 +1,258 @@
+{
+  "date": "2026-05-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-lays-out-its-ai-plan-for-playstation-we-believe-ai-will",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "SIE"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "hideaki-nishino", "name": "Hideaki Nishino", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "SIE President and CEO Hideaki Nishino outlined Sony's plan for AI to play a major role in PlayStation game development."
+    },
+    {
+      "ref": "main_news/psychonauts-kiln-studio-double-fine-votes-to-unionise",
+      "entities": {
+        "games": [
+          { "id": "psychonauts", "name": "Psychonauts", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "psychonauts", "inferred": true },
+          { "id": "kiln", "name": "Kiln", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "double-fine", "name": "Double Fine", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Double Fine, the studio behind Psychonauts and Kiln, has voted to unionise."
+    },
+    {
+      "ref": "main_news/atari-acquires-rights-to-first-five-wizardry-rpgs-japanese-p",
+      "entities": {
+        "games": [
+          { "id": "wizardry", "name": "Wizardry", "aliases": [], "genres": ["rpg", "crpg"], "franchise": "wizardry", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false },
+          { "id": "drecom", "name": "Drecom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Atari acquired the rights to the first five Wizardry RPGs, while Japanese publisher Drecom retains the Wizardry trademark worldwide and ownership of Wizardry 6, 7, and 8."
+    },
+    {
+      "ref": "main_news/forza-horizon-6-leaks-and-is-being-pirated-on-pc-more-than-a",
+      "entities": {
+        "games": [
+          { "id": "forza-horizon-6", "name": "Forza Horizon 6", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Forza Horizon 6 leaked and is being pirated on PC more than a week before release after a non-encrypted Steam build was accidentally set live early."
+    },
+    {
+      "ref": "business/sony-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony", "name": "Sony", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 12500000000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥12.5 trillion ($79.7 billion, up 3.7% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "revenue", "value": 79700000000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥12.5 trillion ($79.7 billion, up 3.7% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 1400000000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥1.4 trillion ($8.9 billion, up 13.4% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 8900000000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥1.4 trillion ($8.9 billion, up 13.4% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "revenue", "value": 4700000000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Game & Network Services net sales: ¥4.7 trillion ($29.9 billion, up 0.3% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "revenue", "value": 29900000000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Game & Network Services net sales: ¥4.7 trillion ($29.9 billion, up 0.3% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 463300000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Game & Network Services operating income: ¥463.3 billion ($2.9 billion, up 12%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 2900000000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Game & Network Services operating income: ¥463.3 billion ($2.9 billion, up 12%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "revenue", "value": 3030000000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥3.03 trillion ($19.3 billion, up 8.3% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "revenue", "value": 19300000000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥3.03 trillion ($19.3 billion, up 8.3% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 163500000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥163.5 billion ($1.04 billion, up 24% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 1040000000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥163.5 billion ($1.04 billion, up 24% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "revenue", "value": 1020000000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Game & Network Services net sales: ¥1.02 trillion ($6.5 billion, down 2.8% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "revenue", "value": 6500000000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Game & Network Services net sales: ¥1.02 trillion ($6.5 billion, down 2.8% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 54100000000, "unit": "currency", "currency": "JPY",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Game & Network Services operating income: ¥54.1 billion ($345.1 million, down 41.6% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } },
+        { "metric": "operating_income", "value": 345100000, "unit": "currency", "currency": "USD",
+          "entity": "sony", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Game & Network Services operating income: ¥54.1 billion ($345.1 million, down 41.6% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4" } }
+      ],
+      "summary": "Sony reported its financial results, including full-year net sales of ¥12.5 trillion and operating income of ¥1.4 trillion, alongside Q4 figures."
+    },
+    {
+      "ref": "business/nintendo-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 2300000000000, "unit": "currency", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥2.3 trillion ($14.6 billion, up 98.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } },
+        { "metric": "revenue", "value": 14600000000, "unit": "currency", "currency": "USD",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥2.3 trillion ($14.6 billion, up 98.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } },
+        { "metric": "profit", "value": 360100000000, "unit": "currency", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥360.1 billion ($2.2 billion, up 27.5%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } },
+        { "metric": "profit", "value": 2200000000, "unit": "currency", "currency": "USD",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥360.1 billion ($2.2 billion, up 27.5%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } },
+        { "metric": "profit", "value": 542200000000, "unit": "currency", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Ordinary profit: ¥542.2 billion ($3.4 billion, up 45.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } },
+        { "metric": "profit", "value": 3400000000, "unit": "currency", "currency": "USD",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Ordinary profit: ¥542.2 billion ($3.4 billion, up 45.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } },
+        { "metric": "profit", "value": 909000000000, "unit": "currency", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Gross profit: ¥909 billion ($5.7 billion, up 28%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } },
+        { "metric": "profit", "value": 5700000000, "unit": "currency", "currency": "USD",
+          "entity": "nintendo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Gross profit: ¥909 billion ($5.7 billion, up 28%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2" } }
+      ],
+      "summary": "Nintendo reported full-year net sales of ¥2.3 trillion (up 98.6%) following the launch of Switch 2, along with operating, ordinary, and gross profit figures."
+    },
+    {
+      "ref": "business/gamble-with-your-friends-has-sold-1-million-copies-in-one-we",
+      "entities": {
+        "games": [
+          { "id": "gamble-with-your-friends", "name": "Gamble With Your Friends", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "gamble-with-your-friends", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-11", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Gamble With Your Friends has sold 1 million copies in one week",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/3892270/view/701015907648931195?l=english" } }
+      ],
+      "summary": "Gamble With Your Friends has sold 1 million copies in one week."
+    }
+  ]
+}

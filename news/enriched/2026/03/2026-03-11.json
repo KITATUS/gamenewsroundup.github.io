@@ -1,0 +1,321 @@
+{
+  "date": "2026-03-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/yoshi-and-the-mysterious-book-will-release-on-thursday-may-2",
+      "entities": {
+        "games": [
+          {
+            "id": "yoshi-and-the-mysterious-book",
+            "name": "Yoshi and the Mysterious Book",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "yoshi",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-05-21",
+          "unit": "date",
+          "currency": null,
+          "entity": "yoshi-and-the-mysterious-book",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will release on Thursday May 21st",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/surprise-nintendo-trailer-confirms-new-yoshi-game-release-date/"
+          }
+        }
+      ],
+      "summary": "Yoshi and the Mysterious Book will release on Thursday 21 May 2026."
+    },
+    {
+      "ref": "main_news/epic-is-increasing-the-price-of-fortnite-v-bucks-and-fall-gu",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          },
+          {
+            "id": "fall-guys",
+            "name": "Fall Guys",
+            "aliases": [],
+            "genres": ["party", "platformer"],
+            "franchise": "fall-guys",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "Epic Games is increasing the price of Fortnite V-Bucks and Fall Guys in-game currency, prompting an overwhelmingly negative initial reaction online including boycott calls."
+    },
+    {
+      "ref": "main_news/capcom-confirms-resident-evil-requiem-story-expansion-and-mi",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil-requiem",
+            "name": "Resident Evil Requiem",
+            "aliases": [],
+            "genres": ["survival-horror", "horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Capcom confirmed a story expansion and a mini-game for Resident Evil Requiem."
+    },
+    {
+      "ref": "main_news/bloober-team-says-it-will-reveal-several-new-projects-this-y",
+      "entities": {
+        "games": [
+          {
+            "id": "project-h",
+            "name": "Project H",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          },
+          {
+            "id": "cronos-a-new-dawn",
+            "name": "Cronos: A New Dawn",
+            "aliases": [],
+            "genres": ["survival-horror", "horror"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bloober-team",
+            "name": "Bloober Team",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Bloober Team says it will reveal several new projects this year, including the ambitious Project H from the team behind Cronos: A New Dawn."
+    },
+    {
+      "ref": "main_news/rumours-of-a-fallout-3-remaster-refuse-to-quiet-down-as-new",
+      "entities": {
+        "games": [
+          {
+            "id": "fallout-3",
+            "name": "Fallout 3",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world", "fps"],
+            "franchise": "fallout",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "Rumours of a Fallout 3 remaster persist as new toy listings for the still-unannounced project appear in multiple stores."
+    },
+    {
+      "ref": "business/metal-gear-solid-snake-eater-reaches-2-million-global-sales",
+      "entities": {
+        "games": [
+          {
+            "id": "metal-gear-solid-delta-snake-eater",
+            "name": "Metal Gear Solid Δ: Snake Eater",
+            "aliases": ["METAL GEAR SOLID Δ: SNAKE EATER"],
+            "genres": ["stealth", "action-adventure"],
+            "franchise": "metal-gear",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": ["konami.com"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "metal-gear-solid-delta-snake-eater",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Reaches 2 Million Global Sales",
+          "source": {
+            "name": "konami.com",
+            "domain": "konami.com",
+            "url": "https://www.konami.com/games/eu/en/topics/19043/"
+          }
+        }
+      ],
+      "summary": "Metal Gear Solid Δ: Snake Eater has reached 2 million global sales."
+    },
+    {
+      "ref": "business/original-founders-of-bossfight-entertainment-re-launch-studi",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "bossfight",
+            "name": "Bossfight",
+            "aliases": ["Bossfight Entertainment"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "studio-closure", "acquisition"],
+      "facts": [],
+      "summary": "The original founders of Bossfight Entertainment have relaunched the studio as Bossfight, after Netflix, which acquired it in 2022, shuttered the developer in 2024."
+    },
+    {
+      "ref": "business/valve-sued-by-the-performing-right-society-for-allegedly-usi",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Valve has been sued by The Performing Right Society for allegedly using its members' musical works without permission."
+    },
+    {
+      "ref": "business/scopely-hits-15-billion-in-lifetime-revenue",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "scopely",
+            "name": "Scopely",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 15000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "scopely",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-03-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Scopely hits $15 billion in lifetime revenue",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/scopely-hits-15-billion-in-lifetime-revenue"
+          }
+        }
+      ],
+      "summary": "Scopely has hit $15 billion in lifetime revenue."
+    }
+  ]
+}

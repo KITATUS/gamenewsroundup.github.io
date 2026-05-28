@@ -1,0 +1,121 @@
+{
+  "date": "2026-03-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/capcom-has-moved-up-pragmata-s-release-originally-scheduled",
+      "entities": {
+        "games": [
+          { "id": "pragmata", "name": "Pragmata", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "delay"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-04-17", "unit": "date", "currency": null,
+          "entity": "pragmata", "entity_type": "game", "scope": "game",
+          "as_of": "2026-03-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "a week earlier, on April 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/capcom-has-moved-up-pragmatas-release/" } }
+      ],
+      "summary": "Capcom moved Pragmata's release earlier, from April 24 to April 17, 2026, on PS5, Xbox Series, Nintendo Switch 2, and PC."
+    },
+    {
+      "ref": "main_news/xbox-confirms-its-next-console-will-run-pc-games-and-is-code",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [],
+      "summary": "Xbox confirmed its next console, codenamed Project Helix, will run PC games."
+    },
+    {
+      "ref": "main_news/suda-and-swery-s-hotel-barcelona-has-received-a-free-major-o",
+      "entities": {
+        "games": [
+          { "id": "hotel-barcelona", "name": "Hotel Barcelona", "aliases": [], "genres": ["action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "suda51", "name": "Suda51", "aliases": ["Suda"], "inferred": true },
+          { "id": "swery", "name": "Swery", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Suda and Swery's Hotel Barcelona received a free major overhaul via its Under New Management update."
+    },
+    {
+      "ref": "main_news/embark-studios-rushes-to-fix-arc-raiders-discord-integration",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "discord", "name": "Discord", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Embark Studios is rushing to fix an Arc Raiders Discord integration bug that may have exposed private Discord DMs and friends data."
+    },
+    {
+      "ref": "business/pitchify-launches-new-service-to-connect-developers-and-publ",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pitchify", "name": "Pitchify", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Pitchify launched a new service to connect developers and publishers."
+    },
+    {
+      "ref": "business/fortnite-leaker-actually-worked-for-epic-games-as-a-contract",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A new lawsuit alleges that a Fortnite leaker actually worked for Epic Games as a contractor."
+    }
+  ]
+}

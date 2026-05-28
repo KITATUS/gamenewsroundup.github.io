@@ -1,0 +1,156 @@
+{
+  "date": "2026-04-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ecco-the-dolphin-complete-announced-containing-the-first-two",
+      "entities": {
+        "games": [
+          { "id": "ecco-the-dolphin-complete", "name": "Ecco the Dolphin Complete", "aliases": [], "genres": ["action-adventure"], "franchise": "ecco-the-dolphin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ed-annuziata", "name": "Ed Annuziata", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Ecco the Dolphin Complete has been announced, containing the first two games plus a new contemporary game, with development led by Ecco creator Ed Annuziata."
+    },
+    {
+      "ref": "main_news/remedy-releases-control-on-iphone-and-ipad-with-touch-contro",
+      "entities": {
+        "games": [
+          { "id": "control", "name": "Control", "aliases": [], "genres": ["action-adventure", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "iphone", "name": "iPhone", "aliases": [], "inferred": false },
+          { "id": "ipad", "name": "iPad", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "Remedy has released Control on iPhone and iPad with touch controls, reworked gameplay systems, and ray tracing."
+    },
+    {
+      "ref": "business/nintendo-has-been-sued-by-two-players-in-the-us-who-say-the",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo has been sued by two players in the US who argue the company would unjustly profit from any tariff refunds it receives from the US government."
+    },
+    {
+      "ref": "business/vampire-survivors-developer-is-working-on-over-15-projects-i",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "poncle", "name": "poncle", "aliases": ["Vampire Survivors' developer"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "partnership"],
+      "facts": [],
+      "summary": "Vampire Survivors' developer is working on over 15 projects including IP collaborations, and is opening new studios in Italy and Japan."
+    },
+    {
+      "ref": "business/koei-tecmo-fy2026-profit-forecast-lifted-from-37bn-to-55-5bn",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "koei-tecmo", "name": "Koei Tecmo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "profit", "value": 37000000000, "unit": "money", "currency": "JPY",
+          "entity": "koei-tecmo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-23", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Koei Tecmo FY2026 profit forecast lifted from ¥37bn to ¥55.5bn",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/koei-tecmo-predicts-50-higher-profit-for-fy2026-than-originally-forecast-due-to-strong-game-sales-and-investments/" } },
+        { "metric": "profit", "value": 55500000000, "unit": "money", "currency": "JPY",
+          "entity": "koei-tecmo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-23", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Koei Tecmo FY2026 profit forecast lifted from ¥37bn to ¥55.5bn",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/koei-tecmo-predicts-50-higher-profit-for-fy2026-than-originally-forecast-due-to-strong-game-sales-and-investments/" } },
+        { "metric": "operating_income", "value": 31000000000, "unit": "money", "currency": "JPY",
+          "entity": "koei-tecmo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-23", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Operating profit guidance rose from ¥31bn to ¥36bn",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/koei-tecmo-predicts-50-higher-profit-for-fy2026-than-originally-forecast-due-to-strong-game-sales-and-investments/" } },
+        { "metric": "operating_income", "value": 36000000000, "unit": "money", "currency": "JPY",
+          "entity": "koei-tecmo", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-23", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating profit guidance rose from ¥31bn to ¥36bn",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/koei-tecmo-predicts-50-higher-profit-for-fy2026-than-originally-forecast-due-to-strong-game-sales-and-investments/" } }
+      ],
+      "summary": "Koei Tecmo lifted its FY2026 profit forecast from 37 billion yen to 55.5 billion yen, with operating profit guidance rising from 31 billion yen to 36 billion yen on stronger game sales and investment gains."
+    },
+    {
+      "ref": "business/dead-by-daylight-studio-behaviour-interactive-confirms-redun",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Dead by Daylight studio Behaviour Interactive has confirmed redundancies, citing declining demand for mobile and casual external development projects, with the number of people affected unknown."
+    },
+    {
+      "ref": "business/palia-reaches-10-million-players",
+      "entities": {
+        "games": [
+          { "id": "palia", "name": "Palia", "aliases": [], "genres": ["mmo", "life-sim"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 10000000, "unit": "players", "currency": null,
+          "entity": "palia", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Palia reaches 10 million players",
+          "source": { "name": "palia.com", "domain": "palia.com",
+                      "url": "https://palia.com/news/10-million" } }
+      ],
+      "summary": "Palia has reached 10 million players."
+    }
+  ]
+}

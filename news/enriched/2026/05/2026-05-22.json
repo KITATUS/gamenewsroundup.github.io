@@ -1,0 +1,199 @@
+{
+  "date": "2026-05-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sega-is-teasing-the-new-crazy-taxi-with-first-social-media-p",
+      "entities": {
+        "games": [
+          {
+            "id": "crazy-taxi",
+            "name": "Crazy Taxi",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "crazy-taxi",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "Sega is teasing a new Crazy Taxi game with its first social media post in seven years."
+    },
+    {
+      "ref": "main_news/bungie-confirms-it-s-ending-destiny-2-updates",
+      "entities": {
+        "games": [
+          {
+            "id": "destiny-2",
+            "name": "Destiny 2",
+            "aliases": [],
+            "genres": ["fps", "mmo"],
+            "franchise": "destiny",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bungie",
+            "name": "Bungie",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Bungie has confirmed it is ending updates for Destiny 2."
+    },
+    {
+      "ref": "business/xbox-announces-hire-of-veteran-analyst-matthew-ball-as-chief",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "matthew-ball",
+            "name": "Matthew Ball",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Xbox announced the hire of veteran analyst Matthew Ball as its chief strategy officer."
+    },
+    {
+      "ref": "business/red-dead-redemption-2-becomes-third-best-selling-game-ever-r",
+      "entities": {
+        "games": [
+          {
+            "id": "red-dead-redemption-2",
+            "name": "Red Dead Redemption 2",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 85000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "red-dead-redemption-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-22",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "With 85 Million Copies Sold to Date",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com",
+            "url": "https://www.ign.com/articles/red-dead-redemption-2-overtakes-wii-sports-in-best-selling-games-of-all-time-list"
+          }
+        },
+        {
+          "metric": "chart_rank",
+          "value": 3,
+          "unit": "rank",
+          "currency": null,
+          "entity": "red-dead-redemption-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Becomes Third Best-Selling Game Ever Released",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com",
+            "url": "https://www.ign.com/articles/red-dead-redemption-2-overtakes-wii-sports-in-best-selling-games-of-all-time-list"
+          }
+        }
+      ],
+      "summary": "Red Dead Redemption 2 has become the third best-selling game ever released, with 85 million copies sold to date."
+    },
+    {
+      "ref": "business/subnautica-2-has-sold-4-million-copies-in-5-days",
+      "entities": {
+        "games": [
+          {
+            "id": "subnautica-2",
+            "name": "Subnautica 2",
+            "aliases": [],
+            "genres": ["survival", "adventure"],
+            "franchise": "subnautica",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 4000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "subnautica-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-22",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Subnautica 2 has sold 4 million copies in 5 days",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2026/05/subnautica-2-early-access-sales-top-four-million"
+          }
+        }
+      ],
+      "summary": "Subnautica 2 has sold four million copies in five days."
+    }
+  ]
+}

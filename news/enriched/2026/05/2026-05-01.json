@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nacon-has-rescheduled-its-postponed-game-showcase-despite-fe",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nacon", "name": "Nacon", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [],
+      "summary": "Nacon has rescheduled its postponed game showcase despite fears over its future after filing for insolvency in late February."
+    },
+    {
+      "ref": "main_news/rebellion-s-british-post-apocalyptic-game-atomfall-is-being",
+      "entities": {
+        "games": [{ "id": "atomfall", "name": "Atomfall", "aliases": [], "genres": ["action-adventure", "survival"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "rebellion", "name": "Rebellion", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Rebellion's British post-apocalyptic game Atomfall is being turned into a TV series."
+    },
+    {
+      "ref": "main_news/star-wars-galactic-racer-confirms-release-date-and-160-physi",
+      "entities": {
+        "games": [{ "id": "star-wars-galactic-racer", "name": "Star Wars: Galactic Racer", "aliases": [], "genres": ["racing"], "franchise": "star-wars", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-10-06", "unit": "date", "currency": null,
+          "entity": "star-wars-galactic-racer", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases October 6th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/star-wars-galactic-racer-confirms-release-date-and-160-physical-collectors-edition/" } },
+        { "metric": "price", "value": 160, "unit": "price", "currency": "USD",
+          "entity": "star-wars-galactic-racer", "entity_type": "game", "scope": "product",
+          "as_of": "2026-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$160 physical collector’s edition",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/star-wars-galactic-racer-confirms-release-date-and-160-physical-collectors-edition/" } }
+      ],
+      "summary": "Star Wars: Galactic Racer confirmed an October 6th release date and a $160 physical collector's edition."
+    },
+    {
+      "ref": "main_news/two-computer-giants-of-the-80s-the-spectrum-and-c64-are-bein",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "evercade", "name": "Evercade", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "spectrum", "name": "Spectrum", "aliases": [], "inferred": false },
+          { "id": "c64", "name": "C64", "aliases": ["Commodore 64"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement", "release-date"],
+      "facts": [
+        { "metric": "price", "value": 109.99, "unit": "price", "currency": "GBP",
+          "entity": "spectrum", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Both machines are priced at £109.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/spectrum-commodore-64-handhelds-october" } },
+        { "metric": "price", "value": 109.99, "unit": "price", "currency": "GBP",
+          "entity": "c64", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Both machines are priced at £109.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/spectrum-commodore-64-handhelds-october" } },
+        { "metric": "release_date", "value": "2026-10-15", "unit": "date", "currency": null,
+          "entity": "spectrum", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "launch on 15th October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/spectrum-commodore-64-handhelds-october" } }
+      ],
+      "summary": "The makers of Evercade are turning the Spectrum and C64 into pocket-sized clamshell handhelds priced at £109.99 and launching on 15th October."
+    },
+    {
+      "ref": "business/epic-games-store-launches-on-iphone-in-japan",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "iphone", "name": "iPhone", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "announcement"],
+      "facts": [],
+      "summary": "The Epic Games Store has launched on iPhone in Japan."
+    },
+    {
+      "ref": "business/ustwo-games-to-consider-hiring-more-contractors-to-reduce-de",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "ustwo-games", "name": "Ustwo Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ustwo Games is considering hiring more contractors to reduce development costs, with its CEO favouring a core team supplemented by contractors."
+    },
+    {
+      "ref": "business/digital-bros-acquires-wuchang-fallen-feathers-ip-for-4-6m-th",
+      "entities": {
+        "games": [{ "id": "wuchang-fallen-feathers", "name": "Wuchang: Fallen Feathers", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "digital-bros", "name": "Digital Bros.", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 4600000, "unit": "money", "currency": "USD",
+          "entity": "wuchang-fallen-feathers", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "acquires Wuchang: Fallen Feathers IP for $4.6m",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/digital-bros-acquires-wuchang-fallen-feathers-ip-for-46m" } },
+        { "metric": "copies_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "wuchang-fallen-feathers", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-01", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "The 2025 game has sold one million copies",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/digital-bros-acquires-wuchang-fallen-feathers-ip-for-46m" } },
+        { "metric": "revenue", "value": 35100000, "unit": "money", "currency": "USD",
+          "entity": "wuchang-fallen-feathers", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-01", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "generated around $35.1m in revenue",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/digital-bros-acquires-wuchang-fallen-feathers-ip-for-46m" } }
+      ],
+      "summary": "Digital Bros. acquired the Wuchang: Fallen Feathers IP for $4.6m, a 2025 game that has sold one million copies and generated around $35.1m in revenue."
+    },
+    {
+      "ref": "business/gamemaker-incorporates-claude-code-to-enable-ai-assisted-wor",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "gamemaker", "name": "GameMaker", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["partnership", "update-patch"],
+      "facts": [],
+      "summary": "GameMaker has incorporated Claude Code to enable AI-assisted workflows."
+    }
+  ]
+}

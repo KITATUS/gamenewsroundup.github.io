@@ -1,0 +1,100 @@
+{
+  "date": "2026-03-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/shinji-mikami-s-new-studio-unbound-is-building-a-aaa-origina",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "unbound", "name": "Unbound", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "shinji-mikami", "name": "Shinji Mikami", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Shinji Mikami's new studio Unbound is building an original AAA IP for consoles and PC."
+    },
+    {
+      "ref": "main_news/nintendo-releases-final-mario-galaxy-movie-trailer-and-confi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "issa-rae", "name": "Issa Rae", "aliases": [], "inferred": false },
+          { "id": "donald-glover", "name": "Donald Glover", "aliases": [], "inferred": false },
+          { "id": "luis-guzman", "name": "Luis Guzman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [],
+      "summary": "Nintendo released the final Mario Galaxy Movie trailer and confirmed new cast members Issa Rae as Honey Queen, Donald Glover as Yoshi and Luis Guzman as Wart."
+    },
+    {
+      "ref": "business/ea-lays-off-staff-across-battlefield-studios-following-last",
+      "entities": {
+        "games": [
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": ["Battlefield"], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ea", "name": "EA", "aliases": ["Electronic Arts"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "EA laid off staff across its Battlefield studios following last year's record-breaking Battlefield 6 debut, with an unknown number of employees affected."
+    },
+    {
+      "ref": "business/warioware-director-goro-abe-leaves-nintendo-after-25-years-a",
+      "entities": {
+        "games": [
+          { "id": "warioware", "name": "WarioWare", "aliases": [], "genres": ["party"], "franchise": "wario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "goro-abe", "name": "Goro Abe", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "WarioWare director Goro Abe has left Nintendo after more than 25 years to take up a professorial role at Osaka Electro-Communication University."
+    },
+    {
+      "ref": "business/until-dawn-remake-developer-ballistic-moon-officially-dissol",
+      "entities": {
+        "games": [
+          { "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["survival-horror", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ballistic-moon", "name": "Ballistic Moon", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Until Dawn remake developer Ballistic Moon has been officially dissolved."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "date": "2026-04-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/bloodborne-getting-r-rated-animated-movie-adaptation-from-so",
+      "entities": {
+        "games": [
+          {
+            "id": "bloodborne",
+            "name": "Bloodborne",
+            "aliases": [],
+            "genres": ["action-rpg", "soulslike"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "jacksepticeye",
+            "name": "Jacksepticeye",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sony is producing an R-rated animated movie adaptation of Bloodborne, with YouTuber Jacksepticeye as a producer."
+    },
+    {
+      "ref": "main_news/roblox-unveils-new-subscription-service-roblox-plus-launchin",
+      "entities": {
+        "games": [
+          {
+            "id": "roblox",
+            "name": "Roblox",
+            "aliases": [],
+            "genres": ["sandbox"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "roblox-corporation",
+            "name": "Roblox Corporation",
+            "aliases": ["Roblox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "subscription", "release-date", "price-change"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-04-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "roblox-plus",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-04-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Launching on April 30",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-unveils-new-subscription-service-roblox-plus"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 5,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "roblox-plus",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-04-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$5 per month",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-unveils-new-subscription-service-roblox-plus"
+          }
+        }
+      ],
+      "summary": "Roblox unveiled a new subscription service, Roblox Plus, launching April 30 at $5 per month with item discounts and exclusive benefits."
+    },
+    {
+      "ref": "business/ukie-uk-games-market-reaches-8-7bn-in-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 8700000000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "uk-games-market",
+          "entity_type": "product",
+          "scope": "company",
+          "as_of": "2026-04-14",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "UK games market reaches £8.7bn in 2025",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ukie-uk-games-market-reaches-87bn-in-2025"
+          }
+        }
+      ],
+      "summary": "UKIE reported that the UK games market reached £8.7bn in 2025."
+    }
+  ]
+}

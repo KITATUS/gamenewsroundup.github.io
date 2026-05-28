@@ -1,0 +1,131 @@
+{
+  "date": "2026-04-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/clair-obscur-and-dispatch-lead-2026-bafta-games-awards-winne",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": ["Clair Obscur"], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "dispatch", "name": "Dispatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": ["Arc Raiders"], "genres": ["extraction-shooter"], "franchise": null, "inferred": true },
+          { "id": "death-stranding-2", "name": "Death Stranding 2", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Clair Obscur and Dispatch led the 2026 BAFTA Games Awards winners, with Arc Raiders taking Multiplayer and Death Stranding 2 winning Artistic Achievement."
+    },
+    {
+      "ref": "main_news/panic-won-t-release-playdate-titles-that-use-certain-forms-o",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "panic", "name": "Panic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playdate", "name": "Playdate", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Panic will not release Playdate titles that use certain forms of generative AI, with generated code being the only allowed form."
+    },
+    {
+      "ref": "main_news/ludum-dare-will-officially-end-in-october-2028-the-long-runn",
+      "entities": {
+        "games": [
+          { "id": "hollow-knight", "name": "Hollow Knight", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true },
+          { "id": "inscryption", "name": "Inscryption", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2028-10", "unit": "date", "currency": null,
+          "entity": "ludum-dare", "entity_type": "product", "scope": "event",
+          "as_of": "2026-04-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ludum Dare will officially end in October 2028",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/production/ludum-dare-will-officially-end-in-october-2028" } }
+      ],
+      "summary": "The long-running game jam Ludum Dare will officially end in October 2028, having spawned successful titles such as Hollow Knight and Inscryption."
+    },
+    {
+      "ref": "business/iron-galaxy-studios-announces-further-layoffs-unknown-number",
+      "entities": {
+        "games": [
+          { "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk's Pro Skater 3+4", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true }
+        ],
+        "studios": [
+          { "id": "iron-galaxy-studios", "name": "Iron Galaxy Studios", "aliases": ["Iron Galaxy Studios"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Iron Galaxy Studios, developer of Tony Hawk's Pro Skater 3+4, announced further layoffs affecting an unknown number of staff, saying it was impossible to sustain its team size even after downsizing the previous year."
+    },
+    {
+      "ref": "business/pragmata-surpasses-one-million-units-sold-in-two-days",
+      "entities": {
+        "games": [
+          { "id": "pragmata", "name": "PRAGMATA", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "pragmata", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-20", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "PRAGMATA surpasses one million units sold in two days",
+          "source": { "name": "Capcom", "domain": "capcom.co.jp",
+            "url": "https://www.capcom.co.jp/ir/english/news/html/e260420.html" } }
+      ],
+      "summary": "PRAGMATA surpassed one million units sold within two days of release."
+    },
+    {
+      "ref": "business/windrose-has-sold-1-million-copies-in-6-days",
+      "entities": {
+        "games": [
+          { "id": "windrose", "name": "Windrose", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "windrose", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-20", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Windrose has sold 1 million copies in 6 days",
+          "source": { "name": "Steam", "domain": "store.steampowered.com",
+            "url": "https://store.steampowered.com/news/app/3041230/view/725783900692939208" } }
+      ],
+      "summary": "Windrose sold 1 million copies within six days of release."
+    }
+  ]
+}

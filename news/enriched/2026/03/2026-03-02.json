@@ -1,0 +1,307 @@
+{
+  "date": "2026-03-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-winds-waves-revealed-new-games-coming-in-2027-for-ni",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-winds-and-waves",
+            "name": "Pokémon Winds & Waves",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "pokemon-winds-and-waves",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "New games coming in 2027 for Nintendo Switch 2",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/pokemon-winds-waves-revealed-new-games-coming-in-2027-for-nintendo-switch-2/"
+          }
+        }
+      ],
+      "summary": "Pokémon Winds & Waves was revealed, with new games coming in 2027 for Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/sony-confirms-ps5-pro-upgrade-pssr-2-rolled-out-with-residen",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil-requiem",
+            "name": "Resident Evil Requiem",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "ps5-pro",
+            "name": "PS5 Pro",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "hardware"],
+      "facts": [],
+      "summary": "Sony confirmed a PS5 Pro upgrade (PSSR 2) rolled out with the Resident Evil Requiem launch, with a roll out for other titles expected in March."
+    },
+    {
+      "ref": "main_news/evercade-s-squeezing-14-rare-classics-into-a-little-handheld",
+      "entities": {
+        "games": [
+          {
+            "id": "battletoads",
+            "name": "Battletoads",
+            "aliases": [],
+            "genres": ["beat-em-up"],
+            "franchise": "battletoads",
+            "inferred": true
+          },
+          {
+            "id": "banjo-kazooie",
+            "name": "Banjo Kazooie",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "banjo-kazooie",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rare",
+            "name": "Rare",
+            "aliases": [],
+            "publisher": "microsoft",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "evercade",
+            "name": "Evercade",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release", "hardware"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 49,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "evercade",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-03-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Device is £49/$69/€59",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/from-atic-atac-to-banjo-kazooie-evercades-squeezing-14-rare-classics-into-a-cute-little-handheld-thats-launching-this-june"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 69,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "evercade",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-03-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Device is £49/$69/€59",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/from-atic-atac-to-banjo-kazooie-evercades-squeezing-14-rare-classics-into-a-cute-little-handheld-thats-launching-this-june"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 59,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "evercade",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-03-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Device is £49/$69/€59",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/from-atic-atac-to-banjo-kazooie-evercades-squeezing-14-rare-classics-into-a-cute-little-handheld-thats-launching-this-june"
+          }
+        }
+      ],
+      "summary": "Evercade is launching a handheld this June squeezing 14 Rare classics, including Battletoads and Banjo Kazooie, priced at £49/$69/€59."
+    },
+    {
+      "ref": "main_news/amazon-shares-first-look-at-ryan-hurst-as-kratos-in-the-god",
+      "entities": {
+        "games": [
+          {
+            "id": "god-of-war",
+            "name": "God of War",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "god-of-war",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "amazon",
+            "name": "Amazon",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "ryan-hurst",
+            "name": "Ryan Hurst",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "Amazon shared a first look at Ryan Hurst as Kratos in the God of War TV series, drawing online reactions likening the image to a parody movie."
+    },
+    {
+      "ref": "free_games_subscription/pok-mon-xd-gale-of-darkness-comes-to-nintendo-switch-2-s-gam",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-xd-gale-of-darkness",
+            "name": "Pokémon XD: Gale of Darkness",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "subscription"],
+      "facts": [],
+      "summary": "Pokémon XD: Gale of Darkness is coming to Nintendo Switch 2's GameCube library this month."
+    },
+    {
+      "ref": "free_games_subscription/netflix-backs-out-of-warner-bros-deal-declines-to-match-para",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "warner-bros",
+            "name": "Warner Bros",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "paramount-skydance",
+            "name": "Paramount Skydance",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "merger"],
+      "facts": [],
+      "summary": "Netflix backed out of a Warner Bros deal, declining to match Paramount Skydance's raised offer, with the effect on Warner Bros' gaming studios unclear."
+    }
+  ]
+}

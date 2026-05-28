@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/tekken-boss-katsuhiro-harada-has-joined-snk",
+      "entities": {
+        "games": [
+          { "id": "tekken", "name": "Tekken", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [
+          { "id": "snk", "name": "SNK", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "katsuhiro-harada", "name": "Katsuhiro Harada", "aliases": ["Harada"], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Tekken series boss Katsuhiro Harada has joined SNK."
+    },
+    {
+      "ref": "main_news/playstation-exec-christian-svensson-says-next-few-years-of-u",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "christian-svensson", "name": "Christian Svensson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "PlayStation executive Christian Svensson said the next few years of unannounced games look unbelievably positive and that there are no dire times ahead for the industry."
+    },
+    {
+      "ref": "main_news/fallout-tv-show-season-three-casts-breaking-bad-s-aaron-paul",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "aaron-paul", "name": "Aaron Paul", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Fallout TV show's third season has cast Breaking Bad's Aaron Paul."
+    },
+    {
+      "ref": "business/sega-fy26-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "SEGA", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 487500000000, "unit": "money", "currency": "JPY",
+          "entity": "sega", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-13", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥487.5 billion ($3.09 billion, up 13.6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-reports-316m-net-loss-during-fy26-cancels-super-game-project-amid-strategic-pivot" } },
+        { "metric": "revenue", "value": 3090000000, "unit": "money", "currency": "USD",
+          "entity": "sega", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-13", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥487.5 billion ($3.09 billion, up 13.6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-reports-316m-net-loss-during-fy26-cancels-super-game-project-amid-strategic-pivot" } },
+        { "metric": "operating_income", "value": 47100000000, "unit": "money", "currency": "JPY",
+          "entity": "sega", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-13", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥47.1 billion ($299 million, down 2% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-reports-316m-net-loss-during-fy26-cancels-super-game-project-amid-strategic-pivot" } },
+        { "metric": "operating_income", "value": 299000000, "unit": "money", "currency": "USD",
+          "entity": "sega", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-05-13", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥47.1 billion ($299 million, down 2% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-reports-316m-net-loss-during-fy26-cancels-super-game-project-amid-strategic-pivot" } }
+      ],
+      "summary": "SEGA reported FY26 net sales of ¥487.5 billion (up 13.6% year-on-year) and operating income of ¥47.1 billion (down 2% year-on-year)."
+    },
+    {
+      "ref": "business/metroid-dread-developer-mercurysteam-conducts-layoffs-unknow",
+      "entities": {
+        "games": [
+          { "id": "metroid-dread", "name": "Metroid Dread", "aliases": [], "genres": ["action-adventure", "metroidvania"], "franchise": "metroid", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mercurysteam", "name": "MercurySteam", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Metroid Dread developer MercurySteam has conducted layoffs affecting an unknown number of people."
+    },
+    {
+      "ref": "business/silent-hill-f-shipments-and-digital-sales-top-two-million",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "silent-hill-f", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Silent Hill f shipments and digital sales top two million",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/05/silent-hill-f-shipments-and-digital-sales-top-two-million" } }
+      ],
+      "summary": "Silent Hill f shipments and digital sales have topped two million."
+    }
+  ]
+}

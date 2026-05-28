@@ -1,0 +1,288 @@
+{
+  "date": "2026-05-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/assassin-s-creed-black-flag-resynced-is-getting-a-real-life",
+      "entities": {
+        "games": [
+          {
+            "id": "assassins-creed-black-flag-resynced",
+            "name": "Assassin's Creed Black Flag Resynced",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "assassins-creed",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Assassin's Creed Black Flag Resynced is getting a real-life treasure hunt with a prize worth half a million dollars, running later this year for between two and five years."
+    },
+    {
+      "ref": "main_news/valve-s-new-steam-controller-wilhelm-screams-if-you-drop-it",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam-controller",
+            "name": "Steam Controller",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Valve's new Steam Controller emits a Wilhelm scream if dropped from a great enough height."
+    },
+    {
+      "ref": "free_games_subscription/ps-plus-premium-and-extra-games-for-may-announced",
+      "entities": {
+        "games": [
+          {
+            "id": "star-wars-outlaws",
+            "name": "Star Wars Outlaws",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "star-wars",
+            "inferred": true
+          },
+          {
+            "id": "red-dead-redemption-2",
+            "name": "Red Dead Redemption 2",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead",
+            "inferred": true
+          },
+          {
+            "id": "bramble-the-mountain-king",
+            "name": "Bramble: The Mountain King",
+            "aliases": [],
+            "genres": ["adventure", "horror"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-thaumaturge",
+            "name": "The Thaumaturge",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "flintlock-the-siege-of-dawn",
+            "name": "Flintlock: The Siege of Dawn",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "broken-sword-shadows-of-the-templar-reforged",
+            "name": "Broken Sword – Shadows of the Templar: Reforged",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": "broken-sword",
+            "inferred": true
+          },
+          {
+            "id": "enotria-the-last-song",
+            "name": "Enotria: The Last Song",
+            "aliases": ["Enotria: The Last Song Standard Edition"],
+            "genres": ["soulslike", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "time-crisis",
+            "name": "Time Crisis",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": "time-crisis",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps-plus",
+            "name": "PS Plus",
+            "aliases": ["PlayStation Plus"],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Sony announced the PS Plus Premium and Extra games for May 2026."
+    },
+    {
+      "ref": "business/sensor-tower-acquires-appmagic",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sensor-tower",
+            "name": "Sensor Tower",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "appmagic",
+            "name": "AppMagic",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Sensor Tower has acquired AppMagic."
+    },
+    {
+      "ref": "business/capcom-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil-requiem",
+            "name": "Resident Evil Requiem",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 195600000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥195.6 billion ($1.2 billion, up 15.2% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 1200000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥195.6 billion ($1.2 billion, up 15.2% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 54500000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥54.5 billion ($345.4 million, up 12.7% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 345400000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥54.5 billion ($345.4 million, up 12.7% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem"
+          }
+        }
+      ],
+      "summary": "Capcom reported annual net sales of ¥195.6 billion and net income of ¥54.5 billion, securing its ninth consecutive year of profit."
+    }
+  ]
+}

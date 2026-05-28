@@ -1,0 +1,141 @@
+{
+  "date": "2026-04-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cyberpunk-2077-gets-a-free-ps5-pro-upgrade-that-brings-pssr",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world", "fps"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Cyberpunk 2077 received a free PS5 Pro upgrade adding PSSR and improved ray tracing options."
+    },
+    {
+      "ref": "business/split-fiction-developer-hazelight-celebrates-50-million-game",
+      "entities": {
+        "games": [
+          { "id": "split-fiction", "name": "Split Fiction", "aliases": [], "genres": ["action-adventure", "party"], "franchise": null, "inferred": true },
+          { "id": "a-way-out", "name": "A Way Out", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "it-takes-two", "name": "It Takes Two", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hazelight", "name": "Hazelight", "aliases": ["Hazelight Studios"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 50000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "hazelight",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-04-09",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Hazelight celebrates 50 million games sales",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/split-fiction-developer-hazelight-celebrates-50-million-units-sold" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 13000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "a-way-out",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-09",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "A Way Out, It Takes Two, and Split Fiction sold 13m, 30m, and 7m units, respectively",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/split-fiction-developer-hazelight-celebrates-50-million-units-sold" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 30000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "it-takes-two",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-09",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "A Way Out, It Takes Two, and Split Fiction sold 13m, 30m, and 7m units, respectively",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/split-fiction-developer-hazelight-celebrates-50-million-units-sold" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 7000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "split-fiction",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-09",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "A Way Out, It Takes Two, and Split Fiction sold 13m, 30m, and 7m units, respectively",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/split-fiction-developer-hazelight-celebrates-50-million-units-sold" }
+        }
+      ],
+      "summary": "Split Fiction developer Hazelight celebrated 50 million games sales, with A Way Out, It Takes Two, and Split Fiction selling 13m, 30m, and 7m units respectively."
+    },
+    {
+      "ref": "business/the-developer-behind-peak-landfall-has-launched-a-publishing",
+      "entities": {
+        "games": [
+          { "id": "peak", "name": "Peak", "aliases": [], "genres": ["survival", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "landfall", "name": "Landfall", "aliases": ["Landfall Games"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "evil-landfall", "name": "Evil Landfall", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Peak developer Landfall launched a publishing arm called Evil Landfall."
+    },
+    {
+      "ref": "business/fully-remote-independent-co-development-collective-1oh1desig",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "1oh1designs", "name": "1oh1Designs", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "A group of industry creatives set up 1oh1Designs, a fully remote, independent co-development collective."
+    }
+  ]
+}

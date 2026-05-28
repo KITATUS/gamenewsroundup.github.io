@@ -1,0 +1,161 @@
+{
+  "date": "2026-03-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/this-summer-s-xbox-games-showcase-is-confirmed-for-june-foll",
+      "entities": {
+        "games": [
+          {
+            "id": "gears-of-war-e-day",
+            "name": "Gears of War: E-Day",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "gears-of-war",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "the-coalition",
+            "name": "The Coalition",
+            "aliases": [],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-06-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "gears-of-war-e-day-direct",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sunday, June 7 at 10am PT / 1pm ET / 6pm BST",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/this-summers-xbox-games-showcase-is-confirmed-for-june-followed-by-a-gears-of-war-e-day-direct/"
+          }
+        }
+      ],
+      "summary": "Microsoft confirmed this summer's Xbox Games Showcase for June, followed by a Gears of War: E-Day Direct on Sunday 7 June 2026."
+    },
+    {
+      "ref": "business/konami-increases-its-starting-salary-in-japan-by-nearly-30-i",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Konami raised its starting salary in Japan by nearly 30% and increased base pay for the fifth year in a row, saying it is consistently investing in human capital."
+    },
+    {
+      "ref": "business/eidos-montr-al-announces-124-job-cuts-studio-head-david-anfo",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "eidos-montreal",
+            "name": "Eidos-Montréal",
+            "aliases": [],
+            "publisher": "embracer-group",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "david-anfossi",
+            "name": "David Anfossi",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["layoffs", "leadership-change"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 124,
+          "unit": "people",
+          "currency": null,
+          "entity": "eidos-montreal",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Eidos-Montréal announces 124 job cuts",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/eidos-montreal-announces-124-job-cuts-studio-head-david-anfossi-departs-after-19-years-at-developer"
+          }
+        }
+      ],
+      "summary": "Eidos-Montréal announced 124 job cuts, and studio head David Anfossi departed after 19 years at the developer."
+    },
+    {
+      "ref": "business/the-list-of-people-hit-by-recent-epic-layoffs-has-been-turne",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "The list of people affected by recent Epic Games layoffs has been turned into a dedicated portal for recruiters."
+    }
+  ]
+}

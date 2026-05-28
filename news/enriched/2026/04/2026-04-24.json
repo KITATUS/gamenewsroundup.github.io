@@ -1,0 +1,94 @@
+{
+  "date": "2026-04-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-confirms-it-s-reevaluating-exclusivity-as-it-shares-fut",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Microsoft Gaming"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Xbox confirmed it is reevaluating exclusivity while sharing a future mission statement, and Microsoft Gaming will be rebranded back to just \"Xbox\"."
+    },
+    {
+      "ref": "main_news/assassin-s-creed-black-flag-resynced-releases-july-9th-for-p",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-black-flag-resynced", "name": "Assassin's Creed Black Flag Resynced", "aliases": [], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-07-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "assassins-creed-black-flag-resynced",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-24",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Assassin's Creed Black Flag Resynced releases July 9th for PS5, Xbox Series S/X and PC",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=PhQ3yQjUgAc" }
+        }
+      ],
+      "summary": "Assassin's Creed Black Flag Resynced is set to release on 9 July 2026 for PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/gang-of-dragon-trailer-and-nagoshi-studio-s-youtube-channel",
+      "entities": {
+        "games": [
+          { "id": "gang-of-dragon", "name": "Gang Of Dragon", "aliases": [], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "nagoshi-studio", "name": "Nagoshi Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "The Gang Of Dragon trailer and Nagoshi Studio's YouTube channel vanished amid a funding crisis."
+    },
+    {
+      "ref": "rumours/gog-reddit-account-teasing-a-re-release-of-freelancer",
+      "entities": {
+        "games": [
+          { "id": "freelancer", "name": "Freelancer", "aliases": [], "genres": ["simulation", "action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour", "release"],
+      "facts": [],
+      "summary": "Rumour that a GOG Reddit account is teasing a re-release of Freelancer."
+    }
+  ]
+}

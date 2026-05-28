@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/assassin-s-creed-boss-provides-updates-on-hexe-invictus-and",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-hexe", "name": "Assassin's Creed Hexe", "aliases": ["Hexe"], "genres": ["action-adventure", "stealth", "open-world"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "assassins-creed-invictus", "name": "Assassin's Creed Invictus", "aliases": ["Invictus"], "genres": ["action-adventure", "stealth"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "assassins-creed-jade", "name": "Assassin's Creed Jade", "aliases": ["Jade"], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "assassins-creed-iv-black-flag", "name": "Assassin's Creed IV: Black Flag", "aliases": ["Black Flag"], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": ["AC Shadows"], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "assassins-creed-unity", "name": "Assassin's Creed Unity", "aliases": ["AC Unity"], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "update-patch"],
+      "facts": [],
+      "summary": "Ubisoft's Assassin's Creed boss gave updates on Hexe, Invictus and Jade, confirmed a Black Flag remake, said AC Shadows updates are winding down, and noted AC Unity is getting a 60fps patch this week."
+    },
+    {
+      "ref": "main_news/final-fantasy-11-locks-down-yet-another-server-as-overpopula",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-11", "name": "Final Fantasy 11", "aliases": ["Final Fantasy 14's predecessor"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "final-fantasy-14", "name": "Final Fantasy 14", "aliases": [], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Final Fantasy 11 has locked down another server as overpopulation continues to affect the MMORPG over two decades after its original launch."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-switch-online-s-march-update-to-the-classics-librar",
+      "entities": {
+        "games": [
+          { "id": "mario-tennis", "name": "Mario Tennis", "aliases": [], "genres": ["sports"], "franchise": "mario", "inferred": true },
+          { "id": "mario-clash", "name": "Mario Clash", "aliases": [], "genres": ["action"], "franchise": "mario", "inferred": true },
+          { "id": "mario-vs-donkey-kong", "name": "Mario Vs Donkey Kong", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": "mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false },
+          { "id": "virtual-boy", "name": "Virtual Boy", "aliases": [], "inferred": false },
+          { "id": "game-boy-advance", "name": "Game Boy Advance", "aliases": ["GBA"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Nintendo Switch Online's March update to the Classics library adds three Mario titles: Mario Tennis (Virtual Boy), Mario Clash (Virtual Boy) and Mario Vs Donkey Kong (GBA)."
+    },
+    {
+      "ref": "business/industry-veteran-fiona-cherback-launches-indie-focused-talen",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rocket-game-talent", "name": "Rocket Game Talent", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "fiona-cherback", "name": "Fiona Cherback", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Industry veteran and former PlayStation and Xbox recruiter Fiona Cherback launched Rocket Game Talent, an indie-focused talent agency aiming to bring AAA hiring expertise to small studios, startups, and indie teams."
+    },
+    {
+      "ref": "business/build-a-rocket-boy-confirms-more-layoffs-amid-further-claims",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build a Rocket Boy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Build a Rocket Boy confirmed more layoffs amid further claims of \"organized espionage and corporate sabotage\"."
+    },
+    {
+      "ref": "business/good-games-group-has-bought-the-humble-and-firestoke-back-ca",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "good-games-group", "name": "Good Games Group", "aliases": ["Balor Games"], "inferred": false },
+          { "id": "humble-games", "name": "Humble", "aliases": [], "inferred": false },
+          { "id": "firestoke", "name": "Firestoke", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Good Games Group, now renamed Balor Games, has bought the Humble and Firestoke back catalogues and wants to invest in triple-I games."
+    },
+    {
+      "ref": "business/paramount-makes-no-reference-to-game-studios-in-first-wb-cal",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "paramount", "name": "Paramount", "aliases": [], "inferred": false },
+          { "id": "warner-bros", "name": "Warner Bros.", "aliases": ["WB"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Paramount made no reference to game studios in its first Warner Bros. call to investors."
+    },
+    {
+      "ref": "rumours/playstation-is-reportedly-ditching-its-pc-release-strategy-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that PlayStation is ditching its PC release strategy, with most single-player first-party games becoming console exclusive."
+    },
+    {
+      "ref": "rumours/unity-technologies-will-close-its-operations-in-france",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "unity-technologies", "name": "Unity Technologies", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Unity Technologies will close its operations in France."
+    }
+  ]
+}

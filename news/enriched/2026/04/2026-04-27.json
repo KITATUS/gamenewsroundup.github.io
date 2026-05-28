@@ -1,0 +1,179 @@
+{
+  "date": "2026-04-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/their-favourite-games-were-already-built-with-ai-google-exec",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "google", "name": "Google", "aliases": ["Google Cloud"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Google Cloud Games executive said almost every big studio uses AI tools, citing Capcom, though not all disclose it."
+    },
+    {
+      "ref": "main_news/final-fantasy-xiv-online-is-coming-to-switch-2-as-new-expans",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-xiv-online", "name": "Final Fantasy XIV Online", "aliases": ["Final Fantasy XIV"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "port", "dlc-expansion"],
+      "facts": [],
+      "summary": "Final Fantasy XIV Online is coming to Switch 2, alongside the reveal of a new expansion called Evercold."
+    },
+    {
+      "ref": "main_news/outrun-streets-of-rage-nights-and-sggg-are-just-four-of-many",
+      "entities": {
+        "games": [
+          { "id": "outrun", "name": "Outrun", "aliases": [], "genres": ["racing"], "franchise": "outrun", "inferred": true },
+          { "id": "streets-of-rage", "name": "Streets of Rage", "aliases": [], "genres": ["fighting"], "franchise": "streets-of-rage", "inferred": true },
+          { "id": "nights", "name": "NiGHTS", "aliases": [], "genres": ["action-adventure"], "franchise": "nights", "inferred": true },
+          { "id": "sggg", "name": "SGGG", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega promised that Outrun, Streets of Rage, NiGHTS, and SGGG are among many series it will revisit or celebrate in 2026."
+    },
+    {
+      "ref": "business/resident-evil-requiem-sales-exceed-7-million-in-less-than-tw",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-4", "name": "Resident Evil 4", "aliases": ["Resident Evil 4 (2023)"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 7000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "resident-evil-requiem",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-27",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Resident Evil Requiem sales exceed 7 Million (in less than two months)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/capcom-throws-resident-evil-party-featuring-geoff-keighley-as-requiem-clears-7-million-sales/" }
+        }
+      ],
+      "summary": "Resident Evil Requiem's sales exceeded 7 million in less than two months since launch."
+    },
+    {
+      "ref": "business/atari-has-acquired-retro-emulation-studio-implicit-conversio",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "implicit-conversions", "name": "Implicit Conversions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Atari acquired retro emulation studio Implicit Conversions, which specialises in PS1 ports."
+    },
+    {
+      "ref": "business/clair-obscur-expedition-33-passes-8-million-in-sales",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["jrpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sandfall-interactive", "name": "Sandfall Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 8000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "clair-obscur-expedition-33",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-27",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Clair Obscur: Expedition 33 passes 8 million in sales",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/clair-obscur-expedition-33-one-year-anniversary-update" }
+        }
+      ],
+      "summary": "Clair Obscur: Expedition 33 has passed 8 million in sales."
+    },
+    {
+      "ref": "business/bulletstorm-dev-people-can-fly-acquires-cooldown-games",
+      "entities": {
+        "games": [
+          { "id": "bulletstorm", "name": "Bulletstorm", "aliases": [], "genres": ["fps", "shooter"], "franchise": "bulletstorm", "inferred": true }
+        ],
+        "studios": [
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "cooldown-games", "name": "Cooldown Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Bulletstorm developer People Can Fly acquired Cooldown Games."
+    },
+    {
+      "ref": "business/gameworks-and-perfcop-are-part-of-a-new-wave-of-tools-for-ke",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Gameworks and PerfCop are part of a new wave of tools for monitoring game performance throughout development."
+    }
+  ]
+}

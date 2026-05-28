@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/new-star-fox-game-announced-for-nintendo-switch-2-releases-j",
+      "entities": {
+        "games": [
+          { "id": "star-fox-64", "name": "Star Fox 64", "aliases": ["Star Fox"], "genres": ["shooter"], "franchise": "star-fox", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-06-25", "unit": "date", "currency": null,
+          "entity": "star-fox-64", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases June 25th 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/a-remake-of-star-fox-64-is-coming-to-switch-2-this-june" } }
+      ],
+      "summary": "A new Star Fox game, a remake of Star Fox 64, was announced for Nintendo Switch 2 with a release date of 25 June 2026."
+    },
+    {
+      "ref": "business/founders-of-gearbox-quebec-announce-new-studio-to-create-ori",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ricochet-games", "name": "Ricochet Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "gearbox-quebec", "name": "Gearbox Studio Québec", "aliases": ["Gearbox Quebec"], "publisher": "gearbox-software", "inferred": true },
+          { "id": "gearbox-software", "name": "Gearbox Software", "aliases": ["Gearbox"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "sebastien-caisse", "name": "Sébastien Caisse", "aliases": [], "inferred": false },
+          { "id": "pierre-andre-dery", "name": "Pierre-André Déry", "aliases": [], "inferred": false },
+          { "id": "maxime-babin", "name": "Maxime Babin", "aliases": [], "inferred": false },
+          { "id": "yanick-piche", "name": "Yanick Piché", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "The founders of Gearbox Studio Québec announced a new studio, Ricochet Games, to create original premium games, with a co-op action-adventure game as its first project."
+    },
+    {
+      "ref": "business/ea-fy26-results",
+      "entities": {
+        "games": [
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "apex-legends", "name": "Apex Legends", "aliases": [], "genres": ["battle-royale", "hero-shooter", "fps"], "franchise": "apex-legends", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 2100000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-05-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net revenue: $2.1 billion (up 12% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-closes-fy26-with-record-performance-thanks-to-battlefield-6-and-apex-legends" } },
+        { "metric": "profit", "value": 461000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-05-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net income: $461 million (up 81.5% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-closes-fy26-with-record-performance-thanks-to-battlefield-6-and-apex-legends" } },
+        { "metric": "revenue", "value": 7530000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-05-07", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net revenue: $7.53 billion (up 1% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-closes-fy26-with-record-performance-thanks-to-battlefield-6-and-apex-legends" } },
+        { "metric": "profit", "value": 887000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-05-07", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Net income: $887 million (down 20.9% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-closes-fy26-with-record-performance-thanks-to-battlefield-6-and-apex-legends" } }
+      ],
+      "summary": "Electronic Arts closed FY26 with record performance driven by Battlefield 6 and Apex Legends, reporting quarterly net revenue of $2.1 billion and full-year net revenue of $7.53 billion."
+    },
+    {
+      "ref": "rumours/mindseye-studio-build-a-rocket-boy-reportedly-lays-off-170-m",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build A Rocket Boy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 170, "unit": "people", "currency": null,
+          "entity": "build-a-rocket-boy", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-05-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "reportedly lays off 170 more employees",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mindseye-studio-reportedly-lays-off-170-employees-following-update-parodying-alleged-attacks/" } }
+      ],
+      "summary": "MindsEye developer Build A Rocket Boy has reportedly laid off 170 more employees, following two prior rounds of layoffs."
+    }
+  ]
+}

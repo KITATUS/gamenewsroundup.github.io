@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/games-with-loot-boxes-in-them-will-be-rated-minimum-pegi-16",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "pegi", "name": "PEGI", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Starting this summer, PEGI will rate games containing loot boxes a minimum of PEGI 16, and online games without blocking or reporting features PEGI 18."
+    },
+    {
+      "ref": "main_news/tomb-raider-1-3-remastered-gets-free-challenge-mode-alongsid",
+      "entities": {
+        "games": [{ "id": "tomb-raider-1-3-remastered", "name": "Tomb Raider 1-3 Remastered", "aliases": ["Tomb Raider"], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "port", "free-game"],
+      "facts": [],
+      "summary": "Tomb Raider 1-3 Remastered is getting a free challenge mode alongside its mobile and Switch 2 release."
+    },
+    {
+      "ref": "main_news/runescape-s-monthly-membership-now-costs-as-much-as-a-world",
+      "entities": {
+        "games": [
+          { "id": "runescape", "name": "RuneScape", "aliases": [], "genres": ["mmorpg"], "franchise": "runescape", "inferred": true },
+          { "id": "world-of-warcraft", "name": "World of Warcraft", "aliases": [], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true }
+        ],
+        "studios": [{ "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change", "subscription"],
+      "facts": [],
+      "summary": "Jagex has announced its second RuneScape price hike in under two years, bringing its monthly membership to the cost of a World of Warcraft subscription."
+    },
+    {
+      "ref": "main_news/the-7th-guest-remake-announced-seems-to-be-a-port-of-the-vr",
+      "entities": {
+        "games": [{ "id": "the-7th-guest-remake", "name": "The 7th Guest Remake", "aliases": ["The 7th Guest"], "genres": ["puzzle", "adventure"], "franchise": "the-7th-guest", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "port"],
+      "facts": [],
+      "summary": "The 7th Guest Remake has been announced, appearing to be a non-VR port of the VR version, coming soon to PS5, Xbox Series S/X, Nintendo Switch and PC."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-03-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fbc-firebreak-just-got-its-last-major-update-along-with-a-pr",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["fps", "shooter"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "price-change", "free-game"],
+      "facts": [],
+      "summary": "FBC: Firebreak received its last major update along with a price drop and a free Friend's Pass."
+    },
+    {
+      "ref": "main_news/new-cyberpunk-tcg-becomes-the-most-funded-tcg-game-in-kickst",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-trading-card-game", "name": "Cyberpunk Trading Card Game", "aliases": ["Cyberpunk TCG"], "genres": ["card"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "kickstarter", "name": "Kickstarter", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "sales-milestone"],
+      "facts": [
+        { "metric": "funding_raised", "value": 7250000, "unit": "money", "currency": "GBP",
+          "entity": "cyberpunk-trading-card-game", "entity_type": "product", "scope": "product",
+          "as_of": "2026-03-19", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "currently sits at £7.25 million",
+          "source": { "name": "Kickstarter", "domain": "kickstarter.com", "url": "https://www.kickstarter.com/projects/cyberpunktcg/the-official-cyberpunk-trading-card-game" } }
+      ],
+      "summary": "A new Cyberpunk trading card game became the most-funded TCG in Kickstarter history, currently sitting at £7.25 million."
+    },
+    {
+      "ref": "main_news/playstation-is-phasing-out-the-playstation-network-branding",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-network", "name": "PlayStation Network", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-09-01", "unit": "date", "currency": null,
+          "entity": "playstation-network", "entity_type": "product", "scope": "product",
+          "as_of": "2026-03-19", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "phasing out the \"PlayStation Network\" branding by September 2026",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/playstation-dropping-pc-network-branding/" } }
+      ],
+      "summary": "PlayStation is phasing out the \"PlayStation Network\" branding by September 2026, with no functionality changes expected."
+    },
+    {
+      "ref": "main_news/cyberpunk-2077-arcade-game-cyberpunk-2077-chrome-rush-traile",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077-chrome-rush", "name": "Cyberpunk 2077: Chrome Rush", "aliases": [], "genres": ["arcade"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "announcement"],
+      "facts": [],
+      "summary": "A trailer was released for Cyberpunk 2077: Chrome Rush, an arcade game set in the Cyberpunk 2077 universe."
+    },
+    {
+      "ref": "business/crystal-dynamics-reduces-workforce-by-20-roles-fourth-round",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "crystal-dynamics", "name": "Crystal Dynamics", "aliases": [], "publisher": "embracer-group", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 20, "unit": "people", "currency": null,
+          "entity": "crystal-dynamics", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-03-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "reduces workforce by 20 roles",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/crystal-dynamics-reduces-workforce-by-20-roles" } }
+      ],
+      "summary": "Crystal Dynamics reduced its workforce by 20 roles in its fourth round of layoffs in 12 months."
+    }
+  ]
+}

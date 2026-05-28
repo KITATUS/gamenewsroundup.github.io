@@ -1,0 +1,140 @@
+{
+  "date": "2026-04-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-s-save-the-world-mode-is-now-available-free-to-play",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["shooter", "survival", "sandbox"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["free-game", "update-patch"],
+      "facts": [
+        { "metric": "peak_concurrent_players", "value": 100000, "unit": "players", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-17", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Peak concurrent player count in the past 24 hours exceeded 100k",
+          "source": { "name": "fortnite.com", "domain": "fortnite.com", "url": "https://www.fortnite.com/news/fortnite-save-the-world-goes-free-to-play-april-16" } }
+      ],
+      "summary": "Fortnite's Save the World mode is now available free-to-play, with peak concurrent players in the past 24 hours exceeding 100k."
+    },
+    {
+      "ref": "main_news/metro-2039-announced-releasing-on-ps5-xbox-series-s-x-and-pc",
+      "entities": {
+        "games": [
+          { "id": "metro-2039", "name": "Metro 2039", "aliases": [], "genres": ["fps", "survival-horror"], "franchise": "metro", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Metro 2039 has been announced, releasing on PS5, Xbox Series S/X and PC this winter."
+    },
+    {
+      "ref": "main_news/phasmophobia-x-alan-wake-collaboration-announced-free-limite",
+      "entities": {
+        "games": [
+          { "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": null, "inferred": true },
+          { "id": "alan-wake", "name": "Alan Wake", "aliases": [], "genres": ["action-adventure", "horror"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-05-12", "unit": "date", "currency": null,
+          "entity": "phasmophobia", "entity_type": "game", "scope": "event",
+          "as_of": "2026-04-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Free limited time event starting May 12th",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=4025B6UAe78" } }
+      ],
+      "summary": "A Phasmophobia x Alan Wake collaboration has been announced as a free limited time event starting May 12th."
+    },
+    {
+      "ref": "business/microsoft-s-matt-booty-details-cross-studio-collaborations-b",
+      "entities": {
+        "games": [
+          { "id": "fable", "name": "Fable", "aliases": [], "genres": ["action-rpg"], "franchise": "fable", "inferred": true },
+          { "id": "sea-of-thieves", "name": "Sea of Thieves", "aliases": [], "genres": ["action-adventure", "adventure"], "franchise": "sea-of-thieves", "inferred": true },
+          { "id": "kiln", "name": "Kiln", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": true },
+          { "id": "rare", "name": "Rare", "aliases": ["Sea of Thieves team"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "matt-booty", "name": "Matt Booty", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Microsoft's Matt Booty detailed cross-studio collaborations, including Blizzard assisting with Fable's cinematics and the Sea of Thieves team helping with Kiln."
+    },
+    {
+      "ref": "business/roblox-to-pay-over-12m-to-state-of-nevada-in-child-safety-se",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": "roblox", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [
+        { "metric": "price", "value": 12000000, "unit": "money", "currency": "USD",
+          "entity": "roblox-corporation", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-04-17", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Roblox to pay over $12m to state of Nevada in child safety settlement",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-to-pay-over-12m-to-state-of-nevada-in-child-safety-settlement" } }
+      ],
+      "summary": "Roblox is to pay over $12m to the state of Nevada in a child safety settlement, with additional protections including enhanced age verification to be implemented nationwide."
+    },
+    {
+      "ref": "business/windrose-has-sold-500-000-copies-in-48-hours",
+      "entities": {
+        "games": [
+          { "id": "windrose", "name": "Windrose", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 500000, "unit": "copies", "currency": null,
+          "entity": "windrose", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Windrose has sold 500,000 copies in 48 hours",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/3041230/view/725783900692938778?l=english" } }
+      ],
+      "summary": "Windrose has sold 500,000 copies in 48 hours."
+    }
+  ]
+}

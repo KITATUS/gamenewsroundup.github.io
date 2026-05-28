@@ -1,0 +1,119 @@
+{
+  "date": "2026-05-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-is-back-on-the-apple-app-store-in-most-regions-as-t",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "apple-app-store", "name": "Apple App Store", "aliases": ["Apple"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Fortnite has returned to the Apple App Store in most regions while the legal battle continues."
+    },
+    {
+      "ref": "main_news/valve-claims-vampire-survivors-and-the-many-copies-that-foll",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Valve has classified Vampire Survivors and the many games that followed it as \"Bullet Heaven\" games."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-the-rest-of-may-have-been-revealed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "The Xbox Game Pass titles for the remainder of May have been revealed."
+    },
+    {
+      "ref": "business/embracer-announces-plan-to-split-into-2-companies-as-tomb-ra",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "darksiders", "name": "Darksiders", "aliases": [], "genres": ["action-adventure"], "franchise": "darksiders", "inferred": true },
+          { "id": "dead-island", "name": "Dead Island", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true },
+          { "id": "kingdom-come-deliverance", "name": "Kingdom Come Deliverance", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-come-deliverance", "inferred": true },
+          { "id": "metro", "name": "Metro", "aliases": [], "genres": ["fps", "survival-horror"], "franchise": "metro", "inferred": true },
+          { "id": "remnant", "name": "Remnant", "aliases": [], "genres": ["tps", "soulslike"], "franchise": "remnant", "inferred": true },
+          { "id": "deus-ex", "name": "Deus Ex", "aliases": [], "genres": ["action-rpg"], "franchise": "deus-ex", "inferred": true },
+          { "id": "timesplitters", "name": "TimeSplitters", "aliases": [], "genres": ["fps"], "franchise": "timesplitters", "inferred": true },
+          { "id": "legacy-of-kain", "name": "Legacy of Kain", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "saints-row", "name": "Saints Row", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "saints-row", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false },
+          { "id": "fellowship-entertainment", "name": "Fellowship Entertainment", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Fellowship Entertainment is planned to be established in 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/embracer-announces-plan-to-split-into-2-companies-as-tomb-raider-and-lotr-spun-off/" } }
+      ],
+      "summary": "Embracer announced a plan to split into two companies, with Tomb Raider and The Lord of the Rings spun off into a new IP-led firm, Fellowship Entertainment."
+    },
+    {
+      "ref": "business/far-far-west-sells-over-1-million-copies-in-three-weeks-publ",
+      "entities": {
+        "games": [
+          { "id": "far-far-west", "name": "Far Far West", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "fireshine-games", "name": "Fireshine Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "far-far-west", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-20", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Far Far West sells over 1 million copies in three weeks",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/far-far-west-sells-one-million-copies" } }
+      ],
+      "summary": "Far Far West sold over one million copies in three weeks, and publisher Fireshine Games rejects generative AI while permitting other AI tools such as code completion."
+    }
+  ]
+}

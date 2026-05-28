@@ -1,0 +1,68 @@
+{
+  "date": "2026-04-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/as-part-of-the-new-playstation-playerbase-initative-playstat",
+      "entities": {
+        "games": [
+          { "id": "gran-turismo-7", "name": "Gran Turismo 7", "aliases": [], "genres": ["racing", "simulation"], "franchise": "gran-turismo", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "As part of a new PlayStation Playerbase initiative, PlayStation is seeking its biggest fans to scan their faces and place them in games, beginning with Gran Turismo 7."
+    },
+    {
+      "ref": "main_news/impossible-mission-3-is-coming-on-may-18th-nearly-40-years-a",
+      "entities": {
+        "games": [
+          { "id": "impossible-mission-3", "name": "Impossible Mission 3", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "impossible-mission", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "commodore-64", "name": "Commodore 64", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-05-18", "unit": "date", "currency": null,
+          "entity": "impossible-mission-3", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Impossible Mission 3 is coming on May 18th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/impossible-mission-3-is-coming-in-may-nearly-40-years-after-the-second-game-in-the-iconic-uk-series/" } }
+      ],
+      "summary": "Impossible Mission 3 is coming on May 18th, nearly 40 years after the second game in the UK series, releasing digitally and as a physical Commodore 64 cassette tape."
+    },
+    {
+      "ref": "free_games_subscription/xbox-has-revealed-18-game-pass-titles-for-april-including-ha",
+      "entities": {
+        "games": [
+          { "id": "hades-2", "name": "Hades 2", "aliases": [], "genres": ["action-rpg", "roguelike"], "franchise": "hades", "inferred": true },
+          { "id": "kiln", "name": "Kiln", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "vampire-crawlers", "name": "Vampire Crawlers", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [],
+      "summary": "Xbox has revealed 18 Game Pass titles for April, including Hades 2, Kiln and Vampire Crawlers."
+    }
+  ]
+}

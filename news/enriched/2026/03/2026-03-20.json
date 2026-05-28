@@ -1,0 +1,346 @@
+{
+  "date": "2026-03-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-is-shutting-down-one-of-the-two-playstation-vr2-exclusi",
+      "entities": {
+        "games": [
+          {
+            "id": "firewall-ultra",
+            "name": "Firewall Ultra",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "firewall",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "first-contact-entertainment",
+            "name": "First Contact Entertainment",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-vr2",
+            "name": "PlayStation VR2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting", "studio-closure"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-09-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "firewall-ultra",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Firewall Ultra's servers are shutting down on September 17th 2026",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/sony-is-quietly-shutting-down-one-of-the-two-playstation-vr2-exclusives-it-published/"
+          }
+        }
+      ],
+      "summary": "Sony is shutting down the servers of PlayStation VR2 exclusive Firewall Ultra on 17 September 2026, rendering the already-delisted game unplayable; developer First Contact Entertainment closed in January 2024."
+    },
+    {
+      "ref": "main_news/vampire-survivors-deck-building-spin-off-vampire-crawlers-re",
+      "entities": {
+        "games": [
+          {
+            "id": "vampire-crawlers",
+            "name": "Vampire Crawlers",
+            "aliases": [],
+            "genres": ["card", "roguelike"],
+            "franchise": "vampire-survivors",
+            "inferred": true
+          },
+          {
+            "id": "vampire-survivors",
+            "name": "Vampire Survivors",
+            "aliases": [],
+            "genres": ["roguelike"],
+            "franchise": "vampire-survivors",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-5",
+            "name": "PS5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series S/X",
+            "aliases": ["Xbox Series S/X"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-04-21",
+          "unit": "date",
+          "currency": null,
+          "entity": "vampire-crawlers",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Vampire Crawlers releases April 21st on PS5, PC, Xbox Series S/X",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/vampire-survivors-deck-building-spin-off-vampire-crawlers-arrives-next-month"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 9.99,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "vampire-crawlers",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£9.99/€9.99/$9.99/¥1200",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/vampire-survivors-deck-building-spin-off-vampire-crawlers-arrives-next-month"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 9.99,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "vampire-crawlers",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£9.99/€9.99/$9.99/¥1200",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/vampire-survivors-deck-building-spin-off-vampire-crawlers-arrives-next-month"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 9.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "vampire-crawlers",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£9.99/€9.99/$9.99/¥1200",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/vampire-survivors-deck-building-spin-off-vampire-crawlers-arrives-next-month"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 1200,
+          "unit": "price",
+          "currency": "JPY",
+          "entity": "vampire-crawlers",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£9.99/€9.99/$9.99/¥1200",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/vampire-survivors-deck-building-spin-off-vampire-crawlers-arrives-next-month"
+          }
+        }
+      ],
+      "summary": "Vampire Survivors' deck-building spin-off Vampire Crawlers releases on 21 April 2026 on PS5, PC, and Xbox Series S/X for £9.99/€9.99/$9.99/¥1200."
+    },
+    {
+      "ref": "main_news/epic-games-expands-unreal-editor-for-fortnite-uefn-with-offi",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "sandbox"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "unreal-editor-for-fortnite",
+            "name": "Unreal Editor for Fortnite",
+            "aliases": ["UEFN"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "partnership"],
+      "facts": [],
+      "summary": "Epic Games expanded Unreal Editor for Fortnite (UEFN) with official Star Wars assets, templates, and gameplay systems for creators to use."
+    },
+    {
+      "ref": "main_news/fortnite-back-on-google-play-worldwide-after-epic-and-google",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "sandbox"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "google",
+            "name": "Google",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "google-play",
+            "name": "Google Play",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Fortnite has returned to Google Play worldwide after Epic and Google settled."
+    },
+    {
+      "ref": "business/ubisoft-ends-game-development-at-tom-clancy-studio-red-storm",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "red-storm-entertainment",
+            "name": "Red Storm",
+            "aliases": ["Red Storm"],
+            "publisher": "ubisoft",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 105,
+          "unit": "people",
+          "currency": null,
+          "entity": "red-storm-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-03-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "resulting in 105 job losses",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisoft-ends-game-development-at-tom-clancy-studio-red-storm-resulting-in-105-job-losses/"
+          }
+        }
+      ],
+      "summary": "Ubisoft is ending game development at Tom Clancy studio Red Storm, resulting in 105 job losses."
+    }
+  ]
+}

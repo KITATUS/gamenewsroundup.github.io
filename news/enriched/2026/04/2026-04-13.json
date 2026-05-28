@@ -1,0 +1,131 @@
+{
+  "date": "2026-04-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/rockstar-confirms-new-data-breach-after-hacker-group-threate",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Rockstar confirmed a new data breach in which a hacker group threatened to leak data, with Rockstar claiming only a limited amount of non-material company information was accessed."
+    },
+    {
+      "ref": "main_news/amazon-luna-has-stopped-offering-individual-games-and-subscr",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": true },
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "amazon-luna", "name": "Amazon Luna", "aliases": ["Luna"], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "subscription"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-06-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "amazon-luna",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-04-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "can continue to play them until June 10, at which point Luna will no longer support them",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-luna-has-stopped-offering-individual-games-and-subscriptions-from-third-party-stores/" }
+        }
+      ],
+      "summary": "Amazon Luna has stopped offering individual games and subscriptions from third-party stores, with previously purchased titles playable until June 10 before Luna ends support for them."
+    },
+    {
+      "ref": "main_news/after-20-years-in-pre-production-limbo-a-metal-gear-solid-mo",
+      "entities": {
+        "games": [{ "id": "metal-gear-solid", "name": "Metal Gear Solid", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "zach-lipovsky", "name": "Zach Lipovsky", "aliases": [], "inferred": false },
+          { "id": "adam-stein", "name": "Adam Stein", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "After 20 years in pre-production limbo, a Metal Gear Solid movie is moving forward with Final Destination Bloodlines directors Zach Lipovsky and Adam Stein attached to direct."
+    },
+    {
+      "ref": "main_news/the-james-bond-ip-owner-has-opposed-an-attempt-to-trademark",
+      "entities": {
+        "games": [{ "id": "james-pond", "name": "James Pond", "aliases": [], "genres": ["platformer"], "franchise": "james-pond", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "The James Bond IP owner has opposed an attempt to trademark the '90s parody video game character James Pond."
+    },
+    {
+      "ref": "main_news/ex-bethesda-exec-pete-hines-says-the-elder-scrolls-6-maker-i",
+      "entities": {
+        "games": [{ "id": "the-elder-scrolls-6", "name": "The Elder Scrolls 6", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true }],
+        "studios": [{ "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": ["Bethesda"], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "pete-hines", "name": "Pete Hines", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ex-Bethesda executive Pete Hines said that the maker of The Elder Scrolls 6 is not part of something 'genuine' or 'authentic' at Microsoft."
+    },
+    {
+      "ref": "business/ex-mpg-ceo-andy-norman-joins-codedev-as-chief-operating-offi",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "mpg", "name": "MPG", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "codedev", "name": "CodeDev", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "andy-norman", "name": "Andy Norman", "aliases": [], "inferred": false },
+          { "id": "rik-alexander", "name": "Rik Alexander", "aliases": [], "inferred": false },
+          { "id": "myke-parrott", "name": "Myke Parrott", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former MPG CEO Andy Norman has joined CodeDev as Chief Operating Officer, working alongside fellow ex-MPG CEO Rik Alexander (Chair) and CEO Myke Parrott."
+    },
+    {
+      "ref": "rumours/epic-set-to-release-arc-raiders-like-extraction-shooter-with",
+      "entities": {
+        "games": [{ "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter"], "franchise": null, "inferred": false }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "disney", "name": "Disney", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Epic is set to release an Arc Raiders-like extraction shooter featuring Disney characters by the end of the year."
+    }
+  ]
+}

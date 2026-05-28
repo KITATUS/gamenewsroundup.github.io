@@ -1,0 +1,499 @@
+{
+  "date": "2026-05-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/after-a-fan-poll-microsoft-s-new-games-boss-asha-sharma-is-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["XBOX"], "inferred": false }
+        ],
+        "people": [
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "leadership-change"],
+      "facts": [],
+      "summary": "Following a fan poll, Microsoft's new games boss Asha Sharma is seemingly rebranding Xbox to 'XBOX'."
+    },
+    {
+      "ref": "main_news/lego-2k-drive-set-to-be-delisted-may-19th-with-multiplayer-s",
+      "entities": {
+        "games": [
+          { "id": "lego-2k-drive", "name": "Lego 2K Drive", "aliases": [], "genres": ["racing"], "franchise": "lego", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting", "shutdown"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-05-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "lego-2k-drive",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Set to be Delisted May 19th",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com",
+            "url": "https://www.ign.com/articles/lego-2k-drive-set-to-be-delisted-next-week-with-multiplayer-shutdown-scheduled-for-2027"
+          }
+        },
+        {
+          "metric": "shutdown_date",
+          "value": "2027-05-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "lego-2k-drive",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Multiplayer Shutdown Scheduled for May 31st, 2027",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com",
+            "url": "https://www.ign.com/articles/lego-2k-drive-set-to-be-delisted-next-week-with-multiplayer-shutdown-scheduled-for-2027"
+          }
+        }
+      ],
+      "summary": "Lego 2K Drive is set to be delisted on 19 May 2026, with its multiplayer shutdown scheduled for 31 May 2027."
+    },
+    {
+      "ref": "business/subnautica-2-sells-2-million-in-12-hours-with-over-600k-conc",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [
+          { "id": "unknown-worlds", "name": "Unknown Worlds", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "subnautica-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Subnautica 2 sells 2 million in 12 hours",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/subnautica-2-sells-2-million-in-12-hours-with-over-600k-concurrent-players/"
+          }
+        },
+        {
+          "metric": "concurrent_players",
+          "value": 600000,
+          "unit": "players",
+          "currency": null,
+          "entity": "subnautica-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "with over 600K concurrent players",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/subnautica-2-sells-2-million-in-12-hours-with-over-600k-concurrent-players/"
+          }
+        }
+      ],
+      "summary": "Subnautica 2 sold 2 million copies in 12 hours with over 600,000 concurrent players."
+    },
+    {
+      "ref": "business/terraria-marks-70-million-sales-and-15th-anniversary-with-a",
+      "entities": {
+        "games": [
+          { "id": "terraria", "name": "Terraria", "aliases": [], "genres": ["sandbox", "adventure", "survival"], "franchise": "terraria", "inferred": true }
+        ],
+        "studios": [
+          { "id": "re-logic", "name": "Re-Logic", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 70000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "terraria",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Terraria marks 70 million sales",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/terraria-70m-sales-15-anniversary"
+          }
+        }
+      ],
+      "summary": "Terraria has marked 70 million sales and its 15th anniversary, with a promise to continue beyond its next big update."
+    },
+    {
+      "ref": "business/may-2026-games-industry-role-appointments-round-up",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "diva-agency", "name": "Diva Agency", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "two-point-studios", "name": "Two Point Studios", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "keywords-studios", "name": "Keywords Studios", "aliases": ["Keywords"], "publisher": null, "inferred": false },
+          { "id": "jam-city", "name": "Jam City", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "aardman", "name": "Aardman", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "lorna-probert", "name": "Lorna Probert", "aliases": [], "inferred": false },
+          { "id": "jo-koehler", "name": "Jo Koehler", "aliases": [], "inferred": false },
+          { "id": "pete-smith", "name": "Pete Smith", "aliases": [], "inferred": false },
+          { "id": "samantha-ebelthite", "name": "Samantha Ebelthite", "aliases": [], "inferred": false },
+          { "id": "joshua-yguado", "name": "Joshua Yguado", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "GamesIndustry.biz's May 2026 round-up of games industry role appointments, led by Two Point Studios appointing Jo Koehler as COO."
+    },
+    {
+      "ref": "business/nexon-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 152200000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: ¥152.2 billion ($959.9 million, up 34% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-q1-net-income-rises-118-to-3607m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 959900000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: ¥152.2 billion ($959.9 million, up 34% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-q1-net-income-rises-118-to-3607m"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 58200000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥58.2 billion ($367 million, up 40% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-q1-net-income-rises-118-to-3607m"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 367000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥58.2 billion ($367 million, up 40% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-q1-net-income-rises-118-to-3607m"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 57200000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥57.2 billion ($360.7 million, 118% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-q1-net-income-rises-118-to-3607m"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 360700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥57.2 billion ($360.7 million, 118% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-q1-net-income-rises-118-to-3607m"
+          }
+        }
+      ],
+      "summary": "Nexon reported Q1 revenue of ¥152.2 billion, operating income of ¥58.2 billion and net income of ¥57.2 billion, all up year-over-year."
+    },
+    {
+      "ref": "business/square-enix-fy26-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 297600000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥297.6 billion ($1.8 billion, down 8.3% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 1800000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥297.6 billion ($1.8 billion, down 8.3% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 172800000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Digital entertainment sales: ¥172.8 billion ($1.08 billion, down 16.3％ year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 1080000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Digital entertainment sales: ¥172.8 billion ($1.08 billion, down 16.3％ year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 54700000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥54.7 billion ($344.9 million, up 34.9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 344900000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥54.7 billion ($344.9 million, up 34.9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 29600000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Profit attributable to owners of parent: ¥29.6 billion ($186.6 million, up 21.3% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 186600000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Profit attributable to owners of parent: ¥29.6 billion ($186.6 million, up 21.3% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline"
+          }
+        }
+      ],
+      "summary": "Square Enix reported FY26 operating income up 34.9% to ¥54.7 billion despite net sales falling 8.3% to ¥297.6 billion."
+    }
+  ]
+}

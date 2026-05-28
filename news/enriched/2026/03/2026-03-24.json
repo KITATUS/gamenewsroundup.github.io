@@ -1,0 +1,122 @@
+{
+  "date": "2026-03-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/microsoft-announces-xbox-partner-preview-for-this-week-with",
+      "entities": {
+        "games": [
+          {
+            "id": "stranger-than-heaven",
+            "name": "Stranger Than Heaven",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ryu-ga-gotoku-studio",
+            "name": "Ryu Ga Gotoku",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-03-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "xbox-partner-preview",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-03-24",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Thursday, 26th March, 5pm UK / 10am Pacific / 1pm Eastern",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/microsoft-announces-xbox-partner-preview-for-this-week-with-ryu-ga-gotokus-stranger-than-heaven-finally-making-a-showing"
+          }
+        }
+      ],
+      "summary": "Microsoft announced an Xbox Partner Preview showcase for Thursday 26 March 2026, lasting roughly 30 minutes and featuring Ryu Ga Gotoku's Stranger Than Heaven."
+    },
+    {
+      "ref": "main_news/roblox-insists-plans-to-start-charging-creators-for-brand-in",
+      "entities": {
+        "games": [
+          {
+            "id": "roblox",
+            "name": "Roblox",
+            "aliases": [],
+            "genres": ["sandbox"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "roblox-corporation",
+            "name": "Roblox Corporation",
+            "aliases": ["Roblox"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "Roblox insisted that its plans to start charging creators for brand integrations are not about revenue but about evolving its responsibility to users, creators and brands."
+    },
+    {
+      "ref": "main_news/capcom-says-it-will-use-generative-ai-to-speed-up-production",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Capcom said it will use generative AI to speed up production for efficiency in graphics, sound and programming, but not for asset creation."
+    }
+  ]
+}

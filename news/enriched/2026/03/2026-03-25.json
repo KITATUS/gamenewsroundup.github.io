@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/epic-games-is-laying-off-over-1-000-employees-due-to-fortnit",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "fortnite-festival", "name": "Fortnite Festival", "aliases": [], "genres": ["rhythm"], "franchise": "fortnite", "inferred": true },
+          { "id": "fortnite-ballistic", "name": "Ballistic", "aliases": [], "genres": ["fps", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "rocket-racing", "name": "Rocket Racing", "aliases": [], "genres": ["racing"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "shutdown"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 1000, "unit": "people", "currency": null,
+          "entity": "epic-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-03-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Epic Games is laying off over 1,000 employees due to ‘Fortnite downturn’",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/im-sorry-were-here-again-epic-games-is-laying-off-over-1000-employees/" } }
+      ],
+      "summary": "Epic Games is laying off over 1,000 employees, citing a Fortnite downturn, and will sunset Fortnite Festival's Battle Stage, Ballistic and Rocket Racing."
+    },
+    {
+      "ref": "business/behaviour-interactive-acquires-7-days-to-die-developer-the-f",
+      "entities": {
+        "games": [
+          { "id": "7-days-to-die", "name": "7 Days to Die", "aliases": [], "genres": ["survival", "survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "the-fun-pimps", "name": "The Fun Pimps", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Behaviour Interactive has acquired The Fun Pimps, the developer of 7 Days to Die."
+    },
+    {
+      "ref": "business/sony-closes-first-party-studio-dark-outlaw-games-developer-w",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "dark-outlaw-games", "name": "Dark Outlaw Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jason-blundell", "name": "Jason Blundell", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 50, "unit": "people", "currency": null,
+          "entity": "dark-outlaw-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-03-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Approx 50 people affected.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sony-closes-first-party-studio-dark-outlaw-games" } }
+      ],
+      "summary": "Sony has closed its first-party studio Dark Outlaw Games, founded by Jason Blundell in March 2025, with approximately 50 people affected amid further PlayStation cuts."
+    }
+  ]
+}

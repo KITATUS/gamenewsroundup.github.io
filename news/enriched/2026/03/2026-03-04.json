@@ -1,0 +1,158 @@
+{
+  "date": "2026-03-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/highguard-servers-to-go-offline-on-march-12-2026-game-launch",
+      "entities": {
+        "games": [
+          { "id": "highguard", "name": "Highguard", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-03-12", "unit": "date", "currency": null,
+          "entity": "highguard", "entity_type": "game", "scope": "game",
+          "as_of": "2026-03-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Highguard servers to go offline on March 12, 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/3-months-after-closing-the-game-awards-highguard-is-officially-shutting-down/" } },
+        { "metric": "release_date", "value": "2026-01-26", "unit": "date", "currency": null,
+          "entity": "highguard", "entity_type": "game", "scope": "game",
+          "as_of": "2026-03-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Game launched January 26th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/3-months-after-closing-the-game-awards-highguard-is-officially-shutting-down/" } }
+      ],
+      "summary": "Highguard's servers will go offline on 12 March 2026, less than two months after the game launched on 26 January."
+    },
+    {
+      "ref": "main_news/the-unity-asset-store-is-ditching-publishers-based-in-china",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity-technologies", "name": "Unity Technologies", "aliases": ["Unity", "Unity Asset Store"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "unity-asset-store", "name": "Unity Asset Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "regulation"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-03-31", "unit": "date", "currency": null,
+          "entity": "unity-asset-store", "entity_type": "platform", "scope": "platform",
+          "as_of": "2026-03-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Assets from creators in those regions will be delisted on March 31, 2026",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/production/the-unity-asset-store-is-ditching-publishers-based-in-china-hong-kong-and-macau" } }
+      ],
+      "summary": "The Unity Asset Store will delist assets from publishers based in China, Hong Kong, and Macau on 31 March 2026 due to updated regional licensing and compliance requirements."
+    },
+    {
+      "ref": "main_news/let-it-die-is-going-offline-after-nearly-a-decade-of-live-se",
+      "entities": {
+        "games": [
+          { "id": "let-it-die", "name": "Let It Die", "aliases": [], "genres": ["action-rpg", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Let It Die will shut down its live service after nearly a decade and shift into an offline version in fall 2026."
+    },
+    {
+      "ref": "free_games_subscription/march-xbox-game-pass-titles-revealed-final-fantasy-iii-kingd",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-iii", "name": "Final Fantasy III", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "kingdom-come-deliverance-ii", "name": "Kingdom Come: Deliverance II", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true },
+          { "id": "to-a-t", "name": "to a T", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "ea-sports-f1-25", "name": "EA Sports F1 25", "aliases": [], "genres": ["racing", "sports"], "franchise": "f1", "inferred": true },
+          { "id": "planet-of-lana-ii-children-of-the-leaf", "name": "Planet of Lana II: Children of the Leaf", "aliases": [], "genres": ["puzzle", "platformer", "adventure"], "franchise": "planet-of-lana", "inferred": true },
+          { "id": "construction-simulator", "name": "Construction Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true },
+          { "id": "dreamworks-gabbys-dollhouse-ready-to-party", "name": "DreamWorks Gabby's Dollhouse: Ready to Party", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [],
+      "summary": "Microsoft revealed the March Xbox Game Pass titles, including Final Fantasy III, Kingdom Come: Deliverance II, Cyberpunk 2077, and Hollow Knight: Silksong."
+    },
+    {
+      "ref": "business/resident-evil-requiem-surpasses-5-million-units-in-5-days",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 5000000, "unit": "units", "currency": null,
+          "entity": "resident-evil-requiem", "entity_type": "game", "scope": "game",
+          "as_of": "2026-03-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Resident Evil Requiem surpasses 5 million units in 5 days",
+          "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/news/html/e260304.html" } }
+      ],
+      "summary": "Resident Evil Requiem surpassed 5 million units sold within five days of release."
+    },
+    {
+      "ref": "business/killing-floor-dev-tripwire-interactive-lays-off-23-employees",
+      "entities": {
+        "games": [
+          { "id": "killing-floor", "name": "Killing Floor", "aliases": [], "genres": ["fps", "shooter"], "franchise": "killing-floor", "inferred": true }
+        ],
+        "studios": [
+          { "id": "tripwire-interactive", "name": "Tripwire Interactive", "aliases": ["Tripwire"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 23, "unit": "people", "currency": null,
+          "entity": "tripwire-interactive", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-03-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tripwire Interactive lays off 23 employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/killing-floor-dev-tripwire-interactive-lays-off-23-employees" } }
+      ],
+      "summary": "Killing Floor developer Tripwire Interactive laid off 23 employees, around 20% of its staff."
+    },
+    {
+      "ref": "rumours/trump-administration-debating-if-to-pressure-tencent-to-dive",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "rumour"],
+      "facts": [],
+      "summary": "A report claims the Trump administration is debating whether to pressure Tencent to divest from US gaming studios."
+    }
+  ]
+}

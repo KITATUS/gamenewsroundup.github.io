@@ -1,0 +1,131 @@
+{
+  "date": "2026-03-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/from-april-2nd-ps5-console-prices-are-being-raised-globally",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-04-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-03-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "From April 2nd, PS5 console prices are being raised globally",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/confirmed-ps5-console-prices-are-being-raised-by-100/" }
+        }
+      ],
+      "summary": "Sony is raising PS5 console prices globally from 2 April 2026, with base and digital consoles up $100 and the PS5 Pro up $150."
+    },
+    {
+      "ref": "main_news/sniper-elite-studio-rebellion-reveals-alien-deathstorm-an-ac",
+      "entities": {
+        "games": [
+          { "id": "alien-deathstorm", "name": "Alien Deathstorm", "aliases": [], "genres": ["fps", "horror"], "franchise": "alien", "inferred": false },
+          { "id": "sniper-elite", "name": "Sniper Elite", "aliases": [], "genres": ["shooter", "stealth"], "franchise": "sniper-elite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rebellion", "name": "Rebellion", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Rebellion, the studio behind Sniper Elite, revealed Alien Deathstorm, an action horror FPS releasing in 2027."
+    },
+    {
+      "ref": "main_news/krafton-cancels-f2p-pubg-spin-off-pubg-blindspot-after-just",
+      "entities": {
+        "games": [
+          { "id": "pubg-blindspot", "name": "PUBG: Blindspot", "aliases": [], "genres": ["shooter"], "franchise": "pubg", "inferred": true },
+          { "id": "pubg", "name": "PUBG", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Krafton cancelled its free-to-play PUBG spin-off PUBG: Blindspot just two months after launch."
+    },
+    {
+      "ref": "business/as-crimson-desert-nears-5-million-sales-pearl-abyss-ceo-says",
+      "entities": {
+        "games": [
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pearl-abyss", "name": "Pearl Abyss", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "port"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 5000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "crimson-desert",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "As Crimson Desert nears 5 million sales",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/as-crimson-desert-nears-5-million-sales-pearl-abyss-ceo-says-its-looking-into-a-switch-2-port/" }
+        }
+      ],
+      "summary": "With Crimson Desert nearing 5 million sales, Pearl Abyss's CEO said the studio is looking into a Switch 2 port."
+    },
+    {
+      "ref": "rumours/the-legend-of-zelda-ocarina-of-time-remake-and-new-star-fox",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-ocarina-of-time", "name": "The Legend of Zelda: Ocarina of Time", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "star-fox", "name": "Star Fox", "aliases": [], "genres": ["shooter"], "franchise": "star-fox", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour", "remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Rumour that a remake of The Legend of Zelda: Ocarina of Time and a new Star Fox game are expected to release this year."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-04-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mcdonalds-t-rkiye-s-new-archie-device-stops-you-going-afk-wh",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "mcdonalds", "name": "McDonald's", "aliases": ["McDonalds"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "McDonald's Türkiye unveiled a new device called 'Archie' designed to stop you going AFK while you eat a Big Mac."
+    },
+    {
+      "ref": "main_news/double-dragon-and-river-city-randsom-creator-yoshihisa-kishi",
+      "entities": {
+        "games": [
+          { "id": "double-dragon", "name": "Double Dragon", "aliases": [], "genres": ["fighting", "action-adventure"], "franchise": "double-dragon", "inferred": true },
+          { "id": "river-city-ransom", "name": "River City Ransom", "aliases": ["River City Randsom"], "genres": ["action-adventure"], "franchise": "kunio-kun", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "yoshihisa-kishimoto", "name": "Yoshihisa Kishimoto", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Double Dragon and River City Ransom creator Yoshihisa Kishimoto has passed away at the age of 64."
+    },
+    {
+      "ref": "business/take-two-lays-off-ai-team",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Take-Two laid off its AI team."
+    }
+  ]
+}

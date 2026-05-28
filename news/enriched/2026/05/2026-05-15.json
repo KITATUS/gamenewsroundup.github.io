@@ -1,0 +1,129 @@
+{
+  "date": "2026-05-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/bobby-prince-s-doom-soundtrack-inducted-into-library-of-cong",
+      "entities": {
+        "games": [
+          { "id": "doom", "name": "Doom", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "id-software", "name": "id Software", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "bobby-prince", "name": "Bobby Prince", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Bobby Prince's Doom soundtrack has been inducted into the Library of Congress."
+    },
+    {
+      "ref": "business/subnautica-2-has-reached-1-million-copies-sold",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [
+          { "id": "unknown-worlds", "name": "Unknown Worlds", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "subnautica-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-15",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Subnautica 2 has reached 1 million copies sold",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/subnautica.bsky.social" }
+        }
+      ],
+      "summary": "Subnautica 2 has reached 1 million copies sold."
+    },
+    {
+      "ref": "business/windrose-passes-2-million-copies-sold",
+      "entities": {
+        "games": [
+          { "id": "windrose", "name": "Windrose", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "windrose",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-15",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Windrose passes 2 Million copies sold",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/3041230/view/666113645632029125" }
+        }
+      ],
+      "summary": "Windrose has passed 2 million copies sold."
+    },
+    {
+      "ref": "rumours/amazon-reportedly-cancels-lord-of-the-rings-mmo-firm-s-head",
+      "entities": {
+        "games": [
+          { "id": "lord-of-the-rings-mmo", "name": "Lord of the Rings MMO", "aliases": [], "genres": ["mmo", "mmorpg"], "franchise": "the-lord-of-the-rings", "inferred": true }
+        ],
+        "studios": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": ["Amazon"], "publisher": "amazon", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "rumour"],
+      "facts": [],
+      "summary": "Amazon has reportedly cancelled its Lord of the Rings MMO, with its head of games saying the company is working on a new game experience within the franchise."
+    },
+    {
+      "ref": "rumours/wwe-2k26-dev-visual-concepts-is-laying-off-staff-unknown-amo",
+      "entities": {
+        "games": [
+          { "id": "wwe-2k26", "name": "WWE 2K26", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true }
+        ],
+        "studios": [
+          { "id": "visual-concepts", "name": "Visual Concepts", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "WWE 2K26 developer Visual Concepts is reportedly laying off an unknown number of staff."
+    }
+  ]
+}

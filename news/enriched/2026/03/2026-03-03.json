@@ -1,0 +1,149 @@
+{
+  "date": "2026-03-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nacon-delays-game-showcase-after-filing-for-insolvency-we-ar",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "nacon", "name": "Nacon", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Nacon has delayed its game showcase after filing for insolvency, saying it is choosing to focus its resources."
+    },
+    {
+      "ref": "main_news/nintendo-announces-indie-world-showcase-today-march-3-at-6am",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-03-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "indie-world",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-03-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Today (March 3)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-announces-indie-world-showcase-for-this-week/"
+          }
+        }
+      ],
+      "summary": "Nintendo announced an Indie World showcase taking place on March 3."
+    },
+    {
+      "ref": "main_news/capcom-spotlight-stream-announced-for-march-5-featuring-game",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-stories-3-twisted-reflection", "name": "Monster Hunter Stories 3: Twisted Reflection", "aliases": [], "genres": ["jrpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "pragmata", "name": "Pragmata", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "mega-man-star-force-legacy-collection", "name": "Mega Man Star Force Legacy Collection", "aliases": [], "genres": ["action-rpg"], "franchise": "mega-man", "inferred": true },
+          { "id": "mega-man-dual-override", "name": "Mega Man Dual Override", "aliases": [], "genres": ["platformer"], "franchise": "mega-man", "inferred": true },
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-03-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "capcom-spotlight",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-03-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Capcom Spotlight stream announced for March 5",
+          "source": {
+            "name": "capcom-games.com",
+            "domain": "capcom-games.com",
+            "url": "https://www.capcom-games.com/showcase/spotlight/en-us/"
+          }
+        }
+      ],
+      "summary": "Capcom announced a Spotlight stream for March 5 featuring Monster Hunter Stories 3: Twisted Reflection, Pragmata, Mega Man Star Force Legacy Collection, Mega Man Dual Override, and Street Fighter 6."
+    },
+    {
+      "ref": "business/warner-bros-discovery-is-rebuilding-its-video-game-pipeline",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros-discovery", "name": "Warner Bros. Discovery", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 3180000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "warner-bros-discovery",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-03-03",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "revenue was down 14% year-on-year to $3.18 billion",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/warner-bros-discovery-is-rebuilding-its-video-game-pipeline-after-a-significant-2025"
+          }
+        }
+      ],
+      "summary": "Warner Bros. Discovery is rebuilding its video game pipeline after a significant 2025, with its full Studios segment revenue down 14% year-on-year to $3.18 billion."
+    },
+    {
+      "ref": "business/halfbrick-studios-is-cutting-jobs-in-australia-unknown-amoun",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "halfbrick-studios", "name": "Halfbrick Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Halfbrick Studios is cutting jobs in Australia, with an unknown number of people affected."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "date": "2026-03-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/after-tekken-8-season-3-led-to-a-mostly-negative-rating-on-s",
+      "entities": {
+        "games": [
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "After Tekken 8 Season 3 drew a Mostly Negative rating on Steam, Bandai Namco is working on an emergency patch to win fans back."
+    },
+    {
+      "ref": "main_news/half-life-2-writer-erik-wolpaw-says-some-people-at-valve-are",
+      "entities": {
+        "games": [
+          { "id": "half-life-2", "name": "Half-Life 2", "aliases": [], "genres": ["fps"], "franchise": "half-life", "inferred": true }
+        ],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "erik-wolpaw", "name": "Erik Wolpaw", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Half-Life 2 writer Erik Wolpaw says some people at Valve are exploring AI tools but he is not worried about AI taking over creative writing anytime soon."
+    },
+    {
+      "ref": "main_news/jason-schreier-exact-budgets-of-video-game-productions-can-b",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jason-schreier", "name": "Jason Schreier", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "development_budget",
+          "value": 300000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "aaa-game-development",
+          "entity_type": "product",
+          "scope": "company",
+          "as_of": "2026-03-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "the numbers I've heard floating around AAA game dev these days are $300 million or more",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/jasonschreier.bsky.social/post/3mhvx2lohzs2j" }
+        }
+      ],
+      "summary": "Jason Schreier says the AAA development budgets he has heard about are $300 million or more, which he thinks helps explain the current state of the industry."
+    },
+    {
+      "ref": "business/crimson-desert-sales-top-3-million",
+      "entities": {
+        "games": [
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pearl-abyss", "name": "Pearl Abyss", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 3000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "crimson-desert",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-03-26",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Crimson Desert sales top 3 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/crimson-desert-studio-pearl-abysss-share-prices-stabilize-as-sales-top-3-million" }
+        }
+      ],
+      "summary": "Crimson Desert sales have topped 3 million."
+    },
+    {
+      "ref": "business/team17-parent-company-everplay-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "team17", "name": "Team17", "aliases": [], "publisher": "everplay", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "everplay", "name": "Everplay", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 166000000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "everplay",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-03-26",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Revenue: £166 million, flat year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/team17-parent-company-everplay-reports-10-profit-increase-in-2025" }
+        },
+        {
+          "metric": "profit",
+          "value": 76300000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "everplay",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-03-26",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Gross profit: £76.3 million, up 10% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/team17-parent-company-everplay-reports-10-profit-increase-in-2025" }
+        }
+      ],
+      "summary": "Everplay, Team17's parent company, reported revenue of £166 million flat year-on-year and gross profit of £76.3 million up 10% year-on-year."
+    },
+    {
+      "ref": "business/four-nacon-subsidiaries-file-for-insolvency-spiders-kylotonn",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "spiders", "name": "Spiders", "aliases": [], "publisher": "nacon", "inferred": true },
+          { "id": "kylotonn", "name": "Kylotonn", "aliases": [], "publisher": "nacon", "inferred": true },
+          { "id": "cyanide", "name": "Cyanide", "aliases": [], "publisher": "nacon", "inferred": true },
+          { "id": "nacon-tech", "name": "Nacon Tech", "aliases": [], "publisher": "nacon", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nacon", "name": "Nacon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [
+        {
+          "metric": "studios_affected",
+          "value": 4,
+          "unit": "studios",
+          "currency": null,
+          "entity": "nacon",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-03-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Four Nacon subsidiaries file for insolvency",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/four-nacon-subsidiaries-file-for-insolvency" }
+        }
+      ],
+      "summary": "Four Nacon subsidiaries, Spiders, Kylotonn, Cyanide and Nacon Tech, have filed for insolvency."
+    }
+  ]
+}

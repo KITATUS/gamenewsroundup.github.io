@@ -1,0 +1,176 @@
+{
+  "date": "2026-03-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/minecraft-is-officially-getting-a-50m-uk-theme-park-land-min",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Minecraft is getting a 50 million pound themed land called 'Minecraft World' at Chessington World of Adventures in the UK, opening in 2027."
+    },
+    {
+      "ref": "main_news/netflix-s-live-action-assassin-s-creed-series-has-started-fi",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed", "name": "Assassin's Creed", "aliases": [], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Netflix's live-action Assassin's Creed series, set in Rome, has begun filming with its cast officially announced."
+    },
+    {
+      "ref": "main_news/esrb-will-not-adopt-pegi-age-rating-changes-in-the-us-as-it",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "esrb", "name": "ESRB", "aliases": [], "inferred": false },
+          { "id": "pegi", "name": "PEGI", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The ESRB will not adopt PEGI's age-rating changes in the US, saying doing so 'could be confusing'."
+    },
+    {
+      "ref": "main_news/square-enix-announced-plans-to-integrate-google-s-generative",
+      "entities": {
+        "games": [
+          { "id": "dragon-quest-x", "name": "Dragon Quest X", "aliases": [], "genres": ["mmorpg"], "franchise": "dragon-quest", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false },
+          { "id": "google", "name": "Google", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Square Enix announced plans to integrate Google's generative AI model 'Gemini' into Dragon Quest X as a conversational AI to guide new players and act as a personal assistant."
+    },
+    {
+      "ref": "business/two-more-senior-xbox-leaders-lori-wright-and-haiyan-zhang-ex",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "lori-wright", "name": "Lori Wright", "aliases": [], "inferred": false },
+          { "id": "haiyan-zhang", "name": "Haiyan Zhang", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Two more senior Xbox leaders, Lori Wright and Haiyan Zhang, are exiting Microsoft after more than 10 years at the company."
+    },
+    {
+      "ref": "business/cd-projekt-sales-rise-9-in-2025-to-867-million-pln-235-2-mil",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk", "aliases": ["Cyberpunk franchise"], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt", "name": "CD Projekt", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 867000000, "unit": "money", "currency": "PLN",
+          "entity": "cd-projekt", "entity_type": "studio", "scope": "company",
+          "as_of": "2026-03-23", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "CD Projekt sales rise 9% in 2025 (to 867 million PLN",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-sales-rise-9-in-2025-driven-cyberpunk-franchise" } },
+        { "metric": "revenue", "value": 235200000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "studio", "scope": "company",
+          "as_of": "2026-03-23", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "$235.2 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-sales-rise-9-in-2025-driven-cyberpunk-franchise" } }
+      ],
+      "summary": "CD Projekt's 2025 sales rose 9% to 867 million PLN (235.2 million dollars), driven by the Cyberpunk franchise."
+    },
+    {
+      "ref": "business/crimson-desert-has-topped-2m-sales-within-a-day",
+      "entities": {
+        "games": [
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pearl-abyss", "name": "Pearl Abyss", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "crimson-desert", "entity_type": "game", "scope": "game",
+          "as_of": "2026-03-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Crimson Desert has topped 2M sales within a day",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/crimson-desert-has-topped-2m-sales-within-a-day" } }
+      ],
+      "summary": "Crimson Desert topped 2 million sales within a day of release."
+    },
+    {
+      "ref": "business/savvy-games-group-to-acquire-moonton-games-for-6-billion-tik",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "moonton-games", "name": "Moonton Games", "aliases": ["Moonton"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "savvy-games-group", "name": "Savvy Games Group", "aliases": [], "inferred": false },
+          { "id": "bytedance", "name": "ByteDance", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 6000000000, "unit": "money", "currency": "USD",
+          "entity": "moonton-games", "entity_type": "studio", "scope": "company",
+          "as_of": "2026-03-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Savvy Games Group to acquire **Moonton Games** for $6 billion",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion" } },
+        { "metric": "acquisition_price", "value": 4000000000, "unit": "money", "currency": "USD",
+          "entity": "moonton-games", "entity_type": "studio", "scope": "company",
+          "as_of": "2026-03-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "ByteDance paid $4 billion for Moonton in 2021",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion" } }
+      ],
+      "summary": "Savvy Games Group has agreed to acquire Moonton Games for 6 billion dollars, the studio TikTok maker ByteDance bought for 4 billion dollars in 2021."
+    }
+  ]
+}

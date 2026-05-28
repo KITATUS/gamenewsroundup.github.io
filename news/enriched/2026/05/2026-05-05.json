@@ -1,0 +1,265 @@
+{
+  "date": "2026-05-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/lego-reveals-sega-genesis-mega-drive-console-the-lego-sega-g",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false },
+          { "id": "lego", "name": "Lego", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "sega-genesis", "name": "Sega Genesis / Mega Drive", "aliases": ["Mega Drive"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "release-date", "hardware"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-06-01", "unit": "date", "currency": null,
+          "entity": "lego-sega-genesis-console", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Lego Sega Genesis Console will be available from June 1, 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lego-reveals-sega-genesis-mega-drive-console-bringing-479-of-retro-charm-this-summer/" } },
+        { "metric": "price", "value": 34.99, "unit": "price", "currency": "GBP",
+          "entity": "lego-sega-genesis-console", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "priced at £34.99 / €39.99 / $39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lego-reveals-sega-genesis-mega-drive-console-bringing-479-of-retro-charm-this-summer/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "EUR",
+          "entity": "lego-sega-genesis-console", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "priced at £34.99 / €39.99 / $39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lego-reveals-sega-genesis-mega-drive-console-bringing-479-of-retro-charm-this-summer/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "lego-sega-genesis-console", "entity_type": "product", "scope": "product",
+          "as_of": "2026-05-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "priced at £34.99 / €39.99 / $39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lego-reveals-sega-genesis-mega-drive-console-bringing-479-of-retro-charm-this-summer/" } }
+      ],
+      "summary": "Lego revealed the Lego Sega Genesis / Mega Drive Console, a 479-piece set launching 1 June 2026 priced at £34.99 / €39.99 / $39.99."
+    },
+    {
+      "ref": "main_news/microsoft-s-xbox-mode-has-released-for-windows-11-pcs",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["Xbox Mode"], "inferred": false },
+          { "id": "windows-11", "name": "Windows 11", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Microsoft's Xbox Mode has been released for Windows 11 PCs."
+    },
+    {
+      "ref": "main_news/hero-shooter-last-flag-halts-production-just-2-weeks-after-l",
+      "entities": {
+        "games": [
+          { "id": "last-flag", "name": "Last Flag", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Hero shooter Last Flag has halted production just two weeks after launch, while pledging to keep the game from disappearing."
+    },
+    {
+      "ref": "main_news/full-metal-gear-solid-2-source-code-leaks-online-on-30th-apr",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-2", "name": "Metal Gear Solid 2", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "event_date", "value": "2026-04-30", "unit": "date", "currency": null,
+          "entity": "metal-gear-solid-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-05-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Full Metal Gear Solid 2 source code leaks online on 30th April",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/full-metal-gear-solid-2-source-code-leaks-online-on-30th-april" } }
+      ],
+      "summary": "The full source code for Metal Gear Solid 2 leaked online on 30 April 2026."
+    },
+    {
+      "ref": "main_news/us-playstation-players-could-be-due-payout-as-court-agrees-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PS"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A court has agreed a $7.8 million class-action settlement that could mean payouts for US PlayStation players, tied to claims that Sony blocked third-party game-code sales."
+    },
+    {
+      "ref": "business/gamestop-makes-55-5bn-takeover-offer-for-ebay",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "gamestop", "name": "GameStop", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 55500000000, "unit": "currency", "currency": "USD",
+          "entity": "ebay", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "GameStop makes $55.5bn takeover offer for eBay",
+          "source": { "name": "BBC", "domain": "bbc.co.uk",
+            "url": "https://www.bbc.co.uk/news/articles/cn0p8yled1do" } }
+      ],
+      "summary": "GameStop has made a $55.5 billion takeover offer for eBay."
+    },
+    {
+      "ref": "business/the-steam-controller-sold-out-in-30-minutes",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-controller", "name": "Steam Controller", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "The Steam Controller sold out within 30 minutes of going on sale."
+    },
+    {
+      "ref": "business/roblox-announces-ai-driven-upscaler-which-it-claims-will-con",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Roblox announced an AI-driven upscaler that it claims will convert Roblox titles to photorealistic graphics."
+    },
+    {
+      "ref": "business/roblox-q1-numbers",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1400000000, "unit": "currency", "currency": "USD",
+          "entity": "roblox-corporation", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $1.4 billion (up 39%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-reports-strong-q1-growth-revises-full-year-forecast-due-to-new-saftey-measures" } }
+      ],
+      "summary": "Roblox reported Q1 revenue of $1.4 billion, up 39%, alongside bookings of $1.7 billion and a net loss of $248 million."
+    },
+    {
+      "ref": "business/krafton-q1-numbers",
+      "entities": {
+        "games": [
+          { "id": "pubg", "name": "PUBG", "aliases": ["PUBG franchise"], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 931000000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $931 million (up 56.9%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/krafton-q1-revenue-up-569-to-931m-driven-by-mobile-content" } },
+        { "metric": "operating_income", "value": 381300000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: $381.3 million (up 22.8%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/krafton-q1-revenue-up-569-to-931m-driven-by-mobile-content" } },
+        { "metric": "revenue", "value": 477000000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Mobile revenue: $477 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/krafton-q1-revenue-up-569-to-931m-driven-by-mobile-content" } },
+        { "metric": "revenue", "value": 247100000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "PC revenue: $247.1 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/krafton-q1-revenue-up-569-to-931m-driven-by-mobile-content" } },
+        { "metric": "revenue", "value": 9300000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Console revenue: $9.3 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/krafton-q1-revenue-up-569-to-931m-driven-by-mobile-content" } },
+        { "metric": "revenue", "value": 197600000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Other revenue: $197.6 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/krafton-q1-revenue-up-569-to-931m-driven-by-mobile-content" } },
+        { "metric": "revenue", "value": 679000000, "unit": "currency", "currency": "USD",
+          "entity": "pubg", "entity_type": "game", "scope": "franchise",
+          "as_of": "2026-05-05", "period": "quarterly", "direction": "up", "confidence": "medium",
+          "quote": "PUBG franchise revenue: over $679 million, up 24% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/krafton-q1-revenue-up-569-to-931m-driven-by-mobile-content" } }
+      ],
+      "summary": "Krafton reported Q1 revenue of $931 million, up 56.9%, and operating profit of $381.3 million, driven largely by mobile and PUBG franchise revenue."
+    }
+  ]
+}

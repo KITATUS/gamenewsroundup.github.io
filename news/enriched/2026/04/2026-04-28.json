@@ -1,0 +1,154 @@
+{
+  "date": "2026-04-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/valve-s-new-steam-controller-s-price-and-release-date-reveal",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-controller", "name": "Steam Controller", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date", "hardware", "price-change"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 85,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "steam-controller",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-04-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "price and release date revealed; £85",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/steam-controller-release-date"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-05-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "steam-controller",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-04-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Launches 4th May",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/steam-controller-release-date"
+          }
+        }
+      ],
+      "summary": "Valve revealed its new Steam Controller will cost £85 and launch on 4 May."
+    },
+    {
+      "ref": "main_news/powerwash-simulator-2-is-getting-a-star-wars-level-pack-focu",
+      "entities": {
+        "games": [
+          { "id": "powerwash-simulator-2", "name": "PowerWash Simulator 2", "aliases": [], "genres": ["simulation"], "franchise": "powerwash-simulator", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "PowerWash Simulator 2 is getting a Star Wars level pack focused on original trilogy locations this summer."
+    },
+    {
+      "ref": "main_news/hiring-has-begun-for-a-new-sequel-tera-2-as-krafton-eyes-unr",
+      "entities": {
+        "games": [
+          { "id": "tera-2", "name": "Tera 2", "aliases": [], "genres": ["mmorpg"], "franchise": "tera", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Krafton has begun hiring for a new MMORPG sequel, Tera 2, eyeing Unreal Engine 5."
+    },
+    {
+      "ref": "main_news/rugrats-retro-rewind-collection-announced-for-ps5-switch-rel",
+      "entities": {
+        "games": [
+          { "id": "rugrats-retro-rewind-collection", "name": "Rugrats: Retro Rewind Collection", "aliases": ["Rugrats"], "genres": [], "franchise": "rugrats", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "switch", "name": "Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-05-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "rugrats-retro-rewind-collection",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Releases May 15th",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2026/04/rugrats-retro-rewind-collection-announced-for-ps5-switch"
+          }
+        }
+      ],
+      "summary": "Rugrats: Retro Rewind Collection was announced for PS5 and Switch, releasing 15 May."
+    },
+    {
+      "ref": "business/assassin-s-creed-hexe-has-lost-another-director-game-directo",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-hexe", "name": "Assassin's Creed Hexe", "aliases": [], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "benoit-richer", "name": "Benoit Richer", "aliases": [], "inferred": false },
+          { "id": "clint-hocking", "name": "Clint Hocking", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Assassin's Creed Hexe lost another director as Game Director Benoit Richer confirmed his departure, weeks after Creative Director Clint Hocking's exit."
+    }
+  ]
+}

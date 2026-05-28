@@ -1,0 +1,85 @@
+{
+  "date": "2026-04-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/valve-says-steam-deck-2-is-still-in-development-acknowledges",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-deck-2", "name": "Steam Deck 2", "aliases": [], "inferred": false },
+          { "id": "steam-deck", "name": "Steam Deck", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Valve says the Steam Deck 2 is still in development and acknowledges ongoing Steam Deck stock issues tied to a RAM shortage."
+    },
+    {
+      "ref": "main_news/games-done-quick-is-coming-to-europe-with-a-special-three-da",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Games Done Quick is coming to Europe with a special three-day programme at Gamescom 2026."
+    },
+    {
+      "ref": "business/capcom-raises-fy25-outlook-following-boost-from-resident-evi",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil: Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 195300000000, "unit": "currency", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-04-29", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "now expects net sales of ¥195.3 billion ($1.22 billion), up 2.8%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem" }
+        },
+        {
+          "metric": "revenue", "value": 1220000000, "unit": "currency", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-04-29", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "now expects net sales of ¥195.3 billion ($1.22 billion), up 2.8%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem" }
+        },
+        {
+          "metric": "profit", "value": 54500000000, "unit": "currency", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-04-29", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "net income of ¥54.5 billion ($342 million), up 6.9%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem" }
+        },
+        {
+          "metric": "profit", "value": 342000000, "unit": "currency", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-04-29", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "net income of ¥54.5 billion ($342 million), up 6.9%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem" }
+        }
+      ],
+      "summary": "Capcom raised its FY25 outlook on the strength of Resident Evil: Requiem, now forecasting net sales of ¥195.3 billion ($1.22 billion) and net income of ¥54.5 billion ($342 million)."
+    }
+  ]
+}

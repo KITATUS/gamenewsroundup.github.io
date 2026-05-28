@@ -1,0 +1,112 @@
+{
+  "date": "2026-04-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nexon-calls-arc-raiders-a-trojan-horse-for-proving-controver",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": ["Embark"], "publisher": "nexon", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nexon described Arc Raiders as a \"Trojan Horse\" proving controversial AI tools can build triple-A hits with smaller teams."
+    },
+    {
+      "ref": "main_news/brian-raffel-co-founder-of-call-of-duty-developer-raven-soft",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "raven-software", "name": "Raven Software", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "brian-raffel", "name": "Brian Raffel", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Brian Raffel, co-founder of Call of Duty developer Raven Software, retired after 36 years at the studio."
+    },
+    {
+      "ref": "business/goat-simulator-developer-coffee-stain-has-closed-its-mobile",
+      "entities": {
+        "games": [
+          { "id": "goat-simulator", "name": "Goat Simulator", "aliases": [], "genres": ["simulation"], "franchise": "goat-simulator", "inferred": true }
+        ],
+        "studios": [
+          { "id": "coffee-stain", "name": "Coffee Stain", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Goat Simulator developer Coffee Stain closed its mobile-focused Malmo studio."
+    },
+    {
+      "ref": "business/mechwarrior-dev-piranha-games-affected-by-redundancies-unkno",
+      "entities": {
+        "games": [
+          { "id": "mechwarrior", "name": "MechWarrior", "aliases": [], "genres": ["simulation"], "franchise": "mechwarrior", "inferred": true }
+        ],
+        "studios": [
+          { "id": "piranha-games", "name": "Piranha Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "MechWarrior developer Piranha Games was affected by redundancies, with an unknown number of employees affected."
+    },
+    {
+      "ref": "business/sony-interactive-entertainment-acquires-cinemersive-labs-uk",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cinemersive-labs", "name": "Cinemersive Labs", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Sony Interactive Entertainment acquired Cinemersive Labs, a UK-based machine learning and computer vision company."
+    },
+    {
+      "ref": "rumours/the-last-of-us-multiplayer-game-was-roughly-80-complete-when",
+      "entities": {
+        "games": [
+          { "id": "the-last-of-us-online", "name": "The Last of Us Online", "aliases": ["The Last of Us multiplayer game"], "genres": ["action-adventure"], "franchise": "the-last-of-us", "inferred": true }
+        ],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A former director claimed The Last of Us multiplayer game was roughly 80% complete when it was cancelled."
+    }
+  ]
+}

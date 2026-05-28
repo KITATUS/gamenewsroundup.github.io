@@ -1,0 +1,132 @@
+{
+  "date": "2026-04-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/speakers-announced-for-summer-game-fest-s-the-game-business",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "laura-miele", "name": "Laura Miele", "aliases": [], "inferred": false },
+          { "id": "jason-rubin", "name": "Jason Rubin", "aliases": [], "inferred": false },
+          { "id": "matthew-ball", "name": "Matthew Ball", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Speakers including EA boss Laura Miele, Naughty Dog co-founder Jason Rubin, and analyst Matthew Ball have been announced for Summer Game Fest's The Game Business Live event in LA."
+    },
+    {
+      "ref": "main_news/the-assassin-s-creed-black-flag-remake-will-be-revealed-this",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-black-flag-remake", "name": "Assassin's Creed: Black Flag Remake", "aliases": ["Black Flag"], "genres": ["action-adventure", "open-world"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "remaster-remake", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-04-23",
+          "unit": "date",
+          "currency": null,
+          "entity": "assassins-creed-black-flag-remake",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "April 23rd, 9 am PT/12 pm ET / 5pm BST",
+          "source": { "name": "Game Informer", "domain": "gameinformer.com", "url": "https://gameinformer.com/2026/04/20/the-assassins-creed-4-black-flag-remake-will-be-revealed-this-week" }
+        }
+      ],
+      "summary": "The Assassin's Creed: Black Flag Remake will be revealed on 23 April 2026."
+    },
+    {
+      "ref": "main_news/playstation-legend-shuhei-yoshida-says-jim-ryan-fired-him-be",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "shuhei-yoshida", "name": "Shuhei Yoshida", "aliases": [], "inferred": false },
+          { "id": "jim-ryan", "name": "Jim Ryan", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Shuhei Yoshida says Jim Ryan fired him because he did not listen to him."
+    },
+    {
+      "ref": "main_news/sony-begins-rolling-out-age-verification-for-playstation-in",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-04-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Age verification will become mandatory from June 2026",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sony-begins-rolling-out-age-verification-for-playstation-in-uk-and-ireland" }
+        }
+      ],
+      "summary": "Sony has begun rolling out age verification for PlayStation in the UK and Ireland, becoming mandatory from June 2026 for full access to communication and content-sharing features."
+    },
+    {
+      "ref": "free_games_subscription/xbox-has-revealed-the-next-10-titles-coming-to-game-pass-inc",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-5", "name": "Final Fantasy 5", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Xbox has revealed the next 10 titles coming to Game Pass, including Final Fantasy 5, with 10 games due to be removed from the service next week."
+    }
+  ]
+}

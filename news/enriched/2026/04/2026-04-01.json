@@ -1,0 +1,170 @@
+{
+  "date": "2026-04-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/evercade-unveils-its-next-gen-retro-gaming-handheld-nexus-wi",
+      "entities": {
+        "games": [
+          {
+            "id": "banjo-kazooie",
+            "name": "Banjo-Kazooie 1&2",
+            "aliases": ["Banjo-Kazooie 1&2"],
+            "genres": ["platformer"],
+            "franchise": "banjo-kazooie",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "evercade",
+            "name": "Evercade",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "evercade-nexus",
+            "name": "Evercade Nexus",
+            "aliases": ["Nexus"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "hardware", "release-date"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 169.99,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "evercade-nexus",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-04-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£169.99/€199.99/$199.99",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/evercade-next-gen-retro-gaming-handheld-evercade-nexus"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 199.99,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "evercade-nexus",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-04-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£169.99/€199.99/$199.99",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/evercade-next-gen-retro-gaming-handheld-evercade-nexus"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 199.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "evercade-nexus",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-04-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£169.99/€199.99/$199.99",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/evercade-next-gen-retro-gaming-handheld-evercade-nexus"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "evercade-nexus",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-04-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Releases October",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/evercade-next-gen-retro-gaming-handheld-evercade-nexus"
+          }
+        }
+      ],
+      "summary": "Evercade unveiled its next-gen retro gaming handheld, the Nexus, featuring analogue sticks and a bundled enhanced Banjo-Kazooie 1&2, priced at £169.99/€199.99/$199.99 and releasing in October."
+    },
+    {
+      "ref": "main_news/filming-on-amazon-s-live-action-tomb-raider-series-has-halte",
+      "entities": {
+        "games": [
+          {
+            "id": "tomb-raider",
+            "name": "Tomb Raider",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "tomb-raider",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "amazon",
+            "name": "Amazon",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "sophie-turner",
+            "name": "Sophie Turner",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Filming on Amazon's live-action Tomb Raider series has halted after lead star Sophie Turner was injured."
+    },
+    {
+      "ref": "other_notes/as-you-may-be-able-to-guess-april-fool-s-day-is-one-of-the-h",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "An editorial note explaining that April Fool's Day is one of the hardest days to compile the Game News Round-Up because stories need extra validation."
+    }
+  ]
+}

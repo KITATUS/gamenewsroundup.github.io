@@ -1,0 +1,418 @@
+{
+  "date": "2026-05-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-s-takashi-tezuka-director-of-classic-mario-and-zeld",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "takashi-tezuka", "name": "Takashi Tezuka", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Nintendo's Takashi Tezuka, director of classic Mario and Zelda games, is retiring."
+    },
+    {
+      "ref": "main_news/resident-evil-requiem-gets-a-free-fast-paced-bonus-mode-leon",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game", "release"],
+      "facts": [],
+      "summary": "Resident Evil Requiem received a free fast-paced bonus mode, Leon Must Die Forever, available now."
+    },
+    {
+      "ref": "business/eve-online-studio-ccp-games-is-rebranding-following-its-spli",
+      "entities": {
+        "games": [
+          { "id": "eve-online", "name": "Eve Online", "aliases": [], "genres": ["mmo"], "franchise": "eve", "inferred": true },
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ccp-games", "name": "CCP Games", "aliases": ["Fenris Creations"], "publisher": null, "inferred": false },
+          { "id": "pearl-abyss", "name": "Pearl Abyss", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Eve Online studio CCP Games is rebranding to \"Fenris Creations\" following its split from Crimson Desert's Pearl Abyss."
+    },
+    {
+      "ref": "business/capcom-sales-of-all-new-ip-pragmata-top-two-million-units-in",
+      "entities": {
+        "games": [
+          { "id": "pragmata", "name": "PRAGMATA", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 2000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "pragmata",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sales of All-New IP PRAGMATA Top Two Million Units in 16 Days",
+          "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/news/html/e260507.html" }
+        }
+      ],
+      "summary": "Capcom's all-new IP PRAGMATA topped two million units sold in 16 days."
+    },
+    {
+      "ref": "business/2k-has-laid-off-staff-at-31st-union-the-studio-working-on-fr",
+      "entities": {
+        "games": [
+          { "id": "project-ethos", "name": "Project Ethos", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "31st-union", "name": "31st Union", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "2K laid off an unspecified number of staff at 31st Union, the studio working on free-to-play shooter Project Ethos."
+    },
+    {
+      "ref": "business/unity-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 508000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-08",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $508 million (up 17% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q1-revenue-rises-17-posts-347m-loss-following-ironsource-closure" }
+        },
+        {
+          "metric": "revenue",
+          "value": 157000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-08",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Create Solutions revenue: $157 million (up 4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q1-revenue-rises-17-posts-347m-loss-following-ironsource-closure" }
+        },
+        {
+          "metric": "revenue",
+          "value": 352000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-08",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Grow Solutions revenue: $352 million (up 23% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q1-revenue-rises-17-posts-347m-loss-following-ironsource-closure" }
+        },
+        {
+          "metric": "profit",
+          "value": 347000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-05-08",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net loss: $347 million (with a margin of 68%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q1-revenue-rises-17-posts-347m-loss-following-ironsource-closure" }
+        }
+      ],
+      "summary": "Unity reported Q1 revenue of $508 million, up 17% year-on-year, alongside a $347 million net loss."
+    },
+    {
+      "ref": "business/sony-records-new-560-million-loss-on-bungie-acquisition-as-m",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter"], "franchise": "marathon", "inferred": true },
+          { "id": "destiny-2", "name": "Destiny 2", "aliases": [], "genres": ["fps"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "profit",
+          "value": 560000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "bungie",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-05-08",
+          "period": "point_in_time",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Sony Records New $560 Million Loss On Bungie Acquisition",
+          "source": { "name": "Kotaku", "domain": "kotaku.com", "url": "https://kotaku.com/sony-records-new-560-million-loss-on-bungie-acquisition-as-marathon-struggles-and-destiny-2-nosedives-2000694100" }
+        }
+      ],
+      "summary": "Sony recorded a new $560 million loss on its Bungie acquisition as Marathon struggled and Destiny 2 declined."
+    },
+    {
+      "ref": "business/nintendo-switch-2-has-sold-19-86-million-units-as-of-q1-2026",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true },
+          { "id": "pokemon-legends-za", "name": "Pokemon Legends ZA", "aliases": [], "genres": ["action-rpg"], "franchise": "pokemon", "inferred": true },
+          { "id": "dk-bananza", "name": "DK Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "pokopia", "name": "Pokopia", "aliases": [], "genres": ["life-sim"], "franchise": "pokemon", "inferred": true },
+          { "id": "firered-leafgreen", "name": "FireRed/LeafGreen", "aliases": [], "genres": ["jrpg"], "franchise": "pokemon", "inferred": true },
+          { "id": "tomodachi-life", "name": "Tomodachi Life", "aliases": [], "genres": ["life-sim"], "franchise": "tomodachi", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 19860000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nintendo-switch-2",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Nintendo Switch 2 has sold 19.86 million units as of Q1 2026",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 14700000,
+          "unit": "units",
+          "currency": null,
+          "entity": "mario-kart-world",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mario Kart World - 14.7M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 12800000,
+          "unit": "units",
+          "currency": null,
+          "entity": "pokemon-legends-za",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Pokemon Legends ZA - 12.8M (S1+S2)",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 4520000,
+          "unit": "units",
+          "currency": null,
+          "entity": "dk-bananza",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "DK Bananza - 4.52M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 4000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "pokopia",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Pokopia - above 4M in 6 weeks",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 4000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "firered-leafgreen",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "FireRed/LeafGreen - above 4M in 5 weeks",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 3800000,
+          "unit": "units",
+          "currency": null,
+          "entity": "tomodachi-life",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Tomodachi Life - 3.8M in 2 weeks",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" }
+        }
+      ],
+      "summary": "Nintendo Switch 2 has sold 19.86 million units as of Q1 2026, with Mario Kart World leading software sales at 14.7 million."
+    },
+    {
+      "ref": "business/ps5-shipments-top-93-7-million-1-5-million-units-shipped-dur",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 93700000,
+          "unit": "units",
+          "currency": null,
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-05-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS5 shipments top 93.7 million",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/05/ps5-shipments-top-93-7-million" }
+        },
+        {
+          "metric": "units_sold",
+          "value": 1500000,
+          "unit": "units",
+          "currency": null,
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-05-08",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "1.5 million units shipped during the three months ended March 31, 2026.",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/05/ps5-shipments-top-93-7-million" }
+        }
+      ],
+      "summary": "PS5 shipments topped 93.7 million, with 1.5 million units shipped during the three months ended March 31, 2026."
+    },
+    {
+      "ref": "business/nintendo-raises-prices-for-nintendo-products-and-services",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "Nintendo is raising prices for its products and services."
+    }
+  ]
+}

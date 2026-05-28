@@ -1,0 +1,215 @@
+{
+  "date": "2026-04-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mindseye-studio-staff-takes-legal-action-saying-management-i",
+      "entities": {
+        "games": [
+          {
+            "id": "mindseye",
+            "name": "MindsEye",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "build-a-rocket-boy",
+            "name": "Build A Rocket Boy",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "MindsEye studio staff have taken legal action, alleging management installed invasive surveillance software."
+    },
+    {
+      "ref": "main_news/single-player-spin-off-splatoon-raiders-comes-to-nintendo-sw",
+      "entities": {
+        "games": [
+          {
+            "id": "splatoon-raiders",
+            "name": "Splatoon Raiders",
+            "aliases": [],
+            "genres": ["action-adventure", "shooter"],
+            "franchise": "splatoon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-07-23",
+          "unit": "date",
+          "currency": null,
+          "entity": "splatoon-raiders",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Releases July 23rd",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/single-player-spin-off-splatoon-raiders-comes-to-nintendo-switch-2-this-summer/"
+          }
+        }
+      ],
+      "summary": "Splatoon Raiders, a single-player spin-off, is coming to Nintendo Switch 2 on July 23rd."
+    },
+    {
+      "ref": "free_games_subscription/xbox-is-cutting-game-pass-prices-and-removing-launch-day-cal",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty",
+            "name": "Call of Duty",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "price-change"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 22.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "game-pass-ultimate",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-04-22",
+          "period": "point_in_time",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Game Pass Ultimate drops from $29.99 to $22.99",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-is-cutting-game-pass-prices-and-removing-launch-day-call-of-duty-games/"
+          }
+        }
+      ],
+      "summary": "Xbox is cutting Game Pass prices, with Game Pass Ultimate dropping from $29.99 to $22.99, and will add launch-day Call of Duty games roughly one year post-release."
+    },
+    {
+      "ref": "business/dragon-ball-and-digimon-producer-toei-announces-toei-games-f",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "toei-games",
+            "name": "Toei Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "toei",
+            "name": "Toei",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Dragon Ball and Digimon producer Toei has announced a new games label, Toei Games, focusing on new IPs first."
+    },
+    {
+      "ref": "business/sanrio-establishes-in-house-gaming-brand-sanrio-games-hello",
+      "entities": {
+        "games": [
+          {
+            "id": "sanrio-party-land",
+            "name": "Sanrio Party Land",
+            "aliases": [],
+            "genres": ["party"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "sanrio-games",
+            "name": "Sanrio Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sanrio",
+            "name": "Sanrio",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Sanrio, the Hello Kitty creator, has established an in-house gaming brand, Sanrio Games, planning to launch ten games over the next three years starting with Sanrio Party Land later this year."
+    }
+  ]
+}

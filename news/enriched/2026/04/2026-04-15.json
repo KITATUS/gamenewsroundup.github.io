@@ -1,0 +1,326 @@
+{
+  "date": "2026-04-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/graveyard-keeper-s-free-giveaway-made-the-publisher-at-least",
+      "entities": {
+        "games": [
+          {
+            "id": "graveyard-keeper",
+            "name": "Graveyard Keeper",
+            "aliases": [],
+            "genres": ["simulation", "life-sim"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 250000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "graveyard-keeper",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "free giveaway made the publisher at least $250,000 in DLC sales on PC alone",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/graveyard-keeper-free-giveaway-boosted-dlc-sales-and-sequel-wishlists"
+          }
+        }
+      ],
+      "summary": "Graveyard Keeper's free giveaway generated at least $250,000 in DLC sales on PC alone, with console figures not yet counted."
+    },
+    {
+      "ref": "main_news/red-dead-online-and-gta-online-revenue-data-leaked-from-rece",
+      "entities": {
+        "games": [
+          {
+            "id": "red-dead-online",
+            "name": "Red Dead Online",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead",
+            "inferred": true
+          },
+          {
+            "id": "gta-online",
+            "name": "GTA Online",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1300000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "gta-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "GTA Onlines's daily average revenue is $1.3 million",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/gta-online-daily-revenue-data-and-more-leaks"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 9500000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "gta-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$9.5 million a week",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/gta-online-daily-revenue-data-and-more-leaks"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 264273,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "gta-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PC makes $264,273",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/gta-online-daily-revenue-data-and-more-leaks"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 4400000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "gta-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS5 makes $4.4m",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/gta-online-daily-revenue-data-and-more-leaks"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 498800000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "gta-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "GTA Online makes $498.8m a year.",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/gta-online-daily-revenue-data-and-more-leaks"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 507193,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "red-dead-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Red Dead Online makes $507,193 on average per week",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/gta-online-daily-revenue-data-and-more-leaks"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 26400000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "red-dead-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-04-15",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$26.4 million per year",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/gta-online-daily-revenue-data-and-more-leaks"
+          }
+        }
+      ],
+      "summary": "Leaked data from a recent breach revealed Red Dead Online and GTA Online revenue figures, including GTA Online's $1.3 million daily average."
+    },
+    {
+      "ref": "business/bloober-team-expands-leadership-as-studio-steps-up-to-seven",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "bloober-team",
+            "name": "Bloober Team",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Bloober Team expanded its leadership as the studio scaled up to seven horror titles in active development, with the CEO emphasising sustainable development over reckless growth."
+    },
+    {
+      "ref": "business/uk-government-begins-rollout-of-30m-games-growth-package-28",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "regulation"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 30000000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "uk-games-growth-package",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-04-15",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "rollout of £30m Games Growth Package",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package"
+          }
+        },
+        {
+          "metric": "funding_raised",
+          "value": 28500000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "uk-games-fund",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-04-15",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£28.5 million allocated through the UK Games fund",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package"
+          }
+        },
+        {
+          "metric": "funding_raised",
+          "value": 1500000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "london-games-festival",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-04-15",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£1.5 million awarded to the London Games Festival over the next three years",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package"
+          }
+        }
+      ],
+      "summary": "The UK government began rolling out its £30m Games Growth Package, allocating £28.5 million through the UK Games Fund and £1.5 million to the London Games Festival over three years."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/us-patent-office-revokes-nintendo-s-patent-on-summoning-char",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "The US patent office revoked Nintendo's patent on summoning characters to make them battle."
+    },
+    {
+      "ref": "main_news/vr-platform-rec-room-to-shut-down-in-june-2026-we-never-quit",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "rec-room", "name": "Rec Room", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "rec-room", "name": "Rec Room", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-06", "unit": "date", "currency": null,
+          "entity": "rec-room", "entity_type": "product", "scope": "product",
+          "as_of": "2026-04-02", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Rec Room to shut down in June 2026",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/vr-platform-rec-room-to-shut-down-in-june-2026" } }
+      ],
+      "summary": "VR platform Rec Room will shut down in June 2026, with its developer saying it never figured out how to make Rec Room sustainably profitable."
+    },
+    {
+      "ref": "main_news/probablymonsters-is-betting-on-an-xbox-360-esque-bonanza-of",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "probablymonsters", "name": "ProbablyMonsters", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-360", "name": "Xbox 360", "aliases": [], "inferred": false }],
+        "people": [{ "id": "david-reid", "name": "David Reid", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "ProbablyMonsters is betting on a wave of single-player AA games, with chief marketing officer David Reid explaining that disciplined marketing spend is key to targeting the reduced AA sector."
+    },
+    {
+      "ref": "main_news/original-resident-evil-resident-evil-2-resident-evil-3-nemes",
+      "entities": {
+        "games": [
+          { "id": "resident-evil", "name": "Resident Evil", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-2", "name": "Resident Evil 2", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-3-nemesis", "name": "Resident Evil 3: Nemesis", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "breath-of-fire-iv", "name": "Breath of Fire IV", "aliases": [], "genres": ["jrpg"], "franchise": "breath-of-fire", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "The original Resident Evil, Resident Evil 2, Resident Evil 3: Nemesis, and Breath of Fire IV are now available via Steam."
+    },
+    {
+      "ref": "main_news/nvidia-app-adds-auto-shader-compilation-for-faster-load-time",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "nvidia", "name": "Nvidia", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["update-patch", "hardware"],
+      "facts": [],
+      "summary": "The Nvidia App added a beta 'Auto Shader Compilation' feature that recompiles shaders in the background after every driver update for faster load times in games."
+    },
+    {
+      "ref": "free_games_subscription/april-s-playstation-plus-free-essential-monthly-games-have-b",
+      "entities": {
+        "games": [
+          { "id": "lords-of-the-fallen", "name": "Lords of the Fallen", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "lords-of-the-fallen", "inferred": true },
+          { "id": "tomb-raider-i-iii-remastered", "name": "Tomb Raider I-III Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "sword-art-online-fractured-daydream", "name": "Sword Art Online Fractured Daydraem", "aliases": ["Sword Art Online Fractured Daydraem"], "genres": ["action-rpg"], "franchise": "sword-art-online", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "April's PlayStation Plus Essential monthly games have been confirmed as Lords of the Fallen, Tomb Raider I-III Remastered, and Sword Art Online Fractured Daydream."
+    },
+    {
+      "ref": "business/stellar-blade-developer-shift-up-acquires-resident-evil-crea",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "unbound", "name": "Unbound", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "shinji-mikami", "name": "Shinji Mikami", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Stellar Blade developer Shift Up acquired Unbound, the new studio of Resident Evil creator Shinji Mikami."
+    },
+    {
+      "ref": "business/krafton-flyquest-arbitrum-invest-3-5m-in-psychedelic-games-m",
+      "entities": {
+        "games": [
+          { "id": "golden-tides", "name": "Golden Tides", "aliases": [], "genres": ["moba"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "psychedelic-games", "name": "Psychedelic Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "flyquest", "name": "Flyquest", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false },
+          { "id": "arbitrum", "name": "Arbitrum", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 3500000, "unit": "money", "currency": "USD",
+          "entity": "golden-tides", "entity_type": "game", "scope": "game",
+          "as_of": "2026-04-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Krafton, Flyquest, Arbitrum invest $3.5M in Psychedelic Games' MOBA Golden Tides",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/krafton-flyquest-arbitrum-invest-3-5m-on-new-moba" } }
+      ],
+      "summary": "Krafton, FlyQuest, and Arbitrum invested $3.5M in Psychedelic Games' MOBA Golden Tides."
+    }
+  ]
+}

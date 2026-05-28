@@ -1,0 +1,258 @@
+{
+  "date": "2026-05-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/destruction-allstars-delisted-from-ps-store-servers-to-shutd",
+      "entities": {
+        "games": [
+          {
+            "id": "destruction-allstars",
+            "name": "Destruction AllStars",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation",
+            "name": "PlayStation",
+            "aliases": ["PS Store"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "destruction-allstars",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "servers to shutdown in November 2026",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/destruction-allstars-delisted-from-ps-store-servers-to-shutdown-in-november-2026"
+          }
+        }
+      ],
+      "summary": "Destruction AllStars has been delisted from the PS Store with its servers set to shut down in November 2026, and multiplayer taken offline immediately over ongoing technical issues."
+    },
+    {
+      "ref": "main_news/cd-projekt-announces-witcher-anniversary-live-stream-amid-re",
+      "entities": {
+        "games": [
+          {
+            "id": "the-witcher",
+            "name": "The Witcher",
+            "aliases": ["Witcher"],
+            "genres": ["action-rpg"],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt",
+            "name": "CD Projekt",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase", "dlc-expansion"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-05-28",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-witcher",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-05-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "May 28 at 11am ET / 4pm BST / 5pm CEST",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/cd-projekt-announces-witcher-anniversary-live-stream-amid-reports-new-dlc-is-on-the-way/"
+          }
+        }
+      ],
+      "summary": "CD Projekt announced a Witcher anniversary live stream for 28 May 2026, amid reports that new DLC is on the way."
+    },
+    {
+      "ref": "free_games_subscription/june-s-playstation-plus-free-essential-monthly-games-grounde",
+      "entities": {
+        "games": [
+          {
+            "id": "grounded",
+            "name": "Grounded Fully Yoked Edition",
+            "aliases": ["Grounded"],
+            "genres": ["survival"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "nickelodeon-all-star-brawl-2",
+            "name": "Nickelodeon All-Star Brawl 2",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "warhammer-40000-darktide",
+            "name": "Warhammer 40,000: Darktide",
+            "aliases": ["Darktide"],
+            "genres": ["fps"],
+            "franchise": "warhammer-40000",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "June's PlayStation Plus Essential monthly games are Grounded Fully Yoked Edition, Nickelodeon All-Star Brawl 2, and Warhammer 40,000: Darktide."
+    },
+    {
+      "ref": "business/take-two-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "take-two-interactive",
+            "name": "Take-Two Interactive",
+            "aliases": ["Take-Two"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1700000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-05-27",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net revenue: $1.7 billion, up 6% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nba-2k-zynga-and-gta-drove-take-two-net-bookings-up-19-for-2026-fiscal-year"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -59600000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-05-27",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net loss: $59.6 million, down 98% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nba-2k-zynga-and-gta-drove-take-two-net-bookings-up-19-for-2026-fiscal-year"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 6200000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-05-27",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net revenue: $6.2 billion, up 19% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nba-2k-zynga-and-gta-drove-take-two-net-bookings-up-19-for-2026-fiscal-year"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -298200000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-05-27",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net loss: $298.2 million, down 93% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nba-2k-zynga-and-gta-drove-take-two-net-bookings-up-19-for-2026-fiscal-year"
+          }
+        }
+      ],
+      "summary": "Take-Two Interactive reported fiscal 2026 results, including full-year net revenue of $6.2 billion (up 19%) and a narrowed net loss."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-03-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/silent-hill-and-slitterhead-creator-makes-a-recruitment-call",
+      "entities": {
+        "games": [
+          { "id": "silent-hill", "name": "Silent Hill", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true },
+          { "id": "slitterhead", "name": "Slitterhead", "aliases": [], "genres": ["action", "horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "keiichiro-toyama", "name": "Keiichiro Toyama", "aliases": [], "inferred": true }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The creator of Silent Hill and Slitterhead has made a recruitment call for his new large-scale project."
+    },
+    {
+      "ref": "main_news/former-overwatch-director-jeff-kaplan-reveals-the-legend-of",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-california", "name": "The Legend of California", "aliases": [], "genres": ["fps", "open-world", "shooter"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jeff-kaplan", "name": "Jeff Kaplan", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Former Overwatch director Jeff Kaplan revealed The Legend of California, an open-world online Wild West FPS."
+    },
+    {
+      "ref": "business/warner-bros-montr-al-devs-report-layoffs-while-there-s-been",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "warner-bros-montreal", "name": "Warner Bros. Montréal", "aliases": ["WB"], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": ["Warner Bros."], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-03-13", "unit": "date", "currency": null,
+          "entity": "warner-bros-montreal", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-03-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Most report they finished on Friday, 13th March",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/warner-bros-montreal-devs-report-layoffs" } }
+      ],
+      "summary": "Warner Bros. Montréal developers have reported layoffs, with most saying they finished on Friday 13 March, though no formal confirmation or affected headcount has been given."
+    },
+    {
+      "ref": "business/resident-evil-requiem-sales-exceed-6-million-units",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 6000000, "unit": "units", "currency": null,
+          "entity": "resident-evil-requiem", "entity_type": "game", "scope": "game",
+          "as_of": "2026-03-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Resident Evil Requiem Sales Exceed 6 Million Units",
+          "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/news/html/e260316.html" } }
+      ],
+      "summary": "Capcom reported that Resident Evil Requiem sales have exceeded 6 million units."
+    }
+  ]
+}
