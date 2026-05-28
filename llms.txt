@@ -2,13 +2,20 @@
 
 > A daily curated digest of games-industry news.
 
-Game News Round-Up publishes a hand-curated summary of the day's video-game industry news — releases, business moves, free games and subscription additions, and rumours. Every story links to its original source.
+Game News Round-Up publishes a hand-curated summary of the day's video-game industry news: releases, business moves, free games and subscription additions, and rumours. Every story links to its original source.
 
 ## Data & feeds
 - [RSS feed](https://gamenewsroundup.co.uk/feeds/rss.xml): every round-up as a feed entry.
 - [JSON index](https://gamenewsroundup.co.uk/api/roundups/index.json): all published round-ups, newest first.
 - [Latest round-up (JSON)](https://gamenewsroundup.co.uk/api/roundups/latest.json): full payload of the most recent day.
 - Per-day JSON: https://gamenewsroundup.co.uk/api/roundups/<YYYY-MM-DD>.json (mirror of /news/<YYYY>/<MM>/<YYYY-MM-DD>.json).
+
+## Structured dataset (for analysis & question answering)
+A machine-readable knowledge base extracted from every round-up. Each story is resolved into canonical entities (games, studios, publishers, platforms, people, companies), genres, event tags, and grounded facts (sales, revenue, profit, budgets, player counts, prices, dates). Every fact carries a verbatim source quote and link.
+- [Facts (JSONL)](https://gamenewsroundup.co.uk/api/facts.jsonl): one self-contained fact per line, with metric, value, unit, currency, entity (plus genres), date, confidence, quote, and source. Ideal for ingestion, filtering, and aggregation.
+- [Entity catalog (JSON)](https://gamenewsroundup.co.uk/api/entities.json): every entity with type, aliases, genres, franchise, mention count, and first/last-seen dates.
+- [Dataset index (JSON)](https://gamenewsroundup.co.uk/api/enriched/index.json): coverage manifest plus metric and genre totals.
+- Per-day enrichment: https://gamenewsroundup.co.uk/news/enriched/<YYYY>/<MM>/<YYYY-MM-DD>.json.
 
 ## Pages
 - Human-readable round-up per day: https://gamenewsroundup.co.uk/news/entries/<YYYY-MM-DD>/
