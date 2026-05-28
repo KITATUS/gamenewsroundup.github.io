@@ -118,6 +118,7 @@ const HeroStoryRow = ({ item, date, onNavigate }) => {
 
 // ── Section Display Labels ────────────────────────────────────────────────────
 const SECTION_DISPLAY_LABELS = {
+  main_news: 'General',
   rumours: 'Rumors',
   other_notes: 'Other Notes',
   other_news: 'Other News',
