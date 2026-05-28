@@ -26,10 +26,15 @@ const accentMap = {
 // ── Path routing ──────────────────────────────────────────────────────────────
 const ROUTE_PAGES = ['archive', 'feeds', 'about'];
 
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+// Day pages live at /news/entries/<date>/ (see scripts/lib/render-html.mjs).
+const ENTRY_RE = /^news\/entries\/(\d{4}-\d{2}-\d{2})$/;
+
 const parsePath = (pathname) => {
   const seg = (pathname || '/').replace(/^\/+|\/+$/g, '');
   if (!seg) return { page: 'home', date: null };
-  if (/^\d{4}-\d{2}-\d{2}$/.test(seg)) return { page: 'home', date: seg };
+  const entry = seg.match(ENTRY_RE);
+  if (entry) return { page: 'home', date: entry[1] };
   if (ROUTE_PAGES.includes(seg)) return { page: seg, date: null };
   return { page: 'notfound', date: null };
 };
@@ -38,31 +43,38 @@ const parsePath = (pathname) => {
 // avoids the GitHub Pages no-slash -> slash 301 redirect).
 const buildPath = (page, date) => {
   const target = page === 'daily' ? 'home' : page;
-  if (target === 'home') return date ? `/${date}/` : '/';
+  if (target === 'home') return date ? `/news/entries/${date}/` : '/';
   return `/${target}/`;
 };
 
 // Is this pathname one of our SPA routes (not a subresource like /feeds/rss.xml,
-// /api/..., /news/...)? Used by the click interceptor.
+// /api/..., or the /news/<y>/<m>/<date>.json data files)? Used by the click
+// interceptor. Only /news/entries/<date> is a route; other /news/... paths are data.
 const isInternalRoute = (pathname) => {
   const seg = (pathname || '/').replace(/^\/+|\/+$/g, '');
   if (!seg) return true;
-  if (/^\d{4}-\d{2}-\d{2}$/.test(seg)) return true;
+  if (ENTRY_RE.test(seg)) return true;
   return ROUTE_PAGES.includes(seg);
 };
 
-// Legacy hash redirect: old shared/RSS links use #/<date>, #/archive, etc. The
-// fragment never reaches the server, so the home shell is served; rewrite to the
-// real path before React renders so deep content shows and the URL is canonical.
-(function redirectLegacyHash() {
-  const h = location.hash;
-  if (!h || h.length < 2) return;
-  const raw = h.replace(/^#\/?/, '').trim();
+// Legacy redirect: rewrite old links to the canonical path before React renders.
+//  - hash form (#/<date>, #/archive) from very old shares/RSS, and
+//  - the pre-move bare path /<date>/ (now 404 server-side; GitHub Pages serves
+//    404.html which loads this shell, so we recover the route client-side).
+(function redirectLegacy() {
   let path = null;
-  if (!raw) path = '/';
-  else if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) path = `/${raw}/`;
-  else if (ROUTE_PAGES.includes(raw)) path = `/${raw}/`;
-  if (path) history.replaceState({}, '', path + location.search);
+  const h = location.hash;
+  if (h && h.length > 1) {
+    const raw = h.replace(/^#\/?/, '').trim();
+    if (!raw) path = '/';
+    else if (DATE_RE.test(raw)) path = `/news/entries/${raw}/`;
+    else if (ROUTE_PAGES.includes(raw)) path = `/${raw}/`;
+  }
+  if (!path) {
+    const seg = location.pathname.replace(/^\/+|\/+$/g, '');
+    if (DATE_RE.test(seg)) path = `/news/entries/${seg}/`;
+  }
+  if (path && path !== location.pathname) history.replaceState({}, '', path + location.search);
 })();
 
 const Nav = ({ page, onNavigate }) => {

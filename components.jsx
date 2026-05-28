@@ -104,7 +104,7 @@ const HeroStoryRow = ({ item, date, onNavigate }) => {
       <div className="hero-story-row__content">
         {isRumour && <RumourBadge status={item.metadata.rumour_status} />}
         <a
-          href={date ? `/${date}/` : '/'}
+          href={date ? `/news/entries/${date}/` : '/'}
           className="hero-story-row__title"
           onClick={e => { e.preventDefault(); onNavigate('daily', date); }}
         >
