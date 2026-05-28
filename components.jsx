@@ -10,6 +10,12 @@ const renderWithBold = (text) => {
   );
 };
 
+// ── Bullet normaliser ────────────────────────────────────────────────────────
+// A bullet is either a plain string (legacy archive) or { text, level } with a
+// 0-based indent depth (authored in GNRTool). Normalise to { text, level }.
+const normBullet = (b) =>
+  typeof b === 'string' ? { text: b, level: 0 } : { text: b.text || '', level: b.level || 0 };
+
 // ── Rumour Badge ───────────────────────────────────────────────────────────────
 const RumourBadge = ({ status }) => {
   const config = {
@@ -73,9 +79,10 @@ const StoryItem = ({ item, showTags = true, compact = false }) => {
       )}
       {item.bullets && item.bullets.length > 0 && (
         <ul className="story-item__bullets">
-          {item.bullets.map((b, i) => (
-            <li key={i}>{b}</li>
-          ))}
+          {item.bullets.map((b, i) => {
+            const { text, level } = normBullet(b);
+            return <li key={i} style={level ? { marginLeft: `${level * 1.25}em` } : undefined}>{text}</li>;
+          })}
         </ul>
       )}
       <div className="story-item__meta">
@@ -149,7 +156,10 @@ const formatRoundupForSlack = (roundup) => {
       }
       const lines = [`• ${head}`];
       if (item.body) lines.push(`      ${slackify(item.body)}`);
-      if (item.bullets) item.bullets.forEach((b) => lines.push(`      • ${slackify(b)}`));
+      if (item.bullets) item.bullets.forEach((b) => {
+        const { text, level } = normBullet(b);
+        lines.push(`      ${'    '.repeat(level)}• ${slackify(text)}`);
+      });
       return lines.join('\n');
     });
     parts.push(`*${label}*\n` + entries.join('\n'));
@@ -215,9 +225,10 @@ const SectionBlock = ({ section, onNavigate, currentDate }) => {
                   )}
                   {item.bullets && item.bullets.length > 0 && (
                     <ul className="section-block__item-bullets">
-                      {item.bullets.map((b, i) => (
-                        <li key={i}>{b}</li>
-                      ))}
+                      {item.bullets.map((b, i) => {
+                        const { text, level } = normBullet(b);
+                        return <li key={i} style={level ? { marginLeft: `${level * 1.25}em` } : undefined}>{text}</li>;
+                      })}
                     </ul>
                   )}
                   {item.source && (
