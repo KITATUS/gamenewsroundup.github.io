@@ -49,6 +49,12 @@ This repository is the website itself. It is a deliberately simple, fast, static
 
 If you are just here to read the news, head to [gamenewsroundup.co.uk](https://gamenewsroundup.co.uk). If you are curious about how it is put together, feel free to look around the code.
 
+## FAQs
+### Are there any AI tools available to use on the site?
+We don't offer any AI tools on the site itself to keep the site lean and cost effective. 
+
+However, with the growing interest of AI in professional game development settings, each Game News Round-Up has been tagged and enriched with AI indexable data. You are welcome to scrape the game news, use the datasets available or do whatever you want with the data that the Game News Round-Up provides. You can read the llm.txt to understand what is available for your AI tools to utilize.
+
 ## Credits
 
 Dedicated to Alexander *"Joviex"* Morano, a good friend who constantly pushed me to be the best game developer I could be.
