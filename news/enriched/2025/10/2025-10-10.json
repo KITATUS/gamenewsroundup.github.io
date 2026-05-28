@@ -1,0 +1,95 @@
+{
+  "date": "2025-10-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mark-cerny-triggers-ps6-speculation-by-discussing-amd-tech-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps6", "name": "PS6", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "mark-cerny", "name": "Mark Cerny", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Mark Cerny triggered PS6 speculation by discussing AMD tech coming to a future console in a few years' time."
+    },
+    {
+      "ref": "main_news/nintendo-says-its-close-to-you-pikmin-videos-were-nintendo-p",
+      "entities": {
+        "games": [
+          { "id": "pikmin", "name": "Pikmin", "aliases": [], "genres": ["strategy"], "franchise": "pikmin", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nintendo-pictures", "name": "Nintendo Pictures", "aliases": [], "publisher": "nintendo", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo said its 'Close to You' Pikmin videos were Nintendo Pictures short films rather than a game or movie teaser."
+    },
+    {
+      "ref": "main_news/the-minecraft-dlc-pack-is-now-available-for-sonic-racing-cro",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true },
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release"],
+      "facts": [],
+      "summary": "The Minecraft DLC pack is now available for Sonic Racing: CrossWorlds, the first of six paid guest DLC packs planned for the game."
+    },
+    {
+      "ref": "business/kimberley-turner-and-mark-south-appointed-double-eleven-co-c",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "double-eleven", "name": "Double Eleven", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "kimberley-turner", "name": "Kimberley Turner", "aliases": [], "inferred": false },
+          { "id": "mark-south", "name": "Mark South", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Kimberley Turner and Mark South were appointed co-CEOs of Double Eleven."
+    },
+    {
+      "ref": "business/development-ends-on-hyper-light-breaker-as-studio-heart-mach",
+      "entities": {
+        "games": [
+          { "id": "hyper-light-breaker", "name": "Hyper Light Breaker", "aliases": [], "genres": ["action-rpg", "roguelike"], "franchise": "hyper-light", "inferred": true }
+        ],
+        "studios": [
+          { "id": "heart-machine", "name": "Heart Machine", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "shutdown", "early-access"],
+      "facts": [],
+      "summary": "Development ended on Hyper Light Breaker as studio Heart Machine announced layoffs, with the Hyper Light Drifter prequel having had mixed reviews in Early Access."
+    }
+  ]
+}

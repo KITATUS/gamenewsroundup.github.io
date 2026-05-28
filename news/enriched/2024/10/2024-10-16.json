@@ -1,0 +1,493 @@
+{
+  "date": "2024-10-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-partner-preview-digital-showcase-back-this-week-with-25",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["Xbox Partner Preview"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "trailer", "dlc-expansion"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-17", "unit": "date", "currency": null,
+          "entity": "xbox-partner-preview", "entity_type": "product", "scope": "event",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "6pm in the UK/10am PT on Thursday 17th October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-partner-preview-digital-showcase-back-this-week-with-25-minutes-of-games" } }
+      ],
+      "summary": "Microsoft's Xbox Partner Preview digital showcase returns on 17 October with around 25 minutes of games, including Like A Dragon and Alan Wake 2 DLC."
+    },
+    {
+      "ref": "main_news/leaked-trailer-for-amazon-s-secret-level-reveals-arnold-schw",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "arnold-schwarzenegger", "name": "Arnold Schwarzenegger", "aliases": [], "inferred": false },
+          { "id": "keanu-reeves", "name": "Keanu Reeves", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [],
+      "summary": "A leaked trailer for Amazon's animated anthology Secret Level reveals appearances by Arnold Schwarzenegger and Keanu Reeves."
+    },
+    {
+      "ref": "main_news/final-fantasy-11-responsible-for-the-birth-of-discord-its-cr",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-11", "name": "Final Fantasy 11", "aliases": [], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "stanislav-vishnevskiy", "name": "Stanislav Vishnevskiy", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Discord creator Stanislav Vishnevskiy says his obsession with Final Fantasy 11 and a prototype tool he built to use while playing led to the birth of Discord."
+    },
+    {
+      "ref": "main_news/steam-next-fest-is-now-live-featuring-thousands-of-free-demo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": ["Steam Next Fest"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "showcase", "free-game"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-21", "unit": "date", "currency": null,
+          "entity": "steam-next-fest", "entity_type": "product", "scope": "event",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The digital event is running until October 21st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-next-fest-is-now-live-featuring-thousands-of-free-demos/" } }
+      ],
+      "summary": "Steam Next Fest is live, offering thousands of free demos, and runs until 21 October."
+    },
+    {
+      "ref": "main_news/mobile-game-destiny-rising-announced-by-netease-and-bungie",
+      "entities": {
+        "games": [
+          { "id": "destiny-rising", "name": "Destiny: Rising", "aliases": [], "genres": ["fps", "tps", "shooter"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "netease", "name": "NetEase", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "free-game", "beta-demo"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-11-01", "unit": "date", "currency": null,
+          "entity": "destiny-rising", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "its first closed alpha test, which is scheduled to begin on November 1 in the US and Canada",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mobile-game-destiny-rising-announced-by-netease-and-bungie/" } }
+      ],
+      "summary": "NetEase and Bungie announced the free-to-play mobile game Destiny: Rising, with pre-registration open ahead of a closed alpha test starting 1 November in the US and Canada."
+    },
+    {
+      "ref": "main_news/tron-catalyst-is-a-new-isometric-action-game-from-bithell-ga",
+      "entities": {
+        "games": [
+          { "id": "tron-catalyst", "name": "Tron: Catalyst", "aliases": ["Disney Tron: Catalyst"], "genres": ["action-adventure"], "franchise": "tron", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bithell-games", "name": "Bithell Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": ["Big Fan Games"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Bithell Games announced Tron: Catalyst, a story-driven isometric action game coming to PC, PS5, Xbox Series S/X and Nintendo Switch in 2025 via Devolver Digital's Big Fan Games label."
+    },
+    {
+      "ref": "main_news/games-done-quick-raises-over-45-000-for-hurricane-relief",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "funding_raised", "value": 45000, "unit": "money", "currency": "USD",
+          "entity": "games-done-quick", "entity_type": "company", "scope": "event",
+          "as_of": "2024-10-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Games Done Quick raises over $45,000 for hurricane relief",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/GamesDoneQuick/status/1845687351739023662" } }
+      ],
+      "summary": "Games Done Quick raised over $45,000 for hurricane relief."
+    },
+    {
+      "ref": "main_news/playstation-horror-until-dawn-s-live-action-movie-hits-cinem",
+      "entities": {
+        "games": [
+          { "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["survival-horror", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-25", "unit": "date", "currency": null,
+          "entity": "until-dawn", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "25th April 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/playstation-horror-until-dawns-live-action-movie-adaptation-arrives-next-april" } }
+      ],
+      "summary": "The live-action movie adaptation of PlayStation horror game Until Dawn arrives in cinemas on 25 April 2025."
+    },
+    {
+      "ref": "main_news/warhammer-40k-space-marine-2-shows-off-formidable-new-hierop",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40k-space-marine-2", "name": "Warhammer 40K: Space Marine 2", "aliases": [], "genres": ["tps", "action-adventure", "shooter"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "update-patch"],
+      "facts": [],
+      "summary": "Warhammer 40K: Space Marine 2 revealed a new Hierophant Bio-Titan Tyranid in its Season 2 trailer, with the season coming \"very, very soon\"."
+    },
+    {
+      "ref": "main_news/hamlet-film-made-in-gta-online-coming-to-us-uk-cinemas-and-g",
+      "entities": {
+        "games": [
+          { "id": "gta-online", "name": "GTA Online", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-12-06", "unit": "date", "currency": null,
+          "entity": "grand-theft-hamlet", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the film (Grand Theft Hamlet) will be in cinemas across the UK and Ireland from 6th December 2024",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/hamlet-film-made-in-gta-online-coming-to-us-cinemas-and-global-streaming-services" } }
+      ],
+      "summary": "Grand Theft Hamlet, a film made inside GTA Online, will reach UK and Ireland cinemas from 6 December 2024 after its London Film Festival premiere and other festival showings."
+    },
+    {
+      "ref": "main_news/playstation-the-concert-to-tour-over-200-cities-in-2025-and",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "PlayStation The Concert is set to tour over 200 cities across 2025 and 2026."
+    },
+    {
+      "ref": "free_games_subscription/games-leaving-playstation-on-18th-november",
+      "entities": {
+        "games": [
+          { "id": "gta-san-andreas-the-definitive-edition", "name": "GTA: San Andreas - The Definitive Edition", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "red-dead-redemption-2", "name": "Red Dead Redemption 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "red-dead", "inferred": true },
+          { "id": "the-sims-4", "name": "The Sims 4 - City Living Expansion Pack", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "dragons-dogma-dark-arisen", "name": "Dragon's Dogma: Dark Arisen", "aliases": [], "genres": ["action-rpg"], "franchise": "dragons-dogma", "inferred": true },
+          { "id": "mobile-suit-gundam-extreme-vs-maxiboost-on", "name": "Mobile Suit Gundam Extreme vs Maxiboost On", "aliases": [], "genres": ["fighting", "action"], "franchise": "gundam", "inferred": true },
+          { "id": "superliminal", "name": "Superliminal", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "eiyuden-chronicle-rising", "name": "Eiyuden Chronicle: Rising", "aliases": [], "genres": ["action-rpg"], "franchise": "eiyuden-chronicle", "inferred": true },
+          { "id": "klonoa-phantasy-reverie-series", "name": "Klonoa Phantasy Reverie Series", "aliases": [], "genres": ["platformer"], "franchise": "klonoa", "inferred": true },
+          { "id": "teardown", "name": "Teardown", "aliases": [], "genres": ["sandbox", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "kingdom-hearts-hd-1-5-2-5-remix", "name": "Kingdom Hearts HD 1.5 + 2.5 ReMIX", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "kingdom-hearts-hd-2-8-final-chapter-prologue", "name": "Kingdom Hearts HD 2.8 Final Chapter Prologue", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "kingdom-hearts-3", "name": "Kingdom Hearts 3", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "kingdom-hearts-melody-of-memory", "name": "Kingdom Hearts Melody of Memory", "aliases": [], "genres": ["rhythm"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "chorus", "name": "Chorus", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "what-remains-of-edith-finch", "name": "What Remains of Edith Finch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "overcooked-2", "name": "Overcooked 2", "aliases": [], "genres": ["party", "simulation"], "franchise": "overcooked", "inferred": true },
+          { "id": "blasphemous", "name": "Blasphemous", "aliases": [], "genres": ["metroidvania", "soulslike"], "franchise": "blasphemous", "inferred": true },
+          { "id": "moving-out", "name": "Moving Out", "aliases": [], "genres": ["party", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation+", "aliases": ["PS Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [
+        { "metric": "delay_to", "value": "2024-11-18", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Games leaving PlayStation+ on 18th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/gta-san-andreas-red-dead-redemption-2-kingdom-hearts-and-more-leaving-ps-plus-next-month" } }
+      ],
+      "summary": "A batch of games including GTA: San Andreas Definitive Edition, Red Dead Redemption 2 and the Kingdom Hearts titles will leave PlayStation+ on 18 November."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced",
+      "entities": {
+        "games": [
+          { "id": "south-park-the-fractured-but-whole", "name": "South Park: The Fractured but Whole", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": "south-park", "inferred": true },
+          { "id": "donut-county", "name": "Donut County", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "mechwarrior-5-clans", "name": "MechWarrior 5: Clans", "aliases": [], "genres": ["shooter", "simulation"], "franchise": "mechwarrior", "inferred": true },
+          { "id": "call-of-duty-black-ops-6", "name": "Call of Duty: Black Ops 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-modern-warfare-3", "name": "Call of Duty: Modern Warfare III", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-warzone", "name": "Call of Duty: Warzone", "aliases": [], "genres": ["fps", "battle-royale", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "ashen", "name": "Ashen", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true },
+          { "id": "starcraft-remastered", "name": "StarCraft: Remastered", "aliases": [], "genres": ["rts", "strategy"], "franchise": "starcraft", "inferred": true },
+          { "id": "starcraft-2-campaign-collection", "name": "StarCraft II: Campaign Collection", "aliases": [], "genres": ["rts", "strategy"], "franchise": "starcraft", "inferred": true },
+          { "id": "frog-detective-the-entire-mystery", "name": "Frog Detective: The Entire Mystery", "aliases": [], "genres": ["adventure"], "franchise": "frog-detective", "inferred": true },
+          { "id": "headbangers", "name": "Headbangers", "aliases": [], "genres": ["rhythm", "party"], "franchise": null, "inferred": true },
+          { "id": "inkulinati", "name": "Inkulinati", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": null, "inferred": true },
+          { "id": "lonely-mountains-downhill", "name": "Lonely Mountain's Downhill", "aliases": [], "genres": ["racing", "sports"], "franchise": null, "inferred": true },
+          { "id": "minekos-night-market", "name": "Mineko's Night Market", "aliases": [], "genres": ["life-sim", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass Ultimate", "PC Game Pass", "Game Pass Standard"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-16", "unit": "date", "currency": null,
+          "entity": "south-park-the-fractured-but-whole", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "South Park: The Fractured but Whole (Cloud, Console, and PC) – October 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-10-17", "unit": "date", "currency": null,
+          "entity": "donut-county", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Donut County (Cloud, Console, and PC) – October 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-10-17", "unit": "date", "currency": null,
+          "entity": "mechwarrior-5-clans", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MechWarrior 5: Clans (Cloud, PC, and Xbox Series X|S) – October 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-10-25", "unit": "date", "currency": null,
+          "entity": "call-of-duty-black-ops-6", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Call of Duty: Black Ops 6 (Cloud, Console, and PC) – October 25",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-10-25", "unit": "date", "currency": null,
+          "entity": "call-of-duty-modern-warfare-3", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Call of Duty: Modern Warfare III (Cloud) – October 25",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-10-25", "unit": "date", "currency": null,
+          "entity": "call-of-duty-warzone", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Call of Duty: Warzone (Cloud) – October 25",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-10-29", "unit": "date", "currency": null,
+          "entity": "ashen", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ashen (Cloud, Console, and PC) – October 29",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-10-31", "unit": "date", "currency": null,
+          "entity": "dead-island-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dead Island 2 (PC) – October 31",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-11-05", "unit": "date", "currency": null,
+          "entity": "starcraft-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "StarCraft: Remastered (PC) – November 5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } },
+        { "metric": "release_date", "value": "2024-11-05", "unit": "date", "currency": null,
+          "entity": "starcraft-2-campaign-collection", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "StarCraft II: Campaign Collection (PC) – November 5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced-5/" } }
+      ],
+      "summary": "Microsoft announced new Xbox Game Pass additions for console, PC and Cloud, including South Park: The Fractured but Whole and Call of Duty: Black Ops 6, with several titles leaving the service on 31 October."
+    },
+    {
+      "ref": "business/against-the-storm-has-sold-1-2m-copies",
+      "entities": {
+        "games": [
+          { "id": "against-the-storm", "name": "Against the Storm", "aliases": [], "genres": ["strategy", "roguelike", "simulation"], "franchise": null, "inferred": true },
+          { "id": "workers-resources-soviet-republic", "name": "Workers & Resources: Soviet Republic", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true },
+          { "id": "norland", "name": "Norland", "aliases": [], "genres": ["strategy", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "hooded-horse", "name": "Hooded Horse", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1200000, "unit": "copies", "currency": null,
+          "entity": "against-the-storm", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Against the Storm has sold 1.2m copies",
+          "source": { "name": "GamesPress", "domain": "gamespress.com", "url": "https://www.gamespress.com/Hooded-Horse-9-5-million-wishlists" } },
+        { "metric": "units_sold", "value": 600000, "unit": "units", "currency": null,
+          "entity": "workers-resources-soviet-republic", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Workers & Resources: Soviet Republic sold over 600,000 units",
+          "source": { "name": "GamesPress", "domain": "gamespress.com", "url": "https://www.gamespress.com/Hooded-Horse-9-5-million-wishlists" } },
+        { "metric": "copies_sold", "value": 300000, "unit": "copies", "currency": null,
+          "entity": "norland", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Norland over 300,000 copies since its EA launch in July",
+          "source": { "name": "GamesPress", "domain": "gamespress.com", "url": "https://www.gamespress.com/Hooded-Horse-9-5-million-wishlists" } }
+      ],
+      "summary": "Publisher Hooded Horse announced that Against the Storm has sold 1.2 million copies, alongside over 600,000 units of Workers & Resources: Soviet Republic and over 300,000 copies of Norland."
+    },
+    {
+      "ref": "business/rare-s-craig-duncan-to-become-head-of-xbox-game-studios-as-a",
+      "entities": {
+        "games": [
+          { "id": "sea-of-thieves", "name": "Sea of Thieves", "aliases": [], "genres": ["action-adventure", "adventure"], "franchise": null, "inferred": true },
+          { "id": "forza", "name": "Forza", "aliases": [], "genres": ["racing"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "turn-10", "name": "Turn 10", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "craig-duncan", "name": "Craig Duncan", "aliases": [], "inferred": false },
+          { "id": "alan-hartman", "name": "Alan Hartman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [
+        { "metric": "players_total", "value": 40000000, "unit": "players", "currency": null,
+          "entity": "sea-of-thieves", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Sea of Thieves, which has had more than 40 million players since it launched in 2018",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/rares-craig-duncan-to-become-head-of-xbox-game-studios-as-alan-hartman-retires" } }
+      ],
+      "summary": "Rare's Craig Duncan is set to become head of Xbox Game Studios as Alan Hartman, who formed Turn 10 and launched the Forza series, retires."
+    },
+    {
+      "ref": "business/riot-games-eliminates-32-roles",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": ["League"], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 32, "unit": "people", "currency": null,
+          "entity": "riot-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Riot Games eliminates 32 roles",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/riot-games-eliminates-unspecified-number-of-league-of-legends-roles" } }
+      ],
+      "summary": "Riot Games eliminated 32 roles, comprising 27 layoffs from its League team and five from its publishing side."
+    },
+    {
+      "ref": "business/dragon-ball-sparking-zero-sells-3m-copies-in-24-hours",
+      "entities": {
+        "games": [
+          { "id": "dragon-ball-sparking-zero", "name": "Dragon Ball: Sparking Zero", "aliases": [], "genres": ["fighting"], "franchise": "dragon-ball", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 3000000, "unit": "copies", "currency": null,
+          "entity": "dragon-ball-sparking-zero", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dragon Ball: Sparking Zero sells 3m copies in 24 hours",
+          "source": { "name": "prtimes.jp", "domain": "prtimes.jp", "url": "https://prtimes.jp/main/html/rd/p/000001448.000051316.html" } }
+      ],
+      "summary": "Dragon Ball: Sparking Zero sold 3 million copies within 24 hours of release."
+    },
+    {
+      "ref": "rumours/bandai-namco-is-reportedly-cutting-workforce-following-cance",
+      "entities": {
+        "games": [
+          { "id": "one-piece", "name": "One Piece", "aliases": [], "genres": ["action-adventure"], "franchise": "one-piece", "inferred": true },
+          { "id": "naruto", "name": "Naruto", "aliases": [], "genres": ["fighting"], "franchise": "naruto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "headcount", "value": 200, "unit": "people", "currency": null,
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "It's alleged 200 of its 1300 employees have been moved into these \"expulsion rooms\"",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-is-reportedly-cutting-workforce-following-cancellation-of-several-titles" } },
+        { "metric": "headcount", "value": 1300, "unit": "people", "currency": null,
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-16", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "200 of its 1300 employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-is-reportedly-cutting-workforce-following-cancellation-of-several-titles" } }
+      ],
+      "summary": "Bandai Namco is reportedly cutting its workforce after cancelling several titles, with allegations that 200 of its 1300 employees were moved into \"expulsion rooms\"."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "date": "2024-07-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/arc-system-works-is-working-on-a-new-3d-double-dragon",
+      "entities": {
+        "games": [
+          { "id": "double-dragon", "name": "Double Dragon", "aliases": [], "genres": ["fighting"], "franchise": "double-dragon", "inferred": true },
+          { "id": "double-dragon-4", "name": "Double Dragon 4", "aliases": [], "genres": ["fighting"], "franchise": "double-dragon", "inferred": true },
+          { "id": "guilty-gear-strive", "name": "Guilty Gear Strive", "aliases": [], "genres": ["fighting"], "franchise": "guilty-gear", "inferred": true },
+          { "id": "dragon-ball-fighterz", "name": "Dragon Ball FighterZ", "aliases": [], "genres": ["fighting"], "franchise": "dragon-ball", "inferred": true },
+          { "id": "granblue-fantasy-versus", "name": "Granblue Fantasy Versus", "aliases": [], "genres": ["fighting"], "franchise": "granblue-fantasy", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arc-system-works", "name": "Arc System Works", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Arc System Works is working on a new 3D Double Dragon game, having acquired the IP in 2015 and previously released Double Dragon 4."
+    },
+    {
+      "ref": "free_games_subscription/july-s-playstation-plus-game-catalogue-and-classics-titles-c",
+      "entities": {
+        "games": [
+          { "id": "remnant-ii", "name": "Remnant II", "aliases": [], "genres": ["tps", "action-rpg", "soulslike"], "franchise": "remnant", "inferred": true },
+          { "id": "crisis-core-final-fantasy-vii-reunion", "name": "Crisis Core: Final Fantasy VII Reunion", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "mount-blade-ii-bannerlord", "name": "Mount & Blade II: Bannerlord", "aliases": [], "genres": ["action-rpg", "strategy"], "franchise": "mount-and-blade", "inferred": true },
+          { "id": "the-jackbox-party-pack-9", "name": "The Jackbox Party Pack 9", "aliases": [], "genres": ["party"], "franchise": "jackbox", "inferred": true },
+          { "id": "pathfinder-wrath-of-the-righteous", "name": "Pathfinder: Wrath of the Righteous", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "pathfinder", "inferred": true },
+          { "id": "no-more-heroes-3", "name": "No More Heroes 3", "aliases": [], "genres": ["action-adventure"], "franchise": "no-more-heroes", "inferred": true },
+          { "id": "travis-strikes-again-no-more-heroes", "name": "Travis Strikes Again: No More Heroes Complete Edition", "aliases": [], "genres": ["action-adventure"], "franchise": "no-more-heroes", "inferred": true },
+          { "id": "deadcraft", "name": "Deadcraft", "aliases": [], "genres": ["action-rpg", "survival"], "franchise": null, "inferred": true },
+          { "id": "steep", "name": "Steep", "aliases": [], "genres": ["sports", "simulation"], "franchise": null, "inferred": true },
+          { "id": "job-simulator", "name": "Job Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "summoner", "name": "Summoner", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "ratchet-and-clank-size-matters", "name": "Ratchet and Clank Size Matters", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "ratchet-and-clank", "inferred": true },
+          { "id": "jeanne-darc", "name": "Jeanne d’Arc", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps-vr2", "name": "PS VR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-07-16", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-07-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Extra and Premium (July 16)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-playstation-plus-game-catalogue-and-classics-titles-confirmed/" } }
+      ],
+      "summary": "Sony confirmed July's PlayStation Plus Extra, Premium, and Classics catalogue titles, arriving on 16 July 2024."
+    },
+    {
+      "ref": "business/terraria-passes-58-7-million-lifetime-sales",
+      "entities": {
+        "games": [
+          { "id": "terraria", "name": "Terraria", "aliases": [], "genres": ["sandbox", "survival", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "re-logic", "name": "Re-Logic", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 58700000, "unit": "units", "currency": null,
+          "entity": "terraria", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-11", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Terraria passes 58.7 million lifetime sales",
+          "source": { "name": "GamesRadar+", "domain": "gamesradar.com",
+                      "url": "https://www.gamesradar.com/games/survival/survival-juggernaut-terraria-has-officially-[…]evs-waited-2-years-just-to-flex-its-latest-sales-milestone/" } }
+      ],
+      "summary": "Terraria has passed 58.7 million lifetime sales."
+    },
+    {
+      "ref": "rumours/riot-games-reportedly-cancelled-plans-for-a-smash-bros-style",
+      "entities": {
+        "games": [
+          { "id": "pool-party", "name": "Pool Party", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "2xko", "name": "2XKO", "aliases": [], "genres": ["fighting"], "franchise": "league-of-legends", "inferred": true },
+          { "id": "multiversus", "name": "Multiversus", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Riot Games reportedly cancelled plans for a Super Smash Bros. style fighter codenamed Pool Party, while 2XKO remains due next year."
+    }
+  ]
+}

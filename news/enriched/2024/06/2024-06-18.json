@@ -1,0 +1,185 @@
+{
+  "date": "2024-06-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/embracer-is-closing-alone-in-the-dark-studio-pieces-interact",
+      "entities": {
+        "games": [
+          { "id": "alone-in-the-dark", "name": "Alone in the Dark", "aliases": [], "genres": ["survival-horror"], "franchise": "alone-in-the-dark", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pieces-interactive", "name": "Pieces Interactive", "aliases": [], "publisher": "embracer-group", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Embracer is closing Pieces Interactive, the studio behind Alone in the Dark."
+    },
+    {
+      "ref": "main_news/lords-of-the-fallen-sequel-set-for-2026",
+      "entities": {
+        "games": [
+          { "id": "lords-of-the-fallen", "name": "Lords of the Fallen", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "lords-of-the-fallen", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ci-games", "name": "CI Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "ci-games", "name": "CI Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic"], "inferred": true },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "lords-of-the-fallen", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Lords of the Fallen sequel set for 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/lords-of-the-fallen-sequel-set-for-2026" } }
+      ],
+      "summary": "A Lords of the Fallen sequel is set for 2026, with CI Games confirming Epic has exclusive PC distribution."
+    },
+    {
+      "ref": "main_news/todd-howard-confirms-at-least-one-more-starfield-expansion-a",
+      "entities": {
+        "games": [
+          { "id": "starfield", "name": "Starfield", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "starfield", "inferred": true },
+          { "id": "starfield-shattered-space", "name": "Starfield: Shattered Space", "aliases": ["Shattered Space"], "genres": ["action-rpg"], "franchise": "starfield", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": ["Bethesda"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "todd-howard", "name": "Todd Howard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Todd Howard confirmed at least one more Starfield expansion is planned after Shattered Space."
+    },
+    {
+      "ref": "main_news/paradox-interactive-has-cancelled-sims-like-life-by-you",
+      "entities": {
+        "games": [
+          { "id": "life-by-you", "name": "Life By You", "aliases": [], "genres": ["life-sim"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Paradox Interactive has cancelled its Sims-like life simulation game Life By You."
+    },
+    {
+      "ref": "main_news/masahiro-sakurai-says-he-s-recorded-his-final-youtube-video",
+      "entities": {
+        "games": [
+          { "id": "super-smash-bros", "name": "Super Smash Bros.", "aliases": [], "genres": ["fighting"], "franchise": "super-smash-bros", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "youtube", "name": "YouTube", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "masahiro-sakurai", "name": "Masahiro Sakurai", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Masahiro Sakurai says he has recorded the final video for his YouTube channel."
+    },
+    {
+      "ref": "business/xbox-s-sea-of-thieves-was-ps5-s-most-downloaded-game-in-may",
+      "entities": {
+        "games": [
+          { "id": "sea-of-thieves", "name": "Sea of Thieves", "aliases": [], "genres": ["action-adventure", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [],
+      "summary": "Xbox's Sea of Thieves was the most downloaded game on PS5 in May."
+    },
+    {
+      "ref": "business/paper-mario-the-thousand-year-door-debuts-at-no-1-in-japan",
+      "entities": {
+        "games": [
+          { "id": "paper-mario-the-thousand-year-door", "name": "Paper Mario: The Thousand-Year Door", "aliases": [], "genres": ["rpg"], "franchise": "mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "remaster-remake"],
+      "facts": [
+        { "metric": "chart_rank", "value": 1, "unit": "rank", "currency": null,
+          "entity": "paper-mario-the-thousand-year-door", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Paper Mario: The Thousand-Year Door debuts at No.1 in Japan",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/paper-mario-the-thousand-year-door-debuts-at-no1-japan-monthly-charts" } },
+        { "metric": "units_sold", "value": 115000, "unit": "units", "currency": null,
+          "entity": "paper-mario-the-thousand-year-door", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-18", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "sold over 115,000 units in three days",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/paper-mario-the-thousand-year-door-debuts-at-no1-japan-monthly-charts" } }
+      ],
+      "summary": "Paper Mario: The Thousand-Year Door debuted at No.1 in Japan."
+    },
+    {
+      "ref": "business/gta-trilogy-reaches-30m-downloads-on-netflix",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-the-trilogy-the-definitive-edition", "name": "GTA: The Trilogy - The Definitive Edition", "aliases": ["GTA trilogy"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 30000000, "unit": "downloads", "currency": null,
+          "entity": "grand-theft-auto-the-trilogy-the-definitive-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "GTA trilogy reaches 30m downloads on Netflix",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/gta-trilogy-reaches-30m-downloads-on-netflix" } }
+      ],
+      "summary": "The GTA trilogy has reached 30 million downloads on Netflix."
+    }
+  ]
+}

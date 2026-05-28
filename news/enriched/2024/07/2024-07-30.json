@@ -1,0 +1,221 @@
+{
+  "date": "2024-07-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-face-of-supermassive-games-the-dark-pictures-anthology-t",
+      "entities": {
+        "games": [
+          { "id": "the-dark-pictures-anthology", "name": "The Dark Pictures Anthology", "aliases": [], "genres": ["adventure", "horror"], "franchise": "the-dark-pictures-anthology", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supermassive-games", "name": "Supermassive Games", "aliases": ["Supermassive"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tony-pankhurst", "name": "Tony Pankhurst", "aliases": ["The Curator"], "inferred": false },
+          { "id": "pip-torrens", "name": "Pip Torrens", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Tony Pankhurst, who provided the facial likeness of The Curator in Supermassive Games' The Dark Pictures Anthology, has died aged 67."
+    },
+    {
+      "ref": "main_news/removing-skill-based-matchmaking-leads-to-a-drop-in-players",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-modern-warfare-3", "name": "Modern Warfare 3", "aliases": ["Modern Warfare 3"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "An Activision study using a Modern Warfare 3 experiment suggests that removing skill-based matchmaking leads to a drop in returning players."
+    },
+    {
+      "ref": "main_news/grasshopper-manufacture-to-host-second-annual-showcase-later",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "grasshopper-manufacture", "name": "Grasshopper Manufacture", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-07-31", "unit": "date", "currency": null,
+          "entity": "grasshopper-manufacture", "entity_type": "studio", "scope": "event",
+          "as_of": "2024-07-30", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "31st July",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/grasshopper-manufacture-to-host-second-annual-showcase-later-this-week" } }
+      ],
+      "summary": "Grasshopper Manufacture will host its second annual showcase on 31 July 2024."
+    },
+    {
+      "ref": "main_news/castle-crashers-is-getting-new-dlc-16-years-after-it-first-r",
+      "entities": {
+        "games": [
+          { "id": "castle-crashers", "name": "Castle Crashers", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-behemoth", "name": "The Behemoth", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "xbox-live-arcade", "name": "Xbox Live Arcade", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": ["Sony consoles"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Castle Crashers is getting new DLC, 16 years after it first released, coming only to Steam."
+    },
+    {
+      "ref": "main_news/double-fine-drops-a-90-minute-update-to-its-20-hour-series-d",
+      "entities": {
+        "games": [
+          { "id": "psychonauts-2", "name": "Psychonauts 2", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "psychonauts", "inferred": true }
+        ],
+        "studios": [
+          { "id": "double-fine", "name": "Double Fine", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Double Fine has released a 90-minute update to its PsychOdyssey documentary series chronicling the development of Psychonauts 2."
+    },
+    {
+      "ref": "main_news/mortal-kombat-1-khaos-reigns-dlc-announced-animalities-t-100",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": ["Mortal Kombat 1: Khaos Reigns"], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "netherrealm-studios", "name": "NetherRealm Studios", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "The Mortal Kombat 1: Khaos Reigns DLC has been announced, adding Animalities along with T-1000, Conan, and Scream's Ghostface."
+    },
+    {
+      "ref": "business/embracer-s-plaion-will-publish-uncharted-director-s-marvel-1",
+      "entities": {
+        "games": [
+          { "id": "marvel-1943-rise-of-hydra", "name": "Marvel 1943: Rise of Hydra", "aliases": [], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "skydance-games", "name": "Skydance Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "plaion", "name": "Plaion", "aliases": ["Embracer's Plaion", "Koch Media"], "inferred": false },
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Embracer's Plaion has entered a worldwide publishing partnership with Skydance Games to publish Marvel 1943: Rise of Hydra."
+    },
+    {
+      "ref": "business/hasbro-ceo-we-re-going-all-in-on-becoming-a-digital-play-com",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "hasbro", "name": "Hasbro", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "chris-cocks", "name": "Chris Cocks", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Hasbro CEO Chris Cocks says the company is going all in on becoming a digital play company, aiming to ship one to two new games per year starting as early as late 2025."
+    },
+    {
+      "ref": "business/electric-square-s-lively-studio-faces-small-number-of-layoff",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "electric-square", "name": "Electric Square", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "lively-studio", "name": "Lively Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Electric Square's sister studio Lively Studio faces a small number of layoffs, with Electric Square itself unaffected for now."
+    },
+    {
+      "ref": "business/capcom-q1-fy25-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 29600000000, "unit": "JPY", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-30", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥29.6 billion ($192 million), down 32.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-games-sales-down-44-during-q1-fy25" } },
+        { "metric": "revenue", "value": 192000000, "unit": "USD", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-30", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥29.6 billion ($192 million), down 32.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-games-sales-down-44-during-q1-fy25" } },
+        { "metric": "revenue", "value": 21400000000, "unit": "JPY", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-30", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Digital Contents net sales: ¥21.4 billion ($138 million), down 43.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-games-sales-down-44-during-q1-fy25" } },
+        { "metric": "revenue", "value": 138000000, "unit": "USD", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-30", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Digital Contents net sales: ¥21.4 billion ($138 million), down 43.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-games-sales-down-44-during-q1-fy25" } },
+        { "metric": "profit", "value": 9970000000, "unit": "JPY", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-30", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥9.97 billion ($64.7 million), down 45.1% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-games-sales-down-44-during-q1-fy25" } },
+        { "metric": "profit", "value": 64700000, "unit": "USD", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-30", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥9.97 billion ($64.7 million), down 45.1% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-games-sales-down-44-during-q1-fy25" } }
+      ],
+      "summary": "Capcom reported Q1 FY25 results with net sales of ¥29.6 billion (down 32.5% year-on-year) and net income of ¥9.97 billion (down 45.1% year-on-year)."
+    }
+  ]
+}

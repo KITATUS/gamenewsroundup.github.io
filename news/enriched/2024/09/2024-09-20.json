@@ -1,0 +1,160 @@
+{
+  "date": "2024-09-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/two-point-museum-gets-release-date-exclusive-sonic-pre-order",
+      "entities": {
+        "games": [
+          { "id": "two-point-museum", "name": "Two Point Museum", "aliases": [], "genres": ["simulation"], "franchise": "two-point", "inferred": true },
+          { "id": "sonic", "name": "Sonic", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-03-04", "unit": "date", "currency": null,
+          "entity": "two-point-museum", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "March 4 on PS5, Xbox Series S/X and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/two-point-museum-gets-release-date-exclusive-sonic-pre-order-items/" }
+        }
+      ],
+      "summary": "Two Point Museum received a March 4 release date on PS5, Xbox Series S/X and PC, alongside exclusive Sonic pre-order items."
+    },
+    {
+      "ref": "main_news/tetsuya-nomura-says-he-s-considering-retirement-and-concludi",
+      "entities": {
+        "games": [
+          { "id": "kingdom-hearts-4", "name": "Kingdom Hearts 4", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tetsuya-nomura", "name": "Tetsuya Nomura", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Tetsuya Nomura said he is considering retirement and intends to conclude the Kingdom Hearts story with Kingdom Hearts 4."
+    },
+    {
+      "ref": "main_news/playstation-announces-30th-anniversary-collection-including",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 12300, "unit": "units", "currency": null,
+          "entity": "ps5-pro", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Only 12,300 of the PS5 Pro variant will be available globally",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-announces-30th-anniversary-collection-including-grey-ps5-and-ps5-pro/" }
+        }
+      ],
+      "summary": "PlayStation announced a 30th Anniversary Collection featuring a grey PS5 and PS5 Pro, with only 12,300 PS5 Pro units available globally."
+    },
+    {
+      "ref": "main_news/yager-uses-fortnite-to-revive-scrapped-game-the-cycle-fronti",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "sandbox"], "franchise": "fortnite", "inferred": true },
+          { "id": "the-cycle-frontier", "name": "The Cycle: Frontier", "aliases": ["The Cycle"], "genres": ["extraction-shooter"], "franchise": "the-cycle", "inferred": false }
+        ],
+        "studios": [
+          { "id": "yager", "name": "Yager", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Yager used Unreal Editor for Fortnite to recreate its scrapped 2022 extraction shooter The Cycle: Frontier as an in-game island called The Cycle: Prospect Island."
+    },
+    {
+      "ref": "business/midwinter-shut-down-following-project-t-cancellation",
+      "entities": {
+        "games": [
+          { "id": "scavengers", "name": "Scavengers", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "project-t", "name": "Project T", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "midwinter-entertainment", "name": "Midwinter Entertainment", "aliases": ["Midwinter"], "publisher": "behaviour-interactive", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "inferred": false },
+          { "id": "improbable", "name": "Improbable", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [],
+      "summary": "Midwinter Entertainment was reportedly shut down following the cancellation of Project T, with staff offered relocation to Behaviour Interactive's Canadian studios or a severance package."
+    },
+    {
+      "ref": "business/unity-6-will-launch-globally-on-october-17",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity-technologies", "name": "Unity Technologies", "aliases": ["Unity"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-10-17", "unit": "date", "currency": null,
+          "entity": "unity-6", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Unity 6 will launch globally on October 17",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/production/unity-6-will-launch-globally-on-october-17" }
+        }
+      ],
+      "summary": "Unity 6 will launch globally on October 17."
+    },
+    {
+      "ref": "rumours/concord-s-director-is-reportedly-stepping-down-as-the-game-s",
+      "entities": {
+        "games": [
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "firewalk-studios", "name": "Firewalk Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ryan-ellis", "name": "Ryan Ellis", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Concord game director Ryan Ellis is stepping down into a support role at Firewalk Studios while the game's return remains uncertain."
+    }
+  ]
+}

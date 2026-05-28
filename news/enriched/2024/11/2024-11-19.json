@@ -1,0 +1,143 @@
+{
+  "date": "2024-11-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/time-to-vote-for-the-game-awards",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true },
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "black-myth-wukong", "name": "Black Myth: Wukong", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "elden-ring-shadow-of-the-erdtree", "name": "Elden Ring: Shadow of the Erdtree", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true },
+          { "id": "final-fantasy-vii-rebirth", "name": "Final Fantasy VII Rebirth", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "metaphor-refantazio", "name": "Metaphor: ReFantazio", "aliases": [], "genres": ["jrpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Voting is open for The Game Awards, with Astro Bot, Balatro, Black Myth: Wukong, Elden Ring: Shadow of the Erdtree, Final Fantasy VII Rebirth and Metaphor: ReFantazio nominated for Game of the Year."
+    },
+    {
+      "ref": "main_news/rainbow-six-siege-is-getting-pc-and-console-cross-play-next",
+      "entities": {
+        "games": [
+          { "id": "rainbow-six-siege", "name": "Rainbow Six Siege", "aliases": [], "genres": ["fps", "shooter"], "franchise": "rainbow-six", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "console", "name": "Console", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Rainbow Six Siege is set to get full PC and console cross-play next month."
+    },
+    {
+      "ref": "main_news/assassin-s-creed-syndicate-is-getting-a-60-fps-update-for-ps",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-syndicate", "name": "Assassin's Creed Syndicate", "aliases": [], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": ["Xbox Series X/S", "Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-19", "unit": "date", "currency": null,
+          "entity": "assassins-creed-syndicate", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launching on November 19, the 60 FPS patch will also add 4K resolution on PS5, PS5 Pro and Xbox Series X.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/assassins-creed-syndicate-is-getting-a-60-fps-update-for-ps5-and-xbox-series-x-s/" } }
+      ],
+      "summary": "Assassin's Creed Syndicate is receiving a 60 FPS update for PS5 and Xbox Series S/X, launching November 19."
+    },
+    {
+      "ref": "main_news/lego-horizon-adventures-set-confirmed-for-2025",
+      "entities": {
+        "games": [
+          { "id": "lego-horizon-adventures", "name": "Lego Horizon Adventures", "aliases": [], "genres": ["action-adventure"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Lego Horizon Adventures set has been confirmed for release in 2025."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-is-set-to-lose-these-6-games-at-the-end-of-th",
+      "entities": {
+        "games": [
+          { "id": "while-the-irons-hot", "name": "While the Iron's Hot", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "spirit-of-the-north", "name": "Spirit of the North Enhanced Edition", "aliases": ["Spirit of the North"], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "soccer-story", "name": "Soccer Story", "aliases": [], "genres": ["adventure", "sports"], "franchise": null, "inferred": true },
+          { "id": "rollerdrome", "name": "Rollerdrome", "aliases": [], "genres": ["shooter", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "conan-exiles", "name": "Conan Exiles", "aliases": [], "genres": ["survival", "open-world"], "franchise": "conan", "inferred": true },
+          { "id": "coral-island", "name": "Coral Island", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "remnant-from-the-ashes", "name": "Remnant: From the Ashes", "aliases": [], "genres": ["tps", "shooter", "action-rpg"], "franchise": "remnant", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Six games are set to leave Xbox Game Pass at the end of the month: While the Iron's Hot, Spirit of the North Enhanced Edition, Soccer Story, Rollerdrome, Conan Exiles, Coral Island and Remnant: From the Ashes."
+    },
+    {
+      "ref": "business/indie-rpg-dev-thought-pennies-cuts-staff-after-losing-projec",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "thought-pennies", "name": "Thought Pennies", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Indie RPG developer Thought Pennies is cutting staff after losing project funding."
+    },
+    {
+      "ref": "business/play-ventures-raises-140m-in-third-gaming-fund",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 140000000, "unit": "money", "currency": "USD",
+          "entity": "play-ventures", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Play Ventures raises $140m in third gaming fund",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/play-ventures-raises-140m-in-third-gaming-fund" } }
+      ],
+      "summary": "Play Ventures has raised $140m for its third gaming fund, aiming to invest in up to 25 early-stage games companies focused on mobile free-to-play games and AI-enhanced gaming tools."
+    }
+  ]
+}

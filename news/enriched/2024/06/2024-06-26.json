@@ -1,0 +1,110 @@
+{
+  "date": "2024-06-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/atari-50-getting-39-new-games-in-dlc-detailing-intellivision",
+      "entities": {
+        "games": [
+          { "id": "atari-50", "name": "Atari 50", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-eclipse", "name": "Digital Eclipse", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-25", "unit": "date", "currency": null,
+          "entity": "atari-50", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Expanded Edition out in 25th October.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/atari-50-getting-39-new-games-in-dlc-detailing-intellivision-console-war" } }
+      ],
+      "summary": "Atari 50 is getting an Expanded Edition DLC adding 39 new games and detailing the Intellivision \"console war\", out 25 October 2024."
+    },
+    {
+      "ref": "main_news/disney-epic-mickey-rebrushed-is-releasing-in-24th-september",
+      "entities": {
+        "games": [
+          { "id": "disney-epic-mickey-rebrushed", "name": "Disney Epic Mickey: Rebrushed", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "epic-mickey", "inferred": true }
+        ],
+        "studios": [
+          { "id": "purple-lamp", "name": "Purple Lamp", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-24", "unit": "date", "currency": null,
+          "entity": "disney-epic-mickey-rebrushed", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Disney Epic Mickey: Rebrushed is releasing in 24th September",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/disney-epic-mickey-rebrushed-is-releasing-in-september-for-60-50/" } }
+      ],
+      "summary": "Disney Epic Mickey: Rebrushed is releasing on 24 September 2024."
+    },
+    {
+      "ref": "free_games_subscription/amazon-prime-is-giving-away-15-free-pc-games",
+      "entities": {
+        "games": [
+          { "id": "deceive-inc", "name": "Deceive Inc", "aliases": [], "genres": ["fps", "stealth"], "franchise": null, "inferred": true },
+          { "id": "tearstone-thieves-of-the-heart", "name": "Tearstone: Thieves of the Heart", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "the-invisible-hand", "name": "The Invisible Hand", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "call-of-juarez", "name": "Call of Juarez", "aliases": [], "genres": ["fps"], "franchise": "call-of-juarez", "inferred": true },
+          { "id": "forager", "name": "Forager", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "card-shark", "name": "Card Shark", "aliases": [], "genres": ["adventure", "card"], "franchise": null, "inferred": true },
+          { "id": "heaven-dust-2", "name": "Heaven Dust 2", "aliases": [], "genres": ["survival-horror"], "franchise": "heaven-dust", "inferred": true },
+          { "id": "soulstice", "name": "Soulstice", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "wall-world", "name": "Wall World", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true },
+          { "id": "hitman-absolution", "name": "Hitman Absolution", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "hitman", "inferred": true },
+          { "id": "call-of-juarez-bound-in-blood", "name": "Call of Juarez: Bound in Blood", "aliases": [], "genres": ["fps"], "franchise": "call-of-juarez", "inferred": true },
+          { "id": "teenage-mutant-ninja-turtles-shredders-revenge", "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge", "aliases": [], "genres": ["action-adventure"], "franchise": "teenage-mutant-ninja-turtles", "inferred": true },
+          { "id": "star-wars-knights-of-the-old-republic-2-the-sith-lords", "name": "Star Wars: Knights of the Old Republic 2 – The Sith Lords", "aliases": [], "genres": ["rpg"], "franchise": "star-wars", "inferred": true },
+          { "id": "alex-kidd-in-miracle-world-dx", "name": "Alex Kidd in Miracle World DX", "aliases": [], "genres": ["platformer"], "franchise": "alex-kidd", "inferred": true },
+          { "id": "samurai-bringer", "name": "Samurai Bringer", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": ["Amazon Prime", "Amazon Games App"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Amazon Prime is giving away 15 free PC games across staggered availability dates in the run-up to Prime Day."
+    },
+    {
+      "ref": "business/pok-mon-never-followed-up-on-palworld-legal-threat-developer",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": "palworld", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Palworld's developer revealed that Pokémon never followed up on its legal threat over the game."
+    }
+  ]
+}

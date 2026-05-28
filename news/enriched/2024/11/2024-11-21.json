@@ -1,0 +1,149 @@
+{
+  "date": "2024-11-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-crew-will-soon-include-og-lego-and-music-passes-too",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": ["Fortnite Crew"], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [],
+      "summary": "Fortnite Crew will soon expand to include OG, Lego and Music passes, confirming the upcoming permanent OG mode will have its own battle pass."
+    },
+    {
+      "ref": "main_news/cd-projekt-says-no-current-plans-for-cyberpunk-2077-upgrade",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": ["CD Projekt"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "cd-projekt", "name": "CD Projekt", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "CD Projekt says it has \"no current plans\" for a Cyberpunk 2077 upgrade on PS5 Pro."
+    },
+    {
+      "ref": "free_games_subscription/xbox-cloud-gaming-now-lets-players-stream-select-games-they",
+      "entities": {
+        "games": [
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "call-of-duty-modern-warfare-2", "name": "Modern Warfare 2", "aliases": ["Modern Warfare 2"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "final-fantasy-xiv", "name": "Final Fantasy XIV", "aliases": [], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "hogwarts-legacy", "name": "Hogwarts Legacy", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "harry-potter", "inferred": true },
+          { "id": "the-witcher-3", "name": "The Witcher 3: Wild Hunt", "aliases": ["The Witcher 3: Wild Hunt"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true },
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true },
+          { "id": "warhammer-40000-space-marine-2", "name": "Warhammer 40,000: Space Marine 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-cloud-gaming", "name": "Xbox Cloud Gaming", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "update-patch"],
+      "facts": [],
+      "summary": "Xbox Cloud Gaming now lets players stream select games they already own across PC, phone, tablet, handheld and most web-browser devices."
+    },
+    {
+      "ref": "business/unknown-9-developer-reflector-entertainment-lays-off-18-of-s",
+      "entities": {
+        "games": [
+          { "id": "unknown-9-awakening", "name": "Unknown 9: Awakening", "aliases": ["Unknown 9"], "genres": ["action-adventure"], "franchise": "unknown-9", "inferred": false }
+        ],
+        "studios": [
+          { "id": "reflector-entertainment", "name": "Reflector Entertainment", "aliases": [], "publisher": "bandai-namco", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "delay", "acquisition"],
+      "facts": [
+        { "metric": "delay_to", "value": "2024-10-18", "unit": "date", "currency": null,
+          "entity": "unknown-9-awakening", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "delayed to October 18, 2024",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unknown-9-developer-reflector-entertainment-reportedly-suffers-layoffs" } },
+        { "metric": "event_date", "value": "2020", "unit": "date", "currency": null,
+          "entity": "reflector-entertainment", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-11-21", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "acquiring Reflector back in 2020",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unknown-9-developer-reflector-entertainment-reportedly-suffers-layoffs" } }
+      ],
+      "summary": "Reflector Entertainment, developer of Unknown 9: Awakening, has laid off 18% of its staff."
+    },
+    {
+      "ref": "business/fromsoftware-parent-kadokawa-confirms-buyout-interest-from-s",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "kadokawa", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "kadokawa", "name": "Kadokawa", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "rumour"],
+      "facts": [],
+      "summary": "Kadokawa, parent of FromSoftware, confirmed it received a letter of intent from Sony to acquire its shares, though no decision has been made."
+    },
+    {
+      "ref": "rumours/kwalee-lays-off-at-least-10-people",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "kwalee", "name": "Kwalee", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 10, "unit": "people", "currency": null,
+          "entity": "kwalee", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-11-21", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "lays off \"at least 10\" people",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/report-kwalee-reportedly-lays-off-at-least-10-people" } },
+        { "metric": "layoffs_count", "value": 40, "unit": "people", "currency": null,
+          "entity": "kwalee", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-11-21", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "less than 40 people had lost their jobs",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/report-kwalee-reportedly-lays-off-at-least-10-people" } },
+        { "metric": "headcount", "value": 346, "unit": "people", "currency": null,
+          "entity": "kwalee", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-11-21", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "grow its headcount from 346 workers last year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/report-kwalee-reportedly-lays-off-at-least-10-people" } }
+      ],
+      "summary": "Rumour that Kwalee has laid off \"at least 10\" people, reportedly mostly from its marketing team."
+    }
+  ]
+}

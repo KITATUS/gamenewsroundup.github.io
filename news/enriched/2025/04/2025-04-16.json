@@ -1,0 +1,168 @@
+{
+  "date": "2025-04-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dune-awakening-delayed-for-last-minute-changes-from-beta-tes",
+      "entities": {
+        "games": [
+          { "id": "dune-awakening", "name": "Dune: Awakening", "aliases": [], "genres": ["survival", "mmo", "open-world"], "franchise": "dune", "inferred": true }
+        ],
+        "studios": [
+          { "id": "funcom", "name": "Funcom", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Dune: Awakening has been delayed to make last-minute changes based on beta tester feedback."
+    },
+    {
+      "ref": "main_news/metal-gear-in-concert-coming-to-london-later-this-year",
+      "entities": {
+        "games": [
+          { "id": "metal-gear", "name": "Metal Gear", "aliases": ["Metal Gear in Concert"], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-11-01", "unit": "date", "currency": null,
+          "entity": "metal-gear-in-concert", "entity_type": "product", "scope": "event",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Two performances of the show will take place on Saturday, November 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/metal-gear-in-concert-coming-to-london-later-this-year/" } }
+      ],
+      "summary": "Metal Gear in Concert is coming to London with two performances on Saturday, 1 November 2025."
+    },
+    {
+      "ref": "free_games_subscription/april-xbox-game-pass-games",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-v", "name": "Grand Theft Auto V", "aliases": ["GTA 5"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "neon-white", "name": "Neon White", "aliases": [], "genres": ["fps", "platformer"], "franchise": null, "inferred": true },
+          { "id": "spongebob-squarepants-the-patrick-star-game", "name": "SpongeBob SquarePants: The Patrick Star Game", "aliases": [], "genres": ["adventure"], "franchise": "spongebob-squarepants", "inferred": true },
+          { "id": "crime-scene-cleaner", "name": "Crime Scene Cleaner", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "tempopo", "name": "Tempopo", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "towerborne", "name": "Towerborne", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "far-cry-4", "name": "Far Cry 4", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "anno-1800", "name": "Anno 1800", "aliases": [], "genres": ["strategy", "simulation"], "franchise": "anno", "inferred": true },
+          { "id": "call-of-duty-modern-warfare-ii", "name": "Call of Duty: Modern Warfare II", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "dredge", "name": "Dredge", "aliases": [], "genres": ["adventure", "horror"], "franchise": null, "inferred": true },
+          { "id": "have-a-nice-death", "name": "Have a Nice Death", "aliases": [], "genres": ["roguelike", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "kona-ii-brume", "name": "Kona II Brume", "aliases": [], "genres": ["adventure", "survival"], "franchise": "kona", "inferred": true },
+          { "id": "sniper-elite-5", "name": "Sniper Elite 5", "aliases": [], "genres": ["tps", "shooter", "stealth"], "franchise": "sniper-elite", "inferred": true },
+          { "id": "the-last-case-of-benedict-fox", "name": "The Last Case of Benedict Fox", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true },
+          { "id": "thirsty-suitors", "name": "Thirsty Suitors", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "the-rewinder", "name": "The Rewinder", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-15", "unit": "date", "currency": null,
+          "entity": "grand-theft-auto-v", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Grand Theft Auto V – April 15",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-04-16", "unit": "date", "currency": null,
+          "entity": "neon-white", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Neon White (Console) – April 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-04-16", "unit": "date", "currency": null,
+          "entity": "spongebob-squarepants-the-patrick-star-game", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "SpongeBob SquarePants: The Patrick Star Game (Cloud, Console, and PC) – April 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-04-17", "unit": "date", "currency": null,
+          "entity": "crime-scene-cleaner", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Crime Scene Cleaner (Cloud, PC, and Xbox Series S/X) – April 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-04-17", "unit": "date", "currency": null,
+          "entity": "tempopo", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tempopo (Cloud, Console, and PC) – April 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-04-24", "unit": "date", "currency": null,
+          "entity": "clair-obscur-expedition-33", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Clair Obscur: Expedition 33 (Cloud, PC, and Xbox Series S/X) – April 24",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-04-29", "unit": "date", "currency": null,
+          "entity": "towerborne", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Towerborne (Game Preview) (Cloud, PC, and Xbox Series S/X) – April 29",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-04-30", "unit": "date", "currency": null,
+          "entity": "far-cry-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Far Cry 4 (Cloud, Console, and PC) – April 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-05-01", "unit": "date", "currency": null,
+          "entity": "anno-1800", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Anno 1800 (Cloud, PC, and Xbox Series S/X) – May 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-05-01", "unit": "date", "currency": null,
+          "entity": "call-of-duty-modern-warfare-ii", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Call of Duty: Modern Warfare II (Cloud, Console, and PC) – May 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } },
+        { "metric": "release_date", "value": "2025-05-06", "unit": "date", "currency": null,
+          "entity": "dredge", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dredge (Cloud, PC, and Xbox Series S/X) – May 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-5-modern-warfare-2-and-far-cry-4-headline-xbox-game-pass-games-for-april/" } }
+      ],
+      "summary": "Xbox Game Pass detailed its April 2025 additions, headlined by Grand Theft Auto V, alongside several titles leaving the service on 30 April."
+    },
+    {
+      "ref": "business/niantic-lays-off-68-workers-following-scopely-acquisition",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "niantic", "name": "Niantic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "scopely", "name": "Scopely", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "acquisition"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 68, "unit": "people", "currency": null,
+          "entity": "niantic", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Niantic lays off 68 workers following Scopely acquisition",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/niantic-lays-off-68-workers-following-scopely-acquisition" } },
+        { "metric": "announce_date", "value": "2025-03-20", "unit": "date", "currency": null,
+          "entity": "niantic", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Employees were notified on March 20, 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/niantic-lays-off-68-workers-following-scopely-acquisition" } },
+        { "metric": "event_date", "value": "2025-05-20", "unit": "date", "currency": null,
+          "entity": "niantic", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-04-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "layoffs effective from May 20",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/niantic-lays-off-68-workers-following-scopely-acquisition" } }
+      ],
+      "summary": "Niantic laid off 68 workers following its acquisition by Scopely, with employees notified on 20 March 2025 and layoffs effective from 20 May."
+    }
+  ]
+}

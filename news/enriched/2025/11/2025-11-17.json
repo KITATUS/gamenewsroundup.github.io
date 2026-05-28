@@ -1,0 +1,56 @@
+{
+  "date": "2025-11-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/rebecca-heineman-creator-of-bard-s-tale-3-dragon-wars-has-be",
+      "entities": {
+        "games": [
+          { "id": "bards-tale-3", "name": "Bard’s Tale 3", "aliases": ["Bard's Tale 3"], "genres": ["rpg"], "franchise": "the-bards-tale", "inferred": true },
+          { "id": "dragon-wars", "name": "Dragon Wars", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "rebecca-heineman", "name": "Rebecca Heineman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Rebecca Heineman, creator of Bard’s Tale 3 and Dragon Wars, has been diagnosed with adenocarcinoma and is in a fight for her life."
+    },
+    {
+      "ref": "main_news/roblox-rolls-out-next-phase-of-ip-licensing-platform-any-eli",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Roblox rolled out the next phase of its IP licensing platform, allowing any eligible IP holder to offer content for use on Roblox after an earlier launch with select partners."
+    },
+    {
+      "ref": "main_news/over-200-rockstar-north-staff-sign-letter-demanding-immediat",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rockstar-north", "name": "Rockstar North", "aliases": [], "publisher": "rockstar-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Over 200 Rockstar North staff signed a letter demanding the immediate reinstatement of fired colleagues, handed to senior management via the Independent Workers' Union of Great Britain."
+    }
+  ]
+}

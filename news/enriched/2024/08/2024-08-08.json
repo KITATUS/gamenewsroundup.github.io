@@ -1,0 +1,162 @@
+{
+  "date": "2024-08-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/uk-actors-union-equity-introduces-minimum-rates-to-address-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "UK actors' union Equity introduced minimum rates to address what it called \"systemic low pay\" for video game performers."
+    },
+    {
+      "ref": "main_news/fortnite-ditches-long-standing-promise-battle-pass-items-won",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Fortnite dropped its long-standing promise that Battle Pass items would not later be sold individually, introducing an 18-month wait before such items reach the store."
+    },
+    {
+      "ref": "business/meta-shuts-down-quest-developer-ready-at-dawn",
+      "entities": {
+        "games": [
+          { "id": "the-order-1886", "name": "The Order: 1886", "aliases": [], "genres": ["tps", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "daxter", "name": "Daxter", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "jak-and-daxter", "inferred": true }
+        ],
+        "studios": [{ "id": "ready-at-dawn", "name": "Ready at Dawn", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "meta", "name": "Meta", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "meta-quest", "name": "Meta Quest", "aliases": ["Quest"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Meta shut down Quest developer Ready at Dawn, ending the 21-year studio behind the Echo series, Daxter, God of War spinoffs and The Order: 1886."
+    },
+    {
+      "ref": "business/sega-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 104700000000, "unit": "money", "currency": "JPY",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥104.7 billion ($710.5 million, down 3.2% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/segas-1025m-full-game-sales-help-offset-overall-decline" }
+        },
+        {
+          "metric": "revenue", "value": 710500000, "unit": "money", "currency": "USD",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥104.7 billion ($710.5 million, down 3.2% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/segas-1025m-full-game-sales-help-offset-overall-decline" }
+        },
+        {
+          "metric": "revenue", "value": 72700000000, "unit": "money", "currency": "JPY",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Entertainment Contents net sales: ¥72.7 billion ($493.3 million, up 34%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/segas-1025m-full-game-sales-help-offset-overall-decline" }
+        },
+        {
+          "metric": "revenue", "value": 493300000, "unit": "money", "currency": "USD",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Entertainment Contents net sales: ¥72.7 billion ($493.3 million, up 34%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/segas-1025m-full-game-sales-help-offset-overall-decline" }
+        }
+      ],
+      "summary": "Sega reported quarterly net sales of ¥104.7 billion ($710.5 million), down 3.2% year-on-year, offset by a 34% rise in its Entertainment Contents segment to ¥72.7 billion ($493.3 million)."
+    },
+    {
+      "ref": "business/balatro-passes-2m-sales-with-free-major-update-due-in-2025",
+      "entities": {
+        "games": [{ "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "update-patch"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "balatro", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-08", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Balatro passes 2m sales",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/balatro-passes-2m-sales-with-free-major-update-due-in-2025" }
+        }
+      ],
+      "summary": "Balatro passed 2 million sales, with a free major update due in 2025."
+    },
+    {
+      "ref": "business/shipyard-games-shuts-down",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "shipyard-games", "name": "Shipyard Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised", "value": 2900000, "unit": "money", "currency": "USD",
+          "entity": "shipyard-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-08-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Supercell invested $2.9 million in the studio",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/shipyard-games-shuts-down" }
+        }
+      ],
+      "summary": "Shipyard Games shut down, with its CEO and co-founder citing a lack of investment despite Supercell having invested $2.9 million shortly after the studio's 2017 founding."
+    },
+    {
+      "ref": "business/foretold-studios-is-struggling-to-pay-wages-leaving-staff-be",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "foretold-studios", "name": "Foretold Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "michael-kuvshynov", "name": "Michael Kuvshynov", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Foretold Studios was reportedly struggling to pay wages, leaving staff \"begging\" for help amid alleged cashflow issues attributed to CEO Michael Kuvshynov."
+    },
+    {
+      "ref": "business/remedy-appoints-new-cfo",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "remedy", "name": "Remedy", "aliases": ["Remedy Entertainment"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "santtu-kallionpaa", "name": "Santtu Kallionpää", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Remedy appointed Santtu Kallionpää as its new CFO, joining its core management team in October from Finnish confectionery company Fazer."
+    }
+  ]
+}

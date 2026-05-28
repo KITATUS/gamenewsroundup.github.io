@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/highguard-developer-wildlight-entertainment-confirms-layoffs",
+      "entities": {
+        "games": [
+          { "id": "highguard", "name": "Highguard", "aliases": [], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "wildlight-entertainment", "name": "Wildlight Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Highguard developer Wildlight Entertainment confirmed layoffs at the studio, with one affected staff member claiming most of the studio was impacted while the official statement says a core team remains on the game."
+    },
+    {
+      "ref": "main_news/at-least-1-200-ubisoft-workers-strike-in-response-to-recent",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "At least 1,200 Ubisoft workers went on strike in response to the company's recent restructuring."
+    },
+    {
+      "ref": "main_news/playstation-state-of-play-tonight-silent-hill-transmission-a",
+      "entities": {
+        "games": [
+          { "id": "silent-hill", "name": "Silent Hill", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-02-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "state-of-play",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-02-12",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "State of Play tonight",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=P0e5YEXtZu0" }
+        }
+      ],
+      "summary": "A PlayStation State of Play is scheduled for tonight at 10pm UK time, followed by a Silent Hill Transmission."
+    },
+    {
+      "ref": "business/unity-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 503000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-12",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $503 million (up 10% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-reports-comfortably-exceeded-q4-and-fiscal-year-202[…]nancial-results-led-by-exceptional-performance-from-vector" }
+        },
+        {
+          "metric": "revenue",
+          "value": 165000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-12",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Create Solutions revenue: $165 million (up 8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-reports-comfortably-exceeded-q4-and-fiscal-year-202[…]nancial-results-led-by-exceptional-performance-from-vector" }
+        },
+        {
+          "metric": "revenue",
+          "value": 338000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-12",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Grow Solutions revenue: $338 million (up 11% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-reports-comfortably-exceeded-q4-and-fiscal-year-202[…]nancial-results-led-by-exceptional-performance-from-vector" }
+        }
+      ],
+      "summary": "Unity reported quarterly revenue of $503 million, up 10% year-on-year, with Create Solutions at $165 million and Grow Solutions at $338 million, alongside a net loss of $89 million."
+    },
+    {
+      "ref": "business/arc-raiders-has-sold-14-million-units-and-has-6-million-week",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 14000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "arc-raiders",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-12",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Arc Raiders has sold 14 million units",
+          "source": { "name": "pdf.irpocket.com", "domain": "pdf.irpocket.com", "url": "https://pdf.irpocket.com/C3659/YpwX/MxJ9/q7uK.pdf" }
+        }
+      ],
+      "summary": "Arc Raiders has sold 14 million units and has 6 million weekly active users."
+    }
+  ]
+}

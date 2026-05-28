@@ -1,0 +1,176 @@
+{
+  "date": "2026-01-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/gog-job-posting-for-senior-software-engineer-mentions-linux",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gog", "name": "GOG", "aliases": ["GOG.com"], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "linux", "name": "Linux", "aliases": [], "inferred": false },
+          { "id": "gog-galaxy", "name": "GOG Galaxy", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A GOG job posting for a Senior Software Engineer mentions Linux support for the GOG Galaxy client, describing Linux as the next frontier."
+    },
+    {
+      "ref": "free_games_subscription/2-unreleased-virtual-boy-games-are-coming-to-nintendo-switch",
+      "entities": {
+        "games": [
+          { "id": "zero-racer", "name": "Zero Racer", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "d-hopper", "name": "D-Hopper", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "virtual-boy", "name": "Virtual Boy", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["NSO"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "subscription"],
+      "facts": [],
+      "summary": "Two previously unreleased Virtual Boy games, Zero Racer and D-Hopper, are coming to Nintendo Switch via the NSO Expansion Pack and will be playable for the first time."
+    },
+    {
+      "ref": "business/uk-tribunal-rules-656m-valve-market-rigging-lawsuit-can-proc",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A UK tribunal ruled that a £656m market-rigging lawsuit against Valve can proceed."
+    },
+    {
+      "ref": "business/capcom-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 115300000000, "unit": "money", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-01-28", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥115.3 billion ($748.8 million), up 29.8% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/resident-evil-and-street-fighter-franchises-boost-capcoms-latest-financials" }
+        },
+        {
+          "metric": "revenue", "value": 748800000, "unit": "money", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-01-28", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥115.3 billion ($748.8 million), up 29.8% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/resident-evil-and-street-fighter-franchises-boost-capcoms-latest-financials" }
+        },
+        {
+          "metric": "operating_income", "value": 54300000000, "unit": "money", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-01-28", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥54.3 billion ($352.6 million), up 75.1% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/resident-evil-and-street-fighter-franchises-boost-capcoms-latest-financials" }
+        },
+        {
+          "metric": "operating_income", "value": 352600000, "unit": "money", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-01-28", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥54.3 billion ($352.6 million), up 75.1% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/resident-evil-and-street-fighter-franchises-boost-capcoms-latest-financials" }
+        },
+        {
+          "metric": "profit", "value": 38800000000, "unit": "money", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-01-28", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net income: ¥38.8 billion ($251.9 million), up 68.6% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/resident-evil-and-street-fighter-franchises-boost-capcoms-latest-financials" }
+        },
+        {
+          "metric": "profit", "value": 251900000, "unit": "money", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2026-01-28", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net income: ¥38.8 billion ($251.9 million), up 68.6% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/resident-evil-and-street-fighter-franchises-boost-capcoms-latest-financials" }
+        }
+      ],
+      "summary": "Capcom reported quarterly net sales of ¥115.3 billion, operating income of ¥54.3 billion, and net income of ¥38.8 billion, all up year-on-year."
+    },
+    {
+      "ref": "business/chinese-mobile-publisher-yodo1-rolls-out-data-platform-ipver",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "yodo1", "name": "Yodo1", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ipverse", "name": "IPVerse", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Chinese mobile publisher Yodo1 launched a data platform called IPVerse to help developers and property holders identify the best partnerships."
+    },
+    {
+      "ref": "rumours/walmart-could-have-leaked-nintendo-switch-online-s-next-game",
+      "entities": {
+        "games": [
+          { "id": "metroid-prime-2", "name": "Metroid Prime 2", "aliases": ["Metroid Prime 2: Echoes"], "genres": ["action-adventure", "fps"], "franchise": "metroid", "inferred": true },
+          { "id": "pikmin-2", "name": "Pikmin 2", "aliases": [], "genres": ["strategy"], "franchise": "pikmin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false },
+          { "id": "gamecube", "name": "GameCube", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A rumour that Walmart may have leaked Nintendo Switch Online's next GameCube games, Metroid Prime 2 and Pikmin 2, by picturing two unannounced titles on its website."
+    },
+    {
+      "ref": "rumours/ubisoft-employee-claims-he-s-placed-on-unpaid-suspension-for",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A rumour that a Ubisoft employee claims he was placed on unpaid suspension for criticising the company's return-to-office policy."
+    }
+  ]
+}

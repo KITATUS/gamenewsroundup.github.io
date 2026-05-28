@@ -1,0 +1,227 @@
+{
+  "date": "2024-11-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated",
+      "entities": {
+        "games": [
+          { "id": "starcraft-remastered", "name": "StarCraft: Remastered", "aliases": [], "genres": ["rts", "strategy"], "franchise": "starcraft", "inferred": true },
+          { "id": "starcraft-ii-campaign-collection", "name": "StarCraft II: Campaign Collection", "aliases": [], "genres": ["rts", "strategy"], "franchise": "starcraft", "inferred": true },
+          { "id": "metal-slug-tactics", "name": "Metal Slug Tactics", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": "metal-slug", "inferred": true },
+          { "id": "go-mecha-ball", "name": "Go Mecha Ball", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": null, "inferred": true },
+          { "id": "harold-halibut", "name": "Harold Halibut", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "the-rewinder", "name": "The Rewinder", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "turnip-boy-robs-a-bank", "name": "Turnip Boy Robs a Bank", "aliases": [], "genres": ["action-adventure"], "franchise": "turnip-boy", "inferred": true },
+          { "id": "goat-simulator-remastered", "name": "Goat Simulator Remastered", "aliases": [], "genres": ["simulation"], "franchise": "goat-simulator", "inferred": true },
+          { "id": "microsoft-flight-simulator-2024", "name": "Microsoft Flight Simulator 2024", "aliases": [], "genres": ["simulation"], "franchise": "microsoft-flight-simulator", "inferred": true },
+          { "id": "dicey-dungeons", "name": "Dicey Dungeons", "aliases": [], "genres": ["roguelike", "card"], "franchise": null, "inferred": true },
+          { "id": "dungeons-4", "name": "Dungeons 4", "aliases": [], "genres": ["strategy", "simulation"], "franchise": "dungeons", "inferred": true },
+          { "id": "goat-simulator", "name": "Goat Simulator", "aliases": [], "genres": ["simulation"], "franchise": "goat-simulator", "inferred": true },
+          { "id": "like-a-dragon-ishin", "name": "Like a Dragon: Ishin!", "aliases": [], "genres": ["action-adventure", "action-rpg"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "like-a-dragon-the-man-who-erased-his-name", "name": "Like a Dragon: The Man Who Erased His Name", "aliases": [], "genres": ["action-adventure", "action-rpg"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "persona-5-tactica", "name": "Persona 5 Tactica", "aliases": [], "genres": ["turn-based-strategy", "jrpg"], "franchise": "persona", "inferred": true },
+          { "id": "somerville", "name": "Somerville", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": ["Cloud"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X", "Console"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-05", "unit": "date", "currency": null, "entity": "starcraft-remastered", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "StarCraft: Remastered (PC) – November 5", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-05", "unit": "date", "currency": null, "entity": "starcraft-ii-campaign-collection", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "StarCraft II: Campaign Collection (PC) – November 5", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-05", "unit": "date", "currency": null, "entity": "metal-slug-tactics", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Metal Slug Tactics (Cloud, Console, and PC) – November 5", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-06", "unit": "date", "currency": null, "entity": "go-mecha-ball", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Go Mecha Ball (Console) – November 6", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-06", "unit": "date", "currency": null, "entity": "harold-halibut", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Harold Halibut (Xbox Series S/X) – November 6", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-06", "unit": "date", "currency": null, "entity": "the-rewinder", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "The Rewinder (Console) – November 6", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-06", "unit": "date", "currency": null, "entity": "turnip-boy-robs-a-bank", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Turnip Boy Robs a Bank (Console) – November 6", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-07", "unit": "date", "currency": null, "entity": "goat-simulator-remastered", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Goat Simulator Remastered (Cloud, PC, and Xbox Series S/X) - November 7", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } },
+        { "metric": "release_date", "value": "2024-11-19", "unit": "date", "currency": null, "entity": "microsoft-flight-simulator-2024", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Microsoft Flight Simulator 2024 (Cloud, PC, and Xbox Series S/X) - November 19", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-dated-3/" } }
+      ],
+      "summary": "Microsoft dated new Xbox Game Pass additions for console, PC and Cloud and listed titles leaving the service on 15 November 2024."
+    },
+    {
+      "ref": "business/atari-acquires-transport-tycoon-ip",
+      "entities": {
+        "games": [
+          { "id": "transport-tycoon", "name": "Transport Tycoon", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "transport-tycoon", "inferred": true },
+          { "id": "locomotion", "name": "Locomotion", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true },
+          { "id": "rollercoaster-tycoon", "name": "RollerCoaster Tycoon", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "rollercoaster-tycoon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "chris-sawyer", "name": "Chris Sawyer", "aliases": ["Chris Saywer"], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Atari acquired the Transport Tycoon IP, adding Chris Sawyer's classic management game to its portfolio of retro brands."
+    },
+    {
+      "ref": "business/radical-forge-raises-2-6m",
+      "entities": {
+        "games": [
+          { "id": "southfield", "name": "Southfield", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "radical-forge", "name": "Radical Forge", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 2600000, "unit": "money", "currency": "GBP", "entity": "radical-forge", "entity_type": "studio", "scope": "studio", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Radical Forge raises £2.6m", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/radical-forge-raises-26m" } }
+      ],
+      "summary": "Radical Forge raised £2.6m via NPIF II to fund team expansion and the release of Southfield."
+    },
+    {
+      "ref": "business/supercell-acquires-space-ape",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "space-ape", "name": "Space Ape", "aliases": [], "publisher": "supercell", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "supercell", "name": "Supercell", "aliases": ["The Finnish company"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 62, "unit": "percent", "currency": null, "entity": "space-ape", "entity_type": "studio", "scope": "studio", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "The Finnish company already owned 62% of Space Ape", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/supercell-acquires-space-ape" } }
+      ],
+      "summary": "Supercell, which already owned 62% of Space Ape, is acquiring the studio in a deal due to close by spring 2025."
+    },
+    {
+      "ref": "business/bethesda-to-shut-down-the-elder-scrolls-legends",
+      "entities": {
+        "games": [
+          { "id": "the-elder-scrolls-legends", "name": "The Elder Scrolls Legends", "aliases": [], "genres": ["card"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bethesda-softworks", "name": "Bethesda", "aliases": ["Bethesda"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-01", "unit": "date", "currency": null, "entity": "the-elder-scrolls-legends", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "medium", "quote": "Servers for card game to be retired in January 2025", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bethesda-to-shut-down-the-elder-scrolls-legends" } }
+      ],
+      "summary": "Bethesda will retire the servers for card game The Elder Scrolls Legends in January 2025, having also delisted it on Steam."
+    },
+    {
+      "ref": "business/remedy-q3-results",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 17900000, "unit": "money", "currency": "EUR", "entity": "remedy-entertainment", "entity_type": "company", "scope": "company", "as_of": "2024-11-05", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Revenue: €17.9 million (up 129%)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenue-rises-129-during-q3-2024" } },
+        { "metric": "operating_income", "value": -2400000, "unit": "money", "currency": "EUR", "entity": "remedy-entertainment", "entity_type": "company", "scope": "company", "as_of": "2024-11-05", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Operating loss: €2.4 million (compared to operating loss of €5.5 million for same quarter last year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenue-rises-129-during-q3-2024" } }
+      ],
+      "summary": "Remedy reported Q3 2024 revenue of €17.9 million, up 129%, with an operating loss of €2.4 million versus €5.5 million a year earlier."
+    },
+    {
+      "ref": "business/nintendo-has-lowered-its-switch-forecast-after-sales-decline",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings", "hardware"],
+      "facts": [],
+      "summary": "Nintendo lowered its Switch sales forecast after sales declined 31%, making no mention of its next console in the earnings report."
+    },
+    {
+      "ref": "rumours/netflix-is-eliminating-its-interactive-shows-in-december",
+      "entities": {
+        "games": [
+          { "id": "black-mirror-bandersnatch", "name": "Black Mirror: Bandersnatch", "aliases": [], "genres": ["visual-novel", "adventure"], "franchise": "black-mirror", "inferred": true },
+          { "id": "minecraft-story-mode", "name": "Minecraft: Story Mode", "aliases": [], "genres": ["adventure"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": ["the streamer"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "matt-layzell", "name": "Matt Layzell", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["shutdown", "delisting", "rumour"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-12-01", "unit": "date", "currency": null, "entity": "netflix", "entity_type": "company", "scope": "company", "as_of": "2024-11-05", "period": "point_in_time", "direction": null, "confidence": "medium", "quote": "Supposedly happens December 1st", "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/report-netflix-is-eliminating-its-interactive-shows-in-december" } }
+      ],
+      "summary": "A rumour claims Netflix will eliminate its interactive shows, including Black Mirror: Bandersnatch and Minecraft: Story Mode, around 1 December 2024."
+    },
+    {
+      "ref": "rumours/ubisoft-s-nft-rpg-has-reportedly-been-plagued-by-a-single-pl",
+      "entities": {
+        "games": [
+          { "id": "champions-tactics-grimoria-chronicles", "name": "Ubisoft's NFT RPG", "aliases": ["Ubisoft’s NFT RPG"], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A report claims Ubisoft's NFT RPG has been plagued by a single player auto-winning every PVP match across two accounts, rendering the game unplayable."
+    },
+    {
+      "ref": "rumours/pokemon-tcg-pocket-is-currently-earning-3x-more-per-day-than",
+      "entities": {
+        "games": [
+          { "id": "pokemon-tcg-pocket", "name": "Pokemon TCG Pocket", "aliases": [], "genres": ["card"], "franchise": "pokemon", "inferred": true },
+          { "id": "pokemon-go", "name": "Pokemon Go", "aliases": [], "genres": ["adventure"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "rumour"],
+      "facts": [
+        { "metric": "revenue", "value": 12000000, "unit": "money", "currency": "USD", "entity": "pokemon-tcg-pocket", "entity_type": "game", "scope": "game", "as_of": "2024-11-05", "period": "cumulative", "direction": null, "confidence": "medium", "quote": "Data suggests the mobile game has made $12 million in the first four days of release", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pokemon-tcg-pocket-is-currently-earning-3x-more-per-day-than-pokemon-go-estimates-suggest/" } }
+      ],
+      "summary": "Estimates suggest Pokemon TCG Pocket is earning roughly three times more per day than Pokemon Go, making about $12 million in its first four days."
+    }
+  ]
+}

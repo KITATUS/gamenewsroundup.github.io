@@ -1,0 +1,153 @@
+{
+  "date": "2025-10-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/battlefield-6-s-free-season-1-roadmap-revealed-new-maps-mode",
+      "entities": {
+        "games": [
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Battlefield 6's free Season 1 roadmap was revealed, promising new maps, modes and weapons."
+    },
+    {
+      "ref": "main_news/a-deep-dive-on-the-future-of-halo-will-be-held-next-month",
+      "entities": {
+        "games": [
+          { "id": "halo", "name": "Halo", "aliases": [], "genres": ["fps", "shooter"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "A 'deep dive' on the future of Halo will be held next month."
+    },
+    {
+      "ref": "main_news/social-justice-advocacy-groups-slam-roblox-for-silencing-imp",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": "roblox", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Social justice advocacy groups criticised Roblox for \"silencing important voices\" with its new parental controls."
+    },
+    {
+      "ref": "main_news/capcom-will-not-guarantee-monster-hunter-games-can-run-on-wi",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter", "name": "Monster Hunter", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "windows-10", "name": "Windows 10", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Capcom said it will not \"guarantee\" Monster Hunter games can run on Windows 10 after October 14."
+    },
+    {
+      "ref": "main_news/terminator-2-no-fate-delayed-to-november-due-to-ongoing-trad",
+      "entities": {
+        "games": [
+          { "id": "terminator-2-no-fate", "name": "Terminator 2: No Fate", "aliases": [], "genres": ["shooter"], "franchise": "terminator", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2025-11", "unit": "date", "currency": null,
+          "entity": "terminator-2-no-fate", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-01", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Terminator 2: No Fate delayed to November",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/terminator-2-no-fate-delayed-to-november-due-to-ongoing-trade-and-tariff-changes-news-in-brief" } }
+      ],
+      "summary": "Terminator 2: No Fate was delayed to November, citing \"ongoing trade and tariff changes\"."
+    },
+    {
+      "ref": "main_news/hades-2-reaches-over-112-000-concurrent-players-on-steam",
+      "entities": {
+        "games": [
+          { "id": "hades-2", "name": "Hades 2", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supergiant-games", "name": "Supergiant Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "concurrent_players", "value": 112000, "unit": "players", "currency": null,
+          "entity": "hades-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-01", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Hades 2 reaches over 112,000 concurrent players on Steam",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/hades-2-reaches-over-112000-concurrent-players-on-steam" } }
+      ],
+      "summary": "Hades 2 reached over 112,000 concurrent players on Steam."
+    },
+    {
+      "ref": "business/avalanche-is-closing-its-liverpool-studio-following-contraba",
+      "entities": {
+        "games": [
+          { "id": "contraband", "name": "Contraband", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "avalanche-studios", "name": "Avalanche Studios", "aliases": ["Avalanche"], "publisher": null, "inferred": true },
+          { "id": "avalanche-liverpool", "name": "Avalanche Liverpool studio", "aliases": ["Liverpool studio"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Avalanche is closing its Liverpool studio following the cancellation of Contraband."
+    },
+    {
+      "ref": "rumours/sony-is-reportedly-set-to-release-an-updated-ps5-dualsense-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour", "hardware"],
+      "facts": [],
+      "summary": "Rumour that Sony is set to release an updated PS5 DualSense controller with a removable battery."
+    }
+  ]
+}

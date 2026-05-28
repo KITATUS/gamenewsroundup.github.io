@@ -1,0 +1,216 @@
+{
+  "date": "2024-09-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/a-playable-prototype-of-a-cancelled-playstation-2-game-the-l",
+      "entities": {
+        "games": [
+          { "id": "the-last-job", "name": "The Last Job", "aliases": ["The Heist"], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "acclaim-cheltenham", "name": "Acclaim Cheltenham", "aliases": ["Acclaim's Cheltenham studio"], "publisher": "acclaim-entertainment", "inferred": true },
+          { "id": "acclaim-entertainment", "name": "Acclaim", "aliases": ["Acclaim"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-2", "name": "PlayStation 2", "aliases": ["PS2"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "A playable prototype of the cancelled PlayStation 2 game The Last Job (aka The Heist) has been found and shared online."
+    },
+    {
+      "ref": "main_news/the-live-action-minecraft-movie-has-received-its-first-trail",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jack-black", "name": "Jack Black", "aliases": [], "inferred": false },
+          { "id": "jason-momoa", "name": "Jason Momoa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-04-01", "unit": "date", "currency": null,
+          "entity": "minecraft", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Release April 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-live-action-minecraft-movie-has-received-its-first-trailer/" }
+        }
+      ],
+      "summary": "The live-action Minecraft movie, starring Jack Black and Jason Momoa, has received its first trailer ahead of an April 2025 release."
+    },
+    {
+      "ref": "main_news/helldivers-2-s-long-awaited-third-enemy-faction-briefly-appe",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["shooter", "tps"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Helldivers 2's long-awaited third enemy faction briefly appeared on the in-game map, though the studio dismissed the sightings as \"fake news\"."
+    },
+    {
+      "ref": "main_news/cyberpunk-2077-fans-pledge-2m-to-make-official-board-game-ha",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised", "value": 2000000, "unit": "money", "currency": "USD",
+          "entity": "cyberpunk-2077", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-05", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Cyberpunk 2077 fans pledge $2m to make official board game happen",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/cyberpunk-2077-fans-pledge-2m-to-make-official-board-game-happen" }
+        },
+        {
+          "metric": "funding_raised", "value": 100000, "unit": "money", "currency": "USD",
+          "entity": "cyberpunk-2077", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-05", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Project hit $100k crowdfunding goal in 10 minutes",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/cyberpunk-2077-fans-pledge-2m-to-make-official-board-game-happen" }
+        }
+      ],
+      "summary": "Fans pledged $2m toward an official Cyberpunk 2077 board game, with the project hitting its $100k crowdfunding goal in 10 minutes."
+    },
+    {
+      "ref": "main_news/japan-s-national-museum-of-nature-and-science-adds-ps2-to-fu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-2", "name": "PlayStation 2", "aliases": ["PS2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Japan's National Museum of Nature and Science added the PS2 to its Future Technology Heritage registry, the first console celebrated for its cultural impact."
+    },
+    {
+      "ref": "business/ubisoft-s-share-price-has-fallen-to-a-near-10-year-low-since",
+      "entities": {
+        "games": [
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 5500000, "unit": "units", "currency": null,
+          "entity": "star-wars-outlaws", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-05", "period": "cumulative", "direction": "down", "confidence": "medium",
+          "quote": "Revised from 7.5 million to 5.5 million units by March 2025.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisofts-share-price-has-fallen-to-a-near-10-year-low-since-the-release-of-star-wars-outlaws/" }
+        }
+      ],
+      "summary": "Ubisoft's share price has fallen to a near 10-year low following the release of Star Wars Outlaws, with sales expectations revised down from 7.5 million to 5.5 million units."
+    },
+    {
+      "ref": "business/riot-adjusts-regional-pricing-of-virtual-currency-across-its",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": [], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true },
+          { "id": "teamfight-tactics", "name": "Teamfight Tactics", "aliases": [], "genres": ["strategy"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        {
+          "metric": "price_change_pct", "value": 70, "unit": "percent", "currency": null,
+          "entity": "riot-games", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-05", "period": "point_in_time", "direction": "up", "confidence": "medium",
+          "quote": "with one country seeing increases over 70%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/riot-adjusts-regional-pricing-of-virtual-currency-across-its-live-games" }
+        },
+        {
+          "metric": "price_change_pct", "value": 40, "unit": "percent", "currency": null,
+          "entity": "league-of-legends", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-05", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "the Philippines will see a 40% rise",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/riot-adjusts-regional-pricing-of-virtual-currency-across-its-live-games" }
+        },
+        {
+          "metric": "price_change_pct", "value": 41, "unit": "percent", "currency": null,
+          "entity": "league-of-legends", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-05", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "Vietnam will observe a 41% increase",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/riot-adjusts-regional-pricing-of-virtual-currency-across-its-live-games" }
+        }
+      ],
+      "summary": "Riot Games is adjusting regional pricing of its virtual currency across its live games, with increases of over 70% in some countries."
+    },
+    {
+      "ref": "business/black-myth-wukong-tops-850-million-in-gross-revenue-on-steam",
+      "entities": {
+        "games": [
+          { "id": "black-myth-wukong", "name": "Black Myth: Wukong", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "game-science", "name": "Game Science", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 850000000, "unit": "money", "currency": "USD",
+          "entity": "black-myth-wukong", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-05", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Black Myth: Wukong tops $850 million in gross revenue on Steam",
+          "source": { "name": "Game World Observer", "domain": "gameworldobserver.com", "url": "https://gameworldobserver.com/2024/09/03/black-myth-wukong-revenue-850-million-steam" }
+        },
+        {
+          "metric": "playtime_hours", "value": 27, "unit": "hours", "currency": null,
+          "entity": "black-myth-wukong", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "with average playtime of 27 hours",
+          "source": { "name": "Game World Observer", "domain": "gameworldobserver.com", "url": "https://gameworldobserver.com/2024/09/03/black-myth-wukong-revenue-850-million-steam" }
+        }
+      ],
+      "summary": "Black Myth: Wukong has topped $850 million in gross revenue on Steam, with an average playtime of 27 hours."
+    }
+  ]
+}

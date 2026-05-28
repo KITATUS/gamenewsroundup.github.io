@@ -1,0 +1,83 @@
+{
+  "date": "2025-04-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/astro-bot-wins-best-game-at-the-bafta-games-awards",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "astro-bot", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Astro Bot won Best Game at the BAFTA Games Awards."
+    },
+    {
+      "ref": "main_news/hades-2-will-be-a-nintendo-switch-console-exclusive-at-launc",
+      "entities": {
+        "games": [
+          { "id": "hades-2", "name": "Hades 2", "aliases": [], "genres": ["action-rpg", "roguelike"], "franchise": "hades", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supergiant-games", "name": "Supergiant Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Hades 2 will be a Nintendo Switch console exclusive at launch."
+    },
+    {
+      "ref": "main_news/battle-royale-sonic-rumble-s-release-date-has-been-revealed",
+      "entities": {
+        "games": [
+          { "id": "sonic-rumble", "name": "Sonic Rumble", "aliases": [], "genres": ["battle-royale"], "franchise": "sonic", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-05-08", "unit": "date", "currency": null,
+          "entity": "sonic-rumble", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "May 8th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/sonic-rumbles-release-date-has-been-revealed-and-its-coming-soon/" } }
+      ],
+      "summary": "Battle royale title Sonic Rumble's release date has been revealed as 8 May 2025."
+    },
+    {
+      "ref": "main_news/playstation-the-concert-is-reportedly-cancelling-numerous-to",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "PlayStation: The Concert is reportedly cancelling numerous tour dates and delaying others, with UK shows so far unaffected."
+    }
+  ]
+}

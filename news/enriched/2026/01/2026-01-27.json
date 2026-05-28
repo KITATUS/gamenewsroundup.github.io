@@ -1,0 +1,163 @@
+{
+  "date": "2026-01-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/blizzard-announces-four-showcases-over-the-next-two-weeks-fo",
+      "entities": {
+        "games": [
+          { "id": "world-of-warcraft", "name": "World of Warcraft", "aliases": [], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true },
+          { "id": "overwatch", "name": "Overwatch", "aliases": [], "genres": ["hero-shooter"], "franchise": "overwatch", "inferred": true },
+          { "id": "hearthstone", "name": "Hearthstone", "aliases": [], "genres": ["card"], "franchise": "warcraft", "inferred": true },
+          { "id": "diablo", "name": "Diablo", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [],
+      "summary": "Blizzard has announced four showcases over the next two weeks covering World of Warcraft, Overwatch, Hearthstone and Diablo."
+    },
+    {
+      "ref": "main_news/a-nintendo-direct-dedicated-to-tomodachi-life-living-the-dre",
+      "entities": {
+        "games": [
+          { "id": "tomodachi-life-living-the-dream", "name": "Tomodachi Life: Living the Dream", "aliases": [], "genres": ["life-sim"], "franchise": "tomodachi-life", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date", "value": "2026-01-29", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2026-01-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "coming this week - Thursday, January 29 at 6am PT / 9am ET / 2pm GMT",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-nintendo-direct-dedicated-to-tomodachi-life-living-the-dream-is-coming-this-week/" }
+        }
+      ],
+      "summary": "A Nintendo Direct dedicated to Tomodachi Life: Living the Dream is set for Thursday, January 29 2026 at 6am PT / 9am ET / 2pm GMT."
+    },
+    {
+      "ref": "main_news/final-fantasy-7-remake-director-explains-why-the-third-game",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-remake", "name": "Final Fantasy 7 Remake", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Final Fantasy 7 Remake director explained why the third game in the project will still use Unreal Engine 4."
+    },
+    {
+      "ref": "main_news/stop-killing-games-eu-initiative-clears-almost-1-3m-signatur",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The Stop Killing Games EU initiative has cleared almost 1.3 million signatures and is preparing an official submission to the European Commission next month."
+    },
+    {
+      "ref": "main_news/game-awards-final-game-highguard-releases-to-mostly-negative",
+      "entities": {
+        "games": [
+          { "id": "highguard", "name": "Highguard", "aliases": [], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Highguard, the final game from the Game Awards, released to \"Mostly Negative\" Steam reviews."
+    },
+    {
+      "ref": "business/uk-appeals-court-state-runescape-gold-counts-as-property-and",
+      "entities": {
+        "games": [
+          { "id": "runescape", "name": "RuneScape", "aliases": [], "genres": ["mmorpg"], "franchise": "runescape", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "A UK Appeals court ruled that RuneScape gold counts as property and can be stolen, in a $700k case."
+    },
+    {
+      "ref": "business/hyrule-warriors-age-of-imprisonment-sales-top-1m-in-three-mo",
+      "entities": {
+        "games": [
+          { "id": "hyrule-warriors-age-of-imprisonment", "name": "Hyrule Warriors: Age of Imprisonment", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [
+          { "id": "koei-tecmo", "name": "Koei Tecmo", "aliases": [], "publisher": "koei-tecmo", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "hyrule-warriors-age-of-imprisonment", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-27", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Hyrule Warriors: Age of Imprisonment sales top 1m in three months",
+          "source": { "name": "koeitecmo.co.jp", "domain": "koeitecmo.co.jp", "url": "https://www.koeitecmo.co.jp/e/ir/docs/ir6_20260126e.pdf" }
+        }
+      ],
+      "summary": "Hyrule Warriors: Age of Imprisonment sales topped 1 million units in three months."
+    },
+    {
+      "ref": "business/ubisoft-launches-voluntary-redundancy-process-to-cut-200-job",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count", "value": 200, "unit": "jobs", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2026-01-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "launches voluntary redundancy process to cut 200 jobs from Paris head office",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-launches-voluntary-redundancy-process-to-cut-200-jobs-from-paris-head-office" }
+        }
+      ],
+      "summary": "Ubisoft has launched a voluntary redundancy process to cut 200 jobs from its Paris head office."
+    }
+  ]
+}

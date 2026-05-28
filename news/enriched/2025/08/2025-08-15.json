@@ -1,0 +1,205 @@
+{
+  "date": "2025-08-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/gamescom-exec-says-it-was-never-in-competition-with-e3-has-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Gamescom executive said the event was never in competition with E3 and has a responsibility to step up now that E3 is gone."
+    },
+    {
+      "ref": "main_news/krafton-claim-former-subnautica-2-leads-have-resorted-to-lit",
+      "entities": {
+        "games": [
+          {
+            "id": "subnautica-2",
+            "name": "Subnautica 2",
+            "aliases": [],
+            "genres": ["survival", "adventure"],
+            "franchise": "subnautica",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "krafton",
+            "name": "Krafton",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Krafton claims the former Subnautica 2 leads have \"resorted to litigation to demand a payday they haven't earned\"."
+    },
+    {
+      "ref": "business/nexon-q2-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nexon",
+            "name": "Nexon",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 118900000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-08-15",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: ¥118.9 billion ($804.7 million, down 3% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 804700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-08-15",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: ¥118.9 billion ($804.7 million, down 3% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 37700000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-08-15",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥37.7 billion ($255.2 million, down 17% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 255200000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-08-15",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥37.7 billion ($255.2 million, down 17% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 16800000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-08-15",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net income: ¥16.8 billion ($113.7 million, down 58% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 113700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-08-15",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net income: ¥16.8 billion ($113.7 million, down 58% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy"
+          }
+        }
+      ],
+      "summary": "Nexon reported Q2 results with revenue of ¥118.9 billion ($804.7 million), operating income of ¥37.7 billion ($255.2 million), and net income of ¥16.8 billion ($113.7 million), all down year-over-year."
+    },
+    {
+      "ref": "business/embracer-will-deploy-targeted-cost-initiatives-and-ai-tech-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "embracer-group",
+            "name": "Embracer Group",
+            "aliases": ["Embracer"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Embracer says it will deploy 'targeted cost initiatives' and AI technology to unlock more value."
+    }
+  ]
+}

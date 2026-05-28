@@ -1,0 +1,555 @@
+{
+  "date": "2024-05-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/black-ops-6-live-action-trailer-released-as-game-pass-launch",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty-black-ops-6",
+            "name": "Call of Duty: Black Ops 6",
+            "aliases": ["Black Ops 6"],
+            "genres": ["fps", "shooter"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "activision",
+            "name": "Activision",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox-game-pass",
+            "name": "Xbox Game Pass",
+            "aliases": ["Game Pass"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "announcement", "subscription", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-06-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "call-of-duty-black-ops-6",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Activision will fully reveal the game during a showcase on June 9",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/black-ops-6-live-action-trailer-released-as-game-pass-launch-announced/"
+          }
+        }
+      ],
+      "summary": "A live action trailer for Call of Duty: Black Ops 6 was released, with the game confirmed as a day one Xbox Game Pass launch and a full reveal set for a showcase on 9 June."
+    },
+    {
+      "ref": "main_news/lego-the-legend-of-zelda-great-deku-tree-officially-launchin",
+      "entities": {
+        "games": [
+          {
+            "id": "lego-the-legend-of-zelda-great-deku-tree",
+            "name": "Lego The Legend of Zelda: Great Deku Tree",
+            "aliases": [],
+            "genres": [],
+            "franchise": "the-legend-of-zelda",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "the-lego-group",
+            "name": "The Lego Group",
+            "aliases": ["Lego"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 299.99,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "lego-the-legend-of-zelda-great-deku-tree",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "It will cost €299.99",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lego-the-legend-of-zelda-great-deku-tree-officially-launching-in-september/"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 259.99,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "lego-the-legend-of-zelda-great-deku-tree",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "£259.99",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lego-the-legend-of-zelda-great-deku-tree-officially-launching-in-september/"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 299.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "lego-the-legend-of-zelda-great-deku-tree",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$299.99 (2,500 pieces)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lego-the-legend-of-zelda-great-deku-tree-officially-launching-in-september/"
+          }
+        }
+      ],
+      "summary": "The Lego The Legend of Zelda: Great Deku Tree set was confirmed to launch in September, priced at €299.99 / £259.99 / $299.99 for 2,500 pieces."
+    },
+    {
+      "ref": "main_news/genshin-impact-developer-s-upcoming-urban-action-rpg-lands-s",
+      "entities": {
+        "games": [
+          {
+            "id": "zenless-zone-zero",
+            "name": "Zenless Zone Zero",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": null,
+            "inferred": false
+          },
+          {
+            "id": "genshin-impact",
+            "name": "Genshin Impact",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hoyoverse",
+            "name": "HoYoverse",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-07-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "zenless-zone-zero",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Zenless Zone Zero launches July 4th",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/genshin-impact-developers-upcoming-urban-action-rpg-lands-summer-release-date"
+          }
+        }
+      ],
+      "summary": "Genshin Impact developer HoYoverse confirmed its upcoming urban action RPG Zenless Zone Zero will launch on 4 July, with pre-registrations over 35 million."
+    },
+    {
+      "ref": "main_news/youtube-launches-in-app-playables-arcade",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "youtube",
+            "name": "YouTube",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "announcement"],
+      "facts": [],
+      "summary": "YouTube launched its in-app Playables arcade, offering over 75 instantly playable games on its browser, iOS, and Android apps after an earlier soft launch."
+    },
+    {
+      "ref": "free_games_subscription/days-of-play-2024-adds-new-ps2-classics-and-ps-vr2-games-to",
+      "entities": {
+        "games": [
+          {
+            "id": "spongebob-squarepants-the-cosmic-shake",
+            "name": "SpongeBob Squarepants: The Cosmic Shake",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "aew-fight-forever",
+            "name": "AEW Fight Forever",
+            "aliases": [],
+            "genres": ["fighting", "sports"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "streets-of-rage-4",
+            "name": "Streets of Rage 4",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "streets-of-rage",
+            "inferred": true
+          },
+          {
+            "id": "ghostbusters-rise-of-the-ghost-lord",
+            "name": "Ghostbusters: Rise of the Ghost Lord",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": "ghostbusters",
+            "inferred": true
+          },
+          {
+            "id": "walkabout-mini-golf",
+            "name": "Walkabout Mini Golf",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "synth-riders",
+            "name": "Synth Riders",
+            "aliases": [],
+            "genres": ["rhythm"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "before-your-eyes",
+            "name": "Before Your Eyes",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-walking-dead-saints-and-sinners",
+            "name": "The Walking Dead: Saints & Sinners – Chapters 1 & 2",
+            "aliases": [],
+            "genres": ["action-adventure", "horror"],
+            "franchise": "the-walking-dead",
+            "inferred": true
+          },
+          {
+            "id": "tomb-raider-legend",
+            "name": "Tomb Raider Legend",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "tomb-raider",
+            "inferred": true
+          },
+          {
+            "id": "star-wars-the-clone-wars",
+            "name": "Star Wars: The Clone Wars",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "star-wars",
+            "inferred": true
+          },
+          {
+            "id": "sly-cooper-and-the-thievius-raccoonus",
+            "name": "Sly Cooper and the Thievius Raccoonus",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "sly-cooper",
+            "inferred": true
+          },
+          {
+            "id": "dredge",
+            "name": "Dredge",
+            "aliases": [],
+            "genres": ["adventure", "horror"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "lego-marvel-super-heroes-2",
+            "name": "Lego Marvel Super Heroes 2",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "cricket-24",
+            "name": "Cricket 24",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "grand-theft-auto-san-andreas-the-definitive-edition",
+            "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["PS Plus"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": ["PS Plus"],
+            "inferred": false
+          },
+          {
+            "id": "playstation-vr2",
+            "name": "PlayStation VR2",
+            "aliases": ["PS VR2"],
+            "inferred": false
+          },
+          {
+            "id": "playstation-2",
+            "name": "PlayStation 2",
+            "aliases": ["PS2"],
+            "inferred": false
+          },
+          {
+            "id": "playstation-4",
+            "name": "PlayStation 4",
+            "aliases": ["PS4"],
+            "inferred": false
+          },
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-05-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "dredge",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dredge | PS4, PS5 (available May 29)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/days-of-play-2024-adds-new-ps2-classics-and-psvr-2-games-to-ps-plus/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-05-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "lego-marvel-super-heroes-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Lego Marvel Super Heroes 2 | PS4 (available May 31)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/days-of-play-2024-adds-new-ps2-classics-and-psvr-2-games-to-ps-plus/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-06-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "cricket-24",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cricket 24 | PS4, PS5 (available June 5)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/days-of-play-2024-adds-new-ps2-classics-and-psvr-2-games-to-ps-plus/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-06-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "grand-theft-auto-san-andreas-the-definitive-edition",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Grand Theft Auto: San Andreas – The Definitive Edition | PS4, PS5 (available June 7)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/days-of-play-2024-adds-new-ps2-classics-and-psvr-2-games-to-ps-plus/"
+          }
+        }
+      ],
+      "summary": "Sony's Days of Play 2024 added a slate of new PS2 classics and PS VR2 games to PlayStation Plus, alongside titles arriving across late May and early June."
+    },
+    {
+      "ref": "business/cd-projekt-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "cd-projekt",
+            "name": "CD Projekt",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 226800000,
+          "unit": "money",
+          "currency": "PLN",
+          "entity": "cd-projekt",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-29",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "226.8 million PLN in revenue, up 30 percent from 2023's start",
+          "source": {
+            "name": "cdprojekt.com",
+            "domain": "cdprojekt.com",
+            "url": "https://www.cdprojekt.com/en/wp-content/uploads-en/2024/05/cd-projekt-group-presentation-q1-2024.pdf"
+          }
+        }
+      ],
+      "summary": "CD Projekt reported Q1 2024 revenue of 226.8 million PLN, up 30 percent from the start of 2023."
+    },
+    {
+      "ref": "rumours/resident-evil-zero-and-code-veronica-remakes-currently-in-de",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil-zero",
+            "name": "Resident Evil Zero",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          },
+          {
+            "id": "resident-evil-code-veronica",
+            "name": "Resident Evil Code Veronica",
+            "aliases": ["Code Veronica"],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "A leak claims that remakes of Resident Evil Zero and Code Veronica are currently in development."
+    }
+  ]
+}

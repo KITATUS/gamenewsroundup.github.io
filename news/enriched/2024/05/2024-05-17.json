@@ -1,0 +1,271 @@
+{
+  "date": "2024-05-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/2k-to-reveal-new-game-in-one-of-its-biggest-and-most-beloved",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "2k",
+            "name": "2K",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        {
+          "metric": "announce_date",
+          "value": "2024-06-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "2k",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2024-05-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 7th.",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/2k-to-reveal-new-game-in-one-of-its-biggest-and-most-beloved-franchises-next-month"
+          }
+        }
+      ],
+      "summary": "2K will reveal a new game in one of its \"biggest and most beloved\" franchises on 7 June 2024, expected to be Borderlands related."
+    },
+    {
+      "ref": "main_news/grand-theft-auto-6-narrows-release-window-to-fall-2025",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-6",
+            "name": "Grand Theft Auto 6",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "take-two-interactive",
+            "name": "Take-Two",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "Grand Theft Auto 6 has had its release window narrowed to \"fall\" 2025."
+    },
+    {
+      "ref": "main_news/friday-the-13th-villain-jason-voorhees-is-set-to-appear-in-m",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "jason-voorhees",
+            "name": "Jason Voorhees",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Friday the 13th villain Jason Voorhees is set to appear in more games via a new enterprise called Jason Universe spanning a range of media."
+    },
+    {
+      "ref": "free_games_subscription/the-epic-games-store-will-reportedly-offer-4-free-aaa-games",
+      "entities": {
+        "games": [
+          {
+            "id": "dragon-age-inquisition",
+            "name": "Dragon Age Inquisition",
+            "aliases": ["Dragon Age Inquisition – Game of the Year Edition"],
+            "genres": ["action-rpg"],
+            "franchise": "dragon-age",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "epic-games-store",
+            "name": "Epic Games Store",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "The Epic Games Store will reportedly offer four free AAA games over the next month, starting with Dragon Age Inquisition – Game of the Year Edition."
+    },
+    {
+      "ref": "business/phoenix-labs-lays-off-over-100-staff-cancels-all-upcoming-pr",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "phoenix-labs",
+            "name": "Phoenix Labs",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 100,
+          "unit": "people",
+          "currency": null,
+          "entity": "phoenix-labs",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-05-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Phoenix Labs lays off over 100 staff",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2024/05/phoenix-labs-lays-off-over-100-staff-cancels-all-upcoming-projects"
+          }
+        }
+      ],
+      "summary": "Phoenix Labs has laid off over 100 staff and cancelled all upcoming projects, one of which was nearing an announcement."
+    },
+    {
+      "ref": "business/gta-5-has-surpassed-200-million-copies-sold-according-to-tak",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-5",
+            "name": "GTA 5",
+            "aliases": ["Grand Theft Auto 5"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "take-two-interactive",
+            "name": "Take Two",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 200000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "grand-theft-auto-5",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "GTA 5 has surpassed 200 million copies sold, according to Take Two",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/gta-5-has-surpassed-200-million-copies-sold-according-to-take-two/"
+          }
+        }
+      ],
+      "summary": "GTA 5 has surpassed 200 million copies sold, according to Take-Two."
+    },
+    {
+      "ref": "rumours/details-on-new-deadlock-valve-game-leaked",
+      "entities": {
+        "games": [
+          {
+            "id": "deadlock",
+            "name": "Deadlock",
+            "aliases": [],
+            "genres": ["tps", "hero-shooter", "moba", "tower-defense"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Leaked details on a new Valve game called Deadlock describe it as a 6 vs 6 third-person hero shooter with a four-lane map, tower-defence mechanics, and a fantasy steampunk setting."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2024-11-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/super-nintendo-world-s-new-donkey-kong-country-theme-park-ex",
+      "entities": {
+        "games": [
+          { "id": "donkey-kong-country", "name": "Donkey Kong Country", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Super Nintendo World"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "shigeru-miyamoto", "name": "Shigeru Miyamoto", "aliases": ["Miyamoto"], "inferred": true }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-12-11", "unit": "date", "currency": null,
+          "entity": "super-nintendo-world", "entity_type": "product", "scope": "event",
+          "as_of": "2024-11-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "new Donkey Kong Country theme park expansion opening December 11th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/watch-miyamoto-take-a-tour-of-super-nintendo-worlds-new-donkey-kong-country-theme-park-expansion" } }
+      ],
+      "summary": "Super Nintendo World's new Donkey Kong Country theme park expansion opens on 11 December 2024."
+    },
+    {
+      "ref": "main_news/stellar-blade-s-nier-automata-dlc-drops-later-this-month",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "nier-automata", "name": "Nier: Automata", "aliases": ["Nier Automata"], "genres": ["action-rpg"], "franchise": "nier", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-20", "unit": "date", "currency": null,
+          "entity": "stellar-blade", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "20th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/stellar-blades-nier-automata-dlc-drops-later-this-month" } }
+      ],
+      "summary": "Stellar Blade's Nier: Automata crossover DLC releases on 20 November 2024."
+    },
+    {
+      "ref": "business/death-stranding-reaches-19m-players-globally",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": [], "inferred": true }
+        ]
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 19000000, "unit": "players", "currency": null,
+          "entity": "death-stranding", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Death Stranding reaches 19m players globally",
+          "source": { "name": "X", "domain": "x.com",
+                      "url": "https://x.com/Kojima_Hideo/status/1854779891046400213" } }
+      ],
+      "summary": "Death Stranding has reached 19 million players globally."
+    },
+    {
+      "ref": "business/netease-execs-arrested-for-alleged-money-laundering-and-brib",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "NetEase executives were arrested over alleged money laundering and bribery, with reported corruption charges of roughly $139m and 27 external companies blacklisted."
+    },
+    {
+      "ref": "business/raw-fury-appoints-ex-avalanche-chief-pim-holfve-as-new-ceo",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "raw-fury", "name": "Raw Fury", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "avalanche-studios", "name": "Avalanche", "aliases": ["Avalanche"], "publisher": null, "inferred": true },
+          { "id": "combined-effect", "name": "Combined Effect", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "pim-holfve", "name": "Pim Holfve", "aliases": ["Holfve"], "inferred": false },
+          { "id": "jonas-antonsson", "name": "Jónas Antonsson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Raw Fury appointed former Avalanche chief Pim Holfve as its new CEO, taking over from founder Jónas Antonsson, who will lead parent company Combined Effect."
+    },
+    {
+      "ref": "business/ubisoft-is-being-sued-for-making-the-crew-unplayable",
+      "entities": {
+        "games": [
+          { "id": "the-crew", "name": "The Crew", "aliases": [], "genres": ["racing"], "franchise": "the-crew", "inferred": true },
+          { "id": "assassins-creed-2", "name": "Assassin's Creed 2", "aliases": ["Assassin’s Creed 2"], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "assassins-creed-3", "name": "Assassin's Creed 3", "aliases": ["Assassin’s Creed 3"], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "shutdown"],
+      "facts": [],
+      "summary": "Ubisoft is being sued by two Californian gamers for making the racing game The Crew unplayable after shutting it down."
+    }
+  ]
+}

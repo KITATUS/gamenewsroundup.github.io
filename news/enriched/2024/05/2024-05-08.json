@@ -1,0 +1,332 @@
+{
+  "date": "2024-05-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/witcher-3-s-official-mod-editor-launches-this-month",
+      "entities": {
+        "games": [
+          {
+            "id": "the-witcher-3",
+            "name": "The Witcher 3",
+            "aliases": ["Witcher 3", "The Witcher 3 REDkit"],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-05-21",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-witcher-3",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-05-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Witcher 3 REDkit will be released May 21st",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/the-witcher-3s-official-mod-editor-launches-this-month/"
+          }
+        }
+      ],
+      "summary": "The Witcher 3's official mod editor REDkit launches free for PC owners on 21 May 2024."
+    },
+    {
+      "ref": "main_news/redfall-will-get-no-further-updates-players-who-paid-for-dlc",
+      "entities": {
+        "games": [
+          {
+            "id": "redfall",
+            "name": "Redfall",
+            "aliases": [],
+            "genres": ["fps", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "arkane-austin",
+            "name": "Arkane Austin",
+            "aliases": [],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "dlc-expansion", "update-patch"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 99.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "redfall",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-05-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the $99.99 Bite Back Edition of the game",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/redfall-will-get-no-further-updates-players-who-paid-for-dlc-will-get-make-good-offers/"
+          }
+        }
+      ],
+      "summary": "Redfall will receive no further updates, and players who bought the Hero DLC will get make-good offers after the cancelled Hero Pass content."
+    },
+    {
+      "ref": "free_games_subscription/may-s-playstation-plus-essential-games-have-been-released",
+      "entities": {
+        "games": [
+          {
+            "id": "ea-sports-fc-24",
+            "name": "EA Sports FC 24",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "ea-sports-fc",
+            "inferred": true
+          },
+          {
+            "id": "ghostrunner-2",
+            "name": "Ghostrunner 2",
+            "aliases": [],
+            "genres": ["action-adventure", "fps"],
+            "franchise": "ghostrunner",
+            "inferred": true
+          },
+          {
+            "id": "tunic",
+            "name": "Tunic",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "destiny-2",
+            "name": "Destiny 2: Lightfall",
+            "aliases": ["Destiny 2"],
+            "genres": ["fps", "mmo"],
+            "franchise": "destiny",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": ["PS Plus"],
+            "inferred": false
+          },
+          {
+            "id": "ps4",
+            "name": "PS4",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "May's PlayStation Plus Essential lineup has been released, featuring EA Sports FC 24, Ghostrunner 2, Tunic, and Destiny 2: Lightfall."
+    },
+    {
+      "ref": "business/support-dev-ptw-opens-mocap-studio-to-grow-partnership-with",
+      "entities": {
+        "games": [
+          {
+            "id": "starfield",
+            "name": "Starfield",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "exoprimal",
+            "name": "Exoprimal",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ptw",
+            "name": "PTW",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "imaginarium-studios",
+            "name": "Imaginarium Studios",
+            "aliases": ["Imaginarium"],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "side-london",
+            "name": "SIDE London",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "partnership"],
+      "facts": [],
+      "summary": "Support developer PTW has opened a dedicated motion-capture studio to expand its partnership with Imaginarium Studios."
+    },
+    {
+      "ref": "business/activision-to-pay-23-4m-for-patent-infringement",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty",
+            "name": "Call of Duty",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          },
+          {
+            "id": "world-of-warcraft",
+            "name": "World of Warcraft",
+            "aliases": [],
+            "genres": ["mmorpg"],
+            "franchise": "warcraft",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "activision-blizzard",
+            "name": "Activision Blizzard",
+            "aliases": ["Activision"],
+            "inferred": false
+          },
+          {
+            "id": "electronic-arts",
+            "name": "EA",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "take-two-interactive",
+            "name": "Take-Two",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Activision will pay $23.4m for patent infringement in Call of Duty and World of Warcraft after an eight-year legal battle with Acceleration Bay, and plans to appeal."
+    },
+    {
+      "ref": "business/in-less-than-a-day-hades-2-early-access-has-doubled-hades-al",
+      "entities": {
+        "games": [
+          {
+            "id": "hades-2",
+            "name": "Hades 2",
+            "aliases": [],
+            "genres": ["roguelike", "action-rpg"],
+            "franchise": "hades",
+            "inferred": true
+          },
+          {
+            "id": "hades",
+            "name": "Hades",
+            "aliases": [],
+            "genres": ["roguelike", "action-rpg"],
+            "franchise": "hades",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "supergiant-games",
+            "name": "Supergiant Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "epic-games-store",
+            "name": "Epic Games Store",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["early-access", "sales-milestone"],
+      "facts": [],
+      "summary": "Within less than a day of Early Access, Hades 2 doubled the original Hades' all-time peak player count on Steam."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "date": "2025-04-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/remedy-s-fbc-firebreak-gets-a-release-date-june-17-will-be-o",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["fps", "shooter"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy", "name": "Remedy", "aliases": ["Remedy Entertainment"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "fbc-firebreak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "FBC: Firebreak gets a release date (June 17)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/remedys-fbc-firebreak-gets-a-release-date-will-be-on-xbox-game-pass-and-ps-plus-on-day-one/" } }
+      ],
+      "summary": "Remedy's FBC: Firebreak got a release date of June 17, 2025, and will be on Xbox Game Pass and PS Plus on day one."
+    },
+    {
+      "ref": "main_news/switch-2-edition-upgrades-vary-in-cost-nintendo-uk-reveals-d",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo UK"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [],
+      "summary": "Nintendo UK revealed that the cost of Switch 2 Edition upgrades varies, with differing prices for first-party upgrades."
+    },
+    {
+      "ref": "main_news/steam-to-launch-new-tags-to-help-disabled-players-search-for",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Steam is to launch new tags to help disabled players search for games based on accessibility features."
+    },
+    {
+      "ref": "free_games_subscription/several-playstation-exclusives-are-leaving-ps-plus-on-playst",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-5", "name": "Grand Theft Auto 5", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "motogp-24", "name": "Moto GP24", "aliases": ["MotoGP 24"], "genres": ["racing", "sports"], "franchise": "motogp", "inferred": true },
+          { "id": "the-sims-4", "name": "The Sims 4 Island Living Expansion Pack", "aliases": ["The Sims 4"], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "resistance-fall-of-man", "name": "Resistance: Fall of Man", "aliases": [], "genres": ["fps", "shooter"], "franchise": "resistance", "inferred": true },
+          { "id": "resistance-2", "name": "Resistance 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "resistance", "inferred": true },
+          { "id": "walkabout-mini-golf", "name": "Walkabout Mini Golf", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "synth-riders", "name": "Synth Riders", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true },
+          { "id": "ghostbusters-rise-of-the-ghost-lord", "name": "Ghostbusters: Rise of the Ghost Lord Frozen Empire", "aliases": [], "genres": ["shooter", "adventure"], "franchise": "ghostbusters", "inferred": true },
+          { "id": "before-your-eyes", "name": "Before Your Eyes", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "the-walking-dead-saints-and-sinners", "name": "The Walking Dead: Saints and Sinners", "aliases": [], "genres": ["action-adventure", "horror"], "franchise": "the-walking-dead", "inferred": true },
+          { "id": "the-walking-dead-saints-and-sinners-chapter-2", "name": "The Walking Dead: Saints and Sinners Chapter 2", "aliases": [], "genres": ["action-adventure", "horror"], "franchise": "the-walking-dead", "inferred": true },
+          { "id": "lego-marvel-super-heroes-2", "name": "Lego Marvel Super Heroes 2", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "stranded-alien-dawn", "name": "Stranded Alien Dawn", "aliases": [], "genres": ["survival", "simulation"], "franchise": null, "inferred": true },
+          { "id": "the-lego-movie-2-video-game", "name": "The Lego Movie 2 Video Game", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "ghostrunner", "name": "Ghostrunner", "aliases": [], "genres": ["action", "platformer"], "franchise": "ghostrunner", "inferred": true },
+          { "id": "ghost", "name": "Ghost", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "payday-2", "name": "Payday 2 Crimewave Edition", "aliases": ["Payday 2"], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true },
+          { "id": "bloodstained-ritual-of-the-night", "name": "Bloodstained: Ritual of the Night", "aliases": [], "genres": ["metroidvania", "action-rpg"], "franchise": "bloodstained", "inferred": true },
+          { "id": "journey-to-the-savage-planet", "name": "Journey to the Savage Planet", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "portal-knights", "name": "Portal Knights", "aliases": [], "genres": ["sandbox", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "enter-the-gungeon", "name": "Enter the Gungeon", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": null, "inferred": true },
+          { "id": "batman-arkham-knight", "name": "Batman Arkham Knight", "aliases": [], "genres": ["action-adventure"], "franchise": "batman-arkham", "inferred": true },
+          { "id": "infamous-second-son", "name": "Infamous Second Son", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "infamous", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Several PlayStation exclusives and other titles are leaving PS Plus on PlayStation 5 soon."
+    },
+    {
+      "ref": "business/ngo-files-complaint-against-ubisoft-for-data-protection-conc",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "An NGO filed a complaint against Ubisoft over data protection concerns and its enforcement of \"always online\" connections."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2024-07-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-international-olympic-committee-ioc-has-announced-a-12-y",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "The International Olympic Committee announced a 12-year agreement to host the Olympic Esports Games in Saudi Arabia, with the inaugural event set for next year."
+    },
+    {
+      "ref": "main_news/ubisoft-says-it-s-actively-working-on-driver-franchise-proje",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ubisoft says it is actively working on Driver franchise projects, while the planned live-action series has been shelved."
+    },
+    {
+      "ref": "business/details-of-unannounced-disney-projects-including-games-leak",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "disney", "name": "Disney", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Details of unannounced Disney projects, including games, leaked online following a Slack hack that exposed internal documents."
+    },
+    {
+      "ref": "business/dying-light-2-dev-techland-is-making-most-roles-office-based",
+      "entities": {
+        "games": [{ "id": "dying-light-2", "name": "Dying Light 2", "aliases": [], "genres": ["survival-horror", "action-rpg", "open-world"], "franchise": "dying-light", "inferred": true }],
+        "studios": [{ "id": "techland", "name": "Techland", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "headcount", "value": 500, "unit": "people", "currency": null,
+          "entity": "techland", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-07-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "ten percent of its 500 headcount",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/dying-light-2-dev-techland-is-making-most-roles-office-based-or-hybrid-including-staff-who-live-abroad" } }
+      ],
+      "summary": "Dying Light 2 developer Techland is making most roles office-based or hybrid, including staff who live abroad."
+    },
+    {
+      "ref": "business/the-first-descendant-clocks-up-10m-players-in-just-one-week",
+      "entities": {
+        "games": [{ "id": "the-first-descendant", "name": "The First Descendant", "aliases": [], "genres": ["tps", "shooter"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 10000000, "unit": "players", "currency": null,
+          "entity": "the-first-descendant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-15", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "The First Descendant clocks up 10m players in just one week",
+          "source": { "name": "X", "domain": "x.com",
+                      "url": "https://x.com/FirstDescendant/status/1811716560031215773" } }
+      ],
+      "summary": "The First Descendant reached 10 million players within one week of launch."
+    },
+    {
+      "ref": "business/nintendo-has-been-accused-of-miscrediting-external-translato",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo has been accused of miscrediting external translators, according to employees of service providers Localsoft and Keywords."
+    }
+  ]
+}

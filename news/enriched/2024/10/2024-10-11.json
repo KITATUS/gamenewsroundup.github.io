@@ -1,0 +1,183 @@
+{
+  "date": "2024-10-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/age-of-empires-3-to-be-delisted-after-17-years",
+      "entities": {
+        "games": [{ "id": "age-of-empires-3", "name": "Age of Empires 3", "aliases": ["Age of Empires III"], "genres": ["rts", "strategy"], "franchise": "age-of-empires", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Age of Empires 3 is set to be delisted after 17 years, though existing owners can still play campaign and skirmish content after October 30."
+    },
+    {
+      "ref": "main_news/brighter-shores-the-new-mmo-from-runescape-s-creator-sees-it",
+      "entities": {
+        "games": [
+          { "id": "brighter-shores", "name": "Brighter Shores", "aliases": [], "genres": ["mmorpg", "mmo"], "franchise": null, "inferred": true },
+          { "id": "runescape", "name": "RuneScape", "aliases": [], "genres": ["mmorpg", "mmo"], "franchise": "runescape", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date", "early-access"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-06", "unit": "date", "currency": null,
+          "entity": "brighter-shores", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Will now release 6th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/brighter-shores-the-new-mmo-from-runescapes-creator-sees-its-early-access-release-date-moved-back" } },
+        { "metric": "delay_to", "value": "2024-11-06", "unit": "date", "currency": null,
+          "entity": "brighter-shores", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Will now release 6th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/brighter-shores-the-new-mmo-from-runescapes-creator-sees-its-early-access-release-date-moved-back" } }
+      ],
+      "summary": "Brighter Shores, the new MMO from RuneScape's creator, has had its early access release date moved back one day to 6 November because the original date coincided with the US Election."
+    },
+    {
+      "ref": "main_news/ps1-game-star-wars-episode-i-jedi-power-battles-is-coming-to",
+      "entities": {
+        "games": [{ "id": "star-wars-episode-i-jedi-power-battles", "name": "Star Wars Episode I: Jedi Power Battles", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps1", "name": "PS1", "aliases": ["PlayStation"], "inferred": false },
+          { "id": "dreamcast", "name": "Dreamcast", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-23", "unit": "date", "currency": null,
+          "entity": "star-wars-episode-i-jedi-power-battles", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Steam on January 23, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps1-game-star-wars-episode-i-jedi-power-battles-is-coming-to-pc-and-consoles-in-january/" } },
+        { "metric": "price", "value": 19.99, "unit": "price", "currency": "USD",
+          "entity": "star-wars-episode-i-jedi-power-battles", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "at a price of $19.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps1-game-star-wars-episode-i-jedi-power-battles-is-coming-to-pc-and-consoles-in-january/" } },
+        { "metric": "price", "value": 15.99, "unit": "price", "currency": "GBP",
+          "entity": "star-wars-episode-i-jedi-power-battles", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£15.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps1-game-star-wars-episode-i-jedi-power-battles-is-coming-to-pc-and-consoles-in-january/" } }
+      ],
+      "summary": "The PS1 game Star Wars Episode I: Jedi Power Battles is being re-released on PS5, Xbox Series X/S, Switch and Steam on 23 January 2025 for $19.99 / £15.99, with new playable characters and a lightsaber-colour toggle."
+    },
+    {
+      "ref": "free_games_subscription/prime-gaming-s-27-free-games-for-october-include-bioshock-re",
+      "entities": {
+        "games": [
+          { "id": "bioshock-remastered", "name": "BioShock Remastered", "aliases": [], "genres": ["fps", "shooter"], "franchise": "bioshock", "inferred": true },
+          { "id": "doom-eternal", "name": "Doom Eternal", "aliases": [], "genres": ["fps", "shooter"], "franchise": "doom", "inferred": true },
+          { "id": "hive-jump-2-survivors", "name": "Hive Jump 2: Survivors", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": null, "inferred": true },
+          { "id": "scarf", "name": "Scarf", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "tomb-raider-legend", "name": "Tomb Raider: Legend", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "the-eternal-cylinder", "name": "The Eternal Cylinder", "aliases": [], "genres": ["adventure", "survival"], "franchise": null, "inferred": true },
+          { "id": "spirit-of-the-north", "name": "Spirit of the North", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "no-straight-roads", "name": "No Straight Roads", "aliases": [], "genres": ["action-adventure", "rhythm"], "franchise": null, "inferred": true },
+          { "id": "dreadout-2", "name": "DreadOut 2", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "dreadout", "inferred": true },
+          { "id": "ghostbusters-spirits-unleashed-ecto-edition", "name": "Ghostbusters: Spirits Unleashed - Ecto Edition", "aliases": [], "genres": ["shooter"], "franchise": "ghostbusters", "inferred": true },
+          { "id": "priest-simulator-vampire-show", "name": "Priest Simulator: Vampire Show", "aliases": [], "genres": ["simulation", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "the-gap", "name": "The Gap", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "mystery-box-hidden-secrets", "name": "Mystery Box: Hidden Secrets", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "vlad-circus-descend-into-madness", "name": "Vlad Circus: Descend Into Madness", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "through-the-darkest-of-times", "name": "Through the Darkest of Times", "aliases": [], "genres": ["strategy", "simulation"], "franchise": null, "inferred": true },
+          { "id": "killing-floor-2", "name": "Killing Floor 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "killing-floor", "inferred": true },
+          { "id": "zombies-ate-my-neighbours-and-ghoul-patrol", "name": "Zombies Ate My Neighbours and Ghoul Patrol", "aliases": [], "genres": ["shooter", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "pumpkin-jack", "name": "Pumpkin Jack", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "the-gunk", "name": "The Gunk", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "stasis-bone-totem", "name": "Stasis: Bone Totem", "aliases": [], "genres": ["adventure", "horror"], "franchise": "stasis", "inferred": true },
+          { "id": "gargoyles-remastered", "name": "Gargoyles Remastered", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "monster-train", "name": "Monster Train", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "morbid-the-seven-acolytes", "name": "Morbid: The Seven Acolytes", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "a-plague-tale-innocence", "name": "A Plague Tale: Innocence", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "a-plague-tale", "inferred": true },
+          { "id": "deaths-door", "name": "Death's Door", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "haunted-hotel-personal-nightmare-collectors-edition", "name": "Haunted Hotel: Personal Nightmare - Collector's Edition", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": "haunted-hotel", "inferred": true },
+          { "id": "scorn", "name": "Scorn", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "coromon", "name": "Coromon", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "amazon-games", "name": "Amazon Games", "aliases": ["Prime Gaming"], "inferred": true }],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "amazon-games-app", "name": "Amazon Games App", "aliases": [], "inferred": false },
+          { "id": "microsoft-store", "name": "Microsoft Store", "aliases": [], "inferred": false },
+          { "id": "legacy-games", "name": "Legacy Games", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Prime Gaming's 27 'free' games for October include BioShock Remastered and Doom Eternal, released in batches across the month."
+    },
+    {
+      "ref": "business/microids-launches-new-third-party-publishing-division-with-k",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microids", "name": "Microids", "aliases": [], "inferred": false },
+          { "id": "kwalee", "name": "Kwalee", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "studio-opening"],
+      "facts": [],
+      "summary": "Microids has launched a new third-party publishing division in collaboration with Kwalee."
+    },
+    {
+      "ref": "business/konami-replaces-ea-as-fifa-s-esports-partner",
+      "entities": {
+        "games": [
+          { "id": "efootball", "name": "eFootball", "aliases": [], "genres": ["sports"], "franchise": "efootball", "inferred": true },
+          { "id": "fifa", "name": "FIFA", "aliases": [], "genres": ["sports"], "franchise": "fifa", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": ["Japanese publisher"], "inferred": false },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false },
+          { "id": "console", "name": "Console", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Konami has replaced EA as FIFA's esports partner, with its eFootball to be used in two FIFAe World Cup tournaments later this year, one on mobile and one on console."
+    },
+    {
+      "ref": "rumours/naturalmotion-facing-potential-layoffs-in-us-and-uk",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "naturalmotion", "name": "NaturalMotion", "aliases": [], "publisher": "zynga", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Rumour that NaturalMotion is facing potential layoffs in the US and UK, with sources claiming staff have already been let go and its Birmingham studio reportedly closed."
+    }
+  ]
+}

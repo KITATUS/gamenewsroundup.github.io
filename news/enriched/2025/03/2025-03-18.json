@@ -1,0 +1,139 @@
+{
+  "date": "2025-03-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nightdive-announces-a-port-of-i-have-no-mouth-and-i-must-scr",
+      "entities": {
+        "games": [
+          {
+            "id": "i-have-no-mouth-and-i-must-scream",
+            "name": "I Have No Mouth, And I Must Scream",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "nightdive-studios",
+            "name": "Nightdive Studios",
+            "aliases": ["Nightdive"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s-x", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-03-27",
+          "unit": "date",
+          "currency": null,
+          "entity": "i-have-no-mouth-and-i-must-scream",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Releases March 27th for PS4/5, Xbox One / Series S/X and Nintendo Switch",
+          "source": {
+            "name": "YouTube",
+            "domain": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=CzDJ7YkaJqI"
+          }
+        }
+      ],
+      "summary": "Nightdive announced a console port of I Have No Mouth, And I Must Scream, releasing March 27th for PS4/5, Xbox One/Series S/X and Nintendo Switch."
+    },
+    {
+      "ref": "business/playstation-has-formed-new-studio-dark-outlaw-games-with-cal",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "dark-outlaw-games",
+            "name": "Dark Outlaw Games",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["PlayStation"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jason-blundell", "name": "Jason Blundell", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "PlayStation formed a new studio, Dark Outlaw Games, led by Call of Duty Zombies lead Jason Blundell."
+    },
+    {
+      "ref": "rumours/resident-evil-9-to-be-a-major-reinvention-on-par-with-re4-re",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil-9",
+            "name": "Resident Evil 9",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          },
+          {
+            "id": "resident-evil-4",
+            "name": "Resident Evil 4",
+            "aliases": ["RE4"],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          },
+          {
+            "id": "resident-evil-7",
+            "name": "Resident Evil 7",
+            "aliases": ["RE7"],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Resident Evil 9 will be a major reinvention on par with RE4 and RE7, featuring a different playstyle."
+    }
+  ]
+}

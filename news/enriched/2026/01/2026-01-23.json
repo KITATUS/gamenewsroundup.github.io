@@ -1,0 +1,177 @@
+{
+  "date": "2026-01-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/double-fine-reveals-kiln-a-pottery-based-multiplayer-party-b",
+      "entities": {
+        "games": [
+          { "id": "kiln", "name": "Kiln", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "double-fine", "name": "Double Fine", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "subscription"],
+      "facts": [],
+      "summary": "Double Fine revealed Kiln, a pottery-based multiplayer party brawler due later this year on Xbox Series S/X, PS5 and PC, and on Xbox Game Pass at launch."
+    },
+    {
+      "ref": "main_news/xbox-s-big-fable-reveal-confirms-truly-open-world-and-xbox-a",
+      "entities": {
+        "games": [
+          { "id": "fable", "name": "Fable", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "fable", "inferred": true }
+        ],
+        "studios": [
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date"],
+      "facts": [],
+      "summary": "Xbox's Fable reveal confirmed a truly open world and an Xbox and PlayStation release this Autumn."
+    },
+    {
+      "ref": "main_news/pok-mon-studio-game-freak-gives-a-new-look-at-its-ps5-xbox-a",
+      "entities": {
+        "games": [
+          { "id": "beast-of-reincarnation", "name": "Beast of Reincarnation", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "game-freak", "name": "Game Freak", "aliases": [], "publisher": "the-pokemon-company", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["gameplay", "reveal"],
+      "facts": [],
+      "summary": "Pokémon studio Game Freak shared a new look at its PS5, Xbox and PC action RPG Beast of Reincarnation."
+    },
+    {
+      "ref": "main_news/forza-horizon-6-first-gameplay-details-revealed-and-release",
+      "entities": {
+        "games": [
+          { "id": "forza-horizon-6", "name": "Forza Horizon 6", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "gameplay", "early-access"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-05-19", "unit": "date", "currency": null,
+          "entity": "forza-horizon-6", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases May 19",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/forza-horizon-6-first-gameplay-details-revealed-and-release-date-confirmed/" } },
+        { "metric": "release_date", "value": "2026-05-15", "unit": "date", "currency": null,
+          "entity": "forza-horizon-6", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Premium Edition offering early access starting on May 15",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/forza-horizon-6-first-gameplay-details-revealed-and-release-date-confirmed/" } }
+      ],
+      "summary": "Forza Horizon 6 had its first gameplay details revealed and a release date of May 19 confirmed, with Premium Edition early access on May 15 and the PS5 version arriving later this year."
+    },
+    {
+      "ref": "main_news/unity-launches-walmart-sdk-to-seamlessly-integrate-products",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "unity", "name": "Unity", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Unity launched a Walmart SDK to let developers integrate products into games."
+    },
+    {
+      "ref": "business/battlefield-outsold-call-of-duty-for-the-first-time-ever-las",
+      "entities": {
+        "games": [
+          { "id": "battlefield", "name": "Battlefield", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-black-ops-7", "name": "Black Ops 7", "aliases": ["Black Ops 7"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "chart_rank", "value": 5, "unit": "rank", "currency": null,
+          "entity": "call-of-duty-black-ops-7", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Black Ops 7 dropped to 5th place",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/battlefield-outsold-call-of-duty-for-the-first-time-ever-last-year-as-black-ops-7-dropped-to-5th-place/" } }
+      ],
+      "summary": "Battlefield outsold Call of Duty for the first time in the US last year, while Black Ops 7 dropped to 5th place."
+    },
+    {
+      "ref": "business/ubisoft-shares-drop-33-following-its-major-company-reset-ann",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Ubisoft shares dropped 33% following its major company reset announcement, with the share price down 95% in total over the past eight years."
+    },
+    {
+      "ref": "business/runescape-tops-4-billion-in-lifetime-revenue",
+      "entities": {
+        "games": [
+          { "id": "runescape", "name": "RuneScape", "aliases": [], "genres": ["mmorpg"], "franchise": "runescape", "inferred": true }
+        ],
+        "studios": [
+          { "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 4000000000, "unit": "money", "currency": "USD",
+          "entity": "runescape", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "RuneScape tops $4 billion in lifetime revenue",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/runescape-tops-4-billion-in-lifetime-revenue" } }
+      ],
+      "summary": "RuneScape has topped $4 billion in lifetime revenue."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "date": "2024-11-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/new-cyberpunk-netflix-animation-confirmed-as-2077-tops-30-mi",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": ["2077", "Cyberpunk"], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 30000000, "unit": "units", "currency": null,
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-27", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "2077 tops 30 million sales",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-cyberpunk-netflix-animation-announced-as-2077-tops-30-million-sales/" } }
+      ],
+      "summary": "A new Cyberpunk Netflix animation has been confirmed as Cyberpunk 2077 surpasses 30 million sales."
+    },
+    {
+      "ref": "main_news/star-wars-hunters-is-coming-to-pc-in-2025",
+      "entities": {
+        "games": [
+          { "id": "star-wars-hunters", "name": "Star Wars Hunters", "aliases": [], "genres": ["hero-shooter"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "zynga", "name": "Zynga", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port", "early-access", "beta-demo"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-27", "unit": "date", "currency": null,
+          "entity": "star-wars-hunters", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Early Access release on January 27, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/star-wars-hunters-is-coming-to-pc-in-2025/" } }
+      ],
+      "summary": "Star Wars Hunters is coming to PC in 2025, with a Steam playtest from December 13-16 ahead of Early Access on 27 January 2025."
+    },
+    {
+      "ref": "business/cd-projekt-group-q3-results",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "phantom-liberty", "name": "Phantom Liberty", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "cd-projekt", "name": "CD Projekt Group", "aliases": ["CD Projekt Group"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 52800000, "unit": "money", "currency": "EUR",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-27", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Sales revenue: Down 49% year-on-year to €52.8 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-49-plummet-in-sales-revenue-in-q3-2024" } },
+        { "metric": "revenue", "value": 55200000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-27", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "€52.8 million ($55.2 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-49-plummet-in-sales-revenue-in-q3-2024" } },
+        { "metric": "profit", "value": 18100000, "unit": "money", "currency": "EUR",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-27", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net profit: Down 61% year-on-year to €18.1 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-49-plummet-in-sales-revenue-in-q3-2024" } },
+        { "metric": "profit", "value": 19000000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-27", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "€18.1 million ($19 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-49-plummet-in-sales-revenue-in-q3-2024" } },
+        { "metric": "copies_sold", "value": 30000000, "unit": "units", "currency": null,
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-27", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Cyberpunk 2077 to date has \"topped\" 30 million copies",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-49-plummet-in-sales-revenue-in-q3-2024" } },
+        { "metric": "copies_sold", "value": 8000000, "unit": "units", "currency": null,
+          "entity": "phantom-liberty", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-27", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Phantom Liberty has sold eight million units",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-49-plummet-in-sales-revenue-in-q3-2024" } }
+      ],
+      "summary": "CD Projekt Group's Q3 results showed sales revenue down 49% year-on-year to €52.8 million and net profit down 61% to €18.1 million."
+    },
+    {
+      "ref": "business/playstation-veteran-shuhei-yoshida-to-retire-in-january",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "shuhei-yoshida", "name": "Shuhei Yoshida", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "PlayStation development veteran Shuhei Yoshida is set to retire in January after 31 years."
+    },
+    {
+      "ref": "business/ps2-officially-surpasses-160m-sales-retaining-its-best-selli",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-2", "name": "PlayStation 2", "aliases": ["PS2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 160000000, "unit": "units", "currency": null,
+          "entity": "playstation-2", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-11-27", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "PS2 officially surpasses 160m sales",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ps2-officially-surpasses-160m-sales-retaining-its-best-selling-console-crown" } },
+        { "metric": "units_sold", "value": 10000000, "unit": "units", "currency": null,
+          "entity": "playstation-2", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-11-27", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Another 10m units sold since 2011",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ps2-officially-surpasses-160m-sales-retaining-its-best-selling-console-crown" } }
+      ],
+      "summary": "The PlayStation 2 has officially surpassed 160 million sales, retaining its best-selling console crown."
+    },
+    {
+      "ref": "business/nintendo-switch-eshop-and-online-services-are-ending-in-chin",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "regulation"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-03-31", "unit": "date", "currency": null,
+          "entity": "nintendo-switch", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-11-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "On March 31, 2026, the Chinese Nintendo eShop will stop selling games",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-switch-eshop-and-online-services-are-ending-in-china-in-2026/" } },
+        { "metric": "shutdown_date", "value": "2026-05-15", "unit": "date", "currency": null,
+          "entity": "nintendo-switch", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-11-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "On May 15, 2026, players will no longer be able to download titles or redeem codes",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-switch-eshop-and-online-services-are-ending-in-china-in-2026/" } }
+      ],
+      "summary": "Nintendo Switch eShop and online services in China will end in 2026, with sales stopping on 31 March 2026 and downloads ceasing on 15 May 2026."
+    },
+    {
+      "ref": "rumours/ubisoft-reportedly-developing-animal-crossing-style-social-s",
+      "entities": {
+        "games": [
+          { "id": "alterra", "name": "Alterra", "aliases": ["Codename Alterra"], "genres": ["life-sim", "sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-montreal", "name": "Ubisoft Montreal", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "patrick-redding", "name": "Patrick Redding", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Ubisoft is developing an Animal Crossing-style social sim with Minecraft-like building, codenamed Alterra and led by former Gotham Knights creative director Patrick Redding."
+    }
+  ]
+}

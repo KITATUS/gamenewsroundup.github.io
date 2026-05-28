@@ -1,0 +1,141 @@
+{
+  "date": "2026-01-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mario-galaxy-movie-release-date-brought-forward-in-global-al",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-04-01",
+          "unit": "date",
+          "currency": null,
+          "entity": "mario-galaxy-movie",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-01-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The movie will now release April 1st in many major markets",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/mario-galaxy-movie-release-date-brought-forward-in-global-alignment/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-04-24",
+          "unit": "date",
+          "currency": null,
+          "entity": "mario-galaxy-movie",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-01-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Releases April 24th in Japan",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/mario-galaxy-movie-release-date-brought-forward-in-global-alignment/"
+          }
+        }
+      ],
+      "summary": "The Mario Galaxy movie release date has been brought forward, now releasing April 1st in many major markets and April 24th in Japan."
+    },
+    {
+      "ref": "main_news/vampire-survivors-highly-anticipated-deck-building-spin-off",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike"], "franchise": "vampire-survivors", "inferred": true }
+        ],
+        "studios": [
+          { "id": "poncle", "name": "Poncle", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-02-23",
+          "unit": "date",
+          "currency": null,
+          "entity": "vampire-survivors",
+          "entity_type": "game",
+          "scope": "product",
+          "as_of": "2026-01-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Demo releases 23rd February",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/vampire-survivors-highly-anticipated-deck-building-spin-off-is-getting-an-xbox-and-steam-demo-soon"
+          }
+        }
+      ],
+      "summary": "The deck-building Vampire Survivors spin-off is getting an Xbox and Steam demo, releasing 23rd February."
+    },
+    {
+      "ref": "business/roblox-claims-bruno-mars-steal-a-brainrot-performance-drew-a",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "bruno-mars", "name": "Bruno Mars", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "peak_concurrent_players",
+          "value": 12800000,
+          "unit": "users",
+          "currency": null,
+          "entity": "roblox",
+          "entity_type": "game",
+          "scope": "product",
+          "as_of": "2026-01-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "drew a record 12.8 million concurrent users",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-claims-bruno-mars-steal-a-brainrot-performance-dre[…]n-concurrent-users-issued-54-million-brainrot-collectibles"
+          }
+        }
+      ],
+      "summary": "Roblox claims the Bruno Mars Steal a Brainrot performance drew a record 12.8 million concurrent users and issued 5.4 million brainrot collectibles."
+    }
+  ]
+}

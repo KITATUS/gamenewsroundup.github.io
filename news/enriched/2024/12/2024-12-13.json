@@ -1,0 +1,703 @@
+{
+  "date": "2024-12-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "highlights/co-op-standalone-game-elden-ring-nightreign-announced",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightreign", "name": "Elden Ring Nightreign", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PlayStation 4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "year", "currency": null,
+          "entity": "elden-ring-nightreign", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases 2025 for PlayStation 4/5, Xbox Series and PC",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "A co-op standalone game, Elden Ring Nightreign, was announced for a 2025 release on PlayStation 4/5, Xbox Series and PC."
+    },
+    {
+      "ref": "highlights/ico-and-shadow-of-the-colossus-creator-fumito-ueda-reveals-h",
+      "entities": {
+        "games": [
+          { "id": "project-robot", "name": "Project: Robot", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "ico", "name": "Ico", "aliases": [], "genres": ["action-adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "shadow-of-the-colossus", "name": "Shadow of the Colossus", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "the-last-guardian", "name": "The Last Guardian", "aliases": [], "genres": ["action-adventure", "puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "gendesign", "name": "genDESIGN", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "fumito-ueda", "name": "Fumito Ueda", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Ico and Shadow of the Colossus creator Fumito Ueda revealed his next game, Project: Robot, with the final title yet to be confirmed."
+    },
+    {
+      "ref": "highlights/onimusha-way-of-the-sword-coming-in-2026",
+      "entities": {
+        "games": [
+          { "id": "onimusha-way-of-the-sword", "name": "Onimusha Way of the Sword", "aliases": [], "genres": ["action-adventure"], "franchise": "onimusha", "inferred": true }
+        ],
+        "studios": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "year", "currency": null,
+          "entity": "onimusha-way-of-the-sword", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Onimusha Way of the Sword coming in 2026",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Onimusha Way of the Sword, the first Onimusha game since 2006, is coming in 2026, developed by Capcom for PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "highlights/clive-final-fantasy-xvi-is-the-next-tekken-8-dlc-character",
+      "entities": {
+        "games": [
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true },
+          { "id": "final-fantasy-xvi", "name": "Final Fantasy XVI", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-12-16", "unit": "date", "currency": null,
+          "entity": "tekken-8", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "72 Hour Early Access December 16th",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Clive from Final Fantasy XVI is the next Tekken 8 DLC character, with 72-hour early access starting December 16th."
+    },
+    {
+      "ref": "highlights/hideki-kamiya-s-new-studio-clovers-is-working-with-capcom-on",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "clovers", "name": "Clovers", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideki-kamiya", "name": "Hideki Kamiya", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Hideki Kamiya's new studio Clovers is working with Capcom on an Okami sequel."
+    },
+    {
+      "ref": "highlights/naughty-dog-s-next-game-intergalactic-the-heretic-prophet-ha",
+      "entities": {
+        "games": [
+          { "id": "intergalactic-the-heretic-prophet", "name": "Intergalactic: The Heretic Prophet", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "trent-reznor", "name": "Trent Reznor", "aliases": [], "inferred": false },
+          { "id": "atticus-ross", "name": "Atticus Ross", "aliases": [], "inferred": false },
+          { "id": "neil-druckmann", "name": "Neil Druckmann", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Naughty Dog's next game, Intergalactic: The Heretic Prophet, was announced, directed by Neil Druckmann with music by Trent Reznor and Atticus Ross and no release date."
+    },
+    {
+      "ref": "highlights/mafia-the-old-country-gets-summer-2025-release-date-and-new",
+      "entities": {
+        "games": [
+          { "id": "mafia-the-old-country", "name": "Mafia: The Old Country", "aliases": [], "genres": ["action-adventure"], "franchise": "mafia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "trailer"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "year", "currency": null,
+          "entity": "mafia-the-old-country", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Mafia: The Old Country gets Summer 2025 Release Date and new Trailer",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Mafia: The Old Country received a Summer 2025 release date and a new trailer."
+    },
+    {
+      "ref": "highlights/sonic-racing-crossworlds-has-been-announced",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Game Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sonic Racing CrossWorlds was announced for PS4/5, Xbox One / Series S/X, Switch, Steam and the Epic Game Store, with no release date."
+    },
+    {
+      "ref": "highlights/overcooked-studio-s-next-game-is-stage-fright-published-by-h",
+      "entities": {
+        "games": [
+          { "id": "stage-fright", "name": "Stage Fright", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "overcooked", "name": "Overcooked", "aliases": [], "genres": ["simulation", "party"], "franchise": "overcooked", "inferred": true },
+          { "id": "warframe", "name": "Warframe", "aliases": [], "genres": ["action-rpg", "tps"], "franchise": "warframe", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ghost-town-games", "name": "Ghost Town Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "hello-games", "name": "Hello Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion", "release"],
+      "facts": [],
+      "summary": "The Overcooked studio's next game is Stage Fright, published by Hello Games, alongside the Warframe 1999 expansion releasing today."
+    },
+    {
+      "ref": "highlights/a-new-third-person-turok-game-turok-origins-is-in-developmen",
+      "entities": {
+        "games": [
+          { "id": "turok-origins", "name": "Turok Origins", "aliases": [], "genres": ["tps", "action-adventure"], "franchise": "turok", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A new third-person Turok game, Turok Origins, is in development and planned for release on PS5, Steam and Xbox Series S/X."
+    },
+    {
+      "ref": "highlights/new-virtua-fighter-game-announced",
+      "entities": {
+        "games": [
+          { "id": "virtua-fighter", "name": "Virtua Fighter", "aliases": [], "genres": ["fighting"], "franchise": "virtua-fighter", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ryu-ga-gotoku-studio", "name": "Ryu Ga Gotoku Studio", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A new Virtua Fighter game, developed by Ryu Ga Gotoku Studio, was announced."
+    },
+    {
+      "ref": "highlights/ryo-ga-gotoku-reveals-its-latest-game-project-century",
+      "entities": {
+        "games": [
+          { "id": "project-century", "name": "Project Century", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ryu-ga-gotoku-studio", "name": "Ryu Ga Gotoku Studio", "aliases": ["Ryo Ga Gotoku"], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Ryu Ga Gotoku Studio revealed its latest game, Project Century."
+    },
+    {
+      "ref": "highlights/gearbox-has-shown-off-the-first-borderlands-4-gameplay-trail",
+      "entities": {
+        "games": [
+          { "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }
+        ],
+        "studios": [
+          { "id": "gearbox", "name": "Gearbox", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Game Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["gameplay", "trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "year", "currency": null,
+          "entity": "borderlands-4", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases in 2025",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Gearbox showed off the first Borderlands 4 gameplay trailer, with the game releasing in 2025 on PS5, Xbox Series S/X, Steam and the Epic Game Store."
+    },
+    {
+      "ref": "highlights/wargaming-announces-steel-hunters-a-free-to-play-mech-hero-s",
+      "entities": {
+        "games": [
+          { "id": "steel-hunters", "name": "Steel Hunters", "aliases": [], "genres": ["hero-shooter", "shooter"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "wargaming", "name": "Wargaming", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Wargaming announced Steel Hunters, a free-to-play mech hero shooter."
+    },
+    {
+      "ref": "highlights/first-the-outer-worlds-2-gameplay-debuted",
+      "entities": {
+        "games": [
+          { "id": "the-outer-worlds-2", "name": "The Outer Worlds 2", "aliases": [], "genres": ["action-rpg", "fps"], "franchise": "the-outer-worlds", "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["gameplay", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "year", "currency": null,
+          "entity": "the-outer-worlds-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Due 2025 on Xbox Series, PC, and PlayStation 5",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "The first The Outer Worlds 2 gameplay debuted, with the game due in 2025 on Xbox Series, PC and PlayStation 5."
+    },
+    {
+      "ref": "highlights/it-takes-two-studio-hazelight-s-latest-co-op-game-split-fict",
+      "entities": {
+        "games": [
+          { "id": "split-fiction", "name": "Split Fiction", "aliases": [], "genres": ["action-adventure", "party"], "franchise": null, "inferred": true },
+          { "id": "it-takes-two", "name": "It Takes Two", "aliases": [], "genres": ["action-adventure", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hazelight-studios", "name": "Hazelight", "aliases": ["Hazelight Studios"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-03-06", "unit": "date", "currency": null,
+          "entity": "split-fiction", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases March 6",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "It Takes Two studio Hazelight officially revealed its latest co-op game, Split Fiction, releasing March 6."
+    },
+    {
+      "ref": "highlights/final-fantasy-7-rebirth-is-releasing-on-pc-january-23rd",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-rebirth", "name": "Final Fantasy 7 Rebirth", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-23", "unit": "date", "currency": null,
+          "entity": "final-fantasy-7-rebirth", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Final Fantasy 7 Rebirth is releasing on PC January 23rd",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Final Fantasy 7 Rebirth is releasing on PC on January 23rd."
+    },
+    {
+      "ref": "highlights/the-witcher-4-unveiled-at-the-game-awards",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-4", "name": "The Witcher 4", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ciri", "name": "Ciri", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "showcase", "trailer"],
+      "facts": [],
+      "summary": "The Witcher 4, focused on Ciri, was unveiled at The Game Awards with footage rendered using an unannounced RTX GPU."
+    },
+    {
+      "ref": "highlights/the-last-of-us-part-2-remastered-is-coming-to-pc-april-3rd",
+      "entities": {
+        "games": [
+          { "id": "the-last-of-us-part-2-remastered", "name": "The Last of Us Part 2 Remastered", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true }
+        ],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "the-last-of-us-part-2-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Last of Us Part 2 Remastered is coming to PC April 3rd",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "The Last of Us Part 2 Remastered is coming to PC on April 3rd."
+    },
+    {
+      "ref": "highlights/thick-as-thieves-is-the-next-game-from-deus-ex-and-thief-lea",
+      "entities": {
+        "games": [
+          { "id": "thick-as-thieves", "name": "Thick as Thieves", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "deus-ex", "name": "Deus Ex", "aliases": [], "genres": ["action-rpg", "fps"], "franchise": "deus-ex", "inferred": true },
+          { "id": "thief", "name": "Thief", "aliases": [], "genres": ["stealth"], "franchise": "thief", "inferred": true }
+        ],
+        "studios": [
+          { "id": "otherside-entertainment", "name": "OtherSide", "aliases": ["OtherSide Entertainment"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "warren-spector", "name": "Warren Spector", "aliases": [], "inferred": false },
+          { "id": "greg-lopiccolo", "name": "Greg LoPiccolo", "aliases": [], "inferred": false },
+          { "id": "paul-neurath", "name": "Paul Neurath", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "year", "currency": null,
+          "entity": "thick-as-thieves", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Set for release 2026 for PC, Xbox Series S/X and PS5",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Thick as Thieves is the next game from Deus Ex and Thief leads' studio OtherSide, set for release in 2026 for PC, Xbox Series S/X and PS5."
+    },
+    {
+      "ref": "highlights/pac-man-set-to-star-in-metroidvania-shadow-labyrinth-based-o",
+      "entities": {
+        "games": [
+          { "id": "shadow-labyrinth", "name": "Shadow Labyrinth", "aliases": [], "genres": ["metroidvania"], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "pac-man", "name": "Pac-Man", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "year", "currency": null,
+          "entity": "shadow-labyrinth", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Set for release in 2025 for Nintendo Switch, PS5, Xbox Series S/X, and Steam",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Pac-Man will star in the Metroidvania Shadow Labyrinth, based on the Pac-Man Secret Level episode, set for release in 2025 for Nintendo Switch, PS5, Xbox Series S/X and Steam."
+    },
+    {
+      "ref": "highlights/infinity-nikki-surpasses-20-million-downloads",
+      "entities": {
+        "games": [
+          { "id": "infinity-nikki", "name": "Infinity Nikki", "aliases": [], "genres": ["open-world", "adventure"], "franchise": "nikki", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 20000000, "unit": "downloads", "currency": null,
+          "entity": "infinity-nikki", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Infinity Nikki surpasses 20 million downloads",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Infinity Nikki surpassed 20 million downloads."
+    },
+    {
+      "ref": "highlights/dave-the-diver-in-the-jungle-announced",
+      "entities": {
+        "games": [
+          { "id": "dave-the-diver-in-the-jungle", "name": "Dave the Diver: In the Jungle", "aliases": [], "genres": ["adventure", "simulation"], "franchise": "dave-the-diver", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Dave the Diver: In the Jungle was announced."
+    },
+    {
+      "ref": "highlights/sifu-developer-s-sloclap-next-game-is-a-football-game-called",
+      "entities": {
+        "games": [
+          { "id": "rematch", "name": "Rematch", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": false },
+          { "id": "sifu", "name": "Sifu", "aliases": [], "genres": ["fighting", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sloclap", "name": "Sloclap", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "year", "currency": null,
+          "entity": "rematch", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Release date set for summer 2025 for Steam, PS5 and Xbox Series S/X",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Sifu developer Sloclap's next game is a 5v5 online multiplayer football game called Rematch, set for a summer 2025 release on Steam, PS5 and Xbox Series S/X."
+    },
+    {
+      "ref": "game-awards/game-of-the-year-astro-bot",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true },
+          { "id": "metaphor-refantazio", "name": "Metaphor: ReFantazio", "aliases": ["Metaphor: ReFantanzio"], "genres": ["jrpg"], "franchise": null, "inferred": true },
+          { "id": "final-fantasy-vii-rebirth", "name": "Final Fantasy VII Rebirth", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "senuas-saga-hellblade-2", "name": "Senua's Saga: Hellblade 2", "aliases": [], "genres": ["action-adventure"], "franchise": "hellblade", "inferred": true },
+          { "id": "prince-of-persia-the-lost-crown", "name": "Prince of Persia: The Lost Crown", "aliases": [], "genres": ["metroidvania"], "franchise": "prince-of-persia", "inferred": true },
+          { "id": "neva", "name": "Neva", "aliases": [], "genres": ["adventure", "platformer"], "franchise": null, "inferred": true },
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "batman-arkham-shadow", "name": "Batman: Arkham Shadow", "aliases": ["Batman: Arhkam Shadow"], "genres": ["action-adventure"], "franchise": "batman-arkham", "inferred": true },
+          { "id": "black-myth-wukong", "name": "Black Myth: Wukong", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true },
+          { "id": "frostpunk-2", "name": "Frostpunk 2", "aliases": [], "genres": ["strategy", "simulation"], "franchise": "frostpunk", "inferred": true },
+          { "id": "ea-sports-fc-25", "name": "EA Sports FC 25", "aliases": [], "genres": ["sports"], "franchise": "ea-sports-fc", "inferred": true },
+          { "id": "grand-theft-auto-vi", "name": "Grand Theft Auto VI", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": [], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "melina-juergens", "name": "Melina Juergens", "aliases": [], "inferred": false },
+          { "id": "caseoh", "name": "CaseOh", "aliases": [], "inferred": false },
+          { "id": "faker", "name": "Faker", "aliases": [], "inferred": false },
+          { "id": "t1", "name": "T1", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Astro Bot won Game of the Year at The Game Awards, which also handed out awards across categories including Best Narrative, Best RPG and Most Anticipated Game."
+    },
+    {
+      "ref": "other_news/99-jobs-cut-at-warner-bros-games-montreal",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "warner-bros-games-montreal", "name": "Warner Bros Games Montreal", "aliases": [], "publisher": "warner-bros-games", "inferred": true },
+          { "id": "keywords-studios", "name": "Keywords", "aliases": ["Keywords Studios"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros Games", "aliases": ["Warner Bros"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 99, "unit": "jobs", "currency": null,
+          "entity": "warner-bros-games-montreal", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "99 jobs cut at Warner Bros Games Montreal",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/99-jobs-cut-at-warner-bros-montreal" } }
+      ],
+      "summary": "99 jobs were cut at Warner Bros Games Montreal, with affected staff given 8 weeks' notice."
+    },
+    {
+      "ref": "other_news/ex-bungie-dev-chris-barrett-sues-bungie-and-sony-for-falsely",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "chris-barrett", "name": "Chris Barrett", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        { "metric": "wages", "value": 45000000, "unit": "money", "currency": "USD",
+          "entity": "chris-barrett", "entity_type": "person", "scope": "event",
+          "as_of": "2024-12-13", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Lawsuit asserts Barrett was terminated to avoid $45m payment",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ex-bungie-dev-chris-barrett-sues-bungie-and-sony-for-falsely-destroying-his-reputation" } }
+      ],
+      "summary": "Ex-Bungie developer Chris Barrett is suing Bungie and Sony for falsely destroying his reputation, with the lawsuit asserting he was terminated to avoid a $45m payment."
+    },
+    {
+      "ref": "other_news/pok-mon-trading-card-game-pocket-surpasses-60m-downloads",
+      "entities": {
+        "games": [
+          { "id": "pokemon-trading-card-game-pocket", "name": "Pokémon Trading Card Game Pocket", "aliases": [], "genres": ["card"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 60000000, "unit": "downloads", "currency": null,
+          "entity": "pokemon-trading-card-game-pocket", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Pokémon Trading Card Game Pocket surpasses 60m downloads",
+          "source": { "name": "pokemon.gamespress.com", "domain": "pokemon.gamespress.com", "url": "https://pokemon.gamespress.com/Pokemon-Trading-Card-Game-Pocket-Celebrates-60-Million-Downloads-Since" } }
+      ],
+      "summary": "Pokémon Trading Card Game Pocket surpassed 60 million downloads."
+    },
+    {
+      "ref": "other_news/epic-games-announces-deal-with-telef-nica",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Epic Games announced a deal with Telefónica to pre-install the Epic Games Store on Telefónica Android devices in the UK, Spain, Germany and Spanish-speaking Latin America."
+    },
+    {
+      "ref": "other_news/free-balatro-dlc-friends-of-jimbo-3-is-out-now",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "shovel-knight", "name": "Shovel Knight", "aliases": [], "genres": ["platformer"], "franchise": "shovel-knight", "inferred": true },
+          { "id": "divinity-original-sin-2", "name": "Divinity: Original Sin 2", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "divinity", "inferred": true },
+          { "id": "warframe", "name": "Warframe", "aliases": [], "genres": ["action-rpg", "tps"], "franchise": "warframe", "inferred": true },
+          { "id": "dont-starve", "name": "Don't Starve", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "1000xresist", "name": "1000xResist", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "enter-the-gungeon", "name": "Enter The Gungeon", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": null, "inferred": true },
+          { "id": "cult-of-the-lamb", "name": "Cult of the Lamb", "aliases": [], "genres": ["action-adventure", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "potion-craft-alchemist-simulator", "name": "Potion Craft: Alchemist Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game", "release"],
+      "facts": [],
+      "summary": "The free Balatro DLC Friends of Jimbo 3 is out now, adding face cards from games including Shovel Knight, Divinity: Original Sin 2, Warframe, Don't Starve, 1000xResist, Enter The Gungeon, Cult of the Lamb and Potion Craft: Alchemist Simulator."
+    }
+  ]
+}

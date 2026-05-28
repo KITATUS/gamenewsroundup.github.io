@@ -1,0 +1,125 @@
+{
+  "date": "2025-12-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/playstation-store-has-accidentally-revealed-that-a-resident",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": ["Requiem"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-store", "name": "PlayStation Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "The PlayStation Store has accidentally revealed that a Resident Evil veteran character will appear in Resident Evil Requiem."
+    },
+    {
+      "ref": "main_news/netflix-says-warner-bros-games-arm-is-relatively-minor-in-th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false },
+          { "id": "warner-bros-games", "name": "Warner Bros' games arm", "aliases": ["Warner Bros"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Netflix described Warner Bros' games arm as \"relatively minor in the grand scheme of things\"."
+    },
+    {
+      "ref": "main_news/call-of-duty-team-we-will-no-longer-do-back-to-back-releases",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-modern-warfare", "name": "Modern Warfare", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-black-ops", "name": "Black Ops", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Call of Duty team announced it will no longer do back-to-back releases of Modern Warfare or Black Ops games."
+    },
+    {
+      "ref": "business/saudi-arabia-to-host-kingdom-of-gaming-conference-in-2026-or",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Saudi Arabia will host the Kingdom of Gaming conference in 2026, with organisers hoping for 20,000 attendees, 500 studios and 200 investors."
+    },
+    {
+      "ref": "business/embracer-shares-drop-30-ahead-of-coffee-stain-spin-off-the-c",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "coffee-stain", "name": "Coffee Stain", "aliases": [], "publisher": "embracer-group", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-12-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "coffee-stain",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-12-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The company is set to go public as its own entity on December 11",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-shares-drop-30-ahead-of-coffee-stain-spin-off" }
+        }
+      ],
+      "summary": "Embracer shares dropped 30% ahead of the Coffee Stain spin-off, which is set to go public as its own entity on December 11."
+    },
+    {
+      "ref": "rumours/assassin-s-creed-black-flag-resynced-has-been-listed-on-pegi",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-black-flag-resynced", "name": "Assassin's Creed Black Flag Resynced", "aliases": ["Assassin's Creed Black Flag"], "genres": ["action-adventure", "open-world"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour", "remaster-remake"],
+      "facts": [],
+      "summary": "Assassin's Creed Black Flag Resynced has reportedly been listed on PEGI's website."
+    }
+  ]
+}

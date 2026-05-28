@@ -1,0 +1,108 @@
+{
+  "date": "2024-05-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "business/playstation-london-studio-has-officially-closed-its-doors",
+      "entities": {
+        "games": [
+          { "id": "the-getaway", "name": "The Getaway", "aliases": ["The Getaway series"], "genres": ["action-adventure"], "franchise": "the-getaway", "inferred": true },
+          { "id": "singstar", "name": "SingStar", "aliases": ["Singstar"], "genres": ["rhythm", "party"], "franchise": "singstar", "inferred": true },
+          { "id": "the-playroom-vr", "name": "PlayStation VR Worlds", "aliases": ["VR Worlds"], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "blood-and-truth", "name": "Blood & Truth", "aliases": [], "genres": ["shooter", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "playstation-london-studio", "name": "PlayStation London Studio", "aliases": ["London Studio"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-vr", "name": "PlayStation VR", "aliases": ["PlayStation VR"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Sony's first-party PlayStation London Studio has officially closed its doors."
+    },
+    {
+      "ref": "business/ign-entertainment-acquires-eurogamer-gi-vg247-rock-paper-sho",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ign-entertainment", "name": "IGN Entertainment", "aliases": ["IGN"], "inferred": false },
+          { "id": "gamer-network", "name": "Gamer Network", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "layoffs"],
+      "facts": [],
+      "summary": "IGN Entertainment has acquired Gamer Network, owner of Eurogamer, GamesIndustry.biz, VG247, Rock Paper Shotgun and more."
+    },
+    {
+      "ref": "business/amazon-games-is-opening-its-first-european-studio-helmed-by",
+      "entities": {
+        "games": [
+          { "id": "far-cry", "name": "Far Cry", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "the-division", "name": "The Division", "aliases": [], "genres": ["action-rpg", "tps"], "franchise": "tom-clancys-the-division", "inferred": true },
+          { "id": "avatar-frontiers-of-pandora", "name": "Avatar: Frontiers of Pandora", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "avatar", "inferred": true }
+        ],
+        "studios": [
+          { "id": "amazon-games-bucharest", "name": "Amazon Games Bucharest", "aliases": [], "publisher": "amazon-games", "inferred": true },
+          { "id": "ubisoft-bucharest", "name": "Ubisoft Bucharest", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": [], "inferred": false },
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "cristian-pana", "name": "Cristian Pana", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "leadership-change"],
+      "facts": [],
+      "summary": "Amazon Games is opening its first European studio, Amazon Games Bucharest, led by Ubisoft veteran Cristian Pana."
+    },
+    {
+      "ref": "business/little-kitty-big-city-reaches-1m-players-on-game-pass",
+      "entities": {
+        "games": [
+          { "id": "little-kitty-big-city", "name": "Little Kitty, Big City", "aliases": ["Little Kitty Big City"], "genres": ["adventure", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "double-dagger-studio", "name": "Double Dagger Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "game-pass", "name": "Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "little-kitty-big-city", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-22", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Little Kitty Big City reaches 1m players on Game Pass",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/LittleKittyGame/status/1792634871749230934" } },
+        { "metric": "units_sold", "value": 100000, "unit": "units", "currency": null,
+          "entity": "little-kitty-big-city", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-22", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Double Dagger Studio's debut sold 100,000 units in two days following its May 9 launch",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/LittleKittyGame/status/1792634871749230934" } },
+        { "metric": "release_date", "value": "2024-05-09", "unit": "date", "currency": null,
+          "entity": "little-kitty-big-city", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "following its May 9 launch",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/LittleKittyGame/status/1792634871749230934" } }
+      ],
+      "summary": "Little Kitty, Big City has reached 1 million players on Game Pass, having sold 100,000 units in two days after its May 9 launch."
+    }
+  ]
+}

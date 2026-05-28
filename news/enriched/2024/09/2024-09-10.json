@@ -1,0 +1,165 @@
+{
+  "date": "2024-09-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ps5-pro-name-seemingly-confirmed-by-sony-ahead-of-imminent-r",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "publisher": null, "inferred": true }],
+        "platforms": [{ "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }],
+        "people": [{ "id": "mark-cerny", "name": "Mark Cerny", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["hardware", "reveal", "announcement"],
+      "facts": [],
+      "summary": "Sony appears to have confirmed the PS5 Pro name ahead of a technical presentation with Mark Cerny."
+    },
+    {
+      "ref": "main_news/bungie-announces-new-destiny-2-release-model-with-two-medium",
+      "entities": {
+        "games": [{ "id": "destiny-2", "name": "Destiny 2", "aliases": [], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true }],
+        "studios": [{ "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion"],
+      "facts": [],
+      "summary": "Bungie announced a new Destiny 2 release model featuring two medium-sized expansions per year."
+    },
+    {
+      "ref": "main_news/disgruntled-team-fortress-2-players-bind-340-000-signatures",
+      "entities": {
+        "games": [{ "id": "team-fortress-2", "name": "Team Fortress 2", "aliases": ["TF2"], "genres": ["fps", "hero-shooter"], "franchise": "team-fortress", "inferred": true }],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Disgruntled Team Fortress 2 players bound 340,000 #SaveTF2 signatures into a book and hand-delivered it to Valve."
+    },
+    {
+      "ref": "main_news/apple-says-all-its-new-iphone-16s-play-aaa-games-no-iphone-p",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "apple", "name": "Apple", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [{ "id": "iphone-16", "name": "iPhone 16", "aliases": [], "inferred": false }, { "id": "ios", "name": "iOS", "aliases": ["iOS 18"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [],
+      "summary": "Apple says all its new iPhone 16 models can play AAA games without requiring a Pro model, with iOS 18 and a new Game mode arriving next week."
+    },
+    {
+      "ref": "main_news/minecraft-ditching-single-summer-update-for-more-regular-rel",
+      "entities": {
+        "games": [{ "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }],
+        "studios": [{ "id": "mojang", "name": "Mojang", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Minecraft is moving from a single summer update to more regular releases and retiring its mob votes."
+    },
+    {
+      "ref": "business/ubisoft-shares-plunge-again-after-investor-urges-company-to",
+      "entities": {
+        "games": [{ "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true }, { "id": "xdefiant", "name": "xDefiant", "aliases": ["xDefinant"], "genres": ["fps"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "price_change_pct", "value": 10, "unit": "percent", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": "down", "confidence": "medium",
+          "quote": "Share price fell almost 10% during trading",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-shares-plunge-again-after-investor-urges-company-to-go-private/" } },
+        { "metric": "price_change_pct", "value": 7.13, "unit": "percent", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "before closing down 7.13% at €13.67",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-shares-plunge-again-after-investor-urges-company-to-go-private/" } },
+        { "metric": "price", "value": 13.67, "unit": "price", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "closing down 7.13% at €13.67",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-shares-plunge-again-after-investor-urges-company-to-go-private/" } },
+        { "metric": "price_change_pct", "value": 50, "unit": "percent", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-10", "period": "annual", "direction": "down", "confidence": "medium",
+          "quote": "It has fallen by more than 50% over the last 12 months",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-shares-plunge-again-after-investor-urges-company-to-go-private/" } }
+      ],
+      "summary": "Ubisoft shares fell again, closing down 7.13% at EUR 13.67, after an investor urged the company to go private."
+    },
+    {
+      "ref": "business/embracer-studio-lost-boys-interactive-has-made-another-round",
+      "entities": {
+        "games": [{ "id": "tiny-tinas-wonderlands", "name": "Tiny Tina's Wonderlands", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }, { "id": "diablo-4", "name": "Diablo 4", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true }, { "id": "pubg", "name": "PUBG", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }],
+        "studios": [{ "id": "lost-boys-interactive", "name": "Lost Boys Interactive", "aliases": [], "publisher": "embracer-group", "inferred": false }],
+        "publishers": [{ "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "headcount", "value": 200, "unit": "people", "currency": null,
+          "entity": "lost-boys-interactive", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "employs over 200 staff across more than 40 US states and Canada",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/embracer-studio-lost-boys-interactive-has-made-another-round-of-layoffs/" } }
+      ],
+      "summary": "Embracer studio Lost Boys Interactive made another round of layoffs, with the number of people affected unclear."
+    },
+    {
+      "ref": "rumours/ps5-pro-details-expected-at-technical-presentation",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "publisher": null, "inferred": true }],
+        "platforms": [{ "id": "ps5-pro", "name": "PS5 Pro", "aliases": ["PS5 Pro Digital", "PS5 Pro Deluxe"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["hardware", "showcase", "release-date", "rumour"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-09-19", "unit": "date", "currency": null,
+          "entity": "state-of-play", "entity_type": "product", "scope": "event",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Third Party state of play focused on games that benefit from PS5 Pro due September 19th",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "release_date", "value": "2024-11-14", "unit": "date", "currency": null,
+          "entity": "ps5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "PS5 Pro Digital due Nov 14th for £499.99",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "price", "value": 499.99, "unit": "price", "currency": "GBP",
+          "entity": "ps5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "PS5 Pro Digital due Nov 14th for £499.99",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "release_date", "value": "2024-12-05", "unit": "date", "currency": null,
+          "entity": "ps5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "PS5 Pro \"Deluxe\" (Disc variant) due December 5th for £589.99",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "price", "value": 589.99, "unit": "price", "currency": "GBP",
+          "entity": "ps5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "PS5 Pro \"Deluxe\" (Disc variant) due December 5th for £589.99",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Rumour that PS5 Pro details, including a 14 November Digital edition at GBP 499.99 and a 5 December Deluxe disc variant at GBP 589.99, will be shared at a technical presentation."
+    }
+  ]
+}

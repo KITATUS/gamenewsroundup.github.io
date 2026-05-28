@@ -1,0 +1,90 @@
+{
+  "date": "2026-02-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hideo-kojima-no-longer-attending-gdc-festival-of-gaming-2026",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Hideo Kojima is no longer attending the GDC Festival of Gaming 2026, though members of Kojima Productions will still present talks, with no reason given."
+    },
+    {
+      "ref": "main_news/mindseye-co-ceo-mark-gerhard-alleges-1-million-was-spent-in",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "Mindseye", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mark-gerhard", "name": "Mark Gerhard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Mindseye Co-CEO Mark Gerhard alleges that EUR 1 million was spent sabotaging the game and says he will pursue legal action."
+    },
+    {
+      "ref": "business/roblox-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1400000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "roblox-corporation",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-09",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $1.4 billion, up 43% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-significant-growth-for-2025-hitting-49bn-in-revenue" }
+        },
+        {
+          "metric": "revenue",
+          "value": 4900000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "roblox-corporation",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-09",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $4.9 billion, up 36% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-significant-growth-for-2025-hitting-49bn-in-revenue" }
+        }
+      ],
+      "summary": "Roblox reported Q4 revenue of $1.4 billion (up 43% year-on-year) and full-year revenue of $4.9 billion (up 36% year-on-year), alongside widened net losses."
+    }
+  ]
+}

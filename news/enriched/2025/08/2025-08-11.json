@@ -1,0 +1,88 @@
+{
+  "date": "2025-08-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/tencent-quietly-updates-slavish-horizon-clone-light-of-motir",
+      "entities": {
+        "games": [
+          { "id": "light-of-motiram", "name": "Light of Motiram", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "horizon", "name": "Horizon", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false },
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Tencent quietly updated the Steam page of its Horizon-like game Light of Motiram, altering or removing key art days after Sony filed a copyright lawsuit."
+    },
+    {
+      "ref": "business/diablo-series-head-rod-fergusson-leaves-blizzard-after-five",
+      "entities": {
+        "games": [
+          { "id": "diablo", "name": "Diablo", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "rod-fergusson", "name": "Rod Fergusson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Diablo series head Rod Fergusson is leaving Blizzard after five years."
+    },
+    {
+      "ref": "business/bithell-games-is-making-the-majority-of-its-full-time-staff",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bithell-games", "name": "Bithell Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 11, "unit": "people", "currency": null,
+          "entity": "bithell-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-08-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "11 staff have been impacted",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/bithell-games-is-making-the-majority-of-its-full-time-staff-redundant/" } }
+      ],
+      "summary": "Bithell Games is making the majority of its full-time staff redundant, with 11 staff impacted."
+    },
+    {
+      "ref": "rumours/a-far-cry-tv-show-that-doesn-t-shy-away-from-the-darkest-mos",
+      "entities": {
+        "games": [
+          { "id": "far-cry", "name": "Far Cry", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "fx", "name": "FX", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A Far Cry TV show is reportedly in development at FX, after Ubisoft seemingly posted about the project prematurely on its website."
+    }
+  ]
+}

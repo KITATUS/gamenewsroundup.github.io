@@ -1,0 +1,294 @@
+{
+  "date": "2025-06-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/arc-system-works-is-making-a-marvel-fighting-game-marvel-tok",
+      "entities": {
+        "games": [{ "id": "marvel-tokon-fighting-souls", "name": "Marvel Tokon Fighting Souls", "aliases": [], "genres": ["fighting"], "franchise": "marvel", "inferred": true }],
+        "studios": [{ "id": "arc-system-works", "name": "Arc System Works", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "marvel", "name": "Marvel", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "marvel-tokon-fighting-souls", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Coming 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/arc-system-works-is-making-a-marvel-fighting-game/" } }
+      ],
+      "summary": "Arc System Works is making a Marvel fighting game, Marvel Tokon Fighting Souls, coming in 2026."
+    },
+    {
+      "ref": "main_news/007-first-light-trailer-shows-off-io-s-james-bond-action-gam",
+      "entities": {
+        "games": [{ "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure"], "franchise": "james-bond", "inferred": true }],
+        "studios": [{ "id": "io-interactive", "name": "IO Interactive", "aliases": ["IO"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [],
+      "summary": "A trailer for 007 First Light showed off IO Interactive's James Bond action game for the first time, focusing on a young James Bond."
+    },
+    {
+      "ref": "main_news/astro-bot-is-getting-more-levels-and-the-astro-bot-dualsense",
+      "entities": {
+        "games": [{ "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true }],
+        "studios": [{ "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Astro Bot is getting more levels that bring the game's planet count up to 90, and the Astro Bot DualSense controller is returning."
+    },
+    {
+      "ref": "main_news/nioh-3-announced-for-2026-with-a-demo-available-today",
+      "entities": {
+        "games": [{ "id": "nioh-3", "name": "Nioh 3", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "nioh", "inferred": true }],
+        "studios": [{ "id": "team-ninja", "name": "Team Ninja", "aliases": [], "publisher": "koei-tecmo", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "beta-demo"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "nioh-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Nioh 3 announced for 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nioh-3-announced-for-2026/" } }
+      ],
+      "summary": "Nioh 3 was announced for a 2026 release, with a demo available today."
+    },
+    {
+      "ref": "main_news/mortal-kombat-legacy-kollection-is-coming-later-this-year-in",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-legacy-kollection", "name": "Mortal Kombat: Legacy Kollection", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "mortal-kombat-2", "name": "Mortal Kombat 2", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "mortal-kombat-3", "name": "Mortal Kombat 3", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "mortal-kombat-4", "name": "Mortal Kombat 4", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "mk-advance", "name": "MK Advance", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Mortal Kombat: Legacy Kollection is coming later this year, including Arcade, Console and Handheld versions of Mortal Kombat 1-4 and MK Advance."
+    },
+    {
+      "ref": "main_news/final-fantasy-tactics-remaster-final-fantasy-tactics-the-iva",
+      "entities": {
+        "games": [{ "id": "final-fantasy-tactics-the-ivalice-chronicles", "name": "Final Fantasy Tactics The Ivalice Chronicles", "aliases": ["Final Fantasy Tactics"], "genres": ["turn-based-strategy", "rpg"], "franchise": "final-fantasy", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-30", "unit": "date", "currency": null,
+          "entity": "final-fantasy-tactics-the-ivalice-chronicles", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "announced for September 30th release",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/final-fantasy-tactics-remaster-announced/" } }
+      ],
+      "summary": "A Final Fantasy Tactics remaster, Final Fantasy Tactics The Ivalice Chronicles, was announced for a September 30th release."
+    },
+    {
+      "ref": "main_news/new-pragmata-trailer-announces-it-s-coming-2026",
+      "entities": {
+        "games": [{ "id": "pragmata", "name": "Pragmata", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "pragmata", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "New Pragmata trailer announces it’s coming 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-pragmata-trailer-announces-its-coming-next-year/" } }
+      ],
+      "summary": "A new Pragmata trailer announced the game is coming in 2026."
+    },
+    {
+      "ref": "main_news/lumines-arise-announced-with-fall-2025-release-date",
+      "entities": {
+        "games": [{ "id": "lumines-arise", "name": "Lumines Arise", "aliases": [], "genres": ["puzzle", "rhythm"], "franchise": "lumines", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Lumines Arise was announced with a \"Fall 2025\" release date."
+    },
+    {
+      "ref": "main_news/fortnite-switch-2-improvements-detailed-including-mouse-supp",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["update-patch", "port"],
+      "facts": [],
+      "summary": "Fortnite Switch 2 improvements were detailed, including mouse support and enhanced visuals."
+    },
+    {
+      "ref": "main_news/there-will-be-no-ubisoft-forward-this-year-for-the-first-tim",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "There will be no Ubisoft Forward showcase this year, for the first time since it started."
+    },
+    {
+      "ref": "main_news/street-fighter-6-s-latest-major-update-includes-four-playabl",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "bionic-commando", "name": "Bionic Commando", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "street-fighter-2010-the-final-fight", "name": "Street Fighter 2010: The Final Fight", "aliases": [], "genres": ["action-adventure"], "franchise": "street-fighter", "inferred": true },
+          { "id": "mighty-final-fight", "name": "Mighty Final Fight", "aliases": [], "genres": ["fighting"], "franchise": "final-fight", "inferred": true },
+          { "id": "mega-man-3", "name": "Mega Man 3", "aliases": [], "genres": ["platformer"], "franchise": "mega-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Street Fighter 6's latest major update includes four playable NES games in the Gallery Section: Bionic Commando, Street Fighter 2010: The Final Fight, Mighty Final Fight and Mega Man 3."
+    },
+    {
+      "ref": "main_news/a-phasmophobia-film-is-in-the-works-at-blumhouse",
+      "entities": {
+        "games": [{ "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "blumhouse", "name": "Blumhouse", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Phasmophobia film is in the works at Blumhouse."
+    },
+    {
+      "ref": "main_news/suda-51-s-next-game-is-the-ultra-violent-romeo-is-a-dead-man",
+      "entities": {
+        "games": [{ "id": "romeo-is-a-dead-man", "name": "Romeo is a Dead Man", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "grasshopper-manufacture", "name": "Grasshopper Manufacture", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "suda-51", "name": "Suda 51", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Suda 51's next game is the ultra-violent Romeo is a Dead Man."
+    },
+    {
+      "ref": "main_news/silent-hill-f-will-be-more-action-oriented-than-silent-hill",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "silent-hill", "inferred": true },
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": ["Silent Hill 2 remake"], "genres": ["survival-horror", "horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-25", "unit": "date", "currency": null,
+          "entity": "silent-hill-f", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "coming September 25th",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=Lpf9LoIWylA" } }
+      ],
+      "summary": "Silent Hill f will be \"more action-oriented\" than the Silent Hill 2 remake and is coming September 25th."
+    },
+    {
+      "ref": "free_games_subscription/more-ps-plus-classic-games-announced",
+      "entities": {
+        "games": [
+          { "id": "myst", "name": "Myst", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": "myst", "inferred": true },
+          { "id": "riven", "name": "Riven", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": "myst", "inferred": true },
+          { "id": "deus-ex", "name": "Deus Ex", "aliases": [], "genres": ["action-rpg", "fps"], "franchise": "deus-ex", "inferred": true },
+          { "id": "twisted-metal-3", "name": "Twisted Metal 3", "aliases": [], "genres": ["racing"], "franchise": "twisted-metal", "inferred": true },
+          { "id": "twisted-metal-4", "name": "Twisted Metal 4", "aliases": [], "genres": ["racing"], "franchise": "twisted-metal", "inferred": true },
+          { "id": "resident-evil-2", "name": "Resident Evil 2", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-3", "name": "Resident Evil 3", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PS Plus"], "inferred": true }],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "deus-ex", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Deus Ex – June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/more-ps-plus-classic-games-announced-including-fan-favorite-resident-evils/" } },
+        { "metric": "release_date", "value": "2025-07-15", "unit": "date", "currency": null,
+          "entity": "twisted-metal-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Twisted Metal 3 & 4 – July 15",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/more-ps-plus-classic-games-announced-including-fan-favorite-resident-evils/" } }
+      ],
+      "summary": "More PS Plus classic games were announced, including Myst, Riven, Deus Ex, Twisted Metal 3 & 4 and Resident Evil 2 & 3."
+    },
+    {
+      "ref": "business/jagex-sheds-unspecified-number-of-non-game-dev-and-non-playe",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "shutdown"],
+      "facts": [],
+      "summary": "Jagex shed an unspecified number of \"non-game dev and non-player-facing\" roles as it shut down Project Zanaris."
+    },
+    {
+      "ref": "business/kingdom-come-deliverance-2-developer-warhorse-studios-is-ope",
+      "entities": {
+        "games": [{ "id": "kingdom-come-deliverance-2", "name": "Kingdom Come: Deliverance 2", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "kingdom-come-deliverance", "inferred": true }],
+        "studios": [{ "id": "warhorse-studios", "name": "Warhorse Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Kingdom Come: Deliverance 2 developer Warhorse Studios is opening a new office in Brno."
+    }
+  ]
+}

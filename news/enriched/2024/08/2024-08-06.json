@@ -1,0 +1,95 @@
+{
+  "date": "2024-08-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/final-fantasy-7-remake-trilogy-finale-will-receive-revamped",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7", "name": "Final Fantasy 7", "aliases": ["Final Fantasy VII"], "genres": ["jrpg", "action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "queens-blood", "name": "Queen's Blood", "aliases": [], "genres": ["card"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The finale of the Final Fantasy 7 remake trilogy will feature a revamped version of the Queen's Blood card game."
+    },
+    {
+      "ref": "main_news/the-first-footage-from-hbo-s-the-last-of-us-season-2-has-bee",
+      "entities": {
+        "games": [
+          { "id": "the-last-of-us", "name": "The Last of Us", "aliases": ["The Last of Us season 2"], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "catherine-ohara", "name": "Catherine O'Hara", "aliases": ["Cathrine O'Hara"], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "the-last-of-us", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Season two of The Last of Us will be released in 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-first-footage-from-hbos-the-last-of-us-season-2-has-been-shown/" } }
+      ],
+      "summary": "The first footage from HBO's The Last of Us season 2 has been shown, revealing Catherine O'Hara's new character, with the season due in 2025."
+    },
+    {
+      "ref": "main_news/shooter-moba-hybrid-predecessor-launches-august-20th",
+      "entities": {
+        "games": [
+          { "id": "predecessor", "name": "Predecessor", "aliases": [], "genres": ["moba", "shooter"], "franchise": null, "inferred": false },
+          { "id": "paragon", "name": "Paragon", "aliases": [], "genres": ["moba"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-20", "unit": "date", "currency": null,
+          "entity": "predecessor", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Predecessor launches August 20th",
+          "source": { "name": "TheSixthAxis", "domain": "thesixthaxis.com", "url": "https://www.thesixthaxis.com/2024/08/03/shooter-moba-hybrid-predecessor-launches-august-20th/" } }
+      ],
+      "summary": "Shooter-MOBA hybrid Predecessor, a spiritual successor to Paragon, launches on 20 August 2024, moving from open beta to full release."
+    },
+    {
+      "ref": "business/jam-city-is-laying-off-10-of-its-employees",
+      "entities": {
+        "games": [
+          { "id": "harry-potter-hogwarts-mystery", "name": "Harry Potter: Hogwarts Mystery", "aliases": [], "genres": ["rpg", "simulation"], "franchise": "harry-potter", "inferred": true },
+          { "id": "dc-heroes-and-villains", "name": "DC Heroes and Villains", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "disney-frozen-adventures", "name": "Disney Frozen Adventures", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "jurassic-world-alive", "name": "Jurassic World Alive", "aliases": [], "genres": ["simulation"], "franchise": "jurassic-park", "inferred": true },
+          { "id": "cookie-jam", "name": "Cookie Jam", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "panda-pop", "name": "Panda Pop", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "jam-city", "name": "Jam City", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 85, "unit": "people", "currency": null,
+          "entity": "jam-city", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "85 members of staff impacted by cuts at the mobile game studio",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/jam-city-is-laying-off-10-of-its-employees/" } }
+      ],
+      "summary": "Mobile game studio Jam City is laying off 10% of its employees, impacting 85 members of staff."
+    }
+  ]
+}

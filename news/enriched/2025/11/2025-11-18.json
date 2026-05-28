@@ -1,0 +1,146 @@
+{
+  "date": "2025-11-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/rebecca-heineman-creator-of-bard-s-tale-3-dragon-wars-and-th",
+      "entities": {
+        "games": [
+          { "id": "the-bards-tale-3", "name": "Bard's Tale 3", "aliases": ["Bard’s Tale 3"], "genres": ["rpg"], "franchise": "the-bards-tale", "inferred": true },
+          { "id": "dragon-wars", "name": "Dragon Wars", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "doom", "name": "Doom", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "3do", "name": "3DO", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "rebecca-heineman", "name": "Rebecca Heineman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Rebecca Heineman, creator of Bard's Tale 3 and Dragon Wars and the person who ported Doom to the 3DO, has died."
+    },
+    {
+      "ref": "main_news/the-game-awards-2025-nominees-announced-game-of-the-year-is",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": null, "inferred": true },
+          { "id": "death-stranding-2", "name": "Death Stranding 2", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true },
+          { "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "hades-ii", "name": "Hades II", "aliases": ["Hades 2"], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true },
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania"], "franchise": "hollow-knight", "inferred": true },
+          { "id": "kingdom-come-deliverance-ii", "name": "Kingdom Come: Deliverance II", "aliases": ["Kingdom Come: Deliverance 2"], "genres": ["action-rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Game Awards 2025 nominees were announced, with Game of the Year contenders being Clair Obscur: Expedition 33, Death Stranding 2, Donkey Kong Bananza, Hades II, Hollow Knight: Silksong or Kingdom Come: Deliverance II."
+    },
+    {
+      "ref": "main_news/xbox-has-announced-a-partner-preview-showcase-for-later-this",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-11-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "xbox-partner-preview",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-11-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Thursday, November 20 at 10am PT / 1pm ET / 6m GMT",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-a-partner-preview-showcase-for-later-this-week/" }
+        }
+      ],
+      "summary": "Xbox announced a Partner Preview showcase for Thursday, 20 November 2025."
+    },
+    {
+      "ref": "main_news/helldivers-studio-ceo-says-people-jump-to-extreme-takes-when",
+      "entities": {
+        "games": [
+          { "id": "helldivers", "name": "Helldivers", "aliases": [], "genres": ["shooter", "tps"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The CEO of the Helldivers studio said people 'jump to extreme takes' when debating AI."
+    },
+    {
+      "ref": "main_news/the-first-official-photos-from-the-legend-of-zelda-live-acti",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda", "name": "The Legend of Zelda", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The first official photos from The Legend of Zelda live-action movie were published."
+    },
+    {
+      "ref": "business/paradox-interactive-parts-ways-with-cities-skylines-studio-a",
+      "entities": {
+        "games": [
+          { "id": "cities-skylines", "name": "Cities: Skylines", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "cities-skylines", "inferred": true }
+        ],
+        "studios": [
+          { "id": "colossal-order", "name": "Colossal Order", "aliases": [], "publisher": "paradox-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Paradox Interactive parted ways with Cities: Skylines studio after over 15 years."
+    },
+    {
+      "ref": "business/improbable-founder-herman-narula-who-threatened-to-leave-the",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "herman-narula", "name": "Herman Narula", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Improbable founder Herman Narula has seen cumulative losses of almost £425 million at his SoftBank-backed company."
+    }
+  ]
+}

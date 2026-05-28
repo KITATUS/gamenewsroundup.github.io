@@ -1,0 +1,120 @@
+{
+  "date": "2024-09-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/italian-police-smash-counterfeit-retro-games-ring-worth-42m",
+      "entities": {
+        "games": [
+          { "id": "mario-bros", "name": "Mario Bros.", "aliases": [], "genres": ["platformer"], "franchise": "mario", "inferred": true },
+          { "id": "street-fighter", "name": "Street Fighter", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "star-wars", "name": "Star Wars", "aliases": [], "genres": [], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false },
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Italian police broke up a counterfeit retro games ring valued at £42m, seizing thousands of fake Nintendo, Sega, and Atari consoles loaded with pirated games."
+    },
+    {
+      "ref": "main_news/first-details-on-ea-s-new-battlefield-revealed-including-a-m",
+      "entities": {
+        "games": [
+          { "id": "battlefield", "name": "Battlefield", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "battlefield-2042", "name": "Battlefield 2042", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": ["Respawn"], "publisher": "electronic-arts", "inferred": true },
+          { "id": "infinity-ward", "name": "Infinity Ward", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "vince-zampella", "name": "Vince Zampella", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "EA revealed first details on its new Battlefield game, confirming a modern setting and a move away from Battlefield 2042's 128-player matches and specialists."
+    },
+    {
+      "ref": "main_news/nintendo-announces-end-of-regular-updates-for-splatoon-3",
+      "entities": {
+        "games": [
+          { "id": "splatoon-3", "name": "Splatoon 3", "aliases": [], "genres": ["tps", "shooter"], "franchise": "splatoon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Nintendo announced the end of regular updates for Splatoon 3, with the game now only receiving themed events going forward."
+    },
+    {
+      "ref": "business/ibm-wins-44-9m-in-infringement-lawsuit-against-zynga",
+      "entities": {
+        "games": [
+          { "id": "farmville", "name": "Farmville", "aliases": [], "genres": ["simulation"], "franchise": "farmville", "inferred": true }
+        ],
+        "studios": [
+          { "id": "zynga", "name": "Zynga", "aliases": [], "publisher": "take-two-interactive", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A Delaware jury found that Zynga's Farmville and several spin-offs infringed IBM's web-based communications patents, awarding IBM $44.9m, a verdict Take-Two says it will appeal."
+    },
+    {
+      "ref": "business/vr-studio-ndreams-is-set-to-lay-off-up-to-17-5-of-its-staff",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ndreams", "name": "nDreams", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "VR studio nDreams said it is set to lay off up to 17.5% of its staff."
+    },
+    {
+      "ref": "rumours/sony-has-contracted-amd-for-playstation-6-report-claims",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation-6", "name": "PlayStation 6", "aliases": ["PS6"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership", "hardware", "rumour"],
+      "facts": [],
+      "summary": "A report claims Sony has contracted AMD to design and fabricate the PlayStation 6's chip, citing a focus on backwards compatibility."
+    }
+  ]
+}

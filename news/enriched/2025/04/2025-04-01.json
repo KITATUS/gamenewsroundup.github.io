@@ -1,0 +1,137 @@
+{
+  "date": "2025-04-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/official-final-fantasy-9-25th-anniversary-website-ignites-re",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-9", "name": "Final Fantasy 9", "aliases": ["Final Fantasy IX"], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "An official Final Fantasy 9 25th anniversary website has launched, reigniting hopes for a remake."
+    },
+    {
+      "ref": "business/former-ea-exec-adolf-kristjansson-appointed-starbreeze-ceo",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "starbreeze", "name": "Starbreeze", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "adolf-kristjansson", "name": "Adolf Kristjansson", "aliases": [], "inferred": false },
+          { "id": "mats-juhl", "name": "Mats Juhl", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former EA executive Adolf Kristjansson has been appointed CEO of Starbreeze, with interim CEO Mats Juhl returning to his role as CFO."
+    },
+    {
+      "ref": "business/monster-hunter-wilds-smashes-past-10-million-sold-sets-new-r",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 10000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "monster-hunter-wilds",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-04-01",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Monster Hunter Wilds smashes past 10 million sold",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/monster-hunter-wilds-smashes-past-10-million-sold-sets-new-record-for-capcom/" }
+        },
+        {
+          "metric": "chart_rank",
+          "value": 6,
+          "unit": "rank",
+          "currency": null,
+          "entity": "monster-hunter-wilds",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-04-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "It's now the 6th best-selling Capcom game ever",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/monster-hunter-wilds-smashes-past-10-million-sold-sets-new-record-for-capcom/" }
+        }
+      ],
+      "summary": "Monster Hunter Wilds has sold more than 10 million units, setting a new record for Capcom and becoming its 6th best-selling game ever."
+    },
+    {
+      "ref": "business/eidos-montreal-is-laying-off-75-staff-saying-it-doesn-t-have",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "eidos-montreal", "name": "Eidos Montreal", "aliases": [], "publisher": "embracer-group", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 75,
+          "unit": "people",
+          "currency": null,
+          "entity": "eidos-montreal",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-04-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Eidos Montreal is laying off 75 staff",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/eidos-montreal-is-laying-off-75-staff-saying-it-doesnt-have-the-capacity-to-relocate-them/" }
+        }
+      ],
+      "summary": "Eidos Montreal is laying off 75 staff, saying it lacks the capacity to reallocate them after one of its mandates ended."
+    },
+    {
+      "ref": "other_notes/april-fools-can-be-a-very-dangerous-time-for-game-news-as-is",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "An editorial note explaining that the Game News Round-Up vets stories more closely around 1-2 April to filter out April Fools jokes and will flag any that slip through."
+    }
+  ]
+}

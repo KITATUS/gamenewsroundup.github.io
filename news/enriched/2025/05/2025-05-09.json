@@ -1,0 +1,184 @@
+{
+  "date": "2025-05-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/gex-trilogy-gets-release-date-ps5-xbox-series-s-x-switch-and",
+      "entities": {
+        "games": [
+          { "id": "gex-trilogy", "name": "Gex Trilogy", "aliases": [], "genres": ["platformer"], "franchise": "gex", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-06-16", "unit": "date", "currency": null,
+          "entity": "gex-trilogy", "entity_type": "game", "scope": "game",
+          "as_of": "2025-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PS5, Xbox Series S/X, Switch and PC on June 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gex-trilogy-gets-release-date-as-well-as-a-200-collectors-edition-with-a-3-foot-inflatable-doll/" } },
+        { "metric": "price", "value": 200, "unit": "price", "currency": "USD",
+          "entity": "gex-trilogy", "entity_type": "game", "scope": "product",
+          "as_of": "2025-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "a $200 collector’s edition with a 3-foot inflatable doll",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gex-trilogy-gets-release-date-as-well-as-a-200-collectors-edition-with-a-3-foot-inflatable-doll/" } }
+      ],
+      "summary": "Gex Trilogy will release on PS5, Xbox Series S/X, Switch and PC on June 16, alongside a $200 collector's edition that includes a 3-foot inflatable doll."
+    },
+    {
+      "ref": "main_news/mafia-the-old-country-release-date-august-8-and-50-price-poi",
+      "entities": {
+        "games": [
+          { "id": "mafia-the-old-country", "name": "Mafia: The Old Country", "aliases": [], "genres": ["action-adventure"], "franchise": "mafia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-08", "unit": "date", "currency": null,
+          "entity": "mafia-the-old-country", "entity_type": "game", "scope": "game",
+          "as_of": "2025-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "release date (August 8)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mafia-the-old-country-release-date-and-50-price-point-confirmed/" } },
+        { "metric": "price", "value": 50, "unit": "price", "currency": "USD",
+          "entity": "mafia-the-old-country", "entity_type": "game", "scope": "product",
+          "as_of": "2025-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$50 price point confirmed",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mafia-the-old-country-release-date-and-50-price-point-confirmed/" } }
+      ],
+      "summary": "Mafia: The Old Country has been confirmed for an August 8 release at a $50 price point."
+    },
+    {
+      "ref": "main_news/paradox-announces-europa-universalis-5",
+      "entities": {
+        "games": [
+          { "id": "europa-universalis-5", "name": "Europa Universalis 5", "aliases": [], "genres": ["grand-strategy", "4x"], "franchise": "europa-universalis", "inferred": true }
+        ],
+        "studios": [
+          { "id": "paradox-development-studio", "name": "Paradox Development Studio", "aliases": ["Paradox"], "publisher": "paradox-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": ["Paradox"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Paradox has announced Europa Universalis 5."
+    },
+    {
+      "ref": "business/tripledot-studios-acquires-applovin-s-mobile-games-business",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "tripledot-studios", "name": "Tripledot Studios", "aliases": ["Tripledot"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "applovin", "name": "AppLovin", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "regulation"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 800000000, "unit": "price", "currency": "USD",
+          "entity": "tripledot-studios", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "acquires AppLovin's mobile games business for $800 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tripledot-studios-acquires-applovins-mobile-games-business-for-800-million" } }
+      ],
+      "summary": "Tripledot Studios is acquiring AppLovin's mobile games business, including 10 studios, for $800 million in a half-cash, half-equity deal expected to close in summer 2025."
+    },
+    {
+      "ref": "business/mobile-studio-fuse-games-receives-7m-investment",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "fuse-games", "name": "Fuse Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 7000000, "unit": "price", "currency": "USD",
+          "entity": "fuse-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "receives $7m investment",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/mobile-studio-fuse-games-receives-7m-investment" } }
+      ],
+      "summary": "Mobile studio Fuse Games has received a $7m investment."
+    },
+    {
+      "ref": "business/nintendo-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1200000000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥1.2 trillion ($8.3 billion, down 30.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } },
+        { "metric": "revenue", "value": 8300000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥1.2 trillion ($8.3 billion, down 30.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } },
+        { "metric": "operating_income", "value": 282500000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Operating profit: ¥282.5 billion ($1.9 billion, down 46.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } },
+        { "metric": "operating_income", "value": 1900000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Operating profit: ¥282.5 billion ($1.9 billion, down 46.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } },
+        { "metric": "revenue", "value": 1900000000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "up", "confidence": "medium",
+          "quote": "Net sales: ¥1.9 trillion ($13.1 billion, up 63.1%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } },
+        { "metric": "revenue", "value": 13100000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "up", "confidence": "medium",
+          "quote": "Net sales: ¥1.9 trillion ($13.1 billion, up 63.1%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } },
+        { "metric": "operating_income", "value": 320000000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "up", "confidence": "medium",
+          "quote": "Operating profit: ¥320 billion ($2.2 billion, up 13.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } },
+        { "metric": "operating_income", "value": 2200000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-09", "period": "annual", "direction": "up", "confidence": "medium",
+          "quote": "Operating profit: ¥320 billion ($2.2 billion, up 13.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-decline-to-49bn-as-firm-prepares-for-switch-2-launch" } }
+      ],
+      "summary": "Nintendo reported its full-year results for the year ended March 31, 2025, with net sales of ¥1.2 trillion (down 30.3%) and operating profit of ¥282.5 billion (down 46.6%), while forecasting higher net sales and operating profit for the next full year."
+    }
+  ]
+}

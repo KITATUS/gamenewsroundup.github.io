@@ -1,0 +1,276 @@
+{
+  "date": "2025-02-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/football-manager-25-cancelled-as-sega-shifts-focus-to-fm26",
+      "entities": {
+        "games": [
+          { "id": "football-manager-25", "name": "Football Manager 25", "aliases": ["Football Manager 25", "FM25"], "genres": ["simulation", "sports"], "franchise": "football-manager", "inferred": true },
+          { "id": "football-manager-26", "name": "Football Manager 26", "aliases": ["FM26"], "genres": ["simulation", "sports"], "franchise": "football-manager", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "delay"],
+      "facts": [],
+      "summary": "Sega has cancelled Football Manager 25 to shift focus to FM26, offering refunds to anyone who pre-ordered the twice-delayed project."
+    },
+    {
+      "ref": "main_news/e3-organiser-esa-launches-new-event-called-iicon",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false },
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-04-27", "unit": "date", "currency": null,
+          "entity": "iicon", "entity_type": "product", "scope": "event",
+          "as_of": "2025-02-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The conference will take place in Las Vegas between April 27-30 next year",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/e3-organiser-esa-launches-new-event-called-iicon/" } }
+      ],
+      "summary": "E3 organiser the ESA has launched a new event called 'iicon', to be held in Las Vegas between April 27-30 the following year with support from Nintendo, Microsoft, Sony and others."
+    },
+    {
+      "ref": "main_news/capcom-is-ending-service-for-resident-evil-village-s-pack-in",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-reverse", "name": "Resident Evil Re:Verse", "aliases": ["Resident Evil Re:Verse"], "genres": ["shooter", "survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-village", "name": "Resident Evil Village", "aliases": [], "genres": ["survival-horror", "fps"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-06-29", "unit": "date", "currency": null,
+          "entity": "resident-evil-reverse", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "On June 29, the game will no longer be playable.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/capcom-is-shutting-down-resident-evil-villages-pack-in-multiplayer-game/" } }
+      ],
+      "summary": "Capcom is ending service for Resident Evil Re:Verse, the pack-in multiplayer game for Resident Evil Village, removing it from stores on March 3 and making it unplayable on June 29."
+    },
+    {
+      "ref": "business/gta-5-has-now-sold-210m-copies",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-5", "name": "Grand Theft Auto 5", "aliases": ["GTA 5"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "red-dead-redemption-2", "name": "Red Dead Redemption 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "red-dead-redemption", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 210000000, "unit": "units", "currency": null,
+          "entity": "grand-theft-auto-5", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-07", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "GTA 5 has now sold 210m copies",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/gta-5-has-now-sold-a-staggering-210m-copies" } },
+        { "metric": "copies_sold", "value": 5000000, "unit": "units", "currency": null,
+          "entity": "grand-theft-auto-5", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "5m copies over the last three months of 2024, up until 31st December",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/gta-5-has-now-sold-a-staggering-210m-copies" } },
+        { "metric": "copies_sold", "value": 70000000, "unit": "units", "currency": null,
+          "entity": "red-dead-redemption-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-07", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Red Dead Redemption 2 has sold 70 million copies, up 3 million units on the previous quarter",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/gta-5-has-now-sold-a-staggering-210m-copies" } }
+      ],
+      "summary": "GTA 5 has now sold 210 million copies, with 5 million sold in the final quarter of 2024, while Red Dead Redemption 2 has reached 70 million copies."
+    },
+    {
+      "ref": "business/roblox-shares-drop-by-20-as-platform-misses-target-active-us",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "players_total", "value": 85300000, "unit": "users", "currency": null,
+          "entity": "roblox", "entity_type": "platform", "scope": "platform",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "the number of daily active users fell by four percent to 85.3 million compared to the previous quarter",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/roblox-shares-drop-by-20-as-platform-misses-target-active-users" } },
+        { "metric": "playtime_hours", "value": 18700000000, "unit": "hours", "currency": null,
+          "entity": "roblox", "entity_type": "platform", "scope": "platform",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Overall player engagement also declined by 9.7 percent in the same period to 18.7bn hours.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/roblox-shares-drop-by-20-as-platform-misses-target-active-users" } },
+        { "metric": "revenue", "value": 1360000000, "unit": "money", "currency": "USD",
+          "entity": "roblox-corporation", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Bookings, the company's measure of sales, totalled $1.36bn",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/roblox-shares-drop-by-20-as-platform-misses-target-active-users" } },
+        { "metric": "revenue", "value": 1090000000, "unit": "money", "currency": "GBP",
+          "entity": "roblox-corporation", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "totalled $1.36bn (£1.09bn)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/roblox-shares-drop-by-20-as-platform-misses-target-active-users" } }
+      ],
+      "summary": "Roblox shares fell 20% after the platform missed targets, with Q4 daily active users down 4% to 85.3 million, engagement down 9.7% to 18.7bn hours, and bookings of $1.36bn falling short of forecast."
+    },
+    {
+      "ref": "business/take-two-q3-fy2025-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1360000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "GAAP Net revenue: $1.36 billion, slightly down from $1.37 billion last year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-interactive-reports-strong-q3-fy2025-results-prepares-for-blockbuster-2025-lineup" } },
+        { "metric": "profit", "value": -125200000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "GAAP Net loss: $125.2 million, increased from $91.6 million last year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-interactive-reports-strong-q3-fy2025-results-prepares-for-blockbuster-2025-lineup" } },
+        { "metric": "revenue", "value": 1370000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Total net bookings: $1.37 billion, a 3% year-over-year increase",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-interactive-reports-strong-q3-fy2025-results-prepares-for-blockbuster-2025-lineup" } }
+      ],
+      "summary": "Take-Two reported Q3 FY2025 GAAP net revenue of $1.36 billion, a GAAP net loss of $125.2 million, and total net bookings of $1.37 billion, up 3% year-over-year."
+    },
+    {
+      "ref": "business/blind-squirrel-games-acquires-distributed-development",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "blind-squirrel-games", "name": "Blind Squirrel Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "distributed-development", "name": "Distributed Development", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Blind Squirrel Games has acquired Distributed Development, with the new team initially focusing on co-development."
+    },
+    {
+      "ref": "business/ndreams-establishes-new-internal-studio-shutters-two-others",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ndreams", "name": "nDreams", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "compass", "name": "Compass", "aliases": [], "publisher": "ndreams", "inferred": false },
+          { "id": "ndreams-studio-orbital", "name": "nDreams Studio Orbital", "aliases": [], "publisher": "ndreams", "inferred": false },
+          { "id": "ndreams-studio", "name": "nDreams Studio", "aliases": [], "publisher": "ndreams", "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "callum-godfrey", "name": "Callum Godfrey", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "studio-closure"],
+      "facts": [],
+      "summary": "nDreams has established a new internal studio, Compass, led by Callum Godfrey, following the closure of nDreams Studio Orbital and nDreams Studio."
+    },
+    {
+      "ref": "business/paradox-acquires-haemimont-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "haemimont-games", "name": "Haemimont Games", "aliases": [], "publisher": "paradox-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": ["Paradox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Paradox has acquired Haemimont Games, calling it a further step in its strategic focus on growing in the management games genre."
+    },
+    {
+      "ref": "rumours/hi-rez-lays-off-devs-ends-development-for-three-games",
+      "entities": {
+        "games": [
+          { "id": "smite", "name": "Smite 1", "aliases": ["Smite 1", "Smite"], "genres": ["moba"], "franchise": "smite", "inferred": true },
+          { "id": "rogue-company", "name": "Rogue Company", "aliases": [], "genres": ["tps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "paladins", "name": "Paladins", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": null, "inferred": true },
+          { "id": "smite-2", "name": "Smite 2", "aliases": [], "genres": ["moba"], "franchise": "smite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hi-rez-studios", "name": "Hi-Rez Studios", "aliases": ["Hi-Rez"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 30, "unit": "people", "currency": null,
+          "entity": "hi-rez-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-02-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Unclear how many would be affected (at least 30 according the rumour)",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/hi-rez-studios-cut-dozens-of-staff-from-smite-team" } }
+      ],
+      "summary": "Rumour that Hi-Rez Studios has laid off at least 30 developers and is ending development on Smite 1, Rogue Company, and Paladins to prioritise Smite 2."
+    },
+    {
+      "ref": "rumours/bandai-namco-has-reportedly-reduced-its-japanese-workforce-b",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 117, "unit": "people", "currency": null,
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-07", "period": "cumulative", "direction": "down", "confidence": "medium",
+          "quote": "between April 2024 and February 2025, 117 staff have left the company",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bandai-namco-has-reportedly-reduced-its-japanese-workforce-by-over-100/" } }
+      ],
+      "summary": "Rumour that Bandai Namco has reduced its Japanese workforce by over 100, with a pension-database filing showing 117 staff left the company between April 2024 and February 2025."
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "date": "2025-09-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/here-s-everything-announced-in-playstation-s-latest-state-of",
+      "entities": {
+        "games": [
+          { "id": "saros", "name": "Saros", "aliases": [], "genres": ["roguelike", "tps", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "returnal", "name": "Returnal", "aliases": [], "genres": ["roguelike", "tps"], "franchise": null, "inferred": true },
+          { "id": "zero-parades-for-dead-spies", "name": "Zero Parades: For Dead Spies", "aliases": ["Zero Parades"], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "microsoft-flight-simulator", "name": "Microsoft Flight Simulator", "aliases": [], "genres": ["simulation"], "franchise": "microsoft-flight-simulator", "inferred": true },
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "deus-ex-remaster", "name": "Deus Ex Remaster", "aliases": ["Deux Ex Remaster"], "genres": ["action-rpg", "fps", "stealth"], "franchise": "deus-ex", "inferred": true },
+          { "id": "halloween", "name": "Halloween", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "lost-epoch", "name": "Lost Epoch", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "orobyss", "name": "Orobyss", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "the-seven-deadly-sins-origin", "name": "The Seven Deadly Sins: Origin", "aliases": [], "genres": ["action-rpg"], "franchise": "the-seven-deadly-sins", "inferred": true },
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic", "inferred": true },
+          { "id": "nioh-3", "name": "Nioh 3", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "nioh", "inferred": true },
+          { "id": "dynasty-warriors-3-remaster", "name": "Dynasty Warriors 3 Remaster", "aliases": [], "genres": ["action-adventure"], "franchise": "dynasty-warriors", "inferred": true },
+          { "id": "code-vein-2", "name": "Code Vein 2", "aliases": ["CodeVein 2"], "genres": ["action-rpg", "soulslike"], "franchise": "code-vein", "inferred": true },
+          { "id": "let-it-die-inferno", "name": "Let it Die Inferno", "aliases": [], "genres": ["action-rpg"], "franchise": "let-it-die", "inferred": true },
+          { "id": "chronoscribe-the-endless-end", "name": "Chronoscribe: The Endless End", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "wolverine", "name": "Wolverine", "aliases": [], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "housemarque", "name": "Housemarque", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "za-um", "name": "ZA/UM", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": ["Insomniac"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement", "reveal", "release-date", "trailer", "hardware"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-20", "unit": "date", "currency": null,
+          "entity": "saros", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Housemarque's Returnal follow-up, Saros - March 20th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2025-12-09", "unit": "date", "currency": null,
+          "entity": "microsoft-flight-simulator", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Microsoft Flight Simulator (PS5) - December 9th, 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2025-10-10", "unit": "date", "currency": null,
+          "entity": "battlefield-6", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Battlefield 6 (Campaign Mode trailer) - October 10th, 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2026-02-05", "unit": "date", "currency": null,
+          "entity": "deus-ex-remaster", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Deux Ex Remaster - February 5th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2026-09-08", "unit": "date", "currency": null,
+          "entity": "halloween", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Halloween - September 8th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2026-01-28", "unit": "date", "currency": null,
+          "entity": "the-seven-deadly-sins-origin", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Seven Deadly Sins: Origin - January 28th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2026-02-06", "unit": "date", "currency": null,
+          "entity": "nioh-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nioh 3 - February 6th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2026-03-19", "unit": "date", "currency": null,
+          "entity": "dynasty-warriors-3-remaster", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dynasty Warriors 3 Remaster - March 19th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2026-01-30", "unit": "date", "currency": null,
+          "entity": "code-vein-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "CodeVein 2 - January 30th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2025-12-03", "unit": "date", "currency": null,
+          "entity": "let-it-die-inferno", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Let it Die Inferno - December 3rd, 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2026-03-19", "unit": "date", "currency": null,
+          "entity": "crimson-desert", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Crimson Desert - March 19th, 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } },
+        { "metric": "release_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "god-of-war", "entity_type": "product", "scope": "product",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "God of War limited edition 20th anniversary controller - October 23rd, 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/heres-everything-announced-in-playstations-latest-state-of-play-showcase" } }
+      ],
+      "summary": "PlayStation's latest State of Play showcase announced a slate of games and hardware, including Housemarque's Returnal follow-up Saros, Nioh 3, Crimson Desert, and Insomniac's Wolverine, with release dates spanning late 2025 into 2026."
+    },
+    {
+      "ref": "main_news/mobile-game-monster-hunter-outlanders-gets-a-gameplay-traile",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-outlanders", "name": "Monster Hunter Outlanders", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["gameplay", "trailer", "beta-demo"],
+      "facts": [],
+      "summary": "Mobile game Monster Hunter Outlanders received a gameplay trailer as Closed Beta sign-ups opened."
+    },
+    {
+      "ref": "main_news/nintendo-s-first-new-mobile-game-in-years-is-a-surprise-fire",
+      "entities": {
+        "games": [
+          { "id": "fire-emblem-shadows", "name": "Fire Emblem Shadows", "aliases": [], "genres": ["strategy", "turn-based-strategy", "rpg"], "franchise": "fire-emblem", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-25", "unit": "date", "currency": null,
+          "entity": "fire-emblem-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fire Emblem Shadows is available for mobile today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendos-first-new-mobile-game-in-years-is-a-surprise-fire-emblem-spin-off/" } }
+      ],
+      "summary": "Nintendo released Fire Emblem Shadows, a surprise Fire Emblem spin-off and its first new mobile game in years, on mobile today."
+    },
+    {
+      "ref": "main_news/valve-rolls-out-new-streamlined-steam-storefront-with-enhanc",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Valve rolled out a new streamlined Steam storefront featuring enhanced search tools."
+    },
+    {
+      "ref": "main_news/nintendo-switch-2-wins-special-industry-award-at-japan-game",
+      "entities": {
+        "games": [
+          { "id": "metaphor-refantazio", "name": "Metaphor: ReFantazio", "aliases": [], "genres": ["jrpg", "turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["jrpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Nintendo Switch 2 won a special industry award at the Japan Game Awards, with Metaphor: ReFantazio and Clair Obscur: Expedition 33 among the titles recognised."
+    },
+    {
+      "ref": "main_news/playstation-store-were-among-the-other-winners",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-store", "name": "PlayStation Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "PlayStation Store was among the other winners at the Japan Game Awards."
+    },
+    {
+      "ref": "main_news/starbreeze-entertainment-launches-payday-2-subscription-serv",
+      "entities": {
+        "games": [
+          { "id": "payday-2", "name": "Payday 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true }
+        ],
+        "studios": [
+          { "id": "starbreeze-entertainment", "name": "Starbreeze Entertainment", "aliases": ["Starbreeze"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Starbreeze Entertainment launched a Payday 2 subscription service on Steam."
+    },
+    {
+      "ref": "main_news/pragmata-gets-a-new-gameplay-trailer-but-still-no-release-da",
+      "entities": {
+        "games": [
+          { "id": "pragmata", "name": "Pragmata", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "trailer"],
+      "facts": [],
+      "summary": "Pragmata received a new gameplay trailer but still has no release date."
+    },
+    {
+      "ref": "main_news/the-pok-mon-company-confirms-that-no-its-imagery-was-not-gra",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Pokémon Company confirmed that its imagery was not granted for use in a disturbing US Department of Homeland Security video."
+    },
+    {
+      "ref": "main_news/monster-hunter-wilds-collaboration-with-final-fantasy-14-wil",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "final-fantasy-14", "name": "Final Fantasy 14", "aliases": ["Final Fantasy XIV"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true },
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "dlc-expansion"],
+      "facts": [],
+      "summary": "Monster Hunter Wilds announced a collaboration with Final Fantasy 14 letting players paint as a Pictomancer, alongside a new Elder Dragon scheduled for December."
+    },
+    {
+      "ref": "free_games_subscription/ps-plus-games-for-october",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true },
+          { "id": "cocoon", "name": "Cocoon", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "goat-simulator-3", "name": "Goat Simulator 3", "aliases": [], "genres": ["simulation", "sandbox"], "franchise": "goat-simulator", "inferred": true },
+          { "id": "the-last-of-us-part-2-remastered", "name": "The Last of Us Part 2 Remastered", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true },
+          { "id": "tekken-3", "name": "Tekken 3", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true },
+          { "id": "soul-calibur-3", "name": "Soul Calibur 3", "aliases": [], "genres": ["fighting"], "franchise": "soul-calibur", "inferred": true },
+          { "id": "lara-croft-tomb-raider-anniversary", "name": "Lara Croft Tomb Raider Anniversary", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "The PS Plus monthly and catalogue games for October include Alan Wake 2, Cocoon, Goat Simulator 3, and The Last of Us Part 2 Remastered."
+    },
+    {
+      "ref": "business/former-applovin-leaders-establish-casual-mobile-studio-cheer",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cheer", "name": "Cheer", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "applovin", "name": "AppLovin", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Former AppLovin leaders established a casual mobile studio called Cheer."
+    },
+    {
+      "ref": "business/code-coven-reveals-first-aurora-accelerator-and-agency-cohor",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Code Coven revealed the first cohort of its Aurora Accelerator and Agency programme."
+    },
+    {
+      "ref": "business/costco-stops-selling-xbox-consoles-in-uk-and-us",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Costco stopped selling Xbox consoles in the UK and US."
+    },
+    {
+      "ref": "business/scottish-game-developers-association-opens-applications-for",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Scottish Game Developers Association opened applications for its Games Accelerator programme."
+    },
+    {
+      "ref": "business/larian-studio-s-tara-saunders-confirmed-to-continue-as-bafta",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "larian-studios", "name": "Larian Studios", "aliases": ["Larian Studio"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tara-saunders", "name": "Tara Saunders", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Larian Studios' Tara Saunders was confirmed to continue as the BAFTA Games committee chair."
+    },
+    {
+      "ref": "business/embracer-ceo-states-that-while-ai-is-a-powerful-tool-human-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Embracer's CEO stated that while AI is a powerful tool, human authorship is final."
+    }
+  ]
+}

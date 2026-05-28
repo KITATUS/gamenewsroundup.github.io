@@ -1,0 +1,221 @@
+{
+  "date": "2026-01-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/2025-steam-award-winners-announced",
+      "entities": {
+        "games": [
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true },
+          { "id": "the-midnight-walk", "name": "The Midnight Walk", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "hades-2", "name": "Hades 2", "aliases": ["Hades II"], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true },
+          { "id": "peak", "name": "Peak", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true },
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter", "shooter"], "franchise": null, "inferred": true },
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": null, "inferred": true },
+          { "id": "dispatch", "name": "Dispatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "rv-there-yet", "name": "RV There Yet?", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "steam-deck", "name": "Steam Deck", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The 2025 Steam Award winners were announced, with Hollow Knight: Silksong taking Game of the Year."
+    },
+    {
+      "ref": "main_news/prices-of-ps4-game-star-wars-racer-revenge-are-skyrocketing",
+      "entities": {
+        "games": [
+          { "id": "star-wars-racer-revenge", "name": "Star Wars Racer Revenge", "aliases": [], "genres": ["racing"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation 4"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "Prices of the PS4 game Star Wars Racer Revenge are rising sharply following the latest PS5 jailbreak efforts."
+    },
+    {
+      "ref": "main_news/rainbow-six-siege-still-struggling-after-ubisoft-was-forced",
+      "entities": {
+        "games": [
+          { "id": "rainbow-six-siege", "name": "Rainbow Six Siege", "aliases": [], "genres": ["fps", "shooter"], "franchise": "rainbow-six", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Rainbow Six Siege is still struggling after Ubisoft was forced to briefly and intentionally shut it down following a third-party hack."
+    },
+    {
+      "ref": "main_news/james-bond-game-007-first-light-has-been-delayed-27th-may-20",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2026-05-27",
+          "unit": "date",
+          "currency": null,
+          "entity": "007-first-light",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-01-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "007 First Light has been delayed - 27th May 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/merry-christmas-james-bond-game-007-first-light-has-been-delayed" }
+        }
+      ],
+      "summary": "The James Bond game 007 First Light has been delayed to 27 May 2026."
+    },
+    {
+      "ref": "main_news/vince-zampella-co-creator-of-call-of-duty-and-respawn-entert",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": ["Respawn"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "vince-zampella", "name": "Vince Zampella", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Vince Zampella, co-creator of Call of Duty and Respawn Entertainment, has died."
+    },
+    {
+      "ref": "free_games_subscription/ps-plus-monthly-games-for-january-need-for-speed-unbound-dis",
+      "entities": {
+        "games": [
+          { "id": "need-for-speed-unbound", "name": "Need for Speed Unbound", "aliases": [], "genres": ["racing"], "franchise": "need-for-speed", "inferred": true },
+          { "id": "disney-epic-mickey-rebrushed", "name": "Disney Epic Mickey: Rebrushed", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "epic-mickey", "inferred": true },
+          { "id": "core-keeper", "name": "Core Keeper", "aliases": [], "genres": ["survival", "sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "The PS Plus monthly games for January are Need for Speed Unbound, Disney Epic Mickey: Rebrushed and Core Keeper."
+    },
+    {
+      "ref": "business/gog-and-cd-projekt-founder-micha-kici-ski-acquires-100-owner",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false },
+          { "id": "cd-projekt", "name": "CD Projekt", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "michal-kicinski", "name": "Michał Kiciński", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "equity_stake_pct",
+          "value": 100,
+          "unit": "percent",
+          "currency": null,
+          "entity": "gog",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-05",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Michał Kiciński acquires 100% ownership of GOG",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/gog-and-cd-projekt-founder-micha-kicinski-acquires-100-ownership-of-gog" }
+        }
+      ],
+      "summary": "GOG and CD Projekt founder Michał Kiciński has acquired 100% ownership of GOG."
+    },
+    {
+      "ref": "business/eccentric-battle-royale-meets-ace-attorney-series-danganronp",
+      "entities": {
+        "games": [
+          { "id": "danganronpa", "name": "Danganronpa", "aliases": [], "genres": ["visual-novel", "adventure"], "franchise": "danganronpa", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 10000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "danganronpa",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-01-05",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Danganronpa romps to 10 million sales",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/danganronpa-romps-to-10-million-sales" }
+        }
+      ],
+      "summary": "The Danganronpa series has reached 10 million sales."
+    },
+    {
+      "ref": "rumours/the-witcher-3-is-reportedly-getting-a-surprise-new-expansion",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-3", "name": "The Witcher 3", "aliases": ["The Witcher 3: Wild Hunt"], "genres": ["action-rpg", "rpg", "open-world"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "rumour"],
+      "facts": [],
+      "summary": "Rumour that The Witcher 3 is getting a surprise new expansion this year."
+    }
+  ]
+}

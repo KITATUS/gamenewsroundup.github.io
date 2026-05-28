@@ -1,0 +1,101 @@
+{
+  "date": "2024-05-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/silent-hill-stream-planned-for-may-30th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "youtube", "name": "YouTube", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-05-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "silent-hill",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-05-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill stream planned for May 30th",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/Konami/status/1795228491539005800"
+          }
+        }
+      ],
+      "summary": "Konami has planned a Silent Hill stream for 30 May 2024 at 4 p.m. PDT on the Silent Hill YouTube channel."
+    },
+    {
+      "ref": "rumours/doom-the-dark-ages-to-be-revealed-at-xbox-games-showcase",
+      "entities": {
+        "games": [
+          { "id": "doom-the-dark-ages", "name": "Doom: The Dark Ages", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "id-software", "name": "id Software", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "showcase", "rumour"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-06-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "xbox-games-showcase",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-05-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "June 9th",
+          "source": {
+            "name": "Insider Gaming",
+            "domain": "insider-gaming.com",
+            "url": "https://insider-gaming.com/doom-the-dark-ages/"
+          }
+        }
+      ],
+      "summary": "Rumour that Doom: The Dark Ages, described as a medieval-inspired Doom world, will be revealed at the Xbox Games Showcase on 9 June 2024."
+    },
+    {
+      "ref": "rumours/a-new-astro-bot-game-will-be-revealed-in-weeks",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a new Astro Bot game, possibly titled simply 'Astro Bot', will be revealed within weeks."
+    }
+  ]
+}

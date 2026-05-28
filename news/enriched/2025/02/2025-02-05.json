@@ -1,0 +1,153 @@
+{
+  "date": "2025-02-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/capcom-shares-new-onimusha-details-and-confirms-a-ps2-remast",
+      "entities": {
+        "games": [
+          { "id": "onimusha", "name": "Onimusha", "aliases": [], "genres": ["action-adventure"], "franchise": "onimusha", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps2", "name": "PS2", "aliases": ["PlayStation 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Capcom shared new Onimusha details and confirmed that a PS2 remaster is coming."
+    },
+    {
+      "ref": "main_news/xbox-confirms-it-s-bringing-two-real-time-strategy-games-to",
+      "entities": {
+        "games": [
+          { "id": "age-of-mythology-retold", "name": "Age of Mythology: Retold", "aliases": [], "genres": ["rts", "strategy"], "franchise": "age-of-empires", "inferred": true },
+          { "id": "age-of-empires-ii-definitive-edition", "name": "Age of Empires II: Definitive Edition", "aliases": [], "genres": ["rts", "strategy"], "franchise": "age-of-empires", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-03-04", "unit": "date", "currency": null,
+          "entity": "age-of-mythology-retold", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Age of Mythology: Retold (March 4)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-confirms-its-bringing-two-real-time-strategy-games-to-ps5-this-year/" }
+        }
+      ],
+      "summary": "Xbox confirmed it is bringing two real-time strategy games, Age of Mythology: Retold and Age of Empires II: Definitive Edition, to PS5 this year."
+    },
+    {
+      "ref": "free_games_subscription/february-s-playstation-plus-essential-titles-are-now-availab",
+      "entities": {
+        "games": [
+          { "id": "payday-3", "name": "Payday 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true },
+          { "id": "high-on-life", "name": "High on Life", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "pac-man-world-re-pac", "name": "Pac-Man World Re-Pac", "aliases": [], "genres": ["platformer"], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": true },
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation 4"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "February's PlayStation Plus Essential titles are now available, including Payday 3, High on Life and Pac-Man World Re-Pac."
+    },
+    {
+      "ref": "business/dragon-ball-sparking-zero-tops-5m-global-sales",
+      "entities": {
+        "games": [
+          { "id": "dragon-ball-sparking-zero", "name": "Dragon Ball: Sparking! Zero", "aliases": [], "genres": ["fighting"], "franchise": "dragon-ball", "inferred": true },
+          { "id": "compass-point-west", "name": "Compass Point: West", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true },
+          { "id": "thirsty-suitors", "name": "Thirsty Suitors", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "tale-of-the-shire-a-lord-of-the-rings-game", "name": "Tale of the Shire: A Lord of the Rings Game", "aliases": [], "genres": ["life-sim"], "franchise": "the-lord-of-the-rings", "inferred": true },
+          { "id": "dont-starve-together", "name": "Don't Starve Together", "aliases": [], "genres": ["survival"], "franchise": "dont-starve", "inferred": true },
+          { "id": "lab-rat", "name": "Lab Rat", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "rotwood", "name": "Rotwood", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "shutdown"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 5000000, "unit": "units", "currency": null,
+          "entity": "dragon-ball-sparking-zero", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-05", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dragon Ball: Sparking! Zero tops 5m global sales",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/dragonballgames/status/1886686193535848650" }
+        }
+      ],
+      "summary": "Dragon Ball: Sparking! Zero has topped 5 million global sales."
+    },
+    {
+      "ref": "business/hideki-kamiya-video-reveals-five-more-leads-have-quit-platin",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "platinumgames", "name": "PlatinumGames", "aliases": ["Platinum"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideki-kamiya", "name": "Hideki Kamiya", "aliases": [], "inferred": false },
+          { "id": "abebe-tinari", "name": "Abebe Tinari", "aliases": [], "inferred": false },
+          { "id": "yusuke-miyata", "name": "Yusuke Miyata", "aliases": [], "inferred": false },
+          { "id": "takahisa-taura", "name": "Takahisa Taura", "aliases": [], "inferred": false },
+          { "id": "kenji-saito", "name": "Kenji Saito", "aliases": [], "inferred": false },
+          { "id": "masaki-yamanaka", "name": "Masaki Yamanaka", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "A Hideki Kamiya video revealed that five more lead developers, including Bayonetta 3's director, have quit PlatinumGames."
+    },
+    {
+      "ref": "business/super-mario-party-jamboree-marked-the-series-biggest-launch",
+      "entities": {
+        "games": [
+          { "id": "super-mario-party-jamboree", "name": "Super Mario Party Jamboree", "aliases": [], "genres": ["party"], "franchise": "mario-party", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 6000000, "unit": "units", "currency": null,
+          "entity": "super-mario-party-jamboree", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-05", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Super Mario Party Jamboree marked the series’ biggest launch with 6m shipped",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/super-mario-party-jamboree-marked-the-series-biggest-launch-with-6m-shipped/" }
+        }
+      ],
+      "summary": "Super Mario Party Jamboree marked the series' biggest launch with 6 million units shipped."
+    }
+  ]
+}

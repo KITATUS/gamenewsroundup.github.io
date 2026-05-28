@@ -1,0 +1,174 @@
+{
+  "date": "2025-11-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/an-official-limited-time-island-based-on-disneyland-is-comin",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "partnership"],
+      "facts": [],
+      "summary": "An official limited-time Disneyland-themed island called Disneyland Game Rush is launching in Fortnite, featuring a central hub leading to seven mini-games based on different Disneyland rides."
+    },
+    {
+      "ref": "main_news/marvel-games-says-it-ll-continue-to-work-with-spider-man-and",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "insomniac-games", "name": "Insomniac", "aliases": ["Insomniac"], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "marvel-games", "name": "Marvel Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Marvel Games says it will continue to work with Spider-Man and Wolverine studio Insomniac for many years to come."
+    },
+    {
+      "ref": "main_news/nintendo-says-it-plans-a-consistent-release-of-new-films-fol",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo says it plans a consistent release of new films following the Super Mario Galaxy and Zelda movies, and is building a framework for future movies."
+    },
+    {
+      "ref": "main_news/football-manager-26-launches-on-steam-with-mostly-negative-r",
+      "entities": {
+        "games": [
+          { "id": "football-manager-26", "name": "Football Manager 26", "aliases": [], "genres": ["simulation", "sports", "strategy"], "franchise": "football-manager", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Football Manager 26 launched on Steam with \"mostly negative\" reviews."
+    },
+    {
+      "ref": "business/rockstar-claims-dismissals-were-due-to-information-leaks-not",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Rockstar claims its dismissals were due to information leaks rather than union busting, saying it took action against a small number of individuals for distributing and discussing confidential information."
+    },
+    {
+      "ref": "business/krafton-posts-record-high-cumulative-performance-in-q3-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 870600000000, "unit": "currency", "currency": "KRW",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-06", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue was up 21% year-on-year to 870.6 billion KRW ($604.2 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-posts-record-high-cumulative-performance-in-q3-2025" } },
+        { "metric": "revenue", "value": 604200000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-06", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue was up 21% year-on-year to 870.6 billion KRW ($604.2 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-posts-record-high-cumulative-performance-in-q3-2025" } },
+        { "metric": "operating_income", "value": 348800000000, "unit": "currency", "currency": "KRW",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-06", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "operating profit also up by 7.5% to 348.8 billion KRW ($241.9 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-posts-record-high-cumulative-performance-in-q3-2025" } },
+        { "metric": "operating_income", "value": 241900000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-06", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "operating profit also up by 7.5% to 348.8 billion KRW ($241.9 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-posts-record-high-cumulative-performance-in-q3-2025" } }
+      ],
+      "summary": "Krafton posted record-high cumulative performance in Q3 2025, with revenue up 21% year-on-year to 870.6 billion KRW ($604.2 million) and operating profit up 7.5% to 348.8 billion KRW ($241.9 million)."
+    },
+    {
+      "ref": "business/google-and-epic-strike-a-deal-that-could-open-up-android-to",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership", "lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "Google and Epic struck a deal that could open up Android to third-party stores, applying globally and potentially cutting Google's fees to as low as 9%."
+    },
+    {
+      "ref": "business/fortnite-s-simpsons-crossover-caused-a-spike-in-new-players",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Fortnite's Simpsons crossover caused a spike in new players and tempted back record numbers of returning players."
+    },
+    {
+      "ref": "business/sumo-group-owned-outsourcing-studio-atomhawk-closes-canadian",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "atomhawk", "name": "Atomhawk", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Sumo Group-owned outsourcing studio Atomhawk has closed its Canadian branch."
+    }
+  ]
+}

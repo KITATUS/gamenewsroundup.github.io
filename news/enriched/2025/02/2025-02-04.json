@@ -1,0 +1,97 @@
+{
+  "date": "2025-02-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/a-new-xbox-indie-games-showcase-is-coming-this-month",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-02-24",
+          "unit": "date",
+          "currency": null,
+          "entity": "id-xbox",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-02-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The next ID@Xbox event will take place on February 24",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/a-new-xbox-indie-games-showcase-is-coming-this-month/"
+          }
+        }
+      ],
+      "summary": "Microsoft will hold a new ID@Xbox indie games showcase on February 24, 2025."
+    },
+    {
+      "ref": "main_news/need-for-speed-is-on-hold-but-ea-says-it-will-return-in-new",
+      "entities": {
+        "games": [
+          { "id": "need-for-speed", "name": "Need for Speed", "aliases": [], "genres": ["racing"], "franchise": "need-for-speed", "inferred": true },
+          { "id": "battlefield", "name": "Battlefield", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [
+          { "id": "criterion-games", "name": "Criterion", "aliases": ["Criterion"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "EA has put the Need for Speed series on hold while developer Criterion focuses on Battlefield, saying the series will return."
+    },
+    {
+      "ref": "main_news/let-s-build-battlefield-together-ea-shares-pre-alpha-battlef",
+      "entities": {
+        "games": [
+          { "id": "battlefield", "name": "Battlefield", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "beta-demo", "announcement"],
+      "facts": [],
+      "summary": "EA shared pre-alpha Battlefield gameplay and opened registration for Battlefield Labs community testing, starting in Europe and North America."
+    },
+    {
+      "ref": "business/sumo-group-announces-layoffs-at-sumo-digital",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sumo-digital", "name": "Sumo Digital", "aliases": [], "publisher": "sumo-group", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Sumo Group announced layoffs at Sumo Digital as the studio shifts away from its own IP toward development services for partners."
+    }
+  ]
+}

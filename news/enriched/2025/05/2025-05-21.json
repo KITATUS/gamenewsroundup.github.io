@@ -1,0 +1,152 @@
+{
+  "date": "2025-05-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-is-back-on-the-us-app-store-after-a-5-year-court-ba",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ios-app-store", "name": "US App Store", "aliases": ["App Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Fortnite has returned to the US App Store following a five-year court battle."
+    },
+    {
+      "ref": "main_news/new-prestige-physical-game-label-editions-from-lost-in-cult",
+      "entities": {
+        "games": [
+          { "id": "immortality", "name": "Immortality", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "the-excavation-of-hobs-barrow", "name": "The Excavation of Hob’s Barrow", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "thank-goodness-youre-here", "name": "Thank Goodness You’re Here!", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "lost-in-cult", "name": "Lost In Cult", "aliases": ["Editions"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "switch", "name": "Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Lost In Cult launched a new prestige physical game label called Editions, with its first three releases being limited runs of Immortality, The Excavation of Hob’s Barrow and Thank Goodness You’re Here!."
+    },
+    {
+      "ref": "main_news/stellar-blade-2-is-official-and-seemingly-not-too-far-away-d",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade-2", "name": "Stellar Blade 2", "aliases": [], "genres": ["action-rpg"], "franchise": "stellar-blade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Stellar Blade 2 has been officially confirmed and is expected to arrive before the end of next year."
+    },
+    {
+      "ref": "main_news/clash-of-clans-latest-video-game-to-get-the-netflix-animated",
+      "entities": {
+        "games": [
+          { "id": "clash-of-clans", "name": "Clash of Clans", "aliases": [], "genres": ["strategy"], "franchise": "clash-of-clans", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supercell", "name": "Supercell", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Clash of Clans is the latest video game to receive a Netflix animated adaptation."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-gets-two-more-games-today-firefighting-simula",
+      "entities": {
+        "games": [
+          { "id": "firefighting-simulator-the-squad", "name": "Firefighting Simulator: The Squad", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "police-simulator-patrol-officers", "name": "Police Simulator: Patrol Officers", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Xbox Game Pass added two more games, Firefighting Simulator: The Squad and Police Simulator: Patrol Officers."
+    },
+    {
+      "ref": "business/human-fall-flat-publisher-curve-games-has-been-acquired-by-n",
+      "entities": {
+        "games": [
+          { "id": "human-fall-flat", "name": "Human Fall Flat", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "curve-games", "name": "Curve Games", "aliases": [], "inferred": false },
+          { "id": "nazara-technologies", "name": "Nazara Technologies", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 21600000, "unit": "money", "currency": "GBP",
+          "entity": "curve-games", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Curve Games has been acquired by Nazara Technologies for £21.6m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/human-fall-flat-publisher-curve-games-has-been-acquired-by-nazara-technologies-for-21-6m/" } }
+      ],
+      "summary": "Human Fall Flat publisher Curve Games has been acquired by Nazara Technologies for £21.6m."
+    },
+    {
+      "ref": "business/revenge-of-the-savage-planet-clocks-up-1m-players-less-than",
+      "entities": {
+        "games": [
+          { "id": "revenge-of-the-savage-planet", "name": "Revenge of the Savage Planet", "aliases": [], "genres": ["action-adventure"], "franchise": "savage-planet", "inferred": true }
+        ],
+        "studios": [
+          { "id": "raccoon-logic", "name": "Raccoon Logic", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "revenge-of-the-savage-planet", "entity_type": "game", "scope": "game",
+          "as_of": "2025-05-21", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Revenge of the Savage Planet clocks up 1m players less than 2 weeks after launch",
+          "source": { "name": "Steam", "domain": "store.steampowered.com",
+            "url": "https://store.steampowered.com/news/app/2787320/view/537728173036537047" } }
+      ],
+      "summary": "Revenge of the Savage Planet has reached 1 million players less than two weeks after launch."
+    }
+  ]
+}

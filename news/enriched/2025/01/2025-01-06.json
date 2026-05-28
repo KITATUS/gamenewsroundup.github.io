@@ -1,0 +1,115 @@
+{
+  "date": "2025-01-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/awesome-games-done-quick-2025-has-started",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "twitch", "name": "Twitch", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Awesome Games Done Quick 2025, the charity speedrunning marathon, has begun streaming on Twitch."
+    },
+    {
+      "ref": "main_news/marvel-rivals-is-adding-four-new-characters",
+      "entities": {
+        "games": [{ "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter", "tps"], "franchise": "marvel", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "trailer", "dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Marvel Rivals is adding four new Fantastic Four characters, to be revealed in a trailer ahead of its Season 1 launch."
+    },
+    {
+      "ref": "main_news/call-of-duty-black-ops-6-players-lament-battle-passes-in-bet",
+      "entities": {
+        "games": [{ "id": "call-of-duty-black-ops-6", "name": "Call of Duty: Black Ops 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Call of Duty: Black Ops 6 players have complained about \"battle passes in between battle passes\" surrounding the game's Squid Game crossover event."
+    },
+    {
+      "ref": "main_news/notch-has-basically-announced-a-spiritual-successor-to-minec",
+      "entities": {
+        "games": [{ "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "notch", "name": "Notch", "aliases": ["Markus Persson"], "inferred": false }]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Notch has reportedly \"basically announced\" plans for a spiritual successor to Minecraft."
+    },
+    {
+      "ref": "business/resident-evil-4-remake-has-sold-over-9-million-units-worldwi",
+      "entities": {
+        "games": [{ "id": "resident-evil-4-remake", "name": "Resident Evil 4 Remake", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "resident-evil", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 9000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "resident-evil-4-remake",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-06",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Resident Evil 4 Remake has sold over 9 million units worldwide",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/dev1_official/status/1876175498398822673" }
+        }
+      ],
+      "summary": "Resident Evil 4 Remake has sold over 9 million units worldwide."
+    },
+    {
+      "ref": "rumours/images-of-joycons-for-nintendo-switch-2-appear-online",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "Images purporting to show Joy-Cons for the Nintendo Switch 2 have appeared online, with sleuths claiming the controllers' serial numbers can be validated via Nintendo's warranty check."
+    },
+    {
+      "ref": "rumours/cloud-imperium-games-undergoes-major-shake-up-to-hit-deadlin",
+      "entities": {
+        "games": [{ "id": "star-citizen", "name": "Star Citizen", "aliases": [], "genres": ["simulation", "mmo"], "franchise": "star-citizen", "inferred": true }],
+        "studios": [{ "id": "cloud-imperium-games", "name": "Cloud Imperium Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Cloud Imperium Games has reportedly undergone a major shake-up to hit deadlines, with rumoured executive layoffs and role changes."
+    }
+  ]
+}

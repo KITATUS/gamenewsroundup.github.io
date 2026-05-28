@@ -1,0 +1,220 @@
+{
+  "date": "2025-10-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/amazon-ends-new-content-updates-for-new-world-aeternum-follo",
+      "entities": {
+        "games": [
+          {
+            "id": "new-world-aeternum",
+            "name": "New World: Aeternum",
+            "aliases": ["New World"],
+            "genres": ["mmorpg"],
+            "franchise": "new-world",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "amazon-games",
+            "name": "Amazon Games",
+            "aliases": ["Amazon"],
+            "publisher": "amazon",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "layoffs"],
+      "facts": [],
+      "summary": "Amazon has ended new content updates for New World: Aeternum following massive layoffs, saying servers will remain live through 2026."
+    },
+    {
+      "ref": "main_news/apple-has-been-appointed-to-the-game-awards-advisory-board",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "apple",
+            "name": "Apple",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Apple has been appointed to The Game Awards' Advisory Board."
+    },
+    {
+      "ref": "main_news/the-original-splinter-cell-and-hitman-are-among-16-new-games",
+      "entities": {
+        "games": [
+          {
+            "id": "splinter-cell",
+            "name": "Splinter Cell",
+            "aliases": [],
+            "genres": ["stealth", "action-adventure"],
+            "franchise": "splinter-cell",
+            "inferred": true
+          },
+          {
+            "id": "hitman",
+            "name": "Hitman",
+            "aliases": [],
+            "genres": ["stealth", "action-adventure"],
+            "franchise": "hitman",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "gog",
+            "name": "GOG",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The original Splinter Cell and Hitman are among 16 new games added to GOG's Preservation Program."
+    },
+    {
+      "ref": "business/multiversus-directors-form-new-studio-airlock-games-in-respo",
+      "entities": {
+        "games": [
+          {
+            "id": "multiversus",
+            "name": "MultiVersus",
+            "aliases": [],
+            "genres": ["fighting", "platformer"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "airlock-games",
+            "name": "Airlock Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "MultiVersus directors have formed a new studio, Airlock Games, in response to the complexity of AAA games, with a 16-bit space horror game as their first title."
+    },
+    {
+      "ref": "business/remedy-not-satisfied-with-q3-results-developer-records-opera",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": ["Remedy"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "operating_income",
+          "value": -16400000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-10-29",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "operating loss of €16.4 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-not-satisfied-with-q3-results"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 12200000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-10-29",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "revenue down 32% to €12.2 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-not-satisfied-with-q3-results"
+          }
+        }
+      ],
+      "summary": "Remedy said it was not satisfied with its Q3 results, recording an operating loss of €16.4 million and revenue down 32% to €12.2 million."
+    },
+    {
+      "ref": "business/former-lionsgate-games-creative-director-amanda-kruse-joins",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "blumhouse-games",
+            "name": "Blumhouse Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "lionsgate-games",
+            "name": "Lionsgate Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "amanda-kruse",
+            "name": "Amanda Kruse",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former Lionsgate Games creative director Amanda Kruse has joined Blumhouse Games."
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "date": "2025-09-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/palworld-will-leave-early-access-in-2026-with-a-massive-upda",
+      "entities": {
+        "games": [{ "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world", "creature-collector"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "early-access", "update-patch"],
+      "facts": [],
+      "summary": "Palworld will leave Early Access in 2026 with a 'massive update' planned for its version 1.0 release."
+    },
+    {
+      "ref": "main_news/new-ps5-system-update-finally-makes-using-a-dualsense-contro",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "dualsense", "name": "DualSense", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "hardware"],
+      "facts": [],
+      "summary": "A new PS5 system update makes using a DualSense controller across multiple devices less of a hassle."
+    },
+    {
+      "ref": "main_news/asset-marketplace-fab-is-now-accessible-in-the-epic-games-la",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "fab", "name": "Fab", "aliases": [], "inferred": false },
+          { "id": "epic-games-launcher", "name": "Epic Games Launcher", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Epic's asset marketplace Fab is now accessible directly within the Epic Games Launcher."
+    },
+    {
+      "ref": "main_news/godot-4-5-ushers-in-accessibility-features-including-screen",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "godot", "name": "Godot", "aliases": ["Godot 4.5"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["update-patch", "release"],
+      "facts": [],
+      "summary": "Godot 4.5 introduces accessibility features, including screen reader support."
+    },
+    {
+      "ref": "main_news/valheim-coming-to-playstation-in-2026",
+      "entities": {
+        "games": [{ "id": "valheim", "name": "Valheim", "aliases": [], "genres": ["survival", "open-world", "sandbox"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "iron-gate-studio", "name": "Iron Gate Studio", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Valheim is coming to PlayStation in 2026, possibly alongside the game's long-awaited 1.0 release."
+    },
+    {
+      "ref": "main_news/hollow-knight-silksong-s-second-patch-detailed-but-don-t-exp",
+      "entities": {
+        "games": [{ "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }],
+        "studios": [{ "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Hollow Knight: Silksong's second patch has been detailed and consists mostly of bug fixes rather than balance tweaks."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-s-remaining-games",
+      "entities": {
+        "games": [
+          { "id": "roadcraft", "name": "Roadcraft", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "call-of-duty-modern-warfare-3", "name": "Call of Duty: Modern Warfare 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "for-the-king-2", "name": "For the King 2", "aliases": [], "genres": ["strategy", "rpg"], "franchise": "for-the-king", "inferred": true },
+          { "id": "overthrown", "name": "Overthrown", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "deep-rock-galactic-survivor", "name": "Deep Rock Galactic: Survivor", "aliases": [], "genres": ["roguelike", "survival"], "franchise": "deep-rock-galactic", "inferred": true },
+          { "id": "frostpunk-2", "name": "Frostpunk 2", "aliases": [], "genres": ["strategy", "survival", "simulation"], "franchise": "frostpunk", "inferred": true },
+          { "id": "wobbly-life", "name": "Wobbly Life", "aliases": [], "genres": ["sandbox", "party"], "franchise": null, "inferred": true },
+          { "id": "hades", "name": "Hades", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true },
+          { "id": "endless-legend-2", "name": "Endless Legend 2", "aliases": [], "genres": ["strategy", "4x", "turn-based-strategy"], "franchise": "endless", "inferred": true },
+          { "id": "sworn", "name": "Sworn", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "peppa-pig-world-adventures", "name": "Peppa Pig: World Adventures", "aliases": [], "genres": ["adventure"], "franchise": "peppa-pig", "inferred": true },
+          { "id": "visions-of-mana", "name": "Visions of Mana", "aliases": [], "genres": ["action-rpg"], "franchise": "mana", "inferred": true },
+          { "id": "lara-croft-and-the-guardian-of-light", "name": "Lara Croft and the Guardian of Light", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "sopa-tale-of-the-stolen-potato", "name": "Sopa: Tale of the Stolen Potato", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "cities-skylines-remastered", "name": "Cities: Skylines: Remastered", "aliases": ["Cities: Skyline: Remastered"], "genres": ["simulation", "strategy"], "franchise": "cities-skylines", "inferred": true },
+          { "id": "disney-dreamlight-valley", "name": "Disney Dreamlight Valley", "aliases": [], "genres": ["life-sim", "adventure"], "franchise": null, "inferred": true },
+          { "id": "warhammer-40000-darktide", "name": "Warhammer 40,000: Darktide", "aliases": [], "genres": ["fps", "shooter"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "ninja-gaiden-sigma", "name": "Ninja Gaiden Sigma", "aliases": [], "genres": ["action-adventure", "fighting"], "franchise": "ninja-gaiden", "inferred": true },
+          { "id": "ninja-gaiden-sigma-2", "name": "Ninja Gaiden Sigma 2", "aliases": [], "genres": ["action-adventure", "fighting"], "franchise": "ninja-gaiden", "inferred": true },
+          { "id": "ninja-gaiden-3-razors-edge", "name": "Ninja Gaiden 3: Razor's Edge", "aliases": [], "genres": ["action-adventure", "fighting"], "franchise": "ninja-gaiden", "inferred": true },
+          { "id": "terra-invicta", "name": "Terra Invicta", "aliases": [], "genres": ["strategy", "4x"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["XBox Game Pass'"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-17", "unit": "date", "currency": null,
+          "entity": "call-of-duty-modern-warfare-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Call of Duty: Modern Warfare 3 (Console) – September 17, now on Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-17", "unit": "date", "currency": null,
+          "entity": "for-the-king-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "For the King 2 (Console) – September 17, now on Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-17", "unit": "date", "currency": null,
+          "entity": "overthrown", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Overthrown (Xbox Series X/S) – September 17, now on Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-17", "unit": "date", "currency": null,
+          "entity": "deep-rock-galactic-survivor", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Deep Rock Galactic: Survivor (Xbox Series X/S, PC, Cloud) – September 17, Game Pass Ultimate / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-18", "unit": "date", "currency": null,
+          "entity": "frostpunk-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Frostpunk 2 (Xbox Series X/S, Cloud) – September 18, Game Pass Ultimate",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-18", "unit": "date", "currency": null,
+          "entity": "wobbly-life", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Wobbly Life (Xbox Series X/S, PC, Cloud) – September 18, Game Pass Ultimate / Standard / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-19", "unit": "date", "currency": null,
+          "entity": "hades", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Hades (Console, PC, Cloud) – September 19, Game Pass Ultimate / Standard / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-22", "unit": "date", "currency": null,
+          "entity": "endless-legend-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Endless Legend 2 (PC) – September 22, Game Pass Ultimate / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-23", "unit": "date", "currency": null,
+          "entity": "sworn", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sworn (Xbox Series X/S, PC, Cloud) – September 23, Game Pass Ultimate / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-25", "unit": "date", "currency": null,
+          "entity": "peppa-pig-world-adventures", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Peppa Pig: World Adventures (Xbox Series X/S, PC, Cloud) – September 25, Game Pass Ultimate / Standard / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-25", "unit": "date", "currency": null,
+          "entity": "visions-of-mana", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Visions of Mana (Xbox Series X/S, PC, Cloud) – September 25, Game Pass Ultimate / Standard / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-09-30", "unit": "date", "currency": null,
+          "entity": "lara-croft-and-the-guardian-of-light", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lara Croft and the Guardian of Light (Console, PC, Cloud) – September 30, Game Pass Ultimate / Standard / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-10-07", "unit": "date", "currency": null,
+          "entity": "sopa-tale-of-the-stolen-potato", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sopa: Tale of the Stolen Potato (Console, PC, Cloud) – October 7, Game Pass Ultimate / PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-10-01", "unit": "date", "currency": null,
+          "entity": "cities-skylines-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Cities: Skyline: Remastered – October 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-10-01", "unit": "date", "currency": null,
+          "entity": "disney-dreamlight-valley", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Disney Dreamlight Valley – October 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "release_date", "value": "2025-10-01", "unit": "date", "currency": null,
+          "entity": "warhammer-40000-darktide", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Warhammer 40,000: Darktide – October 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } },
+        { "metric": "shutdown_date", "value": "2025-09-30", "unit": "date", "currency": null,
+          "entity": "ninja-gaiden-sigma", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving on September 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-passs-remaining-september-games-include-visions-of-mana-frostpunk-2-and-the-return-of-hades/" } }
+      ],
+      "summary": "VGC details Xbox Game Pass's remaining September additions, including Roadcraft, Frostpunk 2, Hades, and Visions of Mana, plus titles leaving the service on September 30."
+    },
+    {
+      "ref": "business/hollow-knight-silksong-is-reportedly-already-about-a-third-o",
+      "entities": {
+        "games": [{ "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }],
+        "studios": [{ "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "rumour"],
+      "facts": [],
+      "summary": "Hollow Knight: Silksong is reportedly already about a third of the way to the original game's total sales, with Steam leading the charge."
+    },
+    {
+      "ref": "business/tanglewood-games-calls-for-more-support-to-develop-game-hubs",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "tanglewood-games", "name": "Tanglewood Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Tanglewood Games is calling for more support to develop game hubs in the North of England and across the UK."
+    },
+    {
+      "ref": "business/trade-body-calls-for-stronger-tax-credits-to-support-disadva",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "A trade body is calling for stronger tax credits to support what it describes as a \"disadvantaged\" UK games industry."
+    },
+    {
+      "ref": "business/valve-updates-steam-to-make-it-easier-for-devs-to-assess-how",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Valve has updated Steam to make it easier for developers to assess how discounts impact their sales."
+    },
+    {
+      "ref": "business/video-game-tv-adaptations-boost-player-numbers-140-on-averag",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A new report says video game TV adaptations boost player numbers by 140% on average."
+    },
+    {
+      "ref": "business/as-playstation-physical-game-sales-drop-it-s-no-wonder-sony",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [{ "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "As PlayStation physical game sales drop, the trend helps explain Sony's push toward digital-only consoles, with physical sales having dropped 6% back in 2020."
+    },
+    {
+      "ref": "business/darrell-gallagher-leaves-xbox-following-the-initiative-s-clo",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "the-initiative", "name": "The Initiative", "aliases": [], "publisher": "microsoft", "inferred": true }],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": [{ "id": "darrell-gallagher", "name": "Darrell Gallagher", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change", "studio-closure"],
+      "facts": [],
+      "summary": "Darrell Gallagher is leaving Xbox following the closure of The Initiative."
+    }
+  ]
+}

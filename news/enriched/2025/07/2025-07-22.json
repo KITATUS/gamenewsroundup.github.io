@@ -1,0 +1,90 @@
+{
+  "date": "2025-07-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/tomb-raider-composer-faces-16-months-in-jail-over-covid-loan",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider-the-last-revelation", "name": "Tomb Raider: The Last Revelation", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "tomb-raider-chronicles", "name": "Tomb Raider: Chronicles", "aliases": ["Chronicles"], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "tomb-raider-the-angel-of-darkness", "name": "Tomb Raider: The Angel of Darkness", "aliases": ["The Angel of Darkness"], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "peter-connelly", "name": "Peter Connelly", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Tomb Raider composer Peter Connelly faces 16 months in jail over Covid loan fraud."
+    },
+    {
+      "ref": "main_news/atari-announces-special-console-and-atari-50-dlc-for-pac-man",
+      "entities": {
+        "games": [
+          { "id": "pac-man", "name": "Pac-Man", "aliases": [], "genres": ["arcade"], "franchise": "pac-man", "inferred": true },
+          { "id": "atari-50", "name": "Atari 50", "aliases": [], "genres": ["party"], "franchise": "atari-50", "inferred": true },
+          { "id": "pac-man-2600", "name": "Pac-Man 2600", "aliases": [], "genres": ["arcade"], "franchise": "pac-man", "inferred": true },
+          { "id": "galaga", "name": "Galaga", "aliases": [], "genres": ["shooter"], "franchise": "galaga", "inferred": true },
+          { "id": "dig-dug", "name": "Dig Dug", "aliases": [], "genres": ["arcade"], "franchise": "dig-dug", "inferred": true },
+          { "id": "xevious", "name": "Xevious", "aliases": [], "genres": ["shooter"], "franchise": "xevious", "inferred": true },
+          { "id": "galaxian", "name": "Galaxian", "aliases": [], "genres": ["shooter"], "franchise": "galaxian", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware", "dlc-expansion"],
+      "facts": [],
+      "summary": "Atari announced a special console and Atari 50 DLC for Pac-Man's anniversary, with the DLC including Pac-Man 2600, Galaga, Dig Dug, Xevious, Galaxian, and more."
+    },
+    {
+      "ref": "main_news/the-pok-mon-company-will-hold-a-pok-mon-presents-presentatio",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon Company"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-07-22", "unit": "date", "currency": null,
+          "entity": "pokemon-presents", "entity_type": "product", "scope": "event",
+          "as_of": "2025-07-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will hold a Pokémon Presents presentation today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/tuesdays-pokemon-presents-will-be-the-longest-pokemon-broadcast-since-2023/" } }
+      ],
+      "summary": "The Pokémon Company will hold a Pokémon Presents presentation today at 6 a.m. PT / 9 a.m. ET / 2pm UK Time."
+    },
+    {
+      "ref": "business/still-wakes-the-deep-studio-the-chinese-room-regains-indepen",
+      "entities": {
+        "games": [
+          { "id": "still-wakes-the-deep", "name": "Still Wakes the Deep", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-chinese-room", "name": "The Chinese Room", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "sumo-digital", "name": "Sumo Digital", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Still Wakes the Deep studio The Chinese Room has regained independence from Sumo Digital and is working on two original IPs, with layoffs confirmed as part of the split."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2025-05-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cyberpunk-2-formally-project-orion-is-now-in-preproduction-c",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2", "name": "Cyberpunk 2", "aliases": ["Project Orion"], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": ["CD Projekt"], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "CD Projekt says Cyberpunk 2, formerly codenamed \"Project Orion\", is now in preproduction."
+    },
+    {
+      "ref": "main_news/a-death-stranding-anime-is-in-the-works-hideo-kojima-confirm",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Hideo Kojima confirmed that a Death Stranding anime is in the works."
+    },
+    {
+      "ref": "business/ea-has-cancelled-its-black-panther-game-and-closed-its-studi",
+      "entities": {
+        "games": [
+          { "id": "black-panther", "name": "Black Panther", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "cliffhanger-games", "name": "Cliffhanger Games", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "EA has cancelled its Black Panther game and closed the studio developing it, Cliffhanger Games."
+    },
+    {
+      "ref": "business/amplitude-studios-raises-over-13-million-in-series-a-funding",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "amplitude-studios", "name": "Amplitude Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 13000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "amplitude-studios",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-05-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Amplitude Studios raises over $13 million in Series A funding",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/amplitude-studios-raises-over-13-million-in-series-a-funding" }
+        }
+      ],
+      "summary": "Amplitude Studios raised over $13 million in a Series A funding round."
+    },
+    {
+      "ref": "business/cyberpunk-2077-phantom-liberty-has-sold-10-million-copies",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077-phantom-liberty", "name": "Cyberpunk 2077: Phantom Liberty", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 10000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "cyberpunk-2077-phantom-liberty",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-29",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cyberpunk 2077: Phantom Liberty Has Sold 10 Million Copies",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/CyberpunkGame/status/1927750279316779154" }
+        }
+      ],
+      "summary": "Cyberpunk 2077: Phantom Liberty has sold 10 million copies."
+    },
+    {
+      "ref": "business/the-witcher-3-wild-hunt-has-sold-60-million-copies",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-3-wild-hunt", "name": "The Witcher 3: Wild Hunt", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 60000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "the-witcher-3-wild-hunt",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-29",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Witcher 3: Wild Hunt has sold 60 million copies",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/thewitcher/status/1927749997971259697" }
+        }
+      ],
+      "summary": "The Witcher 3: Wild Hunt has sold 60 million copies."
+    }
+  ]
+}

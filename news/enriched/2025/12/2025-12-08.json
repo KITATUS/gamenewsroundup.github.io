@@ -1,0 +1,263 @@
+{
+  "date": "2025-12-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/suda51-says-found-footage-horror-michigan-report-from-hell-h",
+      "entities": {
+        "games": [
+          {
+            "id": "michigan-report-from-hell",
+            "name": "Michigan: Report From Hell",
+            "aliases": [],
+            "genres": ["horror"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "suda51",
+            "name": "Suda51",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Suda51 said the found-footage horror game Michigan: Report From Hell is something he has been wanting to return to for a while."
+    },
+    {
+      "ref": "main_news/fallout-co-creator-tim-cain-s-rejoined-obsidian-full-time-to",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "obsidian-entertainment",
+            "name": "Obsidian Entertainment",
+            "aliases": ["Obsidian"],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "tim-cain",
+            "name": "Tim Cain",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Fallout co-creator Tim Cain has rejoined Obsidian full-time to work on an unannounced game while continuing his YouTube videos."
+    },
+    {
+      "ref": "business/ps5-reigns-supreme-over-black-friday-accounting-for-62-of-al",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": ["PlayStation 5"],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [],
+      "summary": "PS5 led Black Friday with 62% of all console sales while the Nintendo Switch 2 accounted for 23% of all hardware sales, according to NielsenIQ and GSD data."
+    },
+    {
+      "ref": "business/iam8bit-sues-skybound-games-for-4m-claiming-breach-of-contra",
+      "entities": {
+        "games": [
+          {
+            "id": "stray",
+            "name": "Stray",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "iam8bit",
+            "name": "iam8bit",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "skybound-games",
+            "name": "Skybound Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 4000000,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "iam8bit",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-12-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "iam8bit sues Skybound Games for $4m",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/iam8bit-sues-skybound-games-for-4m-claiming-breach-of-contract-and-theft-of-designs"
+          }
+        }
+      ],
+      "summary": "iam8bit is suing Skybound Games for $4m, alleging breach of contract, theft of designs, and use of trade secrets to cut it out of a Stray deal."
+    },
+    {
+      "ref": "business/elden-ring-nightreign-s-the-forsaken-hollows-dlc-has-shipped",
+      "entities": {
+        "games": [
+          {
+            "id": "elden-ring-nightreign",
+            "name": "Elden Ring Nightreign",
+            "aliases": [],
+            "genres": ["action-rpg", "soulslike"],
+            "franchise": "elden-ring",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "fromsoftware",
+            "name": "FromSoftware",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 2000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "elden-ring-nightreign",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-12-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The Forsaken Hollows DLC has shipped over 2 million units worldwide",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/fromsoftware_pr/status/1997093640531845606"
+          }
+        }
+      ],
+      "summary": "Elden Ring Nightreign's The Forsaken Hollows DLC has shipped over 2 million units worldwide."
+    },
+    {
+      "ref": "business/netflix-has-agreed-to-buy-warner-bros-including-game-develop",
+      "entities": {
+        "games": [
+          {
+            "id": "mortal-kombat",
+            "name": "Mortal Kombat",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "mortal-kombat",
+            "inferred": true
+          },
+          {
+            "id": "hogwarts-legacy",
+            "name": "Hogwarts Legacy",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rocksteady-studios",
+            "name": "Rocksteady",
+            "aliases": ["Rocksteady"],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          },
+          {
+            "id": "tt-games",
+            "name": "TT Games",
+            "aliases": [],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          },
+          {
+            "id": "netherrealm-studios",
+            "name": "NetherRealm Studios",
+            "aliases": ["Netherrealm Studios"],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "warner-bros",
+            "name": "Warner Bros",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Netflix has agreed to buy Warner Bros, which, if approved, would give it ownership of game developers including Rocksteady, TT Games and NetherRealm Studios."
+    }
+  ]
+}

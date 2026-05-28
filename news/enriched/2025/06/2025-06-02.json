@@ -1,0 +1,127 @@
+{
+  "date": "2025-06-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dynasty-warriors-producer-says-the-series-still-can-t-be-cal",
+      "entities": {
+        "games": [
+          { "id": "dynasty-warriors-origins", "name": "Dynasty Warriors: Origins", "aliases": [], "genres": ["action-adventure"], "franchise": "dynasty-warriors", "inferred": true }
+        ],
+        "studios": [
+          { "id": "omega-force", "name": "Omega Force", "aliases": [], "publisher": "koei-tecmo", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "koei-tecmo", "name": "Koei Tecmo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "dynasty-warriors-origins", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-02", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Dynasty Warriors: Origins, has sold more than 1 million copies worldwide",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/dynasty-warriors-producer-says-the-series-still-cant-be-called-a-success-in-the-west/" } }
+      ],
+      "summary": "The Dynasty Warriors producer says the series still cannot be called a success in the West, even though Dynasty Warriors: Origins has sold more than 1 million copies worldwide."
+    },
+    {
+      "ref": "business/people-can-fly-suspends-two-projects-announces-layoffs",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "People Can Fly suspended two projects, including Project Gemini for Square Enix and the VR title Bifrost, and announced layoffs affecting an unknown number of employees."
+    },
+    {
+      "ref": "business/zenimax-workers-united-reaches-tentative-agreement-with-micr",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false },
+          { "id": "zenimax", "name": "ZeniMax", "aliases": ["ZeniMax Workers United"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "ZeniMax Workers United reached a tentative agreement with Microsoft that includes a 13.5% wage increase, new minimum salaries, and protections against arbitrary dismissal for QA developers."
+    },
+    {
+      "ref": "business/multiversus-officially-closed-and-delisted",
+      "entities": {
+        "games": [
+          { "id": "multiversus", "name": "MultiVersus", "aliases": [], "genres": ["fighting", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "player-first-games", "name": "Player First Games", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [],
+      "summary": "MultiVersus has officially closed down and been delisted."
+    },
+    {
+      "ref": "business/playtonic-confirms-layoffs-the-landscape-is-shifting-and-wit",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "playtonic", "name": "Playtonic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Playtonic confirmed layoffs affecting an unknown number of employees, saying 'The landscape is shifting, and with it, so must we'."
+    },
+    {
+      "ref": "business/elden-ring-nightreign-sells-2-million-copies-on-day-one-as-a",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightreign", "name": "Elden Ring Nightreign", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "bandai-namco-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "bandai-namco-entertainment", "name": "Bandai Namco Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "update-patch"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "copies", "currency": null,
+          "entity": "elden-ring-nightreign", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Elden Ring Nightreign sells 2 million copies on day one",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/elden-ring-nightreign-sells-2-million-copies-on-day-one-as-a-patch-for-easier-solo-play-is-announced/" } }
+      ],
+      "summary": "Elden Ring Nightreign sold 2 million copies on its first day, and a patch to make solo play easier was announced."
+    }
+  ]
+}

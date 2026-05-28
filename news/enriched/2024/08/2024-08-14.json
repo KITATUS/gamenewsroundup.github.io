@@ -1,0 +1,190 @@
+{
+  "date": "2024-08-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/helldivers-2-studio-reveals-60-day-plan-of-action-following",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The Helldivers 2 studio revealed a 60-day plan of action in response to player outcry over a recent patch."
+    },
+    {
+      "ref": "main_news/playstation-lays-out-concord-live-service-roadmap-commits-to",
+      "entities": {
+        "games": [
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "PlayStation laid out a live-service roadmap for Concord, committing to at least three seasons."
+    },
+    {
+      "ref": "main_news/wayforward-is-turning-halloween-and-ash-vs-evil-dead-into-16",
+      "entities": {
+        "games": [
+          { "id": "retrorealms-halloween", "name": "RetroRealms: Halloween", "aliases": ["Halloween"], "genres": ["platformer", "action-adventure"], "franchise": "retrorealms", "inferred": true },
+          { "id": "retrorealms-ash-vs-evil-dead", "name": "RetroRealms: Ash vs Evil Dead", "aliases": ["Ash vs Evil Dead"], "genres": ["platformer", "action-adventure"], "franchise": "retrorealms", "inferred": true }
+        ],
+        "studios": [
+          { "id": "wayforward", "name": "WayForward", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "boss-team-games", "name": "Boss Team Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "price", "value": 24.99, "unit": "price", "currency": "USD",
+          "entity": "retrorealms-halloween", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Each game will cost $24.99 digitally",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/wayforward-is-turning-halloween-and-ash-vs-evil-dead-into-16-bit-style-platformers/" } },
+        { "metric": "price", "value": 49.99, "unit": "price", "currency": "USD",
+          "entity": "retrorealms-halloween", "entity_type": "game", "scope": "product",
+          "as_of": "2024-08-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "can be purchased physically as a two-in-one release for $49.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/wayforward-is-turning-halloween-and-ash-vs-evil-dead-into-16-bit-style-platformers/" } }
+      ],
+      "summary": "WayForward is turning Halloween and Ash vs Evil Dead into 16-bit style platformers, released as RetroRealms titles."
+    },
+    {
+      "ref": "main_news/alien-romulus-pays-tribute-to-alien-isolation-with-a-telepho",
+      "entities": {
+        "games": [
+          { "id": "alien-isolation", "name": "Alien Isolation", "aliases": [], "genres": ["survival-horror", "stealth"], "franchise": "alien", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The director of Alien: Romulus said the film pays tribute to Alien Isolation with a telephone easter egg."
+    },
+    {
+      "ref": "business/games-industry-veterans-have-formed-the-sustainable-games-al",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "david-helgason", "name": "David Helgason", "aliases": [], "inferred": false },
+          { "id": "petri-jarvilehto", "name": "Petri Järvilehto", "aliases": [], "inferred": false },
+          { "id": "maria-wagner", "name": "Maria Wagner", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "regulation"],
+      "facts": [],
+      "summary": "Games industry veterans formed the Sustainable Games Alliance, a non-profit aiming to help the games industry become more sustainable."
+    },
+    {
+      "ref": "business/owlcat-games-expands-into-publishing",
+      "entities": {
+        "games": [
+          { "id": "pathfinder-wrath-of-the-righteous", "name": "Pathfinder: Wrath of the Righteous", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "pathfinder", "inferred": true }
+        ],
+        "studios": [
+          { "id": "owlcat-games", "name": "Owlcat Games", "aliases": ["Owlcat"], "publisher": null, "inferred": false },
+          { "id": "emotion-spark-studio", "name": "Emotion Spark Studio", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "another-angle-games", "name": "Another Angle Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "meta-publishing", "name": "META Publishing", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "partnership"],
+      "facts": [],
+      "summary": "Owlcat Games expanded into publishing, signing two RPGs and assuming control of META Publishing."
+    },
+    {
+      "ref": "business/marvelous-usa-and-xseed-games-to-operate-as-separate-publish",
+      "entities": {
+        "games": [
+          { "id": "the-big-catch", "name": "The Big Catch", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "moonlight-peaks", "name": "Moonlight Peaks", "aliases": [], "genres": ["life-sim"], "franchise": null, "inferred": true },
+          { "id": "story-of-seasons", "name": "Story of Seasons", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "story-of-seasons", "inferred": true },
+          { "id": "rune-factory", "name": "Rune Factory", "aliases": ["Rune Factor"], "genres": ["action-rpg", "life-sim"], "franchise": "rune-factory", "inferred": true },
+          { "id": "naruto-emblem-battle", "name": "Naruto Emblem Battle", "aliases": [], "genres": [], "franchise": "naruto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "marvelous-usa", "name": "Marvelous USA", "aliases": [], "inferred": false },
+          { "id": "xseed-games", "name": "Xseed Games", "aliases": ["Xseed"], "inferred": false },
+          { "id": "marvelous", "name": "Marvelous", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Marvelous USA and Xseed Games will operate as separate publishing labels as parent company Marvelous takes a more holistic view of its Western offerings."
+    },
+    {
+      "ref": "business/keywords-acquires-wushu-studios",
+      "entities": {
+        "games": [
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "fall-guys", "name": "Fall Guys", "aliases": [], "genres": ["party", "platformer"], "franchise": null, "inferred": true },
+          { "id": "forza-horizon-5", "name": "Forza Horizon 5", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true },
+          { "id": "the-ascent", "name": "The Ascent", "aliases": [], "genres": ["action-rpg", "tps"], "franchise": null, "inferred": true },
+          { "id": "state-of-decay-2", "name": "State of Decay 2", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": "state-of-decay", "inferred": true }
+        ],
+        "studios": [
+          { "id": "wushu-studios", "name": "Wushu Studios", "aliases": ["Wushu"], "publisher": null, "inferred": false },
+          { "id": "keywords-studios", "name": "Keywords Studios", "aliases": ["Keywords"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "alan-mcdermott", "name": "Alan McDermott", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Keywords acquired Liverpool-based Wushu Studios, a work-for-hire and porting studio founded in 2017, for an undisclosed sum."
+    },
+    {
+      "ref": "business/ethical-games-looking-to-craft-industrywide-ethics-code-seek",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ethical-games", "name": "Ethical Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ethical Games is seeking developer input to craft an industrywide code of ethics."
+    }
+  ]
+}

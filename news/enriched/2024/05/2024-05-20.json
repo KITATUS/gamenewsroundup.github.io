@@ -1,0 +1,123 @@
+{
+  "date": "2024-05-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/redfall-will-receive-a-final-update-adding-offline-play",
+      "entities": {
+        "games": [
+          { "id": "redfall", "name": "Redfall", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "arkane-austin", "name": "Arkane Austin", "aliases": ["Arkane"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Redfall will receive a final update adding offline play, revamped Neighborhood and Nest systems, single player pausing and more."
+    },
+    {
+      "ref": "main_news/fallout-is-coming-to-fortnite",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Fallout is coming to Fortnite as a crossover."
+    },
+    {
+      "ref": "main_news/hades-2-in-early-access-at-least-through-the-end-of-this-yea",
+      "entities": {
+        "games": [
+          { "id": "hades-2", "name": "Hades 2", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supergiant-games", "name": "Supergiant Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["early-access"],
+      "facts": [],
+      "summary": "Hades 2's creative director says the game will remain in early access at least through the end of this year."
+    },
+    {
+      "ref": "business/ghost-of-tsushima-becomes-playstation-s-biggest-single-playe",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-tsushima", "name": "Ghost of Tsushima", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "concurrent_players", "value": 73000, "unit": "players", "currency": null,
+          "entity": "ghost-of-tsushima", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The game has attracted over 73,000 concurrent players",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ghost-of-tsushima-is-playstations-fourth-biggest-steam-launch/" } },
+        { "metric": "peak_concurrent_players", "value": 458000, "unit": "players", "currency": null,
+          "entity": "helldivers-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "multiplayer phenomenon Helldivers 2, with a whopping 458,000 peak",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ghost-of-tsushima-is-playstations-fourth-biggest-steam-launch/" } }
+      ],
+      "summary": "Ghost of Tsushima became PlayStation's biggest single-player launch on PC, attracting over 73,000 concurrent players."
+    },
+    {
+      "ref": "rumours/total-war-star-wars-reportedly-in-development-at-creative-as",
+      "entities": {
+        "games": [
+          { "id": "total-war-star-wars", "name": "Total War: Star Wars", "aliases": [], "genres": ["strategy", "rts", "turn-based-strategy"], "franchise": "total-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "creative-assembly", "name": "Creative Assembly", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "rumour"],
+      "facts": [],
+      "summary": "Total War: Star Wars is reportedly in development at Creative Assembly."
+    },
+    {
+      "ref": "rumours/player1-reportedly-lays-off-staff-closes-down-insomnia-gamin",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "player1", "name": "Player1", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Player1 reportedly laid off staff and closed down the Insomnia Gaming Festival."
+    }
+  ]
+}

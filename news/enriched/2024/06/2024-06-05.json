@@ -1,0 +1,129 @@
+{
+  "date": "2024-06-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hitman-3-vr-reloaded-launches-this-summer-as-a-meta-quest-3",
+      "entities": {
+        "games": [
+          { "id": "hitman-3-vr-reloaded", "name": "Hitman 3 VR: Reloaded", "aliases": ["Hitman 3 VR Reloaded"], "genres": ["stealth", "action-adventure"], "franchise": "hitman", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "meta-quest-3", "name": "Meta Quest 3", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [],
+      "summary": "Hitman 3 VR: Reloaded will launch this summer as a Meta Quest 3 exclusive."
+    },
+    {
+      "ref": "main_news/octopath-traveler-2-reportedly-coming-to-xbox-windows-pc-and",
+      "entities": {
+        "games": [
+          { "id": "octopath-traveler-2", "name": "Octopath Traveler 2", "aliases": [], "genres": ["jrpg", "turn-based-strategy"], "franchise": "octopath-traveler", "inferred": true }
+        ],
+        "studios": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "windows-pc", "name": "Windows PC", "aliases": ["Windows", "PC"], "inferred": false },
+          { "id": "game-pass", "name": "Game Pass", "aliases": ["Xbox Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "subscription"],
+      "facts": [],
+      "summary": "Octopath Traveler 2 is reportedly coming to Xbox, Windows PC and Game Pass this month."
+    },
+    {
+      "ref": "free_games_subscription/june-s-first-wave-of-playstation-plus-games-have-been-releas",
+      "entities": {
+        "games": [
+          { "id": "ghostbusters-rise-of-the-ghost-lord", "name": "Ghostbusters: Rise of the Ghost Lord", "aliases": [], "genres": ["action-adventure", "shooter"], "franchise": "ghostbusters", "inferred": true },
+          { "id": "walkabout-mini-golf", "name": "Walkabout Mini Golf", "aliases": [], "genres": ["sports", "simulation"], "franchise": null, "inferred": true },
+          { "id": "synth-riders", "name": "Synth Riders", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true },
+          { "id": "before-your-eyes", "name": "Before Your Eyes", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "the-walking-dead-saints-sinners-chapters-1-2", "name": "The Walking Dead: Saints & Sinners – Chapters 1 & 2", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "the-walking-dead", "inferred": true },
+          { "id": "tomb-raider-legend", "name": "Tomb Raider Legend", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "star-wars-the-clone-wars", "name": "Star Wars: The Clone Wars", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true },
+          { "id": "sly-cooper-and-the-thievius-raccoonus", "name": "Sly Cooper and the Thievius Raccoonus", "aliases": [], "genres": ["platformer", "stealth"], "franchise": "sly-cooper", "inferred": true },
+          { "id": "dredge", "name": "Dredge", "aliases": [], "genres": ["adventure", "horror"], "franchise": null, "inferred": true },
+          { "id": "lego-marvel-super-heroes-2", "name": "Lego Marvel Super Heroes 2", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "cricket-24", "name": "Cricket 24", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "grand-theft-auto-san-andreas-the-definitive-edition", "name": "Grand Theft Auto: San Andreas – The Definitive Edition", "aliases": ["GTA: San Andreas Definitive Edition"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation 4"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-06-05", "unit": "date", "currency": null,
+          "entity": "cricket-24", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "June 5: Cricket 24 (PS4, PS5)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-essential-games-are-now-available-to-claim-2/" } },
+        { "metric": "release_date", "value": "2024-06-07", "unit": "date", "currency": null,
+          "entity": "grand-theft-auto-san-andreas-the-definitive-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "June 7: Grand Theft Auto: San Andreas – The Definitive Edition (PS4, PS5)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-essential-games-are-now-available-to-claim-2/" } }
+      ],
+      "summary": "June's first wave of PlayStation Plus games has been released."
+    },
+    {
+      "ref": "business/dead-by-daylight-studio-behaviour-is-laying-off-up-to-95-emp",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": ["Behaviour"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 95, "unit": "employees", "currency": null,
+          "entity": "behaviour-interactive", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-06-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Behaviour is laying off up to 95 employees",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dead-by-daylight-studio-behaviour-is-laying-off-up-to-95-employees/" } }
+      ],
+      "summary": "Dead by Daylight studio Behaviour is laying off up to 95 employees, around 7% of its staff, most based in Montreal."
+    },
+    {
+      "ref": "business/ikea-will-pay-players-an-hourly-wage-to-work-in-its-virtual",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Ikea will pay 10 successful applicants the London living wage to work in its virtual Roblox store."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "date": "2024-07-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ea-is-sunsetting-three-last-gen-battlefield-games",
+      "entities": {
+        "games": [
+          { "id": "battlefield-3", "name": "Battlefield 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "battlefield-4", "name": "Battlefield 4", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "battlefield-hardline", "name": "Battlefield: Hardline", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-360", "name": "Xbox 360", "aliases": [], "inferred": false },
+          { "id": "playstation-3", "name": "PlayStation 3", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-11-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "battlefield-3",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Online services go offline November 7th 2024.",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/BattlefieldComm/status/1806689437352341764" }
+        }
+      ],
+      "summary": "EA is sunsetting three last-gen Battlefield games, removing them from digital storefronts on 31 July 2024 and shutting down their online services on 7 November 2024."
+    },
+    {
+      "ref": "main_news/dungeons-dragons-rules-update-includes-changes-prompted-by-g",
+      "entities": {
+        "games": [
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["rpg", "crpg"], "franchise": "baldurs-gate", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "wizards-of-the-coast", "name": "Wizards of the Coast", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A Dungeons & Dragons rules update includes changes prompted by the game's lead designer playing Baldur's Gate 3."
+    },
+    {
+      "ref": "main_news/playstation-stars-loyalty-scheme-returning-after-a-month-of",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PSN"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The PlayStation Stars loyalty scheme is returning via phased regional rollouts after a month of unavailability since early June."
+    },
+    {
+      "ref": "main_news/nintendo-sues-switch-modchip-seller-and-switch-piracy-reddit",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": [
+          { "id": "ryan-daly", "name": "Ryan Daly", "aliases": [], "inferred": false },
+          { "id": "james-williams", "name": "James Williams", "aliases": ["Archbox"], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo has sued Switch modchip seller Ryan Daly, who operates a store called Modded Hardware, and r/SwitchPirates moderator Archbox, whose real name is James Williams."
+    },
+    {
+      "ref": "main_news/multiversus-update-adds-agent-smith-free-for-all-and-spectat",
+      "entities": {
+        "games": [
+          { "id": "multiversus", "name": "MultiVersus", "aliases": [], "genres": ["fighting", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A MultiVersus update (version 1.05) adds Agent Smith, free-for-all and spectator mode, makes rifts easier and rebalances fighters."
+    },
+    {
+      "ref": "free_games_subscription/july-s-playstation-plus-essential-games-are-now-live",
+      "entities": {
+        "games": [
+          { "id": "borderlands-3", "name": "Borderlands 3", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true },
+          { "id": "nhl-24", "name": "NHL 24", "aliases": [], "genres": ["sports"], "franchise": "nhl", "inferred": true },
+          { "id": "among-us", "name": "Among Us", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true },
+          { "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-08-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-plus-essential",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Members have until August 6 to add these titles to their game library.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/julys-playstation-plus-essential-games-are-now-live/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "genshin-impact",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "claim the exclusive Genshin Impact PlayStation Plus Pack starting on July 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/julys-playstation-plus-essential-games-are-now-live/" }
+        }
+      ],
+      "summary": "July's PlayStation Plus Essential games are now live: Borderlands 3, NHL 24 and Among Us, available to add until 6 August 2024."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been",
+      "entities": {
+        "games": [
+          { "id": "journey-to-the-savage-planet", "name": "Journey to the Savage Planet", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "nickelodeon-all-star-brawl-2", "name": "Nickelodeon All-Star Brawl 2", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "cricket-24", "name": "Cricket 24", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "the-case-of-the-golden-idol", "name": "The Case of the Golden Idol", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "neon-white", "name": "Neon White", "aliases": [], "genres": ["fps", "platformer"], "franchise": null, "inferred": true },
+          { "id": "tchia", "name": "Tchia", "aliases": [], "genres": ["adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "magical-delicacy", "name": "Magical Delicacy", "aliases": [], "genres": ["metroidvania", "simulation"], "franchise": null, "inferred": true },
+          { "id": "flock", "name": "Flock", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "coffee-talk-episode-2-hibiscus-butterfly", "name": "Coffee Talk Episode 2: Hibiscus & Butterfly", "aliases": [], "genres": ["visual-novel"], "franchise": "coffee-talk", "inferred": true },
+          { "id": "figment-2-creed-valley", "name": "Figment 2: Creed Valley", "aliases": [], "genres": ["action-adventure"], "franchise": "figment", "inferred": true },
+          { "id": "sins-of-a-solar-empire-rebellion", "name": "Sins of a Solar Empire: Rebellion", "aliases": [], "genres": ["rts", "4x"], "franchise": "sins-of-a-solar-empire", "inferred": true },
+          { "id": "toem", "name": "TOEM", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "the-wandering-village", "name": "The Wandering Village", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["Console"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-07-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "journey-to-the-savage-planet",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Journey to the Savage Planet (Cloud, Console, and PC) – July 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "nickelodeon-all-star-brawl-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Nickelodeon All-Star Brawl 2 (Cloud, Console, and PC) – July 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "cricket-24",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cricket 24 (Cloud, Console, and PC) – July 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-case-of-the-golden-idol",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Case of the Golden Idol (Cloud, Console, and PC) – July 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "neon-white",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Neon White (Cloud, Console, and PC) – July 11",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "tchia",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Tchia (Cloud, PC, and Xbox Series S/X) – July 11",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "magical-delicacy",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Magical Delicacy (Cloud, Console, and PC) – July 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-07-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "flock",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Flock (Cloud, Console, and PC) – July 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-9/" }
+        }
+      ],
+      "summary": "New Xbox Game Pass titles for console, PC and Cloud have been revealed, including arrivals such as Journey to the Savage Planet and Neon White and departures such as TOEM and The Wandering Village."
+    },
+    {
+      "ref": "business/guilty-gear-strive-reaches-3m-players-worldwide",
+      "entities": {
+        "games": [
+          { "id": "guilty-gear-strive", "name": "Guilty Gear Strive", "aliases": [], "genres": ["fighting"], "franchise": "guilty-gear", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arc-system-works", "name": "Arc System Works", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 3000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "guilty-gear-strive",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Guilty Gear Strive reaches 3m players worldwide",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/GUILTYGEAR_PR/status/1808032865214779483/" }
+        }
+      ],
+      "summary": "Guilty Gear Strive has reached 3 million players worldwide."
+    },
+    {
+      "ref": "business/tales-of-kenzera-zau-studio-is-hit-with-layoffs-just-over-a",
+      "entities": {
+        "games": [
+          { "id": "tales-of-kenzera-zau", "name": "Tales of Kenzera: Zau", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "surgent-studios", "name": "Surgent Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "metacritic",
+          "value": 76,
+          "unit": "score",
+          "currency": null,
+          "entity": "tales-of-kenzera-zau",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "with a Metacritic score of 76",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/tales-of-kenzera-zau-studio-is-facing-layoffs/" }
+        }
+      ],
+      "summary": "The studio behind Tales of Kenzera: Zau has been hit with layoffs of just over a dozen staff."
+    },
+    {
+      "ref": "rumours/more-xbox-layoffs-happening-happened-this-week",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "Rumour that more Xbox layoffs are happening or happened this week, with one employee reportedly having their role eliminated whilst on vacation."
+    }
+  ]
+}

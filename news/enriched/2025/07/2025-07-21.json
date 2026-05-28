@@ -1,0 +1,170 @@
+{
+  "date": "2025-07-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/12-years-later-grand-theft-auto-v-has-been-cleared-for-relea",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-v",
+            "name": "Grand Theft Auto V",
+            "aliases": ["GTA V"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Grand Theft Auto V has been cleared for release in Saudi Arabia 12 years after launch, aided by the introduction of a 21+ age rating."
+    },
+    {
+      "ref": "main_news/microsoft-quietly-removes-ability-to-purchase-movies-and-tv",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "microsoft-store",
+            "name": "Microsoft Store",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Microsoft has quietly removed the ability to purchase movies and TV shows on Xbox and the Microsoft Store, though previously purchased content remains viewable for now."
+    },
+    {
+      "ref": "main_news/bethesda-veteran-julian-lefay-father-of-the-elder-scrolls-de",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "bethesda",
+            "name": "Bethesda",
+            "aliases": [],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "julian-lefay",
+            "name": "Julian LeFay",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Bethesda veteran Julian LeFay, described as the 'father of The Elder Scrolls', is departing game development due to cancer."
+    },
+    {
+      "ref": "main_news/smartphone-racer-mario-kart-tour-gets-first-new-content-in-y",
+      "entities": {
+        "games": [
+          {
+            "id": "mario-kart-tour",
+            "name": "Mario Kart Tour",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "mario-kart",
+            "inferred": true
+          },
+          {
+            "id": "mario-kart-world",
+            "name": "Mario Kart World",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "mario-kart",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "switch-2",
+            "name": "Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Smartphone racer Mario Kart Tour is receiving its first new content in years to celebrate the Switch 2's Mario Kart World."
+    },
+    {
+      "ref": "business/ready-or-not-hits-1m-console-sales-in-under-four-days",
+      "entities": {
+        "games": [
+          {
+            "id": "ready-or-not",
+            "name": "Ready or Not",
+            "aliases": [],
+            "genres": ["fps", "tps"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "ready-or-not",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-21",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ready or Not hits 1m console sales in under four days",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/ready-or-not-hits-1m-console-sales-in-4-days-despite-censorship-claims-from-its-pc-players"
+          }
+        }
+      ],
+      "summary": "Ready or Not reached one million console sales in under four days."
+    }
+  ]
+}

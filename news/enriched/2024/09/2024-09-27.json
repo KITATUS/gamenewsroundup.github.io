@@ -1,0 +1,253 @@
+{
+  "date": "2024-09-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/90s-classic-little-big-adventure-s-remake-is-out-november-14",
+      "entities": {
+        "games": [
+          { "id": "little-big-adventure", "name": "Little Big Adventure", "aliases": [], "genres": ["action-adventure"], "franchise": "little-big-adventure", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-14", "unit": "date", "currency": null,
+          "entity": "little-big-adventure", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "90s classic Little Big Adventure's remake is out November 14th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/90s-classic-little-big-adventures-lovely-looking-remake-is-out-in-november" } }
+      ],
+      "summary": "A remake of the 90s classic Little Big Adventure is releasing on 14 November 2024."
+    },
+    {
+      "ref": "main_news/playstation-raises-horizon-zero-dawn-s-ps4-price-following-r",
+      "entities": {
+        "games": [
+          { "id": "horizon-zero-dawn", "name": "Horizon Zero Dawn", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "remaster-remake"],
+      "facts": [
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "horizon-zero-dawn", "entity_type": "game", "scope": "product",
+          "as_of": "2024-09-27", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "change the PS4 version’s price back to $39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-raises-horizon-zero-dawns-ps4-price-following-remaster-upgrade-annoucement/" } }
+      ],
+      "summary": "PlayStation raised the PS4 version of Horizon Zero Dawn back to $39.99 following the announcement of a remaster upgrade."
+    },
+    {
+      "ref": "main_news/california-forces-digital-stores-to-admit-players-don-t-own",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "California is requiring digital stores to disclose that players do not own the digital content they purchase."
+    },
+    {
+      "ref": "main_news/hit-deck-builder-balatro-is-now-available-for-mobile",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "The deck-builder Balatro is now available on mobile."
+    },
+    {
+      "ref": "main_news/street-fighter-s-ken-and-chun-li-are-officially-joining-fata",
+      "entities": {
+        "games": [
+          { "id": "fatal-fury-city-of-the-wolves", "name": "Fatal Fury: City of the Wolves", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true },
+          { "id": "street-fighter", "name": "Street Fighter", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Street Fighter's Ken and Chun-Li are joining Fatal Fury: City of the Wolves as guest characters."
+    },
+    {
+      "ref": "main_news/final-fantasy-pixel-remaster-trials-of-mana-and-legend-of-ma",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-pixel-remaster", "name": "Final Fantasy Pixel Remaster", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "trials-of-mana", "name": "Trials of Mana", "aliases": [], "genres": ["action-rpg"], "franchise": "mana", "inferred": true },
+          { "id": "legend-of-mana", "name": "Legend of Mana", "aliases": [], "genres": ["action-rpg"], "franchise": "mana", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port", "subscription"],
+      "facts": [],
+      "summary": "Final Fantasy Pixel Remaster, Trials of Mana and Legend of Mana have released on Xbox, with the two Mana titles also coming to Game Pass Ultimate and PC Game Pass."
+    },
+    {
+      "ref": "free_games_subscription/starcraft-remastered-and-starcraft-2-campaign-collection-com",
+      "entities": {
+        "games": [
+          { "id": "starcraft-remastered", "name": "StarCraft: Remastered", "aliases": [], "genres": ["rts", "strategy"], "franchise": "starcraft", "inferred": true },
+          { "id": "starcraft-2-campaign-collection", "name": "StarCraft 2: Campaign Collection", "aliases": [], "genres": ["rts", "strategy"], "franchise": "starcraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-pc-game-pass", "name": "Xbox PC Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-05", "unit": "date", "currency": null,
+          "entity": "starcraft-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Arrives November 5th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/starcraft-remastered-and-starcraft-2-campaign-collection-coming-to-xbox-pc-game-pass" } }
+      ],
+      "summary": "StarCraft: Remastered and StarCraft 2: Campaign Collection are coming to Xbox PC Game Pass on 5 November 2024."
+    },
+    {
+      "ref": "business/ghosts-of-tabor-passes-20m-revenue",
+      "entities": {
+        "games": [
+          { "id": "ghosts-of-tabor", "name": "Ghosts of Tabor", "aliases": [], "genres": ["extraction-shooter", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 20000000, "unit": "money", "currency": "USD",
+          "entity": "ghosts-of-tabor", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-27", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Ghosts of Tabor passes $20m revenue",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/ghostsoftabor/status/1839092608452243563" } }
+      ],
+      "summary": "Ghosts of Tabor has passed $20 million in revenue."
+    },
+    {
+      "ref": "business/vampire-survivor-developer-poncle-opens-publishing-arm",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": ["Vampire Survivor"], "genres": ["roguelike", "survival"], "franchise": "vampire-survivors", "inferred": true }
+        ],
+        "studios": [
+          { "id": "poncle", "name": "Poncle", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "poncle", "name": "Poncle", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Vampire Survivors developer Poncle is opening a publishing arm to offer funding and support to other developers."
+    },
+    {
+      "ref": "business/gris-sales-top-3-million",
+      "entities": {
+        "games": [
+          { "id": "gris", "name": "Gris", "aliases": [], "genres": ["platformer", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "nomada-studio", "name": "Nomada Studio", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 3000000, "unit": "units", "currency": null,
+          "entity": "gris", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-27", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Gris sales top 3 million",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/nomadastudiobcn/status/1838963894712221984" } }
+      ],
+      "summary": "Gris has sold more than 3 million copies."
+    },
+    {
+      "ref": "business/the-simpsons-tapped-out-is-ending-service-in-january-after-1",
+      "entities": {
+        "games": [
+          { "id": "the-simpsons-tapped-out", "name": "The Simpsons: Tapped Out", "aliases": [], "genres": ["simulation"], "franchise": "the-simpsons", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "app-store", "name": "App Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-01-24", "unit": "date", "currency": null,
+          "entity": "the-simpsons-tapped-out", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will be fully delisted on January 24, 2025.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-simpsons-tapped-out-is-ending-service-in-january-after-12-years/" } }
+      ],
+      "summary": "The Simpsons: Tapped Out is shutting down, with the game removed from the App Store on 31 October 2024 and fully delisted on 24 January 2025."
+    },
+    {
+      "ref": "business/indie-publisher-merge-games-is-closing-down-after-15-years",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "merge-games", "name": "Merge Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [
+        { "metric": "headcount", "value": 22, "unit": "people", "currency": null,
+          "entity": "merge-games", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Merge Games employed 22 people",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/indie-publisher-merge-games-is-closing-down-after-15-years/" } }
+      ],
+      "summary": "Indie publisher Merge Games is closing down after 15 years."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2025-09-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/lenovo-has-cancelled-some-pre-orders-of-its-1-100-legion-go",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "legion-go-2", "name": "Legion Go 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [
+        { "metric": "price", "value": 1100, "unit": "price", "currency": "USD",
+          "entity": "legion-go-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-09-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "its $1,100 Legion Go 2",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/lenovo-has-cancelled-some-pre-orders-of-its-1100-legion-go-2-saying-its-substantially-exceeded-expectations/" } }
+      ],
+      "summary": "Lenovo cancelled some pre-orders of its $1,100 Legion Go 2, saying demand substantially exceeded expectations."
+    },
+    {
+      "ref": "main_news/microsoft-is-raising-xbox-console-prices-in-the-us-again-fiv",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": ["Xbox"], "inferred": false },
+          { "id": "xbox-series-s", "name": "Xbox Series S", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [],
+      "summary": "Microsoft is raising US prices of the Xbox Series X by $100 and the Series S by $80, five months after its last increase."
+    },
+    {
+      "ref": "main_news/sonic-racing-crossworlds-final-dlc-racer-is-another-classic",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [],
+            "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Sonic Racing: CrossWorlds' final DLC racer is the classic video game character Mega Man."
+    },
+    {
+      "ref": "main_news/valve-to-end-steam-support-for-32-bit-versions-of-windows-10",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Valve will end Steam support for 32-bit versions of Windows 10."
+    },
+    {
+      "ref": "business/helldivers-2-ranks-at-no-4-on-revenue-charts-for-august-2025",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [],
+            "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "chart_rank", "value": 4, "unit": "rank", "currency": null,
+          "entity": "helldivers-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Helldivers 2 ranks at No.4 on revenue charts for August 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/helldivers-2-ranks-at-no4-on-revenue-charts-for-august-2025-following-xbox-launch-newzoo-charts" } }
+      ],
+      "summary": "Helldivers 2 ranked No.4 on the August 2025 revenue charts following its Xbox launch."
+    }
+  ]
+}

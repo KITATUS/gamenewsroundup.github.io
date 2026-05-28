@@ -1,0 +1,97 @@
+{
+  "date": "2026-02-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/new-york-sues-valve-over-loot-box-driven-gambling",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "New York has filed a lawsuit against Valve over loot box-driven gambling."
+    },
+    {
+      "ref": "free_games_subscription/march-s-playstation-plus-essential-monthly-games-pga-tour-2k",
+      "entities": {
+        "games": [
+          { "id": "pga-tour-2k25", "name": "PGA Tour 2K25", "aliases": [], "genres": ["sports"], "franchise": "pga-tour-2k", "inferred": true },
+          { "id": "monster-hunter-rise", "name": "Monster Hunter Rise", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "slime-rancher-2", "name": "Slime Rancher 2", "aliases": [], "genres": ["simulation"], "franchise": "slime-rancher", "inferred": true },
+          { "id": "the-elder-scrolls-online", "name": "The Elder Scrolls Online", "aliases": [], "genres": ["mmorpg"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "PlayStation Plus Essential's monthly games for March 2026 are PGA Tour 2K25, Monster Hunter Rise, Slime Rancher 2, and The Elder Scrolls Online."
+    },
+    {
+      "ref": "business/amazon-game-studios-ends-publishing-agreement-with-maverick",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "amazon-game-studios", "name": "Amazon Game Studios", "aliases": [], "publisher": "amazon", "inferred": true },
+          { "id": "maverick-games", "name": "Maverick Games", "aliases": ["Maverick"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mike-brown", "name": "Mike Brown", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Amazon Game Studios has ended its publishing agreement with Maverick Games, the studio founded in 2022 by former Forza Horizon team members including creative director Mike Brown."
+    },
+    {
+      "ref": "business/skate-developer-full-circle-impacted-by-layoffs-number-of-em",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": [], "genres": ["sports"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [
+          { "id": "full-circle", "name": "Full Circle", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Skate developer Full Circle, an EA studio, has been impacted by layoffs of an unknown number of employees as it reshapes to support Skate's long-term future."
+    },
+    {
+      "ref": "business/nacon-files-for-insolvency-says-it-s-assessing-all-possible",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nacon", "name": "Nacon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nacon has filed for insolvency and says it is assessing all possible solutions to continue running after its majority shareholder was unable to repay its bond loan."
+    }
+  ]
+}

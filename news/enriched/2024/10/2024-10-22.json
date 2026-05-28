@@ -1,0 +1,146 @@
+{
+  "date": "2024-10-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mike-brennan-digital-extremes-artist-passed-away-at-age-50",
+      "entities": {
+        "games": [
+          { "id": "warframe", "name": "Warframe", "aliases": [], "genres": ["tps", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "dark-sector", "name": "Dark Sector", "aliases": [], "genres": ["tps"], "franchise": null, "inferred": true },
+          { "id": "the-darkness-ii", "name": "The Darkness II", "aliases": [], "genres": ["fps"], "franchise": "the-darkness", "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-extremes", "name": "Digital Extremes", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mike-brennan", "name": "Mike Brennan", "aliases": ["Mynki"], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Mike Brennan, a Digital Extremes artist known as \"Mynki\", has died at age 50."
+    },
+    {
+      "ref": "main_news/lord-of-the-rings-star-elijah-wood-lands-first-mo-cap-role-i",
+      "entities": {
+        "games": [
+          { "id": "batman-arkham-shadow", "name": "Batman: Arkham Shadow", "aliases": [], "genres": ["action-adventure"], "franchise": "batman-arkham", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "elijah-wood", "name": "Elijah Wood", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Elijah Wood is taking his first motion-capture role, playing the villain Scarecrow in Batman: Arkham Shadow."
+    },
+    {
+      "ref": "main_news/alan-wake-2-s-free-anniversary-update-adds-highly-requested",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Alan Wake 2 received a free anniversary update, available today, adding features such as X-axis inversion, PS5 gyro aiming and Gameplay Assist options."
+    },
+    {
+      "ref": "main_news/vampire-survivors-is-getting-castlevania-dlc-later-this-mont",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "action"], "franchise": null, "inferred": true },
+          { "id": "vampire-survivors-ode-to-castlevania", "name": "Vampire Survivors: Ode to Castlevania", "aliases": [], "genres": ["roguelike", "action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "price", "value": 3.99, "unit": "price", "currency": "USD",
+          "entity": "vampire-survivors-ode-to-castlevania", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Vampire Survivors: Ode to Castlevania will be the games biggest DLC to date and will cost $3.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/vampire-survivors-is-getting-castlevania-dlc-later-this-month/" } },
+        { "metric": "price", "value": 3.99, "unit": "price", "currency": "EUR",
+          "entity": "vampire-survivors-ode-to-castlevania", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "€3.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/vampire-survivors-is-getting-castlevania-dlc-later-this-month/" } },
+        { "metric": "price", "value": 2.99, "unit": "price", "currency": "GBP",
+          "entity": "vampire-survivors-ode-to-castlevania", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£2.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/vampire-survivors-is-getting-castlevania-dlc-later-this-month/" } },
+        { "metric": "release_date", "value": "2024-10-31", "unit": "date", "currency": null,
+          "entity": "vampire-survivors-ode-to-castlevania", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases October 31st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/vampire-survivors-is-getting-castlevania-dlc-later-this-month/" } }
+      ],
+      "summary": "Vampire Survivors: Ode to Castlevania, the game's biggest DLC to date, releases on 31 October 2024 priced at $3.99 / EUR3.99 / GBP2.99."
+    },
+    {
+      "ref": "business/hi-rez-studios-shutting-down-realm-royale-reforged-and-divin",
+      "entities": {
+        "games": [
+          { "id": "realm-royale-reforged", "name": "Realm Royale Reforged", "aliases": [], "genres": ["battle-royale"], "franchise": "realm-royale", "inferred": true },
+          { "id": "divine-knockout", "name": "Divine Knockout", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hi-rez-studios", "name": "Hi-Rez Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-02-17", "unit": "date", "currency": null,
+          "entity": "realm-royale-reforged", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Realm Royale Reforged and Divine Knockout shutdown on February 17, 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/hi-rez-studios-shutting-down-realm-royale-reforged-and-divine-knockout-in-february" } },
+        { "metric": "shutdown_date", "value": "2025-02-17", "unit": "date", "currency": null,
+          "entity": "divine-knockout", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Realm Royale Reforged and Divine Knockout shutdown on February 17, 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/hi-rez-studios-shutting-down-realm-royale-reforged-and-divine-knockout-in-february" } }
+      ],
+      "summary": "Hi-Rez Studios will shut down Realm Royale Reforged and Divine Knockout on 17 February 2025."
+    },
+    {
+      "ref": "business/bandai-namco-to-publish-medieval-fantasy-rpg-from-former-wit",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rebel-wolves", "name": "Rebel Wolves", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Bandai Namco will publish a medieval fantasy RPG, the first entry in the \"Dawnwalker saga\", from former Witcher developers at studio Rebel Wolves."
+    }
+  ]
+}

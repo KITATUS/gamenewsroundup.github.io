@@ -1,0 +1,151 @@
+{
+  "date": "2024-10-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-confirms-new-rayman-project-currently-in-the-explora",
+      "entities": {
+        "games": [{ "id": "rayman", "name": "Rayman", "aliases": [], "genres": ["platformer"], "franchise": "rayman", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "michel-ancel", "name": "Michel Ancel", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ubisoft confirmed a new Rayman project is currently in the exploration phase, with Michel Ancel consulting, following reports of a remake."
+    },
+    {
+      "ref": "main_news/fishing-is-coming-to-fallout-76-along-with-your-own-dogmeat",
+      "entities": {
+        "games": [{ "id": "fallout-76", "name": "Fallout 76", "aliases": [], "genres": ["rpg", "mmo", "survival"], "franchise": "fallout", "inferred": true }],
+        "studios": [{ "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [{ "id": "bethesda-softworks", "name": "Bethesda Softworks", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Fishing is coming to Fallout 76, along with personal Dogmeat and cat pets for player camps."
+    },
+    {
+      "ref": "main_news/warcraft-30th-anniversary-direct-stream-announced-for-novemb",
+      "entities": {
+        "games": [{ "id": "warcraft", "name": "Warcraft", "aliases": [], "genres": ["rts"], "franchise": "warcraft", "inferred": true }],
+        "studios": [{ "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "blizzard-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-11-13", "unit": "date", "currency": null,
+          "entity": "warcraft-30th-anniversary-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2024-10-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "November 13, viewable on Twitch, YouTube and TikTok at 10am PT / 6pm GMT.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/warcraft-30th-anniversary-direct-stream-announced-for-november/" } }
+      ],
+      "summary": "Blizzard announced a Warcraft 30th Anniversary Direct stream for 13 November, viewable on Twitch, YouTube and TikTok."
+    },
+    {
+      "ref": "main_news/the-remarkable-life-of-ibelin-uses-world-of-warcraft-to-recr",
+      "entities": {
+        "games": [{ "id": "world-of-warcraft", "name": "World of Warcraft", "aliases": [], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "mats-steen", "name": "Mats Steen", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-25", "unit": "date", "currency": null,
+          "entity": "the-remarkable-life-of-ibelin", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The film is now in UK cinemas and will be available on Netflix from October 25.",
+          "source": { "name": "The Guardian", "domain": "theguardian.com", "url": "https://www.theguardian.com/film/2024/oct/22/ibelin-film-mats-steen-world-of-warcraft" } }
+      ],
+      "summary": "\"The Remarkable Life of Ibelin\" documentary uses World of Warcraft to recreate the digital life of Mats Steen, a disabled gamer, and arrives on Netflix from 25 October."
+    },
+    {
+      "ref": "free_games_subscription/switch-online-subscribers-can-play-three-games-for-free-for",
+      "entities": {
+        "games": [
+          { "id": "cursed-to-golf", "name": "Cursed to Golf", "aliases": [], "genres": ["roguelike", "sports"], "franchise": null, "inferred": true },
+          { "id": "a-little-to-the-left", "name": "A Little to the Left", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "minecraft-dungeons", "name": "Minecraft Dungeons", "aliases": [], "genres": ["action-rpg"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch Online"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Nintendo Switch Online subscribers can play three Game Trials titles free for the next week, with Cursed to Golf and A Little to the Left available in all regions, Vampire Survivors in North America and Minecraft Dungeons in Europe."
+    },
+    {
+      "ref": "business/keywords-studios-and-eqt-together-with-cpp-investments-and-t",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "keywords-studios", "name": "Keywords Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Keywords Studios and EQT, together with CPP Investments and Temasek, announced the completion of their acquisition."
+    },
+    {
+      "ref": "business/arma-2-sells-over-47m-units-in-15-years",
+      "entities": {
+        "games": [{ "id": "arma-2", "name": "Arma 2", "aliases": [], "genres": ["shooter", "simulation"], "franchise": "arma", "inferred": true }],
+        "studios": [{ "id": "bohemia-interactive", "name": "Bohemia Interactive", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 47000000, "unit": "units", "currency": null,
+          "entity": "arma-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-24", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Arma 2 sells over 47m units in 15 years",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/maruksp/status/1847773680111153658" } }
+      ],
+      "summary": "Arma 2 has sold over 47 million units across 15 years."
+    },
+    {
+      "ref": "business/2k-s-californian-motion-capture-studio-files-for-union-elect",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "2k", "name": "2K", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "2K's Californian motion capture studio has filed for a union election."
+    },
+    {
+      "ref": "business/ncsoft-lays-off-staff-following-broader-internal-reorganisat",
+      "entities": {
+        "games": [{ "id": "horizon", "name": "Horizon", "aliases": [], "genres": ["mmo"], "franchise": "horizon", "inferred": true }],
+        "studios": [],
+        "publishers": [
+          { "id": "ncsoft", "name": "NCSoft", "aliases": [], "inferred": false },
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "partnership"],
+      "facts": [],
+      "summary": "NCSoft has laid off staff following a broader internal reorganisation, with the company reportedly working on a Horizon MMO with Sony."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2025-12-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hideo-kojima-will-keynote-next-year-s-revamped-gdc-and-share",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Hideo Kojima will deliver the keynote at next year's revamped GDC, sharing personal insights into building a studio, in GDC's first keynote in five years."
+    },
+    {
+      "ref": "main_news/clair-obscur-expedition-33-cast-calls-for-the-game-awards-to",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sandfall-interactive", "name": "Sandfall Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The cast of Clair Obscur: Expedition 33 has called for The Game Awards to add a motion capture category."
+    },
+    {
+      "ref": "main_news/amazon-s-live-action-tomb-raider-adaptation-will-reinvent-th",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Amazon's live-action Tomb Raider adaptation will reinvent the franchise and interconnect with the games."
+    },
+    {
+      "ref": "main_news/british-retro-gaming-journalist-nick-thorpe-has-died-unexpec",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "nick-thorpe", "name": "Nick Thorpe", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "British retro gaming journalist Nick Thorpe has died unexpectedly aged 38."
+    },
+    {
+      "ref": "main_news/ea-makes-eight-new-accessibility-patents-free-to-all-technol",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "EA has made eight new accessibility patents free to all, covering technologies such as grapple assist, speech and audio generation tools, and improvements to its Fonttik text and size contrast tool."
+    }
+  ]
+}

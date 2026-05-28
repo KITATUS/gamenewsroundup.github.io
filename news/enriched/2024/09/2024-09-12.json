@@ -1,0 +1,272 @@
+{
+  "date": "2024-09-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/steam-s-improved-family-sharing-is-out-now-for-everyone",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": ["Steam Families"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "update-patch"],
+      "facts": [],
+      "summary": "Steam's improved family sharing, the Steam Families feature, is now out for everyone, letting up to five family members share a library, manage parental controls, and play games from the shared library at the same time."
+    },
+    {
+      "ref": "main_news/super-smash-bros-director-so-sorry-to-fans-playing-for-thous",
+      "entities": {
+        "games": [
+          { "id": "super-smash-bros", "name": "Super Smash Bros.", "aliases": [], "genres": ["fighting"], "franchise": "super-smash-bros", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Super Smash Bros. director said he is \"so sorry\" to fans playing for thousands of hours, remarking that the time players spend in a game is a cost."
+    },
+    {
+      "ref": "main_news/dead-island-2-getting-zombie-infested-co-op-horde-mode-next",
+      "entities": {
+        "games": [
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": ["Dead Island 2's Ultimate Edition"], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-22", "unit": "date", "currency": null,
+          "entity": "dead-island-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "This free update will be arriving on 22nd October, and will coincide with the release of Dead Island 2's Ultimate Edition.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/dead-island-2-getting-zombie-infested-co-op-horde-mode-next-month" } }
+      ],
+      "summary": "Dead Island 2 is getting a free update next month adding a co-op horde mode and New Game Plus, arriving on 22nd October alongside the game's Ultimate Edition."
+    },
+    {
+      "ref": "main_news/xbox-is-bringing-back-friend-requests",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Xbox is bringing back friend requests, with Microsoft set to begin testing a new friends and followers experience next week."
+    },
+    {
+      "ref": "main_news/payday-3-s-director-has-been-demoted-following-the-game-s-tr",
+      "entities": {
+        "games": [
+          { "id": "payday-3", "name": "Payday 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "miodrag-kovacevic", "name": "Miodrag Kovačević", "aliases": [], "inferred": false },
+          { "id": "andreas-hall-penninger", "name": "Andreas Häll Penninger", "aliases": [], "inferred": false },
+          { "id": "almir-listo", "name": "Almir Listo", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Payday 3's director Miodrag Kovačević has been demoted to senior game designer following the game's troubled first year, with Andreas Häll Penninger and Almir Listo named as the creative force behind upcoming updates."
+    },
+    {
+      "ref": "main_news/konami-confirms-mgs-master-collection-volume-2-is-considerin",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-master-collection-volume-2", "name": "MGS Master Collection Volume 2", "aliases": ["MGS Master Collection Volume 2"], "genres": ["action-adventure", "stealth"], "franchise": "metal-gear", "inferred": true },
+          { "id": "metal-gear-solid-2", "name": "MGS2", "aliases": ["MGS2"], "genres": ["action-adventure", "stealth"], "franchise": "metal-gear", "inferred": true },
+          { "id": "metal-gear-solid-3", "name": "MGS3", "aliases": ["MGS3"], "genres": ["action-adventure", "stealth"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Konami has confirmed MGS Master Collection Volume 2 and says it is considering how to handle the series' \"really big titles\" that lack pre-existing ports."
+    },
+    {
+      "ref": "main_news/elden-ring-s-latest-patch-nerfs-the-final-boss-in-shadow-of",
+      "entities": {
+        "games": [
+          { "id": "elden-ring", "name": "Elden Ring", "aliases": [], "genres": ["action-rpg", "soulslike", "open-world"], "franchise": "elden-ring", "inferred": true },
+          { "id": "elden-ring-shadow-of-the-erdtree", "name": "Shadow of the Erdtree", "aliases": ["Shadow of the Erdtree"], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Elden Ring's latest patch nerfs the final boss in the Shadow of the Erdtree expansion, alongside PvP, equipment and spell balance adjustments plus bug and performance fixes."
+    },
+    {
+      "ref": "free_games_subscription/september-s-playstation-plus-game-catalogue-and-classics-tit",
+      "entities": {
+        "games": [
+          { "id": "the-plucky-squire", "name": "The Plucky Squire", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "under-the-waves", "name": "Under The Waves", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "night-in-the-woods", "name": "Night in the Woods", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "chernobylite", "name": "Chernobylite", "aliases": [], "genres": ["survival-horror", "rpg"], "franchise": null, "inferred": true },
+          { "id": "wild-card-football", "name": "Wild Card Football", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "space-engineers", "name": "Space Engineers", "aliases": [], "genres": ["sandbox", "simulation"], "franchise": null, "inferred": true },
+          { "id": "road-96", "name": "Road 96", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "ben-10", "name": "Ben 10", "aliases": [], "genres": ["action-adventure"], "franchise": "ben-10", "inferred": true },
+          { "id": "far-cry-5", "name": "Far Cry 5", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "pistol-whip", "name": "Pistol Whip", "aliases": [], "genres": ["rhythm", "shooter"], "franchise": null, "inferred": true },
+          { "id": "secret-agent-clank", "name": "Secret Agent Clank", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "ratchet-and-clank", "inferred": true },
+          { "id": "sky-gunner", "name": "Sky Gunner", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "mister-mosquito", "name": "Mister Mosquito", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation Plus"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "psvr2", "name": "PS VR2", "aliases": ["PS VR2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-09-17", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "All of the games listed below will be available beginning on September 17.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/septembers-playstation-plus-game-catalogue-and-classics-titles-revealed/" } }
+      ],
+      "summary": "September's PlayStation Plus Game Catalogue and Classics line-up has been revealed, with all titles available beginning on September 17."
+    },
+    {
+      "ref": "business/nexon-spins-off-dave-the-diver-dev-mintrocket-into-a-full-co",
+      "entities": {
+        "games": [
+          { "id": "dave-the-diver", "name": "Dave the Diver", "aliases": [], "genres": ["adventure", "simulation", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "mintrocket", "name": "Mintrocket", "aliases": [], "publisher": "nexon", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "dave-the-diver", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "managed to sell 1 million copies over a week after launch",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/nexon-spins-off-dave-the-diver-dev-mintrocket-into-a-full-corporation" } },
+        { "metric": "copies_sold", "value": 4000000, "unit": "copies", "currency": null,
+          "entity": "dave-the-diver", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "It's now sold 4 million copies, following on from the 3 million milestone in January.",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/nexon-spins-off-dave-the-diver-dev-mintrocket-into-a-full-corporation" } },
+        { "metric": "copies_sold", "value": 3000000, "unit": "copies", "currency": null,
+          "entity": "dave-the-diver", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "following on from the 3 million milestone in January",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/nexon-spins-off-dave-the-diver-dev-mintrocket-into-a-full-corporation" } }
+      ],
+      "summary": "Nexon is spinning off Dave the Diver developer Mintrocket into a full corporation, continuing to support the studio after the game's success."
+    },
+    {
+      "ref": "business/unrecord-dev-drama-studios-raises-2-5-million-in-seed-round",
+      "entities": {
+        "games": [
+          { "id": "unrecord", "name": "Unrecord", "aliases": [], "genres": ["tps", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "drama-studios", "name": "Drama Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 2500000, "unit": "money", "currency": "USD",
+          "entity": "drama-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Drama Studios raises $2.5 million in seed round",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/unrecord-dev-drama-studios-raises-2-5-million-in-seed-round" } }
+      ],
+      "summary": "Unrecord developer Drama Studios has raised $2.5 million in a seed round to fund a demo and grow staff before securing a publishing partner."
+    },
+    {
+      "ref": "business/cypher-games-raises-10m-in-latest-fundraising-round",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cypher-games", "name": "Cypher Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "riccardo-zacconi", "name": "Riccardo Zacconi", "aliases": [], "inferred": false },
+          { "id": "humam-sakhnini", "name": "Humam Sakhnini", "aliases": [], "inferred": false },
+          { "id": "akin-babayigit", "name": "Akin Babayigit", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 10000000, "unit": "money", "currency": "USD",
+          "entity": "cypher-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Cypher Games raises $10m in latest fundraising round",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cypher-games-raises-10m-in-latest-fundraising-round" } }
+      ],
+      "summary": "Turkish developer Cypher Games has raised $10m in its latest fundraising round, led by The Raine Group, to build its first match-3 mobile title."
+    },
+    {
+      "ref": "business/studio-co-founded-by-dr-disrespect-confirms-significant-layo",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "midnight-society", "name": "Midnight Society", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "dr-disrespect", "name": "Dr Disrespect", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Midnight Society, the studio co-founded by Dr Disrespect, has confirmed \"significant\" layoffs months after the streamer was fired, without publishing a specific number of job losses."
+    }
+  ]
+}

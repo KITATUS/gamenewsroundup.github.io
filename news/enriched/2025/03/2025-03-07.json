@@ -1,0 +1,127 @@
+{
+  "date": "2025-03-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/robocop-rogue-city-is-getting-a-standalone-expansion-and-you",
+      "entities": {
+        "games": [
+          { "id": "robocop-rogue-city", "name": "RoboCop: Rogue City", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "robocop", "inferred": true },
+          { "id": "robocop-rogue-city-unfinished-business", "name": "RoboCop: Rogue City - Unfinished Business", "aliases": ["Unfinished Business"], "genres": ["fps"], "franchise": "robocop", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "alex-murphy", "name": "Alex Murphy", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "RoboCop: Rogue City is getting a standalone expansion, Unfinished Business, letting players play as pre-RoboCop Alex Murphy."
+    },
+    {
+      "ref": "main_news/fortnite-maker-suing-prolific-thief-who-stole-and-sold-playe",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "isaac-strock", "name": "Isaac \"i5aac\" Strock", "aliases": ["i5aac"], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-02-27", "unit": "date", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Strock is named in a legal filing dated 27th February",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnite-maker-suing-prolific-thief-who-stole-and-sold-player-accounts-on-an-industrial-scale" } }
+      ],
+      "summary": "Epic Games is suing Illinois Fortnite player Isaac \"i5aac\" Strock, accused of stealing and selling player accounts at scale, for fraud, copyright infringement and unjust enrichment."
+    },
+    {
+      "ref": "main_news/sony-is-leasing-ps5-ps5-pro-and-ps-portal-consoles-to-uk-pla",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-5-pro", "name": "PS5 Pro", "aliases": ["PS5 Pro"], "inferred": false },
+          { "id": "playstation-portal", "name": "PS Portal", "aliases": ["PS Portal"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "partnership", "hardware"],
+      "facts": [],
+      "summary": "Sony is leasing PS5, PS5 Pro and PS Portal consoles to UK players for a monthly fee under a plan called Flex, run in partnership with leasing firm Raylo."
+    },
+    {
+      "ref": "main_news/jackbox-s-party-game-library-is-coming-to-your-living-room-v",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "jackbox-games", "name": "Jackbox Games", "aliases": ["Jackbox"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Jackbox's party game library is coming to living rooms via a new smart TV app, initially free with ads and with a monthly subscription planned."
+    },
+    {
+      "ref": "business/dark-and-darker-pulled-again-this-time-from-epic-games-store",
+      "entities": {
+        "games": [
+          { "id": "dark-and-darker", "name": "Dark and Darker", "aliases": [], "genres": ["extraction-shooter", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ironmace", "name": "Ironmace", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Games Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Dark and Darker has been pulled again, this time from the Epic Games Store, as its legal troubles continue."
+    },
+    {
+      "ref": "business/ccp-hires-former-bank-economist-to-legitimize-eve-frontier-s",
+      "entities": {
+        "games": [
+          { "id": "eve-frontier", "name": "EVE Frontier", "aliases": [], "genres": ["mmo", "survival"], "franchise": "eve", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ccp-games", "name": "CCP", "aliases": ["CCP"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "stefan-thorarinsson", "name": "Stefán Þórarinsson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "CCP has hired former bank economist Stefán Þórarinsson to help legitimize the in-game economy of EVE Frontier."
+    }
+  ]
+}

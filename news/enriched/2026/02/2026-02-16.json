@@ -1,0 +1,132 @@
+{
+  "date": "2026-02-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hideki-sato-designer-of-all-sega-s-consoles-has-died-at-age",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "hideki-sato", "name": "Hideki Sato", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Hideki Sato, the designer of all of Sega's consoles, has died at age 77."
+    },
+    {
+      "ref": "main_news/shutaro-iida-director-of-bloodstained-has-died-at-the-age-of",
+      "entities": {
+        "games": [{ "id": "bloodstained", "name": "Bloodstained", "aliases": [], "genres": ["metroidvania"], "franchise": "bloodstained", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "shutaro-iida", "name": "Shutaro Iida", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Shutaro Iida, the director of Bloodstained, has died at the age of 52."
+    },
+    {
+      "ref": "main_news/clair-obscur-s-soundtrack-is-breaking-records-released-by-la",
+      "entities": {
+        "games": [{ "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": ["Clair Obscur", "Expedition 33"], "genres": ["rpg"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "laced-records", "name": "Laced Records", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "chart_rank", "value": 1, "unit": "rank", "currency": null,
+          "entity": "clair-obscur-expedition-33", "entity_type": "product", "scope": "product",
+          "as_of": "2026-02-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the Expedition 33 original soundtrack has become the first game score to reach No. 1 on the Official Independent Albums Chart (UK)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/now-clair-obscurs-soundtrack-is-breaking-records-charting-above-bad-bunny/" } }
+      ],
+      "summary": "The Clair Obscur: Expedition 33 original soundtrack, released by Laced Records, became the first game score to reach No. 1 on several UK and France album charts."
+    },
+    {
+      "ref": "main_news/capcom-drops-ppv-price-of-upcoming-street-fighter-6-tourname",
+      "entities": {
+        "games": [{ "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 10, "unit": "price", "currency": "USD",
+          "entity": "street-fighter-6", "entity_type": "product", "scope": "event",
+          "as_of": "2026-02-16", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "drops PPV price of upcoming Street Fighter 6 tournament stream from $40 to $10",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/capcom-drops-ppv-price-of-upcoming-street-fighter[…]rnament-stream-from-40-to-10-following-player-backlash/" } }
+      ],
+      "summary": "Capcom dropped the pay-per-view price of an upcoming Street Fighter 6 tournament stream from $40 to $10 following player backlash and will allow co-streaming for the group stages."
+    },
+    {
+      "ref": "business/ubisoft-financial-results",
+      "entities": {
+        "games": [{ "id": "assassins-creed", "name": "Assassin's Creed", "aliases": [], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 976200000, "unit": "currency", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-16", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Revenue: €976.2 million (down 1.4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/ubisoft-q3-net-bookings-rise-12-to-338m-primarily-driven-by-assassins-creed-franchise" } }
+      ],
+      "summary": "Ubisoft reported revenue of €976.2 million for the nine months ending December 31, 2025, down 1.4% year-on-year, with net bookings up across the period."
+    },
+    {
+      "ref": "business/sega-records-200m-impairment-write-down-for-rovio-during-q3",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "rovio", "name": "Rovio", "aliases": [], "publisher": "sega", "inferred": true }],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 335200000000, "unit": "currency", "currency": "JPY",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-16", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥335.2 billion ($2.1 billion, up 4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/sega-records-200m-impairment-loss-for-rovio-during-q3" } },
+        { "metric": "revenue", "value": 2100000000, "unit": "currency", "currency": "USD",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-16", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥335.2 billion ($2.1 billion, up 4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/sega-records-200m-impairment-loss-for-rovio-during-q3" } },
+        { "metric": "operating_income", "value": 19800000000, "unit": "currency", "currency": "JPY",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-16", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥19.8 billion ($129.2 million, down 54.6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/sega-records-200m-impairment-loss-for-rovio-during-q3" } },
+        { "metric": "operating_income", "value": 129200000, "unit": "currency", "currency": "USD",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-16", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥19.8 billion ($129.2 million, down 54.6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/sega-records-200m-impairment-loss-for-rovio-during-q3" } }
+      ],
+      "summary": "Sega recorded a $200m impairment write-down for Rovio during Q3, with nine-month net sales of ¥335.2 billion (up 4% year-on-year) and operating income down 54.6%."
+    }
+  ]
+}

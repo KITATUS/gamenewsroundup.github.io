@@ -1,0 +1,222 @@
+{
+  "date": "2024-09-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-is-taking-concord-offline-ceasing-sales-and-offering-re",
+      "entities": {
+        "games": [
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "firewalk-studios", "name": "Firewalk Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "price", "value": 40, "unit": "price", "currency": "USD",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "which cost $40 / £35",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sony-is-taking-concord-offline-ceasing-sales-and-offering-refunds/" } },
+        { "metric": "price", "value": 35, "unit": "price", "currency": "GBP",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "which cost $40 / £35",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sony-is-taking-concord-offline-ceasing-sales-and-offering-refunds/" } }
+      ],
+      "summary": "Sony is taking Concord offline, ceasing sales and offering refunds to players."
+    },
+    {
+      "ref": "main_news/marvel-vs-capcom-fighting-collection-now-coming-to-xbox-foll",
+      "entities": {
+        "games": [
+          { "id": "marvel-vs-capcom-fighting-collection", "name": "Marvel vs. Capcom Fighting Collection", "aliases": [], "genres": ["fighting"], "franchise": "marvel-vs-capcom", "inferred": true },
+          { "id": "capcom-fighting-collection-2", "name": "Capcom Fighting Collection 2", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Marvel vs. Capcom Fighting Collection is now coming to Xbox following technical discussions with Microsoft."
+    },
+    {
+      "ref": "main_news/borderlands-randy-pitchford-defends-recent-flops-by-comparin",
+      "entities": {
+        "games": [
+          { "id": "borderlands", "name": "Borderlands", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true },
+          { "id": "risk-of-rain-2", "name": "Risk of Rain 2", "aliases": [], "genres": ["roguelike", "tps"], "franchise": "risk-of-rain", "inferred": true }
+        ],
+        "studios": [
+          { "id": "gearbox", "name": "Gearbox", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "randy-pitchford", "name": "Randy Pitchford", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Borderlands' Randy Pitchford defended Gearbox's recent flops by comparing the studio to The Beatles."
+    },
+    {
+      "ref": "main_news/co-creator-of-wizardry-andrew-c-greenberg-has-died-aged-67",
+      "entities": {
+        "games": [
+          { "id": "wizardry", "name": "Wizardry", "aliases": [], "genres": ["rpg"], "franchise": "wizardry", "inferred": true },
+          { "id": "fire-emblem", "name": "Fire Emblem", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "fire-emblem", "inferred": true },
+          { "id": "final-fantasy", "name": "Final Fantasy", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "dragon-quest", "name": "Dragon Quest", "aliases": [], "genres": ["jrpg"], "franchise": "dragon-quest", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "andrew-c-greenberg", "name": "Andrew C. Greenberg", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Andrew C. Greenberg, co-creator of Wizardry, has died aged 67."
+    },
+    {
+      "ref": "free_games_subscription/september-s-playstation-plus-essential-games-are-now-availab",
+      "entities": {
+        "games": [
+          { "id": "harry-potter-quidditch-champions", "name": "Harry Potter: Quidditch Champions", "aliases": [], "genres": ["sports"], "franchise": "harry-potter", "inferred": true },
+          { "id": "mlb-the-show-24", "name": "MLB The Show 24", "aliases": [], "genres": ["sports"], "franchise": "mlb-the-show", "inferred": true },
+          { "id": "little-nightmares-2", "name": "Little Nightmares 2", "aliases": ["Little Nightmares II"], "genres": ["puzzle", "horror"], "franchise": "little-nightmares", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "September's PlayStation Plus Essential games are now available, including Harry Potter: Quidditch Champions, MLB The Show 24, and Little Nightmares 2."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been",
+      "entities": {
+        "games": [
+          { "id": "star-trucker", "name": "Star Trucker", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "age-of-mythology-retold", "name": "Age of Mythology: Retold", "aliases": [], "genres": ["rts"], "franchise": "age-of-empires", "inferred": true },
+          { "id": "expeditions-a-mudrunner-game", "name": "Expeditions: A MudRunner Game", "aliases": [], "genres": ["simulation"], "franchise": "mudrunner", "inferred": true },
+          { "id": "riders-republic", "name": "Riders Republic", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "train-sim-world-5", "name": "Train Sim World 5", "aliases": [], "genres": ["simulation"], "franchise": "train-sim-world", "inferred": true },
+          { "id": "ashes-of-the-singularity-escalation", "name": "Ashes of Singularity: Escalation", "aliases": ["Ashes of Singularity: Escalation"], "genres": ["rts"], "franchise": null, "inferred": true },
+          { "id": "fifa-23", "name": "FIFA 23", "aliases": [], "genres": ["sports"], "franchise": "fifa", "inferred": true },
+          { "id": "payday-3", "name": "Payday 3", "aliases": [], "genres": ["fps"], "franchise": "payday", "inferred": true },
+          { "id": "slime-rancher-2", "name": "Slime Rancher 2", "aliases": [], "genres": ["simulation"], "franchise": "slime-rancher", "inferred": true },
+          { "id": "spiderheck", "name": "SpiderHeck", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "you-suck-at-parking", "name": "You Suck At Parking", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ea-play", "name": "EA Play", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-03", "unit": "date", "currency": null,
+          "entity": "star-trucker", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Star Trucker (Cloud, Console, and PC) – September 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-10/" } },
+        { "metric": "release_date", "value": "2024-09-04", "unit": "date", "currency": null,
+          "entity": "age-of-mythology-retold", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Age of Mythology: Retold (Cloud, PC, and Xbox Series S/X) – September 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-10/" } },
+        { "metric": "release_date", "value": "2024-09-05", "unit": "date", "currency": null,
+          "entity": "expeditions-a-mudrunner-game", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Expeditions: A MudRunner Game (Cloud, Console, and PC) – September 5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-10/" } },
+        { "metric": "release_date", "value": "2024-09-11", "unit": "date", "currency": null,
+          "entity": "riders-republic", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Riders Republic (Cloud, Console, and PC) – September 11",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-10/" } },
+        { "metric": "release_date", "value": "2024-09-17", "unit": "date", "currency": null,
+          "entity": "train-sim-world-5", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Train Sim World 5 (Cloud, Console, and PC) – September 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-10/" } },
+        { "metric": "shutdown_date", "value": "2024-09-15", "unit": "date", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (September 15th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-10/" } }
+      ],
+      "summary": "New Xbox Game Pass titles for console, PC and Cloud have been revealed, with several games arriving in September and others leaving on September 15th."
+    },
+    {
+      "ref": "business/tilting-point-to-lay-off-around-90-employees",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "tilting-point", "name": "Tilting Point", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 90, "unit": "people", "currency": null,
+          "entity": "tilting-point", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Tilting Point to lay off around 90 employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tilting-point-to-lay-off-around-90-employees" } },
+        { "metric": "headcount", "value": 450, "unit": "people", "currency": null,
+          "entity": "tilting-point", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-04", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The firm currently employs around 450 staff",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tilting-point-to-lay-off-around-90-employees" } }
+      ],
+      "summary": "Tilting Point is to lay off around 90 employees, up to 20% of its workforce."
+    },
+    {
+      "ref": "business/risk-of-rain-dev-hopoo-games-on-hiatus-as-co-founders-join-v",
+      "entities": {
+        "games": [
+          { "id": "risk-of-rain", "name": "Risk of Rain", "aliases": [], "genres": ["roguelike", "platformer"], "franchise": "risk-of-rain", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hopoo-games", "name": "Hopoo Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "valve", "name": "Valve", "aliases": ["Half-Life firm"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "leadership-change"],
+      "facts": [],
+      "summary": "Risk of Rain developer Hopoo Games is on hiatus as its co-founders join Valve, with the unannounced game Snail now cancelled."
+    }
+  ]
+}

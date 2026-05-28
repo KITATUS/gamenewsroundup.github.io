@@ -1,0 +1,179 @@
+{
+  "date": "2025-01-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/house-of-the-dead-2-remake-release-window-finally-revealed",
+      "entities": {
+        "games": [
+          {
+            "id": "house-of-the-dead-2-remake",
+            "name": "House of the Dead 2: Remake",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": "house-of-the-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PS platforms"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [],
+      "summary": "The release window for House of the Dead 2: Remake was revealed, with the game coming to Nintendo Switch, Xbox, PlayStation, Steam and GOG in Spring 2025."
+    },
+    {
+      "ref": "main_news/sleeping-dogs-film-adaptation-canned-says-star-wars-donnie-y",
+      "entities": {
+        "games": [
+          {
+            "id": "sleeping-dogs",
+            "name": "Sleeping Dogs",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "sleeping-dogs",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "donnie-yen", "name": "Donnie Yen", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Actor Donnie Yen says the Sleeping Dogs film adaptation has been cancelled."
+    },
+    {
+      "ref": "main_news/games-done-quick-has-raised-over-54-million-for-charity-with",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Games Done Quick has raised over $54 million for charity, with AGDQ 2025 bringing in $2.5 million."
+    },
+    {
+      "ref": "business/lords-of-the-fallen-publisher-ci-games-publicly-shuns-dei-sa",
+      "entities": {
+        "games": [
+          {
+            "id": "lords-of-the-fallen",
+            "name": "Lords of the Fallen",
+            "aliases": [],
+            "genres": ["action-rpg", "soulslike"],
+            "franchise": "lords-of-the-fallen",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ci-games", "name": "CI Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "CI Games, publisher of Lords of the Fallen, publicly distanced itself from \"DEI\" and said it would not \"embed social or political agendas\" in its games."
+    },
+    {
+      "ref": "business/infinity-nikki-generates-16m-in-player-spending-on-mobile",
+      "entities": {
+        "games": [
+          {
+            "id": "infinity-nikki",
+            "name": "Infinity Nikki",
+            "aliases": [],
+            "genres": ["open-world", "adventure"],
+            "franchise": "nikki",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 16000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "infinity-nikki",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-13",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Infinity Nikki generates $16m in player spending on mobile",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/infinity-nikki-generates-16m-in-player-spending-on-mobile"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 10100000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "infinity-nikki",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-13",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "players in China who contributed $10.1 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/infinity-nikki-generates-16m-in-player-spending-on-mobile"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 10000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "infinity-nikki",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-13",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Infinity Nikki made $10 million in its first two weeks",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/infinity-nikki-generates-16m-in-player-spending-on-mobile"
+          }
+        }
+      ],
+      "summary": "Infinity Nikki generated $16 million in player spending on mobile, reaching that figure on January 3 with $10.1 million coming from players in China."
+    }
+  ]
+}

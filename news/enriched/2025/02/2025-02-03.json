@@ -1,0 +1,183 @@
+{
+  "date": "2025-02-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pokemon-tcg-pocket-s-trading-feature-is-changing-after-fan-b",
+      "entities": {
+        "games": [
+          { "id": "pokemon-tcg-pocket", "name": "Pokemon TCG Pocket", "aliases": ["Pokemon TCG pocket"], "genres": ["card"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Pokemon TCG Pocket is changing its Trading feature following fan backlash, including offering more ways to obtain trade tokens."
+    },
+    {
+      "ref": "main_news/the-sims-and-the-sims-2-have-been-officially-re-released-wit",
+      "entities": {
+        "games": [
+          { "id": "the-sims", "name": "The Sims", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "the-sims-2", "name": "The Sims 2", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "windows", "name": "Windows", "aliases": ["Windows 10", "Windows 11"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release"],
+      "facts": [],
+      "summary": "The Sims and The Sims 2 have been officially re-released with their expansions and DLC included, except IKEA Home Stuff, updated to run on Windows 10 and 11 with a new rendering engine."
+    },
+    {
+      "ref": "main_news/shang-chi-star-simu-liu-says-his-dream-is-a-sleeping-dogs-mo",
+      "entities": {
+        "games": [
+          { "id": "sleeping-dogs", "name": "Sleeping Dogs", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "sleeping-dogs", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "simu-liu", "name": "Simu Liu", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Shang-Chi star Simu Liu says his dream is to make a Sleeping Dogs movie followed by a sequel game, and that he is working with the rights holders."
+    },
+    {
+      "ref": "free_games_subscription/ridge-racer-64-is-now-on-switch-online-marking-its-first-eve",
+      "entities": {
+        "games": [
+          { "id": "ridge-racer-64", "name": "Ridge Racer 64", "aliases": [], "genres": ["racing"], "franchise": "ridge-racer", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Switch Online"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "subscription"],
+      "facts": [],
+      "summary": "Ridge Racer 64 is now available on Nintendo Switch Online, marking its first ever re-release."
+    },
+    {
+      "ref": "business/fallout-new-vegas-s-lead-writer-has-re-joined-obsidian-but-i",
+      "entities": {
+        "games": [
+          { "id": "fallout-new-vegas", "name": "Fallout: New Vegas", "aliases": ["New Vegas"], "genres": ["action-rpg", "rpg"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": ["Obsidian"], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "john-gonzalez", "name": "John Gonzalez", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Fallout: New Vegas lead writer John Gonzalez has re-joined Obsidian as its newest Creative Director, but insists it is not for a sequel."
+    },
+    {
+      "ref": "business/konami-has-released-its-financial-results-for-the-nine-month",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 310800000000, "unit": "currency", "currency": "JPY",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Revenue: ¥310.8 billion ($2 billion, up 22.8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "revenue", "value": 2000000000, "unit": "currency", "currency": "USD",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Revenue: ¥310.8 billion ($2 billion, up 22.8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "profit", "value": 87100000000, "unit": "currency", "currency": "JPY",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Business profit: ¥87.1 billion ($560 million, up 38.7% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "profit", "value": 560000000, "unit": "currency", "currency": "USD",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Business profit: ¥87.1 billion ($560 million, up 38.7% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "operating_income", "value": 86700000000, "unit": "currency", "currency": "JPY",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥86.7 billion ($557 million, up 45.5% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "operating_income", "value": 557000000, "unit": "currency", "currency": "USD",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥86.7 billion ($557 million, up 45.5% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "revenue", "value": 228800000000, "unit": "currency", "currency": "JPY",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Revenue: ¥228.8 billion ($1.4 billion, up 32% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "revenue", "value": 1400000000, "unit": "currency", "currency": "USD",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Revenue: ¥228.8 billion ($1.4 billion, up 32% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "profit", "value": 80800000000, "unit": "currency", "currency": "JPY",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Business profit: ¥80.8 billion ($519.7 million, up 44.6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } },
+        { "metric": "profit", "value": 519700000, "unit": "currency", "currency": "USD",
+          "entity": "konami", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-03", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Business profit: ¥80.8 billion ($519.7 million, up 44.6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-revises-forecasts-as-profits-increase-38-to-560m" } }
+      ],
+      "summary": "Konami released its financial results for the nine months ending December 31, 2024, reporting revenue of ¥310.8 billion (up 22.8% year-on-year) and business profit of ¥87.1 billion (up 38.7%)."
+    },
+    {
+      "ref": "business/multiversus-will-shutdown-on-may-30-after-disappointing-perf",
+      "entities": {
+        "games": [
+          { "id": "multiversus", "name": "MultiVersus", "aliases": [], "genres": ["fighting", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "player-first-games", "name": "Player First Games", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-05-30", "unit": "date", "currency": null,
+          "entity": "multiversus", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MultiVersus will shutdown on May 30 after disappointing performance",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/multiversus-will-shutdown-on-may-30-after-disappointing-performance" } }
+      ],
+      "summary": "MultiVersus will shut down on 30 May 2025 following disappointing performance."
+    }
+  ]
+}

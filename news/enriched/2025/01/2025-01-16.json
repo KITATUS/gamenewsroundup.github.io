@@ -1,0 +1,154 @@
+{
+  "date": "2025-01-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/animal-crossing-collaboration-coming-to-sea-life-aquariums-a",
+      "entities": {
+        "games": [
+          { "id": "animal-crossing", "name": "Animal Crossing", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "animal-crossing", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-02-08", "unit": "date", "currency": null,
+          "entity": "animal-crossing", "entity_type": "game", "scope": "event",
+          "as_of": "2025-01-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sea Life Manchester: 8th Feb – 9th March 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/animal-crossing-collaboration-coming-to-sea-life-aquariums-across-the-uk" } },
+        { "metric": "event_date", "value": "2025-04-12", "unit": "date", "currency": null,
+          "entity": "animal-crossing", "entity_type": "game", "scope": "event",
+          "as_of": "2025-01-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sea Life Birmingham: 12th April - 5th May 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/animal-crossing-collaboration-coming-to-sea-life-aquariums-across-the-uk" } },
+        { "metric": "event_date", "value": "2025-05-24", "unit": "date", "currency": null,
+          "entity": "animal-crossing", "entity_type": "game", "scope": "event",
+          "as_of": "2025-01-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sea Life Brighton: 24th May - 15th June 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/animal-crossing-collaboration-coming-to-sea-life-aquariums-across-the-uk" } },
+        { "metric": "event_date", "value": "2025-06-30", "unit": "date", "currency": null,
+          "entity": "animal-crossing", "entity_type": "game", "scope": "event",
+          "as_of": "2025-01-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sea Life London: 30th June - 27th July 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/animal-crossing-collaboration-coming-to-sea-life-aquariums-across-the-uk" } },
+        { "metric": "event_date", "value": "2025-08-01", "unit": "date", "currency": null,
+          "entity": "animal-crossing", "entity_type": "game", "scope": "event",
+          "as_of": "2025-01-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sea Life Chessington World of Adventures: 1st – 31st August 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/animal-crossing-collaboration-coming-to-sea-life-aquariums-across-the-uk" } }
+      ],
+      "summary": "An Animal Crossing collaboration event is coming to Sea Life aquariums across the UK, touring multiple locations throughout 2025."
+    },
+    {
+      "ref": "main_news/nintendo-under-fire-once-again-for-omitting-original-devs-fr",
+      "entities": {
+        "games": [
+          { "id": "donkey-kong-country-returns-hd", "name": "Donkey Kong Country Returns HD", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true }
+        ],
+        "studios": [{ "id": "retro-studios", "name": "Retro Studios", "aliases": [], "publisher": "nintendo", "inferred": true }],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake"],
+      "facts": [],
+      "summary": "Nintendo is under fire again for omitting original developers from remaster credits, this time leaving Retro Studios out of the Donkey Kong Country Returns HD credits."
+    },
+    {
+      "ref": "main_news/nintendo-switch-2-announced",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "hardware"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-04-02", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2025-01-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nintendo Direct planned for 02/04/2025",
+          "source": { "name": "YouTube", "domain": "youtube.com",
+                      "url": "https://www.youtube.com/watch?v=WxLUf2kRQRE" } }
+      ],
+      "summary": "Nintendo announced the Nintendo Switch 2, with a Nintendo Direct planned for 2 April 2025."
+    },
+    {
+      "ref": "free_games_subscription/january-s-playstation-plus-game-catalog-and-classics-titles",
+      "entities": {
+        "games": [
+          { "id": "god-of-war-ragnarok", "name": "God of War Ragnarök", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "like-a-dragon-gaiden-the-man-who-erased-his-name", "name": "Like a Dragon Gaiden: The Man Who Erased His Name", "aliases": [], "genres": ["action-adventure", "rpg"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "atlas-fallen-reign-of-sand", "name": "Atlas Fallen: Reign Of Sand", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "sd-gundam-battle-alliance", "name": "SD Gundam Battle Alliance", "aliases": [], "genres": ["action-rpg"], "franchise": "gundam", "inferred": true },
+          { "id": "sayonara-wild-hearts", "name": "Sayonara Wild Hearts", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true },
+          { "id": "anno-mutationem", "name": "ANNO: Mutationem", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "orcs-must-die-3", "name": "Orcs Must Die 3", "aliases": [], "genres": ["tower-defense", "action"], "franchise": "orcs-must-die", "inferred": true },
+          { "id": "citizen-sleeper", "name": "Citizen Sleeper", "aliases": [], "genres": ["rpg", "adventure"], "franchise": null, "inferred": true },
+          { "id": "poker-club", "name": "Poker Club", "aliases": [], "genres": ["card", "simulation"], "franchise": null, "inferred": true },
+          { "id": "indiana-jones-and-the-staff-of-kings", "name": "Indiana Jones and the Staff of Kings", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true },
+          { "id": "medievil-2", "name": "Medievil 2", "aliases": [], "genres": ["action-adventure"], "franchise": "medievil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps-vr2", "name": "PS VR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Sony announced January's PlayStation Plus Game Catalog and Classics titles, including God of War Ragnarök and Like a Dragon Gaiden."
+    },
+    {
+      "ref": "business/microsoft-makes-layoffs-across-several-divisions-including-g",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Microsoft made layoffs across several divisions including gaming, with a spokesperson saying the cuts were small in number but not confirming a figure."
+    },
+    {
+      "ref": "business/baldur-s-gate-3-exceeds-100m-mod-downloads",
+      "entities": {
+        "games": [
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true }
+        ],
+        "studios": [{ "id": "larian-studios", "name": "Larian Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 100000000, "unit": "downloads", "currency": null,
+          "entity": "baldurs-gate-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Baldur's Gate 3 exceeds 100m mod downloads",
+          "source": { "name": "X", "domain": "x.com",
+                      "url": "https://x.com/larianstudios/status/1879196788319772971" } }
+      ],
+      "summary": "Baldur's Gate 3 has exceeded 100 million mod downloads."
+    }
+  ]
+}

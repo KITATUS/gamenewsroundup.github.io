@@ -1,0 +1,118 @@
+{
+  "date": "2025-05-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/wrc-rights-return-to-nacon-after-ea-s-codemasters-ends-rally",
+      "entities": {
+        "games": [
+          { "id": "wrc", "name": "WRC", "aliases": [], "genres": ["racing"], "franchise": "wrc", "inferred": true }
+        ],
+        "studios": [
+          { "id": "codemasters", "name": "Codemasters", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nacon", "name": "Nacon", "aliases": [], "inferred": false },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The WRC rally game rights have returned to Nacon after EA's Codemasters ended rally game development, with Nacon planning a complete reboot."
+    },
+    {
+      "ref": "main_news/ex-machina-director-alex-garland-to-helm-elden-ring-movie-fo",
+      "entities": {
+        "games": [
+          { "id": "elden-ring", "name": "Elden Ring", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "alex-garland", "name": "Alex Garland", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ex Machina director Alex Garland will helm an Elden Ring movie for A24."
+    },
+    {
+      "ref": "main_news/balatro-s-playstation-platinum-trophy-has-only-been-obtained",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "mark-cerny", "name": "Mark Cerny", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Balatro's PlayStation Platinum trophy has been obtained by only 0.1% of players, including Mark Cerny."
+    },
+    {
+      "ref": "main_news/netherrealm-ends-mortal-kombat-1-support-as-focus-shifts-to",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "netherrealm-studios", "name": "NetherRealm", "aliases": ["NetherRealm"], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "NetherRealm has ended support for Mortal Kombat 1, with no additional DLC characters or story chapters planned, as it shifts focus to its next project."
+    },
+    {
+      "ref": "business/capcom-strengthens-game-development-muscle-with-new-osaka-ba",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Capcom is strengthening its game development capacity with a new base in Osaka."
+    },
+    {
+      "ref": "business/fantasy-life-i-the-girl-who-steals-time-hits-500-000-sales-i",
+      "entities": {
+        "games": [
+          { "id": "fantasy-life-i-the-girl-who-steals-time", "name": "Fantasy Life I: The Girl Who Steals Time", "aliases": [], "genres": ["rpg", "life-sim"], "franchise": "fantasy-life", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 500000, "unit": "units", "currency": null,
+          "entity": "fantasy-life-i-the-girl-who-steals-time", "entity_type": "game", "scope": "game",
+          "as_of": "2025-05-27", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Fantasy Life I: The Girl Who Steals Time hits 500,000 sales in three days",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/fantasy-life-i-the-girl-who-steals-time-hits-500000-sales-in-three-days" } }
+      ],
+      "summary": "Fantasy Life I: The Girl Who Steals Time reached 500,000 sales within three days of release."
+    }
+  ]
+}

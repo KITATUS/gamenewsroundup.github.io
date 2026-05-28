@@ -1,0 +1,107 @@
+{
+  "date": "2025-01-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/tetsuhisa-seko-nippon-ichi-nis-president-has-died-at-age-54",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nippon-ichi-software", "name": "Nippon Ichi Software", "aliases": ["Nippon Ichi", "NIS"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "tetsuhisa-seko", "name": "Tetsuhisa Seko", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Tetsuhisa Seko, president of Nippon Ichi Software (NIS), has died at the age of 54."
+    },
+    {
+      "ref": "business/ex-gearbox-publishing-devs-form-new-publisher-cooldown-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gearbox-software", "name": "Gearbox Software", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "cooldown-games", "name": "Cooldown Games", "aliases": [], "inferred": false },
+          { "id": "gearbox-publishing", "name": "Gearbox Publishing", "aliases": [], "inferred": false },
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "steve-gibson", "name": "Steve Gibson", "aliases": [], "inferred": false },
+          { "id": "matt-charles", "name": "Matt Charles", "aliases": [], "inferred": false },
+          { "id": "erick-cobbs", "name": "Erick Cobbs", "aliases": [], "inferred": false },
+          { "id": "jackson-hardesty", "name": "Jackson Hardesty", "aliases": [], "inferred": false },
+          { "id": "jeff-skal", "name": "Jeff Skal", "aliases": [], "inferred": false },
+          { "id": "jimmy-sieben", "name": "Jimmy Sieben", "aliases": [], "inferred": false },
+          { "id": "brad-schliesser", "name": "Brad Schliesser", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "acquisition"],
+      "facts": [],
+      "summary": "Former Gearbox Publishing developers, led by CEO Steve Gibson, have formed a new publisher called Cooldown Games."
+    },
+    {
+      "ref": "business/savvy-games-hires-nika-nour-as-svp-and-head-of-international",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "savvy-games-group", "name": "Savvy Games Group", "aliases": ["Savvy Games"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "nika-nour", "name": "Nika Nour", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Savvy Games has hired Nika Nour as SVP and head of international business development, overseeing international partnerships and advising on mergers, acquisitions, and investments."
+    },
+    {
+      "ref": "business/annapurna-appoints-ex-netflix-exec-leanne-loombe-as-head-of",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "annapurna-interactive", "name": "Annapurna Interactive", "aliases": ["Annapurna"], "inferred": true },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "leanne-loombe", "name": "Leanne Loombe", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Annapurna has appointed former Netflix executive Leanne Loombe as head of games, overseeing publishing, development, and creative segments."
+    },
+    {
+      "ref": "rumours/playstation-productions-next-movie-project-is-resident-evil",
+      "entities": {
+        "games": [
+          { "id": "resident-evil", "name": "Resident Evil", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false },
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation Productions"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "zach-cregger", "name": "Zach Cregger", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "rumour"],
+      "facts": [],
+      "summary": "Rumour that PlayStation Productions' next movie project is a Resident Evil film, supposedly to be directed by Zach Cregger."
+    }
+  ]
+}

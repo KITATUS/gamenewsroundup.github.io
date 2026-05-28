@@ -1,0 +1,306 @@
+{
+  "date": "2025-02-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-presents-has-been-announced-for-next-week",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-02-27",
+          "unit": "date",
+          "currency": null,
+          "entity": "pokemon-presents",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-02-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "February 27 at 2 PM UTC/GMT, 6 AM PT, and 9 AM ET",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pokemon-presents-has-been-announced-for-next-week/" }
+        }
+      ],
+      "summary": "A Pokémon Presents showcase has been announced for February 27 at 2 PM UTC."
+    },
+    {
+      "ref": "main_news/limited-run-games-says-two-of-its-recent-nes-releases-could",
+      "entities": {
+        "games": [
+          { "id": "rugrats-adventures-in-gameland", "name": "Rugrats: Adventures in Gameland", "aliases": [], "genres": ["platformer"], "franchise": "rugrats", "inferred": true },
+          { "id": "piopow", "name": "Piopow", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "limited-run-games", "name": "Limited Run Games", "aliases": ["Limited Run"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nes", "name": "NES", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Limited Run Games says two of its recent NES cartridge releases, Rugrats: Adventures in Gameland and Piopow, could damage the console due to voltage regulation issues."
+    },
+    {
+      "ref": "business/war-robots-reaches-1bn-in-lifetime-revenue",
+      "entities": {
+        "games": [
+          { "id": "war-robots", "name": "War Robots", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pixonic", "name": "Pixonic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "war-robots",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "War Robots reaches $1bn in lifetime revenue",
+          "source": { "name": "pixonic.com", "domain": "pixonic.com", "url": "https://pixonic.com/news/news-792" }
+        }
+      ],
+      "summary": "Pixonic's mobile shooter War Robots has reached $1bn in lifetime revenue."
+    },
+    {
+      "ref": "business/dutch-consumer-foundation-sues-sony-for-overpricing-digital",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Dutch consumer foundation Massaschade & Consument is suing Sony, alleging it prices digital PlayStation games at nearly double the cost of physical versions."
+    },
+    {
+      "ref": "business/mouthwashing-sales-top-500k-copies-ahead-of-incoming-console",
+      "entities": {
+        "games": [
+          { "id": "mouthwashing", "name": "Mouthwashing", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": true },
+          { "id": "switch", "name": "Switch", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "port"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 500000,
+          "unit": "units",
+          "currency": null,
+          "entity": "mouthwashing",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mouthwashing sales top 500K copies ahead of incoming console ports",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/mouthwashing-sales-top-500k-copies-ps5-and-switch-ports-in-tow" }
+        }
+      ],
+      "summary": "Mouthwashing sales have topped 500K copies ahead of incoming console ports."
+    },
+    {
+      "ref": "business/konami-raises-base-salaries-of-japanese-workers-for-fourth-y",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "wages",
+          "value": 5000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "konami",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-20",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "The raise increases pay by ¥5,000 (or $32) per month",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/konami-ups-japan-s-base-salary-for-fourth-year-in-a-row" }
+        },
+        {
+          "metric": "wages",
+          "value": 32,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "konami",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-20",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "¥5,000 (or $32) per month",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/konami-ups-japan-s-base-salary-for-fourth-year-in-a-row" }
+        },
+        {
+          "metric": "wages",
+          "value": 60000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "konami",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-20",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "¥60,000 ($395) per year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/konami-ups-japan-s-base-salary-for-fourth-year-in-a-row" }
+        },
+        {
+          "metric": "wages",
+          "value": 395,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "konami",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-20",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "¥60,000 ($395) per year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/konami-ups-japan-s-base-salary-for-fourth-year-in-a-row" }
+        }
+      ],
+      "summary": "Konami raised the base salaries of its full-time Japanese workers for the fourth year in a row, by ¥5,000 ($32) per month."
+    },
+    {
+      "ref": "business/over-32-million-players-have-played-palworld-in-its-first-ye",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 32000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "palworld",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Over 32 million players have played Palworld in its first year",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/over-32-million-players-have-played-palworld-in-its-first-year-developer-says/" }
+        }
+      ],
+      "summary": "Palworld's developer says over 32 million players have played the game in its first year."
+    },
+    {
+      "ref": "rumours/pok-mon-go-developer-niantic-close-to-selling-games-for-3-5b",
+      "entities": {
+        "games": [
+          { "id": "pokemon-go", "name": "Pokémon Go", "aliases": [], "genres": ["adventure"], "franchise": "pokemon", "inferred": true },
+          { "id": "monopoly-go", "name": "Monopoly Go", "aliases": [], "genres": ["party"], "franchise": "monopoly", "inferred": true }
+        ],
+        "studios": [
+          { "id": "niantic", "name": "Niantic", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "scopely", "name": "Scopely", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "rumour"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 3500000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "niantic",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Niantic close to selling games for $3.5bn to Saudi-owned Monopoly Go maker Scopely",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/pokemon-go-developer-close-to-selling-games-for-35bn-to-saudi-owned-monopoly-go-maker-report" }
+        }
+      ],
+      "summary": "Rumour that Pokémon Go developer Niantic is close to selling its games business to Monopoly Go maker Scopely for $3.5bn."
+    },
+    {
+      "ref": "rumours/netflix-has-reportedly-laid-off-multiple-workers-at-oxenfree",
+      "entities": {
+        "games": [
+          { "id": "oxenfree", "name": "Oxenfree", "aliases": [], "genres": ["adventure"], "franchise": "oxenfree", "inferred": true }
+        ],
+        "studios": [
+          { "id": "night-school-studio", "name": "Night School Studio", "aliases": [], "publisher": "netflix", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Netflix has laid off multiple workers at Oxenfree developer Night School Studio, with an undisclosed number of people affected."
+    }
+  ]
+}

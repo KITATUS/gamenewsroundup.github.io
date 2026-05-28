@@ -1,0 +1,414 @@
+{
+  "date": "2024-11-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/baldur-s-gate-3-will-add-cross-play-12-subclasses-and-a-phot",
+      "entities": {
+        "games": [
+          {
+            "id": "baldurs-gate-3",
+            "name": "Baldur's Gate 3",
+            "aliases": ["Baldur’s Gate 3"],
+            "genres": ["crpg"],
+            "franchise": "baldurs-gate",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "larian-studios",
+            "name": "Larian Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Baldur's Gate 3 will add cross-play, 12 subclasses and a photo mode next year."
+    },
+    {
+      "ref": "free_games_subscription/december-s-playstation-plus-essential-and-classic-games-anno",
+      "entities": {
+        "games": [
+          {
+            "id": "it-takes-two",
+            "name": "It Takes Two",
+            "aliases": [],
+            "genres": ["action-adventure", "platformer"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "aliens-dark-descent",
+            "name": "Aliens: Dark Descent",
+            "aliases": [],
+            "genres": ["strategy", "action-rpg"],
+            "franchise": "alien",
+            "inferred": true
+          },
+          {
+            "id": "temtem",
+            "name": "Temtem",
+            "aliases": [],
+            "genres": ["mmo", "rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "sly-2-band-of-thieves",
+            "name": "Sly 2: Band of Thieves",
+            "aliases": [],
+            "genres": ["platformer", "stealth"],
+            "franchise": "sly-cooper",
+            "inferred": true
+          },
+          {
+            "id": "sly-3-honor-among-thieves",
+            "name": "Sly 3: Honor Among Thieves",
+            "aliases": [],
+            "genres": ["platformer", "stealth"],
+            "franchise": "sly-cooper",
+            "inferred": true
+          },
+          {
+            "id": "jak-and-daxter-the-precursor-legacy",
+            "name": "Jak and Daxter: The Precursor Legacy",
+            "aliases": [],
+            "genres": ["platformer", "action-adventure"],
+            "franchise": "jak-and-daxter",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": ["PlayStation Plus", "Plus"],
+            "inferred": false
+          },
+          {
+            "id": "ps4",
+            "name": "PS4",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps2",
+            "name": "PS2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-12-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-plus",
+          "entity_type": "platform",
+          "scope": "event",
+          "as_of": "2024-11-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "available to all PlayStation Plus members from December 3 until January 6",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/decembers-playstation-plus-essential-and-classic-games-announced/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2025-01-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-plus",
+          "entity_type": "platform",
+          "scope": "event",
+          "as_of": "2024-11-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "available to all PlayStation Plus members from December 3 until January 6",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/decembers-playstation-plus-essential-and-classic-games-announced/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-12-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-plus",
+          "entity_type": "platform",
+          "scope": "event",
+          "as_of": "2024-11-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "They will be available from December 10.",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/decembers-playstation-plus-essential-and-classic-games-announced/"
+          }
+        }
+      ],
+      "summary": "December's PlayStation Plus Essential and Classic games line-up has been announced."
+    },
+    {
+      "ref": "free_games_subscription/three-more-mega-drive-genesis-games-have-been-added-to-switc",
+      "entities": {
+        "games": [
+          {
+            "id": "toejam-and-earl-panic-on-funkotron",
+            "name": "ToeJam & Earl: Panic on Funkotron",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "toejam-and-earl",
+            "inferred": true
+          },
+          {
+            "id": "vectorman",
+            "name": "Vectorman",
+            "aliases": [],
+            "genres": ["platformer", "shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "mercs",
+            "name": "Mercs",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "nintendo-switch-online",
+            "name": "Switch Online",
+            "aliases": ["Switch Online"],
+            "inferred": false
+          },
+          {
+            "id": "sega-mega-drive-genesis",
+            "name": "Mega Drive / Genesis",
+            "aliases": ["Mega Drive / Genesis"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Three more Mega Drive / Genesis games have been added to Nintendo Switch Online."
+    },
+    {
+      "ref": "business/mac-walters-worlds-untold-studio-on-pause-as-it-seeks-new-fu",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "worlds-untold",
+            "name": "Worlds Untold",
+            "aliases": [],
+            "publisher": "netease",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "mac-walters",
+            "name": "Mac Walters",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["funding-investment", "studio-closure"],
+      "facts": [],
+      "summary": "Mac Walters' studio Worlds Untold has paused operations and is seeking a new funding partner after NetEase pulled its backing."
+    },
+    {
+      "ref": "business/block-blast-reaches-40m-daily-active-players",
+      "entities": {
+        "games": [
+          {
+            "id": "block-blast",
+            "name": "Block Blast",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hungry-studio",
+            "name": "Hungry Studio",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 40000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "block-blast",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Over 40 million active players every day",
+          "source": {
+            "name": "LinkedIn",
+            "domain": "linkedin.com",
+            "url": "https://www.linkedin.com/posts/hungrystudio2021_blockblast-games-activity-7267537714386731008-1qzl/"
+          }
+        },
+        {
+          "metric": "players_total",
+          "value": 150000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "block-blast",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "more than 150 million active players each month across the globe",
+          "source": {
+            "name": "LinkedIn",
+            "domain": "linkedin.com",
+            "url": "https://www.linkedin.com/posts/hungrystudio2021_blockblast-games-activity-7267537714386731008-1qzl/"
+          }
+        }
+      ],
+      "summary": "Block Blast has reached 40 million daily active players and over 150 million monthly active players."
+    },
+    {
+      "ref": "rumours/balatro-has-made-almost-4-4m-from-its-mobile-release-alone",
+      "entities": {
+        "games": [
+          {
+            "id": "balatro",
+            "name": "Balatro",
+            "aliases": [],
+            "genres": ["roguelike", "card"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "rumour"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 4400000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "balatro",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Balatro has made almost $4.4m from its mobile release alone",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/balatro-has-made-almost-44m-from-its-mobile-release-alone"
+          }
+        }
+      ],
+      "summary": "Balatro has reportedly made almost $4.4m from its mobile release alone, without microtransactions."
+    },
+    {
+      "ref": "rumours/leaked-image-suggests-valve-s-rumoured-new-steam-controller",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam-controller",
+            "name": "Steam Controller",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "steam-deck",
+            "name": "Steam Deck",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "A leaked image suggests Valve's rumoured new Steam Controller takes design cues from the Steam Deck."
+    }
+  ]
+}

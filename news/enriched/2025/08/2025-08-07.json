@@ -1,0 +1,102 @@
+{
+  "date": "2025-08-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/obituary-marvel-s-spider-man-2-accessibility-engineer-patric",
+      "entities": {
+        "games": [
+          { "id": "marvels-spider-man-2", "name": "Marvel's Spider-Man 2", "aliases": [], "genres": ["action-adventure"], "franchise": "marvels-spider-man", "inferred": true }
+        ],
+        "studios": [
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "raven-software", "name": "Raven Software", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "patrick-gass", "name": "Patrick \"Thor\" Gass", "aliases": ["Patrick Gass", "Thor"], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Marvel's Spider-Man 2 accessibility engineer Patrick \"Thor\" Gass, a US Army veteran who previously worked on the Call of Duty series at Raven Software, has died."
+    },
+    {
+      "ref": "main_news/video-game-history-foundation-expands-its-preservation-effor",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "video-game-history-foundation", "name": "Video Game History Foundation", "aliases": ["VGHF"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "The Video Game History Foundation has expanded its preservation efforts by making the early American games magazine Computer Entertainer available for free."
+    },
+    {
+      "ref": "business/redoctane-games-is-a-new-studio-dedicated-to-advancing-the-r",
+      "entities": {
+        "games": [
+          { "id": "guitar-hero", "name": "Guitar Hero", "aliases": [], "genres": ["rhythm"], "franchise": "guitar-hero", "inferred": true },
+          { "id": "dj-hero", "name": "DJ Hero", "aliases": [], "genres": ["rhythm"], "franchise": "dj-hero", "inferred": true }
+        ],
+        "studios": [
+          { "id": "redoctane-games", "name": "RedOctane Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "RedOctane Games is a new studio founded by veteran rhythm-game developers from Guitar Hero and DJ Hero, focused solely on advancing the rhythm game genre."
+    },
+    {
+      "ref": "business/vintage-story-developers-claim-itch-io-has-withheld-payments",
+      "entities": {
+        "games": [
+          { "id": "vintage-story", "name": "Vintage Story", "aliases": [], "genres": ["survival", "sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "itch-io", "name": "itch.io", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "The developers of Vintage Story claim that itch.io has withheld their payments for three months."
+    },
+    {
+      "ref": "rumours/microsoft-has-reportedly-sold-less-than-30-million-consoles",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series X and S", "aliases": ["Xbox Series S and X", "Xbox Series X", "Xbox Series S"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour", "hardware"],
+      "facts": [
+        { "metric": "units_sold", "value": 30000000, "unit": "units", "currency": null,
+          "entity": "xbox-series-x-s", "entity_type": "platform", "scope": "platform",
+          "as_of": "2025-08-07", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Microsoft Has Reportedly Sold Less Than 30 Million Consoles This Generation",
+          "source": { "name": "IGN India", "domain": "in.ign.com",
+            "url": "https://in.ign.com/xbox-series-x-1/238086/news/xbox-series-x-and-s-microsoft-has-reportedly-sold-less-than-30-million-consoles-this-generation" } }
+      ],
+      "summary": "Rumour that Microsoft has sold fewer than 30 million Xbox Series X and S consoles this generation."
+    }
+  ]
+}

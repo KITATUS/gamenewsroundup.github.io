@@ -1,0 +1,165 @@
+{
+  "date": "2025-06-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dune-awakening-hits-142-000-concurrent-players-during-full-l",
+      "entities": {
+        "games": [
+          { "id": "dune-awakening", "name": "Dune Awakening", "aliases": [], "genres": ["mmo", "survival", "open-world"], "franchise": "dune", "inferred": true }
+        ],
+        "studios": [
+          { "id": "funcom", "name": "Funcom", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [
+        { "metric": "peak_concurrent_players", "value": 142000, "unit": "players", "currency": null,
+          "entity": "dune-awakening", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dune Awakening hits 142,000 concurrent players during full launch, smashing past record",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/dune-awakening-hits-142000-concurrent-players-during-full-launch-smashing-past-record" } }
+      ],
+      "summary": "Dune Awakening reached 142,000 concurrent players during its full launch, setting a new record for the game."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-titles-for-june",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "battlefield-2042", "name": "Battlefield 2042", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "five-nights-at-freddys-help-wanted-2", "name": "Five Nights at Freddy's: Help Wanted 2", "aliases": [], "genres": ["horror"], "franchise": "five-nights-at-freddys", "inferred": true },
+          { "id": "the-hunter-call-of-the-wild", "name": "The Hunter: Call of the Wild", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "we-love-katamari-reroll-royal-reverie", "name": "We Love Katamari Reroll + Royal Reverie", "aliases": [], "genres": ["puzzle"], "franchise": "katamari", "inferred": true },
+          { "id": "eiyuden-chronicles-hundred-heroes", "name": "Eiyuden Chronicles: Hundred Heroes", "aliases": [], "genres": ["jrpg"], "franchise": null, "inferred": true },
+          { "id": "train-sim-world-5", "name": "Train Sim World 5", "aliases": [], "genres": ["simulation"], "franchise": "train-sim-world", "inferred": true },
+          { "id": "endless-dungeon", "name": "Endless Dungeon", "aliases": [], "genres": ["roguelike"], "franchise": "endless", "inferred": true },
+          { "id": "deus-ex-the-conspiracy", "name": "Deus Ex: The Conspiracy", "aliases": [], "genres": ["action-rpg", "fps"], "franchise": "deus-ex", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "fbc-firebreak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "FBC: Firebreak (PS5) - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "battlefield-2042", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Battlefield 2042 (PS5, PS4)  - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "five-nights-at-freddys-help-wanted-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Five Nights at Freddy’s: Help Wanted 2 (PS5)  - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "the-hunter-call-of-the-wild", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Hunter: Call of the Wild (PS4)  - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "we-love-katamari-reroll-royal-reverie", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "We Love Katamari Reroll + Royal Reverie (PS5, PS4)  - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "eiyuden-chronicles-hundred-heroes", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Eiyuden Chronicles: Hundred Heroes (PS5, PS4)  - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "train-sim-world-5", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Train Sim World 5 (PS5, PS4)  - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "endless-dungeon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Endless Dungeon (PS5, PS4)  - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } },
+        { "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "deus-ex-the-conspiracy", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Deus Ex: The Conspiracy (PS5, PS4) [Classic] - June 17",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/junes-playstation-plus-game-catalog-games-include-fbc-firebreak-and-battlefield-2042/" } }
+      ],
+      "summary": "Sony revealed June's PlayStation Plus Game Catalog additions, including FBC: Firebreak and Battlefield 2042, all arriving on 17 June."
+    },
+    {
+      "ref": "business/sag-aftra-formally-calls-off-industrial-action-after-almost",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "SAG-AFTRA formally called off its industrial action after almost a year of strikes, with details of the agreement to be released later."
+    },
+    {
+      "ref": "business/street-fighter-6-sells-five-million-copies-on-track-to-be-be",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 5000000, "unit": "copies", "currency": null,
+          "entity": "street-fighter-6", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Street Fighter 6 sells five million copies",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/street-fighter-6-sells-five-million-copies-on-track-to-be-best-selling-street-fighter-ever" } }
+      ],
+      "summary": "Street Fighter 6 has sold five million copies, putting it on track to become the best-selling Street Fighter game ever."
+    },
+    {
+      "ref": "business/days-gone-studio-sony-bend-announces-layoffs-following-live",
+      "entities": {
+        "games": [
+          { "id": "days-gone", "name": "Days Gone", "aliases": [], "genres": ["action-adventure", "survival", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sony-bend", "name": "Sony Bend", "aliases": ["Bend Studio"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 40, "unit": "people", "currency": null,
+          "entity": "sony-bend", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-06-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "reported to be 30% of their staff, around 40 people",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/days-gone-studio-sony-bend-announces-layoffs-following-live-service-cancellation" } }
+      ],
+      "summary": "Days Gone studio Sony Bend announced layoffs of around 40 people, roughly 30% of staff, following the cancellation of a live-service project."
+    }
+  ]
+}

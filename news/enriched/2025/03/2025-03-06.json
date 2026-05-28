@@ -1,0 +1,286 @@
+{
+  "date": "2025-03-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/netease-last-minute-console-delays-console-versions-of-hero",
+      "entities": {
+        "games": [
+          {
+            "id": "fragpunk",
+            "name": "FragPunk",
+            "aliases": [],
+            "genres": ["hero-shooter", "fps"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series X/S",
+            "aliases": ["Xbox Series S/X"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay", "release", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-03-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "fragpunk",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the game will still be released for PC on March 6",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/netease-offers-compensation-after-last-minute-console-delay-for-hero-shooter-fragpunk/"
+          }
+        }
+      ],
+      "summary": "NetEase indefinitely delayed the PS5 and Xbox Series S/X versions of hero shooter FragPunk while the PC version still released on March 6, citing technical challenges in console compliance testing."
+    },
+    {
+      "ref": "main_news/obituary-legacy-of-kain-writer-jim-curry-has-died",
+      "entities": {
+        "games": [
+          {
+            "id": "legacy-of-kain-soul-reaver",
+            "name": "Legacy of Kain: Soul Reaver",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "legacy-of-kain",
+            "inferred": true
+          },
+          {
+            "id": "akuji-the-heartless",
+            "name": "Akuji: The Heartless",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "gex",
+            "name": "Gex",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "gex",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "jim-curry",
+            "name": "Jim Curry",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Jim Curry, the writer of Legacy of Kain: Soul Reaver who also wrote Akuji: The Heartless and handled marketing for the Gex games, has died."
+    },
+    {
+      "ref": "business/sega-promises-fewer-new-games-but-deeper-investments-in-soni",
+      "entities": {
+        "games": [
+          {
+            "id": "like-a-dragon",
+            "name": "Like a Dragon",
+            "aliases": [],
+            "genres": ["action-adventure", "rpg"],
+            "franchise": "like-a-dragon",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "atlus",
+            "name": "Atlus",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": ["SEGA"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sega said it will release fewer new games while investing more deeply in its core franchises Sonic, Atlus, and Like a Dragon, reinforcing core studios through hiring and acquisitions."
+    },
+    {
+      "ref": "business/20-year-old-browser-game-urban-dead-to-shut-down-as-result-o",
+      "entities": {
+        "games": [
+          {
+            "id": "urban-dead",
+            "name": "Urban Dead",
+            "aliases": [],
+            "genres": ["survival", "rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "browser",
+            "name": "Browser",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "regulation"],
+      "facts": [],
+      "summary": "The 20-year-old browser game Urban Dead is set to shut down as a result of the UK's new online safety law."
+    },
+    {
+      "ref": "business/translation-studio-transperfect-acquires-support-dev-technic",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "transperfect",
+            "name": "TransPerfect",
+            "aliases": ["Transperfect"],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "technicolor-games",
+            "name": "Technicolor Games",
+            "aliases": ["Technicolor"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Translation studio TransPerfect has acquired support developer Technicolor Games, which will join its game division as a provider of art, animation, and VFX services."
+    },
+    {
+      "ref": "rumours/until-dawn-remake-studio-ballistic-moon-effectively-closed",
+      "entities": {
+        "games": [
+          {
+            "id": "until-dawn",
+            "name": "Until Dawn",
+            "aliases": [],
+            "genres": ["survival-horror", "adventure"],
+            "franchise": "until-dawn",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ballistic-moon",
+            "name": "Ballistic Moon",
+            "aliases": ["Ballistic"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs", "rumour"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 40,
+          "unit": "people",
+          "currency": null,
+          "entity": "ballistic-moon",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-03-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Roughly 40 employees were let go in October",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/until-dawn-remake-studio-ballistic-moon-effectively-closed"
+          }
+        },
+        {
+          "metric": "layoffs_count",
+          "value": 20,
+          "unit": "people",
+          "currency": null,
+          "entity": "ballistic-moon",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-03-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "equating to around 20 employees - lost their jobs in December",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/until-dawn-remake-studio-ballistic-moon-effectively-closed"
+          }
+        }
+      ],
+      "summary": "Until Dawn remake studio Ballistic Moon is reportedly \"effectively closed\", with around 20 remaining developers said to have lost their jobs in December after roughly 40 were let go in October."
+    }
+  ]
+}

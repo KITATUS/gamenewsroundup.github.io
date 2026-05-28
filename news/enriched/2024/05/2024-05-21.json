@@ -1,0 +1,169 @@
+{
+  "date": "2024-05-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/kingdom-hearts-is-coming-to-steam",
+      "entities": {
+        "games": [
+          { "id": "kingdom-hearts-hd-1-5-2-5-remix", "name": "Kingdom Hearts HD 1.5 + 2.5 ReMIX", "aliases": ["KINGDOM HEARTS HD 1.5 + 2.5 ReMIX"], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "kingdom-hearts-hd-2-8-final-chapter-prologue", "name": "Kingdom Hearts HD 2.8 Final Chapter Prologue", "aliases": ["KINGDOM HEARTS HD 2.8 Final Chapter Prologue"], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "kingdom-hearts-iii", "name": "Kingdom Hearts III", "aliases": ["KINGDOM HEARTS III + Re Mind DLC"], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "kingdom-hearts-integrum-masterpiece", "name": "Kingdom Hearts Integrum Masterpiece", "aliases": ["KINGDOM HEARTS INTEGRUM MASTERPIECE"], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": ["square-enix-games.com"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-06-13", "unit": "date", "currency": null,
+          "entity": "kingdom-hearts", "entity_type": "game", "scope": "franchise",
+          "as_of": "2024-05-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "June 13th",
+          "source": { "name": "square-enix-games.com", "domain": "square-enix-games.com", "url": "https://www.square-enix-games.com/en_GB/news/kingdom-hearts-pc" } }
+      ],
+      "summary": "The Kingdom Hearts collections are coming to Steam on 13 June 2024."
+    },
+    {
+      "ref": "main_news/multiversus-launch-trailer-reveals-jason-voorhees-and-agent",
+      "entities": {
+        "games": [
+          { "id": "multiversus", "name": "MultiVersus", "aliases": [], "genres": ["fighting", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "player-first-games", "name": "Player First Games", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-05-28", "unit": "date", "currency": null,
+          "entity": "multiversus", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MultiVersus will officially return on May 28",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/multiversus-launch-trailer-reveals-jason-voorhees-and-agent-smith-as-playable-characters/" } }
+      ],
+      "summary": "The MultiVersus launch trailer reveals Jason Voorhees and Agent Smith as playable characters ahead of its 28 May return."
+    },
+    {
+      "ref": "business/nintendo-is-set-to-fully-acquire-miami-based-shiver-entertai",
+      "entities": {
+        "games": [
+          { "id": "hogwarts-legacy", "name": "Hogwarts Legacy", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "harry-potter", "inferred": true },
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "shiver-entertainment", "name": "Shiver Entertainment", "aliases": ["Shiver"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Nintendo is set to fully acquire Miami-based Shiver Entertainment, the studio behind Switch ports including Hogwarts Legacy and Mortal Kombat 1, from current owner Embracer."
+    },
+    {
+      "ref": "business/bandai-namco-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1050000000000, "unit": "currency", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥1.05 trillion ($6.74 billion, up 6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "revenue", "value": 6740000000, "unit": "currency", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥1.05 trillion ($6.74 billion, up 6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "operating_income", "value": 90600000000, "unit": "currency", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Operating profit: ¥90.6 billion ($582 million, down 22%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "operating_income", "value": 582000000, "unit": "currency", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Operating profit: ¥90.6 billion ($582 million, down 22%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "profit", "value": 101400000000, "unit": "currency", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net profit: ¥101.4 billion ($651.4 million, up 12.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "profit", "value": 651400000, "unit": "currency", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net profit: ¥101.4 billion ($651.4 million, up 12.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "revenue", "value": 372600000000, "unit": "currency", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥372.6 billion ($2.39 billion, down -3.4%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "revenue", "value": 2390000000, "unit": "currency", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥372.6 billion ($2.39 billion, down -3.4%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "profit", "value": 6200000000, "unit": "currency", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Profit: ¥6.2 billion ($39.8 million, down 87%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } },
+        { "metric": "profit", "value": 39800000, "unit": "currency", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Profit: ¥6.2 billion ($39.8 million, down 87%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-reports-record-sales-and-rise-in-profits-despite-video-game-decline" } }
+      ],
+      "summary": "Bandai Namco reported record net sales of ¥1.05 trillion ($6.74 billion, up 6%) for the year, though operating profit fell and its digital segment declined."
+    },
+    {
+      "ref": "business/ard-n-launches-development-fund-for-irish-indie-studios",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ardan", "name": "Ardán", "aliases": ["Ardán"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 15000, "unit": "currency", "currency": "EUR",
+          "entity": "ardan", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The IndieDev program will grant €15,000 to the seven studios in the island of Ireland to generate ideas and create game prototypes",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/ard-n-launches-development-fund-for-irish-indie-studios" } }
+      ],
+      "summary": "Ardán launched its IndieDev development fund granting €15,000 each to seven indie studios on the island of Ireland."
+    }
+  ]
+}

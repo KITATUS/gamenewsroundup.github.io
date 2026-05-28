@@ -1,0 +1,172 @@
+{
+  "date": "2026-01-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/as-anthem-shuts-down-the-game-s-executive-producer-mark-darr",
+      "entities": {
+        "games": [
+          { "id": "anthem", "name": "Anthem", "aliases": [], "genres": ["action-rpg", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mark-darrah", "name": "Mark Darrah", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "As Anthem shuts down, the game's executive producer Mark Darrah released a nearly four-hour post-mortem."
+    },
+    {
+      "ref": "main_news/animal-crossing-new-horizons-3-0-and-switch-2-upgrade-now-av",
+      "entities": {
+        "games": [
+          { "id": "animal-crossing-new-horizons", "name": "Animal Crossing New Horizons", "aliases": [], "genres": ["life-sim"], "franchise": "animal-crossing", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "port"],
+      "facts": [],
+      "summary": "The Animal Crossing New Horizons 3.0 update and its Switch 2 upgrade are now available."
+    },
+    {
+      "ref": "main_news/multiple-ecco-the-dolphin-games-officially-in-development",
+      "entities": {
+        "games": [
+          { "id": "ecco-the-dolphin", "name": "Ecco the Dolphin", "aliases": [], "genres": ["adventure"], "franchise": "ecco-the-dolphin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Multiple Ecco the Dolphin games are officially in development."
+    },
+    {
+      "ref": "main_news/resident-evil-showcase-set-for-today-2pm-pt-10pm-gmt-promisi",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "reveal"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-01-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "resident-evil-showcase",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-01-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Resident Evil Showcase set for today",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/01/resident-evil-showcase-set-for-january-15" }
+        }
+      ],
+      "summary": "A Resident Evil Showcase is set for today, promising a closer look at Resident Evil Requiem."
+    },
+    {
+      "ref": "free_games_subscription/ps-plus-extra-and-premium-games-for-january-20th",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-village", "name": "Resident Evil Village", "aliases": [], "genres": ["survival-horror", "fps"], "franchise": "resident-evil", "inferred": true },
+          { "id": "like-a-dragon-infinite-wealth", "name": "Like a Dragon: Infinite Wealth", "aliases": [], "genres": ["jrpg", "action-adventure"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "expeditions-a-mudrunner-game", "name": "Expeditions: A MudRunner Game", "aliases": [], "genres": ["simulation"], "franchise": "mudrunner", "inferred": true },
+          { "id": "a-quiet-place-the-road-ahead", "name": "A Quiet Place: The Road Ahead", "aliases": [], "genres": ["horror", "adventure"], "franchise": "a-quiet-place", "inferred": true },
+          { "id": "darkest-dungeon-2", "name": "Darkest Dungeon 2", "aliases": [], "genres": ["roguelike", "rpg"], "franchise": "darkest-dungeon", "inferred": true },
+          { "id": "the-exit-8", "name": "The Exit 8", "aliases": [], "genres": ["horror", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "art-of-rally", "name": "Art of Rally", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "a-little-to-the-left", "name": "A Little to the Left", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "ridge-racer", "name": "Ridge Racer", "aliases": [], "genres": ["racing"], "franchise": "ridge-racer", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus", "PS Plus Extra", "PlayStation Plus Premium"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-01-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "ps-plus",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-01-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS Plus Extra and Premium games for January 20th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-ps-plus-extra-and-premium-games-for-january" }
+        }
+      ],
+      "summary": "Sony has revealed the PS Plus Extra and Premium games arriving on 20 January 2026."
+    },
+    {
+      "ref": "business/ubisoft-confirms-29-jobs-lost-at-abu-dhabi-mobile-studio-dif",
+      "entities": {
+        "games": [
+          { "id": "growtopia", "name": "Growtopia", "aliases": [], "genres": ["mmo", "sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-abu-dhabi", "name": "Ubisoft Abu Dhabi", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 29,
+          "unit": "jobs",
+          "currency": null,
+          "entity": "ubisoft-abu-dhabi",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-01-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ubisoft confirms 29 jobs lost at Abu Dhabi mobile studio",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-confirms-29-jobs-lost-at-abu-dhabi-mobile-studio" }
+        }
+      ],
+      "summary": "Ubisoft confirmed 29 jobs lost at its Abu Dhabi mobile studio amid a restructuring that cancelled some projects to focus on the free-to-play MMO Growtopia."
+    }
+  ]
+}

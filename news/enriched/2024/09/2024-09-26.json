@@ -1,0 +1,231 @@
+{
+  "date": "2024-09-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/former-bandai-namco-president-shukuo-ishikawa-dies-aged-69",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "shukuo-ishikawa", "name": "Shukuo Ishikawa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former Bandai Namco president Shukuo Ishikawa has died aged 69."
+    },
+    {
+      "ref": "main_news/meta-quest-3s-officially-unveiled-with-290-price-tag-and-oct",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "meta", "name": "Meta", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "meta-quest-3s", "name": "Meta Quest 3S", "aliases": ["Meta Quest"], "inferred": false },
+          { "id": "meta-quest-2", "name": "Meta Quest 2", "aliases": ["Quest 2"], "inferred": false },
+          { "id": "meta-quest-pro", "name": "Meta Quest Pro", "aliases": ["Quest Pro"], "inferred": false },
+          { "id": "meta-quest-3", "name": "Meta Quest 3", "aliases": ["Quest 3"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "hardware", "release-date", "price-change"],
+      "facts": [
+        {
+          "metric": "price", "value": 289.99, "unit": "price", "currency": "GBP",
+          "entity": "meta-quest-3s", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Meta Quest 3S starts at £289.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/meta-quest-3s-officially-unveiled-with-290-price-tag-and-october-release-date" }
+        },
+        {
+          "metric": "price", "value": 299.99, "unit": "price", "currency": "USD",
+          "entity": "meta-quest-3s", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$299.99 USD with 128GB of storage",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/meta-quest-3s-officially-unveiled-with-290-price-tag-and-october-release-date" }
+        },
+        {
+          "metric": "price", "value": 379.99, "unit": "price", "currency": "GBP",
+          "entity": "meta-quest-3s", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "256GB option priced at £379.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/meta-quest-3s-officially-unveiled-with-290-price-tag-and-october-release-date" }
+        },
+        {
+          "metric": "price", "value": 399.99, "unit": "price", "currency": "USD",
+          "entity": "meta-quest-3s", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "256GB option priced at £379.99/$399.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/meta-quest-3s-officially-unveiled-with-290-price-tag-and-october-release-date" }
+        },
+        {
+          "metric": "price", "value": 499.99, "unit": "price", "currency": "USD",
+          "entity": "meta-quest-3", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "512GB Quest 3 (now slashed by $150 to $499.99)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/meta-quest-3s-officially-unveiled-with-290-price-tag-and-october-release-date" }
+        }
+      ],
+      "summary": "Meta officially unveiled the Meta Quest 3S at a £289.99/$299.99 starting price with an October release date, while phasing out the Quest 2, Quest Pro and 128GB Quest 3."
+    },
+    {
+      "ref": "main_news/all-new-ubisoft-games-to-release-day-one-on-steam-starting-n",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "All new Ubisoft games will release day one on Steam starting next February, for the first time since 2019."
+    },
+    {
+      "ref": "main_news/monster-hunter-wilds-1300-collector-s-edition-in-japan-comes",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "price", "value": 181590, "unit": "price", "currency": "JPY",
+          "entity": "monster-hunter-wilds", "entity_type": "game", "scope": "product",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "It will retail for ¥181,590",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/monster-hunter-wilds-1300-collectors-edition-in-japan-comes-with-a-bike/" }
+        },
+        {
+          "metric": "price", "value": 1260, "unit": "price", "currency": "USD",
+          "entity": "monster-hunter-wilds", "entity_type": "game", "scope": "product",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "It will retail for ¥181,590 ($1,260).",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/monster-hunter-wilds-1300-collectors-edition-in-japan-comes-with-a-bike/" }
+        }
+      ],
+      "summary": "Monster Hunter Wilds' $1300 collector's edition in Japan, retailing for ¥181,590, comes with a bike and other items including a PS5 copy of the game."
+    },
+    {
+      "ref": "main_news/ubisoft-delays-assassin-s-creed-shadows-drops-traditional-se",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": [], "genres": ["action-rpg", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        {
+          "metric": "delay_to", "value": "2025-02-14", "unit": "date", "currency": null,
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will now be released on February 14, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-delays-assassins-creed-shadows-drops-traditional-season-pass-model/" }
+        }
+      ],
+      "summary": "Ubisoft delayed Assassin's Creed Shadows to February 14, 2025 and dropped the traditional Season Pass model, following Star Wars Outlaws missing expectations."
+    },
+    {
+      "ref": "business/pixel-gun-3d-reaches-over-210m-in-revenue",
+      "entities": {
+        "games": [
+          { "id": "pixel-gun-3d", "name": "Pixel Gun 3D", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 210000000, "unit": "USD", "currency": "USD",
+          "entity": "pixel-gun-3d", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-26", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Pixel Gun 3D reaches over $210m in revenue",
+          "source": { "name": "whitelabelpr.createsend1.com", "domain": "whitelabelpr.createsend1.com", "url": "https://whitelabelpr.createsend1.com/t/t-e-sqjkut-l-q/" }
+        }
+      ],
+      "summary": "Pixel Gun 3D has reached over $210m in revenue."
+    },
+    {
+      "ref": "business/pok-mon-sleep-surpasses-120m-in-revenue",
+      "entities": {
+        "games": [
+          { "id": "pokemon-sleep", "name": "Pokémon Sleep", "aliases": [], "genres": ["life-sim"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 120000000, "unit": "USD", "currency": "USD",
+          "entity": "pokemon-sleep", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-26", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Pokémon Sleep surpasses $120m in revenue",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/pokemon-sleep-surpasses-120m-in-revenue" }
+        },
+        {
+          "metric": "revenue", "value": 88400000, "unit": "USD", "currency": "USD",
+          "entity": "pokemon-sleep", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-26", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Japan remains in top spot for player spending, having reached $88.4 million since launch",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/pokemon-sleep-surpasses-120m-in-revenue" }
+        }
+      ],
+      "summary": "Pokémon Sleep has surpassed $120m in revenue, with Japan leading player spending at $88.4 million since launch."
+    },
+    {
+      "ref": "business/palworld-s-ps5-release-held-up-in-japan-amid-nintendo-pok-mo",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "delay"],
+      "facts": [],
+      "summary": "Palworld's PS5 release has been held up in Japan amid a patent infringement lawsuit filed against developer Pocketpair by Nintendo and The Pokémon Company."
+    }
+  ]
+}

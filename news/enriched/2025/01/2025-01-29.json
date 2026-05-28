@@ -1,0 +1,199 @@
+{
+  "date": "2025-01-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dino-crisis-1-2-getting-enhanced-pc-re-releases-courtesy-of",
+      "entities": {
+        "games": [
+          { "id": "dino-crisis", "name": "Dino Crisis", "aliases": ["Dino Crisis 1 & 2"], "genres": ["survival-horror", "action-adventure"], "franchise": "dino-crisis", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port", "release"],
+      "facts": [],
+      "summary": "Dino Crisis 1 & 2 are getting enhanced, DRM-free PC re-releases on GOG."
+    },
+    {
+      "ref": "main_news/bethesda-sends-well-wishes-to-veteran-actor-wes-johnson-an-i",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bethesda-softworks", "name": "Bethesda", "aliases": ["Bethesda"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "wes-johnson", "name": "Wes Johnson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Bethesda sent well wishes to veteran voice actor Wes Johnson, calling him an instrumental part of its games, after he was hospitalised."
+    },
+    {
+      "ref": "main_news/destiny-2-heresy-will-feature-a-star-wars-collaboration",
+      "entities": {
+        "games": [
+          { "id": "destiny-2", "name": "Destiny 2", "aliases": ["Destiny 2 Heresy", "Destiny 2: Heresy"], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-02-04", "unit": "date", "currency": null,
+          "entity": "destiny-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Star Wars content will launch on February 4 alongside Destiny 2: Heresy",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/destiny-2-heresy-will-feature-a-star-wars-collaboration/" } }
+      ],
+      "summary": "Destiny 2: Heresy will feature a Star Wars collaboration adding Galactic Empire-inspired armor ornaments and accessories, launching February 4."
+    },
+    {
+      "ref": "main_news/age-of-empires-3-definitive-edition-dlc-has-been-cancelled",
+      "entities": {
+        "games": [
+          { "id": "age-of-empires-3-definitive-edition", "name": "Age of Empires 3 Definitive Edition", "aliases": [], "genres": ["rts", "strategy"], "franchise": "age-of-empires", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Planned DLC for Age of Empires 3 Definitive Edition has been cancelled."
+    },
+    {
+      "ref": "main_news/super-monkey-ball-banana-rumble-adds-the-crewmate-from-among",
+      "entities": {
+        "games": [
+          { "id": "super-monkey-ball-banana-rumble", "name": "Super Monkey Ball Banana Rumble", "aliases": [], "genres": ["platformer", "party"], "franchise": "super-monkey-ball", "inferred": true },
+          { "id": "among-us", "name": "Among Us", "aliases": [], "genres": ["party"], "franchise": "among-us", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "partnership", "release"],
+      "facts": [],
+      "summary": "Super Monkey Ball Banana Rumble adds the Among Us Crewmate in new DLC that is out now."
+    },
+    {
+      "ref": "business/silent-hill-2-remake-shipments-and-digital-sales-top-two-mil",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": ["Silent Hill 2 remake"], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "silent-hill-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-29", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Silent Hill 2 remake shipments and digital sales top two million",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2025/01/silent-hill-2-remake-shipments-and-digital-sales-top-two-million" } }
+      ],
+      "summary": "Shipments and digital sales of the Silent Hill 2 remake have topped two million, three months after release."
+    },
+    {
+      "ref": "business/midwest-games-welcomes-former-bungie-exec-elizabeth-howard-t",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "midwest-games", "name": "Midwest Games", "aliases": ["Midwest"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "elizabeth-howard", "name": "Elizabeth Howard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Midwest Games hired former Bungie executive Elizabeth Howard to spearhead a 'shadow publishing' initiative."
+    },
+    {
+      "ref": "business/hideaki-nishino-named-sole-ceo-of-sony-interactive-entertain",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "hideaki-nishino", "name": "Hideaki Nishino", "aliases": [], "inferred": false },
+          { "id": "hermen-hulst", "name": "Hermen Hulst", "aliases": [], "inferred": false },
+          { "id": "hiroki-totoki", "name": "Hiroki Totoki", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Hideaki Nishino was named sole CEO of Sony Interactive Entertainment, with Hermen Hulst continuing to lead the studio business group and CFO Hiroki Totoki promoted to Sony Corporate CEO."
+    },
+    {
+      "ref": "business/staff-take-to-linkedin-to-reveal-mass-layoffs-at-moon-active",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "moon-active", "name": "Moon Active", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 20, "unit": "roles", "currency": null,
+          "entity": "moon-active", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-29", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "20 roles apparently affected",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/staff-take-to-linkedin-to-reveal-mass-layoffs-at-moon-active" } }
+      ],
+      "summary": "Staff revealed on LinkedIn that Moon Active conducted mass layoffs, primarily affecting its Lithuanian office and reportedly impacting around 20 roles."
+    },
+    {
+      "ref": "business/fast-travel-games-cuts-30-jobs-as-it-braces-for-a-more-uncer",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "fast-travel-games", "name": "Fast Travel Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 30, "unit": "jobs", "currency": null,
+          "entity": "fast-travel-games", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fast Travel Games cuts 30 jobs",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/fast-travel-games-cuts-30-jobs-as-it-braces-for-a-more-uncertain-year-ahead-for-vr-games" } }
+      ],
+      "summary": "Fast Travel Games cut 30 jobs across all areas of its business as it braced for a more uncertain year ahead for VR games."
+    }
+  ]
+}

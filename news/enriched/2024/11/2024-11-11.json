@@ -1,0 +1,312 @@
+{
+  "date": "2024-11-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/awesome-games-done-quick-reveals-full-charity-speedrun-sched",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-01-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "awesome-games-done-quick",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-11-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Awesome Games Done Quick 2025 runs from 5th-12th January next year",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/awesome-games-done-quick-reveals-full-charity-speedrun-schedule-ahead-of-januarys-return"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2025-01-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "awesome-games-done-quick",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-11-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Awesome Games Done Quick 2025 runs from 5th-12th January next year",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/awesome-games-done-quick-reveals-full-charity-speedrun-schedule-ahead-of-januarys-return"
+          }
+        }
+      ],
+      "summary": "Awesome Games Done Quick revealed its full charity speedrun schedule, with the 2025 event running 5-12 January and raising money for the Prevent Cancer Foundation."
+    },
+    {
+      "ref": "main_news/this-year-s-grammy-nominees-for-best-video-game-soundtrack-h",
+      "entities": {
+        "games": [
+          {
+            "id": "avatar-frontiers-of-pandora",
+            "name": "Avatar: Frontiers of Pandora",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "god-of-war-ragnarok-valhalla",
+            "name": "God of War Ragnarök: Valhalla",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "god-of-war",
+            "inferred": true
+          },
+          {
+            "id": "marvels-spider-man-2",
+            "name": "Marvel's Spider-Man 2",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "spider-man",
+            "inferred": true
+          },
+          {
+            "id": "star-wars-outlaws",
+            "name": "Star Wars Outlaws",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "star-wars",
+            "inferred": true
+          },
+          {
+            "id": "wizardry-proving-grounds-of-the-mad-overlord",
+            "name": "Wizardry: Proving Grounds of the Mad Overlord",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "wizardry",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "pinar-toprak",
+            "name": "Pinar Toprak",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "bear-mccreary",
+            "name": "Bear McCreary",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "john-paesano",
+            "name": "John Paesano",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "wilbert-roget-ii",
+            "name": "Wilbert Roget, II",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "winifred-phillips",
+            "name": "Winifred Phillips",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "This year's Grammy nominees for best video game soundtrack have been announced, including Avatar: Frontiers of Pandora, God of War Ragnarök: Valhalla, Marvel's Spider-Man 2, Star Wars Outlaws, and Wizardry: Proving Grounds of the Mad Overlord."
+    },
+    {
+      "ref": "main_news/insomniac-pays-tribute-to-spider-man-2-actor-tony-todd-who-h",
+      "entities": {
+        "games": [
+          {
+            "id": "marvels-spider-man-2",
+            "name": "Spider-Man 2",
+            "aliases": ["Marvel's Spider-Man 2"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "spider-man",
+            "inferred": true
+          },
+          {
+            "id": "indiana-jones-and-the-great-circle",
+            "name": "Indiana Jones and the Great Circle",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "indiana-jones",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "insomniac-games",
+            "name": "Insomniac",
+            "aliases": ["Insomniac Games"],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "tony-todd",
+            "name": "Tony Todd",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-12-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "indiana-jones-and-the-great-circle",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Indiana Jones and the Great Circle, which is set for release on December 9",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/insomniac-pays-tribute-to-spider-man-2-actor-tony-todd-who-has-died/"
+          }
+        }
+      ],
+      "summary": "Insomniac paid tribute to Spider-Man 2 actor Tony Todd, who has died and will posthumously appear in Indiana Jones and the Great Circle."
+    },
+    {
+      "ref": "business/kojima-productions-acquires-death-stranding-s-ip-rights",
+      "entities": {
+        "games": [
+          {
+            "id": "death-stranding",
+            "name": "Death Stranding",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "death-stranding",
+            "inferred": true
+          },
+          {
+            "id": "control",
+            "name": "Control",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "control",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "kojima-productions",
+            "name": "Kojima Productions",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "505-games",
+            "name": "505 Games",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Kojima Productions has acquired the full IP rights to Death Stranding from original publisher 505 Games."
+    },
+    {
+      "ref": "business/take-two-looking-at-select-mobile-m-a-opportunities-after-zy",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "zynga",
+            "name": "Zynga",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "take-two-interactive",
+            "name": "Take-Two Interactive",
+            "aliases": ["Take-Two"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "acquisition"],
+      "facts": [],
+      "summary": "Take-Two said it is looking at select mobile M&A opportunities following its Zynga integration, with its mobile division accounting for more than 50 percent of total net bookings in Q2."
+    },
+    {
+      "ref": "business/infinity-nikki-tops-30m-pre-registrations",
+      "entities": {
+        "games": [
+          {
+            "id": "infinity-nikki",
+            "name": "Infinity Nikki",
+            "aliases": [],
+            "genres": ["open-world", "adventure"],
+            "franchise": "nikki",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [],
+      "summary": "Infinity Nikki has surpassed 30 million pre-registrations ahead of its launch."
+    }
+  ]
+}

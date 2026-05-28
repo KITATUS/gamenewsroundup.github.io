@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/playstation-announces-a-new-hour-long-state-of-play-coming-l",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-02-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "state-of-play",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-02-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Thursday, February 12 at 2pm PT / 5pm ET / 10pm GMT",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-announces-a-new-hour-long-state-of-play-coming-later-this-week/" }
+        }
+      ],
+      "summary": "PlayStation announced a new hour-long State of Play showcase for Thursday, 12 February 2026."
+    },
+    {
+      "ref": "business/riot-games-says-it-s-downsizing-the-2xko-development-team-af",
+      "entities": {
+        "games": [
+          { "id": "2xko", "name": "2XKO", "aliases": [], "genres": ["fighting"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": "tencent", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 80,
+          "unit": "people",
+          "currency": null,
+          "entity": "riot-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-02-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Approximately 80 employees laid off",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/riot-games-says-its-downsizing-the-2xko-development-team-after-a-disappointing-launch/" }
+        }
+      ],
+      "summary": "Riot Games is downsizing the 2XKO development team following a disappointing launch, laying off approximately 80 employees."
+    },
+    {
+      "ref": "business/remedy-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 17000000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-10",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: €17 million (up 46.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-continue-to-rise-for-2025-reaching-595m" }
+        },
+        {
+          "metric": "operating_income",
+          "value": 700000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-10",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit: €0.7 million (compared to operating loss of €1.4 million in 2024)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-continue-to-rise-for-2025-reaching-595m" }
+        },
+        {
+          "metric": "revenue",
+          "value": 59500000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: €59.5 million (up 17%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-continue-to-rise-for-2025-reaching-595m" }
+        },
+        {
+          "metric": "operating_income",
+          "value": 14900000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-10",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating loss: €14.9 million (compared to €4.3 million in 2024)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-continue-to-rise-for-2025-reaching-595m" }
+        }
+      ],
+      "summary": "Remedy Entertainment reported rising revenue for 2025, reaching €59.5 million for the full year alongside a full-year operating loss of €14.9 million."
+    },
+    {
+      "ref": "business/control-developer-remedy-names-former-ea-exec-jean-charles-g",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jean-charles-gaudechon", "name": "Jean-Charles Gaudechon", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Remedy, the developer of Control, named former EA executive Jean-Charles Gaudechon as its new CEO."
+    }
+  ]
+}

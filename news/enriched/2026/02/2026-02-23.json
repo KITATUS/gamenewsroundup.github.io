@@ -1,0 +1,91 @@
+{
+  "date": "2026-02-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-s-ceo-breaks-silence-says-the-company-has-multiple-f",
+      "entities": {
+        "games": [
+          { "id": "far-cry", "name": "Far Cry", "aliases": [], "genres": ["fps"], "franchise": "far-cry", "inferred": true },
+          { "id": "assassins-creed", "name": "Assassin's Creed", "aliases": [], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ubisoft's CEO said the company has multiple Far Cry and Assassin's Creed games in development."
+    },
+    {
+      "ref": "business/nier-automata-crosses-10-million-copies-sold-alongside-myste",
+      "entities": {
+        "games": [
+          { "id": "nier-automata", "name": "Nier: Automata", "aliases": [], "genres": ["action-rpg"], "franchise": "nier", "inferred": true }
+        ],
+        "studios": [
+          { "id": "platinumgames", "name": "PlatinumGames", "aliases": [], "publisher": "square-enix", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "teaser"],
+      "facts": [
+        { "metric": "copies_sold", "value": 10000000, "unit": "copies", "currency": null,
+          "entity": "nier-automata", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Nier: Automata Crosses 10 Million Copies Sold",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/NieR_JPN/status/2024798275728212166" } }
+      ],
+      "summary": "Nier: Automata has crossed 10 million copies sold, accompanied by a mysterious 'To Be Continued' tease."
+    },
+    {
+      "ref": "business/final-fantasy-vii-1997-has-sold-over-15-5-million-units-worl",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-vii", "name": "Final Fantasy VII", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": ["jp.square-enix.com"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 15500000, "unit": "units", "currency": null,
+          "entity": "final-fantasy-vii", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-23", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Final Fantasy VII (1997) has sold over 15.5 million units worldwide",
+          "source": { "name": "jp.square-enix.com", "domain": "jp.square-enix.com", "url": "https://www.jp.square-enix.com/company/ja/news/files/a686a4c8662748a74c4c47bffd29ea89.pdf" } }
+      ],
+      "summary": "The original 1997 Final Fantasy VII has sold over 15.5 million units worldwide."
+    },
+    {
+      "ref": "business/embark-studios-ceo-patrick-s-derlund-has-been-named-executiv",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": "nexon", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "patrick-soderlund", "name": "Patrick Söderlund", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Embark Studios CEO Patrick Söderlund has been named Executive Chairman of Nexon."
+    }
+  ]
+}

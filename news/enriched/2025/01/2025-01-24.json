@@ -1,0 +1,164 @@
+{
+  "date": "2025-01-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/doom-the-dark-ages-will-let-players-change-game-speed-and-ot",
+      "entities": {
+        "games": [
+          { "id": "doom-the-dark-ages", "name": "Doom: The Dark Ages", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "id-software", "name": "id Software", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Doom: The Dark Ages will let players adjust game speed and other difficulty sliders, and will not have a multiplayer mode."
+    },
+    {
+      "ref": "main_news/ninja-gaiden-2-black-a-remaster-of-the-xbox-360-game-is-out",
+      "entities": {
+        "games": [
+          { "id": "ninja-gaiden-2-black", "name": "Ninja Gaiden 2 Black", "aliases": [], "genres": ["action-adventure"], "franchise": "ninja-gaiden", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-360", "name": "Xbox 360", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "remaster-remake"],
+      "facts": [],
+      "summary": "Ninja Gaiden 2 Black, an Unreal Engine 5 remaster of the Xbox 360 game, released today for Xbox Series S/X, PS5 and Steam, and is available on Xbox Game Pass."
+    },
+    {
+      "ref": "main_news/ninja-gaiden-4-is-in-development-at-team-ninja-and-platinumg",
+      "entities": {
+        "games": [
+          { "id": "ninja-gaiden-4", "name": "Ninja Gaiden 4", "aliases": [], "genres": ["action-adventure"], "franchise": "ninja-gaiden", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-ninja", "name": "Team Ninja", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "platinumgames", "name": "PlatinumGames", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Ninja Gaiden 4 is in development at Team Ninja and PlatinumGames, launching Fall 2025 on Xbox Series S/X, PS5 and PC, with day-one availability on Xbox Game Pass."
+    },
+    {
+      "ref": "main_news/final-fantasy-7-remake-part-3-won-t-be-a-ps6-exclusive-produ",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-remake-part-3", "name": "Final Fantasy 7 Remake Part 3", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-6", "name": "PS6", "aliases": ["PS6"], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "yoshinori-kitase", "name": "Yoshinori Kitase", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Producer Yoshinori Kitase says Final Fantasy 7 Remake Part 3, in development for nine months, won't be a PS6 exclusive."
+    },
+    {
+      "ref": "free_games_subscription/three-more-snes-games-have-been-added-to-switch-online",
+      "entities": {
+        "games": [
+          { "id": "fatal-fury-2", "name": "Fatal Fury 2", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true },
+          { "id": "super-ninja-boy", "name": "Super Ninja Boy", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "sutte-hakkun", "name": "Sutte Hakkun", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "snes", "name": "SNES", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-online", "name": "Switch Online", "aliases": ["Switch Online"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Three more SNES games, Fatal Fury 2, Super Ninja Boy and Sutte Hakkun, have been added to Nintendo Switch Online."
+    },
+    {
+      "ref": "business/pocketpair-launches-publishing-arm-partners-with-surgent-stu",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "surgent-studios", "name": "Surgent Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Pocketpair launched a publishing arm and partnered with Surgent Studios for its first title, a standalone horror game due in late 2025."
+    },
+    {
+      "ref": "business/warner-bros-games-boss-david-haddad-departs-following-rocky",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "david-haddad", "name": "David Haddad", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Warner Bros. Games boss David Haddad is departing following a rocky period for the publisher."
+    },
+    {
+      "ref": "business/team17-group-rebrands-to-everplay",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "team17", "name": "Team17", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "everplay", "name": "Everplay", "aliases": ["Team17 Group"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Team17 Group is rebranding to Everplay, with the Team17 publisher renaming to Everplay while the Team17 developer keeps its name."
+    }
+  ]
+}

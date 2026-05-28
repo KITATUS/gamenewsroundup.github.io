@@ -1,0 +1,447 @@
+{
+  "date": "2024-08-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/paradox-interactive-delays-prison-architect-2-indefinitely",
+      "entities": {
+        "games": [
+          {
+            "id": "prison-architect-2",
+            "name": "Prison Architect 2",
+            "aliases": [],
+            "genres": ["simulation", "strategy"],
+            "franchise": "prison-architect",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "paradox-interactive",
+            "name": "Paradox Interactive",
+            "aliases": ["Paradox"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Paradox Interactive has delayed Prison Architect 2 indefinitely, having previously planned a September 2nd release."
+    },
+    {
+      "ref": "main_news/final-fantasy-14-mobile-game-is-approved-in-china",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-14",
+            "name": "Final Fantasy 14",
+            "aliases": ["Final Fantasy XIV"],
+            "genres": ["mmorpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          },
+          {
+            "id": "rainbow-six-mobile",
+            "name": "Rainbow Six Mobile",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "rainbow-six",
+            "inferred": true
+          },
+          {
+            "id": "dynasty-warriors",
+            "name": "Dynasty Warriors",
+            "aliases": [],
+            "genres": ["action"],
+            "franchise": "dynasty-warriors",
+            "inferred": true
+          },
+          {
+            "id": "marvel-rivals",
+            "name": "Marvel Rivals",
+            "aliases": [],
+            "genres": ["hero-shooter", "shooter"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The Final Fantasy 14 mobile game has been approved for release in China, alongside Rainbow Six Mobile, Dynasty Warriors, and Marvel Rivals."
+    },
+    {
+      "ref": "main_news/thq-nordic-has-teased-a-new-darksiders-game",
+      "entities": {
+        "games": [
+          {
+            "id": "darksiders",
+            "name": "Darksiders",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "darksiders",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "thq-nordic",
+            "name": "THQ Nordic",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser", "announcement"],
+      "facts": [],
+      "summary": "THQ Nordic has teased a new Darksiders game, with no release date and no confirmation of whether it is a sequel, remake, or remaster."
+    },
+    {
+      "ref": "main_news/development-build-of-call-of-duty-black-ops-6-leaks-as-foota",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty-black-ops-6",
+            "name": "Call of Duty Black Ops 6",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A development build of Call of Duty Black Ops 6 leaked, with footage flooding social media."
+    },
+    {
+      "ref": "main_news/game-informer-magazine-ends-after-33-years",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "gamestop",
+            "name": "GameStop",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "layoffs"],
+      "facts": [],
+      "summary": "Game Informer magazine has ended after 33 years, with its parent company GameStop having laid off magazine staff in 2022."
+    },
+    {
+      "ref": "main_news/a-civilization-vii-gameplay-showcase-is-coming-later-this-mo",
+      "entities": {
+        "games": [
+          {
+            "id": "civilization-vii",
+            "name": "Civilization VII",
+            "aliases": [],
+            "genres": ["strategy", "turn-based-strategy", "4x"],
+            "franchise": "civilization",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "firaxis",
+            "name": "Firaxis",
+            "aliases": [],
+            "publisher": "2k",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "2k",
+            "name": "2K",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-08-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "opening-night-live",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-08-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the Opening Night Live show at Gamescom, which starts at 11am PT / 4pm ET / 7pm BST on August 20",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/a-civilization-vii-gameplay-showcase-is-coming-later-this-month/"
+          }
+        }
+      ],
+      "summary": "A Civilization VII gameplay showcase is coming later this month, with first footage shown during Gamescom Opening Night Live on August 20 followed by a 20-minute Gameplay Showcase from 2K and Firaxis."
+    },
+    {
+      "ref": "main_news/wreckfest-2-announced",
+      "entities": {
+        "games": [
+          {
+            "id": "wreckfest-2",
+            "name": "Wreckfest 2",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "wreckfest",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series S/X",
+            "aliases": ["Xbox Series S/X"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Wreckfest 2 has been announced for PC, PS5, and Xbox Series S/X, with no release date."
+    },
+    {
+      "ref": "business/pok-mon-scarlet-and-violet-sells-25m-units",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-scarlet-and-violet",
+            "name": "Pokémon Scarlet and Violet",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 25000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "pokemon-scarlet-and-violet",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-05",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Pokémon Scarlet and Violet sells 25m units",
+          "source": {
+            "name": "Nintendo",
+            "domain": "nintendo.co.jp",
+            "url": "https://www.nintendo.co.jp/ir/en/finance/software/index.html"
+          }
+        }
+      ],
+      "summary": "Pokémon Scarlet and Violet has sold 25 million units."
+    },
+    {
+      "ref": "business/silent-hill-the-short-message-has-been-downloaded-3m-times",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill-the-short-message",
+            "name": "Silent Hill: The Short Message",
+            "aliases": [],
+            "genres": ["survival-horror", "horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "downloads",
+          "value": 3000000,
+          "unit": "downloads",
+          "currency": null,
+          "entity": "silent-hill-the-short-message",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-05",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill: The Short Message has been downloaded 3m times",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/silent-hill-the-short-message-has-been-downloaded-3m-times"
+          }
+        }
+      ],
+      "summary": "Silent Hill: The Short Message has been downloaded 3 million times."
+    },
+    {
+      "ref": "business/nintendo-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "operating_income",
+          "value": 54500000000,
+          "unit": "JPY",
+          "currency": "JPY",
+          "entity": "nintendo",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-08-05",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating Profit: ¥54.5 billion ($366 million), down 70.6% year-on-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-sticks-to-its-annual-sales-forecast-as-q1-operating-profit-drops-70-year-on-year/"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 366000000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "nintendo",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-08-05",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating Profit: ¥54.5 billion ($366 million), down 70.6% year-on-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-sticks-to-its-annual-sales-forecast-as-q1-operating-profit-drops-70-year-on-year/"
+          }
+        },
+        {
+          "metric": "units_sold",
+          "value": 2100000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nintendo-switch",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-08-05",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Switch Consoles: Sold 2.1 million in Q1, with a forecast of 13.5 million for the financial year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-sticks-to-its-annual-sales-forecast-as-q1-operating-profit-drops-70-year-on-year/"
+          }
+        },
+        {
+          "metric": "units_sold",
+          "value": 13500000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nintendo-switch",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-08-05",
+          "period": "annual",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "with a forecast of 13.5 million for the financial year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-sticks-to-its-annual-sales-forecast-as-q1-operating-profit-drops-70-year-on-year/"
+          }
+        }
+      ],
+      "summary": "Nintendo's Q1 operating profit fell 70.6% year-on-year to ¥54.5 billion ($366 million), with video game net sales down 46.4% and Switch sales of 2.1 million units in the quarter."
+    }
+  ]
+}

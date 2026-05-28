@@ -1,0 +1,324 @@
+{
+  "date": "2025-03-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/grand-theft-auto-5-s-enhanced-edition-is-now-available-for-p",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-5", "name": "Grand Theft Auto 5", "aliases": ["GTA5"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port", "update-patch", "free-game"],
+      "facts": [],
+      "summary": "Grand Theft Auto 5's Enhanced edition is now available for PC as a free upgrade with modern enhancements such as ambient occlusion and global illumination."
+    },
+    {
+      "ref": "main_news/activision-unveils-tony-hawk-s-pro-skater-3-4-remaster-for-c",
+      "entities": {
+        "games": [
+          { "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk's Pro Skater 3 + 4", "aliases": ["Tony Hawk Pro Skater 4", "THPS 1-3"], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Series S/X"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["game pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "remaster-remake", "release-date", "subscription"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-07-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "tony-hawks-pro-skater-3-4",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Releases July 11th for Xbox One / Series S/X, PS4/5, Nintendo Switch and PC (Three day early access with digital deluxe)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/activision-unveils-tony-hawks-pro-skater-34-remakes-for-consoles-and-pc/" }
+        }
+      ],
+      "summary": "Activision unveiled a Tony Hawk's Pro Skater 3 + 4 remaster for consoles and PC, releasing July 11th as a day-one Game Pass title."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-reveals-march-lineup",
+      "entities": {
+        "games": [
+          { "id": "monster-train", "name": "Monster Train", "aliases": [], "genres": ["roguelike", "card", "strategy"], "franchise": null, "inferred": true },
+          { "id": "galacticare", "name": "Galacticare", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "one-lonely-outpost", "name": "One Lonely Outpost", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "enter-the-gungeon", "name": "Enter the Gungeon", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": null, "inferred": true },
+          { "id": "mullet-madjack", "name": "Mullet Madjack", "aliases": [], "genres": ["fps", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "33-immortals", "name": "33 Immortals", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass Ultimate", "PC Game Pass", "Game Pass Standard"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-03-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "galacticare",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Galacticare (Xbox Series S/X) – March 5. Now with Game Pass Standard.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/game-pass-reveals-march-lineup-with-33-immortals-launching-on-day-one/" }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-03-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "one-lonely-outpost",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "One Lonely Outpost (Cloud, Console, and PC) – March 6 with Game Pass Ultimate, PC Game Pass.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/game-pass-reveals-march-lineup-with-33-immortals-launching-on-day-one/" }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-03-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "enter-the-gungeon",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Enter the Gungeon (Cloud, Console, and PC) – March 11 with Game Pass Ultimate, PC Game Pass, Game Pass Standard.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/game-pass-reveals-march-lineup-with-33-immortals-launching-on-day-one/" }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-03-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "mullet-madjack",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mullet Madjack (Cloud, PC, and Xbox Series S/X) – March 13 with Game Pass Ultimate, PC Game Pass.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/game-pass-reveals-march-lineup-with-33-immortals-launching-on-day-one/" }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-03-18",
+          "unit": "date",
+          "currency": null,
+          "entity": "33-immortals",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "33 Immortals (Game Preview) (Cloud, PC, and Xbox Series S/X) – March 18 with Game Pass Ultimate, PC Game Pass.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/game-pass-reveals-march-lineup-with-33-immortals-launching-on-day-one/" }
+        }
+      ],
+      "summary": "Xbox Game Pass revealed its March lineup, including Monster Train out today and 33 Immortals launching day one on March 18."
+    },
+    {
+      "ref": "business/iconic-game-publisher-acclaim-has-been-resurrected-with-wres",
+      "entities": {
+        "games": [
+          { "id": "turnip-boy-commits-tax-evasion", "name": "Turnip Boy Commits Tax Evasion", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "graffiti-games", "name": "Graffiti Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "acclaim", "name": "Acclaim", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jeff-jarrett", "name": "Jeff Jarrett", "aliases": [], "inferred": false },
+          { "id": "alex-josef", "name": "Alex Josef", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "leadership-change"],
+      "facts": [],
+      "summary": "Iconic game publisher Acclaim has been resurrected, led by CEO Alex Josef with wrestler Jeff Jarrett as advisor, aiming to support indie developers and revive classic franchises."
+    },
+    {
+      "ref": "business/more-layoffs-at-playstation-following-live-service-cancellat",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "visual-arts", "name": "Visual Arts", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "shutdown"],
+      "facts": [],
+      "summary": "PlayStation is undertaking more layoffs amid a restructuring of Sony's US studios, with staff at the San Diego-based Visual Arts studio set to be let go following live-service cancellations."
+    },
+    {
+      "ref": "business/jagex-appoints-new-ceo-jon-bellamy",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jon-bellamy", "name": "Jon Bellamy", "aliases": [], "inferred": false },
+          { "id": "phil-mansell", "name": "Phil Mansell", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Jagex appointed Jon Bellamy as its new CEO, with present CEO Phil Mansell stepping down after eight years."
+    },
+    {
+      "ref": "business/tencent-acquires-additional-shares-in-fromsoftware-parent-co",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "kadokawa", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false },
+          { "id": "kadokawa", "name": "Kadokawa", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "equity_stake_pct",
+          "value": 1.11,
+          "unit": "percent",
+          "currency": null,
+          "entity": "kadokawa",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Bought 1.11%, bringing its total shareholding ratio to 7.97%.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tencent-acquires-additional-shares-in-fromsoftware-parent-company-kadokawa" }
+        },
+        {
+          "metric": "equity_stake_pct",
+          "value": 7.97,
+          "unit": "percent",
+          "currency": null,
+          "entity": "kadokawa",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-03-05",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "bringing its total shareholding ratio to 7.97%.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tencent-acquires-additional-shares-in-fromsoftware-parent-company-kadokawa" }
+        }
+      ],
+      "summary": "Tencent acquired additional shares in FromSoftware parent company Kadokawa, buying 1.11% to bring its total shareholding to 7.97%."
+    },
+    {
+      "ref": "business/monster-hunter-wilds-sells-8m-units-in-three-days",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 8000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "monster-hunter-wilds",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-05",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Monster Hunter Wilds sells 8m units in three days",
+          "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/news/html/e250304.html" }
+        }
+      ],
+      "summary": "Monster Hunter Wilds sold 8 million units in its first three days."
+    },
+    {
+      "ref": "business/ptw-rebrands-as-side-to-begin-new-era-of-support-services",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "side", "name": "Side", "aliases": ["PTW"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "kaley-hurst", "name": "Kaley Hurst", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Support-services company PTW rebranded as Side to begin a 'new era' of support services."
+    }
+  ]
+}

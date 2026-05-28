@@ -1,0 +1,230 @@
+{
+  "date": "2025-02-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/n64-cult-classic-platformer-glover-gets-console-release-date",
+      "entities": {
+        "games": [
+          { "id": "glover", "name": "Glover", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "qubyte-interactive", "name": "QUByte Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "qubyte-interactive", "name": "QUByte Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-02-27", "unit": "date", "currency": null,
+          "entity": "glover", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "later this month on 27th February",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/n64-cult-classic-platformer-glover-gets-console-release-date" } }
+      ],
+      "summary": "N64 platformer Glover will release on PS4/5, Xbox One and Series S/X, and Nintendo Switch on 27 February 2025 via QUByte Interactive."
+    },
+    {
+      "ref": "main_news/influential-dishonored-and-half-life-2-art-lead-viktor-anton",
+      "entities": {
+        "games": [
+          { "id": "dishonored", "name": "Dishonored", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "dishonored", "inferred": true },
+          { "id": "half-life-2", "name": "Half-Life 2", "aliases": [], "genres": ["fps"], "franchise": "half-life", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "viktor-antonov", "name": "Viktor Antonov", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Viktor Antonov, the art lead behind Dishonored and Half-Life 2, has died."
+    },
+    {
+      "ref": "business/embracer-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 7400000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 7.4 billion ($680 million), down 3% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 680000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 7.4 billion ($680 million), down 3% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 2600000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 2.6 billion ($242 million), down 23% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 242000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 2.6 billion ($242 million), down 23% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 1600000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Mobile games: SEK 1.6 billion ($149 million), up 2% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 149000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Mobile games: SEK 1.6 billion ($149 million), up 2% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "profit", "value": 960000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net profit: SEK 960 million ($89 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "profit", "value": 89000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net profit: SEK 960 million ($89 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 16900000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 16.9 billion ($1.5 billion), down 22% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 1500000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 16.9 billion ($1.5 billion), down 22% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 7300000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 7.3 billion ($679 million), down 35% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 679000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 7.3 billion ($679 million), down 35% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 4400000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Mobile games: SEK 4.4 billion ($409 million), down 3% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "revenue", "value": 409000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Mobile games: SEK 4.4 billion ($409 million), down 3% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "profit", "value": 1300000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Net loss: SEK 1.3 billion ($121 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } },
+        { "metric": "profit", "value": 121000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Net loss: SEK 1.3 billion ($121 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/embracer-sales-drop-22-to-15bn-298m-debt-remains" } }
+      ],
+      "summary": "Embracer Group reported quarterly net sales of SEK 7.4 billion ($680 million), down 3% year-on-year, returning to a SEK 960 million ($89 million) net profit for the three months ending 31 December 2024."
+    },
+    {
+      "ref": "business/chinese-video-game-company-papergames-infinity-nikki-love-de",
+      "entities": {
+        "games": [
+          { "id": "infinity-nikki", "name": "Infinity Nikki", "aliases": [], "genres": ["adventure", "open-world"], "franchise": "nikki", "inferred": true },
+          { "id": "love-and-deepspace", "name": "Love & Deepspace", "aliases": [], "genres": ["visual-novel"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "papergames", "name": "Papergames", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "papergames", "name": "Papergames", "aliases": [], "inferred": false },
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1000000000, "unit": "money", "currency": "USD",
+          "entity": "papergames", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-17", "period": "annual", "direction": null, "confidence": "medium",
+          "quote": "generated nearly $1 billion in 2024",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/infinity-nikki-studio-papergames-generates-almost-1-billion-in-2024" } },
+        { "metric": "players_total", "value": 295000000, "unit": "users", "currency": null,
+          "entity": "epic-games-store", "entity_type": "platform", "scope": "platform",
+          "as_of": "2025-02-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Epic Games Store hits 295 million users",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/epic-games-store-has-more-pc-players-than-ever-295-million-in-fact" } }
+      ],
+      "summary": "Chinese developer Papergames, maker of Infinity Nikki and Love & Deepspace, generated nearly $1 billion in revenue in 2024."
+    },
+    {
+      "ref": "rumours/10-10-games-cuts-20-jobs-after-complete-commercial-and-criti",
+      "entities": {
+        "games": [
+          { "id": "funko-fusion", "name": "Funko Fusion", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "10-10-games", "name": "10:10 Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 20, "unit": "people", "currency": null,
+          "entity": "10-10-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-02-17", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "10:10 Games cuts 20 jobs",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/1010-games-cuts-20-jobs-after-complete-commercial-and-critical-failure-of-debut-game-funko-fusion" } }
+      ],
+      "summary": "10:10 Games reportedly cut around 20 jobs following the commercial and critical failure of its debut game, Funko Fusion."
+    }
+  ]
+}

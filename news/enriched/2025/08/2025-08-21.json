@@ -1,0 +1,113 @@
+{
+  "date": "2025-08-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-rog-ally-line-coming-in-october-with-handheld-compatibi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "rog-ally", "name": "ROG Ally", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "hardware", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-16", "unit": "date", "currency": null,
+          "entity": "rog-ally", "entity_type": "product", "scope": "product",
+          "as_of": "2025-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Both handhelds will be released on October 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-rog-ally-line-coming-in-october-with-handheld-compatibility-program/" } }
+      ],
+      "summary": "The Xbox ROG Ally handheld line will launch on 16 October 2025 with a Handheld Compatibility Program, Microsoft said, with pricing and pre-order details to come."
+    },
+    {
+      "ref": "main_news/halloween-revealed-by-friday-the-13th-the-game-developer-ill",
+      "entities": {
+        "games": [
+          { "id": "halloween", "name": "Halloween", "aliases": [], "genres": ["survival-horror"], "franchise": "halloween", "inferred": true },
+          { "id": "friday-the-13th-the-game", "name": "Friday the 13th: The Game", "aliases": [], "genres": ["survival-horror"], "franchise": "friday-the-13th", "inferred": true }
+        ],
+        "studios": [{ "id": "illfonic", "name": "Illfonic", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Illfonic, developer of Friday the 13th: The Game, revealed a Halloween game that includes a single-player mode."
+    },
+    {
+      "ref": "main_news/infinity-nikki-is-getting-a-stardew-valley-collab-in-septemb",
+      "entities": {
+        "games": [
+          { "id": "infinity-nikki", "name": "Infinity Nikki", "aliases": [], "genres": ["adventure", "open-world"], "franchise": "nikki", "inferred": true },
+          { "id": "stardew-valley", "name": "Stardew Valley", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-01", "unit": "date", "currency": null,
+          "entity": "infinity-nikki", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 1st",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/infinity-nikki-is-getting-a-stardew-valley-collab-in-september-but-not-everyone-is-happy-about-it" } }
+      ],
+      "summary": "Infinity Nikki is receiving a Stardew Valley collaboration starting 1 September 2025."
+    },
+    {
+      "ref": "main_news/final-fantasy-14-s-yoshi-p-says-there-may-be-good-news-in-th",
+      "entities": {
+        "games": [{ "id": "final-fantasy-14", "name": "Final Fantasy 14", "aliases": ["FF14"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": [{ "id": "naoki-yoshida", "name": "Naoki Yoshida", "aliases": ["Yoshi-P"], "inferred": true }]
+      },
+      "event_tags": ["port"],
+      "facts": [],
+      "summary": "Final Fantasy 14 producer Naoki Yoshida (Yoshi-P) said there may be 'good news' in the future about FF14 coming to Nintendo Switch 2."
+    },
+    {
+      "ref": "business/unknown-worlds-sues-former-leadership-team-for-breach-of-emp",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "unknown-worlds", "name": "Unknown Worlds", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Unknown Worlds is suing its former leadership team for breach of employment and fiduciary duty of care, accusing the founders of downloading tens of thousands of company documents before their termination."
+    },
+    {
+      "ref": "business/peak-sells-10-million-copies",
+      "entities": {
+        "games": [{ "id": "peak", "name": "Peak", "aliases": [], "genres": ["survival", "adventure"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 10000000, "unit": "copies", "currency": null,
+          "entity": "peak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-21", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Peak Sells 10 Million Copies",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/peak-sells-10-million-copies" } }
+      ],
+      "summary": "Peak has sold 10 million copies."
+    }
+  ]
+}

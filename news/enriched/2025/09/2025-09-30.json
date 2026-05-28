@@ -1,0 +1,335 @@
+{
+  "date": "2025-09-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/epic-pulls-controversial-peacemaker-dance-emote-from-fortnit",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "tps"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Epic Games pulled the controversial Peacemaker dance emote from Fortnite following a twist in the TV show's latest episode."
+    },
+    {
+      "ref": "main_news/borderlands-4-details-first-paid-dlc-plans-as-2k-continues-t",
+      "entities": {
+        "games": [
+          {
+            "id": "borderlands-4",
+            "name": "Borderlands 4",
+            "aliases": [],
+            "genres": ["action-rpg", "fps"],
+            "franchise": "borderlands",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "2k",
+            "name": "2K",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Borderlands 4 detailed its first paid DLC, Mad Ellie and the Vault of the Damned, as 2K continues to struggle with PC performance issues."
+    },
+    {
+      "ref": "main_news/sony-celebrates-playstation-anniversary-with-a-new-photograp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation",
+            "name": "PlayStation",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 95,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "playstation-anniversary-photography-book",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-09-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "a new photography book that costs £95",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/sony-celebrates-playstation-anniversary-with-a-new-photography-book-that-costs-95-or-245-if-youre-fancy"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 245,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "playstation-anniversary-photography-book",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-09-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "or £245 if you're fancy",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/sony-celebrates-playstation-anniversary-with-a-new-photography-book-that-costs-95-or-245-if-youre-fancy"
+          }
+        }
+      ],
+      "summary": "Sony is celebrating the PlayStation anniversary with a new photography book of never-before-seen prototypes and concepts, priced at £95 or £245 for the fancier edition."
+    },
+    {
+      "ref": "main_news/snk-launches-its-new-premium-selection-label-with-a-pc-port",
+      "entities": {
+        "games": [
+          {
+            "id": "real-bout-fatal-fury-2",
+            "name": "Real Bout Fatal Fury 2",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "fatal-fury",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "snk",
+            "name": "SNK",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "SNK launched its new Premium Selection label with a PC port of Real Bout Fatal Fury 2."
+    },
+    {
+      "ref": "main_news/uk-retailers-are-heavily-discounting-1tb-ps5-slim-consoles-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": ["PS5 Slim"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sale-discount", "hardware"],
+      "facts": [],
+      "summary": "UK retailers are heavily discounting 1TB PS5 Slim consoles ahead of the 825GB version's arrival."
+    },
+    {
+      "ref": "main_news/90s-fps-blood-is-being-re-remastered-by-nightdive-studios-co",
+      "entities": {
+        "games": [
+          {
+            "id": "blood",
+            "name": "Blood",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "nightdive-studios",
+            "name": "Nightdive Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port"],
+      "facts": [],
+      "summary": "The '90s FPS Blood is being re-remastered by Nightdive Studios and coming to consoles for the first time."
+    },
+    {
+      "ref": "business/ea-confirms-that-it-will-be-acquired-for-55-billion-by-inves",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 55000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "electronic-arts",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-09-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "EA confirms that it will be acquired for $55 billion by investors",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ea-confirms-that-it-will-be-acquired-for-55-billion-by-investors-including-saudi-arabias-pif/"
+          }
+        }
+      ],
+      "summary": "EA confirmed that it will be acquired for $55 billion by investors including Saudi Arabia's PIF."
+    },
+    {
+      "ref": "business/nintendo-announces-new-singapore-based-establishment",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Nintendo announced a new Singapore-based establishment."
+    },
+    {
+      "ref": "business/silent-hill-f-sold-1-million-copies-faster-than-the-silent-h",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill-f",
+            "name": "Silent Hill F",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          },
+          {
+            "id": "silent-hill-2",
+            "name": "Silent Hill 2 remake",
+            "aliases": ["Silent Hill 2 remake"],
+            "genres": ["survival-horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "silent-hill-f",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill F sold 1 million copies faster than the Silent Hill 2 remake",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/silent-hill-f-sold-1-million-copies-faster-than-the-silent-hill-2-remake-konami-says/"
+          }
+        }
+      ],
+      "summary": "Silent Hill F sold 1 million copies faster than the Silent Hill 2 remake, according to Konami."
+    }
+  ]
+}

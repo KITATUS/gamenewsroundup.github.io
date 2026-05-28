@@ -1,0 +1,190 @@
+{
+  "date": "2025-03-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-announces-new-app-that-will-deliver-daily-informati",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo announced a new app that will deliver daily information and content and functions like a daily calendar."
+    },
+    {
+      "ref": "main_news/classic-psp-rhythm-adventures-patapon-1-2-are-shaking-off-th",
+      "entities": {
+        "games": [{ "id": "patapon-1-2-replay", "name": "PATAPON 1+2 Replay", "aliases": ["Patapon 1 & 2"], "genres": ["rhythm", "action-adventure"], "franchise": "patapon", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Patapon 1 & 2 are losing their PlayStation exclusivity via the PS5, Nintendo Switch and PC collection PATAPON 1+2 Replay, published by Bandai Namco."
+    },
+    {
+      "ref": "main_news/metroid-prime-4-beyond-gameplay-trailer-shows-samus-new-psyc",
+      "entities": {
+        "games": [{ "id": "metroid-prime-4-beyond", "name": "Metroid Prime 4: Beyond", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "metroid", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "gameplay"],
+      "facts": [],
+      "summary": "A Metroid Prime 4: Beyond gameplay trailer showcased Samus' new psychic abilities."
+    },
+    {
+      "ref": "main_news/nintendo-announces-rhythm-heaven-groove-for-nintendo-switch",
+      "entities": {
+        "games": [{ "id": "rhythm-heaven-groove", "name": "Rhythm Heaven Groove", "aliases": [], "genres": ["rhythm"], "franchise": "rhythm-heaven", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "rhythm-heaven-groove", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-28", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Coming 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/rhythm-heaven-groove-has-been-announced-for-2026/" } }
+      ],
+      "summary": "Nintendo announced Rhythm Heaven Groove for Nintendo Switch, coming in 2026."
+    },
+    {
+      "ref": "main_news/nintendo-reveals-major-switch-and-switch-2-digital-games-sha",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo revealed a major Switch and Switch 2 digital games shakeup with 'Virtual Game Cards' that let users locally share games with other devices or family members for up to two weeks at a time."
+    },
+    {
+      "ref": "main_news/nintendo-s-tomodachi-life-is-getting-a-sequel-next-year",
+      "entities": {
+        "games": [{ "id": "tomodachi-life", "name": "Tomodachi Life", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "tomodachi", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "tomodachi-life", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-03-28", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Tomodachi Life is getting a sequel next year",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/tomodachi-life-is-getting-a-sequel-next-year/" } }
+      ],
+      "summary": "Nintendo's Tomodachi Life is getting a sequel next year."
+    },
+    {
+      "ref": "free_games_subscription/epic-games-store-s-latest-free-games-revealed",
+      "entities": {
+        "games": [
+          { "id": "cat-quest", "name": "Cat Quest", "aliases": [], "genres": ["action-rpg"], "franchise": "cat-quest", "inferred": true },
+          { "id": "neko-ghost-jump", "name": "Neko Ghost, Jump!", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "The Epic Games Store revealed its latest free games: Cat Quest and Neko Ghost, Jump!."
+    },
+    {
+      "ref": "business/crystal-dynamics-lays-off-17-employees",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "crystal-dynamics", "name": "Crystal Dynamics", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 17, "unit": "people", "currency": null,
+          "entity": "crystal-dynamics", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-03-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Crystal Dynamics lays off 17 employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/crystal-dynamics-lays-off-17-employees" } }
+      ],
+      "summary": "Crystal Dynamics laid off 17 employees."
+    },
+    {
+      "ref": "business/tencent-invests-1-25bn-in-new-ubisoft-subsidiary-focused-on",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed", "name": "Assassin's Creed", "aliases": [], "genres": ["action-adventure", "open-world", "action-rpg"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "far-cry", "name": "Far Cry", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "rainbow-six", "name": "Rainbow Six", "aliases": [], "genres": ["fps", "shooter"], "franchise": "rainbow-six", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false },
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "partnership"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1250000000, "unit": "money", "currency": "USD",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tencent invests $1.25bn in new Ubisoft subsidiary",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tencent-invests-125bn-in-new-ubisoft-subsidiary-focused-on-assassins-creed-far-cry-and-rainbow-six" } },
+        { "metric": "funding_raised", "value": 1160000000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "invest a minority stake of €1.16bn ($1.25bn)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tencent-invests-125bn-in-new-ubisoft-subsidiary-focused-on-assassins-creed-far-cry-and-rainbow-six" } }
+      ],
+      "summary": "Tencent is investing $1.25bn (a minority stake) in a new Ubisoft subsidiary focused on the Assassin's Creed, Far Cry, and Rainbow Six franchises."
+    },
+    {
+      "ref": "business/powerwash-simulator-tops-17m-players",
+      "entities": {
+        "games": [{ "id": "powerwash-simulator", "name": "PowerWash Simulator", "aliases": [], "genres": ["simulation"], "franchise": "powerwash-simulator", "inferred": true }],
+        "studios": [{ "id": "futurlab", "name": "FuturLab", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 17000000, "unit": "players", "currency": null,
+          "entity": "powerwash-simulator", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-28", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "PowerWash Simulator tops 17m players",
+          "source": { "name": "futurlab.co.uk", "domain": "futurlab.co.uk", "url": "https://www.futurlab.co.uk/news/thank-you-for-17-million-powerwash-simulator-players" } }
+      ],
+      "summary": "PowerWash Simulator has surpassed 17 million players."
+    }
+  ]
+}

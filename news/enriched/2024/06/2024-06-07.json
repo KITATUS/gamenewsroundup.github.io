@@ -1,0 +1,288 @@
+{
+  "date": "2024-06-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/3do-horror-comedy-fps-killing-time-is-being-remastered-by-ni",
+      "entities": {
+        "games": [
+          { "id": "killing-time", "name": "Killing Time", "aliases": ["Killing Time: Resurrected"], "genres": ["fps", "horror"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "nightdive-studios", "name": "Nightdive Studios", "aliases": ["Nightdive"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Nightdive Studios is remastering the 3DO horror comedy FPS Killing Time as Killing Time: Resurrected, launching later this year on PS4/5, Xbox One/Series S/X, and PC."
+    },
+    {
+      "ref": "main_news/yooka-laylee-is-getting-a-remaster-called-yooka-replaylee",
+      "entities": {
+        "games": [
+          { "id": "yooka-laylee", "name": "Yooka-Laylee", "aliases": [], "genres": ["platformer"], "franchise": "yooka-laylee", "inferred": true },
+          { "id": "yooka-replaylee", "name": "Yooka-Replaylee", "aliases": [], "genres": ["platformer"], "franchise": "yooka-laylee", "inferred": true }
+        ],
+        "studios": [
+          { "id": "playtonic-games", "name": "Playtonic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Yooka-Laylee is getting a remaster called Yooka-Replaylee featuring overhauled art and animations, enhanced performance and resolution, and improved controls and camera, with no release date given."
+    },
+    {
+      "ref": "main_news/card-battler-rabbids-legends-of-the-multiverse-is-one-of-fou",
+      "entities": {
+        "games": [
+          { "id": "rabbids-legends-of-the-multiverse", "name": "Rabbids: Legends of the Multiverse", "aliases": [], "genres": ["card"], "franchise": "rabbids", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "apple-arcade", "name": "Apple Arcade", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "The mobile card-based battling game Rabbids: Legends of the Multiverse, starring the Rabbids, is one of four new Apple Arcade games launching today."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-june-titles-announced",
+      "entities": {
+        "games": [
+          { "id": "octopath-traveler", "name": "Octopath Traveler", "aliases": [], "genres": ["jrpg"], "franchise": "octopath-traveler", "inferred": true },
+          { "id": "octopath-traveler-2", "name": "Octopath Traveler 2", "aliases": [], "genres": ["jrpg"], "franchise": "octopath-traveler", "inferred": true },
+          { "id": "depersonalization", "name": "Depersonalization", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "isonzo", "name": "Isonzo", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "the-callisto-protocol", "name": "The Callisto Protocol", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true },
+          { "id": "still-wakes-the-deep", "name": "Still Wakes the Deep", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "bramble-the-mountain-king", "name": "Bramble: The Mountain King", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "high-on-life", "name": "High on Life", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "rune-factory-4-special", "name": "Rune Factory 4 Special", "aliases": [], "genres": ["rpg", "life-sim"], "franchise": "rune-factory", "inferred": true },
+          { "id": "spacelines-from-the-far-out", "name": "Spacelines from the Far Out", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "the-bookwalker", "name": "The Bookwalker", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": ["Cloud"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series X|S"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-06-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "depersonalization",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Depersonalization (PC) – 12th June",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/xbox-game-pass-june-titles-announced"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-06-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "isonzo",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Isonzo (Cloud, Console, and PC) – 13th June",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/xbox-game-pass-june-titles-announced"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-06-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-callisto-protocol",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Callisto Protocol (Cloud, Console, and PC) - 13th June",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/xbox-game-pass-june-titles-announced"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-06-18",
+          "unit": "date",
+          "currency": null,
+          "entity": "still-wakes-the-deep",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Still Wakes the Deep (Cloud, PC, and Xbox Series X|S) – 18th June",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/xbox-game-pass-june-titles-announced"
+          }
+        }
+      ],
+      "summary": "Microsoft announced the June Xbox Game Pass line-up, with titles including Octopath Traveler 1 and 2 arriving and others such as Depersonalization, Isonzo, The Callisto Protocol, and Still Wakes the Deep added through mid-June, while several games leave the service."
+    },
+    {
+      "ref": "free_games_subscription/marvel-s-midnight-suns-is-now-free-on-epic-games-store",
+      "entities": {
+        "games": [
+          { "id": "marvels-midnight-suns", "name": "Marvel's Midnight Suns", "aliases": [], "genres": ["turn-based-strategy", "card"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "firaxis-games", "name": "Firaxis Games", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Marvel's Midnight Suns is now available free on the Epic Games Store."
+    },
+    {
+      "ref": "business/mediatonic-alumni-form-kindred-spirit-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "kindred-spirit-games", "name": "Kindred Spirit Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "mediatonic", "name": "Mediatonic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "megan-ralph", "name": "Megan Ralph", "aliases": [], "inferred": false },
+          { "id": "joel-herber", "name": "Joel Herber", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Mediatonic alumni Megan Ralph and Joel Herber have formed Kindred Spirit Games, where Ralph is design director and Herber technical director."
+    },
+    {
+      "ref": "rumours/summer-game-fest-trailers-can-cost-devs-up-to-550k",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 550000,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "summer-game-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-06-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Summer Game Fest trailers can cost devs up to $550K",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/report-summer-games-fest-trailers-can-cost-devs-up-to-550k"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 250000,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "summer-game-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-06-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "developers will pay $250,000 for a one-minute trailer",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/report-summer-games-fest-trailers-can-cost-devs-up-to-550k"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 350000,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "summer-game-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-06-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "from $350,000 for 90 seconds to a high of $550,000 for two and a half minutes",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/report-summer-games-fest-trailers-can-cost-devs-up-to-550k"
+          }
+        }
+      ],
+      "summary": "A report claims Summer Game Fest trailers can cost developers up to $550,000, ranging from $250,000 for a one-minute trailer to $550,000 for two and a half minutes, while major publishers receive earned editorial placements for free."
+    }
+  ]
+}

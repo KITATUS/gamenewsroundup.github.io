@@ -1,0 +1,135 @@
+{
+  "date": "2025-01-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/team17-co-founder-martyn-brown-has-passed-away",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "team17", "name": "Team17", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "martyn-brown", "name": "Martyn Brown", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Team17 co-founder Martyn Brown has passed away."
+    },
+    {
+      "ref": "main_news/nintendo-music-adds-mario-64-tunes",
+      "entities": {
+        "games": [{ "id": "super-mario-64", "name": "Super Mario 64", "aliases": ["Mario 64"], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Nintendo Music has added Super Mario 64 tunes to its library."
+    },
+    {
+      "ref": "main_news/over-25-years-of-classic-halo-content-has-leaked-online",
+      "entities": {
+        "games": [
+          { "id": "halo", "name": "Halo", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true },
+          { "id": "halo-2", "name": "Halo 2", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true },
+          { "id": "halo-combat-evolved", "name": "Halo Combat Evolved", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "halo-studios", "name": "Halo Studios", "aliases": ["343"], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "digsite", "name": "Digsite", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [{ "id": "pc", "name": "PC", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Over 25 years of classic Halo content, originating from a Halo Studios collaboration with fan modders to restore cut content, has leaked online."
+    },
+    {
+      "ref": "free_games_subscription/january-s-playstation-plus-essential-games-announced",
+      "entities": {
+        "games": [
+          { "id": "suicide-squad-kill-the-justice-league", "name": "Suicide Squad: Kill the Justice League", "aliases": [], "genres": ["tps", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "need-for-speed-hot-pursuit", "name": "Need for Speed Hot Pursuit", "aliases": [], "genres": ["racing"], "franchise": "need-for-speed", "inferred": true },
+          { "id": "the-stanley-parable-ultra-deluxe", "name": "The Stanley Parable: Ultra Deluxe", "aliases": [], "genres": ["adventure"], "franchise": "the-stanley-parable", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-07", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "event",
+          "as_of": "2025-01-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will be available from January 7 for PlayStation Plus members",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/januarys-playstation-plus-includes-one-of-last-years-high-profile-games/" } }
+      ],
+      "summary": "January's PlayStation Plus Essential lineup, comprising Suicide Squad: Kill the Justice League, Need for Speed Hot Pursuit, and The Stanley Parable: Ultra Deluxe, will be available from January 7."
+    },
+    {
+      "ref": "business/sumo-group-ceo-carl-cavers-receives-obe-in-new-year-s-honour",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "sumo-group", "name": "Sumo Group", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "carl-cavers", "name": "Carl Cavers", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sumo Group CEO Carl Cavers has received an OBE in the New Year's Honours list for services to the video games industry."
+    },
+    {
+      "ref": "business/stardew-valley-has-topped-41-million-lifetime-sales",
+      "entities": {
+        "games": [{ "id": "stardew-valley", "name": "Stardew Valley", "aliases": [], "genres": ["simulation", "life-sim", "rpg"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 41000000, "unit": "units", "currency": null,
+          "entity": "stardew-valley", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Stardew Valley has topped 41 million lifetime sales",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/stardew-valley-sales-grew-to-over-41-million-by-2024-s-end" } }
+      ],
+      "summary": "Stardew Valley has topped 41 million lifetime sales."
+    },
+    {
+      "ref": "business/snk-opens-new-studio-to-evolve-fighting-game-franchises",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "snk", "name": "SNK", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "SNK has opened a new studio to evolve its fighting game franchises."
+    },
+    {
+      "ref": "business/playstation-s-boss-says-it-s-open-to-reviving-classic-franch",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "publisher": null, "inferred": true }],
+        "platforms": [{ "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "PlayStation's boss says the company is open to reviving classic franchises, offering a broad range of experiences from its first-party studios and external developers."
+    }
+  ]
+}

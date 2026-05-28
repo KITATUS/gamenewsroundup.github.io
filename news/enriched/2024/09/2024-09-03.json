@@ -1,0 +1,112 @@
+{
+  "date": "2024-09-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ios-versions-of-resident-evil-4-7-and-village-now-need-an-on",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-4", "name": "Resident Evil 4", "aliases": [], "genres": ["survival-horror", "tps"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-7", "name": "Resident Evil 7", "aliases": ["Resident Evil 7"], "genres": ["survival-horror", "fps"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-village", "name": "Resident Evil Village", "aliases": ["Village"], "genres": ["survival-horror", "fps"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The iOS versions of Resident Evil 4, Resident Evil 7 and Resident Evil Village now require an online connection at startup following an update."
+    },
+    {
+      "ref": "business/helldivers-2-and-dead-island-2-support-studio-toadman-intera",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true },
+          { "id": "killing-floor-calamity", "name": "Killing Floor Calamity", "aliases": [], "genres": ["fps", "shooter"], "franchise": "killing-floor", "inferred": true },
+          { "id": "warhammer-end-times-vermintide", "name": "Warhammer: End Times - Vermintide", "aliases": ["Warhammer: End times–Vermintide"], "genres": ["fps", "action"], "franchise": "warhammer", "inferred": true },
+          { "id": "immortal-unchained", "name": "Immortal Unchained", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "toadman-interactive", "name": "Toadman Interactive", "aliases": ["Toadman"], "publisher": "enad-global-7", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "enad-global-7", "name": "Enad Global 7", "aliases": ["EG7"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 100, "unit": "people", "currency": null,
+          "entity": "toadman-interactive", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-03", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "will affect approximately 100 full-time and contract resources [headcount] previously engaged with Toadman",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/helldivers-2-and-dead-island-2-support-studio-toadman-interactive-confirms-layoffs" } }
+      ],
+      "summary": "Toadman Interactive, the EG7-owned support studio behind Helldivers 2 and Dead Island 2, has confirmed layoffs affecting roughly 100 staff and contractors."
+    },
+    {
+      "ref": "business/thomas-koegler-appointed-ceo-of-asmodee",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "asmodee", "name": "Asmodee", "aliases": [], "inferred": false },
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "thomas-koegler", "name": "Thomas Koegler", "aliases": ["Kogler"], "inferred": false },
+          { "id": "stephane-carville", "name": "Stéphane Carville", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Thomas Koegler has been appointed CEO of board game publisher Asmodee and will also join Embracer's executive management team, replacing Stéphane Carville."
+    },
+    {
+      "ref": "business/rocksteady-hit-by-layoffs-after-suicide-squad-kill-the-justi",
+      "entities": {
+        "games": [
+          { "id": "suicide-squad-kill-the-justice-league", "name": "Suicide Squad: Kill the Justice League", "aliases": [], "genres": ["tps", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "rocksteady", "name": "Rocksteady", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Rocksteady has been hit by layoffs following the underperformance of Suicide Squad: Kill the Justice League."
+    },
+    {
+      "ref": "business/nintendo-of-europe-president-steps-down-after-six-years",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo-of-europe", "name": "Nintendo of Europe", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "stephan-bole", "name": "Stephan Bole", "aliases": [], "inferred": false },
+          { "id": "luciano-perena", "name": "Luciano Pereña", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Nintendo of Europe president Stephan Bole has stepped down after six years and been replaced by Luciano Pereña as CEO, president and chairman."
+    }
+  ]
+}

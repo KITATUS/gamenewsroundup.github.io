@@ -1,0 +1,180 @@
+{
+  "date": "2025-11-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/red-dead-redemption-is-officially-coming-to-switch-2-ps5-xbo",
+      "entities": {
+        "games": [
+          { "id": "red-dead-redemption", "name": "Red Dead Redemption", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "red-dead", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s-x", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "mobile", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release", "subscription"],
+      "facts": [],
+      "summary": "Red Dead Redemption is officially coming to Switch 2, PS5, Xbox Series S/X and mobile next month, with the mobile versions included for Netflix subscribers."
+    },
+    {
+      "ref": "main_news/fallout-season-2-s-full-trailer-is-out-now-as-fallout-76-bec",
+      "entities": {
+        "games": [
+          { "id": "fallout-76", "name": "Fallout 76", "aliases": [], "genres": ["rpg", "action-rpg", "survival"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": ["Amazon Prime"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "amazon-prime", "name": "Amazon Prime", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "free-game", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-12-17", "unit": "date", "currency": null,
+          "entity": "fallout-season-2", "entity_type": "product", "scope": "event",
+          "as_of": "2025-11-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Series returns December 17th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/fallout-season-2s-full-trailer-is-out-now-as-fallout-76-becomes-free-via-amazon-prime/" } }
+      ],
+      "summary": "The full trailer for Fallout Season 2 is out now and Fallout 76 has become free via Amazon Prime, with the series returning on 17 December 2025."
+    },
+    {
+      "ref": "main_news/kojima-productions-has-announced-death-stranding-isolations",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "disney-plus", "name": "Disney+", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Kojima Productions has announced Death Stranding Isolations, an animated series coming to Disney+ in 2027 that is separate from the previously announced animated film Death Stranding Mosquito."
+    },
+    {
+      "ref": "main_news/silent-hill-f-update-adds-casual-difficulty-and-lets-players",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-f", "name": "Silent Hill F", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A Silent Hill F update adds a 'Casual' difficulty and lets players skip part of a New Game+ playthrough."
+    },
+    {
+      "ref": "free_games_subscription/five-classic-blizzard-games-have-been-added-to-xbox-retro-cl",
+      "entities": {
+        "games": [
+          { "id": "the-lost-vikings", "name": "The Lost Vikings", "aliases": [], "genres": ["platformer", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "rock-roll-racing", "name": "Rock & Roll Racing", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "blackthorne", "name": "Blackthorne", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "lost-vikings-2-norse-by-norsewest", "name": "Lost Vikings 2: Norse by Norsewest", "aliases": [], "genres": ["platformer", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "rpm-racing", "name": "RPM Racing", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["Xbox Retro Classics"], "inferred": false },
+          { "id": "antstream", "name": "Antstream", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "subscription"],
+      "facts": [],
+      "summary": "Five classic Blizzard games (The Lost Vikings, Rock & Roll Racing, Blackthorne, Lost Vikings 2: Norse by Norsewest, and RPM Racing) have been added to Xbox Retro Classics, powered by Antstream."
+    },
+    {
+      "ref": "business/tomb-raider-developer-crystal-dynamics-announces-yet-more-la",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [
+          { "id": "crystal-dynamics", "name": "Crystal Dynamics", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 30, "unit": "people", "currency": null,
+          "entity": "crystal-dynamics", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-11-14", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Around 30 people affected",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/tomb-raider-developer-crystal-dynamics-announces-yet-more-layoffs/" } }
+      ],
+      "summary": "Tomb Raider developer Crystal Dynamics has announced further layoffs affecting around 30 people."
+    },
+    {
+      "ref": "business/ubisoft-delays-h1-fy25-26-results-and-temporarily-halts-trad",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "delay"],
+      "facts": [
+        { "metric": "price_change_pct", "value": 95.51, "unit": "percent", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-14", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Ubisoft's shares have plummeted 95.51% in five years",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-delays-h1-fy25-26-results-and-halts-trading-of-shares" } },
+        { "metric": "price_change_pct", "value": 49.44, "unit": "percent", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-14", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "are down 49.44% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-delays-h1-fy25-26-results-and-halts-trading-of-shares" } }
+      ],
+      "summary": "Ubisoft has delayed its H1 FY25-26 results and temporarily halted share trading, with its shares down 95.51% over five years and 49.44% year-on-year."
+    },
+    {
+      "ref": "business/pubg-creator-brendan-playerunknown-greene-is-planning-a-new",
+      "entities": {
+        "games": [
+          { "id": "pubg", "name": "PUBG", "aliases": ["PlayerUnknown's Battlegrounds"], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "brendan-greene", "name": "Brendan \"PlayerUnknown\" Greene", "aliases": ["PlayerUnknown"], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "PUBG creator Brendan \"PlayerUnknown\" Greene is planning a new multiplayer FPS currently envisioned as 100-player versus 100-player fights."
+    }
+  ]
+}

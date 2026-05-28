@@ -1,0 +1,67 @@
+{
+  "date": "2025-01-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/season-1-of-marvel-rivals-includes-the-fantastic-four",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "netease-games", "name": "NetEase Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "trailer", "release-date"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-01-06", "unit": "date", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Trailer releases January 6th 8:00 AM PST / 16:00 UTC",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/MarvelRivals/status/1874863266318762195" } }
+      ],
+      "summary": "Season 1 of Marvel Rivals will include the Fantastic Four, with a trailer releasing on 6 January 2025."
+    },
+    {
+      "ref": "main_news/atari-announces-gamestation-go-handheld",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "gamestation-go", "name": "GameStation Go", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [],
+      "summary": "Atari announced the GameStation Go handheld."
+    },
+    {
+      "ref": "business/tango-gameworks-rebrands-following-krafton-acquisition",
+      "entities": {
+        "games": [
+          { "id": "hi-fi-rush", "name": "Hi-Fi Rush", "aliases": [], "genres": ["rhythm", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": ["Tango Gameworks Inc."], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Tango Gameworks rebranded to Tango Gameworks Inc. following its acquisition by Krafton, with Hi-Fi Rush the only IP included in the deal."
+    }
+  ]
+}

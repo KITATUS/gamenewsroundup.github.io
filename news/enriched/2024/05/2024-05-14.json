@@ -1,0 +1,518 @@
+{
+  "date": "2024-05-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/developer-double-eleven-taken-off-prison-architect-series-af",
+      "entities": {
+        "games": [
+          {
+            "id": "prison-architect-2",
+            "name": "Prison Architect 2",
+            "aliases": ["Prison Architect series"],
+            "genres": ["simulation", "strategy"],
+            "franchise": "prison-architect",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "double-eleven",
+            "name": "Double Eleven",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "paradox-interactive",
+            "name": "Paradox Interactive",
+            "aliases": ["Paradox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Developer Double Eleven has been taken off the Prison Architect series after nine years, with Paradox saying it could not reach a workable commercial agreement after Prison Architect 2 passed certification."
+    },
+    {
+      "ref": "business/sony-s-gaming-division-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony", "SIE", "PlayStation"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps4",
+            "name": "PS4",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 4260000000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Sales: ¥4.26 trillion (17% year-on-year)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ps5-hits-59m-as-helldivers-2-breaks-playstations-launch-sales-record/"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 545500000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Sony’s Network services revenue: ¥545.5 billion (up from ¥464.6 billion)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ps5-hits-59m-as-helldivers-2-breaks-playstations-launch-sales-record/"
+          }
+        },
+        {
+          "metric": "units_sold",
+          "value": 286400000,
+          "unit": "units",
+          "currency": null,
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Software sales (PS4/5): 286.4 million units (22.2 million increase year-on-year)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ps5-hits-59m-as-helldivers-2-breaks-playstations-launch-sales-record/"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 59300000,
+          "unit": "units",
+          "currency": null,
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-05-14",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS5 has sold 59.3 million units to date",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ps5-hits-59m-as-helldivers-2-breaks-playstations-launch-sales-record/"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 12000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "helldivers-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-14",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "12 million copies sold across PC and PS5 in its first 12 weeks",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ps5-hits-59m-as-helldivers-2-breaks-playstations-launch-sales-record/"
+          }
+        }
+      ],
+      "summary": "Sony's gaming division reported full-year sales of ¥4.26 trillion, PS5 lifetime sales of 59.3 million units, and Helldivers 2 becoming PlayStation's fastest-selling launch with 12 million copies sold."
+    },
+    {
+      "ref": "business/playstation-names-hermen-hulst-and-hideaki-nishino-as-its-ne",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "guerrilla-games",
+            "name": "Guerrilla Games",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony", "SIE", "PlayStation"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "hermen-hulst",
+            "name": "Hermen Hulst",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "hideaki-nishino",
+            "name": "Hideaki Nishino",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "PlayStation named Hermen Hulst and Hideaki Nishino as its new CEOs, leading the Studio Business Group and the Platform Business Group respectively."
+    },
+    {
+      "ref": "business/warner-bros-transferring-ownership-of-titles-under-adult-swi",
+      "entities": {
+        "games": [
+          {
+            "id": "small-radios-big-televisions",
+            "name": "Small Radios Big Televisions",
+            "aliases": [],
+            "genres": ["puzzle", "adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "duck-game",
+            "name": "Duck Game",
+            "aliases": [],
+            "genres": ["fighting", "party"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "super-mega-team",
+            "name": "Super Mega Team",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "warner-bros",
+            "name": "Warner Bros.",
+            "aliases": ["Adult Swim Games"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Warner Bros. is transferring ownership of titles published under its Adult Swim Games label back to some developers, including the teams behind Small Radios Big Televisions and Duck Game, months after delisting titles from the division."
+    },
+    {
+      "ref": "business/square-enix-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-16",
+            "name": "Final Fantasy XVI",
+            "aliases": ["FF16"],
+            "genres": ["action-rpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          },
+          {
+            "id": "final-fantasy-7-rebirth",
+            "name": "Final Fantasy VII Rebirth",
+            "aliases": ["FF7 Rebirth", "Rebirth"],
+            "genres": ["action-rpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          },
+          {
+            "id": "foamstars",
+            "name": "Foamstars",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "dragon-quest-12",
+            "name": "Dragon Quest XII",
+            "aliases": ["DQ12"],
+            "genres": ["jrpg"],
+            "franchise": "dragon-quest",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "layoffs"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 356000000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥356 billion ($2.28 billion, up 3.8% year-on-year from ¥343 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 2280000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥356 billion ($2.28 billion, up 3.8% year-on-year from ¥343 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 248000000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Digital entertainment sales: ¥248 billion ($1.59 billion, up 2.6% YoY from ¥245 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 1590000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Digital entertainment sales: ¥248 billion ($1.59 billion, up 2.6% YoY from ¥245 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 32500000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥32.5 billion ($208 million, down 26.6% YoY from ¥44.3 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 208000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥32.5 billion ($208 million, down 26.6% YoY from ¥44.3 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 15000000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Profit attributable to owners of parent: ¥15 billion ($96.2 million, down 69.7% YoY from ¥49.2 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 96200000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-14",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Profit attributable to owners of parent: ¥15 billion ($96.2 million, down 69.7% YoY from ¥49.2 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-embarking-on-aggressive-multiplatform-strategy-as-profits-drop-70"
+          }
+        }
+      ],
+      "summary": "Square Enix reported full-year net sales of ¥356 billion with profit down 69.7% year-on-year, said Final Fantasy XVI, FF7 Rebirth and Foamstars fell short of expectations, and announced layoffs affecting publishing, IT and the Square Enix Indie Collective."
+    },
+    {
+      "ref": "rumours/red-dead-redemption-1-finally-heading-to-pc-new-datamine-sug",
+      "entities": {
+        "games": [
+          {
+            "id": "red-dead-redemption",
+            "name": "Red Dead Redemption 1",
+            "aliases": ["Red Dead Redemption"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "rumour"],
+      "facts": [],
+      "summary": "A new datamine suggests Red Dead Redemption 1 is finally heading to PC."
+    }
+  ]
+}

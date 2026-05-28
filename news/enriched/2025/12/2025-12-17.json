@@ -1,0 +1,46 @@
+{
+  "date": "2025-12-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/brian-fleming-co-founder-of-ghost-of-yotei-studio-sucker-pun",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch", "name": "Sucker Punch", "aliases": ["Sucker Punch Productions"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "brian-fleming", "name": "Brian Fleming", "aliases": [], "inferred": false },
+          { "id": "jason-connell", "name": "Jason Connell", "aliases": [], "inferred": false },
+          { "id": "adrian-bentley", "name": "Adrian Bentley", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Brian Fleming, co-founder of Ghost of Yotei studio Sucker Punch, is leaving the studio, which will be run by Jason Connell and Adrian Bentley."
+    },
+    {
+      "ref": "main_news/tencent-invests-in-hyperreal-bodycam-shooter-that-became-int",
+      "entities": {
+        "games": [
+          { "id": "unrecord", "name": "Unrecord", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Tencent has invested in the hyperreal bodycam shooter Unrecord, which has entered full production and expanded its development team."
+    }
+  ]
+}

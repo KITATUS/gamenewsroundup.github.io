@@ -1,0 +1,232 @@
+{
+  "date": "2025-01-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ghost-of-tsushima-is-getting-an-anime-adaptation",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-tsushima", "name": "Ghost of Tsushima", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2027", "unit": "year", "currency": null, "entity": "ghost-of-tsushima", "entity_type": "product", "scope": "product", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "medium", "quote": "Series will debut in 2027", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/one-of-playstations-biggest-first-party-games-is-getting-an-anime-adaptation/" } }
+      ],
+      "summary": "Ghost of Tsushima is getting an anime adaptation, co-produced by Aniplex and Crunchyroll, debuting in 2027."
+    },
+    {
+      "ref": "main_news/two-more-live-action-films-based-on-playstation-games-helldi",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "horizon-zero-dawn", "name": "Horizon: Zero Dawn", "aliases": ["Horizon Zero Dawn"], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony Pictures", "Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Two more live-action films based on PlayStation games, Helldivers 2 and Horizon: Zero Dawn, have been announced."
+    },
+    {
+      "ref": "main_news/the-first-tokyo-xtreme-racer-in-18-years-lands-on-steam-earl",
+      "entities": {
+        "games": [
+          { "id": "tokyo-xtreme-racer", "name": "Tokyo Xtreme Racer", "aliases": [], "genres": ["racing"], "franchise": "tokyo-xtreme-racer", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["early-access", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-23", "unit": "date", "currency": null, "entity": "tokyo-xtreme-racer", "entity_type": "game", "scope": "game", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Steam early access debut later this month, on 23rd January", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-first-tokyo-xtreme-racer-in-18-years-lands-on-steam-early-access-this-month" } }
+      ],
+      "summary": "The first Tokyo Xtreme Racer in 18 years arrives on Steam early access on 23 January 2025."
+    },
+    {
+      "ref": "main_news/acer-unveils-dubiously-portable-nitro-blaze-11-handheld-gami",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "acer-nitro-blaze-11", "name": "Acer Nitro Blaze 11", "aliases": [], "inferred": false },
+          { "id": "acer-nitro-blaze-8", "name": "Acer Nitro Blaze 8", "aliases": ["Blaze 8"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "hardware"],
+      "facts": [],
+      "summary": "Acer unveiled the Nitro Blaze 11 handheld gaming PC with a 10.95-inch screen, alongside an 8.8-inch Blaze 8."
+    },
+    {
+      "ref": "main_news/meta-stops-selling-quest-pro-headsets-after-two-year-run",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "meta-quest-pro", "name": "Meta Quest Pro", "aliases": ["Quest Pro"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "hardware"],
+      "facts": [],
+      "summary": "Meta has stopped selling its Quest Pro headsets after a two-year run."
+    },
+    {
+      "ref": "main_news/nvidia-launches-geforce-rtx-50-blackwell-series",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nvidia-geforce-rtx-50", "name": "GeForce RTX 50 series", "aliases": ["Blackwell"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "hardware"],
+      "facts": [
+        { "metric": "price", "value": 1999, "unit": "price", "currency": "USD", "entity": "nvidia-geforce-rtx-5090", "entity_type": "product", "scope": "product", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "GeForce RTX 5090 - $1,999", "source": { "name": "VideoCardz", "domain": "videocardz.com", "url": "https://videocardz.com/newz/nvidia-launches-geforce-rtx-50-blackwell-series-rtx-5090-costs-1999" } },
+        { "metric": "price", "value": 999, "unit": "price", "currency": "USD", "entity": "nvidia-geforce-rtx-5080", "entity_type": "product", "scope": "product", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "GeForce RTX 5080 - $999", "source": { "name": "VideoCardz", "domain": "videocardz.com", "url": "https://videocardz.com/newz/nvidia-launches-geforce-rtx-50-blackwell-series-rtx-5090-costs-1999" } },
+        { "metric": "price", "value": 749, "unit": "price", "currency": "USD", "entity": "nvidia-geforce-rtx-5070-ti", "entity_type": "product", "scope": "product", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "GeForce RTX 5070 Ti - $749", "source": { "name": "VideoCardz", "domain": "videocardz.com", "url": "https://videocardz.com/newz/nvidia-launches-geforce-rtx-50-blackwell-series-rtx-5090-costs-1999" } },
+        { "metric": "price", "value": 549, "unit": "price", "currency": "USD", "entity": "nvidia-geforce-rtx-5070", "entity_type": "product", "scope": "product", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "GeForce RTX 5070 - $549", "source": { "name": "VideoCardz", "domain": "videocardz.com", "url": "https://videocardz.com/newz/nvidia-launches-geforce-rtx-50-blackwell-series-rtx-5090-costs-1999" } }
+      ],
+      "summary": "NVIDIA launched its GeForce RTX 50 \"Blackwell\" series, with the RTX 5090 at $1,999, RTX 5080 at $999, RTX 5070 Ti at $749, and RTX 5070 at $549."
+    },
+    {
+      "ref": "main_news/nvidia-is-bringing-a-native-geforce-now-app-to-steam-deck",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-deck", "name": "Steam Deck", "aliases": [], "inferred": false },
+          { "id": "geforce-now", "name": "GeForce Now", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nvidia is bringing a native GeForce Now app to the Steam Deck."
+    },
+    {
+      "ref": "business/shift-up-stellar-blade-dev-is-doing-so-well-it-s-given-all-3",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "wages", "value": 3400, "unit": "price", "currency": "USD", "entity": "shift-up", "entity_type": "company", "scope": "company", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Given All 311 Staff a PS5 Pro and $3,400 Bonus", "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/stellar-blade-dev-is-doing-so-well-its-given-all-311-staff-a-ps5-pro-and-3400-bonus" } },
+        { "metric": "headcount", "value": 311, "unit": "people", "currency": null, "entity": "shift-up", "entity_type": "company", "scope": "company", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Given All 311 Staff a PS5 Pro and $3,400 Bonus", "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/stellar-blade-dev-is-doing-so-well-its-given-all-311-staff-a-ps5-pro-and-3400-bonus" } }
+      ],
+      "summary": "Stellar Blade developer Shift Up gave all 311 staff a PS5 Pro and a $3,400 bonus."
+    },
+    {
+      "ref": "business/tencent-designated-as-a-chinese-military-company-by-us",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Tencent has been designated as a Chinese military company by the US, a listing with no direct legal consequences but unfavorable for doing business in the United States."
+    },
+    {
+      "ref": "business/dynasty-warrior-m-servers-to-shut-just-15-months-after-launc",
+      "entities": {
+        "games": [
+          { "id": "dynasty-warriors-m", "name": "Dynasty Warriors M", "aliases": ["Dynasty Warrior M"], "genres": ["action-adventure"], "franchise": "dynasty-warriors", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-02-20", "unit": "date", "currency": null, "entity": "dynasty-warriors-m", "entity_type": "game", "scope": "game", "as_of": "2025-01-07", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Dynasty Warriors M will end its service on February 20th, 2025", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/dynasty-warrior-m-servers-to-shut-just-15-months-after-launch" } }
+      ],
+      "summary": "Dynasty Warriors M servers will shut down on 20 February 2025, just 15 months after launch."
+    },
+    {
+      "ref": "business/wwe-2k23-gets-final-takedown-after-2k-discontinues-online-se",
+      "entities": {
+        "games": [
+          { "id": "wwe-2k23", "name": "WWE 2K23", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "WWE 2K23 gets its 'final takedown' as 2K discontinues the game's online service."
+    },
+    {
+      "ref": "business/sonic-the-hedgehog-movie-franchise-tops-1-billion-at-global",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "revenue", "value": 1000000000, "unit": "money", "currency": "USD", "entity": "sonic-the-hedgehog", "entity_type": "product", "scope": "franchise", "as_of": "2025-01-07", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Sonic the Hedgehog movie franchise tops $1 billion at global box office", "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/sonic-the-hedgehog-movie-franchise-tops-1-billion-at-global-box-office" } }
+      ],
+      "summary": "The Sonic the Hedgehog movie franchise has topped $1 billion at the global box office."
+    },
+    {
+      "ref": "other_notes/don-t-forget-you-can-add-the-game-news-round-up-to-your-own",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Readers are reminded they can add the Game News Round-Up to their own Discord server by joining the linked server."
+    }
+  ]
+}

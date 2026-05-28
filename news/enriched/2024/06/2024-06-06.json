@@ -1,0 +1,165 @@
+{
+  "date": "2024-06-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/destiny-developer-truly-sorry-as-the-final-shape-launch-issu",
+      "entities": {
+        "games": [
+          { "id": "destiny-2", "name": "Destiny 2", "aliases": ["Destiny"], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true },
+          { "id": "the-final-shape", "name": "The Final Shape", "aliases": [], "genres": ["fps"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release"],
+      "facts": [],
+      "summary": "Destiny developer Bungie apologised after The Final Shape launch issues left players missing crucial story cutscenes."
+    },
+    {
+      "ref": "main_news/hades-2-s-second-patch-is-here-bringing-plenty-of-daedalus-h",
+      "entities": {
+        "games": [
+          { "id": "hades-2", "name": "Hades 2", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supergiant-games", "name": "Supergiant Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Hades 2's second patch arrived, bringing numerous Daedalus Hammer changes."
+    },
+    {
+      "ref": "business/squad-busters-generates-1-1m-at-launch",
+      "entities": {
+        "games": [
+          { "id": "squad-busters", "name": "Squad Busters", "aliases": [], "genres": ["strategy", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "supercell", "name": "Supercell", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1100000, "unit": "money", "currency": "USD",
+          "entity": "squad-busters", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Squad Busters generates $1.1m at launch",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squad-busters-generates-11m-at-launch" } },
+        { "metric": "downloads", "value": 8800000, "unit": "downloads", "currency": null,
+          "entity": "squad-busters", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "approximately 8.8 million downloads when the title released on May 29",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squad-busters-generates-11m-at-launch" } },
+        { "metric": "release_date", "value": "2024-05-29", "unit": "date", "currency": null,
+          "entity": "squad-busters", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "when the title released on May 29",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squad-busters-generates-11m-at-launch" } },
+        { "metric": "revenue", "value": 1500000, "unit": "money", "currency": "USD",
+          "entity": "squad-busters", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The daily revenue peak for Squad Busters is estimated to be $1.5 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squad-busters-generates-11m-at-launch" } }
+      ],
+      "summary": "Squad Busters generated $1.1 million at launch following its 29 May release."
+    },
+    {
+      "ref": "business/ubisoft-vet-david-polfeldt-opens-new-studio-in-barcelona",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bespoke-pixel", "name": "Bespoke Pixel", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "massive-entertainment", "name": "Massive Entertainment", "aliases": ["Massive"], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "david-polfeldt", "name": "David Polfeldt", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "funding-investment", "leadership-change"],
+      "facts": [
+        { "metric": "funding_raised", "value": 25000000, "unit": "money", "currency": "USD",
+          "entity": "bespoke-pixel", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-06-06", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Bespoke Pixel has raised $25 million in funding",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-vet-david-polfeldt-opens-new-studio-in-barcelona" } }
+      ],
+      "summary": "Ubisoft veteran David Polfeldt opened a new studio, Bespoke Pixel, in Barcelona."
+    },
+    {
+      "ref": "rumours/looks-like-sony-s-live-service-sci-fi-shooter-concord-will-l",
+      "entities": {
+        "games": [
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["fps", "hero-shooter"], "franchise": null, "inferred": true },
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "firewalk-studios", "name": "Firewalk Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PlayStation Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "release", "rumour"],
+      "facts": [
+        { "metric": "price", "value": 35, "unit": "price", "currency": "GBP",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Concord will launch with a £35 price tag",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/looks-like-sonys-live-service-sci-fi-shooter-concord-will-launch-with-a-35-price-tag" } },
+        { "metric": "price", "value": 59.95, "unit": "price", "currency": "AUD",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Standard Edition with a pre-order price of $59.95 AUD",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/looks-like-sonys-live-service-sci-fi-shooter-concord-will-launch-with-a-35-price-tag" } },
+        { "metric": "price", "value": 94.95, "unit": "price", "currency": "AUD",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Digital Deluxe Edition at $94.95",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/looks-like-sonys-live-service-sci-fi-shooter-concord-will-launch-with-a-35-price-tag" } },
+        { "metric": "price", "value": 34.99, "unit": "price", "currency": "GBP",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Concord will retail for £34.99/$39.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/looks-like-sonys-live-service-sci-fi-shooter-concord-will-launch-with-a-35-price-tag" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Concord will retail for £34.99/$39.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/looks-like-sonys-live-service-sci-fi-shooter-concord-will-launch-with-a-35-price-tag" } },
+        { "metric": "price", "value": 49.99, "unit": "price", "currency": "GBP",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "£49.99/$59.99 for the Digital Deluxe Edition",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/looks-like-sonys-live-service-sci-fi-shooter-concord-will-launch-with-a-35-price-tag" } },
+        { "metric": "price", "value": 59.99, "unit": "price", "currency": "USD",
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "£49.99/$59.99 for the Digital Deluxe Edition",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/looks-like-sonys-live-service-sci-fi-shooter-concord-will-launch-with-a-35-price-tag" } }
+      ],
+      "summary": "Rumour that Sony's live-service sci-fi shooter Concord will launch with a £35 price tag."
+    }
+  ]
+}

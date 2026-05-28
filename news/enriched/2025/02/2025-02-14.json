@@ -1,0 +1,144 @@
+{
+  "date": "2025-02-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/astro-bot-free-update-adds-new-levels-bots-and-a-ps5-pro-boo",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion", "hardware"],
+      "facts": [],
+      "summary": "A free Astro Bot update adds five new levels released weekly, new bots, and a PS5 Pro performance boost."
+    },
+    {
+      "ref": "main_news/overwatch-2-is-bringing-loot-boxes-back-two-years-after-they",
+      "entities": {
+        "games": [
+          { "id": "overwatch-2", "name": "Overwatch 2", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": "overwatch", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "blizzard-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Overwatch 2 is reintroducing loot boxes two years after they were removed, earnable through weekly and event rewards and the battle passes."
+    },
+    {
+      "ref": "business/square-enix-has-shut-down-the-ios-version-of-final-fantasy-c",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-crystal-chronicles", "name": "Final Fantasy Crystal Chronicles", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Square Enix has shut down the iOS version of Final Fantasy Crystal Chronicles due to an unfixable bug, while other versions remain unaffected."
+    },
+    {
+      "ref": "business/ubisoft-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 990000000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "ubisoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-14",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: €990 million (down 31.4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-revenues-decline-314-to-990m" }
+        }
+      ],
+      "summary": "Ubisoft reported revenue of €990 million for the nine months ending December 31, 2024, down 31.4% year-on-year."
+    },
+    {
+      "ref": "business/thunderful-gothenberg-rebrands-as-stormteller-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "stormteller-games", "name": "Stormteller Games", "aliases": ["Thunderful Gothenberg"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Thunderful Gothenberg has rebranded as Stormteller Games."
+    },
+    {
+      "ref": "business/mtg-closes-620m-acquisition-of-plarium",
+      "entities": {
+        "games": [
+          { "id": "raid-shadow-legends", "name": "Raid: Shadow Legends", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "plarium", "name": "Plarium", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "mtg", "name": "MTG", "aliases": ["Modern Times Group"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 620000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "plarium",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "MTG closes $620m acquisition of Plarium",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/mtg-closes-620m-acquisition-of-plarium" }
+        }
+      ],
+      "summary": "MTG has closed its $620 million acquisition of Raid: Shadow Legends developer Plarium, which will be fully consolidated into the firm."
+    }
+  ]
+}

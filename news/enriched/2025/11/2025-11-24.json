@@ -1,0 +1,158 @@
+{
+  "date": "2025-11-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/call-of-duty-od-actor-udo-kier-has-passed-away",
+      "entities": {
+        "games": [
+          { "id": "od", "name": "OD", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "udo-kier", "name": "Udo Kier", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Udo Kier, an actor who worked on Call of Duty and OD, has passed away."
+    },
+    {
+      "ref": "main_news/sandfall-interactive-and-clair-obscur-expedition-33-sweep-go",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sandfall-interactive", "name": "Sandfall Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Sandfall Interactive and Clair Obscur: Expedition 33 swept the Golden Joystick Awards 2025, with the French developer winning seven awards including Studio of the Year and Game of the Year."
+    },
+    {
+      "ref": "main_news/don-t-forget-to-vote-in-the-game-awards",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A reminder that voting is open for The Game Awards."
+    },
+    {
+      "ref": "main_news/fan-game-timesplitters-rewind-releases-after-a-13-year-wait",
+      "entities": {
+        "games": [
+          { "id": "timesplitters-rewind", "name": "TimeSplitters Rewind", "aliases": [], "genres": ["fps", "shooter"], "franchise": "timesplitters", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "The fan game TimeSplitters Rewind has released after a 13-year wait."
+    },
+    {
+      "ref": "main_news/fbc-firebreak-s-rogue-protocol-update-is-delayed-to-january",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["fps", "shooter"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "update-patch"],
+      "facts": [],
+      "summary": "FBC: Firebreak's Rogue Protocol update has been delayed to January, as it \"still needs a bit more time\"."
+    },
+    {
+      "ref": "business/ubisoft-s-tencent-deal-goes-through-the-french-publisher-con",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "vantage-studios", "name": "Vantage Studios", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "partnership"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1160000000, "unit": "money", "currency": "EUR",
+          "entity": "vantage-studios", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "confirms a €1.16 billion investment in Vantage Studios for 26.32% stake",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisofts-tencent-deal-goes-through" } },
+        { "metric": "equity_stake_pct", "value": 26.32, "unit": "percent", "currency": null,
+          "entity": "vantage-studios", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "investment in Vantage Studios for 26.32% stake",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisofts-tencent-deal-goes-through" } }
+      ],
+      "summary": "Ubisoft's Tencent deal closed, confirming a €1.16 billion investment in Vantage Studios for a 26.32% stake."
+    },
+    {
+      "ref": "business/ubisoft-announces-h1-earnings",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 772400000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-24", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Overall net bookings: €772.4 million (up 20.3% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-announces-h1-earnings-ahead-of-expectations-confirms-tencent-deal-to-close-in-coming-days" } },
+        { "metric": "revenue", "value": 685800000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-24", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Digital net bookings: €685.8 million (up 30.2% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-announces-h1-earnings-ahead-of-expectations-confirms-tencent-deal-to-close-in-coming-days" } },
+        { "metric": "revenue", "value": 741400000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-24", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Back-catalogue net bookings: €741.4 million (up 50% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-announces-h1-earnings-ahead-of-expectations-confirms-tencent-deal-to-close-in-coming-days" } },
+        { "metric": "operating_income", "value": -120200000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-24", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "IFRS operating income: -€120.2 million (vs -€271.8 million YoY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-announces-h1-earnings-ahead-of-expectations-confirms-tencent-deal-to-close-in-coming-days" } },
+        { "metric": "operating_income", "value": 27100000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-24", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Non-IFRS operating income: €27.1 million (vs -€252.1 million YoY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-announces-h1-earnings-ahead-of-expectations-confirms-tencent-deal-to-close-in-coming-days" } }
+      ],
+      "summary": "Ubisoft announced H1 earnings ahead of expectations, with overall net bookings of €772.4 million, up 20.3% year-on-year."
+    }
+  ]
+}

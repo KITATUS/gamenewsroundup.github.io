@@ -1,0 +1,320 @@
+{
+  "date": "2025-06-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/first-resident-evil-requiem-gameplay-revealed-showing-first",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "reveal"],
+      "facts": [],
+      "summary": "The first gameplay for Resident Evil Requiem was revealed, showing both first- and third-person views."
+    },
+    {
+      "ref": "main_news/capcom-reveals-pragmata-s-unique-puzzle-shooting-gameplay-in",
+      "entities": {
+        "games": [
+          { "id": "pragmata", "name": "Pragmata", "aliases": [], "genres": ["shooter", "puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "reveal", "trailer"],
+      "facts": [],
+      "summary": "Capcom revealed Pragmata's unique puzzle-shooting gameplay in a new video."
+    },
+    {
+      "ref": "main_news/amico-releases-some-of-its-games-on-switch-and-steam-insists",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "intellivision", "name": "Intellivision", "aliases": ["Amico"], "inferred": false },
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": true },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "Amico released some of its games on Switch and Steam while insisting a console is still coming, having sold its Intellivision branding to Atari last year."
+    },
+    {
+      "ref": "main_news/monster-hunter-wilds-next-update-detailed-as-steam-reviews-c",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Capcom detailed Monster Hunter Wilds' next update, adding Lagiacrus and Seregios, as the game's Steam reviews continued an Overwhelmingly Negative plunge."
+    },
+    {
+      "ref": "main_news/street-fighter-movie-jason-momoa-cast-as-blanka-50-cent-as-b",
+      "entities": {
+        "games": [
+          { "id": "street-fighter", "name": "Street Fighter", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jason-momoa", "name": "Jason Momoa", "aliases": [], "inferred": false },
+          { "id": "50-cent", "name": "50 Cent", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Jason Momoa was cast as Blanka and 50 Cent as Balrog in the Street Fighter movie."
+    },
+    {
+      "ref": "business/intel-begins-another-round-of-layoffs-roughly-107-employees",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count", "value": 107, "unit": "employees", "currency": null,
+          "entity": "intel", "entity_type": "company", "scope": "company",
+          "as_of": "2025-06-27", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "begins another round of layoffs, \"roughly 107 employees\" reportedly affected",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/intel-begins-another-round-of-layoffs-roughly-107-employees-reportedly-affected" }
+        }
+      ],
+      "summary": "Intel began another round of layoffs, with roughly 107 employees reportedly affected."
+    },
+    {
+      "ref": "business/sony-faces-dutch-lawsuit-over-artificially-high-playstation",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PlayStation Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Sony faces a Dutch lawsuit from a consumer group alleging artificially high prices for digital games on the PlayStation Store."
+    },
+    {
+      "ref": "business/peak-sells-2m-units-in-nine-days",
+      "entities": {
+        "games": [
+          { "id": "peak", "name": "Peak", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "peak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-27", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Peak sells 2m units in nine days",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/peak-sells-2m-units-in-nine-days-news-in-brief" }
+        }
+      ],
+      "summary": "Peak sold 2 million units in nine days."
+    },
+    {
+      "ref": "business/lost-records-developer-don-t-nod-cuts-a-non-insignificant-ch",
+      "entities": {
+        "games": [
+          { "id": "lost-records", "name": "Lost Records", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "dont-nod", "name": "Don't Nod", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Lost Records developer Don't Nod cut a \"non-insignificant chunk\" of jobs, including QA, artists, and level designers."
+    },
+    {
+      "ref": "business/epic-games-successfully-sues-fortnite-cheat-for-175-000",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Epic Games successfully sued a Fortnite cheat maker for $175,000."
+    },
+    {
+      "ref": "business/game-dev-heroes-co-founder-alex-boucher-awarded-mbe",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "game-dev-heroes", "name": "Game Dev Heroes", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "alex-boucher", "name": "Alex Boucher", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Game Dev Heroes co-founder Alex Boucher was awarded an MBE."
+    },
+    {
+      "ref": "business/fbc-firebreak-surpasses-1m-players-remedy-s-first-self-publi",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["fps"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy", "name": "Remedy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "fbc-firebreak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-27", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "FBC: Firebreak surpasses 1m players",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/fbc-firebreak-surpasses-1m-players-news-in-brief" }
+        },
+        {
+          "metric": "release_date", "value": "2025-06-17", "unit": "date", "currency": null,
+          "entity": "fbc-firebreak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Remedy's first self published co-op title launched on June 17, 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/fbc-firebreak-surpasses-1m-players-news-in-brief" }
+        }
+      ],
+      "summary": "FBC: Firebreak, Remedy's first self-published co-op title, surpassed 1 million players after launching on June 17, 2025."
+    },
+    {
+      "ref": "business/square-collapsed-after-final-fantasy-creator-hironobu-sakagu",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy", "name": "Final Fantasy", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square", "name": "Square", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "hironobu-sakaguchi", "name": "Hironobu Sakaguchi", "aliases": [], "inferred": false },
+          { "id": "nobuo-uematsu", "name": "Nobuo Uematsu", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Composer Nobuo Uematsu said Square \"collapsed\" after Final Fantasy creator Hironobu Sakaguchi left."
+    },
+    {
+      "ref": "business/steam-s-fourth-most-played-game-bongo-cat-doesn-t-really-mak",
+      "entities": {
+        "games": [
+          { "id": "bongo-cat", "name": "Bongo Cat", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "chart_rank", "value": 4, "unit": "rank", "currency": null,
+          "entity": "bongo-cat", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Steam's fourth most played game [Bongo Cat]",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steams-fourth-most-played-game-doesnt-really-make-any-money-and-its-developer-says-its-better-off-that-way" }
+        }
+      ],
+      "summary": "Bongo Cat, Steam's fourth most played game, doesn't really make any money, and its developer says it's better off that way."
+    },
+    {
+      "ref": "business/sonic-joins-mclaren-racing-in-historic-partnership-with-sega",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Sonic joined McLaren Racing in a historic partnership with Sega."
+    },
+    {
+      "ref": "business/chris-avellone-joins-former-quantic-dream-writer-at-republic",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "republic-games", "name": "Republic Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "quantic-dream", "name": "Quantic Dream", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "chris-avellone", "name": "Chris Avellone", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Chris Avellone joined a former Quantic Dream writer at Republic Games to work on an ambitious project inspired by the \"golden-age of RPGs\"."
+    }
+  ]
+}

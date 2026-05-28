@@ -1,0 +1,147 @@
+{
+  "date": "2024-08-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-discord-update-includes-friend-activity-and-the-ability",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["Xbox One", "Series S/X"], "inferred": false },
+          { "id": "discord", "name": "Discord", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "partnership"],
+      "facts": [],
+      "summary": "An Xbox Discord update adds friend activity and the ability to watch friends' streams directly from console."
+    },
+    {
+      "ref": "main_news/braid-anniversary-edition-has-sold-like-dog-sh-t-creator-jon",
+      "entities": {
+        "games": [
+          { "id": "braid-anniversary-edition", "name": "Braid Anniversary Edition", "aliases": ["Braid"], "genres": ["puzzle", "platformer"], "franchise": "braid", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jonathan-blow", "name": "Jonathan Blow", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Creator Jonathan Blow says Braid Anniversary Edition has sold poorly."
+    },
+    {
+      "ref": "main_news/suda51-and-shinji-mikami-want-to-make-a-complete-edition-of",
+      "entities": {
+        "games": [
+          { "id": "killer7", "name": "Killer7", "aliases": ["Killer11", "Killer 7: Beyond"], "genres": ["action-adventure"], "franchise": "killer7", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "suda51", "name": "Suda51", "aliases": ["Suda"], "inferred": false },
+          { "id": "shinji-mikami", "name": "Shinji Mikami", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Suda51 and Shinji Mikami say they want to make a Complete Edition of Killer7 followed by a sequel."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-essential-lineup-for-august-6th",
+      "entities": {
+        "games": [
+          { "id": "lego-star-wars-the-skywalker-saga", "name": "Lego Star Wars: The Skywalker Saga", "aliases": [], "genres": ["action-adventure"], "franchise": "lego-star-wars", "inferred": true },
+          { "id": "five-nights-at-freddys-security-breach", "name": "Five Nights at Freddy's Security Breach", "aliases": [], "genres": ["survival-horror"], "franchise": "five-nights-at-freddys", "inferred": true },
+          { "id": "ender-lilies-quietus-of-the-knights", "name": "Ender Lilies: Quietus of the Knights", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PlayStation Plus Essential"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-08-06", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "event",
+          "as_of": "2024-08-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PlayStation Plus Essential lineup for August 6th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/augusts-playstation-plus-games-include-lego-star-wars-the-skywalker-saga/" } }
+      ],
+      "summary": "The PlayStation Plus Essential lineup for August 6th includes Lego Star Wars: The Skywalker Saga, Five Nights at Freddy's Security Breach, and Ender Lilies: Quietus of the Knights."
+    },
+    {
+      "ref": "business/flintlock-the-siege-of-dawn-passes-500-000-players",
+      "entities": {
+        "games": [
+          { "id": "flintlock-the-siege-of-dawn", "name": "Flintlock: The Siege of Dawn", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "a44-games", "name": "A44 Games", "aliases": ["PlayFlintlock"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 500000, "unit": "players", "currency": null,
+          "entity": "flintlock-the-siege-of-dawn", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-01", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Flintlock: The Siege of Dawn passes 500,000 players",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/PlayFlintlock/status/1818300789703823402" } }
+      ],
+      "summary": "Flintlock: The Siege of Dawn has passed 500,000 players."
+    },
+    {
+      "ref": "business/bungie-to-lay-off-over-200-staff-as-it-forms-new-studio-with",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "playstation-studios", "name": "PlayStation Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "herman-hulst", "name": "Herman Hulst", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "studio-opening", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 220, "unit": "people", "currency": null,
+          "entity": "bungie", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-08-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "220 staff have been laid off",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-to-lay-off-over-200-staff-as-it-forms-new-studio-within-playstation/" } },
+        { "metric": "headcount", "value": 1200, "unit": "people", "currency": null,
+          "entity": "bungie", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-08-01", "period": "point_in_time", "direction": "down", "confidence": "medium",
+          "quote": "Bungie's headcount has fallen from approximately 1200 to approx 850 after multiple rounds of lay-offs.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-to-lay-off-over-200-staff-as-it-forms-new-studio-within-playstation/" } },
+        { "metric": "headcount", "value": 850, "unit": "people", "currency": null,
+          "entity": "bungie", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-08-01", "period": "point_in_time", "direction": "down", "confidence": "medium",
+          "quote": "Bungie's headcount has fallen from approximately 1200 to approx 850 after multiple rounds of lay-offs.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-to-lay-off-over-200-staff-as-it-forms-new-studio-within-playstation/" } }
+      ],
+      "summary": "Bungie is laying off 220 staff and moving an early-development project into PlayStation Studios to form a new studio."
+    }
+  ]
+}

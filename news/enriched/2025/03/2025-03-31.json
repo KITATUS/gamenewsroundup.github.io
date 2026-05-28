@@ -1,0 +1,260 @@
+{
+  "date": "2025-03-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mindseye-new-thriller-from-former-gta-producer-and-hitman-pu",
+      "entities": {
+        "games": [
+          {
+            "id": "mindseye",
+            "name": "MindsEye",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "build-a-rocket-boy",
+            "name": "Build A Rocket Boy",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "io-interactive",
+            "name": "IO Interactive",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s-x", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-06-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "mindseye",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "gets release date; 10th June 2025, across PS5, Xbox Series S/X, and PC",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/mindseye-new-thriller-from-former-gta-producer-and-hitman-publisher-gets-release-date"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 54.99,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "mindseye",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "for £54.99",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/mindseye-new-thriller-from-former-gta-producer-and-hitman-publisher-gets-release-date"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 59.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "mindseye",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$59,99",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/mindseye-new-thriller-from-former-gta-producer-and-hitman-publisher-gets-release-date"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 59.99,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "mindseye",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "€59.99",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/mindseye-new-thriller-from-former-gta-producer-and-hitman-publisher-gets-release-date"
+          }
+        }
+      ],
+      "summary": "MindsEye, a new thriller from a former GTA producer and Hitman publisher, gets a release date of 10 June 2025 across PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "business/sag-aftra-firms-up-support-for-student-devs-and-game-jam-par",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "SAG-AFTRA introduced new waiver agreements to support student developers and game jam participants in working with union performers during the ongoing video game strike."
+    },
+    {
+      "ref": "business/myst-studio-cyan-worlds-lays-off-half-its-team",
+      "entities": {
+        "games": [
+          {
+            "id": "myst",
+            "name": "Myst",
+            "aliases": [],
+            "genres": ["adventure", "puzzle"],
+            "franchise": "myst",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cyan-worlds",
+            "name": "Cyan Worlds",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Myst studio Cyan Worlds laid off half of its team."
+    },
+    {
+      "ref": "business/uk-national-videogame-museum-appoints-new-trustees",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "nick-poole", "name": "Nick Poole", "aliases": [], "inferred": false },
+          { "id": "john-booth", "name": "John Booth", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The UK National Videogame Museum appointed new trustees, including Ukie chief executive Nick Poole and Sony Interactive Entertainment senior director John Booth."
+    },
+    {
+      "ref": "business/square-enix-to-shut-down-war-of-visions-final-fantasy-brave",
+      "entities": {
+        "games": [
+          {
+            "id": "war-of-visions-final-fantasy-brave-exvius",
+            "name": "War of Visions: Final Fantasy Brave Exvius",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2025-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "war-of-visions-final-fantasy-brave-exvius",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Square Enix to shut down War of Visions: Final Fantasy Brave Exvius in May 2025",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-to-shut-down-war-of-visions-final-fantasy-brave-exvius-in-may-2025"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2020-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "war-of-visions-final-fantasy-brave-exvius",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-31",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Mobile title launched in March 2020",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-to-shut-down-war-of-visions-final-fantasy-brave-exvius-in-may-2025"
+          }
+        }
+      ],
+      "summary": "Square Enix announced it will shut down the mobile title War of Visions: Final Fantasy Brave Exvius in May 2025, citing difficulty maintaining a satisfactory app experience."
+    }
+  ]
+}

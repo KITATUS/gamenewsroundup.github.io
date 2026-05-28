@@ -1,0 +1,174 @@
+{
+  "date": "2024-11-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/red-barrels-partners-with-lionsgate-studios-for-movie-adapta",
+      "entities": {
+        "games": [
+          { "id": "outlast", "name": "Outlast", "aliases": [], "genres": ["survival-horror"], "franchise": "outlast", "inferred": true }
+        ],
+        "studios": [
+          { "id": "red-barrels", "name": "Red Barrels", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "roy-lee", "name": "Roy Lee", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Red Barrels has partnered with Lionsgate Studios on a movie adaptation of its horror series Outlast."
+    },
+    {
+      "ref": "main_news/the-room-studio-fireproof-games-returns-with-spooky-80s-set",
+      "entities": {
+        "games": [
+          { "id": "ghost-town", "name": "Ghost Town", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": false },
+          { "id": "the-room", "name": "The Room", "aliases": [], "genres": ["puzzle"], "franchise": "the-room", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fireproof-games", "name": "Fireproof Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "meta-quest", "name": "Meta Quest", "aliases": ["Quest"], "inferred": false },
+          { "id": "psvr2", "name": "PSVR2", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Fireproof Games, the studio behind The Room, has announced Ghost Town, a spooky 80s-set VR puzzle-adventure."
+    },
+    {
+      "ref": "main_news/pubg-studio-unveils-top-down-pvp-shooter-project-arc-with-re",
+      "entities": {
+        "games": [
+          { "id": "project-arc", "name": "Project ARC", "aliases": ["Project Arc"], "genres": ["shooter"], "franchise": null, "inferred": false },
+          { "id": "pubg", "name": "PUBG", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "The studio behind PUBG has unveiled Project ARC, a top-down PvP shooter featuring real-time shared line of sight."
+    },
+    {
+      "ref": "main_news/the-first-gameplay-footage-of-ghostface-in-mortal-kombat-1-h",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "dlc-expansion"],
+      "facts": [],
+      "summary": "The first gameplay footage of the Scream villain Ghostface in Mortal Kombat 1 has been revealed, with the character due in November."
+    },
+    {
+      "ref": "business/meta-s-ar-vr-reality-labs-division-records-further-losses-of",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "operating_income",
+          "value": 4400000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "meta",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-01",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Reality Labs division records further losses of $4.4 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/metas-arvr-reality-labs-division-records-further-losses-of-44-billion" }
+        },
+        {
+          "metric": "operating_income",
+          "value": 3800000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "meta",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-01",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Reality Labs reporting a loss of $3.8 billion during its first quarter",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/metas-arvr-reality-labs-division-records-further-losses-of-44-billion" }
+        },
+        {
+          "metric": "operating_income",
+          "value": 4500000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "meta",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-01",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "and $4.5 billion in the second",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/metas-arvr-reality-labs-division-records-further-losses-of-44-billion" }
+        },
+        {
+          "metric": "revenue",
+          "value": 270000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "meta",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-01",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Q3 revenue was up 29% to $270 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/metas-arvr-reality-labs-division-records-further-losses-of-44-billion" }
+        }
+      ],
+      "summary": "Meta's AR/VR Reality Labs division recorded a further quarterly operating loss of $4.4 billion."
+    },
+    {
+      "ref": "business/call-of-duty-s-development-structure-won-t-change-under-micr",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Call of Duty's development structure will not change under Microsoft, with 15 Activision studios currently working on the franchise."
+    }
+  ]
+}

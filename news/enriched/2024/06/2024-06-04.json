@@ -1,0 +1,326 @@
+{
+  "date": "2024-06-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-toronto-will-co-develop-prince-of-persia-sands-of-ti",
+      "entities": {
+        "games": [
+          {
+            "id": "prince-of-persia-the-sands-of-time-remake",
+            "name": "Prince of Persia: The Sands of Time Remake",
+            "aliases": ["Prince of Persia: Sands of Time's remake"],
+            "genres": ["action-adventure", "platformer"],
+            "franchise": "prince-of-persia",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ubisoft-toronto",
+            "name": "Ubisoft Toronto",
+            "aliases": [],
+            "publisher": "ubisoft",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "partnership"],
+      "facts": [],
+      "summary": "Ubisoft Toronto will co-develop the remake of Prince of Persia: The Sands of Time."
+    },
+    {
+      "ref": "main_news/live-action-like-a-dragon-series-coming-to-amazon-prime-vide",
+      "entities": {
+        "games": [
+          {
+            "id": "like-a-dragon",
+            "name": "Like A Dragon",
+            "aliases": ["Yakuza"],
+            "genres": ["action-adventure", "rpg"],
+            "franchise": "like-a-dragon",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ryu-ga-gotoku-studio",
+            "name": "Ryu Ga Gotoku Studio",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "amazon-prime-video",
+            "name": "Amazon Prime Video",
+            "aliases": ["Amazon Prime video"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-10-25",
+          "unit": "date",
+          "currency": null,
+          "entity": "like-a-dragon",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-06-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The first three episodes will be released on October 25, 2024",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/live-action-like-a-dragon-series-coming-to-amazon-prime-video"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-11-01",
+          "unit": "date",
+          "currency": null,
+          "entity": "like-a-dragon",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-06-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "followed by the other three on November 1",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/live-action-like-a-dragon-series-coming-to-amazon-prime-video"
+          }
+        }
+      ],
+      "summary": "A live-action Like A Dragon series is coming to Amazon Prime Video, with its first three episodes releasing on 25 October 2024 and the remaining three on 1 November."
+    },
+    {
+      "ref": "main_news/summer-game-fest-largely-focused-on-announced-games-coming-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "geoff-keighley",
+            "name": "Geoff Keighley",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-06-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "summer-game-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-06-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The show will begin on June 7 at 2pm PT / 5pm ET / 10pm GMT",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/summer-game-fest-largely-focused-on-announced-games-coming-this-year/"
+          }
+        }
+      ],
+      "summary": "Geoff Keighley said Summer Game Fest will be largely focused on already-announced games coming this year, with the show beginning on 7 June."
+    },
+    {
+      "ref": "business/content-warning-sells-2-2-million-copies-nets-8-8m-players-i",
+      "entities": {
+        "games": [
+          {
+            "id": "content-warning",
+            "name": "Content Warning",
+            "aliases": [],
+            "genres": ["horror", "survival-horror"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "free-game"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2200000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "content-warning",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-04",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Content Warning sells 2.2 million copies",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/content-warning-sells-2-2-million-copies-nets-8-8m-players-in-two-months"
+          }
+        },
+        {
+          "metric": "players_total",
+          "value": 8800000,
+          "unit": "players",
+          "currency": null,
+          "entity": "content-warning",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-04",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "nets 8.8M players in two months",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/content-warning-sells-2-2-million-copies-nets-8-8m-players-in-two-months"
+          }
+        }
+      ],
+      "summary": "Co-op horror game Content Warning has sold 2.2 million copies and reached 8.8 million players within two months of launch."
+    },
+    {
+      "ref": "business/bloober-team-s-publishing-deal-with-private-division-reporte",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "bloober-team",
+            "name": "Bloober Team",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "private-division",
+            "name": "Private Division",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Bloober Team's publishing deal with Private Division has reportedly been gutted, leaving the studio seeking a new publisher for \"Project C\"."
+    },
+    {
+      "ref": "business/just-cause-maker-avalanche-announces-50-layoffs-and-closure",
+      "entities": {
+        "games": [
+          {
+            "id": "just-cause",
+            "name": "Just Cause",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "just-cause",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "avalanche-studios",
+            "name": "Avalanche Studios",
+            "aliases": ["Avalanche"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 50,
+          "unit": "people",
+          "currency": null,
+          "entity": "avalanche-studios",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-06-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Avalanche announces 50 layoffs and closure of two studios",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/just-cause-maker-avalanche-announces-50-layoffs-and-closure-of-two-studios/"
+          }
+        },
+        {
+          "metric": "studios_affected",
+          "value": 2,
+          "unit": "studios",
+          "currency": null,
+          "entity": "avalanche-studios",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-06-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "50 layoffs and closure of two studios",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/just-cause-maker-avalanche-announces-50-layoffs-and-closure-of-two-studios/"
+          }
+        }
+      ],
+      "summary": "Just Cause maker Avalanche Studios announced 50 layoffs and the closure of two studios, its New York and Montreal offices."
+    }
+  ]
+}

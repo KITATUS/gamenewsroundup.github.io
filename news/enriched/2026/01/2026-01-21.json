@@ -1,0 +1,171 @@
+{
+  "date": "2026-01-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/life-is-strange-reunion-officially-announced-will-conclude-t",
+      "entities": {
+        "games": [
+          { "id": "life-is-strange-reunion", "name": "Life is Strange: Reunion", "aliases": [], "genres": ["adventure"], "franchise": "life-is-strange", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-26", "unit": "date", "currency": null,
+          "entity": "life-is-strange-reunion", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases March 26th for PS5, Xbox Series S/X and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/life-is-strange-reunion-officially-announced-will-conclude-the-max-and-chloe-saga/" } }
+      ],
+      "summary": "Life is Strange: Reunion has been officially announced as the conclusion to the Max and Chloe saga, releasing March 26th for PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-releasing",
+      "entities": {
+        "games": [
+          { "id": "death-stranding-directors-cut", "name": "Death Stranding Director's Cut", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true },
+          { "id": "roadcraft", "name": "RoadCraft", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "ninja-gaiden-ragebound", "name": "Ninja Gaiden Ragebound", "aliases": [], "genres": ["action-adventure"], "franchise": "ninja-gaiden", "inferred": true },
+          { "id": "the-talos-principle-2", "name": "The Talos Principle 2", "aliases": [], "genres": ["puzzle"], "franchise": "the-talos-principle", "inferred": true },
+          { "id": "anno-mutationem", "name": "Anno: Mutationem", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "drop-duchy", "name": "Drop Duchy", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true },
+          { "id": "mysims-cozy-bundle", "name": "MySims: Cozy Bundle", "aliases": [], "genres": ["life-sim"], "franchise": "mysims", "inferred": true },
+          { "id": "warhammer-40000-space-marine-2", "name": "Warhammer 40,000: Space Marine 2", "aliases": [], "genres": ["tps"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "indika", "name": "Indika", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "final-fantasy-2", "name": "Final Fantasy 2", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "shady-part-of-me", "name": "Shady Part of Me", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "cataclismo", "name": "Cataclismo", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true },
+          { "id": "starbound", "name": "Starbound", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true },
+          { "id": "lonely-mountains-snow-riders", "name": "Lonely Mountains Snow Riders", "aliases": [], "genres": ["sports"], "franchise": "lonely-mountains", "inferred": true },
+          { "id": "paw-patrol-world", "name": "Paw Patrol World", "aliases": [], "genres": ["adventure"], "franchise": "paw-patrol", "inferred": true },
+          { "id": "citizen-sleeper-2-starward-vector", "name": "Citizen Sleeper 2 Starward Vector", "aliases": [], "genres": ["rpg"], "franchise": "citizen-sleeper", "inferred": true },
+          { "id": "orcs-must-die-deathtrap", "name": "Orcs Must Die! Deathtrap", "aliases": [], "genres": ["tower-defense"], "franchise": "orcs-must-die", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Xbox Cloud Gaming", "aliases": ["Cloud"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-01-21", "unit": "date", "currency": null,
+          "entity": "death-stranding-directors-cut", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Death Stranding Director's Cut (Cloud, PC and Xbox Series S/X) – 21st January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-01-21", "unit": "date", "currency": null,
+          "entity": "roadcraft", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "RoadCraft (PC) – 21st January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-01-21", "unit": "date", "currency": null,
+          "entity": "ninja-gaiden-ragebound", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ninja Gaiden Ragebound (Cloud, PC, and Xbox Series S/X) – 21st January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-01-27", "unit": "date", "currency": null,
+          "entity": "the-talos-principle-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Talos Principle 2 (PC and Xbox Series S/X) – 27th January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-01-28", "unit": "date", "currency": null,
+          "entity": "anno-mutationem", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Anno: Mutationem (Cloud, PC, and Console) – 28th January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-01-28", "unit": "date", "currency": null,
+          "entity": "drop-duchy", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Drop Duchy (Cloud, PC, and Console) – 28th January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-01-29", "unit": "date", "currency": null,
+          "entity": "mysims-cozy-bundle", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MySims: Cozy Bundle (PC) – 29th January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-01-29", "unit": "date", "currency": null,
+          "entity": "warhammer-40000-space-marine-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Warhammer 40,000: Space Marine 2 (Cloud, PC, and Xbox Series S/X) – 29th January",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-02-02", "unit": "date", "currency": null,
+          "entity": "indika", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Indika (Cloud, PC and Xbox Series S/X) – 2nd February",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } },
+        { "metric": "release_date", "value": "2026-02-03", "unit": "date", "currency": null,
+          "entity": "final-fantasy-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Final Fantasy 2 (Cloud, PC, and Xbox Series S/X) – 3rd February",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-game-pass-titles-revealed-including-space-marine-2-and-death-stranding/" } }
+      ],
+      "summary": "Several new titles are arriving on Xbox Game Pass through late January and early February, including Death Stranding Director's Cut, Warhammer 40,000: Space Marine 2 and Final Fantasy 2, while seven games leave the service on January 31st."
+    },
+    {
+      "ref": "business/doug-bowser-joins-hasbro-s-board-fresh-from-retiring-as-nint",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo of America"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "doug-bowser", "name": "Doug Bowser", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Doug Bowser has joined Hasbro's board of directors shortly after retiring as president of Nintendo of America."
+    },
+    {
+      "ref": "business/scotland-aims-to-boost-games-sector-to-more-than-1bn-by-2030",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Scotland's Scottish Game Action Plan aims to grow the nation's games sector to more than $1bn by 2030, building it into a \"games supercluster\" through a phased approach."
+    },
+    {
+      "ref": "business/tainted-grail-the-fall-of-avalon-has-sold-1-million-copies",
+      "entities": {
+        "games": [
+          { "id": "tainted-grail-the-fall-of-avalon", "name": "Tainted Grail: The Fall of Avalon", "aliases": [], "genres": ["action-rpg"], "franchise": "tainted-grail", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "tainted-grail-the-fall-of-avalon", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-21", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Tainted Grail: The Fall of Avalon has sold 1 million copies",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/1466060/view/198854507981966923?l=english" } }
+      ],
+      "summary": "Tainted Grail: The Fall of Avalon has sold 1 million copies."
+    }
+  ]
+}

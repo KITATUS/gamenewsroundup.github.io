@@ -1,0 +1,134 @@
+{
+  "date": "2025-05-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/giant-bomb-has-been-sold-by-fandom-to-long-time-staff-member",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "giant-bomb", "name": "Giant Bomb", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "fandom", "name": "Fandom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jeff-grubb", "name": "Jeff Grubb", "aliases": [], "inferred": false },
+          { "id": "jeff-bakalar", "name": "Jeff Bakalar", "aliases": [], "inferred": false },
+          { "id": "dan-ryckert", "name": "Dan Ryckert", "aliases": [], "inferred": false },
+          { "id": "mike-minotti", "name": "Mike Minotti", "aliases": [], "inferred": false },
+          { "id": "jan-ochoa", "name": "Jan Ochoa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Giant Bomb has been sold by Fandom to long-time staff members Jeff Grubb, Jeff Bakalar, Dan Ryckert, Mike Minotti and Jan Ochoa, and will continue independently."
+    },
+    {
+      "ref": "main_news/bam-margera-is-officially-returning-to-tony-hawk-s-pro-skate",
+      "entities": {
+        "games": [
+          { "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk's Pro Skater 3 + 4", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "bam-margera", "name": "Bam Margera", "aliases": [], "inferred": false },
+          { "id": "tony-hawk", "name": "Tony Hawk", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Bam Margera is officially returning to Tony Hawk's Pro Skater 3 + 4 as a secret skater after Tony Hawk demanded his inclusion."
+    },
+    {
+      "ref": "main_news/sega-announces-latest-virtua-fighter-is-coming-to-switch-2-p",
+      "entities": {
+        "games": [
+          { "id": "virtua-fighter", "name": "Virtua Fighter", "aliases": [], "genres": ["fighting"], "franchise": "virtua-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Switch 2"], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega announced that the latest Virtua Fighter is coming to Switch 2, PS5, and Xbox."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-celebrates-ninth-anniversary-with-five-nigh",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-by-daylight", "inferred": true },
+          { "id": "five-nights-at-freddys", "name": "Five Nights At Freddy's", "aliases": ["FNAF"], "genres": ["survival-horror"], "franchise": "five-nights-at-freddys", "inferred": true },
+          { "id": "the-witcher", "name": "The Witcher", "aliases": [], "genres": ["action-rpg"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "matthew-lillard", "name": "Matthew Lillard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership", "dlc-expansion"],
+      "facts": [],
+      "summary": "Dead by Daylight celebrates its ninth anniversary with Five Nights At Freddy's and The Witcher collaborations, including Springtrap as the next Killer voiced by Matthew Lillard."
+    },
+    {
+      "ref": "business/200-overwatch-devs-at-activision-blizzard-vote-to-unionise-j",
+      "entities": {
+        "games": [
+          { "id": "overwatch", "name": "Overwatch", "aliases": [], "genres": ["hero-shooter"], "franchise": "overwatch", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision-blizzard", "name": "Activision Blizzard", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "headcount", "value": 200, "unit": "people", "currency": null,
+          "entity": "activision-blizzard", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "200 Overwatch devs at Activision Blizzard vote to unionise",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/200-overwatch-devs-at-activision-blizzard-vote-to-unionise" } }
+      ],
+      "summary": "200 Overwatch developers at Activision Blizzard voted to unionise, joining the Communications Workers of America."
+    },
+    {
+      "ref": "business/sumo-group-announces-leadership-changes-co-founders-step-dow",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "carl-cavers", "name": "Carl Cavers", "aliases": [], "inferred": false },
+          { "id": "paul-porter", "name": "Paul Porter", "aliases": [], "inferred": false },
+          { "id": "darren-mills", "name": "Darren Mills", "aliases": [], "inferred": false },
+          { "id": "gary-dunn", "name": "Gary Dunn", "aliases": [], "inferred": false },
+          { "id": "andy-stewart", "name": "Andy Stewart", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Sumo Group announced leadership changes as co-founders Carl Cavers, Paul Porter and Darren Mills retire, with COO Gary Dunn and CFO Andy Stewart appointed co-CEOs."
+    }
+  ]
+}

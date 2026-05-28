@@ -1,0 +1,226 @@
+{
+  "date": "2024-06-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/anno-117-pax-romana-announced-for-release-in-2025",
+      "entities": {
+        "games": [
+          {
+            "id": "anno-117-pax-romana",
+            "name": "Anno 117: Pax Romana",
+            "aliases": [],
+            "genres": ["strategy", "simulation"],
+            "franchise": "anno",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025",
+          "unit": "date",
+          "currency": null,
+          "entity": "anno-117-pax-romana",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "announced for release in 2025",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/anno-117-pax-romana-announced-for-release-in-2025/"
+          }
+        }
+      ],
+      "summary": "Anno 117: Pax Romana was announced for a 2025 release on PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/ubisoft-s-prince-of-persia-the-sands-of-time-remake-gets-a-2",
+      "entities": {
+        "games": [
+          {
+            "id": "prince-of-persia-the-sands-of-time-remake",
+            "name": "Prince of Persia: The Sands of Time Remake",
+            "aliases": ["Prince of Persia The Sands of Time remake"],
+            "genres": ["action-adventure", "platformer"],
+            "franchise": "prince-of-persia",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "ubisoft-india", "name": "Ubisoft India", "aliases": [], "publisher": "ubisoft", "inferred": true },
+          { "id": "ubisoft-montreal", "name": "Ubisoft Montreal", "aliases": [], "publisher": "ubisoft", "inferred": true },
+          { "id": "ubisoft-toronto", "name": "Ubisoft Toronto", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026",
+          "unit": "date",
+          "currency": null,
+          "entity": "prince-of-persia-the-sands-of-time-remake",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The Sands of Time remake gets a 2026 release window",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisofts-prince-of-persia-the-sands-of-time-remake-gets-a-2026-release-window/"
+          }
+        }
+      ],
+      "summary": "Ubisoft's Prince of Persia: The Sands of Time remake received a 2026 release window, with development moved to Ubisoft Montreal and Ubisoft Toronto."
+    },
+    {
+      "ref": "main_news/xdefiant-season-1-revealed-ahead-of-july-launch",
+      "entities": {
+        "games": [
+          {
+            "id": "xdefiant",
+            "name": "XDefiant",
+            "aliases": [],
+            "genres": ["fps", "hero-shooter"],
+            "franchise": "tom-clancy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date", "update-patch"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-07-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "xdefiant",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The July 2nd season release brings a new faction, GSK from Team Rainbow, plus three free new weapons.",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xdefiant-season-1-revealed-ahead-of-july-launch/"
+          }
+        }
+      ],
+      "summary": "XDefiant Season 1 was revealed ahead of its July 2nd launch, adding the GSK faction from Team Rainbow and three free new weapons."
+    },
+    {
+      "ref": "main_news/more-resident-evil-games-are-coming-to-iphone-ipad-and-mac",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil-7-biohazard",
+            "name": "Resident Evil 7 Biohazard",
+            "aliases": ["Resident Evil 7"],
+            "genres": ["survival-horror", "fps"],
+            "franchise": "resident-evil",
+            "inferred": true
+          },
+          {
+            "id": "resident-evil-2",
+            "name": "Resident Evil 2",
+            "aliases": [],
+            "genres": ["survival-horror", "action-adventure"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "iphone", "name": "iPhone", "aliases": [], "inferred": false },
+          { "id": "ipad", "name": "iPad", "aliases": [], "inferred": false },
+          { "id": "mac", "name": "Mac", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-07-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "resident-evil-7-biohazard",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Resident Evil 7 Biohazard will be available via the App Store from July 2, 2024",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/more-resident-evil-games-are-coming-to-iphone-ipad-and-mac/"
+          }
+        }
+      ],
+      "summary": "More Resident Evil games are coming to iPhone, iPad and Mac, with Resident Evil 7 Biohazard arriving on the App Store on July 2, 2024 and Resident Evil 2 in development for the same platforms."
+    },
+    {
+      "ref": "business/i-think-we-should-have-a-handheld-too-says-xbox-boss-phil-sp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Xbox boss Phil Spencer said he thinks Xbox should have a handheld too."
+    }
+  ]
+}

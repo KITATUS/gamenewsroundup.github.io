@@ -1,0 +1,237 @@
+{
+  "date": "2024-10-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/lucasarts-artist-ti-ning-kwa-has-passed-away",
+      "entities": {
+        "games": [
+          { "id": "the-sims", "name": "The Sims", "aliases": ["The Sims sequels"], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "tribes-2", "name": "Tribes 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "tribes", "inferred": true }
+        ],
+        "studios": [
+          { "id": "lucasarts", "name": "LucasArts", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ti-ning-kwa", "name": "Ti-Ning Kwa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "LucasArts artist Ti-Ning Kwa, who provided art and model work for The Sims sequels and Tribes 2 before moving into luxury eyewear, has passed away."
+    },
+    {
+      "ref": "main_news/saber-interactive-teams-with-paramount-to-develop-triple-a-a",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "paramount", "name": "Paramount", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Saber Interactive is teaming with Paramount to develop a triple-A game based on Nickelodeon's Avatar."
+    },
+    {
+      "ref": "main_news/fallout-series-reaches-100m-viewers-worldwide",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "viewers", "value": 100000000, "unit": "viewers", "currency": null,
+          "entity": "fallout", "entity_type": "product", "scope": "franchise",
+          "as_of": "2024-10-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Fallout series reaches 100m viewers worldwide",
+          "source": { "name": "X", "domain": "x.com",
+                      "url": "https://x.com/falloutonprime/status/1841579635647381864" } }
+      ],
+      "summary": "The Fallout TV series has reached 100 million viewers worldwide."
+    },
+    {
+      "ref": "main_news/sims-4-gets-embalming-grim-reaping-reincarnation-and-naked-m",
+      "entities": {
+        "games": [
+          { "id": "the-sims-4", "name": "The Sims 4", "aliases": ["Sims 4"], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-31", "unit": "date", "currency": null,
+          "entity": "the-sims-4", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Arrives October 31st",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/sims-4-gets-embalming-grim-reaping-reincarnation-and-naked-moon-rituals-in-new-life-death-expansion" } }
+      ],
+      "summary": "The Sims 4 is getting a new Life & Death expansion featuring embalming, grim reaping, reincarnation and moon rituals, arriving October 31st."
+    },
+    {
+      "ref": "main_news/foamstars-is-now-free-to-play",
+      "entities": {
+        "games": [
+          { "id": "foamstars", "name": "Foamstars", "aliases": [], "genres": ["shooter", "hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PlayStation Store"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Foamstars is now free-to-play."
+    },
+    {
+      "ref": "main_news/riot-teases-new-playable-experiences-in-the-valorant-univers",
+      "entities": {
+        "games": [
+          { "id": "valorant", "name": "Valorant", "aliases": [], "genres": ["fps", "hero-shooter", "shooter"], "franchise": "valorant", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        { "metric": "players_total", "value": 35000000, "unit": "players", "currency": null,
+          "entity": "valorant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Valorant, which has 35 million players per month",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/riot-teases-new-playable-experiences-in-the-valorant-universe/" } }
+      ],
+      "summary": "Riot is teasing new playable experiences set in the Valorant universe, with Valorant moving to Unreal Engine 5."
+    },
+    {
+      "ref": "business/hi-rez-studios-lays-off-staff-to-ensure-smite-2-s-long-term",
+      "entities": {
+        "games": [
+          { "id": "smite-2", "name": "Smite 2", "aliases": [], "genres": ["moba"], "franchise": "smite", "inferred": true },
+          { "id": "paladins", "name": "Paladins", "aliases": [], "genres": ["hero-shooter", "fps", "shooter"], "franchise": "paladins", "inferred": true },
+          { "id": "smite", "name": "Smite", "aliases": [], "genres": ["moba"], "franchise": "smite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hi-rez-studios", "name": "Hi-Rez Studios", "aliases": ["Hi-Rez"], "publisher": null, "inferred": false },
+          { "id": "evil-mojo", "name": "Evil Mojo", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "titan-forge", "name": "Titan Forge", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Hi-Rez Studios has laid off staff across the company and subsidiaries Evil Mojo, G&A and Titan Forge to focus resources on Smite 2's development."
+    },
+    {
+      "ref": "business/french-publisher-rivrs-raises-4m-to-professionalise-and-indu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "rivrs", "name": "RIVRS", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "romain-hubert", "name": "Romain Hubert", "aliases": [], "inferred": false },
+          { "id": "loic-deffains", "name": "Loïc Deffains", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 4000000, "unit": "money", "currency": "EUR",
+          "entity": "rivrs", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "French publisher **RIVRS** raises €4m",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/french-publisher-rivrs-raises-4m-to-professionalise-and-industrialise-ugc" } },
+        { "metric": "revenue", "value": 500000, "unit": "money", "currency": "EUR",
+          "entity": "rivrs", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-04", "period": null, "direction": null, "confidence": "medium",
+          "quote": "reaching revenues of \"nearly €500K for a single title\"",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/french-publisher-rivrs-raises-4m-to-professionalise-and-industrialise-ugc" } }
+      ],
+      "summary": "French publisher RIVRS has raised €4m to professionalise and industrialise user-generated content."
+    },
+    {
+      "ref": "business/antstream-arcade-makes-small-number-of-layoffs",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "antstream-arcade", "name": "Antstream Arcade", "aliases": ["Antstream"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Retro game streaming firm Antstream Arcade has made a small number of layoffs, attributing the cuts to a strategic shift in focus."
+    },
+    {
+      "ref": "business/mario-rabbids-director-and-red-dead-redemption-lead-designer",
+      "entities": {
+        "games": [
+          { "id": "mario-rabbids", "name": "Mario + Rabbids", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": "mario", "inferred": true },
+          { "id": "red-dead-redemption", "name": "Red Dead Redemption", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "red-dead", "inferred": true }
+        ],
+        "studios": [
+          { "id": "day-4-night", "name": "Day 4 Night", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "ed-fries", "name": "Ed Fries", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "The Mario + Rabbids director and Red Dead Redemption lead designer have founded a new studio, Day 4 Night, with its first new IP financed by Ed Fries' 1Up Ventures and publisher Krafton."
+    },
+    {
+      "ref": "business/xbox-co-founder-j-allard-has-joined-amazon",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "j-allard", "name": "J Allard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Xbox co-founder J Allard has joined Amazon as Vice President of Product on the device and services team, working on new ideas."
+    }
+  ]
+}

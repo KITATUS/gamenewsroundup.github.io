@@ -1,0 +1,121 @@
+{
+  "date": "2025-03-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "free_games_subscription/games-leaving-xbox-game-pass-march-15",
+      "entities": {
+        "games": [
+          { "id": "evil-west", "name": "Evil West", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "lies-of-p", "name": "Lies of P", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "yakuza-5-remastered", "name": "Yakuza 5 Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-6-the-song-of-life", "name": "Yakuza 6: The Song of Life", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "no-more-heroes-3", "name": "No More Heroes 3", "aliases": [], "genres": ["action-adventure"], "franchise": "no-more-heroes", "inferred": true },
+          { "id": "spongebob-squarepants-battle-for-bikini-bottom", "name": "SpongeBob SquarePants: Battle for Bikini Bottom", "aliases": ["SpongBob SquarePants: Battle for Bikini Bottom"], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "mlb-the-show-24", "name": "MLB The Show 24", "aliases": [], "genres": ["sports"], "franchise": "mlb-the-show", "inferred": true },
+          { "id": "solar-ash", "name": "Solar Ash", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [],
+      "summary": "Eight titles including Evil West, Lies of P and MLB The Show 24 are scheduled to leave Xbox Game Pass on March 15."
+    },
+    {
+      "ref": "business/pok-mon-tcg-pocket-has-passed-100-million-downloads",
+      "entities": {
+        "games": [
+          { "id": "pokemon-tcg-pocket", "name": "Pokémon TCG Pocket", "aliases": [], "genres": ["card"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "downloads",
+          "value": 100000000,
+          "unit": "downloads",
+          "currency": null,
+          "entity": "pokemon-tcg-pocket",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Pokémon TCG Pocket has passed 100 million downloads",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/pokemon-tcg-pocket-has-passed-100-million-downloads/"
+          }
+        }
+      ],
+      "summary": "Pokémon TCG Pocket has passed 100 million downloads."
+    },
+    {
+      "ref": "business/monster-hunter-wilds-hits-nearly-1-million-concurrent-steam",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "peak_concurrent_players",
+          "value": 1000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "monster-hunter-wilds",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "hits nearly 1 million concurrent Steam players",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/monster-hunter-wilds-hits-nearly-1-million-concurrent-steam-players-despite-mixed-reviews-on-performance/"
+          }
+        }
+      ],
+      "summary": "Monster Hunter Wilds hit nearly 1 million concurrent players on Steam despite mixed reviews on its performance."
+    },
+    {
+      "ref": "business/warner-bros-games-revenue-dropped-29-during-q4-2024",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": ["Warner Bros"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Warner Bros. games revenue dropped 29% during Q4 2024, with the firm telling shareholders it expects to return its games division to profit in 2025."
+    }
+  ]
+}

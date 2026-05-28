@@ -1,0 +1,147 @@
+{
+  "date": "2025-07-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/john-wick-hex-is-being-delisted-removed-from-sale-on-july-17",
+      "entities": {
+        "games": [
+          { "id": "john-wick-hex", "name": "John Wick Hex", "aliases": [], "genres": ["strategy"], "franchise": "john-wick", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-07-17", "unit": "date", "currency": null,
+          "entity": "john-wick-hex", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "July 17th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/youve-got-less-than-a-week-to-buy-this-john-wick-game-before-its-delisted/" } }
+      ],
+      "summary": "John Wick Hex is being delisted and removed from sale on 17 July 2025."
+    },
+    {
+      "ref": "main_news/tony-hawk-s-pro-skater-3-4-dev-says-it-s-removing-a-cheeky-g",
+      "entities": {
+        "games": [
+          { "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk’s Pro Skater 3 + 4", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true },
+          { "id": "guitar-hero-world-tour", "name": "Guitar Hero World Tour", "aliases": [], "genres": ["rhythm"], "franchise": "guitar-hero", "inferred": true }
+        ],
+        "studios": [
+          { "id": "neversoft", "name": "Neversoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The developer of Tony Hawk’s Pro Skater 3 + 4 says it is removing a Guitar Hero reference and investigating how it ended up in the game."
+    },
+    {
+      "ref": "main_news/free-to-play-moba-predecessor-follows-fortnite-with-return-t",
+      "entities": {
+        "games": [
+          { "id": "predecessor", "name": "Predecessor", "aliases": [], "genres": ["moba"], "franchise": null, "inferred": false },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": "fortnite", "inferred": true },
+          { "id": "paragon", "name": "Paragon", "aliases": [], "genres": ["moba"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Free-to-play MOBA Predecessor follows Fortnite in bringing back the original Paragon map Agora."
+    },
+    {
+      "ref": "main_news/cyberpunk-2077-s-delayed-2-3-update-is-being-revealed-today",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "reveal"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-07-16", "unit": "date", "currency": null,
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "is being revealed today",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/cyberpunk-2077s-23-update-is-being-revealed-this-week-and-its-probably-got-something-to-do-with-cars" } }
+      ],
+      "summary": "Cyberpunk 2077's delayed 2.3 update is being revealed today."
+    },
+    {
+      "ref": "main_news/uma-musume-pretty-derby-players-are-sending-massive-amounts",
+      "entities": {
+        "games": [
+          { "id": "uma-musume-pretty-derby", "name": "Uma Musume: Pretty Derby", "aliases": ["Uma Musame: Pretty Derby"], "genres": ["simulation"], "franchise": "uma-musume", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Uma Musume: Pretty Derby players are sending large amounts of ryegrass to Haru Urara, the retired Japanese race horse behind a fan-favourite in-game character."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-july",
+      "entities": {
+        "games": [
+          { "id": "high-on-life", "name": "High On Life", "aliases": [], "genres": ["fps", "adventure"], "franchise": null, "inferred": true },
+          { "id": "robocop-rogue-city", "name": "RoboCop: Rogue City", "aliases": [], "genres": ["fps"], "franchise": "robocop", "inferred": true },
+          { "id": "my-friendly-neighborhood", "name": "My Friendly Neighborhood", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true },
+          { "id": "back-to-the-dawn", "name": "Back to the Dawn", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "abiotic-factor", "name": "Abiotic Factor", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "wheel-world", "name": "Wheel World", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "wuchang-fallen-feathers", "name": "Wuchang: Fallen Feathers", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "grounded-2", "name": "Grounded 2", "aliases": [], "genres": ["survival"], "franchise": "grounded", "inferred": true },
+          { "id": "farming-simulator-25", "name": "Farming Simulator 25", "aliases": [], "genres": ["simulation"], "franchise": "farming-simulator", "inferred": true },
+          { "id": "gigantic", "name": "Gigantic", "aliases": [], "genres": ["hero-shooter", "moba"], "franchise": null, "inferred": true },
+          { "id": "kunitsu-gami-path-of-the-goddess", "name": "Kunitsu-Gami: Path of the Goddess", "aliases": [], "genres": ["action-adventure", "strategy"], "franchise": null, "inferred": true },
+          { "id": "turnip-boy-robs-a-bank", "name": "Turnip Boy Robs a Bank", "aliases": [], "genres": ["action-adventure"], "franchise": "turnip-boy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Xbox Game Pass lists its arriving and leaving titles for July 2025."
+    },
+    {
+      "ref": "business/epic-games-confirms-legal-action-against-fortnite-cheat-sell",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Epic Games confirms legal action against a Fortnite cheat seller and a DDoS cyber attacker."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2024-11-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/new-sonic-the-hedgehog-3-trailer-features-beloved-chao-garde",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "keanu-reeves", "name": "Keanu Reeves", "aliases": ["Keanu"], "inferred": true }
+        ]
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "A new Sonic the Hedgehog 3 trailer features the Chao Garden and Keanu Reeves voicing Shadow."
+    },
+    {
+      "ref": "main_news/2k-has-removed-its-launcher-from-all-pc-games",
+      "entities": {
+        "games": [
+          { "id": "bioshock", "name": "BioShock", "aliases": [], "genres": ["fps"], "franchise": "bioshock", "inferred": true },
+          { "id": "mafia", "name": "Mafia", "aliases": [], "genres": ["action-adventure"], "franchise": "mafia", "inferred": true },
+          { "id": "civilization", "name": "Civilization", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "civilization", "inferred": true },
+          { "id": "sid-meiers-civilization-v", "name": "Sid Meier's Civilization V", "aliases": ["Civilization V"], "genres": ["turn-based-strategy"], "franchise": "civilization", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": ["2K Games"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "2K has shut down its PC games launcher and removed it from all of its games, including the separate 2K Launcher Beta on Sid Meier's Civilization V."
+    },
+    {
+      "ref": "main_news/io-pulls-hitman-content-featuring-conor-mcgregor-following-c",
+      "entities": {
+        "games": [
+          { "id": "hitman-world-of-assassination", "name": "Hitman World of Assassination", "aliases": ["Hitman"], "genres": ["stealth", "action-adventure"], "franchise": "hitman", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": ["IO"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "conor-mcgregor", "name": "Conor McGregor", "aliases": ["McGregor"], "inferred": false },
+          { "id": "nikita-hand", "name": "Nikita Hand", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["delisting", "lawsuit-legal"],
+      "facts": [
+        {
+          "metric": "event_date", "value": "2024-11-15", "unit": "date", "currency": null,
+          "entity": "hitman-world-of-assassination", "entity_type": "game", "scope": "event",
+          "as_of": "2024-11-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "due to be available from November 15 until December 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/io-pulls-hitman-content-featuring-conor-mcgregor-following-court-ruling/" }
+        },
+        {
+          "metric": "event_date", "value": "2024-12-08", "unit": "date", "currency": null,
+          "entity": "hitman-world-of-assassination", "entity_type": "game", "scope": "event",
+          "as_of": "2024-11-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "due to be available from November 15 until December 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/io-pulls-hitman-content-featuring-conor-mcgregor-following-court-ruling/" }
+        }
+      ],
+      "summary": "IO Interactive has pulled the Conor McGregor-featuring Elusive Target mission from Hitman World of Assassination following a court ruling against McGregor."
+    }
+  ]
+}

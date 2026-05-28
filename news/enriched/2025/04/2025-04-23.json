@@ -1,0 +1,208 @@
+{
+  "date": "2025-04-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-elder-scrolls-iv-oblivion-remastered-is-available-now-fo",
+      "entities": {
+        "games": [
+          { "id": "the-elder-scrolls-iv-oblivion", "name": "The Elder Scrolls IV: Oblivion Remastered", "aliases": ["The Elder Scrolls IV: Oblivion Remastered"], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "remaster-remake"],
+      "facts": [],
+      "summary": "The Elder Scrolls IV: Oblivion Remastered is available now for Xbox, PC, PS5 and Game Pass."
+    },
+    {
+      "ref": "main_news/an-out-run-movie-is-being-made-by-michael-bay-and-sydney-swe",
+      "entities": {
+        "games": [
+          { "id": "out-run", "name": "Out Run", "aliases": [], "genres": ["racing"], "franchise": "out-run", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "michael-bay", "name": "Michael Bay", "aliases": [], "inferred": false },
+          { "id": "sydney-sweeney", "name": "Sydney Sweeney", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "An Out Run movie is being made by Michael Bay and Sydney Sweeney."
+    },
+    {
+      "ref": "main_news/fortnite-is-getting-its-first-full-star-wars-season-next-mon",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Fortnite is getting its first full Star Wars season next month, featuring Darth Jar Jar."
+    },
+    {
+      "ref": "main_news/steve-s-lava-chicken-song-from-a-minecraft-movie-goes-viral",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": ["A Minecraft Movie"], "genres": ["survival", "sandbox"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Steve's Lava Chicken song from A Minecraft Movie has gone viral and entered the UK chart."
+    },
+    {
+      "ref": "business/devolver-digital-reveals-which-ips-and-platform-have-made-th",
+      "entities": {
+        "games": [
+          { "id": "cult-of-the-lamb", "name": "Cult of the Lamb", "aliases": [], "genres": ["action-adventure", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "astroneer", "name": "Astroneer", "aliases": [], "genres": ["survival", "sandbox"], "franchise": "astroneer", "inferred": true },
+          { "id": "stronghold", "name": "Stronghold", "aliases": [], "genres": ["strategy", "rts"], "franchise": "stronghold", "inferred": true },
+          { "id": "serious-sam", "name": "Serious Sam", "aliases": [], "genres": ["fps", "shooter"], "franchise": "serious-sam", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": ["Devolver"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 90000000, "unit": "money", "currency": "USD",
+          "entity": "cult-of-the-lamb", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-23", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Cult of the Lamb is the publisher’s most successful IP, with total lifetime revenue of more than $90 million.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/devolver-digital-reveals-which-ips-and-platform-have-made-the-most-money-as-it-shares-its-future-strategy/" } },
+        { "metric": "revenue", "value": 80000000, "unit": "money", "currency": "USD",
+          "entity": "astroneer", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Astroneer ($80 million)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/devolver-digital-reveals-which-ips-and-platform-have-made-the-most-money-as-it-shares-its-future-strategy/" } },
+        { "metric": "revenue", "value": 50000000, "unit": "money", "currency": "USD",
+          "entity": "stronghold", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-04-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Stronghold ($50 million across 9 games)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/devolver-digital-reveals-which-ips-and-platform-have-made-the-most-money-as-it-shares-its-future-strategy/" } },
+        { "metric": "revenue", "value": 45000000, "unit": "money", "currency": "USD",
+          "entity": "serious-sam", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-04-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Serious Sam ($45 million across 11 games)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/devolver-digital-reveals-which-ips-and-platform-have-made-the-most-money-as-it-shares-its-future-strategy/" } }
+      ],
+      "summary": "Devolver Digital revealed which of its IPs and platform have earned the most money as it shared its future strategy, with Cult of the Lamb its most successful IP."
+    },
+    {
+      "ref": "business/square-enix-capcom-taito-and-sega-commit-to-archiving-past-d",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false },
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false },
+          { "id": "taito", "name": "Taito", "aliases": [], "inferred": false },
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Square Enix, Capcom, Taito and Sega have committed to archiving past development materials."
+    },
+    {
+      "ref": "business/applovin-cuts-another-97-jobs-including-ceo-of-subsidiary-st",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "machine-zone", "name": "Machine Zone", "aliases": [], "publisher": "applovin", "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "leadership-change"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 97, "unit": "people", "currency": null,
+          "entity": "applovin", "entity_type": "company", "scope": "company",
+          "as_of": "2025-04-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "AppLovin cuts another 97 jobs",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/applovin-cuts-another-97-jobs-including-ceo-of-subsidiary-studio-machine-zone" } },
+        { "metric": "layoffs_count", "value": 120, "unit": "people", "currency": null,
+          "entity": "applovin", "entity_type": "company", "scope": "company",
+          "as_of": "2025-04-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "120 jobs were impacted in November",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/applovin-cuts-another-97-jobs-including-ceo-of-subsidiary-studio-machine-zone" } },
+        { "metric": "layoffs_count", "value": 126, "unit": "people", "currency": null,
+          "entity": "applovin", "entity_type": "company", "scope": "company",
+          "as_of": "2025-04-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "126 in October",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/applovin-cuts-another-97-jobs-including-ceo-of-subsidiary-studio-machine-zone" } }
+      ],
+      "summary": "AppLovin cut another 97 jobs, including the CEO of its subsidiary studio Machine Zone."
+    },
+    {
+      "ref": "business/dwarf-fortress-hits-1-million-sales-on-steam",
+      "entities": {
+        "games": [
+          { "id": "dwarf-fortress", "name": "Dwarf Fortress", "aliases": [], "genres": ["simulation", "roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "dwarf-fortress", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dwarf Fortress hits 1 million sales on Steam",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/kitfoxgames.com/post/3lmugs3oe6m2t" } }
+      ],
+      "summary": "Dwarf Fortress has hit 1 million sales on Steam."
+    },
+    {
+      "ref": "business/devolver-cuts-40-percent-of-workforce-at-reigns-developer-ne",
+      "entities": {
+        "games": [
+          { "id": "reigns", "name": "Reigns", "aliases": [], "genres": ["card", "strategy"], "franchise": "reigns", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nerial", "name": "Nerial", "aliases": [], "publisher": "devolver-digital", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "devolver-digital", "name": "Devolver", "aliases": ["Devolver"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Devolver cut 40 percent of the workforce at Reigns developer Nerial."
+    }
+  ]
+}

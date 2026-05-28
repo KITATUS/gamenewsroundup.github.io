@@ -1,0 +1,186 @@
+{
+  "date": "2025-06-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/drag-x-drive-release-date-confirmed-for-nintendo-switch-2-au",
+      "entities": {
+        "games": [
+          { "id": "drag-x-drive", "name": "Drag x Drive", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-14", "unit": "date", "currency": null,
+          "entity": "drag-x-drive", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Drag x Drive release date confirmed for Nintendo Switch 2 - August 14",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/drag-x-drive-release-date-confirmed-for-nintendo-switch-2/" } }
+      ],
+      "summary": "Drag x Drive has had its Nintendo Switch 2 release date confirmed for August 14, 2025."
+    },
+    {
+      "ref": "main_news/xbox-s-surprise-meta-quest-3s-vr-headset-is-out-now-but-supp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true },
+          { "id": "meta", "name": "Meta", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "meta-quest-3s", "name": "Meta Quest 3S", "aliases": ["Meta Quest 3S VR"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "hardware"],
+      "facts": [
+        { "metric": "price", "value": 400, "unit": "price", "currency": "USD",
+          "entity": "meta-quest-3s", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-06-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Available from today for $400 / £380",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xboxs-surprise-meta-quest-3s-vr-headset-is-out-now-but-supply-is-extremely-limited/" } },
+        { "metric": "price", "value": 380, "unit": "price", "currency": "GBP",
+          "entity": "meta-quest-3s", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-06-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Available from today for $400 / £380",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xboxs-surprise-meta-quest-3s-vr-headset-is-out-now-but-supply-is-extremely-limited/" } }
+      ],
+      "summary": "Xbox's branded Meta Quest 3S VR headset launched with extremely limited supply, priced at $400 / £380."
+    },
+    {
+      "ref": "main_news/the-uk-leg-of-the-death-stranding-world-tour-takes-place-nex",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The UK leg of the Death Stranding world tour takes place next week, with tickets on sale now."
+    },
+    {
+      "ref": "main_news/bitsummit-japan-s-leading-indie-game-expo-reveals-its-full-l",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "BitSummit, Japan's leading indie game expo, revealed its full line-up of 120 playable indie games for this year's show."
+    },
+    {
+      "ref": "main_news/little-nightmares-3-release-date-announced-october-10-2025",
+      "entities": {
+        "games": [
+          { "id": "little-nightmares-3", "name": "Little Nightmares 3", "aliases": [], "genres": ["horror", "adventure"], "franchise": "little-nightmares", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-10", "unit": "date", "currency": null,
+          "entity": "little-nightmares-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Little Nightmares 3 Release Date Announced - October 10, 2025",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com",
+            "url": "https://insider-gaming.com/little-nightmares-3-release-date-announced/" } }
+      ],
+      "summary": "Little Nightmares 3 has had its release date announced for October 10, 2025."
+    },
+    {
+      "ref": "main_news/jurassic-world-evolution-3-is-ditching-its-ai-generated-art",
+      "entities": {
+        "games": [
+          { "id": "jurassic-world-evolution-3", "name": "Jurassic World Evolution 3", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "jurassic-world-evolution", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Jurassic World Evolution 3 is ditching its AI-generated art after some initial feedback."
+    },
+    {
+      "ref": "main_news/update-patch-approved-limited-run-games-requests-nintendo-te",
+      "entities": {
+        "games": [
+          { "id": "gex-trilogy", "name": "Gex Trilogy", "aliases": [], "genres": ["platformer"], "franchise": "gex", "inferred": true }
+        ],
+        "studios": [
+          { "id": "limited-run-games", "name": "Limited Run Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "update-patch"],
+      "facts": [],
+      "summary": "Limited Run Games requested Nintendo temporarily pull Gex Trilogy from the Switch 2 eShop following compatibility issues, with a patch since approved."
+    },
+    {
+      "ref": "business/clair-obscur-expedition-33-back-in-top-10-for-revenue-a-mont",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "chart_rank", "value": 10, "unit": "rank", "currency": null,
+          "entity": "clair-obscur-expedition-33", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Clair Obscur: Expedition 33 back in Top 10 for revenue a month after release",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/clair-obscur-expedition-33-back-in-top-10-for-revenue-a-month-after-release-newzoo-charts" } }
+      ],
+      "summary": "Clair Obscur: Expedition 33 returned to the Top 10 for revenue a month after its release."
+    },
+    {
+      "ref": "rumours/rumor-xbox-is-reportedly-planning-another-round-of-major-lay",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Xbox is planning another round of major layoffs next week as part of a company-wide reorganisation."
+    }
+  ]
+}

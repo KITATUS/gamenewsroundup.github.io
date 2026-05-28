@@ -1,0 +1,137 @@
+{
+  "date": "2024-08-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dead-cells-receives-its-final-major-update-today-seven-years",
+      "entities": {
+        "games": [
+          { "id": "dead-cells", "name": "Dead Cells", "aliases": [], "genres": ["roguelike", "metroidvania", "action"], "franchise": null, "inferred": true },
+          { "id": "tenjutsu", "name": "Tenjutsu", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "motion-twin", "name": "Motion Twin", "aliases": [], "publisher": null, "inferred": true },
+          { "id": "evil-empire", "name": "Evil Empire", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "sebastien-benard", "name": "Sébastien Benard", "aliases": ["Benard"], "inferred": false }
+        ]
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Dead Cells received its final major update, \"The End is Near\", seven years after release."
+    },
+    {
+      "ref": "main_news/final-fantasy-16-gets-a-september-release-date-for-pc",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-16", "name": "Final Fantasy 16", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port", "beta-demo"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-17", "unit": "date", "currency": null,
+          "entity": "final-fantasy-16", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "it will make the jump to PC on September 17, 2024",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/final-fantasy-16-gets-a-september-release-date-for-pc/" } },
+        { "metric": "price", "value": 49.99, "unit": "price", "currency": "USD",
+          "entity": "final-fantasy-16", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "with the base game priced at $49.99 / £44.99 via Steam and the Epic Games Store",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/final-fantasy-16-gets-a-september-release-date-for-pc/" } },
+        { "metric": "price", "value": 44.99, "unit": "price", "currency": "GBP",
+          "entity": "final-fantasy-16", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "with the base game priced at $49.99 / £44.99 via Steam and the Epic Games Store",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/final-fantasy-16-gets-a-september-release-date-for-pc/" } },
+        { "metric": "price", "value": 69.99, "unit": "price", "currency": "USD",
+          "entity": "final-fantasy-16", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Final Fantasy 16 Complete Edition, which includes the base game plus its story expansions Echoes of the Fallen and The Rising Tide, is priced at $69.99 / £64.99.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/final-fantasy-16-gets-a-september-release-date-for-pc/" } },
+        { "metric": "price", "value": 64.99, "unit": "price", "currency": "GBP",
+          "entity": "final-fantasy-16", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Final Fantasy 16 Complete Edition, which includes the base game plus its story expansions Echoes of the Fallen and The Rising Tide, is priced at $69.99 / £64.99.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/final-fantasy-16-gets-a-september-release-date-for-pc/" } }
+      ],
+      "summary": "Final Fantasy 16 will release on PC on 17 September 2024, with a free demo available and base and Complete Edition pricing announced."
+    },
+    {
+      "ref": "main_news/funko-fusion-gets-a-pc-demo-and-mega-man-reveal-trailer",
+      "entities": {
+        "games": [
+          { "id": "funko-fusion", "name": "Funko Fusion", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "trailer", "reveal", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-13", "unit": "date", "currency": null,
+          "entity": "funko-fusion", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will be released on September 13 for PS5, Xbox Series S/X and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/funko-fusion-gets-a-pc-demo-and-mega-man-reveal-trailer/" } },
+        { "metric": "release_date", "value": "2024-11-15", "unit": "date", "currency": null,
+          "entity": "funko-fusion", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "and on November 15 for PS4 and Nintendo Switch.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/funko-fusion-gets-a-pc-demo-and-mega-man-reveal-trailer/" } }
+      ],
+      "summary": "Funko Fusion received a free PC demo and a Mega Man reveal trailer, ahead of its 13 September 2024 launch on PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/gamescom-opening-night-live-today",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Gamescom Opening Night Live takes place today, 20 August 2024."
+    },
+    {
+      "ref": "business/climax-opens-new-studio-in-scotland",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "climax-studios", "name": "Climax Studios", "aliases": ["Climax"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Climax Studios has opened a new studio location in Edinburgh, Scotland."
+    }
+  ]
+}

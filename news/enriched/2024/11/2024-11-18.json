@@ -1,0 +1,159 @@
+{
+  "date": "2024-11-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/final-fantasy-7-remake-part-3-s-plot-is-complete-as-the-game",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-remake-part-3", "name": "Final Fantasy 7 Remake Part 3", "aliases": ["Final Fantasy 7 remake part 3"], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The plot of Final Fantasy 7 Remake Part 3 is reportedly complete as the game enters full production."
+    },
+    {
+      "ref": "main_news/the-game-awards-confirms-that-dlc-remakes-and-remasters-will",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-shadow-of-the-erdtree", "name": "Elden Ring: Shadow of the Erdtree", "aliases": ["Elden Ring: Shadow of the Erdtree"], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Game Awards confirmed that DLC, remakes and remasters are eligible for Game of the Year, with Elden Ring: Shadow of the Erdtree cited as eligible."
+    },
+    {
+      "ref": "main_news/apex-legends-considering-fortnite-like-monthly-subscription",
+      "entities": {
+        "games": [
+          { "id": "apex-legends", "name": "Apex Legends", "aliases": [], "genres": ["battle-royale", "hero-shooter", "fps"], "franchise": "apex-legends", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "tps"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Apex Legends is reportedly considering a Fortnite-like monthly subscription service, with a player survey appearing to test the idea."
+    },
+    {
+      "ref": "main_news/ubisoft-s-splinter-cell-movie-cancelled",
+      "entities": {
+        "games": [
+          { "id": "splinter-cell", "name": "Splinter Cell", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "splinter-cell", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "tom-hardy", "name": "Tom Hardy", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "announce_date", "value": "2012", "unit": "date", "currency": null,
+          "entity": "splinter-cell", "entity_type": "product", "scope": "product",
+          "as_of": "2024-11-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "in production limbo since it was announced in 2012",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisofts-splinter-cell-movie-cancelled" } }
+      ],
+      "summary": "Ubisoft's long-stalled Splinter Cell movie, announced in 2012, has been cancelled."
+    },
+    {
+      "ref": "main_news/half-life-2-s-20th-anniversary-documentary-shows-off-unseen",
+      "entities": {
+        "games": [
+          { "id": "half-life-2", "name": "Half-Life 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "half-life", "inferred": true }
+        ],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "Half-Life 2's 20th anniversary documentary shows off previously unseen Episode 3 footage for the first time."
+    },
+    {
+      "ref": "main_news/patapon-spiritual-sequel-ratatan-gets-new-trailer-confirming",
+      "entities": {
+        "games": [
+          { "id": "ratatan", "name": "Ratatan", "aliases": [], "genres": ["rhythm", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "patapon", "name": "Patapon", "aliases": [], "genres": ["rhythm"], "franchise": "patapon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PS4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        { "metric": "funding_raised", "value": 20000000, "unit": "currency", "currency": "JPY",
+          "entity": "ratatan", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "hit its ¥20 million ($137,000 / £108,000) funding goal within an hour of its launch",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/patapon-spiritual-sequel-ratatan-gets-new-trailer-confirming-platforms/" } },
+        { "metric": "funding_raised", "value": 137000, "unit": "currency", "currency": "USD",
+          "entity": "ratatan", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "hit its ¥20 million ($137,000 / £108,000) funding goal within an hour of its launch",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/patapon-spiritual-sequel-ratatan-gets-new-trailer-confirming-platforms/" } },
+        { "metric": "funding_raised", "value": 108000, "unit": "currency", "currency": "GBP",
+          "entity": "ratatan", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "hit its ¥20 million ($137,000 / £108,000) funding goal within an hour of its launch",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/patapon-spiritual-sequel-ratatan-gets-new-trailer-confirming-platforms/" } }
+      ],
+      "summary": "Patapon spiritual sequel Ratatan received a new trailer confirming a launch on PS4/5, Xbox Series S/X, Switch and PC next year."
+    },
+    {
+      "ref": "business/steamworld-creator-thunderful-announces-80-100-more-layoffs",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "thunderful", "name": "Thunderful", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 100, "unit": "people", "currency": null,
+          "entity": "thunderful", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Thunderful** announces 80-100 more layoffs",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steamworld-creator-thunderful-announces-80-100-more-layoffs-as-part-of-second-round-of-restructuring" } }
+      ],
+      "summary": "SteamWorld creator Thunderful announced 80 to 100 more layoffs as part of a second round of restructuring."
+    }
+  ]
+}

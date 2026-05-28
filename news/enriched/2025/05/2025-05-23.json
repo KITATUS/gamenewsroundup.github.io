@@ -1,0 +1,576 @@
+{
+  "date": "2025-05-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/metal-gear-solid-delta-intro-video-released",
+      "entities": {
+        "games": [
+          {
+            "id": "metal-gear-solid-delta-snake-eater",
+            "name": "Metal Gear Solid Δ: Delta",
+            "aliases": ["Metal Gear Solid Δ: Delta"],
+            "genres": ["action-adventure", "stealth"],
+            "franchise": "metal-gear",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "An intro video for Metal Gear Solid Δ: Delta has been released."
+    },
+    {
+      "ref": "free_games_subscription/sifu-deliver-at-all-costs-and-gigapocalypse-are-the-next-fre",
+      "entities": {
+        "games": [
+          {
+            "id": "sifu",
+            "name": "Sifu",
+            "aliases": [],
+            "genres": ["action-adventure", "fighting"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "deliver-at-all-costs",
+            "name": "Deliver At All Costs",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "gigapocalypse",
+            "name": "Gigapocalypse",
+            "aliases": [],
+            "genres": ["action"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "epic-games-store",
+            "name": "Epic Games Store",
+            "aliases": ["Epic Game Store"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Sifu, Deliver At All Costs and Gigapocalypse are the next free games on the Epic Games Store."
+    },
+    {
+      "ref": "business/years-later-the-ftc-has-finally-dropped-its-fight-against-mi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "activision-blizzard",
+            "name": "Activision Blizzard",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "acquisition", "lawsuit-legal"],
+      "facts": [],
+      "summary": "The FTC has dropped its fight against Microsoft's acquisition of Activision Blizzard."
+    },
+    {
+      "ref": "business/embracer-intends-to-spin-off-coffee-stain-group-by-the-end-o",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "coffee-stain-group",
+            "name": "Coffee Stain Group",
+            "aliases": [],
+            "publisher": "embracer-group",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "embracer-group",
+            "name": "Embracer Group",
+            "aliases": ["Embracer"],
+            "inferred": false
+          },
+          {
+            "id": "fellowship-entertainment",
+            "name": "Fellowship Entertainment",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["merger"],
+      "facts": [],
+      "summary": "Embracer intends to spin off Coffee Stain Group by the end of 2025, rebranding its remaining business as Fellowship Entertainment."
+    },
+    {
+      "ref": "business/embracer-q4-fy-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "embracer-group",
+            "name": "Embracer Group",
+            "aliases": ["Embracer"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 5400000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: SEK 5.4 billion ($560.5 million, down 6% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 560500000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: SEK 5.4 billion ($560.5 million, down 6% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 3000000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "PC/Console games: SEK 3 billion ($311.4 million, down 2% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 311400000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "PC/Console games: SEK 3 billion ($311.4 million, down 2% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 943000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Mobile: SEK 943 million ($97.9 million, down 31% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 97900000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Mobile: SEK 943 million ($97.9 million, down 31% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 1300000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Entertainment & services: SEK 1.3 billion ($134.9 million, up 9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 134900000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Entertainment & services: SEK 1.3 billion ($134.9 million, up 9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 22300000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: SEK 22.3 billion ($2.32 billion, down 18% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 2320000000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: SEK 22.3 billion ($2.32 billion, down 18% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 1500000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "PC/Console games: SEK 1.5 billion ($155.7 million, down 27% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 155700000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "PC/Console games: SEK 1.5 billion ($155.7 million, down 27% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 5300000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Mobile: SEK 5.3 billion ($550 million, down 9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 550000000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Mobile: SEK 5.3 billion ($550 million, down 9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 6500000000,
+          "unit": "SEK",
+          "currency": "SEK",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Entertainment & services: SEK 6.5 billion ($674.6 million, down 7% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 674600000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "embracer-group",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Entertainment & services: SEK 6.5 billion ($674.6 million, down 7% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/embracer-group-sees-net-sales-across-pcconsole-and-mobile-games-fall-in-fy202425"
+          }
+        }
+      ],
+      "summary": "Embracer reported its Q4 and full-year FY2024/25 results, with net sales falling year-on-year across PC/console and mobile games."
+    },
+    {
+      "ref": "business/netease-games-segment-revenue-grows-12-1-to-3-3bn-in-q1",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 3300000000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "netease",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "**NetEase** games segment revenue grows 12.1% to $3.3bn in Q1",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/netease-games-segment-revenue-grows-121-to-33bn-in-q1"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 28800000000,
+          "unit": "RMB",
+          "currency": "CNY",
+          "entity": "netease",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Overall revenue for the firm increased 7.4% year-on-year to RMB 28.8 billion ($4 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/netease-games-segment-revenue-grows-121-to-33bn-in-q1"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 4000000000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "netease",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Overall revenue for the firm increased 7.4% year-on-year to RMB 28.8 billion ($4 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/netease-games-segment-revenue-grows-121-to-33bn-in-q1"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 18500000000,
+          "unit": "RMB",
+          "currency": "CNY",
+          "entity": "netease",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "profit grew by 8.6% year-on-year to RMB 18.5 billion ($2.5 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/netease-games-segment-revenue-grows-121-to-33bn-in-q1"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 2500000000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "netease",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-23",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "profit grew by 8.6% year-on-year to RMB 18.5 billion ($2.5 billion)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/netease-games-segment-revenue-grows-121-to-33bn-in-q1"
+          }
+        }
+      ],
+      "summary": "NetEase's games segment revenue grew 12.1% year-on-year to $3.3 billion in Q1."
+    }
+  ]
+}

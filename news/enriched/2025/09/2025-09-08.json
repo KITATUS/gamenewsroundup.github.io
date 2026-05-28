@@ -1,0 +1,115 @@
+{
+  "date": "2025-09-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/skate-soundtrack-confirms-royel-otis-wallows-and-more-than-9",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": ["skate."], "genres": ["sports"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "royel-otis", "name": "Royel Otis", "aliases": [], "inferred": false },
+          { "id": "wallows", "name": "Wallows", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The soundtrack for Skate has been confirmed to feature Royel Otis, Wallows and more than 90 other artists."
+    },
+    {
+      "ref": "main_news/epic-finally-revokes-fraudulent-v-buck-purchases-on-xbox-but",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Epic Games revoked fraudulent V-Buck purchases on Xbox, but a malfunctioning refund system caused confusion, with the Fortnite developer admitting fault for not updating V-Bucks balances immediately."
+    },
+    {
+      "ref": "main_news/vampire-the-masquerade-bloodlines-2-to-refund-all-ps5-premiu",
+      "entities": {
+        "games": [
+          { "id": "vampire-the-masquerade-bloodlines-2", "name": "Vampire: The Masquerade - Bloodlines 2", "aliases": [], "genres": ["action-rpg"], "franchise": "vampire-the-masquerade", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Vampire: The Masquerade - Bloodlines 2 will refund all PS5 Premium Editions following backlash over paywalled clans."
+    },
+    {
+      "ref": "main_news/despite-layoffs-build-a-rocket-boy-releases-mindseye-update",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build a Rocket Boy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "layoffs"],
+      "facts": [],
+      "summary": "Despite layoffs, Build a Rocket Boy released MindsEye Update 4 and said it is committed to enhancing the gameplay experience."
+    },
+    {
+      "ref": "main_news/indiana-jones-and-the-great-circle-update-adds-new-difficult",
+      "entities": {
+        "games": [
+          { "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true }
+        ],
+        "studios": [
+          { "id": "machinegames", "name": "MachineGames", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "An update for Indiana Jones and the Great Circle adds a new difficulty, improved hair and more."
+    },
+    {
+      "ref": "business/valve-trademarks-steam-frame-announcement-expected-soon-expe",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-frame", "name": "Steam Frame", "aliases": ["Deckard"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [],
+      "summary": "Valve has trademarked \"Steam Frame\", with an announcement expected soon and expectations that it is VR hardware, potentially the shipping name for the Deckard prototype."
+    }
+  ]
+}

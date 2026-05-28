@@ -1,0 +1,143 @@
+{
+  "date": "2025-11-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-chapter-6-finale-event-trailer-teases-godzilla-and",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": ["Fortnite Chapter 6"], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "teaser"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-11-29", "unit": "date", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Live event takes place November 29 at 11 a.m. PT / 2 p.m. ET",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/fortnite-chapter-6-finale-event-trailer-teases-godzilla-and-kill-bill-appearances-as-chapter-seven-looms" } }
+      ],
+      "summary": "Fortnite's Chapter 6 finale event trailer teases Godzilla and Kill Bill appearances ahead of Chapter Seven, with the live event set for 29 November 2025."
+    },
+    {
+      "ref": "main_news/epic-and-unity-announce-unique-partnership-unity-ddevelopers",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false },
+          { "id": "unity", "name": "Unity", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Epic Games and Unity announced a partnership that will let Unity developers publish their games into Fortnite from next year."
+    },
+    {
+      "ref": "free_games_subscription/games-leaving-playstation-plus-soon",
+      "entities": {
+        "games": [
+          { "id": "battlefield-2042", "name": "Battlefield 2042", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "grand-theft-auto-3", "name": "Grand Theft Auto 3 The Definitive Edition", "aliases": ["Grand Theft Auto 3"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "arcade-paradise-vr", "name": "Arcade Paradise VR", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "sonic-frontiers", "name": "Sonic Frontiers", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "sonic", "inferred": true },
+          { "id": "forspoken", "name": "Forspoken", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "star-wars-tales-from-galaxys-edge", "name": "Star Wars: Tales from Galaxy's Edge Enhanced Edition", "aliases": ["Star Wars: Tales from Galaxy's Edge"], "genres": ["adventure"], "franchise": "star-wars", "inferred": true },
+          { "id": "firefighting-simulator-the-squad", "name": "Firefighting Simulator: The Squad", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "surviving-mars", "name": "Surviving Mars", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true },
+          { "id": "star-trek-bridge-crew", "name": "Star Trek Bridge Crew", "aliases": [], "genres": ["simulation"], "franchise": "star-trek", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Several games including Battlefield 2042, Grand Theft Auto 3 The Definitive Edition and Sonic Frontiers are leaving PlayStation Plus soon."
+    },
+    {
+      "ref": "business/dispatch-has-sold-two-million-copies",
+      "entities": {
+        "games": [
+          { "id": "dispatch", "name": "Dispatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "adhoc-studio", "name": "AdHoc Studio", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "copies", "currency": null,
+          "entity": "dispatch", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-20", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dispatch has sold two million copies",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/adhocstudio.com/post/3m5z25h6dje2z" } }
+      ],
+      "summary": "Dispatch has sold two million copies."
+    },
+    {
+      "ref": "business/just-cause-dev-avalanche-closes-liverpool-studio-and-lays-of",
+      "entities": {
+        "games": [
+          { "id": "just-cause", "name": "Just Cause", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "just-cause", "inferred": true }
+        ],
+        "studios": [
+          { "id": "avalanche-studios", "name": "Avalanche Studios", "aliases": ["Avalanche"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 31, "unit": "people", "currency": null,
+          "entity": "avalanche-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-11-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "31 developers are impacted",
+          "source": { "name": "GameSpot", "domain": "gamespot.com", "url": "https://www.gamespot.com/articles/just-cause-dev-avalanche-closes-liverpool-studio-and-lays-off-workers/1100-6536364/" } }
+      ],
+      "summary": "Just Cause developer Avalanche is closing its Liverpool studio and laying off workers, with 31 developers impacted."
+    },
+    {
+      "ref": "business/dragon-s-dogma-2-sells-4m-copies",
+      "entities": {
+        "games": [
+          { "id": "dragons-dogma-2", "name": "Dragon's Dogma 2", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "dragons-dogma", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 4000000, "unit": "copies", "currency": null,
+          "entity": "dragons-dogma-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-20", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dragon's Dogma 2 sells 4m copies",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/DragonsDogma/status/1990948257384526335" } }
+      ],
+      "summary": "Dragon's Dogma 2 has sold four million copies."
+    }
+  ]
+}

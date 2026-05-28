@@ -1,0 +1,168 @@
+{
+  "date": "2024-11-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/steam-s-new-game-recording-feature-is-now-available-for-ever",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "steam-deck", "name": "Steam Deck", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "release"],
+      "facts": [],
+      "summary": "Steam's built-in game recording feature, which also works on Steam Deck, is now available to everyone."
+    },
+    {
+      "ref": "main_news/20-years-later-konami-confirms-fan-suspicions-metal-gear-sol",
+      "entities": {
+        "games": [{ "id": "metal-gear-solid-3", "name": "Metal Gear Solid 3", "aliases": ["Metal Gear Solid 3's", "Snake Eater"], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [
+          { "id": "suzetta-minet", "name": "Suzetta Miñet", "aliases": [], "inferred": false },
+          { "id": "jodi-benson", "name": "Benson", "aliases": ["Benson"], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Konami confirmed that Metal Gear Solid 3's character Eva was voiced by the actress behind The Little Mermaid, 20 years after the game's release."
+    },
+    {
+      "ref": "main_news/grand-theft-auto-6-still-on-track-for-fall-2025-release",
+      "entities": {
+        "games": [{ "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }],
+        "studios": [{ "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "Grand Theft Auto 6 remains on track for a fall 2025 release."
+    },
+    {
+      "ref": "main_news/netflix-removing-interactive-specials",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delisting", "shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-12-01", "unit": "date", "currency": null,
+          "entity": "netflix", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-11-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the majority of specials will be removed December 1st",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/netflix-removing-almost-all-of-its-interactive-specials-but-dont-worry-bandersnatch-is-safe" } }
+      ],
+      "summary": "Netflix will remove the majority of its interactive specials on 1 December 2024, though titles such as Black Mirror: Bandersnatch will remain."
+    },
+    {
+      "ref": "main_news/sega-s-developing-another-virtua-fighter-game",
+      "entities": {
+        "games": [{ "id": "virtua-fighter", "name": "Virtua Fighter", "aliases": [], "genres": ["fighting"], "franchise": "virtua-fighter", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega is developing another Virtua Fighter game as it continues its legacy revivals."
+    },
+    {
+      "ref": "main_news/death-stranding-shadowdropped-on-xbox",
+      "entities": {
+        "games": [{ "id": "death-stranding", "name": "Death Stranding", "aliases": ["Death Stranding Director's Cut"], "genres": ["action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "Death Stranding was shadow-dropped on Xbox."
+    },
+    {
+      "ref": "business/take-two-interactive-q2-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1350000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net revenue: $1.35 billion (up 4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/take-two-interactive-hails-strong-results-as-q2-2025-net-bookings-rise-to-147-billion" } },
+        { "metric": "profit", "value": 365500000, "unit": "money", "currency": "GBP",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-07", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net loss: £365.5 million (down 39% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/take-two-interactive-hails-strong-results-as-q2-2025-net-bookings-rise-to-147-billion" } },
+        { "metric": "revenue", "value": 1470000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Total net bookings: $1.47 billion (up 2%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/take-two-interactive-hails-strong-results-as-q2-2025-net-bookings-rise-to-147-billion" } }
+      ],
+      "summary": "Take-Two Interactive reported Q2 net revenue of $1.35 billion, total net bookings of $1.47 billion, and a net loss of £365.5 million."
+    },
+    {
+      "ref": "business/take-two-has-sold-its-indie-label-private-division",
+      "entities": {
+        "games": [{ "id": "kerbal-space-program-2", "name": "Kerbal Space Program 2", "aliases": [], "genres": ["simulation"], "franchise": "kerbal-space-program", "inferred": true }],
+        "studios": [
+          { "id": "private-division", "name": "Private Division", "aliases": [], "publisher": "take-two-interactive", "inferred": false },
+          { "id": "intercept-games", "name": "Intercept Games", "aliases": [], "publisher": "take-two-interactive", "inferred": false },
+          { "id": "roll7", "name": "Roll7", "aliases": [], "publisher": "take-two-interactive", "inferred": false }
+        ],
+        "publishers": [{ "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "studio-closure"],
+      "facts": [],
+      "summary": "Take-Two sold its indie label Private Division, having closed studios Intercept Games and Roll7 ahead of the sale, with the buyer and price undisclosed."
+    },
+    {
+      "ref": "business/disappointing-borderlands-movie-benefitted-game-sales-says-t",
+      "entities": {
+        "games": [
+          { "id": "borderlands", "name": "Borderlands", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true },
+          { "id": "bioshock", "name": "BioShock", "aliases": [], "genres": ["fps"], "franchise": "bioshock", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }],
+        "platforms": [{ "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }],
+        "people": [
+          { "id": "strauss-zelnick", "name": "Strauss Zelnick", "aliases": [], "inferred": false },
+          { "id": "francis-lawrence", "name": "Francis Lawrence", "aliases": [], "inferred": false },
+          { "id": "roy-lee", "name": "Roy Lee", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Take-Two CEO Strauss Zelnick called the Borderlands movie disappointing but said it benefitted game sales, and the company will keep selectively licensing its IP."
+    }
+  ]
+}

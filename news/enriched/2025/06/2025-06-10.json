@@ -1,0 +1,101 @@
+{
+  "date": "2025-06-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-zelda-movie-has-already-been-delayed-to-may-7-2027-due-t",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda", "name": "The Legend of Zelda", "aliases": ["Zelda"], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2027-05-07", "unit": "date", "currency": null,
+          "entity": "the-legend-of-zelda-movie", "entity_type": "product", "scope": "product",
+          "as_of": "2025-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "delayed (to May 7, 2027)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-zelda-movie-has-already-been-delayed/" } }
+      ],
+      "summary": "The live-action Zelda movie has been delayed to May 7, 2027 due to production issues."
+    },
+    {
+      "ref": "main_news/konami-is-holding-its-own-showcase-later-this-week-called-ko",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-06-12", "unit": "date", "currency": null,
+          "entity": "konami-press-start", "entity_type": "product", "scope": "event",
+          "as_of": "2025-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will take place on Thursday June 12",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/konami-is-holding-its-own-showcase-later-this-week/" } }
+      ],
+      "summary": "Konami announced its own showcase, Konami Press Start, taking place on Thursday June 12 at 6am PT / 9am ET / 2pm BST."
+    },
+    {
+      "ref": "main_news/game-maker-s-sketchbook-is-selling-art-from-indiana-jones-ma",
+      "entities": {
+        "games": [
+          { "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones", "aliases": ["Indiana Jones"], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true },
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Game Maker's Sketchbook is selling art from games including Indiana Jones and Marvel Rivals, with proceeds benefiting the non-profits AIAS Foundation and Day of the Devs."
+    },
+    {
+      "ref": "main_news/ubisoft-trial-witnesses-testify-to-being-tied-to-a-chair-for",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Witnesses at the Ubisoft trial testified to being subjected to abusive treatment and constant comments about sex, with HR allegedly dismissing one woman's complaint."
+    },
+    {
+      "ref": "main_news/star-trek-beyond-writer-doug-jung-announced-as-showrunner-fo",
+      "entities": {
+        "games": [
+          { "id": "mass-effect", "name": "Mass Effect", "aliases": [], "genres": ["action-rpg"], "franchise": "mass-effect", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "doug-jung", "name": "Doug Jung", "aliases": [], "inferred": false },
+          { "id": "dan-casey", "name": "Dan Casey", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "leadership-change"],
+      "facts": [],
+      "summary": "Star Trek Beyond writer Doug Jung was announced as showrunner and executive producer for Amazon's Mass Effect series, alongside series writer Dan Casey."
+    }
+  ]
+}

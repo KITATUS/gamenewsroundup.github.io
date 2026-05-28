@@ -1,0 +1,188 @@
+{
+  "date": "2025-10-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/this-year-s-fortnitemares-event-in-fortnite-adds-jason-frida",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "poppy-playtime", "name": "Poppy Playtime", "aliases": [], "genres": ["horror"], "franchise": "poppy-playtime", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": [{ "id": "doja-cat", "name": "Doja Cat", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "This year's Fortnitemares event in Fortnite adds crossover characters including Jason (Friday the 13th), Scooby-Doo, Ghostface, Huggy Wuggy from Poppy Playtime and Doja Cat."
+    },
+    {
+      "ref": "main_news/chucky-jason-voorhees-and-predator-are-coming-to-call-of-dut",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops-6", "name": "Call of Duty: Black Ops 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-warzone", "name": "Warzone", "aliases": ["Warzone"], "genres": ["battle-royale", "fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "activision", "name": "Activision", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Chucky, Jason Voorhees and Predator are coming to Call of Duty: Black Ops 6 and Warzone."
+    },
+    {
+      "ref": "free_games_subscription/three-nintendo-nso-snes-games-are-added-to-nso-on-october-10",
+      "entities": {
+        "games": [
+          { "id": "bubsy", "name": "Bubsy", "aliases": [], "genres": ["platformer"], "franchise": "bubsy", "inferred": true },
+          { "id": "mario-wario", "name": "Mario & Wario", "aliases": [], "genres": ["puzzle"], "franchise": "mario", "inferred": true },
+          { "id": "fatal-fury-special", "name": "Fatal Fury Special", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Nintendo NSO", "NSO"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "release"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-10", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-online", "entity_type": "platform", "scope": "platform",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Three Nintendo NSO SNES games are added to NSO on October 10th",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=13ieq0wTB2E" } }
+      ],
+      "summary": "Three SNES games (Bubsy, Mario & Wario and Fatal Fury Special) are added to Nintendo Switch Online on October 10th."
+    },
+    {
+      "ref": "free_games_subscription/xbox-reveals-october-s-game-pass-games",
+      "entities": {
+        "games": [
+          { "id": "baldurs-gate-enhanced-edition", "name": "Baldur's Gate: Enhanced Edition", "aliases": ["Baldur's Gate"], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "baldurs-gate-ii-enhanced-edition", "name": "Baldur's Gate II: Enhanced Edition", "aliases": ["Baldur's Gate II"], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "the-casting-of-frank-stone", "name": "The Casting of Frank Stone", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "ball-x-pit", "name": "Ball x Pit", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true },
+          { "id": "the-grinch-christmas-adventures", "name": "The Grinch: Christmas Adventures", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "eternal-strands", "name": "Eternal Strands", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "he-is-coming", "name": "He Is Coming", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true },
+          { "id": "ninja-gaiden-2-black", "name": "Ninja Gaiden 2 Black", "aliases": [], "genres": ["action-adventure"], "franchise": "ninja-gaiden", "inferred": true },
+          { "id": "pax-dei", "name": "Pax Dei", "aliases": [], "genres": ["mmo", "survival"], "franchise": null, "inferred": true },
+          { "id": "keeper", "name": "Keeper", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "evil-west", "name": "Evil West", "aliases": [], "genres": ["action-adventure", "tps"], "franchise": null, "inferred": true },
+          { "id": "ninja-gaiden-4", "name": "Ninja Gaiden 4", "aliases": [], "genres": ["action-adventure"], "franchise": "ninja-gaiden", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-09", "unit": "date", "currency": null,
+          "entity": "baldurs-gate-enhanced-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Baldur’s Gate and Baldur’s Gate II: Enhanced Editions (PC) – October 9",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-14", "unit": "date", "currency": null,
+          "entity": "the-casting-of-frank-stone", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Casting of Frank Stone (Cloud, PC, and Xbox Series S/X) – October 14",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-15", "unit": "date", "currency": null,
+          "entity": "ball-x-pit", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ball x Pit (Cloud, Console, and PC) – October 15",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-15", "unit": "date", "currency": null,
+          "entity": "the-grinch-christmas-adventures", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Grinch: Christmas Adventures (Cloud, Console, and PC) – October 15",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-15", "unit": "date", "currency": null,
+          "entity": "eternal-strands", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Eternal Strands (Cloud, PC, and Xbox Series S/X) – October 15",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-15", "unit": "date", "currency": null,
+          "entity": "he-is-coming", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "He Is Coming (Game Preview) (PC) – October 15",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-15", "unit": "date", "currency": null,
+          "entity": "ninja-gaiden-2-black", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ninja Gaiden 2 Black (Cloud, PC, and Xbox Series S/X) – October 15",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-16", "unit": "date", "currency": null,
+          "entity": "pax-dei", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Pax Dei (PC) – October 16",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-17", "unit": "date", "currency": null,
+          "entity": "keeper", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Keeper (Cloud, PC, and Xbox Series S/X) – October 17",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-21", "unit": "date", "currency": null,
+          "entity": "evil-west", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Evil West (Cloud, Console, and PC) – October 21",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } },
+        { "metric": "release_date", "value": "2025-10-21", "unit": "date", "currency": null,
+          "entity": "ninja-gaiden-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ninja Gaiden 4 (Cloud, PC, and Xbox Series S/X) – October 21",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-october" } }
+      ],
+      "summary": "Xbox revealed its October Game Pass lineup, including Baldur's Gate Enhanced Editions, The Casting of Frank Stone, Ninja Gaiden 4 and more."
+    },
+    {
+      "ref": "business/laid-off-devs-of-cancelled-zenimax-mmo-project-blackbird-for",
+      "entities": {
+        "games": [
+          { "id": "project-blackbird", "name": "Project Blackbird", "aliases": [], "genres": ["mmo"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "zenimax", "name": "ZeniMax", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "sackbird", "name": "Sackbird", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "layoffs"],
+      "facts": [],
+      "summary": "Laid-off developers of ZeniMax's cancelled MMO Project Blackbird have formed a new independent studio called Sackbird with no outside investors and full creative control."
+    },
+    {
+      "ref": "business/clair-obscur-expedition-33-tops-5-million-sales-worldwide-in",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 5000000, "unit": "units", "currency": null,
+          "entity": "clair-obscur-expedition-33", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-09", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Clair Obscur: Expedition 33 tops 5 million sales worldwide in 5 months",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/expedition33/status/1975924077496852782" } }
+      ],
+      "summary": "Clair Obscur: Expedition 33 has topped 5 million sales worldwide in 5 months."
+    }
+  ]
+}

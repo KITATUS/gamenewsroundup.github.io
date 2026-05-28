@@ -1,0 +1,136 @@
+{
+  "date": "2024-10-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sega-has-announced-an-alien-isolation-sequel",
+      "entities": {
+        "games": [
+          {
+            "id": "alien-isolation-2",
+            "name": "Alien Isolation sequel",
+            "aliases": ["Alien Isolation sequel"],
+            "genres": ["survival-horror", "fps"],
+            "franchise": "alien",
+            "inferred": true
+          },
+          {
+            "id": "alien-isolation",
+            "name": "Alien Isolation",
+            "aliases": [],
+            "genres": ["survival-horror", "fps"],
+            "franchise": "alien",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "creative-assembly",
+            "name": "Creative Assembly",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega has announced a sequel to Alien Isolation, which is in early development at Creative Assembly."
+    },
+    {
+      "ref": "business/google-ordered-to-open-its-android-app-store-to-competitors",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "google",
+            "name": "Google",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "android",
+            "name": "Android",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "google-play",
+            "name": "Google Play",
+            "aliases": ["Google Play"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "A US judge has issued a permanent injunction ordering Google to open its Android app marketplace to third-party app stores, coming into force in November."
+    },
+    {
+      "ref": "business/detroit-become-human-tops-10m-sales",
+      "entities": {
+        "games": [
+          {
+            "id": "detroit-become-human",
+            "name": "Detroit: Become Human",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "quantic-dream",
+            "name": "Quantic Dream",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 10000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "detroit-become-human",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Detroit: Become Human tops 10m sales",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/GdeFondaumiere/status/1843335782947532811"
+          }
+        }
+      ],
+      "summary": "Detroit: Become Human has surpassed 10 million sales, reaching the milestone six years after release."
+    }
+  ]
+}

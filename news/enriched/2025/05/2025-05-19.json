@@ -1,0 +1,59 @@
+{
+  "date": "2025-05-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-now-lets-you-chat-with-darth-vader-using-generative",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Fortnite added a feature that lets players chat with Darth Vader using generative AI speech."
+    },
+    {
+      "ref": "main_news/a-year-after-release-activision-is-winding-down-call-of-duty",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-warzone-mobile", "name": "Call of Duty: Warzone Mobile", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "A year after release, Activision is winding down Call of Duty: Warzone Mobile after it did not meet expectations."
+    },
+    {
+      "ref": "business/bungie-pulls-marathon-gameplay-after-art-plagiarism-storm-an",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Bungie pulled Marathon gameplay after an art plagiarism controversy and said it is reviewing all the game's art."
+    }
+  ]
+}

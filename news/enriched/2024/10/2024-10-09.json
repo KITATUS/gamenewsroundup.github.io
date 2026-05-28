@@ -1,0 +1,269 @@
+{
+  "date": "2024-10-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hotel-barcelona-has-been-delayed-to-next-year",
+      "entities": {
+        "games": [
+          {
+            "id": "hotel-barcelona",
+            "name": "Hotel Barcelona",
+            "aliases": [],
+            "genres": ["action"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "swery65", "name": "Swery65", "aliases": [], "inferred": false },
+          { "id": "suda51", "name": "Suda51", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Hotel Barcelona, a collaboration between Swery65 and Suda51, has been delayed and is now targeting early 2025."
+    },
+    {
+      "ref": "main_news/red-dead-redemption-and-undead-nightmare-announced-for-pc",
+      "entities": {
+        "games": [
+          {
+            "id": "red-dead-redemption",
+            "name": "Red Dead Redemption",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead",
+            "inferred": true
+          },
+          {
+            "id": "undead-nightmare",
+            "name": "Undead Nightmare",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "double-eleven", "name": "Double Eleven", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar Store"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-10-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "red-dead-redemption",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "when it hits PC on October 29, 2024",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/red-dead-redemption-and-undead-nightmare-announced-for-pc/"
+          }
+        }
+      ],
+      "summary": "Red Dead Redemption and its Undead Nightmare expansion were announced for PC, releasing October 29, 2024 with a port by Double Eleven."
+    },
+    {
+      "ref": "main_news/littlebigplanet-3-and-lbp-dlc-are-being-delisted-from-the-pl",
+      "entities": {
+        "games": [
+          {
+            "id": "littlebigplanet-3",
+            "name": "LittleBigPlanet 3",
+            "aliases": ["LBP"],
+            "genres": ["platformer"],
+            "franchise": "littlebigplanet",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-store", "name": "PlayStation Store", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-10-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "littlebigplanet-3",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will be pulled from sale on October 31, 2024",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/littlebigplanet-3-and-lbp-dlc-are-being-delisted-from-the-playstation-store/"
+          }
+        }
+      ],
+      "summary": "LittleBigPlanet 3 and the franchise's DLC are being delisted from the PlayStation Store, pulled from sale on October 31, 2024."
+    },
+    {
+      "ref": "business/saudi-arabia-has-reduced-its-stake-in-nintendo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "equity_stake_pct",
+          "value": 7.54,
+          "unit": "percent",
+          "currency": null,
+          "entity": "nintendo",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-10-09",
+          "period": "point_in_time",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "has cut its stake in Nintendo from 8.58% to 7.54%",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/saudi-arabia-has-reduced-its-stake-in-nintendo/"
+          }
+        }
+      ],
+      "summary": "Saudi Arabia's Public Investment Fund cut its stake in Nintendo from 8.58% to 7.54%, remaining one of the company's largest shareholders."
+    },
+    {
+      "ref": "business/ncsoft-amazon-games-throne-and-liberty-tops-3m-players-in-la",
+      "entities": {
+        "games": [
+          {
+            "id": "throne-and-liberty",
+            "name": "Throne and Liberty",
+            "aliases": [],
+            "genres": ["mmorpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "ncsoft", "name": "NCsoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 3000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "throne-and-liberty",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-09",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Throne and Liberty tops 3m players in launch week",
+          "source": {
+            "name": "amazongames.com",
+            "domain": "amazongames.com",
+            "url": "https://www.amazongames.com/en-us/news/articles/tl-hits-3-million-players-in-first-week"
+          }
+        }
+      ],
+      "summary": "NCsoft and Amazon Games' Throne and Liberty surpassed 3 million players in its launch week."
+    },
+    {
+      "ref": "business/tequilla-works-lays-off-small-number-of-staff-cancels-unanno",
+      "entities": {
+        "games": [
+          {
+            "id": "rime",
+            "name": "Rime",
+            "aliases": [],
+            "genres": ["adventure", "puzzle"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-sexy-brutale",
+            "name": "Sexy Brutale",
+            "aliases": ["Sexy Brutale"],
+            "genres": ["adventure", "puzzle"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "tequila-works", "name": "Tequilla Works", "aliases": ["Tequilla Works"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Tequilla Works, developer of Rime and Sexy Brutale, laid off a small number of staff and cancelled an unannounced game while restructuring around a single project."
+    },
+    {
+      "ref": "business/humble-games-calls-in-good-games-group-for-support-following",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "humble-games", "name": "Humble Games", "aliases": [], "inferred": false },
+          { "id": "good-games-group", "name": "Good Games Group", "aliases": [], "inferred": false },
+          { "id": "the-powell-group", "name": "The Powell Group", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "alan-patmore", "name": "Alan Patmore", "aliases": [], "inferred": false },
+          { "id": "mark-nash", "name": "Mark Nash", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership", "layoffs"],
+      "facts": [],
+      "summary": "Humble Games brought in Good Games Group, a new indie publisher founded by former Humble Games leaders Alan Patmore and Mark Nash, to support previously released titles following a restructuring that laid off its entire staff."
+    }
+  ]
+}

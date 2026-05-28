@@ -1,0 +1,188 @@
+{
+  "date": "2025-06-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-quietly-removes-pc-sale-restrictions-in-dozens-of-count",
+      "entities": {
+        "games": [
+          { "id": "god-of-war-ragnarok", "name": "God of War Ragnarök", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "the-last-of-us-part-2-remastered", "name": "The Last of Us Part 2 Remastered", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true },
+          { "id": "marvels-spider-man-2", "name": "Marvel's Spider-Man 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "marvels-spider-man", "inferred": true },
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sale-discount"],
+      "facts": [],
+      "summary": "Sony has quietly removed PC sale restrictions in dozens of countries for four PlayStation games including God of War Ragnarök, The Last of Us Part 2 Remastered, Marvel's Spider-Man 2 and Helldivers 2."
+    },
+    {
+      "ref": "main_news/nintendo-fans-are-compiling-a-master-list-of-what-games-run",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": ["Nintendo Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo fans are compiling a master list of which games run better or worse on Switch 2."
+    },
+    {
+      "ref": "main_news/playstation-studios-boss-confident-marathon-won-t-repeat-the",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true },
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "playstation-studios", "name": "PlayStation Studios", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The PlayStation Studios boss says he is confident Marathon will not repeat the mistakes of Concord."
+    },
+    {
+      "ref": "main_news/nier-automata-creators-deny-characters-were-problematic-over",
+      "entities": {
+        "games": [
+          { "id": "nier-automata", "name": "Nier: Automata", "aliases": [], "genres": ["action-rpg"], "franchise": "nier", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The creators of Nier: Automata deny its characters \"were problematic overseas\" and blame a mistranslated subtitle for censorship rumours."
+    },
+    {
+      "ref": "business/2025-s-summer-game-fest-is-its-biggest-to-date-with-viewer-n",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "viewers", "value": 50000000, "unit": "views", "currency": null,
+          "entity": "summer-game-fest", "entity_type": "product", "scope": "event",
+          "as_of": "2025-06-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "The livestream topped 50m views collectively",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/2025s-summer-game-fest-is-its-biggest-to-date-with-viewer-numbers-up-89-on-last-years-show" }
+        }
+      ],
+      "summary": "2025's Summer Game Fest was its biggest to date, with viewer numbers up 89% on last year and the livestream topping 50 million collective views."
+    },
+    {
+      "ref": "business/sag-aftra-proposed-ai-protections-will-let-performers-send-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "A tentative SAG-AFTRA agreement would let performers send their digital replicas on strike and require game studios to secure informed consent when using AI."
+    },
+    {
+      "ref": "business/sony-says-it-will-continue-to-adjust-ps-plus-pricing-as-more",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false }
+        ],
+        "people": [
+          { "id": "hideaki-nishino", "name": "Hideaki Nishino", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["subscription", "price-change"],
+      "facts": [],
+      "summary": "Sony says it will continue to adjust PS Plus pricing, with CEO Hideaki Nishino noting subscribers are increasingly choosing higher tiers despite price increases."
+    },
+    {
+      "ref": "business/nintendo-switch-2-sets-all-time-launch-record-for-hardware-i",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation 4"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "sales-milestone"],
+      "facts": [],
+      "summary": "The Nintendo Switch 2 set an all-time US hardware launch record, beating the PS4, and was also the biggest launch ever in Japan."
+    },
+    {
+      "ref": "business/sony-confirms-ps5-has-more-monthly-players-than-ps4-for-the",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation 4"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sony confirmed the PS5 has more monthly players than the PS4 for the first time, after last year describing the split as 50/50."
+    },
+    {
+      "ref": "rumours/pre-orders-for-the-xbox-rog-ally-will-reportedly-begin-in-au",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-rog-ally", "name": "Xbox ROG Ally", "aliases": ["Xbox Rog Ally"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "Rumour that pre-orders for the Xbox ROG Ally will begin in August, with launch expected two months later."
+    }
+  ]
+}

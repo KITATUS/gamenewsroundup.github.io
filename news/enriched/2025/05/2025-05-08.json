@@ -1,0 +1,157 @@
+{
+  "date": "2025-05-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hideo-kojima-says-he-has-a-concept-for-death-stranding-3-but",
+      "entities": {
+        "games": [
+          { "id": "death-stranding-3", "name": "Death Stranding 3", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Hideo Kojima says he has a concept for Death Stranding 3 but that someone else will have to make it."
+    },
+    {
+      "ref": "main_news/rockstar-reiterates-that-the-latest-gta-6-trailer-was-captur",
+      "entities": {
+        "games": [
+          { "id": "gta-6", "name": "GTA 6", "aliases": ["Grand Theft Auto VI"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar", "aliases": ["Rockstar Games"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "Rockstar reiterated that the latest GTA 6 trailer was captured on PS5 and consisted of equal parts gameplay and cutscenes."
+    },
+    {
+      "ref": "business/sony-announces-new-studio-teamlfg-including-bungie-fortnite",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": "roblox", "inferred": true }
+        ],
+        "studios": [
+          { "id": "teamlfg", "name": "TeamLFG", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": false },
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Sony announced a new studio, TeamLFG, staffed with veterans from Bungie, Fortnite and Roblox."
+    },
+    {
+      "ref": "business/unity-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 435000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Revenue: $435 million (down 6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unitys-q1-2025-revenue-dips-6-yoy-to-435m" } },
+        { "metric": "revenue", "value": 150000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Create Solutions revenue: $150 million (down 8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unitys-q1-2025-revenue-dips-6-yoy-to-435m" } },
+        { "metric": "revenue", "value": 285000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Grow Solutions revenue: $285 million (down 4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unitys-q1-2025-revenue-dips-6-yoy-to-435m" } },
+        { "metric": "profit", "value": 78000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net loss: $78 million (with a margin of 18%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unitys-q1-2025-revenue-dips-6-yoy-to-435m" } }
+      ],
+      "summary": "Unity reported Q1 2025 revenue of $435 million, down 6% year-on-year, with a net loss of $78 million."
+    },
+    {
+      "ref": "business/ea-q4-fy-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "EA", "aliases": ["Electronic Arts"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1800000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $1.8 billion (up 5.8% YOY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-q4-results-exceed-expectations-culminating-in-strong-finish-to-full-year-results" } },
+        { "metric": "profit", "value": 254000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net income: $254 million (up 39.5% YOY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-q4-results-exceed-expectations-culminating-in-strong-finish-to-full-year-results" } },
+        { "metric": "revenue", "value": 7400000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Revenue: $7.4 billion (down 1.3% YOY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-q4-results-exceed-expectations-culminating-in-strong-finish-to-full-year-results" } },
+        { "metric": "profit", "value": 1100000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-08", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Net income: $1.1 billion (down 8% YOY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-q4-results-exceed-expectations-culminating-in-strong-finish-to-full-year-results" } }
+      ],
+      "summary": "EA reported Q4 revenue of $1.8 billion (up 5.8% YOY) and full-year revenue of $7.4 billion (down 1.3% YOY)."
+    },
+    {
+      "ref": "rumours/rumors-are-starting-to-circulate-amongst-online-circles-that",
+      "entities": {
+        "games": [
+          { "id": "everywhere", "name": "Everywhere", "aliases": [], "genres": ["open-world", "sandbox"], "franchise": null, "inferred": true },
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build a Rocket Boy", "aliases": ["BARB"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Build a Rocket Boy's \"Everywhere\" is being quietly cancelled in favour of MindsEye."
+    }
+  ]
+}

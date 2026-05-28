@@ -1,0 +1,178 @@
+{
+  "date": "2025-02-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/steam-next-fest-has-launched-offering-players-thousands-of-d",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-03-03", "unit": "date", "currency": null,
+          "entity": "steam-next-fest", "entity_type": "product", "scope": "event",
+          "as_of": "2025-02-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Runs until March 3rd",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/steam-next-fest-has-launched-offering-players-thousands-of-demos/" } }
+      ],
+      "summary": "Steam Next Fest has launched with thousands of game demos and runs until 3 March 2025."
+    },
+    {
+      "ref": "main_news/tony-hawk-s-pro-skater-3-4-has-been-rated-in-singapore",
+      "entities": {
+        "games": [
+          { "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk's Pro Skater 3 + 4", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation", "reveal"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-03-04", "unit": "date", "currency": null,
+          "entity": "tony-hawks-pro-skater-3-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-26", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Reveal expected March 4th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/tony-hawks-pro-skater-3-4-has-been-rated-in-singapore/" } }
+      ],
+      "summary": "Tony Hawk's Pro Skater 3 + 4 has been rated in Singapore for Nintendo Switch, PC, PS4/5, Xbox One and Xbox Series, with a reveal expected on 4 March."
+    },
+    {
+      "ref": "main_news/xbox-has-officially-delayed-fable-to-2026",
+      "entities": {
+        "games": [
+          { "id": "fable", "name": "Fable", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "fable", "inferred": true }
+        ],
+        "studios": [
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2026", "unit": "date", "currency": null,
+          "entity": "fable", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox has officially delayed Fable to 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-has-officially-delayed-fable-to-2026-its-definitely-worth-the-wait/" } }
+      ],
+      "summary": "Xbox has officially delayed Fable to 2026."
+    },
+    {
+      "ref": "free_games_subscription/the-nintendo-music-app-has-just-added-its-40th-soundtrack",
+      "entities": {
+        "games": [
+          { "id": "super-mario-bros-2", "name": "Super Mario Bros 2", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-music", "name": "Nintendo Music app", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The Nintendo Music app has added its 40th soundtrack, the Super Mario Bros 2 soundtrack."
+    },
+    {
+      "ref": "business/warner-bros-is-closing-three-game-studios-and-canceling-wond",
+      "entities": {
+        "games": [
+          { "id": "wonder-woman", "name": "Wonder Woman", "aliases": [], "genres": ["action-adventure"], "franchise": "dc", "inferred": true },
+          { "id": "mortal-kombat", "name": "Mortal Kombat", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "monolith-productions", "name": "Monolith Productions", "aliases": [], "publisher": "warner-bros-games", "inferred": true },
+          { "id": "player-first-games", "name": "Player First Games", "aliases": [], "publisher": "warner-bros-games", "inferred": true },
+          { "id": "warner-bros-games-san-diego", "name": "Warner Bros. Games San Diego", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": ["Warner Bros.", "Warner Bros Games Division"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [
+        { "metric": "studios_affected", "value": 3, "unit": "studios", "currency": null,
+          "entity": "warner-bros-games", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Warner Bros. is closing three game studios and canceling Wonder Woman",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/warner-bros-is-reportedly-closing-three-game-studios-and-canceling-wonder-woman/" } }
+      ],
+      "summary": "Warner Bros. is closing three game studios, Monolith Productions, Player First Games and Warner Bros. Games San Diego, and canceling Wonder Woman."
+    },
+    {
+      "ref": "business/konami-and-bloober-team-are-working-on-a-new-game-following",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true },
+          { "id": "silent-hill", "name": "Silent Hill", "aliases": ["Silent Hill 1"], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true },
+          { "id": "silent-hill-3", "name": "Silent Hill 3", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bloober-team", "name": "Bloober Team", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Konami and Bloober Team are working on a new game following the success of Silent Hill 2."
+    },
+    {
+      "ref": "business/amazon-appstore-to-close-on-android-in-august-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "amazon-appstore", "name": "Amazon Appstore", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-08", "unit": "date", "currency": null,
+          "entity": "amazon-appstore", "entity_type": "product", "scope": "product",
+          "as_of": "2025-02-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Amazon Appstore to close on Android in August 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/amazon-appstore-to-close-on-android-in-august-2025" } }
+      ],
+      "summary": "Amazon's Appstore will close on Android in August 2025 as Amazon focuses on supporting the store on its own devices."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "date": "2025-01-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sega-trademarks-could-point-to-the-return-of-another-classic",
+      "entities": {
+        "games": [
+          { "id": "ecco-the-dolphin", "name": "Ecco the Dolphin", "aliases": ["Ecco"], "genres": ["adventure"], "franchise": "ecco-the-dolphin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": ["SEGA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-12-27", "unit": "date", "currency": null,
+          "entity": "ecco-the-dolphin", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The publisher filed trademarks for ‘Ecco’ and ‘Ecco the Dolphin’ in Japan on December 27, 2024.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-trademarks-could-point-to-the-return-of-another-classic-series/" } }
+      ],
+      "summary": "Sega filed trademarks for Ecco and Ecco the Dolphin in Japan on 27 December 2024, possibly signalling the return of the classic series."
+    },
+    {
+      "ref": "main_news/fortnite-will-soon-let-godzilla-stomp-all-over-its-map",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hatsune-miku", "name": "Hatsune Miku", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership", "update-patch"],
+      "facts": [],
+      "summary": "Fortnite will add Godzilla as a giant roaming boss on its battle royale map alongside a battle pass skin, with Hatsune Miku planned for the Music Festival mode."
+    },
+    {
+      "ref": "main_news/nintendo-delays-public-release-of-nintendo-alarmo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-alarmo", "name": "Nintendo Alarmo", "aliases": ["Alarmo"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay", "release"],
+      "facts": [
+        { "metric": "delay_to", "value": "2025-03-01", "unit": "date", "currency": null,
+          "entity": "nintendo-alarmo", "entity_type": "product", "scope": "product",
+          "as_of": "2025-01-14", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Alarmo will remain a timed exclusive for those Nintendo Switch Online members until \"early\" March",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/nintendo-hits-snooze-on-alarmos-public-release" } }
+      ],
+      "summary": "Nintendo delayed the wider public release of the Nintendo Alarmo, keeping it a Nintendo Switch Online member exclusive until early March before a retail launch in certain countries."
+    },
+    {
+      "ref": "main_news/powerwash-simulator-abandons-vr-version-to-support-job-secur",
+      "entities": {
+        "games": [
+          { "id": "powerwash-simulator", "name": "PowerWash Simulator", "aliases": ["Powerwash Simulator"], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "PowerWash Simulator is ending support for its VR version, reassigning the VR team to other parts of the business instead of making layoffs while the non-VR versions remain unaffected."
+    },
+    {
+      "ref": "business/robocraft-2-developer-freejam-shuts-down",
+      "entities": {
+        "games": [
+          { "id": "robocraft-2", "name": "Robocraft 2", "aliases": [], "genres": ["sandbox", "shooter"], "franchise": "robocraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "freejam", "name": "Freejam", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Freejam, the developer of Robocraft 2, has shut down."
+    },
+    {
+      "ref": "rumours/nintendo-switch-2-revealed-planned-for-january-16",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "hardware", "rumour"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-01-15", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-2", "entity_type": "product", "scope": "event",
+          "as_of": "2025-01-14", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Reveal of event Jan 15th, reveal (hardware only) Jan 16th, planned release May / June.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-will-reportedly-reveal-switch-2-this-week/" } },
+        { "metric": "event_date", "value": "2025-01-16", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-2", "entity_type": "product", "scope": "event",
+          "as_of": "2025-01-14", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Reveal of event Jan 15th, reveal (hardware only) Jan 16th, planned release May / June.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-will-reportedly-reveal-switch-2-this-week/" } }
+      ],
+      "summary": "A rumour with significant industry backing claims Nintendo will hold a Switch 2 event on 15 January and a hardware-only reveal on 16 January, with a planned release in May or June."
+    },
+    {
+      "ref": "rumours/godfall-dev-counterplay-games-has-quietly-closed-down",
+      "entities": {
+        "games": [
+          { "id": "godfall", "name": "Godfall", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "counterplay-games", "name": "Counterplay Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "jackalyptic-games", "name": "Jackalyptic Games", "aliases": ["Jackalytpic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "rumour"],
+      "facts": [],
+      "summary": "A report claims that Godfall developer Counterplay Games has quietly closed down, with an anonymous source saying its co-development partnership with Jackalyptic Games ended as the studio shut its doors."
+    }
+  ]
+}

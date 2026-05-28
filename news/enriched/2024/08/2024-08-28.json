@@ -1,0 +1,361 @@
+{
+  "date": "2024-08-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/yakuza-kiwami-coming-to-switch-on-october-24",
+      "entities": {
+        "games": [
+          { "id": "yakuza-kiwami", "name": "Yakuza Kiwami", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": [], "inferred": false },
+          { "id": "playstation-3", "name": "PlayStation 3", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": ["Steam"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "luna", "name": "Luna", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-24", "unit": "date", "currency": null,
+          "entity": "yakuza-kiwami", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Will be available via Nintendo eShop for $19.99 on October 24th",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/08/yakuza-kiwami-coming-to-switch-on-october-24" } },
+        { "metric": "price", "value": 19.99, "unit": "price", "currency": "USD",
+          "entity": "yakuza-kiwami", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Will be available via Nintendo eShop for $19.99 on October 24th",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/08/yakuza-kiwami-coming-to-switch-on-october-24" } },
+        { "metric": "release_date", "value": "2016-01-21", "unit": "date", "currency": null,
+          "entity": "yakuza-kiwami", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Yakuza Kiwami first launched for PlayStation 4 and PlayStation 3 on January 21, 2016 in Japan",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/08/yakuza-kiwami-coming-to-switch-on-october-24" } },
+        { "metric": "release_date", "value": "2017-08-29", "unit": "date", "currency": null,
+          "entity": "yakuza-kiwami", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "followed by PlayStation 4 on August 29, 2017 worldwide",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/08/yakuza-kiwami-coming-to-switch-on-october-24" } },
+        { "metric": "release_date", "value": "2019-02-19", "unit": "date", "currency": null,
+          "entity": "yakuza-kiwami", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PC via Steam on February 19, 2019",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/08/yakuza-kiwami-coming-to-switch-on-october-24" } },
+        { "metric": "release_date", "value": "2020-04-21", "unit": "date", "currency": null,
+          "entity": "yakuza-kiwami", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox One on April 21, 2020",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/08/yakuza-kiwami-coming-to-switch-on-october-24" } },
+        { "metric": "release_date", "value": "2022-12-22", "unit": "date", "currency": null,
+          "entity": "yakuza-kiwami", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Luna on December 22, 2022",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/08/yakuza-kiwami-coming-to-switch-on-october-24" } }
+      ],
+      "summary": "Yakuza Kiwami is coming to Nintendo Switch via the eShop for $19.99 on 24 October 2024."
+    },
+    {
+      "ref": "main_news/blue-protocol-will-be-discontinued-on-january-18th-2025-in-j",
+      "entities": {
+        "games": [
+          { "id": "blue-protocol", "name": "Blue Protocol", "aliases": [], "genres": ["mmorpg", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-01-18", "unit": "date", "currency": null,
+          "entity": "blue-protocol", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Blue Protocol will be discontinued on January 18th, 2025 in Japan and will no longer release worldwide",
+          "source": { "name": "blue-protocol.com", "domain": "blue-protocol.com", "url": "https://blue-protocol.com/news/507" } }
+      ],
+      "summary": "Blue Protocol will be discontinued in Japan on 18 January 2025 and will no longer release worldwide."
+    },
+    {
+      "ref": "main_news/flame-fatales-raises-117-932-for-malala-fund",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Speedrunning charity event Flame Fatales raised $117,932 for the Malala Fund."
+    },
+    {
+      "ref": "main_news/balatro-s-free-collaboration-update-adds-the-witcher-vampire",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "the-witcher", "name": "The Witcher", "aliases": [], "genres": ["action-rpg"], "franchise": "the-witcher", "inferred": true },
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true },
+          { "id": "among-us", "name": "Among Us", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true },
+          { "id": "dave-the-diver", "name": "Dave the Diver", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion", "partnership", "release"],
+      "facts": [],
+      "summary": "Balatro's free Friends of Jimbo collaboration update, adding characters from The Witcher, Dave the Diver, Among Us and Vampire Survivors, is available now."
+    },
+    {
+      "ref": "main_news/powerwash-simulator-heading-to-shrek-s-fairytale-world-this",
+      "entities": {
+        "games": [
+          { "id": "powerwash-simulator", "name": "PowerWash Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "futurlab", "name": "FuturLab", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "PowerWash Simulator developer FuturLab announced a Shrek Special Pack with five new fairytale maps coming this autumn to all platforms."
+    },
+    {
+      "ref": "main_news/pok-mon-go-finally-confirms-its-gigantic-dynamax-feature",
+      "entities": {
+        "games": [
+          { "id": "pokemon-go", "name": "Pokémon Go", "aliases": [], "genres": ["adventure"], "franchise": "pokemon", "inferred": true },
+          { "id": "pokemon-sword-and-shield", "name": "Pokémon Sword and Shield", "aliases": [], "genres": ["jrpg"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "niantic", "name": "Niantic", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Pokémon Go confirmed its Dynamax feature, with Gen 8 starters from Pokémon Sword and Shield joining the game at the start of the next season."
+    },
+    {
+      "ref": "main_news/new-sonic-the-hedgehog-3-film-trailer-reveals-keanu-reeves-s",
+      "entities": {
+        "games": [
+          { "id": "sonic-x-shadow-generations", "name": "Sonic x Shadow Generations", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "keanu-reeves", "name": "Keanu Reeves", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-12-20", "unit": "date", "currency": null,
+          "entity": "sonic-the-hedgehog-3", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The release of Sonic the Hedgehog 3 on 20th December",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/new-sonic-the-hedgehog-3-film-trailer-reveals-keanu-reeves-shadow" } }
+      ],
+      "summary": "A new Sonic the Hedgehog 3 film trailer revealed Keanu Reeves as Shadow, with the film releasing on 20 December."
+    },
+    {
+      "ref": "main_news/two-wii-games-from-the-mysims-series-are-getting-re-released",
+      "entities": {
+        "games": [
+          { "id": "mysims", "name": "MySims", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "mysims", "inferred": true },
+          { "id": "mysims-kingdom", "name": "MySims Kingdom", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "mysims", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "wii", "name": "Wii", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-19", "unit": "date", "currency": null,
+          "entity": "mysims", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launches on Switch November 19",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/two-wii-games-from-the-mysims-series-are-getting-re-released-on-switch/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "mysims", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MySims: Cozy Bundle offers MySims and MySims Kingdom for $39.99 / £34.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/two-wii-games-from-the-mysims-series-are-getting-re-released-on-switch/" } },
+        { "metric": "price", "value": 34.99, "unit": "price", "currency": "GBP",
+          "entity": "mysims", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MySims: Cozy Bundle offers MySims and MySims Kingdom for $39.99 / £34.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/two-wii-games-from-the-mysims-series-are-getting-re-released-on-switch/" } }
+      ],
+      "summary": "The MySims: Cozy Bundle, packaging MySims and MySims Kingdom, launches on Switch on 19 November for $39.99 / £34.99."
+    },
+    {
+      "ref": "main_news/capcom-fighting-collection-2-features-8-games-including-capc",
+      "entities": {
+        "games": [
+          { "id": "capcom-fighting-collection-2", "name": "Capcom Fighting Collection 2", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "capcom-vs-snk-millennium-fight-2000-pro", "name": "Capcom vs SNK: Millennium Fight 2000 Pro", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "capcom-vs-snk-2-mark-of-the-millennium-2001", "name": "Capcom vs SNK 2: Mark of the Millennium 2001", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "project-justice", "name": "Project Justice", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "capcom-fighting-evolution", "name": "Capcom Fighting Evolution", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "street-fighter-alpha-3-upper", "name": "Street Fighter Alpha 3 Upper", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "plasma-sword-nightmare-of-bilstein", "name": "Plasma Sword: Nightmare of Bilstein", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "power-stone", "name": "Power Stone", "aliases": [], "genres": ["fighting"], "franchise": "power-stone", "inferred": true },
+          { "id": "power-stone-2", "name": "Power Stone 2", "aliases": [], "genres": ["fighting"], "franchise": "power-stone", "inferred": true },
+          { "id": "marvel-vs-capcom-fighting-collection-arcade-classics", "name": "Marvel vs Capcom Fighting Collection: Arcade Classics", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-12", "unit": "date", "currency": null,
+          "entity": "marvel-vs-capcom-fighting-collection-arcade-classics", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Marvel vs Capcom Fighting Collection: Arcade Classics will be released digitally on September 12 and physically on November 22",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/capcom-fighting-collection-2-features-8-games-including-capcom-vs-snk-and-power-stone-1-2/" } },
+        { "metric": "release_date", "value": "2024-11-22", "unit": "date", "currency": null,
+          "entity": "marvel-vs-capcom-fighting-collection-arcade-classics", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Marvel vs Capcom Fighting Collection: Arcade Classics will be released digitally on September 12 and physically on November 22",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/capcom-fighting-collection-2-features-8-games-including-capcom-vs-snk-and-power-stone-1-2/" } }
+      ],
+      "summary": "Capcom Fighting Collection 2 will feature eight games including Capcom vs SNK and Power Stone 1 & 2, releasing on Switch, PS4 and PC in 2025."
+    },
+    {
+      "ref": "main_news/genshin-impact-update-5-0-launches-today",
+      "entities": {
+        "games": [
+          { "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hoyoverse", "name": "HoYoverse", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "release"],
+      "facts": [],
+      "summary": "Genshin Impact's Update 5.0 launched today, adding the new region Natlan and new characters."
+    },
+    {
+      "ref": "main_news/digital-eclipse-is-releasing-a-tetris-collection-called-tetr",
+      "entities": {
+        "games": [
+          { "id": "tetris-forever", "name": "Tetris Forever", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "tetris", "name": "Tetris", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "tetris-2-bombliss", "name": "Tetris 2 + Bombliss", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "tetris-battle-gaiden", "name": "Tetris Battle Gaiden", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "hatris", "name": "Hatris", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "super-bombliss", "name": "Super Bombliss", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "super-bombliss-dx", "name": "Super Bombliss DX", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "super-tetris-2-bombliss", "name": "Super Tetris 2 + Bombliss", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "super-tetris-3", "name": "Super Tetris 3", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-eclipse", "name": "Digital Eclipse", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Digital Eclipse announced a Tetris collection called Tetris Forever, releasing for all major platforms in 2024."
+    },
+    {
+      "ref": "main_news/square-enix-s-foamstars-is-officially-going-free-to-play-in",
+      "entities": {
+        "games": [
+          { "id": "foamstars", "name": "Foamstars", "aliases": [], "genres": ["shooter", "hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["Sony"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "price-change", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-04", "unit": "date", "currency": null,
+          "entity": "foamstars", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will be free to all users from October 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/square-enixs-foamstars-is-officially-going-free-to-play-in-october/" } },
+        { "metric": "price", "value": 30, "unit": "price", "currency": "USD",
+          "entity": "foamstars", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "previously being sold on the PlayStation Store for $30 / £25",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/square-enixs-foamstars-is-officially-going-free-to-play-in-october/" } },
+        { "metric": "price", "value": 25, "unit": "price", "currency": "GBP",
+          "entity": "foamstars", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "previously being sold on the PlayStation Store for $30 / £25",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/square-enixs-foamstars-is-officially-going-free-to-play-in-october/" } }
+      ],
+      "summary": "Square Enix's Foamstars, previously sold for $30 / £25, will become free to play for all users from 4 October."
+    },
+    {
+      "ref": "business/service-provider-ptw-has-acquired-co-development-studio-ghos",
+      "entities": {
+        "games": [
+          { "id": "risk-of-rain-2", "name": "Risk of Rain 2", "aliases": [], "genres": ["roguelike", "tps"], "franchise": "risk-of-rain", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "tps"], "franchise": "fortnite", "inferred": true },
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ghostpunch-games", "name": "Ghostpunch Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 13000000, "unit": "price", "currency": "USD",
+          "entity": "ghostpunch-games", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PTW has acquired co-development studio Ghostpunch Games for $13 million",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/ptw-acquires-ghostpunch-games-for-13-million-and-pitches-ai-based-services" } }
+      ],
+      "summary": "Service provider PTW acquired co-development studio Ghostpunch Games for $13 million."
+    }
+  ]
+}

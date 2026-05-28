@@ -1,0 +1,215 @@
+{
+  "date": "2025-09-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ea-play-members-can-start-playing-ea-sports-fc-26-today-ahea",
+      "entities": {
+        "games": [
+          { "id": "ea-sports-fc-26", "name": "EA Sports FC 26", "aliases": [], "genres": ["sports", "simulation"], "franchise": "ea-sports-fc", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["early-access", "subscription"],
+      "facts": [],
+      "summary": "EA Play members can begin playing EA Sports FC 26 today, ahead of Early Access starting at midnight."
+    },
+    {
+      "ref": "main_news/football-manager-26-adds-the-women-s-game-for-the-first-time",
+      "entities": {
+        "games": [
+          { "id": "football-manager-26", "name": "Football Manager 26", "aliases": [], "genres": ["simulation", "sports", "strategy"], "franchise": "football-manager", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sports-interactive", "name": "Sports Interactive", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Football Manager 26 adds the women's game for the first time, including the official Barclays Women's Super League."
+    },
+    {
+      "ref": "main_news/hollow-knight-silksong-devs-admit-it-has-moments-of-steep-di",
+      "entities": {
+        "games": [
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Hollow Knight: Silksong developers acknowledge the game has moments of steep difficulty but offers a higher level of freedom to let players go off the path."
+    },
+    {
+      "ref": "main_news/studio-of-former-disco-elysium-staff-rename-forthcoming-dete",
+      "entities": {
+        "games": [
+          { "id": "tangerine-antarctic", "name": "Tangerine Antarctic", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A studio of former Disco Elysium staff has renamed its forthcoming detective RPG to Tangerine Antarctic and shifted away from the familiar isometric perspective."
+    },
+    {
+      "ref": "main_news/steam-discord-twitch-and-reddit-ceos-called-to-appear-in-con",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": ["Steam"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "discord", "name": "Discord", "aliases": [], "inferred": false },
+          { "id": "twitch", "name": "Twitch", "aliases": [], "inferred": false },
+          { "id": "reddit", "name": "Reddit", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The CEOs of Steam, Discord, Twitch and Reddit have been called to appear in Congress following the Charlie Kirk shooting."
+    },
+    {
+      "ref": "free_games_subscription/two-more-game-boy-advance-games-are-coming-to-switch-online",
+      "entities": {
+        "games": [
+          { "id": "klonoa-empire-of-dreams", "name": "Klonoa: Empire of Dreams", "aliases": [], "genres": ["platformer", "puzzle"], "franchise": "klonoa", "inferred": true },
+          { "id": "mr-driller-2", "name": "Mr Driller 2", "aliases": [], "genres": ["puzzle"], "franchise": "mr-driller", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": true },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "game-boy-advance", "name": "Game Boy Advance", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-25", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-online", "entity_type": "product", "scope": "event",
+          "as_of": "2025-09-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "coming to Switch Online’s Nintendo Classics library next week - September 25.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/two-cult-favourite-bandai-namco-gba-games-are-coming-to-switch-online-next-week/" } }
+      ],
+      "summary": "Two more Game Boy Advance games, Klonoa: Empire of Dreams and Mr Driller 2, are coming to Switch Online's Nintendo Classics library on September 25."
+    },
+    {
+      "ref": "business/infinity-festival-to-celebrate-innovators-in-the-age-this-oc",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Infinity Festival will celebrate Innovators in the Age this October."
+    },
+    {
+      "ref": "business/tencent-accuses-sony-of-seeking-a-monopoly-on-genre-conventi",
+      "entities": {
+        "games": [
+          { "id": "light-of-motiram", "name": "Light of Motiram", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false },
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Tencent accuses Sony of seeking a monopoly on genre conventions as it responds to the Light of Motiram copyright lawsuit."
+    },
+    {
+      "ref": "business/bafta-shares-375-000-in-grants-to-86-talented-creatives-to-l",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 375000, "unit": "money", "currency": "USD",
+          "entity": "bafta", "entity_type": "company", "scope": "company",
+          "as_of": "2025-09-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "BAFTA shares $375,000 in grants to \"86 talented creatives\"",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bafta-shares-375000-in-grants-to-86-talented-creatives-to-launch-their-careers-in-the-uk-and-us" } }
+      ],
+      "summary": "BAFTA is sharing $375,000 in grants to 86 creatives to help launch their careers in the UK and U.S."
+    },
+    {
+      "ref": "business/epic-games-to-allow-fortnite-developers-to-sell-in-game-item",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter", "sandbox"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Epic Games will allow Fortnite developers to sell in-game items."
+    },
+    {
+      "ref": "business/ukie-launches-interactive-entertainment-scotland",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "UKIE has launched Interactive Entertainment Scotland."
+    },
+    {
+      "ref": "business/igda-board-of-directors-appoints-new-chair-additional-execut",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The IGDA board of directors has appointed a new chair along with additional executive appointments."
+    }
+  ]
+}

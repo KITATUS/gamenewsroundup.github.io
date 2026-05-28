@@ -1,0 +1,223 @@
+{
+  "date": "2025-10-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/generative-entertainment-company-wolf-games-has-signed-a-par",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "wolf-games", "name": "Wolf Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nbcuniversal", "name": "NBCUniversal", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Generative entertainment company Wolf Games signed a partnership with NBCUniversal to release generative AI games based on its film and television IP."
+    },
+    {
+      "ref": "main_news/2-years-after-release-nintendo-is-updating-pikmin-4-with-new",
+      "entities": {
+        "games": [
+          { "id": "pikmin-4", "name": "Pikmin 4", "aliases": [], "genres": ["strategy"], "franchise": "pikmin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Two years after release, Nintendo is updating Pikmin 4 with new content, including a Photo Mode."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-games-for-october",
+      "entities": {
+        "games": [
+          { "id": "commandos-origins", "name": "Commandoes Origins", "aliases": ["Commandoes Origins"], "genres": ["strategy"], "franchise": "commandos", "inferred": true },
+          { "id": "microsoft-flight-simulator-2024", "name": "Microsoft Flight Simulator 2024", "aliases": [], "genres": ["simulation"], "franchise": "microsoft-flight-simulator", "inferred": true },
+          { "id": "powerwash-simulator-2", "name": "PowerWash Simulator 2", "aliases": [], "genres": ["simulation"], "franchise": "powerwash-simulator", "inferred": true },
+          { "id": "bounty-star", "name": "Bounty Star", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "super-fantasy-kingdom", "name": "Super Fantasy Kingdom", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true },
+          { "id": "halls-of-torment", "name": "Halls of Torment", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true },
+          { "id": "the-outer-worlds-2", "name": "The Outer Worlds 2", "aliases": [], "genres": ["action-rpg"], "franchise": "the-outer-worlds", "inferred": true },
+          { "id": "1000xresist", "name": "1000xResist", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "football-manager-26", "name": "Football Manager 26", "aliases": ["Football Manager 26 Console"], "genres": ["sports", "simulation"], "franchise": "football-manager", "inferred": true },
+          { "id": "jusant", "name": "Jusant", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "metal-slug-tactics", "name": "Metal Slug Tactics", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "metal-slug", "inferred": true },
+          { "id": "return-to-monkey-island", "name": "Return to Monkey Island", "aliases": [], "genres": ["adventure"], "franchise": "monkey-island", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "powerwash-simulator-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PowerWash Simulator 2 (Cloud, PC, and Xbox Series S/X) – 23rd October",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "event_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "bounty-star", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Bounty Star (Cloud, PC, and Xbox Series S/X) – 23rd October",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "event_date", "value": "2025-10-24", "unit": "date", "currency": null,
+          "entity": "super-fantasy-kingdom", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Super Fantasy Kingdom (PC) – 24th October",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "event_date", "value": "2025-10-28", "unit": "date", "currency": null,
+          "entity": "halls-of-torment", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Halls of Torment (Cloud, PC, and Xbox Series S/X) – 28th October",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "event_date", "value": "2025-10-29", "unit": "date", "currency": null,
+          "entity": "the-outer-worlds-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Outer Worlds 2 (Cloud and Xbox Series S/X) – 29th October",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "event_date", "value": "2025-11-04", "unit": "date", "currency": null,
+          "entity": "1000xresist", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "1000xResist (Cloud, PC, and Xbox Series S/X) – 4th November",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "event_date", "value": "2025-11-04", "unit": "date", "currency": null,
+          "entity": "football-manager-26", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Football Manager 26 (PC) – 4th November",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "event_date", "value": "2025-11-04", "unit": "date", "currency": null,
+          "entity": "football-manager-26", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Football Manager 26 Console (Cloud, Console) – 4th November",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "shutdown_date", "value": "2025-10-31", "unit": "date", "currency": null,
+          "entity": "jusant", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (October 31st)",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "shutdown_date", "value": "2025-10-31", "unit": "date", "currency": null,
+          "entity": "metal-slug-tactics", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (October 31st)",
+          "source": { "name": null, "domain": null, "url": null } },
+        { "metric": "shutdown_date", "value": "2025-10-31", "unit": "date", "currency": null,
+          "entity": "return-to-monkey-island", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (October 31st)",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "Xbox Game Pass detailed the titles arriving and leaving the service in October, with several dated additions and three games departing on 31 October."
+    },
+    {
+      "ref": "business/sonic-racing-crossworlds-surpasses-1-million-copies-sold-pla",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "sonic-racing-crossworlds", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Sonic Racing: CrossWorlds Surpasses 1 Million Copies Sold",
+          "source": { "name": "segabits.com", "domain": "segabits.com",
+                      "url": "https://segabits.com/blog/2025/10/22/joker-available-to-play-now-in-sonic-racing-crossworlds-crossworlds-surpasses-1-million-copies-sold/" } }
+      ],
+      "summary": "Sonic Racing: CrossWorlds surpassed 1 million copies sold, with player stats including over 74.5 million races."
+    },
+    {
+      "ref": "business/trials-studio-ubisoft-redlynx-is-laying-off-up-to-60-staff-a",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ubisoft-redlynx", "name": "Ubisoft RedLynx", "aliases": ["RedLynx"], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 60, "unit": "people", "currency": null,
+          "entity": "ubisoft-redlynx", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Ubisoft RedLynx is laying off up to 60 staff",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/trials-studio-ubisoft-redlynx-is-laying-off-up-to-60-staff-as-it-refocuses-on-small-screens/" } }
+      ],
+      "summary": "Trials studio Ubisoft RedLynx is laying off up to 60 staff as it refocuses on small screens."
+    },
+    {
+      "ref": "business/gamescom-asia-reports-record-206-149-visitors",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Gamescom Asia reported a record 206,149 visitors."
+    },
+    {
+      "ref": "rumours/xbox-is-more-expensive-for-developers-too-as-microsoft-bumps",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware", "rumour"],
+      "facts": [
+        { "metric": "price", "value": 1500, "unit": "price", "currency": "USD",
+          "entity": "xbox", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "bumps up dev kit cost from $1500 to $2000",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/xbox-is-more-expensive-for-developers-too-as-microsoft-bumps-up-dev-kit-cost" } },
+        { "metric": "price", "value": 2000, "unit": "price", "currency": "USD",
+          "entity": "xbox", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "bumps up dev kit cost from $1500 to $2000",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/xbox-is-more-expensive-for-developers-too-as-microsoft-bumps-up-dev-kit-cost" } },
+        { "metric": "price_change_pct", "value": 30, "unit": "percent", "currency": null,
+          "entity": "xbox", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-10-23", "period": "point_in_time", "direction": "up", "confidence": "medium",
+          "quote": "a 30 percent increase in cost",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/xbox-is-more-expensive-for-developers-too-as-microsoft-bumps-up-dev-kit-cost" } }
+      ],
+      "summary": "Microsoft raised the Xbox dev kit cost from $1500 to $2000, a 30 percent increase it attributed to macroeconomic developments."
+    }
+  ]
+}

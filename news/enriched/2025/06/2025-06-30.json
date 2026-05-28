@@ -1,0 +1,168 @@
+{
+  "date": "2025-06-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/bandai-namco-announces-summer-showcase-featuring-new-game-re",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement", "reveal"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-07-02", "unit": "date", "currency": null,
+          "entity": "bandai-namco-summer-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2025-06-30", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "July 2 at 8pm UK time",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/bandai-namco-announces-summer-showcase-featuring-new-game-reveal/" } }
+      ],
+      "summary": "Bandai Namco announced a Summer Showcase featuring a new game reveal, set for 2 July 2025 at 8pm UK time."
+    },
+    {
+      "ref": "main_news/sonic-adventure-director-says-don-t-expect-remakes-or-remast",
+      "entities": {
+        "games": [{ "id": "sonic-adventure", "name": "Sonic Adventure", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "sonic", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The director of Sonic Adventure said not to expect remakes or remasters anytime soon."
+    },
+    {
+      "ref": "main_news/a-short-hike-dev-halts-work-on-unfinished-rpg-saying-i-might",
+      "entities": {
+        "games": [{ "id": "a-short-hike", "name": "A Short Hike", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [],
+      "summary": "The developer of A Short Hike halted work on an unfinished RPG and released its demo, saying they might never finish it."
+    },
+    {
+      "ref": "main_news/fans-slam-the-alters-after-discovering-evidence-of-undisclos",
+      "entities": {
+        "games": [{ "id": "the-alters", "name": "The Alters", "aliases": [], "genres": ["survival", "adventure"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Fans criticised The Alters after discovering evidence of undisclosed generative AI in its images, text, and translation."
+    },
+    {
+      "ref": "main_news/national-videogame-museum-to-feature-at-world-expo-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "The National Videogame Museum is to feature at World Expo 2025."
+    },
+    {
+      "ref": "main_news/a-year-after-that-psn-fiasco-helldivers-2-s-long-anticipated",
+      "entities": {
+        "games": [{ "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A year after the PSN account-linking controversy, Helldivers 2's long-anticipated review bomb cape has finally arrived."
+    },
+    {
+      "ref": "main_news/battlefield-s-latest-leaked-gameplay-video-shows-15-minutes",
+      "entities": {
+        "games": [{ "id": "battlefield", "name": "Battlefield", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay"],
+      "facts": [],
+      "summary": "A leaked Battlefield gameplay video showed 15 minutes of a new mode, the returning Rush game mode."
+    },
+    {
+      "ref": "main_news/dave-the-diver-delays-in-the-jungle-dlc-but-sure-knows-how-t",
+      "entities": {
+        "games": [{ "id": "dave-the-diver", "name": "Dave the Diver", "aliases": [], "genres": ["adventure", "simulation"], "franchise": "dave-the-diver", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "dlc-expansion", "free-game"],
+      "facts": [],
+      "summary": "Dave the Diver delayed its In the Jungle DLC to 2026 while making the Godzilla DLC pack free again."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-switch-online-expansion-pass-game",
+      "entities": {
+        "games": [{ "id": "super-mario-strikers", "name": "Super Mario Strikers", "aliases": [], "genres": ["sports"], "franchise": "mario", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-online", "name": "Nintendo Switch Online + Expansion Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-07-03", "unit": "date", "currency": null,
+          "entity": "super-mario-strikers", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-30", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Super Mario Strikers - July 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/super-mario-strikers-is-coming-to-switch-2s-gamecube-library-next-week/" } }
+      ],
+      "summary": "Super Mario Strikers is coming to Nintendo Switch Online + Expansion Pass on 3 July 2025."
+    },
+    {
+      "ref": "business/riot-games-opens-the-door-to-betting-sponsorships-in-profess",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": [], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true },
+          { "id": "valorant", "name": "Valorant", "aliases": [], "genres": ["fps", "hero-shooter", "shooter"], "franchise": "valorant", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "riot-games", "name": "Riot Games", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Riot Games opened the door to betting sponsorships in professional League of Legends and Valorant."
+    },
+    {
+      "ref": "business/obituary-unity-senior-program-manager-andy-brammall-has-pass",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "andy-brammall", "name": "Andy Brammall", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Unity senior program manager Andy Brammall has passed away."
+    }
+  ]
+}

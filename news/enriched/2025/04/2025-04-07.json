@@ -1,0 +1,100 @@
+{
+  "date": "2025-04-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/game-development-legend-overwatch-art-director-bill-petras-h",
+      "entities": {
+        "games": [
+          { "id": "overwatch", "name": "Overwatch", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": "overwatch", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "bill-petras", "name": "Bill Petras", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Overwatch art director Bill Petras, described as a game development legend, has unexpectedly died."
+    },
+    {
+      "ref": "main_news/zenless-zone-zero-is-coming-to-xbox-more-info-in-april-11th",
+      "entities": {
+        "games": [
+          { "id": "zenless-zone-zero", "name": "Zenless Zone Zero", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hoyoverse", "name": "HoYoverse", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-04-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "zenless-zone-zero",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2025-04-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "More Info in April 11th Livestream",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/no-its-not-a-joke-zenless-zone-zero-really-is-coming-to-xbox" }
+        }
+      ],
+      "summary": "Zenless Zone Zero is coming to Xbox, with more information promised in an April 11th livestream."
+    },
+    {
+      "ref": "business/nintendo-delays-switch-2-pre-orders-in-the-us-due-to-trump-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "donald-trump", "name": "Trump", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["delay", "hardware", "regulation"],
+      "facts": [],
+      "summary": "Nintendo has delayed Switch 2 pre-orders in the US due to Trump tariffs, while keeping the US launch date unchanged."
+    },
+    {
+      "ref": "business/twin-sails-interactive-becomes-independent-from-asmodee-grou",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "twin-sails-interactive", "name": "Twin Sails Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "asmodee-group", "name": "Asmodee Group", "aliases": ["Asmodee"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "nicolas-godement", "name": "Nicolas Godement", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["merger"],
+      "facts": [],
+      "summary": "Twin Sails Interactive has become independent from Asmodee Group, with CEO Nicolas Godement praising the time spent under Asmodee."
+    }
+  ]
+}

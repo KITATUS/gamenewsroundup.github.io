@@ -1,0 +1,117 @@
+{
+  "date": "2024-04-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/people-can-fly-has-cancelled-co-op-action-rpg-project-dagger",
+      "entities": {
+        "games": [
+          { "id": "project-dagger", "name": "Project Dagger", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "People Can Fly has cancelled its co-op action RPG Project Dagger."
+    },
+    {
+      "ref": "main_news/stellar-blade-director-says-half-second-input-lag-when-parry",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "kim-hyung-tae", "name": "Kim Hyung-Tae", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Stellar Blade director Kim Hyung-Tae says the roughly half-second input lag when parrying and dodging is a deliberate design choice."
+    },
+    {
+      "ref": "main_news/players-who-got-ps4-fallout-4-through-ps-plus-facing-issues",
+      "entities": {
+        "games": [
+          { "id": "fallout-4", "name": "Fallout 4", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": ["Bethesda"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps-plus", "name": "PS Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Players who obtained PS4 Fallout 4 through PS Plus are facing issues redeeming the free PS5 next-gen upgrade, which Bethesda and Sony attributed to a bug."
+    },
+    {
+      "ref": "main_news/blizzcon-is-cancelled-again-after-last-year-s-first-in-perso",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Blizzard has cancelled BlizzCon again, following last year's first in-person event since 2019, though it may return in future years."
+    },
+    {
+      "ref": "business/frostpunk-has-sold-5m-copies-in-six-years",
+      "entities": {
+        "games": [
+          { "id": "frostpunk", "name": "Frostpunk", "aliases": [], "genres": ["survival", "strategy", "simulation"], "franchise": "frostpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "11-bit-studios", "name": "11 bit studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 5000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "frostpunk",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-04-26",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Frostpunk has sold 5m copies in six years",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/323190/view/4201371495599825358" }
+        }
+      ],
+      "summary": "Frostpunk has sold 5 million copies over six years."
+    }
+  ]
+}

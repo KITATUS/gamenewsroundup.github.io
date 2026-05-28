@@ -1,0 +1,126 @@
+{
+  "date": "2026-01-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/south-park-is-coming-to-fortnite-this-week-free-mini-battle",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "tps"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "free-game", "announcement"],
+      "facts": [],
+      "summary": "South Park is coming to Fortnite this week with a free mini battle pass featuring South Park, Cartmanland, mech suit skins and more."
+    },
+    {
+      "ref": "main_news/xbox-developer-direct-coming-later-this-month-featuring-fabl",
+      "entities": {
+        "games": [
+          { "id": "fable", "name": "Fable", "aliases": [], "genres": ["action-rpg"], "franchise": "fable", "inferred": true },
+          { "id": "forza", "name": "Forza", "aliases": [], "genres": ["racing"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "game-freak", "name": "Game Freak", "aliases": [], "publisher": "the-pokemon-company", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-01-22",
+          "unit": "date",
+          "currency": null,
+          "entity": "xbox-developer-direct",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-01-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Jan 22",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-developer-direct-coming-later-this-month-featuring-fable-forza-and-game-freak/"
+          }
+        }
+      ],
+      "summary": "An Xbox Developer Direct featuring Fable, Forza and Game Freak is set for January 22, including a first in-depth look at Fable."
+    },
+    {
+      "ref": "main_news/xbox-and-obsidian-s-avowed-is-coming-to-ps5-ps5-version-will",
+      "entities": {
+        "games": [
+          { "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg"], "franchise": "pillars-of-eternity", "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian", "aliases": ["Obsidian"], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date", "dlc-expansion"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-02-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "avowed",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-01-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS5 version will release alongside Avowed’s anniversary update on February 17",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-and-obsidians-avowed-is-coming-to-ps5-with-new-modes-and-content/"
+          }
+        }
+      ],
+      "summary": "Xbox and Obsidian's Avowed is coming to PS5 on February 17, releasing alongside an anniversary update that adds New Game Plus, new races, new weapon types and a Photo Mode."
+    },
+    {
+      "ref": "free_games_subscription/fire-emblem-path-of-radiance-has-been-added-to-nintendo-swit",
+      "entities": {
+        "games": [
+          { "id": "fire-emblem-path-of-radiance", "name": "Fire Emblem: Path of Radiance", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "fire-emblem", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Nintendo Switch Online"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Fire Emblem: Path of Radiance has been added to Nintendo Switch Online."
+    }
+  ]
+}

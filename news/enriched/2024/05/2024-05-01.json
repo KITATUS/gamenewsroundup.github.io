@@ -1,0 +1,199 @@
+{
+  "date": "2024-05-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-games-showcase-and-redacted-direct-announced-for-june-9",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops", "name": "Call of Duty: Black Ops", "aliases": ["Redacted"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-06-09", "unit": "date", "currency": null,
+          "entity": "xbox-games-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "June 9, 2024, starting at 10am PT / 1pm ET / 6pm BST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-games-showcase-and-redacted-direct-announced-for-june-9/" } }
+      ],
+      "summary": "Microsoft announced the Xbox Games Showcase and a follow-up \"Redacted\" Direct for June 9, 2024."
+    },
+    {
+      "ref": "main_news/starfield-s-shattered-space-story-expansion-is-launching-thi",
+      "entities": {
+        "games": [
+          { "id": "starfield", "name": "Starfield", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Starfield's Shattered Space story expansion was confirmed to launch in fall 2024, with a prior update adding ship building and city map features."
+    },
+    {
+      "ref": "free_games_subscription/fallout-4-s-free-next-gen-update-now-available-for-playstati",
+      "entities": {
+        "games": [
+          { "id": "fallout-4", "name": "Fallout 4", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": true },
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+", "PS Collection", "PlayStation Plus Collection"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Fallout 4's free next-gen PS5 update became available to PlayStation Plus Collection owners after earlier access confusion."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been",
+      "entities": {
+        "games": [
+          { "id": "have-a-nice-death", "name": "Have A Nice Death", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "tomb-raider-definitive-edition", "name": "Tomb Raider: Definitive Edition", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "kona-ii-brume", "name": "Kona II: Brume", "aliases": [], "genres": ["adventure"], "franchise": "kona", "inferred": true },
+          { "id": "little-kitty-big-city", "name": "Little Kitty, Big City", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "brothers-a-tale-of-two-sons", "name": "Brothers: A Tale of Two Sons", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "eastern-exorcist", "name": "Eastern Exorcist", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "eiyuden-chronicle-rising", "name": "Eiyuden Chronicle Rising", "aliases": [], "genres": ["action-rpg"], "franchise": "eiyuden-chronicle", "inferred": true },
+          { "id": "fuga-melodies-of-steel-2", "name": "Fuga: Melodies of Steel 2", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "fuga", "inferred": true },
+          { "id": "ghostlore", "name": "Ghostlore", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "just-cause-4-reloaded", "name": "Just Cause 4 Reloaded", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "just-cause", "inferred": true },
+          { "id": "norco", "name": "Norco", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "sd-gundam-battle-alliance", "name": "SD Gundam Battle Alliance", "aliases": [], "genres": ["action-rpg"], "franchise": "gundam", "inferred": true },
+          { "id": "supraland-six-inches-under", "name": "Supraland Six Inches Under", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": "supraland", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Xbox Cloud Gaming", "aliases": ["Cloud"], "inferred": true },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-04-30", "unit": "date", "currency": null,
+          "entity": "have-a-nice-death", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Have A Nice Death (Cloud, Console, and PC) – April 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-12/" } },
+        { "metric": "release_date", "value": "2024-05-02", "unit": "date", "currency": null,
+          "entity": "tomb-raider-definitive-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tomb Raider: Definitive Edition (Cloud, Console, and PC) – May 2",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-12/" } },
+        { "metric": "release_date", "value": "2024-05-07", "unit": "date", "currency": null,
+          "entity": "kona-ii-brume", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Kona II: Brume (Cloud, Console, and PC) – May 7",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-12/" } },
+        { "metric": "release_date", "value": "2024-05-09", "unit": "date", "currency": null,
+          "entity": "little-kitty-big-city", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Little Kitty, Big City (Cloud, Console, and PC) – May 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-12/" } },
+        { "metric": "release_date", "value": "2024-05-14", "unit": "date", "currency": null,
+          "entity": "brothers-a-tale-of-two-sons", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Brothers: A Tale of Two Sons (Cloud, Console, and PC) – May 14",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-12/" } }
+      ],
+      "summary": "Microsoft announced new Xbox Game Pass additions across console, PC and Cloud, alongside a list of titles leaving the service on May 15."
+    },
+    {
+      "ref": "business/deliver-us-mars-developer-keoken-interactive-lays-off-team-a",
+      "entities": {
+        "games": [
+          { "id": "deliver-us-mars", "name": "Deliver Us Mars", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "keoken-interactive", "name": "Keoken Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 13, "unit": "people", "currency": null,
+          "entity": "keoken-interactive", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "13 people affected, only the two co-founders remain",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/keoken-interactive-lays-off-team-after-failing-to-find-funding-at-gdc" } }
+      ],
+      "summary": "Deliver Us Mars developer Keoken Interactive laid off 13 staff, leaving only its two co-founders, after failing to secure funding at GDC."
+    },
+    {
+      "ref": "business/hasbro-s-1-billion-bet-on-internal-game-development",
+      "entities": {
+        "games": [
+          { "id": "exodus", "name": "Exodus", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "atomic-arcade", "name": "Atomic Arcade", "aliases": [], "publisher": "hasbro", "inferred": false },
+          { "id": "invoke-studios", "name": "Invoke Studios", "aliases": [], "publisher": "hasbro", "inferred": false },
+          { "id": "skeleton-key", "name": "Skeleton Key", "aliases": [], "publisher": "hasbro", "inferred": false },
+          { "id": "archetype", "name": "Archetype", "aliases": [], "publisher": "hasbro", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "hasbro", "name": "Hasbro", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "james-ohlen", "name": "James Ohlen", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "development_budget", "value": 1000000000, "unit": "money", "currency": "USD",
+          "entity": "hasbro", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Hasbro's $1 billion bet on internal game development",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/hasbros-1-billion-bet-on-internal-game-development" } }
+      ],
+      "summary": "Hasbro is making a $1 billion bet on internal game development, building four AAA studios rather than licensing out its properties."
+    },
+    {
+      "ref": "business/square-enix-abandons-112m-of-in-development-projects-in-an-e",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "development_budget", "value": 112000000, "unit": "money", "currency": "GBP",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Square Enix abandons £112m of in-development projects in an effort to improve quality",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/square-enix-abandons-112m-of-in-development-projects-in-an-effort-to-improve-quality" } }
+      ],
+      "summary": "Square Enix abandoned £112m of in-development projects, saying it will be more selective going forward to improve quality."
+    }
+  ]
+}

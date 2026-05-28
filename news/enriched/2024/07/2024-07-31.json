@@ -1,0 +1,164 @@
+{
+  "date": "2024-07-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/activision-releases-call-of-duty-warzone-caldera-data-set-fo",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty-warzone",
+            "name": "Call of Duty Warzone",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "activision",
+            "name": "Activision",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Activision released the Call of Duty Warzone Caldera data set in OpenUSD format for academic and research use."
+    },
+    {
+      "ref": "main_news/jackbox-games-new-megapicker-launcher-currently-gives-you-dr",
+      "entities": {
+        "games": [
+          {
+            "id": "drawful-2",
+            "name": "Drawful 2",
+            "aliases": [],
+            "genres": ["party"],
+            "franchise": "jackbox",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "jackbox-games",
+            "name": "Jackbox Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "free-game"],
+      "facts": [],
+      "summary": "Jackbox Games launched its new Megapicker launcher on Steam and is giving away Drawful 2 free to celebrate the release."
+    },
+    {
+      "ref": "main_news/helldivers-2-s-fire-themed-warbond-detailed-ahead-of-next-we",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "reveal"],
+      "facts": [],
+      "summary": "Helldivers 2's fire-themed Warbond was detailed ahead of its launch next week."
+    },
+    {
+      "ref": "business/activision-blizzard-again-boosted-xbox-s-earning-results-whi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "activision-blizzard",
+            "name": "Activision Blizzard",
+            "aliases": ["Activision"],
+            "inferred": false
+          },
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-game-pass",
+            "name": "Xbox Game Pass",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Microsoft reported that Activision Blizzard again boosted Xbox's quarterly earnings, with gaming revenue and content and services revenue up year-over-year while Xbox hardware revenue declined."
+    },
+    {
+      "ref": "rumours/goat-simulator-remastered-has-been-rated-for-ps5-in-taiwan",
+      "entities": {
+        "games": [
+          {
+            "id": "goat-simulator-remastered",
+            "name": "Goat Simulator Remastered",
+            "aliases": ["Goat Simulator"],
+            "genres": ["simulation", "sandbox"],
+            "franchise": "goat-simulator",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Goat Simulator Remastered has been rated for PS5 in Taiwan, suggesting a remaster is headed to current-gen platforms."
+    }
+  ]
+}

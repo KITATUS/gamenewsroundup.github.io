@@ -1,0 +1,126 @@
+{
+  "date": "2025-06-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/epic-games-state-of-unreal-livestream-today-at-9-30am-et-6-3",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-iv", "name": "The Witcher IV", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false },
+          { "id": "cd-projekt", "name": "CD Projekt", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "unreal-engine", "name": "Unreal Engine", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Epic Games is holding its State of Unreal livestream today, with expected news on Unreal Engine animation features, CD Projekt's collaboration including The Witcher IV, and Fortnite."
+    },
+    {
+      "ref": "main_news/io-interactive-announces-its-first-showcase-featuring-hitman",
+      "entities": {
+        "games": [
+          { "id": "hitman", "name": "Hitman", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "hitman", "inferred": true },
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure"], "franchise": "james-bond", "inferred": true },
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": ["IOI"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-06-06", "unit": "date", "currency": null,
+          "entity": "ioi-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2025-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "IOI Showcase streams June 6th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/io-interactive-announces-its-first-showcase-featuring-hitman-007-first-light-and-mindseye/" } }
+      ],
+      "summary": "IO Interactive announced its first showcase, featuring Hitman, 007 First Light and MindsEye, streaming June 6th."
+    },
+    {
+      "ref": "main_news/former-the-sims-producer-tim-letourneau-has-died",
+      "entities": {
+        "games": [
+          { "id": "the-sims", "name": "The Sims", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tim-letourneau", "name": "Tim LeTourneau", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Former The Sims producer Tim LeTourneau has died."
+    },
+    {
+      "ref": "business/6-welsh-game-developers-secure-1-1m-welsh-government-funding",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1100000, "unit": "money", "currency": "USD",
+          "entity": "welsh-government", "entity_type": "company", "scope": "company",
+          "as_of": "2025-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "6 Welsh game developers secure $1.1m Welsh Government funding to develop their pilots",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/6-welsh-game-developers-secure-11m-welsh-government-funding-to-develop-their-pilots" } }
+      ],
+      "summary": "Six Welsh game developers secured $1.1m in Welsh Government funding to develop their pilots."
+    },
+    {
+      "ref": "business/tango-gameworks-unveils-new-branding-and-confirms-it-s-worki",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Tango Gameworks unveiled new branding and confirmed it is working on a new action game."
+    },
+    {
+      "ref": "business/wizards-of-the-coast-announces-exclusive-publishing-agreemen",
+      "entities": {
+        "games": [
+          { "id": "dungeons-dragons", "name": "Dungeons & Dragons", "aliases": ["D&D"], "genres": ["rpg"], "franchise": "dungeons-and-dragons", "inferred": true }
+        ],
+        "studios": [
+          { "id": "giant-skull", "name": "Giant Skull", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "wizards-of-the-coast", "name": "Wizards of the Coast", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Wizards of the Coast announced an exclusive publishing agreement with Giant Skull for Dungeons & Dragons games."
+    }
+  ]
+}

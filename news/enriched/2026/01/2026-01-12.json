@@ -1,0 +1,90 @@
+{
+  "date": "2026-01-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/following-various-ai-controversies-larian-will-not-use-gener",
+      "entities": {
+        "games": [
+          {
+            "id": "divinity",
+            "name": "Divinity",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "divinity",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "larian-studios",
+            "name": "Larian Studios",
+            "aliases": ["Larian"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Larian Studios has confirmed it will not use generative AI for Divinity concept art, following various AI controversies."
+    },
+    {
+      "ref": "main_news/awesome-games-done-quick-2026-closes-with-1-8m-raised-for-pr",
+      "entities": {
+        "games": [
+          {
+            "id": "super-mario-64",
+            "name": "Super Mario 64",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "super-mario",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Awesome Games Done Quick 2026 closed with £1.8m raised for the Prevent Cancer Foundation."
+    },
+    {
+      "ref": "main_news/fortnite-now-lets-creators-publish-islands-with-in-game-tran",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "sandbox"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Fortnite now lets creators publish islands with in-game transactions, a move by Epic Games that has sparked pay-to-win concerns."
+    }
+  ]
+}

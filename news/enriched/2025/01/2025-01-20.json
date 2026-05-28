@@ -1,0 +1,297 @@
+{
+  "date": "2025-01-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/call-of-duty-black-ops-6-bans-another-136-000-cheaters",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty-black-ops-6",
+            "name": "Call of Duty: Black Ops 6",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Call of Duty: Black Ops 6 has banned another 136,000 cheaters."
+    },
+    {
+      "ref": "main_news/tomb-raider-4-6-remastered-restores-unused-dialogue-and-adds",
+      "entities": {
+        "games": [
+          {
+            "id": "tomb-raider-4-6-remastered",
+            "name": "Tomb Raider 4 - 6 Remastered",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "tomb-raider",
+            "inferred": true
+          },
+          {
+            "id": "tomb-raider-the-angel-of-darkness",
+            "name": "Tomb Raider: The Angel of Darkness",
+            "aliases": ["Angel of Darkness"],
+            "genres": ["action-adventure"],
+            "franchise": "tomb-raider",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "lara-croft",
+            "name": "Lara Croft",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "kurtis-trent",
+            "name": "Kurtis Trent",
+            "aliases": ["Kurtis"],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["remaster-remake", "update-patch"],
+      "facts": [],
+      "summary": "Tomb Raider 4 - 6 Remastered restores unused dialogue and adds quality-of-life features to Angel of Darkness."
+    },
+    {
+      "ref": "main_news/pok-mon-tcg-pocket-gets-trading-later-this-month-but-rules-w",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-tcg-pocket",
+            "name": "Pokémon TCG Pocket",
+            "aliases": [],
+            "genres": ["card"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "the-pokemon-company",
+            "name": "The Pokémon Company",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Pokémon TCG Pocket is getting a trading feature later this month, with rules limiting which cards can be swapped."
+    },
+    {
+      "ref": "business/poppy-playtime-developer-mob-entertainment-is-suing-google-f",
+      "entities": {
+        "games": [
+          {
+            "id": "poppy-playtime",
+            "name": "Poppy Playtime",
+            "aliases": [],
+            "genres": ["horror"],
+            "franchise": "poppy-playtime",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "mob-entertainment",
+            "name": "Mob Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "daigo-game-2020",
+            "name": "Daigo Game 2020 Inc.",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "google-play",
+            "name": "Google Play",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Poppy Playtime developer Mob Entertainment is suing Google for failing to remove \"scam\" apps from the Google Play store."
+    },
+    {
+      "ref": "business/genshin-impact-maker-agrees-to-pay-20m-in-ftc-case-accusing",
+      "entities": {
+        "games": [
+          {
+            "id": "genshin-impact",
+            "name": "Genshin Impact",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hoyoverse",
+            "name": "HoYoverse",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "Genshin Impact maker has agreed to pay $20m in an FTC case accusing it of violating children's privacy and deceiving players."
+    },
+    {
+      "ref": "business/dragon-age-the-veilguard-game-director-corinne-busche-leaves",
+      "entities": {
+        "games": [
+          {
+            "id": "dragon-age-the-veilguard",
+            "name": "Dragon Age: The Veilguard",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "dragon-age",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bioware",
+            "name": "BioWare",
+            "aliases": [],
+            "publisher": "electronic-arts",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "corinne-busche",
+            "name": "Corinne Busche",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Dragon Age: The Veilguard game director Corinne Busche has left BioWare."
+    },
+    {
+      "ref": "business/winking-studios-announces-proposed-acquisition-of-mineloader",
+      "entities": {
+        "games": [
+          {
+            "id": "avatar-frontiers-of-pandora",
+            "name": "Avatar: Frontiers of Pandora",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "avatar",
+            "inferred": true
+          },
+          {
+            "id": "star-wars-outlaws",
+            "name": "Star Wars Outlaws",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "star-wars",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "winking-studios",
+            "name": "Winking Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "mineloader",
+            "name": "Mineloader",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 16300000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "mineloader",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-01-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The total consideration amounts to £16.3 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/winking-studios-announces-proposed-acquisition-of-mineloader"
+          }
+        },
+        {
+          "metric": "acquisition_price",
+          "value": 14700000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "mineloader",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-01-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "an upfront payment of £14.7 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/winking-studios-announces-proposed-acquisition-of-mineloader"
+          }
+        }
+      ],
+      "summary": "Winking Studios has announced a proposed acquisition of Shanghai outsourcing studio Mineloader for a total of £16.3 million."
+    }
+  ]
+}

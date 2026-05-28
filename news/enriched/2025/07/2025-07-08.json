@@ -1,0 +1,89 @@
+{
+  "date": "2025-07-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/unity-promises-strong-ai-copyright-guardrails-after-employee",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Unity promised stronger AI copyright guardrails after an employee generated Mickey Mouse using its AI tools on a stream."
+    },
+    {
+      "ref": "main_news/stop-killing-games-proposals-for-game-preservation-prohibiti",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Major publishers called the Stop Killing Games game-preservation proposals prohibitively expensive as the related EU petition surpassed one million signatures."
+    },
+    {
+      "ref": "main_news/valve-blocks-mod-on-mount-and-blade-warband-in-south-korea-f",
+      "entities": {
+        "games": [
+          { "id": "mount-and-blade-warband", "name": "Mount and Blade: Warband", "aliases": [], "genres": ["action-rpg", "strategy"], "franchise": "mount-and-blade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation", "delisting"],
+      "facts": [],
+      "summary": "Valve blocked a Mount and Blade: Warband mod in South Korea after a government request, which described the mod as a distorted depiction of the Gwangju Democratisation Movement."
+    },
+    {
+      "ref": "business/romero-games-disputes-claims-it-has-completely-closed-the-st",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "romero-games", "name": "Romero Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Romero Games disputed claims that it had completely closed, saying it is doing everything in its power to remain open."
+    },
+    {
+      "ref": "business/square-enix-has-invested-in-a-danish-indie-studio-betadwarf",
+      "entities": {
+        "games": [
+          { "id": "vault-breakers", "name": "Vault Breakers", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "betadwarf", "name": "BetaDwarf", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Square Enix invested in Danish indie studio BetaDwarf to help fund its game Vault Breakers."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "date": "2025-03-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/obituary-voice-actor-dave-mallow-has-passed-away-at-age-76",
+      "entities": {
+        "games": [
+          { "id": "street-fighter", "name": "Street Fighter", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "resistance-3", "name": "Resistance 3", "aliases": [], "genres": ["fps"], "franchise": "resistance", "inferred": true },
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "dave-mallow", "name": "Dave Mallow", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Voice actor Dave Mallow, who voiced characters in games including Street Fighter, Resistance 3, and Call of Duty, has died at age 76."
+    },
+    {
+      "ref": "main_news/obituary-thomas-lee-ea-alum-and-strategic-advisor-has-died",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-ix", "name": "Final Fantasy IX", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "wing-commander-iii", "name": "Wing Commander III", "aliases": [], "genres": ["simulation"], "franchise": "wing-commander", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nexon-america", "name": "Nexon America", "aliases": [], "publisher": "nexon", "inferred": true },
+          { "id": "stealth-crossmedia", "name": "Stealth CrossMedia", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "thomas-lee", "name": "Thomas Lee", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Thomas Lee, an EA alum and strategic advisor who worked on Final Fantasy IX and Wing Commander III before managerial and producer roles at Nexon America and Stealth CrossMedia, has died."
+    },
+    {
+      "ref": "free_games_subscription/ps-plus-premium-and-extra-games-for-march",
+      "entities": {
+        "games": [
+          { "id": "ufc-5", "name": "UFC 5", "aliases": [], "genres": ["fighting", "sports"], "franchise": "ufc", "inferred": true },
+          { "id": "prince-of-persia-the-lost-crown", "name": "Prince of Persia: The Lost Crown", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "prince-of-persia", "inferred": true },
+          { "id": "captain-tsubasa-rise-of-new-champions", "name": "Captain Tsubasa: Rise of New Champions", "aliases": [], "genres": ["sports"], "franchise": "captain-tsubasa", "inferred": true },
+          { "id": "mobile-suit-gundam-battle-operation-code-fairy", "name": "Mobile Suit Gundam Battle Operation Code Fairy", "aliases": [], "genres": ["action"], "franchise": "gundam", "inferred": true },
+          { "id": "bang-on-balls-chronicles", "name": "Bang-On Balls: Chronicles", "aliases": [], "genres": ["platformer", "adventure"], "franchise": null, "inferred": true },
+          { "id": "you-suck-at-parking", "name": "You Suck at Parking", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "syberia-the-world-before", "name": "Syberia – The World Before", "aliases": [], "genres": ["adventure"], "franchise": "syberia", "inferred": true },
+          { "id": "armored-core", "name": "Armored Core", "aliases": [], "genres": ["action"], "franchise": "armored-core", "inferred": true },
+          { "id": "armored-core-project-phantasma", "name": "Armored Core: Project Phantasma", "aliases": [], "genres": ["action"], "franchise": "armored-core", "inferred": true },
+          { "id": "armored-core-master-of-arena", "name": "Armored Core: Master of Arena", "aliases": [], "genres": ["action"], "franchise": "armored-core", "inferred": true },
+          { "id": "arcade-paradise-vr", "name": "Arcade Paradise VR", "aliases": [], "genres": ["simulation"], "franchise": "arcade-paradise", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus", "PS Plus Premium"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "psvr2", "name": "PSVR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Sony revealed the PlayStation Plus Premium and Extra games for March, including UFC 5, Prince of Persia: The Lost Crown, and several Armored Core titles."
+    },
+    {
+      "ref": "business/live-service-game-engine-pragma-nets-12-75-million-in-fundin",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "pragma", "name": "Pragma", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 12750000, "unit": "money", "currency": "USD",
+          "entity": "pragma", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Pragma nets $12.75 million in funding",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/live-service-game-engine-pragma-nets-12-75-million-in-funding" } }
+      ],
+      "summary": "Live-service game engine company Pragma raised $12.75 million in funding."
+    },
+    {
+      "ref": "business/virtuos-establishes-new-south-korea-studio",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "virtuos", "name": "Virtuos", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Virtuos established a new studio in South Korea."
+    },
+    {
+      "ref": "business/moon-studios-ori-series-tops-15m-sales",
+      "entities": {
+        "games": [
+          { "id": "ori", "name": "Ori", "aliases": ["Ori series"], "genres": ["metroidvania", "platformer"], "franchise": "ori", "inferred": true }
+        ],
+        "studios": [
+          { "id": "moon-studios", "name": "Moon Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 15000000, "unit": "units", "currency": null,
+          "entity": "ori", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-03-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Ori series tops 15m sales",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/thomasmahler/status/1899445295827554499" } }
+      ],
+      "summary": "Moon Studios' Ori series has surpassed 15 million in sales."
+    },
+    {
+      "ref": "business/pok-mon-go-and-the-rest-of-niantic-s-game-business-is-being",
+      "entities": {
+        "games": [
+          { "id": "pokemon-go", "name": "Pokémon Go", "aliases": [], "genres": ["adventure"], "franchise": "pokemon", "inferred": true },
+          { "id": "monopoly-go", "name": "Monopoly Go", "aliases": [], "genres": ["party"], "franchise": "monopoly", "inferred": true }
+        ],
+        "studios": [
+          { "id": "niantic", "name": "Niantic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "scopely", "name": "Scopely", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 3500000000, "unit": "money", "currency": "USD",
+          "entity": "niantic", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Niantic’s game business is being sold to Monopoly Go maker Scopely for $3.5 billion",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pokemon-go-and-the-rest-of-niantics-game-business[…]eing-sold-to-monopoly-go-maker-scopely-for-3-5-billion/" } }
+      ],
+      "summary": "Niantic's game business, including Pokémon Go, is being sold to Monopoly Go maker Scopely for $3.5 billion."
+    }
+  ]
+}

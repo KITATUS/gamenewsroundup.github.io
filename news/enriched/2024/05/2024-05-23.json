@@ -1,0 +1,128 @@
+{
+  "date": "2024-05-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/returning-multiversus-beta-players-will-receive-free-premium",
+      "entities": {
+        "games": [
+          {
+            "id": "multiversus",
+            "name": "MultiVersus",
+            "aliases": [],
+            "genres": ["fighting", "party"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-06-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "multiversus",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Users who played in the previous \"beta\" will have to login by June 11th to claim",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/returning-multiversus-beta-players-will-receive-free-premium-battle-pass"
+          }
+        }
+      ],
+      "summary": "Returning MultiVersus beta players who log in by 11 June 2024 will receive a free premium battle pass and special-edition cosmetics."
+    },
+    {
+      "ref": "business/relic-partners-with-investment-firm-to-go-fully-indie-again",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "relic-entertainment",
+            "name": "Relic Entertainment",
+            "aliases": ["Relic"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sega-europe",
+            "name": "Sega Europe",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "partnership"],
+      "facts": [],
+      "summary": "Relic Entertainment, which split from Sega Europe in late March, has secured funding from investment firm Emona Capital to remain independent."
+    },
+    {
+      "ref": "business/helldivers-2-developer-arrowhead-names-former-paradox-exec-a",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "arrowhead-game-studios",
+            "name": "Arrowhead Game Studios",
+            "aliases": ["Arrowhead"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "paradox-interactive",
+            "name": "Paradox Interactive",
+            "aliases": ["Paradox"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "shams-jorjani",
+            "name": "Shams Jorjani",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "johan-pilestedt",
+            "name": "Johan Pilestedt",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Helldivers 2 developer Arrowhead has named former Paradox executive Shams Jorjani as its new CEO, with outgoing CEO Johan Pilestedt moving to chief creative officer."
+    }
+  ]
+}

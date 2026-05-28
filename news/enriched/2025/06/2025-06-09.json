@@ -1,0 +1,576 @@
+{
+  "date": "2025-06-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sonic-racing-crossworlds-adds-minecraft-persona-hatsune-miku",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic", "inferred": true },
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true },
+          { "id": "persona", "name": "Persona", "aliases": [], "genres": ["jrpg"], "franchise": "persona", "inferred": true },
+          { "id": "like-a-dragon", "name": "Like a Dragon", "aliases": [], "genres": ["action-adventure"], "franchise": "like-a-dragon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": [{ "id": "hatsune-miku", "name": "Hatsune Miku", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sonic Racing: CrossWorlds is adding crossover characters from Minecraft, Persona, Hatsune Miku and Like a Dragon."
+    },
+    {
+      "ref": "main_news/resident-evil-9-is-officially-resident-evil-requiem-releases",
+      "entities": {
+        "games": [{ "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": ["Resident Evil 9", "RE:Q"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date", "trailer"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-02-27", "unit": "date", "currency": null,
+          "entity": "resident-evil-requiem", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases February 27th on Xbox Series S/X, PC and PS5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/resident-evil-9-is-officially-resident-evil-requiem-watch-the-first-trailer-here/" } }
+      ],
+      "summary": "Resident Evil 9 is officially titled Resident Evil Requiem and releases on 27 February on Xbox Series S/X, PC and PS5."
+    },
+    {
+      "ref": "main_news/xbox-branded-asus-ally-x-announced",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "asus", "name": "Asus", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [{ "id": "asus-ally-x", "name": "Asus Ally X", "aliases": ["Xbox Ally X"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [],
+      "summary": "An Xbox-branded Asus Ally X handheld has been announced."
+    },
+    {
+      "ref": "main_news/fighting-game-invincible-vs-announced-with-a-trailer-full-of",
+      "entities": {
+        "games": [{ "id": "invincible-vs", "name": "Invincible VS", "aliases": [], "genres": ["fighting"], "franchise": "invincible", "inferred": false }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "invincible-vs", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Coming to Xbox Series S/X, PlayStation 5, and PC in 2026",
+          "source": { "name": "GameSpot", "domain": "gamespot.com", "url": "https://www.gamespot.com/articles/fighting-game-invincible-vs-announced-with-a-trailer-full-of-gory-superhero-battles/1100-6532260/" } }
+      ],
+      "summary": "Fighting game Invincible VS was announced with a trailer, coming to Xbox Series S/X, PlayStation 5 and PC in 2026."
+    },
+    {
+      "ref": "main_news/puppet-fronted-comedy-fighter-felt-that-boxing-announced-at",
+      "entities": {
+        "games": [{ "id": "felt-that-boxing", "name": "Felt That: Boxing", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": false }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Puppet-fronted comedy fighter Felt That: Boxing was announced at Summer Game Fest."
+    },
+    {
+      "ref": "main_news/bloober-s-cronos-the-new-dawn-gets-release-window-fall-2025",
+      "entities": {
+        "games": [{ "id": "cronos-the-new-dawn", "name": "Cronos: The New Dawn", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "bloober-team", "name": "Bloober Team", "aliases": ["Bloober"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "Bloober's Cronos: The New Dawn received a Fall 2025 release window for Xbox Series S/X, PS5 and PC."
+    },
+    {
+      "ref": "main_news/ninja-gaiden-4-platinumgames-team-ninja-gets-october-21st-re",
+      "entities": {
+        "games": [{ "id": "ninja-gaiden-4", "name": "Ninja Gaiden 4", "aliases": [], "genres": ["action-adventure"], "franchise": "ninja-gaiden", "inferred": true }],
+        "studios": [
+          { "id": "platinumgames", "name": "PlatinumGames", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "team-ninja", "name": "Team Ninja", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-21", "unit": "date", "currency": null,
+          "entity": "ninja-gaiden-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "gets October 21st release date for Xbox Series S/X, PC and PS5",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ninja-gaiden-4-gets-october-release-date" } }
+      ],
+      "summary": "Ninja Gaiden 4, from PlatinumGames and Team Ninja, got an October 21st release date for Xbox Series S/X, PC and PS5."
+    },
+    {
+      "ref": "main_news/a-new-co-op-adventure-lego-voyagers-lets-players-experience",
+      "entities": {
+        "games": [{ "id": "lego-voyagers", "name": "Lego Voyagers", "aliases": [], "genres": ["adventure"], "franchise": "lego", "inferred": false }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Lego Voyagers, a new co-op adventure, was announced for PS4/5, Xbox Series S/X, Switch and PC with no release date given."
+    },
+    {
+      "ref": "main_news/monument-valley-3-is-coming-to-ps4-5-xbox-series-s-x-nintend",
+      "entities": {
+        "games": [{ "id": "monument-valley-3", "name": "Monument Valley 3", "aliases": [], "genres": ["puzzle"], "franchise": "monument-valley", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-07-22", "unit": "date", "currency": null,
+          "entity": "monument-valley-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "coming to PS4/5, Xbox Series S/X, Nintendo Switch and PC July 22nd",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/monument-valley-3-is-coming-to-pc-and-consoles-in-july/" } }
+      ],
+      "summary": "Monument Valley 3 is coming to PS4/5, Xbox Series S/X, Nintendo Switch and PC on July 22nd."
+    },
+    {
+      "ref": "main_news/high-on-life-2-has-been-announced-for-xbox-series-s-x-pc-and",
+      "entities": {
+        "games": [{ "id": "high-on-life-2", "name": "High On Life 2", "aliases": [], "genres": ["fps", "adventure"], "franchise": "high-on-life", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "High On Life 2 has been announced for Xbox Series S/X, PC and PS5 with a winter release."
+    },
+    {
+      "ref": "main_news/super-meat-boy-3d-is-coming-early-2026-for-xbox-series-s-x-p",
+      "entities": {
+        "games": [{ "id": "super-meat-boy-3d", "name": "Super Meat Boy 3D", "aliases": [], "genres": ["platformer"], "franchise": "super-meat-boy", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "super-meat-boy-3d", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "is coming early 2026 for Xbox Series S/X, PS5 and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/super-meat-boy-3d-is-coming-next-year/" } }
+      ],
+      "summary": "Super Meat Boy 3D is coming in early 2026 for Xbox Series S/X, PS5 and PC."
+    },
+    {
+      "ref": "main_news/pok-mon-developer-game-freak-revealed-a-new-ip-beast-of-rein",
+      "entities": {
+        "games": [{ "id": "beast-of-reincarnation", "name": "Beast of Reincarnation", "aliases": [], "genres": [], "franchise": null, "inferred": false }],
+        "studios": [{ "id": "game-freak", "name": "Game Freak", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "showcase"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "beast-of-reincarnation", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "expected to release 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pokemon-developer-game-freak-just-revealed-a-new-ip-at-the-xbox-showcase/" } }
+      ],
+      "summary": "Pokémon developer Game Freak revealed a new IP, Beast of Reincarnation, at the Xbox showcase, expected to release in 2026."
+    },
+    {
+      "ref": "main_news/inxile-s-first-person-steampunk-rpg-clockwork-revolution-get",
+      "entities": {
+        "games": [{ "id": "clockwork-revolution", "name": "Clockwork Revolution", "aliases": [], "genres": ["rpg", "fps"], "franchise": null, "inferred": false }],
+        "studios": [{ "id": "inxile-entertainment", "name": "InXile Entertainment", "aliases": ["InXile"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "gameplay"],
+      "facts": [],
+      "summary": "InXile's first-person steampunk RPG Clockwork Revolution received a five-minute gameplay trailer."
+    },
+    {
+      "ref": "main_news/grounded-2-will-release-via-xbox-game-preview-july-29th",
+      "entities": {
+        "games": [{ "id": "grounded-2", "name": "Grounded 2", "aliases": [], "genres": ["survival"], "franchise": "grounded", "inferred": true }],
+        "studios": [{ "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": ["Obsidian"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": ["Xbox Game Preview"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["release-date", "early-access"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-07-29", "unit": "date", "currency": null,
+          "entity": "grounded-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will release via Xbox Game Preview July 29th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-sequel-to-obsidians-grounded-is-coming-next-month/" } }
+      ],
+      "summary": "Grounded 2 will release via Xbox Game Preview on July 29th."
+    },
+    {
+      "ref": "main_news/persona-4-remake-persona-4-revival-has-officially-been-confi",
+      "entities": {
+        "games": [{ "id": "persona-4-revival", "name": "Persona 4 Revival", "aliases": ["Persona 4 remake"], "genres": ["jrpg"], "franchise": "persona", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "remaster-remake"],
+      "facts": [],
+      "summary": "A Persona 4 remake, Persona 4 Revival, has officially been confirmed for Xbox Series S/X, PS5 and PC."
+    },
+    {
+      "ref": "main_news/final-fantasy-7-remake-intergrade-and-final-fantasy-16-annou",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-remake-intergrade", "name": "Final Fantasy 7 Remake Intergrade", "aliases": ["Remake Intergrade"], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "final-fantasy-16", "name": "Final Fantasy 16", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Final Fantasy 7 Remake Intergrade and Final Fantasy 16 were announced for Xbox, with FF16 out now and Remake Intergrade releasing this winter."
+    },
+    {
+      "ref": "main_news/the-next-call-of-duty-game-is-black-ops-7",
+      "entities": {
+        "games": [{ "id": "call-of-du-black-ops-7", "name": "Call of Duty: Black Ops 7", "aliases": ["Black Ops 7"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "The next Call of Duty game is Black Ops 7."
+    },
+    {
+      "ref": "main_news/indiana-jones-and-the-great-circle-s-first-major-dlc-is-set",
+      "entities": {
+        "games": [{ "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-04", "unit": "date", "currency": null,
+          "entity": "indiana-jones-and-the-great-circle", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Order of the Giants releases September 4th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/indiana-jones-and-the-great-circles-first-major-dlc-is-set-in-rome/" } }
+      ],
+      "summary": "Indiana Jones and the Great Circle's first major DLC, The Order of the Giants, is set in Rome and releases September 4th."
+    },
+    {
+      "ref": "main_news/the-outer-worlds-2-is-officially-xbox-s-first-80-game-a-prem",
+      "entities": {
+        "games": [{ "id": "the-outer-worlds-2", "name": "The Outer Worlds 2", "aliases": ["Outer Worlds 2"], "genres": ["action-rpg"], "franchise": "the-outer-worlds", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 80, "unit": "price", "currency": "USD",
+          "entity": "the-outer-worlds-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Outer Worlds 2 is officially Xbox’s first $80 game",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-outer-worlds-2-is-officially-xboxs-first-80-game/" } },
+        { "metric": "price", "value": 100, "unit": "price", "currency": "USD",
+          "entity": "the-outer-worlds-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "which includes early access and a DLC pass, will release for $100",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-outer-worlds-2-is-officially-xboxs-first-80-game/" } }
+      ],
+      "summary": "The Outer Worlds 2 is officially Xbox's first $80 game, with a Premium Edition including early access and a DLC pass releasing for $100."
+    },
+    {
+      "ref": "main_news/keeper-a-new-game-from-double-fine-announced-for-xbox-and-pc",
+      "entities": {
+        "games": [{ "id": "keeper", "name": "Keeper", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "double-fine", "name": "Double Fine", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-17", "unit": "date", "currency": null,
+          "entity": "keeper", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "announced for Xbox and PC with an October 17th release date",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/keeper-a-new-game-from-double-fine-announced-for-xbox-ps5-and-pc/" } }
+      ],
+      "summary": "Keeper, a new game from Double Fine, was announced for Xbox and PC with an October 17th release date."
+    },
+    {
+      "ref": "main_news/princess-peach-s-voice-actor-of-18-years-confirms-she-s-been",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "princess-peach", "name": "Princess Peach", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Princess Peach's voice actor of 18 years confirmed she has been replaced."
+    },
+    {
+      "ref": "main_news/bandai-namco-unveils-code-vein-2-at-summer-game-fest-2026-re",
+      "entities": {
+        "games": [{ "id": "code-vein-2", "name": "Code Vein 2", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "code-vein", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "showcase", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "code-vein-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "2026 release date for Xbox Series S/X, PS5 and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bandai-namco-unveils-code-vein-2-at-summer-game-fest/" } }
+      ],
+      "summary": "Bandai Namco unveiled Code Vein 2 at Summer Game Fest with a 2026 release date for Xbox Series S/X, PS5 and PC."
+    },
+    {
+      "ref": "main_news/jurassic-world-evolution-3-is-coming-in-october-with-a-compr",
+      "entities": {
+        "games": [{ "id": "jurassic-world-evolution-3", "name": "Jurassic World Evolution 3", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "jurassic-world", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-21", "unit": "date", "currency": null,
+          "entity": "jurassic-world-evolution-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases October 21st for Xbox Series S/X and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/jurassic-world-evolution-3-is-coming-in-october-with-a-comprehensive-dinosaur-breeding-system/" } }
+      ],
+      "summary": "Jurassic World Evolution 3 is coming in October, releasing October 21st for Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/square-enix-reveals-killer-inn-a-24-player-online-murder-mys",
+      "entities": {
+        "games": [{ "id": "killer-inn", "name": "Killer Inn", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        { "metric": "players_total", "value": 24, "unit": "players", "currency": null,
+          "entity": "killer-inn", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "a 24-player online murder mystery game",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/square-enix-reveals-killer-inn-a-24-player-online-murder-mystery-game/" } }
+      ],
+      "summary": "Square Enix revealed Killer Inn, a 24-player online murder mystery game."
+    },
+    {
+      "ref": "main_news/15-years-later-the-scott-pilgrim-game-is-getting-a-sequel-sc",
+      "entities": {
+        "games": [{ "id": "scott-pilgrim-ex", "name": "Scott Pilgrim EX", "aliases": ["Scott Pilgrim"], "genres": ["action-adventure"], "franchise": "scott-pilgrim", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "pc", "name": "PC", "aliases": [], "inferred": false }],
+        "people": [{ "id": "bryan-lee-o-malley", "name": "Bryan Lee O'Malley", "aliases": ["Bryan-Lee O'Mally"], "inferred": false }]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "scott-pilgrim-ex", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "planned for release in 2026 for consoles and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/15-years-later-the-scott-pilgrim-game-is-getting-[…]-featuring-a-brand-new-story-from-the-original-creator/" } }
+      ],
+      "summary": "The Scott Pilgrim game is getting a sequel, Scott Pilgrim EX, with a brand-new story from Bryan Lee O'Malley, planned for 2026 on consoles and PC."
+    },
+    {
+      "ref": "main_news/hitman-s-latest-elusive-target-is-le-chiffre-from-007-casino",
+      "entities": {
+        "games": [{ "id": "hitman-world-of-assassination", "name": "Hitman World of Assassination", "aliases": ["Hitman"], "genres": ["stealth"], "franchise": "hitman", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "mads-mikkelsen", "name": "Mads Mikkelsen", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Hitman's latest elusive target is Le Chiffre from Casino Royale, played by Mads Mikkelsen, available in Hitman World of Assassination from June 6th to July 6th."
+    },
+    {
+      "ref": "main_news/brass-lion-entertainment-has-announced-wu-tang-rise-of-the-d",
+      "entities": {
+        "games": [{ "id": "wu-tang-rise-of-the-deceiver", "name": "Wu-Tang: Rise of the Deceiver", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": false }],
+        "studios": [{ "id": "brass-lion-entertainment", "name": "Brass Lion Entertainment", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Brass Lion Entertainment announced Wu-Tang: Rise of the Deceiver, a co-op action RPG featuring music from the hip-hop group."
+    },
+    {
+      "ref": "main_news/like-a-dragon-studio-s-latest-game-is-called-stranger-than-h",
+      "entities": {
+        "games": [
+          { "id": "stranger-than-heaven", "name": "Stranger Than Heaven", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "like-a-dragon", "name": "Like a Dragon", "aliases": [], "genres": ["action-adventure"], "franchise": "like-a-dragon", "inferred": true }
+        ],
+        "studios": [{ "id": "ryu-ga-gotoku-studio", "name": "Ryu Ga Gotoku Studio", "aliases": ["Like a Dragon studio"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "The Like a Dragon studio's latest game is called Stranger Than Heaven."
+    },
+    {
+      "ref": "business/dune-awakening-neared-100k-concurrent-players-on-day-one-of",
+      "entities": {
+        "games": [{ "id": "dune-awakening", "name": "Dune Awakening", "aliases": [], "genres": ["survival", "mmo"], "franchise": "dune", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "concurrent_players", "value": 100000, "unit": "players", "currency": null,
+          "entity": "dune-awakening", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Dune Awakening neared 100k concurrent players on day one of its special edition launch",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/dune-awakening-nears-100k-concurrent-players-day-one" } }
+      ],
+      "summary": "Dune Awakening neared 100k concurrent players on day one of its special edition launch."
+    },
+    {
+      "ref": "business/gearbox-publishes-statement-to-confirm-its-games-do-not-cont",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "gearbox", "name": "Gearbox", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Gearbox published a statement confirming its games do not contain spyware after players criticised a new EULA."
+    },
+    {
+      "ref": "rumours/tencent-reportedly-acquired-a-15-75-stake-in-arrowhead-game",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "rumour"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 15.75, "unit": "percent", "currency": null,
+          "entity": "arrowhead-game-studios", "entity_type": "company", "scope": "company",
+          "as_of": "2025-06-09", "period": "point_in_time", "direction": "up", "confidence": "medium",
+          "quote": "Tencent reportedly acquired a 15.75% stake in Arrowhead Game Studios last year",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/tencent-owns-15-of-helldivers-2-studio-arrowhead-it-has-emerged/" } }
+      ],
+      "summary": "Tencent reportedly acquired a 15.75% stake in Arrowhead Game Studios last year."
+    }
+  ]
+}

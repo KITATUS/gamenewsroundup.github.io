@@ -1,0 +1,138 @@
+{
+  "date": "2025-08-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/new-helldivers-2-xbox-trailer-teases-halo-3-odst-collab",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "halo-3-odst", "name": "Halo 3: ODST", "aliases": ["Halo 3 ODST"], "genres": ["fps", "shooter"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["trailer", "teaser", "partnership"],
+      "facts": [],
+      "summary": "A new Helldivers 2 Xbox trailer appears to tease a Halo 3: ODST crossover."
+    },
+    {
+      "ref": "main_news/this-year-s-gamescom-will-have-more-than-1-500-exhibitors-fo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Gamescom will have more than 1,500 exhibitors for the first time and a record show floor of 233,000 square metres."
+    },
+    {
+      "ref": "main_news/senua-s-saga-hellblade-2-enhanced-out-now-on-ps5-with-a-free",
+      "entities": {
+        "games": [{ "id": "senuas-saga-hellblade-2", "name": "Senua's Saga: Hellblade 2", "aliases": ["Senua's Saga: Hellblade 2 Enhanced"], "genres": ["action-adventure"], "franchise": "hellblade", "inferred": true }],
+        "studios": [{ "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port", "update-patch"],
+      "facts": [],
+      "summary": "Senua's Saga: Hellblade 2 Enhanced is out now on PS5, with a free update for Xbox and PC."
+    },
+    {
+      "ref": "main_news/epic-says-fortnite-and-the-epic-games-store-will-come-to-ios",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Epic says Fortnite and the Epic Games Store will come to iOS in Australia following a court ruling."
+    },
+    {
+      "ref": "main_news/remedy-was-unsatisfied-with-fbc-firebreak-s-launch-sales-but",
+      "entities": {
+        "games": [{ "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["fps", "shooter"], "franchise": "control", "inferred": true }],
+        "studios": [{ "id": "remedy-entertainment", "name": "Remedy", "aliases": ["Remedy"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [],
+      "summary": "Remedy said it was unsatisfied with FBC: Firebreak's launch sales but believes it has a solid game to build on."
+    },
+    {
+      "ref": "business/john-davison-senior-vice-president-and-publisher-departs-fro",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "john-davison", "name": "John Davison", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "John Davison, senior vice president and publisher, has departed from IGN Entertainment."
+    },
+    {
+      "ref": "business/remedy-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "remedy-entertainment", "name": "Remedy", "aliases": ["Remedy"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 16900000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-13", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Q2 Revenue: €16.9 million (up 63.5%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-q2-sales-jump-635-to-169m" }
+        },
+        {
+          "metric": "operating_income", "value": -500000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-13", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Q2 Operating loss: €0.5 million (compared to operating loss of €3.2 million for same quarter last year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-q2-sales-jump-635-to-169m" }
+        },
+        {
+          "metric": "revenue", "value": 30300000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-13", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "H1 2025 Revenue: €30.3 million (up 43.4%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-q2-sales-jump-635-to-169m" }
+        },
+        {
+          "metric": "operating_income", "value": 800000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-13", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "H1 2025 Operating profit: €0.8 million (compared to operating loss of €5.3 million for same quarter last year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-q2-sales-jump-635-to-169m" }
+        }
+      ],
+      "summary": "Remedy reported Q2 revenue of €16.9 million (up 63.5%) and a narrowed operating loss, with H1 2025 revenue of €30.3 million and an operating profit."
+    }
+  ]
+}

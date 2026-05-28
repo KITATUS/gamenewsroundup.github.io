@@ -1,0 +1,140 @@
+{
+  "date": "2024-12-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-partners-with-wallace-and-gromit-animation-studio-aa",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "aardman", "name": "Aardman", "aliases": ["Aardman"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "pokemon", "entity_type": "product", "scope": "product",
+          "as_of": "2024-12-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Project releases in 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/pokemon-is-partnering-with-wallace-and-gromit-animation-studio-aardman/" } }
+      ],
+      "summary": "The Pokémon Company has partnered with Wallace and Gromit animation studio Aardman, with the resulting project set to release in 2027."
+    },
+    {
+      "ref": "free_games_subscription/tetris-nes-and-tetris-dx-gbc-are-now-on-switch-online",
+      "entities": {
+        "games": [
+          { "id": "tetris", "name": "Tetris", "aliases": ["Tetris (NES)"], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "tetris-dx", "name": "Tetris DX", "aliases": ["Tetris DX (GBC)"], "genres": ["puzzle"], "franchise": "tetris", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Switch Online"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Tetris (NES) and Tetris DX (GBC) are now available on Nintendo Switch Online."
+    },
+    {
+      "ref": "free_games_subscription/the-epic-games-store-will-give-away-16-free-games-over-chris",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-12-19", "unit": "date", "currency": null,
+          "entity": "epic-games-store", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-12-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Starts December 19th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/the-epic-games-store-will-give-away-16-free-games-over-christmas/" } }
+      ],
+      "summary": "The Epic Games Store will give away 16 free games over Christmas, starting on 19 December 2024."
+    },
+    {
+      "ref": "free_games_subscription/december-s-playstation-plus-game-catalog-and-classics-titles",
+      "entities": {
+        "games": [
+          { "id": "sonic-frontiers", "name": "Sonic Frontiers", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "forspoken", "name": "Forspoken", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "rabbids-party-of-legends", "name": "Rabbids: Party of Legends", "aliases": [], "genres": ["party"], "franchise": "rabbids", "inferred": true },
+          { "id": "wrc-generations", "name": "WRC Generations", "aliases": [], "genres": ["racing"], "franchise": "wrc", "inferred": true },
+          { "id": "fist-forged-in-shadow-torch", "name": "F.I.S.T.: Forged In Shadow Torch", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true },
+          { "id": "jurassic-world-evolution-2", "name": "Jurassic World Evolution 2", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "jurassic-world", "inferred": true },
+          { "id": "coffee-talk", "name": "Coffee Talk", "aliases": [], "genres": ["visual-novel"], "franchise": "coffee-talk", "inferred": true },
+          { "id": "coffee-talk-episode-2-hibiscus-butterfly", "name": "Coffee Talk Episode 2: Hibiscus & Butterfly", "aliases": [], "genres": ["visual-novel"], "franchise": "coffee-talk", "inferred": true },
+          { "id": "a-space-for-the-unbound", "name": "A Space for the Unbound", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "phogs", "name": "Phogs", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "biped", "name": "Biped", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": null, "inferred": true },
+          { "id": "star-wars-tales-from-the-galaxys-edge", "name": "Star Wars: Tales from the Galaxy’s Edge", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps-vr2", "name": "PS VR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "reveal"],
+      "facts": [],
+      "summary": "December's PlayStation Plus Game Catalog and Classics titles were revealed for the Extra and Premium tiers."
+    },
+    {
+      "ref": "business/nintendo-now-owns-100-of-xenoblade-studio-monolith-soft",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "monolith-soft", "name": "Monolith Soft", "aliases": [], "publisher": "nintendo", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 100, "unit": "percent", "currency": null,
+          "entity": "monolith-soft", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-12-12", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "Nintendo now owns 100% of Xenoblade studio Monolith Soft",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/nintendo-now-owns-100-of-xenoblade-studio-monolith-soft/" } }
+      ],
+      "summary": "Nintendo now owns 100% of Xenoblade developer Monolith Soft."
+    },
+    {
+      "ref": "other_notes/tonight-is-the-game-awards-there-will-be-a-special-edition-g",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "A note that The Game Awards take place tonight, with a special edition Game News Round-Up to follow after the show."
+    }
+  ]
+}

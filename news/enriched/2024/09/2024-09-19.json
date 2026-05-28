@@ -1,0 +1,170 @@
+{
+  "date": "2024-09-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-and-the-pok-mon-company-are-suing-palworld-develope",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo and The Pokémon Company are suing Palworld developer Pocketpair, alleging patent infringement and seeking an injunction and damages."
+    },
+    {
+      "ref": "main_news/minecraft-to-end-psvr-support-from-march-next-year",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mojang", "name": "Mojang", "aliases": [], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-vr", "name": "PSVR", "aliases": ["PSVR"], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Minecraft will end PSVR support from March 2025, though Mojang says PlayStation players will still receive updates to play without VR."
+    },
+    {
+      "ref": "main_news/ai-is-the-very-core-of-our-business-says-ea-ceo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Electronic Arts' CEO described AI as \"the very core of our business\", citing over a hundred AI projects to assist development."
+    },
+    {
+      "ref": "main_news/nintendo-has-added-4-more-snes-games-to-switch-online",
+      "entities": {
+        "games": [
+          { "id": "battletoads-double-dragon", "name": "Battletoads Double Dragon", "aliases": [], "genres": ["fighting"], "franchise": "battletoads", "inferred": true },
+          { "id": "big-run", "name": "Big Run", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "cosmo-gang-the-puzzle", "name": "Cosmo Gang The Puzzle", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "kunio-kun-no-dodgeball-da-yo-zenin-shugo", "name": "Kunio-kun no Dodgeball da yo Zen’in Shūgō!", "aliases": [], "genres": ["sports"], "franchise": "kunio-kun", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-switch-online", "name": "Switch Online", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Nintendo added four more SNES games to its Switch Online service: Battletoads Double Dragon, Big Run, Cosmo Gang The Puzzle, and Kunio-kun no Dodgeball da yo Zen’in Shūgō!."
+    },
+    {
+      "ref": "business/kabam-shuts-down-disney-mirrorverse-after-2-5-years",
+      "entities": {
+        "games": [
+          { "id": "disney-mirrorverse", "name": "Disney Mirrorverse", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kabam", "name": "Kabam", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-12-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "disney-mirrorverse",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-09-19",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ends on December 16th",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/kabam-shuts-down-disney-mirrorverse-after-2-5-years"
+          }
+        }
+      ],
+      "summary": "Kabam is shutting down Disney Mirrorverse after 2.5 years, with the game ending on 16 December 2024."
+    },
+    {
+      "ref": "business/ubisoft-is-calling-devs-back-into-the-office-for-three-days",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ubisoft is calling developers back into the office three days a week, imposing new rules to align the rest of the group."
+    },
+    {
+      "ref": "business/team17-wants-to-dip-into-the-m-a-market-less-than-a-year-aft",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "team17", "name": "Team17", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "layoffs"],
+      "facts": [],
+      "summary": "Team17 says it wants to re-enter the M&A market less than a year after layoffs, seeing a clear opportunity to acquire quality assets including established IP."
+    },
+    {
+      "ref": "rumours/alleged-images-of-nintendo-s-new-switch-have-appeared-online",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that alleged images of Nintendo's new Switch (Switch 2) have appeared online, with conflicting evidence over whether they are genuine prototype photos."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "date": "2025-10-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/playstation-cancels-remaining-playstation-the-concert-2025-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "PlayStation has cancelled the remaining US 2025 tour dates of 'PlayStation: The Concert'."
+    },
+    {
+      "ref": "business/sega-s-sonic-the-hedgehog-sets-multiyear-licensing-deal-with",
+      "entities": {
+        "games": [
+          { "id": "sonic-the-hedgehog", "name": "Sonic the Hedgehog", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Sega's Sonic the Hedgehog has signed a multiyear licensing deal with the International Olympic Committee."
+    },
+    {
+      "ref": "business/skate-already-has-more-than-15-million-players-less-than-3-w",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": [], "genres": ["sports"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [
+          { "id": "full-circle", "name": "Full Circle", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["early-access"],
+      "facts": [
+        { "metric": "players_total", "value": 15000000, "unit": "players", "currency": null,
+          "entity": "skate", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-07", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Skate already has more than 15 million players less than 3 weeks after launching in early access",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/skate/status/1975229570807890000" } }
+      ],
+      "summary": "Skate has surpassed 15 million players less than three weeks after its early access launch, with Season 1 dropping today."
+    },
+    {
+      "ref": "business/metal-hellsinger-studio-closed-as-part-of-funcom-cuts",
+      "entities": {
+        "games": [
+          { "id": "metal-hellsinger", "name": "Metal: Hellsinger", "aliases": [], "genres": ["fps", "rhythm"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-outsiders", "name": "The Outsiders", "aliases": [], "publisher": "funcom", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "funcom", "name": "Funcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [],
+      "summary": "The studio behind Metal: Hellsinger has been closed as part of cuts at Funcom."
+    },
+    {
+      "ref": "business/indie-slot-machine-roguelite-cloverpit-tops-500-000-sales-in",
+      "entities": {
+        "games": [
+          { "id": "cloverpit", "name": "CloverPit", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 500000, "unit": "copies", "currency": null,
+          "entity": "cloverpit", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-07", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "CloverPit tops 500,000 sales in just 8 days",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/panikarcade.bsky.social/post/3m2ezsk5owj2v" } }
+      ],
+      "summary": "Indie slot machine roguelite CloverPit has topped 500,000 sales in just 8 days."
+    },
+    {
+      "ref": "rumours/xbox-s-dedicated-handheld-was-cancelled-because-amd-required",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Xbox's dedicated handheld was cancelled because AMD required a minimum 10 million unit commitment."
+    }
+  ]
+}

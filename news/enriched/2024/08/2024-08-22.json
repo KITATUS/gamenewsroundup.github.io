@@ -1,0 +1,253 @@
+{
+  "date": "2024-08-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/lego-confirms-six-all-new-mario-kart-sets-are-on-the-way",
+      "entities": {
+        "games": [{ "id": "mario-kart", "name": "Mario Kart", "aliases": [], "genres": ["racing"], "franchise": "mario", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "lego", "name": "Lego", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-01", "unit": "date", "currency": null,
+          "entity": "lego-mario-kart", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launching on New Year's Day 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/lego-confirms-six-all-new-mario-kart-sets-are-on-the-way" } }
+      ],
+      "summary": "Lego confirmed six new Mario Kart sets launching on New Year's Day 2025."
+    },
+    {
+      "ref": "main_news/digital-only-xbox-series-x-release-date-announced-pre-orders",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s", "name": "Xbox Series S", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "hardware", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-15", "unit": "date", "currency": null,
+          "entity": "xbox-series-x", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The new batch of Xbox consoles will be released on 15th October in select countries",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/digital-only-xbox-series-x-release-date-announced-pre-orders-open" } },
+        { "metric": "release_date", "value": "2024-10-29", "unit": "date", "currency": null,
+          "entity": "xbox-series-x", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "releasing in another batch of countries following on 29th October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/digital-only-xbox-series-x-release-date-announced-pre-orders-open" } },
+        { "metric": "price", "value": 299.99, "unit": "price", "currency": "GBP",
+          "entity": "xbox-series-s", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox Series S 1TB in Robot White - £299.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/digital-only-xbox-series-x-release-date-announced-pre-orders-open" } },
+        { "metric": "price", "value": 429.99, "unit": "price", "currency": "GBP",
+          "entity": "xbox-series-x", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox Series X 1TB Digital Edition - £429.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/digital-only-xbox-series-x-release-date-announced-pre-orders-open" } },
+        { "metric": "price", "value": 549.99, "unit": "price", "currency": "GBP",
+          "entity": "xbox-series-x", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox Series X 2TB Galaxy Black Special Edition - £549.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/digital-only-xbox-series-x-release-date-announced-pre-orders-open" } }
+      ],
+      "summary": "Microsoft announced the release date and pre-orders for a new digital-only Xbox Series X and additional Xbox console SKUs."
+    },
+    {
+      "ref": "main_news/new-xbox-accessibility-products-revealed-including-the-adapt",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["reveal", "hardware"],
+      "facts": [],
+      "summary": "Xbox revealed new accessibility products including the Xbox Adaptive Joystick."
+    },
+    {
+      "ref": "main_news/nintendo-is-ending-service-for-another-mobile-game-animal-cr",
+      "entities": {
+        "games": [
+          { "id": "animal-crossing-pocket-camp", "name": "Animal Crossing: Pocket Camp", "aliases": ["Pocket Camp"], "genres": ["life-sim"], "franchise": "animal-crossing", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "subscription"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-11-29", "unit": "date", "currency": null,
+          "entity": "animal-crossing-pocket-camp", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "From November 29, 2024 – seven years after Pocket Camp launched – the current app will end service.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-is-ending-service-for-another-mobile-game-animal-crossing/" } }
+      ],
+      "summary": "Nintendo will end service for the mobile game Animal Crossing: Pocket Camp on 29 November 2024, replacing it with a new version that preserves save data."
+    },
+    {
+      "ref": "main_news/three-new-lego-animal-crossing-sets-are-coming-next-year",
+      "entities": {
+        "games": [
+          { "id": "animal-crossing", "name": "Animal Crossing", "aliases": [], "genres": ["life-sim"], "franchise": "animal-crossing", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "lego", "name": "Lego", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "price", "value": 9.99, "unit": "price", "currency": "EUR",
+          "entity": "lego-animal-crossing-stargazing-with-celeste", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Stargazing with Celeste (€9,99/ $9.99 / £8,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 9.99, "unit": "price", "currency": "USD",
+          "entity": "lego-animal-crossing-stargazing-with-celeste", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Stargazing with Celeste (€9,99/ $9.99 / £8,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 8.99, "unit": "price", "currency": "GBP",
+          "entity": "lego-animal-crossing-stargazing-with-celeste", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Stargazing with Celeste (€9,99/ $9.99 / £8,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 29.99, "unit": "price", "currency": "EUR",
+          "entity": "lego-animal-crossing-leifs-caravan-garden-shop", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Leif’s Caravan & Garden Shop (Price: €29,99/ $29.99 / £24,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 29.99, "unit": "price", "currency": "USD",
+          "entity": "lego-animal-crossing-leifs-caravan-garden-shop", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Leif’s Caravan & Garden Shop (Price: €29,99/ $29.99 / £24,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 24.99, "unit": "price", "currency": "GBP",
+          "entity": "lego-animal-crossing-leifs-caravan-garden-shop", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Leif’s Caravan & Garden Shop (Price: €29,99/ $29.99 / £24,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "EUR",
+          "entity": "lego-animal-crossing-able-sisters-clothing-shop", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Able Sisters Clothing Shop (Price: €39,99/ $39.99 / £34,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "lego-animal-crossing-able-sisters-clothing-shop", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Able Sisters Clothing Shop (Price: €39,99/ $39.99 / £34,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } },
+        { "metric": "price", "value": 34.99, "unit": "price", "currency": "GBP",
+          "entity": "lego-animal-crossing-able-sisters-clothing-shop", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Animal Crossing Able Sisters Clothing Shop (Price: €39,99/ $39.99 / £34,99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/three-new-lego-animal-crossing-sets-are-coming-next-year/" } }
+      ],
+      "summary": "Lego announced three new Animal Crossing sets coming next year with prices in euros, dollars and pounds."
+    },
+    {
+      "ref": "main_news/game-of-thrones-star-gwendoline-christie-is-the-narrator-of",
+      "entities": {
+        "games": [
+          { "id": "civilization-vii", "name": "Civilization VII", "aliases": [], "genres": ["turn-based-strategy", "4x"], "franchise": "civilization", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "gwendoline-christie", "name": "Gwendoline Christie", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Game of Thrones actor Gwendoline Christie was announced as the narrator of Civilization VII."
+    },
+    {
+      "ref": "main_news/the-game-awards-2024-date-confirmed-for-december",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "geoff-keighley", "name": "Geoff Keighley", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-12-12", "unit": "date", "currency": null,
+          "entity": "the-game-awards-2024", "entity_type": "product", "scope": "event",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The event’s 10th anniversary gala celebration will take place on December 12th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-game-awards-2024-date-confirmed-for-december/" } }
+      ],
+      "summary": "The Game Awards 2024 was confirmed to take place on 12 December as its 10th anniversary celebration."
+    },
+    {
+      "ref": "business/there-s-going-to-be-more-change-phil-spencer-speaks-on-indy",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Phil Spencer commented on the news of Indiana Jones coming to PS5, saying there is going to be more change and that Xbox console player numbers are as high as they have ever been."
+    },
+    {
+      "ref": "rumours/sea-of-thieves-has-reportedly-surpassed-one-million-sales-on",
+      "entities": {
+        "games": [
+          { "id": "sea-of-thieves", "name": "Sea of Thieves", "aliases": [], "genres": ["action-adventure", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "rare", "name": "Rare", "aliases": [], "publisher": "microsoft", "inferred": true }],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "rumour"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "sea-of-thieves", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-22", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Sea of Thieves has reportedly surpassed one million sales on PS5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sea-of-thieves-has-reportedly-surpassed-one-million-sales-on-ps5/" } },
+        { "metric": "price", "value": 40, "unit": "price", "currency": "USD",
+          "entity": "sea-of-thieves", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "the $40/£40 title has performed strongly",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sea-of-thieves-has-reportedly-surpassed-one-million-sales-on-ps5/" } },
+        { "metric": "price", "value": 40, "unit": "price", "currency": "GBP",
+          "entity": "sea-of-thieves", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "the $40/£40 title has performed strongly",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sea-of-thieves-has-reportedly-surpassed-one-million-sales-on-ps5/" } }
+      ],
+      "summary": "Sea of Thieves has reportedly surpassed one million sales on PS5 since its late April release."
+    }
+  ]
+}

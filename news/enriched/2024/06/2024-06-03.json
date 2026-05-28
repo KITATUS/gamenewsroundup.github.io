@@ -1,0 +1,104 @@
+{
+  "date": "2024-06-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/take-two-still-wants-to-bring-its-biggest-ip-to-mobile",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "zynga", "name": "Zynga", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Two years after acquiring Zynga, Take-Two is still trying to bring its biggest franchises to mobile."
+    },
+    {
+      "ref": "main_news/spyro-and-crash-studio-toys-for-bob-partners-with-xbox-on-it",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "toys-for-bob", "name": "Toys for Bob", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true },
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Toys for Bob, the studio behind Spyro and Crash, is partnering with Xbox on its next game after leaving Activision to go independent."
+    },
+    {
+      "ref": "main_news/400k-worth-of-stolen-playdate-consoles-make-heroic-return-af",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "panic", "name": "Panic", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playdate", "name": "Playdate", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Around $400k worth of stolen Playdate consoles were returned after being dumped outside a restaurant."
+    },
+    {
+      "ref": "rumours/metal-gear-solid-delta-snake-eater-might-not-release-until-2",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-delta-snake-eater", "name": "Metal Gear Solid Delta: Snake Eater", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "rumour"],
+      "facts": [
+        { "metric": "delay_to", "value": "2025", "unit": "date", "currency": null,
+          "entity": "metal-gear-solid-delta-snake-eater", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-03", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Metal Gear Solid Delta: Snake Eater might not release until 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/metal-gear-solid-delta-snake-eater-might-not-release-until-2025-its-claimed/" } }
+      ],
+      "summary": "Rumour that Metal Gear Solid Delta: Snake Eater might not release until 2025."
+    },
+    {
+      "ref": "other_notes/summer-game-fest-schedule-this-week",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": ["Devolver"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "A schedule of Summer Game Fest events for the week, including the SummerGameFest Live Show, Day of Devs, Devolver Direct, the Xbox Games Showcase, and Ubisoft Forward."
+    }
+  ]
+}

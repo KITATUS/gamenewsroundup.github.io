@@ -1,0 +1,106 @@
+{
+  "date": "2025-03-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/warhammer-40-000-space-marine-3-is-officially-in-development",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40000-space-marine-3", "name": "Warhammer 40,000: Space Marine 3", "aliases": ["Space Marine 3"], "genres": ["tps", "action-adventure"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "warhammer-40000-space-marine-2", "name": "Warhammer 40,000: Space Marine 2", "aliases": ["Space Marine 2"], "genres": ["tps", "action-adventure"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "focus-entertainment", "name": "Focus Entertainment", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jon-bert", "name": "Jon Bert", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Warhammer 40,000: Space Marine 3 is officially in development, with Focus Entertainment noting Space Marine 2 remains the focus for now."
+    },
+    {
+      "ref": "main_news/microsoft-is-introducing-an-xbox-ai-that-helps-players-finis",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Microsoft is introducing an Xbox AI called Copilot for Gaming that provides situation-specific tips to help players finish games."
+    },
+    {
+      "ref": "main_news/powerwash-simulator-2-is-coming-this-year-to-ps5-xbox-series",
+      "entities": {
+        "games": [
+          { "id": "powerwash-simulator-2", "name": "PowerWash Simulator 2", "aliases": [], "genres": ["simulation"], "franchise": "powerwash-simulator", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series", "aliases": ["Xbox Series X|S"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "port"],
+      "facts": [],
+      "summary": "PowerWash Simulator 2 is coming this year to PS5, Xbox Series and PC, with no Nintendo console release currently planned."
+    },
+    {
+      "ref": "business/spectre-divide-developer-mountaintop-to-shutter-just-six-mon",
+      "entities": {
+        "games": [
+          { "id": "spectre-divide", "name": "Spectre Divide", "aliases": [], "genres": ["fps", "tps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "mountaintop", "name": "Mountaintop", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "shutdown"],
+      "facts": [],
+      "summary": "Spectre Divide developer Mountaintop is shutting down just six months after launch, citing being out of funding to support the game."
+    },
+    {
+      "ref": "business/prytania-media-sues-netease-for-defamation-blames-it-for-stu",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "prytania-media", "name": "Prytania Media", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "studio-closure"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-01-03", "unit": "date", "currency": null,
+          "entity": "prytania-media", "entity_type": "company", "scope": "event",
+          "as_of": "2025-03-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The lawsuit—filed on January 3, 2025—seeks $400 million in damages",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/prytania-media-sues-netease-for-definition-blames-it-for-studio-collapse" } }
+      ],
+      "summary": "Prytania Media is suing NetEase for defamation, blaming the company for its studio collapse in a lawsuit filed on January 3, 2025 seeking $400 million in damages."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "date": "2024-11-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nvidia-tells-users-to-urgently-update-their-gpu-drivers-to-f",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nvidia-geforce", "name": "Nvidia GeForce", "aliases": ["GeForce"], "inferred": false },
+          { "id": "nvidia-rtx", "name": "Nvidia RTX", "aliases": ["RTX"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Nvidia urged users to update their GPU drivers to fix eight highly severe vulnerabilities affecting its GeForce, RTX, Quadro, NVS and Tesla products."
+    },
+    {
+      "ref": "main_news/hogwarts-legacy-sequel-will-tie-in-with-the-new-harry-potter",
+      "entities": {
+        "games": [
+          { "id": "hogwarts-legacy", "name": "Hogwarts Legacy", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "harry-potter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "The Hogwarts Legacy sequel will tie in with the new Harry Potter HBO series."
+    },
+    {
+      "ref": "main_news/switch-2-will-be-backwards-compatible-with-switch-nintendo-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": [
+          { "id": "shuntaro-furukawa", "name": "Shuntaro Furukawa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [],
+      "summary": "Nintendo confirmed that the Switch's successor will be backwards compatible with the Switch and support Nintendo Switch Online."
+    },
+    {
+      "ref": "free_games_subscription/november-s-playstation-plus-essential-games-are-now-availabl",
+      "entities": {
+        "games": [
+          { "id": "hot-wheels-unleashed-2-turbocharged", "name": "Hot Wheels Unleashed 2 - Turbocharged", "aliases": [], "genres": ["racing"], "franchise": "hot-wheels-unleashed", "inferred": true },
+          { "id": "ghostwire-tokyo", "name": "Ghostwire: Tokyo", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "death-note-killer-within", "name": "Death Note Killer Within", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "November's PlayStation Plus Essential lineup is now available, comprising Hot Wheels Unleashed 2 - Turbocharged, Ghostwire: Tokyo and Death Note Killer Within."
+    },
+    {
+      "ref": "business/nintendo-financial-results-for-six-months-ended-september-30",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 523300000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥523.3 billion ($3.4 billion, down 34% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } },
+        { "metric": "revenue", "value": 3400000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥523.3 billion ($3.4 billion, down 34% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } },
+        { "metric": "operating_income", "value": 121500000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Operating profit: ¥121.5 billion ($798.3 million, down 57%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } },
+        { "metric": "operating_income", "value": 798300000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Operating profit: ¥121.5 billion ($798.3 million, down 57%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } },
+        { "metric": "profit", "value": 147100000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Ordinary profit: ¥147.1 billion ($966.5 million, down 61.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } },
+        { "metric": "profit", "value": 966500000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Ordinary profit: ¥147.1 billion ($966.5 million, down 61.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } },
+        { "metric": "units_sold", "value": 4720000, "unit": "units", "currency": null,
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Hardware sales: 4.72 million (down 31%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } },
+        { "metric": "units_sold", "value": 70280000, "unit": "units", "currency": null,
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Software sales: 70.28 million (down 27.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-lowers-full-year-forecast-as-h1-sales-fall-34-to-34bn" } }
+      ],
+      "summary": "Nintendo's results for the six months ended 30 September show net sales of 523.3 billion yen, down 34% year-on-year, with operating and ordinary profit and hardware and software sales all falling."
+    },
+    {
+      "ref": "business/kingdom-come-deliverance-has-sold-8m-units",
+      "entities": {
+        "games": [
+          { "id": "kingdom-come-deliverance", "name": "Kingdom Come Deliverance", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true }
+        ],
+        "studios": [
+          { "id": "warhorse-studios", "name": "Warhorse Studios", "aliases": [], "publisher": "deep-silver", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 8000000, "unit": "units", "currency": null,
+          "entity": "kingdom-come-deliverance", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-06", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Kingdom Come Deliverance has sold 8m units",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/WarhorseStudios/status/1853489512233480418" } }
+      ],
+      "summary": "Kingdom Come Deliverance has sold 8 million units."
+    },
+    {
+      "ref": "business/study-finds-21-percent-of-european-devs-laid-off-in-past-yea",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "A study found that 21 percent of European games developers were laid off in the past year, with HR and QA hit hardest between 2023 and 2024."
+    }
+  ]
+}

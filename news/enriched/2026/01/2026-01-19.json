@@ -1,0 +1,128 @@
+{
+  "date": "2026-01-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/valve-has-significantly-rewritten-steam-s-rules-for-how-deve",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Valve has significantly rewritten Steam's rules for how developers must disclose their use of AI."
+    },
+    {
+      "ref": "main_news/viral-roblox-hit-steal-a-brainrot-is-now-a-big-enough-deal-i",
+      "entities": {
+        "games": [
+          { "id": "steal-a-brainrot", "name": "Steal A Brainrot", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "bruno-mars", "name": "Bruno Mars", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Viral Roblox game Steal A Brainrot is getting its first celebrity concert, headlined by Bruno Mars."
+    },
+    {
+      "ref": "main_news/pubg-maker-krafton-has-26-games-in-the-pipeline-as-it-contin",
+      "entities": {
+        "games": [
+          { "id": "pubg", "name": "PUBG", "aliases": ["PlayerUnknown's Battlegrounds"], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Krafton, the maker of PUBG, has 26 games in its pipeline, with 12 set to launch within the next two years, as it hunts for a big franchise IP."
+    },
+    {
+      "ref": "business/ace-combat-7-has-sold-over-7m-copies-seven-years-after-its-l",
+      "entities": {
+        "games": [
+          { "id": "ace-combat-7", "name": "Ace Combat 7", "aliases": ["Ace Combat 7: Skies Unknown"], "genres": ["simulation"], "franchise": "ace-combat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 7000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "ace-combat-7",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-01-19",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Ace Combat 7 has sold over 7m copies, seven years after its launch",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ace-combat-7-has-sold-over-7-million-copies" }
+        }
+      ],
+      "summary": "Ace Combat 7 has sold over 7 million copies, seven years after its launch."
+    },
+    {
+      "ref": "business/arknights-endfield-passes-35m-pre-registered-players-ahead-o",
+      "entities": {
+        "games": [
+          { "id": "arknights-endfield", "name": "Arknights Endfield", "aliases": [], "genres": ["rpg"], "franchise": "arknights", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hypergryph", "name": "Hypergryph", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Arknights Endfield has passed 35 million pre-registered players ahead of its launch this month."
+    },
+    {
+      "ref": "business/saudi-pif-moving-12bn-of-games-firm-shares-to-subsidiary-sav",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "take-two-interactive", "name": "Take-Two", "aliases": ["Take-Two"], "inferred": false },
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Saudi Arabia's Public Investment Fund is moving $12bn of games-company shares to its subsidiary Savvy, which will own its stakes in firms such as Nintendo, Take-Two and Square Enix."
+    }
+  ]
+}

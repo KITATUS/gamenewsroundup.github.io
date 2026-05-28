@@ -1,0 +1,185 @@
+{
+  "date": "2025-12-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/emmy-winning-sh-gun-director-frederick-e-o-toye-joins-amazon",
+      "entities": {
+        "games": [
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "frederick-e-o-toye", "name": "Frederick E.O. Toye", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Emmy-winning Shōgun director Frederick E.O. Toye has joined Amazon's live-action God of War series."
+    },
+    {
+      "ref": "free_games_subscription/xbox-has-announced-the-first-12-game-pass-titles-for-decembe",
+      "entities": {
+        "games": [
+          { "id": "marvel-cosmic-invasion", "name": "Marvel Cosmic Invasion", "aliases": [], "genres": ["fighting"], "franchise": "marvel", "inferred": true },
+          { "id": "lost-records-bloom-rage", "name": "Lost Records: Bloom & Rage", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "monster-train-2", "name": "Monster Train 2", "aliases": [], "genres": ["card", "roguelike"], "franchise": "monster-train", "inferred": true },
+          { "id": "spray-paint-simulator", "name": "Spray Paint Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "33-immortals", "name": "33 Immortals", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true },
+          { "id": "routine", "name": "Routine", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "a-game-about-digging-a-hole", "name": "A Game About Digging A Hole", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "death-howl", "name": "Death Howl", "aliases": [], "genres": ["card"], "franchise": null, "inferred": true },
+          { "id": "dome-keeper", "name": "Dome Keeper", "aliases": [], "genres": ["roguelike", "tower-defense"], "franchise": null, "inferred": true },
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "bratz-rhythm-style", "name": "Bratz: Rhythm & Style", "aliases": [], "genres": ["rhythm"], "franchise": "bratz", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-12-03", "unit": "date", "currency": null,
+          "entity": "monster-train-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Monster Train 2 (Cloud, PC, and Xbox Series S/X) – December 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-03", "unit": "date", "currency": null,
+          "entity": "spray-paint-simulator", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Spray Paint Simulator (Cloud, Console, and PC) – December 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-04", "unit": "date", "currency": null,
+          "entity": "33-immortals", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "33 Immortals (Game Preview) (Cloud, Console, and PC) – December 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-04", "unit": "date", "currency": null,
+          "entity": "indiana-jones-and-the-great-circle", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Indiana Jones and the Great Circle (Cloud, PC, and Xbox Series S/X) – December 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-04", "unit": "date", "currency": null,
+          "entity": "routine", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Routine (Cloud, Console, Handheld, and PC) – December 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-09", "unit": "date", "currency": null,
+          "entity": "a-game-about-digging-a-hole", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "A Game About Digging A Hole (Cloud, Handheld, PC, and Xbox Series S/X) – December 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-09", "unit": "date", "currency": null,
+          "entity": "death-howl", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Death Howl (Handheld & PC) – December 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-09", "unit": "date", "currency": null,
+          "entity": "dome-keeper", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dome Keeper (Cloud, Console, Handheld, and PC) – December 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-10", "unit": "date", "currency": null,
+          "entity": "mortal-kombat-1", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Mortal Kombat 1 (Cloud, PC, and Xbox Series S/X) – December 10",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } },
+        { "metric": "release_date", "value": "2025-12-11", "unit": "date", "currency": null,
+          "entity": "bratz-rhythm-style", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Bratz: Rhythm & Style (Cloud, Console, and PC) – December 11",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-first-12-game-pass-titles-for-december-including-mortal-kombat-1/" } }
+      ],
+      "summary": "Xbox announced the first 12 Game Pass titles for December, including Mortal Kombat 1."
+    },
+    {
+      "ref": "business/splinter-cell-remake-has-a-new-director-and-it-s-the-same-on",
+      "entities": {
+        "games": [
+          { "id": "splinter-cell-remake", "name": "Splinter Cell Remake", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "splinter-cell", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "david-grivel", "name": "David Grivel", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change", "remaster-remake"],
+      "facts": [],
+      "summary": "David Grivel, who left Ubisoft in 2022, has returned as director of the Splinter Cell Remake."
+    },
+    {
+      "ref": "business/uk-publisher-outright-games-confirms-layoffs-the-chicken-run",
+      "entities": {
+        "games": [
+          { "id": "the-chicken-run-eggstraction", "name": "The Chicken Run: Eggstraction", "aliases": [], "genres": ["adventure"], "franchise": "chicken-run", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "outright-games", "name": "Outright Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 27, "unit": "people", "currency": null,
+          "entity": "outright-games", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "preparing to make 27 employees redundant",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/uk-publisher-outright-games-confirms-layoffs" } }
+      ],
+      "summary": "UK publisher Outright Games confirmed layoffs, preparing to make 27 employees redundant."
+    },
+    {
+      "ref": "business/eidos-montreal-lets-go-more-staff-with-more-layoffs-planned",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "eidos-montreal", "name": "Eidos-Montreal", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Eidos-Montreal has let go more staff with further layoffs reportedly planned, with the number of people affected unknown."
+    },
+    {
+      "ref": "rumours/saudi-arabia-to-own-almost-all-of-ea-93-4-under-buyout-plan",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "rumour"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 93.4, "unit": "percent", "currency": null,
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2025-12-03", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Saudi Arabia to own almost all of EA (93.4%) under buyout plan",
+          "source": { "name": "latimes.com", "domain": "latimes.com", "url": "https://www.latimes.com/entertainment-arts/business/story/2025-12-02/saudi-arabia-to-own-almost-all-of-ea-under-buyout-plan-report-says" } }
+      ],
+      "summary": "A report claims Saudi Arabia would own almost all of EA (93.4%) under a buyout plan."
+    }
+  ]
+}

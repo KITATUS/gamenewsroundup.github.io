@@ -1,0 +1,144 @@
+{
+  "date": "2024-05-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/thq-nordic-s-fourth-annual-digital-showcase-is-coming-in-aug",
+      "entities": {
+        "games": [
+          { "id": "gothic-1-remake", "name": "Gothic 1 remake", "aliases": ["Gothic 1 remake"], "genres": ["action-rpg"], "franchise": "gothic", "inferred": true },
+          { "id": "titan-quest-ii", "name": "Titan Quest II", "aliases": ["Titan Quest II"], "genres": ["action-rpg"], "franchise": "titan-quest", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "thq-nordic", "name": "THQ Nordic", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement", "remaster-remake"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-08-02", "unit": "date", "currency": null,
+          "entity": "thq-nordic-digital-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2024-05-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Friday August 2, 2024, at 12pm PDT / 3pm EDT / 8pm BST / 9pm CEST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/thq-nordics-fourth-annual-digital-showcase-is-coming-in-august/" } }
+      ],
+      "summary": "THQ Nordic's fourth annual digital showcase will take place on Friday 2 August 2024, featuring the Gothic 1 remake, Titan Quest II and more."
+    },
+    {
+      "ref": "main_news/ubisoft-free-to-play-fps-xdefiant-finally-gets-a-release-dat",
+      "entities": {
+        "games": [{ "id": "xdefiant", "name": "XDefiant", "aliases": [], "genres": ["fps", "shooter"], "franchise": "tom-clancy", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-05-21", "unit": "date", "currency": null,
+          "entity": "xdefiant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will go live on May 21, on PS5, Xbox Series S/X and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-free-to-play-fps-xdefiant-finally-gets-a-release-date/" } }
+      ],
+      "summary": "Ubisoft's free-to-play FPS XDefiant will launch on 21 May 2024 for PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/nintendo-takes-down-more-than-8-500-clones-of-switch-emulato",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "yuzu", "name": "Yuzu", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo used a single DMCA notice to take down more than 8,500 clones of the Switch emulator Yuzu."
+    },
+    {
+      "ref": "main_news/knuckles-had-the-most-viewed-opening-weekend-of-any-paramoun",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "paramount-plus", "name": "Paramount+", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Knuckles had the most-viewed opening weekend of any Paramount+ original series to date, clocking 4 million hours of viewing in its first three days."
+    },
+    {
+      "ref": "main_news/bloodstained-s-final-two-kickstarter-stretch-goals-arrive-ne",
+      "entities": {
+        "games": [{ "id": "bloodstained", "name": "Bloodstained", "aliases": [], "genres": ["metroidvania", "action-rpg"], "franchise": "bloodstained", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion"],
+      "facts": [],
+      "summary": "Bloodstained's final two Kickstarter stretch goals, Chaos Mode and VS Mode, arrive next week in the 1.5 update, five years after release."
+    },
+    {
+      "ref": "free_games_subscription/may-s-free-games-with-amazon-prime-gaming-have-been-revealed",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider Game of the Year Edition", "aliases": ["Tomb Raider Game of the Year Edition"], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "lego-star-wars-iii-the-clone-wars", "name": "Lego Star Wars III: The Clone Wars", "aliases": [], "genres": ["action-adventure"], "franchise": "lego-star-wars", "inferred": true },
+          { "id": "dark-city-international-intrigue", "name": "Dark City: International Intrigue", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "fallout-3", "name": "Fallout 3: Game of the Year Edition", "aliases": ["Fallout 3: Game of the Year Edition"], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "nine-witches-family-disruption", "name": "Nine Witches: Family Disruption", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "electrician-simulator", "name": "Electrician Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "100-doors-games-escape-from-school", "name": "100 Doors Games: Escape from School", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "the-forgotten-city", "name": "The Forgotten City", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "spirits-of-mystery-whisper-of-the-past", "name": "Spirits of Mystery: Whisper of the Past", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "amazon-prime-gaming", "name": "Amazon Prime Gaming", "aliases": ["Amazon Games App"], "inferred": false }],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Amazon Prime Gaming revealed its 'free' games line-up for May 2024, including Tomb Raider, Lego Star Wars III, Fallout 3 and The Forgotten City."
+    },
+    {
+      "ref": "business/paladin-studios-shuts-down-after-nearly-19-years",
+      "entities": {
+        "games": [
+          { "id": "amazing-katamari-damacy", "name": "Amazing Katamari Damacy", "aliases": [], "genres": ["puzzle"], "franchise": "katamari", "inferred": true },
+          { "id": "my-tamagotchi-forever", "name": "My Tamagotchi Forever", "aliases": [], "genres": ["life-sim"], "franchise": "tamagotchi", "inferred": true },
+          { "id": "galaga-wars", "name": "Galaga Wars", "aliases": [], "genres": ["shooter"], "franchise": "galaga", "inferred": true }
+        ],
+        "studios": [{ "id": "paladin-studios", "name": "Paladin Studios", "aliases": ["Paladin"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "shutdown"],
+      "facts": [
+        { "metric": "headcount", "value": 45, "unit": "employees", "currency": null,
+          "entity": "paladin-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-05-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The studio closed with 45 employees.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/paladin-studios-shuts-down-after-nearly-19-years" } }
+      ],
+      "summary": "Paladin Studios, based in The Hague, has shut down after nearly 19 years, closing with 45 employees while citing a failure to land enough work."
+    }
+  ]
+}

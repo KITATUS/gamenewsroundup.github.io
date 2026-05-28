@@ -1,0 +1,84 @@
+{
+  "date": "2024-12-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "free_games_subscription/december-s-playstation-plus-essential-games-are-now-live",
+      "entities": {
+        "games": [
+          { "id": "it-takes-two", "name": "It Takes Two", "aliases": [], "genres": ["action-adventure", "party"], "franchise": null, "inferred": true },
+          { "id": "aliens-dark-descent", "name": "Aliens: Dark Descent", "aliases": [], "genres": ["strategy", "action-adventure"], "franchise": "aliens", "inferred": true },
+          { "id": "temtem", "name": "Temtem", "aliases": [], "genres": ["mmorpg", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "December's PlayStation Plus Essential lineup, comprising It Takes Two, Aliens: Dark Descent and Temtem, is now live."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-revealed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "New Xbox Game Pass titles for console, PC and Cloud have been revealed."
+    },
+    {
+      "ref": "business/ubisoft-shutting-studios-laying-off-277-employees-as-it-pull",
+      "entities": {
+        "games": [{ "id": "xdefiant", "name": "XDefiant", "aliases": [], "genres": ["fps", "shooter"], "franchise": "tom-clancy", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure", "shutdown"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 277, "unit": "people", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-12-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "laying off 277 employees as it pulls plug on live-service shooter XDefiant",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ubisoft-shutting-studios-laying-off-277-employees-as-it-pulls-plug-on-live-service-shooter-xdefiant" } },
+        { "metric": "shutdown_date", "value": "2025-06-03", "unit": "date", "currency": null,
+          "entity": "xdefiant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "servers will remain online until 3rd June, 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ubisoft-shutting-studios-laying-off-277-employees-as-it-pulls-plug-on-live-service-shooter-xdefiant" } }
+      ],
+      "summary": "Ubisoft is closing studios and laying off 277 employees as it shuts down its live-service shooter XDefiant."
+    },
+    {
+      "ref": "business/phasmophobia-has-sold-1m-copies-on-consoles",
+      "entities": {
+        "games": [
+          { "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": null, "inferred": true },
+          { "id": "no-more-room-in-hell-2", "name": "No More Room in Hell 2", "aliases": [], "genres": ["fps", "horror"], "franchise": "no-more-room-in-hell", "inferred": true }
+        ],
+        "studios": [{ "id": "torn-banner-studios", "name": "Torn Banner Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "layoffs", "early-access"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "phasmophobia", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Phasmophobia has sold 1m copies on consoles",
+          "source": { "name": "GamesPress", "domain": "gamespress.com", "url": "https://www.gamespress.com/ru/PHASMOPHOBIA-SELLS-1-MILLION-ON-CONSOLES" } }
+      ],
+      "summary": "Phasmophobia has sold one million copies on consoles."
+    }
+  ]
+}

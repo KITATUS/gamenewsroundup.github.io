@@ -1,0 +1,101 @@
+{
+  "date": "2025-11-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/tekken-boss-harada-says-he-s-quite-interested-in-capcom-s-de",
+      "entities": {
+        "games": [
+          { "id": "tekken", "name": "Tekken", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true },
+          { "id": "street-fighter", "name": "Street Fighter", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "katsuhiro-harada", "name": "Katsuhiro Harada", "aliases": ["Harada"], "inferred": true }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Tekken boss Katsuhiro Harada said he is 'quite interested' in Capcom's decision to charge for Street Fighter tournament streams, noting that the big money of fighting tournaments isn't reflected in game revenue."
+    },
+    {
+      "ref": "main_news/roblox-boss-says-problem-of-predators-is-an-opportunity-for",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Roblox boss described the platform's problem of predators as an 'opportunity' in an interview following the company's latest child safety measures."
+    },
+    {
+      "ref": "main_news/yet-another-nier-automata-crossover-has-been-announced-this",
+      "entities": {
+        "games": [
+          { "id": "nier-automata", "name": "Nier Automata", "aliases": [], "genres": ["action-rpg"], "franchise": "nier", "inferred": true },
+          { "id": "final-fantasy-7-ever-crisis", "name": "Final Fantasy 7 Ever Crisis", "aliases": [], "genres": ["rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Another Nier Automata crossover has been announced, this time arriving in Final Fantasy 7 Ever Crisis."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-classics-update-for-switch-battletoads-nes-ninja-ga",
+      "entities": {
+        "games": [
+          { "id": "battletoads", "name": "Battletoads", "aliases": [], "genres": ["action"], "franchise": "battletoads", "inferred": true },
+          { "id": "ninja-gaiden-ii-the-dark-sword-of-chaos", "name": "Ninja Gaiden II: The Dark Sword of Chaos", "aliases": [], "genres": ["action"], "franchise": "ninja-gaiden", "inferred": true },
+          { "id": "bionic-commando", "name": "Bionic Commando", "aliases": [], "genres": ["action-adventure"], "franchise": "bionic-commando", "inferred": true },
+          { "id": "kid-icarus-of-myths-and-monsters", "name": "Kid Icarus: Of Myths and Monsters", "aliases": [], "genres": ["platformer"], "franchise": "kid-icarus", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "update-patch"],
+      "facts": [],
+      "summary": "Nintendo Classics for Switch added Battletoads (NES), Ninja Gaiden II: The Dark Sword of Chaos (NES), Bionic Commando (GB) and Kid Icarus: Of Myths and Monsters (GB)."
+    },
+    {
+      "ref": "business/embracer-group-divests-arc-games-and-cryptic-studios-while-s",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "arc-games", "name": "Arc Games", "aliases": [], "publisher": "embracer-group", "inferred": true },
+          { "id": "cryptic-studios", "name": "Cryptic Studios", "aliases": [], "publisher": "embracer-group", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Embracer Group divested Arc Games and Cryptic Studios while retaining several key rights within the group."
+    }
+  ]
+}

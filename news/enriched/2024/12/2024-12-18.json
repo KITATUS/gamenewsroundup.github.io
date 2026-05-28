@@ -1,0 +1,147 @@
+{
+  "date": "2024-12-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/james-wan-is-adapting-indie-horror-pacific-drive-for-tv",
+      "entities": {
+        "games": [
+          { "id": "pacific-drive", "name": "Pacific Drive", "aliases": [], "genres": ["survival", "horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "james-wan", "name": "James Wan", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "James Wan is adapting the indie horror game Pacific Drive into a TV series."
+    },
+    {
+      "ref": "main_news/jingle-jam-raises-2-7-million-after-impressive-2024-fundrais",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 2700000, "unit": "money", "currency": "GBP",
+          "entity": "jingle-jam", "entity_type": "company", "scope": "event",
+          "as_of": "2024-12-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Jingle Jam raises £2.7 million after impressive 2024 fundraising event",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/jingle-jam-raises-27-million-after-impressive-fundraising-event" } }
+      ],
+      "summary": "Jingle Jam raised £2.7 million during its 2024 charity fundraising event."
+    },
+    {
+      "ref": "main_news/marvel-rivals-winter-celebration-features-splatoon-esque-arc",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Marvel Rivals' Winter Celebration adds a Splatoon-esque arcade mode starring Jeff the Land Shark, with cross-progression in the works."
+    },
+    {
+      "ref": "main_news/amazon-renews-video-game-anthology-series-secret-level-for-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "amazon-prime-video", "name": "Amazon Prime Video", "aliases": ["Prime Video", "Amazon"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "viewers", "value": 1400000, "unit": "views", "currency": null,
+          "entity": "secret-level", "entity_type": "product", "scope": "product",
+          "as_of": "2024-12-18", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "which works out at about 1.4 million views based on its runtime",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/amazon-prime-video-has-renewed-secret-level-for-season-2/" } }
+      ],
+      "summary": "Amazon renewed its video game anthology series Secret Level for a second season."
+    },
+    {
+      "ref": "main_news/dungeons-dragons-dark-alliance-is-being-delisted",
+      "entities": {
+        "games": [
+          { "id": "dungeons-dragons-dark-alliance", "name": "Dungeons & Dragons: Dark Alliance", "aliases": [], "genres": ["action-rpg"], "franchise": "dungeons-dragons", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "playstation", "name": "PS4/5", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-02-02", "unit": "date", "currency": null,
+          "entity": "dungeons-dragons-dark-alliance", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Servers will be shutdown on the 2nd Feb, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/dungeons-dragons-dark-alliance-is-being-delisted/" } }
+      ],
+      "summary": "Dungeons & Dragons: Dark Alliance is being delisted, with its servers due to shut down on 2 February 2025."
+    },
+    {
+      "ref": "main_news/elden-ring-nightreign-can-be-played-in-3-player-co-op-or-sin",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightreign", "name": "Elden Ring Nightreign", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Elden Ring Nightreign can be played in three-player co-op or single player, but not as a duo."
+    },
+    {
+      "ref": "business/marvel-rivals-hits-20-million-players",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 20000000, "unit": "players", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Marvel Rivals hits 20 million players",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/marvel-rivals-reveals-holiday-themed-update-as-it-hits-20-million-players/" } }
+      ],
+      "summary": "Marvel Rivals has reached 20 million players."
+    }
+  ]
+}

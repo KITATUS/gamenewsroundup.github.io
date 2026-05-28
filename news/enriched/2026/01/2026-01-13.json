@@ -1,0 +1,165 @@
+{
+  "date": "2026-01-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/media-molecule-co-founder-and-bullfrog-veterans-on-board-for",
+      "entities": {
+        "games": [
+          { "id": "masters-of-albion", "name": "Masters of Albion", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "media-molecule", "name": "Media Molecule", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "bullfrog-productions", "name": "Bullfrog", "aliases": ["Bullfrog"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "peter-molyneux", "name": "Peter Molyneux", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-04-22", "unit": "date", "currency": null,
+          "entity": "masters-of-albion", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases April 22nd on Steam",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/media-molecule-co-founder-and-bullfrog-veterans-o[…]d-for-peter-molyneuxs-final-god-game-masters-of-albion/" } }
+      ],
+      "summary": "Peter Molyneux's god game Masters of Albion, with a Media Molecule co-founder and Bullfrog veterans on board, releases April 22nd on Steam."
+    },
+    {
+      "ref": "main_news/the-first-lego-pok-mon-sets-have-been-revealed-including-a-6",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true },
+          { "id": "lego", "name": "Lego", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [
+        { "metric": "price", "value": 650, "unit": "price", "currency": "USD",
+          "entity": "lego-pokemon", "entity_type": "product", "scope": "product",
+          "as_of": "2026-01-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "including a $650 Charizard, Blastoise and Venusaur statue",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-first-lego-pokemon-sets-have-been-revealed-including-a-650-charizard-blastoise-and-venusaur-statue/" } }
+      ],
+      "summary": "The first Lego Pokémon sets have been revealed, including a $650 Charizard, Blastoise and Venusaur statue."
+    },
+    {
+      "ref": "main_news/palworld-is-getting-an-official-card-game-this-summer-releas",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": "palworld", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-07-30", "unit": "date", "currency": null,
+          "entity": "palworld-card-game", "entity_type": "product", "scope": "product",
+          "as_of": "2026-01-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "releases July 30th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/palworld-is-getting-an-official-card-game-this-summer" } }
+      ],
+      "summary": "Palworld is getting an official card game this summer, releasing July 30th."
+    },
+    {
+      "ref": "main_news/resident-evil-showcase-planned-for-jan-15th-2025-at-2pm-pst",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-01-15", "unit": "date", "currency": null,
+          "entity": "resident-evil-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2026-01-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Resident Evil Showcase planned for Jan 15th, 2025 at 2pm PST",
+          "source": { "name": "residentevil.com", "domain": "residentevil.com", "url": "https://www.residentevil.com/showcase/en-us/" } }
+      ],
+      "summary": "A Resident Evil Showcase is planned for Jan 15th, 2025 at 2pm PST."
+    },
+    {
+      "ref": "business/detroit-become-human-surpasses-15-million-units-sold-worldwi",
+      "entities": {
+        "games": [
+          { "id": "detroit-become-human", "name": "Detroit: Become Human", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "quantic-dream", "name": "Quantic Dream", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 15000000, "unit": "units", "currency": null,
+          "entity": "detroit-become-human", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Detroit: Become Human surpasses 15 million units sold worldwide",
+          "source": { "name": "LinkedIn", "domain": "linkedin.com", "url": "https://www.linkedin.com/posts/quantic-dream_we-are-proud-to-announce-that-detroit-become-activity-7415059736594812929-6PG-/" } }
+      ],
+      "summary": "Detroit: Become Human has surpassed 15 million units sold worldwide."
+    },
+    {
+      "ref": "business/arc-raiders-sales-top-12-4-million",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "ARC Raiders", "aliases": [], "genres": ["extraction-shooter", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 12400000, "unit": "units", "currency": null,
+          "entity": "arc-raiders", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "ARC Raiders sales top 12.4 million",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/01/arc-raiders-sales-top-12-4-million" } }
+      ],
+      "summary": "ARC Raiders sales have topped 12.4 million."
+    },
+    {
+      "ref": "rumours/a-poster-for-the-division-definitive-edition-has-reportedly",
+      "entities": {
+        "games": [
+          { "id": "the-division-definitive-edition", "name": "The Division: Definitive Edition", "aliases": [], "genres": ["tps", "rpg"], "franchise": "the-division", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a poster for The Division: Definitive Edition reportedly appeared at a Ubisoft event in Japan."
+    }
+  ]
+}

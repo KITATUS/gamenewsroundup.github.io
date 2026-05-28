@@ -1,0 +1,220 @@
+{
+  "date": "2025-07-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-final-fantasy-tactics-remake-has-been-rebuilt-from-scrat",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-tactics", "name": "Final Fantasy Tactics", "aliases": [], "genres": ["turn-based-strategy", "jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake"],
+      "facts": [],
+      "summary": "Square Enix confirmed the Final Fantasy Tactics remake had to be rebuilt from scratch because the original source code no longer exists."
+    },
+    {
+      "ref": "main_news/pok-mon-trading-card-pocket-gets-new-johto-themed-packs-alon",
+      "entities": {
+        "games": [
+          { "id": "pokemon-trading-card-game-pocket", "name": "Pokémon Trading Card Game Pocket", "aliases": ["Pokémon Trading Card Pocket"], "genres": ["card"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion"],
+      "facts": [],
+      "summary": "Pokémon Trading Card Game Pocket added new Johto-themed packs alongside a trading update."
+    },
+    {
+      "ref": "main_news/clair-obscur-expedition-33-6lp-vinyl-box-set-8-cd-set-and-a",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "laced-records", "name": "Laced Records", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Laced Records announced a 6LP vinyl box set, an 8 CD set, and a double LP for Clair Obscur: Expedition 33."
+    },
+    {
+      "ref": "main_news/like-steam-before-it-itch-io-has-hidden-its-entire-nsfw-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "itch-io", "name": "Itch.io", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Itch.io hid its entire NSFW games library, following Steam, as payment providers pressured storefronts."
+    },
+    {
+      "ref": "main_news/lego-game-boy-finally-revealed-after-months-of-leaks-release",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-links-awakening", "name": "The Legend of Zelda: Link's Awakening", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "super-mario-land", "name": "Super Mario Land", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "lego", "name": "Lego", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "game-boy", "name": "Game Boy", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-10-01", "unit": "date", "currency": null,
+          "entity": "lego-game-boy", "entity_type": "product", "scope": "product",
+          "as_of": "2025-07-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "releases October 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/lego-game-boy-finally-revealed-after-months-of-leaks/" }
+        },
+        {
+          "metric": "price", "value": 59.99, "unit": "price", "currency": "USD",
+          "entity": "lego-game-boy", "entity_type": "product", "scope": "product",
+          "as_of": "2025-07-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "cost $59.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/lego-game-boy-finally-revealed-after-months-of-leaks/" }
+        }
+      ],
+      "summary": "Lego revealed the Lego Game Boy set, releasing 1 October for $59.99 with 421 pieces and cartridges for The Legend of Zelda: Link's Awakening and Super Mario Land."
+    },
+    {
+      "ref": "business/elden-ring-nightreign-has-sold-5-million-units-shadow-of-the",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightreign", "name": "Elden Ring Nightreign", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true },
+          { "id": "elden-ring-shadow-of-the-erdtree", "name": "Elden Ring: Shadow of the Erdtree", "aliases": ["Shadow of the Erdtree"], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "bandai-namco", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 5000000, "unit": "units", "currency": null,
+          "entity": "elden-ring-nightreign", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-25", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Elden Ring Nightreign has sold 5 million units",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/ELDENRING/status/1948382858109698175" }
+        },
+        {
+          "metric": "units_sold", "value": 10000000, "unit": "units", "currency": null,
+          "entity": "elden-ring-shadow-of-the-erdtree", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-25", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Shadow of the Erdtree 10 million",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/ELDENRING/status/1948382858109698175" }
+        }
+      ],
+      "summary": "Elden Ring Nightreign has sold 5 million units and Shadow of the Erdtree 10 million units."
+    },
+    {
+      "ref": "business/hasbro-s-recent-magic-the-gathering-final-fantasy-crossover",
+      "entities": {
+        "games": [
+          { "id": "magic-the-gathering", "name": "Magic: The Gathering", "aliases": ["Magic the Gathering"], "genres": ["card"], "franchise": "magic-the-gathering", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "hasbro", "name": "Hasbro", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 200000000, "unit": "money", "currency": "USD",
+          "entity": "magic-the-gathering", "entity_type": "product", "scope": "product",
+          "as_of": "2025-07-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "crossover card set made $200m sales in one day",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/magic-the-gatherings-final-fantasy-crossover-set-made-200-million-in-a-single-day" }
+        }
+      ],
+      "summary": "Hasbro's Magic: The Gathering Final Fantasy crossover card set made $200 million in sales in a single day."
+    },
+    {
+      "ref": "business/sony-has-acquired-2-5-of-elden-ring-publisher-bandai-namco-i",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true },
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "partnership"],
+      "facts": [
+        {
+          "metric": "equity_stake_pct", "value": 2.5, "unit": "percent", "currency": null,
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-07-25", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "Sony has acquired 2.5% of Elden Ring publisher Bandai Namco",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sony-has-acquired-2-5-of-elden-ring-publisher-bandai-namco-in-a-strategic-partnership/" }
+        }
+      ],
+      "summary": "Sony acquired a 2.5% stake in Elden Ring publisher Bandai Namco as part of a strategic partnership."
+    },
+    {
+      "ref": "business/nintendo-switch-2-set-a-us-launch-month-record-at-1-6-millio",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "hardware"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 1600000, "unit": "units", "currency": null,
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-07-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nintendo Switch 2 set a US launch month record at 1.6 million units",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-switch-2-set-a-us-launch-month-record-at-1-6-million-units/" }
+        }
+      ],
+      "summary": "The Nintendo Switch 2 set a US launch-month record of 1.6 million units, with 82% of June buyers also acquiring Mario Kart World."
+    }
+  ]
+}

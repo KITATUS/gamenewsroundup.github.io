@@ -1,0 +1,118 @@
+{
+  "date": "2025-09-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-confirms-far-cry-will-more-predominantly-push-multip",
+      "entities": {
+        "games": [
+          { "id": "far-cry", "name": "Far Cry", "aliases": [], "genres": ["fps", "open-world", "action-adventure"], "franchise": "far-cry", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ubisoft confirmed that future Far Cry games will more predominantly push multiplayer."
+    },
+    {
+      "ref": "main_news/elden-ring-nightreign-gets-a-free-high-difficulty-mode-calle",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightreign", "name": "Elden Ring Nightreign", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "bandai-namco-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Elden Ring Nightreign is receiving a free high-difficulty mode called Deep of Night."
+    },
+    {
+      "ref": "main_news/bafta-games-in-concert-announced-celebrating-20-years-of-awa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "BAFTA Games in Concert was announced, celebrating 20 years of award-winning game music with a confirmed UK and worldwide tour in 2026."
+    },
+    {
+      "ref": "main_news/don-t-forget-there-is-a-nintendo-direct-today-at-2pm-uk-time",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-09-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-direct",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-09-12",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "there is a Nintendo Direct today at 2PM UK time",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=tpso9KkjylY" }
+        }
+      ],
+      "summary": "A Nintendo Direct is scheduled for 12 September 2025 at 2PM UK time."
+    },
+    {
+      "ref": "business/french-lara-croft-taking-legal-action-against-aspyr-for-ai-g",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [
+          { "id": "aspyr", "name": "Aspyr", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "remaster-remake"],
+      "facts": [],
+      "summary": "The French voice actor for Lara Croft is taking legal action against Aspyr over the use of an AI-generated voice in the Tomb Raider remasters."
+    },
+    {
+      "ref": "business/qa-firm-testronic-secures-significant-new-investment-as-it-r",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "testronic", "name": "Testronic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "QA firm Testronic secured a significant new investment as it restructures its worldwide operations."
+    }
+  ]
+}

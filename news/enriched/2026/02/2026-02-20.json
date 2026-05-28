@@ -1,0 +1,173 @@
+{
+  "date": "2026-02-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-presents-confirmed-for-next-week-friday-february-27",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-02-27", "unit": "date", "currency": null,
+          "entity": "pokemon-presents", "entity_type": "product", "scope": "event",
+          "as_of": "2026-02-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Pokémon Presents confirmed for next week - Friday, February 27",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/pokemon-presents-confirmed-for-next-week/" } }
+      ],
+      "summary": "A Pokémon Presents showcase is confirmed for Friday, February 27, 2026 on the official Pokémon YouTube and Twitch channels."
+    },
+    {
+      "ref": "main_news/pok-mon-firered-and-leafgreen-coming-to-nintendo-switch-next",
+      "entities": {
+        "games": [
+          { "id": "pokemon-firered", "name": "Pokémon FireRed", "aliases": [], "genres": ["jrpg"], "franchise": "pokemon", "inferred": true },
+          { "id": "pokemon-leafgreen", "name": "Pokémon LeafGreen", "aliases": [], "genres": ["jrpg"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "Pokémon FireRed and LeafGreen are coming to Nintendo Switch next week, after the upcoming Pokémon Presents event, but not as part of Switch Online."
+    },
+    {
+      "ref": "main_news/slay-the-spire-2-early-access-trailer-released-game-launches",
+      "entities": {
+        "games": [
+          { "id": "slay-the-spire-2", "name": "Slay the Spire 2", "aliases": [], "genres": ["roguelike", "card"], "franchise": "slay-the-spire", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "early-access", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-05", "unit": "date", "currency": null,
+          "entity": "slay-the-spire-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Game launches in early access March 5th",
+          "source": { "name": "YouTube", "domain": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=PW22jwFNxU8" } }
+      ],
+      "summary": "An early access trailer for Slay the Spire 2 was released, with the game launching in early access on March 5th."
+    },
+    {
+      "ref": "main_news/nintendo-surprises-fans-with-a-switch-2-edition-of-xenoblade",
+      "entities": {
+        "games": [
+          { "id": "xenoblade-chronicles-x", "name": "Xenoblade Chronicles X", "aliases": [], "genres": ["action-rpg", "jrpg", "open-world"], "franchise": "xenoblade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "monolith-soft", "name": "Monolith Soft", "aliases": [], "publisher": "nintendo", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-04-16", "unit": "date", "currency": null,
+          "entity": "xenoblade-chronicles-x", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Physical version coming April 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-surprises-fans-with-a-switch-2-edition-of-xenoblade-chronicles-x-out-today/" } },
+        { "metric": "price", "value": 5, "unit": "price", "currency": "USD",
+          "entity": "xenoblade-chronicles-x", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "can upgrade for $5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-surprises-fans-with-a-switch-2-edition-of-xenoblade-chronicles-x-out-today/" } }
+      ],
+      "summary": "Nintendo released a Switch 2 Edition of Xenoblade Chronicles X, with a physical version coming April 16 and a $5 upgrade for owners of the Switch 1 Definitive Edition."
+    },
+    {
+      "ref": "main_news/phil-spencer-retiring-sarah-bond-out-matt-booty-promoted-as",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": [], "inferred": false },
+          { "id": "sarah-bond", "name": "Sarah Bond", "aliases": [], "inferred": false },
+          { "id": "matt-booty", "name": "Matt Booty", "aliases": [], "inferred": false },
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Phil Spencer is retiring and Sarah Bond is out as Microsoft promotes Matt Booty and names AI executive Asha Sharma as the new Xbox boss."
+    },
+    {
+      "ref": "business/sony-is-shutting-down-bluepoint-developer-of-demon-s-souls-r",
+      "entities": {
+        "games": [
+          { "id": "demons-souls", "name": "Demon's Souls", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "souls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bluepoint-games", "name": "Bluepoint", "aliases": ["Bluepoint Games"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Sony is shutting down Bluepoint, the studio behind the Demon's Souls remake."
+    },
+    {
+      "ref": "business/ubisoft-confirms-layoffs-at-toronto-studio-but-insists-splin",
+      "entities": {
+        "games": [
+          { "id": "splinter-cell", "name": "Splinter Cell", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "splinter-cell", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-toronto", "name": "Ubisoft Toronto", "aliases": ["Toronto studio"], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 40, "unit": "people", "currency": null,
+          "entity": "ubisoft-toronto", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-02-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "around 40 people affected",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisoft-confirms-layoffs-at-toronto-studio-but-insists-splinter-cells-remake-is-still-coming/" } }
+      ],
+      "summary": "Ubisoft confirmed around 40 layoffs at its Toronto studio while insisting the Splinter Cell remake is still coming."
+    }
+  ]
+}

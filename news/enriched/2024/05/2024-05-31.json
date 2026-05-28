@@ -1,0 +1,203 @@
+{
+  "date": "2024-05-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/redfall-s-final-update-has-been-released-adding-offline-play",
+      "entities": {
+        "games": [{ "id": "redfall", "name": "Redfall", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "arkane-studios", "name": "Arkane Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Redfall's final update has been released, adding offline play along with single-player pausing, a new weapon, and a revamped Nests system."
+    },
+    {
+      "ref": "main_news/playstation-s-sci-fi-multiplayer-fps-concord-gets-first-game",
+      "entities": {
+        "games": [{ "id": "concord", "name": "Concord", "aliases": [], "genres": ["fps", "hero-shooter"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "firewalk-studios", "name": "Firewalk Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "gameplay", "trailer", "beta-demo"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-23", "unit": "date", "currency": null,
+          "entity": "concord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will be released on PS5 and PC on August 23, with a beta taking place in July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstations-sci-fi-multiplayer-fps-concord-gets-first-gameplay-footage-and-release-date/" } }
+      ],
+      "summary": "PlayStation's sci-fi multiplayer FPS Concord received its first gameplay footage and an August 23, 2024 release date on PS5 and PC, with a beta in July."
+    },
+    {
+      "ref": "main_news/pac-man-s-64-player-battle-royale-game-has-yet-to-reach-64-c",
+      "entities": {
+        "games": [
+          { "id": "pac-man-mega-tunnel-battle-chomp-champs", "name": "Pac-Man Mega Tunnel Battle: Chomp Champs", "aliases": ["Pac-Man Mega Tunnel Battle"], "genres": ["battle-royale", "party"], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "google-stadia", "name": "Google Stadia", "aliases": ["Stadia"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "shutdown"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-05-09", "unit": "date", "currency": null,
+          "entity": "pac-man-mega-tunnel-battle-chomp-champs", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Bandai Namco released an updated version, titled Pac-Man Mega Tunnel Battle: Chomp Champs, on PC and consoles on May 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pac-mans-64-player-battle-royale-game-has-yet-to-reach-64-concurrent-players-on-steam/" } }
+      ],
+      "summary": "Pac-Man Mega Tunnel Battle: Chomp Champs, the 64-player battle royale relaunched on May 9, has yet to reach 64 concurrent players on Steam."
+    },
+    {
+      "ref": "main_news/silent-hill-2-remake-has-a-release-date",
+      "entities": {
+        "games": [{ "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-08", "unit": "date", "currency": null,
+          "entity": "silent-hill-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PS5 / Steam: October 8, 2024",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-silent-hill-2-remake-has-a-release-date/" } }
+      ],
+      "summary": "The Silent Hill 2 remake has a release date of October 8, 2024 on PS5 and Steam."
+    },
+    {
+      "ref": "main_news/astro-bot-is-getting-his-own-full-price-platformer",
+      "entities": {
+        "games": [{ "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true }],
+        "studios": [{ "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-06", "unit": "date", "currency": null,
+          "entity": "astro-bot", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases September 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/astro-bot-is-getting-his-own-full-price-platformer/" } }
+      ],
+      "summary": "Astro Bot is getting his own full-price platformer releasing September 6, with 15 new abilities across 6 galaxies and over 80 levels."
+    },
+    {
+      "ref": "main_news/monster-hunter-wilds-gets-its-first-gameplay-trailer",
+      "entities": {
+        "games": [{ "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }],
+        "studios": [{ "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "gameplay", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "monster-hunter-wilds", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-31", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Releases 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/monster-hunter-wilds-gets-its-first-gameplay-trailer/" } }
+      ],
+      "summary": "Monster Hunter Wilds received its first gameplay trailer and is set to release in 2025."
+    },
+    {
+      "ref": "main_news/netflix-announces-minecraft-animated-series",
+      "entities": {
+        "games": [{ "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }],
+        "studios": [{ "id": "wildbrain", "name": "WildBrain", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Netflix announced a Minecraft animated series to be co-developed with animation studio WildBrain."
+    },
+    {
+      "ref": "business/amazon-signs-debut-title-from-playground-alumni-maverick-gam",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "maverick-games", "name": "Maverick Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [{ "id": "jamie-brittain", "name": "Jamie Brittain", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Amazon signed the debut title from Playground alumni studio Maverick Games, an open-world narrative-led driving game coming to PlayStation 5, Xbox Series X|S, and PC."
+    },
+    {
+      "ref": "business/fallout-76-nets-20-million-players",
+      "entities": {
+        "games": [{ "id": "fallout-76", "name": "Fallout 76", "aliases": [], "genres": ["action-rpg", "mmo", "survival"], "franchise": "fallout", "inferred": true }],
+        "studios": [{ "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "todd-howard", "name": "Todd Howard", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 20000000, "unit": "players", "currency": null,
+          "entity": "fallout-76", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-31", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Fallout 76 nets 20 million players",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/fallout-76-nets-20-million-players-as-todd-howard-assures-franchise-will-continue" } }
+      ],
+      "summary": "Fallout 76 has reached 20 million players, with Todd Howard assuring the franchise will continue."
+    },
+    {
+      "ref": "rumours/just-cause-movie-is-on-the-way",
+      "entities": {
+        "games": [{ "id": "just-cause", "name": "Just Cause", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "just-cause", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a Just Cause movie is on the way."
+    },
+    {
+      "ref": "rumours/youtube-has-investigated-employees-breaching-their-contractu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "youtube", "name": "YouTube", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that YouTube has investigated employees on two occasions in the past 18 months for breaching contracts by accessing backend content and leaking game information, following another early State of Play leak."
+    }
+  ]
+}

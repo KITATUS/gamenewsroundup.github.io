@@ -1,0 +1,168 @@
+{
+  "date": "2024-12-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-thing-remastered-lands-surprise-release-date-via-xbox-we",
+      "entities": {
+        "games": [
+          { "id": "the-thing-remastered", "name": "The Thing: Remastered", "aliases": [], "genres": ["survival-horror"], "franchise": "the-thing", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-12-05", "unit": "date", "currency": null,
+          "entity": "the-thing-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "If the Xbox website is to believed, the game is launching today",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-thing-remastered-lands-surprise-release-date-and-its-really-soon" } }
+      ],
+      "summary": "The Thing: Remastered appears to have a surprise release date, with an Xbox website listing suggesting it launches today."
+    },
+    {
+      "ref": "main_news/sony-showcases-demo-of-psvr2-controller-free-hand-tracking",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-vr2", "name": "PSVR2", "aliases": ["PlayStation VR2"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "hardware"],
+      "facts": [],
+      "summary": "Sony showcased a demo of controller-free hand tracking for PSVR2 at Siggraph Asia 2024."
+    },
+    {
+      "ref": "business/friday-the-13th-studio-illfonic-lays-off-staff-as-it-realign",
+      "entities": {
+        "games": [
+          { "id": "friday-the-13th-the-game", "name": "Friday the 13th: The Game", "aliases": ["Friday the 13th"], "genres": ["survival-horror"], "franchise": "friday-the-13th", "inferred": true },
+          { "id": "killer-klowns-from-outer-space-the-game", "name": "Killer Klowns from Outer Space: The Game", "aliases": ["Killer Klowns from Outer Space"], "genres": ["survival-horror"], "franchise": "killer-klowns-from-outer-space", "inferred": true }
+        ],
+        "studios": [
+          { "id": "illfonic", "name": "IllFonic", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Friday the 13th studio IllFonic laid off an unspecified number of staff as it realigns to a refined strategy."
+    },
+    {
+      "ref": "business/deceive-inc-studio-sweet-bandits-shuts-down",
+      "entities": {
+        "games": [
+          { "id": "deceive-inc", "name": "Deceive Inc", "aliases": [], "genres": ["fps", "stealth"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sweet-bandits", "name": "Sweet Bandits", "aliases": ["Sweet Bandits Studios"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Sweet Bandits, the studio behind Deceive Inc, has shut down after struggling to make the game thrive."
+    },
+    {
+      "ref": "business/chivalry-developer-torn-banner-studios-lays-off-staff",
+      "entities": {
+        "games": [
+          { "id": "chivalry", "name": "Chivalry", "aliases": [], "genres": ["action", "fighting"], "franchise": "chivalry", "inferred": true },
+          { "id": "no-more-room-in-hell-2", "name": "No More Room In Hell 2", "aliases": [], "genres": ["fps", "horror"], "franchise": "no-more-room-in-hell", "inferred": true }
+        ],
+        "studios": [
+          { "id": "torn-banner-studios", "name": "Torn Banner Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "piggott", "name": "Piggott", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "early-access"],
+      "facts": [],
+      "summary": "Chivalry developer Torn Banner Studios laid off staff, offering severance, following the early access launch of No More Room In Hell 2."
+    },
+    {
+      "ref": "business/smilegate-makes-strategic-investment-in-dan-houser-s-absurd",
+      "entities": {
+        "games": [
+          { "id": "lost-ark", "name": "Lost Ark", "aliases": [], "genres": ["mmorpg", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "absurd-ventures", "name": "Absurd Ventures", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "smilegate", "name": "Smilegate", "aliases": [], "inferred": false },
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": ["Amazon Game"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "dan-houser", "name": "Dan Houser", "aliases": ["Houser"], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment", "partnership"],
+      "facts": [],
+      "summary": "Smilegate made a strategic investment in Dan Houser's Absurd Ventures to collaborate on new IP, pairing Western narrative expertise with Asian market reach."
+    },
+    {
+      "ref": "business/playgama-raises-3-million-to-build-global-html5-platform-eco",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "playgama", "name": "Playgama", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 3000000, "unit": "money", "currency": "USD",
+          "entity": "playgama", "entity_type": "company", "scope": "company",
+          "as_of": "2024-12-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Playgama** raises $3 million to build global HTML5 platform ecosystem",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/playgama-raises-3-million-to-build-global-html5-platform-ecosystem" } },
+        { "metric": "announce_date", "value": "2024-12-03", "unit": "date", "currency": null,
+          "entity": "playgama", "entity_type": "company", "scope": "company",
+          "as_of": "2024-12-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "In the announcement on December 3",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/playgama-raises-3-million-to-build-global-html5-platform-ecosystem" } }
+      ],
+      "summary": "Playgama raised $3 million, primarily from The Open Platform and s16vc, to build a global HTML5 platform ecosystem."
+    },
+    {
+      "ref": "business/mygames-sells-off-hypercasual-games-publisher-mamboo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "mygames", "name": "MyGames", "aliases": [], "inferred": false },
+          { "id": "mamboo", "name": "Mamboo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "MyGames sold off hypercasual games publisher Mamboo to refocus on mid-core releases."
+    }
+  ]
+}

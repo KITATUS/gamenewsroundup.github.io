@@ -1,0 +1,194 @@
+{
+  "date": "2025-02-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/marvel-rivals-rolls-back-controversial-mid-season-rank-reset",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "netease", "name": "NetEase", "aliases": ["Netease"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "NetEase rolled back a controversial mid-season rank reset for Marvel Rivals hours after announcing it, instead requiring players to play 10 matches to redeem their rank rewards."
+    },
+    {
+      "ref": "business/valve-reminds-devs-they-can-t-use-mobile-like-in-game-paid-a",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Valve reminded developers that they cannot use mobile-like in-game paid advertising as a business model on Steam, such as requiring players to engage with ads before playing or locking gameplay behind ads."
+    },
+    {
+      "ref": "business/ghost-hunting-sim-phasmophobia-hits-2m-console-sales-and-22m",
+      "entities": {
+        "games": [
+          { "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "phasmophobia",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Phasmophobia ** hits 2m console sales",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/PlayPhasmo/status/1889001667195981880" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 22000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "phasmophobia",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "22m sales overall",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/PlayPhasmo/status/1889001667195981880" }
+        }
+      ],
+      "summary": "Ghost-hunting sim Phasmophobia has reached 2 million console sales and 22 million sales overall."
+    },
+    {
+      "ref": "business/square-enix-financial-earnings-for-the-nine-months-ending-de",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 248500000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥248.5 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-fall-over-the-past-nine-months-to-16bn" }
+        },
+        {
+          "metric": "revenue",
+          "value": 1600000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "$1.6 billion, down 3.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-fall-over-the-past-nine-months-to-16bn" }
+        },
+        {
+          "metric": "profit",
+          "value": 24700000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Profit: ¥24.7 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-fall-over-the-past-nine-months-to-16bn" }
+        },
+        {
+          "metric": "profit",
+          "value": 161900000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "$161.9 million, down 7.7% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-fall-over-the-past-nine-months-to-16bn" }
+        },
+        {
+          "metric": "revenue",
+          "value": 160300000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Digital entertainment net sales: ¥160.3 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-fall-over-the-past-nine-months-to-16bn" }
+        },
+        {
+          "metric": "revenue",
+          "value": 1050000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "square-enix",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-11",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "$1.05 billion, down 10.7% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-fall-over-the-past-nine-months-to-16bn" }
+        }
+      ],
+      "summary": "Square Enix reported net sales of ¥248.5 billion (down 3.5% year-on-year) and profit of ¥24.7 billion for the nine months ending December 31, 2024."
+    }
+  ]
+}

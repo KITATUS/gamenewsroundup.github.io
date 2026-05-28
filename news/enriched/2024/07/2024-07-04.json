@@ -1,0 +1,160 @@
+{
+  "date": "2024-07-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/zenless-zone-zero-is-now-available",
+      "entities": {
+        "games": [
+          { "id": "zenless-zone-zero", "name": "Zenless Zone Zero", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "honkai-impact", "name": "Honkai Impact", "aliases": [], "genres": ["action-rpg"], "franchise": "honkai", "inferred": true },
+          { "id": "honkai-star-rail", "name": "Honkai Star Rail", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "honkai", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mihoyo", "name": "miHoYo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Zenless Zone Zero, the latest title from miHoYo, is now available."
+    },
+    {
+      "ref": "main_news/uk-man-jailed-for-four-months-for-carrying-6-inch-zelda-mast",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A UK man was jailed for four months for carrying a 6-inch Zelda Master Sword replica in public."
+    },
+    {
+      "ref": "main_news/personal-data-of-spike-chunsoft-staff-may-have-been-leaked-i",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "spike-chunsoft", "name": "Spike Chunsoft", "aliases": [], "publisher": "kadokawa", "inferred": true },
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "kadokawa", "inferred": false },
+          { "id": "dwango", "name": "Dwango", "aliases": [], "publisher": "kadokawa", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "kadokawa", "name": "Kadokawa", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Personal data of Spike Chunsoft staff may have been leaked in a ransomware hack of parent company Kadokawa by the BlackSuit gang."
+    },
+    {
+      "ref": "business/keywords-studios-reaches-2-2bn-acquisition-agreement-with-sw",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "keywords-studios", "name": "Keywords Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 2200000000, "unit": "money", "currency": "GBP",
+          "entity": "keywords-studios", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Keywords Studios reaches £2.2bn acquisition agreement with Swedish investment company EQT",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/keywords-studios-reaches-22bn-acquisition-agreement-with-swedish-investment-company-eqt" } }
+      ],
+      "summary": "Keywords Studios reached a £2.2bn acquisition agreement with Swedish investment company EQT, with the deal expected to complete in Q4 2024."
+    },
+    {
+      "ref": "business/squad-busters-reaches-24m-in-first-month-revenue",
+      "entities": {
+        "games": [
+          { "id": "squad-busters", "name": "Squad Busters", "aliases": [], "genres": ["strategy", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "supercell", "name": "Supercell", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 24000000, "unit": "money", "currency": "USD",
+          "entity": "squad-busters", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Squad Busters reaches $24m in first month revenue",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/squad-busters-reaches-24m-in-first-month-revenue" } }
+      ],
+      "summary": "Squad Busters reached $24m in revenue during its first month."
+    },
+    {
+      "ref": "business/adult-swim-delists-four-more-indie-games-stating-developers",
+      "entities": {
+        "games": [
+          { "id": "mega-coin-squad", "name": "Mega Coin Squad", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "super-house-of-dead-ninjas", "name": "Super House of Dead Ninjas", "aliases": ["Super House of Dead Ninja"], "genres": ["platformer", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "traverser", "name": "Traverser", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "zenzizenzic", "name": "Zenzizenzic", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "adult-swim-games", "name": "Adult Swim", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Adult Swim delisted four more indie games, Mega Coin Squad, Super House of Dead Ninjas, Traverser and Zenzizenzic, stating developers were not available to take over as publisher."
+    },
+    {
+      "ref": "business/more-co-op-games-were-released-on-steam-last-year-than-in-an",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A report found more co-op games were released on Steam in 2023 than in any other year."
+    },
+    {
+      "ref": "rumours/netflix-s-horizon-zero-dawn-series-potentially-not-moving-fo",
+      "entities": {
+        "games": [
+          { "id": "horizon-zero-dawn", "name": "Horizon Zero Dawn", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "steve-blackman", "name": "Steve Blackman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A rumour claims Netflix's Horizon Zero Dawn series may not be moving forward due to issues with showrunner Steve Blackman."
+    }
+  ]
+}

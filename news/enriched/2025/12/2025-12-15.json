@@ -1,0 +1,138 @@
+{
+  "date": "2025-12-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/french-president-publicly-congratulates-clair-obscur-expedit",
+      "entities": {
+        "games": [
+          {
+            "id": "clair-obscur-expedition-33",
+            "name": "Clair Obscur: Expedition 33",
+            "aliases": [],
+            "genres": ["rpg", "turn-based-strategy"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The French President publicly congratulated Clair Obscur: Expedition 33 on its Game of the Year win, calling it \"a historic first\"."
+    },
+    {
+      "ref": "main_news/the-scripts-are-incredible-and-very-funny-sigourney-weaver-c",
+      "entities": {
+        "games": [
+          {
+            "id": "tomb-raider",
+            "name": "Tomb Raider",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "tomb-raider",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "sigourney-weaver",
+            "name": "Sigourney Weaver",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sigourney Weaver confirmed she will play Wallace in the live-action Tomb Raider series, praising the scripts as incredible and very funny."
+    },
+    {
+      "ref": "main_news/co-ceo-of-lies-of-p-maker-neowiz-says-korea-s-government-is",
+      "entities": {
+        "games": [
+          {
+            "id": "lies-of-p",
+            "name": "Lies of P",
+            "aliases": [],
+            "genres": ["soulslike", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "neowiz",
+            "name": "Neowiz",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "A co-CEO of Lies of P maker Neowiz said Korea's government is helping an indie boom, but added that securing funding has become harder for studios in the region."
+    },
+    {
+      "ref": "main_news/sir-nick-clegg-joins-hiro-capital-as-general-partner-to-new",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "nick-clegg",
+            "name": "Sir Nick Clegg",
+            "aliases": ["Nick Clegg"],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change", "funding-investment"],
+      "facts": [],
+      "summary": "Sir Nick Clegg joined Hiro Capital as a general partner of its new scale-up VC fund, Hiro III, which is focused on spatial AI, robotics, longevity, games, and space and defence."
+    },
+    {
+      "ref": "main_news/new-tomb-raider-games-recast-lara-croft-with-a-gaming-vetera",
+      "entities": {
+        "games": [
+          {
+            "id": "tomb-raider",
+            "name": "Tomb Raider",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "tomb-raider",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "wilton-regan",
+            "name": "Wilton Regan",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "New Tomb Raider games will recast Lara Croft with gaming veteran Wilton Regan, known for roles in Mass Effect 3, Dragon Age: Inquisition, and Assassin's Creed Origins."
+    }
+  ]
+}

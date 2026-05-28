@@ -1,0 +1,187 @@
+{
+  "date": "2025-08-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-chapter-6-season-4-trailer-reveals-power-rangers-an",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": ["Fortnite Chapter 6 Season 4"], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "reveal", "partnership", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-07", "unit": "date", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Chapter 6 Season 4 starts August 7th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/fortnite-chapter-6-season-4-trailer-reveals-power-rangers-collaboration/" } }
+      ],
+      "summary": "A Fortnite Chapter 6 Season 4 trailer revealed Power Rangers and Halo collaborations, with the season, called Shock 'n Awesome, starting on 7 August 2025."
+    },
+    {
+      "ref": "main_news/nintendo-will-hold-an-indie-world-live-stream-on-thursday-au",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-08-07", "unit": "date", "currency": null,
+          "entity": "nintendo-indie-world", "entity_type": "product", "scope": "event",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Indie World live stream on Thursday, August 7",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-will-hold-an-indie-world-live-stream-this-thursday/" } }
+      ],
+      "summary": "Nintendo will hold an Indie World live stream on Thursday, 7 August 2025."
+    },
+    {
+      "ref": "main_news/peak-developers-would-rather-you-pirate-its-game-than-play-r",
+      "entities": {
+        "games": [
+          { "id": "peak", "name": "Peak", "aliases": [], "genres": ["survival", "adventure"], "franchise": null, "inferred": true },
+          { "id": "cliff", "name": "Cliff", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The developers of Peak said they would rather players pirate their game than play a Roblox title called Cliff, which they described as microtransaction-riddled ripoff slop."
+    },
+    {
+      "ref": "main_news/genshin-impact-ps4-is-being-discontinued-users-are-being-urg",
+      "entities": {
+        "games": [
+          { "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "genshin-impact", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hoyoverse", "name": "HoYoverse", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Genshin Impact on PS4 is being discontinued, with users urged to move on to the PS5 version."
+    },
+    {
+      "ref": "free_games_subscription/august-s-playstation-plus-essential-titles-are-now-available",
+      "entities": {
+        "games": [
+          { "id": "lies-of-p", "name": "Lies of P", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "dayz", "name": "Day Z", "aliases": ["Day Z"], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "my-hero-ones-justice-2", "name": "My Hero One's Justice 2", "aliases": [], "genres": ["fighting"], "franchise": "my-hero-academia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "August's PlayStation Plus Essential titles are now available, comprising Lies of P, Day Z and My Hero One's Justice 2."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-august",
+      "entities": {
+        "games": [
+          { "id": "rain-world", "name": "Rain World", "aliases": [], "genres": ["survival", "metroidvania"], "franchise": null, "inferred": true },
+          { "id": "citizen-sleeper-2-starward-vector", "name": "Citizen Sleeper 2: Starward Vector", "aliases": [], "genres": ["rpg"], "franchise": "citizen-sleeper", "inferred": true },
+          { "id": "lonely-mountains-snow-riders", "name": "Lonely Mountains: Snow Riders", "aliases": [], "genres": ["sports"], "franchise": "lonely-mountains", "inferred": true },
+          { "id": "mechwarrior-5-clans", "name": "MechWarrior 5: Clans", "aliases": [], "genres": ["simulation", "shooter"], "franchise": "mechwarrior", "inferred": true },
+          { "id": "orcs-must-die-deathtrap", "name": "Orcs Must Die! Deathtrap", "aliases": [], "genres": ["tower-defense", "action-adventure"], "franchise": "orcs-must-die", "inferred": true },
+          { "id": "assassins-creed-mirage", "name": "Assassin's Creed Mirage", "aliases": [], "genres": ["action-adventure", "stealth", "open-world"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "aliens-fireteam-elite", "name": "Aliens: Fireteam Elite", "aliases": [], "genres": ["tps", "shooter"], "franchise": "aliens", "inferred": true },
+          { "id": "9-kings", "name": "9 Kings", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true },
+          { "id": "anthem", "name": "Anthem", "aliases": [], "genres": ["action-rpg", "shooter"], "franchise": null, "inferred": true },
+          { "id": "farming-simulator-2", "name": "Farming Simulator 2", "aliases": [], "genres": ["simulation"], "franchise": "farming-simulator", "inferred": true },
+          { "id": "persona-3-reload", "name": "Persona 3 Reload", "aliases": [], "genres": ["jrpg"], "franchise": "persona", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-08-06", "unit": "date", "currency": null,
+          "entity": "citizen-sleeper-2-starward-vector", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Citizen Sleeper 2: Starward Vector (Xbox Series S/X) – August 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "event_date", "value": "2025-08-06", "unit": "date", "currency": null,
+          "entity": "lonely-mountains-snow-riders", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lonely Mountains: Snow Riders (Xbox Series S/X) – August 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "event_date", "value": "2025-08-06", "unit": "date", "currency": null,
+          "entity": "mechwarrior-5-clans", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MechWarrior 5: Clans (Xbox Series S/X) – August 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "event_date", "value": "2025-08-06", "unit": "date", "currency": null,
+          "entity": "orcs-must-die-deathtrap", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Orcs Must Die! Deathtrap (Xbox Series S/X) – August 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "event_date", "value": "2025-08-07", "unit": "date", "currency": null,
+          "entity": "assassins-creed-mirage", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Assassin’s Creed Mirage (Cloud, Console and PC) – August 7",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "event_date", "value": "2025-08-12", "unit": "date", "currency": null,
+          "entity": "aliens-fireteam-elite", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Aliens: Fireteam Elite (Cloud, Console, and PC) – August 12",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "event_date", "value": "2025-08-14", "unit": "date", "currency": null,
+          "entity": "9-kings", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "9 Kings (PC) – August 14",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "shutdown_date", "value": "2025-08-15", "unit": "date", "currency": null,
+          "entity": "anthem", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving August 15th:",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "shutdown_date", "value": "2025-08-15", "unit": "date", "currency": null,
+          "entity": "farming-simulator-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving August 15th:",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } },
+        { "metric": "shutdown_date", "value": "2025-08-15", "unit": "date", "currency": null,
+          "entity": "persona-3-reload", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving August 15th:",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-august-include-assassins-creed-mirage/" } }
+      ],
+      "summary": "Xbox Game Pass titles for August were detailed, with new additions including Assassin's Creed Mirage and several games leaving the service on 15 August."
+    }
+  ]
+}

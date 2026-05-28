@@ -1,0 +1,154 @@
+{
+  "date": "2024-07-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/a-pre-release-build-of-warhammer-40-000-space-marine-2-has-l",
+      "entities": {
+        "games": [
+          {
+            "id": "warhammer-40000-space-marine-2",
+            "name": "Warhammer 40,000: Space Marine 2",
+            "aliases": ["Space Marine 2"],
+            "genres": ["tps", "action-adventure"],
+            "franchise": "warhammer-40000",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "saber-interactive",
+            "name": "Saber Interactive",
+            "aliases": ["Saber"],
+            "publisher": "focus-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "focus-entertainment",
+            "name": "Focus Entertainment",
+            "aliases": ["Focus"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [],
+      "summary": "A pre-release build of Warhammer 40,000: Space Marine 2 has leaked ahead of its September launch."
+    },
+    {
+      "ref": "main_news/moomins-coming-to-journey-dev-s-sky-children-of-the-light-th",
+      "entities": {
+        "games": [
+          {
+            "id": "sky-children-of-the-light",
+            "name": "Sky: Children of the Light",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "thatgamecompany",
+            "name": "thatgamecompany",
+            "aliases": ["Journey dev"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-two-embers",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-07-16",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Animated series The Two Embers due 2025",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/moomins-coming-to-journey-devs-sky-children-of-the-light-this-year"
+          }
+        }
+      ],
+      "summary": "Moomins are coming to thatgamecompany's Sky: Children of the Light this year."
+    },
+    {
+      "ref": "main_news/elden-ring-dlc-shadow-of-the-erdtree-removes-latin-american",
+      "entities": {
+        "games": [
+          {
+            "id": "elden-ring",
+            "name": "Elden Ring",
+            "aliases": [],
+            "genres": ["action-rpg", "soulslike", "open-world"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "elden-ring-shadow-of-the-erdtree",
+            "name": "Elden Ring: Shadow of the Erdtree",
+            "aliases": ["Shadow of the Erdtree"],
+            "genres": ["action-rpg", "soulslike"],
+            "franchise": "elden-ring",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "bandai-namco",
+            "name": "Bandai Namco",
+            "aliases": ["Bandai Namco Europe"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Elden Ring DLC Shadow of the Erdtree removed Latin American translation staff from its credits."
+    },
+    {
+      "ref": "rumours/crash-bandicoot-artist-claims-a-fifth-game-was-cancelled",
+      "entities": {
+        "games": [
+          {
+            "id": "crash-bandicoot",
+            "name": "Crash Bandicoot",
+            "aliases": ["Crash 5"],
+            "genres": ["platformer"],
+            "franchise": "crash-bandicoot",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that a Crash Bandicoot artist claims a fifth game in the series was cancelled."
+    }
+  ]
+}

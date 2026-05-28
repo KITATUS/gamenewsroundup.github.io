@@ -1,0 +1,109 @@
+{
+  "date": "2025-09-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/call-of-duty-movie-officially-in-the-works-at-paramount-tv-s",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "A Call of Duty movie is officially in development at Paramount, with a TV show possibly to follow."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-september-include-hollow-knight-si",
+      "entities": {
+        "games": [
+          { "id": "i-am-your-beast", "name": "I Am Your Beast", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "nine-sols", "name": "Nine Sols", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": ["Silksong"], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true },
+          { "id": "cataclismo", "name": "Cataclismo", "aliases": [], "genres": ["strategy", "tower-defense"], "franchise": null, "inferred": true },
+          { "id": "paw-patrol-world", "name": "Paw Patrol World", "aliases": [], "genres": ["adventure"], "franchise": "paw-patrol", "inferred": true },
+          { "id": "roadcraft", "name": "RoadCraft", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "wargroove-2", "name": "Wargroove 2", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": "wargroove", "inferred": true },
+          { "id": "we-love-katamari-reroll-royal-reverie", "name": "We Love Katamari Reroll+ Royal Reverie", "aliases": [], "genres": ["puzzle", "action"], "franchise": "katamari", "inferred": true },
+          { "id": "all-you-need-is-help", "name": "All You Need Is Help", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": ["Cloud"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-03", "unit": "date", "currency": null,
+          "entity": "nine-sols", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nine Sols (Xbox Series S/X) – September 3 on Game Pass Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-september-include-hollow-knight-silksong-and-roadcraft/" } },
+        { "metric": "release_date", "value": "2025-09-04", "unit": "date", "currency": null,
+          "entity": "hollow-knight-silksong", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Hollow Knight: Silksong (Cloud, PC and Console) – September 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-september-include-hollow-knight-silksong-and-roadcraft/" } },
+        { "metric": "release_date", "value": "2025-09-04", "unit": "date", "currency": null,
+          "entity": "cataclismo", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Cataclismo (PC) – September 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-september-include-hollow-knight-silksong-and-roadcraft/" } },
+        { "metric": "release_date", "value": "2025-09-10", "unit": "date", "currency": null,
+          "entity": "paw-patrol-world", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Paw Patrol World (Cloud, PC and Console) – September 10",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-september-include-hollow-knight-silksong-and-roadcraft/" } },
+        { "metric": "release_date", "value": "2025-09-16", "unit": "date", "currency": null,
+          "entity": "roadcraft", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "RoadCraft (Cloud and Xbox Series S/X) – September 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-september-include-hollow-knight-silksong-and-roadcraft/" } }
+      ],
+      "summary": "September Xbox Game Pass additions include I Am Your Beast, Nine Sols, Hollow Knight: Silksong and RoadCraft, with several titles leaving on 15 September."
+    },
+    {
+      "ref": "business/saudi-firm-acquires-co-ownership-of-evo-fighting-game-tourna",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "PIF-backed Qiddiya has acquired co-ownership of the long-running Evo fighting game tournaments."
+    },
+    {
+      "ref": "rumours/take-two-was-reportedly-in-talks-to-fund-and-publish-perfect",
+      "entities": {
+        "games": [
+          { "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "perfect-dark", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Take-Two was in talks to fund and publish the Perfect Dark reboot, with the deal reportedly falling through over long-term IP ownership."
+    }
+  ]
+}

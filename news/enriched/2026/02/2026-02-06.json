@@ -1,0 +1,227 @@
+{
+  "date": "2026-02-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/namco-s-last-major-arcade-ridge-racer-game-rave-racer-is-get",
+      "entities": {
+        "games": [
+          { "id": "rave-racer", "name": "Rave Racer", "aliases": [], "genres": ["racing"], "franchise": "ridge-racer", "inferred": true }
+        ],
+        "studios": [
+          { "id": "namco", "name": "Namco", "aliases": [], "publisher": "bandai-namco-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": ["Switch/2"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Namco's last major arcade Ridge Racer game, Rave Racer, is getting its first home version, coming to PS4/5, Switch and Switch 2, and Xbox Series S/X."
+    },
+    {
+      "ref": "main_news/playstation-and-guerrilla-announce-tactical-co-op-horizon-ga",
+      "entities": {
+        "games": [
+          { "id": "horizon-hunters-gathering", "name": "Horizon Hunters Gathering", "aliases": [], "genres": ["action-rpg"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "guerrilla-games", "name": "Guerrilla", "aliases": ["Guerrilla"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "PlayStation and Guerrilla announced a 'tactical co-op' Horizon game called Horizon Hunters Gathering."
+    },
+    {
+      "ref": "main_news/super-bomberman-collection-has-been-announced-for-switch-and",
+      "entities": {
+        "games": [
+          { "id": "super-bomberman-collection", "name": "Super Bomberman Collection", "aliases": [], "genres": ["action"], "franchise": "bomberman", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release"],
+      "facts": [],
+      "summary": "Super Bomberman Collection, a compilation of seven games including some previously unreleased localised editions, was announced for Switch and Switch 2 and is available now."
+    },
+    {
+      "ref": "main_news/fallout-4-and-indiana-jones-have-been-confirmed-for-the-swit",
+      "entities": {
+        "games": [
+          { "id": "fallout-4", "name": "Fallout 4", "aliases": ["Fallout 4: Anniversary Edition"], "genres": ["action-rpg", "open-world"], "franchise": "fallout", "inferred": true },
+          { "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": ["Indiana Jones"], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Nintendo's platform"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-05-12", "unit": "date", "currency": null,
+          "entity": "indiana-jones-and-the-great-circle", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Indiana Jones and the Great Circle will arrive on Nintendo's platform on 12th May",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fallout-4-and-indiana-jones-switch-2-release-dates-leak-ahead-of-nintendo-direct" } },
+        { "metric": "release_date", "value": "2026-02-24", "unit": "date", "currency": null,
+          "entity": "fallout-4", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fallout 4: Anniversary Edition, meanwhile, will be available on the eShop from 24th February",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fallout-4-and-indiana-jones-switch-2-release-dates-leak-ahead-of-nintendo-direct" } }
+      ],
+      "summary": "Fallout 4 and Indiana Jones have been confirmed for Switch 2, with Indiana Jones and the Great Circle arriving on 12th May and Fallout 4: Anniversary Edition on the eShop from 24th February."
+    },
+    {
+      "ref": "main_news/baldur-s-gate-to-be-adapted-into-hbo-series-last-of-us-showr",
+      "entities": {
+        "games": [
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": ["Baldur's Gate"], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "hbo", "name": "HBO", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "craig-mazin", "name": "Craig Mazin", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Baldur's Gate is to be adapted into an HBO series helmed by Last of Us showrunner Craig Mazin, set after the events of Baldur's Gate 3."
+    },
+    {
+      "ref": "main_news/machinegames-asking-more-staff-to-move-to-full-time-office-w",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "machinegames", "name": "MachineGames", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "MachineGames is asking more staff to move to full-time office work, citing greater efficiency and collaboration when in the office together."
+    },
+    {
+      "ref": "business/sony-q3-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 9400000000000, "unit": "JPY", "currency": "JPY",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Sales: ¥9.4 trillion ($59.8 billion, up 2.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } },
+        { "metric": "revenue", "value": 59800000000, "unit": "USD", "currency": "USD",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Sales: ¥9.4 trillion ($59.8 billion, up 2.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } },
+        { "metric": "operating_income", "value": 1300000000000, "unit": "JPY", "currency": "JPY",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥1.3 trillion ($8.2 billion, up 21%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } },
+        { "metric": "operating_income", "value": 8200000000, "unit": "USD", "currency": "USD",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥1.3 trillion ($8.2 billion, up 21%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } },
+        { "metric": "revenue", "value": 3660000000000, "unit": "JPY", "currency": "JPY",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Sales: ¥3.66 trillion ($23.2 billion, up 1.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } },
+        { "metric": "revenue", "value": 23200000000, "unit": "USD", "currency": "USD",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Sales: ¥3.66 trillion ($23.2 billion, up 1.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } },
+        { "metric": "operating_income", "value": 409100000000, "unit": "JPY", "currency": "JPY",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥409.1 billion ($2.6 billion, up 27%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } },
+        { "metric": "operating_income", "value": 2600000000, "unit": "USD", "currency": "USD",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥409.1 billion ($2.6 billion, up 27%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ps5-unit-sales-drop-during-holiday-period-q3-hardware-revenue-down-15-to-39bn" } }
+      ],
+      "summary": "Sony reported Q3 results for the nine months ended December 31, 2025, with total sales of ¥9.4 trillion ($59.8 billion) and Games & Network Services sales of ¥3.66 trillion ($23.2 billion)."
+    },
+    {
+      "ref": "business/no-rest-for-the-wicked-sells-1-5-million-copies",
+      "entities": {
+        "games": [
+          { "id": "no-rest-for-the-wicked", "name": "No Rest For The Wicked", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "moon-studios", "name": "Moon Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1500000, "unit": "copies", "currency": null,
+          "entity": "no-rest-for-the-wicked", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-06", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "No Rest For The Wicked sells 1.5 million copies",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/1371980/view/506226983746666572" } }
+      ],
+      "summary": "No Rest For The Wicked has sold 1.5 million copies."
+    },
+    {
+      "ref": "business/uk-co-development-house-sumo-digital-announces-redundancies",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sumo-digital", "name": "Sumo Digital", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "UK co-development house Sumo Digital has announced redundancies."
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "date": "2024-06-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/among-us-developer-launches-indie-fund-outersloth-to-give-ot",
+      "entities": {
+        "games": [
+          { "id": "among-us", "name": "Among Us", "aliases": [], "genres": ["party", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "innersloth", "name": "Innersloth", "aliases": ["Among Us developer"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "announcement"],
+      "facts": [],
+      "summary": "Among Us developer Innersloth launched an indie fund called Outersloth to support other developers."
+    },
+    {
+      "ref": "main_news/astro-s-playroom-has-received-new-content-and-trophies-ahead",
+      "entities": {
+        "games": [
+          { "id": "astros-playroom", "name": "Astro's Playroom", "aliases": [], "genres": ["platformer"], "franchise": "astro", "inferred": true },
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Astro's Playroom received a free update with new content and trophies ahead of Astro Bot's release."
+    },
+    {
+      "ref": "main_news/nightdive-revives-a-cult-2002-survival-horror-with-the-thing",
+      "entities": {
+        "games": [
+          { "id": "the-thing-remastered", "name": "The Thing: Remastered", "aliases": [], "genres": ["survival-horror"], "franchise": "the-thing", "inferred": false }
+        ],
+        "studios": [
+          { "id": "nightdive-studios", "name": "Nightdive", "aliases": ["Nightdive Studios"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox One / S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [],
+      "summary": "Nightdive is reviving the cult 2002 survival horror as The Thing: Remastered, due on PS4/5, Xbox One/Series, Switch and PC later this year."
+    },
+    {
+      "ref": "main_news/lego-horizon-adventures-has-been-officially-confirmed-for-ps",
+      "entities": {
+        "games": [
+          { "id": "lego-horizon-adventures", "name": "Lego Horizon Adventures", "aliases": [], "genres": ["action-adventure"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "studio-gobo", "name": "Studio Gobo", "aliases": [], "publisher": "keywords-studios", "inferred": false },
+          { "id": "guerrilla-games", "name": "Guerrilla Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Lego Horizon Adventures, made by Studio Gobo and Guerrilla Games, was officially confirmed for PS5, Switch and PC in holiday 2024."
+    },
+    {
+      "ref": "main_news/harry-potter-quidditch-champions-dated-and-confirmed-for-pla",
+      "entities": {
+        "games": [
+          { "id": "harry-potter-quidditch-champions", "name": "Harry Potter: Quidditch Champions", "aliases": [], "genres": ["sports"], "franchise": "harry-potter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": ["PS4/4"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": ["Xbox One /X/S"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "subscription"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "harry-potter-quidditch-champions",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Nintendo Switch and PC via Steam and the Epic Games Store on September 3rd",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/harry-potter-quidditch-champions-dated-and-confirmed-for-playstation-plus-day-one/" }
+        }
+      ],
+      "summary": "Harry Potter: Quidditch Champions was dated for September 3rd across consoles and PC, and confirmed for PlayStation Plus day one."
+    },
+    {
+      "ref": "main_news/stanley-parable-and-tacoma-creators-fight-back-against-onsla",
+      "entities": {
+        "games": [
+          { "id": "wanderstop", "name": "Wanderstop", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "the-stanley-parable", "name": "Stanley Parable", "aliases": ["The Stanley Parable"], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "tacoma", "name": "Tacoma", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "The creators of Stanley Parable and Tacoma revealed the tea-themed game Wanderstop, coming in 2024 for PS5 and PC."
+    },
+    {
+      "ref": "main_news/sonic-x-shadow-generations-get-release-date",
+      "entities": {
+        "games": [
+          { "id": "sonic-x-shadow-generations", "name": "Sonic x Shadow Generations", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "sonic", "name": "Sonic", "aliases": [], "inferred": false },
+          { "id": "shadow", "name": "Shadow", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-10-25",
+          "unit": "date",
+          "currency": null,
+          "entity": "sonic-x-shadow-generations",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "October 25th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sonic-x-shadow-generations-release-date-leaks-ahead-of-potential-summer-game-fest-reveal" }
+        }
+      ],
+      "summary": "Sonic x Shadow Generations received an October 25th release date, with pre-orders granting an SA1 skin for Sonic."
+    },
+    {
+      "ref": "main_news/alan-wake-2-s-deliciously-bizarre-night-springs-dlc-out-this",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release"],
+      "facts": [],
+      "summary": "Alan Wake 2's Night Springs DLC launches this weekend, letting players control Jesse Faden, Shaun Ashmore and Rose, with a physical version due this fall."
+    },
+    {
+      "ref": "main_news/starcraft-2-dev-david-kim-s-rts-hybrid-battle-aces-debuts-at",
+      "entities": {
+        "games": [
+          { "id": "battle-aces", "name": "Battle Aces", "aliases": [], "genres": ["rts", "card"], "franchise": null, "inferred": false },
+          { "id": "starcraft-2", "name": "StarCraft 2", "aliases": [], "genres": ["rts"], "franchise": "starcraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "david-kim", "name": "David Kim", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "showcase"],
+      "facts": [],
+      "summary": "StarCraft 2 developer David Kim's RTS-deckbuilding hybrid Battle Aces debuted at Summer Game Fest with no release date given."
+    },
+    {
+      "ref": "main_news/horror-film-production-company-blumhouse-marks-its-arrival-w",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "blumhouse", "name": "Blumhouse", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Horror film production company Blumhouse marked its games-industry arrival with six game announcements."
+    },
+    {
+      "ref": "main_news/digital-eclipse-is-making-a-new-power-rangers-beat-em-up",
+      "entities": {
+        "games": [
+          { "id": "mighty-morphin-power-rangers-ritas-rewind", "name": "Mighty Morphin Power Rangers: Rita's Rewind", "aliases": [], "genres": ["fighting"], "franchise": "power-rangers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-eclipse", "name": "Digital Eclipse", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Digital Eclipse is making a new Power Rangers beat 'em up, Mighty Morphin Power Rangers: Rita's Rewind, due later this year."
+    },
+    {
+      "ref": "main_news/terry-and-mai-from-fatal-fury-are-coming-to-street-fighter-6",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "fatal-fury", "name": "Fatal Fury", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "terry", "name": "Terry", "aliases": [], "inferred": false },
+          { "id": "mai", "name": "Mai", "aliases": [], "inferred": false },
+          { "id": "m-bison", "name": "M Bison", "aliases": [], "inferred": false },
+          { "id": "elena", "name": "Elena", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Fatal Fury's Terry and Mai are coming to Street Fighter 6, joined by M Bison and Elena."
+    },
+    {
+      "ref": "main_news/civilization-vii-has-officially-been-announced-for-2025",
+      "entities": {
+        "games": [
+          { "id": "civilization-vii", "name": "Civilization VII", "aliases": [], "genres": ["strategy", "turn-based-strategy", "4x"], "franchise": "civilization", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox One / S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025",
+          "unit": "date",
+          "currency": null,
+          "entity": "civilization-vii",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Civilization VII will be released in 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/civilization-vii-has-officially-been-announced-for-2025/" }
+        }
+      ],
+      "summary": "Civilization VII was officially announced for a 2025 release on PC, PlayStation, Xbox and Switch."
+    }
+  ]
+}

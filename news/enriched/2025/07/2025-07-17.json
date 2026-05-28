@@ -1,0 +1,254 @@
+{
+  "date": "2025-07-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/7-months-after-cyberpunk-2077-s-last-update-yet-more-new-con",
+      "entities": {
+        "games": [
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "mac",
+            "name": "Mac",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "update-patch", "port", "dlc-expansion"],
+      "facts": [],
+      "summary": "Seven months after Cyberpunk 2077's supposed final update, CD Projekt Red has revealed more new content including AutoDrive, self-driving Delamain cabs and a Mac port."
+    },
+    {
+      "ref": "main_news/sam-lake-and-laura-bailey-join-cast-of-surgent-studios-dead",
+      "entities": {
+        "games": [
+          {
+            "id": "dead-take",
+            "name": "Dead Take",
+            "aliases": [],
+            "genres": ["horror"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "surgent-studios",
+            "name": "Surgent Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "sam-lake", "name": "Sam Lake", "aliases": [], "inferred": false },
+          { "id": "laura-bailey", "name": "Laura Bailey", "aliases": [], "inferred": false },
+          { "id": "matthew-mercer", "name": "Matthew Mercer", "aliases": [], "inferred": false },
+          { "id": "travis-willingham", "name": "Travis Willingham", "aliases": [], "inferred": false },
+          { "id": "cdawgva", "name": "CDawgVA", "aliases": [], "inferred": false },
+          { "id": "jane-perry", "name": "Jane Perry", "aliases": [], "inferred": false },
+          { "id": "alanah-pearce", "name": "Alanah Pearce", "aliases": [], "inferred": false },
+          { "id": "ben-starr", "name": "Ben Starr", "aliases": [], "inferred": false },
+          { "id": "neil-newbon", "name": "Neil Newbon", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sam Lake and Laura Bailey have joined the cast of Surgent Studios' Dead Take, alongside Matthew Mercer, Travis Willingham, CDawgVA, Jane Perry, Alanah Pearce, Ben Starr and Neil Newbon."
+    },
+    {
+      "ref": "main_news/zelda-and-link-s-movie-actors-revealed-for-the-legend-of-zel",
+      "entities": {
+        "games": [
+          {
+            "id": "the-legend-of-zelda",
+            "name": "The Legend of Zelda",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "the-legend-of-zelda",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "benjamin-evan-ainsworth", "name": "Benjamin Evan Ainsworth", "aliases": [], "inferred": false },
+          { "id": "bo-bragason", "name": "Bo Bragason", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "The actors for the live-action The Legend of Zelda movie have been revealed, with Benjamin Evan Ainsworth playing Link and Bo Bragason playing Zelda."
+    },
+    {
+      "ref": "main_news/pok-mon-tcg-pocket-finally-receives-much-needed-trading-over",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-tcg-pocket",
+            "name": "Pokémon TCG Pocket",
+            "aliases": [],
+            "genres": ["card"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-07-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "pokemon-tcg-pocket",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "update will take place on 29th July",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/pokemon-tcg-pocket-finally-receives-much-needed-trading-overhaul"
+          }
+        }
+      ],
+      "summary": "Pokémon TCG Pocket is receiving a trading overhaul in an update scheduled for 29 July 2025."
+    },
+    {
+      "ref": "business/ubisoft-names-yves-guillemot-s-son-charlie-guillemot-as-co-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "charlie-guillemot", "name": "Charlie Guillemot", "aliases": [], "inferred": false },
+          { "id": "yves-guillemot", "name": "Yves Guillemot", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Ubisoft has named Charlie Guillemot, son of CEO Yves Guillemot, as co-CEO of a new Tencent-backed subsidiary."
+    },
+    {
+      "ref": "business/steam-introduces-vague-new-rules-banning-certain-kinds-of-ad",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Steam has introduced vague new rules banning certain kinds of adult content to appease credit card and payment processor companies, drawing strongly negative feedback."
+    },
+    {
+      "ref": "business/metaphor-refantazio-has-sold-2m-units-worldwide-atlus-offici",
+      "entities": {
+        "games": [
+          {
+            "id": "metaphor-refantazio",
+            "name": "Metaphor: ReFantazio",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "atlus",
+            "name": "Atlus",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 2000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "metaphor-refantazio",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Metaphor: ReFantazio** has sold 2m units worldwide",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/metaphor-refantazio-has-sold-2m-units-worldwide-atlus-officially-reveals"
+          }
+        }
+      ],
+      "summary": "Atlus has officially revealed that Metaphor: ReFantazio has sold 2 million units worldwide."
+    },
+    {
+      "ref": "business/sega-netflix-and-others-will-let-roblox-creators-monetize-th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Sega, Netflix and other companies will let Roblox creators monetize their major franchises on the platform."
+    }
+  ]
+}

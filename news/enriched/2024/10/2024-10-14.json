@@ -1,0 +1,168 @@
+{
+  "date": "2024-10-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/game-freak-acknowledges-massive-pok-mon-data-breach-as-emplo",
+      "entities": {
+        "games": [
+          { "id": "splatoon", "name": "Splatoon", "aliases": ["Splatoon-like"], "genres": ["tps", "shooter"], "franchise": "splatoon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "game-freak", "name": "Game Freak", "aliases": [], "publisher": "nintendo", "inferred": true },
+          { "id": "ilca", "name": "ILCA", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Ounce"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Game Freak acknowledged a massive Pokémon data breach in which current, former and contract employee information appeared online alongside leaked development materials."
+    },
+    {
+      "ref": "main_news/epic-says-fortnite-s-rocket-racing-is-ending-themed-updates",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "rocket-racing", "name": "Rocket Racing", "aliases": [], "genres": ["racing"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false },
+          { "id": "psyonix", "name": "Psyonix", "aliases": [], "publisher": "epic-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Epic said Fortnite's Rocket Racing is ending its themed updates in favour of refreshed Ranked periods, Quests and additional Car items."
+    },
+    {
+      "ref": "main_news/sakurai-ends-youtube-channel-with-a-tribute-to-satoru-iwata",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "masahiro-sakurai", "name": "Masahiro Sakurai", "aliases": ["Sakurai"], "inferred": false },
+          { "id": "satoru-iwata", "name": "Satoru Iwata", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Masahiro Sakurai ended his YouTube channel with a tribute to the late Satoru Iwata."
+    },
+    {
+      "ref": "main_news/tomb-raider-iv-vi-remastered-announced-launching-in-february",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider-iv-vi-remastered", "name": "Tomb Raider IV-VI Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "tomb-raider-the-last-revelation", "name": "Tomb Raider: The Last Revelation", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "tomb-raider-chronicles", "name": "Tomb Raider: Chronicles", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "tomb-raider-the-angel-of-darkness", "name": "Tomb Raider: The Angel of Darkness", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [
+          { "id": "aspyr", "name": "Aspyr", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "aspyr", "name": "Aspyr", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": ["Steam", "Epic Games Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-02-14", "unit": "date", "currency": null,
+          "entity": "tomb-raider-iv-vi-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Feb. 14, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/tomb-raider-iv-vi-remastered-announced-launching-in-february/" }
+        }
+      ],
+      "summary": "Aspyr announced Tomb Raider IV-VI Remastered, launching on Nintendo Switch, PlayStation 4/5, Xbox One/Series S/X and PC on 14 February 2025."
+    },
+    {
+      "ref": "business/tomb-raider-franchise-tops-100-million-copies-sold",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 100000000, "unit": "copies", "currency": null,
+          "entity": "tomb-raider", "entity_type": "game", "scope": "franchise",
+          "as_of": "2024-10-14", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Tomb Raider franchise tops 100 million copies sold",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/tomb-raider-franchise-tops-100-million-sold-copies" }
+        }
+      ],
+      "summary": "The Tomb Raider franchise has surpassed 100 million copies sold."
+    },
+    {
+      "ref": "business/metaphor-refantazio-sells-1-million-units-on-its-first-day-a",
+      "entities": {
+        "games": [
+          { "id": "metaphor-refantazio", "name": "Metaphor: ReFantazio", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "atlus", "name": "Atlus", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "atlus", "name": "Atlus", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "metaphor-refantazio", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-14", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Metaphor: ReFantazio sells 1 million units on its first day",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/metaphor-refantazio-sells-1-million-units-on-its-first-day-atlus-claims/" }
+        }
+      ],
+      "summary": "Atlus claims Metaphor: ReFantazio sold 1 million units on its first day."
+    },
+    {
+      "ref": "rumours/xbox-cloud-gaming-will-reportedly-let-players-stream-any-gam",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-cloud-gaming", "name": "Xbox Cloud Gaming", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Xbox Cloud Gaming will let players stream any game in their library starting from November."
+    }
+  ]
+}

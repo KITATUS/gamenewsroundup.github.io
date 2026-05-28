@@ -1,0 +1,91 @@
+{
+  "date": "2025-12-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/doom-creator-john-romero-s-cancelled-shooter-has-been-saved",
+      "entities": {
+        "games": [
+          { "id": "elden-ring", "name": "Elden Ring", "aliases": [], "genres": ["action-rpg", "soulslike", "open-world"], "franchise": null, "inferred": true },
+          { "id": "doom", "name": "Doom", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "john-romero", "name": "John Romero", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Doom creator John Romero's previously cancelled shooter has been revived with a fresh redesign inspired by Elden Ring."
+    },
+    {
+      "ref": "free_games_subscription/december-s-playstation-plus-game-catalog-games",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-mirage", "name": "Assassin's Creed Mirage", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "wo-long-fallen-dynasty", "name": "Wo Long: Fallen Dynasty", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "skate-story", "name": "Skate Story", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "granblue-fantasy-relink", "name": "Granblue Fantasy: Relink", "aliases": [], "genres": ["action-rpg"], "franchise": "granblue-fantasy", "inferred": true },
+          { "id": "planet-coaster-2", "name": "Planet Coaster 2", "aliases": [], "genres": ["simulation"], "franchise": "planet-coaster", "inferred": true },
+          { "id": "cat-quest-iii", "name": "Cat Quest III", "aliases": [], "genres": ["action-rpg"], "franchise": "cat-quest", "inferred": true },
+          { "id": "lego-horizon-adventures", "name": "Lego Horizon Adventures", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "paw-patrol-grand-prix", "name": "Paw Patrol: Grand Prix", "aliases": [], "genres": ["racing"], "franchise": "paw-patrol", "inferred": true },
+          { "id": "paw-patrol-world", "name": "Paw Patrol World", "aliases": [], "genres": ["adventure"], "franchise": "paw-patrol", "inferred": true },
+          { "id": "soulcalibur-iii", "name": "Soulcalibur III", "aliases": [], "genres": ["fighting"], "franchise": "soulcalibur", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PlayStation Plus Game Catalog"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps2", "name": "PS2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "December's PlayStation Plus Game Catalog lineup includes Assassin's Creed Mirage, Wo Long: Fallen Dynasty, and other titles."
+    },
+    {
+      "ref": "free_games_subscription/games-releasing-on-nintendo-switch-online-classics-rayman-2",
+      "entities": {
+        "games": [
+          { "id": "rayman-2", "name": "Rayman 2", "aliases": [], "genres": ["platformer"], "franchise": "rayman", "inferred": true },
+          { "id": "tonic-trouble", "name": "Tonic Trouble", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "wario-world", "name": "Wario World", "aliases": [], "genres": ["platformer"], "franchise": "wario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false },
+          { "id": "n64", "name": "N64", "aliases": [], "inferred": false },
+          { "id": "gamecube", "name": "GC", "aliases": ["GC"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Rayman 2 (N64), Tonic Trouble (N64), and Wario World (GC) are releasing on Nintendo Switch Online's Classics library."
+    },
+    {
+      "ref": "other_notes/tonight-is-the-game-awards-as-with-every-year-please-stay-tu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "The Game Awards take place tonight, with a special edition Game News Round-Up to follow shortly after the presentation."
+    }
+  ]
+}

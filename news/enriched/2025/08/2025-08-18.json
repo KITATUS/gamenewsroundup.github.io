@@ -1,0 +1,111 @@
+{
+  "date": "2025-08-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ea-s-upcoming-skate-will-have-100-songs-on-its-soundtrack-fo",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": [], "genres": ["sports"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [
+          { "id": "full-circle", "name": "Full Circle", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["early-access"],
+      "facts": [],
+      "summary": "EA's upcoming Skate will feature over 100 songs on its early access soundtrack, with the full track list to be confirmed."
+    },
+    {
+      "ref": "main_news/gamescom-opening-night-live-will-be-broadcast-on-tuesday-aug",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-08-19", "unit": "date", "currency": null,
+          "entity": "gamescom-opening-night-live", "entity_type": "product", "scope": "event",
+          "as_of": "2025-08-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Gamescom Opening Night Live will be broadcast on Tuesday, August 19 at 7pm UK (BST)",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=74oh7zD_jxI" } }
+      ],
+      "summary": "Gamescom Opening Night Live will be broadcast on Tuesday, 19 August 2025 at 7pm UK time."
+    },
+    {
+      "ref": "main_news/the-settlers-2-is-coming-to-amiga-after-nearly-30-years-and",
+      "entities": {
+        "games": [
+          { "id": "the-settlers-2", "name": "The Settlers 2", "aliases": [], "genres": ["strategy"], "franchise": "the-settlers", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "amiga", "name": "Amiga", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "The Settlers 2 is coming to the Amiga after nearly 30 years as an officially Ubisoft-licensed release."
+    },
+    {
+      "ref": "business/nexon-q2-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 118900000000, "unit": "money", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-18", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Revenue: ¥118.9 billion ($804.7 million, down 3% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy" } },
+        { "metric": "revenue", "value": 804700000, "unit": "money", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-18", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "$804.7 million, down 3% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy" } },
+        { "metric": "operating_income", "value": 37700000000, "unit": "money", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-18", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥37.7 billion ($255.2 million, down 17% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy" } },
+        { "metric": "operating_income", "value": 255200000, "unit": "money", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-18", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "$255.2 million, down 17% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy" } },
+        { "metric": "profit", "value": 16800000000, "unit": "money", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-18", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥16.8 billion ($113.7 million, down 58% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy" } },
+        { "metric": "profit", "value": 113700000, "unit": "money", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-18", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "$113.7 million, down 58% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nexon-posts-better-than-expected-q2-2025-26-results-despite-revenue-operating-income-and-net-income-tumbling-yoy" } }
+      ],
+      "summary": "Nexon reported Q2 results with revenue, operating income and net income all falling year-over-year."
+    }
+  ]
+}

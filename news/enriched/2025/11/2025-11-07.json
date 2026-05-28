@@ -1,0 +1,188 @@
+{
+  "date": "2025-11-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/switch-2-version-of-sonic-racing-crossworlds-gets-a-release",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Switch 2"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": ["Switch 1"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "price-change"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-12-04", "unit": "date", "currency": null,
+          "entity": "sonic-racing-crossworlds", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Thursday, December 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/switch-2-version-of-sonic-racing-crossworlds-gets-a-release-date-and-switch-upgrade-path-pricing/" } },
+        { "metric": "price", "value": 10, "unit": "price", "currency": "USD",
+          "entity": "sonic-racing-crossworlds", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$10 upgrade from Switch 1 version",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/switch-2-version-of-sonic-racing-crossworlds-gets-a-release-date-and-switch-upgrade-path-pricing/" } },
+        { "metric": "price", "value": 5, "unit": "price", "currency": "USD",
+          "entity": "sonic-racing-crossworlds", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$5 for the first week",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/switch-2-version-of-sonic-racing-crossworlds-gets-a-release-date-and-switch-upgrade-path-pricing/" } }
+      ],
+      "summary": "The Switch 2 version of Sonic Racing: CrossWorlds launches on Thursday, December 4, with a $10 upgrade from the Switch 1 version ($5 for the first week)."
+    },
+    {
+      "ref": "main_news/yogscast-games-announces-two-new-roguelikes-infinity-sweeper",
+      "entities": {
+        "games": [
+          { "id": "infinity-sweeper", "name": "Infinity Sweeper", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": false },
+          { "id": "the-gate-must-stand", "name": "The Gate Must Stand", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "yogscast-games", "name": "Yogscast Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Yogscast Games announced two new roguelikes, Infinity Sweeper and The Gate Must Stand, both set to be released in the first half of 2026."
+    },
+    {
+      "ref": "main_news/ichiban-kasuga-from-like-a-dragon-joins-sonic-racing-crosswo",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "like-a-dragon", "name": "Like a Dragon", "aliases": [], "genres": ["action-adventure", "rpg"], "franchise": "like-a-dragon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "ichiban-kasuga", "name": "Ichiban Kasuga", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "free-game", "partnership"],
+      "facts": [],
+      "summary": "Ichiban Kasuga from Like a Dragon joins Sonic Racing: CrossWorlds for free, alongside a themed festival this weekend."
+    },
+    {
+      "ref": "main_news/square-enix-says-it-wants-generative-ai-to-be-doing-70-of-it",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Square Enix says it wants generative AI to be handling 70% of its QA and debugging by the end of 2027."
+    },
+    {
+      "ref": "main_news/the-game-awards-future-class-program-remains-on-ice",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Game Awards' Future Class program remains on ice."
+    },
+    {
+      "ref": "business/marvel-1943-rise-of-hydra-has-received-another-delay-beyond",
+      "entities": {
+        "games": [
+          { "id": "marvel-1943-rise-of-hydra", "name": "Marvel 1943: Rise of Hydra", "aliases": [], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "skydance-new-media", "name": "Skydance New Media", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Marvel 1943: Rise of Hydra has received another delay beyond early 2026, having previously been set to release in 2025, and now has no release window."
+    },
+    {
+      "ref": "business/grand-theft-auto-6-has-been-delayed-again-to-the-end-of-2026",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        { "metric": "delay_to", "value": "2026-11-19", "unit": "date", "currency": null,
+          "entity": "grand-theft-auto-6", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "new release date is November 19th, 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-again-to-the-end-of-2026/" } }
+      ],
+      "summary": "Grand Theft Auto 6 has been delayed again to the end of 2026, with a new release date of November 19th, 2026."
+    },
+    {
+      "ref": "business/square-enix-announces-more-layoffs-as-part-of-us-and-europe",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 140, "unit": "people", "currency": null,
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "nearly 140 people were told they were “at risk” in the London office alone",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/square-enix-announces-more-layoffs-as-part-of-us-and-europe-restructuring/" } }
+      ],
+      "summary": "Square Enix announced more layoffs as part of a US and Europe restructuring affecting nearly all areas of its western business, with nearly 140 people told they were at risk in the London office alone."
+    },
+    {
+      "ref": "business/yet-another-netease-studio-has-closed-this-time-former-watch",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bad-brain", "name": "Bad Brain", "aliases": [], "publisher": "netease", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Another NetEase studio has closed, this time former Watch Dogs developers' studio Bad Brain."
+    }
+  ]
+}

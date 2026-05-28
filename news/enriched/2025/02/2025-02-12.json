@@ -1,0 +1,201 @@
+{
+  "date": "2025-02-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/royal-shakespeare-company-collaborating-on-first-ever-video",
+      "entities": {
+        "games": [
+          { "id": "macbeth", "name": "Macbeth", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "1979-revolution-black-friday", "name": "1979 Revolution: Black Friday", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ink-stories", "name": "iNK Stories", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "rockstar-games", "name": "Rockstar", "aliases": ["GTA developer Rockstar"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "royal-shakespeare-company", "name": "Royal Shakespeare Company", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "navid-khonsari", "name": "Navid Khonsari", "aliases": [], "inferred": false },
+          { "id": "vassiliki-khonsari", "name": "Vassiliki Khonsari", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "The Royal Shakespeare Company is making its first-ever video game, a modern-day Iran adaptation of Macbeth, in collaboration with former Rockstar developer Navid Khonsari's studio iNK Stories."
+    },
+    {
+      "ref": "main_news/sony-announces-playstation-state-of-play-for-today",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Sony announced a PlayStation State of Play airing today at 10pm UK time, lasting over 40 minutes and focusing on games coming to PS5."
+    },
+    {
+      "ref": "business/koei-tecmo-appoints-new-ceo-hisashi-koinuma-as-co-founders-y",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "koei-tecmo", "name": "Koei Tecmo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "hisashi-koinuma", "name": "Hisashi Koinuma", "aliases": [], "inferred": false },
+          { "id": "yoichi-erikawa", "name": "Yoichi Erikawa", "aliases": [], "inferred": false },
+          { "id": "keiko-erikawa", "name": "Keiko Erikawa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Koei Tecmo appointed Hisashi Koinuma as its new CEO as co-founders Yoichi and Keiko Erikawa step back."
+    },
+    {
+      "ref": "business/krafton-reports-all-time-highs-in-sales-and-operating-profit",
+      "entities": {
+        "games": [
+          { "id": "pubg", "name": "PUBG", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 2700000000000, "unit": "KRW", "currency": "KRW",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Full-year revenue increased by 41.8 percent year-on-year to KRW 2.7 trillion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-all-time-highs-in-sales-and-operating-profits-in-2024" } },
+        { "metric": "revenue", "value": 1850000000, "unit": "USD", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "to KRW 2.7 trillion ($1.85 billion)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-all-time-highs-in-sales-and-operating-profits-in-2024" } },
+        { "metric": "operating_income", "value": 1200000000000, "unit": "KRW", "currency": "KRW",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating profit rose by 54 percent year-on-year to KRW 1.2 trillion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-all-time-highs-in-sales-and-operating-profits-in-2024" } },
+        { "metric": "operating_income", "value": 825700000, "unit": "USD", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "KRW 1.2 trillion ($825.7 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-all-time-highs-in-sales-and-operating-profits-in-2024" } }
+      ],
+      "summary": "Krafton reported all-time-high sales and operating profits in 2024, with full-year revenue up 41.8 percent to KRW 2.7 trillion ($1.85 billion)."
+    },
+    {
+      "ref": "business/nintendo-s-smartphone-apps-have-topped-900-million-downloads",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 900000000, "unit": "downloads", "currency": null,
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Nintendo's smartphone apps have topped 900 million downloads",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/nintendo-s-smartphone-apps-have-topped-900-million-downloads" } }
+      ],
+      "summary": "Nintendo's smartphone apps have surpassed 900 million downloads."
+    },
+    {
+      "ref": "business/paradox-s-year-end-report-touts-strong-2024-output-despite-r",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": ["Paradox", "The Swedish publisher"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 709100000, "unit": "SEK", "currency": "SEK",
+          "entity": "paradox-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Fourth quarter revenue amounted to 709.1 million SEK",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/paradox-s-year-end-report-touts-strong-2024-releases-despite-revenue-decreases" } },
+        { "metric": "revenue", "value": 64800000, "unit": "USD", "currency": "USD",
+          "entity": "paradox-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "709.1 million SEK (or $64.8 million), down 29 percent year-over-year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/paradox-s-year-end-report-touts-strong-2024-releases-despite-revenue-decreases" } },
+        { "metric": "revenue", "value": 2200000000, "unit": "SEK", "currency": "SEK",
+          "entity": "paradox-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "revenue was 2.2 billion SEK",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/paradox-s-year-end-report-touts-strong-2024-releases-despite-revenue-decreases" } },
+        { "metric": "revenue", "value": 201000000, "unit": "USD", "currency": "USD",
+          "entity": "paradox-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "2.2 billion SEK ($201 million), down 17 percent compared to 2023",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/paradox-s-year-end-report-touts-strong-2024-releases-despite-revenue-decreases" } },
+        { "metric": "operating_income", "value": 395300000, "unit": "SEK", "currency": "SEK",
+          "entity": "paradox-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "increased by 19 percent (to 395.3 million SEK) in the fourth quarter",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/paradox-s-year-end-report-touts-strong-2024-releases-despite-revenue-decreases" } },
+        { "metric": "operating_income", "value": 721400000, "unit": "SEK", "currency": "SEK",
+          "entity": "paradox-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "10 percent (721.4 million SEK) for the full year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/paradox-s-year-end-report-touts-strong-2024-releases-despite-revenue-decreases" } }
+      ],
+      "summary": "Paradox's year-end report touted strong 2024 output despite a revenue decline, with full-year revenue down 17 percent to 2.2 billion SEK ($201 million)."
+    },
+    {
+      "ref": "business/roblox-revenues-rose-29-during-2024",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 988200000, "unit": "USD", "currency": "USD",
+          "entity": "roblox-corporation", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $988.2 million, up 32% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-revenues-rose-29-during-2024" } },
+        { "metric": "revenue", "value": 3600000000, "unit": "USD", "currency": "USD",
+          "entity": "roblox-corporation", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-12", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $3.6 billion, up 29% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-revenues-rose-29-during-2024" } }
+      ],
+      "summary": "Roblox reported full-year 2024 revenue of $3.6 billion, up 29 percent year-on-year, with Q4 revenue of $988.2 million."
+    }
+  ]
+}

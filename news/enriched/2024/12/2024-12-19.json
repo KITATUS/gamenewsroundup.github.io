@@ -1,0 +1,141 @@
+{
+  "date": "2024-12-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/crush-40-singer-sues-sega-over-sonic-adventure-2-s-live-and",
+      "entities": {
+        "games": [
+          { "id": "sonic-adventure-2", "name": "Sonic Adventure 2", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "johnny-gioeli", "name": "Johnny Gioeli", "aliases": ["Crush 40 singer"], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Crush 40 singer Johnny Gioeli is suing Sega over the 'Live and Learn' theme song from Sonic Adventure 2."
+    },
+    {
+      "ref": "main_news/the-game-awards-breaks-viewership-record-with-154-million-li",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "viewers",
+          "value": 154000000,
+          "unit": "livestreams",
+          "currency": null,
+          "entity": "the-game-awards",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-12-19",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "The Game Awards breaks viewership record with 154 million livestreams",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-game-awards-breaks-viewership-record-with-154-million-livestreams/" }
+        }
+      ],
+      "summary": "The Game Awards broke its viewership record with 154 million livestreams, up 31% year-on-year."
+    },
+    {
+      "ref": "main_news/the-sims-creator-will-wright-discusses-his-forthcoming-ai-li",
+      "entities": {
+        "games": [
+          { "id": "proxi", "name": "Proxi", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "will-wright", "name": "Will Wright", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Sims creator Will Wright discussed his forthcoming AI life sim Proxi, in which players train an AI to build worlds from their memories."
+    },
+    {
+      "ref": "business/activision-quietly-recast-black-ops-6-zombies-actors-during",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops-6", "name": "Call of Duty: Black Ops 6", "aliases": ["Black Ops 6", "Black Ops 6 Zombies"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Activision quietly recast the Black Ops 6 Zombies voice actors during the SAG-AFTRA strike, as the game was not a struck production."
+    },
+    {
+      "ref": "business/moon-beast-productions-nets-4-5-million-to-redefine-arpgs",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "moon-beast-productions", "name": "Moon Beast Productions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "cohh-carnage", "name": "Cohh Carnage", "aliases": [], "inferred": false },
+          { "id": "mark-pincus", "name": "Mark Pincus", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 4500000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "moon-beast-productions",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-12-19",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Moon Beast Productions nets $4.5 million to 'redefine' ARPGs",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/production/moon-beast-productions-nets-4-5-million-to-redefine-arpgs" }
+        }
+      ],
+      "summary": "Moon Beast Productions, founded by former Diablo leads, raised $4.5 million in a round led by 1AM Gaming to 'redefine' ARPGs."
+    },
+    {
+      "ref": "business/11-bit-studios-cuts-staff-after-canceling-console-focused-pr",
+      "entities": {
+        "games": [
+          { "id": "frostpunk-2", "name": "Frostpunk 2", "aliases": [], "genres": ["strategy", "survival", "simulation"], "franchise": "frostpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "11-bit-studios", "name": "11 Bit Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "11 Bit Studios cut staff after canceling its console-focused 'Project 8' game, citing unresolved issues and challenges."
+    }
+  ]
+}

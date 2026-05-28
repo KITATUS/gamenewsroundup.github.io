@@ -1,0 +1,164 @@
+{
+  "date": "2025-12-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/metal-gear-s-producer-says-he-s-undecided-on-future-remakes",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-4", "name": "Metal Gear Solid 4", "aliases": ["MGS4"], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Metal Gear's producer says he is undecided on future remakes and that a MGS4 remake would be a real challenge."
+    },
+    {
+      "ref": "main_news/mindseye-dev-tries-to-resuscitate-its-flailing-action-game-w",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "MindsEye's developer is trying to revive its struggling action game with a new free starter pack."
+    },
+    {
+      "ref": "main_news/where-winds-meet-players-are-tricking-ai-powered-npcs-into-g",
+      "entities": {
+        "games": [
+          { "id": "where-winds-meet", "name": "Where Winds Meet", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Where Winds Meet players are tricking the game's AI-powered NPCs into giving rewards by repeating the NPCs' last words back as a question."
+    },
+    {
+      "ref": "main_news/fortnite-zero-hour-live-event-draws-10-5-million-players-as",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": ["Fortnite Zero Hour"], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "players_total", "value": 10500000, "unit": "players", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "event",
+          "as_of": "2025-12-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fortnite Zero Hour Live Event Draws 10.5 Million Players",
+          "source": { "name": "Reddit", "domain": "reddit.com", "url": "https://www.reddit.com/r/Games/comments/1paj45v/fortnite_zero_hour_live_event_draws_105_million/" } }
+      ],
+      "summary": "Fortnite's Zero Hour live event drew 10.5 million players for an Avengers: Endgame-style finale uniting Godzilla, King Kong, Iron Man and KPop Demon Hunters."
+    },
+    {
+      "ref": "business/phil-spencer-says-xbox-s-game-pass-cloud-hours-are-up-45-yoy",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Phil Spencer says Xbox Game Pass cloud streaming hours are up 45% year over year, with console players streaming 45% more on console and 24% more on other devices."
+    },
+    {
+      "ref": "business/resident-evil-survival-unit-surpasses-2m-downloads-in-10-day",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-survival-unit", "name": "Resident Evil Survival Unit", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 2000000, "unit": "downloads", "currency": null,
+          "entity": "resident-evil-survival-unit", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-01", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Resident Evil Survival Unit surpasses 2m downloads in 10 days",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/RE_SU_EN/status/1994347554163900725" } }
+      ],
+      "summary": "Resident Evil Survival Unit has surpassed 2 million downloads in 10 days."
+    },
+    {
+      "ref": "business/where-winds-meet-surpasses-9-million-players-mobile-version",
+      "entities": {
+        "games": [
+          { "id": "where-winds-meet", "name": "Where Winds Meet", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "release-date"],
+      "facts": [
+        { "metric": "players_total", "value": 9000000, "unit": "players", "currency": null,
+          "entity": "where-winds-meet", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-01", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Where Winds Meet Surpasses 9 Million Players",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/WhereWindsMeet_/status/1994768317081420229?s=20" } },
+        { "metric": "release_date", "value": "2025-12-12", "unit": "date", "currency": null,
+          "entity": "where-winds-meet", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Mobile Version Launches December 12",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/WhereWindsMeet_/status/1994768317081420229?s=20" } }
+      ],
+      "summary": "Where Winds Meet has surpassed 9 million players, with its mobile version launching on 12 December 2025."
+    },
+    {
+      "ref": "rumours/capcom-is-reportedly-working-on-a-new-dead-rising-sequel-sta",
+      "entities": {
+        "games": [
+          { "id": "dead-rising", "name": "Dead Rising", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "dead-rising", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "frank-west", "name": "Frank West", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Capcom is working on a new Dead Rising sequel starring Frank West."
+    }
+  ]
+}

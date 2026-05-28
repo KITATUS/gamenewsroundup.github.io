@@ -1,0 +1,90 @@
+{
+  "date": "2024-06-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/beyond-good-evil-20th-anniversary-edition-will-be-released-n",
+      "entities": {
+        "games": [
+          { "id": "beyond-good-evil-20th-anniversary-edition", "name": "Beyond Good & Evil: 20th Anniversary Edition", "aliases": ["Beyond Good & Evil"], "genres": ["action-adventure"], "franchise": "beyond-good-and-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "remaster-remake"],
+      "facts": [],
+      "summary": "Beyond Good & Evil: 20th Anniversary Edition will be released next week."
+    },
+    {
+      "ref": "main_news/microsoft-has-started-reimbursing-players-who-bought-cancell",
+      "entities": {
+        "games": [
+          { "id": "redfall", "name": "Redfall", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "arkane-austin", "name": "Arkane Austin", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Microsoft has started reimbursing players who bought the cancelled Redfall DLC."
+    },
+    {
+      "ref": "main_news/demon-s-souls-2020-developer-bluepoint-games-still-working-o",
+      "entities": {
+        "games": [
+          { "id": "demons-souls", "name": "Demon's Souls", "aliases": ["Demon's Souls (2020)"], "genres": ["action-rpg", "soulslike"], "franchise": "souls", "inferred": true },
+          { "id": "uncharted-the-nathan-drake-collection", "name": "Uncharted: The Nathan Drake Collection", "aliases": ["Nathan Drake Collection"], "genres": ["action-adventure"], "franchise": "uncharted", "inferred": true },
+          { "id": "gravity-rush-remastered", "name": "Gravity Rush Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "gravity-rush", "inferred": true },
+          { "id": "shadow-of-the-colossus", "name": "Shadow of the Colossus", "aliases": ["Shadow of the Colossus remaster"], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bluepoint-games", "name": "Bluepoint Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Demon's Souls (2020) developer Bluepoint Games is still working on an original title for PlayStation."
+    },
+    {
+      "ref": "business/embracer-group-repays-300m-to-lenders",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gearbox-entertainment", "name": "Gearbox Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": [], "inferred": false },
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-05", "unit": "date", "currency": null,
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2024-06-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Full repayment is due by May 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-group-repays-300m-to-lenders" } }
+      ],
+      "summary": "Embracer Group has repaid $300m to lenders using net proceeds from Take-Two's purchase of Gearbox Entertainment."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "date": "2025-07-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-s-playstation-5-fight-stick-is-called-flexstrike-is-com",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "flexstrike", "name": "FlexStrike", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [],
+      "summary": "Sony has revealed its PlayStation 5 fight stick, named FlexStrike, which is coming in 2026."
+    },
+    {
+      "ref": "main_news/xbox-just-leaked-mortal-kombat-legacy-kollection-s-release-d",
+      "entities": {
+        "games": [{ "id": "mortal-kombat-legacy-kollection", "name": "Mortal Kombat: Legacy Kollection", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": ["Xbox App"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-09-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "mortal-kombat-legacy-kollection",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mortal Kombat: Legacy Kollection releases September 29th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-just-leaked-mortal-kombat-legacy-kollections-release-date" }
+        }
+      ],
+      "summary": "Xbox app listings appear to have leaked that Mortal Kombat: Legacy Kollection releases on 29 or 30 September 2025 depending on region."
+    },
+    {
+      "ref": "free_games_subscription/mario-paint-has-been-added-to-switch-online-s-snes-library-s",
+      "entities": {
+        "games": [{ "id": "mario-paint", "name": "Mario Paint", "aliases": [], "genres": ["sandbox"], "franchise": "mario", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Switch Online"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Mario Paint has been added to Nintendo Switch Online's SNES library, with Switch 2 mouse controls and USB mouse support on Switch."
+    },
+    {
+      "ref": "business/the-publisher-and-developer-of-mobile-hit-puzzle-dragons-gun",
+      "entities": {
+        "games": [{ "id": "puzzle-and-dragons", "name": "Puzzle & Dragons", "aliases": [], "genres": ["puzzle", "rpg"], "franchise": "puzzle-and-dragons", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "gungho", "name": "GungHo", "aliases": ["GungHo Online Entertainment"], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "kazuki-morishita", "name": "Kazuki Morishita", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "GungHo, publisher and developer of Puzzle & Dragons, says it is considering a shareholder request for an extraordinary general meeting to oust president and CEO Kazuki Morishita."
+    },
+    {
+      "ref": "business/sony-sues-tencent-for-slavish-clone-of-its-valuable-horizon",
+      "entities": {
+        "games": [{ "id": "horizon", "name": "Horizon", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true }],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Sony is suing Tencent over what it calls a \"slavish clone\" of its Horizon franchise, alleging Tencent pressed ahead with a knock-off after being refused an IP license."
+    },
+    {
+      "ref": "business/free-to-play-fifa-licensed-mobile-game-fifa-rivals-tops-1m-d",
+      "entities": {
+        "games": [{ "id": "fifa-rivals", "name": "FIFA Rivals", "aliases": [], "genres": ["sports"], "franchise": "fifa", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "downloads",
+          "value": 1000000,
+          "unit": "downloads",
+          "currency": null,
+          "entity": "fifa-rivals",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-29",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "FIFA Rivals) tops 1m downloads since its launch last month",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/FIFARivals/status/1949814253134762189" }
+        }
+      ],
+      "summary": "Free-to-play FIFA-licensed mobile game FIFA Rivals has topped 1 million downloads since its launch last month."
+    }
+  ]
+}

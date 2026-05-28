@@ -1,0 +1,228 @@
+{
+  "date": "2025-01-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/horrific-abuse-of-workers-at-indonesian-external-development",
+      "entities": {
+        "games": [
+          { "id": "age-of-empires-4", "name": "Age of Empires 4", "aliases": ["Age of Empires 4"], "genres": ["rts", "strategy"], "franchise": "age-of-empires", "inferred": true },
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": ["Assassin's Creed Shadows"], "genres": ["action-adventure", "action-rpg", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [
+          { "id": "brandoville", "name": "Brandoville", "aliases": ["Brandoville Studios"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "christa-sydney", "name": "Christa Sydney", "aliases": [], "inferred": false },
+          { "id": "kwan-cherry-lai", "name": "Kwan Cherry Lai", "aliases": [], "inferred": false },
+          { "id": "ken-lai", "name": "Ken Lai", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A People Make Games video reveals allegations of horrific worker abuse at Indonesian external development studio Brandoville."
+    },
+    {
+      "ref": "free_games_subscription/january-s-playstation-plus-essential-games-are-now-available",
+      "entities": {
+        "games": [
+          { "id": "suicide-squad-kill-the-justice-league", "name": "Suicide Squad: Kill the Justice League", "aliases": [], "genres": ["action-adventure", "tps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "need-for-speed-hot-pursuit-remastered", "name": "Need for Speed Hot Pursuit Remastered", "aliases": [], "genres": ["racing"], "franchise": "need-for-speed", "inferred": true },
+          { "id": "the-stanley-parable-ultra-deluxe", "name": "The Stanley Parable: Ultra Deluxe", "aliases": [], "genres": ["adventure"], "franchise": "the-stanley-parable", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation Plus", "PlayStation Plus Essential"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": ["PS4"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "January's PlayStation Plus Essential lineup is now available, comprising Suicide Squad: Kill the Justice League, Need for Speed Hot Pursuit Remastered, and The Stanley Parable: Ultra Deluxe."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-january",
+      "entities": {
+        "games": [
+          { "id": "road-96", "name": "Road 96", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "lightyear-frontier", "name": "Lightyear Frontier", "aliases": [], "genres": ["simulation", "open-world"], "franchise": null, "inferred": true },
+          { "id": "my-time-at-sandrock", "name": "My Time at Sandrock", "aliases": [], "genres": ["simulation", "rpg", "life-sim"], "franchise": null, "inferred": true },
+          { "id": "robin-hood-sherwood-builders", "name": "Robin Hood – Sherwood Builders", "aliases": [], "genres": ["simulation", "survival"], "franchise": null, "inferred": true },
+          { "id": "rolling-hills", "name": "Rolling Hills", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "ea-sports-ufc-5", "name": "EA Sports UFC 5", "aliases": [], "genres": ["sports", "fighting"], "franchise": "ea-sports-ufc", "inferred": true },
+          { "id": "diablo", "name": "Diablo", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true },
+          { "id": "commonhood", "name": "Common'Hood", "aliases": [], "genres": ["simulation", "survival"], "franchise": null, "inferred": true },
+          { "id": "escape-academy", "name": "Escape Academy", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "exoprimal", "name": "Exoprimal", "aliases": [], "genres": ["tps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "figment", "name": "Figment", "aliases": [], "genres": ["action-adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "insurgency-sandstorm", "name": "Insurgency Sandstorm", "aliases": [], "genres": ["fps", "shooter"], "franchise": "insurgency", "inferred": true },
+          { "id": "those-who-remain", "name": "Those Who Remain", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox Game Pass"], "inferred": true },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA", "EA Play"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["Console"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": ["Cloud"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": ["PC"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-07", "unit": "date", "currency": null,
+          "entity": "road-96", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Road 96 (Cloud, Console, and PC) – January 7",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-january-include-a-big-hitter-from-ea/" } },
+        { "metric": "release_date", "value": "2025-01-08", "unit": "date", "currency": null,
+          "entity": "lightyear-frontier", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lightyear Frontier (Game Preview) (Xbox Series S/X) – January 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-january-include-a-big-hitter-from-ea/" } },
+        { "metric": "release_date", "value": "2025-01-08", "unit": "date", "currency": null,
+          "entity": "my-time-at-sandrock", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "My Time at Sandrock (Console) – January 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-january-include-a-big-hitter-from-ea/" } },
+        { "metric": "release_date", "value": "2025-01-08", "unit": "date", "currency": null,
+          "entity": "robin-hood-sherwood-builders", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Robin Hood – Sherwood Builders (Xbox Series S/X) – January 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-january-include-a-big-hitter-from-ea/" } },
+        { "metric": "release_date", "value": "2025-01-08", "unit": "date", "currency": null,
+          "entity": "rolling-hills", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rolling Hills (Console) – January 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-january-include-a-big-hitter-from-ea/" } },
+        { "metric": "release_date", "value": "2025-01-14", "unit": "date", "currency": null,
+          "entity": "ea-sports-ufc-5", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "EA Sports UFC 5 (Cloud and Xbox Series S/X) EA Play – January 14",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-january-include-a-big-hitter-from-ea/" } },
+        { "metric": "release_date", "value": "2025-01-14", "unit": "date", "currency": null,
+          "entity": "diablo", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Diablo (PC) – January 14",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-january-include-a-big-hitter-from-ea/" } }
+      ],
+      "summary": "Xbox Game Pass's January additions include Road 96, Lightyear Frontier, My Time at Sandrock, EA Sports UFC 5 and Diablo, while several titles leave the service on 15 January."
+    },
+    {
+      "ref": "business/rocksteady-cut-further-jobs-at-the-end-of-2024",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rocksteady", "name": "Rocksteady", "aliases": ["Rocksteady Studios"], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Rocksteady cut further jobs at the end of 2024 in a second redundancy round within three months, though the number affected is unclear."
+    },
+    {
+      "ref": "business/halo-infinite-lead-s-new-company-says-it-s-in-trouble",
+      "entities": {
+        "games": [
+          { "id": "halo-infinite", "name": "Halo Infinite", "aliases": [], "genres": ["fps", "shooter"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "jar-of-sparks", "name": "Jar of Sparks", "aliases": [], "publisher": "netease", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jerry-hook", "name": "Jerry Hook", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Jar of Sparks, the NetEase-backed studio founded by Xbox veteran Jerry Hook, is halting development on its debut game while it seeks new funding."
+    },
+    {
+      "ref": "business/court-documents-reveal-call-of-duty-games-cost-up-to-700-mil",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": false },
+          { "id": "call-of-duty-black-ops-3", "name": "Call of Duty: Black Ops 3", "aliases": ["Black Ops 3"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-modern-warfare", "name": "Call of Duty: Modern Warfare (2007)", "aliases": ["2007 Modern Warfare"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-black-ops-cold-war", "name": "Call of Duty: Black Ops Cold War", "aliases": ["Black Ops Cold War"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "infinity-ward", "name": "Infinity Ward", "aliases": [], "publisher": "activision", "inferred": true },
+          { "id": "treyarch", "name": "Treyarch", "aliases": [], "publisher": "activision", "inferred": true },
+          { "id": "raven-software", "name": "Raven Software", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        { "metric": "development_budget", "value": 450000000, "unit": "money", "currency": "USD",
+          "entity": "call-of-duty-black-ops-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "over $450 million in development costs over the game’s lifecycle",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/court-docs-reveal-call-of-duty-games-cost-up-to-700-million-to-develop/" } },
+        { "metric": "development_budget", "value": 640000000, "unit": "money", "currency": "USD",
+          "entity": "call-of-duty-modern-warfare", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "has spent over $640 million in development costs throughout the game’s lifecycle",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/court-docs-reveal-call-of-duty-games-cost-up-to-700-million-to-develop/" } },
+        { "metric": "development_budget", "value": 700000000, "unit": "money", "currency": "USD",
+          "entity": "call-of-duty-black-ops-cold-war", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-08", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "They ultimately spent over $700 million in development costs over the game’s lifecycle.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/court-docs-reveal-call-of-duty-games-cost-up-to-700-million-to-develop/" } }
+      ],
+      "summary": "Court documents reveal Call of Duty development budgets of over $450 million for Black Ops 3, over $640 million for 2007's Modern Warfare, and over $700 million for Black Ops Cold War."
+    },
+    {
+      "ref": "rumours/former-annapurna-interactive-staff-reportedly-taking-over-pr",
+      "entities": {
+        "games": [
+          { "id": "kerbal-space-program", "name": "Kerbal Space Program", "aliases": [], "genres": ["simulation", "sandbox"], "franchise": "kerbal-space-program", "inferred": true },
+          { "id": "tales-of-the-shire", "name": "Tales of the Shire", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-lord-of-the-rings", "inferred": false }
+        ],
+        "studios": [
+          { "id": "annapurna-interactive", "name": "Annapurna Interactive", "aliases": [], "publisher": "annapurna", "inferred": true },
+          { "id": "private-division", "name": "Private Division", "aliases": [], "publisher": "take-two-interactive", "inferred": true },
+          { "id": "game-freak", "name": "Game Freak", "aliases": [], "publisher": "the-pokemon-company", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false },
+          { "id": "haveli-investments", "name": "Haveli Investments", "aliases": ["Haveli"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "layoffs", "rumour"],
+      "facts": [
+        { "metric": "headcount", "value": 20, "unit": "people", "currency": null,
+          "entity": "private-division", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-01-08", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "the approximately 20 Private Division employees Haveli inherited as part of its purchase",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/former-annapurna-interactive-staff-reportedly-taking-over-private-division-portfolio-following-take-two-sale" } }
+      ],
+      "summary": "A rumour claims former Annapurna Interactive staff will take over the Private Division portfolio after private equity firm Haveli Investments bought it from Take-Two."
+    }
+  ]
+}

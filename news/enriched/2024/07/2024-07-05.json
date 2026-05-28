@@ -1,0 +1,120 @@
+{
+  "date": "2024-07-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/after-years-in-development-hell-ubisoft-s-watch-dogs-movie-f",
+      "entities": {
+        "games": [
+          { "id": "watch-dogs", "name": "Watch Dogs", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "watch-dogs", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ubisoft's long-delayed Watch Dogs movie has finally begun shooting after years in development hell."
+    },
+    {
+      "ref": "main_news/playstation-is-fully-returning-to-tokyo-game-show",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "PlayStation is fully returning to Tokyo Game Show, marking Sony's first major presence at the show since 2019."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-has-added-7-more-nes-games-to-switch-online",
+      "entities": {
+        "games": [
+          { "id": "urban-champion", "name": "Urban Champion", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "golf", "name": "Golf", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "donkey-kong-jr-math", "name": "Donkey Kong Jr. Math", "aliases": [], "genres": ["puzzle"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "mach-rider", "name": "Mach Rider", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "the-mystery-of-atlantis", "name": "The Mystery of Atlantis", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "solar-jetman", "name": "Solar Jetman", "aliases": ["SOLAR JETMAN"], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "cobra-triangle", "name": "Cobra Triangle", "aliases": ["COBRA TRIANGLE"], "genres": ["racing"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch Online", "aliases": ["Switch Online", "NES"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Nintendo has added seven more NES games to its Switch Online service."
+    },
+    {
+      "ref": "business/co-development-studio-tose-reports-losses-due-to-multiple-ca",
+      "entities": {
+        "games": [
+          { "id": "paper-mario-the-thousand-year-door", "name": "Paper Mario: The Thousand-Year Door", "aliases": [], "genres": ["rpg"], "franchise": "mario", "inferred": true },
+          { "id": "final-fantasy-pixel-remaster", "name": "Final Fantasy Pixel Remaster", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "crisis-core-final-fantasy-7-reunion", "name": "Crisis Core: Final Fantasy 7 Reunion", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "scarlet-nexus", "name": "Scarlet Nexus", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "warioware-move-it", "name": "WarioWare: Move It", "aliases": [], "genres": ["party"], "franchise": "wario", "inferred": true },
+          { "id": "dragon-quest-monsters-the-dark-prince", "name": "Dragon Quest Monsters: The Dark Prince", "aliases": [], "genres": ["jrpg"], "franchise": "dragon-quest", "inferred": true }
+        ],
+        "studios": [
+          { "id": "tose", "name": "Tose", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "profit",
+          "value": 367000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "tose",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-07-05",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Co-development studio Tose has reported a nine-month loss of ¥367 million ($2.28 million) due to numerous projects being cancelled by its clients.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/co-development-studio-tose-reports-losses-due-to-multiple-cancelled-games/" }
+        },
+        {
+          "metric": "profit",
+          "value": 2280000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "tose",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-07-05",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Co-development studio Tose has reported a nine-month loss of ¥367 million ($2.28 million) due to numerous projects being cancelled by its clients.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/co-development-studio-tose-reports-losses-due-to-multiple-cancelled-games/" }
+        }
+      ],
+      "summary": "Co-development studio Tose reported a nine-month loss of 367 million yen (2.28 million dollars), blaming multiple games being cancelled by its clients."
+    }
+  ]
+}

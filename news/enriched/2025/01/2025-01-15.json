@@ -1,0 +1,181 @@
+{
+  "date": "2025-01-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/suicide-squad-s-final-content-update-has-been-released",
+      "entities": {
+        "games": [
+          {
+            "id": "suicide-squad-kill-the-justice-league",
+            "name": "Suicide Squad: Kill the Justice League",
+            "aliases": ["Suicide Squad"],
+            "genres": ["tps", "action-adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rocksteady-studios",
+            "name": "Rocksteady Studios",
+            "aliases": ["Rocksteady"],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "shutdown"],
+      "facts": [],
+      "summary": "Rocksteady has released the final content update for Suicide Squad, ending major support less than a year after release."
+    },
+    {
+      "ref": "main_news/the-sims-4-marking-series-25th-anniversary-with-huge-free-up",
+      "entities": {
+        "games": [
+          {
+            "id": "the-sims-4",
+            "name": "The Sims 4",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": "the-sims",
+            "inferred": true
+          },
+          {
+            "id": "mysims",
+            "name": "MySims",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": "the-sims",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game", "port"],
+      "facts": [],
+      "summary": "The Sims 4 is marking the series' 25th anniversary with a large free update adding more than 70 new items, alongside a MySims bundle coming to PC."
+    },
+    {
+      "ref": "free_games_subscription/a-new-xbox-game-pass-day-one-release-has-been-confirmed",
+      "entities": {
+        "games": [
+          {
+            "id": "lonely-mountains-snow-riders",
+            "name": "Lonely Mountains: Snow Riders",
+            "aliases": [],
+            "genres": ["sports", "racing"],
+            "franchise": "lonely-mountains",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "xbox-game-pass",
+            "name": "Xbox Game Pass",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-01-21",
+          "unit": "date",
+          "currency": null,
+          "entity": "lonely-mountains-snow-riders",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Lonely Mountains: Snow Riders will be available at launch next week (Jan 21st)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/a-new-xbox-game-pass-day-one-release-has-been-confirmed/"
+          }
+        }
+      ],
+      "summary": "Lonely Mountains: Snow Riders has been confirmed as a day-one Xbox Game Pass release, launching on 21 January 2025."
+    },
+    {
+      "ref": "business/gog-bolsters-game-preservation-efforts-by-joining-european-g",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "gog",
+            "name": "GOG",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "GOG has joined a European game archivist organisation to bolster its game preservation efforts."
+    },
+    {
+      "ref": "business/space-ape-games-launches-offshoot-studio-nextbeat",
+      "entities": {
+        "games": [
+          {
+            "id": "beatstar",
+            "name": "BeatStar",
+            "aliases": [],
+            "genres": ["rhythm"],
+            "franchise": "beatstar",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "space-ape-games",
+            "name": "Space Ape Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "nextbeat",
+            "name": "NextBeat",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Space Ape Games has launched an offshoot studio called NextBeat, which will handle the BeatStar franchise and related experiences."
+    }
+  ]
+}

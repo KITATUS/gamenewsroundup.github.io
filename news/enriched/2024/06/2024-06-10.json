@@ -1,0 +1,314 @@
+{
+  "date": "2024-06-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/black-ops-6-will-require-a-persistent-internet-connection-fo",
+      "entities": {
+        "games": [{ "id": "call-of-duty-black-ops-6", "name": "Black Ops 6", "aliases": ["Black Ops 6"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "activision", "name": "Activision", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["update-patch", "subscription"],
+      "facts": [
+        { "metric": "price", "value": 70, "unit": "price", "currency": "GBP",
+          "entity": "call-of-duty-black-ops-6", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Base version is £70, available day one on Xbox Game Pass",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/black-ops-6-will-require-a-persistent-internet-connection-for-all-game-modes/" } }
+      ],
+      "summary": "Black Ops 6 will require a persistent internet connection for all game modes."
+    },
+    {
+      "ref": "main_news/starship-troopers-extermination-is-leaving-early-access-just",
+      "entities": {
+        "games": [{ "id": "starship-troopers-extermination", "name": "Starship Troopers: Extermination", "aliases": [], "genres": ["fps", "shooter"], "franchise": "starship-troopers", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": ["PC via Steam"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "early-access", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-11", "unit": "date", "currency": null,
+          "entity": "starship-troopers-extermination", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PC via Steam, PS5, and Xbox Series S/X on 11th October, 2024",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/starship-troopers-extermination-is-leaving-early-access-just-in-time-for-a-console-release" } }
+      ],
+      "summary": "Starship Troopers: Extermination is leaving early access ahead of a console release on 11 October 2024."
+    },
+    {
+      "ref": "main_news/fable-gets-a-gameplay-trailer-and-a-release-window",
+      "entities": {
+        "games": [{ "id": "fable", "name": "Fable", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "fable", "inferred": true }],
+        "studios": [
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "eidos-montreal", "name": "Eidos Montreal", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["gameplay", "trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "fable", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The game will be released in 2025 for Xbox Series S/X and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/fable-gets-a-gameplay-trailer-and-a-release-window/" } }
+      ],
+      "summary": "Fable received a gameplay trailer and a 2025 release window for Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/new-avowed-story-trailer-confirms-obsidian-s-rpg-is-still-se",
+      "entities": {
+        "games": [{ "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "pillars-of-eternity", "inferred": true }],
+        "studios": [{ "id": "obsidian-entertainment", "name": "Obsidian", "aliases": ["Obsidian"], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024", "unit": "date", "currency": null,
+          "entity": "avowed", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "PC and Xbox Series S/X \"later in 2024\"",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-avowed-story-trailer-confirms-obsidians-rpg-is-still-set-for-a-2024-release/" } }
+      ],
+      "summary": "A new Avowed story trailer confirmed Obsidian's RPG remains set for a 2024 release."
+    },
+    {
+      "ref": "main_news/doom-the-dark-ages-is-an-origin-story-for-the-doom-slayer-s",
+      "entities": {
+        "games": [{ "id": "doom-the-dark-ages", "name": "Doom: The Dark Ages", "aliases": [], "genres": ["fps", "shooter"], "franchise": "doom", "inferred": true }],
+        "studios": [{ "id": "id-software", "name": "id Software", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "PC (via Steam)", "aliases": ["PC"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "doom-the-dark-ages", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "\"2025\" for Xbox Series S/X, PC (via Steam) and PS5",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/doom-the-dark-ages-is-an-origin-story-for-the-doom-slayers-rage" } }
+      ],
+      "summary": "Doom: The Dark Ages is an origin story for the Doom Slayer's rage, set for a 2025 release."
+    },
+    {
+      "ref": "main_news/fallout-76-skyline-valley-launches-next-week",
+      "entities": {
+        "games": [{ "id": "fallout-76", "name": "Fallout 76", "aliases": ["Fallout 76: Skyline Valley", "F76"], "genres": ["survival", "rpg", "mmo"], "franchise": "fallout", "inferred": true }],
+        "studios": [{ "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date", "update-patch", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-06-12", "unit": "date", "currency": null,
+          "entity": "fallout-76", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releasing June 12th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/fallout-76-skyline-valley-release-date/" } }
+      ],
+      "summary": "Fallout 76: Skyline Valley, the multiplayer survival RPG's first map expansion, launches as a free update on 12 June."
+    },
+    {
+      "ref": "main_news/valorant-on-ps5-won-t-support-gyro-aiming-to-ensure-xbox-pla",
+      "entities": {
+        "games": [{ "id": "valorant", "name": "Valorant", "aliases": [], "genres": ["fps", "hero-shooter", "shooter"], "franchise": "valorant", "inferred": true }],
+        "studios": [{ "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Valorant on PS5 will not support gyro aiming, to avoid disadvantaging Xbox players."
+    },
+    {
+      "ref": "main_news/starfield-s-story-expansion-shattered-space-gets-a-trailer-b",
+      "entities": {
+        "games": [{ "id": "starfield", "name": "Starfield", "aliases": ["Shattered Space"], "genres": ["action-rpg", "rpg", "open-world"], "franchise": "starfield", "inferred": true }],
+        "studios": [{ "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "trailer", "update-patch"],
+      "facts": [],
+      "summary": "Starfield's story expansion Shattered Space received a trailer but no release date yet."
+    },
+    {
+      "ref": "main_news/world-of-warcraft-the-war-within-launches-in-august",
+      "entities": {
+        "games": [{ "id": "world-of-warcraft-the-war-within", "name": "World of Warcraft: The War Within", "aliases": [], "genres": ["mmorpg", "rpg"], "franchise": "world-of-warcraft", "inferred": true }],
+        "studios": [{ "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "activision-blizzard", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "dlc-expansion"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-26", "unit": "date", "currency": null,
+          "entity": "world-of-warcraft-the-war-within", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "August 26, 2024",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/world-of-warcraft-the-war-within-launches-in-august/" } }
+      ],
+      "summary": "World of Warcraft: The War Within launches on 26 August 2024."
+    },
+    {
+      "ref": "main_news/metal-gear-solid-snake-eater-gets-its-first-story-trailer",
+      "entities": {
+        "games": [{ "id": "metal-gear-solid-delta-snake-eater", "name": "Metal Gear Solid Δ: Snake Eater", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "Metal Gear Solid Δ: Snake Eater received its first story trailer, with no release date announced."
+    },
+    {
+      "ref": "main_news/microsoft-flight-simulator-2024-gets-a-release-date",
+      "entities": {
+        "games": [{ "id": "microsoft-flight-simulator-2024", "name": "Microsoft Flight Simulator 2024", "aliases": [], "genres": ["simulation"], "franchise": "microsoft-flight-simulator", "inferred": true }],
+        "studios": [{ "id": "asobo-studio", "name": "Asobo Studio", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-19", "unit": "date", "currency": null,
+          "entity": "microsoft-flight-simulator-2024", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "November 19",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/microsoft-flight-simulator-2024-gets-a-release-date/" } }
+      ],
+      "summary": "Microsoft Flight Simulator 2024 received a 19 November release date, launching on Xbox Series S/X and PC with day-one Xbox Game Pass."
+    },
+    {
+      "ref": "main_news/perfect-dark-gets-first-gameplay-trailer-but-doesn-t-yet-hav",
+      "entities": {
+        "games": [{ "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps", "shooter"], "franchise": "perfect-dark", "inferred": true }],
+        "studios": [{ "id": "the-initiative", "name": "The Initiative", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "trailer"],
+      "facts": [],
+      "summary": "Perfect Dark received its first gameplay trailer but does not yet have a launch window."
+    },
+    {
+      "ref": "main_news/indiana-jones-and-the-great-circle-gets-a-new-trailer-still",
+      "entities": {
+        "games": [{ "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true }],
+        "studios": [{ "id": "machinegames", "name": "MachineGames", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024", "unit": "date", "currency": null,
+          "entity": "indiana-jones-and-the-great-circle", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "**Indiana Jones and the Great Circle** gets a new trailer, still set for a 2024 release",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/indiana-jones-and-the-great-circle-gets-a-new-trailer-still-set-for-a-2024-release/" } }
+      ],
+      "summary": "Indiana Jones and the Great Circle received a new trailer and remains set for a 2024 release."
+    },
+    {
+      "ref": "main_news/the-diablo-4-vessel-of-hatred-expansion-launches-in-october",
+      "entities": {
+        "games": [{ "id": "diablo-4", "name": "Diablo 4", "aliases": ["Diablo 4 Vessel of Hatred", "Vessel of Hatred"], "genres": ["action-rpg", "rpg"], "franchise": "diablo", "inferred": true }],
+        "studios": [{ "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "activision-blizzard", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-08", "unit": "date", "currency": null,
+          "entity": "diablo-4", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Vessel of Hatred releases October 8th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/diablo-4-expansion/" } }
+      ],
+      "summary": "The Diablo 4 Vessel of Hatred expansion launches on 8 October."
+    },
+    {
+      "ref": "main_news/gears-of-war-e-day-is-a-prequel-told-through-the-eyes-of-mar",
+      "entities": {
+        "games": [{ "id": "gears-of-war-e-day", "name": "Gears of War: E-Day", "aliases": [], "genres": ["tps", "shooter", "action-adventure"], "franchise": "gears-of-war", "inferred": true }],
+        "studios": [{ "id": "the-coalition", "name": "The Coalition", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "marcus-fenix", "name": "Marcus Fenix", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Gears of War: E-Day is a prequel told through the eyes of Marcus Fenix, with no release date announced."
+    },
+    {
+      "ref": "main_news/age-of-mythology-retold-is-coming-to-pc-and-xbox-in-septembe",
+      "entities": {
+        "games": [{ "id": "age-of-mythology-retold", "name": "Age of Mythology: Retold", "aliases": [], "genres": ["rts", "strategy"], "franchise": "age-of-empires", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-04", "unit": "date", "currency": null,
+          "entity": "age-of-mythology-retold", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 4 on Xbox Series S/X, PC and Steam",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/age-of-mythology-retold-is-coming-to-pc-and-consoles-in-september/" } }
+      ],
+      "summary": "Age of Mythology: Retold, a definitive edition of the 2002 RTS, is coming to PC and Xbox on 4 September."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2026-01-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/netflix-confirms-the-witcher-series-will-end-this-year",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Netflix has confirmed that its The Witcher television series will conclude this year."
+    },
+    {
+      "ref": "main_news/this-week-in-video-games-news-editor-patrick-dane-has-died-i",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "patrick-dane", "name": "Patrick Dane", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "This Week In Video Games news editor Patrick Dane has died in a car accident in Hampshire, England."
+    },
+    {
+      "ref": "main_news/facial-age-checks-now-required-to-chat-on-roblox",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Roblox now requires facial age checks before users can use chat on the platform."
+    },
+    {
+      "ref": "business/ubisoft-has-closed-its-halifax-studio-and-claims-the-decisio",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ubisoft-halifax", "name": "Ubisoft Halifax", "aliases": [], "publisher": "ubisoft", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 70,
+          "unit": "roles",
+          "currency": null,
+          "entity": "ubisoft-halifax",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-01-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "70 roles affected",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisoft-has-closed-its-halifax-studio-but-claims-decision-is-unrelated-to-recent-unionization/"
+          }
+        }
+      ],
+      "summary": "Ubisoft has closed its Halifax studio, affecting 70 roles, and says the decision is unrelated to recent unionization."
+    }
+  ]
+}

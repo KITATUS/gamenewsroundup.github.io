@@ -1,0 +1,101 @@
+{
+  "date": "2026-02-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/warframe-for-android-has-launched-globally",
+      "entities": {
+        "games": [
+          { "id": "warframe", "name": "Warframe", "aliases": [], "genres": ["tps", "action-rpg"], "franchise": "warframe", "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-extremes", "name": "Digital Extremes", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "Warframe has launched globally on Android."
+    },
+    {
+      "ref": "main_news/destiny-2-shadow-and-order-delayed-until-june-9th",
+      "entities": {
+        "games": [
+          { "id": "destiny-2-shadow-and-order", "name": "Destiny 2: Shadow and Order", "aliases": [], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2026-06-09", "unit": "date", "currency": null,
+          "entity": "destiny-2-shadow-and-order", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Destiny 2: Shadow and Order Delayed Until June 9th",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/destiny-2-shadow-and-order-delayed-until-june/" } }
+      ],
+      "summary": "Destiny 2: Shadow and Order has been delayed until 9 June 2026."
+    },
+    {
+      "ref": "main_news/replaced-release-date-shifts-to-april-14th",
+      "entities": {
+        "games": [
+          { "id": "replaced", "name": "REPLACED", "aliases": [], "genres": ["action", "platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-04-14", "unit": "date", "currency": null,
+          "entity": "replaced", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "REPLACED Release Date Shifts To April 14th",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/1663850/view/592922091604410748?l=english" } }
+      ],
+      "summary": "The release date for REPLACED has shifted to 14 April 2026."
+    },
+    {
+      "ref": "main_news/kristen-bell-joins-sonic-the-hedgehog-4-movie-as-amy-rose",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "kristen-bell", "name": "Kristen Bell", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Kristen Bell has joined the Sonic the Hedgehog 4 movie as the voice of Amy Rose."
+    },
+    {
+      "ref": "main_news/highguard-dev-speaks-out-after-website-outage-sparks-shutdow",
+      "entities": {
+        "games": [
+          { "id": "highguard", "name": "Highguard", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "The developer of Highguard responded to shutdown rumours sparked by a website outage, saying the website is being transferred and simplified."
+    }
+  ]
+}

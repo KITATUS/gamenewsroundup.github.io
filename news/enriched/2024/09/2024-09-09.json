@@ -1,0 +1,136 @@
+{
+  "date": "2024-09-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/roblox-rolls-out-higher-rev-share-plan-for-devs-making-premi",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox", "mmo"], "franchise": "roblox", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [
+        { "metric": "price", "value": 9.99, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "game", "scope": "product",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "If you make a game priced at $9.99, $29.99, or $49.99",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/roblox-rolls-out-higher-rev-share-plan-for-devs-making-premium-games" } },
+        { "metric": "price", "value": 29.99, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "game", "scope": "product",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "If you make a game priced at $9.99, $29.99, or $49.99",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/roblox-rolls-out-higher-rev-share-plan-for-devs-making-premium-games" } },
+        { "metric": "price", "value": 49.99, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "game", "scope": "product",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "If you make a game priced at $9.99, $29.99, or $49.99",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/roblox-rolls-out-higher-rev-share-plan-for-devs-making-premium-games" } }
+      ],
+      "summary": "Roblox is rolling out a higher revenue-share plan for developers who make premium pay-to-access games on desktop."
+    },
+    {
+      "ref": "business/saudi-arabia-s-public-investment-fund-to-transfer-its-gaming",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "savvy-games-group", "name": "Savvy Games Group", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["the Mario firm"], "inferred": false },
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false },
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false },
+          { "id": "koei-tecmo", "name": "Koei Tecmo", "aliases": [], "inferred": false },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false },
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take Two"], "inferred": false },
+          { "id": "activision-blizzard", "name": "Activision Blizzard", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 8.58, "unit": "percent", "currency": null,
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "currently holds 8.58% of shares in the Mario firm",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/saudi-arabias-public-investment-fund-to-transfer-its-gaming-stock-to-savvy-games-group" } },
+        { "metric": "equity_stake_pct", "value": 6.6, "unit": "percent", "currency": null,
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "It also acquired stakes in Capcom and Nexon in 2022, which it has since increased to 6.6% and 10.23% respectively",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/saudi-arabias-public-investment-fund-to-transfer-its-gaming-stock-to-savvy-games-group" } },
+        { "metric": "equity_stake_pct", "value": 10.23, "unit": "percent", "currency": null,
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "It also acquired stakes in Capcom and Nexon in 2022, which it has since increased to 6.6% and 10.23% respectively",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/saudi-arabias-public-investment-fund-to-transfer-its-gaming-stock-to-savvy-games-group" } },
+        { "metric": "equity_stake_pct", "value": 8.97, "unit": "percent", "currency": null,
+          "entity": "koei-tecmo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "It also owns a 8.97% stake in Koei Tecmo",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/saudi-arabias-public-investment-fund-to-transfer-its-gaming-stock-to-savvy-games-group" } },
+        { "metric": "equity_stake_pct", "value": 9.34, "unit": "percent", "currency": null,
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the PIF has stakes in EA (now 9.34%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/saudi-arabias-public-investment-fund-to-transfer-its-gaming-stock-to-savvy-games-group" } },
+        { "metric": "equity_stake_pct", "value": 6.52, "unit": "percent", "currency": null,
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Take Two (6.52%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/saudi-arabias-public-investment-fund-to-transfer-its-gaming-stock-to-savvy-games-group" } }
+      ],
+      "summary": "Saudi Arabia's Public Investment Fund is transferring its gaming stock to Savvy Games Group as it expands from investment toward active collaboration in games."
+    },
+    {
+      "ref": "business/developers-behind-80-games-sign-deals-with-sag-aftra",
+      "entities": {
+        "games": [
+          { "id": "ark-survival-evolved", "name": "ARK Survival Evolved", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": "ark", "inferred": true },
+          { "id": "vampire-therapist", "name": "Vampire Therapist", "aliases": [], "genres": ["visual-novel"], "franchise": null, "inferred": true },
+          { "id": "rosewater", "name": "Rosewater", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "lamplight-city", "name": "Lamplight City", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "studio-wildcard", "name": "Studio Wildcard", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "little-bat-games", "name": "Little Bat Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sag-aftra", "name": "SAG-AFTRA", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "francisco-gonzales", "name": "Francisco Gonzales", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Developers behind 80 games have signed interim deals with the SAG-AFTRA union."
+    },
+    {
+      "ref": "business/until-dawn-remake-developer-ballistic-moon-confirms-layoffs",
+      "entities": {
+        "games": [
+          { "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["survival-horror", "adventure"], "franchise": "until-dawn", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ballistic-moon", "name": "Ballistic Moon", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "remaster-remake"],
+      "facts": [],
+      "summary": "Ballistic Moon, the studio behind the Until Dawn remake, has confirmed layoffs, though the total number affected has not been revealed."
+    }
+  ]
+}

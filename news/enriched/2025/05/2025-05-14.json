@@ -1,0 +1,239 @@
+{
+  "date": "2025-05-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-texas-chain-saw-massacre-is-getting-no-more-content-or-s",
+      "entities": {
+        "games": [
+          {
+            "id": "the-texas-chain-saw-massacre",
+            "name": "The Texas Chain Saw Massacre",
+            "aliases": [],
+            "genres": ["horror", "survival-horror"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "gun-interactive",
+            "name": "Gun Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Gun Interactive says The Texas Chain Saw Massacre will receive no more content or support as it is now fully realized, stressing the game is not being delisted or made unplayable."
+    },
+    {
+      "ref": "main_news/marvel-1943-rise-of-hydra-has-been-delayed-to-early-2026",
+      "entities": {
+        "games": [
+          {
+            "id": "marvel-1943-rise-of-hydra",
+            "name": "Marvel 1943: Rise of Hydra",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2026",
+          "unit": "date",
+          "currency": null,
+          "entity": "marvel-1943-rise-of-hydra",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Marvel 1943: Rise of Hydra has been delayed to \"early\" 2026",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/marvel-1943-rise-of-hydra-has-been-delayed-to-2026/"
+          }
+        }
+      ],
+      "summary": "Marvel 1943: Rise of Hydra has been delayed to early 2026."
+    },
+    {
+      "ref": "main_news/helldivers-2-s-illuminate-faction-unleashes-deadly-new-enemy",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A new Helldivers 2 update adds deadly new enemy terrors from the Illuminate faction."
+    },
+    {
+      "ref": "business/microsoft-announces-plans-to-lay-off-thousands-more-workers",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Microsoft announced plans to lay off thousands more workers, equal to 3% of its employees across all departments."
+    },
+    {
+      "ref": "business/capcom-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 169600000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥169.6 billion ($1.15 billion, up 11.3% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-reports-eighth-consecutive-year-of-record-profits-as-monster-hunter-wilds-sells-101m-copies"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 1150000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥169.6 billion ($1.15 billion, up 11.3% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-reports-eighth-consecutive-year-of-record-profits-as-monster-hunter-wilds-sells-101m-copies"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 48450000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥48.45 billion ($328 million, up 11.7% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-reports-eighth-consecutive-year-of-record-profits-as-monster-hunter-wilds-sells-101m-copies"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 328000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-14",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥48.45 billion ($328 million, up 11.7% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-reports-eighth-consecutive-year-of-record-profits-as-monster-hunter-wilds-sells-101m-copies"
+          }
+        }
+      ],
+      "summary": "Capcom reported its financial results for the 12 months ended 31 March 2025, with net sales of ¥169.6 billion and net income of ¥48.45 billion, both up year-over-year, marking an eighth consecutive year of record results."
+    },
+    {
+      "ref": "rumours/accessibility-leader-mark-barlet-of-ablegamers-accused-of-em",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "mark-barlet",
+            "name": "Mark Barlet",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "AbleGamers accessibility leader Mark Barlet has been accused of employee abuse and of wasting the charity's funds."
+    }
+  ]
+}

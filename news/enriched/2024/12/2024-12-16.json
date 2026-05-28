@@ -1,0 +1,118 @@
+{
+  "date": "2024-12-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ciri-has-been-recast-in-the-witcher-4",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-4", "name": "The Witcher 4", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ciara-berkeley", "name": "Ciara Berkeley", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ciara Berkeley has been cast as Ciri in The Witcher 4, replacing the character's previous actor."
+    },
+    {
+      "ref": "main_news/netflix-s-squid-game-unleashed-will-be-free-for-everyone-at",
+      "entities": {
+        "games": [
+          { "id": "squid-game-unleashed", "name": "Squid Game: Unleashed", "aliases": [], "genres": ["battle-royale", "party"], "franchise": "squid-game", "inferred": true }
+        ],
+        "studios": [
+          { "id": "boss-fight-entertainment", "name": "Boss Fight Entertainment", "aliases": [], "publisher": "netflix", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["free-game", "release"],
+      "facts": [],
+      "summary": "Netflix's Squid Game: Unleashed will be free to play for everyone for a limited time at launch, with no subscription required."
+    },
+    {
+      "ref": "main_news/steel-paws-is-a-new-mobile-game-from-yu-suzuki",
+      "entities": {
+        "games": [
+          { "id": "steel-paws", "name": "Steel Paws", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "yu-suzuki", "name": "Yu Suzuki", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Steel Paws is a new mobile game from Yu Suzuki."
+    },
+    {
+      "ref": "business/sega-s-president-calls-sonic-superstars-a-disappointment",
+      "entities": {
+        "games": [
+          { "id": "sonic-superstars", "name": "Sonic Superstars", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "sonic-x-shadow-generations", "name": "Sonic X Shadow Generations", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Sega's president called Sonic Superstars a disappointment while emphasising a transmedia push around Sonic X Shadow Generations and the next Sonic movie."
+    },
+    {
+      "ref": "business/zenimax-online-studios-workers-unionise",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "zenimax-online-studios", "name": "ZeniMax Online Studios", "aliases": ["Zenimax Online Studios"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A union of 461 ZeniMax Online Studios workers, called ZOS United-CWA, has been recognised by parent company Microsoft."
+    },
+    {
+      "ref": "business/capcom-says-it-s-working-on-re-activating-other-dormant-ips",
+      "entities": {
+        "games": [
+          { "id": "onimusha", "name": "Onimusha", "aliases": [], "genres": ["action-adventure"], "franchise": "onimusha", "inferred": true },
+          { "id": "okami", "name": "Okami", "aliases": [], "genres": ["action-adventure"], "franchise": "okami", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Capcom says it is working on re-activating other dormant IPs such as Onimusha and Okami."
+    }
+  ]
+}

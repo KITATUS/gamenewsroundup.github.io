@@ -1,0 +1,198 @@
+{
+  "date": "2024-04-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/garry-s-mod-steam-workshop-hit-by-nintendo-takedown-demand",
+      "entities": {
+        "games": [
+          { "id": "garrys-mod", "name": "Garry's Mod", "aliases": ["Garry's Mod"], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "facepunch-studios", "name": "Facepunch Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": ["Steam Workshop"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "delisting"],
+      "facts": [],
+      "summary": "Nintendo issued a takedown demand against Garry's Mod's Steam Workshop, prompting Facepunch Studios to ask the community to remove all Nintendo-themed content."
+    },
+    {
+      "ref": "main_news/kazuma-kaneko-longtime-atlus-artist-departs-after-35-year-ru",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "atlus", "name": "Atlus", "aliases": [], "publisher": "sega", "inferred": true },
+          { "id": "colopl", "name": "COLOPL", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "kazuma-kaneko", "name": "Kazuma Kaneko", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Longtime Atlus artist Kazuma Kaneko departed after a 35-year run and joined COLOPL."
+    },
+    {
+      "ref": "main_news/steam-amends-refund-policy-nixing-advanced-access-loophole-i",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Steam amended its refund policy to close an advanced-access loophole that had let players claim refunds when an early access game moved to full release."
+    },
+    {
+      "ref": "main_news/suspect-charged-for-cancelling-nintendo-japan-events-by-thre",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A suspect was charged for cancelling Nintendo Japan events by threatening to 'kill everyone' over 'shitty games'."
+    },
+    {
+      "ref": "free_games_subscription/switch-online-s-n64-app-gets-two-more-games-today",
+      "entities": {
+        "games": [
+          { "id": "extreme-g", "name": "Extreme-G", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "iggys-reckin-balls", "name": "Iggy's Reckin' Balls", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch Online", "N64 app"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "subscription"],
+      "facts": [],
+      "summary": "Nintendo Switch Online's N64 app added two more games, Extreme-G and Iggy's Reckin' Balls."
+    },
+    {
+      "ref": "business/previously-thought-to-be-only-over-one-million-players-in-a",
+      "entities": {
+        "games": [
+          { "id": "fallout-76", "name": "Fallout 76", "aliases": [], "genres": ["action-rpg", "open-world", "survival"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "gamesindustry-biz", "name": "GamesIndustry.biz", "aliases": ["GamesIndustry Biz"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "partnership"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 5000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "fallout",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2024-04-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "there has been almost five million players across all Fallout games in a single day",
+          "source": { "name": "X", "domain": "twitter.com", "url": "https://twitter.com/Fallout/status/1782857894574088239" }
+        },
+        {
+          "metric": "players_total",
+          "value": 1000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "fallout-76",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-04-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Previously thought to be only over one million players in a single day on Fallout 76",
+          "source": { "name": "X", "domain": "twitter.com", "url": "https://twitter.com/Fallout/status/1782857894574088239" }
+        }
+      ],
+      "summary": "Fallout drew almost five million players across all its games in a single day, up from a previously estimated million-plus on Fallout 76 alone."
+    },
+    {
+      "ref": "business/ci-games-hits-record-fiscal-revenue-in-2023",
+      "entities": {
+        "games": [
+          { "id": "lords-of-the-fallen", "name": "Lords of the Fallen", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "lords-of-the-fallen", "inferred": true },
+          { "id": "sniper-ghost-warrior-contracts-2", "name": "Sniper Ghost Warrior Contracts 2", "aliases": [], "genres": ["shooter", "fps"], "franchise": "sniper-ghost-warrior", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ci-games", "name": "CI Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 60000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "ci-games",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-04-25",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "medium",
+          "quote": "CI Games has generated over $60 million in consolidated net revenue for its fiscal year ended December 31, 2023",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ci-games-hits-record-fiscal-revenue-in-2023" }
+        },
+        {
+          "metric": "release_date",
+          "value": "2023-10-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "lords-of-the-fallen",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-04-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Lords of the Fallen, launched October 13, 2023",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ci-games-hits-record-fiscal-revenue-in-2023" }
+        }
+      ],
+      "summary": "CI Games posted record consolidated net revenue of over $60 million for fiscal year 2023, driven largely by Lords of the Fallen."
+    }
+  ]
+}

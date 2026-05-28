@@ -1,0 +1,207 @@
+{
+  "date": "2025-09-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/roblox-says-all-players-who-communicate-in-game-will-need-an",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation", "update-patch"],
+      "facts": [],
+      "summary": "Roblox says all players who communicate in-game will need an age check by the end of the year, and is launching new systems to limit communication between adult and child players."
+    },
+    {
+      "ref": "main_news/second-season-of-netflix-s-tomb-raider-adaptation-will-also",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-12-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "netflix-tomb-raider",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-09-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Arrives on Netflix December 11th",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/second-season-of-netflixs-tomb-raider-adaptation-will-also-be-its-last"
+          }
+        }
+      ],
+      "summary": "The second season of Netflix's Tomb Raider adaptation will also be its last, arriving on 11 December 2025."
+    },
+    {
+      "ref": "main_news/marvel-rivals-season-4-trailer-reveals-ps4-release-date-as-n",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "reveal", "port", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-09-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "marvel-rivals",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Season 4: Heart of the Dragon will launch on 12th September",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/10-months-after-release-marvel-rivals-will-arrive-on-your-aging-ps4"
+          }
+        }
+      ],
+      "summary": "The Marvel Rivals Season 4 trailer revealed a PS4 release date and teased new heroes Daredevil and Angela, with Season 4: Heart of the Dragon launching on 12 September."
+    },
+    {
+      "ref": "main_news/amazon-s-live-action-tomb-raider-series-has-found-its-lara-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "sophie-turner", "name": "Sophie Turner", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Amazon's live-action Tomb Raider series has cast Sophie Turner, known for Game of Thrones, as Lara Croft."
+    },
+    {
+      "ref": "main_news/hollow-knight-silksong-launch-breaks-global-game-storefronts",
+      "entities": {
+        "games": [
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "The launch of Hollow Knight: Silksong broke global game storefronts."
+    },
+    {
+      "ref": "business/io-interactive-ceo-says-mindseye-disaster-means-it-remains-t",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hakan-abrak", "name": "Hakan Abrak", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "IO Interactive CEO Hakan Abrak says the MindsEye disaster means it remains to be seen whether the company will publish other studios' games again."
+    },
+    {
+      "ref": "business/2k-confirms-a-staff-reduction-at-civilization-and-xcom-devel",
+      "entities": {
+        "games": [
+          { "id": "civilization", "name": "Civilization", "aliases": [], "genres": ["turn-based-strategy", "4x"], "franchise": "civilization", "inferred": true },
+          { "id": "xcom", "name": "XCOM", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "xcom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "firaxis", "name": "Firaxis", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "2K confirmed a staff reduction at Civilization and XCOM developer Firaxis, with the number of affected developers unclear at this time."
+    },
+    {
+      "ref": "business/metal-gear-solid-delta-snake-eater-shipments-and-digital-sal",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-delta-snake-eater", "name": "Metal Gear Solid Delta: Snake Eater", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "release"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "metal-gear-solid-delta-snake-eater",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-05",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "shipments and digital sales top one million",
+          "source": {
+            "name": "prtimes.jp",
+            "domain": "prtimes.jp",
+            "url": "https://prtimes.jp/main/html/rd/p/000001239.000050711.html"
+          }
+        }
+      ],
+      "summary": "Metal Gear Solid Delta: Snake Eater shipments and digital sales topped one million on its first day of release."
+    }
+  ]
+}

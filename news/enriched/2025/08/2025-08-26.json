@@ -1,0 +1,92 @@
+{
+  "date": "2025-08-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dead-or-alive-6-director-is-leaving-bandai-namco-after-worki",
+      "entities": {
+        "games": [
+          { "id": "dead-or-alive-6", "name": "Dead or Alive 6", "aliases": [], "genres": ["fighting"], "franchise": "dead-or-alive", "inferred": true },
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The director of Dead or Alive 6, who also worked on Tekken 8, is leaving Bandai Namco."
+    },
+    {
+      "ref": "main_news/the-division-2-survivors-has-been-announced-coming-in-2026-s",
+      "entities": {
+        "games": [
+          { "id": "the-division-2-survivors", "name": "The Division 2: Survivors", "aliases": [], "genres": ["extraction-shooter", "survival"], "franchise": "the-division", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "the-division-2-survivors", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-26", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The Division 2: Survivors has been announced, coming in 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/the-division-2-survivors-has-been-announced-coming-in-2026/" } }
+      ],
+      "summary": "The Division 2: Survivors, described as a \"Survival Extraction\" experience, has been announced for a 2026 release."
+    },
+    {
+      "ref": "main_news/gamescom-opening-night-live-2025-audience-reaches-over-72m-v",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "viewers", "value": 72000000, "unit": "viewers", "currency": null,
+          "entity": "gamescom-opening-night-live-2025", "entity_type": "product", "scope": "event",
+          "as_of": "2025-08-26", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Gamescom Opening Night Live 2025 audience reaches over 72m viewers",
+          "source": { "name": "LinkedIn", "domain": "linkedin.com",
+                      "url": "https://www.linkedin.com/posts/geoff-keighley_the-results-are-in-gamescom-opening-nig[…]1437396992-V2Db/?rcm=ACoAABjWlJcBgWZd-6PIVw2G3DLSNO6r-Vf4WS0" } }
+      ],
+      "summary": "Gamescom Opening Night Live 2025 reached an audience of over 72 million viewers."
+    },
+    {
+      "ref": "business/357-000-visitors-attended-gamescom-2025-more-than-34-000-tra",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Gamescom 2025 was attended by 357,000 visitors, including more than 34,000 trade visitors and 1,568 exhibitors."
+    },
+    {
+      "ref": "business/devcom-2025-attendance-up-6-from-2024-conference-featured-39",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Devcom 2025 attendance rose 6% from 2024, with the conference featuring 390 speakers, a 30% increase on the previous year."
+    }
+  ]
+}

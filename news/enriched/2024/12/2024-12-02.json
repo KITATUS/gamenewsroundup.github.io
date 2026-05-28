@@ -1,0 +1,245 @@
+{
+  "date": "2024-12-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/uk-counter-terrorism-unit-demands-steam-withdraw-controversi",
+      "entities": {
+        "games": [
+          {
+            "id": "fursan-al-aqsa-the-knights-of-the-al-aqsa-mosque",
+            "name": "Fursan al-Aqsa: The Knights of the Al-Aqsa Mosque",
+            "aliases": ["Fursan al-Aqsa"],
+            "genres": ["tps"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "A UK counter-terrorism unit has demanded that Steam withdraw the controversial shooter Fursan al-Aqsa: The Knights of the Al-Aqsa Mosque from sale."
+    },
+    {
+      "ref": "main_news/fortnite-remix-finale-event-smashes-14m-all-time-concert-rec",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": ["Fortnite Remix"],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "twitch", "name": "Twitch", "aliases": [], "inferred": false },
+          { "id": "youtube", "name": "YouTube", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "peak_concurrent_players",
+          "value": 14300000,
+          "unit": "players",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "14.3 million people were in-game for Fortnite's Remix Finale event",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/fortnite-remix-finale-event-smashes-14m-all-time-player-record"
+          }
+        },
+        {
+          "metric": "peak_concurrent_players",
+          "value": 15300000,
+          "unit": "players",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "back during the lockdown era of 2020, when 15.3 million people were in-game",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/fortnite-remix-finale-event-smashes-14m-all-time-player-record"
+          }
+        }
+      ],
+      "summary": "Fortnite's Remix Finale event drew 14.3 million concurrent in-game players, the game's second-highest live event behind the 2020 Galactus finale."
+    },
+    {
+      "ref": "main_news/marvel-rivals-confirms-5-more-characters-ahead-of-launch",
+      "entities": {
+        "games": [
+          {
+            "id": "marvel-rivals",
+            "name": "Marvel Rivals",
+            "aliases": [],
+            "genres": ["hero-shooter", "tps"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-12-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "marvel-rivals",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Launches December 6th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/marvel-rivals-confirms-5-more-characters-ahead-of-launch/"
+          }
+        }
+      ],
+      "summary": "Marvel Rivals confirmed five more characters (Wolverine, Iron Fist, Black Widow, Cloak and Dagger, and Squirrel Girl) ahead of its December 6th launch."
+    },
+    {
+      "ref": "main_news/riot-will-now-ban-content-creators-for-infringements-even-if",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Riot will now ban content creators for infringements even if they are not committed in-game."
+    },
+    {
+      "ref": "business/star-citizen-funding-passes-750m",
+      "entities": {
+        "games": [
+          {
+            "id": "star-citizen",
+            "name": "Star Citizen",
+            "aliases": [],
+            "genres": ["simulation", "mmo"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "cloud-imperium-games", "name": "Cloud Imperium Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 750000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "star-citizen",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-02",
+          "period": "cumulative",
+          "direction": "up",
+          "confidence": "medium",
+          "quote": "Star Citizen funding passes $750m",
+          "source": {
+            "name": "robertsspaceindustries.com",
+            "domain": "robertsspaceindustries.com",
+            "url": "https://robertsspaceindustries.com/funding-goals"
+          }
+        }
+      ],
+      "summary": "Crowdfunding for Star Citizen has passed $750 million."
+    },
+    {
+      "ref": "business/dave-the-diver-sells-5m-units",
+      "entities": {
+        "games": [
+          {
+            "id": "dave-the-diver",
+            "name": "Dave the Diver",
+            "aliases": [],
+            "genres": ["adventure", "simulation", "rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "mintrocket", "name": "Mintrocket", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 5000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "dave-the-diver",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-02",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dave the Diver sells 5m units",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/DaveDiverGame/status/1862090754769998006"
+          }
+        }
+      ],
+      "summary": "Dave the Diver has sold 5 million units."
+    }
+  ]
+}

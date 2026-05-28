@@ -1,0 +1,159 @@
+{
+  "date": "2025-07-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/wolfenstein-is-the-next-game-series-to-get-an-adaptation-for",
+      "entities": {
+        "games": [
+          { "id": "wolfenstein", "name": "Wolfenstein", "aliases": [], "genres": ["fps"], "franchise": "wolfenstein", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Amazon MGM Studios is developing a television adaptation of the Wolfenstein game series."
+    },
+    {
+      "ref": "main_news/team-fortress-2-s-summer-update-is-here-including-10-new-com",
+      "entities": {
+        "games": [
+          { "id": "team-fortress-2", "name": "Team Fortress 2", "aliases": ["TF2"], "genres": ["fps", "hero-shooter"], "franchise": "team-fortress", "inferred": true }
+        ],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Team Fortress 2's summer 2025 update adds new community-created maps, cosmetics, taunts, and Unusual effects."
+    },
+    {
+      "ref": "main_news/weeks-before-release-dying-light-the-beast-has-been-delayed",
+      "entities": {
+        "games": [
+          { "id": "dying-light-the-beast", "name": "Dying Light: The Beast", "aliases": [], "genres": ["action-rpg", "survival-horror", "open-world"], "franchise": "dying-light", "inferred": true }
+        ],
+        "studios": [
+          { "id": "techland", "name": "Techland", "aliases": ["the developer"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2025-09-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "dying-light-the-beast",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The spin-off will now release on September 19",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/weeks-before-release-dying-light-the-beast-has-been-delayed/" }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-08-22",
+          "unit": "date",
+          "currency": null,
+          "entity": "dying-light-the-beast",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "instead of August 22",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/weeks-before-release-dying-light-the-beast-has-been-delayed/" }
+        }
+      ],
+      "summary": "Dying Light: The Beast has been delayed from August 22 to September 19, 2025, weeks before its planned release."
+    },
+    {
+      "ref": "business/the-elder-scrolls-4-oblivion-remastered-has-welcomed-nine-mi",
+      "entities": {
+        "games": [
+          { "id": "the-elder-scrolls-4-oblivion-remastered", "name": "The Elder Scrolls 4: Oblivion Remastered", "aliases": ["Oblivion Remastered"], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 9000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "the-elder-scrolls-4-oblivion-remastered",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "has welcomed nine million players since its release",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/by-the-nine-is-how-many-millions-of-players-have-played-the-elder-scrolls-4-oblivion-remastered" }
+        }
+      ],
+      "summary": "The Elder Scrolls 4: Oblivion Remastered has reached nine million players since its release."
+    },
+    {
+      "ref": "business/krafton-acquires-last-epoch-studio-eleventh-hour-games",
+      "entities": {
+        "games": [
+          { "id": "last-epoch", "name": "Last Epoch", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "eleventh-hour-games", "name": "Eleventh Hour Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Krafton has acquired Eleventh Hour Games, the studio behind Last Epoch."
+    },
+    {
+      "ref": "business/former-dreadxp-and-critical-reflex-alum-ted-hentschke-has-te",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "dreadxp", "name": "DreadXP", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "critical-reflex", "name": "Critical Reflex", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "black-lantern-collective", "name": "Black Lantern Collective", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "ted-hentschke", "name": "Ted Hentschke", "aliases": [], "inferred": false },
+          { "id": "jakub-baluszek-sobolewski", "name": "Jakub Bałuszek-Sobolewski", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Ted Hentschke and Jakub Bałuszek-Sobolewski have formed Black Lantern Collective, a new publisher dedicated to horror games."
+    }
+  ]
+}

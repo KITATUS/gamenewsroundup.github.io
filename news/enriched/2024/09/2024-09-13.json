@@ -1,0 +1,189 @@
+{
+  "date": "2024-09-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/flappy-bird-is-returning-to-mobile-more-than-a-decade-after",
+      "entities": {
+        "games": [
+          { "id": "flappy-bird", "name": "Flappy Bird", "aliases": [], "genres": ["arcade"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "gametech-holdings", "name": "Gametech Holdings LLC", "aliases": ["Gametech Holdings"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "dong-nguyen-ha", "name": "Dong Nguyen Ha", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release", "delisting"],
+      "facts": [],
+      "summary": "Flappy Bird is returning to mobile more than a decade after it was delisted, without the involvement of its original creator."
+    },
+    {
+      "ref": "main_news/planet-coaster-2-has-release-date-confirmed",
+      "entities": {
+        "games": [
+          { "id": "planet-coaster-2", "name": "Planet Coaster 2", "aliases": [], "genres": ["simulation"], "franchise": "planet-coaster", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-06", "unit": "date", "currency": null,
+          "entity": "planet-coaster-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "6th November 2024 for  PC, PlayStation 5, and Xbox Series S/X",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/planet-coaster-2-has-release-date-confirmed" } }
+      ],
+      "summary": "Planet Coaster 2 has been confirmed for release on 6 November 2024 for PC, PlayStation 5, and Xbox Series S/X."
+    },
+    {
+      "ref": "main_news/unity-has-cancelled-its-controversial-runtime-fee",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "unity", "name": "Unity", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change", "subscription"],
+      "facts": [
+        { "metric": "price_change_pct", "value": 8, "unit": "percent", "currency": null,
+          "entity": "unity", "entity_type": "company", "scope": "product",
+          "as_of": "2024-09-13", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "Unity Pro subscriptions will rise 8% to $2,200 per seat annually",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/unity-has-cancelled-its-controversial-runtime-fee/" } },
+        { "metric": "price", "value": 2200, "unit": "price", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "product",
+          "as_of": "2024-09-13", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Unity Pro subscriptions will rise 8% to $2,200 per seat annually",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/unity-has-cancelled-its-controversial-runtime-fee/" } },
+        { "metric": "price_change_pct", "value": 25, "unit": "percent", "currency": null,
+          "entity": "unity", "entity_type": "company", "scope": "product",
+          "as_of": "2024-09-13", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "Unity Enterprise subscriptions will rise by 25%",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/unity-has-cancelled-its-controversial-runtime-fee/" } }
+      ],
+      "summary": "Unity has cancelled its controversial Runtime Fee and will instead raise Unity Pro and Enterprise subscription prices."
+    },
+    {
+      "ref": "main_news/ps5-s-new-system-update-is-out-now-adding-welcome-hub-and-pa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "PS5's new system update is out now, adding a Welcome hub and Party Share alongside other features."
+    },
+    {
+      "ref": "business/annapurna-interactive-s-entire-workforce-has-resigned",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "annapurna-interactive", "name": "Annapurna Interactive", "aliases": [], "publisher": "annapurna", "inferred": true },
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "annapurna", "name": "Annapurna", "aliases": ["the parent company"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "nathan-gary", "name": "Nathan Gary", "aliases": [], "inferred": false },
+          { "id": "megan-ellison", "name": "Megan Ellison", "aliases": [], "inferred": false },
+          { "id": "hector-sanchez", "name": "Hector Sanchez", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [
+        { "metric": "headcount", "value": 25, "unit": "people", "currency": null,
+          "entity": "annapurna-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "All 25 members of the Annapurna Interactive team collectively resigned",
+          "source": { "name": "Bloomberg", "domain": "bloomberg.com", "url": "https://www.bloomberg.com/news/articles/2024-09-12/annapurna-video-game-team-resigns-[…]MjI1MzgyQTJFQSJ9.BpoA_wBJDrNbDbgj_LjnVUJQg6SM_vsIzWUEM6v85xE" } }
+      ],
+      "summary": "Annapurna Interactive president Nathan Gary and the entire 25-member team resigned following a dispute with parent-company owner Megan Ellison."
+    },
+    {
+      "ref": "business/microsoft-is-cutting-another-650-staff-from-its-gaming-teams",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "activision-blizzard", "name": "Activision Blizzard", "aliases": [], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "acquisition"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 650, "unit": "people", "currency": null,
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Microsoft is cutting another 650 staff from its gaming teams",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/microsoft-is-cutting-another-650-staff-from-its-gaming-teams/" } },
+        { "metric": "layoffs_count", "value": 2500, "unit": "people", "currency": null,
+          "entity": "xbox", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-13", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Xbox has cut more than 2,500 jobs since it completed its $69bn acquisition of Activision Blizzard.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/microsoft-is-cutting-another-650-staff-from-its-gaming-teams/" } },
+        { "metric": "acquisition_price", "value": 69000000000, "unit": "price", "currency": "USD",
+          "entity": "activision-blizzard", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$69bn acquisition of Activision Blizzard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/microsoft-is-cutting-another-650-staff-from-its-gaming-teams/" } }
+      ],
+      "summary": "Microsoft is cutting another 650 staff from its gaming teams, mostly corporate and support roles tied to the Activision Blizzard acquisition."
+    },
+    {
+      "ref": "business/borderlands-movie-only-made-31m-at-global-box-office",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "revenue", "value": 31000000, "unit": "price", "currency": "USD",
+          "entity": "borderlands-movie", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Borderlands movie only made $31m at global box office",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/borderlands-movie-only-made-31m-at-global-box-office" } },
+        { "metric": "development_budget", "value": 115000000, "unit": "price", "currency": "USD",
+          "entity": "borderlands-movie", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-13", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Its production budget was reportedly $115 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/borderlands-movie-only-made-31m-at-global-box-office" } }
+      ],
+      "summary": "The Borderlands movie made only $31m at the global box office against a reported production budget of $115 million."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "date": "2025-01-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/forza-horizon-5-is-coming-to-ps5-this-spring",
+      "entities": {
+        "games": [
+          { "id": "forza-horizon-5", "name": "Forza Horizon 5", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "panic-button", "name": "Panic Button", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "turn-10-studios", "name": "Turn 10 Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "partnership"],
+      "facts": [],
+      "summary": "Forza Horizon 5 is coming to PS5 in Spring 2025, with the port handled by Panic Button in partnership with Playground Games and Turn 10 Studios."
+    },
+    {
+      "ref": "main_news/devil-may-cry-s-animated-netflix-series-gets-april-release-d",
+      "entities": {
+        "games": [
+          { "id": "devil-may-cry", "name": "Devil May Cry", "aliases": [], "genres": ["action-adventure"], "franchise": "devil-may-cry", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "limp-bizkit", "name": "Limp Bizkit", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "devil-may-cry", "entity_type": "product", "scope": "product",
+          "as_of": "2025-01-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Coming April 3rd",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/devil-may-crys-animated-netflix-series-gets-april-release-date-and-a-limp-bizkit-opener" } }
+      ],
+      "summary": "The Devil May Cry animated Netflix series got an April 3rd release date and a Limp Bizkit opener."
+    },
+    {
+      "ref": "main_news/summer-game-fest-dates-confirmed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-06-06", "unit": "date", "currency": null,
+          "entity": "summer-game-fest", "entity_type": "product", "scope": "event",
+          "as_of": "2025-01-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the annual Summer Game Fest livestream on Friday 6th June at 10pm UK time",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/summer-game-fest-dates-confirmed" } }
+      ],
+      "summary": "Summer Game Fest dates were confirmed, kicking off with the livestream on Friday 6th June 2025."
+    },
+    {
+      "ref": "main_news/capcom-games-showcase-coming-next-week-with-a-monster-hunter",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "onimusha-way-of-the-sword", "name": "Onimusha Way of the Sword", "aliases": [], "genres": ["action-adventure"], "franchise": "onimusha", "inferred": true },
+          { "id": "capcom-fighting-collection-2", "name": "Capcom Fighting Collection 2", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "marvel-vs-capcom-fighting-collection-arcade-classics", "name": "Marvel vs. Capcom Fighting Collection Arcade Classics", "aliases": [], "genres": ["fighting"], "franchise": "marvel-vs-capcom", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-02-04", "unit": "date", "currency": null,
+          "entity": "capcom-spotlight", "entity_type": "product", "scope": "event",
+          "as_of": "2025-01-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "10pm GMT/2pm PT next Tuesday, 4th February",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/capcom-games-showcase-coming-next-week-with-monster-hunter-wilds-stream-right-after" } }
+      ],
+      "summary": "Capcom announced a games showcase for next Tuesday, 4th February, followed by a Monster Hunter Wilds stream."
+    },
+    {
+      "ref": "main_news/wwe-2k-is-returning-to-mobile-this-year-as-a-netflix-exclusi",
+      "entities": {
+        "games": [
+          { "id": "wwe-2k", "name": "WWE 2K", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "WWE 2K is returning to mobile in Fall 2025 as a Netflix exclusive."
+    },
+    {
+      "ref": "main_news/playstation-s-30th-anniversary-ps5-themes-are-leaving-but-so",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-01-31", "unit": "date", "currency": null,
+          "entity": "ps5", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-01-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Themes based on previous PlayStation consoles will be removed after January 31st (today)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstations-30th-anniversary-ps5-themes-are-leaving-but-sony-says-theyll-be-back/" } }
+      ],
+      "summary": "PlayStation's 30th anniversary PS5 themes will be removed after January 31st, though Sony says they will return."
+    },
+    {
+      "ref": "business/prince-of-persia-lost-crown-sold-1-3-million-copies-in-its-f",
+      "entities": {
+        "games": [
+          { "id": "prince-of-persia-the-lost-crown", "name": "Prince of Persia: The Lost Crown", "aliases": ["Prince of Persia: Lost Crown"], "genres": ["metroidvania", "action-adventure"], "franchise": "prince-of-persia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "studio-closure"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1300000, "unit": "copies", "currency": null,
+          "entity": "prince-of-persia-the-lost-crown", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-31", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Prince of Persia: Lost Crown sold 1.3 million copies in its first year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/prince-of-persia-lost-crown-sold-1-3-million-copies-in-its-first-year" } }
+      ],
+      "summary": "Prince of Persia: The Lost Crown sold 1.3 million copies in its first year, despite the team that made it being disbanded."
+    },
+    {
+      "ref": "business/dr-disrespect-s-midnight-society-is-shutting-down-and-its-fp",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "midnight-society", "name": "Midnight Society", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "guy-beahm", "name": "Guy 'Dr. Disrespect' Beahm", "aliases": ["Dr Disrespect", "Dr. Disrespect"], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Dr Disrespect's studio Midnight Society is shutting down and its FPS has been canceled, following his split from the studio."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "date": "2026-02-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-original-alone-in-the-dark-trilogy-is-currently-free-on",
+      "entities": {
+        "games": [
+          { "id": "alone-in-the-dark", "name": "Alone in the Dark", "aliases": [], "genres": ["survival-horror"], "franchise": "alone-in-the-dark", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "The original Alone in the Dark trilogy is currently available for free on GOG as part of the GOG preservation program."
+    },
+    {
+      "ref": "main_news/ign-fan-fest-returns-in-2026-promising-over-80-exclusive-rev",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-02-25",
+          "unit": "date",
+          "currency": null,
+          "entity": "ign-fan-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-02-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "25th February and 26th February",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ign-fan-fest-returns-in-2026-promising-over-80-exclusive-reveals-and-appearances-from-over-50-games" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-02-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "ign-fan-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-02-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "25th February and 26th February",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ign-fan-fest-returns-in-2026-promising-over-80-exclusive-reveals-and-appearances-from-over-50-games" }
+        }
+      ],
+      "summary": "IGN Fan Fest returns in 2026 on 25 and 26 February, promising over 80 exclusive reveals and appearances from over 50 games."
+    },
+    {
+      "ref": "business/switch-is-officially-nintendo-s-best-selling-console-ever-ov",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-ds", "name": "Nintendo DS", "aliases": ["DS"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 155370000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nintendo-switch",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-02-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Switch has sold 155.37 million units",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/switch-is-officially-nintendos-best-selling-console-ever-overtaking-ds/" }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 154020000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nintendo-ds",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-02-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "DS has sold 154.02 million units",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/switch-is-officially-nintendos-best-selling-console-ever-overtaking-ds/" }
+        }
+      ],
+      "summary": "The Nintendo Switch has become Nintendo's best-selling console ever at 155.37 million units, overtaking the DS at 154.02 million units."
+    },
+    {
+      "ref": "business/uk-retailer-game-is-closing-its-remaining-standalone-stores",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [],
+        "companies": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [
+        {
+          "metric": "studios_affected",
+          "value": 3,
+          "unit": "stores",
+          "currency": null,
+          "entity": "game",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-02-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "three stores affected",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/uk-retailer-game-is-closing-its-remaining-standalone-stores-after-entering-administration/" }
+        }
+      ],
+      "summary": "UK retailer Game is closing its three remaining standalone stores after entering administration, while its concession stores and website are unaffected."
+    },
+    {
+      "ref": "business/sonic-racing-crossworlds-blasts-past-1m-copies-sold-and-sega",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": ["SEGA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "sonic-racing-crossworlds",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "blasts past 1m copies sold",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sonic-racing-crossworlds-sales-cross-one-million-sega-aims-to-double" }
+        }
+      ],
+      "summary": "Sonic Racing: CrossWorlds has sold past 1 million copies, with Sega expecting another million within the fiscal year, though the game has not met SEGA's sales expectations."
+    }
+  ]
+}

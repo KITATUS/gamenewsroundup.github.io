@@ -1,0 +1,214 @@
+{
+  "date": "2025-10-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/summer-game-fest-confirms-2026-date-and-venue-change-next-ye",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-06-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "summer-game-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-10-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Next year's Summer Games Fest will take place in Hollywood's Dolby Theatre on Friday June 5th 2026",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/summer-game-fest-confirms-2026-date-and-venue-change/"
+          }
+        }
+      ],
+      "summary": "Summer Game Fest confirmed its 2026 edition will take place at Hollywood's Dolby Theatre on Friday 5 June 2026, a change of venue."
+    },
+    {
+      "ref": "main_news/dissidia-duellum-final-fantasy-is-a-mobile-3v3-battle-game-w",
+      "entities": {
+        "games": [
+          {
+            "id": "dissidia-duellum-final-fantasy",
+            "name": "Dissidia Duellum Final Fantasy",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "release-date"],
+      "facts": [],
+      "summary": "Dissidia Duellum Final Fantasy is a mobile 3v3 battle game bringing Final Fantasy characters into modern Tokyo, set for release in 2026."
+    },
+    {
+      "ref": "business/banjo-kazooie-director-gregg-mayles-confirms-rare-exit-after",
+      "entities": {
+        "games": [
+          {
+            "id": "banjo-kazooie",
+            "name": "Banjo-Kazooie",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "banjo-kazooie",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rare",
+            "name": "Rare",
+            "aliases": [],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "gregg-mayles",
+            "name": "Gregg Mayles",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Banjo-Kazooie director Gregg Mayles confirmed he is leaving Rare after 36 years."
+    },
+    {
+      "ref": "business/following-the-cancellation-of-its-live-service-god-of-war-so",
+      "entities": {
+        "games": [
+          {
+            "id": "god-of-war",
+            "name": "God of War",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "god-of-war",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bluepoint-games",
+            "name": "Bluepoint Games",
+            "aliases": ["Bluepoint"],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Following the cancellation of its live-service God of War project, Sony's Bluepoint is hiring for a new third-person action game."
+    },
+    {
+      "ref": "business/owlcat-games-unveils-free-educational-resource-hub-for-game",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "owlcat-games",
+            "name": "Owlcat Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Owlcat Games unveiled a free educational resource hub for game industry professionals."
+    },
+    {
+      "ref": "business/assassin-s-creed-franchise-lead-marc-alexis-c-t-leaves-ubiso",
+      "entities": {
+        "games": [
+          {
+            "id": "assassins-creed",
+            "name": "Assassin's Creed",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "assassins-creed",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "tencent",
+            "name": "Tencent",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "marc-alexis-cote",
+            "name": "Marc-Alexis Côté",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Assassin's Creed franchise lead Marc-Alexis Côté is leaving Ubisoft following the formation of a Tencent subsidiary."
+    }
+  ]
+}

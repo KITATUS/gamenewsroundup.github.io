@@ -1,0 +1,182 @@
+{
+  "date": "2025-03-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/phil-spencer-says-more-movies-and-tv-shows-based-on-xbox-gam",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Phil Spencer says more movies and TV shows based on Xbox games are on the way."
+    },
+    {
+      "ref": "main_news/rollercoaster-tycoon-3-is-now-available-on-xbox-and-ps5",
+      "entities": {
+        "games": [
+          { "id": "rollercoaster-tycoon-3", "name": "RollerCoaster Tycoon 3", "aliases": [], "genres": ["simulation"], "franchise": "rollercoaster-tycoon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "RollerCoaster Tycoon 3 is now available on Xbox and PS5."
+    },
+    {
+      "ref": "main_news/nightdive-s-long-awaited-system-shock-2-remaster-finally-arr",
+      "entities": {
+        "games": [
+          { "id": "system-shock-2", "name": "System Shock 2", "aliases": [], "genres": ["action-rpg", "fps", "horror"], "franchise": "system-shock", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nightdive-studios", "name": "Nightdive Studios", "aliases": ["Nightdive"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-06-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "system-shock-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "remaster finally arrives June 26th",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/nightdives-long-awaited-system-shock-2-remaster-finally-arrives-in-june"
+          }
+        }
+      ],
+      "summary": "Nightdive's System Shock 2 remaster arrives on 26 June 2025 for PlayStation, Xbox, Switch, and PC."
+    },
+    {
+      "ref": "main_news/mcdonald-s-limited-edition-8-minecraft-movie-menu-includes-c",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 8,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "minecraft-movie-menu",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-03-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "McDonald's limited-edition £8 Minecraft Movie menu includes collectibles for adults",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/mcdonalds-limited-edition-8-minecraft-movie-menu-includes-amazing-collectibles-for-adults"
+          }
+        }
+      ],
+      "summary": "McDonald's is launching a limited-edition GBP 8 Minecraft Movie menu that includes collectibles for adults."
+    },
+    {
+      "ref": "free_games_subscription/epic-games-store-s-latest-free-pc-and-mobile-games-are-here",
+      "entities": {
+        "games": [
+          { "id": "jurassic-world-evolution-2", "name": "Jurassic World Evolution 2", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "jurassic-park", "inferred": true },
+          { "id": "super-meat-boy-forever", "name": "Super Meat Boy Forever", "aliases": [], "genres": ["platformer"], "franchise": "super-meat-boy", "inferred": true },
+          { "id": "eastern-exorcist", "name": "Eastern Exorcist", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic Games Store"], "publisher": null, "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "The Epic Games Store's latest free titles are Jurassic World Evolution 2 on PC plus Super Meat Boy Forever and Eastern Exorcist on iOS/Android."
+    },
+    {
+      "ref": "business/assassin-s-creed-shadows-passes-1m-players-on-launch-day",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": [], "genres": ["action-rpg", "action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 1000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "assassins-creed-shadows",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-21",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Assassin's Creed Shadows passes 1m players on launch day",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/assassinscreed/status/1902802072640295067"
+          }
+        }
+      ],
+      "summary": "Assassin's Creed Shadows passed 1 million players on its launch day."
+    }
+  ]
+}

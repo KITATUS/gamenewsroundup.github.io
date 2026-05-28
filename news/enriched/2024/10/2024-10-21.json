@@ -1,0 +1,177 @@
+{
+  "date": "2024-10-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/marvel-s-spider-man-2-gets-january-2025-release-date-on-pc",
+      "entities": {
+        "games": [
+          { "id": "marvels-spider-man-2", "name": "Marvel's Spider-Man 2", "aliases": ["Marvel's Spider-Man 2"], "genres": ["action-adventure", "open-world"], "franchise": "marvels-spider-man", "inferred": true }
+        ],
+        "studios": [
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01-30", "unit": "date", "currency": null,
+          "entity": "marvels-spider-man-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "30th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/marvels-spider-man-2-gets-january-2025-release-date-on-pc" } }
+      ],
+      "summary": "Marvel's Spider-Man 2 will launch on PC on 30 January 2025."
+    },
+    {
+      "ref": "main_news/spiritfarer-studio-s-33-player-co-op-roguelike-33-immortals",
+      "entities": {
+        "games": [
+          { "id": "33-immortals", "name": "33 Immortals", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": false },
+          { "id": "spiritfarer", "name": "Spiritfarer", "aliases": [], "genres": ["adventure", "life-sim"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "thunder-lotus-games", "name": "Thunder Lotus Games", "aliases": ["Spiritfarer studio"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "33 Immortals, a 33-player co-op roguelike from Spiritfarer studio Thunder Lotus, has been delayed into 2025."
+    },
+    {
+      "ref": "main_news/bloober-team-claims-it-s-finished-making-shitty-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bloober-team", "name": "Bloober Team", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Bloober Team says it is finished making 'shitty' games and has found its niche."
+    },
+    {
+      "ref": "main_news/marvel-s-spider-man-2-will-receive-no-additional-story-conte",
+      "entities": {
+        "games": [
+          { "id": "marvels-spider-man-2", "name": "Marvel's Spider-Man 2", "aliases": ["Marvel's Spider-Man 2"], "genres": ["action-adventure", "open-world"], "franchise": "marvels-spider-man", "inferred": true }
+        ],
+        "studios": [
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": ["Insomniac"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Insomniac confirms Marvel's Spider-Man 2 will receive no additional story content."
+    },
+    {
+      "ref": "main_news/bethesda-will-host-a-fallout-day-broadcast-event-on-wednesda",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bethesda-softworks", "name": "Bethesda", "aliases": ["Bethesda"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-23", "unit": "date", "currency": null,
+          "entity": "fallout-day", "entity_type": "product", "scope": "event",
+          "as_of": "2024-10-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Wednesday, October 23 at Noon PT / 3p ET / 8pm BST",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/geoffkeighley/status/1848153050734641370" } }
+      ],
+      "summary": "Bethesda will host a Fallout Day broadcast event on Wednesday, 23 October 2024."
+    },
+    {
+      "ref": "business/the-bfi-national-lottery-innovation-challenge-has-announced",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 510000, "unit": "money", "currency": "GBP",
+          "entity": "bfi-national-lottery-innovation-challenge", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will provide £510,000 to four innovative projects in the UK games industry",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/uk-indies-to-receive-510000-in-lottery-funding" } }
+      ],
+      "summary": "The BFI National Lottery Innovation Challenge will provide £510,000 to four innovative UK games industry projects."
+    },
+    {
+      "ref": "business/ubisoft-milan-joins-ubisoft-france-strike-over-return-to-off",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ubisoft-milan", "name": "Ubisoft Milan", "aliases": [], "publisher": "ubisoft", "inferred": true },
+          { "id": "ubisoft-france", "name": "Ubisoft France", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ubisoft Milan has joined the Ubisoft France strike over the company's return-to-office policy."
+    },
+    {
+      "ref": "business/european-court-of-justice-rules-against-sony-in-lawsuit-over",
+      "entities": {
+        "games": [
+          { "id": "motorstorm-arctic-edge", "name": "MotorStorm: Arctic Edge", "aliases": [], "genres": ["racing"], "franchise": "motorstorm", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-portable", "name": "PlayStation Portable", "aliases": ["PlayStation Portable"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "The European Court of Justice ruled against Sony in its lawsuit against Datel over Action Replay cheats for the PlayStation Portable."
+    },
+    {
+      "ref": "business/tales-of-kenzera-zau-studio-puts-team-on-redundancy-notice-a",
+      "entities": {
+        "games": [
+          { "id": "tales-of-kenzera-zau", "name": "Tales of Kenzera: Zau", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "surgent-studios", "name": "Surgent Studios", "aliases": ["Tales of Kenzera: Zau studio"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "funding-investment"],
+      "facts": [],
+      "summary": "The studio behind Tales of Kenzera: Zau has put its team on redundancy notice while it seeks funding."
+    }
+  ]
+}

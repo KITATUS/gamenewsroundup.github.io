@@ -1,0 +1,199 @@
+{
+  "date": "2025-08-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dragon-age-trilogy-remaster-was-pitched-to-ea-but-they-basic",
+      "entities": {
+        "games": [
+          { "id": "dragon-age", "name": "Dragon Age", "aliases": [], "genres": ["action-rpg"], "franchise": "dragon-age", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake"],
+      "facts": [],
+      "summary": "A Dragon Age series veteran says a trilogy remaster was pitched to EA, which appeared uninterested."
+    },
+    {
+      "ref": "main_news/microsoft-will-continue-to-support-forza-motorsport-and-forz",
+      "entities": {
+        "games": [
+          { "id": "forza-motorsport", "name": "Forza Motorsport", "aliases": [], "genres": ["racing"], "franchise": "forza", "inferred": true },
+          { "id": "forza-horizon-5", "name": "Forza Horizon 5", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "turn-10-studios", "name": "Turn 10 Studios", "aliases": ["Turn 10"], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Microsoft says it will continue to support Forza Motorsport and Forza Horizon 5 despite cuts at Turn 10."
+    },
+    {
+      "ref": "main_news/roblox-bans-and-threatens-to-sue-predator-hunter-youtuber-sc",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "schlep", "name": "Schlep", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Roblox banned and threatened to sue YouTuber Schlep, known for \"predator hunter\" content."
+    },
+    {
+      "ref": "business/bandai-namco-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 300000000000, "unit": "money", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥300 billion ($2 billion), up 7.1% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-boasts-record-high-results-for-q1-2026" } },
+        { "metric": "revenue", "value": 2000000000, "unit": "money", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥300 billion ($2 billion), up 7.1% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-boasts-record-high-results-for-q1-2026" } },
+        { "metric": "operating_income", "value": 51900000000, "unit": "money", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥51.9 billion ($399 million), up 17.9% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-boasts-record-high-results-for-q1-2026" } },
+        { "metric": "operating_income", "value": 399000000, "unit": "money", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥51.9 billion ($399 million), up 17.9% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-boasts-record-high-results-for-q1-2026" } },
+        { "metric": "profit", "value": 54600000000, "unit": "money", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Ordinary profit: ¥54.6 billion ($369 million), up 11.4% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-boasts-record-high-results-for-q1-2026" } },
+        { "metric": "profit", "value": 369000000, "unit": "money", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Ordinary profit: ¥54.6 billion ($369 million), up 11.4% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-boasts-record-high-results-for-q1-2026" } }
+      ],
+      "summary": "Bandai Namco reported record-high Q1 results, with net sales of ¥300 billion ($2 billion), up 7.1% year on year."
+    },
+    {
+      "ref": "business/date-everything-sells-500-000-copies",
+      "entities": {
+        "games": [
+          { "id": "date-everything", "name": "Date Everything", "aliases": [], "genres": ["simulation", "visual-novel"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "team17", "name": "Team17", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 500000, "unit": "copies", "currency": null,
+          "entity": "date-everything", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Date Everything sells 500,000 copies",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/Team17/status/1954920930108395880" } }
+      ],
+      "summary": "Date Everything has sold 500,000 copies."
+    },
+    {
+      "ref": "business/sega-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 81000000000, "unit": "money", "currency": "JPY",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥81 billion ($548 million, down 22.7%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-q1-net-sales-decline-227-to-548m" } },
+        { "metric": "revenue", "value": 548000000, "unit": "money", "currency": "USD",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥81 billion ($548 million, down 22.7%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-q1-net-sales-decline-227-to-548m" } },
+        { "metric": "operating_income", "value": 519000000, "unit": "money", "currency": "JPY",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Operating loss: ¥519 million ($3.5 million, compared to operating income of $130 million during same period last year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-q1-net-sales-decline-227-to-548m" } },
+        { "metric": "operating_income", "value": 3500000, "unit": "money", "currency": "USD",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Operating loss: ¥519 million ($3.5 million, compared to operating income of $130 million during same period last year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-q1-net-sales-decline-227-to-548m" } },
+        { "metric": "operating_income", "value": 130000000, "unit": "money", "currency": "USD",
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-12", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "compared to operating income of $130 million during same period last year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-q1-net-sales-decline-227-to-548m" } }
+      ],
+      "summary": "Sega reported Q1 net sales of ¥81 billion ($548 million), down 22.7%, and an operating loss of ¥519 million."
+    },
+    {
+      "ref": "business/mortal-kombat-1-sells-over-6-2-million-units",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "netherrealm-studios", "name": "NetherRealm Studios", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 6200000, "unit": "units", "currency": null,
+          "entity": "mortal-kombat-1", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-12", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Mortal Kombat 1 Sells Over 6.2 Million Units",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/noobde/status/1953934498066051479" } }
+      ],
+      "summary": "Mortal Kombat 1 has sold over 6.2 million units."
+    }
+  ]
+}

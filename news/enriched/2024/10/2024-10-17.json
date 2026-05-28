@@ -1,0 +1,156 @@
+{
+  "date": "2024-10-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/plants-vs-zombies-3-is-shutting-down-for-major-overhaul",
+      "entities": {
+        "games": [
+          { "id": "plants-vs-zombies-3", "name": "Plants Vs Zombies 3", "aliases": ["PvZ3"], "genres": ["tower-defense", "strategy"], "franchise": "plants-vs-zombies", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-11-15", "unit": "date", "currency": null,
+          "entity": "plants-vs-zombies-3", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "No longer playable from November 15th",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/plants-vs-zombies-3-is-shutting-down-for-major-overhaul-" } }
+      ],
+      "summary": "Plants Vs Zombies 3 is shutting down for a major overhaul, with EA pulling downloads and in-app purchases and the game no longer playable from 15 November 2024."
+    },
+    {
+      "ref": "main_news/2k-studio-31st-union-to-reveal-debut-game-project-ethos-toda",
+      "entities": {
+        "games": [
+          { "id": "project-ethos", "name": "Project Ethos", "aliases": [], "genres": ["hero-shooter", "roguelike", "tps"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "31st-union", "name": "31st Union", "aliases": [], "publisher": "2k", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "2K studio 31st Union is set to reveal its debut game, the third-person roguelike hero shooter Project Ethos, today."
+    },
+    {
+      "ref": "main_news/pre-orders-for-analogue-3d-a-reimagining-of-the-n64-open-nex",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "analogue-3d", "name": "Analogue 3D", "aliases": [], "inferred": false },
+          { "id": "nintendo-64", "name": "Nintendo 64", "aliases": ["N64"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [
+        { "metric": "price", "value": 250, "unit": "price", "currency": "USD",
+          "entity": "analogue-3d", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-10-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The console costs $250",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pre-orders-for-analogue-3d-a-reimagining-of-the-n64-open-next-week/" } },
+        { "metric": "price", "value": 40, "unit": "price", "currency": "USD",
+          "entity": "8bitdo-controller", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "with controllers from 8BitDo available separately for $40",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pre-orders-for-analogue-3d-a-reimagining-of-the-n64-open-next-week/" } }
+      ],
+      "summary": "Pre-orders for the Analogue 3D, a reimagining of the Nintendo 64 priced at $250 with separate $40 8BitDo controllers, open next week."
+    },
+    {
+      "ref": "main_news/astro-bot-s-speedrun-levels-will-release-weekly-beginning-th",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Astro Bot's speedrun levels, each featuring two new cameo bots, will release weekly beginning Thursday."
+    },
+    {
+      "ref": "business/silent-hill-2-sold-1-million-copies-three-days-after-launch",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bloober-team", "name": "Bloober Team", "aliases": [], "publisher": "konami", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "silent-hill-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Silent Hill 2 sold 1 million copies three days after launch",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2024/10/silent-hill-2-remake-shipments-and-digital-sales-top-one-million" } }
+      ],
+      "summary": "The Silent Hill 2 remake sold 1 million copies three days after launch, a milestone the original took a month to reach."
+    },
+    {
+      "ref": "business/700-ubisoft-france-staff-walk-out-on-a-three-day-strike-in-d",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": ["Ubisoft France"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "More than 700 Ubisoft France staff walked out on a three-day strike in a dispute over home working and pay."
+    },
+    {
+      "ref": "business/jusant-lost-records-studio-don-t-nod-says-69-jobs-at-risk-as",
+      "entities": {
+        "games": [
+          { "id": "jusant", "name": "Jusant", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "lost-records", "name": "Lost Records", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "dont-nod", "name": "Don't Nod", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 69, "unit": "jobs", "currency": null,
+          "entity": "dont-nod", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Don't Nod says 69 jobs at risk",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/jusant-lost-records-studio-dont-nod-says-69-jobs-at-risk-as-part-of-reorganisation-project" } }
+      ],
+      "summary": "Jusant and Lost Records studio Don't Nod says 69 jobs are at risk as part of a reorganisation project amid deteriorating financial results."
+    }
+  ]
+}

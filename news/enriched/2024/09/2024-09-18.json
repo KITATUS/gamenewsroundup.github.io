@@ -1,0 +1,317 @@
+{
+  "date": "2024-09-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/first-ever-official-shovel-knight-concert-announced",
+      "entities": {
+        "games": [
+          { "id": "shovel-knight", "name": "Shovel Knight", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "shovel-knight", "inferred": true }
+        ],
+        "studios": [{ "id": "yacht-club-games", "name": "Yacht Club Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The first-ever official Shovel Knight concert has been announced, with tickets on sale for two US performances in early 2025."
+    },
+    {
+      "ref": "main_news/lego-fortnite-heads-into-uncharted-territory-with-huge-lost",
+      "entities": {
+        "games": [
+          { "id": "lego-fortnite", "name": "Lego Fortnite", "aliases": [], "genres": ["survival", "sandbox"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Lego Fortnite is launching a large Lost Isles expansion, its second expansion to include a battle pass after the Star Wars one in May."
+    },
+    {
+      "ref": "main_news/netflix-s-latest-animated-witcher-movie-delayed-into-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }],
+        "people": [{ "id": "doug-cockle", "name": "Doug Cockle", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-02-11", "unit": "date", "currency": null,
+          "entity": "the-witcher-sirens-of-the-deep", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Now releases \"11th February 2025\"",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/netflixs-latest-animated-witcher-movie-delayed-into-2025-gets-new-two-minute-clip" } }
+      ],
+      "summary": "Netflix's animated Witcher movie Sirens of the Deep, featuring Doug Cockle, has been delayed into 2025 and now releases 11 February 2025."
+    },
+    {
+      "ref": "main_news/the-sims-5-not-happening-as-ea-moves-beyond-linear-sequentia",
+      "entities": {
+        "games": [
+          { "id": "the-sims-5", "name": "The Sims 5", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "the-sims-4", "name": "The Sims 4", "aliases": ["Sims 4"], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "project-rene", "name": "Project Rene", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "mysims", "name": "MySims", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true },
+          { "id": "mysims-kingdom", "name": "MySims Kingdom", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true }
+        ],
+        "studios": [{ "id": "maxis", "name": "Maxis", "aliases": [], "publisher": "electronic-arts", "inferred": true }],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion", "release-date", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-19", "unit": "date", "currency": null,
+          "entity": "the-sims-4", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "release schedule continues this Thursday, 19th September, with the launch of its Artist Studio and Storybook Nursery DLC",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-sims-5-not-happening-as-ea-moves-beyond-linear-sequential-sims-releases" } },
+        { "metric": "release_date", "value": "2024-10-31", "unit": "date", "currency": null,
+          "entity": "the-sims-4", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the still-mysterious Life and Death Expansion Pack arrives on 31st October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-sims-5-not-happening-as-ea-moves-beyond-linear-sequential-sims-releases" } },
+        { "metric": "release_date", "value": "2024-11-19", "unit": "date", "currency": null,
+          "entity": "mysims", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MySims and MySims Kingdom are heading to Switch as a two-game bundle on 19th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-sims-5-not-happening-as-ea-moves-beyond-linear-sequential-sims-releases" } }
+      ],
+      "summary": "EA confirmed The Sims 5 is not happening as it moves beyond linear, sequential Sims releases, with Sims 4 to continue receiving content alongside the still-active Project Rene."
+    },
+    {
+      "ref": "main_news/ea-s-free-to-play-skate-revival-is-heading-into-early-access",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": [], "genres": ["sports", "simulation"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [{ "id": "full-circle", "name": "Full Circle", "aliases": [], "publisher": "electronic-arts", "inferred": true }],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": ["Steam"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["early-access"],
+      "facts": [],
+      "summary": "EA's free-to-play Skate revival is heading into early access in 2025 across PlayStation, Xbox, PC and mobile."
+    },
+    {
+      "ref": "main_news/epic-game-store-and-fortnite-and-fall-guys-now-available-in",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter", "sandbox"], "franchise": "fortnite", "inferred": true },
+          { "id": "fall-guys", "name": "Fall Guys", "aliases": [], "genres": ["party", "platformer"], "franchise": "fall-guys", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false },
+          { "id": "ipad", "name": "iPad", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "The Epic Games Store, along with Fortnite and Fall Guys, is now available in the EU on iPad."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-spin-off-project-t-has-been-cancelled",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-by-daylight", "inferred": true },
+          { "id": "project-t", "name": "Project T", "aliases": [], "genres": ["shooter"], "franchise": "dead-by-daylight", "inferred": true },
+          { "id": "scavengers", "name": "Scavengers", "aliases": [], "genres": ["shooter", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "midwinter-entertainment", "name": "Midwinter Entertainment", "aliases": [], "publisher": "behaviour-interactive", "inferred": false },
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Dead by Daylight co-op PVE shooter spin-off Project T, in early development at Midwinter Entertainment, has been cancelled."
+    },
+    {
+      "ref": "free_games_subscription/games-leaving-ps-soon",
+      "entities": {
+        "games": [
+          { "id": "ultra-street-fighter-4", "name": "Ultra Street Fighter 4", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "gotham-knights", "name": "Gotham Knights", "aliases": [], "genres": ["action-rpg"], "franchise": "batman", "inferred": true },
+          { "id": "littlebigplanet-3", "name": "LittleBigPlanet 3", "aliases": [], "genres": ["platformer"], "franchise": "littlebigplanet", "inferred": true },
+          { "id": "dragon-quest-xi-s", "name": "Dragon Quest XI S", "aliases": [], "genres": ["jrpg"], "franchise": "dragon-quest", "inferred": true },
+          { "id": "dragon-quest-builders-2", "name": "Dragon Quest Builders 2", "aliases": [], "genres": ["sandbox", "rpg"], "franchise": "dragon-quest", "inferred": true },
+          { "id": "dragon-quest-builders", "name": "Dragon Quest Builders", "aliases": [], "genres": ["sandbox", "rpg"], "franchise": "dragon-quest", "inferred": true },
+          { "id": "dragon-quest-heroes-2", "name": "Dragon Quest Heroes 2", "aliases": [], "genres": ["action-rpg"], "franchise": "dragon-quest", "inferred": true },
+          { "id": "dragon-quest-heroes", "name": "Dragon Quest Heroes", "aliases": [], "genres": ["action-rpg"], "franchise": "dragon-quest", "inferred": true },
+          { "id": "toukiden-kiwami", "name": "Toukiden: Kiwami", "aliases": [], "genres": ["action-rpg"], "franchise": "toukiden", "inferred": true },
+          { "id": "the-evil-within", "name": "The Evil Within", "aliases": [], "genres": ["survival-horror"], "franchise": "the-evil-within", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Several titles including Ultra Street Fighter 4, Gotham Knights and a range of Dragon Quest games are leaving PlayStation Plus soon."
+    },
+    {
+      "ref": "free_games_subscription/september-s-playstation-plus-game-catalogue-and-classics-tit",
+      "entities": {
+        "games": [
+          { "id": "the-plucky-squire", "name": "The Plucky Squire", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "under-the-waves", "name": "Under The Waves", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "night-in-the-woods", "name": "Night in the Woods", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "chernobylite", "name": "Chernobylite", "aliases": [], "genres": ["survival-horror", "rpg"], "franchise": null, "inferred": true },
+          { "id": "wild-card-football", "name": "Wild Card Football", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "space-engineers", "name": "Space Engineers", "aliases": [], "genres": ["sandbox", "simulation"], "franchise": null, "inferred": true },
+          { "id": "road-96", "name": "Road 96", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "ben-10", "name": "Ben 10", "aliases": [], "genres": ["action-adventure"], "franchise": "ben-10", "inferred": true },
+          { "id": "far-cry-5", "name": "Far Cry 5", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "pistol-whip", "name": "Pistol Whip", "aliases": [], "genres": ["rhythm", "shooter"], "franchise": null, "inferred": true },
+          { "id": "secret-agent-clank", "name": "Secret Agent Clank", "aliases": [], "genres": ["platformer"], "franchise": "ratchet-clank", "inferred": true },
+          { "id": "sky-gunner", "name": "Sky Gunner", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "mister-mosquito", "name": "Mister Mosquito", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "playstation-4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "playstation-vr2", "name": "PS VR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "September's PlayStation Plus Game Catalogue and Classics titles are now live, including The Plucky Squire, Far Cry 5 and several Premium-tier classics."
+    },
+    {
+      "ref": "free_games_subscription/more-xbox-game-pass-titles-for-september-revealed",
+      "entities": {
+        "games": [
+          { "id": "wargroove-2", "name": "Wargroove 2", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "wargroove", "inferred": true },
+          { "id": "frostpunk-2", "name": "Frostpunk 2", "aliases": [], "genres": ["strategy", "survival"], "franchise": "frostpunk", "inferred": true },
+          { "id": "ara-history-untold", "name": "Ara: History Untold", "aliases": [], "genres": ["strategy", "4x"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass Ultimate", "PC Game Pass"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-19", "unit": "date", "currency": null,
+          "entity": "wargroove-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Wargroove 2 (Cloud, Console, and PC) – September 19 Game Pass Ultimate, PC Game Pass",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/more-xbox-game-pass-titles-for-september-revealed/" } },
+        { "metric": "release_date", "value": "2024-09-20", "unit": "date", "currency": null,
+          "entity": "frostpunk-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Frostpunk 2 (PC) – September 20 Game Pass Ultimate, PC Game Pass",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/more-xbox-game-pass-titles-for-september-revealed/" } },
+        { "metric": "release_date", "value": "2024-09-24", "unit": "date", "currency": null,
+          "entity": "ara-history-untold", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ara: History Untold (PC) – September 24 Game Pass Ultimate, PC Game Pass",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/more-xbox-game-pass-titles-for-september-revealed/" } }
+      ],
+      "summary": "More Xbox Game Pass titles for September were revealed, including Wargroove 2, Frostpunk 2 and Ara: History Untold."
+    },
+    {
+      "ref": "business/scopely-cancels-unannounced-project-begins-transitioning-tea",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "scopely", "name": "Scopely", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Scopely cancelled an unannounced project and is transitioning the team to other work, saying no staff had been laid off at the time of writing."
+    },
+    {
+      "ref": "business/former-capcom-ubisoft-wayforward-and-riot-devs-form-pahdo-la",
+      "entities": {
+        "games": [
+          { "id": "starlight-revolver", "name": "Starlight Re:Volver", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": null, "inferred": false }
+        ],
+        "studios": [{ "id": "pahdo-labs", "name": "Pahdo Labs", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Former Capcom, Ubisoft, WayForward and Riot developers have formed Pahdo Labs, whose first project is co-op roguelike action RPG Starlight Re:Volver, due next year."
+    },
+    {
+      "ref": "business/toucharcade-to-shut-down",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "studio-closure"],
+      "facts": [],
+      "summary": "Gaming website TouchArcade is to shut down after 16 years, citing a lack of financial support."
+    },
+    {
+      "ref": "business/lighthouse-games-moves-to-new-office-in-leamington-spa",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "lighthouse-games", "name": "Lighthouse Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Lighthouse Games is moving to a new 20,000 square foot office across four floors in Leamington Spa."
+    },
+    {
+      "ref": "business/team17-h1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "team17", "name": "Team17", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 80600000, "unit": "money", "currency": "GBP",
+          "entity": "team17", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-18", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Revenue: £80.6 million, up 11% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/team17-revenue-rose-11-during-h1-2024" } },
+        { "metric": "profit", "value": 32900000, "unit": "money", "currency": "GBP",
+          "entity": "team17", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-18", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Gross profit: £32.9 million, up 9% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/team17-revenue-rose-11-during-h1-2024" } }
+      ],
+      "summary": "Team17 reported H1 2024 revenue of £80.6 million, up 11% year-on-year, and gross profit of £32.9 million, up 9% year-on-year."
+    }
+  ]
+}

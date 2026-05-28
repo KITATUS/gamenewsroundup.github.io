@@ -1,0 +1,208 @@
+{
+  "date": "2025-02-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/a-game-based-on-cult-anime-samurai-pizza-cats-is-in-developm",
+      "entities": {
+        "games": [
+          {
+            "id": "samurai-pizza-cats-blast-from-the-past",
+            "name": "Samurai Pizza Cats: Blast From the Past",
+            "aliases": ["Samurai Pizza Cats"],
+            "genres": ["action-adventure"],
+            "franchise": "samurai-pizza-cats",
+            "inferred": true
+          },
+          {
+            "id": "jitsu-squad",
+            "name": "Jitsu Squad",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "blast-zero",
+            "name": "Blast Zero",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "red-dunes-games",
+            "name": "Red Dunes Games",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release"],
+      "facts": [],
+      "summary": "A game based on the cult anime Samurai Pizza Cats, titled Samurai Pizza Cats: Blast From the Past, is in development."
+    },
+    {
+      "ref": "main_news/a-new-tony-hawk-game-reveal-is-being-teased-in-black-ops-6",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty-black-ops-6",
+            "name": "Call of Duty: Black Ops 6",
+            "aliases": ["Black Ops 6"],
+            "genres": ["fps", "shooter"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          },
+          {
+            "id": "tony-hawks-pro-skater-3-4",
+            "name": "Tony Hawk's Pro Skater 3+4",
+            "aliases": ["THPS 3+4"],
+            "genres": ["sports"],
+            "franchise": "tony-hawks-pro-skater",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "tony-hawk",
+            "name": "Tony Hawk",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["teaser", "reveal"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-03-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "tony-hawks-pro-skater-3-4",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2025-02-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "A sign in the new Grind map seems to suggest an announcement is coming \"03.04.25",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/new-black-ops-6-map-appears-to-be-teasing-a-tony-hawk-game-reveal-next-month/"
+          }
+        }
+      ],
+      "summary": "A new Tony Hawk game reveal is reportedly being teased in Call of Duty: Black Ops 6, with a sign pointing to a 4 March 2025 announcement."
+    },
+    {
+      "ref": "business/marvel-rivals-surpasses-40m-players",
+      "entities": {
+        "games": [
+          {
+            "id": "marvel-rivals",
+            "name": "Marvel Rivals",
+            "aliases": [],
+            "genres": ["hero-shooter", "tps", "shooter"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 40000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "marvel-rivals",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-21",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Marvel Rivals surpasses 40m players",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/marvel-rivals-surpasses-40m-players-as-netease-denies-abandoning-western-studios"
+          }
+        }
+      ],
+      "summary": "Marvel Rivals has surpassed 40 million players."
+    },
+    {
+      "ref": "business/pacific-drive-hits-1m-copies-sold",
+      "entities": {
+        "games": [
+          {
+            "id": "pacific-drive",
+            "name": "Pacific Drive",
+            "aliases": [],
+            "genres": ["survival", "adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "pacific-drive",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-21",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Pacific Drive hits 1m copies sold",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/ironwoodtweets/status/1892303146455879937"
+          }
+        }
+      ],
+      "summary": "Pacific Drive has hit 1 million copies sold."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "date": "2024-08-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-indie-world-and-partner-showcase-today",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [],
+      "summary": "Nintendo is holding a combined Indie World and Partner Showcase today, a 40-minute broadcast focused on third-party and indie games with no Switch successor announcements."
+    },
+    {
+      "ref": "main_news/taiko-no-tatsujin-rhythm-festival-launches-november-7-on-ste",
+      "entities": {
+        "games": [
+          { "id": "taiko-no-tatsujin-rhythm-festival", "name": "Taiko no Tatsujin: Rhythm Festival", "aliases": [], "genres": ["rhythm"], "franchise": "taiko-no-tatsujin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco-entertainment", "name": "Bandai Namco Entertainment", "aliases": ["Namco"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "subscription"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-11-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "taiko-no-tatsujin-rhythm-festival",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Taiko no Tatsujin: Rhythm Festival launches November 7 on Steam, PS5, and Xbox Series S/X",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/taiko_en/status/1828190685939511363" }
+        }
+      ],
+      "summary": "Taiko no Tatsujin: Rhythm Festival launches on 7 November 2024 for Steam, PS5, and Xbox Series S/X, with a 120 fps mode and the Taiko Music Pass subscription at launch."
+    },
+    {
+      "ref": "business/black-myth-wukong-has-sold-10-million-copies-worldwide",
+      "entities": {
+        "games": [
+          { "id": "black-myth-wukong", "name": "Black Myth: Wukong", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "game-science", "name": "Game Science", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 10000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "black-myth-wukong",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-27",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Black Myth: Wukong has sold 10 million copies worldwide",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/black-myth-wukong-has-sold-10-million-copies-in-five-days" }
+        }
+      ],
+      "summary": "Black Myth: Wukong has sold 10 million copies worldwide, reaching the milestone five days after release."
+    },
+    {
+      "ref": "rumours/lego-horizon-adventures-is-launching-november-14",
+      "entities": {
+        "games": [
+          { "id": "lego-horizon-adventures", "name": "LEGO Horizon Adventures", "aliases": [], "genres": ["action-adventure"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Playstation"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "rumour"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-11-14",
+          "unit": "date",
+          "currency": null,
+          "entity": "lego-horizon-adventures",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "LEGO Horizon Adventures is launching November 14",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/gematsu/status/1828233208443388244" }
+        }
+      ],
+      "summary": "Rumour that LEGO Horizon Adventures is launching on 14 November 2024, based on information accidentally posted early on its PlayStation home page entry."
+    }
+  ]
+}

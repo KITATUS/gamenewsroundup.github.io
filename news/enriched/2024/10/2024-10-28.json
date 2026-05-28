@@ -1,0 +1,147 @@
+{
+  "date": "2024-10-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/netflix-s-animated-tomb-raider-the-legend-of-lara-croft-seri",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": ["Tomb Raider: The Legend of Lara Croft"], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Netflix's animated series Tomb Raider: The Legend of Lara Croft is returning for a second season."
+    },
+    {
+      "ref": "main_news/steins-gate-reboot-game-announced-at-15th-anniversary-event",
+      "entities": {
+        "games": [
+          { "id": "steins-gate-reboot", "name": "STEINS;GATE REBOOT", "aliases": ["Steins;Gate REBOOT"], "genres": ["visual-novel"], "franchise": "steins-gate", "inferred": true },
+          { "id": "steins-gate", "name": "Steins;Gate", "aliases": [], "genres": ["visual-novel"], "franchise": "steins-gate", "inferred": true },
+          { "id": "steins-gate-elite", "name": "Steins;Gate ELITE", "aliases": [], "genres": ["visual-novel"], "franchise": "steins-gate", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "A new STEINS;GATE REBOOT game, a remade version of the original with new graphics and added story, was announced at the franchise's 15th anniversary event."
+    },
+    {
+      "ref": "business/10-years-in-dayz-just-hit-a-new-record-of-500k-concurrent-pl",
+      "entities": {
+        "games": [
+          { "id": "dayz", "name": "DayZ", "aliases": [], "genres": ["survival", "horror"], "franchise": "dayz", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "dlc-expansion"],
+      "facts": [
+        { "metric": "peak_concurrent_players", "value": 500000, "unit": "players", "currency": null,
+          "entity": "dayz", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "DayZ just hit a new record of 500k concurrent players",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/10-years-in-dayz-just-hit-a-new-record-of-500k-concurrent-players" } }
+      ],
+      "summary": "DayZ hit a new record of 500,000 concurrent players, helped by the new Frostline expansion, a decade after launch."
+    },
+    {
+      "ref": "business/romero-games-has-added-further-worker-benefits-as-the-studio",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "romero-games", "name": "Romero Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "headcount", "value": 75, "unit": "people", "currency": null,
+          "entity": "romero-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-28", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The team currently includes more than 75 developers",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/romero-games-has-added-further-worker-benefits-as-the-studio-celebrates-10-years/" } }
+      ],
+      "summary": "Romero Games added further worker benefits, including Menopause Leave and a Clothing Allowance, as the Galway-based studio celebrates 10 years with more than 75 developers."
+    },
+    {
+      "ref": "business/u-s-copyright-office-rejects-dmca-exemption-to-support-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The U.S. Copyright Office rejected a DMCA exemption that would have supported game preservation efforts at libraries."
+    },
+    {
+      "ref": "business/sonic-x-shadow-generations-sells-over-1-million-copies-at-la",
+      "entities": {
+        "games": [
+          { "id": "sonic-x-shadow-generations", "name": "Sonic x Shadow Generations", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "sonic-x-shadow-generations", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-28", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Sonic x Shadow Generations sells over 1 million copies at launch",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/sonic-x-shadow-generations-sells-over-1-million-copies-at-launch" } }
+      ],
+      "summary": "Sonic x Shadow Generations sold over 1 million copies at launch."
+    },
+    {
+      "ref": "business/20-xbox-franchises-have-made-1-billion-in-lifetime-revenue-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1000000000, "unit": "money", "currency": "USD",
+          "entity": "xbox", "entity_type": "platform", "scope": "franchise",
+          "as_of": "2024-10-28", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "20 Xbox franchises have made $1 billion in lifetime revenue",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/20-xbox-franchises-have-made-1-billion-in-lifetime-revenue-says-microsoft-ceo" } }
+      ],
+      "summary": "Microsoft's CEO said 20 Xbox franchises have each generated $1 billion in lifetime revenue."
+    }
+  ]
+}

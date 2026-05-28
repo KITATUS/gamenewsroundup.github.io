@@ -1,0 +1,318 @@
+{
+  "date": "2024-10-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fbc-firebreak-is-remedy-s-3-player-control-multiplayer-game",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC Firebreak", "aliases": [], "genres": ["fps", "shooter"], "franchise": "control", "inferred": true },
+          { "id": "control", "name": "Control", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "subscription"],
+      "facts": [],
+      "summary": "FBC Firebreak is Remedy's three-player multiplayer game set in the Control universe."
+    },
+    {
+      "ref": "main_news/universal-florida-s-super-nintendo-world-park-gets-may-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "universal", "name": "Universal", "aliases": ["Universal Florida"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Universal Florida's Super Nintendo World park has been given a May 2025 opening date."
+    },
+    {
+      "ref": "main_news/prison-architect-studio-s-blindfire-is-a-multiplayer-shooter",
+      "entities": {
+        "games": [
+          { "id": "blindfire", "name": "Blindfire", "aliases": [], "genres": ["shooter", "fps"], "franchise": null, "inferred": true },
+          { "id": "prison-architect", "name": "Prison Architect", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "prison-architect", "inferred": true }
+        ],
+        "studios": [
+          { "id": "double-eleven", "name": "Double Eleven", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "early-access", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-18", "unit": "date", "currency": null,
+          "entity": "blindfire", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "multiplayer shooter Blindfire, which launches into early access for Xbox Series S/X and PC today.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/prison-architect-studios-blindfire-is-a-multiplayer-shooter-played-in-pitch-dark" } }
+      ],
+      "summary": "Double Eleven, former steward of Paradox's Prison Architect, has launched its multiplayer shooter Blindfire into early access on Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/alan-wake-2-the-lake-house-will-release-next-week",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": ["Alan Wake 2 The Lake House"], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "janina-gavankar", "name": "Janina Gavankar", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date", "dlc-expansion"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-22", "unit": "date", "currency": null,
+          "entity": "alan-wake-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Lake House will be released on October 22.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/alan-wake-2-the-lake-house-will-release-next-week/" } }
+      ],
+      "summary": "Alan Wake 2's The Lake House DLC, featuring FBC agent Kiran Estevez played by Janina Gavankar, will release on 22 October 2024 alongside the game's physical version."
+    },
+    {
+      "ref": "main_news/2k-reveals-project-ethos-a-free-to-play-3rd-person-roguelike",
+      "entities": {
+        "games": [
+          { "id": "project-ethos", "name": "Project Ethos", "aliases": [], "genres": ["tps", "hero-shooter", "roguelike"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "beta-demo"],
+      "facts": [],
+      "summary": "2K has revealed Project Ethos, a free-to-play third-person roguelike hero shooter, with community playtests scheduled for the weekend."
+    },
+    {
+      "ref": "main_news/bloober-team-s-next-game-cronos-the-new-dawn-has-been-announ",
+      "entities": {
+        "games": [
+          { "id": "cronos-the-new-dawn", "name": "Cronos: The New Dawn", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bloober-team", "name": "Bloober Team", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Bloober Team has announced its next game, Cronos: The New Dawn, set for a 2025 release on PC, PlayStation 5, and Xbox Series S/X."
+    },
+    {
+      "ref": "main_news/pirate-yakuza-in-hawaii-will-now-release-one-week-earlier",
+      "entities": {
+        "games": [
+          { "id": "pirate-yakuza-in-hawaii", "name": "Pirate Yakuza in Hawaii", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-02-28", "unit": "date", "currency": null,
+          "entity": "pirate-yakuza-in-hawaii", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "which was originally planned for release on February 28",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pirate-yakuza-in-hawaii-will-now-release-one-week-earlier/" } },
+        { "metric": "release_date", "value": "2025-02-21", "unit": "date", "currency": null,
+          "entity": "pirate-yakuza-in-hawaii", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will now be released on February 21, 2025.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/pirate-yakuza-in-hawaii-will-now-release-one-week-earlier/" } }
+      ],
+      "summary": "Pirate Yakuza in Hawaii has been moved up one week, from 28 February to 21 February 2025."
+    },
+    {
+      "ref": "main_news/subnautica-2-has-been-announced-and-it-s-coming-to-game-pass",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-preview", "name": "Xbox Game Preview", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "early-access", "subscription"],
+      "facts": [],
+      "summary": "Subnautica 2 has been announced and will come to Game Pass, launching on PC via Xbox Game Preview in 2025."
+    },
+    {
+      "ref": "free_games_subscription/banjo-tooie-is-coming-to-nintendo-switch-this-month",
+      "entities": {
+        "games": [
+          { "id": "banjo-tooie", "name": "Banjo-Tooie", "aliases": [], "genres": ["platformer"], "franchise": "banjo-kazooie", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "subscription"],
+      "facts": [],
+      "summary": "Banjo-Tooie is coming to Nintendo Switch this month."
+    },
+    {
+      "ref": "business/keywords-studios-to-acquire-certain-affinity",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "certain-affinity", "name": "Certain Affinity", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "keywords-studios", "name": "Keywords Studios", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "headcount", "value": 180, "unit": "people", "currency": null,
+          "entity": "certain-affinity", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "It employs over 180 people in the US and Canada",
+          "source": { "name": "nasdaq.com", "domain": "nasdaq.com", "url": "https://www.nasdaq.com/articles/keywords-studios-acquire-certain-affinity" } }
+      ],
+      "summary": "Keywords Studios is to acquire Certain Affinity, a 2006-founded AAA multiplayer co-development studio employing over 180 people across the US and Canada."
+    },
+    {
+      "ref": "business/resident-evil-4-remake-tops-8-million-copies-sold",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-4-remake", "name": "Resident Evil 4 Remake", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "remaster-remake"],
+      "facts": [
+        { "metric": "copies_sold", "value": 8000000, "unit": "copies", "currency": null,
+          "entity": "resident-evil-4-remake", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-18", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Resident Evil 4 Remake tops 8 million copies sold",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/dev1_official/status/1846479698232324198" } }
+      ],
+      "summary": "Resident Evil 4 Remake has topped 8 million copies sold."
+    },
+    {
+      "ref": "business/warhammer-space-marine-2-drives-record-results-for-pullup-en",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40000-space-marine-2", "name": "Warhammer Space Marine 2", "aliases": ["Warhammer Space Marine 2"], "genres": ["tps", "action-adventure"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "pullup-entertainment", "name": "Pullup Entertainment", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 4500000, "unit": "players", "currency": null,
+          "entity": "warhammer-40000-space-marine-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-18", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "already attracted more than 4.5 million unique players to date",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/warhammer-space-marine-2-drives-record-results-for-pullup-entertainment" } }
+      ],
+      "summary": "Warhammer Space Marine 2 drove record results for Pullup Entertainment, attracting more than 4.5 million unique players and ranking among the year's top five launches."
+    },
+    {
+      "ref": "business/it-takes-two-sells-20m-units",
+      "entities": {
+        "games": [
+          { "id": "it-takes-two", "name": "It Takes Two", "aliases": [], "genres": ["action-adventure", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hazelight-studios", "name": "Hazelight Studios", "aliases": ["Hazelight"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 20000000, "unit": "units", "currency": null,
+          "entity": "it-takes-two", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "It Takes Two sells 20m units",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/HazelightGames/status/1846587348437381247" } }
+      ],
+      "summary": "It Takes Two has sold 20 million units."
+    },
+    {
+      "ref": "business/io-interactive-will-publish-build-a-rocket-boy-s-proof-of-co",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "everywhere", "name": "Everywhere", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": ["IO"], "publisher": null, "inferred": false },
+          { "id": "build-a-rocket-boy", "name": "Build a Rocket Boy", "aliases": ["BARB"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hakan-abrak", "name": "Hakan Abrak", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "IO Interactive will publish Build a Rocket Boy's MindsEye, a proof-of-concept game for the Unreal Engine 5-based Everywhere platform."
+    }
+  ]
+}

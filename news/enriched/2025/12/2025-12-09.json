@@ -1,0 +1,79 @@
+{
+  "date": "2025-12-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-future-of-tomb-raider-will-be-revealed-at-the-game-award",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [
+          { "id": "crystal-dynamics", "name": "Crystal Dynamics", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "showcase"],
+      "facts": [],
+      "summary": "The future of the Tomb Raider franchise will be revealed at The Game Awards."
+    },
+    {
+      "ref": "business/studio-hired-to-make-a-postal-spin-off-game-shuts-down-after",
+      "entities": {
+        "games": [
+          { "id": "postal", "name": "Postal", "aliases": [], "genres": ["shooter"], "franchise": "postal", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "running-with-scissors", "name": "Running with Scissors", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "A studio hired to make a Postal spin-off game has shut down after its project was cancelled over allegations of generative AI use."
+    },
+    {
+      "ref": "business/tekken-boss-katsuhiro-harada-says-he-s-leaving-bandai-namco",
+      "entities": {
+        "games": [
+          { "id": "tekken", "name": "Tekken", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "katsuhiro-harada", "name": "Katsuhiro Harada", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Tekken series head Katsuhiro Harada says he is leaving Bandai Namco this month, calling Tekken's 30th anniversary the most fitting moment to depart."
+    },
+    {
+      "ref": "business/lead-developers-from-cancelled-perfect-dark-reboot-join-2k-t",
+      "entities": {
+        "games": [
+          { "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps"], "franchise": "perfect-dark", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false },
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Lead developers from the cancelled Perfect Dark reboot have joined 2K to launch a brand new studio under Take-Two."
+    }
+  ]
+}

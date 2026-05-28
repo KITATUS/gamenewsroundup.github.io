@@ -1,0 +1,119 @@
+{
+  "date": "2026-02-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/google-rolls-out-prototype-of-project-genie-an-ai-tool-which",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "google", "name": "Google", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Google rolled out a prototype of Project Genie, an AI tool that generates time-limited 60-second playable worlds, temporarily affecting game company stock prices."
+    },
+    {
+      "ref": "main_news/escape-from-tarkov-announces-first-major-crossover-event-esc",
+      "entities": {
+        "games": [
+          { "id": "escape-from-tarkov", "name": "Escape from Tarkov", "aliases": [], "genres": ["fps", "extraction-shooter"], "franchise": null, "inferred": true },
+          { "id": "escape-from-duckov", "name": "Escape from Duckov", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Escape from Tarkov announced its first major crossover event, a collaboration with Escape from Duckov."
+    },
+    {
+      "ref": "main_news/austin-wintory-wins-first-grammy-for-best-score-soundtrack-f",
+      "entities": {
+        "games": [
+          { "id": "sword-of-the-sea", "name": "Sword of the Sea", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "austin-wintory", "name": "Austin Wintory", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Austin Wintory won his first Grammy for Best Score Soundtrack For Video Games And Other Interactive Media for Sword of the Sea."
+    },
+    {
+      "ref": "main_news/tekken-8-season-3-trailer-reveals-kunimitsu-bob-and-roger-jr",
+      "entities": {
+        "games": [
+          { "id": "tekken-8", "name": "TEKKEN 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "reveal", "dlc-expansion"],
+      "facts": [],
+      "summary": "A TEKKEN 8 Season 3 trailer revealed returning characters including Kunimitsu, Bob and Roger Jr. among others."
+    },
+    {
+      "ref": "business/ashes-of-creation-s-leadership-team-quits-in-protest-as-dire",
+      "entities": {
+        "games": [
+          { "id": "ashes-of-creation", "name": "Ashes of Creation", "aliases": [], "genres": ["mmorpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "intrepid-studios", "name": "Intrepid Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change", "layoffs"],
+      "facts": [],
+      "summary": "Ashes of Creation's leadership team quit in protest, with the director citing board decisions he could not ethically agree with, as remaining staff claim they now face mass layoffs."
+    },
+    {
+      "ref": "business/cairn-has-reached-200k-copies-sold",
+      "entities": {
+        "games": [
+          { "id": "cairn", "name": "Cairn", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-game-bakers", "name": "The Game Bakers", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 200000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "cairn",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-02",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cairn has reached 200k copies sold",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/thegamebakers.com/post/3mdt6pttzjs2f" }
+        }
+      ],
+      "summary": "Cairn has reached 200,000 copies sold."
+    }
+  ]
+}

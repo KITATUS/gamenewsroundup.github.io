@@ -1,0 +1,96 @@
+{
+  "date": "2024-05-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/limited-run-apologises-for-selling-cd-rs-as-authentic-3do-ga",
+      "entities": {
+        "games": [
+          { "id": "d", "name": "D", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "limited-run-games", "name": "Limited Run", "aliases": ["Limited Run"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "3do", "name": "3DO", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "price", "value": 64.99, "unit": "price", "currency": "USD",
+          "entity": "d", "entity_type": "product", "scope": "product",
+          "as_of": "2024-05-06", "period": "point_in_time", "direction": null,
+          "confidence": "high",
+          "quote": "The company recently sold a $64.99 ‘Collector’s Edition’ of 1995 horror game D",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/limited-run-apologises-for-selling-cd-rs-as-authentic-3do-games/" } }
+      ],
+      "summary": "Limited Run apologised after selling CD-R copies of the 3DO horror game D as authentic pressed discs and halted sales of further 3DO titles."
+    },
+    {
+      "ref": "main_news/sony-overturns-helldivers-2-psn-requirement-following-backla",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-network", "name": "PlayStation Network", "aliases": ["PSN"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Sony reversed its decision to require Helldivers 2 players on Steam to link a PSN account following intense player backlash."
+    },
+    {
+      "ref": "business/gray-zone-warfare-sells-over-500-000-copies-in-three-days",
+      "entities": {
+        "games": [
+          { "id": "gray-zone-warfare", "name": "Gray Zone Warfare", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 500000, "unit": "copies", "currency": null,
+          "entity": "gray-zone-warfare", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-06", "period": "cumulative", "direction": null,
+          "confidence": "medium",
+          "quote": "Gray Zone Warfare sells over 500,000 copies in three days",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/gray-zone-warfare-sells-400000-copies-in-two-days-news-in-brief" } }
+      ],
+      "summary": "Gray Zone Warfare sold over 500,000 copies within three days of release."
+    },
+    {
+      "ref": "rumours/warhammer-40k-space-marine-2-will-include-a-pvp-mode-accordi",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40k-space-marine-2", "name": "Warhammer 40K: Space Marine 2", "aliases": [], "genres": ["tps", "action-adventure"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "An art book leak suggests Warhammer 40K: Space Marine 2 will include a Marine versus Marine PvP mode with classes and customisation."
+    }
+  ]
+}

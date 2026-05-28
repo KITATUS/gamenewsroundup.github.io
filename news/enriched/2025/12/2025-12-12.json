@@ -1,0 +1,446 @@
+{
+  "date": "2025-12-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/game-award-winners",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["jrpg", "rpg", "turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "the-last-of-us", "name": "The Last of Us: Season 2", "aliases": [], "genres": [], "franchise": "the-last-of-us", "inferred": true },
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "doom-the-dark-ages", "name": "Doom: The Dark Ages", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true },
+          { "id": "south-of-midnight", "name": "South of Midnight", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "no-mans-sky", "name": "No Man's Sky", "aliases": ["No Man’s Sky"], "genres": ["survival", "open-world", "adventure"], "franchise": null, "inferred": true },
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": ["Baldur’s Gate 3"], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "umamusume-pretty-derby", "name": "Umamusume: Pretty Derby", "aliases": [], "genres": ["simulation", "life-sim"], "franchise": null, "inferred": true },
+          { "id": "the-midnight-walk", "name": "The Midnight Walk", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "hades-ii", "name": "Hades II", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true },
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true },
+          { "id": "fatal-fury-city-of-the-wolves", "name": "Fatal Fury: City of the Wolves", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true },
+          { "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "final-fantasy-tactics-the-ivalice-chronicles", "name": "Final Fantasy Tactics - The Ivalice Chronicles", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true },
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter", "shooter"], "franchise": null, "inferred": true },
+          { "id": "grand-theft-auto-vi", "name": "Grand Theft Auto VI", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "counter-strike-2", "name": "Counter-Strike 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "counter-strike", "inferred": true },
+          { "id": "wuthering-waves", "name": "Wuthering Waves", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jennifer-english", "name": "Jennifer English", "aliases": [], "inferred": false },
+          { "id": "moistcr1tikal", "name": "MoistCr1TiKaL", "aliases": [], "inferred": false },
+          { "id": "chovy", "name": "Chovy", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "The Game Awards 2025 winners were announced, with Clair Obscur: Expedition 33 taking Game of the Year."
+    },
+    {
+      "ref": "announcement-highlights/a-new-mega-man-game-is-coming-in-2027-mega-man-dual-override",
+      "entities": {
+        "games": [
+          { "id": "mega-man-dual-override", "name": "Mega Man Dual Override", "aliases": ["Mega Man"], "genres": ["action-platformer", "platformer"], "franchise": "mega-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "mega-man-dual-override", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "A new Mega Man game is coming in 2027 - Mega Man Dual Override",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-new-mega-man-game-is-finally-coming-in-2027/" } }
+      ],
+      "summary": "A new Mega Man game, Mega Man Dual Override, was announced for release in 2027."
+    },
+    {
+      "ref": "announcement-highlights/star-wars-galactic-racer-is-the-debut-title-from-fuse-games",
+      "entities": {
+        "games": [
+          { "id": "star-wars-galactic-racer", "name": "Star Wars: Galactic Racer", "aliases": [], "genres": ["racing"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fuse-games", "name": "Fuse Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "criterion", "name": "Criterion", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "studio-opening"],
+      "facts": [],
+      "summary": "Star Wars: Galactic Racer was revealed as the debut title from Fuse Games, a new studio founded by former Criterion leads."
+    },
+    {
+      "ref": "announcement-highlights/star-wars-fate-of-the-old-republic-revealed-with-first-trail",
+      "entities": {
+        "games": [
+          { "id": "star-wars-fate-of-the-old-republic", "name": "Star Wars: Fate of the Old Republic", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "casey-hudson", "name": "Casey Hudson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement", "trailer"],
+      "facts": [],
+      "summary": "Star Wars: Fate of the Old Republic was revealed with a first trailer, directed by Casey Hudson of the original Knights of the Old Republic and Mass Effect trilogy."
+    },
+    {
+      "ref": "announcement-highlights/playstation-5-exclusive-saros-has-been-delayed-until-april-2",
+      "entities": {
+        "games": [
+          { "id": "saros", "name": "Saros", "aliases": [], "genres": ["action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        { "metric": "delay_to", "value": "2026-04-20", "unit": "date", "currency": null,
+          "entity": "saros", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Saros has been delayed until April 20th 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-exclusive-saros-has-been-delayed-till-april/" } }
+      ],
+      "summary": "PlayStation 5 exclusive Saros has been delayed until 20 April 2026."
+    },
+    {
+      "ref": "announcement-highlights/soma-is-getting-a-spiritual-successor-from-the-same-studio-a",
+      "entities": {
+        "games": [
+          { "id": "ontos", "name": "Ontos", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": null, "inferred": true },
+          { "id": "soma", "name": "Soma", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "frictional-games", "name": "Frictional Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "ontos", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "titled Ontos. Releases 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/stellar-sci-fi-horror-soma-is-getting-a-spiritual-successor[…]-same-studio-set-in-a-grim-moon-hotel-on-the-edge-of-reality" } }
+      ],
+      "summary": "Soma is getting a spiritual successor titled Ontos from the same studio, set in a grim moon hotel and releasing in 2026."
+    },
+    {
+      "ref": "announcement-highlights/total-war-warhammer-40-000-announced-from-creative-assembly",
+      "entities": {
+        "games": [
+          { "id": "total-war-warhammer-40000", "name": "Total War: Warhammer 40,000", "aliases": [], "genres": ["strategy", "rts", "turn-based-strategy"], "franchise": "total-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "creative-assembly", "name": "Creative Assembly", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "david-harbour", "name": "David Harbour", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Total War: Warhammer 40,000 was announced from Creative Assembly, starring David Harbour."
+    },
+    {
+      "ref": "announcement-highlights/007-first-light-trailer-unveils-villain-played-by-lenny-krav",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "lenny-kravitz", "name": "Lenny Kravitz", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [],
+      "summary": "A new 007 First Light trailer unveiled a villain played by Lenny Kravitz."
+    },
+    {
+      "ref": "announcement-highlights/mario-rabbids-creator-s-next-game-spoofs-bloodborne-and-more",
+      "entities": {
+        "games": [
+          { "id": "bradley-the-badger", "name": "Bradley the Badger", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "evan-peters", "name": "Evan Peters", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "The Mario + Rabbids creator's next game is a mascot platformer parody titled Bradley the Badger, starring Evan Peters."
+    },
+    {
+      "ref": "announcement-highlights/the-game-awards-mysterious-statue-was-for-a-new-divinity-gam",
+      "entities": {
+        "games": [
+          { "id": "divinity", "name": "Divinity", "aliases": [], "genres": ["rpg", "crpg"], "franchise": "divinity", "inferred": true }
+        ],
+        "studios": [
+          { "id": "larian-studios", "name": "Larian Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "The Game Awards' mysterious statue teaser was revealed to be for a new Divinity game."
+    },
+    {
+      "ref": "announcement-highlights/coven-of-the-chicken-foot-is-the-debut-game-from-uncharted-a",
+      "entities": {
+        "games": [
+          { "id": "coven-of-the-chicken-foot", "name": "Coven of the Chicken Foot", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "bruce-straley", "name": "Bruce Straley", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal", "studio-opening"],
+      "facts": [],
+      "summary": "Coven of the Chicken Foot was announced as the debut game from a new studio led by Uncharted and Last of Us director Bruce Straley."
+    },
+    {
+      "ref": "announcement-highlights/capcom-officially-reveals-that-leon-kennedy-will-be-in-resid",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror", "horror", "action"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "leon-kennedy", "name": "Leon Kennedy", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Capcom officially revealed that Leon Kennedy will appear in Resident Evil Requiem, which splits into a survival horror part for Grace and an action part for Leon."
+    },
+    {
+      "ref": "announcement-highlights/a-new-trailer-for-exodus-shows-more-of-wizards-of-the-coast",
+      "entities": {
+        "games": [
+          { "id": "exodus", "name": "Exodus", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "wizards-of-the-coast", "name": "Wizards of the Coast", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "matthew-mcconaughey", "name": "Matthew McConaughey", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "gameplay"],
+      "facts": [],
+      "summary": "A new trailer for Wizards of the Coast's sci-fi action RPG Exodus, starring Matthew McConaughey, was shown."
+    },
+    {
+      "ref": "announcement-highlights/control-resonant-the-sequel-to-control-has-been-announced-fo",
+      "entities": {
+        "games": [
+          { "id": "control-resonant", "name": "Control Resonant", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true },
+          { "id": "control", "name": "Control", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Control Resonant, the sequel to Control following Dylan Faden, has been announced for next year."
+    },
+    {
+      "ref": "announcement-highlights/the-debut-game-from-yakuza-creator-toshihiro-nagoshi-s-new-s",
+      "entities": {
+        "games": [
+          { "id": "gang-of-dragon", "name": "Gang of Dragon", "aliases": [], "genres": ["action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "nagoshi-studio", "name": "Nagoshi Studio", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "toshihiro-nagoshi", "name": "Toshihiro Nagoshi", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Gang of Dragon was revealed as the debut game from Yakuza creator Toshihiro Nagoshi's new studio."
+    },
+    {
+      "ref": "announcement-highlights/two-new-tomb-raider-games-a-remake-tomb-raider-legacy-of-atl",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider-legacy-of-atlantis", "name": "Tomb Raider: Legacy of Atlantis", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "tomb-raider-catalyst", "name": "Tomb Raider: Catalyst", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "tomb-raider-legacy-of-atlantis", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Remake is due 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/two-new-tomb-raider-games-a-remake-and-a-sequel-have-been-revealed/" } },
+        { "metric": "release_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "tomb-raider-catalyst", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Sequel is due 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/two-new-tomb-raider-games-a-remake-and-a-sequel-have-been-revealed/" } }
+      ],
+      "summary": "Two new Tomb Raider games were revealed: a remake, Tomb Raider: Legacy of Atlantis (due 2026), and a sequel, Tomb Raider: Catalyst (due 2027)."
+    },
+    {
+      "ref": "announcement-highlights/hogwarts-legacy-is-free-on-the-epic-games-store-for-the-next",
+      "entities": {
+        "games": [
+          { "id": "hogwarts-legacy", "name": "Hogwarts Legacy", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "wizarding-world", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Hogwarts Legacy is free on the Epic Games Store for the next week."
+    },
+    {
+      "ref": "announcement-highlights/no-law-the-next-game-from-the-team-behind-the-ascent-is-a-ue",
+      "entities": {
+        "games": [
+          { "id": "no-law", "name": "No Law", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": false },
+          { "id": "the-ascent", "name": "The Ascent", "aliases": [], "genres": ["action-rpg", "twin-stick-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "neon-giant", "name": "Neon Giant", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "No Law, the next game from the team behind The Ascent, was revealed as a UE5 cyberpunk FPS."
+    },
+    {
+      "ref": "announcement-highlights/the-game-awards-2025-debuts-upcoming-shooter-from-apex-legen",
+      "entities": {
+        "games": [
+          { "id": "highguard", "name": "Highguard", "aliases": [], "genres": ["shooter", "fps"], "franchise": null, "inferred": true },
+          { "id": "apex-legends", "name": "Apex Legends", "aliases": [], "genres": ["battle-royale", "hero-shooter", "fps"], "franchise": "apex-legends", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "release-date", "showcase"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-01-26", "unit": "date", "currency": null,
+          "entity": "highguard", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Highguard launches Jan 26th",
+          "source": { "name": "CGMagazine", "domain": "cgmagonline.com", "url": "https://www.cgmagonline.com/news/the-game-awards-2025-debuts-highguard/" } }
+      ],
+      "summary": "The Game Awards 2025 debuted Highguard, an upcoming shooter from the creators of Apex Legends, launching 26 January."
+    },
+    {
+      "ref": "other_news/veteran-voice-actor-and-voice-of-ratchet-clank-s-captain-qwa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jim-ward", "name": "Jim Ward", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Veteran voice actor Jim Ward, the voice of Ratchet & Clank's Captain Qwark, has died aged 66."
+    },
+    {
+      "ref": "other_news/tencent-sells-battalion-maker-bulkhead-to-newly-formed-conso",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bulkhead", "name": "Bulkhead", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false },
+          { "id": "team-17", "name": "Team 17", "aliases": ["Team17"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Tencent sold Battalion maker Bulkhead to a newly-formed consortium backed by the owner of Team 17."
+    },
+    {
+      "ref": "other_news/tencent-exercising-greater-control-in-companies-like-techlan",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "techland", "name": "Techland", "aliases": [], "publisher": "tencent", "inferred": true },
+          { "id": "funcom", "name": "Funcom", "aliases": [], "publisher": "tencent", "inferred": true },
+          { "id": "sumo", "name": "Sumo", "aliases": ["Sumo Digital"], "publisher": "tencent", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Tencent is exercising greater control in companies like Techland, Funcom and Sumo, while saying it stays away from creative intervention."
+    }
+  ]
+}

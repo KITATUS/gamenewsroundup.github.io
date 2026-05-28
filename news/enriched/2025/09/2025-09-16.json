@@ -1,0 +1,121 @@
+{
+  "date": "2025-09-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-s-latest-amiibo-figures-push-the-boundaries-of-size",
+      "entities": {
+        "games": [{ "id": "kirby-air-riders", "name": "Kirby Air Riders", "aliases": [], "genres": ["racing"], "franchise": "kirby", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "price-change"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 50,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "kirby-air-riders",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-09-16",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The just-revealed Kirby Air Riders Amiibo will cost $50",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendos-latest-amiibo-figures-push-the-boundaries-of-size-and-price/" }
+        }
+      ],
+      "summary": "Nintendo's latest Amiibo figures push the boundaries of size and price, with the just-revealed Kirby Air Riders Amiibo set to cost $50."
+    },
+    {
+      "ref": "main_news/gearbox-software-addresses-concerns-of-spyware-in-borderland",
+      "entities": {
+        "games": [{ "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }],
+        "studios": [{ "id": "gearbox-software", "name": "Gearbox Software", "aliases": [], "publisher": "take-two-interactive", "inferred": true }],
+        "publishers": [{ "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Gearbox Software addressed fan concerns about spyware in Borderlands 4 that arose over Take-Two Interactive's terms of service."
+    },
+    {
+      "ref": "main_news/the-witcher-season-4-to-premiere-on-october-30-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-10-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-witcher",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-09-16",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Witcher Season 4 to premiere on October 30, 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/the-witcher-season-4-to-premiere-on-october-30-2025-news-in-brief" }
+        }
+      ],
+      "summary": "The Witcher Season 4 is set to premiere on October 30, 2025."
+    },
+    {
+      "ref": "business/valve-no-longer-permits-games-with-mature-themes-to-release",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": true }],
+        "people": []
+      },
+      "event_tags": ["regulation", "early-access"],
+      "facts": [],
+      "summary": "Valve no longer permits games with \"mature themes\" to release in early access."
+    },
+    {
+      "ref": "business/vampire-survivors-developer-created-publisher-to-share-the-l",
+      "entities": {
+        "games": [{ "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "survival"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "poncle", "name": "Poncle", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "poncle-presents", "name": "Poncle Presents", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "luca-galante", "name": "Luca Galante", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Poncle, the developer of Vampire Survivors, created a publishing arm called Poncle Presents to \"share the luck\" with other indie studios."
+    },
+    {
+      "ref": "rumours/insomniac-s-wolverine-is-reportedly-coming-next-year-followe",
+      "entities": {
+        "games": [
+          { "id": "marvels-wolverine", "name": "Marvel's Wolverine", "aliases": ["Insomniac's Wolverine", "Wolverine"], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true },
+          { "id": "venom", "name": "Venom", "aliases": [], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [{ "id": "insomniac-games", "name": "Insomniac Games", "aliases": ["Insomniac"], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Insomniac's Wolverine is coming next year, to be followed by a Venom spin-off."
+    }
+  ]
+}

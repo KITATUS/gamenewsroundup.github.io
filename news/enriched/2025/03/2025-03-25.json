@@ -1,0 +1,132 @@
+{
+  "date": "2025-03-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/update-silent-hill-f-s-australia-non-classification-removed",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill-f",
+            "name": "Silent Hill f",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Silent Hill f's previous refusal of classification in Australia has been removed from the Australian Classification Board website, blamed on a self-reporting tool error."
+    },
+    {
+      "ref": "main_news/sony-confirms-indiana-jones-ps5-date",
+      "entities": {
+        "games": [
+          {
+            "id": "indiana-jones-and-the-great-circle",
+            "name": "Indiana Jones and the Great Circle",
+            "aliases": ["Indiana Jones"],
+            "genres": ["action-adventure"],
+            "franchise": "indiana-jones",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-04-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "indiana-jones-and-the-great-circle",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "April 17, 2025",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/sony-confirms-indiana-jones-ps5-date-with-uncharted-crossover/"
+          }
+        }
+      ],
+      "summary": "Sony confirmed the PS5 release date for Indiana Jones as 17 April 2025."
+    },
+    {
+      "ref": "business/geoff-keighley-and-christopher-dring-announce-new-publicatio",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "geoff-keighley",
+            "name": "Geoff Keighley",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "christopher-dring",
+            "name": "Christopher Dring",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Geoff Keighley and Christopher Dring announced a new B2B publication, The Game Business, which will hold its first event, The Game Business Live, alongside Summer Game Fest in June."
+    },
+    {
+      "ref": "rumours/warner-bros-was-working-on-a-mario-kart-like-crossover-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "warner-bros",
+            "name": "Warner Bros",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Warner Bros was working on a Mario Kart-like crossover game."
+    }
+  ]
+}

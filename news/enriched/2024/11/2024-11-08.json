@@ -1,0 +1,333 @@
+{
+  "date": "2024-11-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/geforce-now-introducing-100-hours-a-month-playtime-limit-but",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nvidia", "name": "Nvidia", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "geforce-now", "name": "GeForce Now", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "price-change"],
+      "facts": [],
+      "summary": "GeForce Now is introducing a 100-hour-a-month playtime limit, with subscribers able to pay extra for more time, not taking effect for existing members until 2026."
+    },
+    {
+      "ref": "main_news/mass-effect-is-officially-getting-a-tv-adaptation-at-amazon",
+      "entities": {
+        "games": [{ "id": "mass-effect", "name": "Mass Effect", "aliases": [], "genres": ["action-rpg"], "franchise": "mass-effect", "inferred": true }],
+        "studios": [{ "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }],
+        "publishers": [{ "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "daniel-casey", "name": "Daniel Casey", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Mass Effect TV adaptation is officially in the works at Amazon, with Daniel Casey writing and executive producing."
+    },
+    {
+      "ref": "main_news/over-60-classic-sega-games-are-being-delisted-from-digital-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Nintendo Switch Online"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-12-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "sega",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2024-11-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will no longer be available for purchase as of Friday, December 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/over-60-classic-sega-games-are-being-delisted-from-digital-stores/" }
+        }
+      ],
+      "summary": "Over 60 classic Sega games, largely from the Sega Mega Drive/Genesis Classics collection, are being delisted from digital stores as of Friday, December 6."
+    },
+    {
+      "ref": "business/unity-q3-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "unity", "name": "Unity", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 447000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Total revenue: $447 million (down 18% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revises-fiscal-projections-as-q3-2024-financials-exceed-guidance" }
+        },
+        {
+          "metric": "revenue",
+          "value": 132000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Create Solutions revenue: $132 million (up 5% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revises-fiscal-projections-as-q3-2024-financials-exceed-guidance" }
+        },
+        {
+          "metric": "revenue",
+          "value": 298000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Grow Solutions revenue: $298 million (down 5% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revises-fiscal-projections-as-q3-2024-financials-exceed-guidance" }
+        },
+        {
+          "metric": "profit",
+          "value": 125000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net loss: $125 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revises-fiscal-projections-as-q3-2024-financials-exceed-guidance" }
+        }
+      ],
+      "summary": "Unity reported Q3 total revenue of $447 million, down 18% year-over-year, with a net loss of $125 million."
+    },
+    {
+      "ref": "business/warner-bros-says-multiversus-is-one-reason-its-games-divisio",
+      "entities": {
+        "games": [{ "id": "multiversus", "name": "MultiVersus", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "warner-bros", "name": "Warner Bros", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 100000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "warner-bros",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "blamed for a $100 million hit on Year-On-Year Q3 gaming revenue",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/warner-bros-says-multiversus-is-one-reason-its-games-division-is-substantially-underperforming/" }
+        }
+      ],
+      "summary": "Warner Bros said MultiVersus was one reason its games division is substantially underperforming, with the game blamed for a $100 million hit on year-on-year Q3 gaming revenue."
+    },
+    {
+      "ref": "business/fromsoftware-parent-kadokawa-expands-into-console-and-pc-pub",
+      "entities": {
+        "games": [{ "id": "elden-ring", "name": "Elden Ring", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "kadokawa", "inferred": false }],
+        "publishers": [{ "id": "kadokawa", "name": "Kadokawa", "aliases": ["Kadokawa Corporation"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "FromSoftware parent Kadokawa is developing a structure to expand its in-house console and PC publishing, and aims to maximise the lifetime value of games like Elden Ring with DLC and repeat sales."
+    },
+    {
+      "ref": "business/digital-bros-rebrands-hook-indie-publishing-label-as-505-pul",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "digital-bros", "name": "Digital Bros", "aliases": [], "inferred": false },
+          { "id": "505-games", "name": "505 Games", "aliases": [], "inferred": false },
+          { "id": "505-pulse", "name": "505 Pulse", "aliases": ["Hook"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Digital Bros has rebranded its Hook indie publishing label as 505 Pulse, reinforcing its synergy with its larger publishing arm 505 Games."
+    },
+    {
+      "ref": "business/call-of-duty-mobile-reaches-1bn-downloads",
+      "entities": {
+        "games": [{ "id": "call-of-duty-mobile", "name": "Call of Duty Mobile", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "activision", "name": "Activision", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "downloads",
+          "value": 1000000000,
+          "unit": "downloads",
+          "currency": null,
+          "entity": "call-of-duty-mobile",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Call of Duty Mobile  reaches 1bn downloads",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/PlayCODMobile/status/1853527640516293059" }
+        }
+      ],
+      "summary": "Call of Duty Mobile has reached 1 billion downloads."
+    },
+    {
+      "ref": "business/sega-has-sold-humankind-developer-amplitude",
+      "entities": {
+        "games": [
+          { "id": "humankind", "name": "Humankind", "aliases": [], "genres": ["strategy", "4x", "turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "endless-dungeon", "name": "Endless Dungeon", "aliases": [], "genres": ["roguelike", "tower-defense"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "amplitude-studios", "name": "Amplitude Studios", "aliases": ["Amplitude"], "publisher": "sega", "inferred": false }],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Sega has sold Humankind developer Amplitude, though the buyer and amount were not disclosed."
+    },
+    {
+      "ref": "business/sony-games-division-q3-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [{ "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["earnings", "hardware"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 7000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Total revenue: $7 billion (up 12% year-over-year)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-65m-as-sony-says-to-expect-mix-of-single-player-and-service-games/" }
+        },
+        {
+          "metric": "operating_income",
+          "value": 900000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: $900 million (up 184%)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-65m-as-sony-says-to-expect-mix-of-single-player-and-service-games/" }
+        },
+        {
+          "metric": "units_sold",
+          "value": 3800000,
+          "unit": "units",
+          "currency": null,
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "PS5 consoles shipped: 3.8 million (down 29% year-over-year)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-65m-as-sony-says-to-expect-mix-of-single-player-and-service-games/" }
+        },
+        {
+          "metric": "units_sold",
+          "value": 77700000,
+          "unit": "units",
+          "currency": null,
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "platform",
+          "as_of": "2024-11-08",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Software sales: 77.7 million units (up 10.1 million year-over-year)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-65m-as-sony-says-to-expect-mix-of-single-player-and-service-games/" }
+        }
+      ],
+      "summary": "Sony's games division reported Q3 total revenue of $7 billion (up 12% year-over-year) and operating income of $900 million, with 3.8 million PS5 consoles shipped and 77.7 million units of software sold."
+    },
+    {
+      "ref": "rumours/macaulay-culkin-has-joined-the-cast-for-season-two-of-fallou",
+      "entities": {
+        "games": [{ "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "fallout", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "macaulay-culkin", "name": "Macaulay Culkin", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Macaulay Culkin has joined the cast for season two of the Fallout TV series."
+    }
+  ]
+}

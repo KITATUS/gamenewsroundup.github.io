@@ -1,0 +1,126 @@
+{
+  "date": "2025-05-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/grand-theft-auto-6-s-second-trailer-released",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": ["GTA 6", "Grand Theft Auto 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [],
+      "summary": "Rockstar released the second trailer for Grand Theft Auto 6."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-games-for-may",
+      "entities": {
+        "games": [
+          { "id": "dragon-ball-xenoverse-2", "name": "Dragon Ball Xenoverse 2", "aliases": [], "genres": ["fighting", "action-rpg"], "franchise": "dragon-ball", "inferred": true },
+          { "id": "dungeons-of-hinterberg", "name": "Dungeons of Hinterberg", "aliases": [], "genres": ["action-rpg", "adventure"], "franchise": null, "inferred": true },
+          { "id": "flintlock-the-siege-of-dawn", "name": "Flintlock: The Siege of Dawn", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "metal-slug-tactics", "name": "Metal Slug Tactics", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "metal-slug", "inferred": true },
+          { "id": "revenge-of-the-savage-planet", "name": "Revenge of the Savage Planet", "aliases": [], "genres": ["action-adventure"], "franchise": "savage-planet", "inferred": true },
+          { "id": "teenage-mutant-ninja-turtles-mutants-unleashed", "name": "Teenage Mutant Ninja Turtles: Mutants Unleashed", "aliases": [], "genres": ["action-adventure"], "franchise": "teenage-mutant-ninja-turtles", "inferred": true },
+          { "id": "warhammer-vermintide-2", "name": "Warhammer: Vermintide 2", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "warhammer", "inferred": true },
+          { "id": "doom-the-dark-ages", "name": "DOOM: The Dark Ages", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true },
+          { "id": "kulebra-and-the-souls-of-limbo", "name": "Kulebra and the Souls of Limbo", "aliases": [], "genres": ["adventure", "rpg"], "franchise": null, "inferred": true },
+          { "id": "firefighting-simulator-the-squad", "name": "Firefighting Simulator: The Squad", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "police-simulator-patrol-officers", "name": "Police Simulator: Patrol Officers", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "brothers-a-tale-of-two-sons", "name": "Brothers: A Tale of Two Sons", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "chants-of-sennaar", "name": "Chants of Sennaar", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "dune-spice-wars", "name": "Dune: Spice Wars", "aliases": [], "genres": ["strategy", "rts", "4x"], "franchise": "dune", "inferred": true },
+          { "id": "hauntii", "name": "Hauntii", "aliases": [], "genres": ["adventure", "shooter"], "franchise": null, "inferred": true },
+          { "id": "the-big-con", "name": "The Big Con", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Microsoft revealed the games arriving on and leaving Xbox Game Pass during May 2025."
+    },
+    {
+      "ref": "business/split-fiction-surpasses-4m-copies-sold",
+      "entities": {
+        "games": [
+          { "id": "split-fiction", "name": "Split Fiction", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hazelight-studios", "name": "Hazelight Studios", "aliases": ["Hazelight Games"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 4000000, "unit": "units", "currency": null,
+          "entity": "split-fiction", "entity_type": "game", "scope": "game",
+          "as_of": "2025-05-07", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Split Fiction surpasses 4m copies sold",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/HazelightGames/status/1919852640189456892" } }
+      ],
+      "summary": "Split Fiction has surpassed 4 million copies sold."
+    },
+    {
+      "ref": "business/roblox-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1040000000, "unit": "money", "currency": "USD",
+          "entity": "roblox", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $1.04 billion, up 29% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-revenue-jumps-29-to-104bn-during-q1-2025" } },
+        { "metric": "profit", "value": -215400000, "unit": "money", "currency": "USD",
+          "entity": "roblox", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net losses: $215.4 million compared to $270.8 million during the same quarter last year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-revenue-jumps-29-to-104bn-during-q1-2025" } }
+      ],
+      "summary": "Roblox reported Q1 2025 revenue of $1.04 billion, up 29% year-on-year, with net losses of $215.4 million."
+    },
+    {
+      "ref": "business/starbreeze-to-acquire-payday-3-publishing-rights-from-embrac",
+      "entities": {
+        "games": [
+          { "id": "payday-3", "name": "Payday 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true }
+        ],
+        "studios": [
+          { "id": "starbreeze", "name": "Starbreeze", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false },
+          { "id": "plaion", "name": "Plaion", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Starbreeze is set to acquire the publishing rights to Payday 3 from Embracer subsidiary Plaion."
+    }
+  ]
+}

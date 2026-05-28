@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/metal-gear-s-solid-snake-joins-the-roster-of-rainbow-six-sie",
+      "entities": {
+        "games": [
+          { "id": "rainbow-six-siege", "name": "Rainbow Six Siege", "aliases": [], "genres": ["tps", "shooter"], "franchise": "rainbow-six", "inferred": true },
+          { "id": "metal-gear", "name": "Metal Gear", "aliases": ["Metal Gear's"], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "solid-snake", "name": "Solid Snake", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "partnership"],
+      "facts": [],
+      "summary": "Metal Gear's Solid Snake is joining the roster of operators in Rainbow Six Siege."
+    },
+    {
+      "ref": "main_news/call-of-duty-warzone-mobile-servers-to-shut-down-in-april-17",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-warzone-mobile", "name": "Call of Duty: Warzone Mobile", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-04-17", "unit": "date", "currency": null,
+          "entity": "call-of-duty-warzone-mobile", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "shut down in April 17th 2026",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/call-of-duty-warzone-mobile-servers-to-shut-down-in-april-2026" } }
+      ],
+      "summary": "Call of Duty: Warzone Mobile servers are set to shut down on 17 April 2026, unrelated to Call of Duty Mobile."
+    },
+    {
+      "ref": "business/embracer-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 5100000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 5.1 billion ($569.2 million), down 26% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 569200000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 5.1 billion ($569.2 million), down 26% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 1900000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 1.9 billion ($212 million), down 11%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 212000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 1.9 billion ($212 million), down 11%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 566000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Mobile games: SEK 566 million ($63.1 million), down 66%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 63100000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Mobile games: SEK 566 million ($63.1 million), down 66%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "profit", "value": 477000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net profit: SEK 477 million ($53.1 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "profit", "value": 53100000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net profit: SEK 477 million ($53.1 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 11900000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 11.9 billion ($1.3 billion), down 26% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 1300000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: SEK 11.9 billion ($1.3 billion), down 26% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 5000000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 5 billion ($557 million), down 22%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 557000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "PC/console games: SEK 5 billion ($557 million), down 22%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 1600000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Mobile games: SEK 1.6 billion ($178 million), down 63%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "revenue", "value": 178000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Mobile games: SEK 1.6 billion ($178 million), down 63%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "profit", "value": 20000000, "unit": "money", "currency": "SEK",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net loss: SEK 20 million ($2.2 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } },
+        { "metric": "profit", "value": 2200000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net loss: SEK 20 million ($2.2 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-decline-26-to-13bn-during-first-nine-months-of-fiscal-year" } }
+      ],
+      "summary": "Embracer reported net sales of SEK 5.1 billion for the quarter ending December 31, 2025, down 26% year-on-year, with a net profit of SEK 477 million."
+    },
+    {
+      "ref": "business/netease-revenue-grows-6-9-to-16-1bn-in-2025-publisher-s-game",
+      "entities": {
+        "games": [
+          { "id": "fantasy-westward-journey-online", "name": "Fantasy Westward Journey Online", "aliases": [], "genres": ["mmorpg"], "franchise": null, "inferred": true },
+          { "id": "where-winds-meet", "name": "Where Winds Meet", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 16100000000, "unit": "money", "currency": "USD",
+          "entity": "netease", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-17", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "NetEase revenue grows 6.9% to $16.1bn in 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/netease-revenue-grows-69-to-161bn-in-2025" } }
+      ],
+      "summary": "NetEase revenue grew 6.9% to $16.1 billion in 2025, with its games segment up 10.1% on higher sales of Fantasy Westward Journey Online, Where Winds Meet, and Marvel Rivals."
+    }
+  ]
+}

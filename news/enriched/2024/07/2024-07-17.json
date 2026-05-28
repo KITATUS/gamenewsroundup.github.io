@@ -1,0 +1,210 @@
+{
+  "date": "2024-07-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/until-dawn-studio-s-dead-by-daylight-spin-off-the-casting-of",
+      "entities": {
+        "games": [
+          { "id": "the-casting-of-frank-stone", "name": "The Casting of Frank Stone", "aliases": [], "genres": ["adventure", "horror"], "franchise": "dead-by-daylight", "inferred": true },
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": "dead-by-daylight", "inferred": true },
+          { "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["adventure", "horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "supermassive-games", "name": "Supermassive Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "release"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-03", "unit": "date", "currency": null,
+          "entity": "the-casting-of-frank-stone", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "launches for PlayStation 5, Xbox Series S/X, and PC on 3rd September",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/until-dawn-studios-narrative-dead-by-daylight-spin-off-the-casting-of-frank-stone-out-in-september" } }
+      ],
+      "summary": "Supermassive Games' narrative-focused Dead by Daylight spin-off The Casting of Frank Stone launches for PS5, Xbox Series S/X and PC on 3 September 2024."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-cross-progression-and-2v8-updates-incoming",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "windows-store", "name": "Windows Store", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": [
+          { "id": "lara-croft", "name": "Lara Croft", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-07-22", "unit": "date", "currency": null,
+          "entity": "dead-by-daylight", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "cross-progression is coming to Dead by Daylight on 22nd July",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/until-dawn-studios-narrative-dead-by-daylight-spin-off-the-casting-of-frank-stone-out-in-september" } },
+        { "metric": "release_date", "value": "2024-07-25", "unit": "date", "currency": null,
+          "entity": "dead-by-daylight", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "2v8 game mode releases on 25th July",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/until-dawn-studios-narrative-dead-by-daylight-spin-off-the-casting-of-frank-stone-out-in-september" } }
+      ],
+      "summary": "Behaviour Interactive confirmed cross-progression is coming to Dead by Daylight on 22 July, with a 2v8 game mode following on 25 July."
+    },
+    {
+      "ref": "main_news/gamescom-2024-will-feature-more-exhibitors-than-ever-it-clai",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-08-20", "unit": "date", "currency": null,
+          "entity": "gamescom-2024", "entity_type": "product", "scope": "event",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Show kicks off August 20th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gamescom-2024-will-feature-more-exhibitors-than-ever-it-claims/" } }
+      ],
+      "summary": "Gamescom 2024, kicking off on 20 August, claims it will feature more exhibitors and larger international participation than previous years."
+    },
+    {
+      "ref": "free_games_subscription/july-s-playstation-plus-game-catalogue-and-classics-titles-a",
+      "entities": {
+        "games": [
+          { "id": "remnant-ii", "name": "Remnant II", "aliases": [], "genres": ["tps", "action-rpg", "soulslike"], "franchise": "remnant", "inferred": true },
+          { "id": "crisis-core-final-fantasy-vii-reunion", "name": "Crisis Core: Final Fantasy VII Reunion", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "mount-blade-ii-bannerlord", "name": "Mount & Blade II: Bannerlord", "aliases": [], "genres": ["action-rpg", "strategy"], "franchise": "mount-and-blade", "inferred": true },
+          { "id": "the-jackbox-party-pack-9", "name": "The Jackbox Party Pack 9", "aliases": [], "genres": ["party"], "franchise": "jackbox-party-pack", "inferred": true },
+          { "id": "pathfinder-wrath-of-the-righteous", "name": "Pathfinder: Wrath of the Righteous", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "pathfinder", "inferred": true },
+          { "id": "no-more-heroes-3", "name": "No More Heroes 3", "aliases": [], "genres": ["action-adventure"], "franchise": "no-more-heroes", "inferred": true },
+          { "id": "travis-strikes-again-no-more-heroes", "name": "Travis Strikes Again: No More Heroes Complete Edition", "aliases": [], "genres": ["action-adventure"], "franchise": "no-more-heroes", "inferred": true },
+          { "id": "deadcraft", "name": "Deadcraft", "aliases": [], "genres": ["action-rpg", "survival"], "franchise": null, "inferred": true },
+          { "id": "steep", "name": "Steep", "aliases": [], "genres": ["sports", "simulation"], "franchise": null, "inferred": true },
+          { "id": "job-simulator", "name": "Job Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "summoner", "name": "Summoner", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "ratchet-and-clank-size-matters", "name": "Ratchet and Clank Size Matters", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "ratchet-and-clank", "inferred": true },
+          { "id": "jeanne-d-arc", "name": "Jeanne d'Arc", "aliases": [], "genres": ["turn-based-strategy", "jrpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-vr2", "name": "PlayStation VR2", "aliases": ["PS VR2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "July's PlayStation Plus Game Catalogue and Classics titles are now available for Extra and Premium subscribers."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been",
+      "entities": {
+        "games": [
+          { "id": "magical-delicacy", "name": "Magical Delicacy", "aliases": [], "genres": ["adventure", "simulation"], "franchise": null, "inferred": true },
+          { "id": "flock", "name": "Flock", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "flintlock-the-siege-of-dawn", "name": "Flintlock: The Siege of Dawn", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "dungeons-of-hinterberg", "name": "Dungeons of Hinterberg", "aliases": [], "genres": ["action-adventure", "rpg"], "franchise": null, "inferred": true },
+          { "id": "kunitsu-gami-path-of-the-goddess", "name": "Kunitsu-Gami: Path of the Goddess", "aliases": [], "genres": ["action", "strategy"], "franchise": null, "inferred": true },
+          { "id": "a-short-hike", "name": "A Short Hike", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "train-sim-world-4", "name": "Train Sim World 4", "aliases": [], "genres": ["simulation"], "franchise": "train-sim-world", "inferred": true },
+          { "id": "venba", "name": "Venba", "aliases": [], "genres": ["adventure", "visual-novel"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S|X"], "inferred": false },
+          { "id": "xbox", "name": "Console", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-07-16", "unit": "date", "currency": null,
+          "entity": "magical-delicacy", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Magical Delicacy (Cloud, Console, and PC) – July 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-confirmed-3/" } },
+        { "metric": "release_date", "value": "2024-07-16", "unit": "date", "currency": null,
+          "entity": "flock", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Flock (Cloud, Console, and PC) – July 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-confirmed-3/" } },
+        { "metric": "release_date", "value": "2024-07-18", "unit": "date", "currency": null,
+          "entity": "flintlock-the-siege-of-dawn", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Flintlock: The Siege of Dawn (Cloud, PC, and Xbox Series S|X) – July 18",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-confirmed-3/" } },
+        { "metric": "release_date", "value": "2024-07-18", "unit": "date", "currency": null,
+          "entity": "dungeons-of-hinterberg", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dungeons of Hinterberg (Cloud, PC, and Xbox Series S|X) – July 18",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-confirmed-3/" } },
+        { "metric": "release_date", "value": "2024-07-19", "unit": "date", "currency": null,
+          "entity": "kunitsu-gami-path-of-the-goddess", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Kunitsu-Gami: Path of the Goddess (Cloud, Console, and PC) – July 19",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-confirmed-3/" } }
+      ],
+      "summary": "Xbox confirmed new Game Pass titles arriving across console, PC and Cloud from 16 to 19 July, with three games leaving the service on 31 July."
+    },
+    {
+      "ref": "rumours/resident-evil-7-on-ios-has-reportedly-been-purchased-by-fewe",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-7", "name": "Resident Evil 7", "aliases": [], "genres": ["survival-horror", "horror", "fps"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "rumour"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000, "unit": "copies", "currency": null,
+          "entity": "resident-evil-7", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "purchased by fewer than 2,000 people",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/resident-evil-7-on-ios-has-reportedly-been-purchased-by-fewer-than-2000-people/" } },
+        { "metric": "revenue", "value": 28140, "unit": "money", "currency": "USD",
+          "entity": "resident-evil-7", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-17", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Resident Evil 7 on iOS has earned Capcom $28,140 since launch",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/resident-evil-7-on-ios-has-reportedly-been-purchased-by-fewer-than-2000-people/" } }
+      ],
+      "summary": "Rumour that Resident Evil 7 on iOS has been purchased by fewer than 2,000 people, earning Capcom $28,140 since launch."
+    }
+  ]
+}

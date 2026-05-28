@@ -1,0 +1,87 @@
+{
+  "date": "2025-03-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/japanese-shrine-aided-by-ghost-of-tsushima-fans-announces-to",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-tsushima", "name": "Ghost of Tsushima", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Japanese shrine that was previously aided by Ghost of Tsushima fans announced a ban on all tourists following an act of disrespect attributed to foreign visitors."
+    },
+    {
+      "ref": "main_news/game-informer-rescued-by-blockchain-firm-with-entire-team-re",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Game Informer was rescued by a blockchain firm and will return in both digital and print with its entire former team reunited."
+    },
+    {
+      "ref": "main_news/sims-rival-inzoi-has-become-the-most-wishlisted-game-on-stea",
+      "entities": {
+        "games": [
+          { "id": "inzoi", "name": "InZOI", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania"], "franchise": "hollow-knight", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["early-access", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-03-28",
+          "unit": "date",
+          "currency": null,
+          "entity": "inzoi",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the game’s Early Access release on March 28 nears",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sims-rival-inzoi-has-become-the-most-wishlisted-game-on-steam/" }
+        }
+      ],
+      "summary": "Sims rival InZOI has become the most wishlisted game on Steam ahead of its Early Access release on 28 March, overtaking Hollow Knight: Silksong."
+    },
+    {
+      "ref": "main_news/witcher-and-cyberpunk-s-cd-projekt-is-teaming-up-with-scopel",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": ["CD Projekt"], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "scopely", "name": "Scopely", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "earnings"],
+      "facts": [],
+      "summary": "CD Projekt, maker of The Witcher and Cyberpunk, is partnering with Scopely on an IP adaptation, announced during CD Projekt's earnings call with no further details."
+    }
+  ]
+}

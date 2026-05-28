@@ -1,0 +1,73 @@
+{
+  "date": "2025-10-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/next-gen-xbox-confirmed-in-development-following-rumours-mic",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [],
+      "summary": "Microsoft has confirmed that a next-generation Xbox console is in development, following rumours that it would stop making consoles."
+    },
+    {
+      "ref": "main_news/sonic-team-boss-wants-more-year-long-celebrations-of-sonic-c",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "sonic-team", "name": "Sonic Team", "aliases": [], "publisher": "sega", "inferred": true }],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The head of Sonic Team says he wants more year-long celebrations of Sonic characters, following the Year of Shadow."
+    },
+    {
+      "ref": "business/mediatonic-founder-launches-new-group-of-studios-under-the-b",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "mediatonic", "name": "Mediatonic", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "skeleton-crew", "name": "Skeleton Crew", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "payload", "name": "Payload", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "brightrock", "name": "Brightrock", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "mythwright", "name": "Mythwright", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "The founder of Mediatonic has launched a new group of studios under the banner Skeleton Crew, comprising new companies plus the existing teams at Payload, Brightrock and Mythwright."
+    },
+    {
+      "ref": "business/ball-x-pit-sells-300-000-units-in-5-days",
+      "entities": {
+        "games": [{ "id": "ball-x-pit", "name": "Ball X Pit", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 300000, "unit": "units", "currency": null,
+          "entity": "ball-x-pit", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-21", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Ball X Pit sells 300,000 units in 5 days",
+          "source": { "name": "Bluesky", "domain": "bsky.app",
+                      "url": "https://bsky.app/profile/ballxpit.com/post/3m3nmznekgk2x" } }
+      ],
+      "summary": "Ball X Pit has sold 300,000 units in its first five days."
+    }
+  ]
+}

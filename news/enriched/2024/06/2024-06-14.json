@@ -1,0 +1,286 @@
+{
+  "date": "2024-06-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ps5-now-lets-players-join-discord-voice-chat-directly-from-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "discord", "name": "Discord", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "PS5 now lets players join Discord voice chat directly from the console, where previously they needed a PC or mobile device."
+    },
+    {
+      "ref": "main_news/xbox-published-strategy-game-ara-history-untold-gets-a-24th",
+      "entities": {
+        "games": [
+          {
+            "id": "ara-history-untold",
+            "name": "Ara: History Untold",
+            "aliases": [],
+            "genres": ["strategy", "turn-based-strategy", "4x"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "oxide-games", "name": "Oxide Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-09-24",
+          "unit": "date",
+          "currency": null,
+          "entity": "ara-history-untold",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ara: History Untold gets a 24th September release date",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/xbox-published-strategy-game-ara-history-untold-gets-release-date-plus-multiplayer-detailed"
+          }
+        }
+      ],
+      "summary": "Xbox-published strategy game Ara: History Untold received a 24th September release date, with multiplayer detailed."
+    },
+    {
+      "ref": "main_news/kingdom-hearts-series-is-now-on-steam",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-hearts",
+            "name": "Kingdom Hearts",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "kingdom-hearts",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "sale-discount"],
+      "facts": [],
+      "summary": "The Kingdom Hearts series is now available on Steam and has been discounted for a limited time."
+    },
+    {
+      "ref": "business/v-rising-was-the-uk-s-best-selling-game-in-may",
+      "entities": {
+        "games": [
+          {
+            "id": "v-rising",
+            "name": "V Rising",
+            "aliases": [],
+            "genres": ["survival", "action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "stunlock-studios", "name": "Stunlock Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "chart_rank",
+          "value": 1,
+          "unit": "rank",
+          "currency": null,
+          "entity": "v-rising",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "V Rising was the UK’s best-selling game in May",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/v-rising-tops-uk-charts-in-may-uk-monthly-charts"
+          }
+        }
+      ],
+      "summary": "V Rising was the UK's best-selling game in May, while overall game sales fell 21% year on year and PS5 was the No.1 selling console."
+    },
+    {
+      "ref": "business/epic-games-store-and-fortnite-coming-to-ios-in-japan-next-ye",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "tps", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic Games Store"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "regulation", "port"],
+      "facts": [],
+      "summary": "The Epic Games Store and Fortnite are coming to iOS in Japan next year following the passing of a new competition law, with Fortnite also returning to iOS in the UK next year and the EU this year."
+    },
+    {
+      "ref": "business/elden-ring-ships-25m-units-worldwide",
+      "entities": {
+        "games": [
+          {
+            "id": "elden-ring",
+            "name": "Elden Ring",
+            "aliases": [],
+            "genres": ["action-rpg", "soulslike", "open-world"],
+            "franchise": "elden-ring",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 25000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "elden-ring",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-14",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Elden Ring ships 25m units worldwide",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/elden-ring-ships-25m-units-worldwide-news-in-brief"
+          }
+        }
+      ],
+      "summary": "Elden Ring has shipped 25 million units worldwide."
+    },
+    {
+      "ref": "rumours/final-fantasy-tactics-remaster-is-real-and-happening",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-tactics",
+            "name": "Final Fantasy Tactics",
+            "aliases": ["Final Fantasy Tactics Remaster"],
+            "genres": ["turn-based-strategy", "jrpg", "strategy"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "geforce-now", "name": "GeForce Now", "aliases": ["Nvidia Geforce Now"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a Final Fantasy Tactics Remaster is real and happening, having been part of the 2021 Nvidia GeForce Now leak."
+    },
+    {
+      "ref": "rumours/playstation-trophies-for-beyond-good-evil-20th-anniversary-e",
+      "entities": {
+        "games": [
+          {
+            "id": "beyond-good-evil-20th-anniversary-edition",
+            "name": "Beyond Good & Evil 20th Anniversary Edition",
+            "aliases": ["Beyond Good & Evil"],
+            "genres": ["action-adventure"],
+            "franchise": "beyond-good-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2003-11-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "beyond-good-evil",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Original release of Beyond Good & Evil was 11th November 2003",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/beyond-good-evil-20th-anniversary-edition-trophies-emerge-suggesting-a-release-soon/"
+          }
+        }
+      ],
+      "summary": "Rumour that PlayStation trophies for Beyond Good & Evil 20th Anniversary Edition have emerged online, suggesting a release soon."
+    }
+  ]
+}

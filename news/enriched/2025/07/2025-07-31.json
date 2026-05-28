@@ -1,0 +1,96 @@
+{
+  "date": "2025-07-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-next-nintendo-direct-partner-showcase-happens-today-6am",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-07-31", "unit": "date", "currency": null,
+          "entity": "nintendo-direct-partner-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2025-07-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nintendo Direct Partner Showcase** happens today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/the-next-nintendo-direct-is-a-partner-showcase-coming-tomorrow/" } }
+      ],
+      "summary": "The next Nintendo Direct Partner Showcase takes place on 31 July 2025 at 6am PT / 9am ET / 2pm BST."
+    },
+    {
+      "ref": "main_news/pok-mon-company-removes-two-tcg-pocket-card-designs-and-deep",
+      "entities": {
+        "games": [
+          { "id": "pokemon-tcg-pocket", "name": "Pokémon TCG Pocket", "aliases": ["TCG Pocket"],
+            "genres": ["card"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon Company"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The Pokémon Company removed two Pokémon TCG Pocket card designs and apologised following claims of plagiarism."
+    },
+    {
+      "ref": "business/ready-or-not-tops-2m-console-sales-in-2-weeks",
+      "entities": {
+        "games": [
+          { "id": "ready-or-not", "name": "Ready or Not", "aliases": [],
+            "genres": ["fps", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "void-interactive", "name": "VOID Interactive", "aliases": ["VOIDInteractive"],
+            "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "ready-or-not", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-31", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Ready or Not** tops 2m console sales in 2 weeks",
+          "source": { "name": "X", "domain": "x.com",
+            "url": "https://x.com/VOIDInteractive/status/1950572240677777535" } }
+      ],
+      "summary": "Ready or Not has surpassed 2 million console sales within two weeks of launch."
+    },
+    {
+      "ref": "business/uk-game-tech-company-jeco-secures-1-3-million-in-pre-seed-in",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "simon-barratt", "name": "Simon Barratt", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1300000, "unit": "money", "currency": "USD",
+          "entity": "jeco", "entity_type": "company", "scope": "company",
+          "as_of": "2025-07-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "JECO** secures $1.3 million in pre-seed investment",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/uk-game-tech-company-jeco-secures-13-million-in-pre-seed-investment" } }
+      ],
+      "summary": "UK game tech company JECO secured $1.3 million in pre-seed investment."
+    }
+  ]
+}

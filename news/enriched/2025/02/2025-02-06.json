@@ -1,0 +1,117 @@
+{
+  "date": "2025-02-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/steam-adds-warning-flagging-potentially-abandoned-early-acce",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["early-access"],
+      "facts": [],
+      "summary": "Steam has added a warning that flags potentially abandoned early access games."
+    },
+    {
+      "ref": "main_news/wreckfest-2-hits-steam-early-access-in-march",
+      "entities": {
+        "games": [{ "id": "wreckfest-2", "name": "Wreckfest 2", "aliases": [], "genres": ["racing"], "franchise": "wreckfest", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["early-access", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-03-20", "unit": "date", "currency": null,
+          "entity": "wreckfest-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The PC version of Wreckfest 2 will receive a Steam Early Access release on March 20, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/wreckfest-2-hits-steam-early-access-in-march/" } }
+      ],
+      "summary": "Wreckfest 2 will get a Steam Early Access release on PC on 20 March 2025."
+    },
+    {
+      "ref": "business/kingdom-come-deliverance-2-tops-1m-sales-in-24-hours",
+      "entities": {
+        "games": [{ "id": "kingdom-come-deliverance-2", "name": "Kingdom Come: Deliverance 2", "aliases": ["Kingdom Come Deliverance 2"], "genres": ["action-rpg", "rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true }],
+        "studios": [{ "id": "warhorse-studios", "name": "Warhorse Studios", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "units", "currency": null,
+          "entity": "kingdom-come-deliverance-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-06", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Kingdom Come Deliverance 2 tops 1m sales in 24 hours",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/WarhorseStudios/status/1887155255130866099" } }
+      ],
+      "summary": "Kingdom Come: Deliverance 2 sold more than one million copies within 24 hours of release."
+    },
+    {
+      "ref": "business/probablymonsters-initiates-fresh-round-of-job-cuts",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "probablymonsters", "name": "ProbablyMonsters", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "ProbablyMonsters has initiated a fresh round of job cuts, with the scale undisclosed as the company declined to comment."
+    },
+    {
+      "ref": "business/killer-instinct-studio-iron-galaxy-has-laid-off-66-employees",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "iron-galaxy", "name": "Iron Galaxy", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 66, "unit": "people", "currency": null,
+          "entity": "iron-galaxy", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-02-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Iron Galaxy has laid off 66 employees",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/killer-instinct-studio-iron-galaxy-has-laid-off-66-employees/" } }
+      ],
+      "summary": "Killer Instinct and Rumbleverse studio Iron Galaxy has laid off 66 employees, describing the cuts as a last-resort measure for long-term survival."
+    },
+    {
+      "ref": "business/uk-government-rejects-calls-to-prohibit-disabling-of-live-se",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The UK government rejected calls to prohibit the disabling of live service games, suggesting existing regulations offer sufficient consumer protection."
+    },
+    {
+      "ref": "rumours/31st-union-president-michael-condrey-has-reportedly-been-fir",
+      "entities": {
+        "games": [{ "id": "project-ethos", "name": "Project Ethos", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": false }],
+        "studios": [{ "id": "31st-union", "name": "31st Union", "aliases": [], "publisher": "2k", "inferred": false }],
+        "publishers": [{ "id": "2k", "name": "2K", "aliases": ["2K Games"], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "michael-condrey", "name": "Michael Condrey", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Rumour that 2K has fired 31st Union president Michael Condrey following a muted reception to the studio's debut hero shooter Project Ethos."
+    }
+  ]
+}

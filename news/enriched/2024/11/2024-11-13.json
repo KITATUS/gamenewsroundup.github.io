@@ -1,0 +1,386 @@
+{
+  "date": "2024-11-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-last-of-us-season-two-s-2025-release-window-narrowed-dow",
+      "entities": {
+        "games": [
+          {
+            "id": "the-last-of-us",
+            "name": "The Last of Us",
+            "aliases": [],
+            "genres": ["action-adventure", "survival-horror"],
+            "franchise": "the-last-of-us",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "HBO has narrowed the release window for The Last of Us season two to spring 2025."
+    },
+    {
+      "ref": "main_news/three-years-later-gta-trilogy-gets-pc-and-console-fixes-from",
+      "entities": {
+        "games": [
+          {
+            "id": "gta-trilogy",
+            "name": "GTA Trilogy",
+            "aliases": ["Grand Theft Auto: The Trilogy"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "port"],
+      "facts": [],
+      "summary": "Three years after launch, the GTA Trilogy is receiving PC and console fixes derived from the improved mobile port."
+    },
+    {
+      "ref": "main_news/fortnite-og-is-returning-permanently-in-december",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": ["Fortnite OG"],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": "epic-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "update-patch"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-12-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Returns December 6",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/fortnite-og-is-returning-permanently-in-december/"
+          }
+        }
+      ],
+      "summary": "Fortnite OG is returning permanently on 6 December 2024."
+    },
+    {
+      "ref": "business/rime-developer-tequila-works-files-for-insolvency",
+      "entities": {
+        "games": [
+          {
+            "id": "rime",
+            "name": "Rime",
+            "aliases": [],
+            "genres": ["adventure", "puzzle"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "tequila-works",
+            "name": "Tequila Works",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Rime developer Tequila Works has filed for insolvency."
+    },
+    {
+      "ref": "business/more-layoffs-at-payload-studios",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "payload-studios",
+            "name": "Payload Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Payload Studios has confirmed another round of layoffs, though the exact number of affected staff is unclear."
+    },
+    {
+      "ref": "business/metalstorm-developer-starform-raises-6-million",
+      "entities": {
+        "games": [
+          {
+            "id": "metalstorm",
+            "name": "Metalstorm",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "starform",
+            "name": "Starform",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 6000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "starform",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-11-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Metalstorm developer Starform raises $6 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/metalstorm-developer-starform-raises-6-million"
+          }
+        }
+      ],
+      "summary": "Metalstorm developer Starform has raised $6 million in a funding round led by Bitkraft to fund further development of its air-combat arena shooter."
+    },
+    {
+      "ref": "business/modern-times-group-to-acquire-plarium-for-620m",
+      "entities": {
+        "games": [
+          {
+            "id": "raid-shadow-legends",
+            "name": "Raid: Shadow Legends",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "plarium",
+            "name": "Plarium",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "modern-times-group",
+            "name": "Modern Times Group",
+            "aliases": ["MTG"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 620000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "plarium",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Modern Times Group to acquire Plarium for $620m",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/modern-times-group-to-acquire-plarium-for-620m"
+          }
+        }
+      ],
+      "summary": "Modern Times Group is to acquire Raid: Shadow Legends developer Plarium for $620 million, with the deal expected to close in Q1 2025."
+    },
+    {
+      "ref": "business/neowiz-signs-8m-publishing-deal-with-game-dev-zakazane",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "zakazane",
+            "name": "Zakazane",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "neowiz",
+            "name": "Neowiz",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 8000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "neowiz",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-11-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Neowiz signs $8m publishing deal with game dev Zakazane",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/neowiz-signs-8m-publishing-deal-with-game-dev-zakazane"
+          }
+        }
+      ],
+      "summary": "Neowiz has signed an $8 million publishing deal with developer Zakazane to globally publish the studio's upcoming neo-Western RPG."
+    },
+    {
+      "ref": "business/lightspeed-launches-new-japan-studio-led-by-hideaki-itsuno",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "lightspeed-studios",
+            "name": "Lightspeed",
+            "aliases": ["Lightspeed Studios"],
+            "publisher": "tencent",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "hideaki-itsuno",
+            "name": "Hideaki Itsuno",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-opening", "leadership-change"],
+      "facts": [],
+      "summary": "Lightspeed has launched a new Japan studio led by Capcom veteran Hideaki Itsuno to develop original AAA games."
+    },
+    {
+      "ref": "business/shift-up-is-considering-releasing-stellar-blade-for-pc-in-20",
+      "entities": {
+        "games": [
+          {
+            "id": "stellar-blade",
+            "name": "Stellar Blade",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "shift-up",
+            "name": "Shift Up",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port"],
+      "facts": [],
+      "summary": "Shift Up is considering releasing Stellar Blade for PC in 2025, with the developer expecting stronger performance than on PS5."
+    }
+  ]
+}

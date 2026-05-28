@@ -1,0 +1,120 @@
+{
+  "date": "2025-11-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/olympics-ends-esports-plans-with-saudi-arabia-after-just-one",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "The International Olympic Committee has ended its announced esports partnership with Saudi Arabia after just one year, following a review."
+    },
+    {
+      "ref": "main_news/the-original-saints-row-s-design-director-says-he-s-been-ask",
+      "entities": {
+        "games": [{ "id": "saints-row", "name": "Saints Row", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "saints-row", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The design director of the original Saints Row says he has been asked to create a pitch for a potential prequel."
+    },
+    {
+      "ref": "business/nintendo-switch-2-s-phenomenal-launch-continues-as-it-clears",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "hardware"],
+      "facts": [
+        { "metric": "units_sold", "value": 10360000, "unit": "units", "currency": null,
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-11-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "it clears 10.36 million units",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/nintendo-switch-2s-phenomenal-launch-continues-as-it-clears-10-million-more-than-ps4-and-ps5/" } }
+      ],
+      "summary": "Nintendo Switch 2 has cleared 10.36 million units sold, exceeding the comparable launch sales of the PS4 and PS5."
+    },
+    {
+      "ref": "business/another-netease-games-studio-is-shutting-down-fantastic-pixe",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "fantastic-pixel-castle", "name": "Fantastic Pixel Castle", "aliases": [], "publisher": "netease", "inferred": false }],
+        "publishers": [{ "id": "netease", "name": "NetEase", "aliases": ["NetEase Games"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Another NetEase Games studio, Fantastic Pixel Castle, is shutting down; it was founded in 2023 by a Warcraft veteran to create a fantasy MMO."
+    },
+    {
+      "ref": "business/mario-kart-world-sold-9-57-million-copies-in-4-months-donkey",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true },
+          { "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 9570000, "unit": "copies", "currency": null,
+          "entity": "mario-kart-world", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Mario Kart World sold 9.57 Million copies in 4 months",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp",
+                      "url": "https://www.nintendo.co.jp/ir/en/finance/software/index.html" } },
+        { "metric": "units_sold", "value": 3490000, "unit": "units", "currency": null,
+          "entity": "donkey-kong-bananza", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Donkey Kong Bananza has sold 3.49 million units",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp",
+                      "url": "https://www.nintendo.co.jp/ir/en/finance/software/index.html" } }
+      ],
+      "summary": "Mario Kart World has sold 9.57 million copies in four months, while Donkey Kong Bananza has sold 3.49 million units."
+    },
+    {
+      "ref": "business/dispatch-has-sold-1-million-copies-in-10-days",
+      "entities": {
+        "games": [{ "id": "dispatch", "name": "Dispatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "adhoc-studio", "name": "AdHoc Studio", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "dispatch", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dispatch has sold 1 Million copies in 10 days",
+          "source": { "name": "Bluesky", "domain": "bsky.app",
+                      "url": "https://bsky.app/profile/adhocstudio.com/post/3m4r2a5kiww23" } }
+      ],
+      "summary": "Dispatch has sold one million copies in 10 days."
+    }
+  ]
+}

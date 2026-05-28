@@ -1,0 +1,131 @@
+{
+  "date": "2026-02-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/valve-confirms-steam-machine-and-steam-frame-price-release-d",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-machine", "name": "Steam Machine", "aliases": [], "inferred": false },
+          { "id": "steam-frame", "name": "Steam Frame", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay", "hardware"],
+      "facts": [],
+      "summary": "Valve confirmed that Steam Machine and Steam Frame price and release details have been delayed by rising component prices but are still planned for the first half of this year."
+    },
+    {
+      "ref": "main_news/overwatch-2-is-being-renamed-back-to-just-overwatch-adding-1",
+      "entities": {
+        "games": [
+          { "id": "overwatch-2", "name": "Overwatch 2", "aliases": ["Overwatch"], "genres": ["hero-shooter", "fps"], "franchise": "overwatch", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "port", "announcement"],
+      "facts": [],
+      "summary": "Overwatch 2 is being renamed back to just Overwatch, adding 10 new heroes and coming to Switch 2 in a major revamp."
+    },
+    {
+      "ref": "main_news/nintendo-direct-partner-showcase-today-6am-pt-9am-et-2pm-gmt",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-02-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-direct-partner-showcase",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-02-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Nintendo Direct Partner showcase today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-nintendo-direct-partner-showcase-has-been-officially-announced-for-this-week/" }
+        }
+      ],
+      "summary": "A Nintendo Direct Partner showcase is being held today and will last roughly 30 minutes."
+    },
+    {
+      "ref": "main_news/poker-night-at-the-inventory-re-releasing-march-5th-for-stea",
+      "entities": {
+        "games": [
+          { "id": "poker-night-at-the-inventory", "name": "Poker Night at the Inventory", "aliases": [], "genres": ["card"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-03-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "poker-night-at-the-inventory",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Poker Night at the Inventory re-releasing March 5th for Steam, PS4 and Nintendo Switch",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=RoXKhwb18MY" }
+        }
+      ],
+      "summary": "Poker Night at the Inventory is re-releasing on March 5th for Steam, PS4 and Nintendo Switch."
+    },
+    {
+      "ref": "business/sony-says-ghost-of-yotei-sales-are-outperforming-tsushima",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true },
+          { "id": "ghost-of-tsushima", "name": "Ghost of Tsushima", "aliases": ["Tsushima"], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [],
+      "summary": "Sony says Ghost of Yotei sales are outperforming those of Ghost of Tsushima."
+    }
+  ]
+}

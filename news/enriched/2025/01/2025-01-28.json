@@ -1,0 +1,141 @@
+{
+  "date": "2025-01-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-boss-spencer-says-series-s-compatibility-requirement-is",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-series-s", "name": "Xbox Series S", "aliases": ["Series S"], "inferred": false },
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": ["Series X"], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": ["Xbox boss Spencer", "Spencer"], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Xbox boss Phil Spencer says the requirement for games to remain compatible with the Series S is not going away, with no plans to allow Series X exclusive games."
+    },
+    {
+      "ref": "main_news/xbox-has-enlisted-a-veteran-gears-of-war-studio-to-co-develo",
+      "entities": {
+        "games": [
+          { "id": "gears-of-war-e-day", "name": "Gears of War: E-Day", "aliases": [], "genres": ["tps", "shooter", "action-adventure"], "franchise": "gears-of-war", "inferred": true },
+          { "id": "gears-of-war-judgment", "name": "Gears of War: Judgement", "aliases": ["Gears of War: Judgment"], "genres": ["tps", "shooter", "action-adventure"], "franchise": "gears-of-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "the-coalition", "name": "The Coalition", "aliases": [], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Xbox has enlisted Gears of War: Judgement studio People Can Fly to co-develop the next series entry, Gears of War: E-Day."
+    },
+    {
+      "ref": "business/ubisoft-announces-studio-closure-as-it-lays-off-185-staff",
+      "entities": {
+        "games": [
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true },
+          { "id": "skull-and-bones", "name": "Skull and Bones", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "far-cry-5", "name": "Far Cry 5", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-leamington", "name": "Ubisoft Leamington", "aliases": ["FreeStyleGames"], "publisher": "ubisoft", "inferred": false },
+          { "id": "ubisoft-reflections", "name": "Ubisoft Reflections", "aliases": [], "publisher": "ubisoft", "inferred": false },
+          { "id": "ubisoft-blue-byte", "name": "Ubisoft Blue Byte", "aliases": ["Blue Byte"], "publisher": "ubisoft", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 185,
+          "unit": "people",
+          "currency": null,
+          "entity": "ubisoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-01-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ubisoft announces studio closure as it lays off 185 staff",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ubisoft-announces-studio-closure-as-it-lays-off-185-staff" }
+        }
+      ],
+      "summary": "Ubisoft is closing its Leamington studio (formerly FreeStyleGames) and laying off 185 staff, while also downsizing its Düsseldorf, Stockholm and Newcastle-based Reflections offices."
+    },
+    {
+      "ref": "business/dauntless-and-fae-farm-studio-phoenix-labs-lays-off-majority",
+      "entities": {
+        "games": [
+          { "id": "dauntless", "name": "Dauntless", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": null, "inferred": true },
+          { "id": "fae-farm", "name": "Fae Farm", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "phoenix-labs", "name": "Phoenix Labs", "aliases": [], "publisher": "forte-labs", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "forte-labs", "name": "Forte Labs", "aliases": ["Forte"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "acquisition"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 34,
+          "unit": "people",
+          "currency": null,
+          "entity": "phoenix-labs",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-01-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "A further 34 layoffs followed seven months later",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/dauntless-and-fae-farm-studio-phoenix-labs-lays-off-majority-of-employees" }
+        },
+        {
+          "metric": "layoffs_count",
+          "value": 140,
+          "unit": "people",
+          "currency": null,
+          "entity": "phoenix-labs",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-01-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "an additional 140 jobs being cut last May",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/dauntless-and-fae-farm-studio-phoenix-labs-lays-off-majority-of-employees" }
+        }
+      ],
+      "summary": "Phoenix Labs, the studio behind Dauntless and Fae Farm, has laid off the majority of its employees following multiple rounds of cuts since its 2023 acquisition by blockchain company Forte Labs."
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "date": "2025-07-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mario-kart-world-s-latest-update-makes-cpu-opponents-easier",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Mario Kart World's version 1.2.0 update makes CPU opponents easier and notifies players when they have collected everything in Free Roam mode."
+    },
+    {
+      "ref": "main_news/ea-ceo-says-it-s-all-in-as-a-company-on-battlefield-6-is-bui",
+      "entities": {
+        "games": [
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "EA's CEO says the company is 'all in' on Battlefield 6, framing it as a platform rather than a single product."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-essential-monthly-games-for-august-5th-lies",
+      "entities": {
+        "games": [
+          { "id": "lies-of-p", "name": "Lies of P", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "dayz", "name": "Day Z", "aliases": ["DayZ"], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "my-hero-one-s-justice-2", "name": "My Hero One's Justice 2", "aliases": [], "genres": ["fighting"], "franchise": "my-hero-academia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PlayStation Plus Essential"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-08-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-plus",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2025-07-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "monthly games for August 5th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-plus-essential-monthly-games-for-august-include-lies-of-p/" }
+        }
+      ],
+      "summary": "PlayStation Plus Essential's monthly games from August 5th are Lies of P, Day Z and My Hero One's Justice 2."
+    },
+    {
+      "ref": "business/atari-has-agreed-to-acquire-thunderful-for-around-4-5-millio",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "thunderful", "name": "Thunderful", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 4500000,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "thunderful",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "agreed to acquire Thunderful for around €4.5 million",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/atari-has-agreed-to-acquire-thunderful-for-around-e4-5-million/" }
+        },
+        {
+          "metric": "equity_stake_pct",
+          "value": 82,
+          "unit": "percent",
+          "currency": null,
+          "entity": "thunderful",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Atari will own around 82% of Thunderful shares",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/atari-has-agreed-to-acquire-thunderful-for-around-e4-5-million/" }
+        }
+      ],
+      "summary": "Atari has agreed to acquire Thunderful for around €4.5 million, taking around 82% of its shares subject to shareholder approval."
+    },
+    {
+      "ref": "business/warner-bros-is-hiring-for-what-appears-to-be-another-live-se",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros", "name": "Warner Bros.", "aliases": ["Warner Bros"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Warner Bros. is hiring for what appears to be another live service game."
+    },
+    {
+      "ref": "business/guerrilla-s-horizon-franchise-has-sold-over-38m-copies-world",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "guerrilla-games", "name": "Guerrilla Games", "aliases": ["Guerrilla"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 38000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "horizon",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2025-07-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Horizon franchise has sold over 38m copies worldwide",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/guerrillas-horizon-franchise-has-sold-over-38m-copies-worldwide" }
+        }
+      ],
+      "summary": "Guerrilla's Horizon franchise has sold over 38 million copies worldwide."
+    },
+    {
+      "ref": "business/ign-launches-gaming-trends-platform-shedding-light-on-how-mo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ign", "name": "IGN", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "IGN has launched a Gaming Trends platform whose initial 2025 report covers six key areas including mobile gaming, user-generated content and nostalgia."
+    },
+    {
+      "ref": "business/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi",
+      "entities": {
+        "games": [
+          { "id": "pubg", "name": "PUBG", "aliases": ["PUBG"], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true },
+          { "id": "inzoi", "name": "Inzoi", "aliases": [], "genres": ["life-sim"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1540000000000,
+          "unit": "currency",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenues rose to ₩1.54 trillion ($1.1 billion)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "revenue",
+          "value": 1100000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenues rose to ₩1.54 trillion ($1.1 billion)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "profit",
+          "value": 703000000000,
+          "unit": "currency",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Profits were up 9.5% to ₩703 billion ($505 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "profit",
+          "value": 505000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Profits were up 9.5% to ₩703 billion ($505 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "revenue",
+          "value": 960000000000,
+          "unit": "currency",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mobile accounted for the lion's share of revenue at ₩960 billion ($690 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "revenue",
+          "value": 690000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mobile accounted for the lion's share of revenue at ₩960 billion ($690 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "revenue",
+          "value": 543000000000,
+          "unit": "currency",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PC revenues at ₩543 billion ($390 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "revenue",
+          "value": 390000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PC revenues at ₩543 billion ($390 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "revenue",
+          "value": 33000000000,
+          "unit": "currency",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "console revenues at just ₩33 billion ($23 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        },
+        {
+          "metric": "revenue",
+          "value": 23000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-30",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "console revenues at just ₩33 billion ($23 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-reports-record-revenue-buoyed-by-pubg-and-inzoi" }
+        }
+      ],
+      "summary": "Krafton reported record quarterly revenue, driven by PUBG and Inzoi."
+    }
+  ]
+}

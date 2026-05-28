@@ -1,0 +1,133 @@
+{
+  "date": "2026-02-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/players-buying-third-party-games-on-the-epic-games-store-wil",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "capcom", "name": "Capcom", "aliases": ["Capcomn"], "publisher": null, "inferred": false },
+          { "id": "mihoyo", "name": "miHoYo", "aliases": ["Mihoyo"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Players buying third-party games on the Epic Games Store will soon unlock Fortnite cosmetics based on those games, with Capcom and miHoYo among the studios signed up for crossover content."
+    },
+    {
+      "ref": "main_news/the-launcher-sucks-let-s-call-it-what-it-is-epic-game-store",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Game Store", "aliases": ["Epic Games Store"], "inferred": false }
+        ],
+        "people": [
+          { "id": "steven-allison", "name": "Steven Allison", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Epic Game Store boss Steven Allison acknowledged the launcher's shortcomings and promised a year of major improvements to speed and new forum-type social features."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-upcoming-games",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-ii", "name": "Final Fantasy II", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "like-a-dragon-pirate-yakuza-in-hawaii", "name": "Like A Dragon: Pirate Yakuza in Hawaii", "aliases": [], "genres": ["action-rpg"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "madden-nfl-26", "name": "Madden NFL 26", "aliases": [], "genres": ["sports"], "franchise": "madden-nfl", "inferred": true },
+          { "id": "paw-patrol-rescue-wheels-championship", "name": "Paw Patrol Rescue Wheels: Championship", "aliases": [], "genres": ["racing"], "franchise": "paw-patrol", "inferred": true },
+          { "id": "relooted", "name": "Relooted", "aliases": [], "genres": ["stealth"], "franchise": null, "inferred": true },
+          { "id": "blazblue-entropy-effect-x", "name": "BlazBlue Entropy Effect X", "aliases": [], "genres": ["roguelike", "action-adventure"], "franchise": "blazblue", "inferred": true },
+          { "id": "roadside-research", "name": "Roadside Research", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "starsand-island", "name": "Starsand Island", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "high-on-life-2", "name": "High on Life 2", "aliases": [], "genres": ["fps", "adventure"], "franchise": "high-on-life", "inferred": true },
+          { "id": "kingdom-come-deliverance", "name": "Kingdom Come Deliverance", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true },
+          { "id": "avatar-frontiers-of-pandora", "name": "Avatar: Frontiers of Pandora", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "avatar", "inferred": true },
+          { "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s-x", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X", "S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": ["Cloud"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-02-05", "unit": "date", "currency": null, "entity": "madden-nfl-26", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Madden NFL 26 (Cloud, Console, and PC) – February 5", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-05", "unit": "date", "currency": null, "entity": "paw-patrol-rescue-wheels-championship", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Paw Patrol Rescue Wheels: Championship (Cloud, Console, Handheld, and PC) – February 5", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-10", "unit": "date", "currency": null, "entity": "relooted", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Relooted (Cloud, S/X, and PC) – February 10", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-12", "unit": "date", "currency": null, "entity": "blazblue-entropy-effect-x", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "BlazBlue Entropy Effect X (Cloud, S/X, and PC) – February 12", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-12", "unit": "date", "currency": null, "entity": "roadside-research", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Roadside Research (Game Preview) (Cloud, S/X, and PC) – February 12", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-12", "unit": "date", "currency": null, "entity": "starsand-island", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Starsand Island (Cloud, Xbox SeriesS/X, and PC) – February 12", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-13", "unit": "date", "currency": null, "entity": "high-on-life-2", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "High on Life 2 (Cloud, Xbox Series S/X, and PC) – February 13", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-13", "unit": "date", "currency": null, "entity": "kingdom-come-deliverance", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Kingdom Come Deliverance (Cloud, Console, and PC) – February 13", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-17", "unit": "date", "currency": null, "entity": "avatar-frontiers-of-pandora", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Avatar: Frontiers of Pandora (Cloud, Xbox Series S/X, Handheld, and PC) – February 17", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } },
+        { "metric": "release_date", "value": "2026-02-17", "unit": "date", "currency": null, "entity": "avowed", "entity_type": "game", "scope": "game", "as_of": "2026-02-04", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Avowed (Cloud, Xbox Series S/X, and PC) – February 17", "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-february" } }
+      ],
+      "summary": "Xbox Game Pass listed its upcoming February titles, including Final Fantasy II and Like A Dragon: Pirate Yakuza in Hawaii now available, with others arriving on dates through February 17."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-classics-update-gameboy-balloon-kid-and-yoshi",
+      "entities": {
+        "games": [
+          { "id": "balloon-kid", "name": "Balloon Kid", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "yoshi", "name": "Yoshi", "aliases": [], "genres": ["puzzle"], "franchise": "yoshi", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-classics", "name": "Nintendo Classics", "aliases": [], "inferred": false },
+          { "id": "game-boy", "name": "Game Boy", "aliases": ["Gameboy"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Nintendo Classics added Game Boy titles Balloon Kid and Yoshi to its service."
+    },
+    {
+      "ref": "business/take-two-q3-results",
+      "entities": {
+        "games": [
+          { "id": "nba-2k", "name": "NBA 2K", "aliases": [], "genres": ["sports"], "franchise": "nba-2k", "inferred": true },
+          { "id": "grand-theft-auto", "name": "Grand Theft Auto", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1700000000, "unit": "money", "currency": "USD", "entity": "take-two-interactive", "entity_type": "company", "scope": "company", "as_of": "2026-02-04", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Net revenue: $1.7 billion (up 25% year-on-year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nba-2k-and-grand-theft-auto-franchises-boost-take-two-q3-net-revenue-by-25-to-17bn" } },
+        { "metric": "revenue", "value": 1760000000, "unit": "money", "currency": "USD", "entity": "take-two-interactive", "entity_type": "company", "scope": "company", "as_of": "2026-02-04", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Total net bookings: $1.76 billion (up 28% year-on-year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nba-2k-and-grand-theft-auto-franchises-boost-take-two-q3-net-revenue-by-25-to-17bn" } }
+      ],
+      "summary": "Take-Two reported Q3 net revenue of $1.7 billion (up 25% year-on-year) and a net loss of $92.9 million, boosted by its NBA 2K and Grand Theft Auto franchises."
+    }
+  ]
+}

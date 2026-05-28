@@ -1,0 +1,118 @@
+{
+  "date": "2025-04-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/vampire-survivors-forced-to-abandon-playstation-cross-save-d",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Vampire Survivors has abandoned PlayStation cross-save due to undisclosed legal complications, though cross-save will still come to Xbox, Switch, PC and Mobile."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-extra-and-premium-games-for-april",
+      "entities": {
+        "games": [
+          { "id": "blue-prince", "name": "Blue Prince", "aliases": [], "genres": ["puzzle", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "ea-sports-pga-tour", "name": "EA Sports PGA Tour", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "hogwarts-legacy", "name": "Hogwarts Legacy", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "lost-records-bloom-rage", "name": "Lost Records: Bloom & Rage Tape 2", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "battlefield-1", "name": "Battlefield 1", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "plateup", "name": "PlateUp!", "aliases": [], "genres": ["simulation", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "alone-in-the-dark-2", "name": "Alone in the Dark 2", "aliases": [], "genres": ["survival-horror"], "franchise": "alone-in-the-dark", "inferred": true },
+          { "id": "war-of-the-monsters", "name": "War of the Monsters", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps1", "name": "PS1", "aliases": [], "inferred": false },
+          { "id": "ps2", "name": "PS2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Sony revealed the PlayStation Plus Extra and Premium games for April, including Blue Prince, Hogwarts Legacy and PS1/PS2 Classics."
+    },
+    {
+      "ref": "business/new-developer-sirius-studio-announced-with-bloodborne-and-de",
+      "entities": {
+        "games": [
+          { "id": "bloodborne", "name": "Bloodborne", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "demons-souls", "name": "Demon's Souls", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "souls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sirius-studio", "name": "Sirius Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "teruyuki-toriyama", "name": "Teruyuki Toriyama", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "A new developer, Sirius Studio, has been announced with Bloodborne and Demon's Souls producer Teruyuki Toriyama as co-founder."
+    },
+    {
+      "ref": "business/star-citizen-has-now-raised-over-800m-with-still-no-release",
+      "entities": {
+        "games": [
+          { "id": "star-citizen", "name": "Star Citizen", "aliases": [], "genres": ["simulation", "mmo"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 800000000, "unit": "money", "currency": "USD",
+          "entity": "star-citizen", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-10", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Star Citizen has now raised over $800m, with still no release in sight",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/star-citizen-has-now-raised-over-800m-with-still-no-10-release-in-sight" } }
+      ],
+      "summary": "Star Citizen has now raised over $800 million in crowdfunding, with still no release in sight."
+    },
+    {
+      "ref": "business/the-molasses-flood-has-been-absorbed-into-cd-projekt-red",
+      "entities": {
+        "games": [
+          { "id": "project-sirius", "name": "Project Sirius", "aliases": [], "genres": ["action-rpg"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-molasses-flood", "name": "The Molasses Flood", "aliases": ["Molasses Flood"], "publisher": "cd-projekt", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": ["CDPR"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "merger"],
+      "facts": [],
+      "summary": "The Molasses Flood has been absorbed into CD Projekt Red, with the studio dissolved and its team continuing on The Witcher multiplayer spin-off 'Project Sirius' within CDPR."
+    }
+  ]
+}

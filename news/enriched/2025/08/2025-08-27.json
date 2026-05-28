@@ -1,0 +1,127 @@
+{
+  "date": "2025-08-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/return-to-silent-hill-silent-hill-2-based-movie-gets-first-t",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser", "trailer"],
+      "facts": [],
+      "summary": "The Silent Hill 2-based movie Return to Silent Hill has received its first teaser trailer."
+    },
+    {
+      "ref": "main_news/iconic-game-publisher-acclaim-marks-its-return-with-a-showca",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "acclaim", "name": "Acclaim", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-10", "unit": "date", "currency": null, "entity": "acclaim", "entity_type": "publisher", "scope": "event", "as_of": "2025-08-27", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Showcase will take place on September 10 at 11.30am PS / 2.30pm ET / 7.30pm BST", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/iconic-game-publisher-acclaim-marks-its-return-with-a-showcase-next-month/" } }
+      ],
+      "summary": "Iconic game publisher Acclaim is marking its return with a showcase on September 10."
+    },
+    {
+      "ref": "main_news/skate-s-early-access-date-has-finally-been-confirmed-septemb",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": [], "genres": ["sports"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S / X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["early-access", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-16", "unit": "date", "currency": null, "entity": "skate", "entity_type": "game", "scope": "game", "as_of": "2025-08-27", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "September 16 for PS4/5, Xbox One / Series S / X, PC", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/skates-early-access-date-has-finally-been-confirmed/" } }
+      ],
+      "summary": "Skate's Early Access date has been confirmed as September 16 for PS4/5, Xbox One / Series S / X and PC."
+    },
+    {
+      "ref": "business/playstation-ceo-doesn-t-want-first-party-studios-to-play-it",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The PlayStation CEO has said he does not want first party studios to play it safe, but rather to fail early and cheaply."
+    },
+    {
+      "ref": "business/new-games-industry-body-launches-in-india-indian-game-publis",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "indian-game-publishers-and-developers-association", "name": "Indian Game Publishers and Developers Association", "aliases": ["IGPDA"], "inferred": false },
+          { "id": "nazara-technologies", "name": "Nazara Technologies", "aliases": [], "inferred": false },
+          { "id": "tara-gaming", "name": "Tara Gaming", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "partnership"],
+      "facts": [],
+      "summary": "A new games industry body, the Indian Game Publishers and Developers Association (IGPDA), has launched in India, founded by nine companies including Nazara Technologies and Tara Gaming."
+    },
+    {
+      "ref": "business/developer-rec-room-lays-off-about-half-its-staff",
+      "entities": {
+        "games": [
+          { "id": "rec-room", "name": "Rec Room", "aliases": [], "genres": ["sandbox"], "franchise": "rec-room", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rec-room", "name": "Rec Room", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Developer Rec Room has laid off about half its staff."
+    },
+    {
+      "ref": "business/evil-empire-tells-devs-to-avoid-early-access-unless-their-pr",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "evil-empire", "name": "Evil Empire", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["early-access"],
+      "facts": [],
+      "summary": "Evil Empire has advised developers to avoid early access unless their project is 90 percent complete."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "date": "2025-05-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/future-of-giant-bomb-website-in-doubt-following-prominent-st",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "giant-bomb", "name": "Giant Bomb", "aliases": [], "inferred": false },
+          { "id": "fandom", "name": "Fandom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "The future of the Giant Bomb website is in doubt after prominent staff departures, with owner Fandom planning a \"strategic realignment\"."
+    },
+    {
+      "ref": "main_news/saber-confirms-it-s-delisting-evil-dead-the-game-but-says-it",
+      "entities": {
+        "games": [
+          { "id": "evil-dead-the-game", "name": "Evil Dead: The Game", "aliases": [], "genres": ["shooter", "survival-horror"], "franchise": "evil-dead", "inferred": true }
+        ],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": ["Saber"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Saber confirmed it is delisting Evil Dead: The Game but said it plans to keep the servers online."
+    },
+    {
+      "ref": "business/ubisoft-hints-more-prince-of-persia-on-the-way-as-the-lost-c",
+      "entities": {
+        "games": [
+          { "id": "prince-of-persia-the-lost-crown", "name": "Prince of Persia: The Lost Crown", "aliases": ["The Lost Crown"], "genres": ["metroidvania", "action-adventure"], "franchise": "prince-of-persia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 2000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "prince-of-persia-the-lost-crown",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-02",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Lost Crown passes 2m players",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ubisoft-hints-more-prince-of-persia-on-the-way-as-the-lost-crown-passes-2m-players" }
+        }
+      ],
+      "summary": "Ubisoft hinted that more Prince of Persia is on the way as The Lost Crown passed 2 million players."
+    },
+    {
+      "ref": "business/polygon-has-been-sold-to-valnet-with-the-majority-of-staff-l",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "polygon", "name": "Polygon", "aliases": [], "inferred": false },
+          { "id": "valnet", "name": "Valnet", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "layoffs"],
+      "facts": [],
+      "summary": "Polygon has been sold to Valnet, with the majority of its staff laid off."
+    },
+    {
+      "ref": "business/microsoft-is-raising-prices-on-xbox-consoles-with-games-set",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s", "name": "Xbox Series S", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 80,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "xbox-games",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-05-02",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "games set to hit $80 this year",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/microsoft-is-raising-prices-on-xbox-consoles-with-games-set-to-hit-80-this-year/" }
+        }
+      ],
+      "summary": "Microsoft is raising prices on Xbox consoles, with games set to hit $80 this year."
+    }
+  ]
+}

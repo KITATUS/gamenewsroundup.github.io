@@ -1,0 +1,235 @@
+{
+  "date": "2024-06-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dead-rising-deluxe-remaster-announced",
+      "entities": {
+        "games": [
+          {
+            "id": "dead-rising-deluxe-remaster",
+            "name": "Dead Rising Deluxe Remaster",
+            "aliases": [],
+            "genres": ["action-adventure", "survival-horror"],
+            "franchise": "dead-rising",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "A Dead Rising Deluxe Remaster has been announced."
+    },
+    {
+      "ref": "main_news/forza-horizon-4-will-be-delisted-later-this-year",
+      "entities": {
+        "games": [
+          {
+            "id": "forza-horizon-4",
+            "name": "Forza Horizon 4",
+            "aliases": [],
+            "genres": ["racing", "open-world"],
+            "franchise": "forza",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "playground-games",
+            "name": "Playground Games",
+            "aliases": [],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Forza Horizon 4 will be delisted later this year, though players who already bought it will still be able to download and play it."
+    },
+    {
+      "ref": "main_news/the-original-1997-pc-port-of-resident-evil-is-now-on-gog-wit",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil",
+            "name": "Resident Evil",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          },
+          {
+            "id": "resident-evil-2",
+            "name": "Resident Evil 2",
+            "aliases": ["2"],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          },
+          {
+            "id": "resident-evil-3",
+            "name": "Resident Evil 3",
+            "aliases": ["3"],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "gog",
+            "name": "GOG",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "The original 1997 PC port of Resident Evil is now on GOG, with Resident Evil 2 and 3 coming soon."
+    },
+    {
+      "ref": "main_news/steam-launches-new-background-gameplay-recording-and-sharing",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "beta-demo"],
+      "facts": [],
+      "summary": "Steam has launched a new background gameplay recording and sharing feature into beta."
+    },
+    {
+      "ref": "free_games_subscription/july-s-playstation-plus-essential-games-have-been-revealed",
+      "entities": {
+        "games": [
+          {
+            "id": "borderlands-3",
+            "name": "Borderlands 3",
+            "aliases": [],
+            "genres": ["fps", "action-rpg"],
+            "franchise": "borderlands",
+            "inferred": true
+          },
+          {
+            "id": "nhl-24",
+            "name": "NHL 24",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "nhl",
+            "inferred": true
+          },
+          {
+            "id": "among-us",
+            "name": "Among Us",
+            "aliases": [],
+            "genres": ["party"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": ["PlayStation Plus Essential"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "July's PlayStation Plus Essential games have been revealed as Borderlands 3, NHL 24, and Among Us."
+    },
+    {
+      "ref": "business/bandai-namco-online-faces-insolvency-post-blue-protocol-laun",
+      "entities": {
+        "games": [
+          {
+            "id": "blue-protocol",
+            "name": "Blue Protocol",
+            "aliases": [],
+            "genres": ["mmorpg", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bandai-namco-online",
+            "name": "Bandai Namco Online",
+            "aliases": [],
+            "publisher": "bandai-namco",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "bandai-namco",
+            "name": "Bandai Namco",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Bandai Namco Online faces insolvency following the launch of its MMO Blue Protocol."
+    }
+  ]
+}

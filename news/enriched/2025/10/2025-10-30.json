@@ -1,0 +1,193 @@
+{
+  "date": "2025-10-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/resident-evil-requiem-is-getting-a-switch-2-pro-controller-a",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": ["Reqiuem"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true },
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Resident Evil Requiem is getting a Switch 2 Pro Controller and Amiibo, coming to Fortnite, with Epic Games Store buyers receiving Fortnite content."
+    },
+    {
+      "ref": "main_news/take-two-s-ceo-doesn-t-think-a-grand-theft-auto-built-with-a",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto", "name": "Grand Theft Auto", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "strauss-zelnick", "name": "Strauss Zelnick", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Take-Two CEO Strauss Zelnick said he does not think a Grand Theft Auto built with AI would be very good, arguing AI's usefulness for games is limited because it lacks creativity."
+    },
+    {
+      "ref": "main_news/nintendo-is-releasing-a-zelda-breath-of-the-wild-vinyl-box-s",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-breath-of-the-wild", "name": "The Legend of Zelda: Breath of the Wild", "aliases": ["Breath of the Wild"], "genres": ["action-adventure", "open-world"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "laced-records", "name": "Laced Records", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Nintendo is releasing a Zelda: Breath of the Wild vinyl box set in the West in 2-LP and 8-LP editions, in collaboration with Laced Records, to gauge demand for physical soundtracks."
+    },
+    {
+      "ref": "main_news/we-re-still-figuring-it-out-john-romero-hasn-t-given-up-on-h",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "romero-games", "name": "Romero Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "john-romero", "name": "John Romero", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "development_budget", "value": 50000000, "unit": "money", "currency": "USD",
+          "entity": "john-romero", "entity_type": "person", "scope": "product",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "costed roughly $50 million to develop to this point",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/were-still-figuring-it-out-john-romero-hasnt-given-up-on-his-axed-xbox-shooter/" } }
+      ],
+      "summary": "John Romero says he has not given up on his axed Xbox shooter, hinting it is about 50% complete and has cost roughly $50 million to develop so far."
+    },
+    {
+      "ref": "free_games_subscription/november-s-playstation-plus-essential-games-confirmed-stray",
+      "entities": {
+        "games": [
+          { "id": "stray", "name": "Stray", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "wrc-24", "name": "WRC 24", "aliases": [], "genres": ["racing"], "franchise": "wrc", "inferred": true },
+          { "id": "totally-accurate-battle-simulator", "name": "Totally Accurate Battle Simulator", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "November's PlayStation Plus Essential games are confirmed as Stray, WRC 24 and Totally Accurate Battle Simulator."
+    },
+    {
+      "ref": "business/games-london-launches-new-accelerator-program-to-help-uk-stu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "games-london", "name": "Games London", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Games London has launched a new two-month accelerator program to help UK studios develop their own IP."
+    },
+    {
+      "ref": "business/capcom-h1-2025-results-six-months-ended-september-30-2025",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 81200000000, "unit": "money", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥81.2 billion ($531.4 million), up 43.9% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } },
+        { "metric": "revenue", "value": 531400000, "unit": "money", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥81.2 billion ($531.4 million), up 43.9% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } },
+        { "metric": "operating_income", "value": 81100000000, "unit": "money", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥81.1 billion ($530.7 million), up 89.8% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } },
+        { "metric": "operating_income", "value": 530700000, "unit": "money", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥81.1 billion ($530.7 million), up 89.8% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } },
+        { "metric": "profit", "value": 36500000000, "unit": "money", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Ordinary profit: ¥36.5 billion ($238.9 million), up 76.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } },
+        { "metric": "profit", "value": 238900000, "unit": "money", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Ordinary profit: ¥36.5 billion ($238.9 million), up 76.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } },
+        { "metric": "profit", "value": 27500000000, "unit": "money", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Net income: ¥27.5 billion ($179.9 million), up 80.1% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } },
+        { "metric": "profit", "value": 179900000, "unit": "money", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-30", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Net income: ¥27.5 billion ($179.9 million), up 80.1% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/capcom-h1-2025-sales-and-profits-up-yoy-thanks-to-monster-hunter-wilds-and-anticipation-for-resident-evil-requiem" } }
+      ],
+      "summary": "Capcom reported its H1 2025 results for the six months ended 30 September 2025, with net sales of ¥81.2 billion and operating profit of ¥81.1 billion."
+    }
+  ]
+}

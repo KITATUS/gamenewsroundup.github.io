@@ -1,0 +1,170 @@
+{
+  "date": "2025-10-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fox-hunt-the-online-multiplayer-mode-for-metal-gear-solid-de",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-delta-snake-eater", "name": "Metal Gear Solid Delta: Snake Eater", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [
+          { "id": "konami", "name": "Konami", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Fox Hunt, the 12-player online multiplayer mode for Metal Gear Solid Delta: Snake Eater, is now available with two game types."
+    },
+    {
+      "ref": "main_news/animal-crossing-new-horizons-is-getting-a-nintendo-switch-2",
+      "entities": {
+        "games": [
+          { "id": "animal-crossing-new-horizons", "name": "Animal Crossing: New Horizons", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "animal-crossing", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "update-patch", "price-change"],
+      "facts": [
+        { "metric": "price", "value": 5, "unit": "price", "currency": "USD",
+          "entity": "animal-crossing-new-horizons", "entity_type": "game", "scope": "product",
+          "as_of": "2025-10-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nintendo Switch 2 Edition ($5 upgrade)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/animal-crossing-new-horizons-free-update-will-add-lego-furniture-and-playable-nes-and-game-boy-games/" } }
+      ],
+      "summary": "Animal Crossing: New Horizons is getting a Nintendo Switch 2 Edition with a $5 upgrade and a free update adding Lego furniture and playable NES and Game Boy games."
+    },
+    {
+      "ref": "business/nintendo-has-been-denied-a-patent-in-japan-for-a-pok-mon-lik",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo has been denied a patent in Japan for a Pokemon-like creature-capturing mechanic."
+    },
+    {
+      "ref": "business/fall-guys-veterans-launch-new-studio-panic-stations-to-make",
+      "entities": {
+        "games": [
+          { "id": "fall-guys", "name": "Fall Guys", "aliases": [], "genres": ["party", "battle-royale"], "franchise": "fall-guys", "inferred": true }
+        ],
+        "studios": [
+          { "id": "panic-stations", "name": "Panic Stations", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Fall Guys veterans have launched a new studio, Panic Stations, to make multiplayer co-op games, planning to ship multiple games per year and recruiting now."
+    },
+    {
+      "ref": "business/heart-machine-lays-off-more-staff-for-the-second-time-this-m",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "heart-machine", "name": "Heart Machine", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Heart Machine has laid off more staff for the second time this month, two weeks before a launch."
+    },
+    {
+      "ref": "business/don-t-nod-h1-revenues-rise-to-7m-announces-partnership-with",
+      "entities": {
+        "games": [
+          { "id": "lost-records-bloom-rage", "name": "Lost Records: Bloom & Rage", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "dont-nod", "name": "Don't Nod", "aliases": ["Don’t Nod"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "partnership"],
+      "facts": [
+        { "metric": "revenue", "value": 7000000, "unit": "money", "currency": "EUR",
+          "entity": "dont-nod", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-31", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Don't Nod H1 revenues rise to €7m",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/dont-nod-h1-revenues-rise-to-7m-announces-partnership-with-netflix" } }
+      ],
+      "summary": "Don't Nod's H1 revenues rose to €7m and it announced a partnership with Netflix, while Lost Records: Bloom & Rage underperformed, leading to a €13.1 million write-down."
+    },
+    {
+      "ref": "business/xbox-q1-hardware-sales-down-29-while-third-party-content-exp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings", "hardware"],
+      "facts": [
+        { "metric": "revenue", "value": 77700000000, "unit": "money", "currency": "USD",
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-31", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $77.7 billion (up 18% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-q1-hardware-sales-down-29-while-third-party-content-experiences-better-than-expected-performance" } },
+        { "metric": "profit", "value": 27700000000, "unit": "money", "currency": "USD",
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-31", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net income: $27.7 billion (up 12% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-q1-hardware-sales-down-29-while-third-party-content-experiences-better-than-expected-performance" } },
+        { "metric": "revenue", "value": 13800000000, "unit": "money", "currency": "USD",
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-31", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "More Personal Computing (incl. Xbox) revenue: $13.8 billion (up 4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-q1-hardware-sales-down-29-while-third-party-content-experiences-better-than-expected-performance" } }
+      ],
+      "summary": "Microsoft reported Xbox Q1 hardware sales down 29% while third-party content saw better-than-expected performance, with quarterly revenue of $77.7 billion and net income of $27.7 billion."
+    },
+    {
+      "ref": "rumours/amazon-s-lord-of-the-rings-mmo-has-reportedly-also-been-canc",
+      "entities": {
+        "games": [
+          { "id": "lord-of-the-rings-mmo", "name": "Lord of the Rings MMO", "aliases": [], "genres": ["mmo", "mmorpg"], "franchise": "the-lord-of-the-rings", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": ["Amazon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "rumour"],
+      "facts": [],
+      "summary": "Amazon's Lord of the Rings MMO has reportedly also been cancelled."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "date": "2024-07-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/guilty-gear-strive-is-getting-lucy-from-cyberpunk-edgerunner",
+      "entities": {
+        "games": [
+          { "id": "guilty-gear-strive", "name": "Guilty Gear Strive", "aliases": [], "genres": ["fighting"], "franchise": "guilty-gear", "inferred": true },
+          { "id": "guilty-gear-x", "name": "Guilty Gear X", "aliases": [], "genres": ["fighting"], "franchise": "guilty-gear", "inferred": true },
+          { "id": "cyberpunk-2077", "name": "Cyberpunk", "aliases": ["Cyberpunk: Edgerunners", "Cyberpunk Edgerunners"], "genres": ["action-rpg"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arc-system-works", "name": "Arc System Works", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "guilty-gear-strive", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Unika, a new character, later in 2025",
+          "source": { "name": "PC Gamer", "domain": "pcgamer.com",
+                      "url": "https://www.pcgamer.com/games/fighting/guilty-gear-strive-is-getting-lucy-from-cyberpunk-edgerunners-as-a-guest-fighter-next-year/" } },
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "guilty-gear-strive", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Lucy (Cyberpunk Edgerunners), 2025",
+          "source": { "name": "PC Gamer", "domain": "pcgamer.com",
+                      "url": "https://www.pcgamer.com/games/fighting/guilty-gear-strive-is-getting-lucy-from-cyberpunk-edgerunners-as-a-guest-fighter-next-year/" } }
+      ],
+      "summary": "Guilty Gear Strive is getting Lucy from Cyberpunk: Edgerunners as a guest fighter in 2025, alongside Queen Dizzy and Venom from Guilty Gear X and a new character, Unika."
+    },
+    {
+      "ref": "main_news/samurai-jack-is-joining-multiversus-next-week-alongside-rank",
+      "entities": {
+        "games": [
+          { "id": "multiversus", "name": "MultiVersus", "aliases": [], "genres": ["fighting", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-07-23", "unit": "date", "currency": null,
+          "entity": "multiversus", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Samurai Jack joins the roster on July 23rd",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/samurai-jack-is-joining-multiversus-next-week-alongside-ranked-mode/" } }
+      ],
+      "summary": "Samurai Jack is joining MultiVersus on July 23rd, alongside the addition of a ranked mode."
+    },
+    {
+      "ref": "main_news/final-fantasy-14-players-can-visit-gong-cha-bubble-tea-store",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-14", "name": "Final Fantasy 14", "aliases": ["Final Fantasy XIV"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "update-patch"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-07-17", "unit": "date", "currency": null,
+          "entity": "final-fantasy-14", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Wednesday, July 17, 2024",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/final-fantasy-14-players-can-visit-gong-cha-bubble-tea-stores-to-earn-in-game-mount/" } },
+        { "metric": "event_date", "value": "2024-08-28", "unit": "date", "currency": null,
+          "entity": "final-fantasy-14", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Wednesday, August 28, 2024",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/final-fantasy-14-players-can-visit-gong-cha-bubble-tea-stores-to-earn-in-game-mount/" } }
+      ],
+      "summary": "Final Fantasy 14 players can visit Gong Cha bubble tea stores between July 17 and August 28, 2024, and buy three teas to earn a code for the Porxie King in-game mount."
+    },
+    {
+      "ref": "business/241-workers-at-bethesda-game-studios-have-unionised",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": ["BGS", "#OneBGSUSA"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "241 workers at Bethesda Game Studios across its Dallas, Rockville and Austin offices have unionised with the CWA Union, making it the first Microsoft studio to fully unionize."
+    },
+    {
+      "ref": "business/develop-is-heading-to-liverpool-for-develop-north",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-11-14", "unit": "date", "currency": null,
+          "entity": "develop-north", "entity_type": "product", "scope": "event",
+          "as_of": "2024-07-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The one-day event will take place on November 14, 2024, at The Spine in Liverpool",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/develop-is-heading-to-liverpool-for-develop-north" } }
+      ],
+      "summary": "The Develop conference is heading to Liverpool for Develop: North, a one-day event taking place on November 14, 2024 at The Spine, with registration opening in September."
+    },
+    {
+      "ref": "business/ubisoft-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 323500000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-22", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Sales: €323.5 million (up 12.0% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/ubisoft-outperform-targets-as-back-catalogue-digital-and-player-investment-bookings-all-increase-in-q1-24-25" } }
+      ],
+      "summary": "Ubisoft reported Q1 sales of €323.5 million, up 12.0% year-on-year, with net bookings of €290.0 million and growth across digital and back-catalogue bookings."
+    }
+  ]
+}

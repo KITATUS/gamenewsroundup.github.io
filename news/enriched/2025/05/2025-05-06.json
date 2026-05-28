@@ -1,0 +1,128 @@
+{
+  "date": "2025-05-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/a-new-ecco-the-dolphin-is-coming-as-well-as-remasters-of-the",
+      "entities": {
+        "games": [
+          { "id": "ecco-the-dolphin", "name": "Ecco the Dolphin", "aliases": [], "genres": ["action-adventure"], "franchise": "ecco-the-dolphin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "A new Ecco the Dolphin game is in development alongside remasters of the first two games."
+    },
+    {
+      "ref": "main_news/gears-of-war-reloaded-is-officially-coming-august-26th-to-pl",
+      "entities": {
+        "games": [
+          { "id": "gears-of-war-reloaded", "name": "Gears of War: Reloaded", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-08-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "gears-of-war-reloaded",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Gears of War: Reloaded is officially coming August 26th to PlayStation 5, Xbox Series S/X, and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gears-of-war-is-coming-to-playstation-5-in-august/" }
+        }
+      ],
+      "summary": "Gears of War: Reloaded is officially launching on 26 August 2025 for PlayStation 5, Xbox Series S/X, and PC."
+    },
+    {
+      "ref": "main_news/grand-theft-auto-6-release-date-has-been-announced-may-26-20",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-05-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "grand-theft-auto-6",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Grand Theft Auto 6 release date has been announced - May 26, 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-to-2026/" }
+        }
+      ],
+      "summary": "Grand Theft Auto 6 has been given a release date of 26 May 2026."
+    },
+    {
+      "ref": "business/monopoly-go-surpasses-5bn-in-two-years",
+      "entities": {
+        "games": [
+          { "id": "monopoly-go", "name": "Monopoly Go", "aliases": [], "genres": ["party", "card"], "franchise": "monopoly", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "scopely", "name": "Scopely", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 5000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "monopoly-go",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-06",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Monopoly Go surpasses $5bn in two years",
+          "source": { "name": "scopely.com", "domain": "scopely.com", "url": "https://www.scopely.com/en/news/monopoly-go-a-once-in-a-lifetime-game-and-the-best-is-yet-to-come" }
+        }
+      ],
+      "summary": "Monopoly Go has surpassed $5bn in revenue within two years."
+    }
+  ]
+}

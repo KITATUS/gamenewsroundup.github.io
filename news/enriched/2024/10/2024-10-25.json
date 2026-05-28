@@ -1,0 +1,399 @@
+{
+  "date": "2024-10-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/first-three-episodes-of-like-a-dragon-yakuza-have-released-o",
+      "entities": {
+        "games": [
+          {
+            "id": "like-a-dragon-yakuza",
+            "name": "Like a Dragon: Yakuza",
+            "aliases": ["Yakuza"],
+            "genres": ["action-adventure"],
+            "franchise": "like-a-dragon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "amazon-prime-video",
+            "name": "Amazon Prime Video",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "The first three episodes of the live-action Like a Dragon: Yakuza series have released on Amazon Prime Video, to a mixed-to-negative reception."
+    },
+    {
+      "ref": "main_news/balatro-s-back-with-another-collaboration-card-pack",
+      "entities": {
+        "games": [
+          {
+            "id": "balatro",
+            "name": "Balatro",
+            "aliases": [],
+            "genres": ["card", "roguelike"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-binding-of-isaac",
+            "name": "The Binding of Isaac",
+            "aliases": [],
+            "genres": ["roguelike"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "slay-the-spire",
+            "name": "Slay the Spire",
+            "aliases": [],
+            "genres": ["card", "roguelike"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          },
+          {
+            "id": "stardew-valley",
+            "name": "Stardew Valley",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation",
+            "name": "PlayStation",
+            "aliases": ["PS"],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          },
+          {
+            "id": "android",
+            "name": "Android",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ios",
+            "name": "iOS",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game", "update-patch", "partnership"],
+      "facts": [],
+      "summary": "Balatro has released a free Friends of Jimbo Pack 2 collaboration card pack featuring cameos from games including The Binding of Isaac, Slay the Spire, Cyberpunk 2077 and Stardew Valley."
+    },
+    {
+      "ref": "main_news/the-pc-version-of-the-croc-remaster-is-exclusive-to-gog-will",
+      "entities": {
+        "games": [
+          {
+            "id": "croc",
+            "name": "Croc",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "croc",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "gog",
+            "name": "GOG",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation-4",
+            "name": "PlayStation 4",
+            "aliases": ["PS4"],
+            "inferred": false
+          },
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "xbox-one",
+            "name": "Xbox One",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series S/X",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port"],
+      "facts": [],
+      "summary": "The PC version of the Croc remaster will be exclusive to GOG and bundled with the original 1997 game, with the remaster also coming to PS4/5, Xbox One and Series S/X, and Switch."
+    },
+    {
+      "ref": "main_news/yooka-replaylee-is-coming-to-ps5-xbox-series-s-x-and-nintend",
+      "entities": {
+        "games": [
+          {
+            "id": "yooka-replaylee",
+            "name": "Yooka-Replaylee",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "yooka-laylee",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series S/X",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "nintendo",
+            "name": "Nintendo platforms",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Yooka-Replaylee is coming to PS5, Xbox Series S/X and Nintendo platforms, with no release date confirmed yet."
+    },
+    {
+      "ref": "main_news/playstation-stars-will-no-longer-give-credit-for-money-spent",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-stars",
+            "name": "PlayStation Stars",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "PlayStation Stars will no longer award loyalty credit for money spent on subscriptions, with points also expiring after just over a year."
+    },
+    {
+      "ref": "business/beyond-good-evil-2-still-in-development-now-with-new-creativ",
+      "entities": {
+        "games": [
+          {
+            "id": "beyond-good-evil-2",
+            "name": "Beyond Good & Evil 2",
+            "aliases": ["Beyond Good and Evil 2"],
+            "genres": ["action-adventure"],
+            "franchise": "beyond-good-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ubisoft-montpellier",
+            "name": "Ubisoft Montpellier",
+            "aliases": [],
+            "publisher": "ubisoft",
+            "inferred": false
+          },
+          {
+            "id": "dice",
+            "name": "DICE",
+            "aliases": [],
+            "publisher": "electronic-arts",
+            "inferred": true
+          },
+          {
+            "id": "king",
+            "name": "King",
+            "aliases": [],
+            "publisher": "activision-blizzard",
+            "inferred": true
+          },
+          {
+            "id": "gameloft",
+            "name": "Gameloft",
+            "aliases": [],
+            "publisher": "vivendi",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "fawzi-mesmar",
+            "name": "Fawzi Mesmar",
+            "aliases": ["Mesmar"],
+            "inferred": false
+          },
+          {
+            "id": "emile-morel",
+            "name": "Emile Morel",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Beyond Good & Evil 2 remains in development at Ubisoft Montpellier, with industry veteran Fawzi Mesmar joining as creative director, succeeding the late Emile Morel."
+    },
+    {
+      "ref": "business/indie-boxing-game-undisputed-sells-one-million-units-in-a-we",
+      "entities": {
+        "games": [
+          {
+            "id": "undisputed",
+            "name": "Undisputed",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series S/X",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "release", "early-access"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "undisputed",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-25",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Undisputed ** sells one million units in a week",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/indie-boxing-game-undisputed-sells-one-million-units-in-a-week"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-10-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "undisputed",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "launching on PC, PlayStation 5 and Xbox Series S/X on October 11",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/indie-boxing-game-undisputed-sells-one-million-units-in-a-week"
+          }
+        }
+      ],
+      "summary": "Indie boxing game Undisputed has sold one million units in the week since its October 11 full launch on PC, PlayStation 5 and Xbox Series S/X."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "date": "2025-04-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/marvel-rivals-season-2-features-emma-frost-ultron",
+      "entities": {
+        "games": [
+          {
+            "id": "marvel-rivals",
+            "name": "Marvel Rivals",
+            "aliases": [],
+            "genres": ["hero-shooter"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "emma-frost", "name": "Emma Frost", "aliases": [], "inferred": false },
+          { "id": "ultron", "name": "Ultron", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Marvel Rivals Season 2 features the characters Emma Frost and Ultron."
+    },
+    {
+      "ref": "main_news/narayana-johnson-river-boy-composer-for-the-cult-of-the-lamb",
+      "entities": {
+        "games": [
+          {
+            "id": "cult-of-the-lamb",
+            "name": "Cult of the Lamb",
+            "aliases": [],
+            "genres": ["action-adventure", "roguelike"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "narayana-johnson",
+            "name": "Narayana Johnson",
+            "aliases": ["River Boy"],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Narayana Johnson (River Boy), composer for the Cult of the Lamb soundtrack, has passed away."
+    },
+    {
+      "ref": "business/australia-s-largest-studio-playside-announces-restructure-an",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "playside",
+            "name": "PlaySide",
+            "aliases": ["PlaySide Studios"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 40900000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "playside",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-04-04",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The studio recorded revenue of $40.9m (AUD$64.6m) earlier this year.",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/australias-largest-studio-playside-announces-restructure-and-job-cuts"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 64600000,
+          "unit": "money",
+          "currency": "AUD",
+          "entity": "playside",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-04-04",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The studio recorded revenue of $40.9m (AUD$64.6m) earlier this year.",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/australias-largest-studio-playside-announces-restructure-and-job-cuts"
+          }
+        }
+      ],
+      "summary": "PlaySide, described as Australia's largest studio, announced a restructure and job cuts after revising its FY25 revenue forecast downward."
+    },
+    {
+      "ref": "business/ubisoft-leamington-has-officially-closed-its-doors",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "ubisoft-leamington",
+            "name": "Ubisoft Leamington",
+            "aliases": [],
+            "publisher": "ubisoft",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Ubisoft Leamington has officially closed its doors."
+    }
+  ]
+}

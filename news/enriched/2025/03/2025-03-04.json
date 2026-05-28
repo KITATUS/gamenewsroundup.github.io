@@ -1,0 +1,126 @@
+{
+  "date": "2025-03-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/static-recompilation-for-xbox-360-titles-now-possible",
+      "entities": {
+        "games": [
+          { "id": "sonic-unleashed", "name": "Sonic Unleashed", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "zelda-64-recompiled", "name": "Zelda 64: Recompiled", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-360", "name": "Xbox 360", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "n64", "name": "N64", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A new XenonRecomp project enables static recompilation of Xbox 360 titles, opening the door to native PC ports for game preservation."
+    },
+    {
+      "ref": "main_news/black-ops-6-season-3-and-warzone-season-3-have-been-delayed",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops-6", "name": "Call of Duty: Black Ops 6", "aliases": ["Black Ops 6"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-warzone", "name": "Call of Duty: Warzone", "aliases": ["Warzone"], "genres": ["battle-royale", "fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "update-patch"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-03-20", "unit": "date", "currency": null,
+          "entity": "call-of-duty-black-ops-6", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-04", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Season 3 was widely expected to kick off on March 20",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ahead-of-anticipated-verdansk-return-black-ops-6-and-warzone-season-3-has-been-delayed/" } }
+      ],
+      "summary": "Black Ops 6 Season 3 and Warzone Season 3 have been delayed, launching about two weeks later than the expected 20 March date."
+    },
+    {
+      "ref": "main_news/activision-appears-to-be-gauging-interest-in-new-guitar-hero",
+      "entities": {
+        "games": [
+          { "id": "guitar-hero-mobile", "name": "Guitar Hero Mobile", "aliases": [], "genres": ["rhythm"], "franchise": "guitar-hero", "inferred": true },
+          { "id": "call-of-duty-zombie-defender", "name": "Call of Duty: Zombie Defender", "aliases": [], "genres": ["shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "crash-bandicoot-brawl", "name": "Crash Bandicoot Brawl", "aliases": [], "genres": ["fighting"], "franchise": "crash-bandicoot", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "Activision appears to be gauging interest in new Guitar Hero, Call of Duty and Crash Bandicoot games using AI-generated adverts for non-existent titles."
+    },
+    {
+      "ref": "business/secret-mode-splits-from-sumo-group-to-become-an-independent",
+      "entities": {
+        "games": [
+          { "id": "still-wakes-the-deep", "name": "Still Wakes the Deep", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "a-little-to-the-left", "name": "A Little to the Left", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "secret-mode", "name": "Secret Mode", "aliases": [], "inferred": false },
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "UK publisher Secret Mode, behind games including Still Wakes the Deep and A Little to the Left, has split from Sumo Group to become an independent publisher."
+    },
+    {
+      "ref": "business/rockstar-acquires-studio-founded-by-the-director-of-la-noire",
+      "entities": {
+        "games": [
+          { "id": "la-noire", "name": "LA Noire", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "the-getaway", "name": "The Getaway", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "gta-the-trilogy-the-definitive-edition", "name": "GTA: The Trilogy – Definitive Edition", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "video-games-deluxe", "name": "Video Games Deluxe", "aliases": ["Rockstar Australia"], "publisher": "rockstar-games", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Rockstar has acquired Sydney-based studio Video Games Deluxe, founded by the director of LA Noire and The Getaway, renaming it Rockstar Australia."
+    },
+    {
+      "ref": "business/smash-bros-creator-masahiro-sakurai-honored-by-japanese-gove",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "masahiro-sakurai", "name": "Masahiro Sakurai", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Smash Bros creator Masahiro Sakurai has been honored by the Japanese government for his pioneering game design tutorials."
+    }
+  ]
+}

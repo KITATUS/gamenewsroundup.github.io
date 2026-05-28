@@ -1,0 +1,249 @@
+{
+  "date": "2025-10-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/house-of-golf-vr-uses-mixed-reality-to-let-players-create-mi",
+      "entities": {
+        "games": [
+          { "id": "house-of-golf-vr", "name": "House of Golf VR", "aliases": [], "genres": ["sports", "simulation"], "franchise": "house-of-golf", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "House of Golf VR uses mixed reality to let players create mini-golf courses anywhere."
+    },
+    {
+      "ref": "main_news/sega-reveals-its-limited-edition-trainer-collaboration-with",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Sega revealed a limited-edition trainer collaboration with Puma."
+    },
+    {
+      "ref": "main_news/fifa-lives-on-in-a-mascot-focused-five-a-side-football-game",
+      "entities": {
+        "games": [
+          { "id": "fifa-heroes", "name": "FIFA Heroes", "aliases": [], "genres": ["sports"], "franchise": "fifa", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "fifa-heroes", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "FIFA Heroes will be available in 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fifa-lives-on-in-a-mascot-focused-five-a-side-football-game-coming-next-year" } }
+      ],
+      "summary": "FIFA Heroes, a mascot-focused five-a-side football game, will be available in 2026."
+    },
+    {
+      "ref": "free_games_subscription/amazon-prime-gaming-s-14-free-games",
+      "entities": {
+        "games": [
+          { "id": "dragonstrike", "name": "DragonStrike", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "tormented-souls", "name": "Tormented Souls", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true },
+          { "id": "xcom-2", "name": "XCOM 2", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "xcom", "inferred": true },
+          { "id": "vampire-the-masquerade-reckoning-of-new-york", "name": "Vampire: The Masquerade – Reckoning of New York", "aliases": [], "genres": ["visual-novel"], "franchise": "vampire-the-masquerade", "inferred": true },
+          { "id": "empty-shell", "name": "Empty Shell", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "fallout-new-vegas", "name": "Fallout: New Vegas Ultimate Edition", "aliases": ["Fallout: New Vegas"], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "true-fear-forsaken-souls-part-1", "name": "True Fear: Forsaken Souls Part 1", "aliases": [], "genres": ["puzzle", "horror"], "franchise": "true-fear", "inferred": true },
+          { "id": "hellslave", "name": "Hellslave", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "true-fear-forsaken-souls-part-2", "name": "True Fear: Forsaken Souls Part 2", "aliases": [], "genres": ["puzzle", "horror"], "franchise": "true-fear", "inferred": true },
+          { "id": "lost-found-agency", "name": "Lost & Found Agency: Collector’s Edition", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "fallout-3", "name": "Fallout 3: Game of the Year Edition", "aliases": ["Fallout 3"], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "you-will-die-here-tonight", "name": "You Will Die Here Tonight", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true },
+          { "id": "werewolf-the-apocalypse-heart-of-the-forest", "name": "Werewolf: The Apocalypse – Heart of the Forest", "aliases": [], "genres": ["visual-novel"], "franchise": "werewolf-the-apocalypse", "inferred": true },
+          { "id": "halloween-stories-horror-movie", "name": "Halloween Stories: Horror Movie Collector’s Edition", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": "halloween-stories", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": ["Amazon Prime Gaming"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-09", "unit": "date", "currency": null,
+          "entity": "xcom-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "XCOM 2 (GOG) - October 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-09", "unit": "date", "currency": null,
+          "entity": "vampire-the-masquerade-reckoning-of-new-york", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Vampire: The Masquerade – Reckoning of New York (Amazon Games App) - October 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-16", "unit": "date", "currency": null,
+          "entity": "empty-shell", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Empty Shell (GOG) - October 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-16", "unit": "date", "currency": null,
+          "entity": "fallout-new-vegas", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fallout: New Vegas Ultimate Edition (GOG) - October 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-16", "unit": "date", "currency": null,
+          "entity": "true-fear-forsaken-souls-part-1", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "True Fear: Forsaken Souls Part 1 (GOG) - October 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "hellslave", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Hellslave (GOG) - October 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "true-fear-forsaken-souls-part-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "True Fear: Forsaken Souls Part 2 (GOG) - October 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "lost-found-agency", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lost & Found Agency: Collector’s Edition (Legacy Games) - October 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "fallout-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fallout 3: Game of the Year Edition (GOG) - October 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-30", "unit": "date", "currency": null,
+          "entity": "you-will-die-here-tonight", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "You Will Die Here Tonight (GOG) - October 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-30", "unit": "date", "currency": null,
+          "entity": "werewolf-the-apocalypse-heart-of-the-forest", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Werewolf: The Apocalypse – Heart of the Forest (Amazon Games App) - October 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } },
+        { "metric": "release_date", "value": "2025-10-30", "unit": "date", "currency": null,
+          "entity": "halloween-stories-horror-movie", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Halloween Stories: Horror Movie Collector’s Edition (Amazon Games App) - October 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-prime-gamings-14-free-games-for-october-include-fallout-new-vegas-and-xcom-2/" } }
+      ],
+      "summary": "Amazon Prime Gaming's free games for October include 14 titles such as Fallout: New Vegas and XCOM 2, available on staggered dates."
+    },
+    {
+      "ref": "business/starbreeze-has-cancelled-its-dungeons-dragons-game-and-is-la",
+      "entities": {
+        "games": [
+          { "id": "project-baxter", "name": "Project Baxter", "aliases": ["Dungeons & Dragons game"], "genres": ["rpg"], "franchise": "dungeons-dragons", "inferred": true },
+          { "id": "payday", "name": "Payday", "aliases": [], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true }
+        ],
+        "studios": [
+          { "id": "starbreeze", "name": "Starbreeze", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 44, "unit": "people", "currency": null,
+          "entity": "starbreeze", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-10-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "laying off 44 staff",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/starbreeze-has-cancelled-its-dungeons-dragons-game-and-is-laying-off-44-staff-as-it-focuses-on-payday/" } }
+      ],
+      "summary": "Starbreeze has cancelled its Dungeons & Dragons game Project Baxter and is laying off 44 staff to focus on Payday."
+    },
+    {
+      "ref": "business/glaad-launches-new-program-to-mentor-early-career-lgbtq-deve",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "GLAAD launched a new program to mentor early-career LGBTQ+ developers."
+    },
+    {
+      "ref": "business/lucid-games-to-open-new-office-in-liverpool-uk",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "lucid-games", "name": "Lucid Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Lucid Games is to open a new office in Liverpool, UK."
+    },
+    {
+      "ref": "business/after-layoffs-cancellations-and-controversy-za-um-uk-staff-u",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "za-um", "name": "ZA/UM", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "ZA/UM UK staff have unionised as the Workers' Alliance following layoffs, cancellations, and controversy."
+    },
+    {
+      "ref": "business/mastered-secures-funding-to-support-senior-talent-at-uk-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "mastered", "name": "Mastered", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Mastered has secured funding to support senior talent at UK games studios."
+    },
+    {
+      "ref": "business/read-the-esa-s-new-guidance-for-storefront-accessibility-tag",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "entertainment-software-association", "name": "Entertainment Software Association", "aliases": ["ESA"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The ESA published new guidance for implementing storefront accessibility tags."
+    }
+  ]
+}

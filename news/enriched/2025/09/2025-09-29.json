@@ -1,0 +1,109 @@
+{
+  "date": "2025-09-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-rog-xbox-ally-and-ally-x-price-has-finally-been-confirme",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "asus", "name": "Asus", "aliases": ["ROG"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "rog-xbox-ally", "name": "ROG Xbox Ally", "aliases": [], "inferred": false },
+          { "id": "rog-xbox-ally-x", "name": "ROG Xbox Ally X", "aliases": ["Ally X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [],
+      "summary": "The price of the ROG Xbox Ally and Ally X handhelds has finally been confirmed."
+    },
+    {
+      "ref": "main_news/u-s-silent-hill-f-fans-slam-pitiful-steelbook-allocations-as",
+      "entities": {
+        "games": [{ "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "U.S. Silent Hill f fans criticised the limited Steelbook allocations as missing pre-order gifts appeared on pricey eBay auctions."
+    },
+    {
+      "ref": "main_news/pok-mon-tcg-pocket-s-next-set-will-include-a-special-card-in",
+      "entities": {
+        "games": [{ "id": "pokemon-tcg-pocket", "name": "Pokémon TCG Pocket", "aliases": [], "genres": ["card"], "franchise": "pokemon", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Pokémon TCG Pocket's next set will include a special card in every pack."
+    },
+    {
+      "ref": "business/ea-reportedly-in-advanced-talks-over-50bn-buyout-with-invest",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "rumour"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 50000000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2025-09-29", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "over $50bn buyout with investors, including",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/ea-reportedly-in-advanced-talks-over-50bn-buyout-with-investors-including-saudis-pif/" } }
+      ],
+      "summary": "EA is reportedly in advanced talks over a $50bn buyout with investors including Saudi Arabia's PIF."
+    },
+    {
+      "ref": "business/the-campaign-against-predatory-in-game-practices-takes-a-ste",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "lula", "name": "President Lula", "aliases": ["Lula"], "inferred": false }]
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Brazil's President Lula banned loot boxes targeted at under-18s, advancing the campaign against predatory in-game practices."
+    },
+    {
+      "ref": "business/gdc-founder-says-the-event-is-rapidly-becoming-a-dinosaur",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The founder of GDC said the event is \"rapidly becoming a dinosaur\"."
+    },
+    {
+      "ref": "rumours/nintendo-s-own-zurich-pop-con-display-reveals-five-lego-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a Nintendo Zurich Pop Con display revealed five Lego games are getting Switch 2 ports."
+    }
+  ]
+}

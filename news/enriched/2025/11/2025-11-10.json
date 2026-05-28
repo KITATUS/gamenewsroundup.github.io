@@ -1,0 +1,282 @@
+{
+  "date": "2025-11-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/clair-obscur-snubbed-in-grammy-video-game-soundtrack-nominat",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": ["Clair Obscur"], "genres": ["jrpg", "rpg"], "franchise": null, "inferred": true },
+          { "id": "avatar-frontiers-of-pandora", "name": "Avatar: Frontiers of Pandora", "aliases": ["Avatar: Frontiers of Pandora – Secrets of the Spires"], "genres": ["action-adventure"], "franchise": "avatar", "inferred": true },
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones And The Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true },
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": ["Star Wars Outlaws: Wild Card & A Pirate’s Fortune"], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true },
+          { "id": "sword-of-the-sea", "name": "Sword of the Sea", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "pinar-toprak", "name": "Pinar Toprak", "aliases": [], "inferred": false },
+          { "id": "wilbert-roget", "name": "Wilbert Roget", "aliases": ["Wilbert Roget, II"], "inferred": false },
+          { "id": "gordy-haab", "name": "Gordy Haab", "aliases": [], "inferred": false },
+          { "id": "cody-matthew-johnson", "name": "Cody Matthew Johnson", "aliases": [], "inferred": false },
+          { "id": "austin-wintory", "name": "Austin Wintory", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Clair Obscur was snubbed from this year's Grammy video game soundtrack nominations, which included Avatar: Frontiers of Pandora, Helldivers 2, Indiana Jones And The Great Circle, Star Wars Outlaws, and Sword of the Sea."
+    },
+    {
+      "ref": "main_news/arc-raiders-breaks-another-concurrent-record-as-player-count",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "peak_concurrent_players",
+          "value": 400000,
+          "unit": "players",
+          "currency": null,
+          "entity": "arc-raiders",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-10",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Arc Raiders breaks another concurrent record as player count soars; 400,000",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/arc-raiders-breaks-another-concurrent-record-as-player-count-soars" }
+        }
+      ],
+      "summary": "Arc Raiders set another concurrent player record, reaching 400,000 players."
+    },
+    {
+      "ref": "main_news/fromsoft-s-parent-company-reveals-we-ll-get-elden-ring-night",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightreign", "name": "Elden Ring Nightreign", "aliases": ["Nightreign"], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": ["FromSoft"], "publisher": "kadokawa", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "kadokawa", "name": "Kadokawa", "aliases": ["FromSoft's parent company"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-03-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "elden-ring-nightreign",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "we'll get Elden Ring Nightreign DLC by March",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fromsofts-parent-company-reveals-well-get-elden-ring-nightreign-dlc-by-march" }
+        }
+      ],
+      "summary": "FromSoftware's parent company revealed that Elden Ring Nightreign DLC will arrive by March, noting Nightreign is performing well beyond initial expectations."
+    },
+    {
+      "ref": "main_news/turns-out-halo-infinite-isn-t-infinite-at-all-as-halo-studio",
+      "entities": {
+        "games": [
+          { "id": "halo-infinite", "name": "Halo Infinite", "aliases": [], "genres": ["fps", "shooter"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "halo-studios", "name": "Halo Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Halo Studios has ended active development on Halo Infinite after just four years."
+    },
+    {
+      "ref": "business/stalker-2-dev-strikes-down-copycat-game-misery-with-dmca-cla",
+      "entities": {
+        "games": [
+          { "id": "stalker-2", "name": "Stalker 2", "aliases": [], "genres": ["fps", "survival", "horror"], "franchise": "stalker", "inferred": true },
+          { "id": "misery", "name": "Misery", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "gsc-game-world", "name": "GSC Game World", "aliases": ["Stalker 2 dev"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "The Stalker 2 developer issued a DMCA claim against copycat game Misery, whose developer responded with pejorative slurs before posting a follow-up apology."
+    },
+    {
+      "ref": "business/red-dead-redemption-2-is-now-the-fourth-biggest-selling-game",
+      "entities": {
+        "games": [
+          { "id": "red-dead-redemption-2", "name": "Red Dead Redemption 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "red-dead", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "chart_rank",
+          "value": 4,
+          "unit": "rank",
+          "currency": null,
+          "entity": "red-dead-redemption-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Red Dead Redemption 2 is now the fourth-biggest-selling game of all time",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/red-dead-redemption-2-has-sold-more-copies-than-any-other-g[…]e-last-7-years-and-is-the-fourth-biggest-selling-of-all-time" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 79000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "red-dead-redemption-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "having sold 79 million copies since it debuted in 2018",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/red-dead-redemption-2-has-sold-more-copies-than-any-other-g[…]e-last-7-years-and-is-the-fourth-biggest-selling-of-all-time" }
+        }
+      ],
+      "summary": "Red Dead Redemption 2 is now the fourth-biggest-selling game of all time, having sold 79 million copies since its 2018 debut."
+    },
+    {
+      "ref": "business/take-two-interactive-second-quarter-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1770000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-11-10",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net revenue: $1.77 billion (up 31% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-q2-net-bookings-vastly-exceed-expectations-to-196bn" }
+        },
+        {
+          "metric": "profit",
+          "value": -133900000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-11-10",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Net loss: $133.9 million (compared to $365.5 million loss in the year-ago quarter)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-q2-net-bookings-vastly-exceed-expectations-to-196bn" }
+        }
+      ],
+      "summary": "Take-Two Interactive reported second-quarter net revenue of $1.77 billion (up 31% year-on-year), a net loss of $133.9 million, and total net bookings of $1.96 billion (up 33% year-on-year)."
+    },
+    {
+      "ref": "business/roblox-corp-sued-by-state-of-texas-for-allegedly-platforming",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox Corp"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Roblox Corporation has been sued by the State of Texas for allegedly platforming pedophiles."
+    },
+    {
+      "ref": "rumours/silent-hill-2-remake-release-date-leaks-via-microsoft-store",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2-remake", "name": "Silent Hill 2 Remake", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "microsoft-store", "name": "Microsoft Store", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake", "port", "rumour"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-11-21",
+          "unit": "date",
+          "currency": null,
+          "entity": "silent-hill-2-remake",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Silent Hill 2 Remake release date leaks via Microsoft Store (21st November)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/silent-hill-2-remake-release-date-leaks-via-microsoft-store-all-but-confirming-the-xbox-version-is-coming-soon" }
+        }
+      ],
+      "summary": "A Microsoft Store leak suggests the Silent Hill 2 Remake will release on 21 November, all but confirming an imminent Xbox version."
+    }
+  ]
+}

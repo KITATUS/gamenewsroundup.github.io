@@ -1,0 +1,158 @@
+{
+  "date": "2024-09-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/konami-confirms-that-inter-and-ac-milan-will-be-exclusive-to",
+      "entities": {
+        "games": [
+          { "id": "efootball", "name": "eFootball", "aliases": [], "genres": ["sports"], "franchise": "efootball", "inferred": true },
+          { "id": "ea-sports-fc-25", "name": "EA Sports FC 25", "aliases": [], "genres": ["sports"], "franchise": "ea-sports-fc", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Konami has confirmed that Inter and AC Milan will be exclusive to eFootball this year, appearing only with generic names, kits and badges in EA Sports FC 25."
+    },
+    {
+      "ref": "main_news/playstation-s-30th-anniversary-celebrations-include-spotify",
+      "entities": {
+        "games": [
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "god-of-war-ii", "name": "God of War II", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "god-of-war-ghost-of-sparta", "name": "God of War: Ghost of Sparta", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "twisted-metal", "name": "Twisted Metal", "aliases": [], "genres": ["racing"], "franchise": "twisted-metal", "inferred": true },
+          { "id": "starhawk", "name": "Starhawk", "aliases": [], "genres": ["shooter"], "franchise": "warhawk", "inferred": true },
+          { "id": "unit-13", "name": "Unit 13", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "PlayStation's 30th anniversary celebrations will include digital game soundtracks on Spotify from October to January and a new physical Shapes of Play product line including a board game."
+    },
+    {
+      "ref": "main_news/action-packed-arcane-season-two-trailer-teases-plenty-of-cha",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "teaser"],
+      "facts": [],
+      "summary": "An action-packed trailer for Arcane season two, set for release in November, teases chaos from Jinx."
+    },
+    {
+      "ref": "main_news/balatro-out-on-mobile-later-this-month",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": ["Balatro+"], "genres": ["card", "roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ios", "name": "iOS App store", "aliases": ["iOS App store"], "inferred": false },
+          { "id": "google-play", "name": "Google Play", "aliases": ["Google Play store"], "inferred": false },
+          { "id": "apple-arcade", "name": "Apple Arcade", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-26", "unit": "date", "currency": null,
+          "entity": "balatro", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will be available on both the iOS App store and the Google Play store from 26th September.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/balatro-out-on-mobile-later-this-month" } }
+      ],
+      "summary": "Balatro launches on the iOS App Store and Google Play on 26th September, with Balatro+ also coming to Apple Arcade without ads or microtransactions."
+    },
+    {
+      "ref": "main_news/alan-wake-2010-will-receive-an-update-on-september-10th-that",
+      "entities": {
+        "games": [
+          { "id": "alan-wake", "name": "Alan Wake", "aliases": ["Alan Wake (2010)"], "genres": ["action-adventure", "survival-horror"], "franchise": "alan-wake", "inferred": true },
+          { "id": "alan-wake-remastered", "name": "Alan Wake Remastered", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "petri-alanko", "name": "Petri Alanko", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["update-patch"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-09-10", "unit": "date", "currency": null,
+          "entity": "alan-wake", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will receive an update on September 10th",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/alanwake/status/1831739167392272866" } }
+      ],
+      "summary": "The original 2010 PC release of Alan Wake will receive an update on September 10th that removes the song Space Oddity over licensing changes and replaces it with a new Petri Alanko track, Strange Moons."
+    },
+    {
+      "ref": "business/street-fighter-6-has-sold-over-4-million-units-globally",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 4000000, "unit": "units", "currency": null,
+          "entity": "street-fighter-6", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-06", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Street Fighter 6 has sold over 4 million units globally",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/StreetFighter/status/1831814865297489924" } }
+      ],
+      "summary": "Street Fighter 6 has sold over 4 million units globally."
+    },
+    {
+      "ref": "rumours/concord-episode-will-reportedly-remain-in-amazon-s-upcoming",
+      "entities": {
+        "games": [
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "firewalk-studios", "name": "Firewalk Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour", "shutdown"],
+      "facts": [],
+      "summary": "A Concord-based episode will reportedly remain in Amazon's upcoming Secret Level anthology series despite the game's recent shutdown."
+    }
+  ]
+}

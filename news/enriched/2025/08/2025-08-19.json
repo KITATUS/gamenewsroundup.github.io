@@ -1,0 +1,111 @@
+{
+  "date": "2025-08-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/a-new-nintendo-direct-focused-on-kirby-air-riders-is-happeni",
+      "entities": {
+        "games": [
+          { "id": "kirby-air-riders", "name": "Kirby Air Riders", "aliases": [], "genres": ["racing"], "franchise": "kirby", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-08-19", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2025-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "is happening today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/a-new-nintendo-direct-focused-on-kirby-air-riders-is-coming-tomorrow/" } }
+      ],
+      "summary": "A new Nintendo Direct focused on Kirby Air Riders is taking place today, 19 August 2025, at 8am PT / 11am ET / 2pm BST."
+    },
+    {
+      "ref": "main_news/gamescom-opening-night-live-today-7pm-bst",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-08-19", "unit": "date", "currency": null,
+          "entity": "gamescom-opening-night-live", "entity_type": "product", "scope": "event",
+          "as_of": "2025-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Gamescom Opening Night Live today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/gamescom-opening-night-live-heres-where-to-watch-the-big-presentation/" } }
+      ],
+      "summary": "Gamescom Opening Night Live is taking place today, 19 August 2025, at 7pm BST."
+    },
+    {
+      "ref": "main_news/shenmue-3-is-getting-an-enhanced-edition-including-xbox-and",
+      "entities": {
+        "games": [
+          { "id": "shenmue-3", "name": "Shenmue 3", "aliases": [], "genres": ["action-adventure"], "franchise": "shenmue", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X", "Xbox"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port", "announcement"],
+      "facts": [],
+      "summary": "Shenmue 3 is getting an Enhanced edition, releasing on Xbox and Nintendo for the first time alongside PS5 and PC."
+    },
+    {
+      "ref": "business/puzzle-dragons-studio-says-a-former-executive-embezzled-2-3",
+      "entities": {
+        "games": [
+          { "id": "puzzle-and-dragons", "name": "Puzzle & Dragons", "aliases": ["Puzzle & Dragons"], "genres": ["puzzle", "rpg"], "franchise": "puzzle-and-dragons", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "gungho", "name": "GungHo", "aliases": ["Gungho"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Puzzle & Dragons studio GungHo says a former executive embezzled $2.3 million in company funds, and its CEO will take a three-month pay cut."
+    },
+    {
+      "ref": "business/peak-sold-1-7m-copies-last-week",
+      "entities": {
+        "games": [
+          { "id": "peak", "name": "Peak", "aliases": [], "genres": ["survival", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1700000, "unit": "copies", "currency": null,
+          "entity": "peak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-19", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Peak sold 1.7m copies last week",
+          "source": { "name": "alineaanalytics.substack.com", "domain": "alineaanalytics.substack.com",
+            "url": "https://alineaanalytics.substack.com/p/peak-sold-18-million-copies-last" } }
+      ],
+      "summary": "The game Peak sold 1.7 million copies last week."
+    }
+  ]
+}

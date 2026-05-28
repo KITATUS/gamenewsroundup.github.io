@@ -1,0 +1,73 @@
+{
+  "date": "2025-04-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/zero-company-is-the-next-star-wars-game-from-respawn",
+      "entities": {
+        "games": [
+          { "id": "zero-company", "name": "Zero Company", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": ["Respawn"], "publisher": "electronic-arts", "inferred": true },
+          { "id": "bit-reactor", "name": "Bit Reactor", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "firaxis-games", "name": "Firaxis Games", "aliases": ["Firaxis"], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        { "metric": "announce_date", "value": "2025-04-19", "unit": "date", "currency": null,
+          "entity": "zero-company", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Full reveal on April 19th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/zero-company-is-the-next-star-wars-game-from-respawn/" } }
+      ],
+      "summary": "Zero Company is the next Star Wars game from Respawn, developed in collaboration with Bit Reactor, with a full reveal on 19 April 2025."
+    },
+    {
+      "ref": "free_games_subscription/metro-s-15-year-anniversary-celebrated-with-free-metro-2033",
+      "entities": {
+        "games": [
+          { "id": "metro-2033-redux", "name": "Metro 2033 Redux", "aliases": [], "genres": ["fps", "survival-horror"], "franchise": "metro", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Metro 2033 Redux is free on Steam, GOG and Xbox until 16 April to mark the Metro series' 15-year anniversary."
+    },
+    {
+      "ref": "rumours/oblivion-remake-planned-to-be-shadowdropped-on-the-week-of-t",
+      "entities": {
+        "games": [
+          { "id": "oblivion-remake", "name": "Oblivion Remake", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "rumour"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-21", "unit": "date", "currency": null,
+          "entity": "oblivion-remake", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-15", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "planned to be shadowdropped on the week of the 21st of April",
+          "source": { "name": "TheGamer", "domain": "thegamer.com", "url": "https://www.thegamer.com/oblivion-remake-release-week-of-april-21-multiple-insiders/" } }
+      ],
+      "summary": "Rumour that the Oblivion Remake is planned to be shadowdropped during the week of 21 April 2025."
+    }
+  ]
+}

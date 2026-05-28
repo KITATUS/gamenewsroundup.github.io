@@ -1,0 +1,121 @@
+{
+  "date": "2025-11-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-mortuary-assistant-dev-unveils-its-next-horror-project-a",
+      "entities": {
+        "games": [
+          { "id": "paranormal-activity-threshold", "name": "Paranormal Activity: Threshold", "aliases": [], "genres": ["horror"], "franchise": "paranormal-activity", "inferred": true },
+          { "id": "the-mortuary-assistant", "name": "The Mortuary Assistant", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "The Mortuary Assistant developer unveiled its next horror project, a Paranormal Activity game titled Paranormal Activity: Threshold."
+    },
+    {
+      "ref": "main_news/arc-raider-is-committed-to-skill-and-fun-not-unfair-advantag",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": ["Arc Raider"], "genres": ["extraction-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Arc Raiders said it is committed to skill and fun over unfair advantages and is refunding gear lost to cheaters, even for players who did not report them."
+    },
+    {
+      "ref": "business/nintendo-wins-lawsuit-against-player-who-kept-streaming-pira",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": true }
+        ],
+        "people": [
+          { "id": "jesse-keighin", "name": "Jesse Keighin", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo won a lawsuit against player Jesse Keighin, who kept streaming pirated Switch games and taunted the company's legal team."
+    },
+    {
+      "ref": "business/roblox-q3-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox", "name": "Roblox", "aliases": ["Roblox Corporation"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1350000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "roblox",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-11-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $1.35 billion, up 48% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-records-better-than-expected-q3-results" }
+        },
+        {
+          "metric": "players_total",
+          "value": 151500000,
+          "unit": "users",
+          "currency": null,
+          "entity": "roblox",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2025-11-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Average Daily Active Users (DAUs): 151.5 million, up 70% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-records-better-than-expected-q3-results" }
+        },
+        {
+          "metric": "playtime_hours",
+          "value": 39600000000,
+          "unit": "hours",
+          "currency": null,
+          "entity": "roblox",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2025-11-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Hours engaged: 39.6 billion, up 91% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-records-better-than-expected-q3-results" }
+        }
+      ],
+      "summary": "Roblox reported better-than-expected Q3 results, with revenue of $1.35 billion up 48% year-on-year."
+    }
+  ]
+}

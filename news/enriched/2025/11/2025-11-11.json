@@ -1,0 +1,157 @@
+{
+  "date": "2025-11-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-direct-focused-on-the-super-mario-galaxy-movie-wedn",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-11-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-direct",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-11-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Wednesday, November 12",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-direct-confirmed-for-the-super-mario-galaxy-movie/"
+          }
+        }
+      ],
+      "summary": "Nintendo has confirmed a Nintendo Direct focused on The Super Mario Galaxy Movie for Wednesday, November 12, 2025."
+    },
+    {
+      "ref": "main_news/playstation-state-of-play-announced-for-today-focused-on-jap",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-11-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-state-of-play",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-11-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PlayStation State of Play announced for today",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/playstation-state-of-play-announced-for-tomorrow"
+          }
+        }
+      ],
+      "summary": "Sony announced a PlayStation State of Play for today, focused on Japanese and Asian games and running about 40 minutes."
+    },
+    {
+      "ref": "business/ghost-of-yotei-sold-3-3-million-copies-in-a-month-sony-says",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 3300000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "ghost-of-yotei",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ghost of Yotei sold 3.3 million copies in a month",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ghost-of-yotei-sold-3-3-million-copies-in-a-month-sony-says/"
+          }
+        }
+      ],
+      "summary": "Sony said Ghost of Yotei sold 3.3 million copies in its first month."
+    },
+    {
+      "ref": "business/on-its-5th-birthday-ps5-sales-remain-virtually-neck-and-neck",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation 4"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "hardware"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 84000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2025-11-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS5 clears 84 million units",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/on-its-5th-birthday-ps5-sales-remain-virtually-neck-and-neck-with-ps4/"
+          }
+        }
+      ],
+      "summary": "On its fifth birthday, the PS5 has cleared 84 million units sold, leaving it roughly two million behind the PS4 at the same point."
+    }
+  ]
+}

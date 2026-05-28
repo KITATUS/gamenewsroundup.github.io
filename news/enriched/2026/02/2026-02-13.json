@@ -1,0 +1,340 @@
+{
+  "date": "2026-02-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/metal-gear-solid-master-collection-2-announced-contains-meta",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-master-collection-2", "name": "Metal Gear Solid Master Collection 2", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true },
+          { "id": "metal-gear-solid-4", "name": "Metal Gear Solid 4", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true },
+          { "id": "metal-gear-solid-peace-walker", "name": "Metal Gear Solid: Peace Walker", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true },
+          { "id": "metal-gear-solid-ghost-babel", "name": "Metal Gear Solid: Ghost Babel", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Nintendo Switch / 2"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-08-27", "unit": "date", "currency": null,
+          "entity": "metal-gear-solid-master-collection-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases August 27th for PS5, Xbox, Nintendo Switch / 2 and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/metal-gear-solid-4-is-finally-coming-to-modern-consoles-in-mgs-master-collection-2/" } }
+      ],
+      "summary": "Metal Gear Solid Master Collection 2 was announced, containing Metal Gear Solid 4, Peace Walker and Ghost Babel, releasing August 27th for PS5, Xbox, Nintendo Switch / 2 and PC."
+    },
+    {
+      "ref": "main_news/silent-hill-townfall-is-based-in-scotland-is-first-person-an",
+      "entities": {
+        "games": [{ "id": "silent-hill-townfall", "name": "Silent Hill: Townfall", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "silent-hill", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "reveal", "gameplay"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "silent-hill-townfall", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "releases in 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/first-gameplay-trailer-of-silent-hill-townfall-reveals-that-its-a-first-person-game/" } }
+      ],
+      "summary": "Silent Hill: Townfall is set in Scotland, is first person and releases in 2026."
+    },
+    {
+      "ref": "main_news/bungie-is-holding-an-open-preview-weekend-for-marathon-later",
+      "entities": {
+        "games": [{ "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }],
+        "studios": [{ "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "release-date"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-02-26", "unit": "date", "currency": null,
+          "entity": "marathon", "entity_type": "game", "scope": "event",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sever Slam preview weekend will run from February 26 to March 2",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-is-holding-an-open-preview-weekend-for-marathon-later-this-month/" } },
+        { "metric": "release_date", "value": "2026-03-05", "unit": "date", "currency": null,
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the full release on March 5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-is-holding-an-open-preview-weekend-for-marathon-later-this-month/" } }
+      ],
+      "summary": "Bungie is holding a Sever Slam open preview weekend for Marathon from February 26 to March 2 on PlayStation 5, Xbox and PC, ahead of the full release on March 5."
+    },
+    {
+      "ref": "main_news/legacy-of-kain-is-getting-a-defiance-remaster-and-a-new-2d-a",
+      "entities": {
+        "games": [
+          { "id": "legacy-of-kain-defiance", "name": "Legacy of Kain: Defiance", "aliases": ["Defiance"], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "legacy-of-kain-ascending", "name": "Legacy of Kain Ascending", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "legacy-of-kain-dark-prophecy", "name": "Legacy of Kain: Dark Prophecy", "aliases": ["Dark Prophecy"], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-03", "unit": "date", "currency": null,
+          "entity": "legacy-of-kain-defiance", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Defiance launches March 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/legacy-of-kain-defiance-is-getting-a-remaster-including-a-demo-of-a-cancelled-sequel/" } },
+        { "metric": "release_date", "value": "2026-03-31", "unit": "date", "currency": null,
+          "entity": "legacy-of-kain-ascending", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Legacy of Kain Ascending releases March 31st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/legacy-of-kain-defiance-is-getting-a-remaster-including-a-demo-of-a-cancelled-sequel/" } }
+      ],
+      "summary": "Legacy of Kain is getting a Defiance remaster launching March 3 and a new 2D action game, Legacy of Kain Ascending, releasing March 31st."
+    },
+    {
+      "ref": "main_news/new-saros-trailer-addresses-returnal-complaints-head-on-with",
+      "entities": {
+        "games": [
+          { "id": "saros", "name": "Saros", "aliases": [], "genres": ["roguelike", "tps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "returnal", "name": "Returnal", "aliases": [], "genres": ["roguelike", "tps", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "housemarque", "name": "Housemarque", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "A new Saros trailer addresses Returnal complaints with a permanent progression system."
+    },
+    {
+      "ref": "main_news/rayman-30th-anniversary-edition-is-officially-coming-this-we",
+      "entities": {
+        "games": [
+          { "id": "rayman-30th-anniversary-edition", "name": "Rayman: 30th Anniversary Edition", "aliases": [], "genres": ["platformer"], "franchise": "rayman", "inferred": true },
+          { "id": "rayman-1", "name": "Rayman 1", "aliases": [], "genres": ["platformer"], "franchise": "rayman", "inferred": true }
+        ],
+        "studios": [{ "id": "digital-eclipse", "name": "Digital Eclipse", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "remaster-remake", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-02-13", "unit": "date", "currency": null,
+          "entity": "rayman-30th-anniversary-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/rayman-30th-anniversary-edition-is-officially-coming-this-week-courtesy-of-digital-eclipse/" } }
+      ],
+      "summary": "Rayman: 30th Anniversary Edition, courtesy of Digital Eclipse, releases today with six versions of Rayman 1 including a SNES prototype."
+    },
+    {
+      "ref": "main_news/playstation-shadow-drops-god-of-war-2d-spin-off-and-confirms",
+      "entities": {
+        "games": [
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "god-of-war-sons-of-sparta", "name": "God of War: Sons of Sparta", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "PlayStation shadow dropped the God of War 2D spin-off God of War: Sons of Sparta, available now, and confirmed a Trilogy remake in early development."
+    },
+    {
+      "ref": "main_news/john-wick-game-starring-keanu-reeves-revealed-during-state-o",
+      "entities": {
+        "games": [{ "id": "john-wick", "name": "John Wick", "aliases": [], "genres": ["action-adventure"], "franchise": "john-wick", "inferred": true }],
+        "studios": [{ "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "keanu-reeves", "name": "Keanu Reeves", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["reveal", "showcase", "announcement"],
+      "facts": [],
+      "summary": "A John Wick game starring Keanu Reeves and developed by Saber Interactive was revealed during State of Play."
+    },
+    {
+      "ref": "main_news/castlevania-belmont-s-curse-is-a-new-castlevania-game-coming",
+      "entities": {
+        "games": [{ "id": "castlevania-belmonts-curse", "name": "Castlevania: Belmont's Curse", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "castlevania", "inferred": true }],
+        "studios": [{ "id": "evil-empire", "name": "Evil Empire", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "castlevania-belmonts-curse", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "releasing in 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/castlevania-belmonts-curse-is-a-new-castlevania-game-coming-in-2026/" } }
+      ],
+      "summary": "Castlevania: Belmont's Curse is a new Castlevania game coming in 2026 from the developers of Dead Cells and The Rogue Prince of Persia."
+    },
+    {
+      "ref": "main_news/a-new-dead-or-alive-game-is-in-development-while-dead-or-ali",
+      "entities": {
+        "games": [
+          { "id": "dead-or-alive", "name": "Dead or Alive", "aliases": [], "genres": ["fighting"], "franchise": "dead-or-alive", "inferred": true },
+          { "id": "dead-or-alive-6-last-round", "name": "Dead or Alive 6: Last Round", "aliases": [], "genres": ["fighting"], "franchise": "dead-or-alive", "inferred": true }
+        ],
+        "studios": [{ "id": "team-ninja", "name": "Team Ninja", "aliases": [], "publisher": "koei-tecmo", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "A new Dead or Alive game is in development, while Dead or Alive 6: Last Round is coming in June."
+    },
+    {
+      "ref": "main_news/ghost-of-yotei-s-legends-multiplayer-mode-is-coming-next-mon",
+      "entities": {
+        "games": [{ "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }],
+        "studios": [{ "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch", "free-game"],
+      "facts": [],
+      "summary": "Ghost of Yotei's free Legends co-op multiplayer mode, featuring three modes, is coming next month."
+    },
+    {
+      "ref": "main_news/death-stranding-2-is-coming-to-pc-next-month-march-19",
+      "entities": {
+        "games": [{ "id": "death-stranding-2", "name": "Death Stranding 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "death-stranding", "inferred": true }],
+        "studios": [{ "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "pc", "name": "PC", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-19", "unit": "date", "currency": null,
+          "entity": "death-stranding-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Death Stranding 2 is coming to PC next month - March 19",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/death-stranding-2-is-coming-to-pc-next-month/" } }
+      ],
+      "summary": "Death Stranding 2 is coming to PC on March 19."
+    },
+    {
+      "ref": "main_news/playstation-adventure-kena-bridge-of-spirits-is-getting-a-ps",
+      "entities": {
+        "games": [
+          { "id": "kena-bridge-of-spirits", "name": "Kena: Bridge of Spirits", "aliases": [], "genres": ["action-adventure"], "franchise": "kena", "inferred": true },
+          { "id": "kena-scars-of-kosmora", "name": "Kena: Scars of Kosmora", "aliases": [], "genres": ["action-adventure"], "franchise": "kena", "inferred": true }
+        ],
+        "studios": [{ "id": "ember-lab", "name": "Ember Lab", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "kena-scars-of-kosmora", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Kena: Scars of Kosmora will release for PS5 and PC this year",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-adventure-kena-bridge-of-spirits-is-getting-a-ps5-and-pc-sequel-this-year/" } }
+      ],
+      "summary": "Kena: Bridge of Spirits is getting a PS5 and PC sequel, Kena: Scars of Kosmora, releasing this year."
+    },
+    {
+      "ref": "main_news/helldivers-movie-lands-minecraft-and-street-fighter-actor-ja",
+      "entities": {
+        "games": [{ "id": "helldivers", "name": "Helldivers", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "jason-momoa", "name": "Jason Momoa", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Helldivers movie has cast Minecraft and Street Fighter actor Jason Momoa."
+    },
+    {
+      "ref": "free_games_subscription/february-ps-plus-game-catalog-titles-confirmed",
+      "entities": {
+        "games": [
+          { "id": "marvels-spider-man-2", "name": "Marvel's Spider-Man 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "spider-man", "inferred": true },
+          { "id": "test-drive-unlimited-solar-crown", "name": "Test Drive Unlimited Solar Crown", "aliases": [], "genres": ["racing"], "franchise": "test-drive", "inferred": true },
+          { "id": "neva", "name": "Neva", "aliases": [], "genres": ["adventure", "platformer"], "franchise": null, "inferred": true },
+          { "id": "season-a-letter-to-the-future", "name": "Season: A Letter to the Future", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "monster-hunter-stories-2-wings-of-ruin", "name": "Monster Hunter Stories 2: Wings of Ruin", "aliases": [], "genres": ["rpg", "jrpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "monster-hunter-stories", "name": "Monster Hunter Stories", "aliases": [], "genres": ["rpg", "jrpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "venba", "name": "Venba", "aliases": [], "genres": ["adventure", "visual-novel"], "franchise": null, "inferred": true },
+          { "id": "echoes-of-the-end", "name": "Echoes of the End: Enhanced Edition", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "rugby-25", "name": "Rugby 25", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "disney-pixar-wall-e", "name": "Disney Pixar Wall-E", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus Premium"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Sony confirmed the February PS Plus Game Catalog titles, led by Marvel's Spider-Man 2."
+    },
+    {
+      "ref": "business/kingdom-come-deliverance-ii-surpasses-5-million-sales-within",
+      "entities": {
+        "games": [{ "id": "kingdom-come-deliverance-ii", "name": "Kingdom Come: Deliverance II", "aliases": [], "genres": ["action-rpg", "rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true }],
+        "studios": [{ "id": "warhorse-studios", "name": "Warhorse Studios", "aliases": [], "publisher": "deep-silver", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 5000000, "unit": "units", "currency": null,
+          "entity": "kingdom-come-deliverance-ii", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Kingdom Come: Deliverance II surpasses 5 million sales within first year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/kingdom-come-deliverance-ii-surpasses-5-million-sales-within-first-year" } }
+      ],
+      "summary": "Kingdom Come: Deliverance II has surpassed 5 million sales within its first year."
+    },
+    {
+      "ref": "rumours/gtfo-developer-10-chambers-lays-off-staff-following-co-found",
+      "entities": {
+        "games": [{ "id": "gtfo", "name": "GTFO", "aliases": [], "genres": ["fps", "horror", "shooter"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "10-chambers", "name": "10 Chambers", "aliases": ["10 Chambers Collective"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Rumour that GTFO developer 10 Chambers laid off staff following a co-founder's departure after a decade to go indie."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "date": "2025-03-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/respawn-s-next-star-wars-game-confirmed-for-reveal",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": ["Respawn"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-04-19", "unit": "date", "currency": null,
+          "entity": "star-wars-celebration", "entity_type": "product", "scope": "event",
+          "as_of": "2025-03-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "strategy game will be revealed at celebration on April 19th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/respawns-next-star-wars-game-confirmed-for-reveal/" } }
+      ],
+      "summary": "Respawn's next Star Wars game, a turn-based tactics strategy title, will be revealed at Star Wars Celebration on 19 April 2025."
+    },
+    {
+      "ref": "main_news/star-wars-hunters-to-be-sunset-later-this-year",
+      "entities": {
+        "games": [
+          { "id": "star-wars-hunters", "name": "Star Wars: Hunters", "aliases": [], "genres": ["hero-shooter"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "zynga", "name": "Zynga", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-03-25", "unit": "date", "currency": null,
+          "entity": "star-wars-hunters", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Season 5 of Star Wars: Hunters will be extended by three weeks, beginning on March 25, 2025.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/star-wars-hunters-to-be-sunset-later-this-year" } },
+        { "metric": "shutdown_date", "value": "2025-04-15", "unit": "date", "currency": null,
+          "entity": "star-wars-hunters", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The final update for all platforms, including Switch, iOS, and Android, will be on April 15, 2025.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/star-wars-hunters-to-be-sunset-later-this-year" } }
+      ],
+      "summary": "Star Wars: Hunters will be sunset later this year, with its final update across Switch, iOS, and Android arriving on 15 April 2025."
+    },
+    {
+      "ref": "main_news/uk-you-can-now-order-cex-from-justeat",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "UK customers can now order from games retailer CEX via JustEat."
+    },
+    {
+      "ref": "business/playstation-is-partnering-with-people-can-fly-on-a-playstati",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "PlayStation is partnering with People Can Fly, which is building a prototype based on an existing PlayStation IP."
+    },
+    {
+      "ref": "business/final-fantasy-series-has-now-sold-over-200m-copies-worldwide",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy", "name": "Final Fantasy", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "final-fantasy-pixel-remaster", "name": "Final Fantasy Pixel Remaster", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 200000000, "unit": "copies", "currency": null,
+          "entity": "final-fantasy", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-03-17", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Final Fantasy series has now sold over 200m copies worldwide",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/final-fantasy-series-has-now-sold-over-200m-copies-worldwide" } },
+        { "metric": "copies_sold", "value": 5000000, "unit": "copies", "currency": null,
+          "entity": "final-fantasy-pixel-remaster", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-17", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Final Fantasy Pixel Remaster sells over 5m copies alone",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/final-fantasy-series-has-now-sold-over-200m-copies-worldwide" } }
+      ],
+      "summary": "The Final Fantasy series has now sold over 200 million copies worldwide, with the Pixel Remaster collection accounting for over 5 million."
+    },
+    {
+      "ref": "business/split-fiction-reaches-2m-sales-in-one-week",
+      "entities": {
+        "games": [
+          { "id": "split-fiction", "name": "Split Fiction", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hazelight-studios", "name": "Hazelight Studios", "aliases": ["Hazelight"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "copies", "currency": null,
+          "entity": "split-fiction", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Split Fiction reaches 2m sales in one week",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/hazelightgames.bsky.social/post/3lkbeztsqbs2b" } }
+      ],
+      "summary": "Split Fiction has reached 2 million sales within one week of release."
+    }
+  ]
+}

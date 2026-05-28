@@ -1,0 +1,261 @@
+{
+  "date": "2025-05-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/former-xbox-console-exclusive-senua-s-saga-hellblade-ii-is-h",
+      "entities": {
+        "games": [
+          {
+            "id": "senuas-saga-hellblade-ii",
+            "name": "Senua's Saga: Hellblade II",
+            "aliases": ["Senua‛s Saga: Hellblade II"],
+            "genres": ["action-adventure"],
+            "franchise": "hellblade",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ninja-theory",
+            "name": "Ninja Theory",
+            "aliases": [],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Senua's Saga: Hellblade II, formerly an Xbox console exclusive, is coming to PS5."
+    },
+    {
+      "ref": "main_news/sony-confirms-it-s-ending-its-playstation-stars-loyalty-prog",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PlayStation Stars"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Sony confirmed it is ending its PlayStation Stars loyalty program."
+    },
+    {
+      "ref": "main_news/michael-bay-skibidi-toilet-adaptation-officially-in-producti",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "michael-bay", "name": "Michael Bay", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Michael Bay Skibidi Toilet adaptation is officially in production."
+    },
+    {
+      "ref": "main_news/cyberpunk-2077-sequel-features-second-city-in-addition-to-ni",
+      "entities": {
+        "games": [
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Cyberpunk 2077 sequel will feature a second city, in addition to Night City, that the series creator describes as like \"Chicago gone wrong\"."
+    },
+    {
+      "ref": "free_games_subscription/xbox-and-antstream-arcade-have-launched-a-new-retro-classics",
+      "entities": {
+        "games": [
+          { "id": "commando", "name": "Commando", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "grand-prix", "name": "Grand Prix", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "kaboom", "name": "Kaboom!", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "mech-warrior-2-31st-century-combat", "name": "Mech Warrior 2: 31st Century Combat", "aliases": [], "genres": ["simulation"], "franchise": "mechwarrior", "inferred": true },
+          { "id": "pitfall", "name": "Pitfall", "aliases": [], "genres": ["platformer"], "franchise": "pitfall", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "game-pass", "name": "Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "partnership", "release"],
+      "facts": [],
+      "summary": "Xbox and Antstream Arcade launched a new Retro Classics service on Game Pass featuring titles including Commando, Grand Prix, Kaboom!, Mech Warrior 2: 31st Century Combat, and Pitfall."
+    },
+    {
+      "ref": "free_games_subscription/here-re-the-games-leaving-playstation-plus-extra-and-premium",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-rise", "name": "Monster Hunter Rise", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "rogue-legacy-2", "name": "Rogue Legacy 2", "aliases": [], "genres": ["roguelike", "platformer"], "franchise": "rogue-legacy", "inferred": true },
+          { "id": "inscryption", "name": "Inscryption", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "after-us", "name": "After Us", "aliases": [], "genres": ["platformer", "adventure"], "franchise": null, "inferred": true },
+          { "id": "kayak-vr-mirage", "name": "Kayak VR: Mirage", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "avicii-invector", "name": "Avicii Invector", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Several games, including Monster Hunter Rise, Rogue Legacy 2, and Inscryption, are leaving PlayStation Plus Extra and Premium in June."
+    },
+    {
+      "ref": "business/king-of-activision-king-blizzard-microsoft-appoints-todd-gre",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "king", "name": "King", "aliases": [], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "activision-blizzard", "name": "Activision Blizzard", "aliases": ["Activision King Blizzard"], "inferred": true },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "todd-green", "name": "Todd Green", "aliases": [], "inferred": false },
+          { "id": "tjodolf-sommestad", "name": "Tjodolf Sommestad", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "King, part of Activision Blizzard under Microsoft, appointed Todd Green as president following Tjodolf Sommestad's departure."
+    },
+    {
+      "ref": "business/ubisoft-ceo-yves-guillemot-and-hr-director-marie-derain-will",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "yves-guillemot", "name": "Yves Guillemot", "aliases": [], "inferred": false },
+          { "id": "marie-derain", "name": "Marie Derain", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Ubisoft CEO Yves Guillemot and HR director Marie Derain will be summoned to court in the Ubisoft harassment trial to highlight the alleged systemic nature of harassment at the company."
+    },
+    {
+      "ref": "business/doom-the-dark-ages-reaches-3m-players",
+      "entities": {
+        "games": [
+          {
+            "id": "doom-the-dark-ages",
+            "name": "Doom: The Dark Ages",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "doom",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "id-software", "name": "id Software", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "bethesda-softworks", "name": "Bethesda Softworks", "aliases": ["Bethesda"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 3000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "doom-the-dark-ages",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-22",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Doom: The Dark Ages reaches 3m players",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/bethesda/status/1924921261253075244"
+          }
+        }
+      ],
+      "summary": "Doom: The Dark Ages has reached 3 million players."
+    },
+    {
+      "ref": "rumours/looks-like-ubisoft-is-giving-rayman-an-aaa-revival-after-las",
+      "entities": {
+        "games": [
+          {
+            "id": "rayman",
+            "name": "Rayman",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "rayman",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Ubisoft is giving Rayman an \"AAA\" revival following last year's \"exploration phase\"."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "date": "2025-08-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/guilty-gear-strive-season-pass-4-s-lucy-from-cyberpunk-edger",
+      "entities": {
+        "games": [
+          { "id": "guilty-gear-strive", "name": "GUILTY GEAR -STRIVE-", "aliases": ["GUILTY GEAR STRIVE"], "genres": ["fighting"], "franchise": "guilty-gear", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arc-system-works", "name": "Arc System Works", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "lucy", "name": "Lucy", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-21", "unit": "date", "currency": null,
+          "entity": "guilty-gear-strive", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "releases August 21st",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=7sacvUzDV_Q" } }
+      ],
+      "summary": "An overview trailer was released for GUILTY GEAR -STRIVE- Season Pass 4's Lucy (from Cyberpunk Edgerunners), which releases August 21st."
+    },
+    {
+      "ref": "main_news/new-virtua-fighter-project-video-released-showcasing-combat",
+      "entities": {
+        "games": [
+          { "id": "virtua-fighter", "name": "VIRTUA FIGHTER", "aliases": [], "genres": ["fighting"], "franchise": "virtua-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "gameplay"],
+      "facts": [],
+      "summary": "A new VIRTUA FIGHTER project video was released showcasing combat."
+    },
+    {
+      "ref": "main_news/armor-king-showcased-for-tekken-8-season-2-dlc-launches-octo",
+      "entities": {
+        "games": [
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bandai-namco-studios", "name": "Bandai Namco Studios", "aliases": [], "publisher": "bandai-namco-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "armor-king", "name": "Armor King", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "reveal", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-13", "unit": "date", "currency": null,
+          "entity": "tekken-8", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launches October 13th for Season 2 Character Pass owners",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=RBjhCpvBtyk" } },
+        { "metric": "release_date", "value": "2025-10-16", "unit": "date", "currency": null,
+          "entity": "tekken-8", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "October 16th for all users",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=RBjhCpvBtyk" } }
+      ],
+      "summary": "Armor King was showcased for Tekken 8 Season 2 DLC, launching October 13th for Season 2 Character Pass owners and October 16th for all users."
+    },
+    {
+      "ref": "main_news/marvel-t-kon-fighting-souls-ps5-closed-beta-announced-septem",
+      "entities": {
+        "games": [
+          { "id": "marvel-tokon-fighting-souls", "name": "MARVEL Tōkon: Fighting Souls", "aliases": [], "genres": ["fighting"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-05", "unit": "date", "currency": null,
+          "entity": "marvel-tokon-fighting-souls", "entity_type": "game", "scope": "event",
+          "as_of": "2025-08-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PS5 Closed Beta announced - September 5th - 7th",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=qpYZUnPFqbc" } }
+      ],
+      "summary": "A PS5 Closed Beta for MARVEL Tōkon: Fighting Souls was announced, running September 5th to 7th."
+    },
+    {
+      "ref": "main_news/battlefield-6-s-ugc-is-powered-by-godot",
+      "entities": {
+        "games": [
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ea", "name": "EA", "aliases": ["Electronic Arts"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Battlefield 6's user-generated content is powered by the Godot engine."
+    },
+    {
+      "ref": "main_news/gothic-classic-gothic-1-2-and-3-announced-for-xbox-one-serie",
+      "entities": {
+        "games": [
+          { "id": "gothic-classic", "name": "Gothic Classic", "aliases": [], "genres": ["action-rpg"], "franchise": "gothic", "inferred": true },
+          { "id": "gothic", "name": "Gothic", "aliases": ["Gothic 1"], "genres": ["action-rpg"], "franchise": "gothic", "inferred": true },
+          { "id": "gothic-2", "name": "Gothic 2", "aliases": [], "genres": ["action-rpg"], "franchise": "gothic", "inferred": true },
+          { "id": "gothic-3", "name": "Gothic 3", "aliases": [], "genres": ["action-rpg"], "franchise": "gothic", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S / X", "aliases": ["Series S", "Series X"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port", "remaster-remake"],
+      "facts": [],
+      "summary": "Gothic Classic (Gothic 1, 2 and 3) was announced for Xbox One, Series S/X and PS4/5."
+    },
+    {
+      "ref": "business/bioshock-4-s-leadership-replaced-as-2k-insists-it-s-committe",
+      "entities": {
+        "games": [
+          { "id": "bioshock-4", "name": "BioShock 4", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "bioshock", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cloud-chamber", "name": "Cloud Chamber", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": ["2K Games"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "BioShock 4's director and studio head were replaced after the game reportedly failed an internal development review, with 2K insisting it remains committed to delivering a great game."
+    },
+    {
+      "ref": "rumours/bioshock-1-remake-shelved",
+      "entities": {
+        "games": [
+          { "id": "bioshock", "name": "Bioshock 1", "aliases": ["BioShock"], "genres": ["fps", "action-adventure"], "franchise": "bioshock", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": ["2K Games"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that a remake of Bioshock 1 has been shelved."
+    }
+  ]
+}

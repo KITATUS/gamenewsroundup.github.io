@@ -1,0 +1,73 @@
+{
+  "date": "2025-12-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/monkey-island-creator-ron-gilbert-cancels-2d-pixel-art-zelda",
+      "entities": {
+        "games": [
+          { "id": "monkey-island", "name": "Monkey Island", "aliases": [], "genres": ["adventure"], "franchise": "monkey-island", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ron-gilbert", "name": "Ron Gilbert", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Monkey Island creator Ron Gilbert has cancelled a 2D pixel-art Zelda-like RPG after failing to secure acceptable publisher funding."
+    },
+    {
+      "ref": "main_news/the-game-award-s-player-choice-round-1-is-live-vote-now",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Game Awards' Player Choice Round 1 public voting is now live."
+    },
+    {
+      "ref": "business/japanese-game-developers-face-ridiculously-high-font-license",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change", "acquisition"],
+      "facts": [
+        {
+          "metric": "price", "value": 60000, "unit": "price", "currency": "JPY",
+          "entity": "lets", "entity_type": "product", "scope": "product",
+          "as_of": "2025-12-02", "period": "annual", "direction": null, "confidence": "medium",
+          "quote": "roughly 60,000 yen a year",
+          "source": { "name": "Automaton", "domain": "automaton-media.com", "url": "https://automaton-media.com/en/news/japanese-game-developers-face-ridiculously-high-fo[…]estic-provider-live-service-games-to-take-the-biggest-blow/" }
+        },
+        {
+          "metric": "price", "value": 380, "unit": "price", "currency": "USD",
+          "entity": "lets", "entity_type": "product", "scope": "product",
+          "as_of": "2025-12-02", "period": "annual", "direction": null, "confidence": "medium",
+          "quote": "around USD $380",
+          "source": { "name": "Automaton", "domain": "automaton-media.com", "url": "https://automaton-media.com/en/news/japanese-game-developers-face-ridiculously-high-fo[…]estic-provider-live-service-games-to-take-the-biggest-blow/" }
+        },
+        {
+          "metric": "price", "value": 20500, "unit": "price", "currency": "USD",
+          "entity": "monotype", "entity_type": "company", "scope": "product",
+          "as_of": "2025-12-02", "period": "annual", "direction": "up", "confidence": "medium",
+          "quote": "is reported to cost $20,500 per year",
+          "source": { "name": "Automaton", "domain": "automaton-media.com", "url": "https://automaton-media.com/en/news/japanese-game-developers-face-ridiculously-high-fo[…]estic-provider-live-service-games-to-take-the-biggest-blow/" }
+        }
+      ],
+      "summary": "Japanese game developers face sharply higher Japanese font licensing fees after a US acquisition of a major provider replaced the old LETS plan with Monotype's pricing."
+    }
+  ]
+}

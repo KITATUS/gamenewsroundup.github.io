@@ -1,0 +1,257 @@
+{
+  "date": "2024-09-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cristiano-ronaldo-is-being-added-to-fatal-fury-city-of-the-w",
+      "entities": {
+        "games": [
+          { "id": "fatal-fury-city-of-the-wolves", "name": "Fatal Fury: City of the Wolves", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true }
+        ],
+        "studios": [
+          { "id": "snk", "name": "SNK", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "cristiano-ronaldo", "name": "Cristiano Ronaldo", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-24", "unit": "date", "currency": null,
+          "entity": "fatal-fury-city-of-the-wolves", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Game releases 24th April 2025",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/Cristiano/status/1837556864315187418" } }
+      ],
+      "summary": "Cristiano Ronaldo is being added to the fighting game Fatal Fury: City of the Wolves, which releases on 24 April 2025."
+    },
+    {
+      "ref": "main_news/playstation-s-state-of-play-returns-tonight-with-a-look-at-o",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "ps-vr2", "name": "PS VR2", "aliases": ["PS VR 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "PlayStation's State of Play returns tonight with a look at over 20 games for PS5 and PS VR2."
+    },
+    {
+      "ref": "main_news/grezzo-s-zelda-echoes-of-wisdom-started-out-as-a-dungeon-cre",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-echoes-of-wisdom", "name": "The Legend of Zelda: Echoes of Wisdom", "aliases": ["Zelda: Echoes of Wisdom"], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [
+          { "id": "grezzo", "name": "Grezzo", "aliases": [], "publisher": "nintendo", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Grezzo's Zelda: Echoes of Wisdom, the studio's first brand-new entry in the Zelda series, started out as a dungeon creation game."
+    },
+    {
+      "ref": "main_news/double-dragon-artist-says-arc-system-works-revival-shows-no",
+      "entities": {
+        "games": [
+          { "id": "double-dragon", "name": "Double Dragon", "aliases": [], "genres": ["fighting"], "franchise": "double-dragon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arc-system-works", "name": "Arc System Works", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Double Dragon artist says Arc System Works' revival of the series shows no respect to the original."
+    },
+    {
+      "ref": "business/netease-subsidiary-skybox-labs-lays-off-25-people",
+      "entities": {
+        "games": [
+          { "id": "halo-infinite", "name": "Halo Infinite", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true },
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["survival", "sandbox"], "franchise": "minecraft", "inferred": true },
+          { "id": "fallout-76", "name": "Fallout 76", "aliases": [], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "skybox-labs", "name": "Skybox Labs", "aliases": [], "publisher": "netease", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 25, "unit": "people", "currency": null,
+          "entity": "skybox-labs", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Skybox Labs lays off 25 people",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/netease-subsidiary-skybox-labs-lays-off-25-people" } }
+      ],
+      "summary": "NetEase subsidiary Skybox Labs, co-developer of Halo Infinite, Minecraft and Fallout 76, has laid off 25 people."
+    },
+    {
+      "ref": "business/airship-syndicate-cuts-another-16-jobs",
+      "entities": {
+        "games": [
+          { "id": "wayfinder", "name": "Wayfinder", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "airship-syndicate", "name": "Airship Syndicate", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "digital-extremes", "name": "Digital Extremes", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 16, "unit": "jobs", "currency": null,
+          "entity": "airship-syndicate", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Airship Syndicate cuts another 16 jobs",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/airship-syndicate-cuts-another-16-jobs" } }
+      ],
+      "summary": "Airship Syndicate, the Austin-based studio that gained full publishing control of Wayfinder, has cut another 16 jobs amid industry challenges."
+    },
+    {
+      "ref": "business/nitro-games-extends-warframe-developer-digital-extremes-part",
+      "entities": {
+        "games": [
+          { "id": "warframe", "name": "Warframe", "aliases": [], "genres": ["tps", "action-rpg"], "franchise": "warframe", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nitro-games", "name": "Nitro Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "digital-extremes", "name": "Digital Extremes", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 5500000, "unit": "currency", "currency": "USD",
+          "entity": "nitro-games", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Digital Extremes** partnership with new $5.5m deal",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nitro-games-extends-warframe-developer-digital-extremes-partnership-with-new-55m-deal" } },
+        { "metric": "funding_raised", "value": 19500000, "unit": "currency", "currency": "USD",
+          "entity": "nitro-games", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-24", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "That brings the total project order to around $19.5m",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nitro-games-extends-warframe-developer-digital-extremes-partnership-with-new-55m-deal" } }
+      ],
+      "summary": "Nitro Games has extended its partnership with Warframe developer Digital Extremes with a new $5.5m deal, bringing the total project order to around $19.5m."
+    },
+    {
+      "ref": "business/two-games-addiction-lawsuits-dismissed",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "activision-blizzard", "name": "Activision Blizzard", "aliases": [], "inferred": false },
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Two games addiction lawsuits against firms including Activision Blizzard, Epic Games and Roblox, filed in Arkansas and Ohio on behalf of minors, were voluntarily dismissed."
+    },
+    {
+      "ref": "business/stellarblade-the-film-company-is-suing-sony-over-stellar-bla",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Stellarblade, a film company, is suing Sony, Shift Up and Sony's liability insurer, claiming the game Stellar Blade's use of the name is damaging its business."
+    },
+    {
+      "ref": "business/platinumgames-has-acquired-the-wonderful-101-trademark-from",
+      "entities": {
+        "games": [
+          { "id": "the-wonderful-101", "name": "The Wonderful 101", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "platinumgames", "name": "PlatinumGames", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "PlatinumGames has acquired the trademark for The Wonderful 101 from Nintendo, with a legal document showing the transfer was agreed last month."
+    },
+    {
+      "ref": "business/don-t-nod-financial-results-hy1-2024-2025",
+      "entities": {
+        "games": [
+          { "id": "banishers", "name": "Banishers", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "jusant", "name": "Jusant", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "don-t-nod", "name": "Don't Nod", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 14600000, "unit": "currency", "currency": "EUR",
+          "entity": "don-t-nod", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-24", "period": null, "direction": "down", "confidence": "high",
+          "quote": "Operational Revenue: €14.6 million for the first half of 2024-2025, down 11% from €16.5 million in 2023.",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/don-t-nod-disappointed-by-2024-s-first-half-financials-exploring-new-roadmap-options" } },
+        { "metric": "revenue", "value": 16500000, "unit": "currency", "currency": "EUR",
+          "entity": "don-t-nod", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-24", "period": null, "direction": null, "confidence": "high",
+          "quote": "down 11% from €16.5 million in 2023",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/don-t-nod-disappointed-by-2024-s-first-half-financials-exploring-new-roadmap-options" } },
+        { "metric": "revenue", "value": 2000000, "unit": "currency", "currency": "EUR",
+          "entity": "don-t-nod", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-24", "period": null, "direction": "down", "confidence": "high",
+          "quote": "Development Revenues: Decreased to €2.0 million.",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/don-t-nod-disappointed-by-2024-s-first-half-financials-exploring-new-roadmap-options" } }
+      ],
+      "summary": "Don't Nod reported H1 2024-2025 operational revenue of €14.6 million, down 11% year on year, alongside write-downs for Banishers, Jusant and paused projects."
+    }
+  ]
+}

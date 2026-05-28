@@ -1,0 +1,160 @@
+{
+  "date": "2025-03-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/something-very-similar-to-fsr-4-is-coming-to-ps5-pro-in-2026",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "mark-cerny", "name": "Mark Cerny", "aliases": ["Cerny"], "inferred": true }
+        ]
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Sony's Mark Cerny said technology very similar to FSR 4 is coming to the PS5 Pro in 2026, stemming from the Sony-AMD Project Amethyst collaboration."
+    },
+    {
+      "ref": "main_news/call-of-duty-warzone-s-iconic-verdansk-map-returns-next-mont",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-warzone", "name": "Call of Duty: Warzone", "aliases": ["Call of Duty Warzone"], "genres": ["battle-royale", "fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-04-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "call-of-duty-warzone",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Verdansk returns to Call of Duty: Warzone on April 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/call-of-duty-warzones-iconic-verdansk-map-returns-next-month-activision-confirms/" }
+        }
+      ],
+      "summary": "Activision confirmed that Call of Duty: Warzone's Verdansk map will return on 3 April 2025."
+    },
+    {
+      "ref": "main_news/a-new-lego-mario-kart-set-aimed-at-adults-has-been-announced",
+      "entities": {
+        "games": [
+          { "id": "mario-kart", "name": "Mario Kart", "aliases": [], "genres": ["racing"], "franchise": "mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "lego", "name": "Lego", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-05-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "lego-mario-kart-mario-standard-kart",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-03-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Launches May 15th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-new-lego-mario-kart-set-aimed-at-adults-has-appeared-online-ahead-of-an-official-announcement/" }
+        }
+      ],
+      "summary": "A new adult-oriented Lego Mario Kart set, Mario & Standard Kart, was announced and launches on 15 May 2025."
+    },
+    {
+      "ref": "main_news/silent-hill-transmission-set-for-march-13-3pm-pt-6pm-et-10pm",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-03-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "silent-hill-transmission",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-03-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill Transmission Set for March 13",
+          "source": { "name": "VGChartz", "domain": "vgchartz.com", "url": "https://www.vgchartz.com/article/464141/silent-hill-transmission-set-for-march-13-to-feature-silent-hill-f/" }
+        }
+      ],
+      "summary": "A Silent Hill Transmission showcase is set for 13 March 2025 and will feature Silent Hill f."
+    },
+    {
+      "ref": "business/split-fiction-crosses-massive-sales-milestone-in-just-48-hou",
+      "entities": {
+        "games": [
+          { "id": "split-fiction", "name": "Split Fiction", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hazelight-studios", "name": "Hazelight Studios", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "split-fiction",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-03-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "1 million copies sold",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/split-fiction-crosses-massive-sales-milestone-in-just-48-hours/" }
+        }
+      ],
+      "summary": "Split Fiction sold 1 million copies within 48 hours of release."
+    }
+  ]
+}

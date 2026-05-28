@@ -1,0 +1,271 @@
+{
+  "date": "2025-07-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/neil-druckmann-is-stepping-away-from-the-last-of-us-tv-show",
+      "entities": {
+        "games": [
+          { "id": "the-last-of-us", "name": "The Last of Us", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true }
+        ],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "neil-druckmann", "name": "Neil Druckmann", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Neil Druckmann is stepping away from The Last of Us TV show to focus on game development."
+    },
+    {
+      "ref": "main_news/blizzard-is-giving-up-on-its-warcraft-mobile-game-warcraft-r",
+      "entities": {
+        "games": [
+          { "id": "warcraft-rumble", "name": "Warcraft Rumble", "aliases": [], "genres": ["strategy"], "franchise": "warcraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "layoffs"],
+      "facts": [],
+      "summary": "Blizzard is ending new content development for its free-to-play mobile strategy game Warcraft Rumble amid layoffs, shifting to in-game events and bug fixes."
+    },
+    {
+      "ref": "main_news/nexus-mods-is-getting-age-verification-for-uk-and-eu-users-w",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nexus-mods", "name": "Nexus Mods", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Nexus Mods is introducing age verification for UK and EU users, weeks after changing owners."
+    },
+    {
+      "ref": "main_news/rockstar-releases-surprise-red-dead-online-update-despite-pr",
+      "entities": {
+        "games": [
+          { "id": "red-dead-online", "name": "Red Dead Online", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "red-dead", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Rockstar released a surprise Red Dead Online update called Strange Tales of the West, adding four supernatural-themed missions despite previously ending major support."
+    },
+    {
+      "ref": "main_news/dave-the-diver-director-says-there-s-nothing-indie-about-it",
+      "entities": {
+        "games": [
+          { "id": "dave-the-diver", "name": "Dave the Diver", "aliases": [], "genres": ["adventure", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The director of Dave the Diver says there is nothing indie about the game and that he did not apply for its controversial Game Awards nomination."
+    },
+    {
+      "ref": "main_news/mark-cerny-says-ps5-pro-will-get-its-major-replacement-for-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "mark-cerny", "name": "Mark Cerny", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [],
+      "summary": "Mark Cerny says the PS5 Pro will receive AMD's FSR 4 as a major replacement for the current PSSR upscaler next year."
+    },
+    {
+      "ref": "business/zenimax-online-studios-boss-confirms-departure-amidst-rumour",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "zenimax-online-studios", "name": "ZeniMax Online Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The head of ZeniMax Online Studios confirmed their departure amid rumours that the studio's Blackbird project is being cancelled."
+    },
+    {
+      "ref": "business/xbox-closes-the-initiative-and-cancels-its-perfect-dark-rebo",
+      "entities": {
+        "games": [
+          { "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "perfect-dark", "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-initiative", "name": "The Initiative", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Xbox closed The Initiative and cancelled its Perfect Dark reboot."
+    },
+    {
+      "ref": "business/three-former-ubisoft-execs-receive-suspended-prison-sentence",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Three former Ubisoft executives received suspended prison sentences at a harassment trial."
+    },
+    {
+      "ref": "business/9-100-employees-affected-by-layoffs-studio-closures-and-proj",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "the-initiative", "name": "The Initiative", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "zenimax", "name": "ZeniMax", "aliases": [], "publisher": "microsoft", "inferred": true },
+          { "id": "king", "name": "King", "aliases": [], "publisher": "activision-blizzard", "inferred": true },
+          { "id": "raven-software", "name": "Raven Software", "aliases": [], "publisher": "activision-blizzard", "inferred": true },
+          { "id": "high-moon-studios", "name": "High Moon", "aliases": ["High Moon"], "publisher": "activision-blizzard", "inferred": true },
+          { "id": "sledgehammer-games", "name": "Sledgehammer Games", "aliases": [], "publisher": "activision-blizzard", "inferred": true },
+          { "id": "halo-studios", "name": "Halo Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "turn-10-studios", "name": "Turn 10", "aliases": ["Turn 10"], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "undead-labs", "name": "Undead Labs", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 9100,
+          "unit": "people",
+          "currency": null,
+          "entity": "microsoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "9,100+ employees affected by layoffs, studio closures and project cancellations across Microsoft",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-confirms-layoffs-we-will-end-or-decrease-work-in-certain-areas-of-the-business/" }
+        }
+      ],
+      "summary": "More than 9,100 employees were affected by layoffs, studio closures and project cancellations across Microsoft, reportedly including studios such as The Initiative, Rare, ZeniMax, King and Raven Software."
+    },
+    {
+      "ref": "business/rare-s-everwild-has-been-cancelled",
+      "entities": {
+        "games": [
+          { "id": "everwild", "name": "Everwild", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Rare's game Everwild has been cancelled."
+    },
+    {
+      "ref": "rumours/banjo-kazooie-sea-of-thieves-director-gregg-mayles-leaves-ra",
+      "entities": {
+        "games": [
+          { "id": "banjo-kazooie", "name": "Banjo-Kazooie", "aliases": [], "genres": ["platformer"], "franchise": "banjo-kazooie", "inferred": true },
+          { "id": "sea-of-thieves", "name": "Sea of Thieves", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "sea-of-thieves", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "gregg-mayles", "name": "Gregg Mayles", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Gregg Mayles, director of Banjo-Kazooie and Sea of Thieves, is leaving Rare after 35 years following the cancellation of Everwild."
+    },
+    {
+      "ref": "rumours/return-to-moria-developer-free-range-games-lays-off-80-peopl",
+      "entities": {
+        "games": [
+          { "id": "return-to-moria", "name": "Return to Moria", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "free-range-games", "name": "Free Range Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 80,
+          "unit": "people",
+          "currency": null,
+          "entity": "free-range-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-07-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Free Range Games lays off 80 people",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/report-return-to-moria-developer-free-range-games-has-laid-off-80-people" }
+        }
+      ],
+      "summary": "Rumour that Return to Moria developer Free Range Games has laid off 80 people, said to be its entire development team."
+    }
+  ]
+}

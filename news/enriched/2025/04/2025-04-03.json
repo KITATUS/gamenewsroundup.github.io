@@ -1,0 +1,311 @@
+{
+  "date": "2025-04-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-switch-2-battery-life-revealed",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false },
+          { "id": "nintendo-switch-lite", "name": "Nintendo Switch Lite", "aliases": ["Switch Lite"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Nintendo revealed the Switch 2 uses a 5220 mAh lithium ion battery with an estimated battery life of approximately 2 to 6.5 hours."
+    },
+    {
+      "ref": "main_news/zelda-breath-of-the-wild-and-tears-of-the-kingdom-will-have",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-breath-of-the-wild", "name": "The Legend of Zelda: Breath of the Wild", "aliases": ["Breath of the Wild"], "genres": ["action-adventure", "open-world"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "the-legend-of-zelda-tears-of-the-kingdom", "name": "The Legend of Zelda: Tears of the Kingdom", "aliases": ["Tears of the Kingdom"], "genres": ["action-adventure", "open-world"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Zelda: Breath of the Wild and Tears of the Kingdom will gain achievements and a medals system exclusive to their Nintendo Switch 2 versions."
+    },
+    {
+      "ref": "main_news/fromsoftware-is-making-a-multiplayer-switch-2-exclusive-call",
+      "entities": {
+        "games": [
+          { "id": "the-duskbloods", "name": "The Duskbloods", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": [
+          { "id": "hidetaka-miyazaki", "name": "Hidetaka Miyazaki", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "the-duskbloods", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "medium", "quote": "Coming in 2026",
+          "source": { "name": "The Verge", "domain": "theverge.com",
+                      "url": "https://www.theverge.com/news/641335/the-duskbloods-fromsoftware-nintendo-switch-2-exclusive-announcement" } }
+      ],
+      "summary": "FromSoftware announced The Duskbloods, a multiplayer PvPvE Switch 2 exclusive directed by Hidetaka Miyazaki, coming in 2026."
+    },
+    {
+      "ref": "main_news/switch-2-details-tl-dr",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true },
+          { "id": "nintendo-switch-2-welcome-tour", "name": "Nintendo Switch 2: Welcome Tour", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "the-legend-of-zelda-the-wind-waker", "name": "The Legend of Zelda: The Wind Waker", "aliases": ["Wind Waker"], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "soulcalibur-2", "name": "Soul Calibur 2", "aliases": ["Soul Calibur 2"], "genres": ["fighting"], "franchise": "soulcalibur", "inferred": true },
+          { "id": "f-zero-gx", "name": "F-Zero GX", "aliases": [], "genres": ["racing"], "franchise": "f-zero", "inferred": true },
+          { "id": "super-mario-sunshine", "name": "Super Mario Sunshine", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true },
+          { "id": "luigis-mansion", "name": "Luigi's Mansion", "aliases": [], "genres": ["action-adventure"], "franchise": "luigis-mansion", "inferred": true },
+          { "id": "super-mario-strikers", "name": "Super Mario Strikers", "aliases": [], "genres": ["sports"], "franchise": "super-mario", "inferred": true },
+          { "id": "pokemon-xd-gale-of-darkness", "name": "Pokemon XD: Gale of Darkness", "aliases": [], "genres": ["rpg"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "release-date", "price-change"],
+      "facts": [
+        { "metric": "price", "value": 449.99, "unit": "price", "currency": "USD",
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "$449.99 / £395.99 for base console",
+          "source": { "name": "Tom's Guide", "domain": "tomsguide.com",
+                      "url": "https://www.tomsguide.com/news/nintendo-switch-2" } },
+        { "metric": "price", "value": 395.99, "unit": "price", "currency": "GBP",
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "$449.99 / £395.99 for base console",
+          "source": { "name": "Tom's Guide", "domain": "tomsguide.com",
+                      "url": "https://www.tomsguide.com/news/nintendo-switch-2" } },
+        { "metric": "price", "value": 499.99, "unit": "price", "currency": "USD",
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "$499.99 / £429.99 for Mario Kart World bundle",
+          "source": { "name": "Tom's Guide", "domain": "tomsguide.com",
+                      "url": "https://www.tomsguide.com/news/nintendo-switch-2" } },
+        { "metric": "price", "value": 429.99, "unit": "price", "currency": "GBP",
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "$499.99 / £429.99 for Mario Kart World bundle",
+          "source": { "name": "Tom's Guide", "domain": "tomsguide.com",
+                      "url": "https://www.tomsguide.com/news/nintendo-switch-2" } },
+        { "metric": "price", "value": 80, "unit": "price", "currency": "USD",
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "medium", "quote": "Default game price seems to start around $80",
+          "source": { "name": "Tom's Guide", "domain": "tomsguide.com",
+                      "url": "https://www.tomsguide.com/news/nintendo-switch-2" } },
+        { "metric": "release_date", "value": "2025-06-05", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Switch 2 available June 5th",
+          "source": { "name": "Tom's Guide", "domain": "tomsguide.com",
+                      "url": "https://www.tomsguide.com/news/nintendo-switch-2" } }
+      ],
+      "summary": "A summary of Switch 2 details covered pricing ($449.99/£395.99 base, $499.99/£429.99 Mario Kart World bundle), specs, upgrade policy, GameCube games on NSO, and a June 5th launch."
+    },
+    {
+      "ref": "main_news/upcoming-switch-2-first-party-games",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true },
+          { "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "metroid-prime-4-beyond", "name": "Metroid Prime 4: Beyond", "aliases": ["Metroid Prime 4: Beyond - Nintendo Switch 2 Edition"], "genres": ["fps", "action-adventure"], "franchise": "metroid", "inferred": true },
+          { "id": "kirby-air-riders", "name": "Kirby Air Riders", "aliases": [], "genres": ["racing"], "franchise": "kirby", "inferred": true },
+          { "id": "drag-x-drive", "name": "Drag x Drive", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "nintendo-switch-2-welcome-tour", "name": "Nintendo Switch 2 Welcome Tour", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "the-duskbloods", "name": "The Duskbloods", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo listed upcoming Switch 2 first-party games including Mario Kart World, Donkey Kong Bananza, Metroid Prime 4: Beyond, Kirby Air Riders, Drag x Drive, the Welcome Tour, and The Duskbloods."
+    },
+    {
+      "ref": "main_news/46-third-party-games-have-been-confirmed-for-switch-2-with-1",
+      "entities": {
+        "games": [
+          { "id": "ridge-racer", "name": "Arcade Archives 2: Ridge Racer", "aliases": [], "genres": ["racing"], "franchise": "ridge-racer", "inferred": true },
+          { "id": "bravely-default-flying-fairy-hd-remaster", "name": "Bravely Default Flying Fairy: HD Remaster", "aliases": [], "genres": ["jrpg"], "franchise": "bravely-default", "inferred": true },
+          { "id": "civilization-vii", "name": "Civilization VII", "aliases": [], "genres": ["4x", "strategy"], "franchise": "civilization", "inferred": true },
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077: Ultimate Edition", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "deltarune", "name": "Deltarune", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "fast-fusion", "name": "Fast Fusion", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": "fortnite", "inferred": true },
+          { "id": "hitman-world-of-assassination", "name": "Hitman: World of Assassination: Signature Edition", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "hitman", "inferred": true },
+          { "id": "hogwarts-legacy", "name": "Hogwarts Legacy", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "kunitsu-gami-path-of-the-goddess", "name": "Kunitsu-Gami: Path of the Goddess", "aliases": [], "genres": ["action-adventure", "strategy"], "franchise": null, "inferred": true },
+          { "id": "nobunagas-ambition-awakening", "name": "Nobunaga's Ambition: Awakening Complete Edition", "aliases": [], "genres": ["strategy"], "franchise": "nobunagas-ambition", "inferred": true },
+          { "id": "puyo-puyo-tetris-2s", "name": "Puyo Puyo Tetris 2S", "aliases": [], "genres": ["puzzle"], "franchise": "puyo-puyo", "inferred": true },
+          { "id": "rune-factory-guardians-of-azuma", "name": "Rune Factory: Guardians of Azuma", "aliases": [], "genres": ["action-rpg", "life-sim"], "franchise": "rune-factory", "inferred": true },
+          { "id": "split-fiction", "name": "Split Fiction", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "survival-kids", "name": "Survival Kids", "aliases": [], "genres": ["survival"], "franchise": "survival-kids", "inferred": true },
+          { "id": "yakuza-0", "name": "Yakuza 0: Director's Cut", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true },
+          { "id": "daemon-x-machina-titanic-scion", "name": "Daemon X Machina: Titanic Scion", "aliases": [], "genres": ["action"], "franchise": "daemon-x-machina", "inferred": true },
+          { "id": "ea-sports-fc", "name": "EA Sports FC", "aliases": [], "genres": ["sports"], "franchise": "ea-sports-fc", "inferred": true },
+          { "id": "ea-sports-madden-nfl", "name": "EA Sports Madden NFL", "aliases": [], "genres": ["sports"], "franchise": "madden-nfl", "inferred": true },
+          { "id": "elden-ring-tarnished-edition", "name": "Elden Ring: Tarnished Edition", "aliases": [], "genres": ["action-rpg", "soulslike", "open-world"], "franchise": "elden-ring", "inferred": true },
+          { "id": "enter-the-gungeon-2", "name": "Enter the Gungeon 2", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": "enter-the-gungeon", "inferred": true },
+          { "id": "final-fantasy-vii-remake-intergrade", "name": "Final Fantasy VII Remake Intergrade", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "goodnight-universe", "name": "Goodnight Universe", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "hades-ii", "name": "Hades II", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true },
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania"], "franchise": "hollow-knight", "inferred": true },
+          { "id": "human-fall-flat-2", "name": "Human Fall Flat 2", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": "human-fall-flat", "inferred": true },
+          { "id": "marvel-cosmic-invasion", "name": "Marvel Cosmic Invasion", "aliases": [], "genres": ["fighting"], "franchise": "marvel", "inferred": true },
+          { "id": "nba-2k", "name": "NBA 2K", "aliases": [], "genres": ["sports"], "franchise": "nba-2k", "inferred": true },
+          { "id": "no-sleep-for-kaname-date-from-ai-the-somnium-files", "name": "No Sleep For Kaname Date - From AI: The Somnium Files", "aliases": [], "genres": ["adventure", "visual-novel"], "franchise": "ai-the-somnium-files", "inferred": true },
+          { "id": "professor-layton-and-the-new-world-of-steam", "name": "Professor Layton and the New World of Steam", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": "professor-layton", "inferred": true },
+          { "id": "project-007", "name": "Project 007", "aliases": [], "genres": ["action-adventure"], "franchise": "james-bond", "inferred": true },
+          { "id": "raidou-remastered-the-mystery-of-the-soulless-army", "name": "Raidou Remastered: The Mystery of the Soulless Army", "aliases": [], "genres": ["jrpg"], "franchise": "shin-megami-tensei", "inferred": true },
+          { "id": "reanimal", "name": "Reanimal", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "shadow-labyrinth", "name": "Shadow Labyrinth", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true },
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true },
+          { "id": "starseeker-astroneer-expeditions", "name": "Starseeker: Astroneer Expeditions", "aliases": [], "genres": ["survival", "sandbox"], "franchise": "astroneer", "inferred": true },
+          { "id": "story-of-seasons-grand-bazaar", "name": "Story of Seasons: Grand Bazaar", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "story-of-seasons", "inferred": true },
+          { "id": "tamagotchi-plaza", "name": "Tamagotchi Plaza", "aliases": [], "genres": ["party", "simulation"], "franchise": "tamagotchi", "inferred": true },
+          { "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk's Pro Skater 3+4", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true },
+          { "id": "two-point-museum", "name": "Two Point Museum", "aliases": [], "genres": ["simulation"], "franchise": "two-point", "inferred": true },
+          { "id": "wwe-2k", "name": "WWE 2K", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true },
+          { "id": "wild-hearts-s", "name": "Wild Hearts S", "aliases": [], "genres": ["action-rpg"], "franchise": "wild-hearts", "inferred": true },
+          { "id": "witchbrook", "name": "Witchbrook", "aliases": [], "genres": ["life-sim", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "46 third-party games were confirmed for Switch 2, with 17 of them coming on launch day."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-april",
+      "entities": {
+        "games": [
+          { "id": "borderlands-3", "name": "Borderlands 3", "aliases": ["Borderlands 3 Ultimate Edition"], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true },
+          { "id": "all-you-need-is-help", "name": "All You Need is Help", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "still-wakes-the-deep", "name": "Still Wakes the Deep", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "wargroove-2", "name": "Wargroove 2", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "wargroove", "inferred": true },
+          { "id": "diablo-iii", "name": "Diablo III: Reaper of Souls - Ultimate Evil Edition", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true },
+          { "id": "south-of-midnight", "name": "South of Midnight", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "commandos-origins", "name": "Commandos: Origins", "aliases": [], "genres": ["strategy", "stealth"], "franchise": "commandos", "inferred": true },
+          { "id": "blue-prince", "name": "Blue Prince", "aliases": [], "genres": ["puzzle", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "hunt-showdown-1896", "name": "Hunt: Showdown 1896", "aliases": ["Hunt Showdown 1896"], "genres": ["fps", "extraction-shooter"], "franchise": "hunt-showdown", "inferred": true },
+          { "id": "botany-manor", "name": "Botany Manor", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "coral-island", "name": "Coral Island", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "harold-halibut", "name": "Harold Halibut", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "homestead-arcana", "name": "Homestead Arcana", "aliases": [], "genres": ["survival", "life-sim"], "franchise": null, "inferred": true },
+          { "id": "kona", "name": "Kona", "aliases": [], "genres": ["adventure", "survival"], "franchise": null, "inferred": true },
+          { "id": "orcs-must-die-3", "name": "Orcs Must Die! 3", "aliases": [], "genres": ["tower-defense", "action"], "franchise": "orcs-must-die", "inferred": true },
+          { "id": "turbo-golf-racing", "name": "Turbo Golf Racing", "aliases": [], "genres": ["sports", "racing"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "borderlands-3", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Borderlands 3 Ultimate Edition (Cloud, Console, and PC) – April 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "all-you-need-is-help", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "All You Need is Help (Console) – April 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "still-wakes-the-deep", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Still Wakes the Deep (Xbox Series S/X) – April 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "wargroove-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Wargroove 2 (Console) – April 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-08", "unit": "date", "currency": null,
+          "entity": "diablo-iii", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Diablo III: Reaper of Souls – Ultimate Evil Edition (Console and PC) – April 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-08", "unit": "date", "currency": null,
+          "entity": "south-of-midnight", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "South of Midnight (Cloud, PC, and Xbox Series S/X) – April 8",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-09", "unit": "date", "currency": null,
+          "entity": "commandos-origins", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Commandos: Origins (Cloud, PC and Xbox Series S/X) – April 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-10", "unit": "date", "currency": null,
+          "entity": "blue-prince", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Blue Prince (Cloud, PC and Xbox Series S/X) – April 10",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } },
+        { "metric": "release_date", "value": "2025-04-15", "unit": "date", "currency": null,
+          "entity": "hunt-showdown-1896", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-03", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Hunt Showdown 1896 (PC) – April 15",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-april-releases-include-a-huge-rpg-shooter-and-south-of-midnight/" } }
+      ],
+      "summary": "Xbox Game Pass April additions include Borderlands 3, Still Wakes the Deep, South of Midnight, and Blue Prince, while seven titles including Botany Manor and Coral Island leave on April 15th."
+    }
+  ]
+}

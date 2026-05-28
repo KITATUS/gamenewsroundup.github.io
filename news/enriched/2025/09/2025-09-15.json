@@ -1,0 +1,165 @@
+{
+  "date": "2025-09-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/yoshi-and-the-mysterious-book-unveiled-to-celebrate-super-ma",
+      "entities": {
+        "games": [
+          { "id": "yoshi-and-the-mysterious-book", "name": "Yoshi and the Mysterious Book", "aliases": [], "genres": ["platformer"], "franchise": "yoshi", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Nintendo unveiled Yoshi and the Mysterious Book, a new Yoshi platformer celebrating the Super Mario Bros 40th anniversary, set to release in Spring 2026."
+    },
+    {
+      "ref": "main_news/after-selling-1-4m-copies-on-steam-stardew-valley-inspired-d",
+      "entities": {
+        "games": [
+          { "id": "dinkum", "name": "Dinkum", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "stardew-valley", "name": "Stardew Valley", "aliases": [], "genres": ["life-sim", "simulation", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port", "sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1400000, "unit": "copies", "currency": null,
+          "entity": "dinkum", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-15", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "After selling 1.4m copies on Steam",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/after-selling-14m-copies-on-steam-stardew-valley-inspired-dinkum-hits-nintendo-switch-this-november" } },
+        { "metric": "release_date", "value": "2025-11-06", "unit": "date", "currency": null,
+          "entity": "dinkum", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "hits Nintendo Switch this November 6th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/after-selling-14m-copies-on-steam-stardew-valley-inspired-dinkum-hits-nintendo-switch-this-november" } }
+      ],
+      "summary": "Having sold 1.4 million copies on Steam, the Stardew Valley-inspired game Dinkum will arrive on Nintendo Switch on 6 November 2025."
+    },
+    {
+      "ref": "main_news/the-super-mario-galaxy-games-are-coming-to-switch-consoles-a",
+      "entities": {
+        "games": [
+          { "id": "super-mario-galaxy", "name": "Super Mario Galaxy", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        { "metric": "price", "value": 60, "unit": "price", "currency": "GBP",
+          "entity": "super-mario-galaxy", "entity_type": "game", "scope": "product",
+          "as_of": "2025-09-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£60 double pack",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-super-mario-galaxy-games-are-coming-to-switch-consoles" } },
+        { "metric": "release_date", "value": "2025-10-02", "unit": "date", "currency": null,
+          "entity": "super-mario-galaxy", "entity_type": "game", "scope": "product",
+          "as_of": "2025-09-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases 2nd October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-super-mario-galaxy-games-are-coming-to-switch-consoles" } }
+      ],
+      "summary": "The Super Mario Galaxy games are coming to Switch consoles in a £60 double pack, releasing on 2 October 2025."
+    },
+    {
+      "ref": "main_news/the-final-fantasy-7-remake-trilogy-will-also-release-for-swi",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-remake", "name": "Final Fantasy 7 Remake", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "The Final Fantasy 7 Remake trilogy will also release for Switch 2 and Xbox, though it is unclear whether Part 3 will be a timed PlayStation exclusive."
+    },
+    {
+      "ref": "main_news/nintendo-switch-is-getting-a-virtual-boy-accessory-and-switc",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "virtual-boy", "name": "Virtual Boy", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-online", "name": "Switch Online", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [],
+      "summary": "Nintendo Switch is getting a Virtual Boy accessory and Switch Online games, with the physical Virtual Boy accessory required to play."
+    },
+    {
+      "ref": "main_news/the-super-mario-galaxy-movie-is-nintendo-s-next-big-transmed",
+      "entities": {
+        "games": [
+          { "id": "super-mario-galaxy", "name": "Super Mario Galaxy", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Super Mario Galaxy Movie is described as Nintendo's next big transmedia swing."
+    },
+    {
+      "ref": "business/clair-obscur-expedition-33-quietly-tops-4-4-million-in-sales",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sandfall-interactive", "name": "Sandfall Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 4400000, "unit": "copies", "currency": null,
+          "entity": "clair-obscur-expedition-33", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-15", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Clair Obscur: Expedition 33 quietly tops 4.4 million in sales",
+          "source": { "name": "Gamereactor", "domain": "gamereactor.eu", "url": "https://www.gamereactor.eu/clair-obscur-expedition-33-quietly-tops-44-million-in-sales-1601503/" } }
+      ],
+      "summary": "Clair Obscur: Expedition 33 has quietly surpassed 4.4 million in sales."
+    }
+  ]
+}

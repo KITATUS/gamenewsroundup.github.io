@@ -1,0 +1,134 @@
+{
+  "date": "2025-05-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-returning-to-us-app-store-next-week-will-return-to",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ios-app-store", "name": "App Store", "aliases": ["US App Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Fortnite is returning to the US App Store next week and will return worldwide if Apple extends its friction-free, Apple-tax-free framework globally."
+    },
+    {
+      "ref": "main_news/sega-s-32-player-pc-and-mobile-game-sonic-rumble-has-been-de",
+      "entities": {
+        "games": [
+          { "id": "sonic-rumble", "name": "Sonic Rumble", "aliases": [], "genres": ["party"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Sega's 32-player PC and mobile game Sonic Rumble has been delayed again from its original 8 May release, with no new release date given."
+    },
+    {
+      "ref": "free_games_subscription/ps-may-games-ark-survival-ascended-warhammer-40-000-boltgun",
+      "entities": {
+        "games": [
+          { "id": "ark-survival-ascended", "name": "Ark: Survival Ascended", "aliases": [], "genres": ["survival", "open-world"], "franchise": "ark", "inferred": true },
+          { "id": "warhammer-40000-boltgun", "name": "Warhammer 40,000: Boltgun", "aliases": [], "genres": ["fps", "shooter"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "PlayStation Plus monthly games for May 2025 are Ark: Survival Ascended, Warhammer 40,000: Boltgun and Balatro."
+    },
+    {
+      "ref": "business/top-platinumgames-designer-takahisa-taura-quits-studio-start",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "platinumgames", "name": "PlatinumGames", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "eel-game-studio", "name": "Eel Game Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "takahisa-taura", "name": "Takahisa Taura", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change", "studio-opening"],
+      "facts": [],
+      "summary": "Top PlatinumGames designer Takahisa Taura has left the studio to start a new game company, Eel Game Studio."
+    },
+    {
+      "ref": "business/xbox-q3-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "subscriber_count", "value": 34000000, "unit": "subscribers", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2025-05-01", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "last confirmed at 34M in February",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-hardware-revenue-continues-to-tumble-but-gaming-revenue-is-up-microsoft-reports" } }
+      ],
+      "summary": "Microsoft's fiscal Q3 results showed Xbox gaming revenue up 5% year-over-year and content and services up 8%, while console sales fell 6%."
+    },
+    {
+      "ref": "business/remedy-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 13400000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-01", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: €13.4 million (up 24.1%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-increase-241-during-q1-2025" } },
+        { "metric": "operating_income", "value": 1300000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-01", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: €1.3 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-increase-241-during-q1-2025" } }
+      ],
+      "summary": "Remedy Entertainment reported Q1 2025 revenue of €13.4 million, up 24.1%, and an operating profit of €1.3 million versus a loss a year earlier."
+    }
+  ]
+}

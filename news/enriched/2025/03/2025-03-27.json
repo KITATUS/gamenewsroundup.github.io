@@ -1,0 +1,190 @@
+{
+  "date": "2025-03-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/inzoi-developer-is-removing-denuvo-drm-from-the-game-followi",
+      "entities": {
+        "games": [
+          { "id": "inzoi", "name": "InZOI", "aliases": ["InZoi"], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "InZOI's developer is removing Denuvo DRM from the game following player backlash."
+    },
+    {
+      "ref": "main_news/a-new-nintendo-direct-focusing-on-the-original-switch-is-com",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch", "Switch 1", "original Switch"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date", "value": "2025-04-02", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2025-03-27", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Switch 2 specific Nintendo Direct is planned for April 2nd at 6am PT / 9am ET / 2pm BST / 3pm CEST",
+          "source": { "name": null, "domain": null, "url": null }
+        }
+      ],
+      "summary": "A new Nintendo Direct focusing on the original Switch is airing today, with a Switch 2 focused Nintendo Direct planned for April 2nd."
+    },
+    {
+      "ref": "main_news/ark-aquatica-developer-shifts-blame-for-disastrous-ai-traile",
+      "entities": {
+        "games": [
+          { "id": "ark-aquatica", "name": "Ark: Aquatica", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": "ark", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "The developer of Ark: Aquatica shifted blame for a disastrous AI-made trailer onto its marketing team."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-essential-games-for-april",
+      "entities": {
+        "games": [
+          { "id": "robocop-rogue-city", "name": "RoboCop: Rogue City", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "robocop", "inferred": true },
+          { "id": "the-texas-chainsaw-massacre", "name": "The Texas Chainsaw Massacre", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": "the-texas-chainsaw-massacre", "inferred": true },
+          { "id": "digimon-story-cyber-sleuth-hackers-memory", "name": "Digimon Story: Cyber Sleuth - Hacker's Memory", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "digimon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": true },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "The PlayStation Plus Essential games for April include RoboCop: Rogue City, The Texas Chainsaw Massacre, and Digimon Story: Cyber Sleuth - Hacker's Memory."
+    },
+    {
+      "ref": "business/cd-projekt-2024-financial-results",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world", "rpg"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "cyberpunk-2077-phantom-liberty", "name": "Cyberpunk 2077: Phantom Liberty", "aliases": ["Phantom Liberty"], "genres": ["action-rpg", "open-world", "rpg"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": ["CD Projekt", "the developer"], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "cd-projekt", "name": "CD Projekt", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 985000000, "unit": "money", "currency": "PLN",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "The developer reported a 17.9% decrease in sales to PLN 985 million ($254 million) compared to PLN 1.2 billion ($310.4 million) in 2023.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "revenue", "value": 254000000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "The developer reported a 17.9% decrease in sales to PLN 985 million ($254 million) compared to PLN 1.2 billion ($310.4 million) in 2023.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "revenue", "value": 1200000000, "unit": "money", "currency": "PLN",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "compared to PLN 1.2 billion ($310.4 million) in 2023",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "revenue", "value": 310400000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "compared to PLN 1.2 billion ($310.4 million) in 2023",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "profit", "value": 469800000, "unit": "money", "currency": "PLN",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Its net profit dropped by 2.3% from PLN 481.1 million ($124 million) the previous year to PLN 469.8 million ($121.5 million).",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "profit", "value": 121500000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Its net profit dropped by 2.3% from PLN 481.1 million ($124 million) the previous year to PLN 469.8 million ($121.5 million).",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "profit", "value": 481100000, "unit": "money", "currency": "PLN",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "from PLN 481.1 million ($124 million) the previous year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "profit", "value": 124000000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-27", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "from PLN 481.1 million ($124 million) the previous year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "revenue", "value": 600000000, "unit": "money", "currency": "PLN",
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-27", "period": "annual", "direction": null, "confidence": "medium",
+          "quote": "Cyberpunk 2077 and its expansion Phantom Liberty were the main drivers of sales, generating almost PLN 600 million ($155.1 million) in 2024.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "revenue", "value": 155100000, "unit": "money", "currency": "USD",
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-27", "period": "annual", "direction": null, "confidence": "medium",
+          "quote": "generating almost PLN 600 million ($155.1 million) in 2024",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "copies_sold", "value": 30000000, "unit": "units", "currency": null,
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-30", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "As of November 2024, sales of Cyberpunk 2077 topped 30 million copies while Phantom Liberty sold over eight million units.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        },
+        {
+          "metric": "copies_sold", "value": 8000000, "unit": "units", "currency": null,
+          "entity": "cyberpunk-2077-phantom-liberty", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-30", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Phantom Liberty sold over eight million units",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/cd-projekt-reports-third-best-year-for-profit-despite-no-major-launches-in-2024" }
+        }
+      ],
+      "summary": "CD Projekt reported its 2024 financial results, with sales down 17.9% to PLN 985 million and net profit down 2.3% to PLN 469.8 million."
+    }
+  ]
+}

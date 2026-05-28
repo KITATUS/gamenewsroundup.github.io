@@ -1,0 +1,336 @@
+{
+  "date": "2024-10-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-trading-card-game-pocket-launches-worldwide-on-ios-a",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-trading-card-game-pocket",
+            "name": "Pokémon Trading Card Game Pocket",
+            "aliases": [],
+            "genres": ["card"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "the-pokemon-company",
+            "name": "The Pokémon Company",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "ios",
+            "name": "iOS",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "android",
+            "name": "Android",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Pokémon Trading Card Game Pocket has launched worldwide on iOS and Android."
+    },
+    {
+      "ref": "main_news/nintendo-announces-xenoblade-chronicles-x-remaster-for-switc",
+      "entities": {
+        "games": [
+          {
+            "id": "xenoblade-chronicles-x",
+            "name": "Xenoblade Chronicles X",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "xenoblade",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "monolith-soft",
+            "name": "Monolith Soft",
+            "aliases": [],
+            "publisher": "nintendo",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          },
+          {
+            "id": "wii-u",
+            "name": "Wii U",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Nintendo announced a remaster of Xenoblade Chronicles X for Switch, with the new version of the Wii U title featuring additional content."
+    },
+    {
+      "ref": "business/capcom-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 56400000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-10-30",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥56.4 billion ($368 million), down 25% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-insists-its-making-good-progress-despite-drop-in-first-half-sales"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 368000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-10-30",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥56.4 billion ($368 million), down 25% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-insists-its-making-good-progress-despite-drop-in-first-half-sales"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 20700000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-10-30",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥20.7 billion ($135 million), down 39% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-insists-its-making-good-progress-despite-drop-in-first-half-sales"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 135000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-10-30",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥20.7 billion ($135 million), down 39% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-insists-its-making-good-progress-despite-drop-in-first-half-sales"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 15200000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-10-30",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net income: ¥15.2 billion ($99 million), down 40% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-insists-its-making-good-progress-despite-drop-in-first-half-sales"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 99000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-10-30",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net income: ¥15.2 billion ($99 million), down 40% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/capcom-insists-its-making-good-progress-despite-drop-in-first-half-sales"
+          }
+        }
+      ],
+      "summary": "Capcom reported financial results for the six months ended September 30, 2024, with net sales of ¥56.4 billion, operating income of ¥20.7 billion, and net income of ¥15.2 billion, all down year-on-year."
+    },
+    {
+      "ref": "business/the-sims-4-gained-more-than-15m-new-players-in-the-past-year",
+      "entities": {
+        "games": [
+          {
+            "id": "the-sims-4",
+            "name": "The Sims 4",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": "the-sims",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "maxis",
+            "name": "Maxis",
+            "aliases": [],
+            "publisher": "electronic-arts",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 15000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "the-sims-4",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-30",
+          "period": "cumulative",
+          "direction": "up",
+          "confidence": "medium",
+          "quote": "The Sims 4 gained more than 15m new players in the past year",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/the-sims-4-gained-15m-new-players-in-the-past-year-despite-being-over-a-decade-old"
+          }
+        }
+      ],
+      "summary": "The Sims 4 gained more than 15 million new players in the past year despite being over a decade old."
+    },
+    {
+      "ref": "business/sony-shuts-down-concord-dev-firewalk-and-mobile-studio-neon",
+      "entities": {
+        "games": [
+          {
+            "id": "concord",
+            "name": "Concord",
+            "aliases": [],
+            "genres": ["hero-shooter", "fps"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "firewalk-studios",
+            "name": "Firewalk",
+            "aliases": ["Firewalk Studios"],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          },
+          {
+            "id": "neon-koi",
+            "name": "Neon Koi",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony", "PlayStation"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "shutdown"],
+      "facts": [],
+      "summary": "Sony is shutting down Concord developer Firewalk and mobile studio Neon Koi, with Concord confirmed to not return though still planned to appear as an episode of the TV show Secret Level."
+    }
+  ]
+}

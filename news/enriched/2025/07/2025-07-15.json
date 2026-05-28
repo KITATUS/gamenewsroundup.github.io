@@ -1,0 +1,98 @@
+{
+  "date": "2025-07-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fbi-says-it-s-now-seized-multiple-rom-piracy-sites-claims-do",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "lawsuit-legal"],
+      "facts": [],
+      "summary": "The FBI says it has seized multiple ROM piracy sites and claims the downloads caused $170m in losses over just three months."
+    },
+    {
+      "ref": "main_news/tony-hawk-s-pro-skater-3-4-locks-spongebob-and-tmnt-easter-e",
+      "entities": {
+        "games": [{ "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk's Pro Skater 3 + 4", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "price-change"],
+      "facts": [
+        { "metric": "price", "value": 70, "unit": "price", "currency": "USD",
+          "entity": "tony-hawks-pro-skater-3-4", "entity_type": "product", "scope": "product",
+          "as_of": "2025-07-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "behind $70 Deluxe Edition",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/tony-hawks-pro-skater-3-4-locks-spongebob-easter-egg-behind-70-deluxe-edition/" } }
+      ],
+      "summary": "Tony Hawk's Pro Skater 3 + 4 locks SpongeBob and TMNT Easter Eggs behind its $70 Deluxe Edition."
+    },
+    {
+      "ref": "main_news/warhammer-40k-dawn-of-war-definitive-edition-and-space-marin",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40000-dawn-of-war-definitive-edition", "name": "Warhammer 40K: Dawn of War Definitive Edition", "aliases": ["Dawn of War Definitive Edition"], "genres": ["rts"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "warhammer-40000-space-marine", "name": "Warhammer 40K: Space Marine", "aliases": ["Space Marine 1"], "genres": ["action-adventure"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Warhammer 40K: Dawn of War Definitive Edition and a Space Marine 1 re-release are coming this year."
+    },
+    {
+      "ref": "business/way-of-the-samurai-studio-acquire-corp-and-red-dunes-games-a",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "acquire", "name": "Acquire Corp", "aliases": ["Acquire"], "publisher": null, "inferred": false },
+          { "id": "red-dunes-games", "name": "Red Dunes Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Way of the Samurai studio Acquire Corp and Red Dunes Games have announced a collaboration on multiple new IPs."
+    },
+    {
+      "ref": "business/xbox-graphics-department-lead-puts-up-hiring-post-on-linkedi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "An Xbox graphics department lead put up a hiring post on LinkedIn that used AI-generated graphics."
+    },
+    {
+      "ref": "rumours/a-nintendo-direct-is-scheduled-for-later-this-month-after-do",
+      "entities": {
+        "games": [{ "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a Nintendo Direct is scheduled for later this month, after Donkey Kong Bananza releases."
+    }
+  ]
+}

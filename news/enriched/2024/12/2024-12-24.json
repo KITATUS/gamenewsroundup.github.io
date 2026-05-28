@@ -1,0 +1,101 @@
+{
+  "date": "2024-12-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cyberpunk-2077-characters-now-available-in-fortnite",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": ["Cyberpunk"], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "keanu-reeves", "name": "Keanu", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Cyberpunk 2077 characters, including female V and Johnny Silverhand, are now available in Fortnite for a limited time."
+    },
+    {
+      "ref": "business/sega-says-it-s-weighing-up-launching-its-own-game-subscripti",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Sega says it is weighing up launching its own game subscription service."
+    },
+    {
+      "ref": "business/sega-isn-t-planning-more-mini-consoles-we-are-not-a-retro-co",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Sega says it is not planning more mini consoles, stating it is not a retro company."
+    },
+    {
+      "ref": "business/aonic-secures-over-150m-in-funding",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "aonic", "name": "Aonic", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised", "value": 152000000, "unit": "money", "currency": "EUR",
+          "entity": "aonic", "entity_type": "company", "scope": "company",
+          "as_of": "2024-12-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Aonic has received a €152 million investment after entering an agreement with Metric Capital Partners and Active Ownership.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/aonic-secures-over-150m-in-funding" }
+        },
+        {
+          "metric": "funding_raised", "value": 100000000, "unit": "money", "currency": "EUR",
+          "entity": "aonic", "entity_type": "company", "scope": "company",
+          "as_of": "2024-12-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Metric Capital Partners have provided €100 million of the funding",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/aonic-secures-over-150m-in-funding" }
+        }
+      ],
+      "summary": "Aonic secured a €152 million investment from Metric Capital Partners and Active Ownership."
+    },
+    {
+      "ref": "other_notes/thats-a-wrap-on-the-game-news-round-up-2024-from-me-and-the",
+      "entities": {
+        "games": [
+          { "id": "gta-6", "name": "GTA6", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A closing note thanks readers for following the Game News Round-Up in 2024 and looks ahead to 2025 with new hardware and major games like GTA6."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2024-05-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/square-enix-will-make-aaa-games-multiplatform-as-part-of-its",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Square Enix said it will make its AAA games multiplatform as part of an 'aggressive' new business plan."
+    },
+    {
+      "ref": "main_news/microsoft-to-launch-mobile-game-store-in-july",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Microsoft plans to launch a mobile game store in July."
+    },
+    {
+      "ref": "main_news/netflix-launches-nextworld-a-digital-theme-park-on-roblox-wi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Netflix launched Nextworld, a 'digital theme park' on Roblox featuring games and items based on Stranger Things, One Piece and Rebel Moon."
+    },
+    {
+      "ref": "main_news/ea-has-teams-looking-at-thoughtful-implementations-of-ads-in",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Electronic Arts said it has teams looking at \"thoughtful implementations\" of ads inside its game experiences."
+    },
+    {
+      "ref": "main_news/the-rogue-prince-of-persia-delayed-to-avoid-popularity-of-ha",
+      "entities": {
+        "games": [
+          { "id": "the-rogue-prince-of-persia", "name": "The Rogue Prince of Persia", "aliases": [], "genres": ["roguelike", "action-adventure"], "franchise": "prince-of-persia", "inferred": true },
+          { "id": "hades-2", "name": "Hades 2", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "The Rogue Prince of Persia was delayed to avoid clashing with the popularity of Hades 2."
+    },
+    {
+      "ref": "free_games_subscription/destiny-developer-bungie-s-original-sci-fi-shooter-marathon",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["fps", "shooter"], "franchise": "marathon", "inferred": true },
+          { "id": "destiny", "name": "Destiny", "aliases": [], "genres": ["fps", "shooter", "mmo"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [{ "id": "bungie", "name": "Bungie", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["free-game", "release"],
+      "facts": [],
+      "summary": "Bungie's original sci-fi shooter Marathon was made available on Steam for free."
+    },
+    {
+      "ref": "business/v-rising-hits-100-000-concurrent-players-on-steam",
+      "entities": {
+        "games": [
+          { "id": "v-rising", "name": "V Rising", "aliases": [], "genres": ["survival", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "concurrent_players", "value": 100000, "unit": "players", "currency": null,
+          "entity": "v-rising", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "V Rising hits 100,000 concurrent players on Steam",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/v-rising-hits-100000-concurrent-players-on-steam" } }
+      ],
+      "summary": "V Rising hit 100,000 concurrent players on Steam following its full release."
+    },
+    {
+      "ref": "business/little-kitty-big-city-sells-100-000-units-in-48-hours",
+      "entities": {
+        "games": [
+          { "id": "little-kitty-big-city", "name": "Little Kitty Big City", "aliases": [], "genres": ["adventure", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 100000, "unit": "units", "currency": null,
+          "entity": "little-kitty-big-city", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Little Kitty Big City sells 100,000 units in 48 hours",
+          "source": { "name": "X", "domain": "twitter.com", "url": "https://twitter.com/LittleKittyGame/status/1789379514197323930" } }
+      ],
+      "summary": "Little Kitty Big City sold 100,000 units within 48 hours of release."
+    },
+    {
+      "ref": "business/unity-restructuring-increases-losses-to-291m-in-q1-2024",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "profit", "value": -291000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-13", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net loss: $291 million (compared to $254 million for same quarter last year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-restructuring-increases-losses-to-291m-in-q1-2024" } },
+        { "metric": "revenue", "value": 460000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-13", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Total revenue: $460 million (down 8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-restructuring-increases-losses-to-291m-in-q1-2024" } },
+        { "metric": "revenue", "value": 133000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-13", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Create Solutions revenue: $133 million (up 17%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-restructuring-increases-losses-to-291m-in-q1-2024" } },
+        { "metric": "revenue", "value": 294000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-13", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Grow Solutions revenue: $294 million (down 4%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-restructuring-increases-losses-to-291m-in-q1-2024" } }
+      ],
+      "summary": "Unity reported a Q1 2024 net loss of $291 million on total revenue of $460 million as restructuring increased its losses."
+    }
+  ]
+}

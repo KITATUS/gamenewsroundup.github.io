@@ -1,0 +1,441 @@
+{
+  "date": "2025-06-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/summer-games-fest-returns-tonight-5p-et-2p-pt-10p-bst-11p-ce",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-06-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "summer-games-fest",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Summer Games Fest returns tonight 5p ET / 2p PT / 10p BST / 11p CEST / 6a JST",
+          "source": {
+            "name": "YouTube",
+            "domain": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=-Hr6Q2hln_M"
+          }
+        }
+      ],
+      "summary": "Summer Games Fest returns tonight, with start times listed across ET, PT, BST, CEST and JST."
+    },
+    {
+      "ref": "main_news/cd-projekt-isn-t-done-with-cyberpunk-2077-announces-another",
+      "entities": {
+        "games": [
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": ["CD Projekt"],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "CD Projekt announced another upcoming patch for Cyberpunk 2077, after having previously said no more patches were planned."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-june",
+      "entities": {
+        "games": [
+          {
+            "id": "baldurs-gate-enhanced-edition",
+            "name": "Baldur's Gate Enhanced Edition",
+            "aliases": [],
+            "genres": ["crpg"],
+            "franchise": "baldurs-gate",
+            "inferred": true
+          },
+          {
+            "id": "baldurs-gate-ii-enhanced-edition",
+            "name": "Baldur's Gate II: Enhanced Edition",
+            "aliases": [],
+            "genres": ["crpg"],
+            "franchise": "baldurs-gate",
+            "inferred": true
+          },
+          {
+            "id": "warhammer-40000-space-marine",
+            "name": "Warhammer 40,000: Space Marine",
+            "aliases": ["Warhammer 40,000: Space Marine - Master Crafted Edition"],
+            "genres": ["tps", "action-adventure"],
+            "franchise": "warhammer-40000",
+            "inferred": true
+          },
+          {
+            "id": "barbie-project-friendship",
+            "name": "Barbie Project Friendship",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": "barbie",
+            "inferred": true
+          },
+          {
+            "id": "kingdom-two-crowns",
+            "name": "Kingdom: Two Crowns",
+            "aliases": [],
+            "genres": ["strategy", "survival"],
+            "franchise": "kingdom",
+            "inferred": true
+          },
+          {
+            "id": "ea-sports-fc-25",
+            "name": "EA Sports FC 25",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "ea-sports-fc",
+            "inferred": true
+          },
+          {
+            "id": "the-alters",
+            "name": "The Alters",
+            "aliases": [],
+            "genres": ["survival", "adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "fbc-firebreak",
+            "name": "FBC: Firebreak",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "control",
+            "inferred": true
+          },
+          {
+            "id": "crash-bandicoot-4-its-about-time",
+            "name": "Crash Bandicoot 4: It's About Time",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "crash-bandicoot",
+            "inferred": true
+          },
+          {
+            "id": "lost-in-random-the-eternal-die",
+            "name": "Lost in Random: The Eternal Die",
+            "aliases": [],
+            "genres": ["roguelike", "action-rpg"],
+            "franchise": "lost-in-random",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA", "EA Play"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox-game-pass",
+            "name": "Xbox Game Pass",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-s-x",
+            "name": "Xbox Series S/X",
+            "aliases": ["Xbox Series S/X"],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-06-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "baldurs-gate-enhanced-edition",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Baldur’s Gate Enhanced Edition and Baldur’s Gate II: Enhanced Edition (Cloud and Console) – June 5",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "warhammer-40000-space-marine",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Warhammer 40,000: Space Marine – Master Crafted Edition (Cloud, PC, and Xbox Series S/X) – June 10",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "barbie-project-friendship",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Barbie Project Friendship (Cloud, Console, and PC) – June 11",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "kingdom-two-crowns",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Kingdom: Two Crowns (PC) – June 11",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "ea-sports-fc-25",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "EA Sports FC 25 (Cloud, Console, and PC) via EA Play – June 12",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-alters",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Alters (Cloud, PC, and Xbox Series S/X) – June 13",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "fbc-firebreak",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "FBC: Firebreak (Cloud, PC, and Xbox Series S/X) – June 17",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "crash-bandicoot-4-its-about-time",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Crash Bandicoot 4: It’s About Time (Console and PC) – June 17",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2025-06-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "lost-in-random-the-eternal-die",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Lost in Random: The Eternal Die (Cloud, PC, and Xbox Series S/X) – June 17",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-june-include-ea-fc-25-and-fbc-firebreak/"
+          }
+        }
+      ],
+      "summary": "Xbox Game Pass announced its June lineup, including EA Sports FC 25 and FBC: Firebreak, with staggered availability dates."
+    },
+    {
+      "ref": "business/scottish-mobile-developer-outplay-entertainment-cuts-15-of-s",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "outplay-entertainment",
+            "name": "Outplay Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 20,
+          "unit": "people",
+          "currency": null,
+          "entity": "outplay-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-06-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "more than 20 roles affected",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/scottish-mobile-developer-outplay-entertainment-cuts-15-of-staff-to-align-operations-with-current-business-realities"
+          }
+        }
+      ],
+      "summary": "Scottish mobile developer Outplay Entertainment cut 15% of its staff, affecting more than 20 roles, to align operations with current business realities."
+    },
+    {
+      "ref": "rumours/red-dead-redemption-2-reportedly-getting-next-gen-update-alo",
+      "entities": {
+        "games": [
+          {
+            "id": "red-dead-redemption-2",
+            "name": "Red Dead Redemption 2",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead-redemption",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "switch-2",
+            "name": "Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port", "rumour"],
+      "facts": [],
+      "summary": "Reports suggest Red Dead Redemption 2 is getting a next-gen update alongside a Switch 2 port."
+    }
+  ]
+}

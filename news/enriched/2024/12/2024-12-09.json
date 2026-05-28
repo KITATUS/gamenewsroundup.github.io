@@ -1,0 +1,192 @@
+{
+  "date": "2024-12-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/argonaut-delays-croc-return",
+      "entities": {
+        "games": [
+          { "id": "croc", "name": "Croc", "aliases": [], "genres": ["platformer"], "franchise": "croc", "inferred": true }
+        ],
+        "studios": [
+          { "id": "argonaut", "name": "Argonaut", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Argonaut has delayed its Croc return, which will now release in Q1 2025 instead of this month."
+    },
+    {
+      "ref": "main_news/evercade-manufacturer-announces-partnership-with-snk",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "snk", "name": "SNK", "aliases": [], "inferred": false },
+          { "id": "blaze", "name": "Blaze", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "evercade", "name": "Evercade", "aliases": [], "inferred": false },
+          { "id": "neo-geo", "name": "Neo Geo", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Evercade manufacturer Blaze announced a partnership with SNK to release officially licensed Neo Geo products in 2025/2026."
+    },
+    {
+      "ref": "main_news/fortnite-goes-first-person-for-new-5v5-mode-ballistic",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["shooter", "battle-royale"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-12-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ballistic arrives on Wednesday 11th December with one map",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnite-goes-first-person-for-new-5v5-mode-ballistic" }
+        }
+      ],
+      "summary": "Fortnite is adding a new first-person 5v5 mode called Ballistic, arriving on Wednesday 11 December with one map, Skyline 10."
+    },
+    {
+      "ref": "main_news/kingdom-come-deliverance-2-release-date-brought-forward",
+      "entities": {
+        "games": [
+          { "id": "kingdom-come-deliverance-2", "name": "Kingdom Come: Deliverance 2", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true }
+        ],
+        "studios": [
+          { "id": "warhorse-studios", "name": "Warhorse Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-02-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "kingdom-come-deliverance-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Will now release a week earlier (4th Feb 2025)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/kingdom-come-deliverance-2-release-date-brought-forward" }
+        }
+      ],
+      "summary": "Kingdom Come: Deliverance 2 has had its release date brought forward by a week to 4 February 2025."
+    },
+    {
+      "ref": "main_news/like-a-dragon-devs-open-up-on-sharing-source-code-inspiring",
+      "entities": {
+        "games": [
+          { "id": "like-a-dragon", "name": "Like a Dragon", "aliases": [], "genres": ["action-adventure", "rpg"], "franchise": "like-a-dragon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ryu-ga-gotoku-studio", "name": "Ryu Ga Gotoku Studio", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "yutaka-ito", "name": "Yukata Ito", "aliases": ["Yukata Ito"], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Like a Dragon developers, including technical director Yukata Ito, discussed sharing source code and inspiring future programmers."
+    },
+    {
+      "ref": "main_news/ananta-announcement-trailer-released",
+      "entities": {
+        "games": [
+          { "id": "ananta", "name": "Ananta", "aliases": ["Project Mugen"], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "trailer"],
+      "facts": [],
+      "summary": "An announcement trailer was released for Ananta, formerly known as Project Mugen, which currently has 6,732,942 pre-registered users."
+    },
+    {
+      "ref": "main_news/the-game-awards-10th-anniversary-this-thursday",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-12-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-game-awards",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-12-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "**The Game Awards** 10th Anniversary This Thursday",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/live/LfnUQ-qKsdQ" }
+        }
+      ],
+      "summary": "The Game Awards 10th anniversary show takes place this Thursday at 7:30pm ET."
+    },
+    {
+      "ref": "business/tantalus-keywords-australia-ceo-steps-down",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "tantalus-keywords-australia", "name": "Tantalus Keywords Australia", "aliases": [], "publisher": "keywords-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "keywords-studios", "name": "Keywords Studios", "aliases": ["Keywords"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "tom-crago", "name": "Tom Crago", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Tantalus Keywords Australia CEO Tom Crago is stepping down but will remain in the industry as a mentor and sometime-advisor for Keywords."
+    }
+  ]
+}

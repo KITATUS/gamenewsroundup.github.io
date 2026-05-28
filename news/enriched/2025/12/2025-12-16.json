@@ -1,0 +1,176 @@
+{
+  "date": "2025-12-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/bungie-finally-confirms-a-marathon-release-date-and-40-price",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "price-change"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03", "unit": "date", "currency": null,
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "March 2026 for PS5, Xbox Series S/X, and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-finally-confirms-a-marathon-release-date-and-40-price-point/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$39.99/€39.99/£34.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-finally-confirms-a-marathon-release-date-and-40-price-point/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "EUR",
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$39.99/€39.99/£34.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-finally-confirms-a-marathon-release-date-and-40-price-point/" } },
+        { "metric": "price", "value": 34.99, "unit": "price", "currency": "GBP",
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$39.99/€39.99/£34.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-finally-confirms-a-marathon-release-date-and-40-price-point/" } }
+      ],
+      "summary": "Bungie confirmed Marathon will launch in March 2026 on PS5, Xbox Series S/X, and PC at a price of $39.99/€39.99/£34.99."
+    },
+    {
+      "ref": "main_news/team-cherry-casually-unveils-first-big-expansion-for-hollow",
+      "entities": {
+        "games": [
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": ["Silksong"], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true },
+          { "id": "sea-of-sorrow", "name": "Sea of Sorrow", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "sea-of-sorrow", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-16", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Coming 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/team-cherry-unveils-first-big-silksong-expansion-sea-of-sorrow-and-its-completely-free" } }
+      ],
+      "summary": "Team Cherry unveiled Sea of Sorrow, the first big expansion for Hollow Knight: Silksong, which will be completely free and is coming in 2026."
+    },
+    {
+      "ref": "main_news/megabonk-gets-spooky-update-just-in-time-for-the-festive-sea",
+      "entities": {
+        "games": [
+          { "id": "megabonk", "name": "Megabonk", "aliases": [], "genres": ["roguelike", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Megabonk received a spooky festive-season update adding a new map, character, and more."
+    },
+    {
+      "ref": "business/ubisoft-acquires-upcoming-moba-march-of-giants-from-amazon-g",
+      "entities": {
+        "games": [
+          { "id": "march-of-giants", "name": "March of Giants", "aliases": [], "genres": ["moba"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "ubisoft-montreal", "name": "Ubisoft Montreal", "aliases": [], "publisher": "ubisoft", "inferred": true },
+          { "id": "amazon-game-studios", "name": "Amazon Game Studios", "aliases": ["Amazon Games"], "publisher": "amazon", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Ubisoft acquired the upcoming MOBA March of Giants from Amazon Game Studios and rehired a former Ubisoft Montreal development team."
+    },
+    {
+      "ref": "business/hollow-knight-silksong-sells-over-7m-copies-in-three-months",
+      "entities": {
+        "games": [
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": ["Silksong"], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 7000000, "unit": "copies", "currency": null,
+          "entity": "hollow-knight-silksong", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Hollow Knight: Silksong sells over 7m copies in three months",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/hollow-knight-silksong-sells-over-7m-copies-in-three-months" } }
+      ],
+      "summary": "Hollow Knight: Silksong has sold over 7 million copies in three months."
+    },
+    {
+      "ref": "business/where-winds-meet-tops-15-million-players-in-one-month",
+      "entities": {
+        "games": [
+          { "id": "where-winds-meet", "name": "Where Winds Meet", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 15000000, "unit": "players", "currency": null,
+          "entity": "where-winds-meet", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Where Winds Meet tops 15 million players in one month",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/WhereWindsMeet_/status/2000213983790522645" } }
+      ],
+      "summary": "Where Winds Meet surpassed 15 million players in its first month."
+    },
+    {
+      "ref": "business/dambuster-studios-financial-statements-are-out-as-of-march-2",
+      "entities": {
+        "games": [
+          { "id": "dead-island-3", "name": "Dead Island 3", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true }
+        ],
+        "studios": [
+          { "id": "dambuster-studios", "name": "Dambuster Studios", "aliases": [], "publisher": "deep-silver", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "announcement"],
+      "facts": [
+        { "metric": "headcount", "value": 194, "unit": "employees", "currency": null,
+          "entity": "dambuster-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-12-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The company employed 194 employees",
+          "source": { "name": "find-and-update.company-information.service.gov.uk", "domain": "find-and-update.company-information.service.gov.uk", "url": "https://find-and-update.company-information.service.gov.uk/company/09140280/filing-history/MzQ5NDAyNTM3OGFkaXF6a2N4/document?format=pdf&download=0" } }
+      ],
+      "summary": "Dambuster Studios' financial statements (as of March 2025) show the company employed 194 people, with Dead Island 3 in development and a predicted Q1/2 2028 release window."
+    }
+  ]
+}

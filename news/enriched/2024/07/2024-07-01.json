@@ -1,0 +1,323 @@
+{
+  "date": "2024-07-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/warhammer-40-000-space-marine-2-cancels-public-beta-to-prepa",
+      "entities": {
+        "games": [
+          {
+            "id": "warhammer-40000-space-marine-2",
+            "name": "Warhammer 40,000: Space Marine 2",
+            "aliases": ["Space Marine 2"],
+            "genres": ["tps", "action-adventure"],
+            "franchise": "warhammer-40000",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "saber-interactive",
+            "name": "Saber Interactive",
+            "aliases": [],
+            "publisher": "focus-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "focus-entertainment",
+            "name": "Focus Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [],
+      "summary": "Warhammer 40,000: Space Marine 2 has cancelled its public beta to \"prepare for the full launch\"."
+    },
+    {
+      "ref": "main_news/helldivers-2-loses-90-of-its-pc-player-base-in-just-five-mon",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "arrowhead-game-studios",
+            "name": "Arrowhead Game Studios",
+            "aliases": ["Arrowhead"],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "concurrent_players",
+          "value": 41860,
+          "unit": "players",
+          "currency": null,
+          "entity": "helldivers-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "30-day average of 41,860 concurrent players on Steam",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/helldivers-2-loses-90-of-its-pc-player-base-in-just-five-months"
+          }
+        }
+      ],
+      "summary": "Helldivers 2 has lost 90% of its PC player base over five months, with a 30-day average of 41,860 concurrent players on Steam."
+    },
+    {
+      "ref": "main_news/team-fortress-2-aimbots-are-being-quietly-banned-by-valve",
+      "entities": {
+        "games": [
+          {
+            "id": "team-fortress-2",
+            "name": "Team Fortress 2",
+            "aliases": ["TF2"],
+            "genres": ["fps", "hero-shooter"],
+            "franchise": "team-fortress",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Valve is quietly banning aimbots in Team Fortress 2."
+    },
+    {
+      "ref": "main_news/awesome-games-done-quick-has-returned",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-07-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "awesome-games-done-quick",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-07-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Runs from now until Sunday July 7th",
+          "source": {
+            "name": "crowd.gamesdonequick.com",
+            "domain": "crowd.gamesdonequick.com",
+            "url": "https://crowd.gamesdonequick.com/"
+          }
+        }
+      ],
+      "summary": "The Awesome Games Done Quick charity speedrunning event has returned, running until Sunday 7 July 2024."
+    },
+    {
+      "ref": "business/a-way-out-has-sold-9-million-units",
+      "entities": {
+        "games": [
+          {
+            "id": "a-way-out",
+            "name": "A Way Out",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hazelight-studios",
+            "name": "Hazelight Studios",
+            "aliases": ["Hazelight", "HazelightGames"],
+            "publisher": "electronic-arts",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 9000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "a-way-out",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-01",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "A Way Out has sold 9 million units",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/HazelightGames/status/1805999202704502827"
+          }
+        }
+      ],
+      "summary": "A Way Out has sold 9 million units."
+    },
+    {
+      "ref": "rumours/timesplitters-could-be-headed-to-playstation-plus-new-rating",
+      "entities": {
+        "games": [
+          {
+            "id": "timesplitters",
+            "name": "TimeSplitters",
+            "aliases": ["Timesplitters"],
+            "genres": ["fps", "shooter"],
+            "franchise": "timesplitters",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "free-radical-design",
+            "name": "Free Radical Design",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": ["PS Plus"],
+            "inferred": false
+          },
+          {
+            "id": "ps4",
+            "name": "PS4",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "rumour"],
+      "facts": [],
+      "summary": "Rumour that TimeSplitters could be headed to PlayStation Plus, after Free Radical Design's classic FPS was classified for PS4/5 in Taiwan."
+    },
+    {
+      "ref": "rumours/a-newly-filed-sony-patent-might-lend-further-credence-to-the",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PlayStation 5",
+            "aliases": ["PlayStation 5"],
+            "inferred": false
+          },
+          {
+            "id": "ps3",
+            "name": "PlayStation 3",
+            "aliases": ["PlayStation 3"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that a newly filed Sony patent lends credence to reports of PlayStation 3 backwards compatibility being developed for PlayStation 5."
+    }
+  ]
+}

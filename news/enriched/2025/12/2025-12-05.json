@@ -1,0 +1,119 @@
+{
+  "date": "2025-12-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cary-hiroyuki-tagawa-dies-mortal-kombat-last-emperor-man-in",
+      "entities": {
+        "games": [{ "id": "mortal-kombat", "name": "Mortal Kombat", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "cary-hiroyuki-tagawa", "name": "Cary-Hiroyuki Tagawa", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Actor Cary-Hiroyuki Tagawa, known for the Mortal Kombat film, The Last Emperor and The Man in the High Castle, has died at age 75."
+    },
+    {
+      "ref": "main_news/carmageddon-rogue-shift-announced-general-reaction-has-been",
+      "entities": {
+        "games": [{ "id": "carmageddon-rogue-shift", "name": "Carmageddon Rogue Shift", "aliases": [], "genres": ["racing"], "franchise": "carmageddon", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Carmageddon Rogue Shift has been announced, with general reaction reportedly being \"this is not Carmageddon\"."
+    },
+    {
+      "ref": "main_news/playstation-is-publishing-the-first-game-by-jj-abrams-bad-ro",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "bad-robot-games", "name": "Bad Robot Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [{ "id": "jj-abrams", "name": "JJ Abrams", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "PlayStation is publishing Bad Robot Games' first title, a co-op shooter directed by the creator of Left 4 Dead, currently in development for PS5 and PC."
+    },
+    {
+      "ref": "main_news/grasshopper-announces-romeo-is-a-dead-man-release-date-says",
+      "entities": {
+        "games": [{ "id": "romeo-is-a-dead-man", "name": "Romeo is a Dead Man", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "grasshopper-manufacture", "name": "Grasshopper Manufacture", "aliases": ["Grasshopper"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": ["Steam"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-02-11", "unit": "date", "currency": null,
+          "entity": "romeo-is-a-dead-man", "entity_type": "game", "scope": "game",
+          "as_of": "2025-12-05", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "February 11, 2026 on PlayStation 5, Xbox Series S/X and PC (via Steam)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/grasshopper-announces-romeo-is-a-dead-man-release-date-says-it-will-be-self-publishing-it/" } }
+      ],
+      "summary": "Grasshopper announced that it will self-publish Romeo is a Dead Man, releasing February 11, 2026 on PlayStation 5, Xbox Series S/X and PC via Steam."
+    },
+    {
+      "ref": "business/goat-simulator-creators-reveal-new-studio-feeble-minds-the-c",
+      "entities": {
+        "games": [
+          { "id": "serpents-gaze", "name": "Serpent's Gaze", "aliases": [], "genres": ["soulslike", "roguelike"], "franchise": null, "inferred": false },
+          { "id": "goat-simulator", "name": "Goat Simulator", "aliases": [], "genres": ["simulation"], "franchise": "goat-simulator", "inferred": true }
+        ],
+        "studios": [
+          { "id": "feeble-minds", "name": "Feeble Minds", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "coffee-stain", "name": "Coffee Stain", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "The Coffee Stain co-founders behind Goat Simulator have revealed a new studio, Feeble Minds, which is working on a four-player co-op soulslike roguelike called Serpent's Gaze."
+    },
+    {
+      "ref": "business/wreckreation-maker-three-fields-entertainment-puts-whole-stu",
+      "entities": {
+        "games": [{ "id": "wreckreation", "name": "Wreckreation", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "three-fields-entertainment", "name": "Three Fields Entertainment", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [],
+      "summary": "Wreckreation maker Three Fields Entertainment has placed its whole studio on redundancy notice, citing a lack of enthusiasm and financial support from its publisher to continue development."
+    },
+    {
+      "ref": "business/sega-says-it-will-use-ai-in-game-development-but-only-in-app",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": ["SEGA"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega says it will use AI in game development only in appropriate use cases, acknowledging that AI can face strong resistance in creative areas."
+    }
+  ]
+}

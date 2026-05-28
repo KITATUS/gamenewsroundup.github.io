@@ -1,0 +1,116 @@
+{
+  "date": "2025-06-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/playstation-s-next-state-of-play-will-take-place-today-40-mi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [{ "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-06-04", "unit": "date", "currency": null,
+          "entity": "state-of-play", "entity_type": "product", "scope": "event",
+          "as_of": "2025-06-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PlayStation’s next State of Play will take place today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/playstations-next-state-of-play-will-take-place-tomorrow/" } }
+      ],
+      "summary": "PlayStation's next State of Play takes place today, running 40 minutes of news and updates on must-play games coming to PS5."
+    },
+    {
+      "ref": "main_news/state-of-unreal-2025-metahuman-uefn-realityscan-2-0-and-unre",
+      "entities": {
+        "games": [{ "id": "the-witcher-4", "name": "Witcher 4", "aliases": ["Witcher 4"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [],
+      "summary": "At State of Unreal 2025, Epic showcased MetaHuman, UEFN, RealityScan 2.0 and Unreal Engine 5.6, with Witcher 4 content shown at 60fps with raytracing on a base PS5."
+    },
+    {
+      "ref": "business/mindseye-studio-execs-depart-build-a-rocket-boy-one-week-bef",
+      "entities": {
+        "games": [{ "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "build-a-rocket-boy", "name": "Build a Rocket Boy", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "MindsEye studio executives, the Chief Legal Officer and Chief Financial Officer, have departed Build a Rocket Boy one week before the game's debut."
+    },
+    {
+      "ref": "business/zynga-shuts-down-torchlight-3-developer-echtra-games-four-ye",
+      "entities": {
+        "games": [{ "id": "torchlight-3", "name": "Torchlight 3", "aliases": [], "genres": ["action-rpg"], "franchise": "torchlight", "inferred": true }],
+        "studios": [{ "id": "echtra-games", "name": "Echtra Games", "aliases": [], "publisher": "zynga", "inferred": true }],
+        "publishers": [{ "id": "zynga", "name": "Zynga", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Zynga has shut down Torchlight 3 developer Echtra Games, four years after acquiring it."
+    },
+    {
+      "ref": "business/scopely-officially-closes-3-5-billion-acquisition-of-niantic",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "scopely", "name": "Scopely", "aliases": [], "inferred": false },
+          { "id": "niantic", "name": "Niantic", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 3500000000, "unit": "money", "currency": "USD",
+          "entity": "niantic", "entity_type": "company", "scope": "company",
+          "as_of": "2025-06-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Scopely officially closes $3.5 billion acquisition of Niantic's games business",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/scopely-officially-closes-35-billion-acquisition-of-niantics-games-business" } },
+        { "metric": "event_date", "value": "2025-05-29", "unit": "date", "currency": null,
+          "entity": "niantic", "entity_type": "company", "scope": "event",
+          "as_of": "2025-06-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Deal closed May 29th",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/scopely-officially-closes-35-billion-acquisition-of-niantics-games-business" } }
+      ],
+      "summary": "Scopely has officially closed its $3.5 billion acquisition of Niantic's games business, with the deal closing on 29 May 2025."
+    },
+    {
+      "ref": "business/elden-ring-nightreign-passes-3-5m-players",
+      "entities": {
+        "games": [{ "id": "elden-ring-nightreign", "name": "Elden Ring: Nightreign", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }],
+        "studios": [{ "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "bandai-namco", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 3500000, "unit": "players", "currency": null,
+          "entity": "elden-ring-nightreign", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Elden Ring: Nightreign passes 3.5m players",
+          "source": { "name": "X", "domain": "x.com",
+                      "url": "https://x.com/ELDENRING/status/1929780347576750367" } }
+      ],
+      "summary": "Elden Ring: Nightreign has passed 3.5 million players."
+    }
+  ]
+}

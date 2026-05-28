@@ -1,0 +1,128 @@
+{
+  "date": "2025-03-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-s-nunchuk-like-adaptive-joystick-is-now-available-price",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["release", "hardware"],
+      "facts": [
+        { "metric": "price", "value": 30, "unit": "price", "currency": "USD",
+          "entity": "xbox-adaptive-joystick", "entity_type": "product", "scope": "product",
+          "as_of": "2025-03-20", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "priced at $30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xboxs-nunchuk-like-adaptive-joystick-is-now-available-priced-at-30/" } }
+      ],
+      "summary": "Xbox's nunchuk-like Adaptive Joystick, aimed at players with limited mobility, is now available priced at $30."
+    },
+    {
+      "ref": "main_news/palworld-s-latest-update-includes-crossplay-photo-mode-and-o",
+      "entities": {
+        "games": [{ "id": "palworld", "name": "Palworld", "aliases": [],
+                    "genres": ["survival", "open-world"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "pocketpair", "name": "Pocketpair", "aliases": [],
+                      "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Palworld's latest update, available now, adds crossplay, a Photo mode and other new features."
+    },
+    {
+      "ref": "main_news/analogue-s-nintendo-64-reimagining-analogue-3d-has-been-dela",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "analogue", "name": "Analogue", "aliases": [],
+                      "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [{ "id": "analogue-3d", "name": "Analogue 3D", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delay", "hardware"],
+      "facts": [
+        { "metric": "price", "value": 250, "unit": "price", "currency": "USD",
+          "entity": "analogue-3d", "entity_type": "product", "scope": "product",
+          "as_of": "2025-03-20", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "The $250 console has slipped to July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/analogues-nintendo-64-reimagining-analogue-3d-has-been-delayed-again/" } },
+        { "metric": "delay_to", "value": "2025-07", "unit": "date", "currency": null,
+          "entity": "analogue-3d", "entity_type": "product", "scope": "product",
+          "as_of": "2025-03-20", "period": "point_in_time", "direction": null,
+          "confidence": "medium", "quote": "The $250 console has slipped to July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/analogues-nintendo-64-reimagining-analogue-3d-has-been-delayed-again/" } }
+      ],
+      "summary": "Analogue's Nintendo 64 reimagining, the $250 Analogue 3D, has been delayed to July."
+    },
+    {
+      "ref": "free_games_subscription/eight-games-leave-playstation-plus-next-month",
+      "entities": {
+        "games": [
+          { "id": "animal-well", "name": "Animal Well", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true },
+          { "id": "tales-of-kenzera-zau", "name": "Tales of Kenzera: ZAU", "aliases": [], "genres": ["metroidvania", "platformer"], "franchise": null, "inferred": true },
+          { "id": "nour-play-with-your-food", "name": "Nour: Play with Your Food", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "deliver-us-mars", "name": "Deliver Us Mars", "aliases": [], "genres": ["adventure"], "franchise": "deliver-us", "inferred": true },
+          { "id": "miasma-chronicles", "name": "Miasma Chronicles", "aliases": [], "genres": ["turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "stray-blade", "name": "Stray Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "kena-bridge-of-spirits", "name": "Kena: Bridge of Spirits", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "slay-the-spire", "name": "Slay the Spire", "aliases": [], "genres": ["roguelike", "card"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [],
+      "summary": "Eight games, including Animal Well, Kena: Bridge of Spirits and Slay the Spire, leave PlayStation Plus next month."
+    },
+    {
+      "ref": "business/a-new-industry-wide-union-has-been-launched-for-all-american",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A new industry-wide union, United Videogame Workers-CWA (UVW-CWA), open to all US and Canadian developers, will launch at GDC this week."
+    },
+    {
+      "ref": "business/id-xbox-has-paid-indie-devs-more-than-5bn-since-2013",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["roguelike", "card"], "franchise": null, "inferred": true },
+          { "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "xbox", "name": "Xbox", "aliases": ["ID@Xbox"], "inferred": false }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": ["ID@Xbox"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "content_acquisition_cost", "value": 5000000000, "unit": "money", "currency": "USD",
+          "entity": "xbox", "entity_type": "company", "scope": "company",
+          "as_of": "2025-03-20", "period": "cumulative", "direction": null,
+          "confidence": "medium", "quote": "ID@Xbox has paid indie devs more than $5bn since 2013",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/idxbox-has-paid-indie-devs-more-than-5bn-since-2013" } }
+      ],
+      "summary": "Microsoft's ID@Xbox program has paid indie developers more than $5bn since 2013, with over 1,000 games launching through it last year including Balatro and Phasmophobia."
+    }
+  ]
+}

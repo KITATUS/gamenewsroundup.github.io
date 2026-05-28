@@ -1,0 +1,131 @@
+{
+  "date": "2025-03-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/croc-legend-of-the-gobbos-remaster-gets-a-pc-and-console-rel",
+      "entities": {
+        "games": [
+          { "id": "croc-legend-of-the-gobbos", "name": "Croc: Legend of the Gobbos", "aliases": [], "genres": ["platformer"], "franchise": "croc", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": ["GOG"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-02", "unit": "date", "currency": null,
+          "entity": "croc-legend-of-the-gobbos", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "2nd April for PS4/5, Xbox One / Series S/X, Switch and PC (via GOG)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/croc-legend-of-the-gobbos-remaster-gets-a-pc-and-console-release-date" } }
+      ],
+      "summary": "The Croc: Legend of the Gobbos remaster has been dated for 2 April 2025 on PS4/5, Xbox One and Series S/X, Switch and PC."
+    },
+    {
+      "ref": "main_news/snail-games-announces-ark-survival-evolved-dlc-acquatica-wit",
+      "entities": {
+        "games": [
+          { "id": "ark-survival-evolved", "name": "ARK: Survival Evolved", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": "ark", "inferred": true }
+        ],
+        "studios": [
+          { "id": "snail-games", "name": "Snail Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement", "trailer"],
+      "facts": [],
+      "summary": "Snail Games has announced an ARK: Survival Evolved DLC called \"Acquatica\", accompanied by a controversial AI-generated trailer."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-lineup-for-the-rest-of-march",
+      "entities": {
+        "games": [
+          { "id": "octopath-traveler-ii", "name": "Octopath Traveler II", "aliases": [], "genres": ["jrpg"], "franchise": "octopath-traveler", "inferred": true },
+          { "id": "train-sim-world-5", "name": "Train Sim World 5", "aliases": [], "genres": ["simulation"], "franchise": "train-sim-world", "inferred": true },
+          { "id": "mythwrecked-ambrosia-island", "name": "Mythwrecked: Ambrosia Island", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "blizzard-arcade-collection", "name": "Blizzard Arcade Collection", "aliases": [], "genres": [], "franchise": null, "inferred": false },
+          { "id": "atomfall", "name": "Atomfall", "aliases": [], "genres": ["action-adventure", "survival"], "franchise": null, "inferred": true },
+          { "id": "mlb-the-show-24", "name": "MLB The Show 24", "aliases": [], "genres": ["sports"], "franchise": "mlb-the-show", "inferred": true },
+          { "id": "lil-gator-game", "name": "Lil Gator Game", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "hot-wheels-unleashed-2", "name": "Hot Wheels Unleashed 2", "aliases": [], "genres": ["racing"], "franchise": "hot-wheels-unleashed", "inferred": true },
+          { "id": "open-roads", "name": "Open Roads", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "yakuza-0", "name": "Yakuza 0", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-kiwami", "name": "Yakuza Kiwami", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-kiwami-2", "name": "Yakuza Kiwami 2", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-like-a-dragon", "name": "Yakuza Like a Dragon", "aliases": [], "genres": ["jrpg"], "franchise": "yakuza", "inferred": true },
+          { "id": "the-lamplighters-league", "name": "The Lamplighter’s League", "aliases": [], "genres": ["turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "monster-hunter-rise", "name": "Monster Hunter Rise", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-03-19", "unit": "date", "currency": null,
+          "entity": "octopath-traveler-ii", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Octopath Traveler II (Series S/X) – March 19 - Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-lineup-for-the-rest-of-march-includes-a-highly-rated-jrpg-and-atomfall/" } },
+        { "metric": "release_date", "value": "2025-03-19", "unit": "date", "currency": null,
+          "entity": "train-sim-world-5", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Train Sim World 5 (Console) – March 19 - Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-lineup-for-the-rest-of-march-includes-a-highly-rated-jrpg-and-atomfall/" } },
+        { "metric": "release_date", "value": "2025-03-20", "unit": "date", "currency": null,
+          "entity": "mythwrecked-ambrosia-island", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Mythwrecked: Ambrosia Island (Cloud, Console, and PC) – March 20 - Ultimate, Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-lineup-for-the-rest-of-march-includes-a-highly-rated-jrpg-and-atomfall/" } },
+        { "metric": "release_date", "value": "2025-03-25", "unit": "date", "currency": null,
+          "entity": "blizzard-arcade-collection", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Blizzard Arcade Collection (Console and PC) – March 25 - Ultimate, Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-lineup-for-the-rest-of-march-includes-a-highly-rated-jrpg-and-atomfall/" } },
+        { "metric": "release_date", "value": "2025-03-27", "unit": "date", "currency": null,
+          "entity": "atomfall", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Atomfall (Cloud, Console, and PC) – March 27 - Ultimate",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-game-pass-lineup-for-the-rest-of-march-includes-a-highly-rated-jrpg-and-atomfall/" } }
+      ],
+      "summary": "Xbox Game Pass detailed its lineup for the rest of March 2025, adding titles including Octopath Traveler II and Atomfall while a batch of games including the Yakuza series leaves on 31 March."
+    },
+    {
+      "ref": "business/unity-claims-79-percent-of-developers-are-feeling-positive-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Unity's annual Gaming Report claims 79 percent of surveyed developers feel positive about generative AI tools in the games industry."
+    }
+  ]
+}

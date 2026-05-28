@@ -1,0 +1,101 @@
+{
+  "date": "2025-04-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/david-fincher-and-romain-chassaing-direct-xbox-advert-starri",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": [
+          { "id": "david-fincher", "name": "David Fincher", "aliases": [], "inferred": false },
+          { "id": "romain-chassaing", "name": "Romain Chassaing", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "David Fincher and Romain Chassaing directed an Xbox advert starring CGI rats."
+    },
+    {
+      "ref": "main_news/netflix-s-devil-may-cry-animated-series-gets-season-2-order",
+      "entities": {
+        "games": [{ "id": "devil-may-cry", "name": "Devil May Cry", "aliases": [], "genres": ["action-adventure"], "franchise": "devil-may-cry", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Netflix's Devil May Cry animated series received a season 2 order one week after its debut."
+    },
+    {
+      "ref": "main_news/the-xbox-games-showcase-returns-on-june-8",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-06-08", "unit": "date", "currency": null,
+          "entity": "xbox-games-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2025-04-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The **Xbox Games Showcase** returns on June 8",
+          "source": { "name": "Xbox Wire", "domain": "news.xbox.com",
+                      "url": "https://news.xbox.com/en-us/2025/04/09/xbox-games-showcase-2025-outer-worlds-2-direct/" } }
+      ],
+      "summary": "The Xbox Games Showcase returns on June 8, 2025."
+    },
+    {
+      "ref": "main_news/the-legend-of-zelda-breath-of-the-wild-s-nintendo-switch-2-e",
+      "entities": {
+        "games": [{ "id": "the-legend-of-zelda-breath-of-the-wild", "name": "The Legend of Zelda: Breath of the Wild", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "the-legend-of-zelda", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port"],
+      "facts": [],
+      "summary": "The Legend of Zelda: Breath of the Wild's Nintendo Switch 2 Edition will not include the DLC."
+    },
+    {
+      "ref": "business/a-group-of-former-world-of-warcraft-fortnite-and-baldur-s-ga",
+      "entities": {
+        "games": [
+          { "id": "tomo-endless-blue", "name": "Tomo: Endless Blue", "aliases": [], "genres": ["rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "world-of-warcraft", "name": "World of Warcraft", "aliases": [], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": "fortnite", "inferred": true },
+          { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["crpg"], "franchise": "baldurs-gate", "inferred": true }
+        ],
+        "studios": [{ "id": "onibi", "name": "Onibi", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Former World of Warcraft, Fortnite, and Baldur's Gate 3 developers have formed a new studio to build an anime-style multiplayer RPG called Tomo: Endless Blue."
+    },
+    {
+      "ref": "rumours/amazon-tomb-raider-series-from-phoebe-waller-bridge-reported",
+      "entities": {
+        "games": [{ "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }],
+        "people": [{ "id": "phoebe-waller-bridge", "name": "Phoebe Waller-Bridge", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Amazon's Tomb Raider series from Phoebe Waller-Bridge is dead, with no script reportedly submitted."
+    }
+  ]
+}

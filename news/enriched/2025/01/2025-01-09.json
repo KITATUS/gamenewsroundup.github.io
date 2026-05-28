@@ -1,0 +1,167 @@
+{
+  "date": "2025-01-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mcdonalds-launches-sonic-3-themed-happy-meals-in-the-uk-toda",
+      "entities": {
+        "games": [
+          { "id": "sonic-the-hedgehog-3", "name": "Sonic 3", "aliases": ["Sonic 3"], "genres": [], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "McDonald's launched Sonic 3 themed Happy Meals in the UK on 9 January 2025."
+    },
+    {
+      "ref": "main_news/minecraft-youtuber-to-present-new-classic-fm-video-game-musi",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true },
+          { "id": "the-legend-of-zelda", "name": "The Legend of Zelda", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "final-fantasy-7", "name": "Final Fantasy 7", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "the-elder-scrolls", "name": "The Elder Scrolls", "aliases": [], "genres": ["action-rpg"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "dantdm", "name": "DanTDM", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date", "value": "2025-01-11", "unit": "date", "currency": null,
+          "entity": "next-level-with-dantdm", "entity_type": "product", "scope": "event",
+          "as_of": "2025-01-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Next Level with DanTDM launches on Saturday 11th January at 9pm for an hour",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/minecraft-youtuber-to-present-new-classic-fm-video-game-music-series" }
+        }
+      ],
+      "summary": "Minecraft YouTuber DanTDM will present a new Classic FM video game music series, Next Level with DanTDM, launching on 11 January 2025."
+    },
+    {
+      "ref": "main_news/final-fantasy-7-director-would-love-another-movie-based-on-t",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7", "name": "Final Fantasy 7", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The director of Final Fantasy 7 said he would love another movie based on the game."
+    },
+    {
+      "ref": "business/squid-game-unleashed-reaches-over-10m-installs",
+      "entities": {
+        "games": [
+          { "id": "squid-game-unleashed", "name": "Squid Game: Unleashed", "aliases": [], "genres": ["battle-royale"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "app-store", "name": "Apple App Store", "aliases": ["Apple's App Store"], "inferred": false },
+          { "id": "google-play", "name": "Google Play", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "free-game"],
+      "facts": [
+        {
+          "metric": "downloads", "value": 10000000, "unit": "installs", "currency": null,
+          "entity": "squid-game-unleashed", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-09", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Squid Game: Unleashed reaches over 10m installs",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squid-game-unleashed-reaches-over-10m-installs" }
+        },
+        {
+          "metric": "downloads", "value": 7400000, "unit": "installs", "currency": null,
+          "entity": "squid-game-unleashed", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-09", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Most of Squid Game: Unleashed's downloads are from Apple's App Store at 7.4 million installs",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squid-game-unleashed-reaches-over-10m-installs" }
+        },
+        {
+          "metric": "downloads", "value": 3300000, "unit": "installs", "currency": null,
+          "entity": "squid-game-unleashed", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-09", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "3.3 million from Google Play",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squid-game-unleashed-reaches-over-10m-installs" }
+        },
+        {
+          "metric": "downloads", "value": 1800000, "unit": "installs", "currency": null,
+          "entity": "squid-game-unleashed", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-09", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "The United States was the top country for installs at 1.8 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squid-game-unleashed-reaches-over-10m-installs" }
+        },
+        {
+          "metric": "downloads", "value": 1100000, "unit": "installs", "currency": null,
+          "entity": "squid-game-unleashed", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-09", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "followed by Brazil with 1.1 million downloads",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squid-game-unleashed-reaches-over-10m-installs" }
+        },
+        {
+          "metric": "chart_rank", "value": 5, "unit": "rank", "currency": null,
+          "entity": "squid-game-unleashed", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Battle royale multiplayer has become Netflix's fifth most downloaded game",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/squid-game-unleashed-reaches-over-10m-installs" }
+        }
+      ],
+      "summary": "Netflix's Squid Game: Unleashed has surpassed 10 million installs, becoming Netflix's fifth most downloaded game."
+    },
+    {
+      "ref": "business/plaion-ceo-klemens-kundratitz-steps-down-31-years-after-co-f",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "plaion", "name": "Plaion", "aliases": ["Koch Media"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "klemens-kundratitz", "name": "Klemens Kundratitz", "aliases": [], "inferred": false },
+          { "id": "phil-rogers", "name": "Phil Rogers", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Plaion CEO Klemens Kundratitz is stepping down 31 years after co-founding Koch Media, with Deputy CEO Phil Rogers assuming leadership."
+    },
+    {
+      "ref": "business/splash-damage-confirms-layoff-plans-as-transformers-game-is",
+      "entities": {
+        "games": [
+          { "id": "transformers-reactive", "name": "Transformers: Reactive", "aliases": [], "genres": [], "franchise": "transformers", "inferred": true },
+          { "id": "gears-tactics", "name": "Gears Tactics", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "gears-of-war", "inferred": true },
+          { "id": "wolfenstein-enemy-territory", "name": "Wolfenstein: Enemy Territory", "aliases": [], "genres": ["fps"], "franchise": "wolfenstein", "inferred": true },
+          { "id": "dirty-bomb", "name": "Dirty Bomb", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "splash-damage", "name": "Splash Damage", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Splash Damage confirmed layoff plans after the cancellation of its Transformers: Reactive game, with an undisclosed number of staff at risk of redundancy."
+    }
+  ]
+}

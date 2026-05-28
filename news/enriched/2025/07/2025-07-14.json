@@ -1,0 +1,75 @@
+{
+  "date": "2025-07-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/summer-games-done-quick-2025-raises-1-8m-for-doctors-without",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Summer Games Done Quick 2025 raised £1.8m for Doctors Without Borders."
+    },
+    {
+      "ref": "business/lords-of-the-fallen-surpasses-5-5m-players",
+      "entities": {
+        "games": [{ "id": "lords-of-the-fallen", "name": "Lords of the Fallen", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 5500000, "unit": "players", "currency": null,
+          "entity": "lords-of-the-fallen", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-14", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Lords of the Fallen surpasses 5.5m players",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/lotfgame/status/1943638934606524769" } }
+      ],
+      "summary": "Lords of the Fallen has surpassed 5.5 million players."
+    },
+    {
+      "ref": "rumours/forza-horizon-5-sold-2-million-units-in-one-month-on-ps5",
+      "entities": {
+        "games": [{ "id": "forza-horizon-5", "name": "Forza Horizon 5", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "rumour"],
+      "facts": [
+        { "metric": "units_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "forza-horizon-5", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-14", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Forza Horizon 5 Sold 2 Million Units in One Month on PS5",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/forza-horizon-5-sold-2-million-copies-ps5/" } }
+      ],
+      "summary": "Rumour that Forza Horizon 5 sold 2 million units in its first month on PS5."
+    },
+    {
+      "ref": "rumours/an-untitled-donkey-kong-film-has-been-recently-registered-at",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "universal-pictures", "name": "Universal Pictures", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "rumour"],
+      "facts": [],
+      "summary": "Rumour that an untitled Donkey Kong film has been registered at the U.S. Copyright Office by Universal Pictures and Nintendo."
+    }
+  ]
+}

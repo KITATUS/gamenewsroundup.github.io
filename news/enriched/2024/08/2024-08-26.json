@@ -1,0 +1,129 @@
+{
+  "date": "2024-08-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/here-s-an-18-minute-behind-the-scenes-documentary-about-how",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["rpg", "action-rpg", "open-world"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": ["Amazon's"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "Eurogamer highlighted an 18-minute behind-the-scenes documentary about how Amazon's Fallout TV show was made."
+    },
+    {
+      "ref": "main_news/heroes-of-might-magic-olden-era-arrives-next-year",
+      "entities": {
+        "games": [
+          { "id": "heroes-of-might-magic-olden-era", "name": "Heroes of Might & Magic: Olden Era", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": "heroes-of-might-and-magic", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "early-access"],
+      "facts": [],
+      "summary": "Ubisoft announced Heroes of Might & Magic: Olden Era, arriving next year as a Steam early access title for the series' 30th anniversary."
+    },
+    {
+      "ref": "main_news/valve-officially-announces-deadlock-weeks-after-footage-star",
+      "entities": {
+        "games": [
+          { "id": "deadlock", "name": "Deadlock", "aliases": [], "genres": ["hero-shooter", "moba"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Valve officially announced Deadlock, weeks after footage of the game started appearing online."
+    },
+    {
+      "ref": "main_news/avowed-is-targeting-30-fps-says-obsidian-art-director",
+      "entities": {
+        "games": [
+          { "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian", "aliases": ["Obsidian"], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "An Obsidian art director said Avowed is targeting 30 FPS, adding you do not necessarily need 60 frames."
+    },
+    {
+      "ref": "main_news/sonic-3-movie-social-media-account-teases-keanu-reeves-as-th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "keanu-reeves", "name": "Keanu Reeves", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "The official Sonic the Hedgehog movie social media account appeared to tease that Keanu Reeves will voice Shadow in the upcoming third movie."
+    },
+    {
+      "ref": "business/gamescom-2024-had-335-000-visitors-this-year",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "viewers", "value": 40000000, "unit": "viewers", "currency": null,
+          "entity": "gamescom-opening-night-live", "entity_type": "product", "scope": "event",
+          "as_of": "2024-08-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Opening Night Live show doubled got 40 million video views, double that of 2023",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/geoffkeighley/status/1827731114900980200" } }
+      ],
+      "summary": "Gamescom 2024 had 335,000 visitors from 120 countries, up from 320,000 last year, while its Opening Night Live show drew 40 million video views."
+    },
+    {
+      "ref": "business/visual-concepts-lays-off-staff-at-lego-2k-drive-south-studio",
+      "entities": {
+        "games": [
+          { "id": "lego-2k-drive", "name": "Lego 2K Drive", "aliases": [], "genres": ["racing"], "franchise": "lego", "inferred": true }
+        ],
+        "studios": [
+          { "id": "visual-concepts", "name": "Visual Concepts", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Visual Concepts laid off staff at its South studio, the team behind Lego 2K Drive."
+    }
+  ]
+}

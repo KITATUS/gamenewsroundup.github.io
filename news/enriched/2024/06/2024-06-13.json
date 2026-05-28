@@ -1,0 +1,147 @@
+{
+  "date": "2024-06-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/metallica-headlines-fortnite-as-it-introduces-a-new-music-th",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "metallica", "name": "Metallica", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["update-patch", "partnership"],
+      "facts": [],
+      "summary": "Metallica headlines a new music-themed Fortnite battle mode and concert event."
+    },
+    {
+      "ref": "free_games_subscription/june-s-playstation-plus-game-catalogue-classics-and-ps-vr2-t",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-rise", "name": "Monster Hunter Rise", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "football-manager-2024", "name": "Football Manager 2024", "aliases": [], "genres": ["simulation", "sports"], "franchise": "football-manager", "inferred": true },
+          { "id": "crusader-kings-iii", "name": "Crusader Kings III", "aliases": [], "genres": ["strategy"], "franchise": "crusader-kings", "inferred": true },
+          { "id": "monster-energy-supercross-the-official-videogame-6", "name": "Monster Energy Supercross – The Official Videogame 6", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "after-us", "name": "After Us", "aliases": [], "genres": ["platformer", "adventure"], "franchise": null, "inferred": true },
+          { "id": "anno-1800", "name": "Anno 1800", "aliases": [], "genres": ["strategy", "simulation"], "franchise": "anno", "inferred": true },
+          { "id": "police-simulator-patrol-officers", "name": "Police Simulator: Patrol Officers", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "far-cry-4", "name": "Far Cry 4", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "lego-the-hobbit", "name": "Lego The Hobbit", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "lego-the-incredibles", "name": "Lego The Incredibiles", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "kayak-vr-mirage", "name": "Kayak VR: Mirage", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "lego-star-wars-ii-the-original-trilogy", "name": "Lego Star Wars II: The Original Trilogy", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "ghosthunter", "name": "Ghosthunter", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "daxter", "name": "Daxter", "aliases": [], "genres": ["platformer"], "franchise": "jak-and-daxter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps-vr2", "name": "PS VR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [],
+      "summary": "Sony announced June's PlayStation Plus Game Catalogue, Classics and PS VR2 titles."
+    },
+    {
+      "ref": "business/take-two-officially-owns-gearbox-entertainment",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gearbox-entertainment", "name": "Gearbox Entertainment", "aliases": ["Gearbox"], "publisher": "take-two-interactive", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false },
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Take-Two Interactive has officially completed its acquisition of Gearbox Entertainment from Embracer Group."
+    },
+    {
+      "ref": "business/valve-sued-for-allegedly-overcharging-14-million-uk-steam-pl",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 14000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "steam",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-06-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Valve sued for allegedly overcharging 14 million UK Steam players",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/valve-sued-for-allegedly-overcharging-14-million-uk-steam-players" }
+        }
+      ],
+      "summary": "Valve is being sued for allegedly overcharging 14 million UK Steam players, with the Competition Appeal Tribunal alleging its 30 percent revenue cut breaches UK competition law."
+    },
+    {
+      "ref": "business/sumo-group-closing-timbre-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": ["Sumo"], "publisher": null, "inferred": false },
+          { "id": "timbre-games", "name": "Timbre Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [],
+      "summary": "Sumo Group is closing Timbre Games as part of current cuts."
+    },
+    {
+      "ref": "business/armello-jumplight-odyssey-studio-league-of-geeks-going-into",
+      "entities": {
+        "games": [
+          { "id": "armello", "name": "Armello", "aliases": [], "genres": ["strategy", "card"], "franchise": null, "inferred": true },
+          { "id": "jumplight-odyssey", "name": "Jumplight Odyssey", "aliases": [], "genres": ["strategy", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "league-of-geeks", "name": "League of Geeks", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [],
+      "summary": "Armello and Jumplight Odyssey studio League of Geeks is going into hibernation following layoffs."
+    }
+  ]
+}

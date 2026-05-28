@@ -1,0 +1,123 @@
+{
+  "date": "2025-07-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/you-can-now-play-the-last-of-us-part-2-in-yet-another-way-as",
+      "entities": {
+        "games": [
+          { "id": "the-last-of-us-part-2", "name": "The Last of Us Part 2", "aliases": ["Last of Us Part 2"], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true }
+        ],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Naughty Dog released a free \"Chronological\" mode for The Last of Us Part 2."
+    },
+    {
+      "ref": "main_news/a-ghost-of-yotei-state-of-play-featuring-nearly-20-minutes-o",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": ["A Ghost of Yotei"], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "gameplay"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-07-10", "unit": "date", "currency": null,
+          "entity": "ghost-of-yotei-state-of-play", "entity_type": "product", "scope": "event",
+          "as_of": "2025-07-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "coming this week - July 10 at 2pm PT / 5pm ET / 10pm BST / 11pm CEST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-ghost-of-yotei-state-of-play-featuring-nearly-20-minutes-of-gameplay-coming-this-week/" } }
+      ],
+      "summary": "A Ghost of Yotei State of Play with nearly 20 minutes of gameplay is set for July 10, 2025."
+    },
+    {
+      "ref": "main_news/capcom-cancels-monster-hunter-lecture-as-staff-face-death-th",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter: Wilds", "aliases": ["Monster Hunter"], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Capcom cancelled a Monster Hunter optimization lecture after staff reportedly faced death threats from players over the game's performance issues."
+    },
+    {
+      "ref": "main_news/animal-crossing-crocs-collaboration-announced-releases-26th",
+      "entities": {
+        "games": [
+          { "id": "animal-crossing", "name": "Animal Crossing", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "animal-crossing", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-26", "unit": "date", "currency": null,
+          "entity": "animal-crossing-crocs", "entity_type": "product", "scope": "product",
+          "as_of": "2025-07-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "releases 26th August",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/nintendo-wants-you-to-literally-put-your-foot-into-animal-crossing-with-upcoming-crocs-collaboration" } }
+      ],
+      "summary": "An Animal Crossing and Crocs collaboration was announced, releasing on 26 August 2025."
+    },
+    {
+      "ref": "free_games_subscription/xcom-dev-s-highly-rated-marvel-s-midnight-suns-is-free-to-cl",
+      "entities": {
+        "games": [
+          { "id": "marvels-midnight-suns", "name": "Marvel's Midnight Suns", "aliases": ["Marvel’s Midnight Suns"], "genres": ["turn-based-strategy", "card", "rpg"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "firaxis-games", "name": "Firaxis Games", "aliases": ["XCOM dev"], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "prime-gaming", "name": "Prime Gaming", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Marvel's Midnight Suns is free to claim for a limited time for Prime Gaming users."
+    },
+    {
+      "ref": "business/epic-games-settles-antitrust-lawsuit-with-samsung-we-are-gra",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "inferred": false },
+          { "id": "samsung", "name": "Samsung", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Epic Games settled its antitrust lawsuit with Samsung."
+    }
+  ]
+}

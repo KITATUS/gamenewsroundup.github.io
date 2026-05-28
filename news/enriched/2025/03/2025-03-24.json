@@ -1,0 +1,110 @@
+{
+  "date": "2025-03-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/27-more-classic-pc-games-have-joined-the-gog-preservation-pr",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-4", "name": "Silent Hill 4", "aliases": ["Silent Hill 4"], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "gog", "name": "GOG", "aliases": ["GOG Preservation Program"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "update-patch"],
+      "facts": [],
+      "summary": "GOG added 27 more classic PC games to its GOG Preservation Program, including Silent Hill 4."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-switch-online-adding-four-more-snes-games",
+      "entities": {
+        "games": [
+          { "id": "nobunagas-ambition", "name": "Nobunaga's Ambition", "aliases": [], "genres": ["strategy"], "franchise": "nobunagas-ambition", "inferred": true },
+          { "id": "nobunagas-ambition-lord-of-darkness", "name": "Nobunaga's Ambition: Lord of Darkness", "aliases": [], "genres": ["strategy"], "franchise": "nobunagas-ambition", "inferred": true },
+          { "id": "romance-of-the-three-kingdoms-4-wall-of-fire", "name": "Romance of the Three Kingdoms 4: Wall of Fire", "aliases": [], "genres": ["strategy"], "franchise": "romance-of-the-three-kingdoms", "inferred": true },
+          { "id": "uncharted-waters-new-horizons", "name": "Uncharted Water: New Horizons", "aliases": ["Uncharted Water: New Horizons"], "genres": ["rpg", "simulation"], "franchise": "uncharted-waters", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false },
+          { "id": "snes", "name": "SNES", "aliases": ["SNES"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Nintendo Switch Online is adding four more SNES games to its catalogue."
+    },
+    {
+      "ref": "business/esa-launches-accessible-games-initiative-and-unveils-24-tags",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "esa", "name": "ESA", "aliases": ["ESA"], "inferred": false },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false },
+          { "id": "google", "name": "Google", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo of America"], "inferred": false },
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": [], "inferred": false },
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "inferred": false },
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false },
+          { "id": "warner-bros-games", "name": "Warner Bros Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "The ESA launched its Accessible Games Initiative and unveiled 24 accessibility \"tags\" for gaming storefronts and product pages."
+    },
+    {
+      "ref": "business/silent-hill-f-has-been-refused-classification-in-australia",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Silent Hill f has been refused classification in Australia, meaning it cannot be sold there without changes."
+    },
+    {
+      "ref": "business/assassin-s-creed-shadows-tops-2m-players-surpassing-launches",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": [], "genres": ["action-rpg", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 2000000, "unit": "players", "currency": null,
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-24", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Assassin's Creed Shadows tops 2m players",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/assassins-creed-shadows-tops-2-million-players-surpassing-the-launches-of-origins-and-odyssey" } }
+      ],
+      "summary": "Assassin's Creed Shadows has topped 2 million players, surpassing the launches of Origins and Odyssey."
+    }
+  ]
+}

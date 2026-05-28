@@ -1,0 +1,269 @@
+{
+  "date": "2024-09-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/steam-hit-an-all-time-record-of-38-3-million-pc-players-onli",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "peak_concurrent_players",
+          "value": 38300000,
+          "unit": "players",
+          "currency": null,
+          "entity": "steam",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-09-23",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Steam hit an all-time record of 38.3 million PC players online",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/tomwarren/status/1837858638620176459" }
+        },
+        {
+          "metric": "peak_concurrent_players",
+          "value": 32000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "steam",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-09-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Steam hit an all-time peak of 32 million in January 2023",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/tomwarren/status/1837858638620176459" }
+        },
+        {
+          "metric": "peak_concurrent_players",
+          "value": 37000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "steam",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-09-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "37 million in August 2024",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/tomwarren/status/1837858638620176459" }
+        }
+      ],
+      "summary": "Steam hit an all-time record of 38.3 million concurrent PC players online."
+    },
+    {
+      "ref": "main_news/microsoft-shutting-down-xbox-ambassadors",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-10-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "xbox-ambassadors",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-09-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Xbox Ambassadors website will go offline on October 15th",
+          "source": { "name": "ambassadors.microsoft.com", "domain": "ambassadors.microsoft.com", "url": "https://ambassadors.microsoft.com/xbox/blog/celebrating-the-legacy-and-evolution-of-the-xbox-ambassadors" }
+        }
+      ],
+      "summary": "Microsoft is shutting down the Xbox Ambassadors programme, with its website going offline on 15 October."
+    },
+    {
+      "ref": "main_news/netflix-s-splinter-cell-deathwatch-animated-series-is-coming",
+      "entities": {
+        "games": [
+          { "id": "splinter-cell-deathwatch", "name": "Splinter Cell: Deathwatch", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "splinter-cell", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Netflix says its Splinter Cell: Deathwatch animated series is \"coming soon\"."
+    },
+    {
+      "ref": "business/microsoft-spends-1-billion-annually-to-get-third-party-games",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        {
+          "metric": "content_acquisition_cost",
+          "value": 1000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "microsoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-09-23",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Microsoft Spends $1 Billion Annually To Get Third-Party Games On Game Pass",
+          "source": { "name": "GameSpot", "domain": "gamespot.com", "url": "https://www.gamespot.com/articles/microsoft-spends-1-billion-annually-to-get-third-party-games-on-game-pass-report/1100-6526605/" }
+        }
+      ],
+      "summary": "Microsoft reportedly spends $1 billion annually to bring third-party games to Game Pass."
+    },
+    {
+      "ref": "rumours/elder-scrolls-online-has-reportedly-earned-15m-in-monthly-re",
+      "entities": {
+        "games": [
+          { "id": "elder-scrolls-online", "name": "Elder Scrolls Online", "aliases": ["ESO"], "genres": ["mmorpg"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "zenimax-online-studios", "name": "ZeniMax Online Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "rumour"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 15000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "elder-scrolls-online",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-09-23",
+          "period": null,
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Elder Scrolls Online has reportedly earned $15M in monthly revenue for over a decade",
+          "source": { "name": "Massively OP", "domain": "massivelyop.com", "url": "https://massivelyop.com/2024/09/22/elder-scrolls-online-has-reportedly-earned-15m-in-monthly-revenue-for-over-a-decade/" }
+        }
+      ],
+      "summary": "A report claims Elder Scrolls Online has earned roughly $15M in monthly revenue for over a decade."
+    },
+    {
+      "ref": "rumours/assassin-s-creed-invictus-is-inspired-by-fall-guys",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-invictus", "name": "Assassin's Creed Invictus", "aliases": [], "genres": ["action-adventure", "party"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "fall-guys", "name": "Fall Guys", "aliases": [], "genres": ["party", "platformer"], "franchise": "fall-guys", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A leaker suggests Assassin's Creed Invictus is a multiplayer game inspired by Fall Guys."
+    },
+    {
+      "ref": "rumours/playstation-30th-anniversary-edition-of-ps5-slim-digital-to",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour", "hardware", "price-change"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 500,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2024-09-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "30th Anniversary Edition of PS5 Slim Digital to Cost $500",
+          "source": { "name": "MP1st", "domain": "mp1st.com", "url": "https://mp1st.com/news/report-playstation-30th-anniversary-edition-of-ps5-slim-digital-to-cost-500-dualsense-controller-priced-at-80" }
+        },
+        {
+          "metric": "price",
+          "value": 80,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "dualsense",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-09-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "DualSense Controller Priced at $80",
+          "source": { "name": "MP1st", "domain": "mp1st.com", "url": "https://mp1st.com/news/report-playstation-30th-anniversary-edition-of-ps5-slim-digital-to-cost-500-dualsense-controller-priced-at-80" }
+        }
+      ],
+      "summary": "A report claims the PlayStation 30th Anniversary Edition PS5 Slim Digital will cost $500, with a matching DualSense controller priced at $80."
+    },
+    {
+      "ref": "rumours/microsoft-s-next-gen-console-plans-reportedly-include-an-xbo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": [], "inferred": false },
+          { "id": "steam-deck", "name": "Steam Deck", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour", "hardware"],
+      "facts": [],
+      "summary": "A report claims Microsoft's next-gen console plans include an Xbox Series X successor and a handheld to take on the Steam Deck."
+    }
+  ]
+}

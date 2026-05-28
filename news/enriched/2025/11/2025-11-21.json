@@ -1,0 +1,235 @@
+{
+  "date": "2025-11-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-tcg-pocket-wins-google-play-s-best-game-of-the-year",
+      "entities": {
+        "games": [
+          { "id": "pokemon-tcg-pocket", "name": "Pokémon TCG Pocket", "aliases": [], "genres": ["card"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "google-play", "name": "Google Play", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Pokémon TCG Pocket won Google Play's Best Game of the Year award."
+    },
+    {
+      "ref": "main_news/great-ormond-street-hospital-is-looking-for-a-gamer-in-resid",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Great Ormond Street Hospital is recruiting a Gamer in Residence, a role aimed at improving patient care, minimising trauma, and ensuring every young person has someone to game with."
+    },
+    {
+      "ref": "main_news/silent-hill-2-remake-surprise-launches-on-xbox-series-s-x",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2-remake", "name": "Silent Hill 2 Remake", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port", "remaster-remake"],
+      "facts": [],
+      "summary": "Silent Hill 2 Remake surprise-launched on Xbox Series S/X."
+    },
+    {
+      "ref": "main_news/eminem-will-hire-agent-47-to-kill-slim-shady-in-hitman-s-nex",
+      "entities": {
+        "games": [
+          { "id": "hitman", "name": "Hitman", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "hitman", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "eminem", "name": "Eminem", "aliases": ["Slim Shady"], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-12-01", "unit": "date", "currency": null,
+          "entity": "hitman", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases December 1st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/eminem-will-hire-agent-47-to-kill-slim-shady-in-hitmans-next-elusive-target-mission/" } }
+      ],
+      "summary": "Hitman's next Elusive Target mission, themed around Eminem hiring Agent 47 to kill Slim Shady, releases on 1 December."
+    },
+    {
+      "ref": "main_news/vampire-crawlers-a-first-person-deck-building-vampire-surviv",
+      "entities": {
+        "games": [
+          { "id": "vampire-crawlers", "name": "Vampire Crawlers", "aliases": [], "genres": ["card", "roguelike"], "franchise": "vampire-survivors", "inferred": true },
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike"], "franchise": "vampire-survivors", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "vampire-crawlers", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Vampire Crawlers is coming in 2026 to Xbox Series S/X, PlayStation 5, Nintendo Switch 2, and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/vampire-crawlers-a-first-person-deck-building-vampire-survivors-spin-off-is-coming-next-year/" } }
+      ],
+      "summary": "Vampire Crawlers, a first-person deck-building Vampire Survivors spin-off, is coming in 2026 to Xbox Series S/X, PlayStation 5, Nintendo Switch 2, and PC, day one on Xbox Game Pass, with a sequel to the original also in development."
+    },
+    {
+      "ref": "main_news/new-007-first-light-trailer-confirms-bond-s-car-is-an-aston",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "A new 007 First Light trailer confirms Bond's car is an Aston Martin Valhalla."
+    },
+    {
+      "ref": "main_news/dave-the-diver-is-finally-on-xbox-and-it-s-available-now",
+      "entities": {
+        "games": [
+          { "id": "dave-the-diver", "name": "Dave the Diver", "aliases": [], "genres": ["adventure", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "Dave the Diver is now available on Xbox."
+    },
+    {
+      "ref": "main_news/bafta-games-concert-confirms-uk-city-dates-and-adds-fallout",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "returnal", "name": "Returnal", "aliases": [], "genres": ["tps", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "helldivers", "name": "Helldivers", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The BAFTA Games Concert confirmed UK city dates and added Fallout, Returnal, and Helldivers to its programme."
+    },
+    {
+      "ref": "business/ubisoft-confirms-1-16-billion-tencent-investment-in-new-subs",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "earnings", "layoffs"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1160000000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ubisoft confirms €1.16 billion Tencent investment in new subsidiary is 'imminent'",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/ubisoft-confirms-1-16-billion-tencent-investment-in-new-subsidiary-is-imminent-" } },
+        { "metric": "revenue", "value": 490900000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-21", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Q2 net bookings exceeded expectations after increasing by 39 percent year-on-year to €490.9 million",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/ubisoft-confirms-1-16-billion-tencent-investment-in-new-subsidiary-is-imminent-" } },
+        { "metric": "layoffs_count", "value": 1500, "unit": "people", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-21", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "has resulted in the exit of 1,500 employees over the past 12 months",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/ubisoft-confirms-1-16-billion-tencent-investment-in-new-subsidiary-is-imminent-" } }
+      ],
+      "summary": "Ubisoft confirmed that Tencent's €1.16 billion investment in a new subsidiary is imminent, alongside Q2 net bookings beating guidance and the exit of 1,500 employees over the past year."
+    },
+    {
+      "ref": "business/unity-signs-multi-title-development-partnership-with-2k-game",
+      "entities": {
+        "games": [
+          { "id": "pga-tour-2k25", "name": "PGA Tour 2K25", "aliases": [], "genres": ["sports"], "franchise": "pga-tour-2k", "inferred": true }
+        ],
+        "studios": [
+          { "id": "unity", "name": "Unity", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "2k-games", "name": "2K Games", "aliases": ["2K"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership", "port"],
+      "facts": [],
+      "summary": "Unity signed a multi-title development partnership with 2K Games and will co-develop the Nintendo Switch 2 port of PGA Tour 2K25."
+    },
+    {
+      "ref": "business/resident-evil-survival-unit-tops-1-million-downloads-in-24-h",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-survival-unit", "name": "Resident Evil Survival Unit", "aliases": [], "genres": ["survival-horror", "strategy"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 1000000, "unit": "downloads", "currency": null,
+          "entity": "resident-evil-survival-unit", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-21", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Resident Evil Survival Unit tops 1 million downloads in 24 hours",
+          "source": { "name": "X", "domain": "x.com",
+                      "url": "https://x.com/RE_SU_EN/status/1991336203472486839" } }
+      ],
+      "summary": "Resident Evil Survival Unit topped 1 million downloads within 24 hours."
+    }
+  ]
+}

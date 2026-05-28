@@ -1,0 +1,368 @@
+{
+  "date": "2026-01-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-reveals-tomodachi-life-living-the-dream-release-dat",
+      "entities": {
+        "games": [
+          {
+            "id": "tomodachi-life-living-the-dream",
+            "name": "Tomodachi Life: Living the Dream",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": "tomodachi-life",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-04-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "tomodachi-life-living-the-dream",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-01-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Release Date - April 16th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-reveals-more-tomodachi-life-living-the-dream-info-including-its-release-date/"
+          }
+        }
+      ],
+      "summary": "Nintendo revealed that Tomodachi Life: Living the Dream will release on 16 April 2026."
+    },
+    {
+      "ref": "main_news/bloober-team-tease-new-game-fans-speculate-could-be-either-a",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "bloober-team",
+            "name": "Bloober Team",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser", "rumour"],
+      "facts": [],
+      "summary": "Bloober Team teased a new game, with fans speculating it could be a new IP or a Rule of Rose remake."
+    },
+    {
+      "ref": "business/paradox-operating-profit-dropped-162-year-on-year-as-it-writ",
+      "entities": {
+        "games": [
+          {
+            "id": "vampire-the-masquerade-bloodlines-2",
+            "name": "Vampire: The Masquerade Bloodlines 2",
+            "aliases": [],
+            "genres": ["action-rpg", "rpg"],
+            "franchise": "vampire-the-masquerade",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "paradox-interactive",
+            "name": "Paradox Interactive",
+            "aliases": ["Paradox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 874800000,
+          "unit": "money",
+          "currency": "SEK",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: SEK 874.8 million ($98.7 million), up 23% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 98700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: SEK 874.8 million ($98.7 million), up 23% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": -245400000,
+          "unit": "money",
+          "currency": "SEK",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating profit: -SEK245.4 million (-$27.7 million), down 162% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": -27700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating profit: -SEK245.4 million (-$27.7 million), down 162% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 2200000000,
+          "unit": "money",
+          "currency": "SEK",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sales: SEK 2.2 billion ($248.3 million), level year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 248300000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sales: SEK 2.2 billion ($248.3 million), level year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 146000000,
+          "unit": "money",
+          "currency": "SEK",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating profit: SEK 146 million ($16.5 million), an 80% decrease year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 16500000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "paradox-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-30",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating profit: SEK 146 million ($16.5 million), an 80% decrease year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/paradox-operating-profit-dropped-162-year-on-year-as-it-writes-down-vampire-the-masquerade-bloodlines-2"
+          }
+        }
+      ],
+      "summary": "Paradox Interactive's quarterly operating profit fell 162% year-on-year as it wrote down Vampire: The Masquerade Bloodlines 2."
+    },
+    {
+      "ref": "business/over-1m-units-of-silent-hill-games-were-sold-in-the-last-qua",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill",
+            "name": "Silent Hill",
+            "aliases": [],
+            "genres": ["survival-horror", "horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          },
+          {
+            "id": "metal-gear-solid",
+            "name": "Metal Gear Solid",
+            "aliases": [],
+            "genres": ["stealth", "action-adventure"],
+            "franchise": "metal-gear",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "silent-hill",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-01-30",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Over 1M units of Silent Hill games were sold in the last quarter",
+          "source": {
+            "name": "konami.com",
+            "domain": "konami.com",
+            "url": "https://www.konami.com/corporate/en/business/digitalentertainment.html"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 14000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "silent-hill",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-01-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Silent Hill series has now sold over 14M units worldwide",
+          "source": {
+            "name": "konami.com",
+            "domain": "konami.com",
+            "url": "https://www.konami.com/corporate/en/business/digitalentertainment.html"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 65500000,
+          "unit": "units",
+          "currency": null,
+          "entity": "metal-gear-solid",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-01-30",
+          "period": "cumulative",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Metal Gear Solid franchise sales are up 0.4M QoQ, now at 65.5M total",
+          "source": {
+            "name": "konami.com",
+            "domain": "konami.com",
+            "url": "https://www.konami.com/corporate/en/business/digitalentertainment.html"
+          }
+        }
+      ],
+      "summary": "Konami reported that over 1 million Silent Hill units sold last quarter, bringing the series to over 14 million units, while Metal Gear Solid reached 65.5 million total."
+    },
+    {
+      "ref": "rumours/uk-retailer-game-is-going-into-administration-again",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that UK games retailer GAME is going into administration again."
+    }
+  ]
+}

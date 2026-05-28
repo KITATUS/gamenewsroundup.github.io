@@ -1,0 +1,155 @@
+{
+  "date": "2026-02-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/amazon-is-shutting-down-another-game-former-lionhead-devs-gl",
+      "entities": {
+        "games": [
+          {
+            "id": "king-of-meat",
+            "name": "King of Meat",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "glowmade",
+            "name": "Glowmade",
+            "aliases": ["Former Lionhead devs"],
+            "publisher": "amazon-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "amazon-games",
+            "name": "Amazon Games",
+            "aliases": ["Amazon"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Amazon is shutting down Glowmade's comedy platformer King of Meat six months after its launch."
+    },
+    {
+      "ref": "main_news/nintendo-announces-80-minute-treehouse-stream-showcasing-mar",
+      "entities": {
+        "games": [
+          {
+            "id": "mario-wonder",
+            "name": "Mario Wonder",
+            "aliases": ["Mario Wonder Switch 2"],
+            "genres": ["platformer"],
+            "franchise": "super-mario",
+            "inferred": true
+          },
+          {
+            "id": "pokemon-pokopia",
+            "name": "Pokémon Pokopia",
+            "aliases": [],
+            "genres": ["life-sim"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "switch-2",
+            "name": "Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-02-24",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-treehouse",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-02-24",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Tuesday, February 24 at 2pm PT / 5pm ET / 10pm GMT",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-announces-80-minute-treehouse-stream-showcasing-mario-wonder-switch-2-and-pokemon-pokopia/"
+          }
+        }
+      ],
+      "summary": "Nintendo announced an 80-minute Treehouse stream on 24 February 2026 showcasing Mario Wonder on Switch 2 and Pokémon Pokopia."
+    },
+    {
+      "ref": "main_news/nier-creator-yoko-taro-and-composer-keiichi-okabe-and-workin",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "yoko-taro",
+            "name": "Yoko Taro",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "keiichi-okabe",
+            "name": "Keiichi Okabe",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nier creator Yoko Taro and composer Keiichi Okabe are working on a new Evangelion series."
+    },
+    {
+      "ref": "business/matthew-ball-s-state-of-video-gaming-in-2026",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "matthew-ball",
+            "name": "Matthew Ball",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Matthew Ball published his State of Video Gaming in 2026 report."
+    }
+  ]
+}

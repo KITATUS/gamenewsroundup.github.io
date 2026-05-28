@@ -1,0 +1,236 @@
+{
+  "date": "2024-11-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/steam-s-new-api-lets-devs-grant-easier-build-access-to-playe",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Steam's new API lets developers grant players easier access to game beta build branches directly from the in-game menu."
+    },
+    {
+      "ref": "main_news/world-of-warcraft-s-midnight-expansion-will-add-player-housi",
+      "entities": {
+        "games": [
+          { "id": "world-of-warcraft", "name": "World of Warcraft", "aliases": ["WoW"], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true },
+          { "id": "final-fantasy-xiv", "name": "Final Fantasy XIV", "aliases": [], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "the-elder-scrolls-online", "name": "The Elder Scrolls Online", "aliases": [], "genres": ["mmorpg"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion"],
+      "facts": [],
+      "summary": "World of Warcraft's Midnight expansion will add player housing when it arrives in Summer 2025."
+    },
+    {
+      "ref": "main_news/blizzard-has-released-remastered-versions-of-warcraft-1-and",
+      "entities": {
+        "games": [
+          { "id": "warcraft-1", "name": "Warcraft 1", "aliases": [], "genres": ["rts"], "franchise": "warcraft", "inferred": true },
+          { "id": "warcraft-2", "name": "Warcraft 2", "aliases": [], "genres": ["rts"], "franchise": "warcraft", "inferred": true },
+          { "id": "warcraft-3-reforged", "name": "Warcraft 3 Reforged", "aliases": ["Warcraft 3 Reforged"], "genres": ["rts"], "franchise": "warcraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release"],
+      "facts": [
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "warcraft-remastered-battle-chest", "entity_type": "product", "scope": "product",
+          "as_of": "2024-11-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "available as part of the Warcraft Remastered Battle Chest, which is priced at $39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/blizzard-has-released-remastered-versions-of-warcraft-1-and-2/" } }
+      ],
+      "summary": "Blizzard has released remastered versions of Warcraft 1 and 2 alongside a 2.0 update to Warcraft 3 Reforged, all available in the $39.99 Warcraft Remastered Battle Chest."
+    },
+    {
+      "ref": "free_games_subscription/november-s-playstation-plus-game-catalog-and-classics-titles",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-v", "name": "Grand Theft Auto V", "aliases": ["GTA V"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "dying-light-2-stay-human", "name": "Dying Light 2: Stay Human", "aliases": ["Dying Light 2 Stay Human"], "genres": ["survival-horror", "action-rpg"], "franchise": "dying-light", "inferred": true },
+          { "id": "like-a-dragon-ishin", "name": "Like a Dragon: Ishin", "aliases": ["Like a Dragon Ishin"], "genres": ["action-adventure"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "motogp-24", "name": "MotoGP 24", "aliases": [], "genres": ["racing"], "franchise": "motogp", "inferred": true },
+          { "id": "the-sims-4-island-living", "name": "The Sims 4 Island Living", "aliases": [], "genres": ["life-sim"], "franchise": "the-sims", "inferred": true },
+          { "id": "digimon-survive", "name": "Digimon Survive", "aliases": [], "genres": ["visual-novel", "turn-based-strategy"], "franchise": "digimon", "inferred": true },
+          { "id": "overcooked-all-you-can-eat", "name": "Overcooked! All You Can Eat", "aliases": [], "genres": ["party", "simulation"], "franchise": "overcooked", "inferred": true },
+          { "id": "stick-fight-the-game", "name": "Stick Fight: The Game", "aliases": ["Stick Fight The Game"], "genres": ["fighting", "party"], "franchise": null, "inferred": true },
+          { "id": "clash-artifacts-of-chaos", "name": "Clash: Artifacts of Chaos", "aliases": ["Clash Artifacts of Chaos"], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "killer-frequency", "name": "Killer Frequency", "aliases": [], "genres": ["adventure", "horror"], "franchise": null, "inferred": true },
+          { "id": "hungry-shark-world", "name": "Hungry Shark World", "aliases": [], "genres": ["action-adventure"], "franchise": "hungry-shark", "inferred": true },
+          { "id": "chivalry-2", "name": "Chivalry 2", "aliases": [], "genres": ["fps", "action"], "franchise": "chivalry", "inferred": true },
+          { "id": "synapse", "name": "Synapse", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "blood-omen-legacy-of-kain", "name": "Blood Omen: Legacy of Kain", "aliases": ["Blood Omen Legacy of Kain"], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "blood-omen-2", "name": "Blood Omen 2", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "resistance-fall-of-man", "name": "Resistance: Fall of Man", "aliases": ["Resistance Fall of Man"], "genres": ["fps"], "franchise": "resistance", "inferred": true },
+          { "id": "resistance-2", "name": "Resistance 2", "aliases": [], "genres": ["fps"], "franchise": "resistance", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation Plus"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-vr2", "name": "PlayStation VR2", "aliases": ["PS VR2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-19", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "event",
+          "as_of": "2024-11-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases November 19th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/novembers-playstation-plus-game-catalog-and-classics-titles-revealed/" } }
+      ],
+      "summary": "November's PlayStation Plus Game Catalog and Classics titles were revealed, releasing on 19 November 2024."
+    },
+    {
+      "ref": "business/ubisoft-appoints-new-chief-people-officer",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "sebastien-froidefond", "name": "Sébastien Froidefond", "aliases": ["Froidefond"], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Ubisoft appointed Sébastien Froidefond as its new chief people officer, joining from Lactalis Americas."
+    },
+    {
+      "ref": "business/nexon-s-q3-results",
+      "entities": {
+        "games": [
+          { "id": "dungeon-fighter-mobile", "name": "Dungeon Fighter Mobile", "aliases": [], "genres": ["action-rpg"], "franchise": "dungeon-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 135600000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenues: ¥135.6 billion ($874 million), up 12.7% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/dungeon-fighter-mobile-boosts-nexons-q3-revenue" } },
+        { "metric": "revenue", "value": 874000000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenues: ¥135.6 billion ($874 million), up 12.7% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/dungeon-fighter-mobile-boosts-nexons-q3-revenue" } },
+        { "metric": "profit", "value": 27000000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥27 billion ($174 million), down 23% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/dungeon-fighter-mobile-boosts-nexons-q3-revenue" } },
+        { "metric": "profit", "value": 174000000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥27 billion ($174 million), down 23% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/dungeon-fighter-mobile-boosts-nexons-q3-revenue" } }
+      ],
+      "summary": "Nexon's Q3 revenues rose 12.7% year-on-year to ¥135.6 billion ($874 million), while net income fell 23% to ¥27 billion ($174 million), boosted by Dungeon Fighter Mobile."
+    },
+    {
+      "ref": "business/hundreds-of-bethesda-employees-strike-over-remote-work-and-o",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bethesda", "name": "Bethesda", "aliases": [], "publisher": "zenimax-media", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "zenimax-media", "name": "ZeniMax", "aliases": ["ZeniMax"], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Hundreds of Bethesda employees in Maryland and Texas held a one-day strike over remote work and outsourcing policies they say parent company ZeniMax and Microsoft have failed to address."
+    },
+    {
+      "ref": "business/lollipop-chainsaw-repop-s-sales-greatly-exceeded-expectation",
+      "entities": {
+        "games": [
+          { "id": "lollipop-chainsaw-repop", "name": "Lollipop Chainsaw RePop", "aliases": [], "genres": ["action-adventure"], "franchise": "lollipop-chainsaw", "inferred": true }
+        ],
+        "studios": [
+          { "id": "dragami-games", "name": "Dragami Games", "aliases": [], "publisher": "extreme", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "extreme", "name": "Extreme", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 11650000000, "unit": "currency", "currency": "JPY",
+          "entity": "extreme", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Revised its sales forecast to ¥11.65 billion ($75.4 million), up from ¥11 billion ($74 million)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/lollipop-chainsaw-repops-sales-greatly-exceeded-expectations-parent-company-claims/" } },
+        { "metric": "revenue", "value": 75400000, "unit": "currency", "currency": "USD",
+          "entity": "extreme", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Revised its sales forecast to ¥11.65 billion ($75.4 million), up from ¥11 billion ($74 million)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/lollipop-chainsaw-repops-sales-greatly-exceeded-expectations-parent-company-claims/" } },
+        { "metric": "profit", "value": 1080000000, "unit": "currency", "currency": "JPY",
+          "entity": "extreme", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "revised its net profit to 1.08 billion ($6.9 million), up from ¥710 million ($4.6 million)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/lollipop-chainsaw-repops-sales-greatly-exceeded-expectations-parent-company-claims/" } },
+        { "metric": "profit", "value": 6900000, "unit": "currency", "currency": "USD",
+          "entity": "extreme", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-14", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "revised its net profit to 1.08 billion ($6.9 million), up from ¥710 million ($4.6 million)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/lollipop-chainsaw-repops-sales-greatly-exceeded-expectations-parent-company-claims/" } }
+      ],
+      "summary": "Lollipop Chainsaw RePop's sales greatly exceeded expectations, prompting Dragami Games' parent company Extreme to revise its annual sales forecast up to ¥11.65 billion ($75.4 million) and net profit to ¥1.08 billion ($6.9 million)."
+    }
+  ]
+}

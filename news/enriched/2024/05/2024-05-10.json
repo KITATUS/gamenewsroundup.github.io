@@ -1,0 +1,591 @@
+{
+  "date": "2024-05-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hellblade-2-is-only-two-weeks-away-and-fans-feel-xbox-should",
+      "entities": {
+        "games": [
+          {
+            "id": "senuas-saga-hellblade-2",
+            "name": "Senua's Saga: Hellblade 2",
+            "aliases": ["Hellblade 2"],
+            "genres": ["action-adventure"],
+            "franchise": "hellblade",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ninja-theory",
+            "name": "Ninja Theory",
+            "aliases": [],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "xbox-game-studios",
+            "name": "Xbox Game Studios",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": [
+          {
+            "id": "aaron-greenberg",
+            "name": "Aaron Greenberg",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-05-21",
+          "unit": "date",
+          "currency": null,
+          "entity": "senuas-saga-hellblade-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Senua's Saga: Hellblade 2 releases 21st May",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/hellblade-2-is-only-two-weeks-away-and-fans-feel-xbox-should-be-making-more-noise"
+          }
+        }
+      ],
+      "summary": "Senua's Saga: Hellblade 2 releases on 21 May, with fans feeling Xbox should be doing more to promote it."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-teases-dark-fantasy-era-with-dungeons-drago",
+      "entities": {
+        "games": [
+          {
+            "id": "dead-by-daylight",
+            "name": "Dead by Daylight",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "dead-by-daylight",
+            "inferred": true
+          },
+          {
+            "id": "dungeons-dragons",
+            "name": "Dungeons & Dragons",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "dungeons-dragons",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "behaviour-interactive",
+            "name": "Behaviour Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser", "dlc-expansion", "partnership"],
+      "facts": [
+        {
+          "metric": "announce_date",
+          "value": "2024-05-14",
+          "unit": "date",
+          "currency": null,
+          "entity": "dead-by-daylight",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Learn more on May 14th",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/dead-by-daylight-teases-dark-fantasy-era-with-dungeons-dragons-themed-chapter"
+          }
+        }
+      ],
+      "summary": "Dead by Daylight teased a dark fantasy era with a Dungeons & Dragons themed collaboration, promising more details on 14 May."
+    },
+    {
+      "ref": "main_news/devolver-believes-in-selling-games-first-over-day-one-launch",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "devolver-digital",
+            "name": "Devolver Digital",
+            "aliases": ["Devolver"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Devolver's co-founder said the publisher believes in selling games first rather than putting them on day-one Game Pass-style subscriptions."
+    },
+    {
+      "ref": "main_news/nintendo-is-ending-x-twitter-support-for-nintendo-switch",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-06-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-switch",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2024-05-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Beginning on June 10, users will no longer be able to upload images to the service directly from Nintendo Switch machines",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-is-ending-x-twitter-support-for-nintendo-switch/"
+          }
+        }
+      ],
+      "summary": "Nintendo is ending X/Twitter integration on Nintendo Switch from 10 June, removing direct image uploads and friend-request syncing."
+    },
+    {
+      "ref": "business/capcom-announces-seventh-consecutive-year-of-record-results",
+      "entities": {
+        "games": [
+          {
+            "id": "street-fighter-6",
+            "name": "Street Fighter 6",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "street-fighter",
+            "inferred": true
+          },
+          {
+            "id": "dragons-dogma-2",
+            "name": "Dragon's Dogma 2",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "dragons-dogma",
+            "inferred": true
+          },
+          {
+            "id": "resident-evil-4-remake",
+            "name": "Resident Evil 4 Remake",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          },
+          {
+            "id": "monster-hunter",
+            "name": "Monster Hunter",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "monster-hunter",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 152410000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net Sales: were 152,410 million yen ($977M), which is up 21.0% year-over-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 977000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net Sales: were 152,410 million yen ($977M), which is up 21.0% year-over-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 57081000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating Income: was 57,081 million yen ($366M) which is up 12.3% year-over-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 366000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating Income: was 57,081 million yen ($366M) which is up 12.3% year-over-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 43374000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net Income: 43,374 million yen ($278M) up 18.1 % year-over-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 278000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "capcom",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net Income: 43,374 million yen ($278M) up 18.1 % year-over-year",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 3300000,
+          "unit": "units",
+          "currency": null,
+          "entity": "street-fighter-6",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Street Fighter 6 sold 3.3 million units",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 2600000,
+          "unit": "units",
+          "currency": null,
+          "entity": "dragons-dogma-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dragon’s Dogma 2 sold 2.6 million (series now at over 11 million units)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 11000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "dragons-dogma",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2024-05-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "series now at over 11 million units",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 7020000,
+          "unit": "units",
+          "currency": null,
+          "entity": "resident-evil-4-remake",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Resident Evil 4 Remake sold 7.02 million units (series now at 36.29 million units)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 36290000,
+          "unit": "units",
+          "currency": null,
+          "entity": "resident-evil-4-remake",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2024-05-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "series now at 36.29 million units",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 100000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "monster-hunter",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2024-05-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Monster Hunter franchise has crossed 100 million cumulative sales",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-announces-seventh-consecutive-year-of-record-results/"
+          }
+        }
+      ],
+      "summary": "Capcom reported its seventh consecutive year of record results, with net sales of 152,410 million yen ($977M) up 21% year-over-year and strong unit sales across Street Fighter 6, Dragon's Dogma 2, Resident Evil 4 Remake and Monster Hunter."
+    },
+    {
+      "ref": "business/roblox-q1-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "roblox",
+            "name": "Roblox",
+            "aliases": [],
+            "genres": ["sandbox"],
+            "franchise": "roblox",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "roblox-corporation",
+            "name": "Roblox Corporation",
+            "aliases": ["Roblox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 801000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "roblox-corporation",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $801 million, up 22% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-revenues-increase-to-801m-in-q1"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -270000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "roblox-corporation",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-10",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Net losses: $270 million, compared to $269 million in the same quarter last year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-revenues-increase-to-801m-in-q1"
+          }
+        }
+      ],
+      "summary": "Roblox reported Q1 revenue of $801 million, up 22% year-on-year, alongside a net loss of $270 million."
+    },
+    {
+      "ref": "business/warner-bros-ceo-says-disappointing-suicide-squad-release-ove",
+      "entities": {
+        "games": [
+          {
+            "id": "suicide-squad-kill-the-justice-league",
+            "name": "Suicide Squad: Kill the Justice League",
+            "aliases": ["Suicide Squad"],
+            "genres": ["action-adventure", "tps"],
+            "franchise": "batman-arkham",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rocksteady-studios",
+            "name": "Rocksteady Studios",
+            "aliases": [],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "warner-bros",
+            "name": "Warner Bros",
+            "aliases": ["Warner Bros CEO"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Warner Bros' CEO said the disappointing release of Suicide Squad overshadowed the company's overall Studios financials."
+    }
+  ]
+}

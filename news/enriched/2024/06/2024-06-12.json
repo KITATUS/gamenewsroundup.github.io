@@ -1,0 +1,121 @@
+{
+  "date": "2024-06-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/epicdb-a-steamdb-equivalent-launched-and-appears-to-be-leaki",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-16", "name": "Final Fantasy XVI", "aliases": ["FFXVI", "Skobeloff"], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "final-fantasy-9-remake", "name": "Final Fantasy IX Remake", "aliases": ["FFIX Remake", "Momo"], "genres": ["jrpg", "rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "turok", "name": "Turok", "aliases": [], "genres": ["fps"], "franchise": "turok", "inferred": true },
+          { "id": "the-last-of-us-part-2", "name": "The Last of Us Part 2", "aliases": ["Utah"], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true }
+        ],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": ["Saber"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["EpicDB"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "EpicDB, a SteamDB equivalent, launched and appears to be leaking many unannounced projects under codenames."
+    },
+    {
+      "ref": "main_news/netflix-now-describes-arcane-season-two-as-the-final-chapter",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": [], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Netflix now describes Arcane season two as \"the final chapter\", with Riot confirming the show's end while other projects remain in the pipeline."
+    },
+    {
+      "ref": "business/resident-evil-village-passes-10m-sales",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-village", "name": "Resident Evil Village", "aliases": [], "genres": ["survival-horror", "fps"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 10000000, "unit": "units", "currency": null,
+          "entity": "resident-evil-village", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Resident Evil Village passes 10m sales",
+          "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/news/html/e240611.html" } }
+      ],
+      "summary": "Resident Evil Village has passed 10 million sales."
+    },
+    {
+      "ref": "business/sackboy-and-texas-chain-saw-massacre-maker-sumo-group-reduci",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": ["Sumo Digital"], "publisher": "tencent", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 270, "unit": "people", "currency": null,
+          "entity": "sumo-group", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-06-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Putting nearly 270 employees at risk",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sackboy-and-texas-chain-saw-massacre-developer-sumo-group-reducing-staff-by-15" } },
+        { "metric": "headcount", "value": 1650, "unit": "people", "currency": null,
+          "entity": "sumo-group", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-06-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The Tencent-owned British games company is thought to employ over 1,650 people",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sackboy-and-texas-chain-saw-massacre-developer-sumo-group-reducing-staff-by-15" } }
+      ],
+      "summary": "Sackboy and The Texas Chain Saw Massacre maker Sumo Group is reducing staff by 15%, putting nearly 270 employees at risk."
+    },
+    {
+      "ref": "business/japanese-studio-gumi-wants-80-people-to-accept-voluntary-red",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gumi", "name": "Gumi", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 80, "unit": "people", "currency": null,
+          "entity": "gumi", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Gumi wants 80 people to accept voluntary redundancy",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/japanese-studio-gumi-wants-80-people-to-accept-voluntary-redundancy" } }
+      ],
+      "summary": "Japanese studio Gumi wants 80 people to accept voluntary redundancy as the mobile and web3 game maker downsizes for sustainable growth."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "date": "2025-02-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/retro-publisher-retro-bit-admits-16-bit-re-releases-contain",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "retro-bit", "name": "Retro-Bit", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Retro publisher Retro-Bit admitted that its 16-bit re-releases contain uncredited fan translations and has placed future releases on hold to investigate."
+    },
+    {
+      "ref": "main_news/mortal-kombat-1-reveals-t-1000-gameplay-ahead-of-march-dlc-r",
+      "entities": {
+        "games": [{ "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }],
+        "studios": [{ "id": "netherrealm-studios", "name": "NetherRealm Studios", "aliases": [], "publisher": "warner-bros-games", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "robert-patrick", "name": "Robert Patrick", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["gameplay", "dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-03-18", "unit": "date", "currency": null,
+          "entity": "mortal-kombat-1", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The T-1000 and Madam Bo Kameo will join Mortal Kombat 1's Khaos Reigns expansion March 18th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mortal-kombat-1-reveals-t-1000-gameplay-ahead-of-march-dlc-release/" } }
+      ],
+      "summary": "Mortal Kombat 1 revealed T-1000 gameplay ahead of the character joining its Khaos Reigns expansion on 18 March 2025, with Robert Patrick reprising his role."
+    },
+    {
+      "ref": "free_games_subscription/balatro-shadowdropped-on-xbox-game-pass",
+      "entities": {
+        "games": [{ "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["roguelike", "card"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Balatro was shadowdropped onto Xbox Game Pass."
+    },
+    {
+      "ref": "business/surgeon-simulator-studio-bossa-is-making-layoffs-as-it-scale",
+      "entities": {
+        "games": [
+          { "id": "surgeon-simulator", "name": "Surgeon Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "lost-skies", "name": "Lost Skies", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "bossa-studios", "name": "Bossa Studios", "aliases": ["Bossa"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "henrique-olifiers", "name": "Henrique Olifiers", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 19, "unit": "people", "currency": null,
+          "entity": "bossa-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-02-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "This reportedly saw 19 of 59 employees let go from the studio",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/surgeon-simulator-studio-bossa-is-making-layoffs-as-it-scales-back-operations/" } },
+        { "metric": "headcount", "value": 59, "unit": "people", "currency": null,
+          "entity": "bossa-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-02-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "This reportedly saw 19 of 59 employees let go from the studio",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/surgeon-simulator-studio-bossa-is-making-layoffs-as-it-scales-back-operations/" } }
+      ],
+      "summary": "Surgeon Simulator studio Bossa is making layoffs as it scales back operations, with co-CEO Henrique Olifiers citing a fundamental transformation of the games industry."
+    },
+    {
+      "ref": "business/forte-labs-owned-phoenix-labs-shutters-dauntless-just-weeks",
+      "entities": {
+        "games": [{ "id": "dauntless", "name": "Dauntless", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "phoenix-labs", "name": "Phoenix Labs", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "layoffs"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-05-29", "unit": "date", "currency": null,
+          "entity": "dauntless", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Phoenix Labs is sunsetting Dauntless after a six-year run on May 29",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/phoenix-labs-ends-dauntless-development-and-support-in-may" } },
+        { "metric": "layoffs_count", "value": 100, "unit": "people", "currency": null,
+          "entity": "phoenix-labs", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-02-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "including over 100 employees in May 2024",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/phoenix-labs-ends-dauntless-development-and-support-in-may" } }
+      ],
+      "summary": "Forte Labs-owned Phoenix Labs is shutting down Dauntless on 29 May after a six-year run, weeks after laying off a majority of its remaining staff."
+    },
+    {
+      "ref": "business/balatro-wins-formal-appeal-to-reclassify-poker-game-as-pegi",
+      "entities": {
+        "games": [{ "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["roguelike", "card"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Balatro won a formal appeal to reclassify the poker-themed game as PEGI 12."
+    },
+    {
+      "ref": "business/dovetail-games-appoints-gemma-brown-and-rob-o-farrell-as-co",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "dovetail-games", "name": "Dovetail Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "gemma-brown", "name": "Gemma Brown", "aliases": [], "inferred": false },
+          { "id": "rob-ofarrell", "name": "Rob O'Farrell", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Dovetail Games appointed Gemma Brown and Rob O'Farrell as Co-CEOs."
+    },
+    {
+      "ref": "business/112m-of-hasbro-s-472m-2024-digital-gaming-revenue-came-from",
+      "entities": {
+        "games": [{ "id": "monopoly-go", "name": "Monopoly Go", "aliases": [], "genres": ["party"], "franchise": "monopoly", "inferred": true }],
+        "studios": [{ "id": "scopely", "name": "Scopely", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "hasbro", "name": "Hasbro", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 112000000, "unit": "money", "currency": "USD",
+          "entity": "monopoly-go", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-25", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "$112 million alone of that came from Scopely's Monopoly Go",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/112m-of-hasbros-472m-2024-digital-gaming-revenue-came-from-monopoly-go-alone" } },
+        { "metric": "revenue", "value": 471700000, "unit": "money", "currency": "USD",
+          "entity": "hasbro", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-25", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "digital and licensed gaming revenue increase by 22% year-over-year to $471.7 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/112m-of-hasbros-472m-2024-digital-gaming-revenue-came-from-monopoly-go-alone" } },
+        { "metric": "revenue", "value": 4100000000, "unit": "money", "currency": "USD",
+          "entity": "hasbro", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-25", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Hasbro's full-year revenues fell by 17% YoY to $4.1 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/112m-of-hasbros-472m-2024-digital-gaming-revenue-came-from-monopoly-go-alone" } }
+      ],
+      "summary": "Hasbro reported that $112 million of its $471.7 million 2024 digital gaming revenue came from Scopely's Monopoly Go, even as full-year revenues fell 17% to $4.1 billion."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "date": "2024-06-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/jackbox-games-to-launch-unified-game-library-in-july",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "jackbox-games", "name": "Jackbox Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Jackbox Games will launch a unified game library called the Jackbox Megapicker in July, letting Steam players launch any Party Pack games they own without switching."
+    },
+    {
+      "ref": "main_news/playstation-adding-discord-voice-chat-direct-from-console",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "discord", "name": "Discord", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch", "partnership"],
+      "facts": [],
+      "summary": "PlayStation is adding Discord voice chat directly from the console, rolling out over the coming weeks starting in Japan and Asia."
+    },
+    {
+      "ref": "free_games_subscription/the-epic-games-store-s-latest-free-titles-have-been-confirme",
+      "entities": {
+        "games": [
+          { "id": "redout-2", "name": "Redout 2", "aliases": ["Redout2"], "genres": ["racing"], "franchise": "redout", "inferred": true },
+          { "id": "idle-champions-of-the-forgotten-realms", "name": "Idle Champions of the Forgotten Realms", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "freshly-frosted", "name": "Freshly Frosted", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "The Epic Games Store confirmed its latest free titles: Redout 2 and a Duke Ravengard pack for Idle Champions of the Forgotten Realms from June 13-20, and Freshly Frosted from June 20-27."
+    },
+    {
+      "ref": "business/wizard-with-a-gun-developer-galvanic-games-is-closing-down",
+      "entities": {
+        "games": [
+          { "id": "wizard-with-a-gun", "name": "Wizard With a Gun", "aliases": [], "genres": ["action-adventure", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "galvanic-games", "name": "Galvanic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Galvanic Games, the developer of Wizard With a Gun, is closing down."
+    },
+    {
+      "ref": "business/deadline-for-eqt-group-s-proposed-acquisition-of-keywords-st",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-06-28", "unit": "date", "currency": null,
+          "entity": "eqt-group", "entity_type": "company", "scope": "company",
+          "as_of": "2024-06-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "has until June 28 to formally announce",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/deadline-for-eqt-groups-proposed-acquisition-of-keywords-studio-extended" } }
+      ],
+      "summary": "The deadline for EQT Group's proposed acquisition of Keywords Studios has been extended, with the private equity firm having until June 28 to formally announce a cash offer."
+    },
+    {
+      "ref": "business/tango-gameworks-employee-shares-pictures-from-the-xbox-studi",
+      "entities": {
+        "games": [
+          { "id": "the-evil-within", "name": "The Evil Within", "aliases": [], "genres": ["survival-horror"], "franchise": "the-evil-within", "inferred": true },
+          { "id": "ghostwire-tokyo", "name": "Ghostwire: Tokyo", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "hi-fi-rush", "name": "Hi-Fi Rush", "aliases": ["Hi-fi Rush"], "genres": ["rhythm", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": ["ZeniMax Asia"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "A Tango Gameworks employee shared pictures from the Xbox studio's final day, as the developer of The Evil Within, Ghostwire: Tokyo and Hi-Fi Rush closed its doors."
+    },
+    {
+      "ref": "business/warcraft-s-general-manager-has-left-blizzard-after-12-years",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "john-hight", "name": "John Hight", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "John Hight, the Warcraft franchise general manager and SVP, has revealed he is resigning from Blizzard after more than a decade with the company."
+    },
+    {
+      "ref": "business/sag-aftra-says-strike-likely-if-publishers-disagree-with-ai",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "SAG-AFTRA says a strike is likely if publishers disagree with AI protections, with negotiations held up by a lack of consensus over what the technology means for voice actors."
+    },
+    {
+      "ref": "rumours/gears-of-war-e-day-could-be-released-in-2025-it-s-claimed",
+      "entities": {
+        "games": [
+          { "id": "gears-of-war-e-day", "name": "Gears of War: E-Day", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-coalition", "name": "The Coalition", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "rumour"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "gears-of-war-e-day", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-17", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "could be released in 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/gears-of-war-e-day-could-be-released-in-2025-its-claimed/" } }
+      ],
+      "summary": "A rumour claims Gears of War: E-Day could be released in 2025."
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "date": "2024-06-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ace-attorney-investigations-collection-coming-to-switch",
+      "entities": {
+        "games": [
+          { "id": "ace-attorney-investigations-collection", "name": "Ace Attorney Investigations Collection", "aliases": [], "genres": ["adventure", "visual-novel"], "franchise": "ace-attorney", "inferred": true },
+          { "id": "ace-attorney-investigations-2-prosecutors-gambit", "name": "Ace Attorney Investigations 2: Prosecutor's Gambit", "aliases": [], "genres": ["adventure", "visual-novel"], "franchise": "ace-attorney", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Ace Attorney Investigations Collection is coming to Nintendo Switch, with Ace Attorney Investigations 2: Prosecutor's Gambit released in English for the first time."
+    },
+    {
+      "ref": "main_news/nintendo-finally-reveals-metroid-prime-4-with-a-2025-release",
+      "entities": {
+        "games": [{ "id": "metroid-prime-4", "name": "Metroid Prime 4", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "metroid", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null, "entity": "metroid-prime-4", "entity_type": "game", "scope": "game", "as_of": "2024-06-19", "period": "point_in_time", "direction": null, "confidence": "medium", "quote": "with a 2025 release date", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-finally-reveals-metroid-prime-4-with-a-2025-release-date/" } },
+        { "metric": "announce_date", "value": "2017", "unit": "date", "currency": null, "entity": "metroid-prime-4", "entity_type": "game", "scope": "game", "as_of": "2024-06-19", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "The Nintendo Switch sequel was first announced in 2017", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-finally-reveals-metroid-prime-4-with-a-2025-release-date/" } }
+      ],
+      "summary": "Nintendo revealed Metroid Prime 4, the Nintendo Switch sequel first announced in 2017, with a 2025 release date."
+    },
+    {
+      "ref": "main_news/marvel-vs-capcom-fighting-collection-arcade-classics-announc",
+      "entities": {
+        "games": [{ "id": "marvel-vs-capcom-fighting-collection-arcade-classics", "name": "Marvel vs. Capcom Fighting Collection: Arcade Classics", "aliases": [], "genres": ["fighting"], "franchise": "marvel-vs-capcom", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Marvel vs. Capcom Fighting Collection: Arcade Classics was announced for Switch."
+    },
+    {
+      "ref": "main_news/stray-is-officially-coming-to-nintendo-switch",
+      "entities": {
+        "games": [{ "id": "stray", "name": "Stray", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Stray is officially coming to Nintendo Switch."
+    },
+    {
+      "ref": "main_news/super-mario-party-jamboree-is-coming-to-switch-this-year",
+      "entities": {
+        "games": [{ "id": "super-mario-party-jamboree", "name": "Super Mario Party Jamboree", "aliases": [], "genres": ["party"], "franchise": "mario-party", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Super Mario Party Jamboree is coming to Switch this year."
+    },
+    {
+      "ref": "main_news/dragon-quest-3-hd-2d-remake-dated-1-2-hd-2d-remake-announced",
+      "entities": {
+        "games": [
+          { "id": "dragon-quest-3-hd-2d-remake", "name": "Dragon Quest 3 HD-2D Remake", "aliases": [], "genres": ["jrpg"], "franchise": "dragon-quest", "inferred": true },
+          { "id": "dragon-quest-1-2-hd-2d-remake", "name": "Dragon Quest 1 & 2 HD-2D Remake", "aliases": ["1 & 2 HD-2D Remake"], "genres": ["jrpg"], "franchise": "dragon-quest", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "The Dragon Quest 3 HD-2D Remake received a release date, and the Dragon Quest 1 & 2 HD-2D Remake was announced."
+    },
+    {
+      "ref": "main_news/donkey-kong-country-returns-hd-is-coming-to-nintendo-switch",
+      "entities": {
+        "games": [{ "id": "donkey-kong-country-returns-hd", "name": "Donkey Kong Country Returns HD", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Donkey Kong Country Returns HD is coming to Nintendo Switch."
+    },
+    {
+      "ref": "main_news/final-fantasy-creator-s-fantasian-neo-dimension-announced-fo",
+      "entities": {
+        "games": [
+          { "id": "fantasian-neo-dimension", "name": "Fantasian Neo Dimension", "aliases": ["Fantasian"], "genres": ["jrpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Final Fantasy creator's Fantasian Neo Dimension was announced for Switch, with Square Enix bringing Fantasian to Switch, PS5, PS4, Xbox Series S/X and PC this winter."
+    },
+    {
+      "ref": "main_news/mario-and-luigi-brothership-announced-for-switch",
+      "entities": {
+        "games": [{ "id": "mario-and-luigi-brothership", "name": "Mario and Luigi: Brothership", "aliases": [], "genres": ["rpg"], "franchise": "mario-and-luigi", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Mario and Luigi: Brothership was announced for Switch."
+    },
+    {
+      "ref": "main_news/a-second-uncharted-movie-is-officially-in-the-works",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "tom-holland", "name": "Tom Holland", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "revenue", "value": 400000000, "unit": "money", "currency": "USD", "entity": "uncharted", "entity_type": "product", "scope": "product", "as_of": "2024-06-19", "period": "cumulative", "direction": null, "confidence": "medium", "quote": "The Tom Holland movie generated over $400m at the box office", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-second-uncharted-movie-is-officially-in-the-works/" } }
+      ],
+      "summary": "A second Uncharted movie is officially in the works, following the Tom Holland film that generated over $400m at the box office."
+    },
+    {
+      "ref": "main_news/saber-interactive-reveals-a-quiet-place-the-road-ahead",
+      "entities": {
+        "games": [{ "id": "a-quiet-place-the-road-ahead", "name": "A Quiet Place: The Road Ahead", "aliases": [], "genres": ["horror", "adventure"], "franchise": "a-quiet-place", "inferred": true }],
+        "studios": [{ "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Saber Interactive revealed A Quiet Place: The Road Ahead."
+    },
+    {
+      "ref": "main_news/amazon-s-next-free-to-play-fantasy-mmo-throne-and-liberty-is",
+      "entities": {
+        "games": [{ "id": "throne-and-liberty", "name": "Throne and Liberty", "aliases": [], "genres": ["mmorpg"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "amazon-games", "name": "Amazon Games", "aliases": ["Amazon"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "free-game"],
+      "facts": [],
+      "summary": "Amazon's next free-to-play fantasy MMO Throne and Liberty is out in September."
+    },
+    {
+      "ref": "main_news/zelda-finally-playable-protagonist-in-new-standalone-game-th",
+      "entities": {
+        "games": [{ "id": "the-legend-of-zelda-echoes-of-wisdom", "name": "The Legend of Zelda: Echoes of Wisdom", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": [{ "id": "zelda", "name": "Zelda", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Zelda is a playable protagonist for the first time in the new standalone game The Legend of Zelda: Echoes of Wisdom."
+    },
+    {
+      "ref": "free_games_subscription/perfect-dark-turok-and-more-are-coming-to-nintendo-switch-on",
+      "entities": {
+        "games": [
+          { "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps"], "franchise": "perfect-dark", "inferred": true },
+          { "id": "turok", "name": "Turok", "aliases": [], "genres": ["fps"], "franchise": "turok", "inferred": true },
+          { "id": "metroid-zero-mission", "name": "Metroid: Zero Mission", "aliases": [], "genres": ["action-adventure", "metroidvania"], "franchise": "metroid", "inferred": true },
+          { "id": "the-legend-of-zelda-a-link-to-the-past-four-swords", "name": "The Legend of Zelda: A Link to the Past Four Swords", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Perfect Dark, Turok, Metroid: Zero Mission and The Legend of Zelda: A Link to the Past Four Swords are coming to Nintendo Switch Online today."
+    },
+    {
+      "ref": "business/paradox-is-closing-its-tectonic-studio-following-life-by-you",
+      "entities": {
+        "games": [{ "id": "life-by-you", "name": "Life by You", "aliases": [], "genres": ["life-sim"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "tectonic", "name": "Tectonic", "aliases": [], "publisher": "paradox-interactive", "inferred": false }],
+        "publishers": [{ "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": ["Paradox"], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "rod-humble", "name": "Rod Humble", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [
+        { "metric": "headcount", "value": 24, "unit": "people", "currency": null, "entity": "tectonic", "entity_type": "studio", "scope": "studio", "as_of": "2024-06-19", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "The studio, which employs 24 people, was founded in 2019", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/paradox-is-closing-its-tectonic-studio-following-life-by-yous-cancellation/" } }
+      ],
+      "summary": "Paradox is closing its Tectonic studio, which employs 24 people, following the cancellation of Life by You."
+    },
+    {
+      "ref": "business/xbox-marketing-officer-jerret-west-leaves-for-roblox",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "jerret-west", "name": "Jerret West", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Xbox marketing officer Jerret West is leaving for Roblox."
+    }
+  ]
+}

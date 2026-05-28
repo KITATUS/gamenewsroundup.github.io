@@ -1,0 +1,138 @@
+{
+  "date": "2025-06-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/limited-run-has-asked-nintendo-to-pull-gex-trilogy-from-the",
+      "entities": {
+        "games": [
+          { "id": "gex-trilogy", "name": "Gex Trilogy", "aliases": [], "genres": ["platformer"], "franchise": "gex", "inferred": true }
+        ],
+        "studios": [
+          { "id": "limited-run-games", "name": "Limited Run", "aliases": ["Limited Run"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Switch 2"], "inferred": true },
+          { "id": "nintendo-eshop", "name": "eShop", "aliases": ["eShop"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Limited Run has asked Nintendo to pull the Gex Trilogy from the eShop because it does not work on Switch 2."
+    },
+    {
+      "ref": "main_news/elden-ring-nightreign-is-getting-remixed-bosses-in-a-free-up",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightreign", "name": "Elden Ring Nightreign", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "bandai-namco-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Elden Ring Nightreign is getting remixed bosses in a free update."
+    },
+    {
+      "ref": "main_news/after-a-rocky-start-gears-of-war-reloaded-s-beta-is-being-ex",
+      "entities": {
+        "games": [
+          { "id": "gears-of-war-reloaded", "name": "Gears of War Reloaded", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [],
+      "summary": "After a rocky start, the beta for Gears of War Reloaded is being extended."
+    },
+    {
+      "ref": "main_news/resident-evil-requiem-pragmata-and-more-to-appear-in-capcom",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "pragmata", "name": "Pragmata", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-06-26", "unit": "date", "currency": null,
+          "entity": "capcom-showcase", "entity_type": "product", "scope": "event",
+          "as_of": "2025-06-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "June 26 at 11PM BST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/resident-evil-requiem-pragmata-and-more-to-appear-in-capcom-showcase-next-week/" } }
+      ],
+      "summary": "Resident Evil Requiem, Pragmata, and more will appear in the Capcom Showcase on 26 June at 11PM BST."
+    },
+    {
+      "ref": "business/third-party-switch-2-game-sales-have-started-off-slow-with-o",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Switch 2"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [],
+      "summary": "Third-party Switch 2 game sales have started off slow, with one publisher reporting sales below its lowest estimates."
+    },
+    {
+      "ref": "business/playdead-co-founder-says-the-studio-is-suing-him-accuses-it",
+      "entities": {
+        "games": [
+          { "id": "limbo", "name": "Limbo", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": null, "inferred": true },
+          { "id": "inside", "name": "Inside", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "playdead", "name": "Playdead", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A Playdead co-founder says the studio is suing him and accuses it of trying to erase his involvement in Limbo and Inside."
+    },
+    {
+      "ref": "business/embracer-has-reduced-its-workforce-by-over-1800-people-in-th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "earnings"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 1800, "unit": "people", "currency": null,
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2025-06-20", "period": "annual", "direction": "down", "confidence": "medium",
+          "quote": "reduced its workforce by over 1800 people in the past year",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/embracer-has-reduced-its-workforce-by-over-1800-people-in-the-past-year" } }
+      ],
+      "summary": "Embracer reduced its workforce by over 1,800 people in the past year, as revealed in its annual report."
+    }
+  ]
+}

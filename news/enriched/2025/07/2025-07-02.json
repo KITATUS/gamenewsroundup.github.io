@@ -1,0 +1,142 @@
+{
+  "date": "2025-07-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sega-s-tokyo-flagship-store-opens-later-this-month-in-japan",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega's Tokyo flagship store is set to open later this month in Japan."
+    },
+    {
+      "ref": "main_news/nintendo-confirms-donkey-kong-bananza-s-developer-is-the-sam",
+      "entities": {
+        "games": [
+          { "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "super-mario-odyssey", "name": "Super Mario Odyssey", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo confirmed that Donkey Kong Bananza is being developed by the same team behind Super Mario Odyssey, but declined to name its director or key personnel."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-july",
+      "entities": {
+        "games": [
+          { "id": "little-nightmares-ii", "name": "Little Nightmares II", "aliases": [], "genres": ["horror", "puzzle", "platformer"], "franchise": "little-nightmares", "inferred": true },
+          { "id": "rise-of-the-tomb-raider", "name": "Rise of the Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "legend-of-mana", "name": "Legend of Mana", "aliases": [], "genres": ["action-rpg"], "franchise": "mana", "inferred": true },
+          { "id": "trials-of-mana", "name": "Trials of Mana", "aliases": [], "genres": ["action-rpg"], "franchise": "mana", "inferred": true },
+          { "id": "ultimate-chicken-horse", "name": "Ultimate Chicken Horse", "aliases": [], "genres": ["platformer", "party"], "franchise": null, "inferred": true },
+          { "id": "the-ascent", "name": "The Ascent", "aliases": [], "genres": ["action-rpg", "shooter"], "franchise": null, "inferred": true },
+          { "id": "minami-lane", "name": "Minami Lane", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "tony-hawks-pro-skater-3-4", "name": "Tony Hawk's Pro Skater 3 + 4", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true },
+          { "id": "high-on-life", "name": "High On Life", "aliases": [], "genres": ["fps", "adventure"], "franchise": null, "inferred": true },
+          { "id": "flock", "name": "Flock", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "mafia-definitive-edition", "name": "Mafia Definitive Edition", "aliases": [], "genres": ["action-adventure"], "franchise": "mafia", "inferred": true },
+          { "id": "magical-delicacy", "name": "Magical Delicacy", "aliases": [], "genres": ["metroidvania", "simulation"], "franchise": null, "inferred": true },
+          { "id": "tchia", "name": "Tchia", "aliases": [], "genres": ["open-world", "adventure"], "franchise": null, "inferred": true },
+          { "id": "the-callisto-protocol", "name": "The Callisto Protocol", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true },
+          { "id": "the-case-of-the-golden-idol", "name": "The Case of the Golden Idol", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-07-01", "unit": "date", "currency": null,
+          "entity": "little-nightmares-ii", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Little Nightmares II (Cloud, Console, and PC) - July 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-01", "unit": "date", "currency": null,
+          "entity": "rise-of-the-tomb-raider", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rise of the Tomb Raider (Cloud, Console, and PC) - July 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-02", "unit": "date", "currency": null,
+          "entity": "legend-of-mana", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Legend of Mana (Console) – 2nd July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-02", "unit": "date", "currency": null,
+          "entity": "trials-of-mana", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Trials of Mana (Console) – 2nd July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-03", "unit": "date", "currency": null,
+          "entity": "ultimate-chicken-horse", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ultimate Chicken Horse (Cloud, Console, and PC) - 3rd July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-08", "unit": "date", "currency": null,
+          "entity": "the-ascent", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Ascent (Cloud, Console, and PC) – 8th July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-09", "unit": "date", "currency": null,
+          "entity": "minami-lane", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Minami Lane (Cloud, Console, and PC) – 9th July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-11", "unit": "date", "currency": null,
+          "entity": "tony-hawks-pro-skater-3-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tony Hawk's Pro Skater 3 + 4 (Cloud, Console, and PC) – 11th July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } },
+        { "metric": "release_date", "value": "2025-07-15", "unit": "date", "currency": null,
+          "entity": "high-on-life", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "High On Life (Cloud, Console, and PC) – 15th July",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-game-pass-titles-for-july-include-tony-hawks-pro-skater-34/" } }
+      ],
+      "summary": "Xbox Game Pass revealed its July line-up, with new arrivals including Little Nightmares II, Tony Hawk's Pro Skater 3 + 4 and High On Life, while several titles leave the service on 15 July."
+    },
+    {
+      "ref": "business/krafton-replaces-the-leadership-of-unknown-worlds-subnautica",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [
+          { "id": "unknown-worlds", "name": "Unknown Worlds", "aliases": [], "publisher": "krafton", "inferred": true },
+          { "id": "striking-distance-studios", "name": "Striking Distance", "aliases": ["Striking Distance"], "publisher": "krafton", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "steve-papoutsis", "name": "Steve Papoutsis", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Krafton replaced the leadership of Unknown Worlds, the Subnautica 2 studio, installing Striking Distance head Steve Papoutsis."
+    }
+  ]
+}

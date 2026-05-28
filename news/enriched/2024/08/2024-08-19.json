@@ -1,0 +1,127 @@
+{
+  "date": "2024-08-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/silent-hill-2-story-trailer",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": ["Silent Hill 2 Remake"], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "A story trailer for the Silent Hill 2 Remake has been released and is being well received compared to previous looks."
+    },
+    {
+      "ref": "main_news/nintendo-announces-museum-focused-nintendo-direct",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-08-19", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2024-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Join us tomorrow, August 19 at 3pm PT, for a tour of the Nintendo Museum",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-announces-museum-focused-nintendo-direct/" } }
+      ],
+      "summary": "Nintendo has announced a Museum-focused Nintendo Direct centred on the upcoming Nintendo Museum in Kyoto, Japan."
+    },
+    {
+      "ref": "main_news/sega-s-1993-fighting-game-eternal-champions-is-becoming-a-mo",
+      "entities": {
+        "games": [
+          { "id": "eternal-champions", "name": "Eternal Champions", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [
+          { "id": "derek-connolly", "name": "Derek Connolly", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega's 1993 fighting game Eternal Champions is becoming a movie written by Derek Connolly and produced by Skydance."
+    },
+    {
+      "ref": "business/adam-boyes-steps-down-as-co-ceo-of-iron-galaxy",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "iron-galaxy", "name": "Iron Galaxy", "aliases": ["Iron Galaxy Studios"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "adam-boyes", "name": "Adam Boyes", "aliases": [], "inferred": false },
+          { "id": "chelsea-blasko", "name": "Chelsea Blasko", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Adam Boyes is stepping down as co-CEO of Iron Galaxy, leaving Chelsea Blasko as the studio's sole CEO."
+    },
+    {
+      "ref": "business/ubisoft-cuts-45-jobs-across-cary-and-san-francisco-teams",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-nexus-vr", "name": "Assassin's Creed Nexus VR", "aliases": [], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "the-division-heartland", "name": "The Division Heartland", "aliases": [], "genres": ["shooter"], "franchise": "the-division", "inferred": true },
+          { "id": "rocksmith", "name": "Rocksmith", "aliases": [], "genres": ["rhythm"], "franchise": "rocksmith", "inferred": true },
+          { "id": "south-park-the-fractured-but-whole", "name": "South Park: The Fractured But Whole", "aliases": [], "genres": ["rpg"], "franchise": "south-park", "inferred": true },
+          { "id": "xdefiant", "name": "xDefiant", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "red-storm-entertainment", "name": "Red Storm Entertainment", "aliases": ["Ubisoft Cary"], "publisher": "ubisoft", "inferred": false },
+          { "id": "ubisoft-san-francisco", "name": "Ubisoft San Francisco", "aliases": [], "publisher": "ubisoft", "inferred": false }
+        ],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 45, "unit": "people", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ubisoft cuts 45 jobs across Cary and San Francisco teams",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/ubisoft-cuts-45-jobs-across-cary-and-san-francisco-teams" } }
+      ],
+      "summary": "Ubisoft has cut 45 jobs across its Cary, North Carolina and San Francisco teams to align its organisations with future business objectives."
+    },
+    {
+      "ref": "business/tango-gameworks-acquisition-will-transfer-around-50-out-of-o",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "headcount", "value": 50, "unit": "people", "currency": null,
+          "entity": "tango-gameworks", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-08-19", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Tango Gameworks acquisition will transfer around 50 out of original 100 staff",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/tango-gameworks-acquisition-will-transfer-around-50-out-of-original-100-staff" } },
+        { "metric": "headcount", "value": 100, "unit": "people", "currency": null,
+          "entity": "tango-gameworks", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "around 50 out of original 100 staff",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/tango-gameworks-acquisition-will-transfer-around-50-out-of-original-100-staff" } }
+      ],
+      "summary": "The Tango Gameworks acquisition will transfer around 50 of the studio's original 100 staff, as others have since found employment elsewhere."
+    }
+  ]
+}

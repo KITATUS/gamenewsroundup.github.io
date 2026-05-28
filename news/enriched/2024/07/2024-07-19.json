@@ -1,0 +1,204 @@
+{
+  "date": "2024-07-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/former-rare-studios-artist-brett-jones-has-passed-away",
+      "entities": {
+        "games": [
+          { "id": "goldeneye", "name": "GoldenEye", "aliases": ["GoldenEye"], "genres": ["fps"], "franchise": "james-bond", "inferred": true },
+          { "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps"], "franchise": "perfect-dark", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": ["Rare Studios"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "brett-jones", "name": "Brett Jones", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Former Rare Studios artist Brett Jones, known for his work on GoldenEye and Perfect Dark, has passed away."
+    },
+    {
+      "ref": "main_news/genshin-impact-orchestral-concert-tour-arrives-in-london-thi",
+      "entities": {
+        "games": [
+          { "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "genshin-impact", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hoyoverse", "name": "HoYoverse", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-29", "unit": "date", "currency": null,
+          "entity": "genshin-impact", "entity_type": "game", "scope": "event",
+          "as_of": "2024-07-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the Wembley show on 29th October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/genshin-impact-orchestral-concert-tour-arrives-in-london-this-september" } }
+      ],
+      "summary": "The Genshin Impact orchestral concert tour will arrive in London this October, with a Wembley show on 29 October."
+    },
+    {
+      "ref": "main_news/splitgate-2-announced-coming-to-pc-and-consoles-next-year",
+      "entities": {
+        "games": [
+          { "id": "splitgate-2", "name": "Splitgate 2", "aliases": [], "genres": ["fps"], "franchise": "splitgate", "inferred": true }
+        ],
+        "studios": [
+          { "id": "1047-games", "name": "1047 Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s-x", "name": "Xbox Series S/X", "aliases": ["Series S/X"], "inferred": false },
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "splitgate-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-19", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Xbox One / Series S/X until 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/splitgate-2-announced-coming-to-pc-and-consoles-next-year/" } }
+      ],
+      "summary": "Splitgate 2 has been announced for PC and consoles in 2025, with a companion app released today on iOS and Android."
+    },
+    {
+      "ref": "main_news/halo-canceled-after-two-seasons-at-paramount",
+      "entities": {
+        "games": [
+          { "id": "halo", "name": "Halo", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "The 'Halo' television series has been canceled after two seasons at Paramount+."
+    },
+    {
+      "ref": "business/keywords-launches-ai-powered-faq-translation-tool-it-says-wi",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "helpshift", "name": "Helpshift", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "price_change_pct", "value": 100, "unit": "percent", "currency": null,
+          "entity": "keywords-studios", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-19", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "AI-powered FAQ translation tool it says will reduce costs by 100 percent",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/keywords-launches-ai-powered-faq-translation-tool-it-says-will-reduce-costs-by-100-percent" } }
+      ],
+      "summary": "Keywords has launched an AI-powered FAQ translation tool that it says will reduce costs by 100 percent."
+    },
+    {
+      "ref": "business/ftc-claims-xbox-s-game-pass-price-hike-is-consumer-harm-it-w",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": ["CoD"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "subscription", "regulation"],
+      "facts": [],
+      "summary": "The FTC claims that Xbox's Game Pass price hike is the 'consumer harm' it warned of following the Microsoft-Activision merger."
+    },
+    {
+      "ref": "business/take-two-warns-investors-that-review-bombings-can-hurt-profi",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto", "name": "Grand Theft Auto", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "nba-2k", "name": "NBA 2K", "aliases": [], "genres": ["sports"], "franchise": "nba-2k", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take Two", "Take Two Interactive"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Take-Two Interactive has warned investors that review bombing campaigns could hurt the publisher's profits."
+    },
+    {
+      "ref": "business/blizzard-s-john-hight-and-former-bungie-coo-holly-barbacovi",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": true },
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "wizards-of-the-coast", "name": "Wizards of the Coast", "aliases": [], "publisher": "hasbro", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "hasbro", "name": "Hasbro", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "john-hight", "name": "John Hight", "aliases": [], "inferred": false },
+          { "id": "holly-barbacovi", "name": "Holly Barbacovi", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Blizzard's John Hight and former Bungie COO Holly Barbacovi have joined Hasbro, with Hight becoming president of Wizards of the Coast and Digital Gaming and Barbacovi serving as CPO."
+    },
+    {
+      "ref": "business/pacific-drive-tops-600-000-sales-globally",
+      "entities": {
+        "games": [
+          { "id": "pacific-drive", "name": "Pacific Drive", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ironwood-studios", "name": "Ironwood Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 600000, "unit": "units", "currency": null,
+          "entity": "pacific-drive", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-19", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Pacific Drive tops 600,000 sales globally",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/pacific-drives-tops-600000-sales-globally" } }
+      ],
+      "summary": "Pacific Drive has topped 600,000 sales globally."
+    }
+  ]
+}

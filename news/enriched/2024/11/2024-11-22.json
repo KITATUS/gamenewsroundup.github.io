@@ -1,0 +1,589 @@
+{
+  "date": "2024-11-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/guilty-gear-strive-photo-mode-update-makes-fighters-disappea",
+      "entities": {
+        "games": [
+          {
+            "id": "guilty-gear-strive",
+            "name": "Guilty Gear Strive",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "guilty-gear",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps4",
+            "name": "PS4",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A Guilty Gear Strive photo mode update causes fighters to disappear when viewed at inappropriate angles."
+    },
+    {
+      "ref": "main_news/rollercoaster-tycoon-classic-is-coming-to-switch-next-month",
+      "entities": {
+        "games": [
+          {
+            "id": "rollercoaster-tycoon-classic",
+            "name": "Rollercoaster Tycoon Classic",
+            "aliases": [],
+            "genres": ["simulation", "strategy"],
+            "franchise": "rollercoaster-tycoon",
+            "inferred": true
+          },
+          {
+            "id": "rollercoaster-tycoon",
+            "name": "Rollercoaster Tycoon 1",
+            "aliases": [],
+            "genres": ["simulation", "strategy"],
+            "franchise": "rollercoaster-tycoon",
+            "inferred": true
+          },
+          {
+            "id": "rollercoaster-tycoon-2",
+            "name": "Rollercoaster Tycoon 2",
+            "aliases": [],
+            "genres": ["simulation", "strategy"],
+            "franchise": "rollercoaster-tycoon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-12-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "rollercoaster-tycoon-classic",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "December 5 release date",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/rollercoaster-tycoon-classic-is-coming-to-switch-next-month/"
+          }
+        }
+      ],
+      "summary": "Rollercoaster Tycoon Classic, a compilation of Rollercoaster Tycoon 1 and 2, is coming to Nintendo Switch on 5 December."
+    },
+    {
+      "ref": "main_news/pac-man-live-experience-opening-in-manchester-next-year",
+      "entities": {
+        "games": [
+          {
+            "id": "pac-man",
+            "name": "Pac-Man",
+            "aliases": [],
+            "genres": [],
+            "franchise": "pac-man",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "little-lion-entertainment",
+            "name": "Little Lion Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-03-22",
+          "unit": "date",
+          "currency": null,
+          "entity": "pac-man-live-experience",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Set to open at Manchester's Arcade Arena on 22nd March 2025",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/pac-man-live-experience-opening-in-manchester-next-year"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 25,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "pac-man-live-experience",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Adult tickets are £25.",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/pac-man-live-experience-opening-in-manchester-next-year"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 25,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "pac-man-live-experience",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Child tickets are also £25.",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/pac-man-live-experience-opening-in-manchester-next-year"
+          }
+        }
+      ],
+      "summary": "A Pac-Man Live Experience by Little Lion Entertainment will open at Manchester's Arcade Arena on 22 March 2025."
+    },
+    {
+      "ref": "main_news/fortnite-is-now-selling-digital-shoes-for-your-character-ski",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 7,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "product",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "with Nike Air Jordans costing around £7",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/fortnite-is-now-selling-digital-shoes-for-your-character-skin-with-nike-air-jordans-costing-around-7"
+          }
+        }
+      ],
+      "summary": "Fortnite is now selling digital shoes for character skins, with Nike Air Jordans costing around £7."
+    },
+    {
+      "ref": "main_news/stardew-valley-symphony-of-seasons-concert-tour-announced-co",
+      "entities": {
+        "games": [
+          {
+            "id": "stardew-valley",
+            "name": "Stardew Valley",
+            "aliases": [],
+            "genres": ["simulation", "rpg"],
+            "franchise": "stardew-valley",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-02-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "stardew-valley-symphony-of-seasons",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "It will be in Glasgow on 10th February 2026",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/stardew-valley-symphony-of-seasons-concert-tour-announced-coming-to-the-uk-in-2026"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-02-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "stardew-valley-symphony-of-seasons",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "before heading to Manchester on 12th February",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/stardew-valley-symphony-of-seasons-concert-tour-announced-coming-to-the-uk-in-2026"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-02-14",
+          "unit": "date",
+          "currency": null,
+          "entity": "stardew-valley-symphony-of-seasons",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "London on 14th February",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/stardew-valley-symphony-of-seasons-concert-tour-announced-coming-to-the-uk-in-2026"
+          }
+        }
+      ],
+      "summary": "The Stardew Valley: Symphony of Seasons concert tour has been announced, coming to the UK in 2026 with stops in Glasgow, Manchester, and London."
+    },
+    {
+      "ref": "main_news/afk-journey-named-google-play-s-game-of-the-year",
+      "entities": {
+        "games": [
+          {
+            "id": "afk-journey",
+            "name": "AFK Journey",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "afk",
+            "inferred": true
+          },
+          {
+            "id": "clash-of-clans",
+            "name": "Clash of Clans",
+            "aliases": [],
+            "genres": ["strategy"],
+            "franchise": "clash",
+            "inferred": true
+          },
+          {
+            "id": "squad-busters",
+            "name": "Squad Busters",
+            "aliases": [],
+            "genres": ["party"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "supercell",
+            "name": "Supercell",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "google-play",
+            "name": "Google Play",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "AFK Journey was named Google Play's Game of the Year, while Supercell won two awards with Clash of Clans and Squad Busters."
+    },
+    {
+      "ref": "free_games_subscription/donkey-kong-land-is-now-available-on-nintendo-switch-online",
+      "entities": {
+        "games": [
+          {
+            "id": "donkey-kong-land",
+            "name": "Donkey Kong Land",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "donkey-kong",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "game-boy",
+            "name": "Game Boy",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "1995",
+          "unit": "date",
+          "currency": null,
+          "entity": "donkey-kong-land",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Game Boy title was released in 1995",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/donkey-kong-land-is-now-available-on-nintendo-switch-online/"
+          }
+        }
+      ],
+      "summary": "Donkey Kong Land, the 1995 Game Boy title, is now available on Nintendo Switch Online via the Game Boy app."
+    },
+    {
+      "ref": "business/itch-wants-asset-creators-to-disclose-when-they-ve-used-gene",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "itch-io",
+            "name": "Itch.io",
+            "aliases": ["Itch"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Itch.io wants asset creators to disclose when they have used generative AI."
+    },
+    {
+      "ref": "business/lego-and-unicef-team-on-game-design-toolbox-prioritizing-chi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Lego and UNICEF are teaming up on the RITEC Design Toolbox, a game design toolbox prioritizing child safety."
+    },
+    {
+      "ref": "business/bandai-namco-subsidiary-bandai-namco-online-to-be-dissolved",
+      "entities": {
+        "games": [
+          {
+            "id": "gundam-evolution",
+            "name": "Gundam Evolution",
+            "aliases": [],
+            "genres": ["hero-shooter", "fps"],
+            "franchise": "gundam",
+            "inferred": true
+          },
+          {
+            "id": "blue-protocol",
+            "name": "Blue Protocol",
+            "aliases": [],
+            "genres": ["mmorpg", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bandai-namco-online",
+            "name": "Bandai Namco Online",
+            "aliases": [],
+            "publisher": "bandai-namco",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "bandai-namco",
+            "name": "Bandai Namco",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["merger", "studio-closure"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-04-01",
+          "unit": "date",
+          "currency": null,
+          "entity": "bandai-namco-online",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-11-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The merger will complete on April 1, 2025.",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/bandai-namco-subsidiary-bandai-namco-online-to-be-dissolved-and-merged-with-parent-company"
+          }
+        }
+      ],
+      "summary": "Bandai Namco's subsidiary Bandai Namco Online will be dissolved and merged into the parent company, with the merger completing on 1 April 2025."
+    },
+    {
+      "ref": "business/hyper-light-breaker-dev-heart-machine-lays-off-unknown-numbe",
+      "entities": {
+        "games": [
+          {
+            "id": "hyper-light-breaker",
+            "name": "Hyper Light Breaker",
+            "aliases": [],
+            "genres": ["roguelike", "open-world", "action-rpg"],
+            "franchise": "hyper-light",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "heart-machine",
+            "name": "Heart Machine",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Heart Machine, developer of Hyper Light Breaker, has laid off an unknown number of staff, though it says the game's early access launch will not be impacted."
+    },
+    {
+      "ref": "business/valve-updates-guidelines-for-season-passes-on-steam",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": ["Steamworks"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Valve has updated its guidelines for season passes on Steam, requiring developers to commit to release dates and detailed content descriptions."
+    }
+  ]
+}

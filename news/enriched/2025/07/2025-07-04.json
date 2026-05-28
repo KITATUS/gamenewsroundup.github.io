@@ -1,0 +1,300 @@
+{
+  "date": "2025-07-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/playstation-hit-helldivers-2-is-officially-coming-to-xbox-wi",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "arrowhead-game-studios",
+            "name": "Arrowhead Game Studios",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation",
+            "name": "PlayStation",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-08-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "helldivers-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "releases August 26th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/playstation-hit-helldivers-2-is-officially-coming-xbox-with-crossplay/"
+          }
+        }
+      ],
+      "summary": "Helldivers 2 is officially coming to Xbox with crossplay across all three platforms, releasing on 26 August 2025."
+    },
+    {
+      "ref": "main_news/ea-to-sunset-anthem-in-january-2026-devs-not-affected-by-lay",
+      "entities": {
+        "games": [
+          {
+            "id": "anthem",
+            "name": "Anthem",
+            "aliases": [],
+            "genres": ["action-rpg", "shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bioware",
+            "name": "BioWare",
+            "aliases": [],
+            "publisher": "electronic-arts",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "EA will sunset Anthem in January 2026, with no developers affected by layoffs."
+    },
+    {
+      "ref": "business/john-romero-s-next-fps-has-lost-funding-in-the-wake-of-the-m",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "romero-games",
+            "name": "Romero Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "john-romero",
+            "name": "John Romero",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [],
+      "summary": "John Romero's next FPS has lost its funding in the wake of the Microsoft cuts, with a Romero Games employee claiming the whole studio is being let go."
+    },
+    {
+      "ref": "business/zenimax-online-studios-head-matt-firor-to-depart-after-18-ye",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "zenimax-online-studios",
+            "name": "ZeniMax Online Studios",
+            "aliases": [],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "matt-firor",
+            "name": "Matt Firor",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "ZeniMax Online Studios head Matt Firor is departing after 18 years."
+    },
+    {
+      "ref": "business/g-o-media-sells-kotaku-to-digital-publishing-company-keleops",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "g-o-media",
+            "name": "G/O Media",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "keleops",
+            "name": "Keleops",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "kotaku",
+            "name": "Kotaku",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "G/O Media is selling Kotaku to digital publishing company Keleops and winding down its operations following the acquisition."
+    },
+    {
+      "ref": "rumours/dying-light-developer-techland-has-reportedly-cancelled-two",
+      "entities": {
+        "games": [
+          {
+            "id": "dying-light",
+            "name": "Dying Light",
+            "aliases": [],
+            "genres": ["survival-horror", "action-rpg", "open-world"],
+            "franchise": "dying-light",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "techland",
+            "name": "Techland",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [
+        {
+          "metric": "profit",
+          "value": 130000000,
+          "unit": "money",
+          "currency": "PLN",
+          "entity": "techland",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-04",
+          "period": null,
+          "direction": "down",
+          "confidence": "medium",
+          "quote": "losses of 130 million Polish złoty",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/dying-light-developer-techland-has-reportedly-cancelled-two-games/"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 37300000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "techland",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-04",
+          "period": null,
+          "direction": "down",
+          "confidence": "medium",
+          "quote": "approximately 37.3 million USD",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/dying-light-developer-techland-has-reportedly-cancelled-two-games/"
+          }
+        }
+      ],
+      "summary": "Dying Light developer Techland has reportedly cancelled two games amid losses of 130 million Polish zloty (approximately 37.3 million USD)."
+    },
+    {
+      "ref": "rumours/2k-mobile-studio-cat-daddy-games-is-making-layoffs",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "cat-daddy-games",
+            "name": "Cat Daddy Games",
+            "aliases": [],
+            "publisher": "2k",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "2k",
+            "name": "2K",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "2K mobile studio Cat Daddy Games is reportedly making layoffs."
+    }
+  ]
+}

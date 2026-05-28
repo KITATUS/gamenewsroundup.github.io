@@ -1,0 +1,315 @@
+{
+  "date": "2025-01-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-has-delayed-assassin-s-creed-shadows-again-to-incorp",
+      "entities": {
+        "games": [
+          {
+            "id": "assassins-creed-shadows",
+            "name": "Assassin's Creed Shadows",
+            "aliases": ["Shadows"],
+            "genres": ["action-rpg", "action-adventure", "open-world", "stealth"],
+            "franchise": "assassins-creed",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2025-03-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "assassins-creed-shadows",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "will now be released on Match 20",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisoft-has-delayed-assassins-creed-shadows-again-to-incorporate-player-feedback/"
+          }
+        }
+      ],
+      "summary": "Ubisoft has delayed Assassin's Creed Shadows again, to incorporate player feedback."
+    },
+    {
+      "ref": "main_news/six-minutes-of-transformers-reactivate-gameplay-footage-leak",
+      "entities": {
+        "games": [
+          {
+            "id": "transformers-reactivate",
+            "name": "Transformers: Reactivate",
+            "aliases": [],
+            "genres": ["action"],
+            "franchise": "transformers",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay"],
+      "facts": [],
+      "summary": "Six minutes of gameplay footage from the cancelled game Transformers: Reactivate has leaked online."
+    },
+    {
+      "ref": "main_news/game-boy-is-the-next-nintendo-console-officially-getting-the",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "lego",
+            "name": "Lego",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "game-boy",
+            "name": "Game Boy",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "game-boy",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-01-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Releasing October 2025",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/game-boy-is-the-next-nintendo-console-officially-getting-the-lego-treatment"
+          }
+        }
+      ],
+      "summary": "The Game Boy is the next Nintendo console to officially get a Lego set, releasing October 2025."
+    },
+    {
+      "ref": "main_news/a-wallace-and-gromit-collab-is-coming-to-powerwash-simulator",
+      "entities": {
+        "games": [
+          {
+            "id": "powerwash-simulator",
+            "name": "Powerwash Simulator",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "partnership", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "powerwash-simulator",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Expected to release in March",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/a-wallace-and-gromit-collab-is-coming-to-a-popular-cleaning-sim/"
+          }
+        }
+      ],
+      "summary": "A Wallace and Gromit collaboration is coming to Powerwash Simulator."
+    },
+    {
+      "ref": "main_news/xbox-developer-direct-returns-this-month-with-a-surprise-stu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "xbox-game-studios",
+            "name": "Xbox",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-01-23",
+          "unit": "date",
+          "currency": null,
+          "entity": "xbox-developer-direct",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-01-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "January 23rd 10am PT / 6pm GMT",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/confirmed-xbox-developer-direct-returns-next-week-with-a-surprise-studio/"
+          }
+        }
+      ],
+      "summary": "The Xbox Developer Direct returns this month with a surprise studio, airing on 23 January."
+    },
+    {
+      "ref": "free_games_subscription/amazon-reveals-16-titles-heading-to-prime-gaming-in-january",
+      "entities": {
+        "games": [
+          {
+            "id": "zombie-army-4",
+            "name": "Zombie Army 4",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "zombie-army",
+            "inferred": true
+          },
+          {
+            "id": "bioshock-2",
+            "name": "BioShock 2",
+            "aliases": [],
+            "genres": ["fps", "action-rpg"],
+            "franchise": "bioshock",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "amazon",
+            "name": "Amazon",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "prime-gaming",
+            "name": "Prime Gaming",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Amazon revealed 16 titles heading to Prime Gaming in January, including Zombie Army 4 and BioShock 2."
+    },
+    {
+      "ref": "business/hitman-world-of-assassination-reaches-over-75m-players",
+      "entities": {
+        "games": [
+          {
+            "id": "hitman-world-of-assassination",
+            "name": "Hitman World of Assassination",
+            "aliases": [],
+            "genres": ["stealth", "action-adventure"],
+            "franchise": "hitman",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "io-interactive",
+            "name": "IO Interactive",
+            "aliases": ["IOInteractive"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 75000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "hitman-world-of-assassination",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Hitman World of Assassination reaches over 75m players",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/IOInteractive/status/1877626486544351316"
+          }
+        }
+      ],
+      "summary": "Hitman World of Assassination has reached over 75 million players."
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "date": "2024-08-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/reikon-games-ruiner-to-receive-film-adaptation-by-universal",
+      "entities": {
+        "games": [{ "id": "ruiner", "name": "Ruiner", "aliases": [], "genres": ["shooter", "tps"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "reikon-games", "name": "Reikon Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "universal-pictures", "name": "Universal Pictures", "aliases": ["Universal"], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "wes-ball", "name": "Wes Ball", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Reikon Games' 2017 shooter Ruiner is set to receive a film adaptation by Universal Pictures, with Wes Ball directing."
+    },
+    {
+      "ref": "main_news/black-myth-wukong-opens-to-2-2-million-steam-players-in-one",
+      "entities": {
+        "games": [
+          { "id": "black-myth-wukong", "name": "Black Myth: Wukong", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "elden-ring", "name": "Elden Ring", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total", "value": 2200000, "unit": "players", "currency": null,
+          "entity": "black-myth-wukong", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Black Myth: Wukong opens to 2.2 million Steam players in one day",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/black-myth-wukong-opens-to-2-2-million-steam-players" }
+        }
+      ],
+      "summary": "Black Myth: Wukong opened to 2.2 million Steam players in a single day, beating day-one records set by Elden Ring and Cyberpunk 2077."
+    },
+    {
+      "ref": "main_news/atsuko-tanaka-the-japanese-voice-of-chun-li-and-bayonetta-ha",
+      "entities": {
+        "games": [
+          { "id": "bayonetta", "name": "Bayonetta", "aliases": [], "genres": ["action-adventure"], "franchise": "bayonetta", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "atsuko-tanaka", "name": "Atsuko Tanaka", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Atsuko Tanaka, the Japanese voice actor for Chun-Li and Bayonetta, has died."
+    },
+    {
+      "ref": "main_news/the-finals-studio-s-pvpve-extraction-shooter-arc-raiders-res",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "ARC Raiders", "aliases": [], "genres": ["extraction-shooter", "tps"], "franchise": null, "inferred": false },
+          { "id": "the-finals", "name": "The Finals", "aliases": [], "genres": ["shooter", "fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "price-change"],
+      "facts": [],
+      "summary": "ARC Raiders, the PvPvE extraction shooter from The Finals studio, has resurfaced and is no longer free-to-play, launching next year on Steam, Epic, PlayStation 5, and Xbox Series S/X."
+    },
+    {
+      "ref": "main_news/civilization-7-gets-february-2025-release-date-and-first-gam",
+      "entities": {
+        "games": [{ "id": "civilization-7", "name": "Civilization 7", "aliases": ["Civilization VII"], "genres": ["strategy", "turn-based-strategy", "4x"], "franchise": "civilization", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "trailer", "gameplay"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-02-11", "unit": "date", "currency": null,
+          "entity": "civilization-7", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PlayStation 5, Xbox Series S/X, Switch, and PC on 11th February next year",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/civilization-7-gets-february-2025-release-date-and-first-gameplay-trailer" }
+        }
+      ],
+      "summary": "Civilization 7 received a February 2025 release date and its first gameplay trailer, launching 11 February 2025 on PlayStation 5, Xbox Series S/X, Switch, and PC."
+    },
+    {
+      "ref": "main_news/2k-announces-mafia-the-old-country-for-release-in-2025",
+      "entities": {
+        "games": [{ "id": "mafia-the-old-country", "name": "Mafia: The Old Country", "aliases": [], "genres": ["action-adventure"], "franchise": "mafia", "inferred": true }],
+        "studios": [{ "id": "hangar-13", "name": "Hangar 13", "aliases": [], "publisher": "2k", "inferred": false }],
+        "publishers": [{ "id": "2k", "name": "2K", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "2K announced Mafia: The Old Country, a game set during the origins of the Sicilian mafia and developed at Hangar 13, for a 2025 release on PS5, Xbox Series S/X, and PC via Steam."
+    },
+    {
+      "ref": "main_news/peter-molyneux-unveils-new-god-game-masters-of-albion",
+      "entities": {
+        "games": [{ "id": "masters-of-albion", "name": "Masters of Albion", "aliases": [], "genres": ["simulation", "open-world"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "peter-molyneux", "name": "Peter Molyneux", "aliases": [], "inferred": false },
+          { "id": "mark-healey", "name": "Mark Healey", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Peter Molyneux unveiled a new open-world god game called Masters of Albion, with ex-Media Molecule boss Mark Healey also working on the project."
+    },
+    {
+      "ref": "main_news/xbox-s-indiana-jones-game-is-officially-coming-back-to-ps5",
+      "entities": {
+        "games": [{ "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones", "aliases": ["Indiana Jones"], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "xbox-game-studios", "name": "Xbox", "aliases": ["Xbox"], "inferred": false }],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-12-09", "unit": "date", "currency": null,
+          "entity": "indiana-jones-and-the-great-circle", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will be released first for Xbox and PC on December 9",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xboxs-indiana-jones-game-is-officially-coming-to-ps5/" }
+        }
+      ],
+      "summary": "Xbox's Indiana Jones game is officially coming to PS5, launching first on Xbox and PC on December 9 and on PlayStation in Spring 2025."
+    },
+    {
+      "ref": "main_news/path-of-exile-2-early-access-release-date-revealed",
+      "entities": {
+        "games": [{ "id": "path-of-exile-2", "name": "Path of Exile 2", "aliases": [], "genres": ["action-rpg"], "franchise": "path-of-exile", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "early-access"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-11-15", "unit": "date", "currency": null,
+          "entity": "path-of-exile-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "November 15, 2024 early access for PS5, Xbox Series X/S, and PC via Steam and the Epic Games Store",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/path-of-exile-2-early-access-release-date-revealed/" }
+        }
+      ],
+      "summary": "Path of Exile 2's early access release date was revealed as November 15, 2024 for PS5, Xbox Series X/S, and PC via Steam and the Epic Games Store."
+    },
+    {
+      "ref": "main_news/amazon-reveals-series-based-on-mega-man-spelunky-unreal-tour",
+      "entities": {
+        "games": [
+          { "id": "armored-core", "name": "Armored Core", "aliases": [], "genres": ["action"], "franchise": "armored-core", "inferred": true },
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true },
+          { "id": "crossfire", "name": "Crossfire", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "dungeons-dragons", "name": "Dungeons & Dragons", "aliases": [], "genres": ["rpg"], "franchise": "dungeons-and-dragons", "inferred": true },
+          { "id": "exodus", "name": "Exodus", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "honor-of-kings", "name": "Honor of Kings", "aliases": [], "genres": ["moba"], "franchise": null, "inferred": true },
+          { "id": "mega-man", "name": "Mega Man", "aliases": [], "genres": ["platformer", "action"], "franchise": "mega-man", "inferred": true },
+          { "id": "new-world-aeternum", "name": "New World: Aeternum", "aliases": ["New World"], "genres": ["mmorpg"], "franchise": "new-world", "inferred": true },
+          { "id": "pac-man", "name": "PAC-MAN", "aliases": [], "genres": ["arcade"], "franchise": "pac-man", "inferred": true },
+          { "id": "ghost-of-tsushima", "name": "Ghosts of Tsushima", "aliases": ["Ghost of Tsushima"], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "sifu", "name": "Sifu", "aliases": [], "genres": ["fighting", "action"], "franchise": null, "inferred": true },
+          { "id": "spelunky", "name": "Spelunky", "aliases": [], "genres": ["roguelike", "platformer"], "franchise": "spelunky", "inferred": true },
+          { "id": "the-outer-worlds", "name": "The Outer Worlds", "aliases": [], "genres": ["action-rpg"], "franchise": "the-outer-worlds", "inferred": true },
+          { "id": "unreal-tournament", "name": "Unreal Tournament", "aliases": [], "genres": ["fps", "shooter"], "franchise": "unreal", "inferred": true },
+          { "id": "warhammer-40000", "name": "Warhammer 40,000", "aliases": ["Warhammer 40,000"], "genres": ["strategy"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "prime-video", "name": "Prime Video", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-12-10", "unit": "date", "currency": null,
+          "entity": "secret-level", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Secret Level will arrive on Prime Video on December 10",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/amazon-reveals-series-based-on-mega-man-spelunky-unreal-tournament-and-more/" }
+        }
+      ],
+      "summary": "Amazon revealed Secret Level, a video-game anthology series from the Love, Death & Robots team, arriving on Prime Video on December 10 with episodes based on games including Mega Man, Spelunky, and Unreal Tournament."
+    },
+    {
+      "ref": "main_news/dune-awakening-is-coming-to-pc-early-access-in-2025",
+      "entities": {
+        "games": [{ "id": "dune-awakening", "name": "Dune Awakening", "aliases": [], "genres": ["survival", "mmo", "open-world"], "franchise": "dune", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "pc", "name": "PC", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["release-date", "early-access"],
+      "facts": [],
+      "summary": "Dune Awakening is coming to PC early access in 2025, with console versions to follow at a later date."
+    },
+    {
+      "ref": "main_news/marvel-rivals-is-launching-in-december-and-all-heroes-will-b",
+      "entities": {
+        "games": [{ "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter", "tps"], "franchise": "marvel", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Game Store", "aliases": ["Epic Game Store"], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-12-06", "unit": "date", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "December 6, 2024 for Steam / Epic Game Store, PS5, Xbox Series S/X",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/marvel-rivals-is-launching-in-december-and-all-heroes-will-be-free/" }
+        }
+      ],
+      "summary": "Marvel Rivals is launching on December 6, 2024 for Steam, Epic Game Store, PS5, and Xbox Series S/X, with all heroes free."
+    },
+    {
+      "ref": "main_news/genshin-impact-is-officially-coming-to-xbox",
+      "entities": {
+        "games": [{ "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "genshin-impact", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-11-20", "unit": "date", "currency": null,
+          "entity": "genshin-impact", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launches November 20 for Xbox Series S/X",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/genshin-impact-is-officially-coming-to-xbox/" }
+        }
+      ],
+      "summary": "Genshin Impact is officially coming to Xbox Series S/X on November 20 and will also be available on Game Pass."
+    },
+    {
+      "ref": "main_news/new-monster-hunter-wilds-gameplay-shown-at-gamescom-opening",
+      "entities": {
+        "games": [{ "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "showcase"],
+      "facts": [],
+      "summary": "New Monster Hunter Wilds gameplay was shown at Gamescom Opening Night Live."
+    },
+    {
+      "ref": "main_news/a-new-mini-console-based-on-the-atari-7800-has-been-revealed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "atari", "name": "Atari", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "atari-7800", "name": "Atari 7800+", "aliases": ["Atari 7800"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["reveal", "hardware", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-11-29", "unit": "date", "currency": null,
+          "entity": "atari-7800", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "It will launch worldwide on November 29, 2024",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-new-mini-console-based-on-the-atari-7800-has-been-revealed/" }
+        },
+        {
+          "metric": "price", "value": 129.99, "unit": "price", "currency": "USD",
+          "entity": "atari-7800", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "available to pre-order for $129.99 / £99.99 / €119.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-new-mini-console-based-on-the-atari-7800-has-been-revealed/" }
+        },
+        {
+          "metric": "price", "value": 99.99, "unit": "price", "currency": "GBP",
+          "entity": "atari-7800", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£99.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-new-mini-console-based-on-the-atari-7800-has-been-revealed/" }
+        },
+        {
+          "metric": "price", "value": 119.99, "unit": "price", "currency": "EUR",
+          "entity": "atari-7800", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "€119.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-new-mini-console-based-on-the-atari-7800-has-been-revealed/" }
+        }
+      ],
+      "summary": "A new mini console, the Atari 7800+, was revealed, launching worldwide on November 29, 2024 and available to pre-order for $129.99 / £99.99 / €119.99."
+    },
+    {
+      "ref": "main_news/vampire-the-masquerade-bloodlines-2-has-been-delayed-again-a",
+      "entities": {
+        "games": [{ "id": "vampire-the-masquerade-bloodlines-2", "name": "Vampire: The Masquerade - Bloodlines 2", "aliases": [], "genres": ["action-rpg"], "franchise": "vampire-the-masquerade", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Vampire: The Masquerade - Bloodlines 2, originally set for release in 2020, has been delayed again to the first half of 2025."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been",
+      "entities": {
+        "games": [
+          { "id": "atlas-fallen", "name": "Atlas Fallen", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "core-keeper", "name": "Core Keeper", "aliases": [], "genres": ["survival", "sandbox"], "franchise": null, "inferred": true },
+          { "id": "star-trucker", "name": "Star Trucker", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "atomic-heart", "name": "Atomic Heart", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "guilty-gear-strive", "name": "Guilty Gear Strive", "aliases": [], "genres": ["fighting"], "franchise": "guilty-gear", "inferred": true },
+          { "id": "nba-2k24", "name": "NBA 2K24", "aliases": [], "genres": ["sports"], "franchise": "nba-2k", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "delisting"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-08-22", "unit": "date", "currency": null,
+          "entity": "atlas-fallen", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Atlas Fallen (Cloud, PC and Xbox Series S/X) - August 22",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-14/" }
+        },
+        {
+          "metric": "release_date", "value": "2024-08-27", "unit": "date", "currency": null,
+          "entity": "core-keeper", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Core Keeper (Cloud, PC and Xbox Series S/X) - August 27",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-14/" }
+        },
+        {
+          "metric": "release_date", "value": "2024-09-03", "unit": "date", "currency": null,
+          "entity": "star-trucker", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Star Trucker (Cloud, Console and PC) - September 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-14/" }
+        },
+        {
+          "metric": "shutdown_date", "value": "2024-08-31", "unit": "date", "currency": null,
+          "entity": "atomic-heart", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (August 31st):",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-announced-14/" }
+        }
+      ],
+      "summary": "New Xbox Game Pass titles were announced, including Atlas Fallen, Core Keeper, and Star Trucker arriving in late August and early September, while Atomic Heart, Guilty Gear Strive, and NBA 2K24 leave on August 31."
+    }
+  ]
+}

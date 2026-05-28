@@ -1,0 +1,186 @@
+{
+  "date": "2024-05-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/multiversus-director-says-dataminers-do-a-disservice-to-the",
+      "entities": {
+        "games": [
+          { "id": "multiversus", "name": "MultiVersus", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "player-first-games", "name": "Player First Games", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The MultiVersus director said dataminers do a disservice to players by spoiling planned reveals."
+    },
+    {
+      "ref": "main_news/activision-has-officially-confirmed-black-ops-6-is-this-year",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops-6", "name": "Call of Duty: Black Ops 6", "aliases": ["Black Ops 6"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Activision officially confirmed that Black Ops 6 is this year's Call of Duty release."
+    },
+    {
+      "ref": "main_news/warhammer-40-000-retro-shooter-boltgun-is-getting-an-expansi",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40000-boltgun", "name": "Warhammer 40,000: Boltgun", "aliases": ["Boltgun"], "genres": ["fps", "shooter"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-06-18", "unit": "date", "currency": null,
+          "entity": "warhammer-40000-boltgun", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "New enemies, campaign and more on 18th June",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/warhammer-40000s-retro-shooter-boltgun-is-getting-an-expansion-in-june" } }
+      ],
+      "summary": "Warhammer 40,000: Boltgun is getting an expansion with new enemies and a campaign on 18 June."
+    },
+    {
+      "ref": "main_news/indie-publisher-devolver-digital-announces-summer-showcase",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-06-08", "unit": "date", "currency": null,
+          "entity": "devolver-digital", "entity_type": "publisher", "scope": "event",
+          "as_of": "2024-05-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "\"Totally normal festivities\" start Satuday 8th June, 1am UK time",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/indie-publisher-devolver-digital-announces-summer-showcase" } }
+      ],
+      "summary": "Indie publisher Devolver Digital announced a summer showcase starting at 1am UK time on Saturday 8 June."
+    },
+    {
+      "ref": "main_news/nightingale-introduces-highly-requested-offline-mode-in-new",
+      "entities": {
+        "games": [
+          { "id": "nightingale", "name": "Nightingale", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "early-access"],
+      "facts": [],
+      "summary": "Nightingale introduced a highly-requested offline mode in a new early access update."
+    },
+    {
+      "ref": "main_news/overwatch-pve-mode-dropped-after-just-three-months",
+      "entities": {
+        "games": [
+          { "id": "overwatch", "name": "Overwatch", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": "overwatch", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Overwatch's PvE mode was dropped after just three months because it had not resonated with players."
+    },
+    {
+      "ref": "free_games_subscription/farming-simulator-22-is-the-next-epic-store-free-game",
+      "entities": {
+        "games": [
+          { "id": "farming-simulator-22", "name": "Farming Simulator 22", "aliases": [], "genres": ["simulation"], "franchise": "farming-simulator", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Farming Simulator 22 is the next free game on the Epic Games Store."
+    },
+    {
+      "ref": "business/atari-has-acquired-the-intellivision-brand-ending-the-first",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false },
+          { "id": "intellivision-entertainment", "name": "Intellivision Entertainment LLC", "aliases": ["Intellivision"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Atari acquired the Intellivision brand, with Intellivision Entertainment LLC continuing as a separate company building the Amico under licence."
+    },
+    {
+      "ref": "rumours/xdefiant-reportedly-netted-1-million-players-within-2-5-hour",
+      "entities": {
+        "games": [
+          { "id": "xdefiant", "name": "xDefiant", "aliases": [], "genres": ["fps", "hero-shooter"], "franchise": "tom-clancy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": ["Ubisoft Connect"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "rumour"],
+      "facts": [
+        { "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "xdefiant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-24", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "xDefiant reportedly netted 1 million players within 2.5 hours of launch",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/xdefiant-reportedly-netted-1-million-players-within-2-5-hours-of-launch" } },
+        { "metric": "players_total", "value": 3000000, "unit": "players", "currency": null,
+          "entity": "xdefiant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-24", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "It's said the game reached 3 million players",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/xdefiant-reportedly-netted-1-million-players-within-2-5-hours-of-launch" } },
+        { "metric": "concurrent_players", "value": 300000, "unit": "players", "currency": null,
+          "entity": "xdefiant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-24", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "now has 300,000 concurrent players on PC",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/xdefiant-reportedly-netted-1-million-players-within-2-5-hours-of-launch" } }
+      ],
+      "summary": "xDefiant reportedly attracted 1 million players within 2.5 hours of launch, later reaching 3 million players and 300,000 concurrent players."
+    }
+  ]
+}

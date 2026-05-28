@@ -1,0 +1,345 @@
+{
+  "date": "2024-10-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/two-box-sets-celebrating-the-games-of-tetsuya-mizuguchi-anno",
+      "entities": {
+        "games": [
+          { "id": "rez-infinite", "name": "Rez Infinite", "aliases": [], "genres": ["rhythm", "shooter"], "franchise": "rez", "inferred": true },
+          { "id": "lumines", "name": "Lumines", "aliases": [], "genres": ["puzzle"], "franchise": "lumines", "inferred": true },
+          { "id": "tetris-effect", "name": "Tetris Effect", "aliases": [], "genres": ["puzzle"], "franchise": "tetris", "inferred": true },
+          { "id": "humanity", "name": "Humanity", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "enhance", "name": "Enhance", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "lost-in-cult", "name": "Lost in Cult", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "cook-becker", "name": "Cook & Becker", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tetsuya-mizuguchi", "name": "Tetsuya Mizuguchi", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Two box sets celebrating the games of Tetsuya Mizuguchi, produced by Enhance, Lost in Cult, and Cook & Becker, have been announced for pre-order ahead of a release next year."
+    },
+    {
+      "ref": "main_news/clock-tower-rewind-released",
+      "entities": {
+        "games": [
+          { "id": "clock-tower-rewind", "name": "Clock Tower: Rewind", "aliases": ["Clocktower"], "genres": ["survival-horror", "adventure"], "franchise": "clock-tower", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Series S / X"], "inferred": false },
+          { "id": "playstation-4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "remaster-remake"],
+      "facts": [],
+      "summary": "Clock Tower: Rewind, an enhanced version of the original Clock Tower marking the game's first proper international localization, has released across Xbox, PlayStation, Nintendo Switch, and PC."
+    },
+    {
+      "ref": "free_games_subscription/november-s-playstation-plus-essential-games-have-been-announ",
+      "entities": {
+        "games": [
+          { "id": "hot-wheels-unleashed-2-turbocharged", "name": "Hot Wheels Unleashed 2 – Turbocharged", "aliases": [], "genres": ["racing"], "franchise": "hot-wheels-unleashed", "inferred": true },
+          { "id": "ghostwire-tokyo", "name": "Ghostwire: Tokyo", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "death-note-killer-within", "name": "Death Note Killer Within", "aliases": [], "genres": ["party"], "franchise": "death-note", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "announcement"],
+      "facts": [],
+      "summary": "November's PlayStation Plus Essential lineup has been announced, comprising Hot Wheels Unleashed 2 – Turbocharged, Ghostwire: Tokyo, and Death Note Killer Within."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-music-app-launching-later-today-featuring-decades-o",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Nintendo Switch Online"], "inferred": false },
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "subscription"],
+      "facts": [],
+      "summary": "The Nintendo Music app, launching later today for iOS and Android exclusively to Nintendo Switch Online members, features decades of Nintendo soundtracks."
+    },
+    {
+      "ref": "business/gamespot-staff-endure-another-round-of-job-cuts",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "GameSpot staff have endured another round of job cuts."
+    },
+    {
+      "ref": "business/probablymonsters-lays-off-about-50-people-as-battle-barge-pr",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "probablymonsters", "name": "ProbablyMonsters", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 50, "unit": "people", "currency": null,
+          "entity": "probablymonsters", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-31", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "lays off \"about 50 people\" as Battle Barge project cancelled",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/probablymonsters-lays-off-about-50-people-as-battle-barge-project-cancelled" } }
+      ],
+      "summary": "ProbablyMonsters has laid off about 50 people as its Battle Barge project was cancelled."
+    },
+    {
+      "ref": "business/dozens-of-staff-laid-off-at-inflexion-as-part-of-restructuri",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "inflexion-games", "name": "Inflexion Games", "aliases": ["Inflexion"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 22, "unit": "people", "currency": null,
+          "entity": "inflexion-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-31", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "At least 22 people have been affected",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/dozens-of-staff-laid-off-at-inflexion-as-part-of-restructuring" } }
+      ],
+      "summary": "Dozens of staff have been laid off at Inflexion Games as part of a restructuring, following the closure of its UK division."
+    },
+    {
+      "ref": "business/fingersoft-lays-off-14-employees",
+      "entities": {
+        "games": [
+          { "id": "hill-climb-racing", "name": "Hill Climb Racing", "aliases": [], "genres": ["racing"], "franchise": "hill-climb-racing", "inferred": true },
+          { "id": "lego-hill-climb-adventures", "name": "Lego Hill Climb Adventures", "aliases": [], "genres": ["racing"], "franchise": "hill-climb-racing", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fingersoft", "name": "Fingersoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "toni-fingerroos", "name": "Toni Fingerroos", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 14, "unit": "employees", "currency": null,
+          "entity": "fingersoft", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fingersoft lays off 14 employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/fingersoft-lays-off-14-employees" } },
+        { "metric": "release_date", "value": "2024-05", "unit": "date", "currency": null,
+          "entity": "lego-hill-climb-adventures", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-31", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lego Hill Climb Adventures, launched in May 2024",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/fingersoft-lays-off-14-employees" } }
+      ],
+      "summary": "Fingersoft has laid off 14 employees."
+    },
+    {
+      "ref": "business/team17-appoints-rashid-varachia-as-cfo-and-coo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "team17", "name": "Team17", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "rashid-varachia", "name": "Rashid Varachia", "aliases": [], "inferred": false },
+          { "id": "mark-crawford", "name": "Mark Crawford", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Team17 has appointed Rashid Varachia as CFO and COO, with current CFO Mark Crawford set to step down on October 31."
+    },
+    {
+      "ref": "business/unity-appoints-former-king-exec-steve-collins-as-cto",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "unity", "name": "Unity", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "king", "name": "King", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "steve-collins", "name": "Steve Collins", "aliases": [], "inferred": false },
+          { "id": "marc-whitten", "name": "Marc Whitten", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Unity has appointed former King executive Steve Collins as CTO, replacing Marc Whitten who resigned in June."
+    },
+    {
+      "ref": "business/playstation-s-wolverine-director-has-taken-over-xbox-s-perfe",
+      "entities": {
+        "games": [
+          { "id": "marvels-wolverine", "name": "Marvel's Wolverine", "aliases": ["Wolverine", "Marvel Wolverine"], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true },
+          { "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps"], "franchise": "perfect-dark", "inferred": true },
+          { "id": "marvels-spider-man-miles-morales", "name": "Marvel's Spider-Man: Miles Morales", "aliases": [], "genres": ["action-adventure"], "franchise": "spider-man", "inferred": true },
+          { "id": "rise-of-the-tomb-raider", "name": "Rise of the Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "ratchet-clank-rift-apart", "name": "Ratchet & Clank: Rift Apart", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "ratchet-clank", "inferred": true }
+        ],
+        "studios": [
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": ["Insomniac"], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "the-initiative", "name": "The Initiative", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "crystal-dynamics", "name": "Crystal Dynamics", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "brian-horton", "name": "Brian Horton", "aliases": ["Brain Horton"], "inferred": false },
+          { "id": "marcus-smith", "name": "Marcus Smith", "aliases": [], "inferred": false },
+          { "id": "mike-daly", "name": "Mike Daly", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Brian Horton, formerly creative director of PlayStation's Marvel's Wolverine, has taken over Xbox's Perfect Dark at The Initiative."
+    },
+    {
+      "ref": "business/ubisoft-q1-results",
+      "entities": {
+        "games": [
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 672000000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-31", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Sales: €672 million (down 19.6% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ubisoft-24-25-half-year-results-plummet-as-star-wars-outlaws-underperforms" } }
+      ],
+      "summary": "Ubisoft's results show sales of €672 million, down 19.6% year-on-year, as Star Wars Outlaws underperformed."
+    },
+    {
+      "ref": "business/ea-q2-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 2050000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-31", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $2.05 billion, up 8% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/sports-titles-drive-record-quarter-for-ea" } },
+        { "metric": "profit", "value": 234000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2024-10-31", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net income: $234 million, down 26% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/sports-titles-drive-record-quarter-for-ea" } }
+      ],
+      "summary": "EA reported revenue of $2.05 billion (up 8% year-on-year) and net income of $234 million (down 26%) for its Q2 results."
+    },
+    {
+      "ref": "business/xbox-financial-results-three-months-ended-september-30-2024",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "activision-blizzard", "name": "Activision Blizzard", "aliases": ["Activision"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Microsoft's Xbox financial results for the three months ended September 30, 2024 show gaming revenue up 43% year-over-year, hardware revenue down 29%, and content and services revenue up 61%, driven by Activision Blizzard."
+    },
+    {
+      "ref": "business/black-ops-6-launch-was-the-biggest-call-of-duty-release-ever",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops-6", "name": "Black Ops 6", "aliases": ["Call of Duty: Black Ops 6"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "release"],
+      "facts": [],
+      "summary": "Microsoft claims the launch of Black Ops 6 was the biggest Call of Duty release ever, setting records for day-one players and Game Pass subscriber adds."
+    }
+  ]
+}

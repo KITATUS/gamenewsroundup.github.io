@@ -1,0 +1,91 @@
+{
+  "date": "2025-09-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/former-bethesda-exec-pete-hines-claims-subscription-services",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "bethesda-softworks", "name": "Bethesda Softworks", "aliases": ["Bethesda"], "inferred": true }],
+        "platforms": [],
+        "people": [{ "id": "pete-hines", "name": "Pete Hines", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Former Bethesda executive Pete Hines claimed that subscription services are undercutting developers."
+    },
+    {
+      "ref": "main_news/nintendo-wins-2-million-settlement-against-switch-modchip-se",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo won a $2 million settlement against a Switch modchip seller who had previously denied wrongdoing."
+    },
+    {
+      "ref": "business/ready-or-not-passes-13m-copies-sold-across-platforms-3m-on-c",
+      "entities": {
+        "games": [{ "id": "ready-or-not", "name": "Ready or Not", "aliases": [], "genres": ["fps", "tps"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "void-interactive", "name": "VOID Interactive", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 13000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "ready-or-not",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-09",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ready or Not passes 13m copies sold across platforms",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/VOIDInteractive/status/1965067782137024683" }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 3000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "ready-or-not",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-09",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "3m on console",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/VOIDInteractive/status/1965067782137024683" }
+        }
+      ],
+      "summary": "Ready or Not has passed 13 million copies sold across platforms, including 3 million on console."
+    },
+    {
+      "ref": "business/roblox-kicks-off-roblox-developers-conference-2025-with-a-su",
+      "entities": {
+        "games": [{ "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }],
+        "platforms": [{ "id": "roblox", "name": "Roblox", "aliases": [], "inferred": true }],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Roblox opened the Roblox Developers Conference 2025 with a suite of innovations, including an 8.5% boost to creator revenue and a new generation of AI-driven 4D objects."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "date": "2024-08-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/games-done-quick-s-week-long-flame-fatales-charity-speedrunn",
+      "entities": {
+        "games": [
+          { "id": "horizon-forbidden-west", "name": "Horizon Forbidden West", "aliases": ["Horizon Forbidden West Burning Shores"], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true },
+          { "id": "super-mario-odyssey", "name": "Super Mario Odyssey", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "re-doc19", "name": "RE_doc19", "aliases": [], "inferred": false },
+          { "id": "cheesejay", "name": "CheeseJay", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-08-16", "unit": "date", "currency": null,
+          "entity": "flame-fatales", "entity_type": "product", "scope": "event",
+          "as_of": "2024-08-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Starts Sunday, 16th August at 6:15pm BST",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/games-done-quicks-flame-fatales-charity-speedrunning-event-returns-this-weekend" } },
+        { "metric": "event_date", "value": "2024-08-25", "unit": "date", "currency": null,
+          "entity": "flame-fatales", "entity_type": "product", "scope": "event",
+          "as_of": "2024-08-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "ends on Sunday 25th at 4:06am BST",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/games-done-quicks-flame-fatales-charity-speedrunning-event-returns-this-weekend" } }
+      ],
+      "summary": "Games Done Quick's week-long Flame Fatales charity speedrunning event returns this Sunday, raising money for the Malala Fund."
+    },
+    {
+      "ref": "main_news/hugely-promising-indie-the-plucky-squire-launches-next-month",
+      "entities": {
+        "games": [
+          { "id": "the-plucky-squire", "name": "The Plucky Squire", "aliases": [], "genres": ["platformer", "adventure"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "all-possible-futures", "name": "All Possible Futures", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "james-turner", "name": "James Turner", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-17", "unit": "date", "currency": null,
+          "entity": "the-plucky-squire", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PC, PlayStation 5, Nintendo Switch and Xbox Series S/X on 17th September",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/hugely-promising-indie-the-plucky-squire-launches-next-month-day-one-on-playstation-plus" } }
+      ],
+      "summary": "Indie platformer The Plucky Squire launches on 17th September across PC, PlayStation 5, Nintendo Switch and Xbox Series S/X, day one on PlayStation Plus."
+    },
+    {
+      "ref": "main_news/evercade-announces-its-next-cartridge-legacy-of-kain-collect",
+      "entities": {
+        "games": [
+          { "id": "legacy-of-kain-collection", "name": "Legacy of Kain Collection", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "blood-omen-legacy-of-kain", "name": "Blood Omen: Legacy of Kain", "aliases": [], "genres": ["action-adventure", "rpg"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "legacy-of-kain-soul-reaver", "name": "Legacy of Kain: Soul Reaver", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "evercade", "name": "Evercade", "aliases": [], "inferred": false },
+          { "id": "super-pocket", "name": "Super Pocket", "aliases": [], "inferred": false },
+          { "id": "evercade-alpha", "name": "Evercade Alpha", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Evercade has announced its next cartridge, the Legacy of Kain Collection, comprising Blood Omen: Legacy of Kain and Legacy of Kain: Soul Reaver."
+    },
+    {
+      "ref": "main_news/steamos-support-coming-to-rog-ally-and-other-handhelds",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steamos", "name": "SteamOS", "aliases": [], "inferred": false },
+          { "id": "rog-ally", "name": "ROG Ally", "aliases": [], "inferred": false },
+          { "id": "steam-deck-oled", "name": "Steam Deck OLED", "aliases": [], "inferred": false },
+          { "id": "windows", "name": "Windows", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "SteamOS support is coming to the ROG Ally and other handhelds, with dual-boot SteamOS and Windows support also being prepared for the Steam Deck OLED."
+    },
+    {
+      "ref": "main_news/epic-games-store-is-available-now-on-mobile-including-fall-g",
+      "entities": {
+        "games": [
+          { "id": "fall-guys", "name": "Fall Guys", "aliases": [], "genres": ["battle-royale", "party"], "franchise": null, "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "The Epic Games Store is now available on mobile, including Fall Guys and Fortnite, on iOS (EU only) and Android."
+    },
+    {
+      "ref": "business/star-wars-eclipse-s-lead-writer-has-left-quantic-dream-to-st",
+      "entities": {
+        "games": [
+          { "id": "star-wars-eclipse", "name": "Star Wars Eclipse", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true },
+          { "id": "detroit-become-human", "name": "Detroit: Become Human", "aliases": ["Detriot: Become Human"], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "quantic-dream", "name": "Quantic Dream", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "adam-williams", "name": "Adam Williams", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change", "studio-opening"],
+      "facts": [],
+      "summary": "Star Wars Eclipse's lead writer, Adam Williams, has left Quantic Dream to start a new studio."
+    },
+    {
+      "ref": "business/scottish-games-week-skips-2024-promises-late-2025-return",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Scottish Games Week skips 2024 and promises a late 2025 return, citing the industry's current issues and a lack of government support."
+    },
+    {
+      "ref": "business/reforged-studios-acquires-ground-shatter-and-extra-mile-stud",
+      "entities": {
+        "games": [
+          { "id": "fights-in-tight-spaces", "name": "Fights in Tight Spaces", "aliases": [], "genres": ["roguelike", "card"], "franchise": null, "inferred": false },
+          { "id": "broken-sword", "name": "Broken Sword", "aliases": ["Broken Swords"], "genres": ["adventure"], "franchise": "broken-sword", "inferred": true }
+        ],
+        "studios": [
+          { "id": "reforged-studios", "name": "Reforged Studios", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "ground-shatter", "name": "Ground Shatter", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "extra-mile-studios", "name": "Extra Mile Studios", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "revolution-software", "name": "Revolution Software", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "james-parker", "name": "James Parker", "aliases": [], "inferred": false },
+          { "id": "bobby-farmer", "name": "Bobby Farmer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Reforged Studios has acquired Ground Shatter and Extra Mile Studios."
+    },
+    {
+      "ref": "business/new-ddm-digital-development-management-report-says-the-games",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "merger"],
+      "facts": [
+        { "metric": "funding_raised", "value": 8100000000, "unit": "money", "currency": "USD",
+          "entity": "games-industry", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "in just the first half of 2024, investments totalled $8.1bn",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/new-report-says-the-games-industry-is-showing-signs-of-a-recovery" } },
+        { "metric": "funding_raised", "value": 4500000000, "unit": "money", "currency": "USD",
+          "entity": "games-industry", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-16", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "the $4.5bn investment volume seen for the whole of 2023",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/new-report-says-the-games-industry-is-showing-signs-of-a-recovery" } },
+        { "metric": "acquisition_price", "value": 845000000, "unit": "money", "currency": "USD",
+          "entity": "games-industry", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-16", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "M&As reached $845m across 40 transactions",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/new-report-says-the-games-industry-is-showing-signs-of-a-recovery" } },
+        { "metric": "acquisition_price", "value": 2100000000, "unit": "money", "currency": "USD",
+          "entity": "games-industry", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-16", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Q1’s $2.1bn across 43 transactions",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/new-report-says-the-games-industry-is-showing-signs-of-a-recovery" } }
+      ],
+      "summary": "A new DDM (Digital Development Management) report says the games industry is showing signs of a recovery, with H1 2024 investments totalling $8.1bn."
+    },
+    {
+      "ref": "business/embracer-q1-results",
+      "entities": {
+        "games": [
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 754000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-16", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net Sales: SEK 7.9 billion ($754 million, down 24% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-drop-24-to-754m-due-to-tough-comparisons-with-dead-island-2" } },
+        { "metric": "profit", "value": -210000000, "unit": "money", "currency": "USD",
+          "entity": "embracer-group", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-16", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net Loss: SEK 2.2 billion ($210 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/embracer-sales-drop-24-to-754m-due-to-tough-comparisons-with-dead-island-2" } }
+      ],
+      "summary": "Embracer's Q1 results show net sales of SEK 7.9 billion ($754 million), down 24% year-on-year, with a net loss of SEK 2.2 billion ($210 million)."
+    }
+  ]
+}

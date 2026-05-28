@@ -1,0 +1,339 @@
+{
+  "date": "2025-02-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-announces-rainbow-six-siege-x-the-biggest-transforma",
+      "entities": {
+        "games": [
+          {
+            "id": "rainbow-six-siege-x",
+            "name": "Rainbow Six Siege X",
+            "aliases": [],
+            "genres": ["fps", "tactical-shooter"],
+            "franchise": "rainbow-six",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-03-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "rainbow-six-siege-x",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "A full reveal will follow in March, on Thursday 13th at 5pm UK time",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/ubisoft-announces-rainbow-six-siege-x-the-biggest-transformation-in-the-games-history"
+          }
+        }
+      ],
+      "summary": "Ubisoft announced Rainbow Six Siege X, described as the biggest transformation in the game's history, with a full reveal set for 13 March 2025."
+    },
+    {
+      "ref": "business/avalanche-founder-s-new-studio-liquid-swords-makes-layoffs-b",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "liquid-swords",
+            "name": "Liquid Swords",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "avalanche-studios",
+            "name": "Avalanche Studios",
+            "aliases": ["Avalanche"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "christofer-sundberg",
+            "name": "Sundberg",
+            "aliases": ["Sundberg"],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Liquid Swords, the studio founded by Avalanche founder Sundberg, has made layoffs of an undisclosed number but says it will continue to work on new IP."
+    },
+    {
+      "ref": "business/kingdom-come-deliverance-2-tops-2m-copies-sold-in-less-than",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-come-deliverance-2",
+            "name": "Kingdom Come: Deliverance 2",
+            "aliases": [],
+            "genres": ["action-rpg", "rpg", "open-world"],
+            "franchise": "kingdom-come-deliverance",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "warhorse-studios",
+            "name": "Warhorse Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "kingdom-come-deliverance-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Kingdom Come: Deliverance 2  tops 2m copies sold in less than two weeks",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/WarhorseStudios/status/1891487776421638643"
+          }
+        }
+      ],
+      "summary": "Kingdom Come: Deliverance 2 has sold more than 2 million copies in less than two weeks."
+    },
+    {
+      "ref": "business/nexon-2024-fiscal-year-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "the-first-descendant",
+            "name": "The First Descendant",
+            "aliases": [],
+            "genres": ["tps", "shooter", "looter-shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nexon",
+            "name": "Nexon",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 446200000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: ¥446.2 billion ($2.94 billion), up 5% year-over-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-record-breaking-revenue-in-2024-despite-the-first-descendant-performing-below-expectation"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 2940000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: ¥446.2 billion ($2.94 billion), up 5% year-over-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-record-breaking-revenue-in-2024-despite-the-first-descendant-performing-below-expectation"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 124200000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-18",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥124.2 billion ($817 million), down 8% year-over-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-record-breaking-revenue-in-2024-despite-the-first-descendant-performing-below-expectation"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 817000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-18",
+          "period": "annual",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥124.2 billion ($817 million), down 8% year-over-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-record-breaking-revenue-in-2024-despite-the-first-descendant-performing-below-expectation"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 134800000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥134.8 billion ($887 million), up 91% year-over-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-record-breaking-revenue-in-2024-despite-the-first-descendant-performing-below-expectation"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 887000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nexon",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-18",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net income: ¥134.8 billion ($887 million), up 91% year-over-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nexon-posts-record-breaking-revenue-in-2024-despite-the-first-descendant-performing-below-expectation"
+          }
+        }
+      ],
+      "summary": "Nexon reported record revenue of ¥446.2 billion for its 2024 fiscal year, up 5% year-over-year, with net income up 91% despite The First Descendant performing below expectation."
+    },
+    {
+      "ref": "rumours/gta-6-rockstar-is-reportedly-planning-roblox-fortnite-style",
+      "entities": {
+        "games": [
+          {
+            "id": "gta-6",
+            "name": "GTA 6",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          },
+          {
+            "id": "gta-5",
+            "name": "GTA 5",
+            "aliases": ["GTA 5"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          },
+          {
+            "id": "red-dead-redemption-2",
+            "name": "Red Dead Redemption 2",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead-redemption",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar",
+            "aliases": ["Rockstar"],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "cfx-re",
+            "name": "CFX.RE",
+            "aliases": ["CFX.RE"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour", "acquisition"],
+      "facts": [],
+      "summary": "Rockstar is reportedly planning Roblox/Fortnite-style user-generated content for GTA 6 and has met with top creators."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2025-09-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/acclaim-marks-its-return-by-announcing-9-new-indie-games",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "acclaim", "name": "Acclaim", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Acclaim marked its return by announcing nine new indie games."
+    },
+    {
+      "ref": "main_news/sony-empowers-parents-with-new-playstation-family-app",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [{ "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sony announced a new PlayStation Family app aimed at giving parents more control."
+    },
+    {
+      "ref": "main_news/nintendo-direct-announced-september-12-at-9am-et-2pm-bst",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-12", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2025-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nintendo Direct announced - September 12 at 9am ET / 2pm BST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-has-confirmed-that-its-next-nintendo-direct-will-take-place-this-week/" } }
+      ],
+      "summary": "Nintendo announced a Nintendo Direct showcase for September 12 at 9am ET / 2pm BST."
+    },
+    {
+      "ref": "free_games_subscription/september-s-playstation-plus-game-catalogue-update",
+      "entities": {
+        "games": [
+          { "id": "wwe-2k25", "name": "WWE 2K25", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true },
+          { "id": "persona-5-tactica", "name": "Persona 5 Tactica", "aliases": [], "genres": ["turn-based-strategy", "jrpg"], "franchise": "persona", "inferred": true },
+          { "id": "green-hell", "name": "Green Hell", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "fate-samurai-remnant", "name": "Fate/Samurai Remnant", "aliases": [], "genres": ["action-rpg"], "franchise": "fate", "inferred": true },
+          { "id": "crow-country", "name": "Crow Country", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true },
+          { "id": "the-invincible", "name": "The Invincible", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "conscript", "name": "Conscript", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true },
+          { "id": "legacy-of-kain-defiance", "name": "Legacy of Kain: Defiance", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-2", "name": "PlayStation 2", "aliases": ["PS2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "September's PlayStation Plus Game Catalogue update added titles including WWE 2K25, Persona 5 Tactica and Legacy of Kain: Defiance."
+    },
+    {
+      "ref": "business/uk-games-industry-trade-body-ukie-has-partnered-with-tencent",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ukie", "name": "UKIE", "aliases": ["UK games industry"], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "UK games industry trade body UKIE partnered with Tencent, the Department for Business and Trade, and Player One Consulting for the second year of its Video Games Growth Programme."
+    },
+    {
+      "ref": "business/ubisoft-is-cutting-jobs-within-its-publishing-team-due-to-th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 9, "unit": "people", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "9 roles affected",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/ubisoft-is-cutting-jobs-within-its-publishing-team" } }
+      ],
+      "summary": "Ubisoft is cutting nine roles within its publishing team following the formation of its new Tencent-backed subsidiary."
+    }
+  ]
+}

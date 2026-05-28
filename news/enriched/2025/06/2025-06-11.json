@@ -1,0 +1,151 @@
+{
+  "date": "2025-06-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/splatoon-raiders-revealed-for-nintendo-switch-2-the-first-sp",
+      "entities": {
+        "games": [
+          { "id": "splatoon-raiders", "name": "Splatoon Raiders", "aliases": [], "genres": ["shooter", "action-adventure"], "franchise": "splatoon", "inferred": true },
+          { "id": "splatoon-3", "name": "Splatoon 3", "aliases": [], "genres": ["shooter", "tps"], "franchise": "splatoon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Splatoon Raiders, the first Splatoon spin-off, was revealed for Nintendo Switch 2 alongside a Splatoon 3 update."
+    },
+    {
+      "ref": "main_news/cult-rock-vs-edm-action-adventure-no-straight-roads-is-getti",
+      "entities": {
+        "games": [
+          { "id": "no-straight-roads", "name": "No Straight Roads", "aliases": [], "genres": ["action-adventure", "rhythm"], "franchise": "no-straight-roads", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "consoles", "name": "Consoles", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A sequel to the cult 'rock vs EDM' action adventure No Straight Roads was announced, coming to PC and consoles next year."
+    },
+    {
+      "ref": "main_news/apple-announces-new-games-platform-launching-later-this-year",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "apple", "name": "Apple", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Apple announced a new games platform launching later this year."
+    },
+    {
+      "ref": "business/nintendo-switch-2-sells-3-5-million-in-4-days-likely-the-big",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "hardware"],
+      "facts": [
+        {
+          "metric": "units_sold", "value": 3500000, "unit": "units", "currency": null,
+          "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-06-11", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Nintendo Switch 2 sells 3.5 million in 4 days",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-switch-2-sells-3-5-million-in-4-days-likely-the-biggest-console-launch-ever/" }
+        }
+      ],
+      "summary": "The Nintendo Switch 2 sold 3.5 million units in its first 4 days, likely the biggest console launch ever."
+    },
+    {
+      "ref": "business/embracer-to-replace-ceo-who-oversaw-turbulent-acquisition-sp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "lars-wingefors", "name": "Lars Wingefors", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Embracer announced it will replace CEO Lars Wingefors, who oversaw a turbulent acquisition spree and mass layoffs."
+    },
+    {
+      "ref": "business/sag-aftra-reaches-tentative-agreement-with-major-games-compa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "lawsuit-legal"],
+      "facts": [],
+      "summary": "SAG-AFTRA reached a tentative agreement with major games companies to end its strike."
+    },
+    {
+      "ref": "business/subway-surfers-blast-developer-outplay-entertainment-has-lai",
+      "entities": {
+        "games": [
+          { "id": "subway-surfers-blast", "name": "Subway Surfers Blast", "aliases": [], "genres": ["puzzle"], "franchise": "subway-surfers", "inferred": true }
+        ],
+        "studios": [{ "id": "outplay-entertainment", "name": "Outplay Entertainment", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count", "value": 21, "unit": "people", "currency": null,
+          "entity": "outplay-entertainment", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-06-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Outplay Entertainment** has laid off 21 workers",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/subway-surfers-blast-developer-outplay-entertainment-has-laid-off-21-workers" }
+        }
+      ],
+      "summary": "Outplay Entertainment, developer of Subway Surfers Blast, laid off 21 workers."
+    },
+    {
+      "ref": "business/roblox-appoints-naveen-chopra-as-cfo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "roblox", "name": "Roblox", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "naveen-chopra", "name": "Naveen Chopra", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Roblox appointed Naveen Chopra as its CFO."
+    },
+    {
+      "ref": "business/multiplayer-game-and-live-streaming-gaming-platform-noice-sh",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "noice", "name": "Noice", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "studio-closure"],
+      "facts": [],
+      "summary": "Noice, a multiplayer game and live streaming gaming platform, shut down."
+    }
+  ]
+}

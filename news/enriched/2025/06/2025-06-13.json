@@ -1,0 +1,309 @@
+{
+  "date": "2025-06-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/konami-confirms-it-s-working-on-a-silent-hill-1-remake-with",
+      "entities": {
+        "games": [
+          { "id": "silent-hill", "name": "Silent Hill", "aliases": ["Silent Hill 1 remake"], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true },
+          { "id": "silent-hill-2-remake", "name": "Silent Hill 2 remake", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bloober-team", "name": "Bloober Team", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Konami confirmed it is working on a Silent Hill 1 remake with Silent Hill 2 remake developer Bloober Team."
+    },
+    {
+      "ref": "main_news/metal-gear-solid-3-remake-reveals-xbox-only-konami-crossover",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-3-remake", "name": "Metal Gear Solid 3 remake", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true },
+          { "id": "bomberman", "name": "Bomberman", "aliases": [], "genres": ["action"], "franchise": "bomberman", "inferred": true },
+          { "id": "ape-escape", "name": "Ape Escape", "aliases": [], "genres": ["platformer"], "franchise": "ape-escape", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "The Metal Gear Solid 3 remake revealed an Xbox-only Konami crossover, with an Xbox Bomberman game replacing the original's Ape Escape version."
+    },
+    {
+      "ref": "main_news/a-final-unannounced-game-by-the-metal-slug-team-is-getting-a",
+      "entities": {
+        "games": [
+          { "id": "navinosuke-the-yo-kai-buster", "name": "Navinosuke: The Yo-Kai Buster", "aliases": [], "genres": [], "franchise": null, "inferred": false },
+          { "id": "metal-slug", "name": "Metal Slug", "aliases": [], "genres": ["shooter"], "franchise": "metal-slug", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "game-boy-advance", "name": "Game Boy Advance", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release", "port"],
+      "facts": [],
+      "summary": "A final unannounced game by the Metal Slug team, the GPS-based Game Boy Advance title Navinosuke: The Yo-Kai Buster, is getting a Switch release 20 years after it was cancelled."
+    },
+    {
+      "ref": "main_news/silent-hill-f-gets-development-deep-dive-at-konami-game-show",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "gameplay"],
+      "facts": [],
+      "summary": "Silent Hill f received a development deep dive at a Konami game showcase."
+    },
+    {
+      "ref": "main_news/mindseye-reveals-june-roadmap-to-address-bugs-performance-is",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "MindsEye revealed a June roadmap to address bugs and performance issues."
+    },
+    {
+      "ref": "main_news/ratchet-clank-rift-apart-designer-reveals-hidden-mini-game-t",
+      "entities": {
+        "games": [
+          { "id": "ratchet-clank-rift-apart", "name": "Ratchet & Clank: Rift Apart", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": "ratchet-clank", "inferred": true }
+        ],
+        "studios": [
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Ratchet & Clank: Rift Apart designer revealed a hidden mini-game that had gone undiscovered for four years."
+    },
+    {
+      "ref": "main_news/metal-gear-solid-delta-multiplayer-mode-revealed-an-original",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-delta", "name": "Metal Gear Solid Delta", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "Metal Gear Solid Delta revealed an original online multiplayer mode called Fox Hunt."
+    },
+    {
+      "ref": "business/tiga-welcomes-uk-spending-review-s-focus-on-creative-industr",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "TIGA welcomed the UK Spending Review's focus on creative industries while emphasising the importance of the UK Games Fund."
+    },
+    {
+      "ref": "business/nice-plans-studios-raises-3m-in-funding-round-investment-wil",
+      "entities": {
+        "games": [
+          { "id": "ricochet-squad", "name": "Ricochet Squad", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "nice-plans-studios", "name": "Nice Plans Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 3000000, "unit": "money", "currency": "USD",
+          "entity": "nice-plans-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-06-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nice Plans Studios raises $3m in funding round",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nice-plans-studios-raises-3m-in-funding-round" } }
+      ],
+      "summary": "Nice Plans Studios raised $3m in a funding round to support development of the 3v3 shooter Ricochet Squad."
+    },
+    {
+      "ref": "business/cobra-mobile-shuts-down-after-20-years",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cobra-mobile", "name": "Cobra Mobile", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Cobra Mobile shut down after 20 years."
+    },
+    {
+      "ref": "business/microsoft-shares-best-practices-for-devs-looking-to-support",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "rog-xbox-ally", "name": "ROG Xbox Ally", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Microsoft shared best practices for developers looking to support the ROG Xbox Ally handheld."
+    },
+    {
+      "ref": "business/runescape-developer-accused-of-catering-to-american-conserva",
+      "entities": {
+        "games": [
+          { "id": "runescape", "name": "RuneScape", "aliases": [], "genres": ["mmorpg"], "franchise": "runescape", "inferred": true }
+        ],
+        "studios": [
+          { "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "RuneScape's developer was accused of catering to American conservatism by rolling back Pride Month events."
+    },
+    {
+      "ref": "business/nintendo-switch-online-services-offline-due-to-google-outage",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true },
+          { "id": "google", "name": "Google", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo Switch Online services went offline due to a Google outage and have since been restored."
+    },
+    {
+      "ref": "business/the-outer-worlds-2-game-director-says-they-aren-t-responsibl",
+      "entities": {
+        "games": [
+          { "id": "the-outer-worlds-2", "name": "The Outer Worlds 2", "aliases": [], "genres": ["action-rpg"], "franchise": "the-outer-worlds", "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "brandon-adle", "name": "Brandon Adle", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 80, "unit": "price", "currency": "USD",
+          "entity": "the-outer-worlds-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "aren’t responsible for $80 Price",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/the-outer-worlds-2-game-director-says-they-arent-responsible-for-80-price/" } }
+      ],
+      "summary": "The Outer Worlds 2 game director Brandon Adle said the team is not responsible for the $80 price, pointing blame at Xbox for the increase."
+    },
+    {
+      "ref": "business/stellar-blade-becomes-the-second-playstation-published-game",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "ghost-of-tsushima", "name": "Ghost of Tsushima", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "spider-man", "name": "Spider-Man", "aliases": [], "genres": ["action-adventure"], "franchise": "spider-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "concurrent_players", "value": 100000, "unit": "players", "currency": null,
+          "entity": "stellar-blade", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "pass 100,000 concurrent players on Steam",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/stellar-blade-becomes-the-second-playstation-published-game-to-pass-100000-concurrent-players-on-steam/" } }
+      ],
+      "summary": "Stellar Blade became the second PlayStation-published game to pass 100,000 concurrent players on Steam, surpassing Ghost of Tsushima, God of War and Spider-Man."
+    },
+    {
+      "ref": "rumours/first-party-xbox-handheld-essentially-cancelled-it-s-claimed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a first-party Xbox handheld has been essentially cancelled."
+    }
+  ]
+}

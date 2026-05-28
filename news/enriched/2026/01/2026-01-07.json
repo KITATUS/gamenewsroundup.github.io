@@ -1,0 +1,134 @@
+{
+  "date": "2026-01-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-ai-patent-will-see-playstation-games-play-themselves-wh",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "publisher": null, "inferred": true }],
+        "platforms": [{ "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Sony AI patent describes a system that would let PlayStation games play themselves when players get stuck."
+    },
+    {
+      "ref": "main_news/stranger-things-final-battle-was-directly-influenced-by-bald",
+      "entities": {
+        "games": [{ "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The final battle of Stranger Things was directly influenced by Baldur's Gate 3."
+    },
+    {
+      "ref": "main_news/sigourney-weaver-and-jason-isaacs-cast-in-amazon-s-tomb-raid",
+      "entities": {
+        "games": [{ "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "sigourney-weaver", "name": "Sigourney Weaver", "aliases": [], "inferred": false },
+          { "id": "jason-isaacs", "name": "Jason Isaacs", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sigourney Weaver and Jason Isaacs have been cast in Amazon's Tomb Raider series."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-games-for-january",
+      "entities": {
+        "games": [
+          { "id": "brews-bastards", "name": "Brews & Bastards", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "little-nightmares-enhanced-edition", "name": "Little Nightmares: Enhanced Edition", "aliases": ["Little Nightmares"], "genres": ["puzzle", "platformer", "horror"], "franchise": "little-nightmares", "inferred": true },
+          { "id": "atomfall", "name": "Atomfall", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "lost-in-random-the-eternal-die", "name": "Lost in Random: The Eternal Die", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "lost-in-random", "inferred": true },
+          { "id": "rematch", "name": "Rematch", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "warhammer-40000-space-marine-master-crafted-edition", "name": "Warhammer 40,000: Space Marine - Master Crafted Edition", "aliases": [], "genres": ["tps", "action-adventure"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "final-fantasy", "name": "Final Fantasy", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "star-wars-outlaws", "name": "Star Wars Outlaws", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "star-wars", "inferred": true },
+          { "id": "my-little-pony-a-zephyr-heights-mystery", "name": "My Little Pony: A Zephyr Heights Mystery", "aliases": [], "genres": ["adventure"], "franchise": "my-little-pony", "inferred": true },
+          { "id": "resident-evil-village", "name": "Resident Evil Village", "aliases": [], "genres": ["survival-horror", "fps"], "franchise": "resident-evil", "inferred": true },
+          { "id": "mio-memories-in-orbit", "name": "MIO: Memories in Orbit", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-01-07", "unit": "date", "currency": null,
+          "entity": "atomfall", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Atomfall (Cloud, Console, Handheld, and PC) – 7th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-07", "unit": "date", "currency": null,
+          "entity": "lost-in-random-the-eternal-die", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lost in Random: The Eternal Die (Cloud, Xbox Series S/X, Handheld, and PC) – 7th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-07", "unit": "date", "currency": null,
+          "entity": "rematch", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rematch (Cloud, PC, and Xbox Series S/X) – 7th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-07", "unit": "date", "currency": null,
+          "entity": "warhammer-40000-space-marine-master-crafted-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Warhammer 40,000: Space Marine – Master Crafted Edition (Cloud, PC, and Xbox Series S/X) – 7th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-08", "unit": "date", "currency": null,
+          "entity": "final-fantasy", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Final Fantasy – (Cloud, Xbox Series S/X, and PC) – 8th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-13", "unit": "date", "currency": null,
+          "entity": "star-wars-outlaws", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Star Wars Outlaws (Cloud, PC, and Xbox Series S/X) – 13th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-15", "unit": "date", "currency": null,
+          "entity": "my-little-pony-a-zephyr-heights-mystery", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "My Little Pony: A Zephyr Heights Mystery (Cloud, Console, Handheld, and PC) – 15th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-20", "unit": "date", "currency": null,
+          "entity": "resident-evil-village", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Resident Evil Village (Cloud, Console, and PC) – 20th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } },
+        { "metric": "release_date", "value": "2026-01-20", "unit": "date", "currency": null,
+          "entity": "mio-memories-in-orbit", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MIO: Memories in Orbit (Cloud, Handheld, PC, and Xbox Series S/X) – 20th January",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-january" } }
+      ],
+      "summary": "Microsoft revealed the Xbox Game Pass titles arriving throughout January 2026."
+    },
+    {
+      "ref": "business/cloudhead-games-reduces-70-of-workforce",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "cloudhead-games", "name": "Cloudhead Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Cloudhead Games has reduced its workforce by 70 percent."
+    }
+  ]
+}

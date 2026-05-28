@@ -1,0 +1,94 @@
+{
+  "date": "2025-09-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/beloved-japanese-racehorse-that-inspired-umamusume-pretty-de",
+      "entities": {
+        "games": [
+          { "id": "umamusume-pretty-derby", "name": "Umamusume: Pretty Derby", "aliases": [], "genres": ["simulation"], "franchise": "umamusume", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Haru Urara, the Japanese racehorse that inspired a character in Umamusume: Pretty Derby, has died at 29 after losing all 113 of her races."
+    },
+    {
+      "ref": "main_news/codemasters-old-dirt-and-grid-titles-lose-online-services-on",
+      "entities": {
+        "games": [
+          { "id": "dirt-showdown", "name": "Dirt Showdown", "aliases": [], "genres": ["racing"], "franchise": "dirt", "inferred": true },
+          { "id": "dirt-3", "name": "Dirt 3", "aliases": [], "genres": ["racing"], "franchise": "dirt", "inferred": true },
+          { "id": "grid-autosport", "name": "Grid Autosport", "aliases": [], "genres": ["racing"], "franchise": "grid", "inferred": true },
+          { "id": "grid-2", "name": "Grid 2", "aliases": [], "genres": ["racing"], "franchise": "grid", "inferred": true }
+        ],
+        "studios": [
+          { "id": "codemasters", "name": "Codemasters", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-03-16", "unit": "date", "currency": null,
+          "entity": "codemasters", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-09-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "old Dirt and Grid titles lose online services on March 16th, 2026",
+          "source": { "name": "Delisted Games", "domain": "delistedgames.com", "url": "https://delistedgames.com/codemasters-old-dirt-and-grid-titles-lose-online-services-on-march-16th-2026/" } }
+      ],
+      "summary": "Codemasters will shut down online services for Dirt Showdown, Dirt 3, Grid Autosport and Grid 2 on 16 March 2026."
+    },
+    {
+      "ref": "business/overwatch-gm-walter-kong-steps-up-as-svp-head-of-development",
+      "entities": {
+        "games": [
+          { "id": "overwatch", "name": "Overwatch", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": "overwatch", "inferred": true },
+          { "id": "hearthstone", "name": "Hearthstone", "aliases": [], "genres": ["card"], "franchise": "warcraft", "inferred": true },
+          { "id": "diablo-immortal", "name": "Diablo Immortal", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true },
+          { "id": "warcraft-rumble", "name": "Warcraft Rumble", "aliases": [], "genres": ["strategy"], "franchise": "warcraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "walter-kong", "name": "Walter Kong", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Walter Kong, GM of Overwatch, has been promoted to SVP head of development for live games and mobile, expanding his remit to Hearthstone, Diablo Immortal and Warcraft Rumble while retaining overall Overwatch strategy."
+    },
+    {
+      "ref": "business/dead-island-2-reaches-20m-players",
+      "entities": {
+        "games": [
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "deep-silver", "name": "Deep Silver", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 20000000, "unit": "players", "currency": null,
+          "entity": "dead-island-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-10", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dead Island 2 reaches 20m players",
+          "source": { "name": "deepsilver.com", "domain": "deepsilver.com", "url": "https://www.deepsilver.com/gb/games/dead-island-2/news/celebrating-14-years-of-gore-and-guts-plus-20-million-slayers-in-dead-island-2" } }
+      ],
+      "summary": "Dead Island 2 has reached 20 million players."
+    }
+  ]
+}

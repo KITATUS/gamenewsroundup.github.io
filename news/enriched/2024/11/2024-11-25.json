@@ -1,0 +1,195 @@
+{
+  "date": "2024-11-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/virtua-fighter-5-is-getting-a-steam-remaster-called-virtua-f",
+      "entities": {
+        "games": [
+          {
+            "id": "virtua-fighter-5-revo",
+            "name": "Virtua Fighter 5 R.E.V.O.",
+            "aliases": ["Virtua Fighter 5 R.E.V.O."],
+            "genres": ["fighting"],
+            "franchise": "virtua-fighter",
+            "inferred": true
+          },
+          {
+            "id": "virtua-fighter-5",
+            "name": "Virtua Fighter 5",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "virtua-fighter",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Virtua Fighter 5 is getting a Steam remaster called Virtua Fighter 5 R.E.V.O. with 4K graphics and rollback netcode, with no release date announced yet."
+    },
+    {
+      "ref": "main_news/samsung-launches-free-mobile-cloud-gaming-platform-for-galax",
+      "entities": {
+        "games": [
+          {
+            "id": "monopoly-go",
+            "name": "Monopoly Go",
+            "aliases": [],
+            "genres": ["party"],
+            "franchise": "monopoly",
+            "inferred": true
+          },
+          {
+            "id": "candy-crush-saga",
+            "name": "Candy Crush Saga",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": "candy-crush",
+            "inferred": true
+          },
+          {
+            "id": "homescapes",
+            "name": "Homescapes",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "honor-of-kings",
+            "name": "Honor of Kings",
+            "aliases": [],
+            "genres": ["moba"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "samsung",
+            "name": "Samsung",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "galaxy-store",
+            "name": "Galaxy Store",
+            "aliases": ["Samsung Gaming Hub"],
+            "inferred": false
+          }
+        ],
+        "people": [
+          {
+            "id": "jong-woo",
+            "name": "Jong Woo",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement", "subscription", "free-game"],
+      "facts": [],
+      "summary": "Samsung launched a free mobile cloud gaming platform for Galaxy devices, offering 23 games at launch with no paywalls or subscriptions."
+    },
+    {
+      "ref": "business/cma-calls-for-investigation-into-apple-and-google-s-uk-mobil",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "apple",
+            "name": "Apple",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "google",
+            "name": "Google",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The UK's CMA has called for an investigation into Apple and Google's dominance of the UK mobile market while proposing no further action on cloud gaming."
+    },
+    {
+      "ref": "business/stalker-2-sells-1m-copies-in-two-days",
+      "entities": {
+        "games": [
+          {
+            "id": "stalker-2",
+            "name": "Stalker 2",
+            "aliases": [],
+            "genres": ["fps", "survival", "open-world"],
+            "franchise": "stalker",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "gsc-game-world",
+            "name": "GSC Game World",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "xbox-game-pass",
+            "name": "Game Pass",
+            "aliases": ["Game Pass"],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "stalker-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-25",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Stalker 2 sells 1m copies in two days",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/stalker_thegame/status/1859930792564285907"
+          }
+        }
+      ],
+      "summary": "Stalker 2 sold 1 million copies in two days, a figure that does not include Game Pass players."
+    }
+  ]
+}

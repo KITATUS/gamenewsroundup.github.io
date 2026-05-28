@@ -1,0 +1,75 @@
+{
+  "date": "2025-01-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/here-s-where-you-can-play-switch-2-in-your-city-nintendo-swi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [],
+      "summary": "Nintendo announced the cities and dates for its Nintendo Switch 2 Pre-Release Tour across North America, Europe, Oceania and Asia."
+    },
+    {
+      "ref": "main_news/nintendo-patent-attorney-clarifies-company-s-zero-tolerance",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A Nintendo patent attorney clarified the company's zero-tolerance position on emulation, stating emulation is legal but circumventing copy protection and using console BIOS or frontends is not."
+    },
+    {
+      "ref": "business/soul-assembly-cuts-15-of-workforce",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "soul-assembly", "name": "Soul Assembly", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "UK VR/XR studio Soul Assembly, known for Just Dance VR and various Warhammer 40K licensed titles, cut 15% of its workforce across its QA, marketing, and animation departments."
+    },
+    {
+      "ref": "rumours/sony-cancels-two-more-live-service-games-including-one-based",
+      "entities": {
+        "games": [
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bluepoint-games", "name": "Bluepoint Games", "aliases": ["Bluepoint"], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "bend-studio", "name": "Bend Studio", "aliases": ["Bend"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Sony has cancelled two more live service games, including a God of War title at Bluepoint and an unannounced live service game at Bend Studio."
+    }
+  ]
+}

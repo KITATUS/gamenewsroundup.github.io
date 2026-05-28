@@ -1,0 +1,111 @@
+{
+  "date": "2025-04-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-s-stream-your-own-game-feature-on-console-is-now-availa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass-ultimate", "name": "Game Pass Ultimate", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "subscription"],
+      "facts": [],
+      "summary": "Xbox's 'stream your own game' feature on console is now available to all Game Pass Ultimate members."
+    },
+    {
+      "ref": "main_news/among-us-3d-release-date-announced-may-6th",
+      "entities": {
+        "games": [{ "id": "among-us-3d", "name": "Among Us 3D", "aliases": [], "genres": ["party"], "franchise": "among-us", "inferred": true }],
+        "studios": [{ "id": "innersloth", "name": "Innersloth", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-05-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "among-us-3d",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-04-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Among Us 3D release date announced - May 6th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/among-us-3d-release-date-announced" }
+        }
+      ],
+      "summary": "Among Us 3D has had its release date announced for 6 May 2025."
+    },
+    {
+      "ref": "main_news/a-minecraft-movie-surpasses-550m-globally",
+      "entities": {
+        "games": [{ "id": "minecraft", "name": "Minecraft", "aliases": ["A Minecraft Movie"], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 550000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "a-minecraft-movie",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-04-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "A Minecraft Movie surpasses $550m globally",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/a-minecraft-movie-surpasses-550m-globally" }
+        }
+      ],
+      "summary": "A Minecraft Movie has surpassed $550 million in global box-office takings."
+    },
+    {
+      "ref": "business/panic-has-paid-out-over-1-million-to-playdate-developers-on",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "panic", "name": "Panic", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "playdate", "name": "Playdate", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "wages",
+          "value": 1000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "panic",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-04-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Panic has paid out over $1 million to Playdate developers on Catalog",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/panic-has-paid-out-over-1-million-to-playdate-developers-on-catalog" }
+        }
+      ],
+      "summary": "Panic has paid out over $1 million to Playdate developers through its Catalog store."
+    }
+  ]
+}

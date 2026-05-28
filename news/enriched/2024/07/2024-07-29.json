@@ -1,0 +1,147 @@
+{
+  "date": "2024-07-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/there-s-just-one-day-left-before-xbox-360-s-marketplace-clos",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-360", "name": "Xbox 360", "aliases": ["Xbox 360 Marketplace"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [],
+      "summary": "There is one day left before the Xbox 360 Marketplace closes, after which around 220 digital games will be removed."
+    },
+    {
+      "ref": "main_news/riot-games-hero-shooter-valorant-is-running-an-open-console",
+      "entities": {
+        "games": [{ "id": "valorant", "name": "Valorant", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": null, "inferred": false }],
+        "studios": [{ "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "console", "name": "Console", "aliases": ["current-gen console systems"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [
+        { "metric": "release_date", "value": "2020", "unit": "date", "currency": null,
+          "entity": "valorant", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-29", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "initially released for PC in 2020",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/riot-games-hero-shooter-valorant-is-running-an-open-console-beta-and-its-live-right-now" } }
+      ],
+      "summary": "Riot Games' hero shooter Valorant is running an open console beta that is live now."
+    },
+    {
+      "ref": "main_news/like-a-dragon-yakuza-tv-show-drops-a-new-teaser-trailer",
+      "entities": {
+        "games": [{ "id": "like-a-dragon", "name": "Like a Dragon: Yakuza", "aliases": ["Like a Dragon: Yakuza TV", "Yakuza"], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser", "trailer"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-24", "unit": "date", "currency": null,
+          "entity": "like-a-dragon-yakuza-tv", "entity_type": "product", "scope": "event",
+          "as_of": "2024-07-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The show will premiere on 24th October.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/like-a-dragon-yakuza-tv-show-drops-a-new-teaser-trailer" } }
+      ],
+      "summary": "The Like a Dragon: Yakuza TV show dropped a new teaser trailer and will premiere on 24 October."
+    },
+    {
+      "ref": "main_news/epic-removes-fortnite-from-mobile-app-stores-to-prepare-for",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "inferred": true }],
+        "platforms": [{ "id": "samsung-galaxy-store", "name": "Samsung Galaxy Store", "aliases": ["Samsung Galaxy store"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Epic removed Fortnite from mobile app stores, including the Samsung Galaxy store, to prepare for its own store launch."
+    },
+    {
+      "ref": "main_news/psvr-2-app-to-release-on-steam-on-august-6",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "psvr-2", "name": "PSVR 2", "aliases": ["PlayStation VR 2"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-06", "unit": "date", "currency": null,
+          "entity": "psvr-2", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PSVR 2 app to release on Steam on August 6",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/psvr-2-app-to-release-on-steam-on-august-6-news-in-brief" } }
+      ],
+      "summary": "A PSVR 2 app is set to release on Steam on 6 August, letting users play PlayStation VR 2 titles on PC."
+    },
+    {
+      "ref": "business/look-north-world-raises-4-5m-in-overall-funding",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "look-north-world", "name": "Look North World", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 4500000, "unit": "money", "currency": "USD",
+          "entity": "look-north-world", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-07-29", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Look North World raises $4.5m in overall funding",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/look-north-world-raises-45m-in-overall-funding" } }
+      ],
+      "summary": "Look North World raised $4.5 million in overall funding to support development of original titles."
+    },
+    {
+      "ref": "business/steam-demo-overhaul-includes-standalone-store-pages-user-rev",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Steam's demo overhaul adds standalone store pages, user reviews and wishlist notifications, with demos behaving like free games."
+    },
+    {
+      "ref": "business/paradox-interactive-profits-drop-90-due-to-life-by-you-cance",
+      "entities": {
+        "games": [{ "id": "life-by-you", "name": "Life By You", "aliases": [], "genres": ["life-sim"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Paradox Interactive's profits dropped 90% following the cancellation of Life By You, which involved $19.2 million in development cost write-downs."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "date": "2025-03-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/disco-elysium-studio-za-um-has-announced-its-next-game-espio",
+      "entities": {
+        "games": [
+          { "id": "project-c4", "name": "Project C4", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": false },
+          { "id": "disco-elysium", "name": "Disco Elysium", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "za-um", "name": "ZA/UM", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Disco Elysium studio ZA/UM has announced its next game, an espionage RPG called Project C4."
+    },
+    {
+      "ref": "free_games_subscription/apple-arcade-is-getting-brand-new-katamari-and-space-invader",
+      "entities": {
+        "games": [
+          { "id": "katamari-damacy-rolling-live", "name": "Katamari Damacy Rolling Live", "aliases": [], "genres": ["action"], "franchise": "katamari", "inferred": true },
+          { "id": "space-invaders-infinity-gene-evolve", "name": "Space Invaders Infinity Gene Evolve", "aliases": [], "genres": ["shooter"], "franchise": "space-invaders", "inferred": true },
+          { "id": "puffies", "name": "Puffies", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": false },
+          { "id": "rollercoaster-tycoon-classic", "name": "RollerCoaster Tycoon Classic+", "aliases": [], "genres": ["simulation"], "franchise": "rollercoaster-tycoon", "inferred": true },
+          { "id": "the-game-of-life-2", "name": "The Game of Life 2+", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true },
+          { "id": "sesame-street-mecha-builders", "name": "Sesame Street Mecha Builders+", "aliases": [], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "apple-arcade", "name": "Apple Arcade", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "subscription"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "katamari-damacy-rolling-live", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Katamari Damacy Rolling Live will be released on April 3rd",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/apple-arcade-is-getting-brand-new-katamari-and-space-invaders-games-next-month/" } },
+        { "metric": "release_date", "value": "2025-04-03", "unit": "date", "currency": null,
+          "entity": "space-invaders-infinity-gene-evolve", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Space Invaders Infinity Gene Evolve will also be released on April 3rd",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/apple-arcade-is-getting-brand-new-katamari-and-space-invaders-games-next-month/" } }
+      ],
+      "summary": "Apple Arcade is adding new Katamari and Space Invaders games next month, both releasing on 3 April 2025, alongside a puzzle game called Puffies and three '+' versions of existing titles."
+    },
+    {
+      "ref": "free_games_subscription/enter-the-gungeon-is-back-on-xbox-game-pass",
+      "entities": {
+        "games": [
+          { "id": "enter-the-gungeon", "name": "Enter The Gungeon", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Enter The Gungeon has returned to Xbox Game Pass."
+    },
+    {
+      "ref": "business/ori-developer-moon-studios-goes-fully-independent-post-priva",
+      "entities": {
+        "games": [
+          { "id": "no-rest-for-the-wicked", "name": "No Rest For The Wicked", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "ori", "name": "Ori", "aliases": [], "genres": ["metroidvania"], "franchise": "ori", "inferred": true }
+        ],
+        "studios": [
+          { "id": "moon-studios", "name": "Moon Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false },
+          { "id": "private-division", "name": "Private Division", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Ori developer Moon Studios has gone fully independent after Private Division and will finish No Rest For The Wicked without Take-Two."
+    },
+    {
+      "ref": "business/lego-is-starting-to-bring-its-game-development-in-house-key",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "lego", "name": "Lego", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A key executive says Lego is starting to bring its game development in-house."
+    },
+    {
+      "ref": "business/the-outlast-trials-clocks-up-3-million-players-since-launch",
+      "entities": {
+        "games": [
+          { "id": "the-outlast-trials", "name": "The Outlast Trials", "aliases": [], "genres": ["survival-horror"], "franchise": "outlast", "inferred": true }
+        ],
+        "studios": [
+          { "id": "red-barrels", "name": "Red Barrels", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 3000000, "unit": "players", "currency": null,
+          "entity": "the-outlast-trials", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "The Outlast Trials clocks up 3 million players since launch",
+          "source": { "name": "YouTube", "domain": "youtube.com",
+            "url": "https://www.youtube.com/watch?t=114&v=pG9eUlfogz4" } }
+      ],
+      "summary": "The Outlast Trials has reached 3 million players since its launch."
+    }
+  ]
+}

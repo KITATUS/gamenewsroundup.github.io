@@ -1,0 +1,208 @@
+{
+  "date": "2025-11-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/beyond-words-is-a-roguelike-word-game-by-a-new-studio-formed",
+      "entities": {
+        "games": [
+          {
+            "id": "beyond-words",
+            "name": "Beyond Words",
+            "aliases": [],
+            "genres": ["roguelike", "puzzle"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "switch", "name": "Switch", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "david-doak", "name": "David Doak", "aliases": [], "inferred": false },
+          { "id": "steve-ellis", "name": "Steve Ellis", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "beta-demo", "studio-opening"],
+      "facts": [],
+      "summary": "Beyond Words is a roguelike word game from a new studio founded by David Doak and Steve Ellis, with a demo available on Steam and a release planned for early 2026 on PS5, Xbox Series S/X, Switch and PC."
+    },
+    {
+      "ref": "main_news/gil-canizes-dotu-is-now-available-on-steam",
+      "entities": {
+        "games": [
+          {
+            "id": "dotu",
+            "name": "Dotu",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "gil-canizes", "name": "Gil Canizes", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Gil Canizes' Dotu is now available on Steam."
+    },
+    {
+      "ref": "main_news/a-lost-chapter-of-kill-bill-is-premiering-in-fortnite-later",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "quentin-tarantino", "name": "Quentin Tarantino", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "trailer"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-11-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2025-11-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will premiere in Fortnite on the 30th November",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/a-narrative-sequel-to-kill-bill-is-premiering-in-fortnite"
+          }
+        }
+      ],
+      "summary": "A \"lost chapter\" of Kill Bill, The Lost Chapter: Yuki's Revenge, an in-engine animated movie directed and written by Quentin Tarantino, will premiere in Fortnite on 30 November 2025."
+    },
+    {
+      "ref": "main_news/beleaguered-free-to-play-halo-x-portal-fps-splitgate-2-set-t",
+      "entities": {
+        "games": [
+          {
+            "id": "splitgate-2",
+            "name": "Splitgate 2",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "splitgate",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "The beleaguered free-to-play FPS Splitgate 2 is set to re-launch next month."
+    },
+    {
+      "ref": "business/paradox-writes-down-37-million-of-vampire-the-masquerade-blo",
+      "entities": {
+        "games": [
+          {
+            "id": "vampire-the-masquerade-bloodlines-2",
+            "name": "Vampire: The Masquerade Bloodlines 2",
+            "aliases": [],
+            "genres": ["action-rpg", "rpg"],
+            "franchise": "vampire-the-masquerade",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": ["Paradox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "development_budget",
+          "value": 37000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "vampire-the-masquerade-bloodlines-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "writes down $37 million of Vampire: The Masquerade Bloodlines 2 dev costs",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/sales-do-not-match-our-projections-paradox-writes[…]llion-of-vampire-the-masquerade-bloodlines-2-dev-costs/"
+          }
+        }
+      ],
+      "summary": "Paradox has written down $37 million of Vampire: The Masquerade Bloodlines 2 development costs."
+    },
+    {
+      "ref": "business/nintendo-is-acquiring-bandai-namco-s-singapore-studio-will-r",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "nintendo-studios-singapore", "name": "Nintendo Studios Singapore", "aliases": [], "publisher": "nintendo", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Nintendo is acquiring Bandai Namco's Singapore studio and will rename it Nintendo Studios Singapore."
+    },
+    {
+      "ref": "business/with-just-17-of-sega-s-recent-sales-coming-from-new-titles-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "With just 17% of Sega's recent sales coming from new titles, the company suggests \"definitive editions\" could be putting players off Day One purchases."
+    }
+  ]
+}

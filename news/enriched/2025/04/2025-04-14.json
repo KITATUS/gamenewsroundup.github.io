@@ -1,0 +1,104 @@
+{
+  "date": "2025-04-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ps5-price-to-rise-in-europe-australia-and-new-zealand",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [
+        { "metric": "price", "value": 69.99, "unit": "price", "currency": "GBP",
+          "entity": "ps5", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-14", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "Sony is decreasing the price of its PS5 disc drives to £69.99",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2025/04/13/ps5-price-to-rise-in-europe-australia-and-new-zealand/" } },
+        { "metric": "price", "value": 79.99, "unit": "price", "currency": "EUR",
+          "entity": "ps5", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-14", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "£69.99 / €79.99 / AUD $124.95 / NZD $139.95",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2025/04/13/ps5-price-to-rise-in-europe-australia-and-new-zealand/" } },
+        { "metric": "price", "value": 124.95, "unit": "price", "currency": "AUD",
+          "entity": "ps5", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-14", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "£69.99 / €79.99 / AUD $124.95 / NZD $139.95",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2025/04/13/ps5-price-to-rise-in-europe-australia-and-new-zealand/" } },
+        { "metric": "price", "value": 139.95, "unit": "price", "currency": "NZD",
+          "entity": "ps5", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-04-14", "period": "point_in_time", "direction": "down", "confidence": "high",
+          "quote": "£69.99 / €79.99 / AUD $124.95 / NZD $139.95",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2025/04/13/ps5-price-to-rise-in-europe-australia-and-new-zealand/" } }
+      ],
+      "summary": "Sony is raising PS5 prices in Europe, Australia and New Zealand while cutting the price of its PS5 disc drive accessory."
+    },
+    {
+      "ref": "main_news/chaotic-match-modifying-shooter-fragpunk-gets-new-console-re",
+      "entities": {
+        "games": [
+          { "id": "fragpunk", "name": "FragPunk", "aliases": [], "genres": ["shooter", "hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "delay"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-29", "unit": "date", "currency": null,
+          "entity": "fragpunk", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "gets new console release date after last month's delay - 29th April",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/chaotic-match-modifying-shooter-fragpunk-gets-new-console-release-date-after-last-months-delay" } }
+      ],
+      "summary": "The match-modifying shooter FragPunk has a new console release date of 29 April following last month's delay."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-switch-online-adds-three-more-mega-drive-classics-s",
+      "entities": {
+        "games": [
+          { "id": "streets-of-rage", "name": "Streets of Rage", "aliases": [], "genres": ["fighting"], "franchise": "streets-of-rage", "inferred": true },
+          { "id": "super-thunder-blade", "name": "Super Thunder Blade", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "eswat-city-under-siege", "name": "ESWAT: City Under Siege", "aliases": ["ESWAT"], "genres": ["platformer", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Nintendo Switch Online has added three more Mega Drive classics: Streets of Rage, Super Thunder Blade and ESWAT: City Under Siege."
+    },
+    {
+      "ref": "business/matt-karch-ceo-and-co-founder-of-saber-interactive-donates-5",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "matt-karch", "name": "Matt Karch", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Matt Karch, CEO and co-founder of Saber Interactive, has donated $5 million to establish a game industry institute at the University of Texas."
+    }
+  ]
+}

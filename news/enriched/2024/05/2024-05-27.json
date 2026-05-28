@@ -1,0 +1,247 @@
+{
+  "date": "2024-05-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-is-opening-an-official-store-in-san-francisco-next",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo is opening an official store in San Francisco next year, its second U.S. location, in Union Square."
+    },
+    {
+      "ref": "main_news/new-fortnite-season-adds-fallout-s-t-60-power-armor-and-wast",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          },
+          {
+            "id": "fallout",
+            "name": "Fallout",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "fallout",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A new Fortnite season adds Fallout's T-60 power armor and Wastelander Magneto cosmetics."
+    },
+    {
+      "ref": "free_games_subscription/12-games-are-leaving-playstation-plus-in-june",
+      "entities": {
+        "games": [
+          {
+            "id": "brothers-a-tale-of-two-sons",
+            "name": "Brothers: A Tale of Two Sons",
+            "aliases": [],
+            "genres": ["adventure", "puzzle"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "dc-league-of-super-pets-the-adventures-of-krypto-and-ace",
+            "name": "DC League of Super-Pets: The Adventures of Krypto and Ace",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "dodgeball-academia",
+            "name": "Dodgeball Academia",
+            "aliases": [],
+            "genres": ["action-rpg", "sports"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "grand-theft-auto-v",
+            "name": "Grand Theft Auto V",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          },
+          {
+            "id": "indivisible",
+            "name": "Indivisible",
+            "aliases": [],
+            "genres": ["action-rpg", "platformer"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "monster-jam-steel-titans",
+            "name": "Monster Jam Steel Titans",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "motogp-23",
+            "name": "MotoGP 23",
+            "aliases": [],
+            "genres": ["racing", "sports"],
+            "franchise": "motogp",
+            "inferred": true
+          },
+          {
+            "id": "spongebob-squarepants-battle-for-bikini-bottom-rehydrated",
+            "name": "SpongeBob SquarePants: Battle for Bikini Bottom Rehydrated",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-talos-principle",
+            "name": "The Talos Principle: Deluxe Edition",
+            "aliases": ["The Talos Principle: Deluxe Edition"],
+            "genres": ["puzzle"],
+            "franchise": "the-talos-principle",
+            "inferred": true
+          },
+          {
+            "id": "the-wild-at-heart",
+            "name": "The Wild at Heart",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "unturned",
+            "name": "Unturned",
+            "aliases": [],
+            "genres": ["survival", "shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "baja-edge-of-control-hd",
+            "name": "Baja: Edge of Control HD",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Twelve games, including Grand Theft Auto V, are leaving PlayStation Plus in June."
+    },
+    {
+      "ref": "business/bungie-wins-court-battle-against-destiny-cheat-site-aimjunki",
+      "entities": {
+        "games": [
+          {
+            "id": "destiny-2",
+            "name": "Destiny 2",
+            "aliases": ["Destiny"],
+            "genres": ["fps", "mmo", "action-rpg"],
+            "franchise": "destiny",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bungie",
+            "name": "Bungie",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 63210,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "aimjunkies",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2024-05-27",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "instructed to pay the Destiny 2 developer $63,210 in damages – that's the revenue the company is thought to have earned selling the cheats",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/bungie-wins-court-battle-against-destiny-cheat-site-aimjunkies"
+          }
+        }
+      ],
+      "summary": "Bungie won a court battle against Destiny cheat site AimJunkies, which was ordered to pay $63,210 in damages."
+    },
+    {
+      "ref": "rumours/a-new-astro-bot-game-will-be-revealed-in-weeks-it-s-claimed",
+      "entities": {
+        "games": [
+          {
+            "id": "astro-bot",
+            "name": "Astro Bot",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "astro-bot",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a new Astro Bot game will be revealed within weeks."
+    }
+  ]
+}

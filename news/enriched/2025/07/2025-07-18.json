@@ -1,0 +1,220 @@
+{
+  "date": "2025-07-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-mortal-kombat-2-movie-trailer-is-here-featuring-karl-urb",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat", "name": "Mortal Kombat", "aliases": ["Mortal Kombat 2"], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "karl-urban", "name": "Karl Urban", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-24", "unit": "date", "currency": null,
+          "entity": "mortal-kombat-2", "entity_type": "product", "scope": "product",
+          "as_of": "2025-07-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Film due for release October 24th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-mortal-kombat-2-movie-trailer-is-here-featuring-karl-urbans-johnny-cage/" } }
+      ],
+      "summary": "The trailer for the Mortal Kombat 2 movie, featuring Karl Urban as Johnny Cage, has been released, with the film due in cinemas on 24 October."
+    },
+    {
+      "ref": "main_news/nintendo-is-doing-another-test-via-the-nintendo-switch-onlin",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-07-21", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-online-playtest-program", "entity_type": "product", "scope": "event",
+          "as_of": "2025-07-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "starts on July 21st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-is-bringing-back-its-mysterious-online-playtest-from-last-year/" } }
+      ],
+      "summary": "Nintendo is running another Nintendo Switch Online Playtest Program test, starting 21 July on a first-come-first-served basis and apparently repeating last October's experience."
+    },
+    {
+      "ref": "main_news/youtuber-raided-by-police-for-reviewing-retro-gaming-handhel",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "once-were-nerd", "name": "Once Were Nerd", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "YouTuber Once Were Nerd was raided by police for reviewing retro gaming handhelds containing thousands of game ROMs, and faces a possible fine of around $17,000 and up to three years in prison."
+    },
+    {
+      "ref": "main_news/ubisoft-and-netflix-greenlight-assassin-s-creed-live-action",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed", "name": "Assassin's Creed", "aliases": [], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Ubisoft and Netflix have greenlit a live-action Assassin's Creed series."
+    },
+    {
+      "ref": "main_news/ffxiv-to-stop-support-for-windows-10-on-october-14-2025-this",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-xiv", "name": "Final Fantasy XIV", "aliases": ["FFXIV"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "windows-10", "name": "Windows 10", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-10-14", "unit": "date", "currency": null,
+          "entity": "final-fantasy-xiv", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "FFXIV to stop support for Windows 10 on October 14, 2025",
+          "source": { "name": "na.finalfantasyxiv.com", "domain": "na.finalfantasyxiv.com", "url": "https://na.finalfantasyxiv.com/lodestone/news/detail/e260c504b32d4dfd8be14d582f54b14664e9d8d0" } }
+      ],
+      "summary": "Final Fantasy XIV will end official support for Windows 10 on 14 October 2025 as Microsoft stops security updates, though the game will still run on the OS unofficially."
+    },
+    {
+      "ref": "main_news/saber-interactive-is-teasing-something-with-spooky-vibes-for",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "Saber Interactive is teasing a spooky-themed reveal for later this month, which online consensus believes to be Hellraiser related."
+    },
+    {
+      "ref": "free_games_subscription/civilization-6-premium-edition-is-currently-free-to-claim-on",
+      "entities": {
+        "games": [
+          { "id": "civilization-6", "name": "Civilization 6", "aliases": ["Civilization 6 Premium Edition"], "genres": ["strategy", "turn-based-strategy", "4x"], "franchise": "civilization", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Civilization 6 Premium Edition is currently free to claim on the Epic Games Store."
+    },
+    {
+      "ref": "business/former-german-development-studio-artex-brought-back-to-life",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "artex", "name": "Artex", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "artex", "name": "Artex", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Former German development studio Artex has been revived as a publisher after 25 years, shifting from making games to supporting young studios and start-ups."
+    },
+    {
+      "ref": "business/co-dev-specialists-virtuos-announces-layoffs-affecting-7-of",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "virtuos", "name": "Virtuos", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 270, "unit": "people", "currency": null,
+          "entity": "virtuos", "entity_type": "company", "scope": "company",
+          "as_of": "2025-07-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Around 270 employees in Asia and Europe are affected",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/co-dev-specialists-virtuous-which-made-this-years-oblivion-remaster-announces-layoffs-affecting-7-of-workforce" } }
+      ],
+      "summary": "Co-development specialists Virtuos announced layoffs affecting 7% of its workforce, around 270 employees across Asia and Europe."
+    },
+    {
+      "ref": "business/playstation-antitrust-settlement-rejected-over-lack-of-clari",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A proposed PlayStation antitrust settlement was rejected over a lack of clarity."
+    },
+    {
+      "ref": "rumours/marvel-s-blade-budget-is-94m-euros-according-to-france-s-com",
+      "entities": {
+        "games": [
+          { "id": "marvels-blade", "name": "Marvel's Blade", "aliases": [], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [
+        { "metric": "development_budget", "value": 94000000, "unit": "money", "currency": "EUR",
+          "entity": "marvels-blade", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Marvel's Blade budget is 94m euros according to France's Committee of Finance",
+          "source": { "name": "assemblee-nationale.fr", "domain": "assemblee-nationale.fr", "url": "https://www.assemblee-nationale.fr/dyn/16/rapports/cion_fin/l16b2737_rapport-information#" } }
+      ],
+      "summary": "According to France's Committee of Finance, the budget for Marvel's Blade is reportedly 94 million euros."
+    }
+  ]
+}

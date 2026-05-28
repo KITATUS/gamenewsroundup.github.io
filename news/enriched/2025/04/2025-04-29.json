@@ -1,0 +1,120 @@
+{
+  "date": "2025-04-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/bulletstorm-studio-confirms-project-maverick-is-a-gears-of-w",
+      "entities": {
+        "games": [
+          { "id": "project-maverick", "name": "Project Maverick", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true },
+          { "id": "gears-of-war", "name": "Gears of War", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": ["Bulletstorm studio"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["the Xbox maker"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "development_budget", "value": 30000000, "unit": "money", "currency": "USD",
+          "entity": "project-maverick", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-29", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "fully funded by Microsoft with a budget of $30m-50m",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/bulletstorm-studio-confirms-project-maverick-is-a-gears-of-war-game" } },
+        { "metric": "development_budget", "value": 50000000, "unit": "money", "currency": "USD",
+          "entity": "project-maverick", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-29", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "fully funded by Microsoft with a budget of $30m-50m",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/bulletstorm-studio-confirms-project-maverick-is-a-gears-of-war-game" } },
+        { "metric": "announce_date", "value": "2023-06", "unit": "date", "currency": null,
+          "entity": "project-maverick", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-29", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Project Maverick was first reported back in June 2023",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/bulletstorm-studio-confirms-project-maverick-is-a-gears-of-war-game" } }
+      ],
+      "summary": "Bulletstorm developer People Can Fly confirmed that its Project Maverick is a Gears of War game."
+    },
+    {
+      "ref": "main_news/ex-playstation-narrative-director-starts-until-dawn-film-pet",
+      "entities": {
+        "games": [
+          { "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["horror", "adventure"], "franchise": "until-dawn", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A former PlayStation narrative director launched a petition to credit the game's writers in the Until Dawn film adaptation."
+    },
+    {
+      "ref": "main_news/a-collection-of-materials-spanning-three-decades-of-volition",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "volition", "name": "Volition", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A collection of materials spanning three decades of defunct Saints Row developer Volition's company history has been donated to the National Museum of Play."
+    },
+    {
+      "ref": "business/elden-ring-sales-pass-30m",
+      "entities": {
+        "games": [
+          { "id": "elden-ring", "name": "Elden Ring", "aliases": [], "genres": ["action-rpg", "soulslike", "open-world"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "bandai-namco-entertainment", "name": "Bandai Namco Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 30000000, "unit": "units", "currency": null,
+          "entity": "elden-ring", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-29", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Elden Ring sales pass 30m",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/elden-ring-sales-pass-30m" } }
+      ],
+      "summary": "Cumulative Elden Ring sales have passed 30 million units."
+    },
+    {
+      "ref": "business/russian-government-seizes-former-wargaming-studio-lesta-for",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "lesta", "name": "Lesta", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "wargaming", "name": "Wargaming", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "The Russian government seized former Wargaming studio Lesta, accusing Lesta and Wargaming of \"extremist activities\" over support for Ukraine."
+    }
+  ]
+}

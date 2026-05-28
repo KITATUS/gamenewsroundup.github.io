@@ -1,0 +1,197 @@
+{
+  "date": "2025-08-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/namco-s-2002-platformer-pac-man-world-2-is-getting-a-remake",
+      "entities": {
+        "games": [
+          { "id": "pac-man-world-2-re-pac", "name": "Pac-Man World 2 Re-Pac", "aliases": ["Pac-Man World 2"], "genres": ["platformer"], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "bandai-namco", "name": "Namco", "aliases": ["Namco"], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Switch", "aliases": ["Switch/2"], "inferred": false },
+          { "id": "playstation-4", "name": "PS4", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-26", "unit": "date", "currency": null, "entity": "pac-man-world-2-re-pac", "entity_type": "game", "scope": "game", "as_of": "2025-08-01", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Pac-Man World 2 Re-Pac is coming to Switch/2, PS4/5, Xbox Series S/X and PC on September 26", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/namcos-2002-platformer-pac-man-world-2-is-getting-a-remake/" } }
+      ],
+      "summary": "Namco's 2002 platformer Pac-Man World 2 is getting a remake, Pac-Man World 2 Re-Pac, coming to Switch/2, PS4/5, Xbox Series S/X and PC on September 26."
+    },
+    {
+      "ref": "main_news/a-brand-new-katamari-game-is-coming-to-pc-and-consoles-in-oc",
+      "entities": {
+        "games": [
+          { "id": "once-upon-a-katamari", "name": "Once Upon A Katamari", "aliases": [], "genres": ["puzzle", "action"], "franchise": "katamari", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-24", "unit": "date", "currency": null, "entity": "once-upon-a-katamari", "entity_type": "game", "scope": "game", "as_of": "2025-08-01", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Switch, PS5, Xbox Series S/X and PC on October 24 as a digital-only release", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-brand-new-katamari-game-is-coming-to-pc-and-consoles-in-october/" } }
+      ],
+      "summary": "A brand new Katamari game, Once Upon A Katamari, is coming to Switch, PS5, Xbox Series S/X and PC on October 24 as a digital-only release."
+    },
+    {
+      "ref": "main_news/a-new-hd-2d-rpg-from-square-enix-the-adventures-of-elliot-th",
+      "entities": {
+        "games": [
+          { "id": "the-adventures-of-elliot-the-millennium-tales", "name": "The Adventures of Elliot: The Millennium Tales", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A new HD-2D RPG from Square Enix, The Adventures of Elliot: The Millennium Tales, has been announced for Switch 2."
+    },
+    {
+      "ref": "main_news/square-enix-announces-octopath-traveler-0-set-for-release-on",
+      "entities": {
+        "games": [
+          { "id": "octopath-traveler-0", "name": "Octopath Traveler 0", "aliases": [], "genres": ["jrpg"], "franchise": "octopath-traveler", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Switch", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-12-04", "unit": "date", "currency": null, "entity": "octopath-traveler-0", "entity_type": "game", "scope": "game", "as_of": "2025-08-01", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "set for release on Switch and Switch 2 on December 4", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/square-enix-announces-octopath-traveler-0-coming-to-switch-and-switch-2-this-december/" } }
+      ],
+      "summary": "Square Enix announced Octopath Traveler 0, set for release on Switch and Switch 2 on December 4."
+    },
+    {
+      "ref": "main_news/monster-hunter-stories-3-announced-by-capcom-is-coming-to-sw",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-stories-3", "name": "Monster Hunter Stories 3", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Monster Hunter Stories 3 was announced by Capcom and is coming to Switch 2 next year."
+    },
+    {
+      "ref": "main_news/bloober-s-the-medium-will-be-adapted-to-film-courtesy-of-it",
+      "entities": {
+        "games": [
+          { "id": "the-medium", "name": "The Medium", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "bloober-team", "name": "Bloober", "aliases": ["Bloober"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "gary-dauberman", "name": "Gary Dauberman", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Bloober's The Medium will be adapted to film, courtesy of It and Annabelle writer-producer Gary Dauberman."
+    },
+    {
+      "ref": "business/nintendo-switch-2-has-sold-5-82-million-units-in-q1-and-8-67",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-world", "name": "Mario Kart World", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        { "metric": "units_sold", "value": 5820000, "unit": "units", "currency": null, "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "platform", "as_of": "2025-08-01", "period": "quarterly", "direction": null, "confidence": "high", "quote": "Nintendo Switch 2 has sold 5.82 million units in Q1", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-has-sold-6-million-switch-2-consoles-and-almost-the-same-number-of-mario-kart-world/" } },
+        { "metric": "units_sold", "value": 8670000, "unit": "units", "currency": null, "entity": "nintendo-switch-2", "entity_type": "platform", "scope": "platform", "as_of": "2025-08-01", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "8.67 million games in total", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-has-sold-6-million-switch-2-consoles-and-almost-the-same-number-of-mario-kart-world/" } },
+        { "metric": "copies_sold", "value": 5630000, "unit": "units", "currency": null, "entity": "mario-kart-world", "entity_type": "game", "scope": "game", "as_of": "2025-08-01", "period": "point_in_time", "direction": null, "confidence": "high", "quote": "Mario Kart World sold nearly as many copies as the console - 5.63 million units", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-has-sold-6-million-switch-2-consoles-and-almost-the-same-number-of-mario-kart-world/" } }
+      ],
+      "summary": "The Nintendo Switch 2 has sold 5.82 million units in Q1 and 8.67 million games in total, with Mario Kart World selling 5.63 million copies."
+    },
+    {
+      "ref": "business/xbox-content-and-services-revenue-up-13-year-on-year",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 76400000000, "unit": "money", "currency": "USD", "entity": "microsoft", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Revenue: $76.4 billion (up 18% year-on-year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-content-and-services-revenue-up-13-year-on-year" } },
+        { "metric": "profit", "value": 27200000000, "unit": "money", "currency": "USD", "entity": "microsoft", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Net income: $27.2 billion (up 24% year-on-year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-content-and-services-revenue-up-13-year-on-year" } },
+        { "metric": "revenue", "value": 13500000000, "unit": "money", "currency": "USD", "entity": "microsoft", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "More Personal Computing (incl. Xbox) revenue: $13.5 billion (up 9% year-on-year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-content-and-services-revenue-up-13-year-on-year" } }
+      ],
+      "summary": "Xbox content and services revenue was up 13% year-on-year, with Microsoft reporting $76.4 billion revenue and $27.2 billion net income for the quarter ended June 30, 2025."
+    },
+    {
+      "ref": "business/capcom-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 45500000000, "unit": "money", "currency": "JPY", "entity": "capcom", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Net sales: ¥45.5 billion ($303 million), up 53.7% year-on-year", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcoms-back-catalogue-titles-dominate-its-q1-2025-game-sales" } },
+        { "metric": "revenue", "value": 303000000, "unit": "money", "currency": "USD", "entity": "capcom", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Net sales: ¥45.5 billion ($303 million), up 53.7% year-on-year", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcoms-back-catalogue-titles-dominate-its-q1-2025-game-sales" } },
+        { "metric": "operating_income", "value": 24600000000, "unit": "money", "currency": "JPY", "entity": "capcom", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Operating profit: ¥24.6 billion ($164 million), up 90.8% year-on-year", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcoms-back-catalogue-titles-dominate-its-q1-2025-game-sales" } },
+        { "metric": "operating_income", "value": 164000000, "unit": "money", "currency": "USD", "entity": "capcom", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Operating profit: ¥24.6 billion ($164 million), up 90.8% year-on-year", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcoms-back-catalogue-titles-dominate-its-q1-2025-game-sales" } },
+        { "metric": "profit", "value": 17200000000, "unit": "money", "currency": "JPY", "entity": "capcom", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Net income: ¥17.2 billion ($115 million), up 72.8% year-on-year", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcoms-back-catalogue-titles-dominate-its-q1-2025-game-sales" } },
+        { "metric": "profit", "value": 115000000, "unit": "money", "currency": "USD", "entity": "capcom", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Net income: ¥17.2 billion ($115 million), up 72.8% year-on-year", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcoms-back-catalogue-titles-dominate-its-q1-2025-game-sales" } }
+      ],
+      "summary": "Capcom reported Q1 results for the three months ended June 30, 2025, with net sales of ¥45.5 billion ($303 million), up 53.7% year-on-year."
+    },
+    {
+      "ref": "business/roblox-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "roblox-corporation", "name": "Roblox", "aliases": ["Roblox"], "inferred": true }],
+        "platforms": [{ "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1080000000, "unit": "money", "currency": "USD", "entity": "roblox-corporation", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "high", "quote": "Revenue: $1.08 billion (up 21% year-on-year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-significant-growth-across-key-metrics-as-revenue-jumps-21-yoy-in-q2-fy25" } },
+        { "metric": "revenue", "value": 1440000000, "unit": "money", "currency": "USD", "entity": "roblox-corporation", "entity_type": "company", "scope": "company", "as_of": "2025-08-01", "period": "quarterly", "direction": "up", "confidence": "medium", "quote": "Bookings: $1.44 billion (up 51% year-on-year)", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-significant-growth-across-key-metrics-as-revenue-jumps-21-yoy-in-q2-fy25" } },
+        { "metric": "players_total", "value": 111800000, "unit": "players", "currency": null, "entity": "roblox", "entity_type": "platform", "scope": "platform", "as_of": "2025-08-01", "period": "point_in_time", "direction": "up", "confidence": "high", "quote": "Average Daily Active Users (“DAUs”) were 111.8 million, up 41% year-over-year.", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-significant-growth-across-key-metrics-as-revenue-jumps-21-yoy-in-q2-fy25" } }
+      ],
+      "summary": "Roblox reported Q1 results for the three months ended June 2025, with revenue of $1.08 billion (up 21% year-on-year) and 111.8 million average daily active users."
+    }
+  ]
+}

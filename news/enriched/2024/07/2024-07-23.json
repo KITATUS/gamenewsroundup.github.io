@@ -1,0 +1,186 @@
+{
+  "date": "2024-07-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/netherrealm-is-shutting-down-free-to-play-mobile-game-mortal",
+      "entities": {
+        "games": [
+          {
+            "id": "mortal-kombat-onslaught",
+            "name": "Mortal Kombat: Onslaught",
+            "aliases": ["Onslaught"],
+            "genres": ["rpg"],
+            "franchise": "mortal-kombat",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "netherrealm-studios",
+            "name": "NetherRealm Studios",
+            "aliases": ["NetherRealm"],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "layoffs"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-10-21",
+          "unit": "date",
+          "currency": null,
+          "entity": "mortal-kombat-onslaught",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The game will be playable until 21st October this year.",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/netherrealm-is-shutting-down-live-service-mobile-game-mortal-kombat-onslaught"
+          }
+        }
+      ],
+      "summary": "NetherRealm is shutting down its free-to-play mobile game Mortal Kombat: Onslaught, which will remain playable until 21 October 2024."
+    },
+    {
+      "ref": "main_news/elon-musk-s-tesla-cybertruck-will-be-available-to-buy-in-for",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "elon-musk", "name": "Elon Musk", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Elon Musk's Tesla Cybertruck will be available to buy in Fortnite."
+    },
+    {
+      "ref": "main_news/heihachi-mishima-is-coming-to-tekken-8",
+      "entities": {
+        "games": [
+          {
+            "id": "tekken-8",
+            "name": "Tekken 8",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "tekken",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "heihachi-mishima", "name": "Heihachi Mishima", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Heihachi Mishima is coming to Tekken 8 as a playable character in autumn 2024."
+    },
+    {
+      "ref": "main_news/capcom-shows-off-gameplay-of-terry-bogard-in-street-fighter",
+      "entities": {
+        "games": [
+          {
+            "id": "street-fighter-6",
+            "name": "Street Fighter 6",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "street-fighter",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "terry-bogard", "name": "Terry Bogard", "aliases": [], "inferred": false },
+          { "id": "mai-shiranui", "name": "Mai Shiranui", "aliases": [], "inferred": false },
+          { "id": "elena", "name": "Elena", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "gameplay"],
+      "facts": [],
+      "summary": "Capcom showed off gameplay of Fatal Fury's Terry Bogard, a planned DLC character for Street Fighter 6 in autumn 2024."
+    },
+    {
+      "ref": "business/netflix-has-over-80-games-currently-in-development-and-plans",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Netflix has over 80 games currently in development and plans to launch one each month, having already released over one hundred games."
+    },
+    {
+      "ref": "business/warner-bros-has-acquired-multiversus-studio-player-first-gam",
+      "entities": {
+        "games": [
+          {
+            "id": "multiversus",
+            "name": "MultiVersus",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "player-first-games",
+            "name": "Player First Games",
+            "aliases": [],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          { "id": "warner-bros", "name": "Warner Bros.", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Warner Bros. has acquired Player First Games, the studio behind the platform fighter MultiVersus."
+    }
+  ]
+}

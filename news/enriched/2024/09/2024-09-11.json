@@ -1,0 +1,118 @@
+{
+  "date": "2024-09-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-crew-2-and-the-crew-motorfest-will-get-offline-modes-ubi",
+      "entities": {
+        "games": [
+          { "id": "the-crew-2", "name": "The Crew 2", "aliases": [], "genres": ["racing", "open-world"], "franchise": "the-crew", "inferred": true },
+          { "id": "the-crew-motorfest", "name": "The Crew Motorfest", "aliases": [], "genres": ["racing", "open-world"], "franchise": "the-crew", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Ubisoft confirmed that The Crew 2 and The Crew Motorfest will receive offline modes."
+    },
+    {
+      "ref": "main_news/sony-announces-digital-only-playstation-5-pro-costs-699-99-6",
+      "entities": {
+        "games": [
+          { "id": "astros-playroom", "name": "Astro's Playroom", "aliases": [], "genres": ["platformer"], "franchise": "astro", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [{ "id": "playstation-5-pro", "name": "PlayStation 5 Pro", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [
+        { "metric": "price", "value": 699.99, "unit": "price", "currency": "GBP",
+          "entity": "playstation-5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "costs £699.99/$699.99/€799.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sony-announces-digital-only-playstation-5-pro-costs-700" } },
+        { "metric": "price", "value": 699.99, "unit": "price", "currency": "USD",
+          "entity": "playstation-5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "costs £699.99/$699.99/€799.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sony-announces-digital-only-playstation-5-pro-costs-700" } },
+        { "metric": "price", "value": 799.99, "unit": "price", "currency": "EUR",
+          "entity": "playstation-5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "costs £699.99/$699.99/€799.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sony-announces-digital-only-playstation-5-pro-costs-700" } },
+        { "metric": "price", "value": 24.99, "unit": "price", "currency": "GBP",
+          "entity": "playstation-5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "vertical stand (£24.99)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sony-announces-digital-only-playstation-5-pro-costs-700" } },
+        { "metric": "price", "value": 99.99, "unit": "price", "currency": "GBP",
+          "entity": "playstation-5-pro", "entity_type": "platform", "scope": "product",
+          "as_of": "2024-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "disc drive (£99.99)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sony-announces-digital-only-playstation-5-pro-costs-700" } }
+      ],
+      "summary": "Sony announced a digital-only PlayStation 5 Pro priced at £699.99/$699.99/€799.99, including a 2TB SSD, a DualSense controller and a pre-installed copy of Astro's Playroom."
+    },
+    {
+      "ref": "free_games_subscription/the-new-xbox-game-pass-standard-tier-is-now-available-for-al",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass for Console"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "The new Xbox Game Pass Standard tier is now available for all, replacing the Game Pass for Console tier, with a number of games not available in the new tier."
+    },
+    {
+      "ref": "business/warhammer-40k-space-marine-2-hits-2-million-players-in-24-ho",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40k-space-marine-2", "name": "Warhammer 40K: Space Marine 2", "aliases": [], "genres": ["tps", "action-adventure"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "focus-entertainment", "name": "Focus Entertainment", "aliases": ["Focus_entmt"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 2000000, "unit": "players", "currency": null,
+          "entity": "warhammer-40k-space-marine-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-11", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Warhammer 40K: Space Marine 2 hits 2 million players in 24 hours",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/Focus_entmt/status/1833537959326339304" } }
+      ],
+      "summary": "Warhammer 40K: Space Marine 2 reached 2 million players within 24 hours."
+    },
+    {
+      "ref": "business/lost-boys-interactive-to-lay-off-139-staff",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "lost-boys-interactive", "name": "Lost Boys Interactive", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 139, "unit": "people", "currency": null,
+          "entity": "lost-boys-interactive", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lost Boys Interactive to lay off 139 staff",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/lost-boys-interactive-to-lay-off-unknown-number-of-staff" } }
+      ],
+      "summary": "Lost Boys Interactive is set to lay off 139 staff, with affected workers from 28 US states to receive two months of wages."
+    }
+  ]
+}

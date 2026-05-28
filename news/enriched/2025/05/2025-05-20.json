@@ -1,0 +1,62 @@
+{
+  "date": "2025-05-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sag-aftra-challenges-epic-games-over-darth-vader-ai-in-fortn",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false },
+          { "id": "llama-productions", "name": "Llama Productions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "james-earl-jones", "name": "James Earl Jones", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "SAG-AFTRA filed an unfair labor practice charge against Epic Games over the use of an AI-generated Darth Vader voice in Fortnite."
+    },
+    {
+      "ref": "main_news/infinity-nikki-developer-apologises-after-poorly-received-up",
+      "entities": {
+        "games": [
+          { "id": "infinity-nikki", "name": "Infinity Nikki", "aliases": [], "genres": ["adventure", "open-world"], "franchise": "nikki", "inferred": true }
+        ],
+        "studios": [
+          { "id": "infold-games", "name": "Infold Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The developer of Infinity Nikki apologised after a poorly received update and promised compensation and other changes."
+    },
+    {
+      "ref": "business/final-fantasy-11-was-going-to-shut-down-last-year-but-fans-h",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-11", "name": "Final Fantasy 11", "aliases": ["Final Fantasy XI"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "update-patch"],
+      "facts": [],
+      "summary": "Final Fantasy 11 was set to shut down last year but a sustained fanbase kept it running, according to its director."
+    }
+  ]
+}

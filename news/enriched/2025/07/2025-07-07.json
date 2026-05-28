@@ -1,0 +1,132 @@
+{
+  "date": "2025-07-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cyberpunk-edgerunners-is-officially-getting-a-second-season",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": ["Cyberpunk"], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The anime series Cyberpunk: Edgerunners is officially getting a second season."
+    },
+    {
+      "ref": "main_news/a-resident-evil-mobile-strategy-game-resident-evil-survival",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-survival-unit", "name": "Resident Evil Survival Unit", "aliases": [], "genres": ["strategy"], "franchise": "resident-evil", "inferred": false },
+          { "id": "3on3-freestyle-rebound", "name": "3on3 FreeStyle Rebound", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "demon-slayer-the-hinokami-chronicles-2", "name": "Demon Slayer -The Hinokami Chronicles 2", "aliases": [], "genres": ["fighting"], "franchise": "demon-slayer", "inferred": true }
+        ],
+        "studios": [
+          { "id": "joycity", "name": "Joycity", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "aniplex", "name": "Aniplex", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "shinji-hashimoto", "name": "Shinji Hashimoto", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-07-10", "unit": "date", "currency": null,
+          "entity": "resident-evil-survival-unit", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will be revealed July 10th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-resident-evil-strategy-game-will-be-revealed-next-week-from-kingdom-hearts-co-creator/" } }
+      ],
+      "summary": "Resident Evil Survival Unit, a mobile strategy game co-developed by Joycity and Aniplex for Capcom, will be revealed on 10 July 2025."
+    },
+    {
+      "ref": "main_news/destiny-rising-the-free-to-play-mobile-version-of-bungie-s-l",
+      "entities": {
+        "games": [
+          { "id": "destiny-rising", "name": "Destiny: Rising", "aliases": [], "genres": ["shooter", "fps"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "netease", "name": "NetEase", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-28", "unit": "date", "currency": null,
+          "entity": "destiny-rising", "entity_type": "game", "scope": "game",
+          "as_of": "2025-07-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "28th August for iOS and Android",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/destinys-alternate-timeline-mobile-game-is-launching-this-august" } }
+      ],
+      "summary": "Destiny: Rising, the free-to-play mobile Destiny game from Bungie and NetEase, will launch on 28 August 2025 for iOS and Android."
+    },
+    {
+      "ref": "business/double-eleven-sister-studio-cast-iron-games-has-opened-its-d",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cast-iron-games", "name": "Cast Iron Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "double-eleven", "name": "Double Eleven", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Cast Iron Games, a sister studio of Double Eleven, has opened in Wakefield to focus on co-development and porting."
+    },
+    {
+      "ref": "business/stockholm-based-toca-boca-lays-off-unknown-number-of-employe",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "toca-boca", "name": "Toca Boca", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Stockholm-based studio Toca Boca has laid off an unknown number of employees."
+    },
+    {
+      "ref": "rumours/around-300-build-a-rocket-boy-employees-reportedly-receive-a",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build A Rocket Boy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 300, "unit": "people", "currency": null,
+          "entity": "build-a-rocket-boy", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-07-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Around 300 **Build A Rocket Boy** employees reportedly receive \"at-risk of redundancy\" emails",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/around-300-build-a-rocket-boy-employees-reportedly-receive-at-risk-of-redundancy-emails-following-layoffs-announcement" } }
+      ],
+      "summary": "Around 300 Build A Rocket Boy employees reportedly received \"at-risk of redundancy\" emails following a layoffs announcement."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2024-12-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-year-s-steam-replay-reveals-85-of-steam-users-in-2024-sp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Steam's year-end Steam Replay feature reveals that 85% of Steam users in 2024 spent time playing games released in 2023 or earlier."
+    },
+    {
+      "ref": "main_news/xdefiant-s-final-patch-includes-content-that-would-have-rele",
+      "entities": {
+        "games": [
+          { "id": "xdefiant", "name": "XDefiant", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "shutdown"],
+      "facts": [],
+      "summary": "XDefiant's final patch includes content, such as new factions and maps, that would have released in future seasons had the game not been cancelled."
+    },
+    {
+      "ref": "main_news/fully-playable-wii-build-of-star-wars-battlefront-3-wii-buil",
+      "entities": {
+        "games": [
+          { "id": "star-wars-battlefront-3", "name": "Star Wars: Battlefront 3", "aliases": [], "genres": ["fps", "shooter", "action"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "free-radical-archive", "name": "Free Radical Archive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "wii", "name": "Wii", "aliases": [], "inferred": false },
+          { "id": "xbox-360", "name": "Xbox 360", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "A fully playable Wii build of the cancelled Star Wars: Battlefront 3 has leaked online, restored from a Wii test kit by the fan group Free Radical Archive."
+    },
+    {
+      "ref": "free_games_subscription/wizard-of-legend-is-free-on-epic-game-store-today",
+      "entities": {
+        "games": [
+          { "id": "wizard-of-legend", "name": "Wizard of Legend", "aliases": [], "genres": ["roguelike", "action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Wizard of Legend is available free on the Epic Games Store today as part of Epic's annual free-game-a-day promotion."
+    },
+    {
+      "ref": "business/hothead-games-has-shut-down-after-almost-20-years",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "hothead-games", "name": "Hothead Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "radical-entertainment", "name": "Radical Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "steve-bocska", "name": "Steve Bocska", "aliases": [], "inferred": false },
+          { "id": "james-ceraldi", "name": "James Ceraldi", "aliases": [], "inferred": false },
+          { "id": "joel-deyoung", "name": "Joel DeYoung", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Vancouver-based studio Hothead Games has shut down after almost 20 years, having been established in 2006 by former Radical Entertainment staffers."
+    },
+    {
+      "ref": "business/glen-schofield-says-ea-recently-turned-down-his-dead-space-4",
+      "entities": {
+        "games": [
+          { "id": "dead-space-4", "name": "Dead Space 4", "aliases": [], "genres": ["survival-horror", "action"], "franchise": "dead-space", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "glen-schofield", "name": "Glen Schofield", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Glen Schofield says EA recently turned down his proposal to make Dead Space 4."
+    }
+  ]
+}

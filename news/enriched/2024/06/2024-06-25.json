@@ -1,0 +1,165 @@
+{
+  "date": "2024-06-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-s-new-mode-saw-over-a-million-players-this-weekend",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [
+        { "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Fortnite's new mode saw over a million players this weekend",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnites-new-mode-saw-over-a-million-players-this-weekend" } }
+      ],
+      "summary": "Fortnite's new Reload mode, which brings back Tilted Towers, saw over a million players over the weekend."
+    },
+    {
+      "ref": "main_news/online-shooter-boundary-shuts-down-as-dev-and-publisher-clas",
+      "entities": {
+        "games": [
+          { "id": "boundary", "name": "Boundary", "aliases": [], "genres": ["shooter", "fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Online shooter Boundary is shutting down amid a dispute between its developer and publisher over rights."
+    },
+    {
+      "ref": "main_news/resident-evil-2-remake-becomes-the-franchise-s-top-seller-at",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-2-remake", "name": "Resident Evil 2 Remake", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 14000000, "unit": "units", "currency": null,
+          "entity": "resident-evil-2-remake", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-25", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "becomes the franchise's top-seller at nearly 14 million sales",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/resident-evil-2-remake-becomes-the-franchise-s-top-seller-at-nearly-14-million-sales" } }
+      ],
+      "summary": "Resident Evil 2 Remake has become the franchise's top-selling title at nearly 14 million sales."
+    },
+    {
+      "ref": "main_news/diablo-4-is-adding-a-wave-based-survival-mode-in-season-5",
+      "entities": {
+        "games": [
+          { "id": "diablo-4", "name": "Diablo 4", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Diablo 4 is adding a wave-based survival mode in its Season 5 update."
+    },
+    {
+      "ref": "business/studio-co-founded-by-dr-disrespect-cuts-ties-following-twitc",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "midnight-society", "name": "Midnight Society", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "twitch", "name": "Twitch", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "dr-disrespect", "name": "Dr Disrespect", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "A studio co-founded by Dr Disrespect has cut ties with him following accusations related to his Twitch ban."
+    },
+    {
+      "ref": "business/eu-opens-fresh-investigation-into-apple-following-further-no",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The EU has opened a fresh investigation into Apple following further non-compliance claims."
+    },
+    {
+      "ref": "business/pullup-entertainment-acquires-minority-stakes-in-uppercut-an",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "uppercut", "name": "Uppercut", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "rundisc", "name": "Rundisc", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "pullup-entertainment", "name": "Pullup Entertainment", "aliases": [], "inferred": false },
+          { "id": "focus-entertainment", "name": "Focus Entertainment Publishing", "aliases": ["Focus Entertainment Publishing"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "partnership"],
+      "facts": [],
+      "summary": "Pullup Entertainment has acquired minority stakes in studios Uppercut and Rundisc, with their projects to be published through subsidiary Focus Entertainment Publishing."
+    },
+    {
+      "ref": "business/second-wave-developer-folds-after-missing-wage-payments-and",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "second-wave", "name": "Second Wave", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "The developer behind Second Wave has folded after missing wage payments and amassing $1.7M in debt."
+    },
+    {
+      "ref": "business/game-denies-report-it-will-stop-selling-physical-games-other",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Retailer GAME has denied a report that it will stop selling physical games other than fulfilling pre-orders."
+    }
+  ]
+}

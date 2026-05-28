@@ -1,0 +1,229 @@
+{
+  "date": "2025-01-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sonic-the-hedgehog-4-movie-release-date-confirmed-by-paramou",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "paramount", "name": "Paramount", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027-03-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "sonic-the-hedgehog-4",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-01-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sonic the Hedgehog 4 will hit theaters on March 19, 2027",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/sonic-the-hedgehog-4-movie-release-date-confirmed-by-paramount/"
+          }
+        }
+      ],
+      "summary": "Paramount confirmed that the Sonic the Hedgehog 4 movie will release in theaters on 19 March 2027."
+    },
+    {
+      "ref": "free_games_subscription/january-s-upcoming-xbox-game-pass-titles-include-four-more-d",
+      "entities": {
+        "games": [
+          { "id": "lonely-mountain-snow-riders", "name": "Lonely Mountain: Snow Riders", "aliases": [], "genres": ["sports", "simulation"], "franchise": null, "inferred": true },
+          { "id": "flock", "name": "Flock", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "gigantic-rampage-edition", "name": "Gigantic: Rampage Edition", "aliases": [], "genres": ["moba", "hero-shooter"], "franchise": "gigantic", "inferred": true },
+          { "id": "kunitsu-gami-path-of-the-goddess", "name": "Kunitsu-Gami: Path of the Goddess", "aliases": [], "genres": ["action", "strategy"], "franchise": null, "inferred": true },
+          { "id": "magical-delicacy", "name": "Magical Delicacy", "aliases": [], "genres": ["platformer", "simulation"], "franchise": null, "inferred": true },
+          { "id": "tchia", "name": "Tchia", "aliases": [], "genres": ["adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "the-case-of-the-golden-idol", "name": "The Case of the Golden Idol", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "starbound", "name": "Starbound", "aliases": [], "genres": ["sandbox", "survival", "adventure"], "franchise": null, "inferred": true },
+          { "id": "eternal-strands", "name": "Eternal Strands", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "orcs-must-die-deathtrap", "name": "Orcs Must Die! Deathtrap", "aliases": [], "genres": ["tower-defense", "action"], "franchise": "orcs-must-die", "inferred": true },
+          { "id": "shady-part-of-me", "name": "Shady Part of Me", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": null, "inferred": true },
+          { "id": "sniper-elite-resistance", "name": "Sniper Elite: Resistance", "aliases": [], "genres": ["tps", "shooter", "stealth"], "franchise": "sniper-elite", "inferred": true },
+          { "id": "citizen-sleeper-2-starward-vector", "name": "Citizen Sleeper 2: Starward Vector", "aliases": [], "genres": ["rpg", "adventure"], "franchise": "citizen-sleeper", "inferred": true },
+          { "id": "far-cry-new-dawn", "name": "Far Cry New Dawn", "aliases": [], "genres": ["fps", "shooter", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "anuchard", "name": "Anuchard", "aliases": [], "genres": ["action-adventure", "rpg"], "franchise": null, "inferred": true },
+          { "id": "broforce-forever", "name": "Broforce Forever", "aliases": [], "genres": ["platformer", "shooter"], "franchise": "broforce", "inferred": true },
+          { "id": "darkest-dungeon", "name": "Darkest Dungeon", "aliases": [], "genres": ["roguelike", "rpg", "turn-based-strategy"], "franchise": "darkest-dungeon", "inferred": true },
+          { "id": "deaths-door", "name": "Death's Door", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "maquette", "name": "Maquette", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "serious-sam-siberian-mayhem", "name": "Serious Sam: Siberian Mayhem", "aliases": [], "genres": ["fps", "shooter"], "franchise": "serious-sam", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s-x", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": ["Cloud"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "delisting"],
+      "facts": [],
+      "summary": "Microsoft announced January's upcoming Xbox Game Pass additions, including four more day-one releases, alongside titles leaving the service on 31 January."
+    },
+    {
+      "ref": "business/mortal-kombat-1-has-sold-over-5-million-copies",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 5000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "mortal-kombat-1",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-22",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Mortal Kombat 1 has sold over 5 million copies",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/noobde/status/1881825218538467395"
+          }
+        }
+      ],
+      "summary": "Mortal Kombat 1 has sold over 5 million copies."
+    },
+    {
+      "ref": "business/owlcat-games-warhammer-40k-rogue-trader-sells-1-million-copi",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40k-rogue-trader", "name": "Warhammer 40K: Rogue Trader", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "warhammer-40000", "inferred": true }
+        ],
+        "studios": [
+          { "id": "owlcat-games", "name": "Owlcat Games", "aliases": ["Owlcat games"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "warhammer-40k-rogue-trader",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-22",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Warhammer 40K: Rogue Trader sells 1 million copies",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/OwlcatGames/status/1881733497209127341"
+          }
+        }
+      ],
+      "summary": "Owlcat Games' Warhammer 40K: Rogue Trader has sold 1 million copies."
+    },
+    {
+      "ref": "business/bohemia-interactive-s-revenue-jumps-34-this-financial-year-t",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bohemia-interactive", "name": "Bohemia Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 60800000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "bohemia-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-01-22",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Bohemia Interactive's revenue jumps 34% this financial year to $60.8m",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/bohemia-interactives-revenue-jumps-34-this-financial-year-to-608m"
+          }
+        }
+      ],
+      "summary": "Bohemia Interactive's revenue jumped 34% this financial year to $60.8m, with most sales coming from overseas markets led by the US."
+    },
+    {
+      "ref": "business/balatro-passes-5m-copies-sold-as-developer-implores-fans-to",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 5000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "balatro",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-01-22",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Balatro passes 5m copies sold",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/balatro-passes-5m-copies-sold-as-developer-implores-fans-to-play-more-indie-games"
+          }
+        }
+      ],
+      "summary": "Balatro has passed 5 million copies sold, with its developer urging fans to play more indie games."
+    }
+  ]
+}

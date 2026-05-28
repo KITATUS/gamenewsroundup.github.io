@@ -1,0 +1,111 @@
+{
+  "date": "2025-04-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-eshop-music-won-t-be-returning-for-switch-2",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Switch 2"], "inferred": false },
+          { "id": "nintendo-eshop", "name": "Nintendo eShop", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo eShop background music will not return for the Switch 2, with Nintendo saying it did not want to intrude on the gameplay videos now shown on store listings."
+    },
+    {
+      "ref": "main_news/unreleased-retro-studios-nintendo-switch-game-ridge-racer-pr",
+      "entities": {
+        "games": [
+          { "id": "ridge-racer", "name": "Ridge Racer", "aliases": [], "genres": ["racing"], "franchise": "ridge-racer", "inferred": true }
+        ],
+        "studios": [{ "id": "retro-studios", "name": "Retro Studios", "aliases": [], "publisher": "nintendo", "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "An unreleased Retro Studios Nintendo Switch game, a Ridge Racer prototype and other material have leaked online."
+    },
+    {
+      "ref": "main_news/bungie-s-marathon-is-finally-getting-a-reveal-this-week-12th",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [{ "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-04-12", "unit": "date", "currency": null,
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "12th April at 6pm UK time (10am PDT)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/bungies-marathon-is-finally-getting-a-reveal-this-week" } }
+      ],
+      "summary": "Bungie's Marathon will receive a reveal on 12 April 2025 at 6pm UK time (10am PDT)."
+    },
+    {
+      "ref": "main_news/sabrina-carpenter-is-the-icon-of-season-8-of-fortnite-festiv",
+      "entities": {
+        "games": [
+          { "id": "fortnite-festival", "name": "Fortnite Festival", "aliases": [], "genres": ["rhythm"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "sabrina-carpenter", "name": "Sabrina Carpenter", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-04-08", "unit": "date", "currency": null,
+          "entity": "fortnite-festival", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Starts April 8",
+          "source": { "name": "fortnite.com", "domain": "fortnite.com",
+                      "url": "https://www.fortnite.com/news/sabrina-carpenter-hearts-fortnite-festival-in-season-8" } }
+      ],
+      "summary": "Sabrina Carpenter is the \"Icon\" of Season 8 of Fortnite Festival, which starts on 8 April 2025."
+    },
+    {
+      "ref": "business/nintendo-taking-variable-approach-to-pricing-with-switch-2-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Switch 2", "aliases": ["Switch 2"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "Nintendo is taking a 'variable' approach to pricing for Switch 2 titles."
+    },
+    {
+      "ref": "rumours/michael-sarnoski-reportedly-attached-to-direct-death-strandi",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "michael-sarnoski", "name": "Michael Sarnoski", "aliases": ["Sarnoski"], "inferred": false }]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Michael Sarnoski is attached to direct the Death Stranding movie."
+    }
+  ]
+}

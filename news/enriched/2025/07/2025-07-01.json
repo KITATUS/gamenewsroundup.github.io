@@ -1,0 +1,132 @@
+{
+  "date": "2025-07-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/halo-studios-teases-fans-won-t-want-to-miss-upcoming-game-ev",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "halo-studios", "name": "Halo Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-10-24", "unit": "date", "currency": null,
+          "entity": "halo-studios", "entity_type": "studio", "scope": "event",
+          "as_of": "2025-07-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Takes place in Seattle on October 24",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/halo-studios-teases-fans-wont-want-to-miss-upcoming-game-event/" } }
+      ],
+      "summary": "Halo Studios is teasing an upcoming game event in Seattle on 24 October, ahead of the franchise's 25th anniversary next year."
+    },
+    {
+      "ref": "main_news/nintendo-announces-og-switch-price-increases-in-canada-amid",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["OG Switch", "Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [
+        { "metric": "announce_date", "value": "2025-08-01", "unit": "date", "currency": null,
+          "entity": "nintendo-switch", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-07-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "New pricing information will be shared on the Nintendo Canada website on August 1",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/nintendo-announces-switch-prices-increases-in-canada-amid-us-trade-tension/" } }
+      ],
+      "summary": "Nintendo announced original Switch price increases in Canada amid US trade tension, with new pricing to be shared on 1 August."
+    },
+    {
+      "ref": "main_news/hideo-kojima-says-he-personally-inserted-all-his-hideo-cameo",
+      "entities": {
+        "games": [{ "id": "death-stranding-2", "name": "Death Stranding 2", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }],
+        "studios": [{ "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Hideo Kojima said he personally inserted all of his \"Hideo\" cameos into Death Stranding 2."
+    },
+    {
+      "ref": "business/don-t-nod-confirms-layoffs-at-its-montreal-studio",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "dont-nod", "name": "Don't Nod", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Don't Nod confirmed layoffs at its Montreal studio."
+    },
+    {
+      "ref": "business/ftc-reopens-refunds-for-players-affected-by-unwanted-purchas",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [
+        { "metric": "revenue", "value": 126000000, "unit": "money", "currency": "USD",
+          "entity": "ftc", "entity_type": "company", "scope": "event",
+          "as_of": "2025-07-01", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Agency issued over $126 million in compensation last week",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/ftc-reopens-refunds-for-players-affected-by-unwanted-purchases-in-fortnite" } },
+        { "metric": "event_date", "value": "2025-07-09", "unit": "date", "currency": null,
+          "entity": "ftc", "entity_type": "company", "scope": "event",
+          "as_of": "2025-07-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "deadline for submitting a claim is July 9, 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/ftc-reopens-refunds-for-players-affected-by-unwanted-purchases-in-fortnite" } }
+      ],
+      "summary": "The FTC reopened refunds for players affected by unwanted Fortnite purchases, having issued over $126 million in compensation, with a claim deadline of 9 July 2025."
+    },
+    {
+      "ref": "rumours/assassin-s-creed-black-flag-actor-says-fans-may-have-to-beat",
+      "entities": {
+        "games": [{ "id": "assassins-creed-black-flag", "name": "Assassin's Creed Black Flag", "aliases": [], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "An Assassin's Creed Black Flag actor said fans 'may have to beat the game again' as remake rumours mount."
+    },
+    {
+      "ref": "rumours/black-shamrock-laid-off-11-employees",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "black-shamrock", "name": "Black Shamrock", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 11, "unit": "people", "currency": null,
+          "entity": "black-shamrock", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-07-01", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Black Shamrock laid off 11 employees",
+          "source": { "name": "", "domain": "", "url": null } }
+      ],
+      "summary": "Rumour that Black Shamrock laid off 11 employees."
+    }
+  ]
+}

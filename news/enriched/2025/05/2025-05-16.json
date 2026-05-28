@@ -1,0 +1,386 @@
+{
+  "date": "2025-05-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/epic-ceo-says-apple-still-hasn-t-approved-its-fortnite-ios-s",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ios",
+            "name": "iOS",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Epic Games' CEO says Apple still has not approved Fortnite's iOS submission and suggests Apple is obstructing the process."
+    },
+    {
+      "ref": "main_news/hideo-kojima-says-he-s-left-staff-a-usb-stick-of-game-ideas",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "kojima-productions",
+            "name": "Kojima Productions",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "hideo-kojima",
+            "name": "Hideo Kojima",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Hideo Kojima says he has left staff a USB stick of game ideas for after he dies."
+    },
+    {
+      "ref": "main_news/seminal-idle-game-cookie-clicker-is-coming-to-ps4-5-xbox-swi",
+      "entities": {
+        "games": [
+          {
+            "id": "cookie-clicker",
+            "name": "Cookie Clicker",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-4",
+            "name": "PlayStation 4",
+            "aliases": ["PS4"],
+            "inferred": false
+          },
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "port"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-05-22",
+          "unit": "date",
+          "currency": null,
+          "entity": "cookie-clicker",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-16",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cookie Clicker is coming to PS4/5, Xbox, Switch on May 22nd",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/seminal-idle-game-cookie-clicker-is-coming-to-consoles-next-week/"
+          }
+        }
+      ],
+      "summary": "The idle game Cookie Clicker is coming to PS4, PS5, Xbox and Switch on 22 May 2025."
+    },
+    {
+      "ref": "main_news/persona-5-the-phantom-x-will-release-globally-on-26th-june-a",
+      "entities": {
+        "games": [
+          {
+            "id": "persona-5-the-phantom-x",
+            "name": "Persona 5: The Phantom X",
+            "aliases": [],
+            "genres": ["jrpg", "rpg"],
+            "franchise": "persona",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ios",
+            "name": "iOS",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "android",
+            "name": "Android",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-06-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "persona-5-the-phantom-x",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-16",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Persona 5: The Phantom X will release globally on 26th June",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/persona-5-the-phantom-x-coming-to-pc-and-mobile-next-month"
+          }
+        }
+      ],
+      "summary": "Persona 5: The Phantom X will release globally on 26 June 2025 across iOS, Android and PC via Steam."
+    },
+    {
+      "ref": "main_news/death-stranding-2-getting-world-tour-to-celebrate-its-releas",
+      "entities": {
+        "games": [
+          {
+            "id": "death-stranding-2",
+            "name": "Death Stranding 2",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "death-stranding",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "kojima-productions",
+            "name": "Kojima Productions",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Death Stranding 2 is getting a world tour to celebrate its release."
+    },
+    {
+      "ref": "free_games_subscription/killer-instinct-gold-becomes-the-39th-nintendo-64-game-to-be",
+      "entities": {
+        "games": [
+          {
+            "id": "killer-instinct-gold",
+            "name": "Killer Instinct Gold",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "killer-instinct",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "nintendo-64",
+            "name": "Nintendo 64",
+            "aliases": ["N64"],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-switch-online",
+            "name": "Nintendo Switch Online",
+            "aliases": ["Switch Online"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Killer Instinct Gold becomes the 39th Nintendo 64 game added to Switch Online."
+    },
+    {
+      "ref": "business/jade-raymond-has-left-haven-studios-the-playstation-owned-st",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "haven-studios",
+            "name": "Haven Studios",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["PlayStation"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "jade-raymond",
+            "name": "Jade Raymond",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Jade Raymond has left Haven Studios, the PlayStation-owned studio she founded."
+    },
+    {
+      "ref": "business/ea-pushes-office-return-largely-phasing-out-remote-roles",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "EA is pushing a return to office and largely phasing out remote roles."
+    },
+    {
+      "ref": "business/take-two-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "take-two-interactive",
+            "name": "Take-Two Interactive",
+            "aliases": ["Take Two"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1583000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-16",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net revenue: $1.583 billion (up 12% year-over year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/take-two-finishes-fy25-at-upper-end-of-guidance-following-gta-6s-move-to-fy27"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 5630000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-16",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net revenue: $5.63 billion (up 5% year-over-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/take-two-finishes-fy25-at-upper-end-of-guidance-following-gta-6s-move-to-fy27"
+          }
+        }
+      ],
+      "summary": "Take-Two Interactive reported fiscal-year 2025 results, with full-year net revenue of $5.63 billion."
+    }
+  ]
+}

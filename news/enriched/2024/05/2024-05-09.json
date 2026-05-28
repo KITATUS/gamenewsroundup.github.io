@@ -1,0 +1,258 @@
+{
+  "date": "2024-05-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-world-championships-nes-edition-announced-for-switc",
+      "entities": {
+        "games": [
+          { "id": "nintendo-world-championships-nes-edition", "name": "Nintendo World Championships: NES Edition", "aliases": [], "genres": ["party", "platformer"], "franchise": null, "inferred": true },
+          { "id": "balloon-fight", "name": "Balloon Fight", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "donkey-kong", "name": "Donkey Kong", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "excitebike", "name": "Excitebike", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "ice-climber", "name": "Ice Climber", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "kid-icarus", "name": "Kid Icarus", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "kid-icarus", "inferred": true },
+          { "id": "kirbys-adventure", "name": "Kirby's Adventure", "aliases": [], "genres": ["platformer"], "franchise": "kirby", "inferred": true },
+          { "id": "metroid", "name": "Metroid", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "metroid", "inferred": true },
+          { "id": "super-mario-bros", "name": "Super Mario Bros.", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true },
+          { "id": "super-mario-bros-2", "name": "Super Mario Bros. 2", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true },
+          { "id": "super-mario-bros-3", "name": "Super Mario Bros. 3", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true },
+          { "id": "super-mario-bros-the-lost-levels", "name": "Super Mario Bros. The Lost Levels", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true },
+          { "id": "the-legend-of-zelda", "name": "The Legend of Zelda", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "zelda-2-the-adventure-of-link", "name": "Zelda 2: The Adventure of Link", "aliases": [], "genres": ["action-rpg", "action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "price-change"],
+      "facts": [
+        { "metric": "price", "value": 24.99, "unit": "price", "currency": "GBP",
+          "entity": "nintendo-world-championships-nes-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Will be available digitally for £24.99 via Switch's eShop on 18th July",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/nintendo-world-championships-nes-edition-announced-for-switch-with-over-150-challenges-from-13-nes-games" } },
+        { "metric": "price", "value": 49.99, "unit": "price", "currency": "GBP",
+          "entity": "nintendo-world-championships-nes-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "a £49.99 physical Deluxe Set releases at the same time",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/nintendo-world-championships-nes-edition-announced-for-switch-with-over-150-challenges-from-13-nes-games" } },
+        { "metric": "release_date", "value": "2024-07-18", "unit": "date", "currency": null,
+          "entity": "nintendo-world-championships-nes-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "via Switch's eShop on 18th July",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/nintendo-world-championships-nes-edition-announced-for-switch-with-over-150-challenges-from-13-nes-games" } }
+      ],
+      "summary": "Nintendo World Championships: NES Edition was announced for Switch with over 150 challenges drawn from 13 NES games, launching digitally for £24.99 and as a £49.99 physical Deluxe Set on 18 July 2024."
+    },
+    {
+      "ref": "main_news/sega-unveils-fall-guys-like-sonic-rumble-as-sonic-mania-plus",
+      "entities": {
+        "games": [
+          { "id": "sonic-rumble", "name": "Sonic Rumble", "aliases": [], "genres": ["party"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "sonic-mania-plus", "name": "Sonic Mania Plus", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "fall-guys", "name": "Fall Guys", "aliases": [], "genres": ["party", "platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "release"],
+      "facts": [],
+      "summary": "Sega unveiled the Fall Guys-like Sonic Rumble, due this winter, while Sonic Mania Plus launched on iOS and Android via a Netflix subscription."
+    },
+    {
+      "ref": "main_news/ea-ceo-says-there-s-a-real-hunger-among-developers-to-use-ai",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "EA's CEO said there is a \"real hunger\" among developers to use AI to speed up game development."
+    },
+    {
+      "ref": "main_news/mark-hamill-will-voice-the-joker-in-multiversus",
+      "entities": {
+        "games": [
+          { "id": "multiversus", "name": "MultiVersus", "aliases": ["Multiversus"], "genres": ["fighting", "party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mark-hamill", "name": "Mark Hamill", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-05-28", "unit": "date", "currency": null,
+          "entity": "multiversus", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "MultiVersus will officially return on May 28",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mark-hamill-will-voice-the-joker-in-multiversus/" } }
+      ],
+      "summary": "Mark Hamill will voice The Joker in MultiVersus, which officially returns on 28 May 2024."
+    },
+    {
+      "ref": "main_news/shin-megami-tensei-5-joins-download-festival",
+      "entities": {
+        "games": [
+          { "id": "shin-megami-tensei-5", "name": "Shin Megami Tensei 5", "aliases": [], "genres": ["jrpg"], "franchise": "shin-megami-tensei", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Shin Megami Tensei 5 is joining the Download Festival, described as a \"first of its kind experience\" in a crossover between music and gaming."
+    },
+    {
+      "ref": "business/dead-island-2-reaches-over-7-million-players-in-it-s-first-y",
+      "entities": {
+        "games": [
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 7000000, "unit": "players", "currency": null,
+          "entity": "dead-island-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-09", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "reaches \"over\" 7 million players in it's first year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/dead-island-2-shambles-to-7-million-players-in-over-a-year" } }
+      ],
+      "summary": "Dead Island 2 reached over 7 million players in its first year."
+    },
+    {
+      "ref": "business/nintendo-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1700000000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥1.7 trillion ($11 billion, up 4.4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } },
+        { "metric": "revenue", "value": 11000000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Net sales: ¥1.7 trillion ($11 billion, up 4.4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } },
+        { "metric": "operating_income", "value": 528900000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥528.9 billion ($3.4 billion, up 4.9%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } },
+        { "metric": "operating_income", "value": 3400000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating profit: ¥528.9 billion ($3.4 billion, up 4.9%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } },
+        { "metric": "revenue", "value": 1350000000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "down", "confidence": "medium",
+          "quote": "Net sales: ¥1.35 trillion ($8.7 billion, down 19.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } },
+        { "metric": "revenue", "value": 8700000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "down", "confidence": "medium",
+          "quote": "Net sales: ¥1.35 trillion ($8.7 billion, down 19.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } },
+        { "metric": "operating_income", "value": 400000000000, "unit": "money", "currency": "JPY",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "down", "confidence": "medium",
+          "quote": "Operating profit: ¥400 billion ($2.6 billion, down 24.4%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } },
+        { "metric": "operating_income", "value": 2600000000, "unit": "money", "currency": "USD",
+          "entity": "nintendo", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "annual", "direction": "down", "confidence": "medium",
+          "quote": "Operating profit: ¥400 billion ($2.6 billion, down 24.4%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/nintendo-profits-rise-to-62bn-ahead-of-quiet-year" } }
+      ],
+      "summary": "Nintendo reported full-year net sales of ¥1.7 trillion ($11 billion, up 4.4%) and operating profit of ¥528.9 billion ($3.4 billion) for the year ended March 2024, forecasting declines for the year ending March 2025."
+    },
+    {
+      "ref": "business/krafton-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 488000000, "unit": "money", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Sales: $488 million (666 billion KRW), up 24% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-sees-a-24-sales-increase-for-q1" } },
+        { "metric": "revenue", "value": 666000000000, "unit": "money", "currency": "KRW",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Sales: $488 million (666 billion KRW), up 24% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-sees-a-24-sales-increase-for-q1" } },
+        { "metric": "operating_income", "value": 227000000, "unit": "money", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating Profit: $227 million (310.5 billion KRW), up 10% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-sees-a-24-sales-increase-for-q1" } },
+        { "metric": "operating_income", "value": 310500000000, "unit": "money", "currency": "KRW",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating Profit: $227 million (310.5 billion KRW), up 10% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-sees-a-24-sales-increase-for-q1" } },
+        { "metric": "profit", "value": 255000000, "unit": "money", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net Profit: $255 million (348.6 billion KRW), up 30% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-sees-a-24-sales-increase-for-q1" } },
+        { "metric": "profit", "value": 348600000000, "unit": "money", "currency": "KRW",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net Profit: $255 million (348.6 billion KRW), up 30% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-sees-a-24-sales-increase-for-q1" } }
+      ],
+      "summary": "Krafton reported Q1 sales of $488 million (up 24% year-on-year), operating profit of $227 million, and net profit of $255 million."
+    },
+    {
+      "ref": "rumours/microsoft-s-perfect-dark-reboot-reportedly-in-a-very-rough-s",
+      "entities": {
+        "games": [
+          { "id": "perfect-dark", "name": "Perfect Dark", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "perfect-dark", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Microsoft's Perfect Dark reboot is reportedly in \"a very rough state\" and a \"big, protracted mess\"."
+    }
+  ]
+}

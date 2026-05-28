@@ -1,0 +1,107 @@
+{
+  "date": "2025-10-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ninja-gaiden-dead-or-alive-legend-tomonobu-itagaki-has-passe",
+      "entities": {
+        "games": [
+          { "id": "ninja-gaiden", "name": "Ninja Gaiden", "aliases": [], "genres": ["action-adventure"], "franchise": "ninja-gaiden", "inferred": true },
+          { "id": "dead-or-alive", "name": "Dead or Alive", "aliases": [], "genres": ["fighting"], "franchise": "dead-or-alive", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tomonobu-itagaki", "name": "Tomonobu Itagaki", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Tomonobu Itagaki, the developer known for the Ninja Gaiden and Dead or Alive series, has died."
+    },
+    {
+      "ref": "main_news/sonic-the-hedgehog-has-been-added-as-a-sidekick-on-gps-navig",
+      "entities": {
+        "games": [
+          { "id": "sonic-the-hedgehog", "name": "Sonic the Hedgehog", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "waze", "name": "Waze", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Sonic the Hedgehog has been added as a sidekick voice on the GPS navigation app Waze."
+    },
+    {
+      "ref": "main_news/capcom-took-a-lot-of-convincing-to-bring-the-original-reside",
+      "entities": {
+        "games": [
+          { "id": "resident-evil", "name": "Resident Evil", "aliases": ["Resident Evil 1-3"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port"],
+      "facts": [],
+      "summary": "A Capcom executive says the company took a lot of convincing to bring the original Resident Evil 1-3 games to GOG, having felt the remakes were the main modern way to play them."
+    },
+    {
+      "ref": "free_games_subscription/october-s-playstation-plus-game-catalogue",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true },
+          { "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["survival-horror"], "franchise": "until-dawn", "inferred": true },
+          { "id": "v-rising", "name": "V Rising", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "yakuza-like-a-dragon", "name": "Yakuza: Like a Dragon", "aliases": [], "genres": ["jrpg"], "franchise": "yakuza", "inferred": true },
+          { "id": "poppy-playtime-chapter-1", "name": "Poppy Playtime: Chapter 1", "aliases": [], "genres": ["horror"], "franchise": "poppy-playtime", "inferred": true },
+          { "id": "as-dusk-falls", "name": "As Dusk Falls", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "wizard-with-a-gun", "name": "Wizard with a Gun", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "tekken-3", "name": "Tekken 3", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-4", "name": "PS4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-1", "name": "PS1", "aliases": ["PS1"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "October's PlayStation Plus Game Catalogue adds titles including Silent Hill 2, Until Dawn, V Rising, Yakuza: Like a Dragon and the classic Tekken 3."
+    },
+    {
+      "ref": "business/sound-director-dan-forden-best-known-as-mortal-kombat-s-toas",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat", "name": "Mortal Kombat", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "dan-forden", "name": "Dan Forden", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Dan Forden, the sound director best known as the voice of Mortal Kombat's 'Toasty', has retired after 37 years."
+    }
+  ]
+}

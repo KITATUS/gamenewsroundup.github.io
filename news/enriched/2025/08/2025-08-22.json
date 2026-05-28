@@ -1,0 +1,104 @@
+{
+  "date": "2025-08-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/mortal-kombat-legacy-kollection-adds-the-lowest-rated-game-i",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-legacy-kollection", "name": "Mortal Kombat: Legacy Kollection", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "mortal-kombat-mythologies-sub-zero", "name": "Mortal Kombat Mythologies: Sub Zero", "aliases": [], "genres": ["action-adventure", "fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "mortal-kombat-special-forces", "name": "Mortal Kombat: Special Forces", "aliases": [], "genres": ["action-adventure"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Mortal Kombat: Legacy Kollection is adding Mortal Kombat Mythologies: Sub Zero and Mortal Kombat: Special Forces, described as the lowest rated games in franchise history."
+    },
+    {
+      "ref": "main_news/hollow-knight-silksong-release-date-announced-september-4-20",
+      "entities": {
+        "games": [
+          { "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PS4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-04", "unit": "date", "currency": null,
+          "entity": "hollow-knight-silksong", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "release date announced - September 4, 2025 for PS4/PS5, Xbox One / Series S/X, Nintendo Switch / Switch 2",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/hollow-knight-silksong-is-coming-out-in-two-weeks/" } }
+      ],
+      "summary": "Hollow Knight: Silksong was announced for release on September 4, 2025 across PS4/PS5, Xbox One and Series S/X, and Nintendo Switch and Switch 2."
+    },
+    {
+      "ref": "business/devcom-to-rebrand-as-gamescom-dev",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Devcom developer conference is to rebrand as Gamescom Dev."
+    },
+    {
+      "ref": "business/pete-parsons-leaves-bungie-justin-truman-steps-in-as-ceo",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "pete-parsons", "name": "Pete Parsons", "aliases": [], "inferred": false },
+          { "id": "justin-truman", "name": "Justin Truman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Pete Parsons is leaving Bungie, with Justin Truman stepping in as CEO."
+    },
+    {
+      "ref": "rumours/the-setting-for-the-next-forza-horizon-game-has-seemingly-le",
+      "entities": {
+        "games": [
+          { "id": "forza-horizon", "name": "Forza Horizon", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A rumour, seemingly leaked via a car company, suggests the next Forza Horizon game would be set in Japan."
+    }
+  ]
+}

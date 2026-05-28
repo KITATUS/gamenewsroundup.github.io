@@ -1,0 +1,148 @@
+{
+  "date": "2024-07-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/next-bioshock-developer-ramping-up",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cloud-chamber", "name": "2K Cloud Chamber", "aliases": ["2K Cloud Chamber"], "publisher": "2k-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jeff-spoonhower", "name": "Jeff Spoonhower", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Senior cinematic designer Jeff Spoonhower highlighted that more than 30 positions are now open at 2K Cloud Chamber, the Montreal studio developing the next BioShock entry."
+    },
+    {
+      "ref": "main_news/the-xbox-tv-app-is-now-available-on-amazon-fire-sticks",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["Xbox TV"], "inferred": false },
+          { "id": "amazon-fire-tv", "name": "Amazon Fire TV", "aliases": ["Amazon Fire sticks"], "inferred": false },
+          { "id": "xbox-game-pass-ultimate", "name": "Xbox Game Pass Ultimate", "aliases": ["Game Pass Ultimate"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "subscription"],
+      "facts": [],
+      "summary": "The Xbox TV app is now available on Amazon Fire sticks, with Game Pass Ultimate required to use it."
+    },
+    {
+      "ref": "main_news/disney-announces-pixel-rpg-for-mobile",
+      "entities": {
+        "games": [
+          { "id": "pixel-rpg", "name": "Pixel RPG", "aliases": [], "genres": ["rpg"], "franchise": "disney", "inferred": false }
+        ],
+        "studios": [
+          { "id": "gungho-entertainment", "name": "GungHo Entertainment", "aliases": ["GungHo"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "disney", "name": "Disney", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Disney announced Pixel RPG, a free-to-play mobile game developed by GungHo Entertainment featuring classic Disney characters."
+    },
+    {
+      "ref": "main_news/paradox-interactive-delays-cities-skylines-2-console-version",
+      "entities": {
+        "games": [
+          { "id": "cities-skylines-2", "name": "Cities Skylines 2", "aliases": ["Cities Skylines 2"], "genres": ["simulation", "strategy"], "franchise": "cities-skylines", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": ["Paradox"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Paradox Interactive has delayed the console version of Cities Skylines 2 for a third time, saying it has not yet met its stability and performance targets."
+    },
+    {
+      "ref": "main_news/respawn-doubles-apex-legends-battle-pass-price-in-systemic-o",
+      "entities": {
+        "games": [
+          { "id": "apex-legends", "name": "Apex Legends", "aliases": [], "genres": ["battle-royale", "hero-shooter", "fps"], "franchise": "apex-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": ["Respawn"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 10, "unit": "price", "currency": "USD",
+          "entity": "apex-legends", "entity_type": "game", "scope": "product",
+          "as_of": "2024-07-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The first Premium pass will cost $10 per half season",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/respawn-doubles-apex-legends-battle-pass-price-in-systemic-overhaul" } },
+        { "metric": "price", "value": 20, "unit": "price", "currency": "USD",
+          "entity": "apex-legends", "entity_type": "game", "scope": "product",
+          "as_of": "2024-07-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "while the Premium+ pass (which offers extra in-game rewards) will be $20",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/respawn-doubles-apex-legends-battle-pass-price-in-systemic-overhaul" } }
+      ],
+      "summary": "Respawn is doubling Apex Legends' battle pass price in a systemic overhaul, splitting each season into two passes that can only be bought with real money starting in Season 22."
+    },
+    {
+      "ref": "business/embracer-owned-gothic-risen-and-elex-developer-piranha-bytes",
+      "entities": {
+        "games": [
+          { "id": "gothic", "name": "Gothic", "aliases": [], "genres": ["action-rpg"], "franchise": "gothic", "inferred": true },
+          { "id": "risen", "name": "Risen", "aliases": [], "genres": ["action-rpg"], "franchise": "risen", "inferred": true },
+          { "id": "elex", "name": "ELEX", "aliases": [], "genres": ["action-rpg"], "franchise": "elex", "inferred": true }
+        ],
+        "studios": [
+          { "id": "piranha-bytes", "name": "Piranha Bytes", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "pithead-studio", "name": "Pithead Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "bjorn-pankratz", "name": "Björn Pankratz", "aliases": [], "inferred": false },
+          { "id": "jennifer-pankratz", "name": "Jennifer Pankratz", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-closure", "studio-opening"],
+      "facts": [],
+      "summary": "Embracer-owned Piranha Bytes, developer of Gothic, Risen and ELEX, has closed, with founders Björn and Jennifer Pankratz starting a new studio called Pithead Studio to continue making role-playing games."
+    },
+    {
+      "ref": "business/kotaku-australia-is-being-shuttered-by-pedestrian-group",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Kotaku Australia is being shuttered by Pedestrian Group, which is owned by media conglomerate Nine and is moving away from licensed brands including Gizmodo, Vice, Refinery29 and Lifehacker."
+    }
+  ]
+}

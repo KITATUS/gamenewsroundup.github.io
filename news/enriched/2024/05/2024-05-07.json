@@ -1,0 +1,140 @@
+{
+  "date": "2024-05-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/remedy-has-cancelled-project-kestral",
+      "entities": {
+        "games": [
+          { "id": "project-kestrel", "name": "Project Kestrel", "aliases": ["Project Kestral", "Kestrel", "Vanguard"], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Remedy Entertainment has cancelled its co-op multiplayer game codenamed Project Kestrel (previously Vanguard)."
+    },
+    {
+      "ref": "main_news/hades-2-early-access-is-out-now",
+      "entities": {
+        "games": [
+          { "id": "hades-2", "name": "Hades 2", "aliases": ["Hades II"], "genres": ["action-rpg", "roguelike"], "franchise": "hades", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supergiant-games", "name": "Supergiant Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["early-access", "release"],
+      "facts": [],
+      "summary": "Hades 2 is now available in early access on Steam and the Epic Games Store, with no full release date yet given."
+    },
+    {
+      "ref": "main_news/nintendo-confirms-switch-successor-will-be-announced-this-fi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware", "showcase"],
+      "facts": [],
+      "summary": "Nintendo confirmed that its Switch successor will be announced this fiscal year, with a Nintendo Direct planned for June that is not expected to feature the new console."
+    },
+    {
+      "ref": "main_news/beat-saber-drops-meta-quest-1-support-in-november",
+      "entities": {
+        "games": [
+          { "id": "beat-saber", "name": "Beat Saber", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "meta-quest-1", "name": "Meta Quest 1", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "update-patch"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2024-11-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "beat-saber",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "On November 2, Multiplayer will be disabled for the game on Meta Quest 1",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/beat-saber-drops-meta-quest-1-support-in-november" }
+        }
+      ],
+      "summary": "Beat Saber will disable multiplayer on Meta Quest 1 on 2 November, though the game will remain playable and leaderboards may shut off later."
+    },
+    {
+      "ref": "main_news/xbox-is-shutting-down-arkane-austin-tango-gameworks-alpha-do",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "arkane-austin", "name": "Arkane Austin", "aliases": [], "publisher": "bethesda-softworks", "inferred": true },
+          { "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": [], "publisher": "bethesda-softworks", "inferred": true },
+          { "id": "alpha-dog-studios", "name": "Alpha Dog Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true },
+          { "id": "roundhouse-games", "name": "Roundhouse Games", "aliases": [], "publisher": "bethesda-softworks", "inferred": true },
+          { "id": "zenimax-online-studios", "name": "ZeniMax Online Studios", "aliases": ["Zenimax Online Studios"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jason-schreier", "name": "Jason Schreier", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-closure", "merger"],
+      "facts": [],
+      "summary": "Xbox is shutting down Arkane Austin, Tango Gameworks, Alpha Dog Studios and Roundhouse Games, with Roundhouse to be merged into ZeniMax Online Studios."
+    },
+    {
+      "ref": "business/story-kitchen-teams-with-dreamworks-animation-to-adapt-video",
+      "entities": {
+        "games": [
+          { "id": "dredge", "name": "Dredge", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true },
+          { "id": "it-takes-two", "name": "It Takes Two", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "streets-of-rage", "name": "Streets of Rage", "aliases": [], "genres": ["fighting"], "franchise": "streets-of-rage", "inferred": true },
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [
+          { "id": "story-kitchen", "name": "Story Kitchen", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "dreamworks-animation", "name": "DreamWorks Animation", "aliases": ["Dreamworks Animation"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Story Kitchen has partnered with DreamWorks Animation to adapt video games into film and TV, giving the Kung Fu Panda studio a first-look option on its game-based animated movies."
+    }
+  ]
+}

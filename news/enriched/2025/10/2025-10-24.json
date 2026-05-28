@@ -1,0 +1,136 @@
+{
+  "date": "2025-10-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fallout-4-is-getting-an-anniversary-edition-and-coming-to-ni",
+      "entities": {
+        "games": [
+          { "id": "fallout-4", "name": "Fallout 4", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [{ "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "port", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-11-10", "unit": "date", "currency": null,
+          "entity": "fallout-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "releases November 10 for Xbox One / Series S/X, PS4/5 and Nintendo Switch 2",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/fallout-4-is-getting-an-anniversary-edition-and-coming-to-nintendo-switch-2/" } }
+      ],
+      "summary": "Fallout 4 is getting an Anniversary Edition and coming to Nintendo Switch 2, releasing November 10 for Xbox One, Xbox Series S/X, PS4/5 and Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/assassin-s-creed-shadows-has-been-officially-confirmed-for-n",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": [], "genres": ["action-rpg", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-12-02", "unit": "date", "currency": null,
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "releases December 2nd",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/assassins-creed-shadows-has-finally-been-officially-confirmed-for-nintendo-switch-2/" } }
+      ],
+      "summary": "Assassin's Creed Shadows has been officially confirmed for Nintendo Switch 2, releasing December 2nd."
+    },
+    {
+      "ref": "main_news/after-numerous-delays-sonic-rumble-finally-has-a-release-dat",
+      "entities": {
+        "games": [
+          { "id": "sonic-rumble", "name": "Sonic Rumble", "aliases": [], "genres": ["battle-royale", "party"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-11-05", "unit": "date", "currency": null,
+          "entity": "sonic-rumble", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PC / mobile November 5th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/after-numerous-delays-sonic-rumble-finally-has-a-release-date/" } }
+      ],
+      "summary": "After numerous delays, Sonic Rumble finally has a release date of November 5th on PC and mobile."
+    },
+    {
+      "ref": "business/pubg-and-subnautica-publisher-krafton-says-it-s-transforming",
+      "entities": {
+        "games": [
+          { "id": "pubg", "name": "PUBG", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true },
+          { "id": "subnautica", "name": "Subnautica", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "PUBG and Subnautica publisher Krafton says it is transforming into an AI-first company."
+    },
+    {
+      "ref": "business/ubisoft-is-asking-staff-at-the-division-studio-massive-enter",
+      "entities": {
+        "games": [
+          { "id": "the-division", "name": "The Division", "aliases": [], "genres": ["action-rpg", "tps", "shooter"], "franchise": "tom-clancys-the-division", "inferred": true }
+        ],
+        "studios": [{ "id": "massive-entertainment", "name": "Massive Entertainment", "aliases": [], "publisher": "ubisoft", "inferred": false }],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Ubisoft is asking staff at The Division studio Massive Entertainment to volunteer to be laid off."
+    },
+    {
+      "ref": "business/pok-mon-legends-z-a-sells-5-8m-units-during-launch-week",
+      "entities": {
+        "games": [
+          { "id": "pokemon-legends-z-a", "name": "Pokémon Legends: Z-A", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [{ "id": "game-freak", "name": "Game Freak", "aliases": [], "publisher": "the-pokemon-company", "inferred": true }],
+        "publishers": [{ "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 5800000, "unit": "units", "currency": null,
+          "entity": "pokemon-legends-z-a", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-24", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Pokémon Legends: Z-A sells 5.8m units during launch week",
+          "source": { "name": "corporate.pokemon.co.jp", "domain": "corporate.pokemon.co.jp",
+                      "url": "https://corporate.pokemon.co.jp/PostImages/pokemon_pressreleases_20251023_2.pdf" } }
+      ],
+      "summary": "Pokémon Legends: Z-A sold 5.8 million units during its launch week."
+    }
+  ]
+}

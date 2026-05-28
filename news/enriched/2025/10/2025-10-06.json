@@ -1,0 +1,144 @@
+{
+  "date": "2025-10-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/developers-rush-to-update-games-after-serious-unity-vulnerab",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Developers were urged to update their games after a serious vulnerability was discovered in the Unity engine."
+    },
+    {
+      "ref": "main_news/there-are-no-easy-solutions-helldivers-2-dev-explains-why-pc",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Helldivers 2 developer explained why the PC version requires roughly three times more storage than the console versions."
+    },
+    {
+      "ref": "main_news/street-fighter-6-director-says-he-was-shocked-at-capcom-s-de",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 40, "unit": "price", "currency": "USD",
+          "entity": "street-fighter-6", "entity_type": "product", "scope": "event",
+          "as_of": "2025-10-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "charge fans $40 to watch tournament final streams",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/street-fighter-6-director-says-he-was-shocked-at-capcoms-decision-to-charge-fans-40-to-watch-tournament-final-streams/" } }
+      ],
+      "summary": "The Street Fighter 6 director said he was shocked at Capcom's decision to charge fans $40 to watch tournament final streams."
+    },
+    {
+      "ref": "main_news/kingmakers-delayed-indefinitely-as-developer-needs-more-time",
+      "entities": {
+        "games": [
+          { "id": "kingmakers", "name": "Kingmakers", "aliases": [], "genres": ["strategy", "action"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Kingmakers was delayed indefinitely as its developer said it needs more time before it feels good about charging money for it."
+    },
+    {
+      "ref": "business/as-xbox-raises-game-pass-prices-former-ftc-chair-says-it-war",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "subscription", "acquisition"],
+      "facts": [],
+      "summary": "As Xbox raised Game Pass prices, a former FTC chair said the agency had warned the Activision deal would harm gamers."
+    },
+    {
+      "ref": "business/nintendo-denies-lobbying-over-genai-but-stresses-it-will-con",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo denied lobbying over generative AI but stressed it would continue fighting IP infringement whether AI is involved or not."
+    },
+    {
+      "ref": "business/winners-of-the-uk-best-places-to-work-awards-2025-revealed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The winners of the UK Best Places To Work Awards 2025 were revealed."
+    },
+    {
+      "ref": "business/epic-games-launches-webshop-service-on-pc-and-mobile",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Epic Games launched a webshop service on PC and mobile."
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "date": "2025-02-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/playstation-says-it-s-planning-to-release-more-family-games",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "PlayStation says it is planning to release more family games like Astro Bot, with Sony citing the platformer's awards success as validation for expanding in the family genre."
+    },
+    {
+      "ref": "main_news/xbox-s-metal-gear-solid-delta-replaces-ape-escape-monkeys-wi",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-delta", "name": "Metal Gear Solid Delta", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true },
+          { "id": "ape-escape", "name": "Ape Escape", "aliases": [], "genres": ["platformer"], "franchise": "ape-escape", "inferred": true },
+          { "id": "bomberman", "name": "Bomberman", "aliases": [], "genres": ["action-adventure"], "franchise": "bomberman", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Xbox version of Metal Gear Solid Delta replaces the Ape Escape monkeys cameo with a Bomberman cameo."
+    },
+    {
+      "ref": "main_news/saros-the-next-game-from-housemarque-is-out-next-year",
+      "entities": {
+        "games": [
+          { "id": "saros", "name": "Saros", "aliases": [], "genres": [], "franchise": null, "inferred": false },
+          { "id": "returnal", "name": "Returnal", "aliases": [], "genres": ["roguelike", "tps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "housemarque", "name": "Housemarque", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Saros, the next game from Returnal studio Housemarque and a new IP, is due out next year."
+    },
+    {
+      "ref": "main_news/borderlands-4-release-date-confirmed",
+      "entities": {
+        "games": [
+          { "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "showcase"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-23", "unit": "date", "currency": null,
+          "entity": "borderlands-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The shooter RPG will be released on PlayStation 5, Xbox Series S/X, and PC on September 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/borderlands-4-release-date-confirmed/" } }
+      ],
+      "summary": "Borderlands 4's release date is confirmed for September 23 on PlayStation 5, Xbox Series S/X, and PC, with a dedicated State of Play presentation coming this Spring."
+    },
+    {
+      "ref": "main_news/sonic-racing-crossworlds-gets-its-first-gameplay-trailer",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": false },
+          { "id": "sonic-riders", "name": "Sonic Riders", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "team-sonic-racing", "name": "Team Sonic Racing", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "gameplay"],
+      "facts": [],
+      "summary": "Sonic Racing: CrossWorlds received its first gameplay trailer, featuring different racing styles from previous Sonic racing games and iconic characters from the Sonic and Sega universes."
+    },
+    {
+      "ref": "main_news/sega-shows-trailer-for-shinobi-art-of-vengeance-out-later-th",
+      "entities": {
+        "games": [
+          { "id": "shinobi-art-of-vengeance", "name": "Shinobi: Art of Vengeance", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": "shinobi", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation-4", "name": "PS4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Series S/X"], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2023-08-29", "unit": "date", "currency": null,
+          "entity": "shinobi-art-of-vengeance", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases August 29, 2023 on PS4/5, Xbox One / Series S/X, and Steam, with Switch and physical versions following later",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-shows-trailer-for-shinobi-art-of-vengeance-out-later-this-year/" } }
+      ],
+      "summary": "Sega showed a trailer for Shinobi: Art of Vengeance, releasing August 29 on PS4/5, Xbox One/Series S/X, and Steam, with Switch and physical versions following later."
+    },
+    {
+      "ref": "main_news/elden-ring-nightrein-from-software-s-spin-off-multiplayer-ga",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-nightrein", "name": "Elden Ring Nightrein", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": ["From Software"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-05-30", "unit": "date", "currency": null,
+          "entity": "elden-ring-nightrein", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "has been given a release date of May 30, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ahead-of-its-network-test-elden-rings-spin-off-multiplayer-game-has-a-release-date/" } }
+      ],
+      "summary": "Elden Ring Nightrein, FromSoftware's spin-off multiplayer game, has been given a release date of May 30, 2025."
+    },
+    {
+      "ref": "main_news/mindseye-launches-summer-2025-on-ps5",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "trailer"],
+      "facts": [],
+      "summary": "MindsEye launches Summer 2025 on PS5, debuting new gameplay and cinematic trailers."
+    },
+    {
+      "ref": "main_news/lies-of-p-overture-launches-summer-2025",
+      "entities": {
+        "games": [
+          { "id": "lies-of-p-overture", "name": "Lies of P: Overture", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "lies-of-p", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "dlc-expansion"],
+      "facts": [],
+      "summary": "Lies of P: Overture launches Summer 2025."
+    },
+    {
+      "ref": "main_news/days-gone-remastered-announced-for-pc-and-ps5-for-release-ap",
+      "entities": {
+        "games": [
+          { "id": "days-gone-remastered", "name": "Days Gone Remastered", "aliases": [], "genres": ["action-adventure", "open-world", "survival-horror"], "franchise": "days-gone", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-4", "name": "PS4", "aliases": ["PS4"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-04-25", "unit": "date", "currency": null,
+          "entity": "days-gone-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "announced for PC and PS5 for release April 25th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/days-gone-definitive-edition-announced-for-pc-and-ps5" } },
+        { "metric": "price", "value": 10, "unit": "price", "currency": "USD",
+          "entity": "days-gone-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "you'll have the option to upgrade to this new version for $10 (UK price TBA)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/days-gone-definitive-edition-announced-for-pc-and-ps5" } }
+      ],
+      "summary": "Days Gone Remastered was announced for PC and PS5 for release April 25th, with PS4 and PC owners able to upgrade for $10."
+    },
+    {
+      "ref": "free_games_subscription/february-s-playstation-plus-game-catalog-games-available-fro",
+      "entities": {
+        "games": [
+          { "id": "star-wars-jedi-survivor", "name": "Star Wars Jedi: Survivor", "aliases": [], "genres": ["action-adventure", "soulslike"], "franchise": "star-wars", "inferred": true },
+          { "id": "topspin-2k25", "name": "TopSpin 2K25", "aliases": [], "genres": ["sports"], "franchise": "topspin", "inferred": true },
+          { "id": "lost-records-bloom-rage-tape-1", "name": "Lost Records: Bloom & Rage – Tape 1", "aliases": [], "genres": ["adventure"], "franchise": "lost-records", "inferred": true },
+          { "id": "saga-frontier-remastered", "name": "SaGa Frontier Remastered", "aliases": [], "genres": ["jrpg"], "franchise": "saga", "inferred": true },
+          { "id": "somerville", "name": "Somerville", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "tin-hearts", "name": "Tin Hearts", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "mordhau", "name": "Mordhau", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "patapon-3", "name": "Patapon 3", "aliases": [], "genres": ["rhythm"], "franchise": "patapon", "inferred": true },
+          { "id": "dropship-united-peace-force", "name": "Dropship: United Peace Force", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false },
+          { "id": "playstation-4", "name": "PS4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-02-18", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-02-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Game Catalog games available from February 18th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-plus-game-catalog-february/" } }
+      ],
+      "summary": "February's PlayStation Plus Game Catalog games, including Star Wars Jedi: Survivor and TopSpin 2K25, become available from February 18th."
+    },
+    {
+      "ref": "free_games_subscription/all-three-armored-core-ps1-games-are-coming-to-the-ps-plus-p",
+      "entities": {
+        "games": [
+          { "id": "armored-core", "name": "Armored Core", "aliases": [], "genres": ["action-adventure"], "franchise": "armored-core", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PS Plus Premium", "aliases": ["PS Plus", "PS Plus Premium"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "All three Armored Core PS1 games are coming to the PS Plus Premium Classics Catalog, with no release date given."
+    },
+    {
+      "ref": "business/playstation-5-enjoys-best-ever-holiday-period-reaching-75-mi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "hardware"],
+      "facts": [
+        { "metric": "units_sold", "value": 75000000, "unit": "units", "currency": null,
+          "entity": "playstation-5", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-02-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "reaching 75 million shipments",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-enjoys-best-ever-holiday-period-reaching-75-million-shipments/" } }
+      ],
+      "summary": "PlayStation 5 enjoyed its best ever holiday period, reaching 75 million shipments and now neck-and-neck with PS4."
+    },
+    {
+      "ref": "business/change-is-never-easy-minecraft-studio-mojang-announces-studi",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mojang", "name": "Mojang", "aliases": [], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Microsoft Gaming"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "kayleen-walters", "name": "Kayleen Walters", "aliases": ["Kayleen"], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Minecraft studio Mojang announced a studio head switch, with Microsoft Gaming's Kayleen Walters taking over."
+    },
+    {
+      "ref": "business/alan-wake-2-has-sold-more-than-2-million-copies-remedy-is-no",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true },
+          { "id": "control-2", "name": "Control 2", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy", "name": "Remedy", "aliases": ["Remedy Entertainment"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "copies", "currency": null,
+          "entity": "alan-wake-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-13", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "has sold more than 2 million copies",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/alan-wake-2-has-sold-more-than-2-million-copies-remedy-is-now-making-royalties-from-it/" } }
+      ],
+      "summary": "Alan Wake 2 has sold more than 2 million copies and Remedy is now making royalties from it, while Control 2 has entered full production."
+    },
+    {
+      "ref": "business/one-piece-pirate-warriors-4-tops-4-million-sales-worldwide",
+      "entities": {
+        "games": [
+          { "id": "one-piece-pirate-warriors-4", "name": "One Piece Pirate Warriors 4", "aliases": [], "genres": ["action-adventure"], "franchise": "one-piece", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 4000000, "unit": "copies", "currency": null,
+          "entity": "one-piece-pirate-warriors-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "tops 4 million sales worldwide",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/onepiece_games/status/1889465698310574218" } }
+      ],
+      "summary": "One Piece Pirate Warriors 4 has topped 4 million sales worldwide."
+    },
+    {
+      "ref": "business/remedy-financial-results",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy", "name": "Remedy", "aliases": ["Remedy Entertainment"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 11700000, "unit": "money", "currency": "EUR",
+          "entity": "remedy", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-13", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: €11.7 million (up 13.1%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-rise-49-during-fy24-alan-wake-2-recoups-development-costs" } },
+        { "metric": "operating_income", "value": -1400000, "unit": "money", "currency": "EUR",
+          "entity": "remedy", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-13", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Operating loss: €1.4 million (compared to operating loss of €12.8 million in 2023)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-rise-49-during-fy24-alan-wake-2-recoups-development-costs" } },
+        { "metric": "revenue", "value": 33900000, "unit": "money", "currency": "EUR",
+          "entity": "remedy", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-13", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Revenue: €33.9 million (up 49.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-rise-49-during-fy24-alan-wake-2-recoups-development-costs" } },
+        { "metric": "operating_income", "value": -4300000, "unit": "money", "currency": "EUR",
+          "entity": "remedy", "entity_type": "company", "scope": "company",
+          "as_of": "2025-02-13", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Operating loss: €4.3 million (compared to operating loss of €28.6 million in 2023)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/remedy-revenues-rise-49-during-fy24-alan-wake-2-recoups-development-costs" } }
+      ],
+      "summary": "Remedy reported Q4 2024 revenue of €11.7 million and FY 2024 revenue of €33.9 million, up 49.3%, with operating losses narrowing year on year."
+    },
+    {
+      "ref": "business/relic-entertainment-outlines-new-business-strategy",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "relic-entertainment", "name": "Relic Entertainment", "aliases": ["Relic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "justin-dowdeswell", "name": "Justin Dowdeswell", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Relic Entertainment outlined a new business strategy, with CEO Justin Dowdeswell saying the studio will focus on existing games, smaller-scope titles, and revisiting older franchises."
+    }
+  ]
+}

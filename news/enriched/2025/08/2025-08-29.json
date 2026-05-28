@@ -1,0 +1,95 @@
+{
+  "date": "2025-08-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/unreal-engine-5-performance-issues-are-mainly-due-to-devs-no",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "unreal-engine-5", "name": "Unreal Engine 5", "aliases": ["UE5"], "inferred": false }
+        ],
+        "people": [
+          { "id": "tim-sweeney", "name": "Tim Sweeney", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Epic CEO Tim Sweeney says Unreal Engine 5 performance issues are mainly due to developers not optimising properly, claiming too few studios optimise for less powerful hardware early in development."
+    },
+    {
+      "ref": "main_news/metal-gear-solid-delta-snake-eater-issues-acknowledged-by-ko",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-delta-snake-eater", "name": "Metal Gear Solid Delta: Snake Eater", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Konami has acknowledged issues with Metal Gear Solid Delta: Snake Eater and says a patch is on the way."
+    },
+    {
+      "ref": "business/75-4-of-cyberpunk-2077-s-nintendo-switch-2-sales-were-physic",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "75.4% of Cyberpunk 2077's Nintendo Switch 2 sales were physical."
+    },
+    {
+      "ref": "business/thunderful-group-shareholders-approve-5-3-million-atari-acqu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "thunderful-group", "name": "Thunderful Group", "aliases": [], "inferred": false },
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 5300000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "atari",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-08-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Thunderful Group shareholders approve $5.3 million Atari acquisition",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/thunderful-group-shareholders-approve-53-million-atari-acquisition" }
+        }
+      ],
+      "summary": "Thunderful Group shareholders approved a $5.3 million Atari acquisition."
+    }
+  ]
+}

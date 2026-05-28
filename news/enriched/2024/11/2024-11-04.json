@@ -1,0 +1,173 @@
+{
+  "date": "2024-11-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/house-of-the-dead-film-in-the-works-from-resident-evil-monst",
+      "entities": {
+        "games": [
+          { "id": "house-of-the-dead", "name": "House of the Dead", "aliases": [], "genres": ["shooter"], "franchise": "house-of-the-dead", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "paul-ws-anderson", "name": "Paul WS Anderson", "aliases": ["Pawl WS Anderson"], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A House of the Dead film is in the works, to be written and directed by Resident Evil and Monster Hunter director Paul WS Anderson."
+    },
+    {
+      "ref": "main_news/final-fantasy-14-crossroads-release-date-announced",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-14", "name": "Final Fantasy 14", "aliases": ["Final Fantasy 14 Crossroads", "Crossroads"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "dlc-expansion", "update-patch"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-12", "unit": "date", "currency": null,
+          "entity": "final-fantasy-14", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tuesday, 12th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/final-fantasy-14-crossroads-release-date-announced" } }
+      ],
+      "summary": "Final Fantasy 14's Crossroads update, the first major update to the MMO since Dawntrail, has a release date of Tuesday 12 November 2024."
+    },
+    {
+      "ref": "main_news/more-than-10m-fortnite-players-watch-snoop-dogg-ice-spice-he",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "snoop-dogg", "name": "Snoop Dogg", "aliases": [], "inferred": false },
+          { "id": "ice-spice", "name": "Ice Spice", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "players_total", "value": 10000000, "unit": "players", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-04", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "More than 10 million players in-game and millions more watching via YouTube and TikTok",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/more-than-10m-fortnite-players-watch-snoop-dogg-ice-spice-headline-concert-streamed-live-from-times-square" } }
+      ],
+      "summary": "More than 10 million Fortnite players watched a livestreamed Snoop Dogg and Ice Spice headline concert held in New York's Times Square."
+    },
+    {
+      "ref": "main_news/square-enix-fans-can-expect-its-games-to-release-simultaneou",
+      "entities": {
+        "games": [
+          { "id": "vagrant-story", "name": "Vagrant Story", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "final-fantasy-tactics", "name": "Final Fantasy Tactics", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "naoki-yoshida", "name": "Naoki Yoshida", "aliases": ["Yoshida"], "inferred": true }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Square Enix says fans can expect its games to release simultaneously on each platform more and more, with Yoshida also teasing a desire to re-release Vagrant Story and Final Fantasy Tactics."
+    },
+    {
+      "ref": "business/alan-wake-2-has-now-recouped-most-of-the-money-it-cost-to-ma",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Alan Wake 2 has now recouped most of the money it cost to make, though it has yet to start earning royalties."
+    },
+    {
+      "ref": "business/iwgb-game-workers-launches-first-manifesto",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "IWGB Game Workers, a union for UK-based video game developers, has launched its first manifesto calling for equality, inclusion, and fair pay."
+    },
+    {
+      "ref": "business/roblox-q3-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 919000000, "unit": "USD", "currency": "USD",
+          "entity": "roblox", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-04", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $919 million, up 29% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-bookings-jump-to-11bn-in-q3" } },
+        { "metric": "profit", "value": 240000000, "unit": "USD", "currency": "USD",
+          "entity": "roblox", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-04", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net losses: $240 million, compared to $278 million during the same quarter last year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-bookings-jump-to-11bn-in-q3" } }
+      ],
+      "summary": "Roblox reported Q3 revenue of $919 million, up 29% year-over-year, with net losses of $240 million."
+    },
+    {
+      "ref": "business/phasmophobia-has-sold-20m-copies",
+      "entities": {
+        "games": [
+          { "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kinetic-games", "name": "Kinetic Games", "aliases": ["PlayPhasmo"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 20000000, "unit": "copies", "currency": null,
+          "entity": "phasmophobia", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Phasmophobia has sold 20m copies",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/PlayPhasmo/status/1852017907040931947" } }
+      ],
+      "summary": "Phasmophobia has sold 20 million copies."
+    }
+  ]
+}

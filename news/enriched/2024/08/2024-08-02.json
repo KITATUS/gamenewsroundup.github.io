@@ -1,0 +1,201 @@
+{
+  "date": "2024-08-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-annouces-gamescom-2024-plans-including-over-50-playable",
+      "entities": {
+        "games": [
+          { "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true },
+          { "id": "starfield-shattered-space", "name": "Starfield: Shattered Space", "aliases": [], "genres": ["action-rpg"], "franchise": "starfield", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Xbox announced its Gamescom 2024 plans, including over 50 playable games and theater presentations of Avowed, Indiana Jones and the Great Circle, and Starfield: Shattered Space."
+    },
+    {
+      "ref": "business/armor-games-studios-has-seemingly-laid-off-its-publishing-te",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "armor-games-studios", "name": "Armor Games Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Armor Games Studios has seemingly laid off its publishing team, with an unknown number of staff affected."
+    },
+    {
+      "ref": "business/roblox-reports-strong-q2-2024-as-cfo-steps-down",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings", "leadership-change"],
+      "facts": [
+        { "metric": "revenue", "value": 893500000, "unit": "money", "currency": "USD",
+          "entity": "roblox-corporation", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-02", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: $893.5m, up 31% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-strong-q2-2024-as-cfo-steps-down" } },
+        { "metric": "players_total", "value": 79500000, "unit": "users", "currency": null,
+          "entity": "roblox", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-08-02", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "DAUs: 79.5m, up 21% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-strong-q2-2024-as-cfo-steps-down" } },
+        { "metric": "playtime_hours", "value": 17400000000, "unit": "hours", "currency": null,
+          "entity": "roblox", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-08-02", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Hours engaged: 17.4bn, up 24% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-reports-strong-q2-2024-as-cfo-steps-down" } }
+      ],
+      "summary": "Roblox reported strong Q2 2024 results, including $893.5m revenue up 31% year-on-year, as its CFO stepped down."
+    },
+    {
+      "ref": "business/whiteout-survival-passes-1-billion-in-revenue",
+      "entities": {
+        "games": [
+          { "id": "whiteout-survival", "name": "Whiteout Survival", "aliases": [], "genres": ["strategy", "survival"], "franchise": null, "inferred": true },
+          { "id": "monopoly-go", "name": "Monopoly Go", "aliases": [], "genres": ["party"], "franchise": "monopoly", "inferred": true },
+          { "id": "honkai-star-rail", "name": "Honkai: Star Rail", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "honkai", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "revenue", "value": 1000000000, "unit": "money", "currency": "USD",
+          "entity": "whiteout-survival", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Whiteout Survival passes $1 billion in revenue",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/whiteout-survival-passes-1-billion-in-revenue" } }
+      ],
+      "summary": "Whiteout Survival has passed $1 billion in revenue, the third-fastest 2023 mobile title to do so, hitting the number in 17 months per Sensor Tower."
+    },
+    {
+      "ref": "business/nintendo-switch-has-now-sold-143-42-million-units-worldwide",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-8-deluxe", "name": "Mario Kart 8 Deluxe", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true },
+          { "id": "animal-crossing-new-horizons", "name": "Animal Crossing: New Horizons", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "animal-crossing", "inferred": true },
+          { "id": "super-smash-bros-ultimate", "name": "Super Smash Bros. Ultimate", "aliases": [], "genres": ["fighting"], "franchise": "super-smash-bros", "inferred": true },
+          { "id": "the-legend-of-zelda-breath-of-the-wild", "name": "Breath of the Wild", "aliases": ["Breath of the Wild"], "genres": ["action-adventure", "open-world"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "super-mario-odyssey", "name": "Super Mario Odyssey", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true },
+          { "id": "pokemon-sword-shield", "name": "Pokemon Sword/Shield", "aliases": [], "genres": ["jrpg"], "franchise": "pokemon", "inferred": true },
+          { "id": "pokemon-scarlet-violet", "name": "Pokemon Scarlet/Violet", "aliases": [], "genres": ["jrpg"], "franchise": "pokemon", "inferred": true },
+          { "id": "super-mario-party", "name": "Super Mario Party", "aliases": [], "genres": ["party"], "franchise": "super-mario", "inferred": true },
+          { "id": "the-legend-of-zelda-tears-of-the-kingdom", "name": "Tears of the Kingdom", "aliases": ["Tears of the Kingdom"], "genres": ["action-adventure", "open-world"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "new-super-mario-bros-u-deluxe", "name": "New Super Mario Bros. U Deluxe", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "sales-milestone", "earnings"],
+      "facts": [
+        { "metric": "units_sold", "value": 143420000, "unit": "units", "currency": null,
+          "entity": "nintendo-switch", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Nintendo Switch has now sold 143.42 Million Units Worldwide",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 62900000, "unit": "units", "currency": null,
+          "entity": "mario-kart-8-deluxe", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Mario Kart 8 Deluxe - 62.90M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 45850000, "unit": "units", "currency": null,
+          "entity": "animal-crossing-new-horizons", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Animal Crossing: New Horizons - 45.85M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 34660000, "unit": "units", "currency": null,
+          "entity": "super-smash-bros-ultimate", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Super Smash Bros. Ultimate - 34.66M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 32050000, "unit": "units", "currency": null,
+          "entity": "the-legend-of-zelda-breath-of-the-wild", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Breath of the Wild - 32.05M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 28210000, "unit": "units", "currency": null,
+          "entity": "super-mario-odyssey", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Super Mario Odyssey - 28.21M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 26350000, "unit": "units", "currency": null,
+          "entity": "pokemon-sword-shield", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Pokemon Sword/Shield - 26.35M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 25290000, "unit": "units", "currency": null,
+          "entity": "pokemon-scarlet-violet", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Pokemon Scarlet/Violet - 25.29M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 20840000, "unit": "units", "currency": null,
+          "entity": "super-mario-party", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Super Mario Party - 20.84M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 20800000, "unit": "units", "currency": null,
+          "entity": "the-legend-of-zelda-tears-of-the-kingdom", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Tears of the Kingdom - 20.80M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } },
+        { "metric": "copies_sold", "value": 17610000, "unit": "units", "currency": null,
+          "entity": "new-super-mario-bros-u-deluxe", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "New Super Mario Bros. U Deluxe - 17.61M",
+          "source": { "name": "Nintendo", "domain": "nintendo.co.jp", "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" } }
+      ],
+      "summary": "The Nintendo Switch has now sold 143.42 million units worldwide, led by Mario Kart 8 Deluxe at 62.90 million copies."
+    },
+    {
+      "ref": "rumours/obsidian-s-avowed-reportedly-delayed-from-2024-to-early-next",
+      "entities": {
+        "games": [
+          { "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": ["Obsidian"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Obsidian's Avowed has been delayed from 2024 to early next year, with the game said to be in good shape."
+    }
+  ]
+}

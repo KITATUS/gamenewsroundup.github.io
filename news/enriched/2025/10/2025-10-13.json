@@ -1,0 +1,115 @@
+{
+  "date": "2025-10-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/new-dissidia-final-fantasy-is-coming-to-ios-and-android-more",
+      "entities": {
+        "games": [
+          { "id": "dissidia-final-fantasy", "name": "Dissidia Final Fantasy", "aliases": [], "genres": ["fighting"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [
+        {
+          "metric": "event_date", "value": "2025-10-14", "unit": "date", "currency": null,
+          "entity": "dissidia-final-fantasy", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "More info due October 14th",
+          "source": { "name": "square-enix.com", "domain": "square-enix.com", "url": "https://www.square-enix.com/ddff/en/" }
+        }
+      ],
+      "summary": "A new Dissidia Final Fantasy is coming to iOS and Android, with more information due on 14 October 2025."
+    },
+    {
+      "ref": "main_news/a-new-toejam-earl-game-is-in-the-planning-stage-co-creator-r",
+      "entities": {
+        "games": [
+          { "id": "toejam-earl", "name": "ToeJam & Earl", "aliases": [], "genres": ["action-adventure"], "franchise": "toejam-earl", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A co-creator has revealed that a new ToeJam & Earl game is in the planning stage, while a movie is currently searching for a director."
+    },
+    {
+      "ref": "main_news/genshin-impact-s-new-ugc-system-is-almost-here-here-s-what-t",
+      "entities": {
+        "games": [
+          { "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "genshin-impact", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hoyoverse", "name": "HoYoverse", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Genshin Impact's new user-generated content system, Miliastra Wonderland, is set to launch later in October 2025."
+    },
+    {
+      "ref": "main_news/mortal-kombat-3-movie-confirmed-before-the-release-of-mortal",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat", "name": "Mortal Kombat", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Mortal Kombat 3 movie has been confirmed ahead of the release of Mortal Kombat 2."
+    },
+    {
+      "ref": "business/halo-art-director-leaves-after-17-years-with-cryptic-message",
+      "entities": {
+        "games": [
+          { "id": "halo", "name": "Halo", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The Halo art director has left after 17 years, posting a cryptic message suggesting the departure was on bad terms."
+    },
+    {
+      "ref": "business/remedy-issues-profit-warning-with-fbc-firebreak-treading-wat",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Remedy issued a profit warning as FBC: Firebreak underperformed, but said the impairment has no effect on its cash position."
+    }
+  ]
+}

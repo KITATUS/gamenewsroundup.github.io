@@ -1,0 +1,190 @@
+{
+  "date": "2024-07-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-s-new-gashapon-toys-can-be-used-as-extra-parts-for",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo's new gashapon toys can be used as extra parts for real controllers, currently on sale in Nintendo Japan stores."
+    },
+    {
+      "ref": "main_news/roblox-reported-13-316-instances-of-child-exploitation-last",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }],
+        "platforms": [{ "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Roblox reported 13,316 instances of child exploitation last year, with more than two dozen people arrested following in-game contact."
+    },
+    {
+      "ref": "main_news/nintendo-nullifies-splatoon-3-world-championship-win-followi",
+      "entities": {
+        "games": [{ "id": "splatoon-3", "name": "Splatoon 3", "aliases": [], "genres": ["tps", "shooter"], "franchise": "splatoon", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo nullified Team Jackpot's Splatoon 3 World Championship win following racism reports, vacating the win and removing the in-game banner."
+    },
+    {
+      "ref": "main_news/ps5-update-adds-game-session-invites-with-a-url-and-a-new-vo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [{ "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A PS5 update adds game session invites via URL and a new voice command, alongside performance and stability improvements."
+    },
+    {
+      "ref": "main_news/helldivers-2-s-biggest-update-yet-revealed-ahead-of-august-r",
+      "entities": {
+        "games": [{ "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true }],
+        "studios": [{ "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "reveal"],
+      "facts": [],
+      "summary": "Helldivers 2's 'biggest update yet', \"Escalation of Freedom\", was revealed ahead of an August release, adding new enemies, mission objectives and a new difficulty level."
+    },
+    {
+      "ref": "main_news/fortnite-lego-sets-announced",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [{ "id": "the-lego-group", "name": "The Lego Group", "aliases": ["Lego"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [
+        { "metric": "price", "value": 90, "unit": "price", "currency": "GBP",
+          "entity": "fortnite-lego-battle-bus", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Battle Bus (£90)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnite-lego-sets-leak-including-99-battle-bus" } },
+        { "metric": "price", "value": 90, "unit": "price", "currency": "GBP",
+          "entity": "fortnite-lego-peely-bone", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Peely Bone (£90)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnite-lego-sets-leak-including-99-battle-bus" } },
+        { "metric": "price", "value": 35, "unit": "price", "currency": "GBP",
+          "entity": "fortnite-lego-supply-llama", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Supply Llama (£35)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnite-lego-sets-leak-including-99-battle-bus" } },
+        { "metric": "price", "value": 13, "unit": "price", "currency": "GBP",
+          "entity": "fortnite-lego-durrr-burger", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Durrr Burger (£13)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnite-lego-sets-leak-including-99-battle-bus" } }
+      ],
+      "summary": "Fortnite Lego sets were announced, including the Battle Bus (£90), Peely Bone (£90), Supply Llama (£35) and Durrr Burger (£13)."
+    },
+    {
+      "ref": "main_news/capcom-says-it-s-considering-how-to-make-mega-man-games-on-a",
+      "entities": {
+        "games": [
+          { "id": "mega-man", "name": "Mega Man", "aliases": [], "genres": ["action-platformer", "platformer"], "franchise": "mega-man", "inferred": true },
+          { "id": "mega-man-11", "name": "Mega Man 11", "aliases": [], "genres": ["action-platformer", "platformer"], "franchise": "mega-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "release_date", "value": "2018", "unit": "date", "currency": null,
+          "entity": "mega-man-11", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The last major entry in the franchise was released in 2018 (Mega Man 11)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/capcom-says-its-considering-how-to-make-mega-man-games-on-a-regular-basis/" } }
+      ],
+      "summary": "Capcom says it is 'considering' how to make Mega Man games on a regular basis, the franchise's last major entry being Mega Man 11 in 2018."
+    },
+    {
+      "ref": "main_news/ubisoft-publishes-letter-to-japanese-community-concerned-by",
+      "entities": {
+        "games": [{ "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": [], "genres": ["action-rpg", "action-adventure"], "franchise": "assassins-creed", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [
+          { "id": "yasuke", "name": "Yasuke", "aliases": [], "inferred": false },
+          { "id": "thomas-lockley", "name": "Thomas Lockley", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Ubisoft published a letter to the 'Japanese community' concerned by Assassin's Creed Shadows amid debate over the portrayal of Yasuke, with the Japanese Government launching an investigation into the game."
+    },
+    {
+      "ref": "free_games_subscription/call-of-duty-modern-warfare-3-is-heading-to-xbox-game-pass-t",
+      "entities": {
+        "games": [{ "id": "call-of-duty-modern-warfare-3", "name": "Call of Duty: Modern Warfare 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-07-24", "unit": "date", "currency": null,
+          "entity": "call-of-duty-modern-warfare-3", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Joins service on 24th July (today)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-3-is-heading-to-xbox-game-pass-this-week" } }
+      ],
+      "summary": "Call of Duty: Modern Warfare 3 is heading to Xbox Game Pass, joining the service on 24th July."
+    },
+    {
+      "ref": "business/humble-games-confirms-layoffs-amid-restructuring-denies-full",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "humble-games", "name": "Humble Games", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Humble Games confirmed layoffs amid a 'restructuring' while denying a full shutdown, saying ongoing and future projects are unaffected."
+    },
+    {
+      "ref": "rumours/lively-studio-owned-by-keywords-facing-layoffs-of-unknown-qu",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "lively-studio", "name": "Lively Studio", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "keywords-studios", "name": "Keywords Studios", "aliases": ["Keywords"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Lively Studio, owned by Keywords, is facing layoffs of an unknown quantity."
+    }
+  ]
+}

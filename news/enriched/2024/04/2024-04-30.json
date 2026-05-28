@@ -1,0 +1,72 @@
+{
+  "date": "2024-04-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/todd-howard-says-bethesda-is-focused-on-finding-ways-to-incr",
+      "entities": {
+        "games": [
+          { "id": "control", "name": "Control", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true },
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true },
+          { "id": "tekken-7", "name": "Tekken 7", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda", "aliases": ["Bethesda"], "publisher": "bethesda-softworks", "inferred": true },
+          { "id": "remedy-entertainment", "name": "Remedy", "aliases": ["Remedy"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "todd-howard", "name": "Todd Howard", "aliases": [], "inferred": false },
+          { "id": "lidia", "name": "Lidia", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "update-patch"],
+      "facts": [
+        { "metric": "viewers", "value": 65000000, "unit": "people", "currency": null,
+          "entity": "fallout", "entity_type": "product", "scope": "product",
+          "as_of": "2024-04-30", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Amazon's Fallout TV show was watched by 65m people in its first two weeks",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/todd-howard-says-bethesda-is-focused-on-finding-ways-to-increase-its-output/" } }
+      ],
+      "summary": "Todd Howard says Bethesda is focused on finding ways to increase its output."
+    },
+    {
+      "ref": "business/tencent-has-increased-its-shareholding-in-remedy-to-almost-1",
+      "entities": {
+        "games": [
+          { "id": "manor-lords", "name": "Manor Lords", "aliases": [], "genres": ["strategy", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy", "aliases": ["Remedy"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": ["The Chinese tech giant"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "sales-milestone"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 15, "unit": "percent", "currency": null,
+          "entity": "remedy-entertainment", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-04-30", "period": "point_in_time", "direction": "up", "confidence": "medium",
+          "quote": "Tencent has increased its shareholding in Remedy to almost 15%",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/tencent-has-increased-its-stake-in-remedy-to-almost-15/" } },
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "manor-lords", "entity_type": "game", "scope": "game",
+          "as_of": "2024-04-30", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Manor Lords sells 1m copies in 24 hours",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.eurogamer.net/manor-lords-sells-1m-copies-in-24-hours-reveals-whats-coming-next" } }
+      ],
+      "summary": "Tencent has increased its shareholding in Remedy to almost 15%."
+    }
+  ]
+}

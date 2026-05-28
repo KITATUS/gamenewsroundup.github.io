@@ -1,0 +1,279 @@
+{
+  "date": "2025-08-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/microsoft-has-stopped-development-on-avalanche-studios-contr",
+      "entities": {
+        "games": [
+          { "id": "contraband", "name": "Contraband", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "avalanche-studios", "name": "Avalanche Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Microsoft has stopped development on Avalanche Studios' Contraband."
+    },
+    {
+      "ref": "main_news/sony-cfo-says-marathon-is-expected-to-release-before-march-a",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation Studios"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-01", "unit": "date", "currency": null,
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-08", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Marathon is expected to release before March",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sony-cfo-says-marathon-is-expected-to-release-before-march-and-bungies-independence-is-getting-lighter/" } }
+      ],
+      "summary": "Sony's CFO says Marathon is expected to release before March, with Bungie's independence loosening toward full integration into PlayStation Studios."
+    },
+    {
+      "ref": "main_news/digital-foundry-leaves-ign-who-owns-eurogamer-now-fully-inde",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "digital-foundry", "name": "Digital Foundry", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "ign", "name": "IGN", "aliases": [], "inferred": false },
+          { "id": "eurogamer", "name": "Eurogamer", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Digital Foundry has left IGN, the owner of Eurogamer, and is now fully independent."
+    },
+    {
+      "ref": "main_news/hexen-heretic-by-nightdive-studios-shadowdropped-for-pc-stea",
+      "entities": {
+        "games": [
+          { "id": "hexen", "name": "Hexen", "aliases": [], "genres": ["fps"], "franchise": "heretic-hexen", "inferred": true },
+          { "id": "heretic", "name": "Heretic", "aliases": [], "genres": ["fps"], "franchise": "heretic-hexen", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nightdive-studios", "name": "Nightdive Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": ["Steam", "GoG"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": ["Xbox Game Pass"], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "remaster-remake"],
+      "facts": [],
+      "summary": "Nightdive Studios shadowdropped Hexen + Heretic for PC (Steam and GoG), Switch, Xbox Game Pass and PlayStation."
+    },
+    {
+      "ref": "business/sony-vice-president-sadahiko-hayakawa-we-are-moving-away-fro",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "sadahiko-hayakawa", "name": "Sadahiko Hayakawa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sony Vice President Sadahiko Hayakawa said the company is moving away from a hardware-centric business model toward a platform business that expands community and engagement."
+    },
+    {
+      "ref": "business/sony-cfo-says-its-live-service-shift-is-not-entirely-going-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sony's CFO said its live-service shift is 'not entirely going smoothly' but pledged to carry on and learn from mistakes."
+    },
+    {
+      "ref": "business/sony-s-playstation-5-has-sold-80-3-million-units-as-it-close",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "hardware"],
+      "facts": [
+        { "metric": "units_sold", "value": 80300000, "unit": "units", "currency": null,
+          "entity": "playstation-5", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-08-08", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "PlayStation 5 has sold 80.3 million units",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sonys-playstation-5-has-sold-803-million-units-as-it-closes-on-in-on-fifth-anniversary" } }
+      ],
+      "summary": "Sony's PlayStation 5 has sold 80.3 million units as it nears its fifth anniversary."
+    },
+    {
+      "ref": "business/konami-stocks-hit-record-highs-thanks-to-efootball-and-new-m",
+      "entities": {
+        "games": [
+          { "id": "efootball", "name": "eFootball", "aliases": [], "genres": ["sports", "simulation"], "franchise": "efootball", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 18900000, "unit": "units", "currency": null,
+          "entity": "momotaro-dentetsu", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-08-08", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "with sales totalling 18.9 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-stocks-hit-record-highs-thanks-to-efootball-and-new-momotaro-dentetsu-game" } },
+        { "metric": "copies_sold", "value": 11700000, "unit": "units", "currency": null,
+          "entity": "silent-hill", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-08-08", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Silent Hill, which has sold 11.7m copies since it launched in March 1999",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-stocks-hit-record-highs-thanks-to-efootball-and-new-momotaro-dentetsu-game" } },
+        { "metric": "release_date", "value": "1999-03-01", "unit": "date", "currency": null,
+          "entity": "silent-hill", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-08-08", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "since it launched in March 1999",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/konami-stocks-hit-record-highs-thanks-to-efootball-and-new-momotaro-dentetsu-game" } }
+      ],
+      "summary": "Konami stocks hit record highs thanks to eFootball and a new Momotaro Dentetsu game."
+    },
+    {
+      "ref": "business/take-two-financial-numbers-for-the-three-months-ending-june",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1500000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net revenue: $1.5 billion (up 12% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-net-bookings-rise-significantly-above-guidance-range-to-142bn-in-q1-2026" } },
+        { "metric": "profit", "value": -12000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net loss: $12 million (compared to $262 million loss in the year-ago quarter)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-net-bookings-rise-significantly-above-guidance-range-to-142bn-in-q1-2026" } }
+      ],
+      "summary": "Take-Two reported net revenue of $1.5 billion for the three months ending June 30, 2025, up 12% year-on-year with a reduced net loss."
+    },
+    {
+      "ref": "business/sony-has-released-its-financial-results-for-q1-2025-for-the",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony", "name": "Sony", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 2620000000000, "unit": "money", "currency": "JPY",
+          "entity": "sony", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Sales income: ¥2.62 trillion ($17.8 billion), up 2% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-sees-137-boost-to-operating-income-in-q1-2025" } },
+        { "metric": "operating_income", "value": 340000000000, "unit": "money", "currency": "JPY",
+          "entity": "sony", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income (after tariff impact): ¥340 billion ($2.3 billion), up 36% YoY (before tariff impact)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-sees-137-boost-to-operating-income-in-q1-2025" } },
+        { "metric": "revenue", "value": 937000000000, "unit": "money", "currency": "JPY",
+          "entity": "sony", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Sales income: ¥937 billion ($6.4 billion), up 8%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-sees-137-boost-to-operating-income-in-q1-2025" } },
+        { "metric": "operating_income", "value": 148000000000, "unit": "money", "currency": "JPY",
+          "entity": "sony", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥148 billion ($1 billion), up 127% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/playstation-sees-137-boost-to-operating-income-in-q1-2025" } }
+      ],
+      "summary": "Sony released its Q1 2025 financial results for the three months ended June 30, 2025, reporting rising sales and operating income overall and in Games & Network Services."
+    },
+    {
+      "ref": "business/unity-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 441000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Revenue: $441 million (down 2% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q2-revenue-decreases-2-to-441m" } },
+        { "metric": "revenue", "value": 154000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Create Solutions revenue: $154 million (up 2% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q2-revenue-decreases-2-to-441m" } },
+        { "metric": "revenue", "value": 287000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Grow Solutions revenue: $287 million (down 4% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q2-revenue-decreases-2-to-441m" } },
+        { "metric": "profit", "value": -107000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-08", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net loss: $107 million (with a margin of 24%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-q2-revenue-decreases-2-to-441m" } }
+      ],
+      "summary": "Unity reported quarterly revenue of $441 million, down 2% year-on-year, with a net loss of $107 million."
+    }
+  ]
+}

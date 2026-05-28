@@ -1,0 +1,91 @@
+{
+  "date": "2025-07-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/gamestop-is-auctioning-off-the-staple-and-stapler-that-damag",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "gamestop", "name": "GameStop", "aliases": ["Gamestop"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "GameStop is auctioning off the staple and stapler that damaged a customer's Nintendo Switch 2, along with the repaired console itself."
+    },
+    {
+      "ref": "main_news/sea-of-thieves-is-getting-multi-ship-private-servers-and-pai",
+      "entities": {
+        "games": [
+          { "id": "sea-of-thieves", "name": "Sea of Thieves", "aliases": [], "genres": ["action-adventure", "adventure"], "franchise": "sea-of-thieves", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Sea of Thieves is getting multi-ship private servers and paid custom servers early next year."
+    },
+    {
+      "ref": "main_news/nintendo-is-discontinuing-switch-game-vouchers-existing-vouc",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Nintendo is discontinuing Switch Game Vouchers, though existing vouchers will keep working after the termination date in early 2026."
+    },
+    {
+      "ref": "business/sag-aftra-approves-2025-video-game-agreement-officially-conc",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "SAG-AFTRA approved the 2025 Video Game Agreement, officially concluding its strike."
+    },
+    {
+      "ref": "business/krafton-addresses-leadership-changes-at-unknown-worlds-forme",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [
+          { "id": "unknown-worlds", "name": "Unknown Worlds", "aliases": [], "publisher": "krafton", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change", "lawsuit-legal", "delay"],
+      "facts": [],
+      "summary": "Krafton addressed leadership changes at Unknown Worlds as former executives filed a lawsuit against the publisher, with Krafton attributing a delay of Subnautica 2 to confusion from the absence of core leadership."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "date": "2025-06-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/borderlands-4-won-t-cost-80-after-all-gearbox-confirms-70-pr",
+      "entities": {
+        "games": [
+          { "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }
+        ],
+        "studios": [
+          { "id": "gearbox", "name": "Gearbox", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 70, "unit": "price", "currency": "USD",
+          "entity": "borderlands-4", "entity_type": "game", "scope": "product",
+          "as_of": "2025-06-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Gearbox confirms $70 price point",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/borderlands-4-wont-cost-80-after-all/" } }
+      ],
+      "summary": "Gearbox confirmed that Borderlands 4 will cost $70 rather than $80."
+    },
+    {
+      "ref": "main_news/a-nintendo-direct-is-coming-this-week-focusing-on-donkey-kon",
+      "entities": {
+        "games": [
+          { "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-06-18", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2025-06-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Wednesday, June 18th, 14:00 UK time",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/confirmed-a-nintendo-direct-is-coming-this-week-focussing-on-donkey-kong-bananza/" } }
+      ],
+      "summary": "A Nintendo Direct focusing on Donkey Kong Bananza is set for Wednesday, June 18th at 14:00 UK time."
+    },
+    {
+      "ref": "business/nba-signs-another-multiyear-partnership-with-2k",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false },
+          { "id": "nba", "name": "NBA", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "The NBA has signed another multiyear partnership with 2K."
+    },
+    {
+      "ref": "business/stellar-blade-sells-3m-copies",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 3000000, "unit": "copies", "currency": null,
+          "entity": "stellar-blade", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Stellar Blade sells 3m copies",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/stellar-blade-sells-3m-copies-news-in-brief" } }
+      ],
+      "summary": "Stellar Blade has sold 3 million copies."
+    },
+    {
+      "ref": "rumours/another-legacy-of-kain-game-is-seemingly-coming-to-ps5-soon",
+      "entities": {
+        "games": [
+          { "id": "legacy-of-kain-defiance", "name": "Legacy of Kain: Defiance", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": ["PlayStation 4"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "rumour"],
+      "facts": [],
+      "summary": "Rumour that another Legacy of Kain game is coming to PS5, after Legacy of Kain: Defiance was rated for PS5 and PS4."
+    }
+  ]
+}

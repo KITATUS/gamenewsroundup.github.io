@@ -1,0 +1,93 @@
+{
+  "date": "2024-04-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/veteran-lucasarts-lead-matthew-shell-has-passed-away",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "lucasarts", "name": "LucasArts", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "matthew-shell", "name": "Matthew Shell", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Veteran LucasArts lead Matthew Shell, credited on over 60 games across 20 years, has passed away."
+    },
+    {
+      "ref": "main_news/lego-animal-crossing-getting-new-set-featuring-k-k-slider-th",
+      "entities": {
+        "games": [{ "id": "lego-animal-crossing", "name": "Lego Animal Crossing", "aliases": [], "genres": ["life-sim"], "franchise": "animal-crossing", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "the-lego-group", "name": "The Lego Group", "aliases": ["Lego"], "inferred": true }],
+        "platforms": [],
+        "people": [{ "id": "k-k-slider", "name": "K.K. Slider", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-01", "unit": "date", "currency": null,
+          "entity": "lego-animal-crossing", "entity_type": "product", "scope": "product",
+          "as_of": "2024-04-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Town Hall and Dodo Airlines Dock sets will be released August 1st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/lego-animal-crossing-getting-new-set-featuring-k-k-slider-this-august/" } }
+      ],
+      "summary": "Lego Animal Crossing is getting a new set featuring K.K. Slider, with the Town Hall and Dodo Airlines Dock sets releasing on 1 August 2024."
+    },
+    {
+      "ref": "main_news/archeage-to-go-offline-in-north-america-and-europe-june-27",
+      "entities": {
+        "games": [{ "id": "archeage", "name": "ArcheAge", "aliases": [], "genres": ["mmorpg"], "franchise": "archeage", "inferred": true }],
+        "studios": [{ "id": "xl-games", "name": "XL Games", "aliases": ["XLGames"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-06-27", "unit": "date", "currency": null,
+          "entity": "archeage", "entity_type": "game", "scope": "game",
+          "as_of": "2024-04-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "ArcheAge to go offline in North America and Europe June 27",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/archeage-to-go-offline-in-america-and-europe-this-june" } }
+      ],
+      "summary": "The XL Games MMO ArcheAge will go offline in North America and Europe on 27 June 2024 after nine years, due to declining active players."
+    },
+    {
+      "ref": "business/capcom-revises-earnings-forecast-following-favorable-dragon",
+      "entities": {
+        "games": [{ "id": "dragons-dogma-2", "name": "Dragon's Dogma 2", "aliases": ["Dragon’s Dogma 2"], "genres": ["action-rpg"], "franchise": "dragons-dogma", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 140000000000, "unit": "currency", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-04-29", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Previously, the figure was ¥140 billion ($892 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-revises-earnings-forecast-following-favorable-dragons-dogma-2-sales" } },
+        { "metric": "revenue", "value": 892000000, "unit": "currency", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-04-29", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Previously, the figure was ¥140 billion ($892 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-revises-earnings-forecast-following-favorable-dragons-dogma-2-sales" } },
+        { "metric": "revenue", "value": 152400000000, "unit": "currency", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-04-29", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "now the forecast is set to ¥152.4 billion ($971 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-revises-earnings-forecast-following-favorable-dragons-dogma-2-sales" } },
+        { "metric": "revenue", "value": 971000000, "unit": "currency", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2024-04-29", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "now the forecast is set to ¥152.4 billion ($971 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/capcom-revises-earnings-forecast-following-favorable-dragons-dogma-2-sales" } }
+      ],
+      "summary": "Capcom revised its earnings forecast upward from ¥140 billion to ¥152.4 billion following favorable Dragon's Dogma 2 sales."
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "date": "2024-09-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/final-fantasy-14-s-patch-7-1-crossroads-is-coming-in-novembe",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-14",
+            "name": "Final Fantasy 14",
+            "aliases": ["Final Fantasy XIV"],
+            "genres": ["mmorpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Final Fantasy 14's Patch 7.1, Crossroads, is coming in November."
+    },
+    {
+      "ref": "main_news/valve-croaks-down-on-deadlock-cheaters-by-letting-you-turn-t",
+      "entities": {
+        "games": [
+          {
+            "id": "deadlock",
+            "name": "Deadlock",
+            "aliases": [],
+            "genres": ["moba", "hero-shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Valve added an anti-cheat feature to Deadlock that lets opponents turn a detected cheater into a frog for the rest of the match before they are banned."
+    },
+    {
+      "ref": "main_news/kojima-says-death-stranding-2-s-release-date-is-decided-but",
+      "entities": {
+        "games": [
+          {
+            "id": "death-stranding-2",
+            "name": "Death Stranding 2",
+            "aliases": ["Death Stranding 2: On The Beach"],
+            "genres": ["action-adventure"],
+            "franchise": "death-stranding",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "kojima-productions",
+            "name": "Kojima Productions",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "hideo-kojima",
+            "name": "Hideo Kojima",
+            "aliases": ["Kojima"],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "Hideo Kojima said Death Stranding 2's release date has been decided and that the game will launch in 2025, but he could not reveal the date due to unforeseen circumstances."
+    },
+    {
+      "ref": "main_news/zelda-tears-of-the-kingdom-named-best-game-at-japan-game-awa",
+      "entities": {
+        "games": [
+          {
+            "id": "the-legend-of-zelda-tears-of-the-kingdom",
+            "name": "Zelda: Tears of the Kingdom",
+            "aliases": ["The Legend of Zelda: Tears of the Kingdom"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "the-legend-of-zelda",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Zelda: Tears of the Kingdom was named best game at the Japan Game Awards, also winning the Best Sales award and an Award For Excellence."
+    },
+    {
+      "ref": "business/dome-keeper-sells-1m-units",
+      "entities": {
+        "games": [
+          {
+            "id": "dome-keeper",
+            "name": "Dome Keeper",
+            "aliases": [],
+            "genres": ["roguelike", "tower-defense"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "dome-keeper",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-09-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dome Keeper sells 1m units",
+          "source": {
+            "name": "Steam",
+            "domain": "store.steampowered.com",
+            "url": "https://store.steampowered.com/news/app/1637320/view/4673137508062083950"
+          }
+        }
+      ],
+      "summary": "Dome Keeper has sold one million units."
+    },
+    {
+      "ref": "business/manor-lords-reaches-over-2-5m-units-sold",
+      "entities": {
+        "games": [
+          {
+            "id": "manor-lords",
+            "name": "Manor Lords",
+            "aliases": [],
+            "genres": ["strategy", "simulation"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 2500000,
+          "unit": "units",
+          "currency": null,
+          "entity": "manor-lords",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-09-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Manor Lords reaches over 2.5m units sold",
+          "source": {
+            "name": "GamesPress",
+            "domain": "gamespress.com",
+            "url": "https://www.gamespress.com/en-US/Manor-Lords-patch-25-million-sales"
+          }
+        }
+      ],
+      "summary": "Manor Lords has reached over 2.5 million units sold."
+    },
+    {
+      "ref": "business/steam-updates-subscriber-agreements-to-remove-arbitration-cl",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Steam updated its subscriber agreement to remove the arbitration clause so disputes are to go forward in court instead."
+    },
+    {
+      "ref": "business/alan-wake-control-developer-agrees-15m-convertible-loan-from",
+      "entities": {
+        "games": [
+          {
+            "id": "alan-wake",
+            "name": "Alan Wake",
+            "aliases": [],
+            "genres": ["action-adventure", "survival-horror"],
+            "franchise": "alan-wake",
+            "inferred": true
+          },
+          {
+            "id": "control",
+            "name": "Control",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "control",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": ["Remedy"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "tencent",
+            "name": "Tencent",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 15000000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-09-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Alan Wake, Control developer agrees €15m convertible loan from Tencent",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/alan-wake-control-developer-agrees-15m-convertible-loan-from-tencent"
+          }
+        }
+      ],
+      "summary": "Remedy Entertainment, the developer of Alan Wake and Control, agreed a 15 million euro convertible loan from Tencent, subject to approval at Remedy's Extraordinary General Meeting scheduled by 24th October."
+    }
+  ]
+}

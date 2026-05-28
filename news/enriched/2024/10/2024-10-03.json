@@ -1,0 +1,191 @@
+{
+  "date": "2024-10-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/smash-bros-creator-masahiro-sakurai-is-ending-his-acclaimed",
+      "entities": {
+        "games": [
+          { "id": "super-smash-bros", "name": "Super Smash Bros.", "aliases": ["Smash Bros."], "genres": ["fighting"], "franchise": "super-smash-bros", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "masahiro-sakurai", "name": "Masahiro Sakurai", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Smash Bros. creator Masahiro Sakurai is ending his acclaimed game design YouTube series this month, with one special finale to follow."
+    },
+    {
+      "ref": "main_news/the-rocky-horror-video-game-is-a-thing-and-coming-out-this-m",
+      "entities": {
+        "games": [
+          { "id": "the-rocky-horror-video-game", "name": "The Rocky Horror Video Game", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": ["Playstation"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release"],
+      "facts": [],
+      "summary": "The Rocky Horror Video Game, a platformer, was announced for release this month across PC via Steam, PlayStation, Xbox, and Nintendo Switch."
+    },
+    {
+      "ref": "main_news/palworld-headed-to-mobile-courtesy-of-krafton-s-pubg-studios",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": null, "inferred": true },
+          { "id": "pubg", "name": "PUBG", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pubg-studios", "name": "PUBG Studios", "aliases": [], "publisher": "krafton", "inferred": false },
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "partnership", "announcement"],
+      "facts": [],
+      "summary": "Krafton's subsidiary PUBG Studios will develop a mobile version of Pocketpair's Palworld."
+    },
+    {
+      "ref": "business/future-shutters-playstation-focused-play-magazine",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "future-publishing", "name": "Future Publishing", "aliases": ["Future"], "inferred": false },
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Future Publishing is shutting down its PlayStation-focused Play magazine, the spiritual successor to the Official PlayStation Magazine."
+    },
+    {
+      "ref": "business/indie-studio-black-flag-shuts-down-following-communication-b",
+      "entities": {
+        "games": [
+          { "id": "orphan-age", "name": "Orphan Age", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "black-flag", "name": "Black Flag", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Indie studio Black Flag, developer of Orphan Age, has shut down and filed for bankruptcy following a communication breakdown with its publisher."
+    },
+    {
+      "ref": "business/epic-games-ceo-says-company-is-now-financially-sound",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "tim-sweeney", "name": "Tim Sweeney", "aliases": [], "inferred": false },
+          { "id": "steve-allison", "name": "Steve Allison", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 110000000,
+          "unit": "users",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Fortnite achieved a new peak over the holidays, reaching 110 million monthly active users",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/epic-games-ceo-says-company-is-now-financially-sound" }
+        },
+        {
+          "metric": "players_total",
+          "value": 70000000,
+          "unit": "users",
+          "currency": null,
+          "entity": "epic-games-store",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2024-10-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the storefront reached 70 million monthly active users last month",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/epic-games-ceo-says-company-is-now-financially-sound" }
+        }
+      ],
+      "summary": "Epic Games CEO Tim Sweeney said the company is now financially sound, with Fortnite peaking at 110 million monthly active users and the Epic Games Store reaching 70 million."
+    },
+    {
+      "ref": "rumours/star-citizen-developer-cloud-imperium-games-7-day-work-week",
+      "entities": {
+        "games": [
+          { "id": "star-citizen", "name": "Star Citizen", "aliases": [], "genres": ["simulation", "shooter", "mmo"], "franchise": "star-citizen", "inferred": true },
+          { "id": "squadron-42", "name": "Squadron 42", "aliases": [], "genres": ["shooter", "simulation"], "franchise": "star-citizen", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cloud-imperium-games", "name": "Cloud Imperium Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "rumour"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-10-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "citizencon",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-10-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "to meet deadlines for Citizencon on October 19th",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/star-citizen-developer-cloud-imperium-games/" }
+        }
+      ],
+      "summary": "Rumour that Cloud Imperium Games has mandated a seven-day work week for staff to meet deadlines ahead of CitizenCon on 19 October 2024."
+    }
+  ]
+}

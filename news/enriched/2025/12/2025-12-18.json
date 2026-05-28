@@ -1,0 +1,407 @@
+{
+  "date": "2025-12-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/game-awards-2025-sets-record-with-171-million-livestreams-wo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        {
+          "metric": "viewers",
+          "value": 171000000,
+          "unit": "livestreams",
+          "currency": null,
+          "entity": "the-game-awards",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-12-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Game Awards 2025 Sets Record With 171 Million Livestreams Worldwide",
+          "source": {
+            "name": "Variety",
+            "domain": "variety.com",
+            "url": "https://variety.com/2025/digital/news/game-awards-2025-viewing-record-livestreams-worldwide-1236611146/"
+          }
+        }
+      ],
+      "summary": "The Game Awards 2025 set a record with 171 million livestreams worldwide."
+    },
+    {
+      "ref": "main_news/sony-vs-tencent-horizon-clone-lawsuit-over-light-of-motiram",
+      "entities": {
+        "games": [
+          {
+            "id": "light-of-motiram",
+            "name": "Light of Motiram",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          },
+          {
+            "id": "tencent",
+            "name": "Tencent",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "delisting"],
+      "facts": [],
+      "summary": "Sony's lawsuit against Tencent over the alleged Horizon clone Light of Motiram ended in a settlement, with the game delisted from storefronts."
+    },
+    {
+      "ref": "main_news/2013-s-tomb-raider-reboot-coming-to-mobile-devices-next-year",
+      "entities": {
+        "games": [
+          {
+            "id": "tomb-raider",
+            "name": "Tomb Raider",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "tomb-raider",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ios",
+            "name": "iOS",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "android",
+            "name": "Android",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-02-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "tomb-raider",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-12-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Feb 12th for iOS and Android",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/2013s-tomb-raider-reboot-coming-to-mobile-devices-next-year"
+          }
+        }
+      ],
+      "summary": "The 2013 Tomb Raider reboot is coming to iOS and Android on 12 February next year."
+    },
+    {
+      "ref": "business/final-fantasy-pixel-remaster-series-sales-top-six-million",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-pixel-remaster",
+            "name": "Final Fantasy Pixel Remaster",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 6000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "final-fantasy-pixel-remaster",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-12-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Final Fantasy Pixel Remaster series sales top six million",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2025/12/final-fantasy-pixel-remaster-series-sales-top-six-million"
+          }
+        }
+      ],
+      "summary": "Sales of the Final Fantasy Pixel Remaster series have topped six million."
+    },
+    {
+      "ref": "business/horses-sells-over-18k-copies-pays-back-loans-and-royalties-d",
+      "entities": {
+        "games": [
+          {
+            "id": "horses",
+            "name": "Horses",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "epic-games-store",
+            "name": "Epic Games Store",
+            "aliases": ["Epic"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "delisting"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 18000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "horses",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-12-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Horses Sells Over 18k Copies",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com",
+            "url": "https://www.ign.com/articles/horses-sells-over-18k-copies-pays-back-loans-and-royalties-despite-removal-from-steam-and-epic"
+          }
+        }
+      ],
+      "summary": "Horses has sold over 18,000 copies and paid back loans and royalties despite being removed from Steam and Epic."
+    },
+    {
+      "ref": "business/hogwarts-legacy-tops-40-million-units-sold-milestone-does-no",
+      "entities": {
+        "games": [
+          {
+            "id": "hogwarts-legacy",
+            "name": "Hogwarts Legacy",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "wizarding-world",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "epic-games-store",
+            "name": "Epic Games Store",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 40000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "hogwarts-legacy",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-12-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Hogwarts Legacy tops 40 million units sold",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/HogwartsLegacy/status/2001336625847243153"
+          }
+        }
+      ],
+      "summary": "Hogwarts Legacy has topped 40 million units sold, a milestone that does not include free copies given away via the Epic Games Store."
+    },
+    {
+      "ref": "business/fifa-officially-announces-new-game-with-netflix-and-little-k",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "delphi-interactive",
+            "name": "Delphi Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "fifa",
+            "name": "FIFA",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "FIFA officially announced a new game made with Netflix and the California-based studio Delphi Interactive."
+    },
+    {
+      "ref": "business/after-putting-its-entire-staff-on-redundancy-notice-wreckrea",
+      "entities": {
+        "games": [
+          {
+            "id": "wreckreation",
+            "name": "Wreckreation",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "three-fields-entertainment",
+            "name": "Three Fields",
+            "aliases": ["Three Fields"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "After putting its entire staff on redundancy notice, Wreckreation studio Three Fields has turned to Patreon for help."
+    },
+    {
+      "ref": "rumours/unity-reportedly-introduces-250k-minimum-contribution-for-it",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change", "rumour"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 250000,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "unity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-12-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Unity reportedly introduces $250K+ \"minimum contribution\" for its biggest customers",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/unity-reportedly-introduces-250k-minimum-contribution-for-its-biggest-customers"
+          }
+        }
+      ],
+      "summary": "Unity has reportedly introduced a $250K+ minimum contribution for its biggest customers, based on their gross revenue from the previous 12 months."
+    },
+    {
+      "ref": "other_notes/that-s-a-wrap-on-another-year-of-the-game-news-round-up-i-wa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A closing note thanking readers for tuning in throughout another year of the Game News Round-Up."
+    },
+    {
+      "ref": "other_notes/from-all-of-us-that-help-bring-the-game-news-round-up-to-you",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A holiday message from the Game News Round-Up team wishing readers a fantastic break until next year."
+    }
+  ]
+}

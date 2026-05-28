@@ -1,0 +1,206 @@
+{
+  "date": "2025-02-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/epic-games-sues-fortnite-cheater-takes-back-winnings-and-for",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "bamford", "name": "Bamford", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        { "metric": "price", "value": 4000000, "unit": "price", "currency": "USD",
+          "entity": "fncs-2023-global-championship", "entity_type": "product", "scope": "event",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "which that year held a $4m prize pool",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/epic-games-sues-fortnite-cheater-takes-back-winnings-and-fo[…]umiliating-public-apology-video-as-a-stark-warning-to-others" } }
+      ],
+      "summary": "Epic Games sued a Fortnite player for account-sharing to qualify for the FNCS 2023 Global Championship, reclaiming his winnings and banning him from tournaments."
+    },
+    {
+      "ref": "main_news/nintendo-is-ending-its-my-nintendo-gold-points-switch-eshop",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "subscription"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-03-25", "unit": "date", "currency": null,
+          "entity": "my-nintendo-gold-points", "entity_type": "product", "scope": "product",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "after March 25, 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-is-ending-its-my-nintendo-gold-points-switch-eshop-rewards-scheme/" } }
+      ],
+      "summary": "Nintendo is ending its My Nintendo Gold Points Switch eShop rewards scheme, with players unable to earn Gold Points on the Switch eShop after 25 March 2025."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-latest-february-titles-announced",
+      "entities": {
+        "games": [
+          { "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "ea-sports-f1-24", "name": "EA Sports F1 24", "aliases": [], "genres": ["racing"], "franchise": "f1", "inferred": true },
+          { "id": "warhammer-40000-rogue-trader", "name": "Warhammer 40,000: Rogue Trader", "aliases": [], "genres": ["crpg"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "watch-dogs-legion", "name": "Watch Dogs: Legion", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "watch-dogs", "inferred": true },
+          { "id": "f1-22", "name": "F1 22", "aliases": [], "genres": ["racing"], "franchise": "f1", "inferred": true },
+          { "id": "gris", "name": "Gris", "aliases": [], "genres": ["platformer", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "maneater", "name": "Maneater", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "paw-patrol-world", "name": "PAW Patrol World", "aliases": [], "genres": ["adventure"], "franchise": "paw-patrol", "inferred": true },
+          { "id": "space-engineers", "name": "Space Engineers", "aliases": [], "genres": ["sandbox", "simulation"], "franchise": null, "inferred": true },
+          { "id": "warhammer-40000-boltgun", "name": "Warhammer 40,000: Boltgun", "aliases": [], "genres": ["fps"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "wo-long-fallen-dynasty", "name": "Wo Long: Fallen Dynasty", "aliases": ["Wo Long Fallen Dynasty"], "genres": ["action-rpg", "soulslike"], "franchise": null, "inferred": true },
+          { "id": "yakuza-3-remastered", "name": "Yakuza 3 Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-4-remastered", "name": "Yakuza 4 Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ea-play", "name": "EA Play", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-02-18", "unit": "date", "currency": null,
+          "entity": "avowed", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Avowed - 18th February (Ultimate, PC)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-latest-february-titles-announced" } },
+        { "metric": "release_date", "value": "2025-02-20", "unit": "date", "currency": null,
+          "entity": "ea-sports-f1-24", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "EA Sports F1 24 - 20th February (Ultimate, PC)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-latest-february-titles-announced" } },
+        { "metric": "release_date", "value": "2025-02-20", "unit": "date", "currency": null,
+          "entity": "warhammer-40000-rogue-trader", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Warhammer 40,000: Rogue Trader - 20th February (Standard, Ultimate, PC)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-latest-february-titles-announced" } },
+        { "metric": "release_date", "value": "2025-02-20", "unit": "date", "currency": null,
+          "entity": "watch-dogs-legion", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Watch Dogs: Legion - 20th February (Standard, Ultimate, PC)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-latest-february-titles-announced" } },
+        { "metric": "shutdown_date", "value": "2025-02-28", "unit": "date", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (Feb 28th):",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-latest-february-titles-announced" } }
+      ],
+      "summary": "Microsoft announced the latest Xbox Game Pass additions for February 2025, including Avowed and Watch Dogs: Legion, alongside several titles leaving the service on 28 February."
+    },
+    {
+      "ref": "free_games_subscription/10-games-leaving-playstation-plus-in-march",
+      "entities": {
+        "games": [
+          { "id": "monster-energy-supercross-the-official-videogame-6", "name": "Monster Energy Supercross - The Official Videogame 6", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "resident-evil-3", "name": "Resident Evil 3", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "dragon-ball-z-kakarot", "name": "Dragon Ball Z: Kakarot", "aliases": [], "genres": ["action-rpg"], "franchise": "dragon-ball", "inferred": true },
+          { "id": "phoenix-wright-ace-attorney-trilogy", "name": "Phoenix Wright: Ace Attorney Trilogy", "aliases": [], "genres": ["visual-novel", "adventure"], "franchise": "ace-attorney", "inferred": true },
+          { "id": "jojos-bizarre-adventure-all-star-battle-r", "name": "JoJo's Bizarre Adventure: All-Star Battle R", "aliases": [], "genres": ["fighting"], "franchise": "jojos-bizarre-adventure", "inferred": true },
+          { "id": "life-is-strange-true-colors", "name": "Life is Strange: True Colors", "aliases": [], "genres": ["adventure"], "franchise": "life-is-strange", "inferred": true },
+          { "id": "life-is-strange-2", "name": "Life is Strange 2", "aliases": [], "genres": ["adventure"], "franchise": "life-is-strange", "inferred": true },
+          { "id": "final-fantasy-type-0-hd", "name": "Final Fantasy Type-0 HD", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "street-fighter-5", "name": "Street Fighter 5", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "mortal-kombat-11", "name": "Mortal Kombat 11", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Ten games, including Resident Evil 3 and Mortal Kombat 11, are leaving PlayStation Plus in March."
+    },
+    {
+      "ref": "business/marvel-rivals-team-hit-by-layoffs",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "thaddeus-sasser", "name": "Thaddeus Sasser", "aliases": [], "inferred": false },
+          { "id": "guangyun-chen", "name": "Guangyun 'Guangguang' Chen", "aliases": ["Guangguang"], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 6, "unit": "people", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "game",
+          "as_of": "2025-02-19", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "It is believed that six people were affected; the entire Seattle team / North American division.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/marvel-rivals-team-hit-by-layoffs-despite-major-launch-success" } }
+      ],
+      "summary": "The Marvel Rivals team was hit by layoffs reportedly affecting six people in its Seattle / North American division, tied to NetEase pulling back on overseas investments."
+    },
+    {
+      "ref": "business/toast-interactive-cuts-majority-of-staff-closes-office",
+      "entities": {
+        "games": [
+          { "id": "richies-plank-experience", "name": "Richie's Plank Experience", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "max-mustard", "name": "Max Mustard", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "toast-interactive", "name": "Toast Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "psvr2", "name": "PSVR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [],
+      "summary": "Toast Interactive, the VR studio behind Richie's Plank Experience and Max Mustard, cut the majority of its staff and closed its office."
+    },
+    {
+      "ref": "rumours/mystery-tony-hawk-remaster-now-mentioned-by-pro-skater-invol",
+      "entities": {
+        "games": [
+          { "id": "tony-hawk-pro-skater-3-4", "name": "Tony Hawk Pro Skater 3+4", "aliases": ["Tony Hawk remaster"], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "Rumour that an unannounced Tony Hawk remaster, believed to be Tony Hawk Pro Skater 3+4, will release on Xbox, PC and PS5 in summer 2025."
+    }
+  ]
+}

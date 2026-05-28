@@ -1,0 +1,113 @@
+{
+  "date": "2024-07-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/summer-games-done-quick-2024-raises-1-9m-2-5m-for-doctors-wi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Summer Games Done Quick 2024 raised £1.9m ($2.5m) for Doctors Without Borders/Medecins Sans Frontieres, bringing the event's lifetime charitable total to £40m."
+    },
+    {
+      "ref": "business/gacha-sensation-zenless-zone-zero-surpasses-50-million-downl",
+      "entities": {
+        "games": [
+          {
+            "id": "zenless-zone-zero",
+            "name": "Zenless Zone Zero",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hoyoverse",
+            "name": "HoYoverse",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "downloads",
+          "value": 50000000,
+          "unit": "downloads",
+          "currency": null,
+          "entity": "zenless-zone-zero",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Zenless Zone Zero Surpasses 50 Million Downloads Across All Platforms",
+          "source": {
+            "name": "Push Square",
+            "domain": "pushsquare.com",
+            "url": "https://www.pushsquare.com/news/2024/07/gacha-sensation-zenless-zone-zero-surpasses-50-million-downloads-across-all-platforms"
+          }
+        }
+      ],
+      "summary": "Zenless Zone Zero has surpassed 50 million downloads across all platforms, having drawn 40 million pre-registrations prior to launch."
+    },
+    {
+      "ref": "rumours/final-fantasy-xiv-is-reportedly-coming-to-mobile-via-tencent",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-xiv",
+            "name": "Final Fantasy XIV",
+            "aliases": [],
+            "genres": ["mmorpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "tencent",
+            "name": "Tencent",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Final Fantasy XIV is coming to mobile via Tencent."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2025-04-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ghost-of-y-tei-playstation-5-releases-october-2",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-yotei", "name": "Ghost of Yōtei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-02", "unit": "date", "currency": null,
+          "entity": "ghost-of-yotei", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ghost of Yōtei (PlayStation 5) releases October 2",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com",
+            "url": "https://blog.playstation.com/2025/04/23/ghost-of-yotei-comes-to-playstation-5-on-october-2/" } }
+      ],
+      "summary": "Ghost of Yōtei will release on PlayStation 5 on 2 October 2025."
+    },
+    {
+      "ref": "main_news/ps5-s-classic-playstation-themes-are-coming-back-today-expec",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "PS5's classic PlayStation console themes are returning today and are expected to remain permanently."
+    },
+    {
+      "ref": "main_news/instead-of-shutting-down-mod-remaking-oblivion-in-skyrim-bet",
+      "entities": {
+        "games": [
+          { "id": "skyblivion", "name": "Skyblivion", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true },
+          { "id": "the-elder-scrolls-iv-oblivion", "name": "The Elder Scrolls IV: Oblivion", "aliases": ["Oblivion"], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true },
+          { "id": "the-elder-scrolls-iv-oblivion-remastered", "name": "Oblivion Remastered", "aliases": ["Oblivion Remastered"], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true },
+          { "id": "the-elder-scrolls-v-skyrim", "name": "The Elder Scrolls V: Skyrim", "aliases": ["Skyrim"], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bethesda-softworks", "name": "Bethesda", "aliases": ["Bethesda"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake"],
+      "facts": [],
+      "summary": "Rather than shutting down the Skyblivion mod recreating Oblivion in Skyrim, Bethesda gave the mod team Oblivion Remastered keys."
+    },
+    {
+      "ref": "business/phasmophobia-hits-3-million-sales-on-console",
+      "entities": {
+        "games": [
+          { "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror", "survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kinetic-games", "name": "Kinetic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 3000000, "unit": "units", "currency": null,
+          "entity": "phasmophobia", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-24", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Phasmophobia hits 3 million sales on console",
+          "source": { "name": "X", "domain": "x.com",
+            "url": "https://x.com/PlayPhasmo/status/1915012879536771228" } }
+      ],
+      "summary": "Phasmophobia has reached 3 million sales on console."
+    }
+  ]
+}

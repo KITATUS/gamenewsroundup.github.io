@@ -1,0 +1,127 @@
+{
+  "date": "2025-04-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-switch-2-direct-today-at-6-am-pt-9-am-et-2-pm-uk",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["showcase", "hardware"],
+      "facts": [],
+      "summary": "Nintendo will hold a Nintendo Switch 2 Direct presentation today at 6 AM PT / 9 AM ET / 2 PM UK, running approximately 60 minutes."
+    },
+    {
+      "ref": "main_news/konami-are-selling-a-limited-time-white-pillow-from-silent-h",
+      "entities": {
+        "games": [{ "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Konami is selling a limited-time White Pillow themed on Silent Hill 2 as official merchandise."
+    },
+    {
+      "ref": "main_news/evercade-is-releasing-a-neo-geo-cartridge-and-handheld",
+      "entities": {
+        "games": [
+          { "id": "metal-slug", "name": "Metal Slug", "aliases": [], "genres": ["shooter"], "franchise": "metal-slug", "inferred": true },
+          { "id": "king-of-fighters-2000", "name": "King of Fighters 2000", "aliases": [], "genres": ["fighting"], "franchise": "the-king-of-fighters", "inferred": true },
+          { "id": "shock-troopers", "name": "Shock Troopers", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "magician-lord", "name": "Megician Lord", "aliases": ["Megician Lord"], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "sengoku", "name": "Sengoku", "aliases": [], "genres": ["action"], "franchise": "sengoku", "inferred": true },
+          { "id": "ironclad", "name": "Ironclad", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "snk", "name": "SNK", "aliases": ["Neo Geo"], "inferred": true }],
+        "platforms": [{ "id": "evercade", "name": "Evercade", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["release-date", "hardware", "announcement"],
+      "facts": [
+        { "metric": "price", "value": 24.99, "unit": "price", "currency": "USD",
+          "entity": "evercade", "entity_type": "product", "scope": "product",
+          "as_of": "2025-04-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "released in July at $24.99 / €24.99 / £19.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/evercade-is-releasing-a-neo-geo-cartridge-and-handheld/" } },
+        { "metric": "price", "value": 24.99, "unit": "price", "currency": "EUR",
+          "entity": "evercade", "entity_type": "product", "scope": "product",
+          "as_of": "2025-04-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "released in July at $24.99 / €24.99 / £19.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/evercade-is-releasing-a-neo-geo-cartridge-and-handheld/" } },
+        { "metric": "price", "value": 19.99, "unit": "price", "currency": "GBP",
+          "entity": "evercade", "entity_type": "product", "scope": "product",
+          "as_of": "2025-04-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "released in July at $24.99 / €24.99 / £19.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/evercade-is-releasing-a-neo-geo-cartridge-and-handheld/" } }
+      ],
+      "summary": "Evercade is releasing a Neo Geo cartridge (Neo Geo Arcade 1) and handheld, with the six-game cartridge launching in July at $24.99 / €24.99 / £19.99."
+    },
+    {
+      "ref": "business/atomfall-tops-1-5m-players",
+      "entities": {
+        "games": [{ "id": "atomfall", "name": "Atomfall", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "rebellion", "name": "Rebellion", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 1500000, "unit": "players", "currency": null,
+          "entity": "atomfall", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Atomfall tops 1.5m players",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/AtomfallGame/status/1907156789717602587" } }
+      ],
+      "summary": "Atomfall has surpassed 1.5 million players."
+    },
+    {
+      "ref": "business/krafton-acquires-14m-controlling-stake-in-indian-studio-naut",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "nautilus-mobile", "name": "Nautilus Mobile", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 14000000, "unit": "money", "currency": "USD",
+          "entity": "nautilus-mobile", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-04-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Krafton acquires $14m controlling stake in Indian studio Nautilus Mobile",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-acquires-14m-controlling-stake-in-indian-studio-nautilus-mobile" } }
+      ],
+      "summary": "Krafton has acquired a controlling stake in Indian studio Nautilus Mobile for $14 million."
+    },
+    {
+      "ref": "business/death-stranding-passes-20m-players",
+      "entities": {
+        "games": [{ "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }],
+        "studios": [{ "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 20000000, "unit": "players", "currency": null,
+          "entity": "death-stranding", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Death Stranding passes 20m players",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/HIDEO_KOJIMA_EN/status/1906722421668983204" } }
+      ],
+      "summary": "Death Stranding has passed 20 million players."
+    }
+  ]
+}

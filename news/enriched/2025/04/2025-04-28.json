@@ -1,0 +1,191 @@
+{
+  "date": "2025-04-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/classic-capcom-rpg-breath-of-fire-4-returns-to-pc-as-part-of",
+      "entities": {
+        "games": [
+          {
+            "id": "breath-of-fire-4",
+            "name": "Breath of Fire 4",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "breath-of-fire",
+            "inferred": true
+          },
+          {
+            "id": "realms-of-the-haunting",
+            "name": "Realms of the Haunting",
+            "aliases": [],
+            "genres": ["horror", "adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "gog",
+            "name": "GOG",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "Capcom's classic RPG Breath of Fire 4 has returned to PC via GOG's Preservation Program, alongside Realms of the Haunting and other titles."
+    },
+    {
+      "ref": "business/clair-obscur-expedition-33-sells-1m-copies-in-three-days",
+      "entities": {
+        "games": [
+          {
+            "id": "clair-obscur-expedition-33",
+            "name": "Clair Obscur: Expedition 33",
+            "aliases": [],
+            "genres": ["rpg", "turn-based-strategy"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "clair-obscur-expedition-33",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-04-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Clair Obscur: Expedition 33 sells 1m copies in three days",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/expedition33/status/1916409440011444331"
+          }
+        }
+      ],
+      "summary": "Clair Obscur: Expedition 33 sold 1 million copies within three days of release."
+    },
+    {
+      "ref": "business/resident-evil-4-remake-becomes-fastest-game-in-the-series-to",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil-4-remake",
+            "name": "Resident Evil 4 Remake",
+            "aliases": [],
+            "genres": ["survival-horror", "action-adventure"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 10000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "resident-evil-4-remake",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-04-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Resident Evil 4 Remake becomes fastest game in the series to sell 10m",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/resident-evil-4-remake-becomes-fastest-game-in-the-series-to-sell-10m"
+          }
+        }
+      ],
+      "summary": "Resident Evil 4 Remake became the fastest game in the Resident Evil series to sell 10 million copies."
+    },
+    {
+      "ref": "business/the-elder-scrolls-4-oblivion-remastered-has-clocked-up-over",
+      "entities": {
+        "games": [
+          {
+            "id": "the-elder-scrolls-4-oblivion-remastered",
+            "name": "The Elder Scrolls 4: Oblivion Remastered",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "the-elder-scrolls",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 4000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "the-elder-scrolls-4-oblivion-remastered",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-04-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Oblivion Remastered has clocked up over 4 million players in less than 5 days",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/the-elder-scrolls-4-oblivion-remastered-has-clocked-up-over-4-million-players-in-less-than-5-days"
+          }
+        }
+      ],
+      "summary": "The Elder Scrolls 4: Oblivion Remastered has surpassed 4 million players in under five days."
+    }
+  ]
+}

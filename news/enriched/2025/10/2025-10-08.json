@@ -1,0 +1,180 @@
+{
+  "date": "2025-10-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/silent-hill-f-has-been-added-to-gog-one-of-the-earliest-thir",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-f", "name": "Silent Hill f", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Silent Hill f has been added to GOG, one of the earliest third-party AAA releases the platform has seen."
+    },
+    {
+      "ref": "main_news/powerwash-simulator-2-launches-later-this-month-23rd-october",
+      "entities": {
+        "games": [
+          { "id": "powerwash-simulator-2", "name": "PowerWash Simulator 2", "aliases": [], "genres": ["simulation"], "franchise": "powerwash-simulator", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-23", "unit": "date", "currency": null,
+          "entity": "powerwash-simulator-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "23rd October for PC, PS5, Switch 2, Xbox Series S/X",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/powerwash-simulator-2-launches-later-this-month" } }
+      ],
+      "summary": "PowerWash Simulator 2 launches on 23 October 2025 for PC, PS5, Switch 2, and Xbox Series S/X."
+    },
+    {
+      "ref": "main_news/elon-musk-says-his-xai-company-will-release-a-great-ai-gener",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "elon-musk", "name": "Elon Musk", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Elon Musk says his xAI company will release a 'great AI-generated game' by the end of 2026."
+    },
+    {
+      "ref": "main_news/nintendo-posts-mysterious-close-to-you-animated-short-film-u",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "Nintendo posted a mysterious 'Close to You' animated short film, with its connection to any film or game project unclear."
+    },
+    {
+      "ref": "free_games_subscription/alan-wake-2-is-available-on-playstation-plus",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Alan Wake 2 is available on PlayStation Plus."
+    },
+    {
+      "ref": "business/epic-sues-fortnite-fans-who-used-over-20-000-bots-to-get-pai",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Epic Games is suing Fortnite fans it accuses of using over 20,000 bots to falsify their islands' popularity and get paid tens of thousands of dollars."
+    },
+    {
+      "ref": "business/breakout-hit-megabonk-sells-more-than-a-million-copies-on-st",
+      "entities": {
+        "games": [
+          { "id": "megabonk", "name": "Megabonk", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "megabonk", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-08", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Megabonk sells more than a million copies on Steam",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/breakout-hit-megabonk-sells-more-than-a-million-copies-on-steam" } }
+      ],
+      "summary": "Breakout hit Megabonk has sold more than a million copies on Steam."
+    },
+    {
+      "ref": "business/nintendo-is-seeking-4-5-million-in-damages-from-a-reddit-mod",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Nintendo is seeking $4.5 million in damages from a Reddit moderator it says widely pirated Switch games."
+    },
+    {
+      "ref": "rumours/playstation-plus-is-reportedly-adding-silent-hill-2-remake-i",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2-remake", "name": "Silent Hill 2 Remake", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "rumour"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-10-21", "unit": "date", "currency": null,
+          "entity": "silent-hill-2-remake", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-08", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "expected to be added October 21st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-plus-is-reportedly-adding-a-surprise-2024-remake-this-month/" } }
+      ],
+      "summary": "Rumour that PlayStation Plus is adding the Silent Hill 2 Remake, reportedly on 21 October 2025."
+    }
+  ]
+}

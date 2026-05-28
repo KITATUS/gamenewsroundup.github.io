@@ -1,0 +1,166 @@
+{
+  "date": "2025-02-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/psn-was-down-for-almost-24-hours-globally-over-the-weekend",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }],
+        "platforms": [{ "id": "psn", "name": "PlayStation Network", "aliases": ["PSN", "PS+"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "The PlayStation Network was down globally for almost 24 hours over the weekend, with PS Plus members offered five days of PS Plus as an apology."
+    },
+    {
+      "ref": "free_games_subscription/wario-land-4-is-coming-to-switch-online-s-gba-library-this-w",
+      "entities": {
+        "games": [{ "id": "wario-land-4", "name": "Wario Land 4", "aliases": [], "genres": ["platformer"], "franchise": "wario-land", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Switch Online"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "release-date", "subscription"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-02-14",
+          "unit": "date",
+          "currency": null,
+          "entity": "wario-land-4",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Feb 14th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/wario-land-4-gba-switch-online/" }
+        }
+      ],
+      "summary": "Wario Land 4 is coming to Nintendo Switch Online's Game Boy Advance library on 14 February 2025."
+    },
+    {
+      "ref": "business/sega-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 322300000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "sega",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-10",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥322.3 billion ($2.1 billion, down 8.1% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-revenues-drop-8-to-21bn" }
+        },
+        {
+          "metric": "revenue",
+          "value": 2100000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "sega",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-10",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥322.3 billion ($2.1 billion, down 8.1% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-revenues-drop-8-to-21bn" }
+        },
+        {
+          "metric": "operating_income",
+          "value": 43700000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "sega",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-10",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥43.7 billion ($287.9 million, down 20.8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-revenues-drop-8-to-21bn" }
+        },
+        {
+          "metric": "operating_income",
+          "value": 287900000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "sega",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-02-10",
+          "period": "cumulative",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating income: ¥43.7 billion ($287.9 million, down 20.8% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/sega-revenues-drop-8-to-21bn" }
+        }
+      ],
+      "summary": "Sega reported net sales of ¥322.3 billion (about $2.1 billion) for the nine months ended 31 December 2024, down 8.1% year-on-year."
+    },
+    {
+      "ref": "business/sonic-x-shadow-generations-has-sold-2-million-copies",
+      "entities": {
+        "games": [{ "id": "sonic-x-shadow-generations", "name": "Sonic X Shadow Generations", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "sonic-x-shadow-generations",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-02-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sonic X Shadow Generations has sold 2 million copies",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sonic-x-shadow-generations-has-sold-2-million-copies/" }
+        }
+      ],
+      "summary": "Sonic X Shadow Generations has sold 2 million copies."
+    },
+    {
+      "ref": "business/roblox-sues-rule-breaking-third-party-marketplace-playerauct",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "zynga", "name": "Zynga", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }],
+        "platforms": [{ "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Roblox has sued third-party marketplace PlayerAuctions, accusing it of infringing on its property and disrupting the virtual economy."
+    }
+  ]
+}

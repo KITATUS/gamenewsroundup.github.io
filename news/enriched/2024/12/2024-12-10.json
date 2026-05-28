@@ -1,0 +1,175 @@
+{
+  "date": "2024-12-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/suicide-squad-s-current-season-will-be-its-last-offline-mode",
+      "entities": {
+        "games": [{ "id": "suicide-squad-kill-the-justice-league", "name": "Suicide Squad: Kill the Justice League", "aliases": ["Suicide Squad"], "genres": ["tps", "shooter", "action-adventure"], "franchise": "suicide-squad", "inferred": true }],
+        "studios": [{ "id": "rocksteady-studios", "name": "Rocksteady Studios", "aliases": [], "publisher": "warner-bros-games", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "shutdown"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-01", "unit": "date", "currency": null,
+          "entity": "suicide-squad-kill-the-justice-league", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Final seasonal update launches January 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/suicide-squads-current-season-will-be-its-last-offline-mode-coming-this-week/" } },
+        { "metric": "release_date", "value": "2024-12-10", "unit": "date", "currency": null,
+          "entity": "suicide-squad-kill-the-justice-league", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Long-promised offline mode releases Tuesday, December 10",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/suicide-squads-current-season-will-be-its-last-offline-mode-coming-this-week/" } }
+      ],
+      "summary": "Suicide Squad's current season will be its last, with a long-promised offline mode arriving on 10 December 2024 and the final seasonal update launching January 2025."
+    },
+    {
+      "ref": "main_news/cyberpunk-2077-is-getting-a-surprise-update-2-2",
+      "entities": {
+        "games": [{ "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }],
+        "studios": [{ "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "twitch", "name": "Twitch", "aliases": [], "inferred": false },
+          { "id": "youtube", "name": "YouTube", "aliases": [], "inferred": false },
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Cyberpunk 2077 is getting a surprise update 2.2, to be detailed in a live stream broadcast on Twitch and YouTube."
+    },
+    {
+      "ref": "main_news/lego-fortnite-is-adding-a-new-social-roleplay-experience-cal",
+      "entities": {
+        "games": [
+          { "id": "lego-fortnite", "name": "Lego Fortnite", "aliases": [], "genres": ["survival", "sandbox", "adventure"], "franchise": "fortnite", "inferred": true },
+          { "id": "brick-life", "name": "Brick Life", "aliases": [], "genres": ["life-sim"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-12-12", "unit": "date", "currency": null,
+          "entity": "brick-life", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launching on December 12, it will let users explore a Lego city, build homes, socialise and work different jobs.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/lego-fortnite-is-adding-a-new-social-roleplay-experience-called-brick-life/" } }
+      ],
+      "summary": "Lego Fortnite is adding a new social roleplay experience called Brick Life, launching 12 December 2024."
+    },
+    {
+      "ref": "main_news/palworld-ditches-pok-ball-style-summoning-mechanic-amid-nint",
+      "entities": {
+        "games": [{ "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world", "action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Palworld is ditching its Pokeball-style summoning mechanic amid an ongoing legal battle with Nintendo."
+    },
+    {
+      "ref": "main_news/bandai-namco-s-cancelled-mmorpg-blue-protocol-is-coming-back",
+      "entities": {
+        "games": [
+          { "id": "blue-protocol", "name": "Blue Protocol", "aliases": ["Star Resonance"], "genres": ["mmorpg", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [{ "id": "bokura", "name": "Bokura", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "shutdown", "beta-demo"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-01-18", "unit": "date", "currency": null,
+          "entity": "blue-protocol", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Blue Protocol's servers are due to go dark on 18th January 2025.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/bandai-namcos-cancelled-mmorpg-blue-protocol-is-coming-back-as-star-resonance" } }
+      ],
+      "summary": "Bandai Namco's cancelled MMORPG Blue Protocol is coming back as Star Resonance via Tencent-funded developer Bokura."
+    },
+    {
+      "ref": "business/capcom-is-holding-a-game-development-competition-for-japanes",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "re-engine", "name": "RE Engine", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Capcom is holding a game development competition for Japanese students using its RE Engine, which could lead to commercialisation of winning entries."
+    },
+    {
+      "ref": "business/the-entire-itch-io-site-was-temporarily-taken-down-by-funko",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "itch-io", "name": "itch.io", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "The entire itch.io site was temporarily taken down by Funko after a bogus brand-protection report was filed with its domain registrar."
+    },
+    {
+      "ref": "business/infinity-nikki-has-topped-10-million-downloads-in-just-four",
+      "entities": {
+        "games": [{ "id": "infinity-nikki", "name": "Infinity Nikki", "aliases": [], "genres": ["adventure", "open-world", "life-sim"], "franchise": "nikki", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 10000000, "unit": "downloads", "currency": null,
+          "entity": "infinity-nikki", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-10", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Infinity Nikki has topped 10 million downloads in just four days",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/infinity-nikki-has-topped-10-million-downloads-in-just-four-days" } }
+      ],
+      "summary": "Infinity Nikki has topped 10 million downloads in just four days."
+    },
+    {
+      "ref": "business/marvel-rivals-opening-weekend-sees-10m-players-join-in",
+      "entities": {
+        "games": [{ "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter", "tps", "shooter"], "franchise": "marvel", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 10000000, "unit": "players", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-10", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Marvel Rivals opening weekend sees 10m players join in",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/marvel-rivals-opening-weekend-sees-10m-players-join-in" } }
+      ],
+      "summary": "Marvel Rivals saw 10 million players join in during its opening weekend."
+    }
+  ]
+}

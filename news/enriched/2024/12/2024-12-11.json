@@ -1,0 +1,117 @@
+{
+  "date": "2024-12-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/cyberpunk-2077-update-adds-new-customization-and-photo-mode",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "A Cyberpunk 2077 update adds new customization and photo mode features."
+    },
+    {
+      "ref": "main_news/fortnite-commits-to-rock-band-like-festival-musical-mode-sup",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Fortnite has committed to supporting its Rock Band-like Festival musical mode through 2025 and beyond."
+    },
+    {
+      "ref": "free_games_subscription/december-s-first-playstation-plus-classics-games-have-been-r",
+      "entities": {
+        "games": [
+          { "id": "sly-2-band-of-thieves", "name": "Sly 2: Band of Thieves", "aliases": [], "genres": ["platformer", "stealth"], "franchise": "sly-cooper", "inferred": true },
+          { "id": "sly-3-honor-among-thieves", "name": "Sly 3: Honor Among Thieves", "aliases": [], "genres": ["platformer", "stealth"], "franchise": "sly-cooper", "inferred": true },
+          { "id": "jak-and-daxter-the-precursor-legacy", "name": "Jak and Daxter: The Precursor Legacy", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "jak-and-daxter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation Plus"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PlayStation Plus Classics"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "December's first PlayStation Plus Classics games have been released, comprising Sly 2: Band of Thieves, Sly 3: Honor Among Thieves, and Jak and Daxter: The Precursor Legacy."
+    },
+    {
+      "ref": "business/people-can-fly-is-suspending-or-laying-off-120-employees",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": ["PCF"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 120, "unit": "people", "currency": null,
+          "entity": "people-can-fly", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-12-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "People Can Fly is ‘suspending or laying off’ 120 employees",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/people-can-fly-is-suspending-or-laying-off-120-employees/" } }
+      ],
+      "summary": "People Can Fly is suspending or laying off 120 employees and plans to scale back its self-publishing strategy."
+    },
+    {
+      "ref": "business/build-a-rocket-boy-acquires-playfusion",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build A Rocket Boy", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "playfusion", "name": "PlayFusion", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mark-gerhard", "name": "Mark Gerhard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition", "leadership-change"],
+      "facts": [],
+      "summary": "Build A Rocket Boy has acquired PlayFusion, with PlayFusion CEO and CTO Mark Gerhard appointed co-CEO at Build A Rocket Boy."
+    },
+    {
+      "ref": "business/ftc-starts-issuing-refunds-to-epic-games-users-following-set",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "The FTC has started issuing refunds to Epic Games users following a settlement."
+    }
+  ]
+}

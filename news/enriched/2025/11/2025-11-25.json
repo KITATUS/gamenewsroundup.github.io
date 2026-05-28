@@ -1,0 +1,62 @@
+{
+  "date": "2025-11-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-steam-awards-2025-nominations-are-active",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nominations for the Steam Awards 2025 are now active on Steam."
+    },
+    {
+      "ref": "main_news/far-cry-getting-tv-adaptation-from-rob-mac-and-alien-earth-c",
+      "entities": {
+        "games": [
+          { "id": "far-cry", "name": "Far Cry", "aliases": [], "genres": ["fps"], "franchise": "far-cry", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "rob-mac", "name": "Rob Mac", "aliases": [], "inferred": false },
+          { "id": "noah-hawley", "name": "Noah Hawley", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Far Cry TV adaptation is being developed by Rob Mac and Alien Earth creator Noah Hawley."
+    },
+    {
+      "ref": "main_news/assassin-s-creed-shadows-attack-on-titan-crossover-is-now-av",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": [], "genres": ["action-rpg", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "partnership", "free-game"],
+      "facts": [],
+      "summary": "The Assassin's Creed Shadows Attack on Titan crossover is now available, with the free quest accessible for only a month."
+    }
+  ]
+}

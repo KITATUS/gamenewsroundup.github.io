@@ -1,0 +1,238 @@
+{
+  "date": "2024-05-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dead-by-daylight-roguelite-gets-a-surprise-release-and-2-mil",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-by-daylight", "inferred": true },
+          { "id": "what-the-fog", "name": "What the Fog", "aliases": [], "genres": ["roguelike"], "franchise": "dead-by-daylight", "inferred": false }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": ["Behaviour"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "free-game", "announcement", "dlc-expansion"],
+      "facts": [
+        { "metric": "price", "value": 4.99, "unit": "price", "currency": "USD",
+          "entity": "what-the-fog", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game is also available on Steam for $4.99 / £4.29",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dead-by-daylight-roguelite-gets-a-surprise-release-and-2-million-copies-are-free/" } },
+        { "metric": "price", "value": 4.29, "unit": "price", "currency": "GBP",
+          "entity": "what-the-fog", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game is also available on Steam for $4.99 / £4.29",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dead-by-daylight-roguelite-gets-a-surprise-release-and-2-million-copies-are-free/" } },
+        { "metric": "release_date", "value": "2024-06-03", "unit": "date", "currency": null,
+          "entity": "dead-by-daylight", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Dungeons & Dragons chapter launches on June 3",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dead-by-daylight-roguelite-gets-a-surprise-release-and-2-million-copies-are-free/" } },
+        { "metric": "announce_date", "value": "2024-08-06", "unit": "date", "currency": null,
+          "entity": "dead-by-daylight", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "more info on the Castlevania chapter will be revealed on August 6",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dead-by-daylight-roguelite-gets-a-surprise-release-and-2-million-copies-are-free/" } }
+      ],
+      "summary": "Behaviour Interactive surprise-released a Dead by Daylight roguelite spin-off called What the Fog, giving away two million free copies and selling it on Steam for $4.99 / £4.29."
+    },
+    {
+      "ref": "main_news/amazon-has-greenlit-a-tomb-raider-tv-series-from-phoebe-wall",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "phoebe-waller-bridge", "name": "Phoebe Waller-Bridge", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Amazon has greenlit a Tomb Raider TV series with Phoebe Waller-Bridge serving as writer and executive producer."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been",
+      "entities": {
+        "games": [
+          { "id": "brothers-a-tale-of-two-sons", "name": "Brothers: A Tale of Two Sons", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "chants-of-sennaar", "name": "Chants of Sennaar", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "ea-sports-nhl-24", "name": "EA Sports NHL 24", "aliases": [], "genres": ["sports"], "franchise": "nhl", "inferred": true },
+          { "id": "immortals-of-aveum", "name": "Immortals of Aveum", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "senuas-saga-hellblade-ii", "name": "Senua's Saga: Hellblade II", "aliases": ["Senua’s Saga: Hellblade II"], "genres": ["action-adventure"], "franchise": "hellblade", "inferred": true },
+          { "id": "galacticare", "name": "Galacticare", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "hauntii", "name": "Hauntii", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "moving-out-2", "name": "Moving Out 2", "aliases": [], "genres": ["party", "simulation"], "franchise": "moving-out", "inferred": true },
+          { "id": "humanity", "name": "Humanity", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "lords-of-the-fallen", "name": "Lords of the Fallen", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "lords-of-the-fallen", "inferred": true },
+          { "id": "firework", "name": "Firework", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "rolling-hills", "name": "Rolling Hills", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "chicory-a-colorful-tale", "name": "Chicory: A Colorful Tale", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "farworld-pioneers", "name": "Farworld Pioneers", "aliases": [], "genres": ["survival", "sandbox"], "franchise": null, "inferred": true },
+          { "id": "jojos-bizarre-adventure-all-star-battle", "name": "JoJo's Bizarre Adventure: All-Star Battle", "aliases": ["JoJo’s Bizarre Adventure: All-Star Battle"], "genres": ["fighting"], "franchise": "jojos-bizarre-adventure", "inferred": true },
+          { "id": "pac-man-museum-plus", "name": "Pac-man Museum Plus", "aliases": [], "genres": ["arcade"], "franchise": "pac-man", "inferred": true },
+          { "id": "little-witch-in-the-woods", "name": "Little Witch in the Woods", "aliases": [], "genres": ["simulation", "adventure"], "franchise": null, "inferred": true },
+          { "id": "railway-empire-ii", "name": "Railway Empire II", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "railway-empire", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": [], "inferred": false },
+          { "id": "ea-play", "name": "EA Play", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-05-14", "unit": "date", "currency": null,
+          "entity": "brothers-a-tale-of-two-sons", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Brothers: A Tale of Two Sons (Cloud, Console, and PC) – May 14",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-15", "unit": "date", "currency": null,
+          "entity": "chants-of-sennaar", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Chants of Sennaar (Cloud, Console, and PC) – May 15",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-16", "unit": "date", "currency": null,
+          "entity": "ea-sports-nhl-24", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "EA Sports NHL 24 (Cloud) EA Play – May 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-16", "unit": "date", "currency": null,
+          "entity": "immortals-of-aveum", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Immortals of Aveum (Cloud, PC, and Xbox Series X|S) EA Play – May 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-21", "unit": "date", "currency": null,
+          "entity": "senuas-saga-hellblade-ii", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Senua’s Saga: Hellblade II (Cloud, PC, and Xbox Series X|S) – May 21",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-23", "unit": "date", "currency": null,
+          "entity": "galacticare", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Galacticare (Cloud, PC, Xbox Series X|S) – May 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-23", "unit": "date", "currency": null,
+          "entity": "hauntii", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Hauntii (Cloud, Console, and PC) – May 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-28", "unit": "date", "currency": null,
+          "entity": "moving-out-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Moving Out 2 (Cloud, Console, and PC) – May 28",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-30", "unit": "date", "currency": null,
+          "entity": "humanity", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Humanity (Cloud, Console, and PC) – May 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-05-30", "unit": "date", "currency": null,
+          "entity": "lords-of-the-fallen", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lords of the Fallen (Cloud, PC, and Xbox Series X|S) – May 30",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-06-04", "unit": "date", "currency": null,
+          "entity": "firework", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Firework (PC) – June 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } },
+        { "metric": "release_date", "value": "2024-06-04", "unit": "date", "currency": null,
+          "entity": "rolling-hills", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rolling Hills (Cloud, Console, and PC) – June 4",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-8/" } }
+      ],
+      "summary": "Microsoft revealed the new Xbox Game Pass titles arriving across Cloud, console and PC through May and early June, along with the games leaving the service."
+    },
+    {
+      "ref": "business/fortnite-to-appeal-1-1m-fine-over-unfair-commercial-practice",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Fortnite is set to appeal a 1.1 million euro fine from the Dutch regulator ACM over what it called unfair commercial practices aimed at children."
+    },
+    {
+      "ref": "business/two-joy-con-lawsuits-against-nintendo-are-dismissed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Mario maker"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "joy-con", "name": "Joy-Con", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Two Joy-Con drift lawsuits against Nintendo, Diaz vs. Nintendo and Carbajal vs. Nintendo, have been dismissed at the request of both Nintendo and the parents involved."
+    },
+    {
+      "ref": "business/xbox-s-transparency-report-h2",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Xbox's H2 Transparency Report detailed 27.44 million user reports in the six months ending December 31, 2023, up from 10.31 million, alongside enforcement and appeal figures."
+    },
+    {
+      "ref": "rumours/the-lego-zelda-great-deku-tree-will-be-released-in-september",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-ocarina-of-time", "name": "The Legend of Zelda: Ocarina of Time", "aliases": ["The Legend of Zelda Ocarina of Time"], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true },
+          { "id": "the-legend-of-zelda-breath-of-the-wild", "name": "The Legend of Zelda: Breath of the Wild", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-lego-group", "name": "The Lego Group", "aliases": ["Lego"], "inferred": true },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "rumour"],
+      "facts": [
+        { "metric": "price", "value": 300, "unit": "price", "currency": "EUR",
+          "entity": "lego-zelda-great-deku-tree", "entity_type": "product", "scope": "product",
+          "as_of": "2024-05-15", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The Lego Zelda Great Deku Tree will be released in September for €300, it’s claimed",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-lego-zelda-great-deku-tree-will-be-released-in-september-for-e300-its-claimed/" } }
+      ],
+      "summary": "A rumour claims the Lego Zelda Great Deku Tree set will release in September for €300, featuring tree designs based on Ocarina of Time and Breath of the Wild."
+    }
+  ]
+}

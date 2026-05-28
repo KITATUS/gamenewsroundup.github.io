@@ -1,0 +1,285 @@
+{
+  "date": "2024-08-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/star-wars-jedi-survivor-is-coming-to-ps4-and-xbox-one-in-sep",
+      "entities": {
+        "games": [
+          { "id": "star-wars-jedi-survivor", "name": "Star Wars Jedi: Survivor", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date", "update-patch"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-17", "unit": "date", "currency": null,
+          "entity": "star-wars-jedi-survivor", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 17th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/star-wars-jedi-survivor-is-coming-to-ps4-and-xbox-one-in-september/" } },
+        { "metric": "price", "value": 49.99, "unit": "price", "currency": "USD",
+          "entity": "star-wars-jedi-survivor", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 17th ($49.99)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/star-wars-jedi-survivor-is-coming-to-ps4-and-xbox-one-in-september/" } }
+      ],
+      "summary": "Star Wars Jedi: Survivor is launching on PS4 and Xbox One on 17 September 2024 for $49.99, with a PC technical update to follow."
+    },
+    {
+      "ref": "main_news/fall-guys-is-now-in-fortnite",
+      "entities": {
+        "games": [
+          { "id": "fall-guys", "name": "Fall Guys", "aliases": [], "genres": ["party", "platformer"], "franchise": null, "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mediatonic", "name": "Mediatonic", "aliases": [], "publisher": "epic-games", "inferred": true },
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "update-patch"],
+      "facts": [],
+      "summary": "Fall Guys is now playable inside Fortnite's battle royale via an in-game obstacle course, in an apparently permanent crossover."
+    },
+    {
+      "ref": "main_news/acclaimed-biking-game-descenders-is-getting-an-extreme-sport",
+      "entities": {
+        "games": [
+          { "id": "descenders", "name": "Descenders", "aliases": [], "genres": ["sports", "racing"], "franchise": "descenders", "inferred": true },
+          { "id": "descenders-next", "name": "Descenders Next", "aliases": [], "genres": ["sports"], "franchise": "descenders", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ragesquid", "name": "RageSquid", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "descenders-next", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "\"Descenders Next\" - 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/acclaimed-biking-game-descenders-is-getting-an-extreme-sports-sort-of-sequel" } }
+      ],
+      "summary": "Descenders Next, an extreme-sports follow-up to Descenders featuring snowboarding and mountainboarding, was announced for 2025."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-s-castlevania-collaboration-adds-dracula-an",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "dracula", "name": "Dracula", "aliases": [], "inferred": false },
+          { "id": "trevor-belmont", "name": "Trevor Belmont", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "partnership", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-27", "unit": "date", "currency": null,
+          "entity": "dead-by-daylight", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "it'll get its full release across all platforms on 27th August",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/dead-by-daylights-castlevania-collaboration-adds-dracula-and-trevor-belmont-later-this-month" } },
+        { "metric": "price", "value": 7.99, "unit": "price", "currency": "USD",
+          "entity": "dead-by-daylight", "entity_type": "game", "scope": "product",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "it'll cost around $7.99 USD",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/dead-by-daylights-castlevania-collaboration-adds-dracula-and-trevor-belmont-later-this-month" } }
+      ],
+      "summary": "Dead by Daylight's Castlevania chapter, adding Dracula and Trevor Belmont, releases on all platforms on 27 August 2024 for around $7.99."
+    },
+    {
+      "ref": "main_news/five-nights-at-freddy-s-x-dead-by-daylight-crossover-announc",
+      "entities": {
+        "games": [
+          { "id": "five-nights-at-freddys", "name": "Five Nights at Freddy's", "aliases": [], "genres": ["survival-horror"], "franchise": "five-nights-at-freddys", "inferred": true },
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "dead-by-daylight", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Five Nights at Freddy’s x Dead by Daylight crossover announced for 2025",
+          "source": { "name": "My Nintendo News", "domain": "mynintendonews.com", "url": "https://mynintendonews.com/2024/08/06/five-nights-at-freddys-x-dead-by-daylight-crossover-announced-for-2025/" } }
+      ],
+      "summary": "A Five Nights at Freddy's crossover for Dead by Daylight was announced for 2025."
+    },
+    {
+      "ref": "free_games_subscription/august-s-playstation-plus-essential-games-are-now-live",
+      "entities": {
+        "games": [
+          { "id": "lego-star-wars-the-skywalker-saga", "name": "Lego Star Wars: The Skywalker Saga", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "five-nights-at-freddys-security-breach", "name": "Five Nights at Freddy's Security Breach", "aliases": [], "genres": ["survival-horror"], "franchise": "five-nights-at-freddys", "inferred": true },
+          { "id": "ender-lilies-quietus-of-the-knights", "name": "Ender Lilies: Quietus of the Knights", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "August's PlayStation Plus Essential lineup is live, offering Lego Star Wars: The Skywalker Saga, Five Nights at Freddy's Security Breach, and Ender Lilies: Quietus of the Knights."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-august-line-up-announced",
+      "entities": {
+        "games": [
+          { "id": "creatures-of-ava", "name": "Creatures of Ava", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "crash-bandicoot-n-sane-trilogy", "name": "Crash Bandicoot N. Sane Trilogy", "aliases": [], "genres": ["platformer"], "franchise": "crash-bandicoot", "inferred": true },
+          { "id": "mafia-definitive-edition", "name": "Mafia: Definitive Edition", "aliases": [], "genres": ["action-adventure"], "franchise": "mafia", "inferred": true },
+          { "id": "airborne-kingdom", "name": "Airborne Kingdoms", "aliases": ["Airborne Kingdom"], "genres": ["strategy", "simulation"], "franchise": null, "inferred": true },
+          { "id": "offworld-trading-company", "name": "Offworld Trading Company", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true },
+          { "id": "shadow-warrior-3", "name": "Shadow Warrior 3", "aliases": [], "genres": ["fps"], "franchise": "shadow-warrior", "inferred": true },
+          { "id": "the-texas-chain-saw-massacre", "name": "The Texas Chain Saw Massacre", "aliases": [], "genres": ["survival-horror"], "franchise": "the-texas-chain-saw-massacre", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-series-s-x", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Cloud", "aliases": ["Cloud"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-07", "unit": "date", "currency": null,
+          "entity": "creatures-of-ava", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Creatures of Ava (Cloud, PC, and Xbox Series S/X) - 7th August",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-august-line-up-announced" } },
+        { "metric": "release_date", "value": "2024-08-08", "unit": "date", "currency": null,
+          "entity": "crash-bandicoot-n-sane-trilogy", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Crash Bandicoot N. Sane Trilogy (Cloud, Console, and PC) - 8th August",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-august-line-up-announced" } },
+        { "metric": "release_date", "value": "2024-08-13", "unit": "date", "currency": null,
+          "entity": "mafia-definitive-edition", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Mafia: Definitive Edition (Cloud, Console, and PC) - 13th August",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-game-pass-august-line-up-announced" } }
+      ],
+      "summary": "Xbox Game Pass's August lineup adds Creatures of Ava, Crash Bandicoot N. Sane Trilogy, and Mafia: Definitive Edition, with four titles leaving on 15 August."
+    },
+    {
+      "ref": "business/playstation-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 2400000, "unit": "units", "currency": null,
+          "entity": "ps5", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-08-07", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "PS5 Sales: 2.4 million units, down from 3.3 million last year",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-61m-as-sonys-year-on-year-q1-hardware-sales-fall-but-operating-income-rises/" } },
+        { "metric": "operating_income", "value": 65200000000, "unit": "money", "currency": "JPY",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating Income: Up 32%, reaching ¥65.2 billion ($443 million)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-61m-as-sonys-year-on-year-q1-hardware-sales-fall-but-operating-income-rises/" } },
+        { "metric": "operating_income", "value": 443000000, "unit": "money", "currency": "USD",
+          "entity": "sony-interactive-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-07", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating Income: Up 32%, reaching ¥65.2 billion ($443 million)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-61m-as-sonys-year-on-year-q1-hardware-sales-fall-but-operating-income-rises/" } },
+        { "metric": "lifetime_unit_sales", "value": 61700000, "unit": "units", "currency": null,
+          "entity": "ps5", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-08-07", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "PS5 Sales: 61.7 million units sold to date",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ps5-hits-61m-as-sonys-year-on-year-q1-hardware-sales-fall-but-operating-income-rises/" } }
+      ],
+      "summary": "Sony's Q1 results show PS5 sales of 2.4 million units (down year-on-year), operating income up 32% to ¥65.2 billion ($443 million), and 61.7 million PS5s sold to date."
+    },
+    {
+      "ref": "business/square-enix-q1-results",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-rebirth", "name": "Final Fantasy 7 Rebirth", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "final-fantasy-16", "name": "Final Fantasy 16", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "final-fantasy-pixel-remasters", "name": "Final Fantasy Pixel Remasters", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 18.4, "unit": "percent", "currency": null,
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-07", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "The company's overall net sales dropped by 18.4 percent year-on-year for the most recent quarter.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/square-enix-sales-drop-year-on-year-despite-release-of-final-fantasy-7-rebirth" } }
+      ],
+      "summary": "Square Enix's net sales fell 18.4% year-on-year in its most recent quarter, driven partly by lower new-game sales."
+    },
+    {
+      "ref": "rumours/warner-bros-is-reportedly-considering-selling-a-stake-in-its",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat", "name": "Mortal Kombat", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros", "name": "Warner Bros.", "aliases": ["Warner Bros. Discovery", "Warner"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jb-perrette", "name": "JB Perrette", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Warner Bros. is reportedly considering selling a stake in its video games business, which is built around Mortal Kombat, Game of Thrones, DC, and Harry Potter."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "date": "2024-09-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/watch-dogs-movie-finishes-filming",
+      "entities": {
+        "games": [{ "id": "watch-dogs", "name": "Watch Dogs", "aliases": [], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "watch-dogs", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Filming has wrapped on the Watch Dogs movie, which was announced nearly a decade ago."
+    },
+    {
+      "ref": "main_news/original-flappy-bird-creator-denounces-crypto-backed-re-rele",
+      "entities": {
+        "games": [{ "id": "flappy-bird", "name": "Flappy Bird", "aliases": [], "genres": ["arcade"], "franchise": "flappy-bird", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "dong-nguyen", "name": "Dong Nguyen", "aliases": ["Flappy Bird creator"], "inferred": true }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The original Flappy Bird creator denounced a crypto-backed re-release, stating he has no relation to it and does not support crypto."
+    },
+    {
+      "ref": "business/penny-s-big-breakaway-studio-evening-star-announces-another",
+      "entities": {
+        "games": [{ "id": "pennys-big-breakaway", "name": "Penny's Big Breakaway", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "evening-star", "name": "Evening Star", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 6, "unit": "people", "currency": null,
+          "entity": "evening-star", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "6 team members are affected",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/pennys-big-breakaway-studio-evening-star-announces-another-half-a-dozen-layoffs" } }
+      ],
+      "summary": "Penny's Big Breakaway studio Evening Star announced another round of layoffs affecting six team members."
+    },
+    {
+      "ref": "business/core-team-of-immortals-of-aveum-developers-joins-rockstar-co",
+      "entities": {
+        "games": [{ "id": "immortals-of-aveum", "name": "Immortals of Aveum", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [
+          { "id": "ascendant-studios", "name": "Ascendant Studios", "aliases": ["Ascendent Studios"], "publisher": null, "inferred": false },
+          { "id": "absurd-ventures", "name": "Absurd Ventures", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "absurd-marin", "name": "Absurd Marin", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "dan-houser", "name": "Dan Houser", "aliases": ["Rockstar co-founder"], "inferred": false }]
+      },
+      "event_tags": ["layoffs", "studio-opening", "leadership-change"],
+      "facts": [
+        { "metric": "headcount", "value": 20, "unit": "people", "currency": null,
+          "entity": "absurd-marin", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-16", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "a \"core team\" of around 20 employees has now decamped to Rockstar co-founder Dan Houser's Absurd Ventures",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/core-team-of-immortals-of-aveum-developers-joins-rockstar-co-founder-dan-housers-absurd-ventures" } },
+        { "metric": "layoffs_count", "value": 40, "unit": "people", "currency": null,
+          "entity": "ascendant-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-16", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "lay off 45 percent of its staff, equating to around 40 employees",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/core-team-of-immortals-of-aveum-developers-joins-rockstar-co-founder-dan-housers-absurd-ventures" } }
+      ],
+      "summary": "A core team of around 20 former Immortals of Aveum developers from Ascendant Studios has joined Dan Houser's Absurd Ventures to form a new studio, Absurd Marin."
+    },
+    {
+      "ref": "business/embracer-s-potential-sale-cancelled-for-metro-s-4a-games-and",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "4a-games", "name": "4A Games", "aliases": [], "publisher": "embracer-group", "inferred": false },
+          { "id": "zen-studios", "name": "Zen Studios", "aliases": [], "publisher": "embracer-group", "inferred": false },
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [{ "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 247000000, "unit": "money", "currency": "USD",
+          "entity": "saber-interactive", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "included as an option in the $247 million sale of the Saber Interactive division to a group of private investors",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/embracers-potential-sale-cancelled-for-metros-4a-games-and-pinball-dev-zen-studios/" } }
+      ],
+      "summary": "Embracer cancelled the option to include Metro developer 4A Games and pinball developer Zen Studios in the $247 million Saber Interactive sale, so both studios will remain at Embracer."
+    },
+    {
+      "ref": "rumours/diablo-4-has-reportedly-earned-blizzard-150m-from-microtrans",
+      "entities": {
+        "games": [{ "id": "diablo-4", "name": "Diablo 4", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true }],
+        "studios": [{ "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "harrison-froeschke", "name": "Harrison Froeschke", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["earnings", "rumour"],
+      "facts": [
+        { "metric": "revenue", "value": 150000000, "unit": "money", "currency": "USD",
+          "entity": "diablo-4", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "driven over $150m [microtransaction] lifetime revenue",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/diablo-4-has-reportedly-earned-blizzard-150m-from-microtransactions" } }
+      ],
+      "summary": "A since-deleted LinkedIn claim from a Blizzard product manager reportedly states that Diablo 4 has earned over $150m in lifetime microtransaction revenue."
+    }
+  ]
+}

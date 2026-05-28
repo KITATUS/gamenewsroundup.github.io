@@ -1,0 +1,176 @@
+{
+  "date": "2024-07-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/star-wars-galaxy-of-heroes-is-now-available-on-pc",
+      "entities": {
+        "games": [
+          {
+            "id": "star-wars-galaxy-of-heroes",
+            "name": "Star Wars: Galaxy of Heroes",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "star-wars",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2015-11-01",
+          "unit": "date",
+          "currency": null,
+          "entity": "star-wars-galaxy-of-heroes",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "EA originally released Star Wars: Galaxy of Heroes for mobile in November 2015.",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/star-wars-galaxy-of-heroes-is-now-available-on-pc/"
+          }
+        }
+      ],
+      "summary": "Star Wars: Galaxy of Heroes, originally a 2015 mobile game, is now available on PC."
+    },
+    {
+      "ref": "main_news/amazon-s-fallout-show-has-received-16-emmy-nominations",
+      "entities": {
+        "games": [
+          {
+            "id": "fallout",
+            "name": "Fallout",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "fallout",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "walton-goggins", "name": "Walton Goggins", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Amazon's Fallout TV show has received 16 Emmy nominations, including Outstanding Drama Series."
+    },
+    {
+      "ref": "main_news/orcs-must-die-deathtrap-announced-for-xbox-series-s-x-and-pc",
+      "entities": {
+        "games": [
+          {
+            "id": "orcs-must-die-deathtrap",
+            "name": "Orcs Must Die! Deathtrap",
+            "aliases": [],
+            "genres": ["tower-defense", "action"],
+            "franchise": "orcs-must-die",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "robot-entertainment",
+            "name": "Robot Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Orcs Must Die! Deathtrap, the fifth game in Robot Entertainment's series, was announced for Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/nintendo-s-teaser-leads-to-new-famicom-detective-club-game-r",
+      "entities": {
+        "games": [
+          {
+            "id": "emio-the-smiling-man-famicom-detective-club",
+            "name": "Emio – The Smiling Man: Famicom Detective Club",
+            "aliases": [],
+            "genres": ["adventure", "visual-novel"],
+            "franchise": "famicom-detective-club",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "teaser", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-08-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "emio-the-smiling-man-famicom-detective-club",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Emio – The Smiling Man: Famicom Detective Club releases August 29th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendos-teaser-leads-to-brand-new-famicom-detective-club-game/"
+          }
+        }
+      ],
+      "summary": "A Nintendo teaser revealed Emio – The Smiling Man: Famicom Detective Club, releasing 29 August 2024."
+    },
+    {
+      "ref": "main_news/sega-sues-social-media-user-for-excessive-slanderous-and-ins",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Sega has taken legal action against a social media user over slanderous and insulting comments aimed at one of its employees."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-01-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-is-updating-three-classic-far-cry-games-to-run-at-60",
+      "entities": {
+        "games": [
+          { "id": "far-cry-3", "name": "Far Cry 3", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "far-cry-3-blood-dragon", "name": "Far Cry 3 Blood Dragon", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true },
+          { "id": "far-cry-primal", "name": "Far Cry Primal", "aliases": [], "genres": ["fps", "open-world"], "franchise": "far-cry", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-01-21", "unit": "date", "currency": null,
+          "entity": "far-cry-3", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Far Cry 3, Far Cry 3 Blood Dragon and Far Cry Primal will receive the updates January 21st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-is-updating-three-classic-far-cry-games-to-run-at-60fps-on-modern-platforms/" } }
+      ],
+      "summary": "Ubisoft is updating Far Cry 3, Far Cry 3 Blood Dragon and Far Cry Primal to run at 60fps on modern platforms on 21 January 2026."
+    },
+    {
+      "ref": "main_news/marathon-releases-march-5th",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-05", "unit": "date", "currency": null,
+          "entity": "marathon", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Marathon releases March 5th",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2026/01/19/marathon-releases-march-5-new-limited-edition-dualsense-controller-revealed/" } }
+      ],
+      "summary": "Marathon is set to release on 5 March 2026."
+    },
+    {
+      "ref": "business/ex-assassin-s-creed-boss-marc-alexis-c-t-sues-ubisoft-after",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "marc-alexis-cote", "name": "Marc-Alexis Côté", "aliases": ["Marc-Alexis Côté"], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        { "metric": "severance", "value": 1300000, "unit": "money", "currency": "CAD",
+          "entity": "marc-alexis-cote", "entity_type": "person", "scope": "company",
+          "as_of": "2026-01-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Seeks CAD $1.3m (£698k) for a mixture of lost severance pay and \"moral damages\"",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ex-assassins-creed-boss-marc-alexis-cote-sues-ubisoft" } },
+        { "metric": "severance", "value": 698000, "unit": "money", "currency": "GBP",
+          "entity": "marc-alexis-cote", "entity_type": "person", "scope": "company",
+          "as_of": "2026-01-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Seeks CAD $1.3m (£698k) for a mixture of lost severance pay and \"moral damages\"",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/ex-assassins-creed-boss-marc-alexis-cote-sues-ubisoft" } }
+      ],
+      "summary": "Former Assassin's Creed boss Marc-Alexis Côté is suing Ubisoft over what he calls a disguised dismissal, seeking CAD $1.3m for lost severance and moral damages."
+    },
+    {
+      "ref": "business/hill-climb-racing-tops-2-billion-downloads",
+      "entities": {
+        "games": [
+          { "id": "hill-climb-racing", "name": "Hill Climb Racing", "aliases": [], "genres": ["racing"], "franchise": "hill-climb-racing", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fingersoft", "name": "Fingersoft", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 2000000000, "unit": "downloads", "currency": null,
+          "entity": "hill-climb-racing", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-20", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Hill Climb Racing Tops 2 billion downloads",
+          "source": { "name": "fingersoft.com", "domain": "fingersoft.com", "url": "https://fingersoft.com/news/2026/01/15/hill-climb-racing-breaks-a-new-record-2-billion-downloads/" } }
+      ],
+      "summary": "Hill Climb Racing has surpassed 2 billion downloads."
+    }
+  ]
+}

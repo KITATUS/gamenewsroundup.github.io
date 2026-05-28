@@ -1,0 +1,120 @@
+{
+  "date": "2025-01-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "free_games_subscription/playstation-plus-games-leaving-on-the-18th-february",
+      "entities": {
+        "games": [
+          { "id": "the-outer-worlds-spacers-choice-edition", "name": "The Outer Worlds: Spacer's Choice Edition", "aliases": ["The Outer Worlds: Spacer's Choice Edition"], "genres": ["action-rpg", "fps"], "franchise": "the-outer-worlds", "inferred": true },
+          { "id": "tales-of-arise", "name": "Tales of Arise", "aliases": [], "genres": ["action-rpg"], "franchise": "tales", "inferred": true },
+          { "id": "tales-of-zestiria", "name": "Tales of Zestiria", "aliases": [], "genres": ["action-rpg"], "franchise": "tales", "inferred": true },
+          { "id": "tales-of-symphonia-remastered", "name": "Tales of Symphonia Remastered", "aliases": [], "genres": ["action-rpg"], "franchise": "tales", "inferred": true },
+          { "id": "tales-of-vesperia", "name": "Tales of Vesperia", "aliases": [], "genres": ["action-rpg"], "franchise": "tales", "inferred": true },
+          { "id": "outriders", "name": "Outriders", "aliases": [], "genres": ["action-rpg", "tps"], "franchise": null, "inferred": true },
+          { "id": "scarlet-nexus", "name": "Scarlet Nexus", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "bulletstorm-full-clip-edition", "name": "Bulletstorm: Full Clip Edition", "aliases": [], "genres": ["fps"], "franchise": "bulletstorm", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-02-18", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "platform",
+          "as_of": "2025-01-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PlayStation Plus games leaving on the 18th February",
+          "source": { "name": null, "domain": null, "url": null } }
+      ],
+      "summary": "A set of titles, including The Outer Worlds: Spacer's Choice Edition and several Tales of games, are leaving PlayStation Plus on 18 February 2025."
+    },
+    {
+      "ref": "business/insomniac-games-founder-and-president-ted-price-is-retiring",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": ["Insomniac"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ted-price", "name": "Ted Price", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Insomniac Games founder and president Ted Price is retiring and will leave the games industry in March, over 30 years after founding the studio."
+    },
+    {
+      "ref": "business/resident-evil-2-remake-has-sold-fewer-than-10-000-copies-on",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-2", "name": "Resident Evil 2", "aliases": ["Resident Evil 2 remake"], "genres": ["survival-horror", "action-adventure"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 10000, "unit": "copies", "currency": null,
+          "entity": "resident-evil-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-23", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Resident Evil 2 remake has sold fewer than 10,000 copies on iOS",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/resident-evil-2-remake-has-sold-fewer-than-10000-copies-on-ios-estimates-suggest/" } }
+      ],
+      "summary": "The Resident Evil 2 remake has reportedly sold fewer than 10,000 copies on iOS, according to AppMagic estimates."
+    },
+    {
+      "ref": "business/reflector-confirms-layoffs-as-unknown-9-awakening-failed-to",
+      "entities": {
+        "games": [
+          { "id": "unknown-9-awakening", "name": "Unknown 9: Awakening", "aliases": ["Unknown 9: Awakening"], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "reflector", "name": "Reflector", "aliases": ["Reflector Entertainment"], "publisher": "bandai-namco-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Reflector has confirmed layoffs after Unknown 9: Awakening failed to meet expectations, with the number of affected staff unclear at this time."
+    },
+    {
+      "ref": "business/virtuos-acquires-three-studios-to-significantly-augment-deve",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "virtuos", "name": "Virtuos", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "studios_affected", "value": 3, "unit": "studios", "currency": null,
+          "entity": "virtuos", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Virtuos acquires three studios",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/virtuos-acquires-three-studios-to-significantly-augment-development-capabilities" } }
+      ],
+      "summary": "Virtuos has acquired three studios to significantly augment its development support capabilities."
+    }
+  ]
+}

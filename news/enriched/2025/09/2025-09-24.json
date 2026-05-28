@@ -1,0 +1,188 @@
+{
+  "date": "2025-09-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/metaphor-refantazio-crowned-best-game-at-japan-game-awards",
+      "entities": {
+        "games": [{ "id": "metaphor-refantazio", "name": "Metaphor: ReFantazio", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "atlus", "name": "Atlus", "aliases": [], "publisher": "sega", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Metaphor: ReFantazio was crowned best game at the Japan Game Awards."
+    },
+    {
+      "ref": "main_news/yakuza-0-director-s-cut-yakuza-kiwami-and-yakuza-kiwami-2-ar",
+      "entities": {
+        "games": [
+          { "id": "yakuza-0-directors-cut", "name": "Yakuza 0 Director's Cut", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-kiwami", "name": "Yakuza Kiwami", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-kiwami-2", "name": "Yakuza Kiwami 2", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [{ "id": "ryu-ga-gotoku-studio", "name": "Ryu Ga Gotoku Studio", "aliases": [], "publisher": "sega", "inferred": true }],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Yakuza 0 Director's Cut, Yakuza Kiwami and Yakuza Kiwami 2 are coming to PS5 and Xbox Series X/S."
+    },
+    {
+      "ref": "main_news/yakuza-kiwami-3-a-remake-of-yakuza-3-has-been-officially-ann",
+      "entities": {
+        "games": [
+          { "id": "yakuza-kiwami-3", "name": "Yakuza Kiwami 3", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-3", "name": "Yakuza 3", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [{ "id": "ryu-ga-gotoku-studio", "name": "Ryu Ga Gotoku Studio", "aliases": [], "publisher": "sega", "inferred": true }],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Yakuza Kiwami 3, a remake of Yakuza 3, has been officially announced."
+    },
+    {
+      "ref": "main_news/yakuza-kiwami-3-will-include-yakuza-3-gaiden-dark-ties-a-bra",
+      "entities": {
+        "games": [
+          { "id": "yakuza-kiwami-3", "name": "Yakuza Kiwami 3", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true },
+          { "id": "yakuza-3-gaiden-dark-ties", "name": "Yakuza 3 Gaiden: Dark Ties", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [{ "id": "ryu-ga-gotoku-studio", "name": "Ryu Ga Gotoku Studio", "aliases": [], "publisher": "sega", "inferred": true }],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": [{ "id": "mine", "name": "Mine", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Yakuza Kiwami 3 will include Yakuza 3 Gaiden: Dark Ties, a brand new spin-off starring antagonist Mine."
+    },
+    {
+      "ref": "main_news/days-before-release-borderlands-4-is-indefinitely-delayed-on",
+      "entities": {
+        "games": [{ "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }],
+        "studios": [{ "id": "gearbox-software", "name": "Gearbox Software", "aliases": [], "publisher": "2k", "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Days before release, Borderlands 4 was indefinitely delayed on Switch 2."
+    },
+    {
+      "ref": "main_news/annapurna-interactive-marks-its-tokyo-game-show-debut-by-ann",
+      "entities": {
+        "games": [
+          { "id": "d-topia", "name": "D-topia", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "people-of-note", "name": "People of Note", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "demi-and-the-fractured-dream", "name": "Demi and the Fractured Dream", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "annapurna-interactive", "name": "Annapurna Interactive", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "showcase"],
+      "facts": [],
+      "summary": "Annapurna Interactive marked its Tokyo Game Show debut by announcing three new games: D-topia, People of Note and Demi and the Fractured Dream."
+    },
+    {
+      "ref": "main_news/35-minute-playstation-state-of-play-confirmed-including-hous",
+      "entities": {
+        "games": [{ "id": "saros", "name": "Saros", "aliases": [], "genres": [], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "housemarque", "name": "Housemarque", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-24", "unit": "date", "currency": null,
+          "entity": "playstation-state-of-play", "entity_type": "product", "scope": "event",
+          "as_of": "2025-09-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 24 at 2pm PT / 5pm ET / 11pm CEST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/35-minute-playstation-state-of-play-confirmed-including-housemarques-saros/" } }
+      ],
+      "summary": "A 35 minute PlayStation State of Play was confirmed for September 24, including Housemarque's Saros."
+    },
+    {
+      "ref": "main_news/playstation-trophies-will-now-unlock-the-ability-to-purchase",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [{ "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "PlayStation trophies will now unlock the ability to purchase real-life merchandise of some franchises."
+    },
+    {
+      "ref": "main_news/pok-mon-trading-card-game-pocket-art-gallery-coming-to-rome",
+      "entities": {
+        "games": [{ "id": "pokemon-trading-card-game-pocket", "name": "Pokémon Trading Card Game Pocket", "aliases": [], "genres": ["card"], "franchise": "pokemon", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Pokémon Trading Card Game Pocket art gallery is coming to Rome."
+    },
+    {
+      "ref": "main_news/thousands-banned-in-fortnite-as-new-delulu-proximity-voice-c",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Thousands were banned in Fortnite as the new Delulu proximity voice chat mode fuelled hate speech."
+    },
+    {
+      "ref": "business/former-probablymonsters-workers-raise-alarm-about-mismanagem",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "probablymonsters", "name": "ProbablyMonsters", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Former ProbablyMonsters workers raised alarm about mismanagement at the studio."
+    },
+    {
+      "ref": "business/sonic-musician-s-rights-lawsuit-against-sega-dismissed-song",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sega", "name": "Sega", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A Sonic musician's rights lawsuit against Sega was dismissed, with the song remaining in \"limbo\"."
+    }
+  ]
+}

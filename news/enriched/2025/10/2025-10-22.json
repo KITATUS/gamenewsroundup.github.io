@@ -1,0 +1,132 @@
+{
+  "date": "2025-10-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-sims-mobile-to-be-sunset-in-january-2026-game-has-been-d",
+      "entities": {
+        "games": [{ "id": "the-sims-mobile", "name": "The Sims Mobile", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-01", "unit": "date", "currency": null,
+          "entity": "the-sims-mobile", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The Sims Mobile to be sunset in January 2026",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/the-sims-mobile-to-be-sunset-in-january-2026" } }
+      ],
+      "summary": "The Sims Mobile will be sunset in January 2026, having been delisted from app stores and no longer updated."
+    },
+    {
+      "ref": "main_news/nintendo-s-second-kirby-air-riders-direct-is-this-week-and-w",
+      "entities": {
+        "games": [{ "id": "kirby-air-riders", "name": "Kirby Air Riders", "aliases": [], "genres": ["racing"], "franchise": "kirby", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "masahiro-sakurai", "name": "Sakurai", "aliases": ["Masahiro Sakurai"], "inferred": false }]
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "Nintendo's second Kirby Air Riders Direct airs this week and will last an hour, following an earlier 47-minute Direct presented by Sakurai in August."
+    },
+    {
+      "ref": "main_news/halo-co-creator-says-he-s-disappointed-he-and-some-former-co",
+      "entities": {
+        "games": [{ "id": "battlefield-6", "name": "Battlefield 6", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true }],
+        "studios": [
+          { "id": "ridgeline-games", "name": "Ridgeline Games", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [{ "id": "electronic-arts", "name": "EA", "aliases": ["EA"], "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "marcus-lehto", "name": "Marcus Lehto", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Halo co-creator Marcus Lehto said he is disappointed that he and some former colleagues at the EA-closed Ridgeline Games were not credited for their foundational work on Battlefield 6."
+    },
+    {
+      "ref": "business/remedy-ceo-tero-virtala-steps-down-after-nine-years-markus-m",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "remedy-entertainment", "name": "Remedy", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tero-virtala", "name": "Tero Virtala", "aliases": [], "inferred": false },
+          { "id": "markus-maki", "name": "Markus Mäki", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Remedy CEO Tero Virtala is stepping down after nine years, with Markus Mäki acting as interim CEO."
+    },
+    {
+      "ref": "business/12-welsh-game-studios-secure-775-000-in-funding-to-help-deve",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 775000, "unit": "money", "currency": "USD",
+          "entity": "creative-wales-games-development-fund", "entity_type": "company", "scope": "event",
+          "as_of": "2025-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "12 Welsh game studios secure $775,000 in funding",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/12-welsh-game-studios-secure-775000-in-funding-to-help-develop-innovative-games-and-immersive-experiences" } }
+      ],
+      "summary": "Twelve Welsh game studios secured $775,000 in funding through Creative Wales' Games Development Fund to develop innovative games and immersive experiences."
+    },
+    {
+      "ref": "business/escape-from-duckov-waddles-into-the-extraction-shooter-space",
+      "entities": {
+        "games": [{ "id": "escape-from-duckov", "name": "Escape From Duckov", "aliases": [], "genres": ["extraction-shooter", "shooter"], "franchise": null, "inferred": false }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "concurrent_players", "value": 200000, "unit": "players", "currency": null,
+          "entity": "escape-from-duckov", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "with over 200,000 concurrent players",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/escape-from-duckov-waddles-into-the-extraction-shooter-space-with-over-200000-concurrent-players" } }
+      ],
+      "summary": "Escape From Duckov entered the extraction shooter space with over 200,000 concurrent players."
+    },
+    {
+      "ref": "business/rovio-is-laying-off-36-staff-says-angry-birds-dream-blast-ha",
+      "entities": {
+        "games": [{ "id": "angry-birds-dream-blast", "name": "Angry Birds Dream Blast", "aliases": [], "genres": ["puzzle"], "franchise": "angry-birds", "inferred": true }],
+        "studios": [{ "id": "rovio", "name": "Rovio", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 36, "unit": "people", "currency": null,
+          "entity": "rovio", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rovio is laying off 36 staff",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/rovio-is-laying-off-36-staff-says-angry-birds-dream-blast-has-not-been-performing-as-expected/" } }
+      ],
+      "summary": "Rovio is laying off 36 staff, citing that Angry Birds Dream Blast has not been performing as expected."
+    }
+  ]
+}

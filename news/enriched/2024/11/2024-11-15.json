@@ -1,0 +1,117 @@
+{
+  "date": "2024-11-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/gearbox-bethesda-and-epic-veterans-reveal-their-new-multipla",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ruckus-games", "name": "Ruckus Games", "aliases": ["Ruckus"], "publisher": null, "inferred": false },
+          { "id": "gearbox-software", "name": "Gearbox", "aliases": ["Gearbox"], "publisher": null, "inferred": false },
+          { "id": "bethesda-softworks", "name": "Bethesda", "aliases": ["Bethesda"], "publisher": null, "inferred": false },
+          { "id": "epic-games", "name": "Epic", "aliases": ["Epic"], "publisher": null, "inferred": false },
+          { "id": "riot-games", "name": "Riot", "aliases": ["Riot"], "publisher": null, "inferred": false },
+          { "id": "bitkraft-ventures", "name": "Bitkraft Ventures", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "hypergryph", "name": "Hypergryph", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "paul-sage", "name": "Paul Sage", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal", "funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 19000000, "unit": "money", "currency": "USD",
+          "entity": "ruckus-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-11-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ruckus Games raises $19m in funding round led by Krafton.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/gearbox-bethesda-and-epic-veterans-reveal-their-new-multiplayer-suburban-invasion-game/" } }
+      ],
+      "summary": "Veterans from Gearbox, Bethesda and Epic at studio Ruckus Games revealed a new session-based multiplayer 'suburban invasion' game, alongside a $19m funding round led by Krafton."
+    },
+    {
+      "ref": "main_news/microsoft-reveals-its-new-marketing-campaign-this-is-an-xbox",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Microsoft revealed a new Xbox marketing campaign, 'This is an Xbox', emphasising that its games can be played across numerous devices."
+    },
+    {
+      "ref": "main_news/valve-accused-of-allowing-the-proliferation-of-hate-as-repor",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Valve was accused of \"allowing the proliferation of hate\" after an ADL report found 1.8m instances of extremist or hateful content on Steam."
+    },
+    {
+      "ref": "main_news/epic-games-is-officially-cool-with-the-internet-archive-pres",
+      "entities": {
+        "games": [
+          { "id": "unreal", "name": "Unreal", "aliases": [], "genres": ["fps"], "franchise": "unreal", "inferred": true },
+          { "id": "unreal-tournament", "name": "Unreal Tournament", "aliases": [], "genres": ["fps"], "franchise": "unreal", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Epic Games approved the Internet Archive hosting installation files for the early games Unreal and Unreal Tournament for preservation."
+    },
+    {
+      "ref": "business/embracer-divests-mobile-studio-easybrain-in-1-2-billion-deal",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "easybrain", "name": "Easybrain", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "miniclip", "name": "Miniclip", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 1200000000, "unit": "money", "currency": "USD",
+          "entity": "easybrain", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-11-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Embracer divests mobile studio Easybrain in $1.2 billion deal",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/embracer-divests-mobile-studio-easybrain-in-1-2-billion-deal" } }
+      ],
+      "summary": "Embracer divested mobile studio Easybrain to Miniclip in a $1.2 billion deal expected to close in early 2025."
+    }
+  ]
+}

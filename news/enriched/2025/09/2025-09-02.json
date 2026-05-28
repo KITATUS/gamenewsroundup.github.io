@@ -1,0 +1,197 @@
+{
+  "date": "2025-09-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/kojima-productions-to-show-future-project-s-during-tokyo-gam",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-23", "unit": "date", "currency": null,
+          "entity": "beyond-the-strand", "entity_type": "product", "scope": "event",
+          "as_of": "2025-09-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "‘Beyond the Strand’ will take place on Tuesday, September 23",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/kojima-productions-to-show-future-projects-during-tokyo-game-show-week-this-month/" } }
+      ],
+      "summary": "Kojima Productions will show future projects at a 10th anniversary 'Beyond the Strand' event on 23 September 2025, two days before TGS 2025 at Tokyo's Roppongi Hills TOHO Cinema."
+    },
+    {
+      "ref": "main_news/a-playstation-state-of-play-focusing-on-007-first-light-is-c",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-03", "unit": "date", "currency": null,
+          "entity": "state-of-play", "entity_type": "product", "scope": "event",
+          "as_of": "2025-09-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 3 at 11am PT / 7pm BST / 8pm CEST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-playstation-state-of-play-focusing-on-007-first-light-is-coming-this-week/" } }
+      ],
+      "summary": "A PlayStation State of Play focusing on 007 First Light is set for 3 September 2025 at 11am PT / 7pm BST / 8pm CEST."
+    },
+    {
+      "ref": "main_news/the-cyberpunk-2077-team-is-seeking-brave-netrunners-for-some",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-04", "unit": "date", "currency": null,
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "for something on 4th September",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/the-cyberpunk-2077-team-is-seeking-brave-netrunners-for-something-on-4th-september-but-wont-say-what-it-is" } }
+      ],
+      "summary": "The Cyberpunk 2077 team is teasing an unspecified reveal for 'brave netrunners' on 4 September 2025."
+    },
+    {
+      "ref": "main_news/left-4-dead-creator-mike-booth-has-announced-he-is-working-o",
+      "entities": {
+        "games": [
+          { "id": "left-4-dead", "name": "Left 4 Dead", "aliases": [], "genres": ["fps", "shooter", "survival-horror"], "franchise": "left-4-dead", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mike-booth", "name": "Mike Booth", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Left 4 Dead creator Mike Booth has announced he is working on a new four-player co-op shooter."
+    },
+    {
+      "ref": "main_news/escape-from-tarkov-is-coming-to-steam",
+      "entities": {
+        "games": [
+          { "id": "escape-from-tarkov", "name": "Escape from Tarkov", "aliases": [], "genres": ["fps", "extraction-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "battlestate-games", "name": "Battlestate Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Escape from Tarkov is coming to Steam."
+    },
+    {
+      "ref": "business/rare-veteran-louise-o-connor-lands-new-role-at-xbox-game-stu",
+      "entities": {
+        "games": [
+          { "id": "everwild", "name": "Everwild", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "louise-o-connor", "name": "Louise O'Connor", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Rare veteran Louise O'Connor has landed a new Chief of Staff role at Xbox Game Studios following the cancellation of Everwild."
+    },
+    {
+      "ref": "business/daniel-drapeau-recently-the-game-director-on-fairgames-at-ha",
+      "entities": {
+        "games": [
+          { "id": "fairgames", "name": "Fairgames", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "haven-studios", "name": "Haven Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "warner-bros-montreal", "name": "Warner Bros Montreal", "aliases": [], "publisher": "warner-bros-games", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "daniel-drapeau", "name": "Daniel Drapeau", "aliases": [], "inferred": false },
+          { "id": "jade-raymond", "name": "Jade Raymond", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Daniel Drapeau, recently game director on Fairgames at Haven Studios, has announced a new creative director role at Warner Bros Montreal, adding doubt to Fairgames' status after founder Jade Raymond's departure."
+    },
+    {
+      "ref": "business/gears-of-war-reloaded-surpasses-1m-players-gears-of-war-ulti",
+      "entities": {
+        "games": [
+          { "id": "gears-of-war-reloaded", "name": "Gears of War: Reloaded", "aliases": ["Gears of War: Ultimate Edition"], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "remaster-remake"],
+      "facts": [
+        { "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "gears-of-war-reloaded", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-02", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Gears of War: Reloaded surpasses 1m players",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/GearsofWar/status/1961474052557557990" } },
+        { "metric": "release_date", "value": "2025-08-26", "unit": "date", "currency": null,
+          "entity": "gears-of-war-reloaded", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "multiplatform remaster launched on August 26, 2025",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/GearsofWar/status/1961474052557557990" } }
+      ],
+      "summary": "Gears of War: Reloaded, the multiplatform remaster launched on 26 August 2025, has surpassed 1 million players."
+    },
+    {
+      "ref": "business/nintendo-rebrands-transmedia-division-from-warpstar-to-ninte",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo has rebranded its transmedia division from Warpstar to Nintendo Stars, expanding the 'ancillary use' of films featuring Nintendo IP to include live events, merchandise, and more."
+    }
+  ]
+}

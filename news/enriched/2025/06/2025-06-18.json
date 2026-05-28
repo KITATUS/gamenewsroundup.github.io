@@ -1,0 +1,275 @@
+{
+  "date": "2025-06-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/arcade-golf-series-golden-tee-is-getting-a-retro-compilation",
+      "entities": {
+        "games": [
+          { "id": "golden-tee", "name": "Golden Tee", "aliases": [], "genres": ["sports"], "franchise": "golden-tee", "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-eclipse", "name": "Digital Eclipse", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Digital Eclipse is making a retro compilation of the arcade golf series Golden Tee featuring eight games."
+    },
+    {
+      "ref": "main_news/lego-fortnite-expeditions-is-a-mission-based-pve-mode-where",
+      "entities": {
+        "games": [
+          { "id": "lego-fortnite-expeditions", "name": "Lego Fortnite Expeditions", "aliases": [], "genres": ["adventure", "survival"], "franchise": "fortnite", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-06-18", "unit": "date", "currency": null,
+          "entity": "lego-fortnite-expeditions", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launches today",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/lego-fortnite-expeditions-is-a-mission-based-pve-mode-where-youre-up-against-an-evil-mask-maker" } }
+      ],
+      "summary": "Lego Fortnite Expeditions, a mission-based PvE mode pitting players against an evil mask maker, launches today."
+    },
+    {
+      "ref": "main_news/bungie-s-marathon-reboot-delayed-indefinitely-in-response-to",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Bungie has delayed its Marathon reboot indefinitely in response to passionate fan feedback."
+    },
+    {
+      "ref": "main_news/microsoft-says-it-s-working-on-next-gen-xbox-consoles-you-ll",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware", "partnership"],
+      "facts": [],
+      "summary": "Microsoft says it is developing next-gen Xbox consoles for the living room and handheld play, with an AMD partnership announced."
+    },
+    {
+      "ref": "main_news/after-five-tumultuous-years-ubisoft-s-prince-of-persia-sands",
+      "entities": {
+        "games": [
+          { "id": "prince-of-persia-sands-of-time", "name": "Prince of Persia: Sands of Time", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": "prince-of-persia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake"],
+      "facts": [],
+      "summary": "After five tumultuous years, Ubisoft's Prince of Persia: Sands of Time remake is now deep in development and currently due next year."
+    },
+    {
+      "ref": "main_news/dark-and-darker-is-in-trouble-again-as-it-s-removed-from-ano",
+      "entities": {
+        "games": [
+          { "id": "dark-and-darker", "name": "Dark And Darker", "aliases": [], "genres": ["extraction-shooter", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "lawsuit-legal"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-11-01", "unit": "date", "currency": null,
+          "entity": "dark-and-darker", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "removed from the libraries of Epic Game Store customers on November 1st",
+          "source": { "name": "TheGamer", "domain": "thegamer.com", "url": "https://www.thegamer.com/dark-and-darker-removed-epic-games-store-legal-dispute/" } }
+      ],
+      "summary": "Dark And Darker is being removed from the Epic Games Store, with customer libraries losing access on 1 November."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-titles-for-june",
+      "entities": {
+        "games": [
+          { "id": "fbc-firebreak", "name": "FBC: Firebreak", "aliases": [], "genres": ["shooter", "fps"], "franchise": "control", "inferred": true },
+          { "id": "crash-bandicoot-4-its-about-time", "name": "Crash Bandicoot 4: It's About Time", "aliases": [], "genres": ["platformer"], "franchise": "crash-bandicoot", "inferred": true },
+          { "id": "lost-in-random-the-eternal-die", "name": "Lost in Random: The Eternal Die", "aliases": [], "genres": ["action-adventure", "roguelike"], "franchise": "lost-in-random", "inferred": true },
+          { "id": "star-trucker", "name": "Star Trucker", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "wildfrost", "name": "Wildfrost", "aliases": [], "genres": ["roguelike", "card"], "franchise": null, "inferred": true },
+          { "id": "rematch", "name": "Rematch", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "volcano-princess", "name": "Volcano Princess", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "against-the-storm", "name": "Against the Storm", "aliases": [], "genres": ["strategy", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "warcraft-i-remastered", "name": "Warcraft I: Remastered", "aliases": [], "genres": ["rts", "strategy"], "franchise": "warcraft", "inferred": true },
+          { "id": "warcraft-ii-remastered", "name": "Warcraft II: Remastered", "aliases": [], "genres": ["rts", "strategy"], "franchise": "warcraft", "inferred": true },
+          { "id": "warcraft-iii-reforged", "name": "Warcraft III: Reforged", "aliases": [], "genres": ["rts", "strategy"], "franchise": "warcraft", "inferred": true },
+          { "id": "call-of-duty-wwii", "name": "Call of Duty: WWII", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "little-nightmares-ii", "name": "Little Nightmares II", "aliases": [], "genres": ["adventure", "horror"], "franchise": "little-nightmares", "inferred": true },
+          { "id": "rise-of-the-tomb-raider", "name": "Rise of the Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Xbox Game Pass titles for June include FBC: Firebreak, Crash Bandicoot 4, Rematch, the Warcraft remasters and more."
+    },
+    {
+      "ref": "free_games_subscription/amazon-prime-gaming",
+      "entities": {
+        "games": [
+          { "id": "dungeon-of-the-endless-definitive-edition", "name": "Dungeon of the Endless: Definitive Edition", "aliases": [], "genres": ["roguelike", "tower-defense"], "franchise": null, "inferred": true },
+          { "id": "saints-row-2", "name": "Saints Row 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "saints-row", "inferred": true },
+          { "id": "saints-row-iv-re-elected", "name": "Saints Row IV: Re-Elected", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "saints-row", "inferred": true },
+          { "id": "star-wars-rebellion", "name": "Star Wars: Rebellion", "aliases": [], "genres": ["strategy", "4x"], "franchise": "star-wars", "inferred": true },
+          { "id": "toem", "name": "TOEM", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "tomb-raider-i-iii-remastered", "name": "Tomb Raider I-III Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "amazon-prime-gaming", "name": "Amazon Prime Gaming", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Amazon Prime Gaming is giving away six bonus free games including the Saints Row titles, Star Wars: Rebellion and Tomb Raider I-III Remastered."
+    },
+    {
+      "ref": "business/studio-camelia-shuts-down-a-year-after-raising-300-000-on-ki",
+      "entities": {
+        "games": [
+          { "id": "alzara-radiant-echoes", "name": "Alzara Radiant Echoes", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "studio-camelia", "name": "Studio Camelia", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 300000, "unit": "money", "currency": "EUR",
+          "entity": "studio-camelia", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-06-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "shuts down a year after raising €300,000 on Kickstarter to fund JRPG",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/studio-camelia-shuts-down-a-year-after-raising-300-000-on-kickstarter-to-fund-jrpg" } }
+      ],
+      "summary": "Studio Camelia has shut down a year after raising €300,000 on Kickstarter to fund its now-shelved JRPG Alzara Radiant Echoes."
+    },
+    {
+      "ref": "business/turkish-studio-bigger-games-nets-25-million-to-expand-flagsh",
+      "entities": {
+        "games": [
+          { "id": "kitchen-masters", "name": "Kitchen Masters", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "bigger-games", "name": "Bigger Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 25000000, "unit": "money", "currency": "USD",
+          "entity": "bigger-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-06-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Bigger Games** nets $25 million to expand flagship mobile title",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/turkish-studio-bigger-games-nets-25-million-to-expand-flagship-mobile-title" } }
+      ],
+      "summary": "Turkish studio Bigger Games has raised $25 million to expand its flagship mobile puzzler Kitchen Masters."
+    },
+    {
+      "ref": "business/fallout-shelter-reaches-over-230m-downloads-across-all-platf",
+      "entities": {
+        "games": [
+          { "id": "fallout-shelter", "name": "Fallout Shelter", "aliases": [], "genres": ["simulation"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 230000000, "unit": "downloads", "currency": null,
+          "entity": "fallout-shelter", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-18", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Fallout Shelter** reaches over 230m downloads across all platforms",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/fallout-shelter-reaches-over-230m-downloads-across-all-platforms-news-in-brief" } }
+      ],
+      "summary": "Fallout Shelter has reached over 230 million downloads across all platforms."
+    },
+    {
+      "ref": "business/nexus-mods-founder-to-step-away-as-ownership-of-the-site-cha",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nexus-mods", "name": "Nexus Mods", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change", "acquisition"],
+      "facts": [],
+      "summary": "The founder of Nexus Mods is stepping away as ownership of the site changes hands."
+    },
+    {
+      "ref": "rumours/nexon-reportedly-considering-acquisition-bid-from-tencent",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Nexon is reportedly considering an acquisition bid from Tencent."
+    }
+  ]
+}

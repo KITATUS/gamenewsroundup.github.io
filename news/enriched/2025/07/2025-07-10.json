@@ -1,0 +1,162 @@
+{
+  "date": "2025-07-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/astro-bot-s-award-winning-soundtrack-is-coming-soon-to-vinyl",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Astro Bot's award-winning soundtrack is coming to vinyl and is available for pre-order now."
+    },
+    {
+      "ref": "main_news/stalker-2-is-coming-to-ps5-later-this-year-with-ps5-pro-enha",
+      "entities": {
+        "games": [
+          { "id": "stalker-2", "name": "Stalker 2", "aliases": ["Stalker 2"], "genres": ["fps", "survival-horror"], "franchise": "stalker", "inferred": true }
+        ],
+        "studios": [
+          { "id": "gsc-game-world", "name": "GSC Game World", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PS5"], "inferred": false },
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": ["PS5 Pro"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Stalker 2 is coming to PS5 later this year with PS5 Pro enhancements."
+    },
+    {
+      "ref": "main_news/limited-run-s-snes-release-of-doom-is-available-for-pre-orde",
+      "entities": {
+        "games": [
+          { "id": "doom", "name": "Doom", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "limited-run-games", "name": "Limited Run Games", "aliases": ["Limited Run"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "snes", "name": "SNES", "aliases": ["SNES"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Limited Run's SNES release of Doom is available for pre-order now, alongside a new SNES controller."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-details-its-walking-dead-collaboration-as-p",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "partnership", "beta-demo"],
+      "facts": [],
+      "summary": "Dead by Daylight detailed its Walking Dead collaboration as a public test build went live."
+    },
+    {
+      "ref": "main_news/live-service-mech-shooter-steel-hunters-will-shut-down-in-oc",
+      "entities": {
+        "games": [
+          { "id": "steel-hunters", "name": "Steel Hunters", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "early-access"],
+      "facts": [],
+      "summary": "Live-service mech shooter Steel Hunters will shut down in October, just three months after entering early access."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-games-for-july",
+      "entities": {
+        "games": [
+          { "id": "new-world-aeternum", "name": "New World: Aeternum", "aliases": ["New World: Aeternum"], "genres": ["mmorpg"], "franchise": "new-world", "inferred": true },
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "abiotic-factor", "name": "Abiotic Factor", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "banishers-ghosts-of-new-eden", "name": "Banishers: Ghosts of New Eden", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "bluey-the-videogame", "name": "Bluey: The Videogame", "aliases": [], "genres": ["adventure"], "franchise": "bluey", "inferred": true },
+          { "id": "planet-zoo", "name": "Planet Zoo", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "risk-of-rain-2", "name": "Risk of Rain 2", "aliases": [], "genres": ["roguelike", "tps"], "franchise": "risk-of-rain", "inferred": true },
+          { "id": "tropico-6", "name": "Tropico 6", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "tropico", "inferred": true },
+          { "id": "twisted-metal-3", "name": "Twisted Metal 3", "aliases": [], "genres": ["racing"], "franchise": "twisted-metal", "inferred": true },
+          { "id": "twisted-metal-4", "name": "Twisted Metal 4", "aliases": [], "genres": ["racing"], "franchise": "twisted-metal", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PlayStation Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "PlayStation Plus revealed its July games lineup across the Extra and Premium tiers."
+    },
+    {
+      "ref": "business/uk-video-games-council-confirms-inaugural-members-the-new-or",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rebellion", "name": "Rebellion", "aliases": ["Rebellion Games"], "publisher": null, "inferred": false },
+          { "id": "outright-games", "name": "Outright Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "interior-night", "name": "Interior:Night", "aliases": ["Interior:Night"], "publisher": null, "inferred": false },
+          { "id": "futurlab", "name": "Futurlab", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "4j-studios", "name": "4J Studios", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "chucklefish", "name": "Chucklefish", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "larian", "name": "Larian", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "ustwo-games", "name": "ustwo Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "miniclip", "name": "Miniclip", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jason-kingsley", "name": "Jason Kingsley CBE", "aliases": ["Jason Kingsley"], "inferred": false },
+          { "id": "nick-button-brown", "name": "Nick Button-Brown", "aliases": [], "inferred": false },
+          { "id": "emily-bailey", "name": "Emily Bailey", "aliases": [], "inferred": false },
+          { "id": "saad-choudri", "name": "Saad Choudri", "aliases": [], "inferred": false },
+          { "id": "charu-desodt", "name": "Charu Desodt", "aliases": [], "inferred": false },
+          { "id": "kirsty-rigden", "name": "Kirsty Rigden", "aliases": [], "inferred": false },
+          { "id": "dave-gould", "name": "Dave Gould", "aliases": [], "inferred": false },
+          { "id": "chris-van-der-kuyl", "name": "Chris Van Der Kuyl", "aliases": [], "inferred": false },
+          { "id": "donna-orlowski", "name": "Donna Orlowski", "aliases": [], "inferred": false },
+          { "id": "nick-poole", "name": "Nick Poole OBE", "aliases": ["Nick Poole"], "inferred": false },
+          { "id": "tara-saunders", "name": "Tara Saunders", "aliases": [], "inferred": false },
+          { "id": "maria-sayans", "name": "Maria Sayans", "aliases": [], "inferred": false },
+          { "id": "tim-varney", "name": "Tim Varney", "aliases": [], "inferred": false },
+          { "id": "richard-wilson", "name": "Dr Richard Wilson OBE", "aliases": ["Richard Wilson"], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "leadership-change"],
+      "facts": [],
+      "summary": "The UK Video Games Council confirmed its inaugural members, who will represent the sector's views to the UK government."
+    }
+  ]
+}

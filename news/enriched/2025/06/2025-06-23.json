@@ -1,0 +1,251 @@
+{
+  "date": "2025-06-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/disco-elysium-s-reimagined-mobile-version-is-out-soon-first",
+      "entities": {
+        "games": [
+          { "id": "disco-elysium", "name": "Disco Elysium", "aliases": [], "genres": ["rpg"], "franchise": "disco-elysium", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["port", "free-game"],
+      "facts": [],
+      "summary": "A reimagined mobile version of Disco Elysium is releasing soon, with the first two chapters available for free."
+    },
+    {
+      "ref": "main_news/house-of-the-dead-2-remake-release-date-announced-available",
+      "entities": {
+        "games": [
+          { "id": "house-of-the-dead-2-remake", "name": "House of the Dead 2: Remake", "aliases": [], "genres": ["shooter"], "franchise": "house-of-the-dead", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-08-07", "unit": "date", "currency": null,
+          "entity": "house-of-the-dead-2-remake", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Available on Steam, GOG and Nintendo Switch on 7th August",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/arcade-rail-shooter-house-of-the-dead-2-remake-release-date-announced" }
+        }
+      ],
+      "summary": "House of the Dead 2: Remake will release on Steam, GOG and Nintendo Switch on 7 August 2025."
+    },
+    {
+      "ref": "main_news/metroid-prime-4-ad-on-london-underground-erroneously-claims",
+      "entities": {
+        "games": [
+          { "id": "metroid-prime-4", "name": "Metroid Prime 4", "aliases": ["Metroid Prime 4 Beyond"], "genres": ["fps", "action-adventure"], "franchise": "metroid", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Metroid Prime 4 advert on the London Underground erroneously claimed the game is 'out now'."
+    },
+    {
+      "ref": "business/splitgate-2-developer-1047-games-lays-off-small-group-of-val",
+      "entities": {
+        "games": [
+          { "id": "splitgate-2", "name": "Splitgate 2", "aliases": [], "genres": ["fps"], "franchise": "splitgate", "inferred": true }
+        ],
+        "studios": [
+          { "id": "1047-games", "name": "1047 Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Splitgate 2 developer 1047 Games laid off a small group of staff, with co-founders saying they will not draw a salary until the next phase of the project."
+    },
+    {
+      "ref": "business/the-dlc-for-lies-of-p-lies-of-p-overture-sells-3m-copies",
+      "entities": {
+        "games": [
+          { "id": "lies-of-p", "name": "Lies of P", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": "lies-of-p", "inferred": true },
+          { "id": "lies-of-p-overture", "name": "Lies of P: Overture", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": "lies-of-p", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 3000000, "unit": "copies", "currency": null,
+          "entity": "lies-of-p-overture", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Lies of P: Overture, sells 3m copies",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/lies-of-p-overture-sells-3m-copies-news-in-brief" }
+        }
+      ],
+      "summary": "Lies of P: Overture, the DLC for Lies of P, has sold 3 million copies."
+    },
+    {
+      "ref": "business/rematch-reaches-1-million-players",
+      "entities": {
+        "games": [
+          { "id": "rematch", "name": "Rematch", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "rematch", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Rematch reaches 1 million players.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/rematch-reaches-1-million-players-news-in-brief" }
+        }
+      ],
+      "summary": "Rematch has reached 1 million players."
+    },
+    {
+      "ref": "business/still-wakes-the-deep-developer-the-chinese-room-has-seemingl",
+      "entities": {
+        "games": [
+          { "id": "still-wakes-the-deep", "name": "Still Wakes The Deep", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-chinese-room", "name": "The Chinese Room", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Still Wakes The Deep developer The Chinese Room has seemingly made a small number of layoffs."
+    },
+    {
+      "ref": "business/sega-accidentally-revealed-sales-numbers",
+      "entities": {
+        "games": [
+          { "id": "like-a-dragon-infinite-wealth", "name": "Like a Dragon: Infinite Wealth", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "like-a-dragon-the-man-who-erased-their-name", "name": "Like a Dragon: The Man Who Erased Their Name", "aliases": [], "genres": ["action-adventure"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "persona-3-reload", "name": "Persona 3 Reload", "aliases": [], "genres": ["jrpg"], "franchise": "persona", "inferred": true },
+          { "id": "sonic-superstars", "name": "Sonic Superstars", "aliases": [], "genres": ["platformer"], "franchise": "sonic", "inferred": true },
+          { "id": "sonic-frontiers", "name": "Sonic Frontiers", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "sonic", "inferred": true },
+          { "id": "total-war-warhammer-iii", "name": "Total War: WARHAMMER III", "aliases": [], "genres": ["strategy", "rts"], "franchise": "total-war", "inferred": true },
+          { "id": "shin-megami-tensei-v", "name": "Shin Megami Tensei V", "aliases": ["Shin Megami Tensei V (Including Vengeance)"], "genres": ["jrpg"], "franchise": "shin-megami-tensei", "inferred": true },
+          { "id": "yakuza-like-a-dragon", "name": "Yakuza: Like a Dragon", "aliases": [], "genres": ["jrpg", "action-rpg"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "persona-5-royal", "name": "Persona 5 Royal", "aliases": ["Persona 5 Royal (Including Remaster version)"], "genres": ["jrpg"], "franchise": "persona", "inferred": true },
+          { "id": "team-sonic-racing", "name": "Team Sonic Racing", "aliases": [], "genres": ["racing"], "franchise": "sonic", "inferred": true },
+          { "id": "total-war-three-kingdoms", "name": "Total War: THREE KINGDOMS", "aliases": [], "genres": ["strategy", "rts"], "franchise": "total-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales", "value": 1660000, "unit": "units", "currency": null,
+          "entity": "like-a-dragon-infinite-wealth", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Like a Dragon: Infinite Wealth – 1.66m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 960000, "unit": "units", "currency": null,
+          "entity": "like-a-dragon-the-man-who-erased-their-name", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Like a Dragon: The Man Who Erased Their Name – 0.96m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 2070000, "unit": "units", "currency": null,
+          "entity": "persona-3-reload", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Persona 3 Reload – 2.07m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 2430000, "unit": "units", "currency": null,
+          "entity": "sonic-superstars", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Sonic Superstars – 2.43m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 4570000, "unit": "units", "currency": null,
+          "entity": "sonic-frontiers", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Sonic Frontiers – 4.57m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 2340000, "unit": "units", "currency": null,
+          "entity": "total-war-warhammer-iii", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Total War: WARHAMMER III – 2.34m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 2110000, "unit": "units", "currency": null,
+          "entity": "shin-megami-tensei-v", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Shin Megami Tensei V (Including Vengeance) – 2.11m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 2860000, "unit": "units", "currency": null,
+          "entity": "yakuza-like-a-dragon", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Yakuza: Like a Dragon – 2.86m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 7250000, "unit": "units", "currency": null,
+          "entity": "persona-5-royal", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Persona 5 Royal (Including Remaster version) – 7.25m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 3500000, "unit": "units", "currency": null,
+          "entity": "team-sonic-racing", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Team Sonic Racing – 3.50m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        },
+        {
+          "metric": "lifetime_unit_sales", "value": 3210000, "unit": "units", "currency": null,
+          "entity": "total-war-three-kingdoms", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-23", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Total War: THREE KINGDOMS – 3.21m",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-accidentally-revealed-sales-numbers-for-sonic-like-a-dragon-persona-and-more/" }
+        }
+      ],
+      "summary": "Sega accidentally revealed sales figures for several of its games, including Sonic, Like a Dragon and Persona titles."
+    }
+  ]
+}

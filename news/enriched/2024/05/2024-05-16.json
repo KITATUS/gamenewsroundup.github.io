@@ -1,0 +1,299 @@
+{
+  "date": "2024-05-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-s-free-to-play-shooter-the-division-heartland-cancel",
+      "entities": {
+        "games": [
+          { "id": "the-division-heartland", "name": "The Division Heartland", "aliases": [], "genres": ["shooter"], "franchise": "tom-clancys-the-division", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "announcement"],
+      "facts": [],
+      "summary": "Ubisoft has cancelled its free-to-play shooter The Division Heartland three years after announcing it."
+    },
+    {
+      "ref": "main_news/assassin-s-creed-shadows-trailer-reveals-first-look-at-dual",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": ["Red"], "genres": ["action-adventure", "action-rpg", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false },
+          { "id": "mac", "name": "Mac", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-15", "unit": "date", "currency": null,
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Launches on 15th November for PC (via the Ubisoft / Epic Game Store) Mac, PlayStation 5 and Xbox Series S/X",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/assassins-creed-shadows-trailer-reveals-first-look-at-dual-protagonists" } },
+        { "metric": "price", "value": 59.99, "unit": "price", "currency": "GBP",
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£59.99 base game (£69.99 on consoles)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/assassins-creed-shadows-trailer-reveals-first-look-at-dual-protagonists" } },
+        { "metric": "price", "value": 69.99, "unit": "price", "currency": "GBP",
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£59.99 base game (£69.99 on consoles)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/assassins-creed-shadows-trailer-reveals-first-look-at-dual-protagonists" } },
+        { "metric": "price", "value": 94.99, "unit": "price", "currency": "GBP",
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£94.99 Gold Edition adding the season pass and three days \"early access\"",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/assassins-creed-shadows-trailer-reveals-first-look-at-dual-protagonists" } },
+        { "metric": "price", "value": 114.99, "unit": "price", "currency": "GBP",
+          "entity": "assassins-creed-shadows", "entity_type": "game", "scope": "game",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£114.99 Ultimate Edition adding five skill points, the Sekiryu character pack and hideout pack, plus the Red Dragon photo filter",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/assassins-creed-shadows-trailer-reveals-first-look-at-dual-protagonists" } }
+      ],
+      "summary": "A new Assassin's Creed Shadows trailer revealed the game's dual protagonists, with a 15 November launch and pricing tiers detailed."
+    },
+    {
+      "ref": "main_news/final-fantasy-14-ttrpg-is-so-popular-there-s-a-second-print",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-14-ttrpg", "name": "Final Fantasy 14 TTRPG", "aliases": [], "genres": ["rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "price", "value": 50.99, "unit": "price", "currency": "GBP",
+          "entity": "final-fantasy-14-ttrpg", "entity_type": "product", "scope": "product",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Priced at £50.99",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/final-fantasy-14-ttrpg-is-so-popular-theres-a-second-print-before-its-even-out" } }
+      ],
+      "summary": "The Final Fantasy 14 tabletop RPG is heading for a second print run before release due to high demand."
+    },
+    {
+      "ref": "main_news/hi-fi-rush-studio-breaks-silence-to-announce-one-last-patch",
+      "entities": {
+        "games": [
+          { "id": "hi-fi-rush", "name": "Hi-Fi Rush", "aliases": [], "genres": ["action-adventure", "rhythm"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The Hi-Fi Rush studio announced a final patch and a physical edition with Limited Run Games."
+    },
+    {
+      "ref": "main_news/mortal-kombat-2-film-ties-down-release-date",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-24", "unit": "date", "currency": null,
+          "entity": "mortal-kombat-2-film", "entity_type": "product", "scope": "product",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "24th October, 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/mortal-kombat-2-film-ties-down-release-date-but-its-not-out-until-next-year" } }
+      ],
+      "summary": "The Mortal Kombat 2 film has set a release date of 24 October 2025."
+    },
+    {
+      "ref": "main_news/uk-government-responds-to-stop-killing-games-campaign",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-16", "unit": "date", "currency": null,
+          "entity": "stop-killing-games", "entity_type": "product", "scope": "event",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The petition will continue to run until October 16, 2024",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/uk-government-responds-to-stop-killing-games-campaign" } }
+      ],
+      "summary": "The UK government responded to the Stop Killing Games campaign, stating no UK law prevents publishers from disabling older games."
+    },
+    {
+      "ref": "free_games_subscription/red-dead-redemption-2-headlines-playstation-plus-premium-and",
+      "entities": {
+        "games": [
+          { "id": "red-dead-redemption-2", "name": "Red Dead Redemption 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "red-dead", "inferred": true },
+          { "id": "deceive-inc", "name": "Deceive Inc.", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "the-sims-4-city-living", "name": "The Sims 4 City Living", "aliases": [], "genres": ["life-sim"], "franchise": "the-sims", "inferred": true },
+          { "id": "crime-boss-rockay-city", "name": "Crime Boss: Rockay City", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "the-settlers-new-allies", "name": "The Settlers: New Allies", "aliases": [], "genres": ["strategy"], "franchise": "the-settlers", "inferred": true },
+          { "id": "stranded-alien-dawn", "name": "Stranded: Alien Dawn", "aliases": [], "genres": ["survival", "simulation"], "franchise": null, "inferred": true },
+          { "id": "cat-quest-1-2", "name": "Cat Quest 1 & 2", "aliases": [], "genres": ["action-rpg"], "franchise": "cat-quest", "inferred": true },
+          { "id": "the-lego-movie-2-videogame", "name": "The LEGO Movie 2 Videogame", "aliases": [], "genres": ["action-adventure"], "franchise": "lego", "inferred": true },
+          { "id": "watch-dogs", "name": "Watch Dogs", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "watch-dogs", "inferred": true },
+          { "id": "2xtreme", "name": "2Xtreme", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true },
+          { "id": "g-police", "name": "G-Police", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "worms-pinball", "name": "Worms Pinball", "aliases": [], "genres": ["simulation"], "franchise": "worms", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus Premium and Extra", "aliases": ["PS+ Extra", "PS+ Premium"], "inferred": false },
+          { "id": "playstation-4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-05-21", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "21st May:",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/red-dead-redemption-2-headlines-playstation-plus-premium-and-extra-games-for-may" } }
+      ],
+      "summary": "Red Dead Redemption 2 headlines the PlayStation Plus Premium and Extra games added from 21 May."
+    },
+    {
+      "ref": "free_games_subscription/super-mario-land-alleyway-and-baseball-added-to-nintendo-swi",
+      "entities": {
+        "games": [
+          { "id": "super-mario-land", "name": "Super Mario Land", "aliases": [], "genres": ["platformer"], "franchise": "super-mario", "inferred": true },
+          { "id": "alleyway", "name": "Alleyway", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "baseball", "name": "Baseball", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Super Mario Land, Alleyway and Baseball have been added to Nintendo Switch Online."
+    },
+    {
+      "ref": "business/ubisoft-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 2300000000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-16", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Sales: €2.3 billion ($2.5 billion), an increase of 27% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisofts-reports-record-bookings-for-2023" } },
+        { "metric": "revenue", "value": 2500000000, "unit": "money", "currency": "USD",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-16", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Sales: €2.3 billion ($2.5 billion), an increase of 27% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisofts-reports-record-bookings-for-2023" } },
+        { "metric": "operating_income", "value": 313600000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-16", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Operating income: €313.6 million ($341 million), compared to a loss of €586 million ($638 million) profit the previous year.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisofts-reports-record-bookings-for-2023" } },
+        { "metric": "operating_income", "value": 341000000, "unit": "money", "currency": "USD",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2024-05-16", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Operating income: €313.6 million ($341 million), compared to a loss of €586 million ($638 million) profit the previous year.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisofts-reports-record-bookings-for-2023" } }
+      ],
+      "summary": "Ubisoft reported €2.3 billion in sales for 2023, up 27% year-over-year, with operating income of €313.6 million."
+    },
+    {
+      "ref": "business/former-bandai-namco-worker-arrested-for-suspected-embezzleme",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A former Bandai Namco employee was arrested over suspected embezzlement involving roughly 4,000 company smartphones."
+    },
+    {
+      "ref": "business/marc-whitten-to-leave-unity",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "marc-whitten", "name": "Marc Whitten", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-06-01", "unit": "date", "currency": null,
+          "entity": "marc-whitten", "entity_type": "person", "scope": "company",
+          "as_of": "2024-05-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Marc Whitten will resign from his role on June 1, and will leave the firm by the end of 2024",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/marc-whitten-to-leave-unity" } }
+      ],
+      "summary": "Unity's chief product and technology officer Marc Whitten will resign on 1 June and leave the company by the end of 2024."
+    },
+    {
+      "ref": "rumours/microsoft-bosses-reportedly-pushing-for-no-red-line-around-w",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Microsoft executives are reportedly pushing for no firm limit on which Xbox games release on PlayStation."
+    }
+  ]
+}

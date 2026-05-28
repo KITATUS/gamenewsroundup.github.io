@@ -1,0 +1,214 @@
+{
+  "date": "2025-08-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/football-manager-26-announces-comeback-with-first-tease-of-i",
+      "entities": {
+        "games": [
+          { "id": "football-manager-26", "name": "Football Manager 26", "aliases": ["Football Manager 26", "FM26"], "genres": ["sports", "simulation"], "franchise": "football-manager", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sports-interactive", "name": "Sports Interactive", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "trailer"],
+      "facts": [],
+      "summary": "Football Manager 26 announced its comeback with a first tease of in-game footage running on the Unity engine."
+    },
+    {
+      "ref": "main_news/namco-s-1996-arcade-racer-aqua-jet-gets-its-first-ever-home",
+      "entities": {
+        "games": [
+          { "id": "aqua-jet", "name": "Aqua Jet", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "namco", "name": "Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "Namco's 1996 arcade racer Aqua Jet is getting its first ever home release this week."
+    },
+    {
+      "ref": "main_news/pubg-to-end-support-for-last-gen-consoles-from-november-13th",
+      "entities": {
+        "games": [
+          { "id": "pubg", "name": "PUBG", "aliases": ["PUBG"], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2025-11-13", "unit": "date", "currency": null,
+          "entity": "pubg", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PUBG to end support for last-gen consoles from November 13th",
+          "source": { "name": "pubg.com", "domain": "pubg.com", "url": "https://pubg.com/en/news/9005" } }
+      ],
+      "summary": "PUBG will end support for last-gen consoles from 13 November 2025."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-game-catalogue-for-august",
+      "entities": {
+        "games": [
+          { "id": "mortal-kombat-1", "name": "Mortal Kombat 1", "aliases": [], "genres": ["fighting"], "franchise": "mortal-kombat", "inferred": true },
+          { "id": "marvels-spider-man", "name": "Marvel's Spider-Man", "aliases": ["Marvel’s Spider-Man"], "genres": ["action-adventure", "open-world"], "franchise": "spider-man", "inferred": true },
+          { "id": "sword-of-the-sea", "name": "Sword of the Sea", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "earth-defense-force-6", "name": "Earth Defense Force 6", "aliases": [], "genres": ["tps", "shooter"], "franchise": "earth-defense-force", "inferred": true },
+          { "id": "unicorn-overlord", "name": "Unicorn Overlord", "aliases": [], "genres": ["strategy", "rpg"], "franchise": null, "inferred": true },
+          { "id": "atelier-ryza-3-alchemist-of-the-end-the-secret-key", "name": "Atelier Ryza 3 Alchemist of the End & the Secret Key", "aliases": ["Atelier Ryza 3 Alchemist of the End & the Secret Key"], "genres": ["jrpg"], "franchise": "atelier", "inferred": true },
+          { "id": "indika", "name": "Indika", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "harold-halibut", "name": "Harold Halibut", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "coral-island", "name": "Coral Island", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "resident-evil-2", "name": "Resident Evil 2", "aliases": ["PS1 Resident Evil 2"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-3-nemesis", "name": "Resident Evil 3: Nemesis", "aliases": ["PS1 Resident Evil 3: Nemesis"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PlayStation Plus Game Catalogue"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": ["PS4/5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Sony revealed the PlayStation Plus Game Catalogue and retro titles joining the Extra and Premium tiers for August."
+    },
+    {
+      "ref": "free_games_subscription/chibi-robo-is-the-next-gamecube-title-coming-to-switch-2-s-n",
+      "entities": {
+        "games": [
+          { "id": "chibi-robo", "name": "Chibi-Robo", "aliases": [], "genres": ["adventure", "action-adventure"], "franchise": "chibi-robo", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false },
+          { "id": "nintendo-gamecube", "name": "Nintendo GameCube", "aliases": ["GameCube"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Chibi-Robo is the next GameCube title coming to the Nintendo Classics library on Switch 2."
+    },
+    {
+      "ref": "business/minecraft-console-dev-4j-opens-new-edinburgh-studio-as-work",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true },
+          { "id": "reforj", "name": "Reforj", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "4j-studios", "name": "4J Studios", "aliases": ["4J"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Minecraft console developer 4J Studios has opened a new Edinburgh studio as work continues on its Minecraft rival Reforj."
+    },
+    {
+      "ref": "business/undisputed-developer-steel-city-interactive-opens-second-stu",
+      "entities": {
+        "games": [
+          { "id": "undisputed", "name": "Undisputed", "aliases": [], "genres": ["sports", "fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "steel-city-interactive", "name": "Steel City Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Undisputed developer Steel City Interactive has opened a second studio in Leamington Spa, UK."
+    },
+    {
+      "ref": "business/starbreeze-appoints-former-ea-exec-jonas-skantz-as-payday-s",
+      "entities": {
+        "games": [
+          { "id": "payday", "name": "Payday", "aliases": ["Payday"], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true }
+        ],
+        "studios": [
+          { "id": "starbreeze", "name": "Starbreeze", "aliases": ["Starbreeze Studios"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jonas-skantz", "name": "Jonas Skantz", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Starbreeze appointed former EA executive Jonas Skantz as general manager for Payday."
+    },
+    {
+      "ref": "business/square-enix-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 59200000000, "unit": "currency", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥59.2 billion ($401 million), down 15.2% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-q1-net-sales-drop-152-due-to-new-titles-generating-low-revenue" } },
+        { "metric": "revenue", "value": 401000000, "unit": "currency", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥59.2 billion ($401 million), down 15.2% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-q1-net-sales-drop-152-due-to-new-titles-generating-low-revenue" } },
+        { "metric": "profit", "value": 4800000000, "unit": "currency", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Profit: ¥4.8 billion ($32.5 million), down 54.8% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-q1-net-sales-drop-152-due-to-new-titles-generating-low-revenue" } },
+        { "metric": "profit", "value": 32500000, "unit": "currency", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Profit: ¥4.8 billion ($32.5 million), down 54.8% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-q1-net-sales-drop-152-due-to-new-titles-generating-low-revenue" } },
+        { "metric": "revenue", "value": 32900000000, "unit": "currency", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Digital Entertainment net sales: ¥32.9 billion ($223 million), down 25% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-q1-net-sales-drop-152-due-to-new-titles-generating-low-revenue" } },
+        { "metric": "revenue", "value": 223000000, "unit": "currency", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-14", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Digital Entertainment net sales: ¥32.9 billion ($223 million), down 25% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-q1-net-sales-drop-152-due-to-new-titles-generating-low-revenue" } }
+      ],
+      "summary": "Square Enix reported quarterly net sales of ¥59.2 billion, down 15.2% year-on-year, with profit down 54.8%."
+    }
+  ]
+}

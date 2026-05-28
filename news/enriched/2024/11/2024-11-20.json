@@ -1,0 +1,645 @@
+{
+  "date": "2024-11-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/final-fantasy-14-mobile-officially-revealed",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-14-mobile",
+            "name": "Final Fantasy 14 Mobile",
+            "aliases": ["Final Fantasy 14 Mobile"],
+            "genres": ["mmorpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Final Fantasy 14 Mobile has been officially revealed."
+    },
+    {
+      "ref": "main_news/f-zero-x-soundtrack-added-to-nintendo-music-app",
+      "entities": {
+        "games": [
+          {
+            "id": "f-zero-x",
+            "name": "F-Zero X",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "f-zero",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "The F-Zero X soundtrack has been added to the Nintendo Music app."
+    },
+    {
+      "ref": "main_news/playstation-portal-is-getting-cloud-streaming-today",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["PS Plus", "PlayStation"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-portal",
+            "name": "PlayStation Portal",
+            "aliases": ["Portal"],
+            "inferred": false
+          },
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "subscription"],
+      "facts": [
+        {
+          "metric": "headcount",
+          "value": 120,
+          "unit": "games",
+          "currency": null,
+          "entity": "playstation-portal",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2024-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS Plus Premium members will be able to test cloud streaming of 120 PS5 games on the Portal"
+        }
+      ],
+      "summary": "The PlayStation Portal is getting cloud streaming, with PS Plus Premium members able to test cloud streaming of 120 PS5 games on the device."
+    },
+    {
+      "ref": "main_news/a-new-trailer-for-the-minecraft-live-action-movie-has-been-r",
+      "entities": {
+        "games": [
+          {
+            "id": "minecraft",
+            "name": "Minecraft",
+            "aliases": [],
+            "genres": ["sandbox", "survival"],
+            "franchise": "minecraft",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "A new trailer for the live-action Minecraft movie has been released."
+    },
+    {
+      "ref": "main_news/control-2-will-be-an-action-rpg-remedy-says",
+      "entities": {
+        "games": [
+          {
+            "id": "control-2",
+            "name": "Control 2",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "control",
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": ["Remedy"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Remedy has said that Control 2 will be an action RPG."
+    },
+    {
+      "ref": "main_news/minecraft-theme-park-rights-won-by-alton-towers-and-legoland",
+      "entities": {
+        "games": [
+          {
+            "id": "minecraft",
+            "name": "Minecraft",
+            "aliases": [],
+            "genres": ["sandbox", "survival"],
+            "franchise": "minecraft",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Merlin, owner of Alton Towers and Legoland, has won the rights to build Minecraft theme park attractions."
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-announced",
+      "entities": {
+        "games": [
+          {
+            "id": "microsoft-flight-simulator-2024",
+            "name": "Microsoft Flight Simulator 2024",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": "microsoft-flight-simulator",
+            "inferred": true
+          },
+          {
+            "id": "stalker-2-heart-of-chornobyl",
+            "name": "Stalker 2: Heart of Chornobyl",
+            "aliases": [],
+            "genres": ["fps", "survival-horror"],
+            "franchise": "stalker",
+            "inferred": true
+          },
+          {
+            "id": "little-kitty-big-city",
+            "name": "Little Kitty, Big City",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "plateup",
+            "name": "PlateUp!",
+            "aliases": [],
+            "genres": ["simulation", "roguelike"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "nine-sols",
+            "name": "Nine Sols",
+            "aliases": [],
+            "genres": ["metroidvania", "action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "aliens-dark-descent",
+            "name": "Aliens: Dark Descent",
+            "aliases": [],
+            "genres": ["strategy", "action-rpg"],
+            "franchise": "aliens",
+            "inferred": true
+          },
+          {
+            "id": "conan-exiles",
+            "name": "Conan Exiles",
+            "aliases": [],
+            "genres": ["survival", "open-world"],
+            "franchise": "conan",
+            "inferred": true
+          },
+          {
+            "id": "coral-island",
+            "name": "Coral Island",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "hello-neighbor-2",
+            "name": "Hello Neighbor 2",
+            "aliases": [],
+            "genres": ["stealth", "horror"],
+            "franchise": "hello-neighbor",
+            "inferred": true
+          },
+          {
+            "id": "remnant-from-the-ashes",
+            "name": "Remnant: From The Ashes",
+            "aliases": [],
+            "genres": ["tps", "soulslike"],
+            "franchise": "remnant",
+            "inferred": true
+          },
+          {
+            "id": "rollerdrome",
+            "name": "Rollerdrome",
+            "aliases": [],
+            "genres": ["tps", "action"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "soccer-story",
+            "name": "Soccer Story",
+            "aliases": [],
+            "genres": ["adventure", "sports"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "spirit-of-the-north",
+            "name": "Spirit of the North",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-walking-dead-the-final-season",
+            "name": "The Walking Dead: The Final Season",
+            "aliases": [],
+            "genres": ["adventure", "visual-novel"],
+            "franchise": "the-walking-dead",
+            "inferred": true
+          },
+          {
+            "id": "while-the-irons-hot",
+            "name": "While the Iron's Hot",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox-game-pass",
+            "name": "Xbox Game Pass",
+            "aliases": ["Game Pass Ultimate", "PC Game Pass", "Game Pass Standard"],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-s-x",
+            "name": "Xbox Series S|X",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "cloud",
+            "name": "Cloud",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-11-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "microsoft-flight-simulator-2024",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Microsoft Flight Simulator 2024 (Cloud, PC, and Xbox Series S|X) – November 19 on Game Pass Ultimate, PC Game Pass"
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-11-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "stalker-2-heart-of-chornobyl",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Stalker 2: Heart of Chornobyl (Cloud, PC, and Xbox Series S|X) – November 20 on Game Pass Ultimate, PC Game Pass"
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-11-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "little-kitty-big-city",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Little Kitty, Big City (Console) – November 20. Now with Game Pass Standard"
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-11-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "plateup",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PlateUp! (Console) – November 20. Now with Game Pass Standard"
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-11-26",
+          "unit": "date",
+          "currency": null,
+          "entity": "nine-sols",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Nine Sols (Cloud, PC, and Xbox Series S|X) – November 26 on Game Pass Ultimate, PC Game Pass"
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-11-27",
+          "unit": "date",
+          "currency": null,
+          "entity": "aliens-dark-descent",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Aliens: Dark Descent (Cloud, Console, and PC) – November 27 on Game Pass Ultimate, PC Game Pass, Game Pass Standard"
+        }
+      ],
+      "summary": "New Xbox Game Pass titles have been announced for console, PC and Cloud, including Microsoft Flight Simulator 2024 and Stalker 2: Heart of Chornobyl, alongside a list of games leaving the service."
+    },
+    {
+      "ref": "business/starfield-reaches-15m-players",
+      "entities": {
+        "games": [
+          {
+            "id": "starfield",
+            "name": "Starfield",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bethesda-game-studios",
+            "name": "Bethesda Game Studios",
+            "aliases": ["Bethesda"],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 15000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "starfield",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Starfield reaches 15m players"
+        }
+      ],
+      "summary": "Starfield has reached 15 million players."
+    },
+    {
+      "ref": "business/farming-simulator-25-has-sold-2m-copies-in-a-week",
+      "entities": {
+        "games": [
+          {
+            "id": "farming-simulator-25",
+            "name": "Farming Simulator 25",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": "farming-simulator",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "farming-simulator-25",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Farming Simulator 25 has sold 2m copies in a week"
+        }
+      ],
+      "summary": "Farming Simulator 25 has sold 2 million copies in its first week."
+    },
+    {
+      "ref": "business/alan-wake-2-sells-over-1-8m-units",
+      "entities": {
+        "games": [
+          {
+            "id": "alan-wake-2",
+            "name": "Alan Wake 2",
+            "aliases": [],
+            "genres": ["survival-horror", "action-adventure"],
+            "franchise": "alan-wake",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": ["Remedy"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1800000,
+          "unit": "units",
+          "currency": null,
+          "entity": "alan-wake-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Alan Wake 2 sells over 1.8m units"
+        }
+      ],
+      "summary": "Alan Wake 2 has sold over 1.8 million units."
+    },
+    {
+      "ref": "business/playstation-studios-has-confirmed-its-new-head-of-mobile",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "playstation-studios",
+            "name": "PlayStation Studios",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "olivier-courtemarche",
+            "name": "Olivier Courtemarche",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "PlayStation Studios has confirmed Olivier Courtemarche, previously co-head of mobile since June 2023, as its new full head of mobile."
+    },
+    {
+      "ref": "rumours/pokemon-tcg-pocket-has-reportedly-passed-120-million-in-earn",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-tcg-pocket",
+            "name": "Pokemon TCG Pocket",
+            "aliases": [],
+            "genres": ["card"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "the-pokemon-company",
+            "name": "The Pokémon Company",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "rumour"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 120000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "pokemon-tcg-pocket",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-11-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Pokemon TCG Pocket has reportedly passed $120 million in earnings"
+        }
+      ],
+      "summary": "Pokemon TCG Pocket has reportedly passed $120 million in earnings."
+    }
+  ]
+}

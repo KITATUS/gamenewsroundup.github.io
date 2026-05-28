@@ -1,0 +1,93 @@
+{
+  "date": "2024-12-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/helldivers-2-developers-respond-to-criticism-of-killzone-2-c",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "killzone-2", "name": "Killzone 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "killzone", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arrowhead-game-studios", "name": "Arrowhead Game Studios", "aliases": ["Arrowhead"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game"],
+      "facts": [],
+      "summary": "Helldivers 2 developer Arrowhead responded to criticism over the cost of the Killzone 2 crossover, planning to gift a second wave of collaboration items for free."
+    },
+    {
+      "ref": "main_news/lost-soul-aside-launches-in-2025-nine-years-after-devil-may",
+      "entities": {
+        "games": [
+          { "id": "lost-soul-aside", "name": "Lost Soul Aside", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "devil-may-cry", "name": "Devil May Cry", "aliases": [], "genres": ["action-adventure"], "franchise": "devil-may-cry", "inferred": true },
+          { "id": "final-fantasy-15", "name": "Final Fantasy 15", "aliases": ["Final Fantasy XV"], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "The Devil May Cry and Final Fantasy 15 inspired action game Lost Soul Aside will launch in 2025, nine years after its reveal."
+    },
+    {
+      "ref": "main_news/zenimax-will-pivot-elder-scrolls-online-to-seasonal-content",
+      "entities": {
+        "games": [
+          { "id": "elder-scrolls-online", "name": "Elder Scrolls Online", "aliases": ["ESO"], "genres": ["mmorpg"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "zenimax-online-studios", "name": "ZeniMax Online Studios", "aliases": ["ZeniMax", "ZeniMax Online"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "ZeniMax will pivot Elder Scrolls Online from annual expansions to a seasonal content structure in 2025."
+    },
+    {
+      "ref": "business/sony-is-now-kadokawa-s-largest-shareholder",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true },
+          { "id": "kadokawa", "name": "Kadokawa", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sony has become Kadokawa's largest shareholder but has not acquired the company."
+    },
+    {
+      "ref": "business/tencent-removes-directors-from-epic-games-after-justice-dept",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "leadership-change"],
+      "facts": [],
+      "summary": "Tencent removed its directors from Epic Games following a US Justice Department inquiry into the appointments at the company in which it holds a minority stake."
+    }
+  ]
+}

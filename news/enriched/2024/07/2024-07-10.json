@@ -1,0 +1,150 @@
+{
+  "date": "2024-07-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-game-pass-getting-big-changes-ditching-day-one-releases",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["PC Game Pass"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "price-change"],
+      "facts": [
+        { "metric": "price", "value": 9.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox Game Pass Core - $9.99 / no day one games",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/microsoft-confirms-big-changes-for-xbox-game-pass-ditching-day-one-releases-for-basic-tier" } },
+        { "metric": "price", "value": 11.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PC Game Pass - $11.99 / day one games",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/microsoft-confirms-big-changes-for-xbox-game-pass-ditching-day-one-releases-for-basic-tier" } },
+        { "metric": "price", "value": 10.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox Game Pass for Console (existing subs) - $10.99 / day one games (will be phased out 12th September)",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/microsoft-confirms-big-changes-for-xbox-game-pass-ditching-day-one-releases-for-basic-tier" } },
+        { "metric": "price", "value": 14.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox Game Pass Standard (new only) - $14.99 / no day one games",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/microsoft-confirms-big-changes-for-xbox-game-pass-ditching-day-one-releases-for-basic-tier" } },
+        { "metric": "price", "value": 19.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Xbox Game Pass Ultimate - $19.99 / day one games",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/microsoft-confirms-big-changes-for-xbox-game-pass-ditching-day-one-releases-for-basic-tier" } },
+        { "metric": "shutdown_date", "value": "2024-09-12", "unit": "date", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will be phased out 12th September",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/microsoft-confirms-big-changes-for-xbox-game-pass-ditching-day-one-releases-for-basic-tier" } }
+      ],
+      "summary": "Microsoft is overhauling Xbox Game Pass tiers and pricing, removing day-one releases from its new basic tier."
+    },
+    {
+      "ref": "main_news/vampire-survivors-coming-to-apple-arcade-ad-free-this-august",
+      "entities": {
+        "games": [{ "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "survival"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "poncle", "name": "poncle", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [{ "id": "apple-arcade", "name": "Apple Arcade", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "subscription"],
+      "facts": [],
+      "summary": "Vampire Survivors is coming to Apple Arcade ad-free this August, including the Legacy of the Moonspell and Tides of the Foscari paid expansions."
+    },
+    {
+      "ref": "business/pok-mon-sleep-earns-100m-in-first-year-revenue",
+      "entities": {
+        "games": [{ "id": "pokemon-sleep", "name": "Pokémon Sleep", "aliases": ["Pokémon Sleep"], "genres": ["simulation"], "franchise": "pokemon", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 100000000, "unit": "money", "currency": "USD",
+          "entity": "pokemon-sleep", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "Pokémon Sleep earns $100m in first year revenue",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/pokemon-sleep-earns-100m-in-first-year-revenue" } },
+        { "metric": "downloads", "value": 9800000, "unit": "downloads", "currency": null,
+          "entity": "pokemon-sleep", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-10", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "The sleep-tracking app saw 9.8 million downloads during the same period",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/pokemon-sleep-earns-100m-in-first-year-revenue" } }
+      ],
+      "summary": "Pokémon Sleep earned $100m in revenue in its first year, with 9.8 million downloads in the same period."
+    },
+    {
+      "ref": "business/monster-hunter-stories-2-wings-of-ruin-tops-2m-copies-sold",
+      "entities": {
+        "games": [{ "id": "monster-hunter-stories-2-wings-of-ruin", "name": "Monster Hunter Stories 2: Wings of Ruin", "aliases": [], "genres": ["jrpg", "turn-based-strategy"], "franchise": "monster-hunter", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "copies", "currency": null,
+          "entity": "monster-hunter-stories-2-wings-of-ruin", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-10", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Monster Hunter Stories 2: Wings of Ruin tops 2m copies sold",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/monsterhunter/status/1810585630209970338" } }
+      ],
+      "summary": "Monster Hunter Stories 2: Wings of Ruin has topped 2 million copies sold."
+    },
+    {
+      "ref": "business/palworld-entertainment-established-by-pocketpair-sony-music",
+      "entities": {
+        "games": [{ "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": "palworld", "inferred": true }],
+        "studios": [{ "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [
+          { "id": "sony-music-entertainment", "name": "Sony Music Entertainment", "aliases": ["Sony Music"], "inferred": false },
+          { "id": "aniplex", "name": "Aniplex", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "studio-opening"],
+      "facts": [],
+      "summary": "Palworld Entertainment, a new joint venture, has been established by Pocketpair, Sony Music Entertainment, and Aniplex to develop businesses around Palworld."
+    },
+    {
+      "ref": "rumours/new-playstation-plus-game-catalogue-titles-leak",
+      "entities": {
+        "games": [
+          { "id": "crisis-core-final-fantasy-vii-reunion", "name": "Crisis Core: Final Fantasy VII Reunion", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "remnant-ii", "name": "Remnant II", "aliases": [], "genres": ["tps", "soulslike"], "franchise": "remnant", "inferred": true },
+          { "id": "pathfinder-wrath-of-the-righteous", "name": "Pathfinder: Wrath of the Righteous – Enhanced Edition", "aliases": [], "genres": ["crpg"], "franchise": "pathfinder", "inferred": true },
+          { "id": "mount-blade-ii-bannerlord", "name": "Mount & Blade II: Bannerlord", "aliases": [], "genres": ["action-rpg", "strategy"], "franchise": "mount-blade", "inferred": true },
+          { "id": "no-more-heroes-3", "name": "No More Heroes 3", "aliases": [], "genres": ["action-adventure"], "franchise": "no-more-heroes", "inferred": true },
+          { "id": "travis-strikes-again-no-more-heroes", "name": "Travis Strikes Again: No More Heroes Complete Edition", "aliases": [], "genres": ["action-adventure"], "franchise": "no-more-heroes", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus Game Catalogue", "aliases": ["PlayStation Plus Game Catalogue"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "rumour"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-07-17", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "product", "scope": "event",
+          "as_of": "2024-07-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "July 17th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-playstation-plus-game-catalogue-titles-leak-including-crisis-core-ff7-reunion/" } }
+      ],
+      "summary": "Rumour that new PlayStation Plus Game Catalogue titles, including Crisis Core: Final Fantasy VII Reunion and Remnant II, have leaked ahead of a 17 July reveal."
+    }
+  ]
+}

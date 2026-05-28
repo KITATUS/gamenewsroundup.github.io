@@ -1,0 +1,123 @@
+{
+  "date": "2024-10-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/oregon-trail-is-taking-the-road-to-a-movie-adaptation",
+      "entities": {
+        "games": [
+          { "id": "the-oregon-trail", "name": "The Oregon Trail", "aliases": ["Oregon Trail"], "genres": ["simulation", "adventure"], "franchise": "the-oregon-trail", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mecc", "name": "MECC", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "MECC's The Oregon Trail game is being adapted into a movie at Apple."
+    },
+    {
+      "ref": "main_news/epic-is-simplifying-fortnite-s-pass-progression-systems",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Epic is simplifying Fortnite's pass progression systems so that all passes progress with XP."
+    },
+    {
+      "ref": "free_games_subscription/n64-s-shadow-man-and-turok-2-have-been-added-to-nintendo-swi",
+      "entities": {
+        "games": [
+          { "id": "shadow-man", "name": "Shadow Man", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "turok-2", "name": "Turok 2", "aliases": [], "genres": ["fps"], "franchise": "turok", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Nintendo Switch Online"], "inferred": false },
+          { "id": "nintendo-64", "name": "Nintendo 64", "aliases": ["N64"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription", "port"],
+      "facts": [],
+      "summary": "N64 titles Shadow Man and Turok 2 have been added to Nintendo Switch Online via the Mature app."
+    },
+    {
+      "ref": "business/germany-launches-new-grant-to-fund-gaming-start-ups",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "regulation"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 2750,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "germany-gaming-start-up-grant",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-10-29",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Successful bids can secure €2,750 (almost $3,000) per month over an 18-month period",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/germany-launches-new-grant-to-fund-gaming-start-ups" }
+        }
+      ],
+      "summary": "Germany has launched a new grant offering gaming start-ups up to EUR 2,750 per month over an 18-month period during their founding phase."
+    },
+    {
+      "ref": "business/dead-island-2-reaches-10m-players",
+      "entities": {
+        "games": [
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 10000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "dead-island-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-29",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dead Island 2 reaches 10m players",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/deadislandgame/status/1849828276388212792" }
+        }
+      ],
+      "summary": "Dead Island 2 has reached 10 million players."
+    }
+  ]
+}

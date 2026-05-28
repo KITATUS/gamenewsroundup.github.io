@@ -1,0 +1,169 @@
+{
+  "date": "2025-05-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-switch-2-is-already-in-some-users-hands-but-a-manda",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "update-patch"],
+      "facts": [],
+      "summary": "Some users already have Nintendo Switch 2 consoles, but a mandatory update means the units cannot be played yet."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-essential-monthly-games-for-june",
+      "entities": {
+        "games": [
+          { "id": "nba-2k25", "name": "NBA 2K25", "aliases": [], "genres": ["sports"], "franchise": "nba-2k", "inferred": true },
+          { "id": "alone-in-the-dark", "name": "Alone in the Dark", "aliases": [], "genres": ["survival-horror"], "franchise": "alone-in-the-dark", "inferred": true },
+          { "id": "bomb-rush-cyberfunk", "name": "Bomb Rush Cyberfunk", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "destiny-2-the-final-shape", "name": "Destiny 2: The Final Shape", "aliases": [], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true },
+          { "id": "another-crabs-treasure", "name": "Another Crab's Treasure", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": null, "inferred": true },
+          { "id": "skull-and-bones", "name": "Skull and Bones", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "destiny-2-legacy-collection", "name": "Destiny 2: Legacy Collection", "aliases": [], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true },
+          { "id": "grand-theft-auto-iii-the-definitive-edition", "name": "Grand Theft Auto III: The Definitive Edition", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "myst", "name": "Myst", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": "myst", "inferred": true },
+          { "id": "riven", "name": "Riven", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": "myst", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Sony revealed the PlayStation Plus Essential monthly games for June along with Extra/Premium and Classics additions."
+    },
+    {
+      "ref": "business/apple-makes-first-ever-game-developer-acquisition-but-insist",
+      "entities": {
+        "games": [
+          { "id": "sneaky-sasquatch", "name": "Sneaky Sasquatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "rac7", "name": "RAC7", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "apple", "name": "Apple", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "apple-arcade", "name": "Apple Arcade", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Apple made its first ever game developer acquisition, buying RAC7, the two-person studio behind Apple Arcade's 2019 hit Sneaky Sasquatch, while insisting it is not the start of a trend."
+    },
+    {
+      "ref": "business/clair-obscur-expedition-33-hits-3-3m-sales-33-days-after-rel",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sandfall-interactive", "name": "Sandfall Interactive", "aliases": [], "publisher": "kepler-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 3300000,
+          "unit": "units",
+          "currency": null,
+          "entity": "clair-obscur-expedition-33",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Clair Obscur: Expedition 33 hits 3.3m sales 33 days after release",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/expedition33/status/1927364988219383892" }
+        }
+      ],
+      "summary": "Clair Obscur: Expedition 33 reached 3.3 million sales 33 days after release."
+    },
+    {
+      "ref": "business/pok-mon-software-nears-500m-units-sold",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 500000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "pokemon",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2025-05-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Pokémon software nears 500m units sold",
+          "source": { "name": "corporate.pokemon.co.jp", "domain": "corporate.pokemon.co.jp", "url": "https://corporate.pokemon.co.jp/en/aboutus/figures/" }
+        }
+      ],
+      "summary": "Cumulative Pokémon software sales are nearing 500 million units."
+    },
+    {
+      "ref": "business/niantic-spin-off-niantic-spatial-continues-layoffs-with-smal",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "niantic-spatial", "name": "Niantic Spatial", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 5,
+          "unit": "people",
+          "currency": null,
+          "entity": "niantic-spatial",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-05-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "another 5 employees affected",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/niantic-spin-off-continues-layoffs-with-small-number-of-additional-cuts" }
+        }
+      ],
+      "summary": "Niantic spin-off Niantic Spatial continued layoffs with a small number of additional cuts, affecting another 5 employees."
+    }
+  ]
+}

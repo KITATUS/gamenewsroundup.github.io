@@ -1,0 +1,198 @@
+{
+  "date": "2025-05-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/kingdom-hearts-mobile-game-missing-link-has-been-cancelled",
+      "entities": {
+        "games": [{ "id": "kingdom-hearts-missing-link", "name": "Kingdom Hearts Missing Link", "aliases": ["Missing Link"], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "The Kingdom Hearts mobile game Missing Link has been cancelled."
+    },
+    {
+      "ref": "free_games_subscription/upcoming-ps-premium-extra-games",
+      "entities": {
+        "games": [
+          { "id": "sand-land", "name": "Sand Land", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "soul-hackers-2", "name": "Soul Hackers 2", "aliases": [], "genres": ["jrpg"], "franchise": "shin-megami-tensei", "inferred": true },
+          { "id": "five-nights-at-freddys-help-wanted-full-time-edition", "name": "Five Nights at Freddy's: Help Wanted – Full Time Edition", "aliases": [], "genres": ["survival-horror"], "franchise": "five-nights-at-freddys", "inferred": true },
+          { "id": "battlefield-v", "name": "Battlefield V", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "stalker-legends-of-the-zone-trilogy", "name": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy", "aliases": [], "genres": ["fps", "survival-horror"], "franchise": "stalker", "inferred": true },
+          { "id": "granblue-fantasy-versus-rising", "name": "Granblue Fantasy Versus: Rising", "aliases": [], "genres": ["fighting"], "franchise": "granblue-fantasy", "inferred": true },
+          { "id": "humankind", "name": "Humankind", "aliases": [], "genres": ["strategy", "4x"], "franchise": null, "inferred": true },
+          { "id": "story-of-seasons-a-wonderful-life", "name": "Story of Seasons: A Wonderful Life", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "story-of-seasons", "inferred": true },
+          { "id": "gloomhaven-mercenaries-edition", "name": "Gloomhaven Mercenaries Edition", "aliases": [], "genres": ["strategy", "rpg"], "franchise": "gloomhaven", "inferred": true },
+          { "id": "battle-engine-aquila", "name": "Battle Engine Aquila", "aliases": [], "genres": ["shooter", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PS+"], "inferred": true }],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+"], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Sony has announced the upcoming PS Plus Premium and Extra games, including Sand Land, Soul Hackers 2, and Battlefield V."
+    },
+    {
+      "ref": "business/snk-ceo-steps-down-after-heavily-marketed-fatal-fury-city-of",
+      "entities": {
+        "games": [{ "id": "fatal-fury-city-of-the-wolves", "name": "Fatal Fury: City of the Wolves", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "snk", "name": "SNK", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "SNK's CEO has stepped down following the seemingly muted launch of the heavily-marketed Fatal Fury: City of the Wolves."
+    },
+    {
+      "ref": "business/nexon-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 113900000000, "unit": "money", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: ¥113.9 billion ($775.9 million, up 5% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/nexon-says-its-delivering-on-promises-as-it-posts-q1-2025-results" } },
+        { "metric": "revenue", "value": 775900000, "unit": "money", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "$775.9 million, up 5% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/nexon-says-its-delivering-on-promises-as-it-posts-q1-2025-results" } },
+        { "metric": "operating_income", "value": 41600000000, "unit": "money", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥41.6 billion ($283 million, up 43% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/nexon-says-its-delivering-on-promises-as-it-posts-q1-2025-results" } },
+        { "metric": "operating_income", "value": 283000000, "unit": "money", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "$283 million, up 43% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/nexon-says-its-delivering-on-promises-as-it-posts-q1-2025-results" } },
+        { "metric": "profit", "value": 26300000000, "unit": "money", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥26.3 billion ($179 million, down 31% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/nexon-says-its-delivering-on-promises-as-it-posts-q1-2025-results" } },
+        { "metric": "profit", "value": 179000000, "unit": "money", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "$179 million, down 31% year-over-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/nexon-says-its-delivering-on-promises-as-it-posts-q1-2025-results" } }
+      ],
+      "summary": "Nexon posted Q1 2025 revenue of ¥113.9 billion ($775.9 million), up 5% year-over-year."
+    },
+    {
+      "ref": "business/ubisoft-fy24-25-march-2024-march-2025-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 1899200000, "unit": "money", "currency": "EUR",
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Revenue: €1899.2 million (down 17.5% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/ubisofts-fy24-25-financials-report-solid-balance-sheet-despite-hefty-drops-in-revenue-and-back-catalog-sales" } }
+      ],
+      "summary": "Ubisoft's FY24-25 results reported revenue of €1899.2 million, down 17.5% year-on-year."
+    },
+    {
+      "ref": "business/square-enix-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 324500000000, "unit": "money", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥324.5 billion ($2.22 billion, down 8.9% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/square-enix-game-sales-down-but-profits-up-as-strategic-shift-continues" } },
+        { "metric": "revenue", "value": 2220000000, "unit": "money", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "$2.22 billion, down 8.9% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/square-enix-game-sales-down-but-profits-up-as-strategic-shift-continues" } },
+        { "metric": "operating_income", "value": 40580000000, "unit": "money", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥40.58 billion ($278.1 million, up 24.6% YoY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/square-enix-game-sales-down-but-profits-up-as-strategic-shift-continues" } },
+        { "metric": "operating_income", "value": 278100000, "unit": "money", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "$278.1 million, up 24.6% YoY",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/square-enix-game-sales-down-but-profits-up-as-strategic-shift-continues" } },
+        { "metric": "profit", "value": 24410000000, "unit": "money", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Profit attributable to owners of parent: ¥24.41 billion ($167.3 million, up 63.7%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/square-enix-game-sales-down-but-profits-up-as-strategic-shift-continues" } },
+        { "metric": "profit", "value": 167300000, "unit": "money", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2025-05-15", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "$167.3 million, up 63.7%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/square-enix-game-sales-down-but-profits-up-as-strategic-shift-continues" } }
+      ],
+      "summary": "Square Enix reported net sales of ¥324.5 billion ($2.22 billion), down 8.9% year-on-year, with profits up."
+    },
+    {
+      "ref": "rumours/the-title-of-the-super-mario-bros-movie-sequel-has-accidenta",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true },
+          { "id": "nbcuniversal", "name": "NBCUniversal", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "rumour"],
+      "facts": [],
+      "summary": "Rumour that the title of The Super Mario Bros Movie sequel, \"Super Mario World\", was accidentally revealed early by an NBCUniversal press release."
+    }
+  ]
+}

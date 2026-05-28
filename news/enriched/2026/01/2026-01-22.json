@@ -1,0 +1,109 @@
+{
+  "date": "2026-01-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-is-coming-to-universal-studios-a-permanent-pok-mon-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "A permanent Pokémon attraction is coming to Universal Studios, debuting in Japan before the US."
+    },
+    {
+      "ref": "main_news/donkey-kong-country-returns-hd-gets-a-free-update-which-impr",
+      "entities": {
+        "games": [
+          { "id": "donkey-kong-country-returns-hd", "name": "Donkey Kong Country Returns HD", "aliases": [], "genres": ["platformer"], "franchise": "donkey-kong", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "free-game"],
+      "facts": [],
+      "summary": "Donkey Kong Country Returns HD received a free update that improves Switch 2 visuals and adds Dixie Kong."
+    },
+    {
+      "ref": "business/ubisoft-details-major-company-reset-6-games-canned-7-delayed",
+      "entities": {
+        "games": [
+          { "id": "prince-of-persia-the-sands-of-time-remake", "name": "Prince of Persia: The Sands of Time Remake", "aliases": ["Prince of Persia Sands of Time remake"], "genres": ["action-adventure"], "franchise": "prince-of-persia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "delay"],
+      "facts": [
+        {
+          "metric": "studios_affected",
+          "value": 2,
+          "unit": "studios",
+          "currency": null,
+          "entity": "ubisoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-01-22",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "2 studios closed",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ubisoft-details-major-company-reset-6-games-canned-7-delayed-and-2-studios-closed/" }
+        }
+      ],
+      "summary": "Ubisoft detailed a major company reset, cancelling 6 games, delaying 7, closing 2 studios, and cancelling the Prince of Persia: The Sands of Time remake."
+    },
+    {
+      "ref": "business/layoffs-hit-payday-3-developer-starbreeze",
+      "entities": {
+        "games": [
+          { "id": "payday-3", "name": "Payday 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true }
+        ],
+        "studios": [
+          { "id": "starbreeze", "name": "Starbreeze", "aliases": ["Starbreeze Studios"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Layoffs have hit Payday 3 developer Starbreeze."
+    },
+    {
+      "ref": "rumours/beyond-good-evil-2-survives-ubisoft-s-project-purge",
+      "entities": {
+        "games": [
+          { "id": "beyond-good-evil-2", "name": "Beyond Good & Evil 2", "aliases": [], "genres": ["action-adventure"], "franchise": "beyond-good-and-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Beyond Good & Evil 2 has survived Ubisoft's project cancellations."
+    }
+  ]
+}

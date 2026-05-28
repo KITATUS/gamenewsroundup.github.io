@@ -1,0 +1,244 @@
+{
+  "date": "2025-09-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/wwe-2k25-s-attitude-era-dlc-pack-arrives-today-along-with-an",
+      "entities": {
+        "games": [
+          { "id": "wwe-2k25", "name": "WWE 2K25", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "goldberg", "name": "Goldberg", "aliases": [], "inferred": false },
+          { "id": "nikki-bella", "name": "Nikki Bella", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "release"],
+      "facts": [],
+      "summary": "WWE 2K25's Attitude Era DLC pack launches today alongside an extra paid expansion adding Goldberg and Nikki Bella."
+    },
+    {
+      "ref": "main_news/lasombra-and-toreador-clans-added-to-vampire-the-masquerade",
+      "entities": {
+        "games": [
+          { "id": "vampire-the-masquerade-bloodlines-2", "name": "Vampire: The Masquerade – Bloodlines 2", "aliases": [], "genres": ["action-rpg"], "franchise": "vampire-the-masquerade", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Lasombra and Toreador clans were added to the base game of Vampire: The Masquerade – Bloodlines 2 following fan backlash over original premium DLC plans."
+    },
+    {
+      "ref": "main_news/another-dragon-quest-rpg-has-been-announced-as-square-enix-c",
+      "entities": {
+        "games": [
+          { "id": "dragon-quest-smash-grow", "name": "Dragon Quest Smash/Grow", "aliases": [], "genres": ["roguelike", "rpg"], "franchise": "dragon-quest", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Square Enix announced Dragon Quest Smash/Grow, a roguelite RPG coming to mobile devices globally next year."
+    },
+    {
+      "ref": "main_news/netflix-s-splinter-cell-animated-series-gets-full-trailer-ah",
+      "entities": {
+        "games": [
+          { "id": "splinter-cell", "name": "Splinter Cell", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "splinter-cell", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "Netflix's Splinter Cell animated series received a full trailer ahead of its October premiere."
+    },
+    {
+      "ref": "main_news/new-elder-scrolls-online-co-lead-says-studio-really-doesn-t",
+      "entities": {
+        "games": [
+          { "id": "the-elder-scrolls-online", "name": "The Elder Scrolls Online", "aliases": ["Elder Scrolls Online"], "genres": ["mmorpg"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "zenimax-online-studios", "name": "ZeniMax Online Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The new co-lead of Elder Scrolls Online said the studio 'really doesn't use' generative AI."
+    },
+    {
+      "ref": "main_news/randy-pitchford-calls-borderlands-4-pretty-damn-optimal-amid",
+      "entities": {
+        "games": [
+          { "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }
+        ],
+        "studios": [
+          { "id": "gearbox-software", "name": "Gearbox Software", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "randy-pitchford", "name": "Randy Pitchford", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Randy Pitchford called Borderlands 4 \"pretty damn optimal\" amid PC performance complaints."
+    },
+    {
+      "ref": "free_games_subscription/games-leaving-ps-plus-next-month",
+      "entities": {
+        "games": [
+          { "id": "battlefield-1", "name": "Battlefield 1", "aliases": [], "genres": ["fps", "shooter"], "franchise": "battlefield", "inferred": true },
+          { "id": "ghostbusters-spirits-unleashed", "name": "Ghostbusters: Spirits Unleashed", "aliases": [], "genres": ["action-adventure"], "franchise": "ghostbusters", "inferred": true },
+          { "id": "tour-de-france-2023", "name": "Tour de France 2023", "aliases": [], "genres": ["sports"], "franchise": "tour-de-france", "inferred": true },
+          { "id": "the-last-clockwinder", "name": "The Last Clockwinder", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "psvr2", "name": "PSVR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [],
+      "summary": "Four games, including Battlefield 1 and Ghostbusters: Spirits Unleashed, are leaving PS Plus next month."
+    },
+    {
+      "ref": "business/founders-of-subnautica-2-studio-unknown-worlds-accuse-parent",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [
+          { "id": "unknown-worlds", "name": "Unknown Worlds", "aliases": [], "publisher": "krafton", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "The founders of Subnautica 2 studio Unknown Worlds accused parent company Krafton of \"changing story mid-litigation\"."
+    },
+    {
+      "ref": "business/nine-dots-studio-s-action-rpg-outward-tops-3-million-players",
+      "entities": {
+        "games": [
+          { "id": "outward", "name": "Outward", "aliases": [], "genres": ["action-rpg"], "franchise": "outward", "inferred": false }
+        ],
+        "studios": [
+          { "id": "nine-dots-studio", "name": "Nine Dots Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 3000000, "unit": "players", "currency": null,
+          "entity": "outward", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-18", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Outward tops 3 million players",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/nine-dots-studios-action-rpg-outward-tops-3-million-players-news-in-brief" } }
+      ],
+      "summary": "Nine Dots Studio's action-RPG Outward has topped 3 million players."
+    },
+    {
+      "ref": "rumours/battlefield-6-battle-royale-will-reportedly-release-on-octob",
+      "entities": {
+        "games": [
+          { "id": "battlefield-6", "name": "Battlefield 6", "aliases": ["Battlefield 6 Battle Royale"], "genres": ["fps", "shooter", "battle-royale"], "franchise": "battlefield", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "rumour"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-28", "unit": "date", "currency": null,
+          "entity": "battlefield-6", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Battlefield 6 Battle Royale Will Reportedly Release on October 28, 2025",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com",
+                      "url": "https://insider-gaming.com/battlefield-6-battle-royale-release-date/" } }
+      ],
+      "summary": "Rumour that the Battlefield 6 battle royale mode will release on October 28, 2025."
+    },
+    {
+      "ref": "rumours/assassin-s-creed-black-flag-remake-is-reportedly-adding-extr",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-black-flag", "name": "Assassin's Creed Black Flag", "aliases": ["Assassin’s Creed Black Flag remake"], "genres": ["action-adventure", "open-world", "rpg"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03", "unit": "date", "currency": null,
+          "entity": "assassins-creed-black-flag", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "aiming for a March release",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/assassins-creed-black-flag-remake-is-reportedly-a[…]a-content-and-rpg-mechanics-aiming-for-a-march-release/" } }
+      ],
+      "summary": "Rumour that the Assassin's Creed Black Flag remake is adding extra content and RPG mechanics, aiming for a March release."
+    },
+    {
+      "ref": "rumours/sega-s-next-yakuza-game-reportedly-leaked-on-like-a-dragon-w",
+      "entities": {
+        "games": [
+          { "id": "yakuza", "name": "Yakuza", "aliases": ["Like A Dragon"], "genres": ["action-adventure", "action-rpg"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Sega's next Yakuza game was leaked on the Like A Dragon website."
+    }
+  ]
+}

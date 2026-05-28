@@ -1,0 +1,125 @@
+{
+  "date": "2024-08-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/a-remaster-of-croc-legend-of-the-gobbos-is-coming-this-year",
+      "entities": {
+        "games": [
+          { "id": "croc-legend-of-the-gobbos", "name": "Croc: Legend of the Gobbos", "aliases": [], "genres": ["platformer"], "franchise": "croc", "inferred": true }
+        ],
+        "studios": [
+          { "id": "argonaut-games", "name": "Argonaut Games", "aliases": ["Argonauts Games"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "A remaster of the platformer Croc: Legend of the Gobbos is coming to console and PC in 2024, with Argonaut Games returning as a boutique publisher."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-monthly-games-for-september",
+      "entities": {
+        "games": [
+          { "id": "quidditch-champions", "name": "Quidditch Champions", "aliases": [], "genres": ["sports"], "franchise": "harry-potter", "inferred": true },
+          { "id": "mlb-the-show-24", "name": "MLB The Show 24", "aliases": [], "genres": ["sports"], "franchise": "mlb-the-show", "inferred": true },
+          { "id": "little-nightmares-2", "name": "Little Nightmares 2", "aliases": [], "genres": ["puzzle", "horror"], "franchise": "little-nightmares", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "The PlayStation Plus monthly games for September include Quidditch Champions, MLB The Show 24 and Little Nightmares 2 on PS4 and PS5."
+    },
+    {
+      "ref": "business/cd-projekt-financial-results-first-half-2024-2025",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": ["Cyberpunk"], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "phantom-liberty", "name": "Phantom Liberty", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true },
+          { "id": "the-witcher-4", "name": "The Witcher 4", "aliases": ["next Witcher game"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true },
+          { "id": "cyberpunk-orion", "name": "Cyberpunk Orion", "aliases": ["Cyberpunk sequel"], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "cd-projekt", "name": "CD Projekt", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 424800000, "unit": "money", "currency": "PLN",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-29", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "CD Projekt’s revenue reached 424.8 million PLN ($109.8 million), 30.6% YoY.",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/cyberpunk-and-phantom-liberty-remain-big-drivers-behind-cd-projekt-s-revenue-growth" } },
+        { "metric": "revenue", "value": 109800000, "unit": "money", "currency": "USD",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-29", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "CD Projekt’s revenue reached 424.8 million PLN ($109.8 million), 30.6% YoY.",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/cyberpunk-and-phantom-liberty-remain-big-drivers-behind-cd-projekt-s-revenue-growth" } },
+        { "metric": "profit", "value": 170000000, "unit": "money", "currency": "PLN",
+          "entity": "cd-projekt", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-29", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Net profit rose to 170 million PLN, 88.4% increase.",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/cyberpunk-and-phantom-liberty-remain-big-drivers-behind-cd-projekt-s-revenue-growth" } }
+      ],
+      "summary": "CD Projekt's first-half 2024 financial results show revenue of 424.8 million PLN ($109.8 million), up 30.6% year on year, with Cyberpunk and Phantom Liberty remaining key drivers."
+    },
+    {
+      "ref": "business/unionised-staff-at-cod-studio-raven-software-says-activision",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": ["COD"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "raven-software", "name": "Raven Software", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Unionised Call of Duty staff at Raven Software have filed a complaint with the National Labor Relations Board, alleging Activision and Microsoft are stalling over contract negotiations."
+    },
+    {
+      "ref": "rumours/bungie-s-former-marathon-reboot-director-chris-barrett-repor",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "chris-barrett", "name": "Chris Barrett", "aliases": [], "inferred": false },
+          { "id": "joe-ziegler", "name": "Joe Ziegler", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Bungie's former Marathon reboot director Chris Barrett was ousted following inappropriate behaviour and replaced by Joe Ziegler."
+    }
+  ]
+}

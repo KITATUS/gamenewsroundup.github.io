@@ -1,0 +1,195 @@
+{
+  "date": "2025-11-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/valve-accidentally-ruins-a-game-s-planet-centauri-sales-agai",
+      "entities": {
+        "games": [
+          { "id": "planet-centauri", "name": "Planet Centauri", "aliases": [], "genres": ["sandbox", "rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "steam-machine", "name": "Steam Machine", "aliases": [], "inferred": false },
+          { "id": "steam-frame", "name": "Steam Frame", "aliases": [], "inferred": false },
+          { "id": "steam-controller", "name": "Steam Controller", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sale-discount"],
+      "facts": [],
+      "summary": "Valve again accidentally hurt Planet Centauri's sales when its promised front-page daily-deals slot on November 12th coincided with the Steam Machine, Steam Frame, and Steam Controller announcement."
+    },
+    {
+      "ref": "main_news/i-don-t-think-we-qualify-megabonk-dev-withdraws-nomination-f",
+      "entities": {
+        "games": [
+          { "id": "megabonk", "name": "Megabonk", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The developer of Megabonk withdrew its nomination from The Game Awards, saying the game does not qualify as a debut indie because they had previously made games under different studio names."
+    },
+    {
+      "ref": "main_news/nier-director-yoko-taro-assures-players-he-s-been-working-on",
+      "entities": {
+        "games": [
+          { "id": "nier", "name": "Nier", "aliases": [], "genres": ["action-rpg"], "franchise": "nier", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "yoko-taro", "name": "Yoko Taro", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nier director Yoko Taro assured players he has been working on projects, but said they keep getting cancelled."
+    },
+    {
+      "ref": "free_games_subscription/more-xbox-game-pass-games-coming",
+      "entities": {
+        "games": [
+          { "id": "moonlighter-2-the-endless-vault", "name": "Moonlighter 2: The Endless Vault", "aliases": [], "genres": ["action-rpg"], "franchise": "moonlighter", "inferred": true },
+          { "id": "kulebra-and-the-souls-of-limbo", "name": "Kulebra and the Souls of Limbo", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "revenge-of-the-savage-planet", "name": "Revenge of the Savage Planet", "aliases": [], "genres": ["action-adventure"], "franchise": "savage-planet", "inferred": true },
+          { "id": "monsters-are-coming-rock-road", "name": "Monsters are Coming! Rock & Road", "aliases": [], "genres": ["tower-defense"], "franchise": null, "inferred": true },
+          { "id": "the-crew-motorfest", "name": "The Crew Motorfest", "aliases": [], "genres": ["racing"], "franchise": "the-crew", "inferred": true },
+          { "id": "banishers-ghosts-of-new-eden", "name": "Banishers: Ghosts of New Eden", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "kill-it-with-fire-2", "name": "Kill It With Fire! 2", "aliases": [], "genres": ["action"], "franchise": "kill-it-with-fire", "inferred": true },
+          { "id": "marvel-cosmic-invasion", "name": "Marvel Cosmic Invasion", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true },
+          { "id": "lost-records-bloom-rage", "name": "Lost Records: Bloom & Rage", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "barbie-project-friendship", "name": "Barbie Project Friendship", "aliases": [], "genres": ["adventure"], "franchise": "barbie", "inferred": true },
+          { "id": "lords-of-the-fallen", "name": "Lords of the Fallen", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "lords-of-the-fallen", "inferred": true },
+          { "id": "octopath-traveler", "name": "Octopath Traveler", "aliases": [], "genres": ["jrpg"], "franchise": "octopath-traveler", "inferred": true },
+          { "id": "octopath-traveler-2", "name": "Octopath Traveler 2", "aliases": [], "genres": ["jrpg"], "franchise": "octopath-traveler", "inferred": true },
+          { "id": "steamworld-build", "name": "SteamWorld Build", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "steamworld", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-11-19", "unit": "date", "currency": null,
+          "entity": "moonlighter-2-the-endless-vault", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Moonlighter 2: The Endless Vault (Game Preview) (PC) – 19th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-11-19", "unit": "date", "currency": null,
+          "entity": "kulebra-and-the-souls-of-limbo", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Kulebra and the Souls of Limbo (Cloud, Console, and PC) – 19th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-11-19", "unit": "date", "currency": null,
+          "entity": "revenge-of-the-savage-planet", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Revenge of the Savage Planet (Cloud, PC, and Xbox Series S/X) – 19th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-11-20", "unit": "date", "currency": null,
+          "entity": "monsters-are-coming-rock-road", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Monsters are Coming! Rock & Road (Handheld & PC) – 20th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-11-20", "unit": "date", "currency": null,
+          "entity": "the-crew-motorfest", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Crew Motorfest (Cloud, Console, and PC) – 20th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-11-25", "unit": "date", "currency": null,
+          "entity": "banishers-ghosts-of-new-eden", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Banishers: Ghosts of New Eden (Cloud, PC, and Xbox Series S/X) – 25th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-11-25", "unit": "date", "currency": null,
+          "entity": "kill-it-with-fire-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Kill It With Fire! 2 (Cloud, Console, and PC) – 25th November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-12-01", "unit": "date", "currency": null,
+          "entity": "marvel-cosmic-invasion", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Marvel Cosmic Invasion (Cloud, Console, Handheld, and PC) – 1st December",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } },
+        { "metric": "release_date", "value": "2025-12-02", "unit": "date", "currency": null,
+          "entity": "lost-records-bloom-rage", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Lost Records: Bloom & Rage (Cloud, PC, and Xbox Series S/X) – 2nd December",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-more-xbox-game-pass-games-coming-this-november" } }
+      ],
+      "summary": "Xbox Game Pass is adding more titles in late November and early December, with several games also leaving the service on November 30th."
+    },
+    {
+      "ref": "business/bungie-settles-destiny-2-copyright-lawsuit-with-writer-in-un",
+      "entities": {
+        "games": [
+          { "id": "destiny-2", "name": "Destiny 2", "aliases": [], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Bungie settled a Destiny 2 copyright lawsuit with a writer for an undisclosed amount, with the court to presume agreement if no objections are raised within 60 days."
+    },
+    {
+      "ref": "business/farming-simulator-25-surpasses-four-million-copies-sold",
+      "entities": {
+        "games": [
+          { "id": "farming-simulator-25", "name": "Farming Simulator 25", "aliases": [], "genres": ["simulation"], "franchise": "farming-simulator", "inferred": true }
+        ],
+        "studios": [
+          { "id": "giants-software", "name": "Giants Software", "aliases": ["giants-software.com"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 4000000, "unit": "copies", "currency": null,
+          "entity": "farming-simulator-25", "entity_type": "game", "scope": "game",
+          "as_of": "2025-11-19", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Farming Simulator 25 surpasses four million copies sold",
+          "source": { "name": "giants-software.com", "domain": "giants-software.com", "url": "https://www.giants-software.com/news.php?show=news-134" } }
+      ],
+      "summary": "Farming Simulator 25 has surpassed four million copies sold."
+    },
+    {
+      "ref": "business/riot-sells-hytale-ip-and-hypixel-brand-back-to-original-co-f",
+      "entities": {
+        "games": [
+          { "id": "hytale", "name": "Hytale", "aliases": [], "genres": ["sandbox", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Riot has sold the Hytale IP and the Hypixel brand back to its original co-founder."
+    }
+  ]
+}

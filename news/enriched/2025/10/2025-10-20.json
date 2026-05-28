@@ -1,0 +1,143 @@
+{
+  "date": "2025-10-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/battlefield-6-has-become-the-biggest-launch-in-series-histor",
+      "entities": {
+        "games": [
+          {
+            "id": "battlefield-6",
+            "name": "Battlefield 6",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "battlefield",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 7000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "battlefield-6",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-10-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "selling 7 million in three days",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/battlefield-6-has-become-the-biggest-launch-in-series-history-selling-7-million-in-three-days/"
+          }
+        }
+      ],
+      "summary": "Battlefield 6 became the biggest launch in the series' history, selling 7 million copies in three days."
+    },
+    {
+      "ref": "main_news/sleeping-dogs-movie-back-on-track-as-marvel-star-simu-liu-re",
+      "entities": {
+        "games": [
+          {
+            "id": "sleeping-dogs",
+            "name": "Sleeping Dogs",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "simu-liu",
+            "name": "Simu Liu",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Sleeping Dogs movie is back on track, with Simu Liu revealing that the draft script is done."
+    },
+    {
+      "ref": "main_news/football-manager-26-will-finally-include-official-fifa-licen",
+      "entities": {
+        "games": [
+          {
+            "id": "football-manager-26",
+            "name": "Football Manager 26",
+            "aliases": [],
+            "genres": ["simulation", "sports", "strategy"],
+            "franchise": "football-manager",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "sports-interactive",
+            "name": "Sports Interactive",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "fifa",
+            "name": "FIFA",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "update-patch"],
+      "facts": [],
+      "summary": "Football Manager 26 will include official FIFA licensing for the first time, alongside a special International Management update for the World Cup."
+    },
+    {
+      "ref": "business/i-did-not-walk-away-former-assassin-s-creed-boss-says-he-did",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The former Assassin's Creed boss says he did not resign but was asked to step aside by Ubisoft."
+    }
+  ]
+}

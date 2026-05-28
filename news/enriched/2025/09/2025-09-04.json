@@ -1,0 +1,105 @@
+{
+  "date": "2025-09-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/007-first-light-to-release-on-march-27-2026-ps5-xbox-series",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007: First Light", "aliases": [], "genres": ["action-adventure", "tps"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-03-27", "unit": "date", "currency": null,
+          "entity": "007-first-light", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "007: First Light to release on March 27, 2026",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/007GameIOI/status/1963311059567022221" } }
+      ],
+      "summary": "007: First Light is set to release on 27 March 2026 for PS5, Xbox Series S/X, Nintendo Switch 2 and PC."
+    },
+    {
+      "ref": "free_games_subscription/forsaken-64-becomes-the-40th-nintendo-64-game-to-be-added-to",
+      "entities": {
+        "games": [
+          { "id": "forsaken-64", "name": "Forsaken 64", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-64", "name": "Nintendo 64", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Forsaken 64 became the 40th Nintendo 64 game added to the Nintendo Switch Online library."
+    },
+    {
+      "ref": "business/dreamhaven-affected-by-unspecified-number-of-layoffs",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "dreamhaven", "name": "Dreamhaven", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Dreamhaven was affected by an unspecified number of layoffs."
+    },
+    {
+      "ref": "business/aonic-acquires-research-tech-firm-prime-insights-for-250m",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 250000000, "unit": "money", "currency": "USD",
+          "entity": "prime-insights", "entity_type": "company", "scope": "company",
+          "as_of": "2025-09-04", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "acquires research tech firm Prime Insights for $250m+",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/aonic-acquires-research-tech-firm-prime-insights-for-250m" } }
+      ],
+      "summary": "Aonic acquired research technology firm Prime Insights for more than $250 million."
+    },
+    {
+      "ref": "rumours/ps5-digital-edition-consoles-in-europe-are-reportedly-gettin",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5 Digital Edition", "aliases": ["PS5 Digital Edition"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "Rumour that PS5 Digital Edition consoles in Europe are quietly being downgraded from 1TB to 825GB of storage while keeping the same price."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "date": "2026-01-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/amazon-games-confirms-mmo-new-world-has-a-year-left-before-i",
+      "entities": {
+        "games": [
+          { "id": "new-world", "name": "New World", "aliases": [], "genres": ["mmorpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Amazon Games has confirmed that its MMO New World has about a year left before it is taken offline permanently."
+    },
+    {
+      "ref": "main_news/sega-announces-sonic-35th-anniversary-plans-to-celebrate-son",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sega", "name": "Sega", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sega announced plans for Sonic's 35th anniversary intended to celebrate the franchise's legacy."
+    },
+    {
+      "ref": "main_news/amazon-has-greenlit-a-fallout-reality-show-where-contestants",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Amazon has greenlit a Fallout reality show, titled Fallout Shelter, in which contestants live in a vault for a large cash prize and is currently casting."
+    },
+    {
+      "ref": "main_news/yakuza-kiwami-3-continues-the-series-retro-tradition-by-incl",
+      "entities": {
+        "games": [
+          { "id": "yakuza-kiwami-3", "name": "Yakuza Kiwami 3", "aliases": [], "genres": ["action-adventure"], "franchise": "yakuza", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "game-gear", "name": "Game Gear", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Yakuza Kiwami 3 continues the series' retro tradition by including 12 playable Game Gear titles."
+    },
+    {
+      "ref": "main_news/sony-wiped-over-1-000-shovelware-games-off-the-playstation-s",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "thigames", "name": "ThiGames", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Sony removed over 1,000 shovelware games, all from a single developer (ThiGames), from the PlayStation Store without warning."
+    },
+    {
+      "ref": "main_news/amazon-s-god-of-war-series-has-found-its-kratos-ryan-hurst-a",
+      "entities": {
+        "games": [
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true },
+          { "id": "god-of-war-ragnarok", "name": "God of War Ragnarök", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ryan-hurst", "name": "Ryan Hurst", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Amazon's God of War series has cast Ryan Hurst as Kratos, an actor who also voiced Thor in 2022's God of War Ragnarök."
+    },
+    {
+      "ref": "business/dragon-ball-z-kakarot-has-sold-over-10-million-copies-worldw",
+      "entities": {
+        "games": [
+          { "id": "dragon-ball-z-kakarot", "name": "Dragon Ball Z: Kakarot", "aliases": ["DRAGON BALL Z: KAKAROT"], "genres": ["action-rpg"], "franchise": "dragon-ball", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 10000000, "unit": "copies", "currency": null,
+          "entity": "dragon-ball-z-kakarot", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-16", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "DRAGON BALL Z: KAKAROT has sold over 10 million copies worldwide",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/dragonballgames/status/2010683284263481820" } }
+      ],
+      "summary": "Dragon Ball Z: Kakarot has sold over 10 million copies worldwide."
+    },
+    {
+      "ref": "business/scopely-s-monopoly-go-is-the-fastest-mobile-game-in-history",
+      "entities": {
+        "games": [
+          { "id": "monopoly-go", "name": "Monopoly Go", "aliases": [], "genres": ["party"], "franchise": "monopoly", "inferred": true }
+        ],
+        "studios": [
+          { "id": "scopely", "name": "Scopely", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 6000000000, "unit": "money", "currency": "USD",
+          "entity": "monopoly-go", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "fastest mobile game in history to hit $6bn revenue",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/scopelys-monopoly-go-is-the-fastest-mobile-game-in-history-to-hit-6bn-revenue" } }
+      ],
+      "summary": "Scopely's Monopoly Go became the fastest mobile game in history to reach $6bn in revenue."
+    }
+  ]
+}

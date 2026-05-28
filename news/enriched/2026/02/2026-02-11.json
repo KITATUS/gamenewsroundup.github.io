@@ -1,0 +1,160 @@
+{
+  "date": "2026-02-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/silent-hill-transmission-set-for-february-12-4pm-pt-7pm-et-f",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-townfall", "name": "Silent Hill: Townfall", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-02-12", "unit": "date", "currency": null,
+          "entity": "silent-hill-transmission", "entity_type": "product", "scope": "event",
+          "as_of": "2026-02-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Silent Hill Transmission set for February 12 (4pm PT / 7pm ET) featuring Silent Hill: Townfall",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/02/silent-hill-transmission-set-for-february-12-featuring-silent-hill-townfall" } }
+      ],
+      "summary": "A Silent Hill Transmission showcase is set for February 12 (4pm PT / 7pm ET), featuring Silent Hill: Townfall."
+    },
+    {
+      "ref": "business/supercell-revenue-declines-4-to-2-65bn-in-2025-headcount-gre",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "supercell", "name": "Supercell", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 2650000000, "unit": "money", "currency": "EUR",
+          "entity": "supercell", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "annual", "direction": "down", "confidence": "high",
+          "quote": "Supercell revenue declines 4% to €2.65bn in 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/supercell-revenue-declines-4-to-265bn-in-2025" } },
+        { "metric": "headcount", "value": 890, "unit": "people", "currency": null,
+          "entity": "supercell", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "Headcount grew 30% reaching 890 employees globally",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/supercell-revenue-declines-4-to-265bn-in-2025" } }
+      ],
+      "summary": "Supercell's revenue declined 4% to €2.65bn in 2025 while its global headcount grew 30% to 890 employees."
+    },
+    {
+      "ref": "business/square-enix-revenues-continue-to-decline-over-past-nine-mont",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 215400000000, "unit": "money", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥215.4 billion ($1.3 billion, down 13.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-continue-to-decline-over-past-nine-months-to-13bn" } },
+        { "metric": "revenue", "value": 1300000000, "unit": "money", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥215.4 billion ($1.3 billion, down 13.3%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-continue-to-decline-over-past-nine-months-to-13bn" } },
+        { "metric": "profit", "value": 25600000000, "unit": "money", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Profit: ¥25.6 billion ($163.4 million, up 3.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-continue-to-decline-over-past-nine-months-to-13bn" } },
+        { "metric": "profit", "value": 163400000, "unit": "money", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Profit: ¥25.6 billion ($163.4 million, up 3.6%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-continue-to-decline-over-past-nine-months-to-13bn" } },
+        { "metric": "revenue", "value": 112300000000, "unit": "money", "currency": "JPY",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Digital entertainment net sales: ¥112.3 billion ($717 million, down 23.7%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-continue-to-decline-over-past-nine-months-to-13bn" } },
+        { "metric": "revenue", "value": 717000000, "unit": "money", "currency": "USD",
+          "entity": "square-enix", "entity_type": "company", "scope": "company",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Digital entertainment net sales: ¥112.3 billion ($717 million, down 23.7%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/square-enix-revenues-continue-to-decline-over-past-nine-months-to-13bn" } }
+      ],
+      "summary": "Square Enix reported net sales of ¥215.4 billion ($1.3 billion) over the past nine months, a continued decline."
+    },
+    {
+      "ref": "business/mattel-to-acquire-full-ownership-of-mattel163-from-netease-a",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "mattel163", "name": "Mattel163", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Mattel is acquiring full ownership of mobile studio Mattel163 from NetEase to enhance its self-publishing capabilities."
+    },
+    {
+      "ref": "business/mewgenics-sells-over-150k-copies-in-first-6-hours-this-is-be",
+      "entities": {
+        "games": [
+          { "id": "mewgenics", "name": "Mewgenics", "aliases": [], "genres": ["roguelike", "strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 150000, "unit": "units", "currency": null,
+          "entity": "mewgenics", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Mewgenics Sells Over 150k Copies in First 6 Hours",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/mewgenics-sells-over-150k-copies-in-first-6-hours-this-is-beating-expectations-by-quite-a-lot" } }
+      ],
+      "summary": "Mewgenics sold over 150,000 copies in its first six hours, exceeding expectations and recouping its development budget within three hours."
+    },
+    {
+      "ref": "business/lies-of-p-and-the-overture-dlc-have-surpassed-4-million-unit",
+      "entities": {
+        "games": [
+          { "id": "lies-of-p", "name": "Lies of P", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": "lies-of-p", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 4000000, "unit": "units", "currency": null,
+          "entity": "lies-of-p", "entity_type": "game", "scope": "game",
+          "as_of": "2026-02-11", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Lies of P and the Overture DLC have surpassed 4 million units sold combined",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/mauronl.bsky.social/post/3meisqumk2s2e" } }
+      ],
+      "summary": "Lies of P and its Overture DLC have together surpassed 4 million units sold."
+    }
+  ]
+}

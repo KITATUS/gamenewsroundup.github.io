@@ -1,0 +1,302 @@
+{
+  "date": "2024-10-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/unreal-5-5-preview-1-released",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "unreal-engine", "name": "Unreal Engine", "aliases": ["Unreal 5.5"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "beta-demo"],
+      "facts": [],
+      "summary": "Epic Games released the first preview of Unreal Engine 5.5, introducing features such as Megalights and a production-ready Skeletal Mesh editor."
+    },
+    {
+      "ref": "main_news/microsoft-is-discontinuing-its-hololens-mixed-reality-headse",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "hololens", "name": "HoloLens", "aliases": ["HoloLens 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "hardware"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2027-12-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "hololens",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-10-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "until December 31, 2027, after which software support will cease",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/microsoft-is-discontinuing-its-hololens-mixed-reality-headsets/" }
+        }
+      ],
+      "summary": "Microsoft is discontinuing its HoloLens mixed reality headsets, with HoloLens 2 software support ending on 31 December 2027."
+    },
+    {
+      "ref": "main_news/tv-show-secret-level-recreated-the-unreal-tournament-99-intr",
+      "entities": {
+        "games": [
+          { "id": "unreal-tournament", "name": "Unreal Tournament (99)", "aliases": ["Unreal Tournament (99)"], "genres": ["fps", "shooter"], "franchise": "unreal", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "unreal-engine", "name": "Unreal Engine 5", "aliases": ["Unreal Engine 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The TV show Secret Level recreated the Unreal Tournament (99) introduction using Unreal Engine 5."
+    },
+    {
+      "ref": "main_news/switch-emulator-ryujinx-pulled-offline-by-creator-after-cont",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ryujinx", "name": "Ryujinx", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": [
+          { "id": "gdkchan", "name": "gdkchan", "aliases": [], "inferred": false },
+          { "id": "riperiperi", "name": "riperiperi", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["shutdown", "lawsuit-legal"],
+      "facts": [],
+      "summary": "The Switch emulator Ryujinx was pulled offline by its creator after Nintendo contacted him and offered an agreement to stop working on the project."
+    },
+    {
+      "ref": "free_games_subscription/october-s-playstation-plus-essential-games-are-now-live",
+      "entities": {
+        "games": [
+          { "id": "wwe-2k24", "name": "WWE 2K24", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true },
+          { "id": "dead-space", "name": "Dead Space", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "dead-space", "inferred": true },
+          { "id": "doki-doki-literature-club-plus", "name": "Doki Doki Literature Club Plus!", "aliases": [], "genres": ["visual-novel", "horror"], "franchise": "doki-doki-literature-club", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "October's PlayStation Plus Essential games are now live, comprising WWE 2K24, Dead Space and Doki Doki Literature Club Plus!"
+    },
+    {
+      "ref": "free_games_subscription/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been",
+      "entities": {
+        "games": [
+          { "id": "mlb-the-show-24", "name": "MLB The Show 24", "aliases": [], "genres": ["sports", "simulation"], "franchise": "mlb-the-show", "inferred": true },
+          { "id": "open-roads", "name": "Open Roads", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "sifu", "name": "Sifu", "aliases": [], "genres": ["fighting", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "mad-streets", "name": "Mad Streets", "aliases": [], "genres": ["fighting", "party"], "franchise": null, "inferred": true },
+          { "id": "inscryption", "name": "Inscryption", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "dyson-sphere-program", "name": "Dyson Sphere Program", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true },
+          { "id": "everspace-2", "name": "Everspace 2", "aliases": [], "genres": ["action-rpg", "shooter"], "franchise": "everspace", "inferred": true },
+          { "id": "from-space", "name": "From Space", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "f1-manager-2023", "name": "F1 Manager 2023", "aliases": [], "genres": ["simulation", "strategy"], "franchise": "f1-manager", "inferred": true },
+          { "id": "scorn", "name": "Scorn", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass Standard", "Game Pass Ultimate", "PC Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-10-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "mlb-the-show-24",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "MLB The Show 24 (Console) – October 2, Game Pass Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-11/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-10-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "open-roads",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Open Roads (Console) – October 2, Game Pass Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-11/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-10-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "sifu",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sifu (Cloud, Console, and PC) – October 2, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-11/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-10-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "mad-streets",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mad Streets (Cloud, Console, and PC) – October 7, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-11/" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-10-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "inscryption",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Inscryption (Cloud, Console, and PC) – October 10, Game Pass Ultimate, PC Game Pass, Game Pass Standard",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-11/" }
+        },
+        {
+          "metric": "shutdown_date",
+          "value": "2024-10-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "dyson-sphere-program",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Leaving (October 15th):",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/new-xbox-game-pass-titles-for-console-pc-and-cloud-have-been-revealed-11/" }
+        }
+      ],
+      "summary": "New Xbox Game Pass titles for console, PC and Cloud were revealed, with games arriving from October 2 and others leaving on October 15."
+    },
+    {
+      "ref": "business/devolver-digital-launches-publishing-label-big-fan-games-for",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "good-shepherd-entertainment", "name": "Good Shepherd", "aliases": ["Good Shepherd"], "publisher": "devolver-digital", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": ["Devolver"], "inferred": false },
+          { "id": "big-fan-games", "name": "Big Fan Games", "aliases": ["Big Fan"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Devolver Digital launched a publishing label called Big Fan Games for licensed games."
+    },
+    {
+      "ref": "business/epic-games-lowers-royalty-fee-for-games-released-simultaneou",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "Epic Games lowered the royalty fee from 5% to 3.5% for games released simultaneously on or before their launch on the Epic Games Store."
+    },
+    {
+      "ref": "business/crunchyroll-alumni-launch-indie-publisher-shorelines-games",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "shorelines-games", "name": "Shorelines Games", "aliases": [], "inferred": false },
+          { "id": "crunchyroll", "name": "Crunchyroll", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "kawamura", "name": "Kawamura", "aliases": [], "inferred": false },
+          { "id": "zha", "name": "Zha", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Former Crunchyroll staff launched indie publisher Shorelines Games, focused on systems-based titles with a clear narrative throughline."
+    },
+    {
+      "ref": "business/sharkmob-london-faces-layoffs-after-game-cancelled",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sharkmob-london", "name": "Sharkmob London", "aliases": ["Sharkmob"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Sharkmob London faces layoffs after a game was cancelled, with an undisclosed number of people affected."
+    }
+  ]
+}

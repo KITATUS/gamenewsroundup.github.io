@@ -1,0 +1,291 @@
+{
+  "date": "2025-06-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/hades-2-gets-fresh-early-access-update-as-development-finall",
+      "entities": {
+        "games": [
+          { "id": "hades-2", "name": "Hades 2", "aliases": ["Hades 2"], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true }
+        ],
+        "studios": [
+          { "id": "supergiant-games", "name": "Supergiant Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "early-access"],
+      "facts": [],
+      "summary": "Hades 2 received a fresh early access update as it nears its full release."
+    },
+    {
+      "ref": "main_news/support-for-beat-saber-on-ps4-and-ps5-ends-shining-a-light-o",
+      "entities": {
+        "games": [
+          { "id": "beat-saber", "name": "Beat Saber", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "beat-games", "name": "Beat Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "psvr2", "name": "PSVR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Support for Beat Saber on PS4 and PS5 has ended, highlighting PSVR2's lack of success."
+    },
+    {
+      "ref": "main_news/nintendo-reveals-new-donkey-kong-bananza-gameplay-info-inclu",
+      "entities": {
+        "games": [
+          { "id": "donkey-kong-bananza", "name": "Donkey Kong Bananza", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "donkey-kong", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "pauline", "name": "Pauline", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["gameplay", "reveal"],
+      "facts": [],
+      "summary": "Nintendo revealed new gameplay information for Donkey Kong Bananza, including a Pauline reveal."
+    },
+    {
+      "ref": "main_news/death-stranding-animated-film-confirmed-original-story-in-th",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Death Stranding animated film with an original story has been confirmed, written by a Raised by Wolves writer."
+    },
+    {
+      "ref": "main_news/christophe-gans-silent-hill-2-movie-adaptation-gets-a-releas",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-2", "name": "Silent Hill 2", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "christophe-gans", "name": "Christophe Gans", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-01-23", "unit": "date", "currency": null,
+          "entity": "silent-hill-2", "entity_type": "product", "scope": "product",
+          "as_of": "2025-06-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "gets a release date - 23rd January 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/christophe-gans-faithful-silent-hill-2-movie-adaptation-gets-a-2026-release-date" } }
+      ],
+      "summary": "Christophe Gans' Silent Hill 2 movie adaptation received a release date of 23 January 2026."
+    },
+    {
+      "ref": "main_news/skate-reboot-just-months-away-from-launch-as-playtests-open",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": [], "genres": ["sports", "simulation"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [
+          { "id": "full-circle", "name": "Full Circle", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [],
+      "summary": "The Skate reboot is said to be \"just months away\" from launch, with playtests opening to anyone who registers before the end of June."
+    },
+    {
+      "ref": "free_games_subscription/sega-games-for-ios-and-android-made-free-before-being-delist",
+      "entities": {
+        "games": [
+          { "id": "crazy-taxi-classic", "name": "Crazy Taxi Classic", "aliases": [], "genres": ["racing"], "franchise": "crazy-taxi", "inferred": true },
+          { "id": "golden-axe-classics", "name": "Golden Axe Classics", "aliases": [], "genres": ["action-adventure"], "franchise": "golden-axe", "inferred": true },
+          { "id": "shining-force-classics", "name": "Shining Force Classics", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "shining-force", "inferred": true },
+          { "id": "sonic-cd-classic", "name": "Sonic CD Classic", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "sonic-the-hedgehog-4-episode-ii", "name": "Sonic the Hedgehog 4 Episode II", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "streets-of-rage-classic", "name": "Streets of Rage Classic", "aliases": [], "genres": ["fighting"], "franchise": "streets-of-rage", "inferred": true },
+          { "id": "streets-of-rage-2-classic", "name": "Streets of Rage 2 Classic", "aliases": [], "genres": ["fighting"], "franchise": "streets-of-rage", "inferred": true },
+          { "id": "super-monkey-ball-sakura", "name": "Super Monkey Ball: Sakura", "aliases": [], "genres": ["party", "puzzle"], "franchise": "super-monkey-ball", "inferred": true },
+          { "id": "virtua-tennis-challenge", "name": "Virtua Tennis Challenge", "aliases": [], "genres": ["sports"], "franchise": "virtua-tennis", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "delisting"],
+      "facts": [],
+      "summary": "Sega made nine of its retro mobile re-releases free on iOS and Android before delisting them."
+    },
+    {
+      "ref": "business/warner-bros-games-promotes-three-studio-heads-as-it-focuses",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Warner Bros. Games promoted three studio heads as it refocuses on four key properties: Harry Potter, Mortal Kombat, DC Comics, and Game of Thrones."
+    },
+    {
+      "ref": "business/developers-at-ubisoft-halifax-have-filed-to-unionise",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ubisoft-halifax", "name": "Ubisoft Halifax", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Developers at Ubisoft Halifax have filed to unionise."
+    },
+    {
+      "ref": "business/aggro-crab-and-landfall-side-hustle-peak-has-sold-100-000-co",
+      "entities": {
+        "games": [
+          { "id": "peak", "name": "Peak", "aliases": [], "genres": ["survival", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "aggro-crab", "name": "Aggro Crab", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "landfall", "name": "Landfall", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 100000, "unit": "copies", "currency": null,
+          "entity": "peak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-19", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Peak has sold 100,000 copies in 24 hours",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/aggro-crab-side-hustle-peak-has-sold-100-000-copies-in-24-hours" } }
+      ],
+      "summary": "Peak, a 'side hustle' from Aggro Crab and Landfall, sold 100,000 copies within 24 hours."
+    },
+    {
+      "ref": "business/a-roblox-game-about-growing-vegetables-is-seemingly-now-bigg",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "pubg", "name": "PUBG", "aliases": ["PUBG"], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "concurrent_players", "value": 16000000, "unit": "players", "currency": null,
+          "entity": "roblox", "entity_type": "platform", "scope": "product",
+          "as_of": "2025-06-19", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "16m concurrent users",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/a-roblox-game-about-growing-vegetables-is-seemingly-now-bigger-than-fortnite" } },
+        { "metric": "peak_concurrent_players", "value": 3300000, "unit": "players", "currency": null,
+          "entity": "pubg", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PUBG holds the Steam record for most concurrent players... at 3.3m",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/a-roblox-game-about-growing-vegetables-is-seemingly-now-bigger-than-fortnite" } }
+      ],
+      "summary": "A Roblox game about growing vegetables has seemingly surpassed Fortnite, reaching 16 million concurrent users."
+    },
+    {
+      "ref": "rumours/ps5-s-stellar-blade-is-reportedly-coming-to-nintendo-switch",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "rumour"],
+      "facts": [],
+      "summary": "Rumour that PS5's Stellar Blade is coming to the Nintendo Switch 2."
+    },
+    {
+      "ref": "rumours/tencent-says-report-about-acquisition-interest-in-nexon-is-u",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false },
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "rumour"],
+      "facts": [],
+      "summary": "Tencent said a report about its acquisition interest in Nexon is untrue."
+    },
+    {
+      "ref": "rumours/microsoft-cutting-thousands-more-jobs-after-just-laying-off",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 6000, "unit": "people", "currency": null,
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2025-06-19", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "after just laying off 6,000 people",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/microsoft-cutting-thousands-more-jobs/" } }
+      ],
+      "summary": "Rumour that Microsoft is cutting 'thousands more jobs' after recently laying off 6,000 people."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "date": "2024-08-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/until-dawn-remake-launches-on-ps5-pc-october-4th",
+      "entities": {
+        "games": [{ "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["survival-horror", "adventure"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-10-04", "unit": "date", "currency": null,
+          "entity": "until-dawn", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Until Dawn remake launches on PS5 / PC October 4th",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com",
+                      "url": "https://blog.playstation.com/2024/08/14/until-dawn-rebuilt-and-enhanced-for-ps5-and-pc-launches-october-4/" } }
+      ],
+      "summary": "The Until Dawn remake launches on PS5 and PC on 4 October 2024."
+    },
+    {
+      "ref": "main_news/square-enix-could-switch-to-unreal-engine-5-for-final-fantas",
+      "entities": {
+        "games": [{ "id": "final-fantasy-7-remake-part-3", "name": "Final Fantasy 7 Remake Part 3", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Square Enix is reportedly considering switching to Unreal Engine 5 for Final Fantasy 7 Remake Part 3."
+    },
+    {
+      "ref": "main_news/antstream-arcade-is-coming-to-playstation-consoles",
+      "entities": {
+        "games": [
+          { "id": "puzzles-of-the-paladin", "name": "Puzzles of the Paladin", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true },
+          { "id": "manbomber", "name": "Manbomber", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "antstream", "name": "Antstream", "aliases": ["Antstream Arcade"], "inferred": false }],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "ps1", "name": "PS1", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port", "announcement"],
+      "facts": [
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "antstream", "entity_type": "company", "scope": "product",
+          "as_of": "2024-08-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "buy a year’s subscription to the service for $39.99 / £39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/antstream-arcade-is-coming-to-playstation-consoles/" } },
+        { "metric": "price", "value": 39.99, "unit": "price", "currency": "GBP",
+          "entity": "antstream", "entity_type": "company", "scope": "product",
+          "as_of": "2024-08-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "buy a year’s subscription to the service for $39.99 / £39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/antstream-arcade-is-coming-to-playstation-consoles/" } },
+        { "metric": "price", "value": 99.99, "unit": "price", "currency": "USD",
+          "entity": "antstream", "entity_type": "company", "scope": "product",
+          "as_of": "2024-08-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "a Lifetime Pass Edition for $99.99 / £99.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/antstream-arcade-is-coming-to-playstation-consoles/" } },
+        { "metric": "price", "value": 99.99, "unit": "price", "currency": "GBP",
+          "entity": "antstream", "entity_type": "company", "scope": "product",
+          "as_of": "2024-08-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "a Lifetime Pass Edition for $99.99 / £99.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/antstream-arcade-is-coming-to-playstation-consoles/" } }
+      ],
+      "summary": "Retro game streaming subscription Antstream Arcade is coming to PlayStation consoles."
+    },
+    {
+      "ref": "main_news/kingdom-come-deliverance-2-is-officially-delayed-until-febru",
+      "entities": {
+        "games": [{ "id": "kingdom-come-deliverance-2", "name": "Kingdom Come Deliverance 2", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "kingdom-come-deliverance", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2025-02-11", "unit": "date", "currency": null,
+          "entity": "kingdom-come-deliverance-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Kingdom Come Deliverance 2 is officially delayed until February 11th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/kingdom-come-deliverance-2-is-officially-delayed-until-february/" } }
+      ],
+      "summary": "Kingdom Come Deliverance 2 has been officially delayed until 11 February 2025."
+    },
+    {
+      "ref": "main_news/among-us-adds-critical-role-cosmetics-ahead-of-ashley-johnso",
+      "entities": {
+        "games": [{ "id": "among-us", "name": "Among Us", "aliases": [], "genres": ["party", "social-deduction"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "innersloth", "name": "Innersloth", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "ashley-johnson", "name": "Ashley Johnson", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["dlc-expansion", "partnership"],
+      "facts": [],
+      "summary": "Among Us has added Critical Role cosmetics ahead of Ashley Johnson's role in the series."
+    },
+    {
+      "ref": "main_news/let-s-build-a-zoo-studio-is-making-a-game-dev-management-sim",
+      "entities": {
+        "games": [
+          { "id": "lets-build-a-zoo", "name": "Let's Build a Zoo", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true },
+          { "id": "lets-build-a-dungeon", "name": "Let's Build a Dungeon", "aliases": [], "genres": ["simulation", "management"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Let's Build a Zoo studio is making a game-dev management sim, Let's Build a Dungeon, in which players design their own MMO."
+    },
+    {
+      "ref": "free_games_subscription/august-s-playstation-plus-game-catalogue-and-classics-titles",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-3-wild-hunt", "name": "The Witcher 3: Wild Hunt", "aliases": ["The Witcher 3"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true },
+          { "id": "wild-hearts", "name": "Wild Hearts", "aliases": ["Wild Hearts Standard Edition"], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "cult-of-the-lamb", "name": "Cult of the Lamb", "aliases": [], "genres": ["action-adventure", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "ride-5", "name": "Ride 5", "aliases": [], "genres": ["racing"], "franchise": "ride", "inferred": true },
+          { "id": "watch-dogs-2", "name": "Watch Dogs 2", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "watch-dogs", "inferred": true },
+          { "id": "sword-art-online-alicization-lycoris", "name": "Sword Art Online: Alicization Lycoris", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "sword-art-online", "inferred": true },
+          { "id": "sword-art-online-last-recollection", "name": "Sword Art Online: Last Recollection", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "sword-art-online", "inferred": true },
+          { "id": "sword-art-online-fatal-bullet", "name": "Sword Art Online: Fatal Bullet", "aliases": [], "genres": ["action-rpg", "tps"], "franchise": "sword-art-online", "inferred": true },
+          { "id": "sword-art-online-hollow-realization", "name": "Sword Art Online: Hollow Realization", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "sword-art-online", "inferred": true },
+          { "id": "naruto-to-boruto-shinobi-striker", "name": "Naruto to Boruto: Shinobi Striker", "aliases": [], "genres": ["fighting"], "franchise": "naruto", "inferred": true },
+          { "id": "vacation-simulator", "name": "Vacation Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "timesplitters", "name": "TimeSplitters", "aliases": [], "genres": ["fps", "shooter"], "franchise": "timesplitters", "inferred": true },
+          { "id": "timesplitters-2", "name": "TimeSplitters 2", "aliases": [], "genres": ["fps", "shooter"], "franchise": "timesplitters", "inferred": true },
+          { "id": "timesplitters-future-perfect", "name": "TimeSplitters: Future Perfect", "aliases": [], "genres": ["fps", "shooter"], "franchise": "timesplitters", "inferred": true },
+          { "id": "sword-art-online-lost-song", "name": "Sword Art Online: Lost Song", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "sword-art-online", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps-vr2", "name": "PS VR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "August's PlayStation Plus Game Catalogue and Classics titles have been announced."
+    },
+    {
+      "ref": "business/supercell-appoints-new-cfo",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "supercell", "name": "Supercell", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "gerard-griffin", "name": "Gerard Griffin", "aliases": [], "inferred": false },
+          { "id": "janne-snellman", "name": "Janne Snellman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Supercell has appointed Gerard Griffin as its new CFO, with outgoing CFO Janne Snellman remaining at the company."
+    },
+    {
+      "ref": "business/terratech-developer-payload-studios-is-laying-off-25-percent",
+      "entities": {
+        "games": [
+          { "id": "terratech", "name": "TerraTech", "aliases": [], "genres": ["sandbox", "simulation"], "franchise": "terratech", "inferred": true },
+          { "id": "terratech-worlds", "name": "TerraTech Worlds", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "terratech", "inferred": true }
+        ],
+        "studios": [{ "id": "payload-studios", "name": "Payload Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "TerraTech developer Payload Studios is laying off 25 percent of its workforce."
+    },
+    {
+      "ref": "rumours/amazon-orders-new-animated-video-game-anthology-series-secre",
+      "entities": {
+        "games": [
+          { "id": "new-world", "name": "New World", "aliases": [], "genres": ["mmorpg"], "franchise": null, "inferred": true },
+          { "id": "spelunky", "name": "Spelunky", "aliases": [], "genres": ["roguelike", "platformer"], "franchise": "spelunky", "inferred": true }
+        ],
+        "studios": [
+          { "id": "amazon-mgm-studios", "name": "Amazon MGM Studios", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "blur-studio", "name": "Blur", "aliases": ["Blur studio"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [{ "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": [
+          { "id": "tim-miller", "name": "Tim Miller", "aliases": [], "inferred": false },
+          { "id": "dave-wilson", "name": "Dave Wilson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "rumour"],
+      "facts": [],
+      "summary": "Amazon has ordered a new animated video game anthology series called Secret Level."
+    }
+  ]
+}

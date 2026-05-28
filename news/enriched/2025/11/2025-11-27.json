@@ -1,0 +1,351 @@
+{
+  "date": "2025-11-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/world-of-warcraft-midnight-launches-march-2nd-2026",
+      "entities": {
+        "games": [
+          {
+            "id": "world-of-warcraft-midnight",
+            "name": "World of Warcraft: Midnight",
+            "aliases": [],
+            "genres": ["mmorpg"],
+            "franchise": "world-of-warcraft",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "blizzard-entertainment",
+            "name": "Blizzard Entertainment",
+            "aliases": [],
+            "publisher": "blizzard-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-03-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "world-of-warcraft-midnight",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "World of Warcraft: Midnight launches March 2nd, 2026",
+          "source": {
+            "name": "YouTube",
+            "domain": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=oK_-6glk2MM"
+          }
+        }
+      ],
+      "summary": "World of Warcraft: Midnight is set to launch on 2 March 2026."
+    },
+    {
+      "ref": "main_news/s-box-is-now-open-source-built-on-top-of-source-2-which-rema",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "facepunch-studios",
+            "name": "Facepunch Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          },
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "s-box",
+            "name": "s&box",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "s&box, built on top of Valve's Source 2 engine, is now open-source while Source 2 itself remains closed and with Valve."
+    },
+    {
+      "ref": "main_news/a-new-grasshopper-direct-presentation-takes-place-next-week",
+      "entities": {
+        "games": [
+          {
+            "id": "romeo-is-a-dead-man",
+            "name": "Romeo is a Dead Man",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "grasshopper-manufacture",
+            "name": "Grasshopper Manufacture",
+            "aliases": ["Grasshopper"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "suda51",
+            "name": "Suda51",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-12-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "grasshopper-direct",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-11-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "5pm BST / 8PM EST December 4th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/a-new-grasshopper-direct-presentation-takes-place-next-week-featuring-romeo-is-a-dead-man/"
+          }
+        }
+      ],
+      "summary": "Suda51's Grasshopper Manufacture will hold a new Grasshopper Direct presentation featuring Romeo is a Dead Man on 4 December 2025 at 5pm BST / 8pm EST."
+    },
+    {
+      "ref": "free_games_subscription/december-is-getting-five-more-than-the-usual-3-playstation-p",
+      "entities": {
+        "games": [
+          {
+            "id": "lego-horizon-adventures",
+            "name": "Lego Horizon Adventures",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "horizon",
+            "inferred": true
+          },
+          {
+            "id": "the-outlast-trials",
+            "name": "The Outlast Trials",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "outlast",
+            "inferred": true
+          },
+          {
+            "id": "killing-floor-3",
+            "name": "Killing Floor 3",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "killing-floor",
+            "inferred": true
+          },
+          {
+            "id": "neon-white",
+            "name": "Neon White",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "synduality-echo-of-ada",
+            "name": "Synduality: Echo of Ada",
+            "aliases": [],
+            "genres": ["extraction-shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-12-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-plus",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2025-11-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Available December 2nd",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/december-is-getting-five-playstation-plus-essential-monthly-games-including-lego-horizon-adventures/"
+          }
+        }
+      ],
+      "summary": "December's PlayStation Plus Essential lineup includes five games - Lego Horizon Adventures, The Outlast Trials, Killing Floor 3, Neon White and Synduality: Echo of Ada - available from 2 December."
+    },
+    {
+      "ref": "business/cyberpunk-2077-has-now-sold-35-million-copies-hitting-the-mi",
+      "entities": {
+        "games": [
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          },
+          {
+            "id": "the-witcher-3",
+            "name": "The Witcher 3",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 35000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "cyberpunk-2077",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-11-27",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cyberpunk 2077 has now sold 35 million copies",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/cyberpunk-2077-has-now-sold-35-million-copies-hitting-the-milestone-faster-than-the-witcher-3-did/"
+          }
+        }
+      ],
+      "summary": "Cyberpunk 2077 has now sold 35 million copies, reaching the milestone faster than The Witcher 3 did."
+    },
+    {
+      "ref": "business/coatsink-to-lay-off-half-its-staff-due-to-challenging-co-dev",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "coatsink",
+            "name": "Coatsink",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 60,
+          "unit": "roles",
+          "currency": null,
+          "entity": "coatsink",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-11-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "up to 60 roles affected",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/coatsink-to-lay-off-half-its-staff-due-to-challenging-co-development-market"
+          }
+        }
+      ],
+      "summary": "Coatsink is to lay off half its staff, with up to 60 roles affected, citing a challenging co-development market."
+    },
+    {
+      "ref": "business/splash-damage-places-entire-studio-into-consultation-ahead-o",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "splash-damage",
+            "name": "Splash Damage",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Splash Damage has placed its entire studio into consultation ahead of redundancies affecting all staff, months after the UK studio was acquired by private equity in September."
+    }
+  ]
+}

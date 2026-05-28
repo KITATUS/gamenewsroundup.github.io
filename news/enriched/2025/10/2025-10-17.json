@@ -1,0 +1,267 @@
+{
+  "date": "2025-10-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/quantic-dream-s-first-multiplayer-game-is-spellcasters-chron",
+      "entities": {
+        "games": [
+          {
+            "id": "spellcasters-chronicles",
+            "name": "Spellcasters Chronicles",
+            "aliases": [],
+            "genres": ["strategy", "action-adventure"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "quantic-dream",
+            "name": "Quantic Dream",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Quantic Dream's first multiplayer game is Spellcasters Chronicles, a 3v3 strategy action game."
+    },
+    {
+      "ref": "main_news/mcdonald-s-japan-is-selling-street-fighter-themed-burgers",
+      "entities": {
+        "games": [
+          {
+            "id": "street-fighter",
+            "name": "Street Fighter",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "street-fighter",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "McDonald's Japan is selling Street Fighter themed burgers."
+    },
+    {
+      "ref": "main_news/marvel-rivals-adds-pve-marvel-zombies-mode-starts-october-23",
+      "entities": {
+        "games": [
+          {
+            "id": "marvel-rivals",
+            "name": "Marvel Rivals",
+            "aliases": [],
+            "genres": ["hero-shooter", "tps"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-10-23",
+          "unit": "date",
+          "currency": null,
+          "entity": "marvel-rivals",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-10-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Starts October 23rd",
+          "source": {
+            "name": "YouTube",
+            "domain": "youtube.com",
+            "url": "https://www.youtube.com/watch?v=6xBptgEhiok"
+          }
+        }
+      ],
+      "summary": "Marvel Rivals is adding a PvE Marvel Zombies mode starting on 23 October 2025."
+    },
+    {
+      "ref": "business/2k-appoints-ben-brinkman-as-31st-union-studio-head-brinkman",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "31st-union",
+            "name": "31st Union",
+            "aliases": [],
+            "publisher": "2k",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "2k",
+            "name": "2K",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "ben-brinkman",
+            "name": "Ben Brinkman",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-10-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "ben-brinkman",
+          "entity_type": "person",
+          "scope": "studio",
+          "as_of": "2025-10-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Brinkman to start role on October 20",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/2k-appoints-ben-brinkman-as-31st-union-studio-head"
+          }
+        }
+      ],
+      "summary": "2K appointed Ben Brinkman as the new studio head of 31st Union, with him starting the role on 20 October 2025."
+    },
+    {
+      "ref": "business/ea-confirms-battlefield-6-is-the-best-selling-entry-in-the-s",
+      "entities": {
+        "games": [
+          {
+            "id": "battlefield-6",
+            "name": "Battlefield 6",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "battlefield",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 7000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "battlefield-6",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-10-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "over 7m copies sold",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/ea-confirms-battlefield-6-is-best-selling-entry-in-the-series-7m-copies-sold-172m-online-matches"
+          }
+        }
+      ],
+      "summary": "EA confirmed Battlefield 6 is the best-selling entry in the series, with over 7 million copies sold and 172 million online matches played."
+    },
+    {
+      "ref": "business/silent-hill-2-remake-shipments-and-digital-sales-top-2-5-mil",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill-2",
+            "name": "Silent Hill 2",
+            "aliases": ["Silent Hill 2 remake"],
+            "genres": ["survival-horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 2500000,
+          "unit": "units",
+          "currency": null,
+          "entity": "silent-hill-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-10-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill 2 remake shipments and digital sales top 2.5 million",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2025/10/silent-hill-2-remake-shipments-and-digital-sales-top-2-5-million"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 10000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "silent-hill",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2025-10-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill series surpasses 10 million units shipped",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2025/10/silent-hill-2-remake-shipments-and-digital-sales-top-2-5-million"
+          }
+        }
+      ],
+      "summary": "Silent Hill 2 remake shipments and digital sales topped 2.5 million units, pushing the Silent Hill series past 10 million units shipped."
+    }
+  ]
+}

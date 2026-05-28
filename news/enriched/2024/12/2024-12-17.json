@@ -1,0 +1,108 @@
+{
+  "date": "2024-12-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/league-of-legends-skins-won-t-get-custom-vo-while-sag-aftra",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": ["Leage of Legends"], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "formosa-interactive", "name": "Formosa Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Riot Games is making temporary changes to League of Legends skin voiceovers, reusing base VO for US-based actors' champions, because the SAG-AFTRA voice actors strike bars union actors from recording for the struck PC title."
+    },
+    {
+      "ref": "business/dark-passenger-raises-3-million-to-fund-debut-multiplayer-ga",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-3-wild-hunt", "name": "The Witcher 3: Wild Hunt", "aliases": ["The Witcher 3"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true },
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "dark-passenger", "name": "Dark Passenger", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": ["CD Projekt Red"], "publisher": null, "inferred": false },
+          { "id": "people-can-fly", "name": "People Can Fly", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "reikon", "name": "Reikon", "aliases": ["Reikon"], "publisher": null, "inferred": false },
+          { "id": "flying-wild-hog", "name": "Flying Wild Hog", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised", "value": 3000000, "unit": "money", "currency": "USD",
+          "entity": "dark-passenger", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-12-17", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dark Passenger raises $3 million to fund debut multiplayer game",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/dark-passenger-raises-3-million-to-fund-debut-multiplayer-game" }
+        }
+      ],
+      "summary": "Dark Passenger, a studio of ex-CD Projekt Red and other Warsaw-based developers, has raised $3 million to fund its debut multiplayer game."
+    },
+    {
+      "ref": "business/elden-ring-has-now-sold-28-6m-copies-outselling-the-dark-sou",
+      "entities": {
+        "games": [
+          { "id": "elden-ring", "name": "Elden Ring", "aliases": [], "genres": ["action-rpg", "soulslike", "open-world"], "franchise": "elden-ring", "inferred": true },
+          { "id": "shadow-of-the-erdtree", "name": "Shadow of the Erdtree", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 28600000, "unit": "copies", "currency": null,
+          "entity": "elden-ring", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-17", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Elden Ring has now sold 28.6m copies",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/elden-ring-has-now-sold-286m-copies-outselling-the-dark-souls-series-combined-prior-to-release" }
+        },
+        {
+          "metric": "copies_sold", "value": 3600000, "unit": "copies", "currency": null,
+          "entity": "elden-ring", "entity_type": "game", "scope": "game",
+          "as_of": "2024-12-17", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "The game has sold an additional 3.6m copies since the release of Shadow of the Erdtree",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/elden-ring-has-now-sold-286m-copies-outselling-the-dark-souls-series-combined-prior-to-release" }
+        }
+      ],
+      "summary": "Elden Ring has now sold 28.6 million copies, with an additional 3.6 million sold since the release of the Shadow of the Erdtree expansion."
+    },
+    {
+      "ref": "rumours/dbrand-has-posted-what-it-claims-to-be-an-image-of-switch-2",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour", "hardware", "reveal"],
+      "facts": [],
+      "summary": "Rumour that accessory maker Dbrand has posted what it claims to be an image of the Switch 2 inside its latest case, with chatter suggesting the console's reveal may have been moved to January to combat such leaks."
+    }
+  ]
+}

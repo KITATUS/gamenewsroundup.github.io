@@ -1,0 +1,187 @@
+{
+  "date": "2026-02-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/marvel-s-wolverine-release-date-revealed-september-15-2026-f",
+      "entities": {
+        "games": [
+          {
+            "id": "marvels-wolverine",
+            "name": "Marvel's Wolverine",
+            "aliases": ["Wolverine"],
+            "genres": ["action-adventure"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "insomniac-games",
+            "name": "Insomniac Games",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "reveal"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-09-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "marvels-wolverine",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Marvel’s Wolverine release date revealed - September 15, 2026 for PS5",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/playstation-finally-confirms-marvels-wolverine-release-date-and-its-coming-before-gta6/"
+          }
+        }
+      ],
+      "summary": "Marvel's Wolverine has been confirmed for a 15 September 2026 release on PS5."
+    },
+    {
+      "ref": "main_news/new-mobile-overwatch-game-overwatch-rush-announced",
+      "entities": {
+        "games": [
+          {
+            "id": "overwatch-rush",
+            "name": "Overwatch Rush",
+            "aliases": [],
+            "genres": ["hero-shooter"],
+            "franchise": "overwatch",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "blizzard-entertainment",
+            "name": "Blizzard Entertainment",
+            "aliases": [],
+            "publisher": "blizzard-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A new mobile Overwatch game called Overwatch Rush has been announced."
+    },
+    {
+      "ref": "business/ex-radical-entertainment-hothead-games-devs-form-new-studio",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "new-radical-games",
+            "name": "New Radical Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "radical-entertainment",
+            "name": "Radical Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "hothead-games",
+            "name": "Hothead Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "ian-wilkinson",
+            "name": "Ian Wilkinson",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "tim-bennison",
+            "name": "Tim Bennison",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Former Radical Entertainment and Hothead Games developers have formed a new studio, New Radical Games, led by CEO Ian Wilkinson and COO Tim Bennison."
+    },
+    {
+      "ref": "business/kingdom-come-deliverance-director-daniel-v-vra-is-stepping-a",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-come-deliverance",
+            "name": "Kingdom Come: Deliverance",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "kingdom-come-deliverance",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "warhorse-studios",
+            "name": "Warhorse Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "daniel-vavra",
+            "name": "Daniel Vávra",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Kingdom Come: Deliverance director Daniel Vávra is stepping away from game development to lead production of a Kingdom Come movie."
+    }
+  ]
+}

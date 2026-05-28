@@ -1,0 +1,127 @@
+{
+  "date": "2025-06-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/minecraft-like-hytale-cancelled-after-ten-years-in-developme",
+      "entities": {
+        "games": [
+          { "id": "hytale", "name": "Hytale", "aliases": [], "genres": ["sandbox", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hypixel-studios", "name": "Hypixel Studios", "aliases": [], "publisher": "riot-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Hytale, a Minecraft-like game, has been cancelled after ten years in development."
+    },
+    {
+      "ref": "main_news/horizon-zero-dawn-developer-not-replacing-actors-with-ai-say",
+      "entities": {
+        "games": [
+          { "id": "horizon-zero-dawn", "name": "Horizon Zero Dawn", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "guerrilla-games", "name": "Guerrilla Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Horizon Zero Dawn developer is not replacing actors with AI, according to Aloy's voice actress, following leaked footage of a Sony employee interacting with an on-screen AI version of Aloy in March."
+    },
+    {
+      "ref": "business/peak-sells-1m-copies-in-six-days",
+      "entities": {
+        "games": [
+          { "id": "peak", "name": "Peak", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "peak", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-24", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Peak sells 1m copies in six days",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/peak-sells-1m-copies-in-six-days-news-in-brief" } }
+      ],
+      "summary": "Peak sold 1 million copies within six days of release."
+    },
+    {
+      "ref": "business/uk-launches-new-40-5m-fund-to-support-british-game-developme",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 40500000, "unit": "money", "currency": "USD",
+          "entity": "uk-games-fund", "entity_type": "company", "scope": "company",
+          "as_of": "2025-06-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "UK launches new $40.5m fund to support British game development",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/uk-launches-new-405m-fund-to-support-british-game-development" } }
+      ],
+      "summary": "The UK has launched a new $40.5m fund to support British game development."
+    },
+    {
+      "ref": "business/dune-awakening-tops-1m-players-becoming-funcom-s-fastest-sel",
+      "entities": {
+        "games": [
+          { "id": "dune-awakening", "name": "Dune: Awakening", "aliases": [], "genres": ["survival", "mmo", "open-world"], "franchise": "dune", "inferred": true }
+        ],
+        "studios": [
+          { "id": "funcom", "name": "Funcom", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "dune-awakening", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-24", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Dune: Awakening tops 1m players",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/dune-awakening-tops-1m-players-becoming-funcoms-fastest-selling-game-ever-news-in-brief" } }
+      ],
+      "summary": "Dune: Awakening topped 1 million players, becoming Funcom's fastest-selling game ever."
+    },
+    {
+      "ref": "business/mindseye-developer-confirms-layoffs",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build A Rocket Boy", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "The developer of MindsEye has confirmed layoffs."
+    }
+  ]
+}

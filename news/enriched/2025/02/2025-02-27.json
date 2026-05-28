@@ -1,0 +1,103 @@
+{
+  "date": "2025-02-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nacon-connect-digital-showcase-to-reveal-secret-projects-in",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nacon", "name": "Nacon", "aliases": ["Nacon Connect"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "reveal", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-03-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "nacon-connect",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-02-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "March 6 at 10am PT / 1pm ET / 6pm GMT / 7pm CET",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nacon-connect-digital-showcase-to-reveal-secret-projects-in-march/"
+          }
+        }
+      ],
+      "summary": "Nacon will hold a Nacon Connect digital showcase on 6 March 2025 to reveal 'secret projects'."
+    },
+    {
+      "ref": "main_news/sonic-rumble-sega-s-free-to-play-32-player-sonic-game-has-be",
+      "entities": {
+        "games": [
+          { "id": "sonic-rumble", "name": "Sonic Rumble", "aliases": [], "genres": ["party", "battle-royale"], "franchise": "sonic", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Sega's free-to-play 32-player game Sonic Rumble has been delayed until spring."
+    },
+    {
+      "ref": "free_games_subscription/ps-essential-games-available-from-march-4",
+      "entities": {
+        "games": [
+          { "id": "dragon-age-the-veilguard", "name": "Dragon Age: The Veilguard", "aliases": [], "genres": ["action-rpg"], "franchise": "dragon-age", "inferred": true },
+          { "id": "sonic-colors-ultimate", "name": "Sonic Colors: Ultimate", "aliases": [], "genres": ["platformer"], "franchise": "sonic", "inferred": true },
+          { "id": "teenage-mutant-ninja-turtles-the-cowabunga-collection", "name": "Teenage Mutant Ninja Turtles: The Cowabunga Collection", "aliases": [], "genres": ["fighting", "action"], "franchise": "teenage-mutant-ninja-turtles", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PS+"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-03-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-plus",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2025-02-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS+ Essential Games (Available from March 4)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/dragon-age-the-veilguard-headlines-marchs-playstation-plus-essential-games/"
+          }
+        }
+      ],
+      "summary": "March's PlayStation Plus Essential lineup, available from 4 March 2025, headlines Dragon Age: The Veilguard, Sonic Colors: Ultimate, and TMNT: The Cowabunga Collection."
+    }
+  ]
+}

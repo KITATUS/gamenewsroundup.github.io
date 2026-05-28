@@ -1,0 +1,217 @@
+{
+  "date": "2024-06-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-cloud-gaming-coming-to-amazon-fire-tv-in-select-markets",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true },
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-cloud-gaming", "name": "Xbox Cloud Gaming", "aliases": [], "inferred": false },
+          { "id": "amazon-fire-tv", "name": "Amazon Fire TV", "aliases": ["Fire TV"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Xbox Cloud Gaming is coming to Amazon Fire TV in select markets."
+    },
+    {
+      "ref": "main_news/frostpunk-2-release-delayed-to-guarantee-the-best-possible-e",
+      "entities": {
+        "games": [
+          { "id": "frostpunk-2", "name": "Frostpunk 2", "aliases": [], "genres": ["strategy", "simulation", "survival"], "franchise": "frostpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "11-bit-studios", "name": "11 bit studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-09-20", "unit": "date", "currency": null,
+          "entity": "frostpunk-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "11 bit studios is now planning to release Frostpunk 2 on 20th September.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/frostpunk-2-release-delayed-to-guarantee-the-best-possible-experience-at-launch" } }
+      ],
+      "summary": "Frostpunk 2 has been delayed, with 11 bit studios now planning a 20 September release to ensure the best launch experience."
+    },
+    {
+      "ref": "main_news/star-wars-bounty-hunter-gets-a-remake-courtesy-of-aspyr",
+      "entities": {
+        "games": [
+          { "id": "star-wars-bounty-hunter", "name": "Star Wars: Bounty Hunter", "aliases": [], "genres": ["action-adventure", "tps"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-battlefront-classic-collection", "name": "Star Wars: Battlefront Classic Collection", "aliases": [], "genres": ["shooter"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "aspyr", "name": "Aspyr", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-08-01", "unit": "date", "currency": null,
+          "entity": "star-wars-bounty-hunter", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Set for release on 1st August",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/star-wars-bounty-hunter-gets-a-remake" } }
+      ],
+      "summary": "Aspyr is remaking Star Wars: Bounty Hunter, set for release on 1 August."
+    },
+    {
+      "ref": "main_news/ubisoft-ceo-confirms-multiple-assassin-s-creed-games-are-get",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed", "name": "Assassin's Creed", "aliases": [], "genres": ["action-adventure", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Ubisoft's CEO confirmed that multiple Assassin's Creed games are getting remakes."
+    },
+    {
+      "ref": "free_games_subscription/amazon-prime-is-giving-away-an-additional-6-free-pc-games-in",
+      "entities": {
+        "games": [
+          { "id": "baldurs-gate-enhanced-edition", "name": "Baldur's Gate: Enhanced Edition", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "baldurs-gate", "inferred": true },
+          { "id": "cat-quest-2", "name": "Cat Quest 2", "aliases": [], "genres": ["action-rpg"], "franchise": "cat-quest", "inferred": true },
+          { "id": "maneater", "name": "Maneater", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "midnight-fight-express", "name": "Midnight Fight Express", "aliases": [], "genres": ["fighting", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "masterplan-tycoon", "name": "Masterplan Tycoon", "aliases": [], "genres": ["simulation", "strategy"], "franchise": null, "inferred": true },
+          { "id": "youtubers-life-2", "name": "YouTubers Life 2", "aliases": [], "genres": ["simulation", "life-sim"], "franchise": "youtubers-life", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": ["Amazon Prime", "Prime Gaming"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "Amazon Prime is giving away an additional six free PC games in July, including Baldur's Gate: Enhanced Edition and Cat Quest 2."
+    },
+    {
+      "ref": "business/layoffs-at-gameloft-toronto",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gameloft-toronto", "name": "Gameloft Toronto", "aliases": [], "publisher": "gameloft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "gameloft", "name": "Gameloft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 49, "unit": "people", "currency": null,
+          "entity": "gameloft-toronto", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-06-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Affects 49 people.",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/report-of-mass-layoffs-at-gameloft-toronto" } }
+      ],
+      "summary": "Layoffs at Gameloft Toronto affect 49 people."
+    },
+    {
+      "ref": "business/layoffs-at-chinese-developer-perfect-world",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "perfect-world", "name": "Perfect World", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Chinese developer Perfect World has reportedly conducted layoffs."
+    },
+    {
+      "ref": "business/elden-ring-shadow-of-the-erdtree-sells-5m-units",
+      "entities": {
+        "games": [
+          { "id": "elden-ring-shadow-of-the-erdtree", "name": "Elden Ring: Shadow of the Erdtree", "aliases": [], "genres": ["action-rpg", "soulslike"], "franchise": "elden-ring", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "dlc-expansion"],
+      "facts": [
+        { "metric": "units_sold", "value": 5000000, "unit": "units", "currency": null,
+          "entity": "elden-ring-shadow-of-the-erdtree", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-28", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Elden Ring: Shadow of the Erdtree sells 5m units",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/elden-ring-shadow-of-the-erdtree-sells-5m-units-worldwide-news-in-brief" } }
+      ],
+      "summary": "Elden Ring: Shadow of the Erdtree has sold 5 million units."
+    },
+    {
+      "ref": "business/more-users-choosing-to-play-games-on-steam-with-controllers",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "steam-deck", "name": "Steam Deck", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "More Steam users are choosing to play games with controllers, with daily average controller use rising from 5% to 15% since 2018."
+    },
+    {
+      "ref": "business/bethesda-montreal-files-for-unionisation",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bethesda-montreal", "name": "Bethesda Montreal", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "zenimax-media", "name": "ZeniMax Media", "aliases": ["ZeniMax"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Bethesda Montreal has filed for unionisation, becoming the second ZeniMax studio to form a union."
+    }
+  ]
+}

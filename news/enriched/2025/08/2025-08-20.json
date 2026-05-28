@@ -1,0 +1,359 @@
+{
+  "date": "2025-08-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/black-forest-games-producer-dennis-schiefer-has-passed-away",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "black-forest-games", "name": "Black Forest Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "dennis-schiefer", "name": "Dennis Schiefer", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Black Forest Games producer Dennis Schiefer has passed away."
+    },
+    {
+      "ref": "main_news/second-season-of-fallout-tv-series-to-premiere-on-december-1",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "trailer"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-12-17", "unit": "date", "currency": null,
+          "entity": "fallout-tv", "entity_type": "product", "scope": "product",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Second season of Fallout TV series to premiere on December 17, 2025",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/falloutonprime/status/1957877781246967940" } }
+      ],
+      "summary": "The second season of the Fallout TV series will premiere on December 17, 2025, with a new trailer showcasing New Vegas and a Deathclaw."
+    },
+    {
+      "ref": "main_news/crunchyroll-reveals-first-footage-of-sekiro-shadows-die-twic",
+      "entities": {
+        "games": [{ "id": "sekiro-shadows-die-twice", "name": "Sekiro: Shadows Die Twice", "aliases": [], "genres": ["action-adventure", "soulslike"], "franchise": "sekiro", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "trailer", "announcement"],
+      "facts": [],
+      "summary": "Crunchyroll has revealed the first footage of the Sekiro: Shadows Die Twice anime, Sekiro: No Defeat, which releases next year."
+    },
+    {
+      "ref": "main_news/remedy-launches-new-streaming-series-looking-back-on-the-gam",
+      "entities": {
+        "games": [{ "id": "control", "name": "Control", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true }],
+        "studios": [{ "id": "remedy-entertainment", "name": "Remedy", "aliases": ["Remedy"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-08-27", "unit": "date", "currency": null,
+          "entity": "remedy-entertainment", "entity_type": "studio", "scope": "studio",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Series kicks off with Control on August 27",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/remedygames.com/post/3lwr374scax24" } }
+      ],
+      "summary": "Remedy is launching a new streaming series looking back on the games it made, kicking off with Control on August 27."
+    },
+    {
+      "ref": "main_news/call-of-duty-black-ops-7-is-getting-a-four-player-co-op-camp",
+      "entities": {
+        "games": [{ "id": "call-of-duty-black-ops-7", "name": "Call of Duty: Black Ops 7", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-09-30", "unit": "date", "currency": null,
+          "entity": "call-of-duty-next", "entity_type": "product", "scope": "event",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Multiplayer and zombies news is coming at Call of Duty Next on September 30th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/call-of-duty-black-ops-7-is-getting-a-four-player-co-op-campaign-and-more/" } },
+        { "metric": "release_date", "value": "2025-11-14", "unit": "date", "currency": null,
+          "entity": "call-of-duty-black-ops-7", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Game releases November 14th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/call-of-duty-black-ops-7-is-getting-a-four-player-co-op-campaign-and-more/" } }
+      ],
+      "summary": "Call of Duty: Black Ops 7 is getting a four-player co-op campaign, with multiplayer and zombies news due at Call of Duty Next on September 30th ahead of the game's November 14th release."
+    },
+    {
+      "ref": "main_news/helldivers-2-x-halo-odst-legendary-warbond-releases-august-2",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "halo-3-odst", "name": "Halo ODST", "aliases": ["Halo ODST"], "genres": ["fps", "shooter"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-26", "unit": "date", "currency": null,
+          "entity": "helldivers-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Helldivers 2 x Halo ODST Legendary warbond releases August 26th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-is-officially-getting-halo-content-in-the-form-of-helldivers-collab/" } }
+      ],
+      "summary": "The Helldivers 2 x Halo ODST Legendary warbond releases August 26th."
+    },
+    {
+      "ref": "main_news/hollow-knight-silksong-announcent-due-thursday-21st-august-7",
+      "entities": {
+        "games": [{ "id": "hollow-knight-silksong", "name": "Hollow Knight: Silksong", "aliases": [], "genres": ["metroidvania", "action-adventure"], "franchise": "hollow-knight", "inferred": true }],
+        "studios": [{ "id": "team-cherry", "name": "Team Cherry", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2025-08-21", "unit": "date", "currency": null,
+          "entity": "hollow-knight-silksong", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Hollow Knight: Silksong announcent due Thursday 21st August",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/6-years-after-its-announcement-hollow-knight-silksong-looks-set-for-a-gamescom-onl-reveal/" } }
+      ],
+      "summary": "A Hollow Knight: Silksong announcement is due Thursday 21st August."
+    },
+    {
+      "ref": "main_news/vampire-the-masquerade-bloodlines-2-finally-gets-a-release-d",
+      "entities": {
+        "games": [{ "id": "vampire-the-masquerade-bloodlines-2", "name": "Vampire: The Masquerade Bloodlines 2", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "vampire-the-masquerade", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "dlc-expansion"],
+      "facts": [
+        { "metric": "price", "value": 22, "unit": "price", "currency": "USD",
+          "entity": "vampire-the-masquerade-bloodlines-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "locks two of its clans behind $22 DLC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/vampire-the-masquerade-bloodlines-2-finally-gets-a-release-date-locks-two-of-its-clans-behind-22-dlc/" } }
+      ],
+      "summary": "Vampire: The Masquerade Bloodlines 2 has finally gotten a release date and locks two of its clans behind $22 DLC."
+    },
+    {
+      "ref": "main_news/wukong-follow-up-black-myth-zhong-kui-revealed-at-gamescom",
+      "entities": {
+        "games": [
+          { "id": "black-myth-zhong-kui", "name": "Black Myth: Zhong Kui", "aliases": [], "genres": ["action-rpg"], "franchise": "black-myth", "inferred": true },
+          { "id": "black-myth-wukong", "name": "Black Myth: Wukong", "aliases": ["Wukong"], "genres": ["action-rpg"], "franchise": "black-myth", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "showcase", "announcement"],
+      "facts": [],
+      "summary": "Black Myth: Zhong Kui, a follow-up to Black Myth: Wukong, was revealed at Gamescom."
+    },
+    {
+      "ref": "main_news/ghost-of-yotei-is-getting-legends-multiplayer-mode-next-year",
+      "entities": {
+        "games": [{ "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }],
+        "studios": [{ "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ghost of Yotei is getting a Legends multiplayer mode next year."
+    },
+    {
+      "ref": "main_news/monster-hunter-wilds-and-final-fantasy-14-are-officially-cro",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "final-fantasy-14", "name": "Final Fantasy 14", "aliases": ["Final Fantasy XIV"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Monster Hunter Wilds and Final Fantasy 14 are officially crossing over, with both games getting content to celebrate."
+    },
+    {
+      "ref": "main_news/monkey-island-and-maniac-mansion-veteran-ron-gilbert-shows-h",
+      "entities": {
+        "games": [{ "id": "death-by-scrolling", "name": "Death by Scrolling", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "ron-gilbert", "name": "Ron Gilbert", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Monkey Island and Maniac Mansion veteran Ron Gilbert has shown his next game, Death by Scrolling."
+    },
+    {
+      "ref": "main_news/warhammer-40-000-dawn-of-war-4-has-a-new-developer-king-art",
+      "entities": {
+        "games": [{ "id": "warhammer-40000-dawn-of-war-4", "name": "Warhammer 40,000: Dawn of War 4", "aliases": [], "genres": ["rts", "strategy"], "franchise": "warhammer-40000", "inferred": true }],
+        "studios": [{ "id": "king-art-games", "name": "King Art Games", "aliases": ["King Art"], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Warhammer 40,000: Dawn of War 4 has a new developer in King Art Games, which promises a 'return to roots'."
+    },
+    {
+      "ref": "main_news/indiana-jones-and-the-great-circle-is-coming-to-nintendo-swi",
+      "entities": {
+        "games": [{ "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [],
+      "summary": "Indiana Jones and the Great Circle is coming to Nintendo Switch 2 next year."
+    },
+    {
+      "ref": "main_news/tt-games-reveals-skywalker-saga-style-lego-batman-game-legac",
+      "entities": {
+        "games": [{ "id": "lego-batman-legacy-of-the-dark-knight", "name": "Lego Batman: Legacy of the Dark Knight", "aliases": ["Lego Batman"], "genres": ["action-adventure"], "franchise": "lego", "inferred": true }],
+        "studios": [{ "id": "tt-games", "name": "TT Games", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "matt-berry", "name": "Matt Berry", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "TT Games has revealed a Skywalker Saga-style Lego Batman game, Legacy of the Dark Knight, featuring Matt Berry as Bane."
+    },
+    {
+      "ref": "main_news/sonic-and-pac-man-s-next-games-will-have-crossover-dlc-featu",
+      "entities": {
+        "games": [
+          { "id": "sonic", "name": "Sonic", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "pac-man", "name": "Pac-Man", "aliases": [], "genres": [], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "partnership", "announcement"],
+      "facts": [],
+      "summary": "Sonic and Pac-Man's next games will have crossover DLC featuring each other."
+    },
+    {
+      "ref": "main_news/atari-is-releasing-a-brand-new-bubsy-game-bubsy-4d",
+      "entities": {
+        "games": [{ "id": "bubsy-4d", "name": "Bubsy 4D", "aliases": [], "genres": ["platformer"], "franchise": "bubsy", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "atari", "name": "Atari", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Atari is releasing a brand new Bubsy game, Bubsy 4D."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-august-line-up",
+      "entities": {
+        "games": [
+          { "id": "blacksmith-master", "name": "Blacksmith Master", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "void-breaker", "name": "Void/Breaker", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "goat-simulator-remastered", "name": "Goat Simulator Remastered", "aliases": [], "genres": ["simulation", "sandbox"], "franchise": "goat-simulator", "inferred": true },
+          { "id": "persona-4-golden", "name": "Persona 4 Golden", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "persona", "inferred": true },
+          { "id": "herdling", "name": "Herdling", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "gears-of-war-reloaded", "name": "Gears of War: Reloaded", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true },
+          { "id": "dragon-age-the-veilguard", "name": "Dragon Age: The Veilguard", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "dragon-age", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-08-20", "unit": "date", "currency": null,
+          "entity": "goat-simulator-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Goat Simulator Remastered (Xbox Series S/X) – August 20",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dragon-age-and-gears-of-war-headline-xbox-game-pass-august-line-up/" } },
+        { "metric": "release_date", "value": "2025-08-20", "unit": "date", "currency": null,
+          "entity": "persona-4-golden", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Persona 4 Golden (Cloud, Console, and PC) – August 20",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dragon-age-and-gears-of-war-headline-xbox-game-pass-august-line-up/" } },
+        { "metric": "release_date", "value": "2025-08-21", "unit": "date", "currency": null,
+          "entity": "herdling", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Herdling  (Cloud, PC, and Xbox Series S/X) – August 21",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dragon-age-and-gears-of-war-headline-xbox-game-pass-august-line-up/" } },
+        { "metric": "release_date", "value": "2025-08-26", "unit": "date", "currency": null,
+          "entity": "gears-of-war-reloaded", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Gears of War: Reloaded (Cloud, PC, and Xbox Series S/X) – August 26",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dragon-age-and-gears-of-war-headline-xbox-game-pass-august-line-up/" } },
+        { "metric": "release_date", "value": "2025-08-28", "unit": "date", "currency": null,
+          "entity": "dragon-age-the-veilguard", "entity_type": "game", "scope": "game",
+          "as_of": "2025-08-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dragon Age: The Veilguard (Cloud, PC, and Xbox Series S/X) – August 28",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dragon-age-and-gears-of-war-headline-xbox-game-pass-august-line-up/" } }
+      ],
+      "summary": "The Xbox Game Pass August line-up adds titles including Goat Simulator Remastered, Persona 4 Golden, Gears of War: Reloaded and Dragon Age: The Veilguard."
+    },
+    {
+      "ref": "business/starbreeze-says-pubg-collab-was-its-single-largest-revenue-c",
+      "entities": {
+        "games": [{ "id": "pubg", "name": "PUBG", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }],
+        "studios": [{ "id": "starbreeze", "name": "Starbreeze", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "partnership"],
+      "facts": [],
+      "summary": "Starbreeze says its PUBG collaboration was its 'single largest revenue contributor' in Q2."
+    },
+    {
+      "ref": "business/cloud-chamber-lays-off-unspecified-number-of-staff-as-rod-fe",
+      "entities": {
+        "games": [{ "id": "bioshock-4", "name": "BioShock 4", "aliases": [], "genres": ["fps", "shooter"], "franchise": "bioshock", "inferred": true }],
+        "studios": [{ "id": "cloud-chamber", "name": "Cloud Chamber", "aliases": [], "publisher": "2k-games", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "rod-fergusson", "name": "Rod Fergusson", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["layoffs", "leadership-change"],
+      "facts": [],
+      "summary": "Cloud Chamber has laid off an 'unspecified' number of staff as Rod Fergusson is brought in to lead the troubled BioShock 4 production."
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "date": "2024-05-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-apologises-to-neil-druckmann-following-heavily-edited-i",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "naughty-dog",
+            "name": "Naughty Dog",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony", "SIE"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "neil-druckmann",
+            "name": "Neil Druckmann",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sony has apologised to Naughty Dog's Neil Druckmann for a heavily edited interview that misrepresented his words, and removed it in coordination with Naughty Dog and SIE."
+    },
+    {
+      "ref": "main_news/multiversus-relaunches-to-more-than-114-000-concurrent-playe",
+      "entities": {
+        "games": [
+          {
+            "id": "multiversus",
+            "name": "MultiVersus",
+            "aliases": [],
+            "genres": ["fighting", "party"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [
+        {
+          "metric": "concurrent_players",
+          "value": 114000,
+          "unit": "players",
+          "currency": null,
+          "entity": "multiversus",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "MultiVersus relaunches to more than 114,000 concurrent players on Steam",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/multiversus-relaunches-to-more-than-114000-concurrent-players-on-steam/"
+          }
+        }
+      ],
+      "summary": "MultiVersus relaunched to more than 114,000 concurrent players on Steam."
+    },
+    {
+      "ref": "main_news/playstation-state-of-play-tonight",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "playstation-studios",
+            "name": "PlayStation Studios",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PS5",
+            "aliases": ["PlayStation 5"],
+            "inferred": false
+          },
+          {
+            "id": "ps-vr-2",
+            "name": "PS VR 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-05-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-state-of-play",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PlayStation State of Play Tonight",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/playstation-state-of-play-broadcast-announced-for-this-week"
+          }
+        }
+      ],
+      "summary": "A 30-minute PlayStation State of Play airs tonight, showing 14 titles for PS5 and PS VR 2 including upcoming PlayStation Studios games."
+    },
+    {
+      "ref": "main_news/silent-hill-transmission-tonight",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-05-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "silent-hill-transmission",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Silent Hill Transmission Tonight",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com",
+            "url": "https://www.ign.com/articles/silent-hill-transmission-announced-for-may-30-with-game-updates-a-deeper-look-at-the-film-and-new-merch"
+          }
+        }
+      ],
+      "summary": "A Silent Hill Transmission showcase airs tonight, one hour after the PlayStation State of Play."
+    },
+    {
+      "ref": "free_games_subscription/june-s-free-games-with-amazon-prime-gaming-have-been-announc",
+      "entities": {
+        "games": [
+          {
+            "id": "the-lullaby-of-life",
+            "name": "The Lullaby of Life",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "star-wars-battlefront-ii",
+            "name": "Star Wars Battlefront II (Classic, 2005)",
+            "aliases": ["Star Wars Battlefront II"],
+            "genres": ["shooter", "fps"],
+            "franchise": "star-wars",
+            "inferred": true
+          },
+          {
+            "id": "weird-west",
+            "name": "Weird West Definitive Edition",
+            "aliases": ["Weird West"],
+            "genres": ["action-rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "genesis-noir",
+            "name": "Genesis Noir",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "everdream-valley",
+            "name": "Everdream Valley",
+            "aliases": [],
+            "genres": ["simulation", "life-sim"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "mythforce",
+            "name": "Mythforce",
+            "aliases": [],
+            "genres": ["roguelike", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "blast-brigade-vs-the-evil-legion-of-dr-cread",
+            "name": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+            "aliases": [],
+            "genres": ["metroidvania"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "projection-first-light",
+            "name": "Projection: First Light",
+            "aliases": [],
+            "genres": ["puzzle", "platformer"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "amazon-games",
+            "name": "Amazon Games",
+            "aliases": ["Amazon Prime Gaming"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "prime-gaming",
+            "name": "Amazon Prime Gaming",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2024-05-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-lullaby-of-life",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "May 30: The Lullaby of Life [GOG code]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-06-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "star-wars-battlefront-ii",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 6: Star Wars Battlefront II (Classic, 2005) [GOG code]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-06-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "weird-west",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 6: Weird West Definitive Edition [Epic Game Store code]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-06-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "genesis-noir",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 6: Genesis Noir [Amazon Games app]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-06-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "everdream-valley",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 13: Everdream Valley [Amazon Games app]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-06-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "mythforce",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 13: Mythforce [Epic Game Store code]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-06-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "blast-brigade-vs-the-evil-legion-of-dr-cread",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 13: Blast Brigade vs. the Evil Legion of Dr. Cread [GOG code]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2024-06-13",
+          "unit": "date",
+          "currency": null,
+          "entity": "projection-first-light",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "June 13: Projection: First Light [Amazon Games app]",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/junes-free-games-with-amazon-prime-gaming-have-been-announced-3/"
+          }
+        }
+      ],
+      "summary": "Amazon Prime Gaming announced its free games for June, beginning with The Lullaby of Life on 30 May 2024."
+    },
+    {
+      "ref": "business/gameloft-romania-cuts-136-jobs-and-closes-cluj-studio",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "gameloft-romania",
+            "name": "Gameloft Romania",
+            "aliases": [],
+            "publisher": "gameloft",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "gameloft",
+            "name": "Gameloft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 136,
+          "unit": "people",
+          "currency": null,
+          "entity": "gameloft-romania",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Gameloft Romania cuts 136 jobs and closes Cluj studio",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/gameloft-romania-cuts-136-jobs-and-closes-cluj-studio"
+          }
+        }
+      ],
+      "summary": "Gameloft Romania has cut 136 jobs and closed its Cluj studio."
+    },
+    {
+      "ref": "business/evercade-has-sold-one-million-cartridges",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "blaze-entertainment",
+            "name": "Blaze Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "evercade",
+            "name": "Evercade",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "evercade",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2024-05-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Evercade has sold one million cartridges",
+          "source": {
+            "name": "GamesPress",
+            "domain": "gamespress.com",
+            "url": "https://www.gamespress.com/en-GB/BLAZE-ENTERTAINMENT-HITS-ONE-MILLION-CARTRIDGE-SALES-MILESTONE-AND-APP"
+          }
+        }
+      ],
+      "summary": "Evercade has sold one million cartridges."
+    },
+    {
+      "ref": "business/playstation-5-most-profitable-generation-to-date-sony-says",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "ps4",
+            "name": "PlayStation 4",
+            "aliases": ["PS4"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "operating_income",
+          "value": 10000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2024-05-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Operating income for PS5 gen reaches $10bn, beating PS4's $9bn",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/playstation-5-most-profitable-generation-to-date-sony-says"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 9000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "ps4",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2024-05-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Operating income for PS5 gen reaches $10bn, beating PS4's $9bn",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/playstation-5-most-profitable-generation-to-date-sony-says"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 106000000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "ps5",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2024-05-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "PS5 has hit $106bn in sales, $1 billion below PS4",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/playstation-5-most-profitable-generation-to-date-sony-says"
+          }
+        }
+      ],
+      "summary": "Sony says the PlayStation 5 is its most profitable generation to date, with PS5-gen operating income reaching $10bn against PS4's $9bn."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "date": "2025-10-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/capcom-insists-it-will-still-charge-to-watch-street-fighter",
+      "entities": {
+        "games": [
+          { "id": "street-fighter", "name": "Street Fighter", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 40, "unit": "price", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "event",
+          "as_of": "2025-10-28", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "fans would have to pay up to $40 to watch two tournament finals",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/capcom-insists-it-will-still-charge-to-watch-stre[…]rnament-streams-but-is-still-preparing-pricing-details/" } }
+      ],
+      "summary": "Capcom says it will still charge to watch Street Fighter tournament streams but is still finalising pricing, after previously announcing fans would pay up to $40 to watch two tournament finals."
+    },
+    {
+      "ref": "main_news/forza-motorsport-is-taking-a-back-seat-as-xbox-focuses-on-ga",
+      "entities": {
+        "games": [
+          { "id": "forza-motorsport", "name": "Forza Motorsport", "aliases": [], "genres": ["racing"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [
+          { "id": "turn-10-studios", "name": "Turn 10 Studios", "aliases": ["Turn 10 studios"], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "phil-spencer", "name": "Phil Spencer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "Phil Spencer says Forza Motorsport is taking a back seat as Xbox focuses on games releasing sooner, acknowledging the reaction to scaling back Turn 10 Studios."
+    },
+    {
+      "ref": "main_news/after-12-years-of-development-fan-made-timesplitters-rewind",
+      "entities": {
+        "games": [
+          { "id": "timesplitters-rewind", "name": "Timesplitters Rewind", "aliases": [], "genres": ["fps"], "franchise": "timesplitters", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-11-23", "unit": "date", "currency": null,
+          "entity": "timesplitters-rewind", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "November 23rd",
+          "source": { "name": "timesplittersrewind.com", "domain": "timesplittersrewind.com", "url": "https://www.timesplittersrewind.com/" } }
+      ],
+      "summary": "Fan-made Timesplitters Rewind has set a release date of 23 November after 12 years of development."
+    },
+    {
+      "ref": "business/netflix-shutters-squid-game-unleashed-developer-boss-fight-e",
+      "entities": {
+        "games": [
+          { "id": "squid-game-unleashed", "name": "Squid Game: Unleashed", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "boss-fight-entertainment", "name": "Boss Fight Entertainment", "aliases": [], "publisher": "netflix", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Netflix has shut down Boss Fight Entertainment, developer of Squid Game: Unleashed, as part of a 'less is more' approach to its video game business."
+    },
+    {
+      "ref": "business/escape-from-duckov-has-reached-2-million-units-sold-in-less",
+      "entities": {
+        "games": [
+          { "id": "escape-from-duckov", "name": "Escape From Duckov", "aliases": [], "genres": ["extraction-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "escape-from-duckov", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-28", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Escape From Duckov has reached 2 million units sold in less than 2 weeks",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/3167020/view/503965668093201282?l=english" } }
+      ],
+      "summary": "Escape From Duckov has sold 2 million units in less than two weeks."
+    },
+    {
+      "ref": "rumours/amazon-plans-to-cut-30-000-corporate-jobs-across-core-depart",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 30000, "unit": "count", "currency": null,
+          "entity": "amazon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-10-28", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Amazon plans to cut 30,000 corporate jobs across core departments",
+          "source": { "name": "Bloomberg", "domain": "bloomberg.com", "url": "https://www.bloomberg.com/news/articles/2025-10-27/amazon-plans-to-cut-30-000-corporate-jobs-reuters-reports" } }
+      ],
+      "summary": "Amazon reportedly plans to cut 30,000 corporate jobs across core departments, including video games."
+    }
+  ]
+}

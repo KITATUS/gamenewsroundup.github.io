@@ -1,0 +1,123 @@
+{
+  "date": "2024-08-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/konami-acknowledges-that-metal-gear-solid-4-is-still-only-pl",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-4", "name": "Metal Gear Solid 4", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true },
+          { "id": "metal-gear-solid-master-collection-vol-1", "name": "Metal Gear Solid: Master Collection Vol. 1", "aliases": ["Metal Gear Solid Vol 1"], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps3", "name": "PS3", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "noriaki-okamura", "name": "Noriaki Okamura", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Konami acknowledged that Metal Gear Solid 4 remains playable only on PS3."
+    },
+    {
+      "ref": "business/annapurna-is-co-financing-control-2-will-bring-remedy-ip-inc",
+      "entities": {
+        "games": [
+          { "id": "control-2", "name": "Control 2", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true },
+          { "id": "alan-wake", "name": "Alan Wake", "aliases": [], "genres": ["action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "annapurna", "name": "Annapurna", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "funding-investment"],
+      "facts": [],
+      "summary": "Annapurna is co-financing Control 2 and will bring Remedy IP including Alan Wake to film and TV."
+    },
+    {
+      "ref": "business/harry-potter-magic-awakened-to-shut-down",
+      "entities": {
+        "games": [
+          { "id": "harry-potter-magic-awakened", "name": "Harry Potter: Magic Awakened", "aliases": [], "genres": ["card", "rpg"], "franchise": "harry-potter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": ["Portkey Games", "WB Games"], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-10-29", "unit": "date", "currency": null,
+          "entity": "harry-potter-magic-awakened", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-30", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Officially close its operations in the Americas, Europe and Oceania territories on October 29, 2024",
+          "source": { "name": "portkeygamessupport.wbgames.com", "domain": "portkeygamessupport.wbgames.com",
+                      "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/32591302636819-Harry-Potter-Magic-[…]cas-Europe-and-Oceania-territories-on-October-29-2024" } }
+      ],
+      "summary": "Harry Potter: Magic Awakened will close its operations in the Americas, Europe and Oceania on 29 October 2024 and be removed from app stores on 26 August 2024."
+    },
+    {
+      "ref": "business/games-done-quick-officially-under-new-ownership",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "games-done-quick", "name": "Games Done Quick", "aliases": ["GDQ"], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "matt-merkle", "name": "Matt Merkle", "aliases": [], "inferred": false },
+          { "id": "jason-deng", "name": "Jason Deng", "aliases": [], "inferred": false },
+          { "id": "ashley-farkas", "name": "Ashley Farkas", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition", "leadership-change"],
+      "facts": [],
+      "summary": "Games Done Quick is now majority owned by Matt Merkle, with a leadership team including Jason Deng and Ashley Farkas."
+    },
+    {
+      "ref": "business/final-fantasy-brave-exvius-will-end-global-service-on-30th-o",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-brave-exvius", "name": "Final Fantasy: Brave Exvius", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-10-30", "unit": "date", "currency": null,
+          "entity": "final-fantasy-brave-exvius", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-30", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Final Fantasy: Brave Exvius will end global service on 30th October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/another-final-fantasy-mobile-game-ends-global-service-this-time-the-one-with-ariana-grande" } },
+        { "metric": "release_date", "value": "2016", "unit": "date", "currency": null,
+          "entity": "final-fantasy-brave-exvius", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-30", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The game was released worldwide in 2016, following its Japanese launch in 2015.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/another-final-fantasy-mobile-game-ends-global-service-this-time-the-one-with-ariana-grande" } }
+      ],
+      "summary": "Final Fantasy: Brave Exvius will end its global service on 30 October 2024, after which all player accounts will be deleted, while the Japanese version continues."
+    }
+  ]
+}

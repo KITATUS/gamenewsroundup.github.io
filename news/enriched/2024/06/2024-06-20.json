@@ -1,0 +1,104 @@
+{
+  "date": "2024-06-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/dragon-quest-3-hd-2d-remake-studio-says-it-regrets-announcin",
+      "entities": {
+        "games": [
+          { "id": "dragon-quest-3-hd-2d-remake", "name": "Dragon Quest 3 HD-2D Remake", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "dragon-quest", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [
+        { "metric": "announce_date", "value": "2021-05", "unit": "date", "currency": null,
+          "entity": "dragon-quest-3-hd-2d-remake", "entity_type": "game", "scope": "game",
+          "as_of": "2024-06-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The remake was originally announced in May 2021",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dragon-quest-3-hd-2d-remake-studio-says-it-regrets-announcing-the-game-so-early/" } }
+      ],
+      "summary": "The studio behind the Dragon Quest 3 HD-2D Remake says it regrets announcing the game so early."
+    },
+    {
+      "ref": "main_news/fallout-1-and-2-won-t-be-getting-remade-todd-howard-says",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout 1 and 2", "aliases": ["Fallout 1", "Fallout 2"], "genres": ["action-rpg", "rpg"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "todd-howard", "name": "Todd Howard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["remaster-remake"],
+      "facts": [],
+      "summary": "Todd Howard says Fallout 1 and 2 will not be getting remade."
+    },
+    {
+      "ref": "business/apple-facing-1bn-daily-fines-over-alleged-european-commissio",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Apple is reportedly facing $1bn daily fines over alleged breaches of the European Commission's Digital Markets Act."
+    },
+    {
+      "ref": "business/playstation-is-skipping-gamescom-again-this-year",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "event_date", "value": "2019", "unit": "date", "currency": null,
+          "entity": "gamescom", "entity_type": "product", "scope": "event",
+          "as_of": "2024-06-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Sony most recently appeared at Gamescom in 2019",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-is-skipping-gamescom-again-this-year/" } }
+      ],
+      "summary": "PlayStation is skipping Gamescom again this year."
+    },
+    {
+      "ref": "business/amazon-s-luna-adds-games-from-gog-and-launches-in-3-more-cou",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "amazon-luna", "name": "Amazon Luna", "aliases": ["Luna"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Amazon's Luna cloud gaming service adds games from GOG and launches in three more countries."
+    }
+  ]
+}

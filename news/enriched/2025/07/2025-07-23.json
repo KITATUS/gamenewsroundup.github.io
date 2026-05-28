@@ -1,0 +1,431 @@
+{
+  "date": "2025-07-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ea-confirms-it-will-reveal-battlefield-6-this-week-reveal-tr",
+      "entities": {
+        "games": [
+          {
+            "id": "battlefield-6",
+            "name": "Battlefield 6",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "battlefield",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "trailer", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-07-24",
+          "unit": "date",
+          "currency": null,
+          "entity": "battlefield-6",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "reveal trailer July 24th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ea-confirms-it-will-reveal-battlefield-6-this-week/"
+          }
+        }
+      ],
+      "summary": "EA confirmed it will reveal Battlefield 6 this week, with a reveal trailer on 24 July 2025."
+    },
+    {
+      "ref": "main_news/pok-mon-champions-new-details-revealed-for-switch-and-mobile",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-champions",
+            "name": "Pokémon Champions",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          },
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "New details were revealed for Pokémon Champions, a Switch and mobile battling game compared to Pokémon Stadium."
+    },
+    {
+      "ref": "main_news/saber-interactive-is-working-on-a-single-player-hellraiser-g",
+      "entities": {
+        "games": [
+          {
+            "id": "hellraiser",
+            "name": "Hellraiser",
+            "aliases": [],
+            "genres": ["horror"],
+            "franchise": "hellraiser",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "saber-interactive",
+            "name": "Saber Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Saber Interactive is working on a single-player Hellraiser game for PS5, Xbox, and PC."
+    },
+    {
+      "ref": "main_news/surprise-switch-mobile-game-pok-mon-friends-is-out-now-plush",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-friends",
+            "name": "Pokémon Friends",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": "pokemon",
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": false
+          },
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "announcement"],
+      "facts": [],
+      "summary": "Pokémon Friends, a puzzle game, surprise-launched on Switch and mobile."
+    },
+    {
+      "ref": "main_news/splitgate-2-unlaunches-studio-to-cut-staff-ahead-of-2026-rer",
+      "entities": {
+        "games": [
+          {
+            "id": "splitgate-2",
+            "name": "Splitgate 2",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "splitgate",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "1047-games",
+            "name": "1047 Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "beta-demo"],
+      "facts": [],
+      "summary": "Splitgate 2 is being 'unlaunched' and reverted to beta ahead of a 2026 rerelease, with the studio cutting staff in its second round of layoffs since June."
+    },
+    {
+      "ref": "main_news/critical-role-working-on-its-first-video-game-which-will-be",
+      "entities": {
+        "games": [
+          {
+            "id": "dispatch",
+            "name": "Dispatch",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "critical-role",
+            "name": "Critical Role",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025",
+          "unit": "date",
+          "currency": null,
+          "entity": "dispatch",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-07-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Dispatch is currently set to release later in 2025",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/critical-role-working-on-its-first-video-game-which-will-be-set-in-exandria"
+          }
+        }
+      ],
+      "summary": "Critical Role is working on its first video game, Dispatch, set in Exandria and currently slated to release later in 2025."
+    },
+    {
+      "ref": "business/supermassive-has-delayed-directive-8020-amid-a-round-of-layo",
+      "entities": {
+        "games": [
+          {
+            "id": "directive-8020",
+            "name": "Directive 8020",
+            "aliases": [],
+            "genres": ["horror", "adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "supermassive-games",
+            "name": "Supermassive Games",
+            "aliases": ["Supermassive"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 36,
+          "unit": "people",
+          "currency": null,
+          "entity": "supermassive-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-07-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "around 36 employees affected",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/supermassive-has-delayed-directive-8020-amid-a-round-of-layoffs/"
+          }
+        }
+      ],
+      "summary": "Supermassive Games delayed Directive 8020 amid a round of layoffs affecting around 36 employees."
+    },
+    {
+      "ref": "business/ubisoft-to-restructure-as-creative-houses-as-q1-25-26-financ",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 310800000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "ubisoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: €310.8 million ($365m, down 3.9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ubisoft-to-restructure-as-creative-houses-as-q1-25-26-financials-come-in-lower-than-expected"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 365000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "ubisoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-07-23",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: €310.8 million ($365m, down 3.9% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ubisoft-to-restructure-as-creative-houses-as-q1-25-26-financials-come-in-lower-than-expected"
+          }
+        }
+      ],
+      "summary": "Ubisoft will restructure into \"Creative Houses\" as its Q1 2025-26 financials came in lower than expected, with revenue of €310.8 million ($365m), down 3.9% year-on-year."
+    },
+    {
+      "ref": "business/side-a-support-studio-that-has-lent-services-to-games-like-t",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill-2",
+            "name": "Silent Hill 2",
+            "aliases": ["Silent Hill 2 remake"],
+            "genres": ["survival-horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          },
+          {
+            "id": "kingdom-come-deliverance-ii",
+            "name": "Kingdom Come Deliverance II",
+            "aliases": [],
+            "genres": ["action-rpg", "rpg"],
+            "franchise": "kingdom-come-deliverance",
+            "inferred": true
+          },
+          {
+            "id": "baldurs-gate-3",
+            "name": "Baldur's Gate 3",
+            "aliases": [],
+            "genres": ["crpg", "rpg"],
+            "franchise": "baldurs-gate",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "side",
+            "name": "Side",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 10,
+          "unit": "people",
+          "currency": null,
+          "entity": "side",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-07-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "has laid off 'less than 10' staff",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/report-silent-hill-2-codev-side-is-laying-off-staff"
+          }
+        }
+      ],
+      "summary": "Side, a support studio that worked on games including the Silent Hill 2 remake, Kingdom Come Deliverance II, and Baldur's Gate 3, has laid off fewer than 10 staff."
+    }
+  ]
+}

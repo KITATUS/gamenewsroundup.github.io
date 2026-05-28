@@ -1,0 +1,131 @@
+{
+  "date": "2026-01-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sonic-racing-crossworlds-is-getting-pac-man-content-later-th",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "pac-man", "name": "Pac-Man", "aliases": [], "genres": ["arcade"], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game"],
+      "facts": [],
+      "summary": "Sonic Racing: CrossWorlds is set to receive Pac-Man content later this week alongside a free festival event."
+    },
+    {
+      "ref": "main_news/former-zenimax-online-boss-confirms-he-quit-following-micros",
+      "entities": {
+        "games": [
+          { "id": "project-blackbird", "name": "Project Blackbird", "aliases": [], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "zenimax-online-studios", "name": "ZeniMax Online Studios", "aliases": ["ZeniMax Online"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change", "studio-closure"],
+      "facts": [],
+      "summary": "The former ZeniMax Online boss confirmed he quit following Microsoft's 2025 cuts, which cancelled Project Blackbird."
+    },
+    {
+      "ref": "main_news/sega-co-founder-and-arcade-founding-father-david-rosen-dies",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "david-rosen", "name": "David Rosen", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sega co-founder and arcade pioneer David Rosen has died at the age of 95."
+    },
+    {
+      "ref": "main_news/xbox-veteran-albert-penello-has-passed-away-the-microsoft-al",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "albert-penello", "name": "Albert Penello", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Xbox and Microsoft veteran Albert Penello has died aged 53 after a battle with cancer."
+    },
+    {
+      "ref": "business/final-fantasy-9-character-designer-toshiyuki-itahana-quits-s",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-9", "name": "Final Fantasy 9", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "toshiyuki-itahana", "name": "Toshiyuki Itahana", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Final Fantasy 9 character designer Toshiyuki Itahana has quit Square Enix."
+    },
+    {
+      "ref": "business/final-fantasy-tactics-the-ivalice-chronicles-shipments-and-d",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-tactics-the-ivalice-chronicles", "name": "Final Fantasy Tactics: The Ivalice Chronicles", "aliases": [], "genres": ["turn-based-strategy", "jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "final-fantasy-tactics-the-ivalice-chronicles",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-01-06",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Final Fantasy Tactics: The Ivalice Chronicles shipments and digital sales top one million",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/01/final-fantasy-tactics-the-ivalice-chronicles-shipments-and-digital-sales-top-one-million" }
+        }
+      ],
+      "summary": "Final Fantasy Tactics: The Ivalice Chronicles has topped one million in combined shipments and digital sales within three months."
+    }
+  ]
+}

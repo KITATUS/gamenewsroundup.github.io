@@ -1,0 +1,166 @@
+{
+  "date": "2024-07-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/voice-actor-sam-mowry-passed-away-at-age-64",
+      "entities": {
+        "games": [
+          { "id": "dota-2", "name": "Dota 2", "aliases": [], "genres": ["moba"], "franchise": "dota", "inferred": true },
+          { "id": "legends-of-runeterra", "name": "Legends of Runeterra", "aliases": [], "genres": ["card"], "franchise": "league-of-legends", "inferred": true },
+          { "id": "infamous", "name": "Infamous", "aliases": [], "genres": ["action-adventure"], "franchise": "infamous", "inferred": true },
+          { "id": "torchlight", "name": "Torchlight", "aliases": [], "genres": ["action-rpg"], "franchise": "torchlight", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "sam-mowry", "name": "Sam Mowry", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Voice actor Sam Mowry, known for work on Dota 2, Legends of Runeterra, Infamous, and Torchlight, passed away at age 64."
+    },
+    {
+      "ref": "main_news/concord-won-t-have-a-battle-pass",
+      "entities": {
+        "games": [
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "firewalk-studios", "name": "Firewalk Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Concord will not include a battle pass, with free post-launch content teased instead."
+    },
+    {
+      "ref": "main_news/ea-cancels-unpopular-apex-legends-battle-pass-change-followi",
+      "entities": {
+        "games": [
+          { "id": "apex-legends", "name": "Apex Legends", "aliases": [], "genres": ["battle-royale", "hero-shooter"], "franchise": "titanfall", "inferred": true }
+        ],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "EA reversed an unpopular Apex Legends battle pass change following player outcry, keeping the ability to obtain premium battle passes with Apex coins."
+    },
+    {
+      "ref": "main_news/suda-51-and-shinji-mikami-s-shadows-of-the-damned-hella-rema",
+      "entities": {
+        "games": [
+          { "id": "shadows-of-the-damned-hella-remastered", "name": "Shadows of the Damned: Hella Remastered", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "shadows-of-the-damned", "inferred": true }
+        ],
+        "studios": [
+          { "id": "grasshopper-manufacture", "name": "Grasshopper Manufacture", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": ["Steam"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS 4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS 5"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X/S", "aliases": ["Series S/X"], "inferred": false }
+        ],
+        "people": [
+          { "id": "suda-51", "name": "Suda 51", "aliases": [], "inferred": false },
+          { "id": "shinji-mikami", "name": "Shinji Mikami", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-10-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "shadows-of-the-damned-hella-remastered",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-07-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Halloween 2024",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/suda-51-and-shinji-mikamis-shadows-of-the-damned-hella-remastered-out-this-halloween" }
+        }
+      ],
+      "summary": "Suda 51 and Shinji Mikami's Shadows of the Damned: Hella Remastered launches Halloween 2024 on PC, PS4/5, Switch, and Xbox One/Series S/X."
+    },
+    {
+      "ref": "business/former-epic-games-exec-alain-tascan-is-the-new-president-of",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "sandbox"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false },
+          { "id": "netflix-games", "name": "Netflix Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "alain-tascan", "name": "Alain Tascan", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former Epic Games executive Alain Tascan has been named the new president of Netflix Games."
+    },
+    {
+      "ref": "business/capcom-aims-to-increase-ratio-of-female-managers-to-15",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Capcom aims to increase its ratio of female managers to 15%, noting women currently make up 21.2% of its employees and 13.6% of its core talent."
+    },
+    {
+      "ref": "business/mario-rabbids-boss-davide-soliani-leaves-ubisoft-after-25-ye",
+      "entities": {
+        "games": [
+          { "id": "mario-rabbids", "name": "Mario + Rabbids", "aliases": [], "genres": ["turn-based-strategy", "adventure"], "franchise": "mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": [
+          { "id": "davide-soliani", "name": "Davide Soliani", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Davide Soliani, the director behind the Mario + Rabbids games, has left Ubisoft after 25 years to embark on a new project."
+    }
+  ]
+}

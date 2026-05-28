@@ -1,0 +1,136 @@
+{
+  "date": "2024-12-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/sony-s-playstation-30th-anniversary-ps5-update-turns-your-co",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "Sony Computer Entertainment"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps1", "name": "PS1", "aliases": [], "inferred": false },
+          { "id": "ps2", "name": "PS2", "aliases": [], "inferred": false },
+          { "id": "ps3", "name": "PS3", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Sony released a limited-time PS5 system update for the PlayStation 30th anniversary that gives the console a retro look, including a classic Sony Computer Entertainment startup logo and selectable PS1-PS4 system themes."
+    },
+    {
+      "ref": "free_games_subscription/crash-team-racing-nitro-fueled-is-heading-to-game-pass-this",
+      "entities": {
+        "games": [
+          { "id": "crash-team-racing-nitro-fueled", "name": "Crash Team Racing Nitro-Fueled", "aliases": [], "genres": ["racing"], "franchise": "crash-bandicoot", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "game-pass", "name": "Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2024-12-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "crash-team-racing-nitro-fueled",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-12-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "December 4th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/crash-team-racing-nitro-fueled-is-heading-to-game-pass-this-week" }
+        }
+      ],
+      "summary": "Crash Team Racing Nitro-Fueled is arriving on Game Pass on 4 December 2024."
+    },
+    {
+      "ref": "business/project-party-developer-lilith-games-lays-off-40-out-of-100",
+      "entities": {
+        "games": [
+          { "id": "project-party", "name": "Project Party", "aliases": [], "genres": ["life-sim"], "franchise": null, "inferred": false },
+          { "id": "afk-arena", "name": "AFK Arena", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true },
+          { "id": "soul-hunters", "name": "Soul Hunters", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "lilith-games", "name": "Lilith Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "farlight-games", "name": "Farlight Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 40,
+          "unit": "people",
+          "currency": null,
+          "entity": "lilith-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-12-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Lilith Games lays off 40 (out of 100) employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/project-party-developer-lilith-games-lays-off-40-employees" }
+        },
+        {
+          "metric": "headcount",
+          "value": 100,
+          "unit": "people",
+          "currency": null,
+          "entity": "lilith-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-12-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Lilith Games lays off 40 (out of 100) employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/project-party-developer-lilith-games-lays-off-40-employees" }
+        }
+      ],
+      "summary": "AFK Arena studio Lilith Games laid off 40 of its roughly 100 employees following a lukewarm beta test of its life sim Project Party."
+    },
+    {
+      "ref": "business/vision-of-mana-director-quits-netease-to-join-square-enix",
+      "entities": {
+        "games": [
+          { "id": "vision-of-mana", "name": "Vision of Mana", "aliases": ["Visions of Mana"], "genres": ["action-rpg"], "franchise": "mana", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ouka-studios", "name": "Ouka Studios", "aliases": [], "publisher": "netease", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false },
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "yoshida", "name": "Yoshida", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "The director of Vision of Mana, Yoshida, has left NetEase subsidiary Ouka Studios at the end of October and will join Square Enix in December."
+    }
+  ]
+}

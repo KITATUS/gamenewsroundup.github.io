@@ -1,0 +1,268 @@
+{
+  "date": "2024-08-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/fortnite-x-marvel-absolute-doom-detailed-at-d23",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "dlc-expansion", "showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-08-16", "unit": "date", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fortnite x Marvel: Absolute Doom will begin on August 16",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/fortnite-x-marvel-absolute-doom-detailed-at-d23/" } }
+      ],
+      "summary": "Fortnite x Marvel: Absolute Doom, a crossover season starting 16 August 2024, was detailed at D23 with Marvel characters including Doctor Doom and Gwenpool in the battle pass."
+    },
+    {
+      "ref": "main_news/max-payne-1-2-remake-is-in-full-production-control-2-is-now",
+      "entities": {
+        "games": [
+          { "id": "max-payne-1-2-remake", "name": "Max Payne 1 & 2 Remake", "aliases": ["Max Payne 1 & 2"], "genres": ["tps", "action-adventure"], "franchise": "max-payne", "inferred": true },
+          { "id": "control-2", "name": "Control 2", "aliases": [], "genres": ["action-adventure", "tps"], "franchise": "control", "inferred": true },
+          { "id": "condor", "name": "Condor", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "Remedy's Max Payne 1 & 2 Remake is in full production while Control 2 has reached a playable state, with Condor also in production."
+    },
+    {
+      "ref": "main_news/borderlands-movie-earned-4m-on-its-opening-day",
+      "entities": {
+        "games": [
+          { "id": "borderlands", "name": "Borderlands", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "lionsgate", "name": "Lionsgate", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 4000000, "unit": "money", "currency": "USD",
+          "entity": "borderlands", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Borderlands movie earned $4m on its opening day",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/borderlands-movie-earned-4m-on-its-opening-day" } },
+        { "metric": "development_budget", "value": 115000000, "unit": "money", "currency": "USD",
+          "entity": "borderlands", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$4m from a $115 production budget",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/borderlands-movie-earned-4m-on-its-opening-day" } }
+      ],
+      "summary": "The Borderlands movie earned $4 million on its opening day against a $115 million production budget, with Lionsgate having recouped 60 percent of costs through international pre-sales."
+    },
+    {
+      "ref": "main_news/playstation-is-introducing-user-reviews-on-the-ps-store",
+      "entities": {
+        "games": [
+          { "id": "helldivers-2", "name": "Helldivers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "resident-evil-4", "name": "Resident Evil 4", "aliases": [], "genres": ["survival-horror", "tps"], "franchise": "resident-evil", "inferred": true },
+          { "id": "final-fantasy-7-rebirth", "name": "Final Fantasy 7 Rebirth", "aliases": [], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "PlayStation.com"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["PS Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "PlayStation is introducing user reviews on the PS Store, initially inviting select players to review a handful of games including Helldivers 2, Fortnite, Resident Evil 4, and Final Fantasy 7 Rebirth."
+    },
+    {
+      "ref": "main_news/doom-eternal-gets-official-mod-support-on-pc-with-new-mod-br",
+      "entities": {
+        "games": [
+          { "id": "doom-eternal", "name": "Doom Eternal", "aliases": [], "genres": ["fps", "shooter"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "id-software", "name": "id Software", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Doom Eternal received official mod support on PC with a new mod browser and idStudio creation tools."
+    },
+    {
+      "ref": "main_news/kingmakers-secures-movie-adaptation-ahead-of-its-release",
+      "entities": {
+        "games": [
+          { "id": "kingmakers", "name": "Kingmakers", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "story-kitchen", "name": "Story Kitchen", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Kingmakers secured a movie adaptation ahead of its release, with partner Story Kitchen aiming to establish the IP."
+    },
+    {
+      "ref": "business/hi-fi-rush-studio-tango-gameworks-has-been-acquired-by-kraft",
+      "entities": {
+        "games": [
+          { "id": "hi-fi-rush", "name": "Hi-Fi Rush", "aliases": [], "genres": ["rhythm", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "the-evil-within", "name": "The Evil Within", "aliases": [], "genres": ["survival-horror"], "franchise": "the-evil-within", "inferred": true },
+          { "id": "ghostwire-tokyo", "name": "Ghostwire Tokyo", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "tango-gameworks", "name": "Tango Gameworks", "aliases": ["Tango"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Hi-Fi Rush studio Tango Gameworks has been acquired by Krafton and will remain open, with only the Hi-Fi Rush IP transferring while The Evil Within and Ghostwire Tokyo stay with Microsoft."
+    },
+    {
+      "ref": "business/arkadium-launches-publishing-arm",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "arkadium", "name": "Arkadium", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "announcement"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1000000, "unit": "money", "currency": "USD",
+          "entity": "arkadium", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Company establishes $1 million fund to support browser-based developers",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/arkadium-launches-publishing-arm" } }
+      ],
+      "summary": "Arkadium launched a publishing arm, establishing a $1 million fund to support browser-based developers."
+    },
+    {
+      "ref": "business/remedy-financial-results",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 10300000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: €10.3 million (up 16.2%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/alan-wake-2-recoups-majority-of-dev-costs-as-remedy-reports-h1-revenue-rise" } },
+        { "metric": "operating_income", "value": -3200000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Operating loss: €3.2 million (compared to operating loss of €4.8 million for same quarter last year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/alan-wake-2-recoups-majority-of-dev-costs-as-remedy-reports-h1-revenue-rise" } },
+        { "metric": "revenue", "value": 21100000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "cumulative", "direction": "up", "confidence": "high",
+          "quote": "Revenue: €21.1 million (up 33.7%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/alan-wake-2-recoups-majority-of-dev-costs-as-remedy-reports-h1-revenue-rise" } },
+        { "metric": "operating_income", "value": -5300000, "unit": "money", "currency": "EUR",
+          "entity": "remedy-entertainment", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Operating loss: €5.3 million (compared to operating loss of €10.4 million in 2023)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/alan-wake-2-recoups-majority-of-dev-costs-as-remedy-reports-h1-revenue-rise" } }
+      ],
+      "summary": "Remedy reported Q2 2024 revenue of €10.3 million (up 16.2%) with a €3.2 million operating loss, and H1 2024 revenue of €21.1 million (up 33.7%) with a €5.3 million operating loss."
+    },
+    {
+      "ref": "business/unity-q2-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 449000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Total revenue: $449 million (down 16% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revenue-drops-16-to-449m-during-q2" } },
+        { "metric": "revenue", "value": 129000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Create Solutions revenue: $129 million (up 4%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revenue-drops-16-to-449m-during-q2" } },
+        { "metric": "revenue", "value": 296000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Grow Solutions revenue: $296 million (down 9%)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revenue-drops-16-to-449m-during-q2" } },
+        { "metric": "profit", "value": -126000000, "unit": "money", "currency": "USD",
+          "entity": "unity", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-12", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net loss: $126 million (compared to $193 million for same quarter last year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/unity-revenue-drops-16-to-449m-during-q2" } }
+      ],
+      "summary": "Unity reported Q2 total revenue of $449 million (down 16% year-over-year), with Create Solutions at $129 million (up 4%), Grow Solutions at $296 million (down 9%), and a net loss of $126 million."
+    },
+    {
+      "ref": "rumours/looks-like-valve-is-introducing-a-new-review-system-to-filte",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Valve is introducing a new review system on Steam to filter out unhelpful reviews, after a helpfulness system briefly appeared for some users hiding joke or silly reviews."
+    }
+  ]
+}

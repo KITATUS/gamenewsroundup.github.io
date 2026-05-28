@@ -1,0 +1,139 @@
+{
+  "date": "2026-01-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/you-don-t-want-to-wrestle-goliath-gog-bosses-say-the-aim-is",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gog", "name": "GOG", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "GOG's bosses say their aim is not to defeat Steam but to do better than it in certain areas such as classic retro and modern classics."
+    },
+    {
+      "ref": "main_news/judge-denies-request-from-fired-rockstar-employees-to-be-pai",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "layoffs"],
+      "facts": [],
+      "summary": "A judge denied a request from fired Rockstar employees to be paid while their legal case is ongoing, saying the staff failed to show a good chance of proving they were fired for starting a union."
+    },
+    {
+      "ref": "main_news/rockstar-launches-official-marketplace-for-mods-acquired-fro",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": true },
+          { "id": "cfx", "name": "Cfx", "aliases": ["Cfx.re"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "acquisition"],
+      "facts": [],
+      "summary": "Rockstar launched an official marketplace for mods, acquired from Cfx (creators of FiveM and RedM), where some mods are free while bundles can cost several hundred dollars."
+    },
+    {
+      "ref": "business/meta-has-closed-several-studios-including-splosion-man-studi",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "twisted-pixel", "name": "Twisted Pixel", "aliases": [], "publisher": "meta", "inferred": true },
+          { "id": "sanzaru-games", "name": "Sanzaru Games", "aliases": [], "publisher": "meta", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "meta", "name": "Meta", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Meta has closed several studios, including 'Splosion Man studio Twisted Pixel and Asgard's Wrath studio Sanzaru Games."
+    },
+    {
+      "ref": "business/ubisoft-hits-the-division-and-avatar-studio-massive-entertai",
+      "entities": {
+        "games": [
+          { "id": "the-division", "name": "The Division", "aliases": [], "genres": ["action-rpg", "tps"], "franchise": "the-division", "inferred": true }
+        ],
+        "studios": [
+          { "id": "massive-entertainment", "name": "Massive Entertainment", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 55, "unit": "people", "currency": null,
+          "entity": "massive-entertainment", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-01-14", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Around 55 roles could be affected",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisoft-hits-the-division-and-avatar-studio-massive-entertainment-with-layoffs/" } }
+      ],
+      "summary": "Ubisoft hit The Division and Avatar studio Massive Entertainment with layoffs, with around 55 roles potentially affected while the studio stays focused on the future of The Division."
+    },
+    {
+      "ref": "business/arc-raiders-has-sold-2-4m-copies-in-2026-so-far",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter", "tps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": "nexon", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2400000, "unit": "copies", "currency": null,
+          "entity": "arc-raiders", "entity_type": "game", "scope": "game",
+          "as_of": "2026-01-14", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Arc Raiders has sold 2.4m copies in 2026 so far",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/arc-raiders-has-sold-24m-copies-in-2026-so-far" } }
+      ],
+      "summary": "Arc Raiders has sold 2.4 million copies in 2026 so far."
+    },
+    {
+      "ref": "business/larry-major-nelson-has-recently-been-laid-off-by-unity",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "larry-hryb", "name": "Larry Hryb", "aliases": ["Major Nelson"], "inferred": true }
+        ]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Larry 'Major Nelson' Hryb has recently been laid off by Unity."
+    }
+  ]
+}

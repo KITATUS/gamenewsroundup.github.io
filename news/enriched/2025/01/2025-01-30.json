@@ -1,0 +1,218 @@
+{
+  "date": "2025-01-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/marvel-snap-dev-says-it-has-a-new-publisher-to-ensure-tiktok",
+      "entities": {
+        "games": [
+          { "id": "marvel-snap", "name": "Marvel Snap", "aliases": [], "genres": ["card"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "second-dinner", "name": "Second Dinner", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "skystone-games", "name": "Skystone Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "The developer of Marvel Snap says it has signed a new U.S.-based publisher, Skystone Games, to prevent another TikTok-related shutdown."
+    },
+    {
+      "ref": "main_news/quantic-dream-s-beyond-two-souls-is-getting-a-tv-series-adap",
+      "entities": {
+        "games": [
+          { "id": "beyond-two-souls", "name": "Beyond: Two Souls", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "quantic-dream", "name": "Quantic Dream", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "pageboy-productions", "name": "Pageboy Productions", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "elliot-page", "name": "Elliot Page", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Quantic Dream's Beyond: Two Souls is getting a TV series adaptation, with Elliot Page's Pageboy Productions having acquired the rights."
+    },
+    {
+      "ref": "main_news/sony-announces-plan-to-shift-away-from-offering-ps4-games-th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Sony announced that starting in 2026 PS4 games will no longer be a key benefit of the monthly PlayStation Plus line-up."
+    },
+    {
+      "ref": "main_news/sony-is-dropping-the-psn-account-requirement-on-pc-but-havin",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "psn", "name": "PSN", "aliases": ["PlayStation Network"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Sony is dropping the PSN account requirement on PC, but having a PSN account will now unlock in-game content."
+    },
+    {
+      "ref": "free_games_subscription/february-s-playstation-plus-essential-games-have-been-reveal",
+      "entities": {
+        "games": [
+          { "id": "payday-3", "name": "Payday 3", "aliases": [], "genres": ["fps", "shooter"], "franchise": "payday", "inferred": true },
+          { "id": "high-on-life", "name": "High on Life", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "pac-man-world-re-pac", "name": "Pac-Man World Re-Pac", "aliases": [], "genres": ["platformer"], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "February's PlayStation Plus Essential games have been revealed as Payday 3, High on Life, and Pac-Man World Re-Pac."
+    },
+    {
+      "ref": "business/capcom-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 88900000000, "unit": "currency", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-30", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥88.9 billion ($572.7 million), down 16% year-on-year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/capcom-stands-by-fiscal-outlook-with-monster-hunter-wilds-on-the-horizon" } },
+        { "metric": "revenue", "value": 572700000, "unit": "currency", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-30", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net sales: ¥88.9 billion ($572.7 million), down 16% year-on-year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/capcom-stands-by-fiscal-outlook-with-monster-hunter-wilds-on-the-horizon" } },
+        { "metric": "operating_income", "value": 31000000000, "unit": "currency", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-30", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥31 billion ($199.9 million), down 35% year-on-year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/capcom-stands-by-fiscal-outlook-with-monster-hunter-wilds-on-the-horizon" } },
+        { "metric": "operating_income", "value": 199900000, "unit": "currency", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-30", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥31 billion ($199.9 million), down 35% year-on-year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/capcom-stands-by-fiscal-outlook-with-monster-hunter-wilds-on-the-horizon" } },
+        { "metric": "profit", "value": 23000000000, "unit": "currency", "currency": "JPY",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-30", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥23 billion ($148.2 million), down 33% year-on-year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/capcom-stands-by-fiscal-outlook-with-monster-hunter-wilds-on-the-horizon" } },
+        { "metric": "profit", "value": 148200000, "unit": "currency", "currency": "USD",
+          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "as_of": "2025-01-30", "period": "cumulative", "direction": "down", "confidence": "high",
+          "quote": "Net income: ¥23 billion ($148.2 million), down 33% year-on-year",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/capcom-stands-by-fiscal-outlook-with-monster-hunter-wilds-on-the-horizon" } }
+      ],
+      "summary": "Capcom reported net sales of ¥88.9 billion, operating income of ¥31 billion, and net income of ¥23 billion for the nine months ended December 31, 2024, all down year-on-year."
+    },
+    {
+      "ref": "business/bioware-s-agile-focused-approach-sees-jobs-cut-and-others-re",
+      "entities": {
+        "games": [
+          { "id": "mass-effect", "name": "Mass Effect", "aliases": [], "genres": ["action-rpg"], "franchise": "mass-effect", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "BioWare's \"agile, focused\" approach has seen some jobs cut and other staff redeployed across EA teams, with its Mass Effect team said not to require the full studio."
+    },
+    {
+      "ref": "business/xbox-revenue-fell-7-in-q2-as-hardware-sales-dropped-29",
+      "entities": {
+        "games": [
+          { "id": "indiana-jones-and-the-great-circle", "name": "Indiana Jones and the Great Circle", "aliases": [], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "game-pass", "name": "Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "players_total", "value": 4000000, "unit": "players", "currency": null,
+          "entity": "indiana-jones-and-the-great-circle", "entity_type": "game", "scope": "game",
+          "as_of": "2025-01-30", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Indiana Jones and the Great Circle has attracted over four million players since its release in December.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-revenue-fell-7-in-q2-as-hardware-sales-dropped-29/" } }
+      ],
+      "summary": "Xbox revenue fell 7% in Q2 as hardware sales dropped 29%, while content and services revenue rose 2% on Game Pass growth."
+    },
+    {
+      "ref": "rumours/bend-studio-cuts-contractors-following-live-service-game-can",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bend-studio", "name": "Bend Studio", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "A report alleges Bend Studio has cut its contractors following the cancelation of a live-service game, ending ongoing contracts save for a select few given full-time roles."
+    }
+  ]
+}

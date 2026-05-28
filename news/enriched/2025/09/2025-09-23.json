@@ -1,0 +1,299 @@
+{
+  "date": "2025-09-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/palworld-palfarm-is-a-new-farming-spin-off-coming-from-pocke",
+      "entities": {
+        "games": [
+          { "id": "palworld-palfarm", "name": "Palworld: Palfarm", "aliases": [], "genres": ["simulation", "life-sim"], "franchise": "palworld", "inferred": true },
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": "palworld", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Pocketpair announced Palworld: Palfarm, a new farming spin-off of Palworld."
+    },
+    {
+      "ref": "main_news/call-of-duty-black-ops-7-multiplayer-reveal-confirms-18-laun",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops-7", "name": "Call of Duty: Black Ops 7", "aliases": [], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "The Call of Duty: Black Ops 7 multiplayer reveal confirmed 18 launch maps and other details."
+    },
+    {
+      "ref": "main_news/unyielder-a-1v1-boss-rush-fps-from-shueisha-games-comes-to-p",
+      "entities": {
+        "games": [
+          { "id": "unyielder", "name": "Unyielder", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "shueisha-games", "name": "Shueisha Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "release-date"],
+      "facts": [],
+      "summary": "Unyielder, a 1v1 boss rush FPS from Shueisha Games, comes to PC next week."
+    },
+    {
+      "ref": "main_news/pokemon-is-holding-a-pop-up-shop-in-london-s-natural-history",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokemon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Pokémon is holding a pop-up shop in London's Natural History Museum next year."
+    },
+    {
+      "ref": "main_news/fortnite-launches-new-daft-punk-experience",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "daft-punk", "name": "Daft Punk", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["update-patch", "partnership"],
+      "facts": [],
+      "summary": "Fortnite launched a new Daft Punk Experience."
+    },
+    {
+      "ref": "main_news/borderlands-4-amasses-over-2-5m-players-since-launch",
+      "entities": {
+        "games": [
+          { "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg", "shooter"], "franchise": "borderlands", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 2500000, "unit": "players", "currency": null,
+          "entity": "borderlands-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-09-23", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Borderlands 4 amasses over 2.5m players since launch",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/borderlands-4-amasses-over-25m-players-since-launch" } }
+      ],
+      "summary": "Borderlands 4 has amassed over 2.5 million players since launch."
+    },
+    {
+      "ref": "business/xbox-has-made-largest-investment-in-game-pass-to-date-this-y",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Xbox says it has made its \"largest investment in Game Pass to date\" this year, countering recent criticism of the subscription service's value."
+    },
+    {
+      "ref": "business/roblox-appoints-vlad-loktev-as-chief-creator-ecosystem-offic",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "vlad-loktev", "name": "Vlad Loktev", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Roblox appointed Vlad Loktev as chief creator ecosystem officer to strengthen relationships with the creator community."
+    },
+    {
+      "ref": "business/game-developer-conference-rebrands-as-gdc-festival-of-gaming",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Game Developer Conference is rebranding as the GDC Festival of Gaming."
+    },
+    {
+      "ref": "business/void-interactive-ends-relationship-with-ready-or-not-communi",
+      "entities": {
+        "games": [
+          { "id": "ready-or-not", "name": "Ready or Not", "aliases": [], "genres": ["fps", "shooter", "tactical-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "void-interactive", "name": "Void Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Void Interactive ended its relationship with the Ready or Not community manager over Charlie Kirk comments."
+    },
+    {
+      "ref": "business/video-games-europe-and-the-egdf-launch-pixels-to-policy-camp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Video Games Europe and the EGDF launched the Pixels to Policy campaign."
+    },
+    {
+      "ref": "business/playstack-revenue-increases-52-yoy-in-the-first-half-of-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "playstack", "name": "Playstack", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Playstack's revenue increased 52% year-on-year in the first half of 2025."
+    },
+    {
+      "ref": "business/midwest-games-raises-2-million-to-support-its-publishing-as",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "midwest-games", "name": "Midwest Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 2000000, "unit": "money", "currency": "USD",
+          "entity": "midwest-games", "entity_type": "company", "scope": "company",
+          "as_of": "2025-09-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Midwest Games raises $2 million to support its 'publishing as a service' model",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/midwest-games-raises-2-million-to-support-its-publishing-as-a-service-model" } }
+      ],
+      "summary": "Midwest Games raised $2 million to support its 'publishing as a service' model."
+    },
+    {
+      "ref": "kojima-news-round-up/kojima-productions-and-niantic-spatial-are-working-on-an-ar",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "niantic-spatial", "name": "Niantic Spatial", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Kojima Productions and Niantic Spatial are working on an AR walking game."
+    },
+    {
+      "ref": "kojima-news-round-up/new-looks-revealed-for-death-stranding-animated-and-live-act",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "New looks were revealed for the Death Stranding animated and live-action movies."
+    },
+    {
+      "ref": "kojima-news-round-up/kojima-reveals-visual-for-playstation-stealth-game-physint-a",
+      "entities": {
+        "games": [
+          { "id": "physint", "name": "Physint", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": ["Kojima"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": ["Kojima"], "inferred": true }
+        ]
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "Kojima revealed a visual for the PlayStation stealth game Physint and announced three cast members."
+    },
+    {
+      "ref": "kojima-news-round-up/bold-unique-and-unmistakably-kojima-kojima-productions-revea",
+      "entities": {
+        "games": [
+          { "id": "od", "name": "OD", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "Kojima Productions revealed a new look at the Xbox-published game 'OD'."
+    }
+  ]
+}

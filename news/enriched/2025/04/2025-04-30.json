@@ -1,0 +1,107 @@
+{
+  "date": "2025-04-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/borderlands-4-release-date-moves-forward-originally-slated-f",
+      "entities": {
+        "games": [
+          { "id": "borderlands-4", "name": "Borderlands 4", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }
+        ],
+        "studios": [
+          { "id": "gearbox-software", "name": "Gearbox Software", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": ["2K"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-12", "unit": "date", "currency": null,
+          "entity": "borderlands-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-04-30", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will now launch on 12th September",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/borderlands-4-release-date-moves-forward-perhaps-because-2k-knows-exactly-when-gta-6-is-coming-out" } }
+      ],
+      "summary": "Borderlands 4 has moved its release date forward from 23 September to 12 September 2025."
+    },
+    {
+      "ref": "main_news/far-cry-4-gets-surprise-ps5-patch-adding-60fps-support",
+      "entities": {
+        "games": [
+          { "id": "far-cry-4", "name": "Far Cry 4", "aliases": [], "genres": ["fps", "action-adventure", "open-world"], "franchise": "far-cry", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "port"],
+      "facts": [],
+      "summary": "Far Cry 4 received a surprise PS5 patch adding 60fps support."
+    },
+    {
+      "ref": "main_news/a-minecraft-movie-is-leaning-into-the-memes-with-sing-along",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A Minecraft Movie is leaning into its memes with \"Block Party Edition\" sing-along screenings."
+    },
+    {
+      "ref": "business/up-to-400-workers-have-been-laid-off-as-ea-culls-two-respawn",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": ["Respawn"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 400, "unit": "people", "currency": null,
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2025-04-30", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Up to 400 workers have been laid off as EA culls two Respawn game projects",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/hundreds-of-jobs-lost-as-ea-culls-two-respawn-game-projects/" } }
+      ],
+      "summary": "EA laid off up to 400 workers and cancelled two Respawn Entertainment game projects."
+    },
+    {
+      "ref": "business/krafton-posts-record-high-quarterly-sales-performance-in-q1",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Krafton reported record-high quarterly sales performance in Q1 2025."
+    }
+  ]
+}

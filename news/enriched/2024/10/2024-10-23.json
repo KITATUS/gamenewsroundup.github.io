@@ -1,0 +1,207 @@
+{
+  "date": "2024-10-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/warhammer-40k-space-marine-2-getting-an-animated-sequel-in-a",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40000-space-marine-2", "name": "Warhammer 40K: Space Marine 2", "aliases": ["Warhammer 40K: Space Marine 2"], "genres": ["tps", "action-adventure"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "armored-core", "name": "Armored Core", "aliases": [], "genres": ["action"], "franchise": "armored-core", "inferred": true },
+          { "id": "concord", "name": "Concord", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true },
+          { "id": "crossfire", "name": "Crossfire", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "dungeons-dragons", "name": "Dungeons & Dragons", "aliases": [], "genres": ["rpg"], "franchise": "dungeons-dragons", "inferred": true },
+          { "id": "exodus", "name": "Exodus", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "honor-of-kings", "name": "Honor of Kings", "aliases": [], "genres": ["moba"], "franchise": null, "inferred": true },
+          { "id": "mega-man", "name": "Mega Man", "aliases": [], "genres": ["platformer"], "franchise": "mega-man", "inferred": true },
+          { "id": "new-world-aeternum", "name": "New World: Aeternum", "aliases": ["New World: Aeternum"], "genres": ["mmorpg"], "franchise": "new-world", "inferred": true },
+          { "id": "pac-man", "name": "Pac-Man", "aliases": [], "genres": ["arcade"], "franchise": "pac-man", "inferred": true },
+          { "id": "sifu", "name": "Sifu", "aliases": [], "genres": ["fighting", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "spelunky", "name": "Spelunky", "aliases": [], "genres": ["roguelike", "platformer"], "franchise": "spelunky", "inferred": true },
+          { "id": "the-outer-worlds", "name": "The Outer Worlds", "aliases": [], "genres": ["action-rpg"], "franchise": "the-outer-worlds", "inferred": true },
+          { "id": "unreal-tournament", "name": "Unreal Tournament", "aliases": [], "genres": ["fps"], "franchise": "unreal", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false },
+          { "id": "playstation-studios", "name": "PlayStation Studios", "aliases": ["PlayStation Studios games"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "clive-standen", "name": "Clive Standen", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Warhammer 40K: Space Marine 2 is getting an animated sequel in Amazon's new Secret Level anthology series, with Clive Standen voicing Titus."
+    },
+    {
+      "ref": "main_news/sea-of-thieves-temporarily-yanks-nearly-all-its-big-new-stea",
+      "entities": {
+        "games": [
+          { "id": "sea-of-thieves", "name": "Sea of Thieves", "aliases": [], "genres": ["adventure", "action-adventure"], "franchise": "sea-of-thieves", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "xbox-game-studios", "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Sea of Thieves developer Rare has temporarily removed nearly all of the new stealth features from Season 14 after acknowledging significant issues."
+    },
+    {
+      "ref": "main_news/assassin-s-creed-shadows-collector-s-edition-price-cut-by-50",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-shadows", "name": "Assassin's Creed Shadows", "aliases": ["Assassin’s Creed Shadows"], "genres": ["action-rpg", "open-world", "stealth"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "The Assassin's Creed Shadows Collector's Edition has had its price cut by $50 following Ubisoft's cancellation of the game's season pass and early access."
+    },
+    {
+      "ref": "business/inflexion-games-uk-division-is-reportedly-closing-down",
+      "entities": {
+        "games": [
+          { "id": "nightingale", "name": "Nightingale", "aliases": [], "genres": ["survival", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "inflexion-games", "name": "Inflexion Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "improbable", "name": "Improbable", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jon-newman", "name": "Jon Newman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [],
+      "summary": "Inflexion Games' UK subsidiary, maker of Nightingale and formerly owned by Improbable, is reportedly closing down, affecting its UK-based audio team and other roles."
+    },
+    {
+      "ref": "business/indie-horror-crow-country-tops-100-000-sales",
+      "entities": {
+        "games": [
+          { "id": "crow-country", "name": "Crow Country", "aliases": [], "genres": ["survival-horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 100000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "crow-country",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-10-23",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Crow Country** tops 100,000 sales",
+          "source": { "name": "neonhive-newsroom.prezly.com", "domain": "neonhive-newsroom.prezly.com", "url": "https://neonhive-newsroom.prezly.com/indie-hit-crow-country-surpasses-100k-copies-sold-since-launch-just-in-time-for-halloween" }
+        }
+      ],
+      "summary": "Indie horror game Crow Country has topped 100,000 sales."
+    },
+    {
+      "ref": "business/bungie-creative-team-joins-playstation-to-support-live-servi",
+      "entities": {
+        "games": [
+          { "id": "destiny", "name": "Destiny", "aliases": [], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true },
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": ["Bungie Creative Studios"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "playstation-studios", "name": "PlayStation Studios", "aliases": ["PlayStation"], "inferred": false },
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "bridget-oneill", "name": "Bridget O'Neill", "aliases": ["Bridget O’Neill"], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change", "partnership"],
+      "facts": [
+        {
+          "metric": "headcount",
+          "value": 155,
+          "unit": "roles",
+          "currency": null,
+          "entity": "bungie",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-10-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "it would integrate 155 roles into Sony Interactive Entertainment",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/bungie-creative-team-joins-playstation-to-support-live-service-games/" }
+        }
+      ],
+      "summary": "Bungie's creative studios team has moved to PlayStation Studios to support PlayStation's live service games, with Bridget O'Neill becoming Senior Director of Creative at PlayStation Studios."
+    },
+    {
+      "ref": "business/netflix-has-shut-down-its-triple-a-team-blue-studio",
+      "entities": {
+        "games": [
+          { "id": "overwatch", "name": "Overwatch", "aliases": [], "genres": ["hero-shooter", "fps"], "franchise": "overwatch", "inferred": true },
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "team-blue", "name": "Team Blue", "aliases": [], "publisher": "netflix", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Netflix has shut down its triple-A 'Team Blue' studio, which counted an Overwatch executive producer and a God of War art director among its staff."
+    },
+    {
+      "ref": "other_notes/before-i-get-messages-about-the-prince-of-persia-story-float",
+      "entities": {
+        "games": [
+          { "id": "prince-of-persia", "name": "Prince of Persia", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": "prince-of-persia", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-montpellier", "name": "Ubisoft Montpellier", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A clarification that the circulating Prince of Persia story is being misreported: Ubisoft Montpellier is not closing, the project has concluded, and the team is being moved to different projects."
+    }
+  ]
+}

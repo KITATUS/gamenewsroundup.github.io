@@ -1,0 +1,111 @@
+{
+  "date": "2025-10-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/arrowhead-is-delaying-helldivers-2-updates-to-fix-its-perfor",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "arrowhead-game-studios",
+            "name": "Arrowhead Game Studios",
+            "aliases": ["Arrowhead"],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "delay"],
+      "facts": [],
+      "summary": "Arrowhead is delaying Helldivers 2 updates to focus on fixing the game's performance problems."
+    },
+    {
+      "ref": "main_news/lego-party-and-digital-eclipse-s-tetris-time-warp-will-soon",
+      "entities": {
+        "games": [
+          {
+            "id": "lego-party",
+            "name": "Lego Party",
+            "aliases": [],
+            "genres": ["party"],
+            "franchise": "lego",
+            "inferred": true
+          },
+          {
+            "id": "tetris-time-warp",
+            "name": "Tetris Time Warp",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": "tetris",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "digital-eclipse",
+            "name": "Digital Eclipse",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "subscription", "port"],
+      "facts": [],
+      "summary": "Lego Party and Digital Eclipse's Tetris Time Warp will soon be streamable on Netflix as two of five party games coming to the service this holiday season."
+    },
+    {
+      "ref": "business/netease-divests-fantastic-pixel-castle-as-studio-hunts-for-n",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "fantastic-pixel-castle",
+            "name": "Fantastic Pixel Castle",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "NetEase has divested Fantastic Pixel Castle, with the studio now seeking a new publisher to avoid closure."
+    }
+  ]
+}

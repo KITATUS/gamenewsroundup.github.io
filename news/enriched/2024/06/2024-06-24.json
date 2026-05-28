@@ -1,0 +1,176 @@
+{
+  "date": "2024-06-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-won-t-confirm-studio-behind-mario-luigi-brothership",
+      "entities": {
+        "games": [
+          {
+            "id": "mario-luigi-brothership",
+            "name": "Mario & Luigi: Brothership",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "mario",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo declined to confirm which studio is developing Mario & Luigi: Brothership, saying only that some of the original developers are involved."
+    },
+    {
+      "ref": "main_news/xbox-s-matt-booty-implies-tango-gameworks-closure-was-partly",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "tango-gameworks",
+            "name": "Tango Gameworks",
+            "aliases": [],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "xbox-game-studios",
+            "name": "Xbox Game Studios",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "matt-booty",
+            "name": "Matt Booty",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "shinji-mikami",
+            "name": "Shinji Mikami",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-closure", "leadership-change"],
+      "facts": [],
+      "summary": "Xbox's Matt Booty implied that Tango Gameworks' closure was partly attributable to a leadership change, referencing Shinji Mikami's departure from the studio."
+    },
+    {
+      "ref": "main_news/sony-has-reportedly-made-cuts-to-vr-development-with-only-2",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-vr",
+            "name": "PlayStation VR",
+            "aliases": ["VR"],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sony has reportedly cut back its VR development, with only two VR titles currently planned."
+    },
+    {
+      "ref": "main_news/embracer-reportedly-axed-a-red-faction-guerrilla-sequel",
+      "entities": {
+        "games": [
+          {
+            "id": "red-faction-guerrilla",
+            "name": "Red Faction Guerrilla",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-faction",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "embracer-group",
+            "name": "Embracer Group",
+            "aliases": ["Embracer"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Embracer reportedly cancelled a sequel to Red Faction Guerrilla."
+    },
+    {
+      "ref": "business/crash-bandicoot-n-sane-trilogy-has-sold-20m-units",
+      "entities": {
+        "games": [
+          {
+            "id": "crash-bandicoot-n-sane-trilogy",
+            "name": "Crash Bandicoot N. Sane Trilogy",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "crash-bandicoot",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 20000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "crash-bandicoot-n-sane-trilogy",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-06-24",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Crash Bandicoot N. Sane Trilogy has sold 20m units",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/crash-bandicoot-n-sane-trilogy-has-sold-20m-units-news-in-brief"
+          }
+        }
+      ],
+      "summary": "Crash Bandicoot N. Sane Trilogy has sold 20 million units."
+    }
+  ]
+}

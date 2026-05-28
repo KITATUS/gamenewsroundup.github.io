@@ -1,0 +1,79 @@
+{
+  "date": "2025-01-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/ea-origin-to-shut-down-in-april-2025",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ea-origin", "name": "EA Origin", "aliases": ["Origin", "EA app"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2025-04-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "ea-origin",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-01-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "EA Origin will shut down on April 17, 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ea-origin-to-shut-down-in-april-2025" }
+        }
+      ],
+      "summary": "EA Origin will shut down on 17 April 2025 because Microsoft is ending support for 32-bit software, with players directed to the 64-bit EA app."
+    },
+    {
+      "ref": "main_news/days-gone-studio-says-it-still-plans-on-creating-cool-sh-t-a",
+      "entities": {
+        "games": [
+          { "id": "days-gone", "name": "Days Gone", "aliases": [], "genres": ["action-adventure", "survival", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bend-studio", "name": "Bend Studio", "aliases": ["Days Gone studio"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Bend Studio, the developer of Days Gone, says it still plans to create new games after Sony cancelled its latest project."
+    },
+    {
+      "ref": "main_news/tekken-boss-says-he-just-wants-to-meet-more-people-as-fans-s",
+      "entities": {
+        "games": [
+          { "id": "tekken", "name": "Tekken", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "katsuhiro-harada", "name": "Katsuhiro Harada", "aliases": ["Tekken boss"], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Tekken boss Katsuhiro Harada says a LinkedIn post spotted by fans was for networking and making industry friends rather than seeking new work."
+    }
+  ]
+}

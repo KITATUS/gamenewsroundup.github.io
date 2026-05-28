@@ -1,0 +1,117 @@
+{
+  "date": "2024-11-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/palworld-announces-major-update-terraria-crossover-despite-o",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world", "shooter"], "franchise": null, "inferred": true },
+          { "id": "terraria", "name": "Terraria", "aliases": [], "genres": ["sandbox", "survival", "adventure"], "franchise": "terraria", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "partnership", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Palworld has announced a major update and a Terraria crossover, despite its ongoing legal issues."
+    },
+    {
+      "ref": "main_news/plague-inc-gets-surprise-sequel-where-you-rebuild-humanity-f",
+      "entities": {
+        "games": [
+          { "id": "plague-inc", "name": "Plague Inc", "aliases": [], "genres": ["strategy", "simulation"], "franchise": "plague-inc", "inferred": true },
+          { "id": "after-inc", "name": "After Inc", "aliases": [], "genres": ["strategy", "simulation"], "franchise": "plague-inc", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "after-inc", "entity_type": "game", "scope": "game",
+          "as_of": "2024-11-29", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "It will be coming to Steam in 2025",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/plague-inc-gets-surprise-sequel-where-you-rebuild-humanity-following-devastating-zombie-apocalypse" } }
+      ],
+      "summary": "Plague Inc has received a surprise sequel, After Inc, in which players rebuild humanity after a zombie apocalypse."
+    },
+    {
+      "ref": "free_games_subscription/epic-s-latest-free-game-now-live-and-two-more-for-next-week",
+      "entities": {
+        "games": [
+          { "id": "brotato", "name": "Brotato", "aliases": [], "genres": ["roguelike", "shooter"], "franchise": null, "inferred": true },
+          { "id": "bus-simulator-21", "name": "Bus Simulator 21", "aliases": [], "genres": ["simulation"], "franchise": "bus-simulator", "inferred": true },
+          { "id": "lego-star-wars-the-skywalker-saga", "name": "Lego Star Wars: The Skywalker Saga", "aliases": [], "genres": ["action-adventure"], "franchise": "lego-star-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Epic's latest free game, Brotato, is now live, with Bus Simulator 21 and Lego Star Wars: The Skywalker Saga revealed as next week's free titles."
+    },
+    {
+      "ref": "business/scopely-opens-new-studio-mirai-in-saudi-arabia-led-by-ea-vet",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "mirai", "name": "Mirai", "aliases": [], "publisher": "scopely", "inferred": false },
+          { "id": "criterion", "name": "Criterion", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "scopely", "name": "Scopely", "aliases": [], "inferred": false },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA", "EA Sports"], "inferred": false },
+          { "id": "the-walt-disney-company", "name": "The Walt Disney Company", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "charity-joy", "name": "Charity Joy", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening", "leadership-change"],
+      "facts": [],
+      "summary": "Scopely has opened a new studio, Mirai, in Saudi Arabia, led by EA veteran Charity Joy."
+    },
+    {
+      "ref": "business/codecks-nets-1-million-in-funding-for-game-dev-project-manag",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "codecks", "name": "Codecks", "aliases": [], "inferred": false },
+          { "id": "unity", "name": "Unity", "aliases": [], "inferred": false },
+          { "id": "505-games", "name": "505 Games", "aliases": [], "inferred": false },
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1000000, "unit": "money", "currency": "EUR",
+          "entity": "codecks", "entity_type": "company", "scope": "company",
+          "as_of": "2024-11-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Codecks nets €1 million in funding for game dev project management tool",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/codecks-nets-1-million-in-funding-for-game-dev-project-management-tool" } }
+      ],
+      "summary": "Codecks has raised €1 million in funding for its card-and-deck game development project management tool."
+    }
+  ]
+}

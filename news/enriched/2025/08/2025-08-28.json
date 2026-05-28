@@ -1,0 +1,153 @@
+{
+  "date": "2025-08-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/side-and-razer-announce-human-in-the-loop-ai-playtests-the-t",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "side", "name": "Side", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Side and Razer announced a 'human-in-the-loop' AI playtesting tool that analyzes user playtest data before sending it to QA analysts, claiming more testers and playtest hours at the same or lower cost."
+    },
+    {
+      "ref": "free_games_subscription/xbox-is-bringing-cloud-gaming-to-lower-game-pass-tiers-in-ad",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Xbox is bringing Cloud Gaming to lower Game Pass tiers, in addition to PC games."
+    },
+    {
+      "ref": "free_games_subscription/playstation-plus-s-september-games-include-a-3d-platformer-a",
+      "entities": {
+        "games": [
+          { "id": "psychonauts-2", "name": "Psychonauts 2", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "psychonauts", "inferred": true },
+          { "id": "stardew-valley", "name": "Stardew Valley", "aliases": [], "genres": ["life-sim", "rpg"], "franchise": null, "inferred": true },
+          { "id": "viewfinder", "name": "Viewfinder", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "PlayStation Plus's September games include Psychonauts 2, Stardew Valley and Viewfinder."
+    },
+    {
+      "ref": "business/atari-has-acquired-five-ubisoft-games-child-of-eden-grow-hom",
+      "entities": {
+        "games": [
+          { "id": "child-of-eden", "name": "Child of Eden", "aliases": [], "genres": ["rhythm", "shooter"], "franchise": null, "inferred": true },
+          { "id": "grow-home", "name": "Grow Home", "aliases": [], "genres": ["adventure", "platformer"], "franchise": "grow-home", "inferred": true },
+          { "id": "cold-fear", "name": "Cold Fear", "aliases": [], "genres": ["survival-horror", "tps"], "franchise": null, "inferred": true },
+          { "id": "i-am-alive", "name": "I Am Alive", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "grow-up", "name": "Grow Up", "aliases": [], "genres": ["adventure", "platformer"], "franchise": "grow-home", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false },
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Atari has acquired five Ubisoft games (Child of Eden, Grow Home, Cold Fear, I Am Alive, Grow Up) and will re-release and 'evolve' them."
+    },
+    {
+      "ref": "business/crystal-dynamics-lays-off-a-number-of-talented-colleagues-un",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "crystal-dynamics", "name": "Crystal Dynamics", "aliases": [], "publisher": "embracer-group", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Crystal Dynamics has laid off an unspecified number of staff, with the total affected unclear at this time."
+    },
+    {
+      "ref": "business/square-enix-shutters-two-ten-year-old-mobile-games-in-japan",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-brave-exvius", "name": "Final Fantasy Brave Exvius", "aliases": [], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "dragon-quest-of-the-stars", "name": "Dragon Quest of the Stars", "aliases": [], "genres": ["jrpg"], "franchise": "dragon-quest", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Square Enix is shutting down two ten-year-old mobile games in Japan: Final Fantasy Brave Exvius and Dragon Quest of the Stars."
+    },
+    {
+      "ref": "business/part-of-the-team-behind-ea-s-cancelled-black-panther-game-jo",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "cliffhanger-games", "name": "Cliffhanger Games", "aliases": [], "publisher": "electronic-arts", "inferred": true },
+          { "id": "wizards-of-the-coast", "name": "Wizards of the Coast", "aliases": [], "publisher": "hasbro", "inferred": true },
+          { "id": "monolith-productions", "name": "Monolith Productions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "michael-de-plater", "name": "Michael de Plater", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [
+        {
+          "metric": "headcount",
+          "value": 15,
+          "unit": "people",
+          "currency": null,
+          "entity": "wizards-of-the-coast",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2025-08-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the group of 15 ex-Cliffhanger Games employees will be working on a new title",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/part-of-the-team-behind-eas-cancelled-black-panther-game-joins-wizards-of-the-coast"
+          }
+        }
+      ],
+      "summary": "Part of the team behind EA's cancelled Black Panther game, 15 ex-Cliffhanger Games employees led by Monolith Productions veteran Michael de Plater, has joined Wizards of the Coast to work on a new title."
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "date": "2024-09-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/monster-hunter-wilds-launches-february-28-2025",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-wilds", "name": "Monster Hunter Wilds", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-02-28", "unit": "date", "currency": null,
+          "entity": "monster-hunter-wilds", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Monster Hunter Wilds launches February 28, 2025",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2024/09/24/monster-hunter-wilds-launches-february-28-2025/" }
+        }
+      ],
+      "summary": "Monster Hunter Wilds will launch on February 28, 2025."
+    },
+    {
+      "ref": "main_news/horizon-zero-dawn-remastered-announced-coming-this-october",
+      "entities": {
+        "games": [
+          { "id": "horizon-zero-dawn-remastered", "name": "Horizon Zero Dawn Remastered", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true },
+          { "id": "horizon-forbidden-west", "name": "Horizon Forbidden West", "aliases": ["Horizon: Forbidden West"], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nixxes-software", "name": "Nixxes Software", "aliases": ["nixxies"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement", "release-date", "price-change"],
+      "facts": [
+        {
+          "metric": "price", "value": 49.99, "unit": "price", "currency": "USD",
+          "entity": "horizon-zero-dawn-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will be available for $49.99 on PS5, Steam and the Epic Game Store",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/horizon-zero-dawn-remastered-announced-coming-this-october/" }
+        },
+        {
+          "metric": "price", "value": 9.99, "unit": "price", "currency": "USD",
+          "entity": "horizon-zero-dawn-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "owners of the original game can upgrade to the remaster for $9.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/horizon-zero-dawn-remastered-announced-coming-this-october/" }
+        },
+        {
+          "metric": "release_date", "value": "2024-10-31", "unit": "date", "currency": null,
+          "entity": "horizon-zero-dawn-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "October 31st release date",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/horizon-zero-dawn-remastered-announced-coming-this-october/" }
+        }
+      ],
+      "summary": "Horizon Zero Dawn Remastered was announced for an October 31 release on PS5, Steam and the Epic Games Store, priced at $49.99 with a $9.99 upgrade for original owners."
+    },
+    {
+      "ref": "main_news/keanu-reeves-will-star-in-sonic-x-shadow-generations-movie-d",
+      "entities": {
+        "games": [
+          { "id": "sonic-x-shadow-generations", "name": "Sonic x Shadow Generations", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "keanu-reeves", "name": "Keanu Reeves", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-12-12", "unit": "date", "currency": null,
+          "entity": "sonic-the-hedgehog-3", "entity_type": "product", "scope": "product",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "arrives ahead of its release on 12th December",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/keanu-reeves-will-star-in-sonic-x-shadow-generations-movie-dlc" }
+        }
+      ],
+      "summary": "Keanu Reeves will star in Sonic x Shadow Generations movie DLC inspired by the Sonic the Hedgehog 3 film, which releases on 12 December."
+    },
+    {
+      "ref": "main_news/sony-reveals-ghost-of-y-tei-the-follow-up-to-ghost-of-tsushi",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-yotei", "name": "Ghost of Yōtei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true },
+          { "id": "ghost-of-tsushima", "name": "Ghost of Tsushima", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025", "unit": "date", "currency": null,
+          "entity": "ghost-of-yotei", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Releases \"2025\"",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/sony-reveals-ghost-of-yotei-the-follow-up-to-ghost-of-tsushima" }
+        }
+      ],
+      "summary": "Sony revealed Ghost of Yōtei, the follow-up to Ghost of Tsushima, featuring a new Ghost protagonist named Atsu and releasing in 2025."
+    },
+    {
+      "ref": "main_news/lego-horizon-adventures-release-date-confirmed",
+      "entities": {
+        "games": [
+          { "id": "lego-horizon-adventures", "name": "Lego Horizon Adventures", "aliases": [], "genres": ["action-adventure"], "franchise": "horizon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-11-14", "unit": "date", "currency": null,
+          "entity": "lego-horizon-adventures", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PS5, PC and Nintendo Switch on November 14th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/lego-horizon-adventures-release-date-confirmed/" }
+        }
+      ],
+      "summary": "Lego Horizon Adventures was confirmed for a November 14 release on PS5, PC and Nintendo Switch."
+    },
+    {
+      "ref": "main_news/ghost-laden-holy-horror-mansion-announced-by-professor-layto",
+      "entities": {
+        "games": [
+          { "id": "holy-horror-mansion", "name": "Holy Horror Mansion", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "level-5", "name": "Level-5", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Professor Layton developer Level-5 announced the ghost-themed game Holy Horror Mansion, coming to unspecified platforms."
+    },
+    {
+      "ref": "main_news/playstation-announces-chroma-pearl-indigo-and-teal-dualsense",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [],
+      "summary": "PlayStation announced new Chroma Pearl, Indigo and Teal DualSense controllers and console covers."
+    },
+    {
+      "ref": "main_news/alan-wake-2-s-second-dlc-the-lake-house-is-coming-in-october",
+      "entities": {
+        "games": [
+          { "id": "alan-wake-2", "name": "Alan Wake 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "alan-wake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "janina-gavankar", "name": "Janina Gavankar", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Alan Wake 2's second DLC, The Lake House, is coming in October and casts the player as FBC agent Kiran Estevez, portrayed by Janina Gavankar."
+    },
+    {
+      "ref": "main_news/palworld-is-out-now-on-ps5",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "port"],
+      "facts": [],
+      "summary": "Palworld is out now on PS5, having been available on Xbox and PC since January."
+    },
+    {
+      "ref": "main_news/astro-bot-speedrun-free-dlc-will-add-5-new-levels-and-10-cam",
+      "entities": {
+        "games": [
+          { "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true },
+          { "id": "helldivers", "name": "Helldivers", "aliases": [], "genres": ["shooter"], "franchise": "helldivers", "inferred": true },
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game"],
+      "facts": [],
+      "summary": "Astro Bot will receive a free speedrun DLC adding 5 new levels and 10 cameo bots, including Helldivers and Eve from Stellar Blade, releasing later this year."
+    },
+    {
+      "ref": "main_news/stellar-blade-updates",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "nier-automata", "name": "NieR: Automata", "aliases": ["Neir Automata"], "genres": ["action-rpg"], "franchise": "nier", "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "Stellar Blade is getting a NieR: Automata crossover DLC later in 2024, an incoming photo mode, and a soundtrack now available on select streaming services."
+    },
+    {
+      "ref": "main_news/sonic-rumble-is-coming-to-pc-as-well-as-mobile-this-winter",
+      "entities": {
+        "games": [
+          { "id": "sonic-rumble", "name": "Sonic Rumble", "aliases": [], "genres": ["battle-royale", "party"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement"],
+      "facts": [
+        {
+          "metric": "players_total", "value": 32, "unit": "players", "currency": null,
+          "entity": "sonic-rumble", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The 32-player battle royale sees players take control of toy versions of Sonic characters.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sonic-rumble-is-coming-to-pc-as-well-as-mobile-this-winter/" }
+        }
+      ],
+      "summary": "Sonic Rumble, a 32-player battle royale, is coming to PC as well as mobile this winter."
+    },
+    {
+      "ref": "main_news/legacy-of-kain-soul-reaver-1-2-remastered-announced",
+      "entities": {
+        "games": [
+          { "id": "legacy-of-kain-soul-reaver-1-2-remastered", "name": "Legacy of Kain Soul Reaver 1 & 2 Remastered", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-12-10", "unit": "date", "currency": null,
+          "entity": "legacy-of-kain-soul-reaver-1-2-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Coming to PS4/5 and PC on December 10th",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2024/09/24/legacy-of-kain-soul-reaver-1-2-remastered-launches-on-ps5-ps4-dec-10/" }
+        }
+      ],
+      "summary": "Legacy of Kain Soul Reaver 1 & 2 Remastered was announced for PS4, PS5 and PC on December 10."
+    },
+    {
+      "ref": "main_news/fatal-fury-s-terry-bogard-is-now-available-in-street-fighter",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true },
+          { "id": "fatal-fury", "name": "Fatal Fury", "aliases": [], "genres": ["fighting"], "franchise": "fatal-fury", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "terry-bogard", "name": "Terry Bogard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "release"],
+      "facts": [],
+      "summary": "Fatal Fury's Terry Bogard is now available as a character in Street Fighter 6."
+    },
+    {
+      "ref": "free_games_subscription/ps-additions-incoming",
+      "entities": {
+        "games": [
+          { "id": "the-last-of-us-part-1", "name": "The Last of Us Part 1", "aliases": ["Last of Us Part 1"], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true },
+          { "id": "wwe-2k24", "name": "WWE 2K24", "aliases": ["WWE 2K 24"], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true },
+          { "id": "doki-doki-literature-club-plus", "name": "Doki Doki Literature Club +", "aliases": [], "genres": ["visual-novel", "horror"], "franchise": "doki-doki-literature-club", "inferred": true },
+          { "id": "dead-space", "name": "Dead Space", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-space", "inferred": true },
+          { "id": "dino-crisis", "name": "Dino Crisis", "aliases": [], "genres": ["survival-horror"], "franchise": "dino-crisis", "inferred": true },
+          { "id": "blood-omen-legacy-of-kain", "name": "Blood Omen: Legacy of Kain", "aliases": [], "genres": ["action-adventure", "rpg"], "franchise": "legacy-of-kain", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-09-26", "unit": "date", "currency": null,
+          "entity": "the-last-of-us-part-1", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "26th September: Last of Us Part 1 (Premium + Extra)",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2024/09/24/playstation-plus-monthly-games-for-october-wwe-2k24-dead-space-doki-doki-literature-club-plus/" }
+        },
+        {
+          "metric": "release_date", "value": "2024-10-01", "unit": "date", "currency": null,
+          "entity": "wwe-2k24", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "October 1st: WWE 2K 24, Doki Doki Literature Club +, Dead Space (Monthly Games)",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com", "url": "https://blog.playstation.com/2024/09/24/playstation-plus-monthly-games-for-october-wwe-2k24-dead-space-doki-doki-literature-club-plus/" }
+        }
+      ],
+      "summary": "PlayStation Plus additions include The Last of Us Part 1 on 26 September and WWE 2K24, Doki Doki Literature Club + and Dead Space on 1 October, with Dino Crisis and Blood Omen: Legacy of Kain coming soon."
+    },
+    {
+      "ref": "business/no-time-to-relax-dev-porcelain-fortress-raises-3m",
+      "entities": {
+        "games": [
+          { "id": "no-time-to-relax", "name": "No Time To Relax", "aliases": [], "genres": ["party", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "porcelain-fortress", "name": "Porcelain Fortress", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ingolfur-aevarsson", "name": "Ingolfur Aevarsson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["funding-investment", "leadership-change"],
+      "facts": [
+        {
+          "metric": "funding_raised", "value": 3000000, "unit": "money", "currency": "USD",
+          "entity": "porcelain-fortress", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-09-25", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "No Time To Relax dev Porcelain Fortress raises $3m",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/no-time-to-relax-dev-porcelain-fortress-raises-3m" }
+        }
+      ],
+      "summary": "No Time To Relax developer Porcelain Fortress raised $3m, grew from four to 14 staff, and hired former CCP director Ingolfur Aevarsson as CEO."
+    },
+    {
+      "ref": "business/unicorn-overlord-sells-over-1-million-copies-in-six-months",
+      "entities": {
+        "games": [
+          { "id": "unicorn-overlord", "name": "Unicorn Overlord", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": null, "inferred": true },
+          { "id": "13-sentinels-aegis-rim", "name": "13 Sentinels", "aliases": ["13 Sentinels"], "genres": ["adventure", "strategy"], "franchise": null, "inferred": true },
+          { "id": "dragons-crown", "name": "Dragon's Crown", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "vanillaware", "name": "Vanillaware", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "unicorn-overlord", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Unicorn Overlord sells over 1 million copies in six months",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/unicorn-overlord-sells-over-1-million-copies-in-six-months" }
+        }
+      ],
+      "summary": "Vanillaware's tactical-RPG Unicorn Overlord has sold over 1 million copies in six months, reaching the milestone faster than 13 Sentinels and Dragon's Crown."
+    },
+    {
+      "ref": "business/frostpunk-2-has-sold-350-000-copies",
+      "entities": {
+        "games": [
+          { "id": "frostpunk-2", "name": "Frostpunk 2", "aliases": [], "genres": ["strategy", "survival"], "franchise": "frostpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "11-bit-studios", "name": "11 bit studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 350000, "unit": "copies", "currency": null,
+          "entity": "frostpunk-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-09-25", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Frostpunk 2 has sold 350,000 copies",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/frostpunkgame/status/1838181485859246232" }
+        }
+      ],
+      "summary": "Frostpunk 2 has sold 350,000 copies."
+    },
+    {
+      "ref": "business/behaviour-interactive-acquires-darkest-dungeon-dev-red-hook",
+      "entities": {
+        "games": [
+          { "id": "darkest-dungeon", "name": "Darkest Dungeon", "aliases": [], "genres": ["roguelike", "rpg"], "franchise": "darkest-dungeon", "inferred": true },
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "red-hook-studios", "name": "Red Hook Studios", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "midwinter-entertainment", "name": "Midwinter Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "studio-closure"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 7000000, "unit": "copies", "currency": null,
+          "entity": "darkest-dungeon", "entity_type": "game", "scope": "franchise",
+          "as_of": "2024-09-25", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "the Darkest Dungeon series, which has sold nearly seven million copies",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/behaviour-interactive-acquires-darkest-dungeon-dev-red-hook-studios" }
+        }
+      ],
+      "summary": "Behaviour Interactive acquired Darkest Dungeon developer Red Hook Studios for an undisclosed amount, days after closing Midwinter Entertainment and cancelling the Dead by Daylight spinoff Project T."
+    },
+    {
+      "ref": "business/actors-union-sag-aftra-calls-a-strike-against-league-of-lege",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": [], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Actors union SAG-AFTRA called a strike against League of Legends, accusing production company Formosa of attempting to subvert the ongoing video-game strike, while Riot Games denied involvement."
+    },
+    {
+      "ref": "rumours/gamurs-group-employees-reportedly-hit-with-more-layoffs",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        {
+          "metric": "layoffs_count", "value": 30, "unit": "people", "currency": null,
+          "entity": "gamurs-group", "entity_type": "company", "scope": "company",
+          "as_of": "2024-09-25", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "30 jobs were allegedly cut as part of restructuring efforts",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/gamurs-group-employees-reportedly-hit-with-more-layoffs" }
+        }
+      ],
+      "summary": "Gamurs Group, owner of publications including Prima Games, Twinfinite, WGTC and Destructoid, was reportedly hit with more layoffs, with 30 jobs allegedly cut."
+    }
+  ]
+}

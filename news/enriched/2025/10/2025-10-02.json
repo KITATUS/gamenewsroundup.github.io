@@ -1,0 +1,252 @@
+{
+  "date": "2025-10-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/xbox-game-pass-is-increasing-in-price-by-50",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["price-change", "subscription"],
+      "facts": [
+        { "metric": "price_change_pct", "value": 50, "unit": "percent", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2025-10-02", "period": "point_in_time", "direction": "up", "confidence": "high",
+          "quote": "Xbox Game Pass is increasing in price by 50%",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/xbox-game-pass-is-increasing-in-price-by-50/" } }
+      ],
+      "summary": "Xbox Game Pass is increasing in price by 50%."
+    },
+    {
+      "ref": "main_news/rock-band-4-will-be-delisted-this-weekend-with-its-dlc-to-fo",
+      "entities": {
+        "games": [{ "id": "rock-band-4", "name": "Rock Band 4", "aliases": [],
+                    "genres": ["rhythm"], "franchise": "rock-band", "inferred": true }],
+        "studios": [{ "id": "harmonix", "name": "Harmonix", "aliases": [],
+                      "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting", "dlc-expansion"],
+      "facts": [],
+      "summary": "Rock Band 4 will be delisted this weekend, with its DLC to follow."
+    },
+    {
+      "ref": "main_news/call-of-duty-black-ops-7-multiplayer-and-zombies-changes-det",
+      "entities": {
+        "games": [{ "id": "call-of-duty-black-ops-7", "name": "Call of Duty: Black Ops 7", "aliases": [],
+                    "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }],
+        "studios": [{ "id": "treyarch", "name": "Treyarch", "aliases": [],
+                      "publisher": "activision", "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "gameplay"],
+      "facts": [],
+      "summary": "Treyarch detailed in depth the multiplayer and zombies changes for Call of Duty: Black Ops 7."
+    },
+    {
+      "ref": "main_news/namco-s-first-ever-video-game-from-1978-is-getting-its-first",
+      "entities": {
+        "games": [{ "id": "gee-bee", "name": "Gee Bee", "aliases": [],
+                    "genres": ["arcade"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "namco", "name": "Namco", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port", "release"],
+      "facts": [],
+      "summary": "Namco's first ever video game from 1978, Gee Bee, is getting its first re-release this week."
+    },
+    {
+      "ref": "main_news/ghost-of-yotei-s-day-one-patch-improves-environmental-detail",
+      "entities": {
+        "games": [{ "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": [],
+                    "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }],
+        "studios": [{ "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [],
+                      "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Ghost of Yotei's day one patch improves environmental detail and ray tracing."
+    },
+    {
+      "ref": "main_news/moonlighter-2-delayed-to-november-due-to-overstuffed-october",
+      "entities": {
+        "games": [{ "id": "moonlighter-2", "name": "Moonlighter 2", "aliases": [],
+                    "genres": ["action-rpg"], "franchise": "moonlighter", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2025-11", "unit": "date", "currency": null,
+          "entity": "moonlighter-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-10-02", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Moonlighter 2 delayed to November",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/moonlighter-2-delayed-to-november-due-to-overstuffed-october-release-schedule" } }
+      ],
+      "summary": "Moonlighter 2 has been delayed to November due to an overstuffed October release schedule."
+    },
+    {
+      "ref": "main_news/man-pleads-guilty-to-sending-death-threats-to-epic-games",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [],
+                      "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A man has pleaded guilty to sending death threats to Epic Games."
+    },
+    {
+      "ref": "main_news/amazon-has-completely-redesigned-luna-with-party-games-inclu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "amazon", "name": "Amazon", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "amazon-luna", "name": "Luna", "aliases": ["Amazon Luna"], "inferred": false }],
+        "people": [{ "id": "snoop-dogg", "name": "Snoop Dogg", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement", "subscription"],
+      "facts": [],
+      "summary": "Amazon has completely redesigned Luna with party games, including an AI Snoop Dogg courtroom title."
+    },
+    {
+      "ref": "main_news/everyone-is-going-to-be-golden-as-kpop-demon-hunters-heads-t",
+      "entities": {
+        "games": [{ "id": "fortnite", "name": "Fortnite", "aliases": [],
+                    "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }],
+        "studios": [{ "id": "epic-games", "name": "Epic Games", "aliases": [],
+                      "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "dlc-expansion", "update-patch"],
+      "facts": [],
+      "summary": "KPop Demon Hunters is coming to Fortnite with a game mode, outfits, and more."
+    },
+    {
+      "ref": "business/ubisoft-s-tencent-backed-subsidiary-starts-operation-today-i",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "vantage-studios", "name": "Vantage Studios", "aliases": [],
+                      "publisher": "ubisoft", "inferred": false }],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "partnership"],
+      "facts": [],
+      "summary": "Ubisoft's Tencent-backed subsidiary has begun operation and is named Vantage Studios."
+    },
+    {
+      "ref": "business/former-tt-games-boss-has-launched-a-new-studio-to-work-on-a",
+      "entities": {
+        "games": [{ "id": "peter-pan", "name": "Peter Pan", "aliases": [],
+                    "genres": [], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "tt-games", "name": "TT Games", "aliases": [],
+                      "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "A former TT Games boss has launched a new studio to work on a Peter Pan game."
+    },
+    {
+      "ref": "business/dune-awakening-developer-funcom-suffers-layoffs-after-bigges",
+      "entities": {
+        "games": [{ "id": "dune-awakening", "name": "Dune Awakening", "aliases": [],
+                    "genres": ["survival", "mmo"], "franchise": "dune", "inferred": true }],
+        "studios": [{ "id": "funcom", "name": "Funcom", "aliases": [],
+                      "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Dune Awakening developer Funcom has suffered layoffs after the biggest release in the studio's history."
+    },
+    {
+      "ref": "business/bioware-s-future-under-ea-in-question-studio-veteran-warns-i",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "bioware", "name": "BioWare", "aliases": [],
+                      "publisher": "electronic-arts", "inferred": true }],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "A studio veteran warns that BioWare's future under EA is in question if it makes the kind of games the new company is not interested in making anymore."
+    },
+    {
+      "ref": "business/ea-says-there-will-be-no-immediate-changes-to-its-workforce",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "EA says there will be no immediate changes to its workforce following its leveraged buyout."
+    },
+    {
+      "ref": "business/hasbro-opens-new-wizards-of-the-coast-development-hub-in-mon",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "wizards-of-the-coast", "name": "Wizards of the Coast", "aliases": [],
+                      "publisher": "hasbro", "inferred": false }],
+        "publishers": [{ "id": "hasbro", "name": "Hasbro", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Hasbro has opened a new Wizards of the Coast development hub in Montreal."
+    },
+    {
+      "ref": "rumours/it-looks-like-prototype-could-be-coming-back-after-a-steam-u",
+      "entities": {
+        "games": [{ "id": "prototype", "name": "Prototype", "aliases": [],
+                    "genres": ["action-adventure", "open-world"], "franchise": "prototype", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": ["Ubisoft Connect"], "inferred": false }],
+        "platforms": [{ "id": "steam", "name": "Steam", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "A Steam update to Prototype added new credits and references to Ubisoft Connect, fuelling rumours of a possible re-release."
+    }
+  ]
+}

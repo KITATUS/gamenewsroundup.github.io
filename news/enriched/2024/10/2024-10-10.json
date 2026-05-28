@@ -1,0 +1,176 @@
+{
+  "date": "2024-10-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-playtesting-mystery-new-switch-online-feature-this",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [{ "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Switch Online"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "announcement", "subscription"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-15", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-online", "entity_type": "platform", "scope": "event",
+          "as_of": "2024-10-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will close on 15th October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/nintendo-playtesting-mystery-new-switch-online-feature-this-month-with-up-to-10k-people" } },
+        { "metric": "event_date", "value": "2024-10-23", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-online", "entity_type": "platform", "scope": "event",
+          "as_of": "2024-10-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The playtest itself runs from 23rd October to 5th November.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/nintendo-playtesting-mystery-new-switch-online-feature-this-month-with-up-to-10k-people" } }
+      ],
+      "summary": "Nintendo is playtesting an unannounced new Switch Online feature this month with up to 10,000 participants."
+    },
+    {
+      "ref": "main_news/genshin-impact-s-latest-update-isn-t-fully-voiced-in-english",
+      "entities": {
+        "games": [{ "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "hoyoverse", "name": "HoYoverse", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Genshin Impact's latest update is not fully voiced in English, reportedly because of the SAG-AFTRA strike."
+    },
+    {
+      "ref": "main_news/universal-and-sega-are-making-a-shinobi-movie",
+      "entities": {
+        "games": [{ "id": "shinobi", "name": "Shinobi", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": "shinobi", "inferred": true }],
+        "studios": [],
+        "publishers": [
+          { "id": "universal", "name": "Universal", "aliases": [], "inferred": false },
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [{ "id": "sam-hargrave", "name": "Sam Hargrave", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Universal and Sega are making a Shinobi movie, with Extraction director Sam Hargrave attached to direct."
+    },
+    {
+      "ref": "main_news/resident-evil-2-is-coming-to-iphone-ipad-and-mac-this-year",
+      "entities": {
+        "games": [{ "id": "resident-evil-2", "name": "Resident Evil 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "resident-evil", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true }],
+        "platforms": [
+          { "id": "iphone", "name": "iPhone", "aliases": [], "inferred": false },
+          { "id": "ipad", "name": "iPad", "aliases": [], "inferred": false },
+          { "id": "mac", "name": "Mac", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-12-31", "unit": "date", "currency": null,
+          "entity": "resident-evil-2", "entity_type": "game", "scope": "game",
+          "as_of": "2024-10-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "December 31, 2024",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/resident-evil-2-is-coming-to-iphone-ipad-and-mac-this-year/" } }
+      ],
+      "summary": "Resident Evil 2 is coming to iPhone, iPad and Mac on 31 December 2024."
+    },
+    {
+      "ref": "free_games_subscription/october-s-playstation-plus-game-catalogue-and-classics-title",
+      "entities": {
+        "games": [
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true },
+          { "id": "two-point-campus", "name": "Two Point Campus", "aliases": [], "genres": ["simulation"], "franchise": "two-point", "inferred": true },
+          { "id": "the-dark-pictures-anthology-the-devil-in-me", "name": "The Dark Pictures Anthology: The Devil in Me", "aliases": [], "genres": ["survival-horror", "adventure"], "franchise": "the-dark-pictures-anthology", "inferred": true },
+          { "id": "gris", "name": "Gris", "aliases": [], "genres": ["platformer", "adventure"], "franchise": null, "inferred": true },
+          { "id": "return-to-monkey-island", "name": "Return to Monkey Island", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": "monkey-island", "inferred": true },
+          { "id": "ghostbusters-spirits-unleashed", "name": "Ghostbusters: Spirits Unleashed", "aliases": [], "genres": ["shooter", "action-adventure"], "franchise": "ghostbusters", "inferred": true },
+          { "id": "firefighting-simulator-the-squad", "name": "Firefighting Simulator The Squad", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "overpass-2", "name": "Overpass 2", "aliases": [], "genres": ["racing", "simulation"], "franchise": "overpass", "inferred": true },
+          { "id": "tour-de-france-2023", "name": "Tour de France 2023", "aliases": [], "genres": ["sports", "simulation"], "franchise": "tour-de-france", "inferred": true },
+          { "id": "tom-clancys-ghost-recon-wildlands", "name": "Tom Clancy's Ghost Recon: Wildlands", "aliases": [], "genres": ["tps", "open-world"], "franchise": "ghost-recon", "inferred": true },
+          { "id": "the-last-clockwinder", "name": "The Last Clockwinder", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": null, "inferred": true },
+          { "id": "dino-crisis", "name": "Dino Crisis", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "dino-crisis", "inferred": true },
+          { "id": "siren", "name": "Siren", "aliases": [], "genres": ["survival-horror", "stealth"], "franchise": "siren", "inferred": true },
+          { "id": "r-type-dimensions-ex", "name": "R-Type Dimensions EX", "aliases": [], "genres": ["shooter"], "franchise": "r-type", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps-vr2", "name": "PS VR2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game", "announcement"],
+      "facts": [],
+      "summary": "Sony announced October's PlayStation Plus Game Catalogue and Classics titles for Extra and Premium subscribers."
+    },
+    {
+      "ref": "free_games_subscription/four-new-apple-arcade-games-announced-for-november-7th",
+      "entities": {
+        "games": [
+          { "id": "wheel-of-fortune-daily", "name": "Wheel of Fortune Daily", "aliases": [], "genres": ["puzzle", "party"], "franchise": "wheel-of-fortune", "inferred": true },
+          { "id": "drive-ahead-carcade", "name": "Drive Ahead! Carcade", "aliases": [], "genres": ["racing", "party"], "franchise": "drive-ahead", "inferred": true },
+          { "id": "arkanoid-vs-space-invaders", "name": "Arkanoid vs Space Invaders+", "aliases": [], "genres": ["shooter", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "texas-holdem-poker-pokerist", "name": "Texas Hold'em Poker: Pokerist+", "aliases": [], "genres": ["card"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "apple-arcade", "name": "Apple Arcade", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["announcement", "subscription", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2024-11-07", "unit": "date", "currency": null,
+          "entity": "apple-arcade", "entity_type": "platform", "scope": "platform",
+          "as_of": "2024-10-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Four new Apple Arcade games announced for November 7th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/four-new-apple-arcade-games-announced-for-november/" } }
+      ],
+      "summary": "Four new Apple Arcade games were announced to launch on 7 November."
+    },
+    {
+      "ref": "business/cryptic-studios-is-laying-off-staff-at-the-end-of-october",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "cryptic-studios", "name": "Cryptic Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-10-31", "unit": "date", "currency": null,
+          "entity": "cryptic-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2024-10-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "they will no longer be at the studio after October 31",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/cryptic-studios-is-laying-off-staff-at-the-end-of-october" } }
+      ],
+      "summary": "Cryptic Studios is laying off an undisclosed number of staff at the end of October, with affected workers leaving after 31 October."
+    },
+    {
+      "ref": "business/ubisoft-is-being-sued-for-allegedly-sharing-ubisoft-store-an",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "meta", "name": "Meta", "aliases": ["Facebook"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Ubisoft is being sued in a class action that alleges it shared Ubisoft Store and Ubisoft+ user data with Meta without permission."
+    }
+  ]
+}

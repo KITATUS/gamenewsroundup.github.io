@@ -1,0 +1,101 @@
+{
+  "date": "2025-03-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/death-stranding-2-releases-june-26th",
+      "entities": {
+        "games": [
+          { "id": "death-stranding-2", "name": "Death Stranding 2", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-06-26", "unit": "date", "currency": null,
+          "entity": "death-stranding-2", "entity_type": "game", "scope": "game",
+          "as_of": "2025-03-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Death Stranding 2 releases June 26th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/hideo-kojimas-latest-death-stranding-2-trailer-is-here-with-a-confirmed-june-release/" } }
+      ],
+      "summary": "Death Stranding 2 is confirmed to release on 26 June 2025, with a 16-location orchestral world tour planned for the end of the year."
+    },
+    {
+      "ref": "main_news/the-pok-mon-company-and-honda-have-produced-a-life-sized-con",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon Company"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "The Pokémon Company and Honda have produced a life-sized concept motorbike based on a Pokémon."
+    },
+    {
+      "ref": "main_news/resident-evil-movie-reboot-snapped-up-by-sony-and-it-already",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-09-18", "unit": "date", "currency": null,
+          "entity": "resident-evil", "entity_type": "product", "scope": "franchise",
+          "as_of": "2025-03-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases 18th September 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/resident-evil-movie-reboot-snapped-up-by-sony-and-it-already-has-a-release-date" } }
+      ],
+      "summary": "Sony has acquired a Resident Evil movie reboot, which already has a release date of 18 September 2026."
+    },
+    {
+      "ref": "business/hidden-variable-sues-skullgirls-publisher-autumn-games-for-1",
+      "entities": {
+        "games": [
+          { "id": "skullgirls", "name": "Skullgirls", "aliases": ["Skullgirls Mobile", "Skullgirls 2nd Encore"], "genres": ["fighting"], "franchise": "skullgirls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hidden-variable", "name": "Hidden Variable", "aliases": ["HVS"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "autumn-games", "name": "Autumn Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Hidden Variable is suing Skullgirls publisher Autumn Games for $1.2m in unpaid payments, and says it is no longer involved with Skullgirls IP-related efforts."
+    },
+    {
+      "ref": "business/respawn-lays-off-staff-cancels-another-unannounced-game",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "respawn-entertainment", "name": "Respawn Entertainment", "aliases": ["Respawn"], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Respawn has laid off an unspecified number of staff and cancelled another unannounced game, its third cancelled project in three years."
+    }
+  ]
+}

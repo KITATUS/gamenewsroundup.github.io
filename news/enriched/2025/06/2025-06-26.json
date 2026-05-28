@@ -1,0 +1,238 @@
+{
+  "date": "2025-06-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/the-latest-humble-bundle-offers-the-mafia-and-bioshock-trilo",
+      "entities": {
+        "games": [
+          { "id": "mafia", "name": "Mafia", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "mafia", "inferred": true },
+          { "id": "bioshock", "name": "BioShock", "aliases": [], "genres": ["fps", "action-adventure"], "franchise": "bioshock", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sale-discount"],
+      "facts": [
+        { "metric": "price", "value": 18, "unit": "price", "currency": "USD",
+          "entity": "humble-bundle", "entity_type": "product", "scope": "product",
+          "as_of": "2025-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "offers the Mafia and BioShock trilogies for $18",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-latest-humble-bundle-offers-the-mafia-and-bioshock-trilogies-for-18/" } }
+      ],
+      "summary": "A new Humble Bundle offers the Mafia and BioShock trilogies for $18."
+    },
+    {
+      "ref": "main_news/everybody-s-golf-hot-shots-gets-release-date-pre-ordering-un",
+      "entities": {
+        "games": [
+          { "id": "everybodys-golf-hot-shots", "name": "Everybody's Golf Hot Shots", "aliases": [], "genres": ["sports", "simulation"], "franchise": "everybodys-golf", "inferred": true },
+          { "id": "pac-man", "name": "Pac-Man", "aliases": [], "genres": ["action"], "franchise": "pac-man", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-09-05", "unit": "date", "currency": null,
+          "entity": "everybodys-golf-hot-shots", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 5",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/everybodys-golf-hot-shots-gets-release-date-pre-ordering-unlocks-playable-pac-man/" } }
+      ],
+      "summary": "Everybody's Golf Hot Shots gets a September 5 release date, with pre-ordering unlocking playable Pac-Man."
+    },
+    {
+      "ref": "main_news/wwe-2k25-s-second-dlc-is-out-today-adding-three-nba-stars-an",
+      "entities": {
+        "games": [
+          { "id": "wwe-2k25", "name": "WWE 2K25", "aliases": [], "genres": ["sports", "fighting"], "franchise": "wwe-2k", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "shaquille-oneal", "name": "Shaquille O'Neal", "aliases": [], "inferred": false },
+          { "id": "tyrese-haliburton", "name": "Tyrese Haliburton", "aliases": [], "inferred": false },
+          { "id": "jalen-brunson", "name": "Jalen Brunson", "aliases": [], "inferred": false },
+          { "id": "the-great-khali", "name": "The Great Khali", "aliases": [], "inferred": false },
+          { "id": "abyss", "name": "Abyss", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "release"],
+      "facts": [],
+      "summary": "WWE 2K25's second DLC released today, adding Shaquille O'Neal, Tyrese Haliburton, Jalen Brunson, The Great Khali, and Abyss."
+    },
+    {
+      "ref": "main_news/xbox-confirms-hellblade-2-enhanced-s-new-features-release-da",
+      "entities": {
+        "games": [
+          { "id": "hellblade-2-enhanced", "name": "Hellblade 2 Enhanced", "aliases": [], "genres": ["action-adventure"], "franchise": "hellblade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake", "port"],
+      "facts": [],
+      "summary": "Xbox confirmed Hellblade 2 Enhanced's new features and release date, plus a PS5 upgrade for the first game."
+    },
+    {
+      "ref": "main_news/playstation-maintains-that-it-still-won-t-release-first-part",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "PlayStation maintains that it still will not release first-party games on PS Plus on day one."
+    },
+    {
+      "ref": "main_news/netflix-is-delisting-20-mobile-games-next-month-including-ha",
+      "entities": {
+        "games": [
+          { "id": "hades", "name": "Hades", "aliases": [], "genres": ["roguelike", "action-rpg"], "franchise": "hades", "inferred": true },
+          { "id": "braid", "name": "Braid", "aliases": [], "genres": ["puzzle", "platformer"], "franchise": null, "inferred": true },
+          { "id": "monument-valley", "name": "Monument Valley", "aliases": [], "genres": ["puzzle"], "franchise": "monument-valley", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Netflix is delisting more than 20 mobile games next month, including Hades, Braid and Monument Valley."
+    },
+    {
+      "ref": "main_news/nintendo-museum-in-japan-is-getting-an-art-gallery-extension",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Nintendo Museum in Japan is getting an art gallery extension."
+    },
+    {
+      "ref": "main_news/two-worlds-collide-at-last-as-palworld-tides-of-terraria-lau",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world", "action-adventure"], "franchise": "palworld", "inferred": true },
+          { "id": "terraria", "name": "Terraria", "aliases": [], "genres": ["sandbox", "action-adventure", "survival"], "franchise": "terraria", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "dlc-expansion"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-06-26", "unit": "date", "currency": null,
+          "entity": "palworld", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Palworld: Tides of Terraria launches today",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/two-worlds-collide-at-last-as-palworld-tides-of-terraria-launches-today" } }
+      ],
+      "summary": "Palworld: Tides of Terraria, a crossover with Terraria, launches today."
+    },
+    {
+      "ref": "free_games_subscription/ps-games-for-july",
+      "entities": {
+        "games": [
+          { "id": "diablo-4", "name": "Diablo 4", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true },
+          { "id": "jusant", "name": "Jusant", "aliases": [], "genres": ["adventure", "puzzle"], "franchise": null, "inferred": true },
+          { "id": "king-of-fighters-15", "name": "King of Fighters 15", "aliases": [], "genres": ["fighting"], "franchise": "the-king-of-fighters", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PS+"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-07-01", "unit": "date", "currency": null,
+          "entity": "diablo-4", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Diablo 4 (PS5, PS4) - July 1",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-ps-plus-games-for-july" } },
+        { "metric": "release_date", "value": "2025-07-01", "unit": "date", "currency": null,
+          "entity": "jusant", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Jusant (PS5) - July 1",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-ps-plus-games-for-july" } },
+        { "metric": "release_date", "value": "2025-07-01", "unit": "date", "currency": null,
+          "entity": "king-of-fighters-15", "entity_type": "game", "scope": "game",
+          "as_of": "2025-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "King of Fighters 15 (PS5, PS4) - July 1",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/here-are-our-ps-plus-games-for-july" } }
+      ],
+      "summary": "The PS Plus monthly games for July are Diablo 4, Jusant and King of Fighters 15, all available July 1."
+    },
+    {
+      "ref": "business/little-nightmares-franchise-celebrates-20m-unit-sales",
+      "entities": {
+        "games": [
+          { "id": "little-nightmares", "name": "Little Nightmares", "aliases": [], "genres": ["puzzle", "platformer", "horror"], "franchise": "little-nightmares", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 20000000, "unit": "units", "currency": null,
+          "entity": "little-nightmares", "entity_type": "game", "scope": "franchise",
+          "as_of": "2025-06-26", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Little Nightmares franchise celebrates 20m unit sales",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/little-nightmares-franchise-celebrates-20m-unit-sales-news-in-brief" } }
+      ],
+      "summary": "The Little Nightmares franchise has reached 20 million unit sales."
+    },
+    {
+      "ref": "business/ukie-on-what-the-government-s-creative-industries-sector-pla",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "UKIE comments on what the government's Creative Industries Sector Plan means for the UK games industry."
+    }
+  ]
+}

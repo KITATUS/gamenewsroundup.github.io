@@ -1,0 +1,127 @@
+{
+  "date": "2025-08-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/evercade-is-getting-a-12-game-rare-compilation-the-cartridge",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": ["Ultimate: Play the Game"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "evercade", "name": "Evercade", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "price", "value": 19.99, "unit": "price", "currency": "GBP",
+          "entity": "rare-collection-1", "entity_type": "product", "scope": "product",
+          "as_of": "2025-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "priced at £19.99 / $29.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/evercade-is-getting-a-12-game-rare-compilation/" }
+        },
+        {
+          "metric": "price", "value": 29.99, "unit": "price", "currency": "USD",
+          "entity": "rare-collection-1", "entity_type": "product", "scope": "product",
+          "as_of": "2025-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "priced at £19.99 / $29.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/evercade-is-getting-a-12-game-rare-compilation/" }
+        },
+        {
+          "metric": "release_date", "value": "2025-11", "unit": "date", "currency": null,
+          "entity": "rare-collection-1", "entity_type": "product", "scope": "product",
+          "as_of": "2025-08-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Rare Colllection 1 releases in November",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/evercade-is-getting-a-12-game-rare-compilation/" }
+        }
+      ],
+      "summary": "Evercade is getting Rare Collection 1, a 12-game Rare compilation releasing in November priced at £19.99 / $29.99."
+    },
+    {
+      "ref": "main_news/tekken-8-s-final-season-2-dlc-fighter-is-miary-zo-a-brand-ne",
+      "entities": {
+        "games": [
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bandai-namco-studios", "name": "Bandai Namco Studios", "aliases": [], "publisher": "bandai-namco", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "miary-zo", "name": "Miary Zo", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion", "announcement", "reveal"],
+      "facts": [],
+      "summary": "Tekken 8's final Season 2 DLC fighter is Miary Zo, a brand new character from Madagascar."
+    },
+    {
+      "ref": "main_news/mastercard-insists-it-has-not-required-restrictions-of-any-g",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "itch-io", "name": "itch.io", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Mastercard insists it has not required restrictions of any game on Steam or itch.io, though Valve claims otherwise."
+    },
+    {
+      "ref": "main_news/one-million-people-claim-gog-s-freedomtobuy-games-in-protest",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [
+        {
+          "metric": "downloads", "value": 1000000, "unit": "claims", "currency": null,
+          "entity": "gog", "entity_type": "company", "scope": "company",
+          "as_of": "2025-08-05", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "One million people claim GOG's FreedomToBuy games",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/one-million-people-claim-gogs-freedomtobuy-games-in-protest-of-ongoing-nsfw-game-censorship-row" }
+        }
+      ],
+      "summary": "One million people claimed GOG's FreedomToBuy games in protest of an ongoing NSFW game censorship row."
+    },
+    {
+      "ref": "business/call-of-duty-workers-at-raven-secure-first-union-contract-wi",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "raven-software", "name": "Raven Software", "aliases": ["Raven"], "publisher": "activision-blizzard", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "activision-blizzard", "name": "Activision Blizzard", "aliases": [], "inferred": false },
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Call of Duty workers at Raven secured their first union contract with Microsoft, three years after Activision Blizzard recognized the Game Workers Alliance union."
+    }
+  ]
+}

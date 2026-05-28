@@ -1,0 +1,323 @@
+{
+  "date": "2024-08-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/red-dead-redemption-s-us-playstation-page-talks-about-the-lo",
+      "entities": {
+        "games": [
+          {
+            "id": "red-dead-redemption",
+            "name": "Red Dead Redemption",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "red-dead",
+            "inferred": true
+          },
+          {
+            "id": "undead-nightmare",
+            "name": "Undead Nightmare",
+            "aliases": [],
+            "genres": ["action-adventure", "horror"],
+            "franchise": "red-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation",
+            "name": "PlayStation",
+            "aliases": ["PlayStation Store"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port"],
+      "facts": [],
+      "summary": "Red Dead Redemption's US PlayStation Store page references a long-awaited but unconfirmed PC version of the game, including Undead Nightmare."
+    },
+    {
+      "ref": "main_news/a-new-sunsoft-retro-compilation-brings-three-famicom-games-t",
+      "entities": {
+        "games": [
+          {
+            "id": "sunsoft-is-back-retro-games-collection",
+            "name": "Sunsoft is Back! Retro Games Collection",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          },
+          {
+            "id": "firework-thrower-kantaros-53-stations-of-the-tokaido",
+            "name": "Firework Thrower Kantaro’s 53 Stations of the Tokaido",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          },
+          {
+            "id": "the-wing-of-madoola",
+            "name": "The Wing of Madoola",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          },
+          {
+            "id": "ripple-island",
+            "name": "Ripple Island",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sunsoft",
+            "name": "Sunsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "port"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 9.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "sunsoft-is-back-retro-games-collection",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2024-08-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "\"Sunsoft is Back! Retro Games Collection\" will cost $9.99 digitally",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/a-new-sunsoft-retro-compilation-brings-three-famicom-games-to-the-west-for-the-first-time/"
+          }
+        }
+      ],
+      "summary": "Sunsoft announced the Sunsoft is Back! Retro Games Collection, bringing three Famicom games to the west for the first time at $9.99 digitally."
+    },
+    {
+      "ref": "main_news/a-halloween-as-in-the-film-series-not-halloween-the-time-of",
+      "entities": {
+        "games": [
+          {
+            "id": "halloween",
+            "name": "Halloween",
+            "aliases": [],
+            "genres": ["horror", "survival-horror"],
+            "franchise": "halloween",
+            "inferred": true
+          },
+          {
+            "id": "evil-dead-the-game",
+            "name": "Evil Dead: The Game",
+            "aliases": [],
+            "genres": ["horror"],
+            "franchise": "evil-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "john-carpenter",
+            "name": "John Carpenter",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Halloween game based on the film series is in development in Unreal Engine 5 by the creators of Evil Dead: The Game, with John Carpenter contributing."
+    },
+    {
+      "ref": "main_news/gearbox-boss-randy-pitchford-teases-borderlands-4",
+      "entities": {
+        "games": [
+          {
+            "id": "borderlands-4",
+            "name": "Borderlands 4",
+            "aliases": [],
+            "genres": ["fps", "action-rpg"],
+            "franchise": "borderlands",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "gearbox-software",
+            "name": "Gearbox",
+            "aliases": ["Gearbox"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "randy-pitchford",
+            "name": "Randy Pitchford",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "Gearbox boss Randy Pitchford teased Borderlands 4."
+    },
+    {
+      "ref": "main_news/open-world-game-terminator-survivors-has-been-delayed-to-202",
+      "entities": {
+        "games": [
+          {
+            "id": "terminator-survivors",
+            "name": "Terminator: Survivors",
+            "aliases": [],
+            "genres": ["open-world", "survival"],
+            "franchise": "terminator",
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2025",
+          "unit": "date",
+          "currency": null,
+          "entity": "terminator-survivors",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Open-world game Terminator: Survivors has been delayed to 2025",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/open-world-game-terminator-survivors-has-been-delayed-to-2025/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2024-10-24",
+          "unit": "date",
+          "currency": null,
+          "entity": "terminator-survivors",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Previously scheduled to hit PC on October 24, 2024",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/open-world-game-terminator-survivors-has-been-delayed-to-2025/"
+          }
+        }
+      ],
+      "summary": "Open-world game Terminator: Survivors, previously due on PC on 24 October 2024, has been delayed to 2025."
+    },
+    {
+      "ref": "business/enshrouded-reaches-3m-players",
+      "entities": {
+        "games": [
+          {
+            "id": "enshrouded",
+            "name": "Enshrouded",
+            "aliases": [],
+            "genres": ["survival", "action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "keen-games",
+            "name": "Keen Games",
+            "aliases": ["KeenGamesStudio"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 3000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "enshrouded",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2024-08-13",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Enshrouded reaches 3m players",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/KeenGamesStudio/status/1821531903326843200"
+          }
+        }
+      ],
+      "summary": "Enshrouded has reached 3 million players."
+    }
+  ]
+}

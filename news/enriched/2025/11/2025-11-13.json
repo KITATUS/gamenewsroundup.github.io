@@ -1,0 +1,281 @@
+{
+  "date": "2025-11-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/valve-announces-a-new-steam-console-controller-and-vr-headse",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware", "release-date"],
+      "facts": [],
+      "summary": "Valve announced a new Steam console, controller and VR headset, all releasing in early 2026."
+    },
+    {
+      "ref": "main_news/the-next-ratchet-clank-game-is-a-free-to-play-multiplayer-sh",
+      "entities": {
+        "games": [
+          { "id": "ratchet-and-clank-ranger-rumble", "name": "Ratchet and Clank: Ranger Rumble", "aliases": ["Ratchet & Clank"], "genres": ["shooter"], "franchise": "ratchet-and-clank", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "The next Ratchet & Clank game, Ratchet and Clank: Ranger Rumble, is a free-to-play multiplayer shooter for mobile."
+    },
+    {
+      "ref": "main_news/sony-and-ncsoft-announce-horizon-steel-frontiers-a-new-mobil",
+      "entities": {
+        "games": [
+          { "id": "horizon-steel-frontiers", "name": "Horizon Steel Frontiers", "aliases": [], "genres": ["mmorpg"], "franchise": "horizon", "inferred": false }
+        ],
+        "studios": [
+          { "id": "guerrilla-games", "name": "Guerrilla", "aliases": ["Guerrilla"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true },
+          { "id": "ncsoft", "name": "NCSoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "trailer", "partnership"],
+      "facts": [],
+      "summary": "Sony and NCSoft announced Horizon Steel Frontiers, a new mobile-first MMORPG set in Guerrilla's Horizon universe."
+    },
+    {
+      "ref": "main_news/infinity-nikki-s-infold-believes-there-s-untapped-demand-for",
+      "entities": {
+        "games": [
+          { "id": "infinity-nikki", "name": "Infinity Nikki", "aliases": [], "genres": ["adventure", "life-sim"], "franchise": "nikki", "inferred": true }
+        ],
+        "studios": [
+          { "id": "infold-games", "name": "Infold", "aliases": ["Infold"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Infinity Nikki developer Infold believes there is untapped demand for non-violent big-budget games."
+    },
+    {
+      "ref": "main_news/nintendo-reveals-the-first-trailer-for-the-super-mario-galax",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "brie-larson", "name": "Brie Larson", "aliases": [], "inferred": false },
+          { "id": "benny-safdie", "name": "Benny Safdie", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer", "reveal"],
+      "facts": [],
+      "summary": "Nintendo revealed the first trailer for The Super Mario Galaxy Movie, with Brie Larson joining the cast and Benny Safdie voicing Bowser Jr."
+    },
+    {
+      "ref": "main_news/valve-will-soon-support-android-games-on-steam",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Valve will soon support Android games on Steam."
+    },
+    {
+      "ref": "free_games_subscription/november-s-ps-plus-catalog-games-drop-november-18th",
+      "entities": {
+        "games": [
+          { "id": "gta-v", "name": "GTAV", "aliases": ["GTAV"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "thank-goodness-youre-here", "name": "Thank Goodness You're Here", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "still-wakes-the-deep", "name": "Still Wakes the Deep", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "pacific-drive", "name": "Pacific Drive", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "insurgency-sandstorm", "name": "Insurgency: Sandstorm", "aliases": [], "genres": ["fps", "shooter"], "franchise": "insurgency", "inferred": true },
+          { "id": "the-talos-principle-2", "name": "The Talos Principle 2", "aliases": [], "genres": ["puzzle"], "franchise": "the-talos-principle", "inferred": true },
+          { "id": "monster-jam-showdown", "name": "Monster Jam Showdown", "aliases": [], "genres": ["racing"], "franchise": "monster-jam", "inferred": true },
+          { "id": "motogp-25", "name": "MotoGP 25", "aliases": [], "genres": ["racing", "sports"], "franchise": "motogp", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PS Plus", "aliases": ["PS Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2025-11-18", "unit": "date", "currency": null,
+          "entity": "playstation-plus", "entity_type": "platform", "scope": "platform",
+          "as_of": "2025-11-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Drop November 18th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/novembers-ps-plus-catalog-games-include-gta-v-and-two-bafta-winning-indies/" }
+        }
+      ],
+      "summary": "November's PS Plus Catalog games, including GTAV and seven other titles, drop on 18 November."
+    },
+    {
+      "ref": "business/sega-is-raising-japanese-employees-salaries-again-three-year",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "price_change_pct", "value": 10, "unit": "percent", "currency": null,
+          "entity": "sega", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-13", "period": "point_in_time", "direction": "up", "confidence": "medium",
+          "quote": "Approx 10% increase",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/sega-is-raising-japanese-employees-salaries-again-three-years-after-its-previous-increase/" }
+        }
+      ],
+      "summary": "Sega is raising its Japanese employees' salaries again by approximately 10%, three years after its previous increase."
+    },
+    {
+      "ref": "business/2k-riot-epic-execs-found-marketing-network-games-growth-guil",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": false },
+          { "id": "riot-games", "name": "Riot", "aliases": ["Riot"], "inferred": false },
+          { "id": "epic-games", "name": "Epic", "aliases": ["Epic"], "inferred": false },
+          { "id": "games-growth-guild", "name": "Games Growth Guild", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "partnership"],
+      "facts": [],
+      "summary": "Executives from 2K, Riot and Epic founded a marketing network called Games Growth Guild."
+    },
+    {
+      "ref": "business/digiphile-is-a-new-charitable-discovery-platform-from-a-grou",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "digiphile", "name": "Digiphile", "aliases": [], "inferred": false },
+          { "id": "humble-bundle", "name": "Humble Bundle", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Digiphile is a new charitable discovery platform from a group of Humble Bundle veterans."
+    },
+    {
+      "ref": "business/nexon-q3-results",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter", "shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 118700000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-13", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Revenue: ¥118.7 billion ($767 million, down 12% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/arc-raiders-becomes-most-successful-global-launch-in-nexons-history" }
+        },
+        {
+          "metric": "revenue", "value": 767000000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-13", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "$767 million, down 12% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/arc-raiders-becomes-most-successful-global-launch-in-nexons-history" }
+        },
+        {
+          "metric": "operating_income", "value": 37500000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-13", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Operating income: ¥37.5 billion ($242.3 million, down 27% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/arc-raiders-becomes-most-successful-global-launch-in-nexons-history" }
+        },
+        {
+          "metric": "operating_income", "value": 242300000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-13", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "$242.3 million, down 27% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/arc-raiders-becomes-most-successful-global-launch-in-nexons-history" }
+        },
+        {
+          "metric": "profit", "value": 38200000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-13", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net income: ¥38.2 billion ($247 million, up 41% year-on-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/arc-raiders-becomes-most-successful-global-launch-in-nexons-history" }
+        },
+        {
+          "metric": "profit", "value": 247000000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "company", "scope": "company",
+          "as_of": "2025-11-13", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "$247 million, up 41% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/arc-raiders-becomes-most-successful-global-launch-in-nexons-history" }
+        }
+      ],
+      "summary": "Nexon reported its Q3 results, with revenue down 12% and operating income down 27% year-on-year while net income rose 41%."
+    },
+    {
+      "ref": "business/sharkmob-confirms-difficult-but-necessary-restructuring-unkn",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sharkmob", "name": "Sharkmob", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Sharkmob confirmed a \"difficult but necessary\" restructuring that puts an unknown number of jobs at risk."
+    }
+  ]
+}

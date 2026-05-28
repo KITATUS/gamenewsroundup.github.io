@@ -1,0 +1,99 @@
+{
+  "date": "2024-10-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/games-done-quick-to-hold-hurricane-helene-disaster-fundraise",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Games Done Quick will hold a Hurricane Helene disaster fundraiser next week, with donations going to humanitarian aid organisation Direct Relief."
+    },
+    {
+      "ref": "main_news/halo-s-343-rebrands-and-confirms-multiple-games-coming-using",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "halo-studios", "name": "Halo Studios", "aliases": ["343 Industries", "343"], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "leadership-change"],
+      "facts": [],
+      "summary": "Halo developer 343 Industries has rebranded as Halo Studios and confirmed it is working on multiple new Halo projects using Unreal Engine 5."
+    },
+    {
+      "ref": "main_news/halo-infinite-is-getting-a-third-person-mode",
+      "entities": {
+        "games": [{ "id": "halo-infinite", "name": "Halo Infinite", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "john-junyszek", "name": "John ‘Unyshek’ Junyszek", "aliases": ["Unyshek"], "inferred": false }]
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Halo Infinite is getting a third-person mode next month, set at a mode level and also added to Forge mode."
+    },
+    {
+      "ref": "main_news/the-until-dawn-movie-has-finished-filming",
+      "entities": {
+        "games": [{ "id": "until-dawn", "name": "Until Dawn", "aliases": [], "genres": ["horror", "adventure"], "franchise": "until-dawn", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10", "unit": "date", "currency": null,
+          "entity": "until-dawn", "entity_type": "product", "scope": "product",
+          "as_of": "2024-10-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The film is planned for release in October 2025",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/the-until-dawn-movie-has-finished-filming/" } }
+      ],
+      "summary": "The Until Dawn movie has finished filming and is planned for release in October 2025."
+    },
+    {
+      "ref": "main_news/astro-bot-s-87-song-soundtrack-is-now-available-on-streaming",
+      "entities": {
+        "games": [{ "id": "astro-bot", "name": "Astro Bot", "aliases": [], "genres": ["platformer"], "franchise": "astro-bot", "inferred": true }],
+        "studios": [{ "id": "team-asobi", "name": "Team Asobi", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "kenny-cm-young", "name": "Kenny CM Young", "aliases": [], "inferred": false },
+          { "id": "hirofumi-sasaki", "name": "Hirofumi Sasaki", "aliases": [], "inferred": false },
+          { "id": "tadashi-yatabe", "name": "Tadashi Yatabe", "aliases": [], "inferred": false },
+          { "id": "kemmei-adachi", "name": "Kemmei Adachi", "aliases": [], "inferred": false },
+          { "id": "sachiko-miyano", "name": "Sachiko Miyano", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Astro Bot's 87-song soundtrack is now available on streaming platforms, with most tracks composed by Kenny CM Young."
+    },
+    {
+      "ref": "business/epic-bringing-free-games-to-its-mobile-store-in-a-bid-to-ent",
+      "entities": {
+        "games": [{ "id": "ark-ultimate-mobile-edition", "name": "Ark: Ultimate Mobile Edition", "aliases": [], "genres": ["survival"], "franchise": "ark", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "inferred": false }],
+        "platforms": [{ "id": "epic-mobile-store", "name": "Epic mobile store", "aliases": ["mobile store"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["free-game", "announcement"],
+      "facts": [],
+      "summary": "Epic is bringing free games to its mobile store to entice new users, with third-party apps arriving in Q4."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "date": "2026-01-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/indie-dev-who-turned-to-social-media-to-lengthen-their-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "An indie developer who offered to add anyone who liked their tweet to their game's credits spent 300 hours adding around 60,000 names after expecting only about 100 replies."
+    },
+    {
+      "ref": "main_news/a-seven-game-retro-compilation-of-ren-stimpy-games-has-been",
+      "entities": {
+        "games": [{ "id": "ren-stimpy-happy-happy-joy-joy-collection", "name": "Ren & Stimpy: Happy, Happy, Joy, Joy Collection", "aliases": ["Ren & Stimpy"], "genres": [], "franchise": "ren-stimpy", "inferred": false }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "port"],
+      "facts": [],
+      "summary": "A seven-game retro compilation, Ren & Stimpy: Happy, Happy, Joy, Joy Collection, has been announced for Switch, PS5 and PC."
+    },
+    {
+      "ref": "main_news/tomodachi-life-living-the-dream-direct-today-6am-pst-2pm-gmt",
+      "entities": {
+        "games": [{ "id": "tomodachi-life-living-the-dream", "name": "Tomodachi Life: Living the Dream", "aliases": [], "genres": ["life-sim"], "franchise": "tomodachi-life", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-01-29", "unit": "date", "currency": null,
+          "entity": "tomodachi-life-living-the-dream-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2026-01-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tomodachi Life: Living the Dream Direct today (6am PST / 2pm GMT / 11pm JST)",
+          "source": { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/watch?v=wNtYngxAs1k" } }
+      ],
+      "summary": "A Tomodachi Life: Living the Dream Direct presentation is scheduled for today at 6am PST / 2pm GMT / 11pm JST."
+    },
+    {
+      "ref": "free_games_subscription/february-s-playstation-plus-essential-monthly-games-have-bee",
+      "entities": {
+        "games": [
+          { "id": "ace-combat-7-skies-unknown", "name": "Ace Combat 7: Skies Unknown", "aliases": [], "genres": ["simulation"], "franchise": "ace-combat", "inferred": true },
+          { "id": "subnautica-below-zero", "name": "Subnautica: Below Zero", "aliases": [], "genres": ["survival", "adventure"], "franchise": "subnautica", "inferred": true },
+          { "id": "undisputed", "name": "Undisputed", "aliases": [], "genres": ["sports", "fighting"], "franchise": null, "inferred": true },
+          { "id": "ultros", "name": "Ultros", "aliases": [], "genres": ["metroidvania"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "February's PlayStation Plus Essential monthly games have been confirmed as Ace Combat 7: Skies Unknown, Subnautica: Below Zero, Undisputed and Ultros."
+    },
+    {
+      "ref": "business/qa-staff-report-layoffs-at-netease-games-montr-al",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "netease-games-montreal", "name": "NetEase Games Montréal", "aliases": [], "publisher": "netease-games", "inferred": true }],
+        "publishers": [{ "id": "netease-games", "name": "NetEase Games", "aliases": ["NetEase"], "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "QA staff have reported layoffs at NetEase Games Montréal."
+    },
+    {
+      "ref": "business/ubisoft-unions-call-for-four-day-strike-it-is-time-for-manag",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ubisoft unions have called for a four-day strike, saying it is time for management to understand that they cannot do whatever they want."
+    },
+    {
+      "ref": "business/jack-emmert-returns-to-cryptic-studios-as-ceo-mmo-developer",
+      "entities": {
+        "games": [{ "id": "star-trek-online", "name": "Star Trek Online", "aliases": [], "genres": ["mmorpg"], "franchise": "star-trek", "inferred": true }],
+        "studios": [{ "id": "cryptic-studios", "name": "Cryptic Studios", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": true }],
+        "platforms": [],
+        "people": [{ "id": "jack-emmert", "name": "Jack Emmert", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Jack Emmert has returned to Cryptic Studios as CEO, with the MMO developer reassuming responsibility for its titles including Star Trek Online following divestment from Embracer."
+    },
+    {
+      "ref": "business/comcept-shuts-down-studio-was-founded-by-keiji-inafune-in-de",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "comcept", "name": "comcept", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "keiji-inafune", "name": "Keiji Inafune", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "comcept, the studio founded by Keiji Inafune in December 2010, has shut down."
+    },
+    {
+      "ref": "business/xbox-fy26-q2",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": false }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Microsoft reported its Xbox FY26 Q2 results, with total gaming revenue down 9%, content and services revenue down 5%, and hardware revenue down 32%."
+    },
+    {
+      "ref": "rumours/amazon-game-studios-boss-christoph-hartmann-formerly-head-of",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "amazon-game-studios", "name": "Amazon Game Studios", "aliases": [], "publisher": "amazon", "inferred": true }],
+        "publishers": [{ "id": "amazon", "name": "Amazon", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "luna", "name": "Luna", "aliases": ["Amazon Luna"], "inferred": false }],
+        "people": [{ "id": "christoph-hartmann", "name": "Christoph Hartmann", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Amazon Game Studios boss Christoph Hartmann, formerly head of 2K, is leaving the company as Amazon retreats from PC and console games in favour of its Luna cloud gaming service."
+    }
+  ]
+}

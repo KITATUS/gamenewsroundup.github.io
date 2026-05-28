@@ -1,0 +1,133 @@
+{
+  "date": "2024-05-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/new-ps5-shareable-links-will-let-recipients-join-multiplayer",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "New PS5 shareable links will let recipients join multiplayer sessions without being PSN friends, via a URL or QR code created on the console or PlayStation App."
+    },
+    {
+      "ref": "business/unity-appoints-former-ea-and-zynga-executive-as-its-new-ceo",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "unity", "name": "Unity", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "publisher": null, "inferred": false },
+          { "id": "zynga", "name": "Zynga", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "matthew-bromberg", "name": "Matthew Bromberg", "aliases": ["Bromberg"], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Unity appointed former EA and Zynga executive Matthew Bromberg as its new CEO, with him taking on the role later that month."
+    },
+    {
+      "ref": "business/belka-games-reduces-staffers-by-20-33-people",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "belka-games", "name": "Belka Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 33,
+          "unit": "people",
+          "currency": null,
+          "entity": "belka-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2024-05-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Belka Games reduces staffers by 20% (33 people)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/belka-games-reduces-staffers-by-20" }
+        }
+      ],
+      "summary": "Belka Games reduced its staff by 20%, amounting to 33 people."
+    },
+    {
+      "ref": "business/firesprite-lays-off-horizon-call-of-the-mountain-game-direct",
+      "entities": {
+        "games": [
+          { "id": "horizon-call-of-the-mountain", "name": "Horizon: Call of the Mountain", "aliases": [], "genres": ["action-adventure"], "franchise": "horizon", "inferred": true },
+          { "id": "twisted-metal", "name": "Twisted Metal", "aliases": [], "genres": ["racing"], "franchise": "twisted-metal", "inferred": true }
+        ],
+        "studios": [
+          { "id": "firesprite", "name": "Firesprite", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "alex-barnes", "name": "Alex Barnes", "aliases": ["Barnes"], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "Firesprite laid off Horizon: Call of the Mountain game director Alex Barnes, with a reported cancellation of the UK studio's next project, a rumoured live-service Twisted Metal game."
+    },
+    {
+      "ref": "rumours/rumor-multiple-sources-take-two-reportedly-closing-private-d",
+      "entities": {
+        "games": [
+          { "id": "olliolli", "name": "OlliOlli", "aliases": [], "genres": ["platformer"], "franchise": "olliolli", "inferred": true },
+          { "id": "rollerdrome", "name": "Rollerdrome", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "kerbal-space-program-2", "name": "Kerbal Space Program 2", "aliases": [], "genres": ["simulation"], "franchise": "kerbal-space-program", "inferred": true }
+        ],
+        "studios": [
+          { "id": "roll7", "name": "Roll7", "aliases": [], "publisher": "take-two-interactive", "inferred": true },
+          { "id": "intercept-games", "name": "Intercept Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "publisher": null, "inferred": false },
+          { "id": "private-division", "name": "Private Division", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Rumour from multiple sources that Take-Two is closing Private Division studios Roll7 and Intercept Games."
+    },
+    {
+      "ref": "business/game-workers-in-quebec-are-making-a-huge-unionization-push",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Game workers in Quebec are mounting a unionization push, with Game Workers Unite Montreal partnering with Canadian trade union CSN to help establish unions at major studios in the region."
+    }
+  ]
+}

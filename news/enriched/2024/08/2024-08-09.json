@@ -1,0 +1,290 @@
+{
+  "date": "2024-08-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/t-rkiye-blocks-roblox-due-to-child-safety-concerns",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Türkiye has blocked Roblox over child safety concerns."
+    },
+    {
+      "ref": "main_news/dragon-ball-moba-announced-for-mobile-and-steam",
+      "entities": {
+        "games": [
+          { "id": "dragon-ball-moba", "name": "Dragon Ball MOBA", "aliases": [], "genres": ["moba"], "franchise": "dragon-ball", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "beta-demo"],
+      "facts": [
+        {
+          "metric": "event_date", "value": "2024-08-20", "unit": "date", "currency": null,
+          "entity": "dragon-ball-moba", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "which will take place on August 20",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/dragon-ball-moba-announced-for-mobile-and-steam/" }
+        }
+      ],
+      "summary": "A Dragon Ball MOBA has been announced for mobile and Steam, with beta tests starting on 20 August."
+    },
+    {
+      "ref": "main_news/vampire-survivors-coming-to-playstation-later-this-month",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PlayStation 4/5"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PlayStation 4/5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date", "value": "2024-08-29", "unit": "date", "currency": null,
+          "entity": "vampire-survivors", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The game will be released on PlayStation 4/5 on August 29, 2024.",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/vampire-suvivors-coming-to-playstation-later-this-month/" }
+        }
+      ],
+      "summary": "Vampire Survivors will release on PlayStation 4 and 5 on 29 August 2024, with all its DLC available the same day."
+    },
+    {
+      "ref": "main_news/the-borderlands-movie-has-started-off-with-a-rotten-tomatoes",
+      "entities": {
+        "games": [
+          { "id": "borderlands", "name": "Borderlands", "aliases": [], "genres": ["fps", "action-rpg"], "franchise": "borderlands", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "review_score", "value": 0, "unit": "percent", "currency": null,
+          "entity": "borderlands", "entity_type": "product", "scope": "product",
+          "as_of": "2024-08-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rotten Tomatoes score of 0%",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-borderlands-movie-currently-has-a-rotten-tomatoes-score-of-0/" }
+        }
+      ],
+      "summary": "The Borderlands movie opened with a Rotten Tomatoes score of 0%."
+    },
+    {
+      "ref": "main_news/doom-1-2-have-be-re-released-yet-again-this-time-combined-an",
+      "entities": {
+        "games": [
+          { "id": "doom", "name": "Doom", "aliases": ["DOOM"], "genres": ["fps"], "franchise": "doom", "inferred": true },
+          { "id": "doom-2", "name": "Doom 2", "aliases": ["DOOM 2"], "genres": ["fps"], "franchise": "doom", "inferred": true },
+          { "id": "doom-eternal", "name": "Doom Eternal", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "playstation-network", "name": "PlayStation Network", "aliases": ["PSN"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "nintendo-eshop", "name": "Nintendo eShop", "aliases": ["eShop"], "inferred": false },
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "andrew-hulshult", "name": "Andrew Hulshult", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["remaster-remake", "release"],
+      "facts": [
+        {
+          "metric": "players_total", "value": 16, "unit": "players", "currency": null,
+          "entity": "doom", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "cross-platform multiplayer for up to 16 players",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/doom-and-doom-2-are-getting-new-enhanced-versions-including-a-new-episode/" }
+        }
+      ],
+      "summary": "Enhanced editions of Doom and Doom 2 have been re-released, combined and bundled with a new episode and extra content on the KEX engine."
+    },
+    {
+      "ref": "main_news/netflix-suffers-massive-leaks",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Netflix has suffered a massive leak, including the first four episodes of Arcane season 2 appearing online."
+    },
+    {
+      "ref": "business/warner-bros-is-looking-at-licensing-its-ip-to-other-game-stu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros", "name": "Warner Bros", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Warner Bros says it is looking at licensing its IP to other game studios."
+    },
+    {
+      "ref": "business/bandai-namco-profits-rose-56-during-q1-fy25",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 280000000000, "unit": "money", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net sales UP: 24.8% year-over-year to ¥280 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        },
+        {
+          "metric": "revenue", "value": 1900000000, "unit": "money", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "to ¥280 billion ($1.9 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        },
+        {
+          "metric": "profit", "value": 34000000000, "unit": "money", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Profit UP: 56.3% to ¥34 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        },
+        {
+          "metric": "profit", "value": 233000000, "unit": "money", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "¥34 billion ($233 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        },
+        {
+          "metric": "revenue", "value": 106000000000, "unit": "money", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Digital entertainment sales UP: 55.8% to ¥106 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        },
+        {
+          "metric": "revenue", "value": 725000000, "unit": "money", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "¥106 billion ($725 million)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        },
+        {
+          "metric": "revenue", "value": 33000000, "unit": "money", "currency": "JPY",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Amusement segment UP: 17% to ¥33 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        },
+        {
+          "metric": "revenue", "value": 225760, "unit": "money", "currency": "USD",
+          "entity": "bandai-namco", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "¥33 million ($225,760)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/bandai-namco-profits-rose-56-during-q1-fy25" }
+        }
+      ],
+      "summary": "Bandai Namco reported that profit rose 56.3% to ¥34 billion in Q1 FY25, on net sales of ¥280 billion for the three months ended 30 June 2024."
+    },
+    {
+      "ref": "business/take-two-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 1340000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net revenue: $1.34 billion (up 4% year-over-year)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-posts-modest-q1-growth-as-it-hypes-most-ambitious-development-pipeline-in-our-history" }
+        },
+        {
+          "metric": "profit", "value": -262000000, "unit": "money", "currency": "USD",
+          "entity": "take-two-interactive", "entity_type": "company", "scope": "company",
+          "as_of": "2024-08-09", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Net loss: $262 million (compared to a $206 million loss in the year-ago quarter)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/take-two-posts-modest-q1-growth-as-it-hypes-most-ambitious-development-pipeline-in-our-history" }
+        }
+      ],
+      "summary": "Take-Two reported Q1 net revenue of $1.34 billion, up 4% year-over-year, alongside a $262 million net loss."
+    },
+    {
+      "ref": "business/warner-bros-sees-41-year-on-year-drop-in-q2-gaming-revenue",
+      "entities": {
+        "games": [
+          { "id": "hogwarts-legacy", "name": "Hogwarts Legacy", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "harry-potter", "inferred": true },
+          { "id": "suicide-squad-kill-the-justice-league", "name": "Suicide Squad: Kill the Justice League", "aliases": ["Suicide Squad"], "genres": ["tps", "action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "warner-bros", "name": "Warner Bros", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 24000000, "unit": "copies", "currency": null,
+          "entity": "hogwarts-legacy", "entity_type": "game", "scope": "game",
+          "as_of": "2024-08-09", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "by January 2024 had sold over 24m copies",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/warner-bros-sees-41-year-on-year-drop-in-q2-gaming-revenue-due-to-suicide-squad-sales/" }
+        }
+      ],
+      "summary": "Warner Bros saw a 41% year-on-year drop in Q2 gaming revenue, attributed partly to Hogwarts Legacy's strong prior-year sales of over 24m copies."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "date": "2025-09-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/nintendo-is-opening-a-pop-up-store-in-london-next-month",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Nintendo is opening a pop-up store in London next month."
+    },
+    {
+      "ref": "main_news/forza-horizon-6-has-officially-been-announced-and-will-be-se",
+      "entities": {
+        "games": [{ "id": "forza-horizon-6", "name": "Forza Horizon 6", "aliases": [], "genres": ["racing"], "franchise": "forza", "inferred": true }],
+        "studios": [{ "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Forza Horizon 6 has officially been announced and will be set in Japan."
+    },
+    {
+      "ref": "main_news/final-fantasy-7-remake-director-players-should-accept-switch",
+      "entities": {
+        "games": [{ "id": "final-fantasy-7-remake", "name": "Final Fantasy 7 Remake", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }],
+        "platforms": [{ "id": "switch-2", "name": "Switch 2", "aliases": ["Switch 2 Game-Key Cards"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Final Fantasy 7 Remake director argued players should accept Switch 2 Game-Key Cards because the issue is speed, not cost."
+    },
+    {
+      "ref": "main_news/pok-mon-tcg-pocket-s-next-limited-time-booster-pack-will-let",
+      "entities": {
+        "games": [{ "id": "pokemon-tcg-pocket", "name": "Pokémon TCG Pocket", "aliases": ["Pokémon TCG Pocket"], "genres": ["card"], "franchise": "pokemon", "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Pokémon TCG Pocket's next limited-time booster pack, the Deluxe Pack: ex, will let players collect rare cards they may have missed."
+    },
+    {
+      "ref": "main_news/after-genshin-impact-and-honkai-star-rail-gacha-master-hoyov",
+      "entities": {
+        "games": [
+          { "id": "genshin-impact", "name": "Genshin Impact", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "honkai-star-rail", "name": "Honkai Star Rail", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "honkai", "inferred": true }
+        ],
+        "studios": [{ "id": "hoyoverse", "name": "HoYoverse", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "After Genshin Impact and Honkai Star Rail, HoYoverse is targeting the Animal Crossing-like cosy sim genre."
+    },
+    {
+      "ref": "main_news/starbreeze-admits-it-dropped-the-ball-over-stealth-price-inc",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "starbreeze", "name": "Starbreeze", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change", "dlc-expansion"],
+      "facts": [],
+      "summary": "Starbreeze admitted it \"dropped the ball\" over a stealth price increase to a DLC bundle."
+    },
+    {
+      "ref": "business/doug-bowser-to-retire-devon-pritchard-to-succeed-as-nintendo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo of America"], "inferred": false }],
+        "platforms": [],
+        "people": [
+          { "id": "doug-bowser", "name": "Doug Bowser", "aliases": [], "inferred": false },
+          { "id": "devon-pritchard", "name": "Devon Pritchard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Doug Bowser is to retire, with Devon Pritchard succeeding him as Nintendo of America president."
+    },
+    {
+      "ref": "business/developers-report-lengthy-payment-delays-on-itch-io",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "itch-io", "name": "itch.io", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Developers report lengthy payment delays on itch.io."
+    },
+    {
+      "ref": "business/splash-damage-breaks-away-from-tencent",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "splash-damage", "name": "Splash Damage", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Splash Damage has broken away from Tencent."
+    },
+    {
+      "ref": "business/microsoft-has-ceased-and-disabled-azure-services-to-the-isra",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Microsoft has 'ceased and disabled' Azure services to the Israeli Ministry of Defense."
+    },
+    {
+      "ref": "business/unity-forms-ai-council-to-accelerate-ai-product-innovation",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Unity has formed an AI Council to 'accelerate AI product Innovation'."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2024-07-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/s-box-the-successor-of-garry-s-mod-now-it-s-more-like-roblox",
+      "entities": {
+        "games": [
+          { "id": "sbox", "name": "S&Box", "aliases": ["S&Box"], "genres": ["sandbox"], "franchise": null, "inferred": true },
+          { "id": "garrys-mod", "name": "Garry's Mod", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true },
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "facepunch-studios", "name": "Facepunch Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "S&Box, the Source 2 engine successor to Garry's Mod, has released."
+    },
+    {
+      "ref": "main_news/7-days-to-die-officially-released-1-0-version-after-11-years",
+      "entities": {
+        "games": [
+          { "id": "7-days-to-die", "name": "7 Days to Die", "aliases": [], "genres": ["survival", "horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-fun-pimps", "name": "The Fun Pimps", "aliases": [], "publisher": null, "inferred": true },
+          { "id": "telltale-games", "name": "Telltale Games", "aliases": ["Telltale"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series", "aliases": ["Xbox Series consoles"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "early-access", "delisting"],
+      "facts": [],
+      "summary": "7 Days to Die officially released its 1.0 version after 11 years of early access, also launching on PS5 and Xbox Series, while the Telltale versions were delisted."
+    },
+    {
+      "ref": "main_news/us-video-game-performers-announce-strike-over-ongoing-ai-con",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [
+        { "metric": "event_date", "value": "2024-07-26", "unit": "date", "currency": null,
+          "entity": "sag-aftra", "entity_type": "company", "scope": "event",
+          "as_of": "2024-07-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "have voted to go on strike starting Friday, 26th July",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/us-video-game-performers-are-striking-over-ongoing-ai-concerns" } }
+      ],
+      "summary": "US video game performers in the SAG-AFTRA actors union have announced a strike starting 26 July over unresolved AI concerns."
+    },
+    {
+      "ref": "main_news/a-lego-shadow-the-hedgehog-bust-is-coming-in-october",
+      "entities": {
+        "games": [
+          { "id": "shadow-the-hedgehog", "name": "Shadow the Hedgehog", "aliases": [], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-lego-group", "name": "The Lego Group", "aliases": ["Lego"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "price", "value": 69.99, "unit": "price", "currency": "USD",
+          "entity": "lego-shadow-the-hedgehog", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The set will retail for $69.99/£69.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-lego-shadow-the-hedgehog-bust-is-coming-in-october/" } },
+        { "metric": "price", "value": 69.99, "unit": "price", "currency": "GBP",
+          "entity": "lego-shadow-the-hedgehog", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The set will retail for $69.99/£69.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/a-lego-shadow-the-hedgehog-bust-is-coming-in-october/" } }
+      ],
+      "summary": "A Lego Shadow the Hedgehog bust is coming in October, retailing for $69.99/£69.99."
+    },
+    {
+      "ref": "business/armored-core-6-fires-of-rubicon-hits-3-million-sales",
+      "entities": {
+        "games": [
+          { "id": "armored-core-6-fires-of-rubicon", "name": "Armored Core 6 Fires of Rubicon", "aliases": ["Armored Core 6"], "genres": ["action"], "franchise": "armored-core", "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 3000000, "unit": "units", "currency": null,
+          "entity": "armored-core-6-fires-of-rubicon", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-26", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Armored Core 6 Fires of Rubicon hits 3 million sales",
+          "source": { "name": "X", "domain": "x.com", "url": "https://x.com/armoredcore/status/1816473483771072954" } }
+      ],
+      "summary": "Armored Core 6 Fires of Rubicon has hit 3 million sales."
+    },
+    {
+      "ref": "business/improbable-achieves-profitability-for-the-first-time",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "improbable", "name": "Improbable", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "profit", "value": 11000000, "unit": "money", "currency": "GBP",
+          "entity": "improbable", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-26", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "posted profits of £11 million in 2023",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/improbable-achieves-profitability-for-the-first-time" } },
+        { "metric": "revenue", "value": 66000000, "unit": "money", "currency": "GBP",
+          "entity": "improbable", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-26", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "37% year-on-year increase in revenue to £66 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/improbable-achieves-profitability-for-the-first-time" } }
+      ],
+      "summary": "Improbable achieved profitability for the first time, posting £11 million in profits in 2023 on a 37% rise in revenue to £66 million."
+    },
+    {
+      "ref": "rumours/legacy-of-kain-soul-reaver-1-2-remastered-leaked-from-toys-a",
+      "entities": {
+        "games": [
+          { "id": "legacy-of-kain-soul-reaver", "name": "Legacy of Kain Soul Reaver 1 & 2", "aliases": ["Legacy of Kain Soul Reaver 1 & 2"], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "Rumour that a Legacy of Kain Soul Reaver 1 & 2 remaster has leaked via toys at San Diego Comic-Con."
+    }
+  ]
+}

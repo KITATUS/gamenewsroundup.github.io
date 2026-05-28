@@ -1,0 +1,181 @@
+{
+  "date": "2025-05-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/summer-game-fest-2025-announces-60-partners-airs-live-on-fri",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-06-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "summer-game-fest-2025",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2025-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Airs live on Friday June 6th at 5p ET / 2p PT / 9p GMT",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/summergamefest/status/1927754467337818574"
+          }
+        }
+      ],
+      "summary": "Summer Game Fest 2025 announced 60+ partners and will air live on Friday 6 June 2025 at 5pm ET / 2pm PT / 9pm GMT."
+    },
+    {
+      "ref": "free_games_subscription/free-on-epic-game-store-june-5-at-11am-et-4pm-bst",
+      "entities": {
+        "games": [
+          {
+            "id": "limbo",
+            "name": "Limbo",
+            "aliases": [],
+            "genres": ["puzzle", "platformer"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "tiny-tinas-wonderlands",
+            "name": "Tiny Tina's Wonderlands",
+            "aliases": [],
+            "genres": ["fps", "action-rpg"],
+            "franchise": "borderlands",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "epic-games-store",
+            "name": "Epic Games Store",
+            "aliases": ["Epic Game Store"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-06-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "epic-games-store",
+          "entity_type": "platform",
+          "scope": "event",
+          "as_of": "2025-05-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Free on **Epic Game Store** (June 5 at 11am ET / 4pm BST)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/tiny-tinas-wonderlands-is-one-of-two-free-games-on-the-epic-games-store-this-weel/"
+          }
+        }
+      ],
+      "summary": "Limbo and Tiny Tina's Wonderlands will be free on the Epic Games Store from 5 June 2025 at 11am ET / 4pm BST."
+    },
+    {
+      "ref": "business/atomic-heart-surpasses-10m-players",
+      "entities": {
+        "games": [
+          {
+            "id": "atomic-heart",
+            "name": "Atomic Heart",
+            "aliases": [],
+            "genres": ["fps", "action-rpg"],
+            "franchise": "atomic-heart",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "mundfish",
+            "name": "Mundfish",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 10000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "atomic-heart",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-05-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Atomic Heart surpasses 10m players",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/mundfish/status/1928073964665942218"
+          }
+        }
+      ],
+      "summary": "Atomic Heart has surpassed 10 million players."
+    },
+    {
+      "ref": "rumours/xbox-s-first-party-handheld-has-been-sidelined-for-now-as-mi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "windows-11",
+            "name": "Windows 11",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "Rumour that Xbox's first-party handheld has been sidelined for now while Microsoft focuses on the third-party 'Kennan' device and Windows 11 PC gaming handheld optimization."
+    }
+  ]
+}

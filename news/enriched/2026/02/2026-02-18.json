@@ -1,0 +1,419 @@
+{
+  "date": "2026-02-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/classic-shooter-unreal-tournament-2004-is-now-free-as-fans-r",
+      "entities": {
+        "games": [
+          {
+            "id": "unreal-tournament-2004",
+            "name": "Unreal Tournament 2004",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "unreal-tournament",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["free-game", "release"],
+      "facts": [],
+      "summary": "Unreal Tournament 2004 is now free after fans revived and released it with Epic's blessing."
+    },
+    {
+      "ref": "free_games_subscription/xbox-has-announced-the-rest-of-february-s-game-pass-titles",
+      "entities": {
+        "games": [
+          {
+            "id": "aerial-knights-dropshot",
+            "name": "Aerial_Knight's DropShot",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "avatar-frontiers-of-pandora",
+            "name": "Avatar: Frontiers of Pandora",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "avatar",
+            "inferred": true
+          },
+          {
+            "id": "death-howl",
+            "name": "Death Howl",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "ea-sports-college-football-26",
+            "name": "EA Sports College Football 26",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "ea-sports-college-football",
+            "inferred": true
+          },
+          {
+            "id": "the-witcher-3-wild-hunt",
+            "name": "The Witcher 3: Wild Hunt",
+            "aliases": ["The Witcher 3: Wild Hunt - Complete Edition"],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "the-witcher",
+            "inferred": true
+          },
+          {
+            "id": "tcg-card-shop-simulator",
+            "name": "TCG Card Shop Simulator",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "dice-a-million",
+            "name": "Dice A Million",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "towerborne",
+            "name": "Towerborne",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "final-fantasy-iii",
+            "name": "Final Fantasy III",
+            "aliases": [],
+            "genres": ["jrpg", "rpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          },
+          {
+            "id": "kingdom-come-deliverance-ii",
+            "name": "Kingdom Come: Deliverance II",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "kingdom-come-deliverance",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "xbox-game-studios",
+            "name": "Xbox Game Studios",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox-game-pass",
+            "name": "Xbox Game Pass",
+            "aliases": ["Game Pass"],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-s-x",
+            "name": "Xbox Series S/X",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-cloud-gaming",
+            "name": "Cloud",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-02-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "death-howl",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Death Howl (Cloud, Xbox Series S/X, Handheld, and PC) – February 19",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-rest-of-februarys-game-pass-titles-including-kingdom-come-deliverance-2/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-02-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "ea-sports-college-football-26",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "EA Sports College Football 26 (Cloud and Xbox Series S/X) – February 19",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-rest-of-februarys-game-pass-titles-including-kingdom-come-deliverance-2/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-02-19",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-witcher-3-wild-hunt",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Witcher 3: Wild Hunt – Complete Edition (Cloud and Console) – February 19",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-rest-of-februarys-game-pass-titles-including-kingdom-come-deliverance-2/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-02-25",
+          "unit": "date",
+          "currency": null,
+          "entity": "dice-a-million",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dice A Million (PC) – February 25",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-rest-of-februarys-game-pass-titles-including-kingdom-come-deliverance-2/"
+          }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-03-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "final-fantasy-iii",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Final Fantasy III (Cloud, Xbox Series S/X, and PC) – March 3",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-has-announced-the-rest-of-februarys-game-pass-titles-including-kingdom-come-deliverance-2/"
+          }
+        }
+      ],
+      "summary": "Xbox announced the rest of February's Game Pass titles, including The Witcher 3: Wild Hunt and Kingdom Come: Deliverance II."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-s-virtual-boy-app-is-now-available-on-switch-online",
+      "entities": {
+        "games": [
+          {
+            "id": "3d-tetris",
+            "name": "3D Tetris",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": "tetris",
+            "inferred": true
+          },
+          {
+            "id": "galactic-pinball",
+            "name": "Galactic Pinball",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "golf",
+            "name": "Golf",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-mansion-of-innsmouth",
+            "name": "The Mansion of Innsmouth",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "red-alarm",
+            "name": "Red Alarm",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "teleroboxer",
+            "name": "Teleroboxer",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "virtual-boy-wario-land",
+            "name": "Virtual Boy Wario Land",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "wario-land",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-online",
+            "name": "Nintendo Switch Online",
+            "aliases": ["Switch Online"],
+            "inferred": false
+          },
+          {
+            "id": "virtual-boy",
+            "name": "Virtual Boy",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "release"],
+      "facts": [],
+      "summary": "Nintendo's Virtual Boy app is now available on Switch Online with seven games at launch."
+    },
+    {
+      "ref": "business/hasbro-shutters-internal-video-game-studio-atomic-arcade-the",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "atomic-arcade",
+            "name": "Atomic Arcade",
+            "aliases": [],
+            "publisher": "hasbro",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "hasbro",
+            "name": "Hasbro",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Hasbro closed its internal video game studio Atomic Arcade, which had been developing a G.I. Joe title, though the \"Untitled Snake Eyes Project\" has not been cancelled."
+    },
+    {
+      "ref": "business/mewgenics-has-reached-1-million-copies-sold",
+      "entities": {
+        "games": [
+          {
+            "id": "mewgenics",
+            "name": "Mewgenics",
+            "aliases": [],
+            "genres": ["roguelike", "strategy"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "mewgenics",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-02-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mewgenics has reached 1 million copies sold",
+          "source": {
+            "name": "Bluesky",
+            "domain": "bsky.app",
+            "url": "https://bsky.app/profile/tylerglaiel.com/post/3mf3aeadpfc2z"
+          }
+        }
+      ],
+      "summary": "Mewgenics has reached 1 million copies sold."
+    }
+  ]
+}

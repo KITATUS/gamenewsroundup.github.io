@@ -1,0 +1,154 @@
+{
+  "date": "2024-07-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/tencent-is-shutting-down-its-free-to-play-shooter-synced-aft",
+      "entities": {
+        "games": [
+          { "id": "synced", "name": "Synced", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-09-08", "unit": "date", "currency": null,
+          "entity": "synced", "entity_type": "game", "scope": "game",
+          "as_of": "2024-07-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 8th",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/tencent-is-shutting-down-its-free-to-play-shooter-synced-after-just-a-year" } }
+      ],
+      "summary": "Tencent is shutting down its free-to-play shooter Synced after about a year, with servers retiring on 8 September 2024."
+    },
+    {
+      "ref": "main_news/frontier-has-announced-planet-coaster-2-for-release-this-yea",
+      "entities": {
+        "games": [
+          { "id": "planet-coaster-2", "name": "Planet Coaster 2", "aliases": [], "genres": ["simulation"], "franchise": "planet-coaster", "inferred": true }
+        ],
+        "studios": [
+          { "id": "frontier-developments", "name": "Frontier", "aliases": ["Frontier"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Frontier announced Planet Coaster 2 for release in autumn 2024 on PC, PlayStation 5, and Xbox Series S/X."
+    },
+    {
+      "ref": "free_games_subscription/amazon-prime-gaming-is-giving-away-3-more-pc-games-including",
+      "entities": {
+        "games": [
+          { "id": "suicide-squad-kill-the-justice-league", "name": "Suicide Squad: Kill the Justice League", "aliases": ["Suicide Squad"], "genres": ["tps", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "chivalry-2", "name": "Chivalry 2", "aliases": [], "genres": ["action", "fighting"], "franchise": "chivalry", "inferred": true },
+          { "id": "rise-of-the-tomb-raider", "name": "Rise of the Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "amazon-prime-gaming", "name": "Amazon Prime Gaming", "aliases": ["Prime Gaming"], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game"],
+      "facts": [],
+      "summary": "Amazon Prime Gaming is giving away three PC games, including Suicide Squad: Kill the Justice League, Chivalry 2, and Rise of the Tomb Raider, claimable from 16 July via the Epic Games Store."
+    },
+    {
+      "ref": "business/embracer-has-secured-a-new-600m-652m-revolving-credit-facili",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": ["Embracer"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Embracer secured a new EUR 600m ($652m) two-year revolving credit facility, replacing its existing EUR 420m ($456m) facility maturing in May 2025."
+    },
+    {
+      "ref": "business/small-number-of-roles-face-potential-redundancies-at-splash",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "splash-damage", "name": "Splash Damage", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "A small number of roles, mostly in operations, face potential redundancies at Splash Damage, with development largely unaffected."
+    },
+    {
+      "ref": "business/stellar-blade-developer-shift-up-raises-320m-in-ipo",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade", "name": "Stellar Blade", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 320000000, "unit": "money", "currency": "USD",
+          "entity": "shift-up", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Shift Up raises $320m in IPO",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/stellar-blade-developer-shift-up-raises-320m-in-ipo" } },
+        { "metric": "funding_raised", "value": 3800000000, "unit": "money", "currency": "USD",
+          "entity": "krafton", "entity_type": "company", "scope": "company",
+          "as_of": "2024-07-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PUBG developer Krafton raised $3.8 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/stellar-blade-developer-shift-up-raises-320m-in-ipo" } }
+      ],
+      "summary": "Stellar Blade developer Shift Up raised $320m in its IPO, the largest gaming IPO in South Korea in over two years."
+    },
+    {
+      "ref": "rumours/uk-store-game-to-end-in-store-pre-orders-game-wallet-to-also",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour", "shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2024-08-21", "unit": "date", "currency": null,
+          "entity": "game-wallet", "entity_type": "product", "scope": "product",
+          "as_of": "2024-07-12", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "After 21st August, all GAME Wallet accounts will be closed.",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/game-to-end-in-store-pre-orders" } }
+      ],
+      "summary": "Rumour that UK retailer GAME will end in-store pre-orders from 1 August and close all GAME Wallet accounts after 21 August 2024."
+    }
+  ]
+}

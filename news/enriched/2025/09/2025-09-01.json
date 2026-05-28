@@ -1,0 +1,355 @@
+{
+  "date": "2025-09-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/opus-4.7",
+  "items": [
+    {
+      "ref": "main_news/8-weeks-before-release-mortal-kombat-2-the-movie-has-been-de",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2026-05-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "mortal-kombat-2",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2025-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Mortal Kombat 2 will now release on May 15, 2026",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/weeks-before-release-mortal-kombat-2-has-been-delayed-7-months/"
+          }
+        }
+      ],
+      "summary": "The Mortal Kombat 2 movie has been delayed seven months and will now release on 15 May 2026, reportedly to avoid an October box-office window."
+    },
+    {
+      "ref": "main_news/yooka-replaylee-confirmed-for-october-at-30-additional-30-di",
+      "entities": {
+        "games": [
+          {
+            "id": "yooka-replaylee",
+            "name": "Yooka-Replaylee",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "yooka-laylee",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "price-change", "sale-discount"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 30,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "yooka-replaylee",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "confirmed for October at $30",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/yooka-replaylee-confirmed-for-october-at-30-additional-30-discount-for-original-owners/"
+          }
+        },
+        {
+          "metric": "price_change_pct",
+          "value": 30,
+          "unit": "percent",
+          "currency": null,
+          "entity": "yooka-replaylee",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-01",
+          "period": "point_in_time",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "additional 30% discount for original owners",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/yooka-replaylee-confirmed-for-october-at-30-additional-30-discount-for-original-owners/"
+          }
+        }
+      ],
+      "summary": "Yooka-Replaylee is confirmed for an October release at $30, with an additional 30% discount for owners of the original game."
+    },
+    {
+      "ref": "main_news/steam-now-requires-age-verification-in-the-uk-for-mature-gam",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Steam now requires age verification in the UK to access mature game pages."
+    },
+    {
+      "ref": "main_news/capcom-confirms-pragmata-isn-t-a-secret-mega-man-game",
+      "entities": {
+        "games": [
+          {
+            "id": "pragmata",
+            "name": "Pragmata",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Capcom confirmed that its game Pragmata is not a secret Mega Man title."
+    },
+    {
+      "ref": "main_news/stardew-valley-will-be-getting-another-update-no-release-dat",
+      "entities": {
+        "games": [
+          {
+            "id": "stardew-valley",
+            "name": "Stardew Valley",
+            "aliases": [],
+            "genres": ["life-sim", "rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Stardew Valley will receive another update, with no release date given at this time."
+    },
+    {
+      "ref": "main_news/honkai-nexus-anima-revealed-a-spin-off-creature-collector-fr",
+      "entities": {
+        "games": [
+          {
+            "id": "honkai-nexus-anima",
+            "name": "Honkai Nexus Anima",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "honkai",
+            "inferred": true
+          },
+          {
+            "id": "genshin-impact",
+            "name": "Genshin Impact",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hoyoverse",
+            "name": "HoYoverse",
+            "aliases": ["Genshin Impact studio"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "beta-demo"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2025-09-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "honkai-nexus-anima",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2025-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the recruitment period lasting from now until 12th September",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/honkai-nexus-anima-revealed-a-spin-off-creature-collector-from-genshin-impact-studio"
+          }
+        }
+      ],
+      "summary": "Honkai Nexus Anima, a creature-collector spin-off from the Genshin Impact studio, was revealed with test sign-ups open until 12 September 2025."
+    },
+    {
+      "ref": "main_news/f2p-rpg-duet-night-abyss-abandons-gacha-mechanics-just-weeks",
+      "entities": {
+        "games": [
+          {
+            "id": "duet-night-abyss",
+            "name": "Duet Night Abyss",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Free-to-play RPG Duet Night Abyss is abandoning its gacha mechanics just weeks before launch in response to consistent player dissatisfaction."
+    },
+    {
+      "ref": "business/curveball-leisure-launches-full-service-publishing-division",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "curveball-leisure",
+            "name": "Curveball Leisure",
+            "aliases": ["Curveball Games"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "ed-gregory",
+            "name": "Ed Gregory",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement", "studio-opening"],
+      "facts": [],
+      "summary": "Curveball Leisure launched a full-service publishing division, Curveball Games, helmed by senior publishing manager Ed Gregory to fund indie to AA titles."
+    },
+    {
+      "ref": "business/cd-projekt-h1-profit-rises-4-3-to-121m",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "cd-projekt",
+            "name": "CD Projekt",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "profit",
+          "value": 121000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "cd-projekt",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2025-09-01",
+          "period": "cumulative",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "CD Projekt H1 profit rises 4.3% to $121m",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-h1-profit-rises-43-to-121m"
+          }
+        }
+      ],
+      "summary": "CD Projekt reported first-half profit of $121 million, up 4.3%."
+    },
+    {
+      "ref": "business/netease-shuts-down-rich-vogel-led-t-minus-zero-entertainment",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "t-minus-zero-entertainment",
+            "name": "T-Minus Zero Entertainment",
+            "aliases": [],
+            "publisher": "netease",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "rich-vogel",
+            "name": "Rich Vogel",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "NetEase shut down T-Minus Zero Entertainment, the studio led by Rich Vogel."
+    }
+  ]
+}
