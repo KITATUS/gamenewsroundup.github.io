@@ -2,7 +2,7 @@
 
 # Game News Round-Up
 
-**The day's biggest games news, rounded up by hand, every day.**
+**Hand-curated round-ups of the biggest stories in the game industry**
 
 [**Read it at gamenewsroundup.co.uk**](https://gamenewsroundup.co.uk)
 
