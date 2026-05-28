@@ -1,0 +1,151 @@
+{
+  "id": "2024-07-01",
+  "date": "2024-07-01",
+  "title": "Game News Round-Up",
+  "status": "published",
+  "published_at": "2024-07-01T09:10:52.199+01:00",
+  "updated_at": null,
+  "summary": "Daily curated games-industry news digest for 1 July 2024.",
+  "video": {
+    "status": "none",
+    "url": null,
+    "embed_url": null,
+    "platform": null,
+    "duration_seconds": null
+  },
+  "sections": [
+    {
+      "id": "main_news",
+      "label": "Game News Round-Up",
+      "items": [
+        {
+          "id": "warhammer-40-000-space-marine-2-cancels-public-beta-to-prepa",
+          "title": "**Warhammer 40,000: Space Marine 2 **cancels public beta to \"prepare for the full launch\"",
+          "body": null,
+          "url": "https://www.eurogamer.net/warhammer-40000-space-marine-2-cancels-public-beta-to-prepare-for-the-full-launch",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "helldivers-2-loses-90-of-its-pc-player-base-in-just-five-mon",
+          "title": "**Helldivers 2** loses 90% of its PC player base in just five months",
+          "body": null,
+          "url": "https://www.eurogamer.net/helldivers-2-loses-90-of-its-pc-player-base-in-just-five-months",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "30-day average of 41,860 concurrent players on Steam",
+            "Majority of players are on PS5"
+          ]
+        },
+        {
+          "id": "team-fortress-2-aimbots-are-being-quietly-banned-by-valve",
+          "title": "**Team Fortress 2** aimbots are being quietly banned by Valve",
+          "body": null,
+          "url": "https://www.eurogamer.net/team-fortress-2-aimbots-are-being-quietly-banned-by-valve",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "awesome-games-done-quick-has-returned",
+          "title": "**Awesome Games Done Quick **has returned",
+          "body": "Runs from now until Sunday July 7th",
+          "url": "https://crowd.gamesdonequick.com/",
+          "source": {
+            "name": "crowd.gamesdonequick.com",
+            "domain": "crowd.gamesdonequick.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "free_games_subscription",
+      "label": "Free Games / Subscription",
+      "items": []
+    },
+    {
+      "id": "business",
+      "label": "Business",
+      "items": [
+        {
+          "id": "a-way-out-has-sold-9-million-units",
+          "title": "**A Way Out** has sold 9 million units",
+          "body": null,
+          "url": "https://x.com/HazelightGames/status/1805999202704502827",
+          "source": {
+            "name": "X",
+            "domain": "x.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rumours",
+      "label": "Rumours",
+      "items": [
+        {
+          "id": "timesplitters-could-be-headed-to-playstation-plus-new-rating",
+          "title": "**Timesplitters **could be headed to **PlayStation Plus**, new ratings suggest",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/timesplitters-could-be-headed-to-playstation-plus-new-ratings-suggest/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "rumour",
+            "rumour_status": "rumour",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Free Radical Design's classic FPS has been classified for PS4/5 in Taiwan"
+          ]
+        },
+        {
+          "id": "a-newly-filed-sony-patent-might-lend-further-credence-to-the",
+          "title": "A newly filed **Sony **patent might lend further credence to the recent rumors about **PlayStation 3 **backwards compatibility being in the works for PlayStation 5",
+          "body": null,
+          "url": "https://gamerant.com/playstation-5-patent-ps3-backwards-compatibility-proof/",
+          "source": {
+            "name": "Game Rant",
+            "domain": "gamerant.com"
+          },
+          "metadata": {
+            "story_type": "rumour",
+            "rumour_status": "rumour",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Filed on 27 June 2024 and titled \"Backward Compatibility Testing of Software in a Mode That Attempts to Induce Skew,\" the patent describes a mechanism that allows a device (presumably the PS5) to run in a \"timing testing mode\" that purposefully induces skew."
+          ]
+        }
+      ]
+    }
+  ]
+}
