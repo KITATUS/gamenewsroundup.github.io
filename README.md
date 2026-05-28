@@ -6,7 +6,7 @@
 
 [**Read it at gamenewsroundup.co.uk**](https://gamenewsroundup.co.uk)
 
-`Hand-sourced` · `No AI` · `No tracking` · `No ads` · `No account needed`
+`Hand-sourced` · `No tracking` · `No ads` · `No account needed`
 
 </div>
 
