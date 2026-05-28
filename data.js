@@ -15,11 +15,16 @@ window.GNRU = {
 
   async loadIndex() {
     if (this._indexLoaded) return this.roundups;
-    const res = await fetch('news/index.json');
+    const res = await fetch('/news/index.json');
     if (!res.ok) throw new Error(`Failed to load news index (${res.status})`);
     this.roundups = await res.json();
     this._indexLoaded = true;
     return this.roundups;
+  },
+
+  // True once the manifest is available (loaded or seeded from the bootstrap island).
+  hasIndex() {
+    return this._indexLoaded && this.roundups.length > 0;
   },
 
   // Fetch a day's full round-up and merge its sections into the index entry.
@@ -28,7 +33,7 @@ window.GNRU = {
     if (this._dayCache[date]) return this._dayCache[date];
     const entry = this.roundups.find(r => r.date === date);
     const [y, m] = date.split('-');
-    const promise = fetch(`news/${y}/${m}/${date}.json`)
+    const promise = fetch(`/news/${y}/${m}/${date}.json`)
       .then(res => {
         if (!res.ok) throw new Error(`Failed to load ${date} (${res.status})`);
         return res.json();
@@ -91,3 +96,22 @@ window.GNRU = {
     return roundup.section_ids || [];
   }
 };
+
+// Seed from the pre-rendered page's bootstrap island so the app boots with the
+// manifest (and the current day) already in memory — no fetch, no Loading flash.
+// The island is { index: [...entries], day: <full round-up>|null } embedded by the
+// static-page generator (scripts/lib/render-html.mjs). Absent in dev = normal fetch.
+(function seedFromBootstrap() {
+  const el = document.getElementById('gnr-bootstrap');
+  if (!el) return;
+  let data;
+  try { data = JSON.parse(el.textContent); } catch (e) { return; }
+  if (!data || !Array.isArray(data.index) || data.index.length === 0) return;
+  window.GNRU.roundups = data.index;
+  window.GNRU._indexLoaded = true;
+  if (data.day && data.day.date) {
+    const entry = window.GNRU.roundups.find(r => r.date === data.day.date);
+    if (entry) Object.assign(entry, data.day);
+    window.GNRU._dayCache[data.day.date] = Promise.resolve(entry || data.day);
+  }
+})();

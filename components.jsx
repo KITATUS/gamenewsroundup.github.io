@@ -96,7 +96,7 @@ const StoryItem = ({ item, showTags = true, compact = false }) => {
 };
 
 // ── Hero Story Row (for homepage hero) ────────────────────────────────────────
-const HeroStoryRow = ({ item, onNavigate }) => {
+const HeroStoryRow = ({ item, date, onNavigate }) => {
   const isRumour = item.metadata && item.metadata.story_type === 'rumour';
   return (
     <div className="hero-story-row">
@@ -104,9 +104,9 @@ const HeroStoryRow = ({ item, onNavigate }) => {
       <div className="hero-story-row__content">
         {isRumour && <RumourBadge status={item.metadata.rumour_status} />}
         <a
-          href="#"
+          href={date ? `/${date}/` : '/'}
           className="hero-story-row__title"
-          onClick={e => { e.preventDefault(); onNavigate('daily', '2026-05-27'); }}
+          onClick={e => { e.preventDefault(); onNavigate('daily', date); }}
         >
           {item.title}
         </a>

@@ -71,8 +71,8 @@ const HomePage = ({ onNavigate, date }) => {
       <DateNavBar currentDate={roundup.date} onNavigate={onNavigate} />
       <div className="home-feeds-strip">
         <div className="home-feeds-strip__inner">
-          <a href="feeds/rss.xml" className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">RSS →</a>
-          <a href={`api/roundups/${roundup.date}.json`} className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">JSON →</a>
+          <a href="/feeds/rss.xml" className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">RSS →</a>
+          <a href={`/api/roundups/${roundup.date}.json`} className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">JSON →</a>
           <CopySlackButton roundup={roundup} className="home-feeds-strip__link" />
         </div>
       </div>
@@ -136,10 +136,10 @@ const DailyPage = ({ date, onNavigate, tweaks }) => {
         {/* Data footer */}
         <footer className="daily-footer">
           <div className="daily-footer__links">
-            <a href={`api/roundups/${roundup.date}.json`} className="daily-footer__link" target="_blank" rel="noopener noreferrer">
+            <a href={`/api/roundups/${roundup.date}.json`} className="daily-footer__link" target="_blank" rel="noopener noreferrer">
               JSON →
             </a>
-            <a href="feeds/rss.xml" className="daily-footer__link" target="_blank" rel="noopener noreferrer">
+            <a href="/feeds/rss.xml" className="daily-footer__link" target="_blank" rel="noopener noreferrer">
               RSS →
             </a>
             <CopySlackButton roundup={roundup} className="daily-footer__link" />
@@ -222,6 +222,8 @@ const FeedsPage = ({ onNavigate }) => {
     setCopied(id);
     setTimeout(() => setCopied(null), 1800);
   };
+  const origin = (typeof location !== 'undefined' && location.origin) || 'https://gamenewsroundup.co.uk';
+  const latestDate = (GNRU.getLatest() || {}).date || '';
 
   return (
     <main className="page page--feeds">
@@ -243,8 +245,8 @@ const FeedsPage = ({ onNavigate }) => {
               appears as a single entry with a sectioned digest in the description.
             </p>
             <div className="feeds-endpoint-row">
-              <code className="feeds-endpoint">feeds/rss.xml</code>
-              <button className="feeds-copy-btn" onClick={() => copy('rss', 'feeds/rss.xml')}>
+              <code className="feeds-endpoint">{`${origin}/feeds/rss.xml`}</code>
+              <button className="feeds-copy-btn" onClick={() => copy('rss', `${origin}/feeds/rss.xml`)}>
                 {copied === 'rss' ? 'Copied' : 'Copy'}
               </button>
             </div>
@@ -259,9 +261,9 @@ const FeedsPage = ({ onNavigate }) => {
             </p>
             <div className="feeds-endpoint-list">
               {[
-              ['api/roundups/index.json', 'All published round-ups'],
-              ['api/roundups/latest.json', 'Latest round-up (full payload)'],
-              ['api/roundups/2026-05-27.json', 'Specific date']].
+              [`${origin}/api/roundups/index.json`, 'All published round-ups'],
+              [`${origin}/api/roundups/latest.json`, 'Latest round-up (full payload)'],
+              [`${origin}/api/roundups/${latestDate}.json`, 'Specific date']].
               map(([ep, desc]) =>
               <div key={ep} className="feeds-endpoint-row feeds-endpoint-row--stacked">
                   <div className="feeds-endpoint-desc">{desc}</div>

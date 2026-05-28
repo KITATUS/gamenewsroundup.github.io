@@ -1,0 +1,17 @@
+# Game News Round-Up
+
+> A daily curated digest of games-industry news.
+
+Game News Round-Up publishes a hand-curated summary of the day's video-game industry news — releases, business moves, free games and subscription additions, and rumours. Every story links to its original source.
+
+## Data & feeds
+- [RSS feed](https://gamenewsroundup.co.uk/feeds/rss.xml): every round-up as a feed entry.
+- [JSON index](https://gamenewsroundup.co.uk/api/roundups/index.json): all published round-ups, newest first.
+- [Latest round-up (JSON)](https://gamenewsroundup.co.uk/api/roundups/latest.json): full payload of the most recent day.
+- Per-day JSON: https://gamenewsroundup.co.uk/api/roundups/<YYYY-MM-DD>.json (mirror of /news/<YYYY>/<MM>/<YYYY-MM-DD>.json).
+
+## Pages
+- Human-readable round-up per day: https://gamenewsroundup.co.uk/<YYYY-MM-DD>/
+- [Archive](https://gamenewsroundup.co.uk/archive/): every round-up by date.
+
+Coverage: 2024-04-25 to 2026-05-28.
