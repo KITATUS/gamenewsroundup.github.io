@@ -1,0 +1,125 @@
+{
+  "date": "2026-05-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/call-of-duty-modern-warfare-4-announced-skipping-ps4-xbox-on",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty-modern-warfare-4",
+            "name": "Call of Duty: Modern Warfare 4",
+            "aliases": ["Call of Duty Modern Warfare 4"],
+            "genres": ["fps"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": ["Xbox One"], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series", "aliases": ["Xbox Series"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "switch-2", "name": "Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Call of Duty: Modern Warfare 4 was announced, skipping PS4 and Xbox One but coming to PS5, Xbox Series, PC and Switch 2, with a campaign set in Korea."
+    },
+    {
+      "ref": "business/the-witcher-3-wild-hunt-has-sold-65-million-units",
+      "entities": {
+        "games": [
+          {
+            "id": "the-witcher-3-wild-hunt",
+            "name": "The Witcher 3: Wild Hunt",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 65000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "the-witcher-3-wild-hunt",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-29",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Witcher 3: Wild Hunt has sold 65 million units",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/witcher-3-sales-milestone-65-million"
+          }
+        }
+      ],
+      "summary": "The Witcher 3: Wild Hunt has sold 65 million units."
+    },
+    {
+      "ref": "business/007-first-light-sells-1-5-million-copies-in-the-first-24-hou",
+      "entities": {
+        "games": [
+          {
+            "id": "007-first-light",
+            "name": "007 First Light",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "james-bond",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": ["IOInteractive"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1500000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "007-first-light",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-05-29",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "007 First Light sells 1.5 million copies in the first 24 hours of release",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/IOInteractive/status/2060061414761402754"
+          }
+        }
+      ],
+      "summary": "007 First Light sold 1.5 million copies in the first 24 hours of release."
+    }
+  ]
+}

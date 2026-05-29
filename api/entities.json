@@ -1,7 +1,7 @@
 {
   "007-first-light": {
     "aliases": [],
-    "fact_count": 2,
+    "fact_count": 3,
     "first_seen": "2025-06-03",
     "franchise": "james-bond",
     "genres": [
@@ -9,8 +9,8 @@
       "stealth",
       "tps"
     ],
-    "last_seen": "2026-01-05",
-    "mentions": 7,
+    "last_seen": "2026-05-29",
+    "mentions": 8,
     "name": "007 First Light",
     "type": "game"
   },
@@ -5310,6 +5310,21 @@
     "name": "Call of Duty: Modern Warfare 3",
     "type": "game"
   },
+  "call-of-duty-modern-warfare-4": {
+    "aliases": [
+      "Call of Duty Modern Warfare 4"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-05-29",
+    "franchise": "call-of-duty",
+    "genres": [
+      "fps"
+    ],
+    "last_seen": "2026-05-29",
+    "mentions": 1,
+    "name": "Call of Duty: Modern Warfare 4",
+    "type": "game"
+  },
   "call-of-duty-modern-warfare-ii": {
     "aliases": [],
     "fact_count": 1,
@@ -5724,8 +5739,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-08",
-    "last_seen": "2026-05-28",
-    "mentions": 25,
+    "last_seen": "2026-05-29",
+    "mentions": 26,
     "name": "CD Projekt Red",
     "type": "studio"
   },
@@ -18620,8 +18635,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-06-05",
-    "last_seen": "2026-05-21",
-    "mentions": 11,
+    "last_seen": "2026-05-29",
+    "mentions": 12,
     "name": "IO Interactive",
     "type": "studio"
   },
@@ -28962,8 +28977,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-05-19",
-    "mentions": 205,
+    "last_seen": "2026-05-29",
+    "mentions": 206,
     "name": "PC",
     "type": "platform"
   },
@@ -31154,9 +31169,9 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-02-06",
-    "mentions": 54,
-    "name": "PS4",
+    "last_seen": "2026-05-29",
+    "mentions": 55,
+    "name": "PlayStation 4",
     "type": "platform"
   },
   "ps5": {
@@ -31169,9 +31184,9 @@
     ],
     "fact_count": 16,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-05-14",
-    "mentions": 153,
-    "name": "PS5",
+    "last_seen": "2026-05-29",
+    "mentions": 154,
+    "name": "PlayStation 5",
     "type": "platform"
   },
   "ps5-pro": {
@@ -38967,8 +38982,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-07-02",
-    "last_seen": "2026-04-27",
-    "mentions": 18,
+    "last_seen": "2026-05-29",
+    "mentions": 19,
     "name": "Switch 2",
     "type": "platform"
   },
@@ -42028,15 +42043,15 @@
       "The Witcher 3",
       "The Witcher 3: Wild Hunt - Complete Edition"
     ],
-    "fact_count": 2,
+    "fact_count": 3,
     "first_seen": "2024-08-15",
     "franchise": "the-witcher",
     "genres": [
       "action-rpg",
       "open-world"
     ],
-    "last_seen": "2026-02-18",
-    "mentions": 4,
+    "last_seen": "2026-05-29",
+    "mentions": 5,
     "name": "The Witcher 3: Wild Hunt",
     "type": "game"
   },
@@ -46489,13 +46504,14 @@
   },
   "xbox-one": {
     "aliases": [
+      "Xbox One",
       "Xbox One /S/X",
       "Xbox One /X/S"
     ],
     "fact_count": 0,
     "first_seen": "2024-06-07",
-    "last_seen": "2025-10-27",
-    "mentions": 27,
+    "last_seen": "2026-05-29",
+    "mentions": 28,
     "name": "Xbox One",
     "type": "platform"
   },
@@ -46523,14 +46539,15 @@
     "aliases": [
       "Series S/X",
       "Xbox",
+      "Xbox Series",
       "Xbox Series S/X",
       "Xbox Series X|S",
       "Xbox Series consoles"
     ],
     "fact_count": 0,
     "first_seen": "2024-06-10",
-    "last_seen": "2026-03-06",
-    "mentions": 32,
+    "last_seen": "2026-05-29",
+    "mentions": 33,
     "name": "Xbox Series",
     "type": "platform"
   },
