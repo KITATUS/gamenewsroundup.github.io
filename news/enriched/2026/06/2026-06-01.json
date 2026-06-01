@@ -1,0 +1,137 @@
+{
+  "date": "2026-06-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/fable-has-been-delayed-to-february-2027",
+      "entities": {
+        "games": [
+          { "id": "fable", "name": "Fable", "aliases": [], "genres": ["action-rpg"], "franchise": "fable", "inferred": true }
+        ],
+        "studios": [
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2027-02", "unit": "date", "currency": null,
+          "entity": "fable", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fable has been delayed to February 2027",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/fable-reboot-delayed-2027-amid-reported-gta-6-worries" } }
+      ],
+      "summary": "The Fable reboot has been delayed to February 2027."
+    },
+    {
+      "ref": "main_news/activision-confirms-call-of-duty-warzone-is-shutting-down-on",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-warzone", "name": "Call of Duty: Warzone", "aliases": ["Call of Duty Warzone"], "genres": ["battle-royale", "fps", "shooter"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-modern-warfare-4", "name": "Modern Warfare 4", "aliases": ["Modern Wafare 4"], "genres": ["fps", "shooter"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Activision confirmed that Call of Duty: Warzone will shut down on last-gen PlayStation and Xbox consoles when Modern Warfare 4 releases."
+    },
+    {
+      "ref": "business/balatro-owner-playstack-sold-to-subsidary-of-parent-company",
+      "entities": {
+        "games": [
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "playstack", "name": "Playstack", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "equity_stake_pct", "value": 84.5, "unit": "percent", "currency": null,
+          "entity": "playstack", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-06-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "agreed to sell its 84.5 percent stake in the UK publisher",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/balatro-owner-playstack-sold-to-parent-company-of-fandom-gamespot/" } },
+        { "metric": "acquisition_price", "value": 112400000, "unit": "money", "currency": "GBP",
+          "entity": "playstack", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-06-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£112.4 million",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/balatro-owner-playstack-sold-to-parent-company-of-fandom-gamespot/" } },
+        { "metric": "acquisition_price", "value": 151000000, "unit": "money", "currency": "USD",
+          "entity": "playstack", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-06-01", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$151 million",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/balatro-owner-playstack-sold-to-parent-company-of-fandom-gamespot/" } }
+      ],
+      "summary": "Balatro publisher Playstack is being sold, with previous owner Turin agreeing to sell its 84.5 percent stake to VantageCo, a subsidiary of Integrated Media Company, for £112.4 million."
+    },
+    {
+      "ref": "business/netease-q1-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 30600000000, "unit": "money", "currency": "CNY",
+          "entity": "netease", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-01", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net revenues: RMB30.6 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1" } },
+        { "metric": "revenue", "value": 4400000000, "unit": "money", "currency": "USD",
+          "entity": "netease", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-01", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Net revenues: RMB30.6 billion ($4.4 billion)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1" } },
+        { "metric": "revenue", "value": 25700000000, "unit": "money", "currency": "CNY",
+          "entity": "netease", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-01", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Games and related value-added services net revenues: RMB25.7 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1" } },
+        { "metric": "revenue", "value": 3700000000, "unit": "money", "currency": "USD",
+          "entity": "netease", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-01", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Games and related value-added services net revenues: RMB25.7 billion ($3.7 billion)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1" } },
+        { "metric": "revenue", "value": 25100000000, "unit": "money", "currency": "CNY",
+          "entity": "netease", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-01", "period": "quarterly", "direction": "up", "confidence": "medium",
+          "quote": "Online games revenue: approximately RMB25.1 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1" } }
+      ],
+      "summary": "NetEase reported net revenues of RMB30.6 billion ($4.4 billion) for the quarter ending March 31, 2026, up 6.1% year-on-year, with games and related value-added services revenue of RMB25.7 billion."
+    }
+  ]
+}
