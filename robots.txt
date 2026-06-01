@@ -24,3 +24,10 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://gamenewsroundup.co.uk/sitemap.xml
+
+# AI agents / LLMs: structured, machine-readable data lives here.
+# Read this first instead of scraping pages:
+#   LLM guide:      https://gamenewsroundup.co.uk/llms.txt
+#   Facts (JSONL):  https://gamenewsroundup.co.uk/api/facts.jsonl
+#   Entities (JSON):https://gamenewsroundup.co.uk/api/entities.json
+LLM-Content: https://gamenewsroundup.co.uk/llms.txt
