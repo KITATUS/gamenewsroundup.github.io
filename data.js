@@ -97,19 +97,22 @@ window.GNRU = {
   }
 };
 
-// Seed from the pre-rendered page's bootstrap island so the app boots with the
+// Seed from the pre-rendered page's bootstrap data so the app boots with the
 // manifest (and the current day) already in memory — no fetch, no Loading flash.
-// The island is { index: [...entries], day: <full round-up>|null } embedded by the
-// static-page generator (scripts/lib/render-html.mjs). Absent in dev = normal fetch.
+// The manifest is delivered once by the shared /news/index-bootstrap.js script
+// (window.GNR_BOOTSTRAP_INDEX), so it isn't copied into every page. The per-page
+// island is just { day: <full round-up>|null }. Both absent in dev = normal fetch.
 (function seedFromBootstrap() {
+  const index = window.GNR_BOOTSTRAP_INDEX;
+  if (!Array.isArray(index) || index.length === 0) return;
+  window.GNRU.roundups = index;
+  window.GNRU._indexLoaded = true;
+
   const el = document.getElementById('gnr-bootstrap');
   if (!el) return;
   let data;
   try { data = JSON.parse(el.textContent); } catch (e) { return; }
-  if (!data || !Array.isArray(data.index) || data.index.length === 0) return;
-  window.GNRU.roundups = data.index;
-  window.GNRU._indexLoaded = true;
-  if (data.day && data.day.date) {
+  if (data && data.day && data.day.date) {
     const entry = window.GNRU.roundups.find(r => r.date === data.day.date);
     if (entry) Object.assign(entry, data.day);
     window.GNRU._dayCache[data.day.date] = Promise.resolve(entry || data.day);
