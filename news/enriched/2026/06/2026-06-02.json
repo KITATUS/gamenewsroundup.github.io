@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/us-bill-requiring-paid-games-to-be-playable-after-they-shut",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "A US bill requiring paid games to remain playable after their live services shut down has passed an initial vote and moved to the Senate."
+    },
+    {
+      "ref": "main_news/sony-state-of-play-june-2026-tonight-10pm-bst-11pm-cest-5pm",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-06-02", "unit": "date", "currency": null,
+          "entity": "state-of-play", "entity_type": "product", "scope": "event",
+          "as_of": "2026-06-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Tonight",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/sony-state-of-play-june-2026-time-where-to-watch" } }
+      ],
+      "summary": "Sony will hold a State of Play showcase on the evening of 2 June 2026 at 10pm BST / 11pm CEST / 5pm EDT / 2pm PDT."
+    },
+    {
+      "ref": "business/new-zealand-games-sector-hits-1bn-revenue-two-years-earlier",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "revenue", "value": 1000000000, "unit": "money", "currency": "USD",
+          "entity": "new-zealand-games-sector", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-02", "period": null, "direction": null, "confidence": "high",
+          "quote": "New Zealand games sector hits $1bn revenue",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/new-zealand-games-sector-hits-1bn-revenue-two-years-earlier-than-anticipated" } }
+      ],
+      "summary": "New Zealand's games sector has reached $1bn in revenue two years earlier than anticipated, attributed to government rebate and Centre of Digital Excellence funding."
+    },
+    {
+      "ref": "business/atari-acquires-crossy-road-developer-hipster-whale-australia",
+      "entities": {
+        "games": [
+          { "id": "crossy-road", "name": "Crossy Road", "aliases": [], "genres": [], "franchise": "crossy-road", "inferred": true }
+        ],
+        "studios": [
+          { "id": "hipster-whale", "name": "Hipster Whale", "aliases": [], "publisher": "atari", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 29300000, "unit": "money", "currency": "USD",
+          "entity": "hipster-whale", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-02", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "purchased for an initial $29.3 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/atari-acquires-crossy-road-developer-hipster-whale" } },
+        { "metric": "acquisition_price", "value": 40000000, "unit": "money", "currency": "USD",
+          "entity": "hipster-whale", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-02", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "with an earn-out that could push the total cost to $40 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/atari-acquires-crossy-road-developer-hipster-whale" } }
+      ],
+      "summary": "Atari has acquired Crossy Road developer Hipster Whale, an Australian studio, for an initial $29.3 million with an earn-out that could raise the total to $40 million."
+    }
+  ]
+}

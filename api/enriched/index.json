@@ -1,6 +1,12 @@
 {
-  "day_count": 517,
+  "day_count": 518,
   "days": [
+    {
+      "date": "2026-06-02",
+      "entities": 4,
+      "facts": 4,
+      "items": 4
+    },
     {
       "date": "2026-06-01",
       "entities": 11,
@@ -3104,8 +3110,8 @@
       "items": 7
     }
   ],
-  "entity_count": 3903,
-  "fact_count": 2509,
+  "entity_count": 3905,
+  "fact_count": 2513,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 17,
@@ -3160,9 +3166,9 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3533,
+  "item_count": 3537,
   "metric_totals": {
-    "acquisition_price": 30,
+    "acquisition_price": 32,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 11,
@@ -3172,7 +3178,7 @@
     "development_budget": 13,
     "downloads": 25,
     "equity_stake_pct": 21,
-    "event_date": 216,
+    "event_date": 217,
     "funding_raised": 59,
     "headcount": 28,
     "layoffs_count": 96,
@@ -3186,7 +3192,7 @@
     "price_change_pct": 18,
     "profit": 129,
     "release_date": 637,
-    "revenue": 381,
+    "revenue": 382,
     "review_score": 2,
     "severance": 2,
     "shutdown_date": 67,
