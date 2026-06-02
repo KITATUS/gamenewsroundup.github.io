@@ -159,7 +159,7 @@ const formatRoundupForSlack = (roundup) => {
       if (item.body) lines.push(`      ${slackify(item.body)}`);
       if (item.bullets) item.bullets.forEach((b) => {
         const { text, level } = normBullet(b);
-        lines.push(`      ${'    '.repeat(level)}• ${slackify(text)}`);
+        lines.push(`${'      '.repeat(level + 1)}• ${slackify(text)}`);
       });
       return lines.join('\n');
     });
