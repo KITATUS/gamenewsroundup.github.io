@@ -1,0 +1,227 @@
+{
+  "date": "2026-06-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/playstation-unveils-god-of-war-laufey-a-new-ps5-entry-starri",
+      "entities": {
+        "games": [
+          { "id": "god-of-war-laufey", "name": "God of War Laufey", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "PlayStation unveiled God of War Laufey, a new PS5 entry starring Kratos's wife Faye."
+    },
+    {
+      "ref": "main_news/sony-announces-until-dawn-2-due-for-release-next-year-develo",
+      "entities": {
+        "games": [
+          { "id": "until-dawn-2", "name": "Until Dawn 2", "aliases": [], "genres": ["survival-horror"], "franchise": "until-dawn", "inferred": true }
+        ],
+        "studios": [
+          { "id": "firesprite", "name": "Firesprite", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Sony announced Until Dawn 2, due for release next year and developed by Liverpool studio Firesprite."
+    },
+    {
+      "ref": "main_news/silent-hill-townfall-konami-s-scottish-silent-hill-gets-a-re",
+      "entities": {
+        "games": [
+          { "id": "silent-hill-townfall", "name": "Silent Hill: Townfall", "aliases": [], "genres": ["survival-horror"], "franchise": "silent-hill", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-09-24", "unit": "date", "currency": null,
+          "entity": "silent-hill-townfall", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "September 24th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/silent-hill-townfall-konamis-scottish-silent-hill-gets-a-release-date/" } }
+      ],
+      "summary": "Konami's Scottish-set Silent Hill: Townfall received a release date of 24 September."
+    },
+    {
+      "ref": "main_news/tomb-raider-legacy-of-atlantis-has-been-delayed-to-february",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider-legacy-of-atlantis", "name": "Tomb Raider: Legacy of Atlantis", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        { "metric": "delay_to", "value": "2027-02-12", "unit": "date", "currency": null,
+          "entity": "tomb-raider-legacy-of-atlantis", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "delayed to February 12, 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/tomb-raider-legacy-of-atlantis-has-been-delayed-to-2027/" } }
+      ],
+      "summary": "Tomb Raider: Legacy of Atlantis was delayed to 12 February 2027 and confirmed for Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/rayman-legends-retold-a-remake-of-the-2013-platformer-has-be",
+      "entities": {
+        "games": [
+          { "id": "rayman-legends-retold", "name": "Rayman Legends Retold", "aliases": [], "genres": ["platformer"], "franchise": "rayman", "inferred": false },
+          { "id": "rayman-legends", "name": "Rayman Legends", "aliases": [], "genres": ["platformer"], "franchise": "rayman", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-10-01", "unit": "date", "currency": null,
+          "entity": "rayman-legends-retold", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases October 1st",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/rayman-legends-retold-has-been-announced-is-coming-in-october/" } },
+        { "metric": "release_date", "value": "2013", "unit": "date", "currency": null,
+          "entity": "rayman-legends", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "the 2013 platformer",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/rayman-legends-retold-has-been-announced-is-coming-in-october/" } }
+      ],
+      "summary": "Rayman Legends Retold, a remake of the 2013 platformer, was announced for release on 1 October."
+    },
+    {
+      "ref": "main_news/digital-eclipse-is-remastering-six-retro-toy-story-games-inc",
+      "entities": {
+        "games": [
+          { "id": "toy-story-retro-roundup", "name": "Toy Story: Retro Roundup", "aliases": [], "genres": [], "franchise": "toy-story", "inferred": true },
+          { "id": "toy-story-3-complete-edition", "name": "Toy Story 3 Complete Edition", "aliases": [], "genres": [], "franchise": "toy-story", "inferred": true },
+          { "id": "toy-story-3", "name": "Toy Story 3", "aliases": [], "genres": [], "franchise": "toy-story", "inferred": true },
+          { "id": "a-bugs-life", "name": "A Bug's Life", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-eclipse", "name": "Digital Eclipse", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-10-15", "unit": "date", "currency": null,
+          "entity": "toy-story-retro-roundup", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will release on October 15",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/digital-eclipse-is-remastering-six-retro-toy-story-games-including-a-ps3-classic/" } },
+        { "metric": "price", "value": 25, "unit": "price", "currency": "USD",
+          "entity": "toy-story-retro-roundup", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "both digitally ($25)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/digital-eclipse-is-remastering-six-retro-toy-story-games-including-a-ps3-classic/" } },
+        { "metric": "price", "value": 40, "unit": "price", "currency": "USD",
+          "entity": "toy-story-retro-roundup", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-03", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "physically as two-game pack ($40, non-Xbox platforms)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/digital-eclipse-is-remastering-six-retro-toy-story-games-including-a-ps3-classic/" } }
+      ],
+      "summary": "Digital Eclipse is remastering six retro Toy Story games, including the PS3 version of Toy Story 3."
+    },
+    {
+      "ref": "main_news/ex-forza-horizon-devs-reveal-clutch-their-own-open-world-rac",
+      "entities": {
+        "games": [
+          { "id": "clutch", "name": "Clutch", "aliases": [], "genres": ["racing", "open-world"], "franchise": null, "inferred": false },
+          { "id": "forza-horizon", "name": "Forza Horizon", "aliases": [], "genres": ["racing", "open-world"], "franchise": "forza", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Former Forza Horizon developers revealed Clutch, their own open-world racing game."
+    },
+    {
+      "ref": "main_news/new-stuntman-game-stuntman-hollywood-coming-with-real-movies",
+      "entities": {
+        "games": [
+          { "id": "stuntman-hollywood", "name": "Stuntman: Hollywood", "aliases": [], "genres": ["racing"], "franchise": "stuntman", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "A new Stuntman game, Stuntman: Hollywood, was announced featuring real movies including Knight Rider, Miami Vice, Fast and Furious and Back to the Future."
+    },
+    {
+      "ref": "free_games_subscription/upcoming-ps-games",
+      "entities": {
+        "games": [
+          { "id": "runescape-dragonwilds", "name": "RuneScape: Dragonwilds", "aliases": [], "genres": ["survival"], "franchise": "runescape", "inferred": true },
+          { "id": "gitaroo-man", "name": "Gitaroo Man", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true },
+          { "id": "psi-ops-the-mindgate-conspiracy", "name": "Psi-Ops: The Mindgate Conspiracy", "aliases": [], "genres": ["tps"], "franchise": null, "inferred": true },
+          { "id": "onimusha-dawn-of-dreams", "name": "Onimusha: Dawn of Dreams", "aliases": [], "genres": ["action-adventure"], "franchise": "onimusha", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Upcoming PlayStation Plus games include RuneScape: Dragonwilds, Gitaroo Man, Psi-Ops: The Mindgate Conspiracy and Onimusha: Dawn of Dreams."
+    },
+    {
+      "ref": "business/nordic-game-attendance-rises-by-6-in-2026",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Attendance at the Nordic Game conference rose by 6% in 2026."
+    }
+  ]
+}
