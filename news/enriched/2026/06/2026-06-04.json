@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/playerunknown-s-studio-is-downsizing-making-its-prologue-gam",
+      "entities": {
+        "games": [
+          { "id": "prologue-go-wayback", "name": "Prologue: Go Wayback", "aliases": ["Prologue"], "genres": ["survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "playerunknown-productions", "name": "PlayerUnknown Productions", "aliases": ["PlayerUnknown's studio"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "playerunknown", "name": "PlayerUnknown", "aliases": ["Brendan Greene"], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "free-game"],
+      "facts": [],
+      "summary": "PlayerUnknown's studio is downsizing, making its game Prologue: Go Wayback free, and is looking into refunding people who bought it."
+    },
+    {
+      "ref": "main_news/michael-jackson-nearly-made-a-game-called-dark-rim-with-ente",
+      "entities": {
+        "games": [
+          { "id": "dark-rim", "name": "Dark Rim", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "enter-the-matrix", "name": "Enter the Matrix", "aliases": [], "genres": ["action-adventure"], "franchise": "the-matrix", "inferred": true }
+        ],
+        "studios": [
+          { "id": "shiny-entertainment", "name": "Shiny Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "michael-jackson", "name": "Michael Jackson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Michael Jackson nearly made a game called Dark Rim with Enter the Matrix studio Shiny Entertainment."
+    },
+    {
+      "ref": "business/vampire-survivors-poncle-is-expanding-into-japan-new-japanes",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "poncle", "name": "Poncle", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "crim", "name": "Crim", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "sawaki-takeyasu", "name": "Sawaki Takeyasu", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Vampire Survivors developer Poncle is expanding into Japan with a new studio led by Crim CEO Sawaki Takeyasu."
+    },
+    {
+      "ref": "business/team17-has-laid-off-two-members-of-its-marketing-and-communi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "team17", "name": "Team17", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 2, "unit": "people", "currency": null,
+          "entity": "team17", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-06-04", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Team17 has laid off two members of its marketing and communications department",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/team17-has-laid-off-members-of-its-marketing-and-communications-department" } }
+      ],
+      "summary": "Team17 has laid off two members of its marketing and communications department."
+    },
+    {
+      "ref": "business/mina-the-hollower-sold-300-000-copies-in-three-days",
+      "entities": {
+        "games": [
+          { "id": "mina-the-hollower", "name": "Mina the Hollower", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "yacht-club-games", "name": "Yacht Club Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 300000, "unit": "copies", "currency": null,
+          "entity": "mina-the-hollower", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-04", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Mina the Hollower sold 300,000 copies in three days",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/mina-the-hollower-sold-300-000-copies-in-three-days" } }
+      ],
+      "summary": "Mina the Hollower sold 300,000 copies in its first three days."
+    },
+    {
+      "ref": "business/future-james-bond-games-will-come-from-amazon-games-io-inter",
+      "entities": {
+        "games": [
+          { "id": "james-bond", "name": "James Bond", "aliases": ["007"], "genres": [], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [
+          { "id": "amazon-games", "name": "Amazon Games", "aliases": ["Amazon MGM"], "publisher": null, "inferred": false },
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Future James Bond games will come from Amazon Games, with IO Interactive's involvement unclear."
+    }
+  ]
+}
