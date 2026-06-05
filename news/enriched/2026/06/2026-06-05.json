@@ -1,0 +1,88 @@
+{
+  "date": "2026-06-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nintendo-to-debut-a-switch-2-model-with-replaceable-batterie",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [{ "id": "switch-2", "name": "Switch 2", "aliases": ["Nintendo Switch 2"], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["hardware", "regulation", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2027-02", "unit": "date", "currency": null,
+          "entity": "eu-battery-regulation", "entity_type": "product", "scope": "event",
+          "as_of": "2026-06-05", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "new EU regulations coming into effect in February 2027",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/nintendo-to-debut-a-switch-2-model-with-replaceable-batteries-in-the-eu" } }
+      ],
+      "summary": "Nintendo will debut a Switch 2 model with replaceable batteries in the EU ahead of new EU regulations taking effect in February 2027."
+    },
+    {
+      "ref": "main_news/steam-machine-and-steam-frame-confirmed-for-summer-2026-by-v",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-machine", "name": "Steam Machine", "aliases": [], "inferred": false },
+          { "id": "steam-frame", "name": "Steam Frame", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement", "release-date"],
+      "facts": [],
+      "summary": "Valve confirmed the Steam Machine and Steam Frame for a summer 2026 launch."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-games-for-june-have-been-announced-including",
+      "entities": {
+        "games": [
+          { "id": "herdling", "name": "Herdling", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "persona-5-royal", "name": "Persona 5 Royal", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "persona", "inferred": true },
+          { "id": "frog-sqwad", "name": "Frog Sqwad", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [{ "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Xbox Game Pass announced its June lineup, including Herdling, Persona 5 Royal, Frog Sqwad and more."
+    },
+    {
+      "ref": "business/gamble-with-your-friends-sells-two-million-copies-in-a-month",
+      "entities": {
+        "games": [{ "id": "gamble-with-your-friends", "name": "Gamble With Your Friends", "aliases": [], "genres": [], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 2000000, "unit": "copies", "currency": null,
+          "entity": "gamble-with-your-friends", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-05", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Gamble With Your Friends sells two million copies in a month",
+          "source": { "name": "LinkedIn", "domain": "linkedin.com",
+                      "url": "https://www.linkedin.com/posts/1-million-copies-sold-in-1-week-2-million-share-7468238891360198656-rbFc/" } }
+      ],
+      "summary": "Gamble With Your Friends sold two million copies within a month."
+    },
+    {
+      "ref": "other_notes/please-stay-tuned-tonight-for-a-special-summer-games-fest-ed",
+      "entities": { "games": [], "studios": [], "publishers": [], "platforms": [], "people": [] },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A note teasing a special \"Summer Games Fest\" edition of the Game News Round-Up later tonight."
+    }
+  ]
+}

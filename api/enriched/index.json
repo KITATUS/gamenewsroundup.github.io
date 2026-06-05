@@ -1,6 +1,12 @@
 {
-  "day_count": 520,
+  "day_count": 521,
   "days": [
+    {
+      "date": "2026-06-05",
+      "entities": 10,
+      "facts": 2,
+      "items": 5
+    },
     {
       "date": "2026-06-04",
       "entities": 17,
@@ -3122,8 +3128,8 @@
       "items": 7
     }
   ],
-  "entity_count": 3930,
-  "fact_count": 2522,
+  "entity_count": 3931,
+  "fact_count": 2524,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 17,
@@ -3144,7 +3150,7 @@
     "grand-strategy": 1,
     "hero-shooter": 69,
     "horror": 108,
-    "jrpg": 111,
+    "jrpg": 112,
     "life-sim": 90,
     "looter-shooter": 1,
     "management": 1,
@@ -3159,7 +3165,7 @@
     "racing": 146,
     "rhythm": 44,
     "roguelike": 147,
-    "rpg": 197,
+    "rpg": 198,
     "rts": 36,
     "sandbox": 87,
     "shooter": 426,
@@ -3178,19 +3184,19 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3553,
+  "item_count": 3558,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 11,
     "content_acquisition_cost": 2,
-    "copies_sold": 171,
+    "copies_sold": 172,
     "delay_to": 23,
     "development_budget": 13,
     "downloads": 25,
     "equity_stake_pct": 21,
-    "event_date": 217,
+    "event_date": 218,
     "funding_raised": 59,
     "headcount": 28,
     "layoffs_count": 97,
