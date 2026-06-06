@@ -1,0 +1,300 @@
+{
+  "date": "2026-06-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/resident-evil-veronica-announced-for-2027-release-for-ps5-xb",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-veronica", "name": "Resident Evil Veronica", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Resident Evil Veronica was announced for a 2027 release on PS5, Xbox Series S/X, PC and Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/new-hand-animated-cuphead-game-in-development-and-mighty-cup",
+      "entities": {
+        "games": [
+          { "id": "cuphead", "name": "Cuphead", "aliases": [], "genres": ["platformer", "shooter"], "franchise": "cuphead", "inferred": true },
+          { "id": "mighty-cuphead-adventure", "name": "Mighty Cuphead Adventure", "aliases": [], "genres": ["platformer"], "franchise": "cuphead", "inferred": true }
+        ],
+        "studios": [
+          { "id": "studio-mdhr", "name": "Studio MDHR", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Studio MDHR announced a new hand-animated Cuphead game in development alongside a second game, Mighty Cuphead Adventure."
+    },
+    {
+      "ref": "main_news/alien-isolation-2-announced-for-xbox-series-s-x-ps5-pc-and-n",
+      "entities": {
+        "games": [
+          { "id": "alien-isolation-2", "name": "Alien Isolation 2", "aliases": [], "genres": ["survival-horror", "horror", "stealth"], "franchise": "alien", "inferred": true }
+        ],
+        "studios": [
+          { "id": "creative-assembly", "name": "Creative Assembly", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sega", "name": "SEGA", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Alien Isolation 2 was announced for Xbox Series S/X, PS5, PC and Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/gen-atlas-previously-project-robot-confirmed-for-pc-ps5-and",
+      "entities": {
+        "games": [
+          { "id": "gen-atlas", "name": "Gen Atlas", "aliases": ["Project Robot"], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Gen Atlas, previously known as Project Robot, was confirmed for PC, PS5 and Xbox Series S/X."
+    },
+    {
+      "ref": "main_news/tupac-shakur-will-appear-as-a-character-in-stranger-than-hea",
+      "entities": {
+        "games": [
+          { "id": "stranger-than-heaven", "name": "Stranger Than Heaven", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "tupac-shakur", "name": "Tupac Shakur", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Tupac Shakur will appear as a character in the game Stranger Than Heaven."
+    },
+    {
+      "ref": "main_news/teenage-mutant-ninja-turtles-the-last-ronin-game-announced-f",
+      "entities": {
+        "games": [
+          { "id": "teenage-mutant-ninja-turtles-the-last-ronin", "name": "Teenage Mutant Ninja Turtles: The Last Ronin", "aliases": [], "genres": ["action-adventure"], "franchise": "teenage-mutant-ninja-turtles", "inferred": true }
+        ],
+        "studios": [
+          { "id": "platinum-games", "name": "Platinum Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A Teenage Mutant Ninja Turtles: The Last Ronin game was announced from Platinum Games, planned for consoles and PC."
+    },
+    {
+      "ref": "main_news/guild-wars-3-announced-for-pc-and-playstation-5-with-the-bet",
+      "entities": {
+        "games": [
+          { "id": "guild-wars-3", "name": "Guild Wars 3", "aliases": [], "genres": ["mmorpg"], "franchise": "guild-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arenanet", "name": "ArenaNet", "aliases": [], "publisher": "ncsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PlayStation 5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "beta-demo"],
+      "facts": [],
+      "summary": "Guild Wars 3 was announced for PC and PlayStation 5, with its beta beginning in Autumn 2027."
+    },
+    {
+      "ref": "main_news/1666-amsterdam-from-assassin-s-creed-co-creator-patrice-d-si",
+      "entities": {
+        "games": [
+          { "id": "1666-amsterdam", "name": "1666: Amsterdam", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "patrice-desilets", "name": "Patrice Désilets", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "early-access", "beta-demo"],
+      "facts": [],
+      "summary": "1666: Amsterdam, from Assassin's Creed co-creator Patrice Désilets, was announced with an early access PC release planned for later this year and a prologue available now on Steam and the Epic Games Store."
+    },
+    {
+      "ref": "main_news/3v1-multiplayer-saw-genesis-announced-published-by-bloober-t",
+      "entities": {
+        "games": [
+          { "id": "saw-genesis", "name": "SAW: Genesis", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "saw", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "bloober-team", "name": "Bloober Team", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "SAW: Genesis, a 3v1 multiplayer game published by Bloober Team, was announced and planned for a PC release."
+    },
+    {
+      "ref": "main_news/sonic-racing-crossworlds-is-getting-a-year-2-of-dlc-includin",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "SEGA", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Sonic Racing CrossWorlds is getting a second year of DLC, including Godzilla and Evangelion crossovers."
+    },
+    {
+      "ref": "main_news/shift-up-reveals-stellar-blade-sequel-stellar-blade-blood-ra",
+      "entities": {
+        "games": [
+          { "id": "stellar-blade-blood-rain", "name": "Stellar Blade: BLOOD RAIN", "aliases": [], "genres": ["action-rpg", "action-adventure"], "franchise": "stellar-blade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "shift-up", "name": "Shift Up", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Shift Up revealed Stellar Blade: BLOOD RAIN, a sequel to Stellar Blade."
+    },
+    {
+      "ref": "main_news/final-fantasy-7-remake-part-3-is-called-final-fantasy-vii-re",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-vii-revelation", "name": "Final Fantasy VII: Revelation", "aliases": ["Final Fantasy 7 Remake Part 3"], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "Final Fantasy 7 Remake Part 3 was revealed as Final Fantasy VII: Revelation, coming to PS5, Xbox and Switch 2 simultaneously in Spring 2027."
+    },
+    {
+      "ref": "main_news/street-fighter-6-dlc-year-4-announced-including-tifa-lockhar",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-6", "name": "Street Fighter 6", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Street Fighter 6 Year 4 DLC was announced, including Tifa Lockhart from Final Fantasy VII as a character."
+    },
+    {
+      "ref": "main_news/palworld-1-0-is-coming-out-july-10th",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": ["Palworld 1.0"], "genres": ["survival", "action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-07-10", "unit": "date", "currency": null,
+          "entity": "palworld", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-06", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Palworld 1.0 is coming out July 10th",
+          "source": { "name": "Game Informer", "domain": "gameinformer.com", "url": "https://gameinformer.com/sgf-2026/2026/06/05/palworld-launches-into-10-next-month" } }
+      ],
+      "summary": "Palworld 1.0 is releasing on 10 July 2026."
+    },
+    {
+      "ref": "main_news/the-wolf-among-us-2-gets-2027-launch-window-and-a-remaster-o",
+      "entities": {
+        "games": [
+          { "id": "the-wolf-among-us-2", "name": "The Wolf Among Us 2", "aliases": [], "genres": ["adventure"], "franchise": "the-wolf-among-us", "inferred": true },
+          { "id": "the-wolf-among-us", "name": "The Wolf Among Us", "aliases": [], "genres": ["adventure"], "franchise": "the-wolf-among-us", "inferred": true }
+        ],
+        "studios": [
+          { "id": "telltale-games", "name": "Telltale Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "remaster-remake"],
+      "facts": [],
+      "summary": "The Wolf Among Us 2 received a 2027 launch window, and a remaster of the first game arrives this holiday."
+    }
+  ]
+}
