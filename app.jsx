@@ -116,7 +116,8 @@ const Footer = ({ onNavigate }) => (
       <div className="site-footer__links">
         <a href="/feeds/" className="site-footer__link" onClick={e => { e.preventDefault(); onNavigate('feeds'); }}>RSS</a>
         <a href="/feeds/" className="site-footer__link" onClick={e => { e.preventDefault(); onNavigate('feeds'); }}>JSON API</a>
-        <a href="/about/" className="site-footer__link" onClick={e => { e.preventDefault(); onNavigate('about'); }}>About</a>
+        <a href="https://linktr.ee/gamenewsroundup" className="site-footer__link" target="_blank" rel="noopener noreferrer">LINKTREE</a>
+        <a href="/about/" className="site-footer__link" onClick={e => { e.preventDefault(); onNavigate('about'); }}>ABOUT</a>
       </div>
     </div>
   </footer>

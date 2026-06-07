@@ -74,6 +74,8 @@ const HomePage = ({ onNavigate, date }) => {
           <a href="/feeds/rss.xml" className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">RSS →</a>
           <a href={`/api/roundups/${roundup.date}.json`} className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">JSON →</a>
           <CopySlackButton roundup={roundup} className="home-feeds-strip__link" />
+          <a href="https://www.youtube.com/@gamenewsroundup/shorts" className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">WATCH →</a>
+          <a href="https://linktr.ee/gamenewsroundup" className="home-feeds-strip__link" target="_blank" rel="noopener noreferrer">LISTEN →</a>
         </div>
       </div>
     </main>
@@ -143,6 +145,12 @@ const DailyPage = ({ date, onNavigate, tweaks }) => {
               RSS →
             </a>
             <CopySlackButton roundup={roundup} className="daily-footer__link" />
+            <a href="https://www.youtube.com/@gamenewsroundup/shorts" className="daily-footer__link" target="_blank" rel="noopener noreferrer">
+              WATCH →
+            </a>
+            <a href="https://linktr.ee/gamenewsroundup" className="daily-footer__link" target="_blank" rel="noopener noreferrer">
+              LISTEN →
+            </a>
           </div>
           <nav className="daily-nav" aria-label="Round-up navigation">
             {prevDate ?
