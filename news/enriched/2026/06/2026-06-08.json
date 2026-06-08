@@ -1,0 +1,409 @@
+{
+  "date": "2026-06-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/godzilla-destroy-all-monsters-melee-remastered-has-been-anno",
+      "entities": {
+        "games": [
+          { "id": "godzilla-destroy-all-monsters-melee-remastered", "name": "Godzilla: Destroy All Monsters Melee Remastered", "aliases": [], "genres": ["fighting"], "franchise": "godzilla", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pipeworks", "name": "Pipeworks", "aliases": ["Pipeworks Studios"], "publisher": "virtuos", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-11-03", "unit": "date", "currency": null,
+          "entity": "godzilla-destroy-all-monsters-melee-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "announced for November 3rd 2026 release",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/06/godzilla-destroy-all-monsters-melee-remastered-announced-for-ps5-xbox-series-switch-2-and-pc" } }
+      ],
+      "summary": "A remaster of Godzilla: Destroy All Monsters Melee was announced for a 3 November 2026 release on PC, Xbox Series S/X, PS5 and Nintendo Switch 2, developed by original studio Pipeworks and published by Atari."
+    },
+    {
+      "ref": "main_news/vampire-survivors-legacy-of-the-bloodmoon-expansion-announce",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike"], "franchise": "vampire-survivors", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion"],
+      "facts": [],
+      "summary": "A new Vampire Survivors expansion, Legacy of the Bloodmoon, was announced for release later this year."
+    },
+    {
+      "ref": "main_news/a-16-game-retro-compilation-of-barbie-games-called-barbie-re",
+      "entities": {
+        "games": [
+          { "id": "barbie-rewind", "name": "Barbie Rewind", "aliases": [], "genres": [], "franchise": "barbie", "inferred": true }
+        ],
+        "studios": [
+          { "id": "digital-eclipse", "name": "Digital Eclipse", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Barbie Rewind, a 16-game retro compilation of Barbie games including a previously unreleased 16-bit title and a new Dreamhouse game, was announced from Atari and Digital Eclipse."
+    },
+    {
+      "ref": "main_news/hitman-classic-trilogy-remastered-coming-in-2027-from-saber",
+      "entities": {
+        "games": [
+          { "id": "hitman-classic-trilogy-remastered", "name": "Hitman Classic Trilogy Remastered", "aliases": [], "genres": ["stealth"], "franchise": "hitman", "inferred": true },
+          { "id": "hitman-codename-47", "name": "Hitman: Codename 47", "aliases": [], "genres": ["stealth"], "franchise": "hitman", "inferred": true },
+          { "id": "hitman-2-silent-assassin", "name": "Hitman 2: Silent Assassin", "aliases": [], "genres": ["stealth"], "franchise": "hitman", "inferred": true },
+          { "id": "hitman-contracts", "name": "Hitman: Contracts", "aliases": [], "genres": ["stealth"], "franchise": "hitman", "inferred": true }
+        ],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "hitman-classic-trilogy-remastered", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Planned for a 2027 release",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/hitman-classic-trilogy-remastered-coming-in-2027-from-saber-interactive/" } }
+      ],
+      "summary": "Saber Interactive announced Hitman Classic Trilogy Remastered, a 2027 PC and console compilation of remasters of Hitman: Codename 47, Hitman 2: Silent Assassin and Hitman: Contracts with enhanced visuals and a Photo Mode."
+    },
+    {
+      "ref": "main_news/diddy-kong-racing-veterans-reveal-super-yooka-laylee-kart-th",
+      "entities": {
+        "games": [
+          { "id": "super-yooka-laylee-kart", "name": "Super Yooka-Laylee Kart", "aliases": [], "genres": ["racing"], "franchise": "yooka-laylee", "inferred": true },
+          { "id": "diddy-kong-racing", "name": "Diddy Kong Racing", "aliases": [], "genres": ["racing"], "franchise": "donkey-kong", "inferred": true },
+          { "id": "mickeys-speedway-usa", "name": "Mickey's Speedway USA", "aliases": [], "genres": ["racing"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "martin-wakeley", "name": "Martin Wakeley", "aliases": [], "inferred": false },
+          { "id": "kevin-bayliss", "name": "Kevin Bayliss", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Diddy Kong Racing veterans, including designer Martin Wakeley and artist Kevin Bayliss, revealed Super Yooka-Laylee Kart, so far announced only for PC."
+    },
+    {
+      "ref": "main_news/spyro-a-realm-beyond-announced-developed-by-toys-for-bob-rel",
+      "entities": {
+        "games": [
+          { "id": "spyro-a-realm-beyond", "name": "Spyro: A Realm Beyond", "aliases": [], "genres": ["platformer"], "franchise": "spyro", "inferred": true }
+        ],
+        "studios": [
+          { "id": "toys-for-bob", "name": "Toys for Bob", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Spyro: A Realm Beyond, developed by Toys for Bob, was announced for a Spring 2027 release on Xbox Series S/X, PC, PS5 and Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/persona-6-announced-at-xbox-games-showcase-2026",
+      "entities": {
+        "games": [
+          { "id": "persona-6", "name": "Persona 6", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "persona", "inferred": true }
+        ],
+        "studios": [
+          { "id": "atlus", "name": "Atlus", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Persona 6 was announced at the Xbox Games Showcase 2026."
+    },
+    {
+      "ref": "main_news/crazy-taxi-world-tour-announced-developed-by-sega-sapporo-fe",
+      "entities": {
+        "games": [
+          { "id": "crazy-taxi-world-tour", "name": "Crazy Taxi World Tour", "aliases": [], "genres": ["racing"], "franchise": "crazy-taxi", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sega-sapporo", "name": "Sega Sapporo", "aliases": [], "publisher": "sega", "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "kenji-kanno", "name": "Kenji Kanno", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "crazy-taxi-world-tour", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Releasing 2027 for Xbox Series S/X, PC, PS5 and Nintendo Switch 2",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/sega-announces-crazy-taxi-world-tour-coming-to-pc-and-consoles-in-2027" } }
+      ],
+      "summary": "Crazy Taxi World Tour, developed by Sega Sapporo with original director Kenji Kanno, was announced for a 2027 release on Xbox Series S/X, PC, PS5 and Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/persona-4-revival-gets-a-new-trailer-and-a-release-date-rele",
+      "entities": {
+        "games": [
+          { "id": "persona-4-revival", "name": "Persona 4 Revival", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "persona", "inferred": true }
+        ],
+        "studios": [
+          { "id": "atlus", "name": "Atlus", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2027-02-18", "unit": "date", "currency": null,
+          "entity": "persona-4-revival", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releasing February 18, 2027 for PC, Xbox Series S/X, PS5 and Nintendo Switch 2",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/persona-4s-remake-persona-4-revival-gets-a-new-trailer-and-a-release-date/" } }
+      ],
+      "summary": "Persona 4 Revival received a new trailer and a 18 February 2027 release date for PC, Xbox Series S/X, PS5 and Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/xbox-has-revealed-the-release-date-for-gears-of-war-e-day-an",
+      "entities": {
+        "games": [
+          { "id": "gears-of-war-e-day", "name": "Gears of War: E-Day", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "the-coalition", "name": "The Coalition", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-10-06", "unit": "date", "currency": null,
+          "entity": "gears-of-war-e-day", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases October 6th 2026 for Xbox Series S/X and PC",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/its-official-gears-of-war-e-day-is-coming-in-october-and-ps5-wont-be-getting-it/" } }
+      ],
+      "summary": "Xbox revealed that Gears of War: E-Day releases on 6 October 2026 for Xbox Series S/X and PC, and confirmed it will no longer come to PS5."
+    },
+    {
+      "ref": "main_news/ninja-theory-has-revealed-the-third-game-in-the-hellblade-se",
+      "entities": {
+        "games": [
+          { "id": "senua", "name": "Senua", "aliases": ["Hellblade III"], "genres": ["action-adventure"], "franchise": "hellblade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "senua", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Releases 2027 for PC, Xbox Series S/X and Nintendo Switch 2",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/hellblade-3-senua-announcement-ninja-theory" } }
+      ],
+      "summary": "Ninja Theory revealed the third Hellblade game, titled Senua, for a 2027 release on PC, Xbox Series S/X and Nintendo Switch 2."
+    },
+    {
+      "ref": "main_news/plague-tale-prequel-resonance-a-plague-tale-legacy-announced",
+      "entities": {
+        "games": [
+          { "id": "resonance-a-plague-tale-legacy", "name": "Resonance: A Plague Tale Legacy", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "a-plague-tale", "inferred": true }
+        ],
+        "studios": [
+          { "id": "asobo-studio", "name": "Asobo Studio", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-08-27", "unit": "date", "currency": null,
+          "entity": "resonance-a-plague-tale-legacy", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases August 27th 2026 for PC, Xbox Series S/X and PS5",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/plague-tale-resonance-release-date" } }
+      ],
+      "summary": "Resonance: A Plague Tale Legacy, a prequel in the Plague Tale series, was announced for a 27 August 2026 release on PC, Xbox Series S/X and PS5."
+    },
+    {
+      "ref": "main_news/stage-tour-redoctane-s-new-guitar-hero-like-shows-off-new-ga",
+      "entities": {
+        "games": [
+          { "id": "stage-tour", "name": "Stage Tour", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "redoctane", "name": "RedOctane", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "eidos-montreal", "name": "Eidos-Montréal", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "third-kind-games", "name": "Third Kind Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay", "reveal", "hardware"],
+      "facts": [],
+      "summary": "RedOctane's Guitar Hero-like Stage Tour showed off new gameplay details, a roguelite campaign mode, the Kramer guitar controller, a modular drumkit and first setlist details at IGN Live, with Eidos-Montréal and Third Kind Games as co-development partners."
+    },
+    {
+      "ref": "business/007-first-light-has-sold-over-3-million-copies",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007: First Light", "aliases": [], "genres": ["action-adventure"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 3000000, "unit": "copies", "currency": null,
+          "entity": "007-first-light", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-08", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "007: First Light has sold over 3 million copies",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/007-first-light-dev-io-interactive-says-its-now-sold-3-million-copies-tracking-well-above-our-forecasts-at-this-point" } }
+      ],
+      "summary": "007: First Light has sold over 3 million copies."
+    },
+    {
+      "ref": "business/paramount-unveils-new-unified-paramount-games-studio-the-fre",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "paramount-games-studio", "name": "Paramount Games Studio", "aliases": [], "publisher": "paramount", "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Paramount unveiled a new unified Paramount Games Studio that will house all current Paramount and Skydance game studios going forward."
+    },
+    {
+      "ref": "business/merge-mansion-dev-metacore-lays-off-159-employees-closes-stu",
+      "entities": {
+        "games": [
+          { "id": "merge-mansion", "name": "Merge Mansion", "aliases": [], "genres": ["puzzle"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "metacore", "name": "Metacore", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 159, "unit": "employees", "currency": null,
+          "entity": "metacore", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Metacore lays off 159 employees",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/merge-mansion-dev-metacore-lays-off-159-employees-closes-operations-in-germany-and-sweden" } }
+      ],
+      "summary": "Merge Mansion developer Metacore is laying off 159 employees and closing its studios in Germany and Sweden."
+    },
+    {
+      "ref": "business/altus-has-announced-that-the-persona-series-has-sold-over-30",
+      "entities": {
+        "games": [
+          { "id": "persona", "name": "Persona", "aliases": [], "genres": ["jrpg", "rpg"], "franchise": "persona", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "atlus", "name": "Atlus", "aliases": ["Altus"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 30000000, "unit": "units", "currency": null,
+          "entity": "persona", "entity_type": "game", "scope": "franchise",
+          "as_of": "2026-06-08", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "the Persona series has sold over 30 million units over its lifetime",
+          "source": { "name": "facebook.com", "domain": "facebook.com", "url": "https://www.facebook.com/AtlusWest/posts/pfbid02V8WGwbmnyGj3mTxfPtBTtEXFExiZJSiVtGYGap99nsPhDEV5of7p2Zz77XGbeJ2kl" } }
+      ],
+      "summary": "Atlus announced that the Persona series has sold over 30 million units over its lifetime."
+    }
+  ]
+}
