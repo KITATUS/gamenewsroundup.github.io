@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nintendo-direct-to-take-place-today-at-7am-pt-10am-et-3pm-bs",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-06-09", "unit": "date", "currency": null,
+          "entity": "nintendo-direct", "entity_type": "product", "scope": "event",
+          "as_of": "2026-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Nintendo Direct to take place today",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-has-confirmed-that-its-next-nintendo-direct-will-take-place-tomorrow/" } }
+      ],
+      "summary": "A Nintendo Direct takes place today at 7am PT / 10am ET / 3pm BST, with a 50-minute show followed by a 95-minute Nintendo Treehouse Live."
+    },
+    {
+      "ref": "main_news/konami-s-next-2d-castlevania-game-castlevania-belmont-s-curs",
+      "entities": {
+        "games": [{ "id": "castlevania-belmonts-curse", "name": "Castlevania: Belmont's Curse", "aliases": [],
+          "genres": ["metroidvania", "platformer"], "franchise": "castlevania", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "konami", "name": "Konami", "aliases": [], "inferred": false }],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series", "name": "Xbox Series S/X", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-10-15", "unit": "date", "currency": null,
+          "entity": "castlevania-belmonts-curse", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-09", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releasing October 15",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/konamis-next-2d-castlevania-game-belmonts-curse-is-arriving-in-time-for-halloween/" } }
+      ],
+      "summary": "Konami's next 2D Castlevania game, Castlevania: Belmont's Curse, releases October 15 on PS5, Xbox Series S/X and PC."
+    },
+    {
+      "ref": "main_news/guild-wars-3-will-feature-no-mandatory-subscription-or-premi",
+      "entities": {
+        "games": [{ "id": "guild-wars-3", "name": "Guild Wars 3", "aliases": [],
+          "genres": ["mmorpg"], "franchise": "guild-wars", "inferred": true }],
+        "studios": [{ "id": "arenanet", "name": "ArenaNet", "aliases": [], "publisher": "ncsoft", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "subscription"],
+      "facts": [],
+      "summary": "Guild Wars 3 will have no mandatory subscription or premium battle pass and will be sold as a premium product like previous games in the series."
+    },
+    {
+      "ref": "main_news/ninja-theory-cancels-horror-title-project-mara-according-to",
+      "entities": {
+        "games": [
+          { "id": "project-mara", "name": "Project Mara", "aliases": [],
+            "genres": ["horror"], "franchise": null, "inferred": false },
+          { "id": "senua", "name": "Senua", "aliases": [],
+            "genres": ["action-adventure"], "franchise": "hellblade", "inferred": true }
+        ],
+        "studios": [{ "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "dom-mattews", "name": "Dom Mattews", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ninja Theory has cancelled its horror title Project Mara so its talent can work together on the third Hellblade title, Senua."
+    },
+    {
+      "ref": "business/monster-hunter-world-has-now-sold-over-30m-units-worldwide-b",
+      "entities": {
+        "games": [{ "id": "monster-hunter-world", "name": "Monster Hunter: World", "aliases": [],
+          "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }],
+        "studios": [],
+        "publishers": [{ "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 30000000, "unit": "units", "currency": null,
+          "entity": "monster-hunter-world", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-09", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "has now sold over 30m units worldwide",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/monster-hunter-world-30-million-sales" } }
+      ],
+      "summary": "Monster Hunter: World has now sold over 30 million units worldwide, becoming Capcom's best-selling single title of all time."
+    },
+    {
+      "ref": "business/nintendo-of-europe-agrees-to-pay-35m-fine-for-joy-con-drift",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo of Europe"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "regulation"],
+      "facts": [],
+      "summary": "Nintendo of Europe has agreed to pay a 35 million euro fine over Joy-Con drift defects in a settlement with a French regulator, while denying it intentionally misled consumers."
+    }
+  ]
+}
