@@ -1,0 +1,212 @@
+{
+  "date": "2026-06-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/the-legend-of-zelda-ocarina-of-time-remake-announced-for-nin",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-ocarina-of-time", "name": "The Legend of Zelda: Ocarina of Time", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026", "unit": "date", "currency": null,
+          "entity": "the-legend-of-zelda-ocarina-of-time", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Planned to release in 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/zelda-ocarina-of-time-remake-officially-announced-for-nintendo-switch-2/" } }
+      ],
+      "summary": "A remake of The Legend of Zelda: Ocarina of Time has been announced for Nintendo Switch 2, planned to release in 2026."
+    },
+    {
+      "ref": "main_news/sony-pictures-helldivers-movie-has-lost-jason-momoa-as-its-l",
+      "entities": {
+        "games": [
+          { "id": "helldivers", "name": "Helldivers", "aliases": [], "genres": ["shooter"], "franchise": "helldivers", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-pictures", "name": "Sony Pictures", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jason-momoa", "name": "Jason Momoa", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Jason Momoa has left Sony Pictures' Helldivers movie as its lead, with the reason for his departure unknown."
+    },
+    {
+      "ref": "main_news/pok-mon-pokopia-announces-free-content-update-and-upcoming-e",
+      "entities": {
+        "games": [
+          { "id": "pokemon-pokopia", "name": "Pokémon Pokopia", "aliases": [], "genres": ["life-sim"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game", "update-patch", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-08", "unit": "date", "currency": null,
+          "entity": "pokemon-pokopia", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "the first part arriving August 2026",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/pokemon-pokopia-is-diving-beneath-the-waves-in-a-free-update-and-the-first-of-three-paid-dlc-releases-out-later-this-year" } }
+      ],
+      "summary": "Pokémon Pokopia has announced a free content update and an upcoming three-part Expansion Pass, with the first part arriving August 2026."
+    },
+    {
+      "ref": "main_news/star-fox-developer-revealed-as-american-studio-velan-studios",
+      "entities": {
+        "games": [
+          { "id": "star-fox", "name": "Star Fox", "aliases": [], "genres": ["shooter"], "franchise": "star-fox", "inferred": true },
+          { "id": "tony-hawks-pro-skater-1-2", "name": "Tony Hawk's Pro Skater 1+2", "aliases": ["THPS 1+2"], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true },
+          { "id": "skylanders", "name": "Skylanders", "aliases": [], "genres": ["action-adventure"], "franchise": "skylanders", "inferred": true },
+          { "id": "hot-wheels-rift-rally", "name": "Hot Wheels: Rift Rally", "aliases": [], "genres": ["racing"], "franchise": "hot-wheels", "inferred": true },
+          { "id": "knockout-city", "name": "Knockout City", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "mario-kart-live-home-circuit", "name": "Mario Kart Live: Home Circuit", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true }
+        ],
+        "studios": [
+          { "id": "velan-studios", "name": "Velan Studios", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "vicarious-visions", "name": "Vicarious Visions", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2020", "unit": "date", "currency": null,
+          "entity": "mario-kart-live-home-circuit", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "2020’s toys-to-life game, Mario Kart Live: Home Circuit",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/star-fox-developer-revealed-as-american-studio/" } }
+      ],
+      "summary": "The developer of the new Star Fox game has been revealed as American studio Velan Studios."
+    },
+    {
+      "ref": "main_news/kingdom-hearts-4-has-been-re-revealed-after-four-years-with",
+      "entities": {
+        "games": [
+          { "id": "kingdom-hearts-4", "name": "Kingdom Hearts 4", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "gameplay", "showcase"],
+      "facts": [],
+      "summary": "Kingdom Hearts 4 has been re-revealed after four years, with gameplay footage shown at the recent Nintendo Direct."
+    },
+    {
+      "ref": "main_news/nintendo-has-announced-nintendo-switch-sports-resort-for-nin",
+      "entities": {
+        "games": [
+          { "id": "nintendo-switch-sports-resort", "name": "Nintendo Switch Sports Resort", "aliases": [], "genres": ["sports"], "franchise": "nintendo-switch-sports", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-10-22", "unit": "date", "currency": null,
+          "entity": "nintendo-switch-sports-resort", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Releases October 22",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-switch-sports-resort-is-returning-to-wuhu-island/" } }
+      ],
+      "summary": "Nintendo has announced Nintendo Switch Sports Resort for Nintendo Switch 2, featuring 12 sports and releasing on October 22."
+    },
+    {
+      "ref": "main_news/poncle-announces-new-vampire-survivors-multiplayer-focused-s",
+      "entities": {
+        "games": [
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike"], "franchise": "vampire-survivors", "inferred": true },
+          { "id": "jujutsu-kaisen-rumble-survivaton", "name": "JUJUTSU KAISEN RUMBLE: SURVIVATON", "aliases": [], "genres": ["roguelike"], "franchise": "jujutsu-kaisen", "inferred": true }
+        ],
+        "studios": [
+          { "id": "poncle", "name": "Poncle", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Poncle has announced a new multiplayer-focused Vampire Survivors spin-off, JUJUTSU KAISEN RUMBLE: SURVIVATON, dubbed a \"Survivors Royale\"."
+    },
+    {
+      "ref": "main_news/marvel-rivals-reveals-new-character-cyclops-along-with-new-g",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "reveal", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-06-12", "unit": "date", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "product",
+          "as_of": "2026-06-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Cyclops is available from June 12th, 2026",
+          "source": { "name": "Polygon", "domain": "polygon.com", "url": "https://www.polygon.com/marvel-rivals-cyclops-trailer-release-date/" } }
+      ],
+      "summary": "Marvel Rivals has revealed new character Cyclops, available from June 12th 2026, along with a new game mode called Bounty Annihilation."
+    },
+    {
+      "ref": "business/mina-the-hollower-sells-500k-copies-less-than-two-weeks-afte",
+      "entities": {
+        "games": [
+          { "id": "mina-the-hollower", "name": "Mina the Hollower", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "yacht-club-games", "name": "Yacht Club Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 500000, "unit": "copies", "currency": null,
+          "entity": "mina-the-hollower", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-10", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Mina the Hollower sells 500k copies less than two weeks after launch",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/mina-the-hollower-500k-units-sold" } }
+      ],
+      "summary": "Mina the Hollower has sold 500,000 copies less than two weeks after launch."
+    }
+  ]
+}
