@@ -1,0 +1,217 @@
+{
+  "date": "2026-06-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/mario-rabbids-creator-s-davide-soliani-bradley-the-badger-fr",
+      "entities": {
+        "games": [
+          { "id": "bradley-the-badger", "name": "Bradley the Badger", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "mario-rabbids", "name": "Mario + Rabbids", "aliases": ["Mario Rabbids"], "genres": ["turn-based-strategy"], "franchise": "mario-rabbids", "inferred": true }
+        ],
+        "studios": [
+          { "id": "day-4-night", "name": "Day 4 Night", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "focus-entertainment", "name": "Focus Entertainment", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "davide-soliani", "name": "Davide Soliani", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Bradley the Badger, from Davide Soliani's studio Day 4 Night, has been signed by Focus Entertainment."
+    },
+    {
+      "ref": "main_news/xbox-is-exploring-radically-different-business-models-to-mak",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "project-helix", "name": "Project Helix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Xbox is exploring radically different business models to make its next console, codenamed Project Helix, more affordable amid an ongoing hardware crisis."
+    },
+    {
+      "ref": "main_news/physical-steam-gift-cards-are-being-ended-by-valve-because-s",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Valve is ending physical Steam gift cards because scammers keep using them to trick people."
+    },
+    {
+      "ref": "main_news/the-uk-based-semiconductor-and-software-design-company-arm-h",
+      "entities": {
+        "games": [
+          { "id": "neural-dawn", "name": "Neural Dawn", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "sumo-digital", "name": "Sumo Digital", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "arm", "name": "Arm", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement"],
+      "facts": [],
+      "summary": "Arm has revealed Neural Dawn, a game developed with UK studio Sumo Digital that uses Arm's neural graphics technology to run Unreal Engine MegaLights on mobile devices via the Arm Mali GPU."
+    },
+    {
+      "ref": "free_games_subscription/ps-june-additions",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-16", "name": "Final Fantasy XVI", "aliases": [], "genres": ["action-rpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "sonic-x-shadow-generations", "name": "Sonic X Shadow Generations", "aliases": [], "genres": ["platformer"], "franchise": "sonic", "inferred": true },
+          { "id": "kingdom-come-deliverance", "name": "Kingdom Come: Deliverance", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-come-deliverance", "inferred": true },
+          { "id": "life-is-strange-double-exposure", "name": "Life Is Strange: Double Exposure", "aliases": [], "genres": ["adventure"], "franchise": "life-is-strange", "inferred": true },
+          { "id": "farming-simulator-25", "name": "Farming Simulator 25", "aliases": [], "genres": ["simulation"], "franchise": "farming-simulator", "inferred": true },
+          { "id": "blades-of-fire", "name": "Blades of Fire", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "black-desert", "name": "Black Desert", "aliases": [], "genres": ["mmorpg"], "franchise": null, "inferred": true },
+          { "id": "gitaroo-man", "name": "Gitaroo Man", "aliases": [], "genres": ["rhythm"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS+"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "free-game"],
+      "facts": [],
+      "summary": "Final Fantasy XVI headlines June's PlayStation Plus Game Catalog additions, alongside Sonic X Shadow Generations, Kingdom Come: Deliverance, Life Is Strange: Double Exposure, Farming Simulator 25, Blades of Fire, Black Desert, and Gitaroo Man."
+    },
+    {
+      "ref": "business/uk-co-development-studio-codedev-launches-the-performance-gu",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "codedev", "name": "CodeDev", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "UK co-development studio CodeDev has launched 'The Performance Guys' and announced a hunt for senior optimisation talent."
+    },
+    {
+      "ref": "business/ubisoft-announces-approximately-380-employees-have-been-impa",
+      "entities": {
+        "games": [
+          { "id": "rainbow-six-siege", "name": "Rainbow Six Siege", "aliases": [], "genres": ["fps"], "franchise": "rainbow-six", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-winnipeg", "name": "Ubisoft Winnipeg", "aliases": [], "publisher": "ubisoft", "inferred": false },
+          { "id": "ubisoft-belgrade", "name": "Ubisoft Belgrade", "aliases": [], "publisher": "ubisoft", "inferred": false },
+          { "id": "ubisoft-barcelona", "name": "Ubisoft Barcelona", "aliases": [], "publisher": "ubisoft", "inferred": false },
+          { "id": "ubisoft-san-francisco", "name": "Ubisoft San Francisco", "aliases": [], "publisher": "ubisoft", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 380, "unit": "people", "currency": null,
+          "entity": "ubisoft", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-11", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "approximately 380 employees have been impacted by restructuring changes",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/ubisoft-380-employees/" } },
+        { "metric": "layoffs_count", "value": 65, "unit": "people", "currency": null,
+          "entity": "ubisoft-winnipeg", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ubisoft Winnipeg, 65 employees laid off, and the studio closed",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/ubisoft-380-employees/" } },
+        { "metric": "layoffs_count", "value": 100, "unit": "people", "currency": null,
+          "entity": "ubisoft-belgrade", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-11", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Ubisoft Belgrade, approximately 100 employees were laid off, and the studio closed",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/ubisoft-380-employees/" } },
+        { "metric": "layoffs_count", "value": 51, "unit": "people", "currency": null,
+          "entity": "ubisoft-barcelona", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ubisoft Barcelona, 51 employees laid off",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/ubisoft-380-employees/" } }
+      ],
+      "summary": "Ubisoft has announced that approximately 380 employees have been impacted by restructuring changes, with Insider Gaming reporting layoffs and closures across studios including Winnipeg, Belgrade, Barcelona and San Francisco."
+    },
+    {
+      "ref": "business/frontier-developments-reported-its-second-highest-revenue-to",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "frontier-developments", "name": "Frontier Developments", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 104800000, "unit": "money", "currency": "GBP",
+          "entity": "frontier-developments", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "rising 16% to £104.8 million in FY26",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/frontier-developments-reports-record-profits-in-fy26-turnaround" } },
+        { "metric": "operating_income", "value": 19000000, "unit": "money", "currency": "GBP",
+          "entity": "frontier-developments", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-11", "period": "annual", "direction": "up", "confidence": "high",
+          "quote": "Operating profit increased by 44% to £19 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/frontier-developments-reports-record-profits-in-fy26-turnaround" } },
+        { "metric": "operating_income", "value": 15900000, "unit": "money", "currency": "GBP",
+          "entity": "frontier-developments", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-11", "period": "annual", "direction": null, "confidence": "high",
+          "quote": "surpassing the previous record of £15.9 million set in FY19",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/frontier-developments-reports-record-profits-in-fy26-turnaround" } }
+      ],
+      "summary": "Frontier Developments reported its second-highest revenue to date, up 16% to £104.8 million in FY26, with operating profit rising 44% to a record £19 million."
+    },
+    {
+      "ref": "rumours/xbox-is-planning-major-layoffs-next-month-as-new-ceo-asha-sh",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true },
+          { "id": "activision-blizzard-king", "name": "Activision Blizzard King", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "leadership-change", "rumour"],
+      "facts": [],
+      "summary": "Rumour, citing verified sources, that Xbox is planning major layoffs next month as new CEO Asha Sharma confronts a bleak financial picture and plans a 'reset' of the business."
+    }
+  ]
+}
