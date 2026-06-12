@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/pomni-and-jax-from-the-amazing-digital-circus-are-coming-to",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "tps", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "dave-the-diver", "name": "Dave the Diver", "aliases": [], "genres": ["adventure", "simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "pomni", "name": "Pomni", "aliases": [], "inferred": false },
+          { "id": "jax", "name": "Jax", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date", "dlc-expansion", "partnership"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-06-12", "unit": "date", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "are coming to Fortnite on June 12th",
+          "source": { "name": "vergemagazine.co.uk", "domain": "vergemagazine.co.uk",
+                      "url": "https://vergemagazine.co.uk/welcome-to-the-amazing-digital-circus-fortnite-x-the-amazing-digital-circus-collab-brings-pomni-jax-to-the-item-shop-in-new-june-drop/" } },
+        { "metric": "release_date", "value": "2026-06-25", "unit": "date", "currency": null,
+          "entity": "dave-the-diver", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dave the Diver arriving June 25th",
+          "source": { "name": "vergemagazine.co.uk", "domain": "vergemagazine.co.uk",
+                      "url": "https://vergemagazine.co.uk/welcome-to-the-amazing-digital-circus-fortnite-x-the-amazing-digital-circus-collab-brings-pomni-jax-to-the-item-shop-in-new-june-drop/" } }
+      ],
+      "summary": "Pomni and Jax from The Amazing Digital Circus are coming to Fortnite on 12 June 2026, with Dave the Diver content arriving on 25 June 2026."
+    },
+    {
+      "ref": "main_news/grip-xr-a-follow-up-to-grip-combat-racing-spiritual-successo",
+      "entities": {
+        "games": [
+          { "id": "grip-xr", "name": "GRIP XR", "aliases": [], "genres": ["racing"], "franchise": "grip", "inferred": true },
+          { "id": "grip-combat-racing", "name": "GRIP: Combat Racing", "aliases": [], "genres": ["racing"], "franchise": "grip", "inferred": true },
+          { "id": "rollcage", "name": "Rollcage", "aliases": [], "genres": ["racing"], "franchise": "rollcage", "inferred": true }
+        ],
+        "studios": [
+          { "id": "caged-element", "name": "Caged Element", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "GRIP XR, a follow-up to GRIP: Combat Racing and spiritual successor to Rollcage, is closing in on its Kickstarter funding goal."
+    },
+    {
+      "ref": "business/crimson-desert-has-sold-over-6-million-copies-worldwide",
+      "entities": {
+        "games": [
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "pearl-abyss", "name": "Pearl Abyss", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 6000000, "unit": "copies", "currency": null,
+          "entity": "crimson-desert", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-12", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Crimson Desert has sold over 6 million copies worldwide",
+          "source": { "name": "IGN", "domain": "ign.com",
+                      "url": "https://www.ign.com/articles/crimson-desert-hits-new-huge-sales-milestone-less-than-3-months-after-launch" } }
+      ],
+      "summary": "Crimson Desert has sold over 6 million copies worldwide."
+    }
+  ]
+}
