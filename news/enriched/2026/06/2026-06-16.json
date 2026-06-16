@@ -1,0 +1,144 @@
+{
+  "date": "2026-06-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/temporary-fortnite-island-crunchyroll-anime-island-announced",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "sandbox"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-06-19", "unit": "date", "currency": null,
+          "entity": "crunchyroll-anime-island", "entity_type": "product", "scope": "event",
+          "as_of": "2026-06-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "available between June 19th - June 21st",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/exclusive-dr-stone-comes-to-fortnite-with-crunchyroll-anime-island" } },
+        { "metric": "event_date", "value": "2026-06-21", "unit": "date", "currency": null,
+          "entity": "crunchyroll-anime-island", "entity_type": "product", "scope": "event",
+          "as_of": "2026-06-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "available between June 19th - June 21st",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/exclusive-dr-stone-comes-to-fortnite-with-crunchyroll-anime-island" } }
+      ],
+      "summary": "A temporary Crunchyroll Anime Island focusing on the anime Dr. Stone has been announced for Fortnite, available between 19 and 21 June 2026."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-movie-adaptation-has-found-its-director-tho",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "thordur-palsson", "name": "Thordur Palsson", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Thordur Palsson, known for The Valhalla Murders and the horror film The Damned, has been announced to direct the live-action Dead by Daylight movie adaptation."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-unveils-modding-support-a-visual-overhaul-a",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch", "partnership"],
+      "facts": [],
+      "summary": "During its 10th anniversary celebrations, Dead by Daylight unveiled modding support, a visual overhaul, and Scooby-Doo and Terrifier collaborations."
+    },
+    {
+      "ref": "business/xbox-game-studios-head-craig-duncan-and-chief-of-staff-louis",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "craig-duncan", "name": "Craig Duncan", "aliases": [], "inferred": false },
+          { "id": "louise-oconnor", "name": "Louise O'Connor", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Xbox Game Studios head Craig Duncan and chief of staff Louise O'Connor are to depart the company."
+    },
+    {
+      "ref": "business/treyarch-studio-head-mark-gordon-to-depart-after-22-years-at",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "treyarch", "name": "Treyarch", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mark-gordon", "name": "Mark Gordon", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Treyarch studio head Mark Gordon is to depart after 22 years at the company."
+    },
+    {
+      "ref": "business/electronic-arts-launches-ea-advertising-which-it-says-will-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Electronic Arts has launched EA Advertising, which it says will add brands into games in a non-disruptive way."
+    },
+    {
+      "ref": "rumours/studios-in-microsoft-s-xbox-division-brace-for-closures-cert",
+      "entities": {
+        "games": [
+          { "id": "marvels-blade", "name": "Marvel's Blade", "aliases": [], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "compulsion-games", "name": "Compulsion Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "double-fine", "name": "Double Fine", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "arkane-lyon", "name": "Arkane Lyon", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Rumour, citing verified sources, that studios in Microsoft's Xbox division including Compulsion Games, Double Fine, Ninja Theory, and Arkane Lyon are bracing for closures and may be offered the chance to go independent or find a buyer."
+    }
+  ]
+}

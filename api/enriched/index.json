@@ -1,6 +1,12 @@
 {
-  "day_count": 528,
+  "day_count": 529,
   "days": [
+    {
+      "date": "2026-06-16",
+      "entities": 17,
+      "facts": 2,
+      "items": 7
+    },
     {
       "date": "2026-06-15",
       "entities": 10,
@@ -3170,18 +3176,18 @@
       "items": 7
     }
   ],
-  "entity_count": 4002,
-  "fact_count": 2556,
+  "entity_count": 4007,
+  "fact_count": 2558,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 17,
     "action": 58,
-    "action-adventure": 872,
+    "action-adventure": 873,
     "action-platformer": 3,
     "action-rpg": 627,
     "adventure": 327,
     "arcade": 11,
-    "battle-royale": 119,
+    "battle-royale": 120,
     "beat-em-up": 1,
     "card": 67,
     "creature-collector": 1,
@@ -3191,7 +3197,7 @@
     "fps": 410,
     "grand-strategy": 1,
     "hero-shooter": 70,
-    "horror": 112,
+    "horror": 114,
     "jrpg": 116,
     "life-sim": 91,
     "looter-shooter": 1,
@@ -3209,7 +3215,7 @@
     "roguelike": 150,
     "rpg": 201,
     "rts": 36,
-    "sandbox": 87,
+    "sandbox": 88,
     "shooter": 431,
     "simulation": 289,
     "social-deduction": 1,
@@ -3218,7 +3224,7 @@
     "stealth": 95,
     "strategy": 159,
     "survival": 173,
-    "survival-horror": 241,
+    "survival-horror": 243,
     "tactical-shooter": 2,
     "tower-defense": 15,
     "tps": 144,
@@ -3226,7 +3232,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3621,
+  "item_count": 3628,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
@@ -3238,7 +3244,7 @@
     "development_budget": 13,
     "downloads": 25,
     "equity_stake_pct": 21,
-    "event_date": 219,
+    "event_date": 221,
     "funding_raised": 59,
     "headcount": 28,
     "layoffs_count": 102,
