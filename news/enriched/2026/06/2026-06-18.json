@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/fortnite-is-getting-over-30-new-gaming-collabs-in-2026-sonic",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "vampire-survivors", "name": "Vampire Survivors", "aliases": [], "genres": ["roguelike", "survival"], "franchise": "vampire-survivors", "inferred": true },
+          { "id": "sonic-the-hedgehog", "name": "Sonic", "aliases": ["Sonic"], "genres": ["platformer"], "franchise": "sonic", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false },
+          { "id": "poncle", "name": "Poncle", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Fortnite is set to receive over 30 new gaming collaborations in 2026, including Sonic and Vampire Survivors, though Vampire Survivors publisher Poncle says it is reviewing its deal with Epic following the use of AI tools in Fortnite."
+    },
+    {
+      "ref": "main_news/treyarch-and-iron-galaxy-are-bringing-call-of-duty-black-ops",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops", "name": "Call of Duty: Black Ops", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-black-ops-2", "name": "Call of Duty: Black Ops 2", "aliases": ["Black Ops 2"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "treyarch", "name": "Treyarch", "aliases": [], "publisher": "activision", "inferred": true },
+          { "id": "iron-galaxy", "name": "Iron Galaxy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-07", "unit": "date", "currency": null,
+          "entity": "call-of-duty-black-ops", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-18", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The ports are expected to release in July",
+          "source": { "name": "wccftech.com", "domain": "wccftech.com",
+            "url": "https://wccftech.com/call-of-duty-black-ops-black-ops-2-ps5-ports-treyarch-iron-galaxy/" } }
+      ],
+      "summary": "Treyarch and Iron Galaxy are bringing Call of Duty: Black Ops and Black Ops 2 to PS5, with the ports expected to release in July."
+    },
+    {
+      "ref": "main_news/rockstar-games-announces-free-next-gen-upgrades-for-any-ps4",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-v", "name": "Grand Theft Auto V", "aliases": ["GTA V"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "update-patch", "free-game"],
+      "facts": [],
+      "summary": "Rockstar Games has announced free next-gen upgrades for any PS4 version and digital-only Xbox One versions of Grand Theft Auto V."
+    },
+    {
+      "ref": "main_news/xbox-announces-gamescom-presence-and-fanfest-event-in-cologn",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "Xbox has announced its Gamescom presence and a Fanfest event in Cologne."
+    },
+    {
+      "ref": "business/epic-have-revealed-details-about-their-unreal-engine-6-plans",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2027", "unit": "date", "currency": null,
+          "entity": "unreal-engine-6", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-18", "period": "point_in_time", "direction": null, "confidence": "low",
+          "quote": "full release expected \"late 2027-ish\"",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/epic-reveals-unreal-engine-6-is-integrating-ai-models-so-developers-can-reduce-tedious-work/" } }
+      ],
+      "summary": "Epic has revealed details about its Unreal Engine 6 plans, merging UE5 and UEFN, deprecating Actors and Blueprints in favour of Verse and Scene Graph, integrating AI tooling, and targeting a full release in late 2027."
+    },
+    {
+      "ref": "business/otherside-entertainment-lays-off-17-staff-following-game-can",
+      "entities": {
+        "games": [
+          { "id": "argos", "name": "Argos", "aliases": [], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "otherside-entertainment", "name": "OtherSide Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 17, "unit": "people", "currency": null,
+          "entity": "otherside-entertainment", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-18", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "OtherSide Entertainment lays off 17 staff following game cancellation",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/otherside-entertainment-lays-off-17-staff-following-game-cancellation" } }
+      ],
+      "summary": "OtherSide Entertainment has laid off 17 staff following the cancellation of a project codenamed Argos."
+    },
+    {
+      "ref": "business/epic-announces-lore-open-source-version-control-for-games",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Epic has announced Lore, an open-source version control system for games."
+    },
+    {
+      "ref": "rumours/co-founder-of-3d-realms-george-broussard-claims-that-redunda",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "the-elder-scrolls", "name": "The Elder Scrolls", "aliases": ["Elder Scrolls"], "genres": ["action-rpg"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "3d-realms", "name": "3D Realms", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "zenimax-media", "name": "ZeniMax Media", "aliases": ["Zenimax"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "george-broussard", "name": "George Broussard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "3D Realms co-founder George Broussard claims that redundancies have begun at Microsoft-owned ZeniMax, suggesting staff not working on Fallout or The Elder Scrolls are being let go."
+    }
+  ]
+}
