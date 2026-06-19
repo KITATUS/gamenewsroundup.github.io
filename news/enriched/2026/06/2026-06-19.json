@@ -1,0 +1,99 @@
+{
+  "date": "2026-06-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/grand-theft-auto-6-cover-art-revealed-as-rockstar-locks-in-n",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": ["Grand Theft Auto VI"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-11-19", "unit": "date", "currency": null,
+          "entity": "grand-theft-auto-6", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "November 19th release date",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-cover-art-revealed-pre-orders-start-next-week/" } },
+        { "metric": "event_date", "value": "2026-06-25", "unit": "date", "currency": null,
+          "entity": "grand-theft-auto-6", "entity_type": "game", "scope": "event",
+          "as_of": "2026-06-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Pre-orders start June 25th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-cover-art-revealed-pre-orders-start-next-week/" } }
+      ],
+      "summary": "Rockstar revealed the Grand Theft Auto 6 cover art and confirmed a 19 November 2026 release date, with pre-orders starting 25 June."
+    },
+    {
+      "ref": "main_news/msi-prices-its-latest-handheld-at-1-800-as-exec-says-it-will",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "msi", "name": "MSI", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [
+        { "metric": "price", "value": 1800, "unit": "price", "currency": "USD",
+          "entity": "msi", "entity_type": "company", "scope": "product",
+          "as_of": "2026-06-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "prices its latest handheld at $1,800",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/msi-prices-its-latest-handheld-at-1800-as-exec-says-it-will-be-a-tough-year-for-us-and-the-gamers/" } }
+      ],
+      "summary": "MSI priced its latest handheld at $1,800, with an exec warning of a tough year and potential further price hikes."
+    },
+    {
+      "ref": "main_news/the-epic-games-store-and-epic-games-launcher-is-getting-a-gr",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Games Launcher"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Epic Games announced a ground-up rebuild of the Epic Games Store and launcher, with a roadmap of long-awaited features."
+    },
+    {
+      "ref": "business/crime-boss-rockay-city-hits-1m-copies-sold-and-celebrates-tw",
+      "entities": {
+        "games": [
+          { "id": "crime-boss-rockay-city", "name": "Crime Boss: Rockay City", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ingame-studios", "name": "Ingame Studios", "aliases": [], "publisher": "505-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "update-patch"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "crime-boss-rockay-city", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-19", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Hits 1M Copies Sold",
+          "source": { "name": "wccftech.com", "domain": "wccftech.com", "url": "https://wccftech.com/crime-boss-rockay-city-1m-copies-sold-2-0-update/" } }
+      ],
+      "summary": "Crime Boss: Rockay City has sold 1 million copies and marked its two-year Steam anniversary with a 2.0 update."
+    }
+  ]
+}
