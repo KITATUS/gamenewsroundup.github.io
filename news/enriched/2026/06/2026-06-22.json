@@ -1,0 +1,121 @@
+{
+  "date": "2026-06-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/icymi-bobby-prince-the-composer-of-doom-s-iconic-soundtrack",
+      "entities": {
+        "games": [
+          { "id": "doom", "name": "Doom", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "bobby-prince", "name": "Bobby Prince", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Bobby Prince, the composer of Doom's iconic soundtrack, has died at the age of 81."
+    },
+    {
+      "ref": "main_news/ubisoft-co-founder-claude-guillemot-dies-in-plane-accident",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "claude-guillemot", "name": "Claude Guillemot", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ubisoft co-founder Claude Guillemot, president and CEO of Guillemot Corporation, has died in a plane accident."
+    },
+    {
+      "ref": "business/meccha-chameleon-has-sold-over-7-million-copies",
+      "entities": {
+        "games": [
+          { "id": "meccha-chameleon", "name": "Meccha Chameleon", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 7000000, "unit": "copies", "currency": null,
+          "entity": "meccha-chameleon", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-22", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "Meccha Chameleon has Sold over 7 Million Copies",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/4704690/view/710026912607505791?l=english" } }
+      ],
+      "summary": "Meccha Chameleon has sold over 7 million copies."
+    },
+    {
+      "ref": "business/roblox-details-how-much-creators-will-pay-for-brand-integrat",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [
+        { "metric": "price", "value": 1.5, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-06-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "US Vistors: $1.50",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-details-how-much-creators-will-pay-for-brand-integrations" } },
+        { "metric": "price", "value": 0.75, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-06-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "UK / Canada / Australia / New Zealand / Nordic countries: $0.75",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-details-how-much-creators-will-pay-for-brand-integrations" } },
+        { "metric": "price", "value": 0.2, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-06-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Western Europe / Japan / South Korea: $0.20",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-details-how-much-creators-will-pay-for-brand-integrations" } },
+        { "metric": "price", "value": 0.05, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-06-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rest of World: $0.05",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-details-how-much-creators-will-pay-for-brand-integrations" } },
+        { "metric": "price", "value": 0.1, "unit": "price", "currency": "USD",
+          "entity": "roblox", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-06-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "After 28 days, a campaign will yield a flat rate of $0.10 per thousand customers for everyone",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/roblox-details-how-much-creators-will-pay-for-brand-integrations" } }
+      ],
+      "summary": "Roblox has detailed how much creators will pay for brand integrations on a regional cost-per-thousand-visits basis, with rates taking effect on 1 January 2027."
+    },
+    {
+      "ref": "business/marvel-contest-of-champions-developer-kabam-is-consolidating",
+      "entities": {
+        "games": [
+          { "id": "marvel-contest-of-champions", "name": "Marvel Contest of Champions", "aliases": [], "genres": ["fighting"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kabam", "name": "Kabam", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Marvel Contest of Champions developer Kabam is consolidating its Los Angeles office in a move that has resulted in an unknown number of layoffs."
+    }
+  ]
+}
