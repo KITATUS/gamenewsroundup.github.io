@@ -1488,6 +1488,15 @@
     "name": "Amazon Prime Video",
     "type": "platform"
   },
+  "amd": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-06-23",
+    "last_seen": "2026-06-23",
+    "mentions": 1,
+    "name": "AMD",
+    "type": "platform"
+  },
   "amiga": {
     "aliases": [],
     "fact_count": 0,
@@ -5425,18 +5434,19 @@
   },
   "call-of-duty-black-ops-7": {
     "aliases": [
-      "Black Ops 7"
+      "Black Ops 7",
+      "Call of Duty"
     ],
-    "fact_count": 3,
+    "fact_count": 4,
     "first_seen": "2025-08-20",
     "franchise": "call-of-duty",
     "genres": [
       "fps",
       "shooter"
     ],
-    "last_seen": "2026-01-23",
-    "mentions": 5,
-    "name": "Black Ops 7",
+    "last_seen": "2026-06-23",
+    "mentions": 6,
+    "name": "Call of Duty: Black Ops 7",
     "type": "game"
   },
   "call-of-duty-black-ops-cold-war": {
@@ -5574,9 +5584,9 @@
       "fps",
       "shooter"
     ],
-    "last_seen": "2026-06-01",
-    "mentions": 6,
-    "name": "Call of Duty: Warzone",
+    "last_seen": "2026-06-23",
+    "mentions": 7,
+    "name": "Warzone",
     "type": "game"
   },
   "call-of-duty-warzone-mobile": {
@@ -11617,8 +11627,8 @@
     ],
     "fact_count": 15,
     "first_seen": "2024-05-02",
-    "last_seen": "2026-06-16",
-    "mentions": 62,
+    "last_seen": "2026-06-23",
+    "mentions": 63,
     "name": "Electronic Arts",
     "type": "publisher"
   },
@@ -27900,6 +27910,15 @@
     "name": "Nickelodeon All-Star Brawl 2",
     "type": "game"
   },
+  "nicolas-cage": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-06-23",
+    "last_seen": "2026-06-23",
+    "mentions": 1,
+    "name": "Nicolas Cage",
+    "type": "person"
+  },
   "nicolas-godement": {
     "aliases": [],
     "fact_count": 0,
@@ -28715,9 +28734,9 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-11-08",
-    "last_seen": "2026-04-02",
-    "mentions": 3,
-    "name": "Nvidia",
+    "last_seen": "2026-06-23",
+    "mentions": 4,
+    "name": "NVIDIA",
     "type": "publisher"
   },
   "nvidia-geforce": {
@@ -28773,9 +28792,9 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-06-10",
-    "last_seen": "2026-01-09",
-    "mentions": 10,
-    "name": "Obsidian",
+    "last_seen": "2026-06-23",
+    "mentions": 11,
+    "name": "Obsidian Entertainment",
     "type": "studio"
   },
   "octopath-traveler": {
@@ -39036,8 +39055,8 @@
     "aliases": [],
     "fact_count": 2,
     "first_seen": "2024-11-28",
-    "last_seen": "2026-05-14",
-    "mentions": 6,
+    "last_seen": "2026-06-23",
+    "mentions": 7,
     "name": "Steam Controller",
     "type": "platform"
   },
@@ -39081,10 +39100,10 @@
   },
   "steam-machine": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 9,
     "first_seen": "2025-11-19",
-    "last_seen": "2026-06-05",
-    "mentions": 3,
+    "last_seen": "2026-06-23",
+    "mentions": 4,
     "name": "Steam Machine",
     "type": "platform"
   },
@@ -39092,8 +39111,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-08-16",
-    "last_seen": "2024-08-16",
-    "mentions": 1,
+    "last_seen": "2026-06-23",
+    "mentions": 2,
     "name": "SteamOS",
     "type": "platform"
   },
@@ -46068,8 +46087,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-06-11",
-    "mentions": 55,
+    "last_seen": "2026-06-23",
+    "mentions": 57,
     "name": "Valve",
     "type": "studio"
   },

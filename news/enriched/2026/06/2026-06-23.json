@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/valve-has-revealed-the-price-of-the-steam-machine-ahead-of-i",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-machine", "name": "Steam Machine", "aliases": [], "inferred": false },
+          { "id": "steam-controller", "name": "Steam Controller", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [
+        { "metric": "price", "value": 1049, "unit": "price", "currency": "USD",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "512GB model is $1,049 / £879",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "price", "value": 879, "unit": "price", "currency": "GBP",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "512GB model is $1,049 / £879",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "price", "value": 1128, "unit": "price", "currency": "USD",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "512GB with Steam Controller is $1,128 / £938",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "price", "value": 938, "unit": "price", "currency": "GBP",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "512GB with Steam Controller is $1,128 / £938",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "price", "value": 1349, "unit": "price", "currency": "USD",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "2TB model is $1,349 / £1,149",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "price", "value": 1149, "unit": "price", "currency": "GBP",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "2TB model is $1,349 / £1,149",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "price", "value": 1428, "unit": "price", "currency": "USD",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "2TB with Steam Controller is $1,428 / £1,208",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "price", "value": 1208, "unit": "price", "currency": "GBP",
+          "entity": "steam-machine", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "2TB with Steam Controller is $1,428 / £1,208",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } },
+        { "metric": "event_date", "value": "2026-06-25", "unit": "date", "currency": null,
+          "entity": "steam-machine", "entity_type": "product", "scope": "event",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "until June 25",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/steam-machine-costs-over-1000-significantly-more-than-valve-originally-wanted-to-charge/" } }
+      ],
+      "summary": "Valve has revealed Steam Machine pricing ahead of release, ranging from $1,049/£879 for the 512GB model to $1,428/£1,208 for the 2TB model with a Steam Controller."
+    },
+    {
+      "ref": "main_news/french-union-le-syndicat-des-travailleureuses-du-jeu-vid-o-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        { "metric": "event_date", "value": "2026-06-25", "unit": "date", "currency": null,
+          "entity": "stjv", "entity_type": "company", "scope": "event",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "on June 25th",
+          "source": { "name": "Kotaku", "domain": "kotaku.com", "url": "https://kotaku.com/video-game-union-industry-strike-stjv-layoffs-summer-greve-fest-2000709023" } }
+      ],
+      "summary": "French games union STJV has called for the entire French video game sector to strike on 25 June 2026 in an action it dubbed the \"Summer Greve Fest\"."
+    },
+    {
+      "ref": "main_news/steamos-3-8-released-for-amd-gpu-backed-pcs-previously-only",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [
+          { "id": "steamos", "name": "SteamOS", "aliases": [], "inferred": false },
+          { "id": "amd", "name": "AMD", "aliases": [], "inferred": false },
+          { "id": "nvidia", "name": "NVIDIA", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "update-patch"],
+      "facts": [],
+      "summary": "SteamOS 3.8 has been released for standard PCs with AMD GPUs, with NVIDIA-powered PCs still unsupported."
+    },
+    {
+      "ref": "main_news/nicolas-cage-arrives-in-call-of-duty-black-ops-7-and-warzone",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops-7", "name": "Call of Duty: Black Ops 7", "aliases": ["Call of Duty"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-warzone", "name": "Warzone", "aliases": [], "genres": ["battle-royale", "fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [{ "id": "nicolas-cage", "name": "Nicolas Cage", "aliases": [], "inferred": false }]
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-06-25", "unit": "date", "currency": null,
+          "entity": "call-of-duty-black-ops-7", "entity_type": "game", "scope": "event",
+          "as_of": "2026-06-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The event starts June 25th",
+          "source": { "name": "GameSpot", "domain": "gamespot.com", "url": "https://www.gamespot.com/articles/play-as-nicolas-cage-in-call-of-duty-for-season-4-reloaded/" } }
+      ],
+      "summary": "Nicolas Cage is arriving in Call of Duty: Black Ops 7 and Warzone via a Nick Cage focused event pass starting 25 June 2026."
+    },
+    {
+      "ref": "business/obsidian-sued-in-class-action-lawsuit-over-alleged-systemati",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": ["Obsidian"], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Obsidian Entertainment has been sued in a class action lawsuit alleging a systematic pattern of wage and hour violations, which the studio has denied."
+    },
+    {
+      "ref": "rumours/ea-conducts-layoffs-in-hyderabad-india-and-the-us-the-latest",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [],
+      "summary": "Electronic Arts has reportedly conducted layoffs in Hyderabad, India and the US affecting recruitment, customer support, trust and safety, and IT teams, with the number of people affected unknown."
+    }
+  ]
+}

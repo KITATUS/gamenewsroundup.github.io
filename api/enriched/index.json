@@ -1,6 +1,12 @@
 {
-  "day_count": 533,
+  "day_count": 534,
   "days": [
+    {
+      "date": "2026-06-23",
+      "entities": 11,
+      "facts": 11,
+      "items": 6
+    },
     {
       "date": "2026-06-22",
       "entities": 8,
@@ -3200,8 +3206,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4053,
-  "fact_count": 2573,
+  "entity_count": 4055,
+  "fact_count": 2584,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 17,
@@ -3211,14 +3217,14 @@
     "action-rpg": 629,
     "adventure": 328,
     "arcade": 11,
-    "battle-royale": 122,
+    "battle-royale": 123,
     "beat-em-up": 1,
     "card": 68,
     "creature-collector": 1,
     "crpg": 26,
     "extraction-shooter": 36,
     "fighting": 211,
-    "fps": 417,
+    "fps": 419,
     "grand-strategy": 1,
     "hero-shooter": 70,
     "horror": 115,
@@ -3256,7 +3262,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3652,
+  "item_count": 3658,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
@@ -3268,7 +3274,7 @@
     "development_budget": 13,
     "downloads": 25,
     "equity_stake_pct": 21,
-    "event_date": 222,
+    "event_date": 225,
     "funding_raised": 59,
     "headcount": 28,
     "layoffs_count": 104,
@@ -3278,7 +3284,7 @@
     "peak_concurrent_players": 13,
     "players_total": 71,
     "playtime_hours": 4,
-    "price": 223,
+    "price": 231,
     "price_change_pct": 18,
     "profit": 129,
     "release_date": 661,
