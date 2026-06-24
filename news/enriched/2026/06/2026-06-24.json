@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sega-and-iam8bit-are-re-releasing-the-original-ntsc-sonic-ge",
+      "entities": {
+        "games": [
+          { "id": "sonic-the-hedgehog", "name": "Sonic the Hedgehog", "aliases": ["Sonic 1"], "genres": ["platformer"], "franchise": "sonic", "inferred": true },
+          { "id": "sonic-the-hedgehog-2", "name": "Sonic the Hedgehog 2", "aliases": ["Sonic 2"], "genres": ["platformer"], "franchise": "sonic", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false },
+          { "id": "iam8bit", "name": "Iam8bit", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "sega-genesis", "name": "Sega Genesis", "aliases": ["Genesis"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "port", "release-date"],
+      "facts": [
+        { "metric": "price", "value": 100, "unit": "price", "currency": "USD",
+          "entity": "sonic-the-hedgehog", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$100 cartridges",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/sega-is-re-releasing-the-original-sonic-genesis-games-on-100-cartridges/" } }
+      ],
+      "summary": "Sega and Iam8bit are re-releasing the original NTSC Sonic Genesis games (Sonic 1 and Sonic 2) on $100 cartridges, shipping in Q3 2026 with pre-orders open now."
+    },
+    {
+      "ref": "main_news/capcom-s-next-capcom-spotlight-presentation-will-take-place",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-06-25", "unit": "date", "currency": null,
+          "entity": "capcom-spotlight", "entity_type": "product", "scope": "event",
+          "as_of": "2026-06-24", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Thursday, June 25 at 2pm PT / 5pm ET / 10pm BST",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/capcoms-next-capcom-spotlight-presentation-will-take-place-this-week/" } }
+      ],
+      "summary": "Capcom's next Capcom Spotlight presentation will take place on Thursday, June 25, running roughly 30 minutes with updates on current and upcoming titles."
+    },
+    {
+      "ref": "main_news/konami-is-suing-to-unmask-whoever-s-responsible-for-the-majo",
+      "entities": {
+        "games": [
+          { "id": "metal-gear-solid-2", "name": "Metal Gear Solid 2", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "metal-gear", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Konami is suing to unmask whoever is responsible for the major Metal Gear Solid 2 source code leak, naming file-hosting sites pixeldrain.com and buzzheavier.com and 4chan in its complaint."
+    },
+    {
+      "ref": "main_news/sonic-racing-crossworlds-free-character-updates-classic-soni",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing: CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic", "inferred": true },
+          { "id": "crazy-taxi", "name": "Crazy Taxi", "aliases": [], "genres": ["racing"], "franchise": "crazy-taxi", "inferred": true },
+          { "id": "super-monkey-ball", "name": "Super Monkey Ball", "aliases": [], "genres": ["party"], "franchise": "super-monkey-ball", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game", "release-date", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-08", "unit": "date", "currency": null,
+          "entity": "axel", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-24", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Axel is due August 2026",
+          "source": { "name": "Gematsu", "domain": "gematsu.com",
+                      "url": "https://www.gematsu.com/2026/06/sonic-racing-crossworlds-free-character-updates-classic-sonic-axel-and-amigo-announced" } },
+        { "metric": "release_date", "value": "2026-09", "unit": "date", "currency": null,
+          "entity": "amigo", "entity_type": "product", "scope": "product",
+          "as_of": "2026-06-24", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Amigo is expected September 2026",
+          "source": { "name": "Gematsu", "domain": "gematsu.com",
+                      "url": "https://www.gematsu.com/2026/06/sonic-racing-crossworlds-free-character-updates-classic-sonic-axel-and-amigo-announced" } }
+      ],
+      "summary": "Sega announced free Sonic Racing: CrossWorlds character updates adding Classic Sonic (out now), Axel from Crazy Taxi (August 2026) and Amigo from Super Monkey Ball (September 2026)."
+    },
+    {
+      "ref": "rumours/tencent-is-reportedly-in-talks-to-sell-its-shares-in-some-ja",
+      "entities": {
+        "games": [
+          { "id": "monster-hunter-stories", "name": "Monster Hunter Stories", "aliases": [], "genres": ["jrpg"], "franchise": "monster-hunter", "inferred": true },
+          { "id": "rune-factory", "name": "Rune Factory", "aliases": [], "genres": ["rpg", "life-sim"], "franchise": "rune-factory", "inferred": true },
+          { "id": "story-of-seasons", "name": "Story of Seasons", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "story-of-seasons", "inferred": true }
+        ],
+        "studios": [
+          { "id": "marvelous", "name": "Marvelous", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Tencent is in talks to sell its shares in some Japanese studios, including Marvelous (Monster Hunter Stories, Rune Factory, Story of Seasons), even at a loss."
+    }
+  ]
+}

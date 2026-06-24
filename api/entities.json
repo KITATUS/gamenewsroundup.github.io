@@ -5684,8 +5684,8 @@
     ],
     "fact_count": 64,
     "first_seen": "2024-04-29",
-    "last_seen": "2026-06-09",
-    "mentions": 101,
+    "last_seen": "2026-06-24",
+    "mentions": 102,
     "name": "Capcom",
     "type": "publisher"
   },
@@ -7478,8 +7478,8 @@
       "mmo",
       "racing"
     ],
-    "last_seen": "2026-05-22",
-    "mentions": 3,
+    "last_seen": "2026-06-24",
+    "mentions": 4,
     "name": "Crazy Taxi",
     "type": "game"
   },
@@ -18707,9 +18707,9 @@
     "aliases": [],
     "fact_count": 1,
     "first_seen": "2025-12-08",
-    "last_seen": "2025-12-08",
-    "mentions": 1,
-    "name": "iam8bit",
+    "last_seen": "2026-06-24",
+    "mentions": 2,
+    "name": "Iam8bit",
     "type": "studio"
   },
   "ian-wilkinson": {
@@ -21597,8 +21597,8 @@
     ],
     "fact_count": 14,
     "first_seen": "2024-05-28",
-    "last_seen": "2026-06-09",
-    "mentions": 38,
+    "last_seen": "2026-06-24",
+    "mentions": 39,
     "name": "Konami",
     "type": "publisher"
   },
@@ -24389,8 +24389,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-08-14",
-    "last_seen": "2024-08-14",
-    "mentions": 1,
+    "last_seen": "2026-06-24",
+    "mentions": 2,
     "name": "Marvelous",
     "type": "publisher"
   },
@@ -25215,8 +25215,8 @@
       "action-adventure",
       "stealth"
     ],
-    "last_seen": "2026-05-05",
-    "mentions": 2,
+    "last_seen": "2026-06-24",
+    "mentions": 3,
     "name": "Metal Gear Solid 2",
     "type": "game"
   },
@@ -26349,8 +26349,8 @@
       "jrpg",
       "rpg"
     ],
-    "last_seen": "2026-02-13",
-    "mentions": 1,
+    "last_seen": "2026-06-24",
+    "mentions": 2,
     "name": "Monster Hunter Stories",
     "type": "game"
   },
@@ -35123,10 +35123,11 @@
     "franchise": "rune-factory",
     "genres": [
       "action-rpg",
-      "life-sim"
+      "life-sim",
+      "rpg"
     ],
-    "last_seen": "2024-08-14",
-    "mentions": 1,
+    "last_seen": "2026-06-24",
+    "mentions": 2,
     "name": "Rune Factory",
     "type": "game"
   },
@@ -35898,9 +35899,9 @@
     ],
     "fact_count": 27,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-06-06",
-    "mentions": 74,
-    "name": "SEGA",
+    "last_seen": "2026-06-24",
+    "mentions": 76,
+    "name": "Sega",
     "type": "publisher"
   },
   "sega-europe": {
@@ -35914,13 +35915,14 @@
   },
   "sega-genesis": {
     "aliases": [
+      "Genesis",
       "Mega Drive"
     ],
     "fact_count": 0,
     "first_seen": "2026-05-05",
-    "last_seen": "2026-05-05",
-    "mentions": 1,
-    "name": "Sega Genesis / Mega Drive",
+    "last_seen": "2026-06-24",
+    "mentions": 2,
+    "name": "Sega Genesis",
     "type": "platform"
   },
   "sega-mega-drive-genesis": {
@@ -37422,13 +37424,13 @@
     "aliases": [],
     "fact_count": 5,
     "first_seen": "2024-12-13",
-    "franchise": "sonic-the-hedgehog",
+    "franchise": "sonic",
     "genres": [
       "racing"
     ],
-    "last_seen": "2026-06-06",
-    "mentions": 13,
-    "name": "Sonic Racing CrossWorlds",
+    "last_seen": "2026-06-24",
+    "mentions": 14,
+    "name": "Sonic Racing: CrossWorlds",
     "type": "game"
   },
   "sonic-riders": {
@@ -37482,17 +37484,33 @@
   },
   "sonic-the-hedgehog": {
     "aliases": [
-      "Sonic"
+      "Sonic",
+      "Sonic 1"
     ],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2025-10-07",
     "franchise": "sonic",
     "genres": [
       "platformer"
     ],
-    "last_seen": "2026-06-18",
-    "mentions": 3,
-    "name": "Sonic",
+    "last_seen": "2026-06-24",
+    "mentions": 4,
+    "name": "Sonic the Hedgehog",
+    "type": "game"
+  },
+  "sonic-the-hedgehog-2": {
+    "aliases": [
+      "Sonic 2"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-06-24",
+    "franchise": "sonic",
+    "genres": [
+      "platformer"
+    ],
+    "last_seen": "2026-06-24",
+    "mentions": 1,
+    "name": "Sonic the Hedgehog 2",
     "type": "game"
   },
   "sonic-the-hedgehog-3": {
@@ -39420,8 +39438,8 @@
       "life-sim",
       "simulation"
     ],
-    "last_seen": "2024-08-14",
-    "mentions": 1,
+    "last_seen": "2026-06-24",
+    "mentions": 2,
     "name": "Story of Seasons",
     "type": "game"
   },
@@ -40176,6 +40194,19 @@
     "mentions": 1,
     "name": "Super Mega Team",
     "type": "studio"
+  },
+  "super-monkey-ball": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-06-24",
+    "franchise": "super-monkey-ball",
+    "genres": [
+      "party"
+    ],
+    "last_seen": "2026-06-24",
+    "mentions": 1,
+    "name": "Super Monkey Ball",
+    "type": "game"
   },
   "super-monkey-ball-banana-rumble": {
     "aliases": [],
@@ -41362,8 +41393,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-30",
-    "last_seen": "2026-03-04",
-    "mentions": 29,
+    "last_seen": "2026-06-24",
+    "mentions": 30,
     "name": "Tencent",
     "type": "publisher"
   },
