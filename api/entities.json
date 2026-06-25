@@ -659,6 +659,15 @@
     "name": "Acquire Corp",
     "type": "studio"
   },
+  "active-gaming-media": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-06-25",
+    "last_seen": "2026-06-25",
+    "mentions": 1,
+    "name": "Active Gaming Media",
+    "type": "publisher"
+  },
   "activision": {
     "aliases": [],
     "fact_count": 0,
@@ -2849,8 +2858,8 @@
     "aliases": [],
     "fact_count": 1,
     "first_seen": "2024-05-24",
-    "last_seen": "2026-06-08",
-    "mentions": 16,
+    "last_seen": "2026-06-25",
+    "mentions": 17,
     "name": "Atari",
     "type": "publisher"
   },
@@ -16310,15 +16319,15 @@
       "Grand Theft Auto 6",
       "Grand Theft Auto VI"
     ],
-    "fact_count": 4,
+    "fact_count": 7,
     "first_seen": "2024-05-17",
     "franchise": "grand-theft-auto",
     "genres": [
       "action-adventure",
       "open-world"
     ],
-    "last_seen": "2026-06-19",
-    "mentions": 6,
+    "last_seen": "2026-06-25",
+    "mentions": 7,
     "name": "Grand Theft Auto 6",
     "type": "game"
   },
@@ -16398,6 +16407,15 @@
     "mentions": 2,
     "name": "Grand Theft Auto VI",
     "type": "game"
+  },
+  "graph": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-06-25",
+    "last_seen": "2026-06-25",
+    "mentions": 1,
+    "name": "Graph",
+    "type": "publisher"
   },
   "grasshopper-manufacture": {
     "aliases": [
@@ -17004,6 +17022,15 @@
     "mentions": 1,
     "name": "Gwendoline Christie",
     "type": "person"
+  },
+  "h2-interactive": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-06-25",
+    "last_seen": "2026-06-25",
+    "mentions": 1,
+    "name": "H2 Interactive",
+    "type": "publisher"
   },
   "hades": {
     "aliases": [],
@@ -19581,8 +19608,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2025-03-05",
-    "last_seen": "2026-03-13",
-    "mentions": 6,
+    "last_seen": "2026-06-25",
+    "mentions": 7,
     "name": "Jagex",
     "type": "studio"
   },
@@ -26202,6 +26229,15 @@
     "mentions": 1,
     "name": "Mobile Suit Gundam Extreme vs Maxiboost On",
     "type": "game"
+  },
+  "mobygames": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-06-25",
+    "last_seen": "2026-06-25",
+    "mentions": 1,
+    "name": "MobyGames",
+    "type": "studio"
   },
   "modern-times-group": {
     "aliases": [
@@ -34638,8 +34674,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-14",
-    "last_seen": "2026-06-19",
-    "mentions": 25,
+    "last_seen": "2026-06-25",
+    "mentions": 26,
     "name": "Rockstar Games",
     "type": "studio"
   },
@@ -35168,8 +35204,8 @@
       "mmo",
       "mmorpg"
     ],
-    "last_seen": "2026-03-13",
-    "mentions": 5,
+    "last_seen": "2026-06-25",
+    "mentions": 6,
     "name": "RuneScape",
     "type": "game"
   },

@@ -1,6 +1,12 @@
 {
-  "day_count": 535,
+  "day_count": 536,
   "days": [
+    {
+      "date": "2026-06-25",
+      "entities": 9,
+      "facts": 3,
+      "items": 3
+    },
     {
       "date": "2026-06-24",
       "entities": 16,
@@ -3212,13 +3218,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4057,
-  "fact_count": 2588,
+  "entity_count": 4061,
+  "fact_count": 2591,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 17,
     "action": 58,
-    "action-adventure": 880,
+    "action-adventure": 881,
     "action-platformer": 3,
     "action-rpg": 629,
     "adventure": 328,
@@ -3240,9 +3246,9 @@
     "management": 1,
     "metroidvania": 53,
     "mmo": 42,
-    "mmorpg": 62,
+    "mmorpg": 63,
     "moba": 27,
-    "open-world": 377,
+    "open-world": 378,
     "party": 88,
     "platformer": 259,
     "puzzle": 146,
@@ -3268,7 +3274,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3663,
+  "item_count": 3666,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
@@ -3280,7 +3286,7 @@
     "development_budget": 13,
     "downloads": 25,
     "equity_stake_pct": 21,
-    "event_date": 226,
+    "event_date": 227,
     "funding_raised": 59,
     "headcount": 28,
     "layoffs_count": 104,
@@ -3290,7 +3296,7 @@
     "peak_concurrent_players": 13,
     "players_total": 71,
     "playtime_hours": 4,
-    "price": 232,
+    "price": 234,
     "price_change_pct": 18,
     "profit": 129,
     "release_date": 663,
