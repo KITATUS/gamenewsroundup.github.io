@@ -1,6 +1,12 @@
 {
-  "day_count": 536,
+  "day_count": 537,
   "days": [
+    {
+      "date": "2026-06-26",
+      "entities": 10,
+      "facts": 3,
+      "items": 5
+    },
     {
       "date": "2026-06-25",
       "entities": 9,
@@ -3219,12 +3225,12 @@
     }
   ],
   "entity_count": 4061,
-  "fact_count": 2591,
+  "fact_count": 2594,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 17,
     "action": 58,
-    "action-adventure": 881,
+    "action-adventure": 882,
     "action-platformer": 3,
     "action-rpg": 629,
     "adventure": 328,
@@ -3234,9 +3240,9 @@
     "card": 68,
     "creature-collector": 1,
     "crpg": 26,
-    "extraction-shooter": 36,
+    "extraction-shooter": 37,
     "fighting": 211,
-    "fps": 419,
+    "fps": 421,
     "grand-strategy": 1,
     "hero-shooter": 70,
     "horror": 115,
@@ -3245,7 +3251,7 @@
     "looter-shooter": 1,
     "management": 1,
     "metroidvania": 53,
-    "mmo": 42,
+    "mmo": 43,
     "mmorpg": 63,
     "moba": 27,
     "open-world": 378,
@@ -3274,7 +3280,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3666,
+  "item_count": 3671,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
@@ -3287,9 +3293,9 @@
     "downloads": 25,
     "equity_stake_pct": 21,
     "event_date": 227,
-    "funding_raised": 59,
+    "funding_raised": 61,
     "headcount": 28,
-    "layoffs_count": 104,
+    "layoffs_count": 105,
     "lifetime_unit_sales": 43,
     "metacritic": 1,
     "operating_income": 122,

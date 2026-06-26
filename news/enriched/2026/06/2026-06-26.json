@@ -1,0 +1,97 @@
+{
+  "date": "2026-06-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/microsoft-is-raising-the-price-of-xbox-consoles-due-to-the-o",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "microsoft", "name": "Microsoft", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [{ "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [],
+      "summary": "Microsoft is raising the price of Xbox consoles worldwide, by $100 for 512GB models and $150 for 1TB models, and discontinuing the Series X 2TB Galaxy Black, citing ongoing hardware shortages."
+    },
+    {
+      "ref": "business/sony-confirms-it-s-laying-off-most-of-the-destiny-team-some",
+      "entities": {
+        "games": [
+          { "id": "destiny", "name": "Destiny", "aliases": [], "genres": ["fps", "mmo"], "franchise": "destiny", "inferred": true },
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [{ "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "SIE"], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": [
+          { "id": "justin-truman", "name": "Justin Truman", "aliases": [], "inferred": false },
+          { "id": "pete-parsons", "name": "Pete Parsons", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "leadership-change"],
+      "facts": [],
+      "summary": "Sony has confirmed it is laying off most of the Destiny team and some Marathon developers, along with members across SIE teams that support Bungie's operations."
+    },
+    {
+      "ref": "business/at-least-a-dozen-people-have-departed-award-winning-south-of",
+      "entities": {
+        "games": [{ "id": "south-of-midnight", "name": "South of Midnight", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "compulsion-games", "name": "Compulsion Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 12, "unit": "people", "currency": null,
+          "entity": "compulsion-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-06-26", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "At least a dozen people have departed award-winning South of Midnight developer Compulsion Games this week",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/xbox-layoffs-compulsion-games-south-of-midnight" } }
+      ],
+      "summary": "At least a dozen people have departed South of Midnight developer Compulsion Games this week, following reports that Xbox is planning major restructuring that could bring significant layoffs and studio closures."
+    },
+    {
+      "ref": "business/vc-fund-vgames-launches-new-10m-indie-fund-the-venture-is-pr",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "announcement"],
+      "facts": [
+        { "metric": "funding_raised", "value": 10000000, "unit": "money", "currency": "USD",
+          "entity": "vgames", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "VC fund VGames launches new $10m Indie Fund",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/vc-fund-vgames-launches-new-10m-indie-fund" } }
+      ],
+      "summary": "VC fund VGames has launched a new $10m Indie Fund that provides project financing in exchange for revenue share rather than equity."
+    },
+    {
+      "ref": "business/san-francisco-based-video-game-investment-house-denmu-announ",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "announcement"],
+      "facts": [
+        { "metric": "funding_raised", "value": 50000000, "unit": "money", "currency": "USD",
+          "entity": "denmu", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-26", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Denmu announces 'auteur-first' $50 million fund for game devs",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/investment-house-denmu-announces-auteur-first-50-million-fund-for-game-devs" } }
+      ],
+      "summary": "San Francisco-based video game investment house Denmu has announced an 'auteur-first' $50 million fund for game developers."
+    }
+  ]
+}
