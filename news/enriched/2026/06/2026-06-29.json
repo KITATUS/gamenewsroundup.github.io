@@ -1,0 +1,133 @@
+{
+  "date": "2026-06-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/cyberpunk-edgerunners-season-2-anime-releases-this-winter",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "cd-projekt", "name": "CD Projekt", "aliases": ["Cyberpunk"], "publisher": null, "inferred": true }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [],
+      "summary": "The second season of the Cyberpunk: Edgerunners anime is set to release in winter 2026."
+    },
+    {
+      "ref": "main_news/phasmophobia-delays-highly-anticipated-1-0-launch-to-2027-as",
+      "entities": {
+        "games": [{ "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": null, "inferred": true }],
+        "studios": [{ "id": "kinetic-games", "name": "Kinetic Games", "aliases": [], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "early-access"],
+      "facts": [
+        { "metric": "delay_to", "value": "2027", "unit": "date", "currency": null,
+          "entity": "phasmophobia", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Phasmophobia delays highly-anticipated 1.0 launch to 2027",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/phasmophobia-version-1-launch-delayed" } }
+      ],
+      "summary": "Phasmophobia has delayed its 1.0 launch to 2027, saying it is prioritising quality over speed."
+    },
+    {
+      "ref": "main_news/sony-is-deleting-over-550-purchased-studio-canal-movies-and",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "PlayStation"], "publisher": null, "inferred": true }],
+        "platforms": [{ "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Sony is removing over 550 purchased Studio Canal movies and TV shows from PS5 users' digital libraries due to a licensing agreement."
+    },
+    {
+      "ref": "business/keywords-has-laid-off-128-employees-in-san-francisco",
+      "entities": {
+        "games": [],
+        "studios": [{ "id": "keywords-studios", "name": "Keywords Studios", "aliases": ["Keywords"], "publisher": null, "inferred": true }],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 128, "unit": "people", "currency": null,
+          "entity": "keywords-studios", "entity_type": "company", "scope": "company",
+          "as_of": "2026-06-29", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Keywords has laid off 128 employees in San Francisco",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/keywords-has-laid-off-128-employees-in-san-francisco" } }
+      ],
+      "summary": "Keywords has laid off 128 employees in San Francisco, with the affected roles or departments unclear."
+    },
+    {
+      "ref": "business/italy-s-34bigthings-developers-behind-carmageddon-rogue-shif",
+      "entities": {
+        "games": [
+          { "id": "carmageddon-rogue-shift", "name": "Carmageddon Rogue Shift", "aliases": [], "genres": ["racing"], "franchise": "carmageddon", "inferred": true },
+          { "id": "redout", "name": "RedOut", "aliases": [], "genres": ["racing"], "franchise": "redout", "inferred": true }
+        ],
+        "studios": [{ "id": "34bigthings", "name": "34BigThings", "aliases": [], "publisher": null, "inferred": false }],
+        "publishers": [{ "id": "embracer-group", "name": "Embracer Group", "aliases": [], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Italian studio 34BigThings, the developers behind Carmageddon Rogue Shift and RedOut, is spinning out from Embracer Group."
+    },
+    {
+      "ref": "business/viral-hide-and-seek-indie-hit-meccha-chameleon-sells-10m-cop",
+      "entities": {
+        "games": [{ "id": "meccha-chameleon", "name": "Meccha Chameleon", "aliases": [], "genres": ["party"], "franchise": null, "inferred": true }],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 10000000, "unit": "copies", "currency": null,
+          "entity": "meccha-chameleon", "entity_type": "game", "scope": "game",
+          "as_of": "2026-06-29", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Meccha Chameleon sells 10m copies in just 16 days",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/meccha-chameleon-10-million-sales" } }
+      ],
+      "summary": "Viral hide-and-seek indie hit Meccha Chameleon has sold 10 million copies in just 16 days."
+    },
+    {
+      "ref": "business/sony-interactive-entertainment-ceo-hideaki-nishino-says-play",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": [{ "id": "hideaki-nishino", "name": "Hideaki Nishino", "aliases": [], "inferred": false }]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sony Interactive Entertainment CEO Hideaki Nishino says PlayStation is not giving up on live service games."
+    },
+    {
+      "ref": "business/cd-projekt-is-rebranding-as-cd-projekt-red-sp-ka-akcyjna-the",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [{ "id": "cd-projekt", "name": "CD Projekt", "aliases": ["CD Projekt Red", "CD Projekt Red Spółka Akcyjna"], "publisher": null, "inferred": false }],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "CD Projekt is rebranding as CD Projekt Red Spółka Akcyjna, while the parent company remains CD Projekt Red."
+    }
+  ]
+}
