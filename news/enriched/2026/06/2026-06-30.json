@@ -1,0 +1,162 @@
+{
+  "date": "2026-06-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/the-binding-of-isaac-rebirth-hits-a-new-concurrent-player-re",
+      "entities": {
+        "games": [
+          {
+            "id": "the-binding-of-isaac-rebirth",
+            "name": "The Binding of Isaac: Rebirth",
+            "aliases": [],
+            "genres": ["roguelike"],
+            "franchise": "the-binding-of-isaac",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "peak_concurrent_players",
+          "value": 131000,
+          "unit": "players",
+          "currency": null,
+          "entity": "the-binding-of-isaac-rebirth",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-06-30",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "medium",
+          "quote": "almost 131k players",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/the-binding-of-isaac-rebirth-steam-player-peak-2026"
+          }
+        },
+        {
+          "metric": "peak_concurrent_players",
+          "value": 70701,
+          "unit": "players",
+          "currency": null,
+          "entity": "the-binding-of-isaac-rebirth",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-06-30",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "previous peak was 70,701 in Apirl 2021",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/the-binding-of-isaac-rebirth-steam-player-peak-2026"
+          }
+        }
+      ],
+      "summary": "The Binding of Isaac: Rebirth hit a new Steam concurrent-player record of almost 131,000 players, 12 years after release and above its previous peak of 70,701 in April 2021."
+    },
+    {
+      "ref": "business/supermassive-games-ceo-robert-henrysson-has-stepped-down",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "supermassive-games",
+            "name": "Supermassive Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "robert-henrysson",
+            "name": "Robert Henrysson",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Supermassive Games CEO Robert Henrysson has stepped down."
+    },
+    {
+      "ref": "business/ram-manufacturers-have-been-sued-for-allegedly-fixing-prices",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "RAM manufacturers Samsung, SK Hynix and Micron have been sued in a class action alleging they colluded to fix prices and restrict DDR3 and DDR4 supply, raising costs for consumers."
+    },
+    {
+      "ref": "business/kingdom-come-deliverance-ii-has-sold-over-6-million-copies",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-come-deliverance-ii",
+            "name": "Kingdom Come: Deliverance II",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "kingdom-come-deliverance",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "warhorse-studios",
+            "name": "Warhorse Studios",
+            "aliases": [],
+            "publisher": "plaion",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 6000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "kingdom-come-deliverance-ii",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-06-30",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Kingdom Come: Deliverance II has sold over 6 million copies",
+          "source": {
+            "name": "Steam",
+            "domain": "store.steampowered.com",
+            "url": "https://store.steampowered.com/news/app/1771300/view/702145613257508971?l=english"
+          }
+        }
+      ],
+      "summary": "Kingdom Come: Deliverance II has sold over 6 million copies."
+    }
+  ]
+}

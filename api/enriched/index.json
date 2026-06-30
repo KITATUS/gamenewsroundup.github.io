@@ -1,6 +1,12 @@
 {
-  "day_count": 538,
+  "day_count": 539,
   "days": [
+    {
+      "date": "2026-06-30",
+      "entities": 6,
+      "facts": 3,
+      "items": 4
+    },
     {
       "date": "2026-06-29",
       "entities": 12,
@@ -3230,15 +3236,15 @@
       "items": 7
     }
   ],
-  "entity_count": 4063,
-  "fact_count": 2597,
+  "entity_count": 4065,
+  "fact_count": 2600,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 17,
     "action": 58,
     "action-adventure": 882,
     "action-platformer": 3,
-    "action-rpg": 629,
+    "action-rpg": 630,
     "adventure": 328,
     "arcade": 11,
     "battle-royale": 123,
@@ -3260,13 +3266,13 @@
     "mmo": 43,
     "mmorpg": 63,
     "moba": 27,
-    "open-world": 378,
+    "open-world": 379,
     "party": 89,
     "platformer": 259,
     "puzzle": 146,
     "racing": 161,
     "rhythm": 46,
-    "roguelike": 155,
+    "roguelike": 156,
     "rpg": 202,
     "rts": 36,
     "sandbox": 88,
@@ -3286,14 +3292,14 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3679,
+  "item_count": 3683,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 11,
     "content_acquisition_cost": 2,
-    "copies_sold": 178,
+    "copies_sold": 179,
     "delay_to": 24,
     "development_budget": 13,
     "downloads": 25,
@@ -3305,7 +3311,7 @@
     "lifetime_unit_sales": 43,
     "metacritic": 1,
     "operating_income": 122,
-    "peak_concurrent_players": 13,
+    "peak_concurrent_players": 15,
     "players_total": 71,
     "playtime_hours": 4,
     "price": 234,
