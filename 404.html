@@ -28,21 +28,21 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link rel="preconnect" href="https://unpkg.com" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script defer src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" integrity="sha384-DGyLxAyjq0f9SPpVevD6IgztCFlnMF6oW/XQGmfe+IsZ8TqEiDrcHkMLKI6fiB/Z" crossorigin="anonymous"></script>
+<script defer src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" integrity="sha384-gTGxhz21lVGYNMcdJOyq01Edg0jhn/c22nsx0kyqP0TxaV5WVdsSH1fSDUf5YJj1" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="root"><nav class="site-nav" aria-label="Main navigation"><div class="site-nav__inner"><a href="/" class="site-nav__brand">Game News Round-Up</a><div class="site-nav__links"><a href="/" class="site-nav__link">Latest</a><a href="/archive/" class="site-nav__link">Archive</a><a href="/feeds/" class="site-nav__link">Feeds</a><a href="/about/" class="site-nav__link">About</a></div></div></nav><main class="page"><div class="about-inner"><header class="page-header"><h1 class="page-header__title">Page not found</h1><p class="page-header__sub">That round-up or page does not exist.</p></header><div class="about-body"><section class="about-section"><p><a href="/">Go to the latest round-up</a> or browse the <a href="/archive/">archive</a>.</p></section></div></div></main><footer><div class="site-footer"><span class="site-footer__brand">Game News Round-Up</span><p class="site-footer__disclaimer">We do not collect cookies or tracking information.</p><div class="site-footer__links"><a href="/feeds/rss.xml" class="site-footer__link">RSS</a><a href="/api/roundups/index.json" class="site-footer__link">JSON API</a><a href="https://linktr.ee/gamenewsroundup" class="site-footer__link" target="_blank" rel="noopener noreferrer">LINKTREE</a><a href="/about/" class="site-footer__link">ABOUT</a></div></div></footer></div>
-<script src="/news/index-bootstrap.js"></script>
 <script id="gnr-bootstrap" type="application/json">{"day":null}</script>
-<script src="/data.js"></script>
-<script type="text/babel" src="/tweaks-panel.jsx"></script>
-<script type="text/babel" src="/components.jsx"></script>
-<script type="text/babel" src="/pages.jsx"></script>
-<script type="text/babel" src="/app.jsx"></script>
+<script defer src="/news/index-bootstrap.js"></script>
+<script defer src="/data.js"></script>
+<script defer src="/tweaks-panel.js"></script>
+<script defer src="/components.js"></script>
+<script defer src="/pages.js"></script>
+<script defer src="/app.js"></script>
 </body>
 </html>

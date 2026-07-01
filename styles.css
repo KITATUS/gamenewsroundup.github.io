@@ -12,11 +12,11 @@
   --accent:       oklch(0.65 0.16 22);
   --accent-dim:   oklch(0.40 0.11 22);
   --accent-sub:   oklch(0.20 0.07 22);
-  --rumour-a:     oklch(0.58 0.05 64);
+  --rumour-a:     oklch(0.72 0.06 64);   /* text lightened to clear WCAG 4.5:1 on its bg (~7.6:1) */
   --rumour-a-bg:  oklch(0.17 0.02 64);
-  --rumour-p:     oklch(0.56 0.06 52);
+  --rumour-p:     oklch(0.72 0.07 52);
   --rumour-p-bg:  oklch(0.17 0.02 52);
-  --rumour-v:     oklch(0.58 0.05 238);
+  --rumour-v:     oklch(0.72 0.06 238);
   --rumour-v-bg:  oklch(0.17 0.02 238);
   --font-d: 'Poppins', sans-serif;
   --font-b: 'Source Sans 3', sans-serif;

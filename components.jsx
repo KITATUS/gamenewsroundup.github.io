@@ -207,7 +207,7 @@ const SectionBlock = ({ section, onNavigate, currentDate }) => {
             return (
               <li key={item.id} className="section-block__item">
                 {isRumour && (
-                  <span className="section-block__rumour-dot" title="Rumor" aria-label="Rumor"></span>
+                  <span className="section-block__rumour-dot" title="Rumor" aria-hidden="true"></span>
                 )}
                 <div className="section-block__item-body">
                   {isRumour && item.metadata.rumour_status && (
