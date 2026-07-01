@@ -1,6 +1,12 @@
 {
-  "day_count": 539,
+  "day_count": 540,
   "days": [
+    {
+      "date": "2026-07-01",
+      "entities": 6,
+      "facts": 0,
+      "items": 3
+    },
     {
       "date": "2026-06-30",
       "entities": 6,
@@ -3236,7 +3242,7 @@
       "items": 7
     }
   ],
-  "entity_count": 4065,
+  "entity_count": 4067,
   "fact_count": 2600,
   "generated_from": "enriched/",
   "genre_totals": {
@@ -3244,7 +3250,7 @@
     "action": 58,
     "action-adventure": 882,
     "action-platformer": 3,
-    "action-rpg": 630,
+    "action-rpg": 631,
     "adventure": 328,
     "arcade": 11,
     "battle-royale": 123,
@@ -3275,7 +3281,7 @@
     "roguelike": 156,
     "rpg": 202,
     "rts": 36,
-    "sandbox": 88,
+    "sandbox": 89,
     "shooter": 433,
     "simulation": 294,
     "social-deduction": 1,
@@ -3283,7 +3289,7 @@
     "sports": 141,
     "stealth": 96,
     "strategy": 162,
-    "survival": 174,
+    "survival": 175,
     "survival-horror": 244,
     "tactical-shooter": 2,
     "tower-defense": 15,
@@ -3292,7 +3298,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 24
   },
-  "item_count": 3683,
+  "item_count": 3686,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,

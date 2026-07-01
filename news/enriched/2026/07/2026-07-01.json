@@ -1,0 +1,95 @@
+{
+  "date": "2026-07-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/california-protect-our-games-act-fails-in-committee",
+      "entities": {
+        "games": [
+          {
+            "id": "minecraft",
+            "name": "Minecraft",
+            "aliases": [],
+            "genres": ["survival", "sandbox"],
+            "franchise": "minecraft",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "jennifer-gibbons",
+            "name": "Jennifer Gibbons",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "California's Protect Our Games Act failed to pass the Business, Professions and Economic Development committee."
+    },
+    {
+      "ref": "business/layoffs-at-io-interactive-as-project-fantasy-ends-relationsh",
+      "entities": {
+        "games": [
+          {
+            "id": "project-fantasy",
+            "name": "Project Fantasy",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "io-interactive",
+            "name": "IO Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["layoffs", "partnership"],
+      "facts": [],
+      "summary": "IO Interactive is facing layoffs after its Project Fantasy relationship with an external partner ended, with rumours pointing to Xbox as the partner."
+    },
+    {
+      "ref": "rumours/nbcuniversal-may-enter-video-game-business-after-comcast-spl",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nbcuniversal",
+            "name": "NBCUniversal",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that NBCUniversal may enter the video game business following the Comcast split."
+    }
+  ]
+}
