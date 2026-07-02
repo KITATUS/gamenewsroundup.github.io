@@ -1,0 +1,172 @@
+{
+  "date": "2026-07-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/physical-disc-production-ending-in-january-2028-for-new-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [
+        { "metric": "event_date", "value": "2028-01", "unit": "date", "currency": null,
+          "entity": "playstation", "entity_type": "platform", "scope": "platform",
+          "as_of": "2026-07-02", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "Physical disc production ending in January 2028 for new games releasing on PlayStation consoles",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com",
+            "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/" } }
+      ],
+      "summary": "Sony will end physical disc production for new PlayStation games in January 2028, after which new games will be sold in digital formats only."
+    },
+    {
+      "ref": "main_news/playstation-store-for-ps3-ps-vita-closing-down",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-store", "name": "PlayStation Store", "aliases": [], "inferred": false },
+          { "id": "ps3", "name": "PlayStation 3", "aliases": ["PS3"], "inferred": false },
+          { "id": "ps-vita", "name": "PlayStation Vita", "aliases": ["PS Vita"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-08", "unit": "date", "currency": null,
+          "entity": "playstation-store", "entity_type": "product", "scope": "product",
+          "as_of": "2026-07-02", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "PlayStation Store on PS3 will close starting August 2026",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com",
+            "url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita/" } },
+        { "metric": "shutdown_date", "value": "2027-07", "unit": "date", "currency": null,
+          "entity": "playstation-store", "entity_type": "product", "scope": "product",
+          "as_of": "2026-07-02", "period": "point_in_time", "direction": null,
+          "confidence": "high", "quote": "PlayStation Store on PS3 and PS Vita will close in July 2027",
+          "source": { "name": "PlayStation Blog", "domain": "blog.playstation.com",
+            "url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita/" } }
+      ],
+      "summary": "The PlayStation Store for PS3 and PS Vita is closing down, beginning in some Latin American countries in August 2026 and reaching all other countries by July 2027."
+    },
+    {
+      "ref": "main_news/persona-is-getting-the-live-action-show-treatment-at-netflix",
+      "entities": {
+        "games": [
+          { "id": "persona", "name": "Persona", "aliases": [], "genres": ["jrpg"], "franchise": "persona", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false },
+          { "id": "21-laps", "name": "21 Laps", "aliases": [], "inferred": false },
+          { "id": "story-kitchen", "name": "Story Kitchen", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "christopher-monfette", "name": "Christopher Monfette", "aliases": [], "inferred": false },
+          { "id": "shawn-levy", "name": "Shawn Levy", "aliases": [], "inferred": false },
+          { "id": "dan-levine", "name": "Dan Levine", "aliases": [], "inferred": false },
+          { "id": "robert-atwood", "name": "Robert Atwood", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "A live-action Persona show is being made at Netflix with Christopher Monfette as showrunner, produced with 21 Laps and Story Kitchen."
+    },
+    {
+      "ref": "main_news/godot-to-ban-almost-all-ai-coding-contributions-godot-will-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "godot", "name": "Godot", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Godot engine project will ban almost all AI-generated coding contributions while still permitting AI assistance such as code completion, regex, and find and replace."
+    },
+    {
+      "ref": "free_games_subscription/july-s-three-playstation-plus-essential-monthly-games-are-ca",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-modern-warfare-iii", "name": "Call of Duty: Modern Warfare III", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "for-the-king-ii", "name": "For The King II", "aliases": [], "genres": ["turn-based-strategy", "rpg"], "franchise": "for-the-king", "inferred": true },
+          { "id": "crosscode", "name": "CrossCode", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "July's three PlayStation Plus Essential monthly games are Call of Duty: Modern Warfare III, For The King II, and CrossCode."
+    },
+    {
+      "ref": "business/2k-co-founder-christoph-hartmann-joins-ubisoft-to-lead-creat",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": ["2K Games"], "inferred": false },
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "christoph-hartmann", "name": "Christoph Hartmann", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "2K co-founder Christoph Hartmann has joined Ubisoft to lead Creative House 2, which focuses on Tom Clancy titles."
+    },
+    {
+      "ref": "business/subnautica-2-studio-unknown-worlds-ceo-resigns-as-krafton-ha",
+      "entities": {
+        "games": [
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival"], "franchise": "subnautica", "inferred": true }
+        ],
+        "studios": [
+          { "id": "unknown-worlds", "name": "Unknown Worlds", "aliases": [], "publisher": "krafton", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["leadership-change", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Unknown Worlds' CEO has resigned as Krafton settled its lawsuit with the Subnautica 2 studio's former leadership team and agreed to pay the disputed $250 million bonus."
+    },
+    {
+      "ref": "rumours/xbox-is-reportedly-working-on-a-way-to-let-players-turn-thei",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": [], "inferred": false },
+          { "id": "xbox-one", "name": "Xbox One", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Xbox is reportedly working on a feature, codenamed Disc2Digital, to let players convert their disc copies of Xbox Series X and Xbox One games into digital versions."
+    }
+  ]
+}
