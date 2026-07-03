@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/ceo-of-professor-layton-studio-level-5-akihiro-hino-says-sta",
+      "entities": {
+        "games": [
+          { "id": "professor-layton", "name": "Professor Layton", "aliases": [], "genres": ["puzzle", "adventure"], "franchise": "professor-layton", "inferred": true }
+        ],
+        "studios": [
+          { "id": "level-5", "name": "Level-5", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "akihiro-hino", "name": "Akihiro Hino", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Level-5 CEO Akihiro Hino says staff receive big pay rises for correctly answering quizzes about the studio's games."
+    },
+    {
+      "ref": "main_news/updates-to-final-fantasy-7-revelation-s-epic-game-store-back",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-7-revelation", "name": "Final Fantasy 7 Revelation", "aliases": [], "genres": ["jrpg", "action-rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": ["Epic Game Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "Updates to Final Fantasy 7 Revelation's Epic Games Store backend point to 9 DLCs, pre-order bonuses, a Premium Edition, a Digital Contents pack, and a story expansion pass."
+    },
+    {
+      "ref": "free_games_subscription/11-games-leaving-xbox-game-pass-in-july",
+      "entities": {
+        "games": [
+          { "id": "golf-with-your-friends", "name": "Golf With Your Friends", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "my-friendly-neighborhood", "name": "My Friendly Neighborhood", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "super-fantasy-kingdom", "name": "Super Fantasy Kingdom", "aliases": [], "genres": ["strategy"], "franchise": null, "inferred": true },
+          { "id": "powerwash-simulator", "name": "PowerWash Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "whiskerwood", "name": "Whiskerwood", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "techtonica", "name": "Techtonica", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "stellaris", "name": "Stellaris", "aliases": [], "genres": ["strategy", "4x"], "franchise": null, "inferred": true },
+          { "id": "ea-sports-fc-24", "name": "EA Sports FC 24", "aliases": [], "genres": ["sports"], "franchise": "ea-sports-fc", "inferred": true },
+          { "id": "dungeons-of-hinterberg", "name": "Dungeons of Hinterberg", "aliases": [], "genres": ["action-rpg", "adventure"], "franchise": null, "inferred": true },
+          { "id": "back-to-the-dawn", "name": "Back to the Dawn", "aliases": [], "genres": ["rpg", "adventure"], "franchise": null, "inferred": true },
+          { "id": "shadow-of-the-tomb-raider", "name": "Shadow of the Tomb Raider", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Eleven games are leaving Xbox Game Pass in July 2026."
+    },
+    {
+      "ref": "business/sega-europe-veteran-coo-jurgen-post-steps-down-with-rovio-s",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "sega-europe", "name": "Sega Europe", "aliases": [], "publisher": "sega", "inferred": true },
+          { "id": "rovio", "name": "Rovio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "jurgen-post", "name": "Jurgen Post", "aliases": [], "inferred": false },
+          { "id": "alex-pelletier-normand", "name": "Alex Pelletier-Normand", "aliases": [], "inferred": false },
+          { "id": "tatsuyuki-miyazaki", "name": "Tatsuyuki Miyazaki", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Sega Europe COO Jurgen Post is stepping down, with Rovio's Alex Pelletier-Normand taking his place while Post remains in an advisory role."
+    },
+    {
+      "ref": "business/kepler-interactive-acquires-stake-in-indie-publisher-oro-int",
+      "entities": {
+        "games": [
+          { "id": "easy-delivery-co", "name": "Easy Delivery Co.", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "roadside-research", "name": "Roadside Research", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "split", "name": "S.P.L.I.T", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "kepler-interactive", "name": "Kepler Interactive", "aliases": [], "inferred": false },
+          { "id": "oro-interactive", "name": "Oro Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Kepler Interactive has acquired a stake in indie publisher Oro Interactive from a venture capital firm, with the sale price kept confidential."
+    }
+  ]
+}
