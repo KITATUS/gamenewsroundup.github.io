@@ -1,0 +1,297 @@
+{
+  "date": "2026-07-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/danganronpa-2x2-delayed-to-early-2027",
+      "entities": {
+        "games": [
+          {
+            "id": "danganronpa-2x2",
+            "name": "Danganronpa 2x2",
+            "aliases": [],
+            "genres": ["visual-novel", "adventure"],
+            "franchise": "danganronpa",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "spike-chunsoft",
+            "name": "Spike Chunsoft",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "danganronpa-2x2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "delayed to \"early\" 2027",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/danganronpa-2x2-delayed-2027"
+          }
+        }
+      ],
+      "summary": "Danganronpa 2x2 has been delayed to early 2027."
+    },
+    {
+      "ref": "main_news/epic-games-has-settled-their-court-case-against-former-contr",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "hayden-cohen",
+            "name": "Hayden Cohen",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Epic Games has settled its lawsuit against former contractor Hayden Cohen, who was accused of leaking Fortnite collaborations, with the proposed settlement not detailing any monetary relief."
+    },
+    {
+      "ref": "main_news/summer-games-done-quick-2026-has-begun",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-07-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "summer-games-done-quick",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-07-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The event runs from July 5th until July 12th",
+          "source": {
+            "name": "crowd.gamesdonequick.com",
+            "domain": "crowd.gamesdonequick.com",
+            "url": "https://crowd.gamesdonequick.com/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-07-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "summer-games-done-quick",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-07-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The event runs from July 5th until July 12th",
+          "source": {
+            "name": "crowd.gamesdonequick.com",
+            "domain": "crowd.gamesdonequick.com",
+            "url": "https://crowd.gamesdonequick.com/"
+          }
+        }
+      ],
+      "summary": "The Summer Games Done Quick 2026 charity speedrunning event has begun, running from 5 July until 12 July."
+    },
+    {
+      "ref": "business/bethesda-officially-shuts-down-the-elder-scrolls-blades-afte",
+      "entities": {
+        "games": [
+          {
+            "id": "the-elder-scrolls-blades",
+            "name": "The Elder Scrolls: Blades",
+            "aliases": [],
+            "genres": ["rpg", "action-rpg"],
+            "franchise": "the-elder-scrolls",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "bethesda-softworks",
+            "name": "Bethesda Softworks",
+            "aliases": ["Bethesda"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Bethesda has officially shut down The Elder Scrolls: Blades after nearly six years of service."
+    },
+    {
+      "ref": "business/cyberpunk-2077-has-sold-40-million-copies-as-of-3rd-july-202",
+      "entities": {
+        "games": [
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 40000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "cyberpunk-2077",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-06",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cyberpunk 2077 has sold 40 million copies (as of 3rd July 2026)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/cyberpunk-2077-has-sold-40-million-copies/"
+          }
+        }
+      ],
+      "summary": "Cyberpunk 2077 has sold 40 million copies as of 3 July 2026."
+    },
+    {
+      "ref": "business/meccha-chameleon-tops-another-milestone-selling-15-million-c",
+      "entities": {
+        "games": [
+          {
+            "id": "meccha-chameleon",
+            "name": "Meccha Chameleon",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 15000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "meccha-chameleon",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-06",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "selling 15 million copies in less than 30 days",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/meccha-chameleon-15-million-sales"
+          }
+        }
+      ],
+      "summary": "Meccha Chameleon has sold 15 million copies in less than 30 days on sale."
+    },
+    {
+      "ref": "business/enginefall-developer-red-rover-interactive-has-laid-off-an-u",
+      "entities": {
+        "games": [
+          {
+            "id": "enginefall",
+            "name": "Enginefall",
+            "aliases": [],
+            "genres": ["survival"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "red-rover-interactive",
+            "name": "Red Rover Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Enginefall developer Red Rover Interactive has laid off an undisclosed number of employees across its offices in Newcastle, UK, and Oslo, Norway."
+    }
+  ]
+}
