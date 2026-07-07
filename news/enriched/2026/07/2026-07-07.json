@@ -1,0 +1,152 @@
+{
+  "date": "2026-07-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/a-world-of-warcraft-plague-killed-players-and-filled-inns-wi",
+      "entities": {
+        "games": [
+          { "id": "world-of-warcraft", "name": "World Of Warcraft", "aliases": [], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-07-03", "unit": "date", "currency": null,
+          "entity": "world-of-warcraft", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The glitch that caused the event was hotfixed on July 3rd",
+          "source": { "name": "Kotaku", "domain": "kotaku.com", "url": "https://kotaku.com/world-of-warcraft-wow-corrupted-blood-withering-contagion-spreading-infection-2000712838" } }
+      ],
+      "summary": "A World of Warcraft plague event, dubbed the \"Corrupted Blood Incident 2.0\", killed players and spread contagious goo before the causing glitch was hotfixed on 3 July 2026."
+    },
+    {
+      "ref": "main_news/eve-online-s-cross-platform-game-engine-framework-is-now-ful",
+      "entities": {
+        "games": [
+          { "id": "eve-online", "name": "EVE Online", "aliases": [], "genres": ["mmo"], "franchise": "eve", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ccp-games", "name": "CCP Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "EVE Online's cross-platform game engine framework has been made fully open source."
+    },
+    {
+      "ref": "main_news/nintendo-of-europe-will-stop-selling-the-nintendo-switch-fom",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo of Europe"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-lite", "name": "Nintendo Switch Lite", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch-oled", "name": "Nintendo Switch OLED", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [
+        { "metric": "event_date", "value": "2027-02-15", "unit": "date", "currency": null,
+          "entity": "nintendo-switch", "entity_type": "product", "scope": "product",
+          "as_of": "2026-07-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "mid-February 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nintendo-will-stop-selling-the-nintendo-switch-in-2027/" } }
+      ],
+      "summary": "Nintendo of Europe will stop selling the Nintendo Switch, Switch Lite and Switch OLED models from mid-February 2027, expected to affect European customers only."
+    },
+    {
+      "ref": "business/icymi-microsoft-is-laying-off-4-800-employees-and-more-than",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "double-fine", "name": "Double Fine", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "compulsion-games", "name": "Compulsion Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "microsoft", "inferred": false },
+          { "id": "undead-labs", "name": "Undead Labs", "aliases": [], "publisher": "microsoft", "inferred": false },
+          { "id": "arkane-studios", "name": "Arkane Studios", "aliases": ["Arkane Studio"], "publisher": "microsoft", "inferred": false },
+          { "id": "bethesda-softworks", "name": "Bethesda", "aliases": ["Bethesda"], "publisher": "zenimax-media", "inferred": true },
+          { "id": "zenimax-media", "name": "ZeniMax Media", "aliases": ["Zenimax"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 4800, "unit": "people", "currency": null,
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2026-07-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Microsoft is laying off 4,800 employees",
+          "source": { "name": "The Verge", "domain": "theverge.com", "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026" } },
+        { "metric": "layoffs_count", "value": 1600, "unit": "people", "currency": null,
+          "entity": "xbox", "entity_type": "company", "scope": "company",
+          "as_of": "2026-07-07", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "will impact around 1,600 Xbox employees",
+          "source": { "name": "The Verge", "domain": "theverge.com", "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026" } }
+      ],
+      "summary": "Microsoft is laying off 4,800 employees, with more than 30 percent of the cuts in its Xbox division, alongside studios going independent or being sold."
+    },
+    {
+      "ref": "business/xbox-wanted-77m-game-pass-subscribers-by-2026-today-it-has-l",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        { "metric": "subscriber_count", "value": 30000000, "unit": "subscribers", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "product", "scope": "product",
+          "as_of": "2026-07-07", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "less than half that (30 million)",
+          "source": { "name": "Polygon", "domain": "polygon.com", "url": "https://www.polygon.com/xbox-game-pass-subscriber-numbers-30-million/" } }
+      ],
+      "summary": "Xbox Game Pass has fewer than 30 million subscribers, less than half the 77 million target Xbox had set for 2026."
+    },
+    {
+      "ref": "business/ingress-developer-niantic-spatial-shuttering-new-zealand-off",
+      "entities": {
+        "games": [
+          { "id": "ingress", "name": "Ingress", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "niantic-spatial", "name": "Niantic Spatial", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Ingress developer Niantic Spatial is shuttering its New Zealand office."
+    }
+  ]
+}

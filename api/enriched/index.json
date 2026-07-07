@@ -1,6 +1,12 @@
 {
-  "day_count": 543,
+  "day_count": 544,
   "days": [
+    {
+      "date": "2026-07-07",
+      "entities": 21,
+      "facts": 5,
+      "items": 6
+    },
     {
       "date": "2026-07-06",
       "entities": 12,
@@ -3260,8 +3266,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4095,
-  "fact_count": 2608,
+  "entity_count": 4097,
+  "fact_count": 2613,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 18,
@@ -3287,8 +3293,8 @@
     "looter-shooter": 1,
     "management": 1,
     "metroidvania": 53,
-    "mmo": 43,
-    "mmorpg": 63,
+    "mmo": 44,
+    "mmorpg": 64,
     "moba": 27,
     "open-world": 380,
     "party": 89,
@@ -3316,7 +3322,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3706,
+  "item_count": 3712,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
@@ -3328,10 +3334,10 @@
     "development_budget": 13,
     "downloads": 25,
     "equity_stake_pct": 21,
-    "event_date": 230,
+    "event_date": 232,
     "funding_raised": 61,
     "headcount": 28,
-    "layoffs_count": 106,
+    "layoffs_count": 108,
     "lifetime_unit_sales": 43,
     "metacritic": 1,
     "operating_income": 122,
@@ -3347,7 +3353,7 @@
     "severance": 2,
     "shutdown_date": 71,
     "studios_affected": 7,
-    "subscriber_count": 1,
+    "subscriber_count": 2,
     "units_sold": 69,
     "viewers": 8,
     "wages": 8
