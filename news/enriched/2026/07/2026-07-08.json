@@ -1,0 +1,147 @@
+{
+  "date": "2026-07-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/marvel-rivals-season-9-announced-dubbed-the-mystery-of-thebe",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jubilee", "name": "Jubilee", "aliases": ["Jubliee"], "inferred": false },
+          { "id": "the-hood", "name": "The Hood", "aliases": [], "inferred": false },
+          { "id": "black-widow", "name": "Black Widow", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "update-patch", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-07-10", "unit": "date", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Season begins July 10th",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com",
+                      "url": "https://insider-gaming.com/jubilee-black-widow-rework-confirmed-to-headline-marvel-rivals-season-9/" } }
+      ],
+      "summary": "Marvel Rivals Season 9, \"The Mystery of Thebes\", was announced with new characters Jubilee and The Hood, reworks to Black Widow and the Team-Up feature, and a July 10th start."
+    },
+    {
+      "ref": "main_news/apex-legends-x-cyberpunk-crossover-event-announced-event-inc",
+      "entities": {
+        "games": [
+          { "id": "apex-legends", "name": "Apex Legends", "aliases": [], "genres": ["battle-royale", "fps"], "franchise": null, "inferred": true },
+          { "id": "cyberpunk", "name": "Cyberpunk", "aliases": [], "genres": ["action-rpg"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-07-14", "unit": "date", "currency": null,
+          "entity": "apex-legends", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-08", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Event starts July 14th",
+          "source": { "name": "Rock Paper Shotgun", "domain": "rockpapershotgun.com",
+                      "url": "https://www.rockpapershotgun.com/cyberpunk-edgerunners-lucy-finds-herself-in-yet-another-crossover-this-time-in-an-upcoming-apex-legends-event" } }
+      ],
+      "summary": "An Apex Legends x Cyberpunk crossover event was announced, adding Cyberpunk skins, two Cyberware mods and the Skippy gun, and starting July 14th."
+    },
+    {
+      "ref": "main_news/unturned-developer-smartly-dressed-games-has-released-the-so",
+      "entities": {
+        "games": [
+          { "id": "unturned", "name": "Unturned", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "smartly-dressed-games", "name": "Smartly Dressed Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Unturned developer Smartly Dressed Games has released the source code and project files for Unturned on GitHub."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-july-update",
+      "entities": {
+        "games": [
+          { "id": "winds-of-arcana-ruination", "name": "Winds of Arcana: Ruination", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "gears-of-war-reloaded", "name": "Gears of War: Reloaded", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true },
+          { "id": "tamashika", "name": "Tamashika", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "ascend-to-zero", "name": "Ascend to Zero", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "pba-pro-bowling-2026", "name": "PBA Pro Bowling 2026", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "quarantine-zone-the-last-check", "name": "Quarantine Zone: The Last Check", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "mavrix-by-matt-jones", "name": "Mavrix by Matt Jones", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "fixforce", "name": "FixForce", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "fogpiercer", "name": "Fogpiercer", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "the-planet-crafter", "name": "The Planet Crafter", "aliases": [], "genres": ["survival", "simulation"], "franchise": null, "inferred": true },
+          { "id": "tony-hawks-pro-skater-1-2", "name": "Tony Hawk's Pro Skater 1 + 2", "aliases": [], "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true },
+          { "id": "dungeons-of-hinterberg", "name": "Dungeons of Hinterberg", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "ea-sports-football-club-24", "name": "EA Sports Football Club 24", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "stellaris", "name": "Stellaris", "aliases": [], "genres": ["strategy", "4x"], "franchise": null, "inferred": true },
+          { "id": "golf-with-your-friends", "name": "Golf With Your Friends", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "minami-lane", "name": "Minami Lane", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "powerwash-simulator", "name": "Powerwash Simulator", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "shadow-of-the-tomb-raider", "name": "Shadow of the Tomb Raider", "aliases": ["Shadow of the Tomb Raider Definitive Edition"], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "splitgate-arena-reloaded", "name": "Splitgate: Arena Reloaded", "aliases": [], "genres": ["fps"], "franchise": "splitgate", "inferred": true },
+          { "id": "super-fantasy-kingdom", "name": "Super Fantasy Kingdom", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "techtonica", "name": "Techtonica", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Xbox revealed the games arriving on and leaving Xbox Game Pass during July 2026."
+    },
+    {
+      "ref": "business/supercell-starts-developer-grants-program-for-african-studio",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "supercell", "name": "Supercell", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Supercell has launched an equity-free developer grants program for African studios, with grants ranging from $20,000 to $200,000."
+    },
+    {
+      "ref": "business/io-interactive-regains-full-ownership-of-project-fantasy-fol",
+      "entities": {
+        "games": [
+          { "id": "project-fantasy", "name": "Project Fantasy", "aliases": [], "genres": ["rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "io-interactive-istanbul", "name": "IO Interactive Istanbul", "aliases": ["Istanbul studio"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [],
+      "summary": "IO Interactive has regained full ownership of Project Fantasy after its Xbox deal ended, and is shutting its Istanbul studio and laying off an unknown number of developers."
+    }
+  ]
+}
