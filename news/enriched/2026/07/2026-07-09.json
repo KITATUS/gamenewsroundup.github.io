@@ -1,0 +1,186 @@
+{
+  "date": "2026-07-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nintendo-confirms-switch-1-sales-aren-t-yet-ending-outside-o",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch 1"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Nintendo has confirmed that Switch 1 sales are not yet ending outside of Europe."
+    },
+    {
+      "ref": "main_news/mario-kart-tour-to-shut-down-in-september-2026",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-tour", "name": "Mario Kart Tour", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "mario-kart-tour",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Mario Kart Tour to shut down in September 2026",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/mario-kart-tour-to-shut-down-in-september-2026" }
+        }
+      ],
+      "summary": "Mario Kart Tour will shut down in September 2026, with no offline version of the free-to-play mobile game to be released."
+    },
+    {
+      "ref": "main_news/final-fantasy-vii-ever-crisis-to-shut-down-on-october-6th",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-vii-ever-crisis", "name": "Final Fantasy VII: Ever Crisis", "aliases": [], "genres": ["rpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-10-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "final-fantasy-vii-ever-crisis",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Final Fantasy VII: Ever Crisis to Shut Down On October 6th",
+          "source": { "name": "crunchyroll.com", "domain": "crunchyroll.com", "url": "https://www.crunchyroll.com/news/latest/2026/7/8/final-fantasy-7-ever-crisis-to-shut-down-this-october" }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-07-07",
+          "unit": "date",
+          "currency": null,
+          "entity": "final-fantasy-vii-ever-crisis",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "As of July 7, new Steam downloads have been discontinued",
+          "source": { "name": "crunchyroll.com", "domain": "crunchyroll.com", "url": "https://www.crunchyroll.com/news/latest/2026/7/8/final-fantasy-7-ever-crisis-to-shut-down-this-october" }
+        }
+      ],
+      "summary": "Final Fantasy VII: Ever Crisis will shut down on 6 October 2026, with new Steam downloads discontinued as of 7 July."
+    },
+    {
+      "ref": "free_games_subscription/new-nintendo-switch-online-games-now-available",
+      "entities": {
+        "games": [
+          { "id": "wario-land-super-mario-land-3", "name": "Wario Land: Super Mario Land 3", "aliases": [], "genres": ["platformer"], "franchise": "wario-land", "inferred": true },
+          { "id": "the-sword-of-hope-3", "name": "The Sword of Hope 3", "aliases": [], "genres": ["rpg"], "franchise": "the-sword-of-hope", "inferred": true },
+          { "id": "fortified-zone", "name": "Fortified Zone", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "dr-mario-and-puzzle-league", "name": "Dr. Mario and Puzzle League", "aliases": [], "genres": ["puzzle"], "franchise": "dr-mario", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": [], "inferred": false },
+          { "id": "game-boy", "name": "Game Boy", "aliases": [], "inferred": false },
+          { "id": "game-boy-advance", "name": "Game Boy Advance", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "New Game Boy and Game Boy Advance classics, including Wario Land: Super Mario Land 3, are now available on Nintendo Switch Online."
+    },
+    {
+      "ref": "business/build-a-rocket-boy-staff-to-protest-upcoming-all-expenses-pa",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build a Rocket Boy", "aliases": ["BARB"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-06",
+          "unit": "date",
+          "currency": null,
+          "entity": "mindseye",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "MindsEye's release in June 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/build-a-rocket-boy-staff-to-protest-upcoming-all-expenses-paid-fan-event" }
+        }
+      ],
+      "summary": "Build a Rocket Boy staff plan to protest an upcoming \"all-expenses-paid\" fan event, unhappy that the studio is flying in community members despite significant headcount cuts since MindsEye's release."
+    },
+    {
+      "ref": "rumours/obisidan-pauses-work-on-avowed-sequel-to-work-on-new-fallout",
+      "entities": {
+        "games": [
+          { "id": "avowed", "name": "Avowed", "aliases": [], "genres": ["action-rpg"], "franchise": "avowed", "inferred": true },
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "fallout-new-vegas", "name": "Fallout: New Vegas", "aliases": [], "genres": ["action-rpg"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": ["Obisidan"], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "josh-sawyer", "name": "Josh Sawyer", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Rumour that Obsidian Entertainment has paused work on an Avowed sequel to develop a new Fallout game helmed by Josh Sawyer, the project director of Fallout: New Vegas."
+    }
+  ]
+}
