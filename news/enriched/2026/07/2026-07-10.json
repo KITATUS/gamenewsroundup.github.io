@@ -1,0 +1,147 @@
+{
+  "date": "2026-07-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/xbox-ceo-asha-sharma-has-been-named-as-an-advisor-to-the-us",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count", "value": 1600, "unit": "employees", "currency": null,
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2026-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Microsoft announced 1,600 layoffs",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-ceo-asha-sharma-named-as-adviser-to-us-federal-reserve-on-jobs-and-productivity/" }
+        },
+        {
+          "metric": "layoffs_count", "value": 1600, "unit": "employees", "currency": null,
+          "entity": "microsoft", "entity_type": "company", "scope": "company",
+          "as_of": "2026-07-10", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "another 1,600 to come",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-ceo-asha-sharma-named-as-adviser-to-us-federal-reserve-on-jobs-and-productivity/" }
+        }
+      ],
+      "summary": "Xbox CEO Asha Sharma has been named one of three advisors to the US Federal Reserve's Productivity and Jobs task force."
+    },
+    {
+      "ref": "main_news/fired-marathon-director-christopher-barrett-says-he-s-settle",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony", "SIE"], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "christopher-barrett", "name": "Christopher Barrett", "aliases": ["Barrett", "Barett"], "inferred": false }
+        ]
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Fired Marathon director Christopher Barrett says he has settled his lawsuit with Sony and been inserted into the game's credits."
+    },
+    {
+      "ref": "main_news/call-of-duty-black-ops-1-and-2-ports-have-been-released-for",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops", "name": "Call of Duty: Black Ops", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-black-ops-2", "name": "Call of Duty: Black Ops 2", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [
+        {
+          "metric": "price", "value": 39.99, "unit": "price", "currency": "USD",
+          "entity": "call-of-duty-black-ops", "entity_type": "game", "scope": "product",
+          "as_of": "2026-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "$39.99 / £34.99 each",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/call-of-duty-black-ops-1-and-2-ports-out-now-on-ps5-but-they-come-at-a-high-cost" }
+        },
+        {
+          "metric": "price", "value": 34.99, "unit": "price", "currency": "GBP",
+          "entity": "call-of-duty-black-ops", "entity_type": "game", "scope": "product",
+          "as_of": "2026-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£34.99",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/call-of-duty-black-ops-1-and-2-ports-out-now-on-ps5-but-they-come-at-a-high-cost" }
+        }
+      ],
+      "summary": "Ports of Call of Duty: Black Ops 1 and 2 have been released for PS4/PS5 at $39.99 / £34.99 each, drawing criticism over the price."
+    },
+    {
+      "ref": "business/ubisoft-has-laid-off-51-employees-at-ubisoft-barcelona-follo",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-black-flag-resynced", "name": "Assassin's Creed Black Flag Resynced", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-barcelona", "name": "Ubisoft Barcelona", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "layoffs_count", "value": 51, "unit": "employees", "currency": null,
+          "entity": "ubisoft-barcelona", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-07-10", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "laid off 51 employees at Ubisoft Barcelona",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/assassins-creed-black-flag-resynced-layoffs/" }
+        }
+      ],
+      "summary": "Ubisoft has laid off 51 employees at Ubisoft Barcelona following the release of Assassin's Creed Black Flag Resynced."
+    },
+    {
+      "ref": "business/no-rest-for-the-wicked-has-sold-over-2-million-units",
+      "entities": {
+        "games": [
+          { "id": "no-rest-for-the-wicked", "name": "No Rest for the Wicked", "aliases": ["No Rest For The Wicked"], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "no-rest-for-the-wicked", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-10", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "No Rest For The Wicked Has Sold Over 2 Million Units",
+          "source": { "name": "app2top.com", "domain": "app2top.com", "url": "https://app2top.com/news/sales-of-no-rest-for-the-wicked-have-exceeded-2-million-copies-294729.html" }
+        }
+      ],
+      "summary": "Action-RPG No Rest for the Wicked has sold over 2 million units."
+    }
+  ]
+}
