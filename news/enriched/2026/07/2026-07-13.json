@@ -1,0 +1,71 @@
+{
+  "date": "2026-07-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/summer-games-done-quick-2026-raised-more-than-2-408-701-for",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Summer Games Done Quick 2026 raised more than $2,408,701 for Doctors Without Borders / Medecins Sans Frontieres (MSF)."
+    },
+    {
+      "ref": "main_news/ea-has-removed-college-football-27-s-dynasty-and-road-to-glo",
+      "entities": {
+        "games": [
+          { "id": "college-football-27", "name": "College Football 27", "aliases": [],
+            "genres": ["sports"], "franchise": "college-football", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"],
+            "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "EA has removed College Football 27's Dynasty and Road to Glory microtransactions after player backlash and boycott threats."
+    },
+    {
+      "ref": "business/assassin-s-creed-black-flag-resynced-opens-to-2-million-sale",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-black-flag-resynced", "name": "Assassin's Creed Black Flag Resynced",
+            "aliases": [], "genres": ["action-adventure"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 2000000, "unit": "units", "currency": null,
+          "entity": "assassins-creed-black-flag-resynced", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-13", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "opens to 2 million sales on launch day",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-2-million-sales" } },
+        { "metric": "lifetime_unit_sales", "value": 250000000, "unit": "units", "currency": null,
+          "entity": "assassins-creed", "entity_type": "game", "scope": "franchise",
+          "as_of": "2026-07-13", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Series has sold 250 million units to date",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-2-million-sales" } }
+      ],
+      "summary": "Assassin's Creed Black Flag Resynced opened to 2 million sales on launch day, and the series has sold 250 million units to date."
+    }
+  ]
+}

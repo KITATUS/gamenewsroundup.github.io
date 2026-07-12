@@ -1,6 +1,12 @@
 {
-  "day_count": 547,
+  "day_count": 548,
   "days": [
+    {
+      "date": "2026-07-13",
+      "entities": 4,
+      "facts": 2,
+      "items": 3
+    },
     {
       "date": "2026-07-10",
       "entities": 15,
@@ -3284,13 +3290,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4120,
-  "fact_count": 2625,
+  "entity_count": 4121,
+  "fact_count": 2627,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 886,
+    "action-adventure": 887,
     "action-platformer": 3,
     "action-rpg": 642,
     "adventure": 332,
@@ -3328,7 +3334,7 @@
     "simulation": 302,
     "social-deduction": 1,
     "soulslike": 76,
-    "sports": 147,
+    "sports": 148,
     "stealth": 96,
     "strategy": 165,
     "survival": 179,
@@ -3340,7 +3346,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3729,
+  "item_count": 3732,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
@@ -3356,7 +3362,7 @@
     "funding_raised": 61,
     "headcount": 28,
     "layoffs_count": 111,
-    "lifetime_unit_sales": 43,
+    "lifetime_unit_sales": 44,
     "metacritic": 1,
     "operating_income": 122,
     "peak_concurrent_players": 15,
@@ -3372,7 +3378,7 @@
     "shutdown_date": 73,
     "studios_affected": 7,
     "subscriber_count": 2,
-    "units_sold": 69,
+    "units_sold": 70,
     "viewers": 8,
     "wages": 8
   }
