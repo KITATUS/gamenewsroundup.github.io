@@ -1,0 +1,136 @@
+{
+  "date": "2026-07-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/clair-obscur-expedition-33-wins-best-game-at-develop-star-aw",
+      "entities": {
+        "games": [
+          {
+            "id": "clair-obscur-expedition-33",
+            "name": "Clair Obscur: Expedition 33",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "sandfall-interactive",
+            "name": "Sandfall Interactive",
+            "aliases": [],
+            "publisher": "kepler-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "kepler-interactive",
+            "name": "Kepler Interactive",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Clair Obscur: Expedition 33 won Best Game at the Develop:Star Awards 2026, along with Best Narrative and Best Audio."
+    },
+    {
+      "ref": "main_news/hot-wheels-infinite-rush-is-releasing-two-weeks-earlier-new",
+      "entities": {
+        "games": [
+          {
+            "id": "hot-wheels-infinite-rush",
+            "name": "Hot Wheels Infinite Rush",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "hot-wheels",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-09-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "hot-wheels-infinite-rush",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "new release date is 10th September",
+          "source": {
+            "name": "TheSixthAxis",
+            "domain": "thesixthaxis.com",
+            "url": "https://www.thesixthaxis.com/2026/07/16/hot-wheels-infinite-rush-gets-an-earlier-release-date-and-an-island-hopping-trailer/"
+          }
+        }
+      ],
+      "summary": "Hot Wheels Infinite Rush has moved its release date two weeks earlier, to 10 September."
+    },
+    {
+      "ref": "main_news/netflix-has-announced-its-latest-video-game-netflix-minigolf",
+      "entities": {
+        "games": [
+          {
+            "id": "netflix-minigolf",
+            "name": "Netflix Minigolf",
+            "aliases": [],
+            "genres": ["party"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-07-28",
+          "unit": "date",
+          "currency": null,
+          "entity": "netflix-minigolf",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "releasing on July 28 for all Netflix subscribers",
+          "source": {
+            "name": "GameSpot",
+            "domain": "gamespot.com",
+            "url": "https://www.gamespot.com/articles/new-netflix-game-brings-together-the-streamers-most-popular-shows/"
+          }
+        }
+      ],
+      "summary": "Netflix has announced Netflix Minigolf, a couch co-op party mini-golf and pinball game releasing on 28 July for Netflix subscribers, using Netflix IP such as Stranger Things, Bridgerton and Squid Game."
+    }
+  ]
+}
