@@ -1,0 +1,211 @@
+{
+  "date": "2026-07-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/dead-space-creator-glen-schofield-is-retiring-after-35-years",
+      "entities": {
+        "games": [
+          { "id": "dead-space", "name": "Dead Space", "aliases": [],
+            "genres": ["survival-horror"], "franchise": "dead-space", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "glen-schofield", "name": "Glen Schofield", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Dead Space creator Glen Schofield is retiring after 35 years in the industry."
+    },
+    {
+      "ref": "main_news/roblox-is-shutting-down-its-video-chat-service-roblox-connec",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Roblox is shutting down its video chat service, Roblox Connect."
+    },
+    {
+      "ref": "main_news/the-developers-of-the-mobile-game-looney-tunes-world-of-mayh",
+      "entities": {
+        "games": [
+          { "id": "looney-tunes-world-of-mayhem", "name": "Looney Tunes: World of Mayhem", "aliases": [],
+            "genres": ["rpg"], "franchise": "looney-tunes", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-10-15", "unit": "date", "currency": null,
+          "entity": "looney-tunes-world-of-mayhem", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "shutting down on October 15th",
+          "source": { "name": "GameSpot", "domain": "gamespot.com",
+                      "url": "https://www.gamespot.com/articles/a-warner-bros-looney-tunes-game-is-shutting-down-soon/" } }
+      ],
+      "summary": "The mobile game Looney Tunes: World of Mayhem is shutting down on 15 October 2026."
+    },
+    {
+      "ref": "main_news/the-odyssey-is-coming-to-fortnite-via-an-odysseus-skin-later",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [],
+            "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "The Odyssey is coming to Fortnite via an Odysseus skin later this week."
+    },
+    {
+      "ref": "main_news/the-duskbloods-closed-network-test-set-for-august-21st-to-23",
+      "entities": {
+        "games": [
+          { "id": "the-duskbloods", "name": "The Duskbloods", "aliases": [],
+            "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-08-21", "unit": "date", "currency": null,
+          "entity": "the-duskbloods", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "closed network test set for August 21st to 23rd",
+          "source": { "name": "Gematsu", "domain": "gematsu.com",
+                      "url": "https://www.gematsu.com/2026/07/the-duskbloods-closed-network-test-set-for-august-21-to-23" } }
+      ],
+      "summary": "The Duskbloods has a closed network test set for 21 to 23 August 2026."
+    },
+    {
+      "ref": "free_games_subscription/july-s-ps-plus-game-catalog-titles-announced",
+      "entities": {
+        "games": [
+          { "id": "avatar-frontiers-of-pandora", "name": "Avatar: Frontiers of Pandora", "aliases": [],
+            "genres": ["action-adventure", "open-world"], "franchise": "avatar", "inferred": true },
+          { "id": "rise-of-the-ronin", "name": "Rise of the Ronin", "aliases": [],
+            "genres": ["action-rpg", "open-world"], "franchise": null, "inferred": true },
+          { "id": "firefighting-simulator-ignite", "name": "Firefighting Simulator: Ignite", "aliases": [],
+            "genres": ["simulation"], "franchise": "firefighting-simulator", "inferred": true },
+          { "id": "mighty-morphin-power-rangers-ritas-rewind", "name": "Mighty Morphin Power Rangers: Rita's Rewind", "aliases": [],
+            "genres": ["action-adventure"], "franchise": "power-rangers", "inferred": true },
+          { "id": "dying-light", "name": "Dying Light", "aliases": [],
+            "genres": ["survival-horror", "action-rpg"], "franchise": "dying-light", "inferred": true },
+          { "id": "citizen-sleeper-2-starward-vector", "name": "Citizen Sleeper 2: Starward Vector", "aliases": [],
+            "genres": ["rpg"], "franchise": "citizen-sleeper", "inferred": true },
+          { "id": "snow-bros-wonderland", "name": "Snow Bros. Wonderland", "aliases": [],
+            "genres": ["platformer"], "franchise": "snow-bros", "inferred": true },
+          { "id": "psi-ops-the-mindgate-conspiracy", "name": "Psi-Ops: The Mindgate Conspiracy", "aliases": [],
+            "genres": ["tps"], "franchise": null, "inferred": true },
+          { "id": "fahrenheit-indigo-prophecy", "name": "Fahrenheit (Indigo Prophecy)", "aliases": ["Indigo Prophecy"],
+            "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PlayStation Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-07-21", "unit": "date", "currency": null,
+          "entity": "avatar-frontiers-of-pandora", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Avatar: Frontiers of Pandora [July 21]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-15", "unit": "date", "currency": null,
+          "entity": "rise-of-the-ronin", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Rise of the Ronin [July 15]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-21", "unit": "date", "currency": null,
+          "entity": "firefighting-simulator-ignite", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Firefighting Simulator: Ignite [July 21]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-28", "unit": "date", "currency": null,
+          "entity": "mighty-morphin-power-rangers-ritas-rewind", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Mighty Morphin Power Rangers: Rita's Rewind [July 28]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-28", "unit": "date", "currency": null,
+          "entity": "dying-light", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dying Light [July 28]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-28", "unit": "date", "currency": null,
+          "entity": "citizen-sleeper-2-starward-vector", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Citizen Sleeper 2: Starward Vector [July 28]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-28", "unit": "date", "currency": null,
+          "entity": "snow-bros-wonderland", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Snow Bros. Wonderland [July 28]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-21", "unit": "date", "currency": null,
+          "entity": "psi-ops-the-mindgate-conspiracy", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Psi-Ops: The Mindgate Conspiracy [July 21]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } },
+        { "metric": "event_date", "value": "2026-07-21", "unit": "date", "currency": null,
+          "entity": "fahrenheit-indigo-prophecy", "entity_type": "game", "scope": "event",
+          "as_of": "2026-07-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fahrenheit (Indigo Prophecy) [July 21]",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/julys-ps-plus-game-catalog-titles-include-rise-of-the-ronin-and-avatar-frontiers-of-pandora/" } }
+      ],
+      "summary": "July's PS Plus Game Catalog line-up has been announced, including Rise of the Ronin and Avatar: Frontiers of Pandora."
+    },
+    {
+      "ref": "free_games_subscription/xbox-has-removed-tony-hawk-1-2-from-its-upcoming-game-pass-r",
+      "entities": {
+        "games": [
+          { "id": "tony-hawk-1-2", "name": "Tony Hawk 1+2", "aliases": ["Tony Hawk's Pro Skater 1+2"],
+            "genres": ["sports"], "franchise": "tony-hawks-pro-skater", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "game-pass", "name": "Game Pass", "aliases": ["Xbox Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting", "subscription"],
+      "facts": [],
+      "summary": "Xbox has removed Tony Hawk 1+2 from its upcoming Game Pass releases due to a licensing issue."
+    }
+  ]
+}

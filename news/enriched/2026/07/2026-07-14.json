@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/gamesindustry-biz-announces-external-development-focused-wee",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "codedev", "name": "CodeDev", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "myke-parrott", "name": "Myke Parrott", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "GamesIndustry.biz has launched a week focused on external development, opening by asking senior figures such as CodeDev CEO Myke Parrott what the future of external development looks like."
+    },
+    {
+      "ref": "main_news/ps5-emulator-kytyps5-reaches-gta-v-menus-quake-ii-gameplay-a",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-v", "name": "Grand Theft Auto V", "aliases": ["GTA V"],
+            "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "quake-ii", "name": "Quake II", "aliases": [],
+            "genres": ["fps"], "franchise": "quake", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The PS5 emulator KytyPS5 has reached GTA V menus and Quake II gameplay as the first 3D games begin loading on PC."
+    },
+    {
+      "ref": "main_news/deep-dive-into-kingdom-hearts-event-set-for-d23-2026",
+      "entities": {
+        "games": [
+          { "id": "kingdom-hearts", "name": "Kingdom Hearts", "aliases": [],
+            "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-08-15", "unit": "date", "currency": null,
+          "entity": "deep-dive-into-kingdom-hearts", "entity_type": "product", "scope": "event",
+          "as_of": "2026-07-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Event is due to take place August 15th at 4:30pm PT",
+          "source": { "name": "Gematsu", "domain": "gematsu.com",
+                      "url": "https://www.gematsu.com/2026/07/deep-dive-into-kingdom-hearts-event-set-for-d23-2026" } }
+      ],
+      "summary": "A 'Deep Dive Into Kingdom Hearts' event has been set for D23 2026, due to take place on 15 August."
+    },
+    {
+      "ref": "business/the-alters-and-frostpunk-developer-11-bit-studios-is-laying",
+      "entities": {
+        "games": [
+          { "id": "the-alters", "name": "The Alters", "aliases": [],
+            "genres": ["survival"], "franchise": null, "inferred": true },
+          { "id": "frostpunk", "name": "Frostpunk", "aliases": [],
+            "genres": ["survival", "strategy"], "franchise": "frostpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "11-bit-studios", "name": "11 bit Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 20, "unit": "people", "currency": null,
+          "entity": "11-bit-studios", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-07-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "is laying off 20 employees",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/the-alters-and-frostpunk-developer-11-bit-studios-is-laying-off-20-employees-" } }
+      ],
+      "summary": "The Alters and Frostpunk developer 11 bit Studios is laying off 20 employees."
+    },
+    {
+      "ref": "business/mexican-lawmakers-to-file-antitrust-complaint-against-playst",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "ps-store", "name": "PS Store", "aliases": ["PlayStation Store"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal"],
+      "facts": [],
+      "summary": "Mexican lawmakers plan to file an antitrust complaint against PlayStation and Sony over the PS Store, following the potential end of physical games."
+    }
+  ]
+}

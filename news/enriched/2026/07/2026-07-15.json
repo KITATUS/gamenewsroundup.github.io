@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-pivots-to-selective-model-to-reduce-reliance-on-indi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Ubisoft is pivoting to a 'selective model' to reduce reliance on individual game launches, prioritising its legacy portfolio and live service offerings."
+    },
+    {
+      "ref": "main_news/paramount-confirms-mike-zaimont-is-employed-by-avatar-legend",
+      "entities": {
+        "games": [
+          { "id": "avatar-legends", "name": "Avatar Legends", "aliases": [],
+            "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "gameplay-group-international", "name": "Gameplay Group International", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "lab-zero-games", "name": "Lab Zero Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "paramount", "name": "Paramount", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "mike-zaimont", "name": "Mike Zaimont", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Paramount has confirmed that Mike Zaimont, previously accused of sexual harassment as CEO of Lab Zero Games, is employed by Avatar Legends developer Gameplay Group International."
+    },
+    {
+      "ref": "business/former-epic-games-vp-steve-allison-appointed-chief-business",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "saber-interactive", "name": "Saber Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "steve-allison", "name": "Steve Allison", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former Epic Games VP Steve Allison has been appointed chief business officer at Saber Interactive."
+    },
+    {
+      "ref": "business/mouse-p-i-for-hire-has-reached-over-1-million-players-across",
+      "entities": {
+        "games": [
+          { "id": "mouse-p-i-for-hire", "name": "MOUSE: P.I. For Hire", "aliases": ["MOUSE"],
+            "genres": ["fps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "mouse-p-i-for-hire", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-15", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "reached over 1 million players across all platforms",
+          "source": { "name": "facebook.com", "domain": "facebook.com",
+                      "url": "https://www.facebook.com/mousethegame/posts/pfbid0eSa5GJYKVPHBQtPA4M76Fn76TYHxFyoCuUMr8JRYWA2SrgbAXSZz1TjwZJPJH8zBl" } }
+      ],
+      "summary": "MOUSE: P.I. For Hire has reached over 1 million players across all platforms."
+    },
+    {
+      "ref": "business/azra-games-the-studio-led-by-mark-otero-former-general-manag",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "azra-games", "name": "Azra Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "ea-capital-games", "name": "EA Capital Games", "aliases": [], "publisher": "electronic-arts", "inferred": true },
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "mark-otero", "name": "Mark Otero", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 42000000, "unit": "money", "currency": "USD",
+          "entity": "azra-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-07-15", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "raising a $42 million investment",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/ex-star-wars-galaxy-of-heroes-gm-studio-lays-off-staff" } }
+      ],
+      "summary": "Azra Games, the studio led by former EA Capital Games and BioWare GM Mark Otero, is laying off an unspecified number of staff less than two years after raising a $42 million investment."
+    }
+  ]
+}
