@@ -1,0 +1,221 @@
+{
+  "date": "2026-07-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/bethesda-confirms-obsidian-fallout-game-fallout-5-is-in-prep",
+      "entities": {
+        "games": [
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "fallout-5", "name": "Fallout 5", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "fallout-3", "name": "Fallout 3", "aliases": [], "genres": ["action-rpg", "rpg"], "franchise": "fallout", "inferred": true },
+          { "id": "fallout-new-vegas", "name": "Fallout: New Vegas", "aliases": ["New Vegas"], "genres": ["action-rpg", "rpg"], "franchise": "fallout", "inferred": true }
+        ],
+        "studios": [
+          { "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": ["Obsidian"], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "bethesda-softworks", "name": "Bethesda Softworks", "aliases": ["Bethesda"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Bethesda has confirmed that Obsidian is making a Fallout game, that Fallout 5 is in preproduction, and that Fallout 3 and New Vegas remasters are in development."
+    },
+    {
+      "ref": "main_news/final-fantasy-14-mobile-s-global-launch-has-been-cancelled",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-14-mobile", "name": "Final Fantasy 14 Mobile", "aliases": [], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "final-fantasy-14", "name": "Final Fantasy 14", "aliases": ["Final Fantasy XIV"], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-09", "unit": "date", "currency": null,
+          "entity": "final-fantasy-14-mobile", "entity_type": "game", "scope": "product",
+          "as_of": "2026-07-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The currently available Chinese version will be shutdown in September 2026",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/final-fantasy-14-mobiles-global-launch-has-been-cancelled/" } }
+      ],
+      "summary": "The global launch of Final Fantasy 14 Mobile has been cancelled, with the existing Chinese version set to shut down in September 2026."
+    },
+    {
+      "ref": "main_news/the-live-action-god-of-war-show-is-recasting-kratos-after-ry",
+      "entities": {
+        "games": [
+          { "id": "god-of-war", "name": "God of War", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "ryan-hurst", "name": "Ryan Hurst", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The live-action God of War show is recasting Kratos after Ryan Hurst tore his bicep on set."
+    },
+    {
+      "ref": "main_news/fortnite-has-started-adding-ai-voices-to-its-npcs-for-an-upc",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-07-30", "unit": "date", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "product",
+          "as_of": "2026-07-20", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "launches July 30th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/fortnite-has-started-adding-ai-voices-to-its-npcs-for-an-upcoming-conversations-feature/" } }
+      ],
+      "summary": "Fortnite has begun adding AI voices to its NPCs ahead of a 'conversations' feature launching on 30 July 2026."
+    },
+    {
+      "ref": "main_news/call-of-duty-movie-will-be-set-in-the-modern-warfare-univers",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        { "metric": "release_date", "value": "2028-06-30", "unit": "date", "currency": null,
+          "entity": "call-of-duty-movie", "entity_type": "product", "scope": "product",
+          "as_of": "2026-07-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The movie is planned for release June 30th 2028",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/call-of-duty-movie-set-modern-warfare-universe" } }
+      ],
+      "summary": "The Call of Duty movie will be set in the Modern Warfare universe and is planned for release on 30 June 2028."
+    },
+    {
+      "ref": "main_news/an-anime-adaptation-of-wuthering-waves-a-popular-gacha-actio",
+      "entities": {
+        "games": [
+          { "id": "wuthering-waves", "name": "Wuthering Waves", "aliases": [], "genres": ["action-rpg"], "franchise": "wuthering-waves", "inferred": false }
+        ],
+        "studios": [
+          { "id": "kuro-games", "name": "Kuro Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "An anime adaptation of Kuro Games' gacha action-RPG Wuthering Waves, titled \"Wuthering Waves Elysium\", has been announced."
+    },
+    {
+      "ref": "main_news/cliff-bleszinski-blames-personal-ego-and-alcohol-issues-for",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "boss-key-productions", "name": "Boss Key Productions", "aliases": ["Boss Key"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "cliff-bleszinski", "name": "Cliff Bleszinski", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Cliff Bleszinski has blamed his personal ego and alcohol issues for the failure of Boss Key Productions."
+    },
+    {
+      "ref": "business/marathon-director-joe-ziegler-leaves-bungie-just-four-months",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "joe-ziegler", "name": "Joe Ziegler", "aliases": [], "inferred": false },
+          { "id": "del-chafe-iii", "name": "Del Chafe III", "aliases": [], "inferred": false },
+          { "id": "julia-nardin", "name": "Julia Nardin", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Marathon director Joe Ziegler has left Bungie four months after the game's launch, with Del Chafe III taking over game director duties supported by creative director Julia Nardin."
+    },
+    {
+      "ref": "business/controversy-laden-disco-elysium-studio-za-um-to-lay-off-up-t",
+      "entities": {
+        "games": [
+          { "id": "disco-elysium", "name": "Disco Elysium", "aliases": [], "genres": ["crpg", "rpg"], "franchise": "disco-elysium", "inferred": true },
+          { "id": "zero-parades-for-dead-spies", "name": "Zero Parades: For Dead Spies", "aliases": ["Zero Parades"], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "za-um", "name": "ZA/UM", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "release"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 32, "unit": "people", "currency": null,
+          "entity": "za-um", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-07-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "lay off up to 32 workers",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/za-um-studios-to-lay-off-up-to-32-workers-two-months-after-releasing-zero-parades-for-dead-spies" } }
+      ],
+      "summary": "Disco Elysium studio ZA/UM is set to lay off up to 32 workers, two months after releasing Zero Parades: For Dead Spies."
+    },
+    {
+      "ref": "business/palworld-hits-almost-1-million-concurrent-players-on-steam-a",
+      "entities": {
+        "games": [
+          { "id": "palworld", "name": "Palworld", "aliases": [], "genres": ["survival", "open-world"], "franchise": "palworld", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pocketpair", "name": "Pocketpair", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "release"],
+      "facts": [
+        { "metric": "concurrent_players", "value": 1000000, "unit": "players", "currency": null,
+          "entity": "palworld", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-20", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Hits Almost 1 Million Concurrent Players on Steam",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/palworld-million-concurrent-players-steam-unfolds/" } }
+      ],
+      "summary": "Palworld has hit almost 1 million concurrent players on Steam as its 1.0 version releases."
+    }
+  ]
+}
