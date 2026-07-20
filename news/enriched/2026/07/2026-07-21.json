@@ -1,0 +1,127 @@
+{
+  "date": "2026-07-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/free-to-play-dc-fighting-game-dcko-announced-for-ios-android",
+      "entities": {
+        "games": [
+          {
+            "id": "dcko",
+            "name": "DCKO",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "dc",
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": false },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "dcko",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Due out in 2027",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2026/07/free-to-play-dc-fighting-game-dcko-announced-for-ios-android"
+          }
+        }
+      ],
+      "summary": "A free-to-play DC-themed fighting game called DCKO has been announced for iOS and Android, due out in 2027."
+    },
+    {
+      "ref": "main_news/steam-machine-engineers-at-valve-claim-memory-crisis-is-stil",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-machine", "name": "Steam Machine", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Valve engineers working on the Steam Machine claim the memory shortage crisis is still getting worse."
+    },
+    {
+      "ref": "business/assassin-s-creed-black-flag-resynced-sells-3-million-copies",
+      "entities": {
+        "games": [
+          {
+            "id": "assassins-creed-black-flag-resynced",
+            "name": "Assassin's Creed Black Flag Resynced",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "assassins-creed",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 3000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "assassins-creed-black-flag-resynced",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-21",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "sells 3 million copies in its opening week",
+          "source": {
+            "name": "X",
+            "domain": "x.com",
+            "url": "https://x.com/assassinscreed/status/2078146457568235659"
+          }
+        }
+      ],
+      "summary": "Assassin's Creed Black Flag Resynced sold 3 million copies in its opening week."
+    },
+    {
+      "ref": "business/uk-games-retailer-game-has-entered-administration-again-owin",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "UK games retailer Game has entered administration again, reportedly owing £16m."
+    }
+  ]
+}

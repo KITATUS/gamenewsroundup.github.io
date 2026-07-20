@@ -1,6 +1,12 @@
 {
-  "day_count": 553,
+  "day_count": 554,
   "days": [
+    {
+      "date": "2026-07-21",
+      "entities": 7,
+      "facts": 2,
+      "items": 4
+    },
     {
       "date": "2026-07-20",
       "entities": 30,
@@ -3320,13 +3326,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4145,
-  "fact_count": 2649,
+  "entity_count": 4146,
+  "fact_count": 2651,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 891,
+    "action-adventure": 892,
     "action-platformer": 3,
     "action-rpg": 650,
     "adventure": 333,
@@ -3337,7 +3343,7 @@
     "creature-collector": 1,
     "crpg": 27,
     "extraction-shooter": 39,
-    "fighting": 211,
+    "fighting": 212,
     "fps": 429,
     "grand-strategy": 1,
     "hero-shooter": 71,
@@ -3376,14 +3382,14 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3762,
+  "item_count": 3766,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 12,
     "content_acquisition_cost": 2,
-    "copies_sold": 182,
+    "copies_sold": 183,
     "delay_to": 25,
     "development_budget": 13,
     "downloads": 25,
@@ -3401,7 +3407,7 @@
     "price": 236,
     "price_change_pct": 18,
     "profit": 129,
-    "release_date": 669,
+    "release_date": 670,
     "revenue": 383,
     "review_score": 2,
     "severance": 2,
