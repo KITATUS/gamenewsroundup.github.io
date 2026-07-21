@@ -1,6 +1,12 @@
 {
-  "day_count": 554,
+  "day_count": 555,
   "days": [
+    {
+      "date": "2026-07-22",
+      "entities": 9,
+      "facts": 3,
+      "items": 4
+    },
     {
       "date": "2026-07-21",
       "entities": 7,
@@ -3326,8 +3332,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4146,
-  "fact_count": 2651,
+  "entity_count": 4150,
+  "fact_count": 2654,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
@@ -3342,9 +3348,9 @@
     "card": 68,
     "creature-collector": 1,
     "crpg": 27,
-    "extraction-shooter": 39,
+    "extraction-shooter": 40,
     "fighting": 212,
-    "fps": 429,
+    "fps": 432,
     "grand-strategy": 1,
     "hero-shooter": 71,
     "horror": 117,
@@ -3360,13 +3366,13 @@
     "party": 90,
     "platformer": 261,
     "puzzle": 148,
-    "racing": 163,
+    "racing": 165,
     "rhythm": 46,
     "roguelike": 156,
     "rpg": 216,
     "rts": 36,
-    "sandbox": 89,
-    "shooter": 437,
+    "sandbox": 91,
+    "shooter": 439,
     "simulation": 303,
     "social-deduction": 1,
     "soulslike": 76,
@@ -3382,7 +3388,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3766,
+  "item_count": 3770,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
@@ -3394,7 +3400,7 @@
     "development_budget": 13,
     "downloads": 25,
     "equity_stake_pct": 21,
-    "event_date": 245,
+    "event_date": 246,
     "funding_raised": 62,
     "headcount": 28,
     "layoffs_count": 113,
@@ -3407,7 +3413,7 @@
     "price": 236,
     "price_change_pct": 18,
     "profit": 129,
-    "release_date": 670,
+    "release_date": 672,
     "revenue": 383,
     "review_score": 2,
     "severance": 2,

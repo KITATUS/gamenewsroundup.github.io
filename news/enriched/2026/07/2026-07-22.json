@@ -1,0 +1,96 @@
+{
+  "date": "2026-07-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/marathon-releases-limited-time-pve-mode-vault-breaker",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-08-04", "unit": "date", "currency": null,
+          "entity": "vault-breaker", "entity_type": "product", "scope": "event",
+          "as_of": "2026-07-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The mode will be available for two weeks, ending on August 4th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net",
+                      "url": "https://www.eurogamer.net/marathon-vault-breaker-pve-mode-details-gameplay" } }
+      ],
+      "summary": "Marathon has released a limited-time PvE roguelite mode called Vault Breaker, available for two weeks until 4 August 2026."
+    },
+    {
+      "ref": "main_news/unity-7-to-launch-in-q1-2027",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2027-01-01", "unit": "date", "currency": null,
+          "entity": "unity-7", "entity_type": "product", "scope": "product",
+          "as_of": "2026-07-22", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Unity 7 to launch in Q1 2027",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
+                      "url": "https://www.gamesindustry.biz/unity-7-to-launch-in-q1-2027-new-engine-is-a-direct-continuation-of-unity-6" } }
+      ],
+      "summary": "Unity has announced that Unity 7, described as a direct continuation of Unity 6, will launch in Q1 2027."
+    },
+    {
+      "ref": "main_news/former-wreckreation-team-starts-up-new-studio-named-when-tid",
+      "entities": {
+        "games": [
+          { "id": "wreckreation", "name": "Wreckreation", "aliases": [], "genres": ["racing", "sandbox"], "franchise": "wreckreation", "inferred": true },
+          { "id": "wreckreation-2", "name": "Wreckreation 2", "aliases": [], "genres": ["racing", "sandbox"], "franchise": "wreckreation", "inferred": true }
+        ],
+        "studios": [
+          { "id": "when-tides-turn", "name": "When Tides Turn", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "three-fields-entertainment", "name": "Three Fields Entertainment", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement", "layoffs"],
+      "facts": [
+        { "metric": "release_date", "value": "2025-10-28", "unit": "date", "currency": null,
+          "entity": "wreckreation", "entity_type": "game", "scope": "game",
+          "as_of": "2026-07-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Wreckreaction was released October 28th 2025",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com",
+                      "url": "https://www.gamedeveloper.com/business/former-wreckreation-team-starts-up-new-studio-working-on-sequel" } }
+      ],
+      "summary": "Former Wreckreation developers have formed a new studio, When Tides Turn, to work on a sequel titled Wreckreation 2."
+    },
+    {
+      "ref": "business/splitgate-dev-1047-games-lays-off-staff-less-than-a-month-si",
+      "entities": {
+        "games": [
+          { "id": "splitgate", "name": "Splitgate", "aliases": [], "genres": ["fps", "shooter"], "franchise": "splitgate", "inferred": true },
+          { "id": "empulse", "name": "Empulse", "aliases": [], "genres": ["shooter", "fps"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "1047-games", "name": "1047 Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Splitgate developer 1047 Games has laid off an unspecified number of staff less than a month after launching its Titanfall-inspired shooter Empulse."
+    }
+  ]
+}
