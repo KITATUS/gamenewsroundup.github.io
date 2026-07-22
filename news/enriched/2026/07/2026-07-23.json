@@ -1,0 +1,98 @@
+{
+  "date": "2026-07-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/xbox-backward-compatibility-launches-on-pc-four-xbox-games-p",
+      "entities": {
+        "games": [
+          { "id": "blinx-the-time-sweeper", "name": "Blinx: The Time Sweeper", "aliases": [], "genres": ["platformer"], "franchise": "blinx", "inferred": true },
+          { "id": "conker-live-and-reloaded", "name": "Conker: Live and Reloaded", "aliases": [], "genres": ["platformer", "action-adventure"], "franchise": "conker", "inferred": true },
+          { "id": "crimson-skies-high-road-to-revenge", "name": "Crimson Skies: High Road to Revenge", "aliases": [], "genres": ["action-adventure", "simulation"], "franchise": "crimson-skies", "inferred": true },
+          { "id": "fuzion-frenzy", "name": "Fuzion Frenzy", "aliases": [], "genres": ["party"], "franchise": "fuzion-frenzy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "Xbox Backward Compatibility has launched on PC with four original Xbox games playable at launch: Blinx: The Time Sweeper, Conker: Live and Reloaded, Crimson Skies: High Road to Revenge and Fuzion Frenzy."
+    },
+    {
+      "ref": "main_news/gamescom-2026-s-exhibition-area-is-fully-booked-for-the-firs",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["showcase"],
+      "summary": "Gamescom 2026's exhibition area is fully booked for the first time.",
+      "facts": []
+    },
+    {
+      "ref": "main_news/steam-has-overhauled-their-gift-features-allowing-users-to-g",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Steam has overhauled its gifting features so users can gift games to email addresses, to people who are not on their friends list, and to people in other regions."
+    },
+    {
+      "ref": "business/hasbro-records-56m-write-down-and-cancels-several-games-sche",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "hasbro", "name": "Hasbro", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Hasbro has recorded a $56m write-down and cancelled several games that were scheduled for 2028 and beyond."
+    },
+    {
+      "ref": "business/alpha-dog-games-founders-reacquire-studio-from-microsoft-fol",
+      "entities": {
+        "games": [
+          { "id": "mighty-doom", "name": "Mighty Doom", "aliases": [], "genres": ["shooter", "roguelike"], "franchise": "doom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "alpha-dog-games", "name": "Alpha Dog Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "shawn-woods", "name": "Shawn Woods", "aliases": [], "inferred": false },
+          { "id": "jeff-cameron", "name": "Jeff Cameron", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition", "studio-closure"],
+      "facts": [],
+      "summary": "The founders of Alpha Dog Games have reacquired the studio from Microsoft following its 2024 closure."
+    }
+  ]
+}

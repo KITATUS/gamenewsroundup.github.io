@@ -1,6 +1,12 @@
 {
-  "day_count": 555,
+  "day_count": 556,
   "days": [
+    {
+      "date": "2026-07-23",
+      "entities": 15,
+      "facts": 0,
+      "items": 5
+    },
     {
       "date": "2026-07-22",
       "entities": 9,
@@ -3332,13 +3338,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4150,
+  "entity_count": 4158,
   "fact_count": 2654,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 892,
+    "action-adventure": 894,
     "action-platformer": 3,
     "action-rpg": 650,
     "adventure": 333,
@@ -3363,17 +3369,17 @@
     "mmorpg": 66,
     "moba": 27,
     "open-world": 385,
-    "party": 90,
-    "platformer": 261,
+    "party": 91,
+    "platformer": 263,
     "puzzle": 148,
     "racing": 165,
     "rhythm": 46,
-    "roguelike": 156,
+    "roguelike": 157,
     "rpg": 216,
     "rts": 36,
     "sandbox": 91,
-    "shooter": 439,
-    "simulation": 303,
+    "shooter": 440,
+    "simulation": 304,
     "social-deduction": 1,
     "soulslike": 76,
     "sports": 149,
@@ -3388,7 +3394,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3770,
+  "item_count": 3775,
   "metric_totals": {
     "acquisition_price": 32,
     "announce_date": 11,
