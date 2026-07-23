@@ -1,0 +1,274 @@
+{
+  "date": "2026-07-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/esa-foundation-awards-31-university-students-scholarships-to",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The ESA Foundation awarded scholarships to 31 university students to support careers in games and esports."
+    },
+    {
+      "ref": "main_news/amazon-luna-cloud-gaming-platform-now-added-to-prime-video-i",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "amazon-luna",
+            "name": "Amazon Luna",
+            "aliases": ["Luna"],
+            "inferred": false
+          },
+          {
+            "id": "prime-video",
+            "name": "Prime Video",
+            "aliases": ["Amazon Prime Video"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "announcement"],
+      "facts": [],
+      "summary": "Amazon's Luna cloud gaming platform has been added to Prime Video in the US and UK, with its content available to Prime subscribers."
+    },
+    {
+      "ref": "main_news/fortnite-s-the-simpsons-crossover-is-coming-back-via-fortnit",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": ["Fortnite Reload"],
+            "genres": ["battle-royale", "tps", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "release-date"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-07-30",
+          "unit": "date",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-07-24",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Coming Back via Fortnite Reload on July 30th",
+          "source": {
+            "name": "GameSpot",
+            "domain": "gamespot.com",
+            "url": "https://www.gamespot.com/articles/fortnites-the-simpsons-crossover-is-coming-back/"
+          }
+        }
+      ],
+      "summary": "Fortnite's The Simpsons crossover is returning via Fortnite Reload on 30 July 2026."
+    },
+    {
+      "ref": "main_news/marvel-tokon-fighting-souls-first-dlc-revealed-phoenix-cyclo",
+      "entities": {
+        "games": [
+          {
+            "id": "marvel-tokon-fighting-souls",
+            "name": "Marvel Tokon: Fighting Souls",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "arc-system-works",
+            "name": "Arc System Works",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "reveal"],
+      "facts": [],
+      "summary": "The first DLC for Marvel Tokon: Fighting Souls has been revealed, adding Phoenix and Cyclops."
+    },
+    {
+      "ref": "main_news/microsoft-is-testing-free-ad-supported-cloud-gaming-for-xbox",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-cloud-gaming",
+            "name": "Xbox Cloud Gaming",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["beta-demo", "announcement"],
+      "facts": [],
+      "summary": "Microsoft has begun testing a free, ad-supported cloud gaming tier for Xbox Insiders, which shows adverts before play and requires players to own the game being streamed."
+    },
+    {
+      "ref": "business/human-fall-flat-reaches-60m-players-as-it-celebrates-10th-an",
+      "entities": {
+        "games": [
+          {
+            "id": "human-fall-flat",
+            "name": "Human Fall Flat",
+            "aliases": ["Human: Fall Flat"],
+            "genres": ["puzzle", "platformer", "party"],
+            "franchise": "human-fall-flat",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "no-brakes-games",
+            "name": "No Brakes Games",
+            "aliases": [],
+            "publisher": "curve-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "curve-games",
+            "name": "Curve Games",
+            "aliases": ["Curve Digital"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 60000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "human-fall-flat",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-24",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Human Fall Flat reaches 60m players",
+          "source": {
+            "name": "GamesPress",
+            "domain": "gamespress.com",
+            "url": "https://www.gamespress.com/en-GB/Human-Fall-Flat-Celebrates-10-Year-Anniversary-Alongside-60-Million-Pl"
+          }
+        }
+      ],
+      "summary": "Human Fall Flat has reached 60 million players as it marks its tenth anniversary."
+    },
+    {
+      "ref": "business/the-studio-behind-blumhouse-published-horror-game-crisol-the",
+      "entities": {
+        "games": [
+          {
+            "id": "crisol-theater-of-idols",
+            "name": "Crisol: Theater of Idols",
+            "aliases": [],
+            "genres": ["horror"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "vermila-studios",
+            "name": "Vermila Studios",
+            "aliases": [],
+            "publisher": "blumhouse-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "blumhouse-games",
+            "name": "Blumhouse Games",
+            "aliases": ["Blumhouse"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "raul-pernia-alejandro",
+            "name": "Raúl Pernía Alejandro",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "The Madrid-based studio behind Blumhouse-published horror game Crisol: Theater of Idols has reportedly shut down, according to a thread posted on X by game designer Raúl Pernía Alejandro."
+    },
+    {
+      "ref": "business/uk-games-growth-package-driving-exceptional-demand-one-year",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "One year on from launch, the UK Games Growth Package is reported to be driving \"exceptional demand\", with its £30 million supporting studio growth, exports and industry showcases."
+    }
+  ]
+}
