@@ -1,6 +1,12 @@
 {
-  "day_count": 557,
+  "day_count": 558,
   "days": [
+    {
+      "date": "2026-07-27",
+      "entities": 8,
+      "facts": 3,
+      "items": 4
+    },
     {
       "date": "2026-07-24",
       "entities": 16,
@@ -3344,15 +3350,15 @@
       "items": 7
     }
   ],
-  "entity_count": 4162,
-  "fact_count": 2656,
+  "entity_count": 4164,
+  "fact_count": 2659,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 894,
+    "action-adventure": 895,
     "action-platformer": 3,
-    "action-rpg": 650,
+    "action-rpg": 651,
     "adventure": 333,
     "arcade": 11,
     "battle-royale": 128,
@@ -3366,13 +3372,13 @@
     "grand-strategy": 1,
     "hero-shooter": 71,
     "horror": 118,
-    "jrpg": 120,
+    "jrpg": 121,
     "life-sim": 94,
     "looter-shooter": 1,
     "management": 1,
     "metroidvania": 53,
     "mmo": 44,
-    "mmorpg": 66,
+    "mmorpg": 67,
     "moba": 27,
     "open-world": 385,
     "party": 92,
@@ -3400,9 +3406,9 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3783,
+  "item_count": 3787,
   "metric_totals": {
-    "acquisition_price": 32,
+    "acquisition_price": 33,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 12,
@@ -3425,8 +3431,8 @@
     "price": 236,
     "price_change_pct": 18,
     "profit": 129,
-    "release_date": 672,
-    "revenue": 383,
+    "release_date": 673,
+    "revenue": 384,
     "review_score": 2,
     "severance": 2,
     "shutdown_date": 75,

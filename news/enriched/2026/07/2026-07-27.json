@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sony-reveals-god-of-war-laufey-release-date-february-16th-20",
+      "entities": {
+        "games": [
+          {
+            "id": "god-of-war-laufey",
+            "name": "God of War Laufey",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "god-of-war",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "santa-monica-studio",
+            "name": "Santa Monica Studio",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027-02-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "god-of-war-laufey",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-07-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "God of War Laufey Release Date - February 16th, 2027",
+          "source": {
+            "name": "Insider Gaming",
+            "domain": "insider-gaming.com",
+            "url": "https://insider-gaming.com/sony-reveals-god-of-war-laufey-release-date/"
+          }
+        }
+      ],
+      "summary": "Sony has revealed that God of War Laufey will release on 16 February 2027, with another God of War game starring Kratos also in development."
+    },
+    {
+      "ref": "main_news/final-fantasy-vii-remake-series-coming-to-final-fantasy-xiv",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-vii-remake",
+            "name": "Final Fantasy VII Remake",
+            "aliases": [],
+            "genres": ["action-rpg", "jrpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          },
+          {
+            "id": "final-fantasy-xiv",
+            "name": "Final Fantasy XIV",
+            "aliases": [],
+            "genres": ["mmorpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion"],
+      "facts": [],
+      "summary": "The Final Fantasy VII Remake series is coming to Final Fantasy XIV through a raid series called \"Beyond the Lifestream\"."
+    },
+    {
+      "ref": "business/eu-commission-approves-55bn-ea-buyout-says-it-would-not-rais",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "regulation"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 55000000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "electronic-arts",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-07-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "EU Commission approves $55bn EA buyout",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/eu-commission-approves-55bn-ea-buyout-says-it-would-not-raise-competition-concerns"
+          }
+        }
+      ],
+      "summary": "The European Commission has approved the $55bn buyout of Electronic Arts, saying it would not raise competition concerns."
+    },
+    {
+      "ref": "business/ubisoft-q1-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 268200000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "ubisoft",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-07-27",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: €268.2 million (down 13.7% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ubisoft-q1-net-bookings-down-92-attributes-drop-to-high-comparison-base-from-same-period-last-year"
+          }
+        }
+      ],
+      "summary": "Ubisoft reported Q1 revenue of €268.2 million, down 13.7% year-on-year, alongside declines in net bookings, digital net bookings and back catalogue net bookings."
+    }
+  ]
+}
