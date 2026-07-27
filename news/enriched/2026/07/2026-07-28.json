@@ -1,0 +1,241 @@
+{
+  "date": "2026-07-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/blizzard-fired-an-employee-for-cheating-with-a-developer-onl",
+      "entities": {
+        "games": [
+          {
+            "id": "world-of-warcraft",
+            "name": "World of Warcraft",
+            "aliases": [],
+            "genres": ["mmorpg"],
+            "franchise": "warcraft",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "blizzard-entertainment",
+            "name": "Blizzard Entertainment",
+            "aliases": ["Blizzard"],
+            "publisher": "activision-blizzard",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Blizzard fired an employee who used a developer-only instakill move to cheat in World of Warcraft."
+    },
+    {
+      "ref": "main_news/user-made-maps-from-steam-top-seller-meccha-chameleon-have-b",
+      "entities": {
+        "games": [
+          {
+            "id": "meccha-chameleon",
+            "name": "Meccha Chameleon",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "discord",
+            "name": "Discord",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "User-made maps for Steam top-seller Meccha Chameleon were found to contain malware at the same time as the game's official Discord server was hacked."
+    },
+    {
+      "ref": "main_news/xbox-service-down-for-an-extended-period-of-time-with-outage",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": true
+          },
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation-network",
+            "name": "PlayStation Network",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Xbox services were down for an extended period, leaving players unable to launch digital or physical games, following similar PlayStation Network problems the previous week."
+    },
+    {
+      "ref": "main_news/atari-signs-10-title-film-deal-with-universal",
+      "entities": {
+        "games": [
+          {
+            "id": "asteroids",
+            "name": "Asteroids",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "adventure",
+            "name": "Adventure",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "berzerk",
+            "name": "Berzerk",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "breakout",
+            "name": "Breakout",
+            "aliases": [],
+            "genres": ["arcade"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "centipede",
+            "name": "Centipede",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": "centipede",
+            "inferred": true
+          },
+          {
+            "id": "crystal-castles",
+            "name": "Crystal Castles",
+            "aliases": [],
+            "genres": ["arcade"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "millipede",
+            "name": "Millipede",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": "centipede",
+            "inferred": true
+          },
+          {
+            "id": "missile-command",
+            "name": "Missile Command",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "pong",
+            "name": "Pong",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "yars-revenge",
+            "name": "Yars' Revenge",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "atari",
+            "name": "Atari",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Atari signed a film deal with Universal covering 10 of its titles, including Asteroids, Pong, and Missile Command."
+    },
+    {
+      "ref": "business/codedev-launches-optimisation-division-the-performance-guys",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "codedev",
+            "name": "CodeDev",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "the-performance-guys",
+            "name": "The Performance Guys",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "CodeDev launched a new optimisation division called The Performance Guys."
+    }
+  ]
+}
