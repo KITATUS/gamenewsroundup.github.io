@@ -22,7 +22,7 @@
       },
       "event_tags": ["partnership", "free-game"],
       "facts": [],
-      "summary": "Under a new partnership with Microsoft, Ubisoft is letting owners of its Xbox games play select titles for free on PC via their Ubisoft Connect account."
+      "summary": "Under a new partnership with Microsoft, Ubisoft is letting owners of its Xbox games play select titles for free on PC, with applicable games appearing in their Ubisoft Connect account to download."
     },
     {
       "ref": "free_games_subscription/august-s-three-playstation-plus-essential-monthly-games-anno",
@@ -32,13 +32,13 @@
             "aliases": ["Dying Light 2 Stay Human: Reloaded Edition"],
             "genres": ["action-rpg", "open-world", "survival-horror"], "franchise": "dying-light", "inferred": true },
           { "id": "big-walk", "name": "Big Walk", "aliases": [],
-            "genres": ["adventure"], "franchise": null, "inferred": true },
+            "genres": ["adventure", "party"], "franchise": null, "inferred": true },
           { "id": "signalis", "name": "Signalis", "aliases": [],
             "genres": ["survival-horror"], "franchise": null, "inferred": true }
         ],
         "studios": [
           { "id": "techland", "name": "Techland", "aliases": [], "publisher": null, "inferred": true },
-          { "id": "hello-games", "name": "Hello Games", "aliases": [], "publisher": null, "inferred": true },
+          { "id": "house-house", "name": "House House", "aliases": [], "publisher": null, "inferred": true },
           { "id": "rose-engine", "name": "rose-engine", "aliases": [], "publisher": null, "inferred": true }
         ],
         "publishers": [
@@ -51,7 +51,7 @@
       },
       "event_tags": ["subscription", "free-game", "announcement"],
       "facts": [],
-      "summary": "Sony has announced August's three PlayStation Plus Essential monthly games: Dying Light 2 Stay Human: Reloaded Edition, Big Walk and Signalis."
+      "summary": "August's three PlayStation Plus Essential monthly games have been announced as Dying Light 2 Stay Human: Reloaded Edition, Big Walk and Signalis."
     },
     {
       "ref": "business/capcom-q1-results",
@@ -70,55 +70,43 @@
       "event_tags": ["earnings"],
       "facts": [
         { "metric": "revenue", "value": 70400000000, "unit": "money", "currency": "JPY",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
           "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
           "quote": "Net sales: ¥70.4 billion ($429.5 million), up 54.7% year-on-year",
           "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
                       "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } },
         { "metric": "revenue", "value": 429500000, "unit": "money", "currency": "USD",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
           "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
           "quote": "Net sales: ¥70.4 billion ($429.5 million), up 54.7% year-on-year",
           "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
                       "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } },
         { "metric": "operating_income", "value": 41000000000, "unit": "money", "currency": "JPY",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
           "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
           "quote": "Operating profit: ¥41 billion ($250.1 million), up 66.9% year-on-year",
           "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
                       "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } },
         { "metric": "operating_income", "value": 250100000, "unit": "money", "currency": "USD",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
           "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
           "quote": "Operating profit: ¥41 billion ($250.1 million), up 66.9% year-on-year",
           "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
                       "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } },
-        { "metric": "profit", "value": 41400000000, "unit": "money", "currency": "JPY",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
-          "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
-          "quote": "Ordinary profit: ¥41.4 billion ($252.5 million), up 81.1% year-on-year",
-          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
-                      "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } },
-        { "metric": "profit", "value": 252500000, "unit": "money", "currency": "USD",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
-          "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
-          "quote": "Ordinary profit: ¥41.4 billion ($252.5 million), up 81.1% year-on-year",
-          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
-                      "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } },
         { "metric": "profit", "value": 29100000000, "unit": "money", "currency": "JPY",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
           "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
           "quote": "Net income: ¥29.1 billion ($177.5 million), up 69.2% year-on-year",
           "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
                       "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } },
         { "metric": "profit", "value": 177500000, "unit": "money", "currency": "USD",
-          "entity": "capcom", "entity_type": "company", "scope": "company",
+          "entity": "capcom", "entity_type": "publisher", "scope": "company",
           "as_of": "2026-07-29", "period": "quarterly", "direction": "up", "confidence": "high",
           "quote": "Net income: ¥29.1 billion ($177.5 million), up 69.2% year-on-year",
           "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz",
                       "url": "https://www.gamesindustry.biz/pragmata-and-resident-evil-franchise-boost-capcoms-q1-ordinary-profit-by-81-to-2525m" } }
       ],
-      "summary": "Capcom's Q1 results show net sales of ¥70.4 billion ($429.5 million), up 54.7% year-on-year, with operating profit, ordinary profit and net income all up."
+      "summary": "Capcom has reported Q1 results with net sales of ¥70.4 billion ($429.5 million), up 54.7% year-on-year, and operating profit, ordinary profit and net income all up year-on-year."
     },
     {
       "ref": "business/john-hight-steps-down-as-wizards-of-the-coast-president",
@@ -203,7 +191,7 @@
       "summary": "Psychonauts 2 studio Double Fine has been hit with layoffs affecting 23 people amid its divestiture from Xbox."
     },
     {
-      "ref": "business/resident-evil-requiem-passes-8-million-sold",
+      "ref": "business/resident-evil-requiem-passes-8-million-copies-sold",
       "entities": {
         "games": [
           { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [],
@@ -231,7 +219,7 @@
         { "metric": "copies_sold", "value": 8000000, "unit": "copies", "currency": null,
           "entity": "resident-evil-requiem", "entity_type": "game", "scope": "game",
           "as_of": "2026-07-29", "period": "cumulative", "direction": null, "confidence": "high",
-          "quote": "Resident Evil Requiem passes 8 million sold",
+          "quote": "Resident Evil Requiem passes 8 million copies sold",
           "source": { "name": "VGC", "domain": "videogameschronicle.com",
                       "url": "https://www.videogameschronicle.com/news/capcom-reports-another-strong-quarter-as-resident-evil-requiem-passes-8-million-sold-and-pragmata-hits-2-5-million/" } },
         { "metric": "lifetime_unit_sales", "value": 19750000, "unit": "units", "currency": null,
@@ -249,23 +237,23 @@
         { "metric": "lifetime_unit_sales", "value": 16040000, "unit": "units", "currency": null,
           "entity": "resident-evil-4-remake", "entity_type": "game", "scope": "game",
           "as_of": "2026-07-29", "period": "cumulative", "direction": null, "confidence": "high",
-          "quote": "16.04 million unitsfor the Resident Evil 4 remake",
+          "quote": "16.04 million units for the Resident Evil 4 remake",
           "source": { "name": "VGC", "domain": "videogameschronicle.com",
                       "url": "https://www.videogameschronicle.com/news/capcom-reports-another-strong-quarter-as-resident-evil-requiem-passes-8-million-sold-and-pragmata-hits-2-5-million/" } },
         { "metric": "lifetime_unit_sales", "value": 15860000, "unit": "units", "currency": null,
           "entity": "resident-evil-village", "entity_type": "game", "scope": "game",
           "as_of": "2026-07-29", "period": "cumulative", "direction": null, "confidence": "high",
-          "quote": "15.86 million for Resident Evil Village",
+          "quote": "15.86 million units for Resident Evil Village",
           "source": { "name": "VGC", "domain": "videogameschronicle.com",
                       "url": "https://www.videogameschronicle.com/news/capcom-reports-another-strong-quarter-as-resident-evil-requiem-passes-8-million-sold-and-pragmata-hits-2-5-million/" } },
         { "metric": "lifetime_unit_sales", "value": 14520000, "unit": "units", "currency": null,
           "entity": "resident-evil-3-remake", "entity_type": "game", "scope": "game",
           "as_of": "2026-07-29", "period": "cumulative", "direction": null, "confidence": "high",
-          "quote": "14.52 million for the Resident Evil 3 remake",
+          "quote": "14.52 million units for the Resident Evil 3 remake",
           "source": { "name": "VGC", "domain": "videogameschronicle.com",
                       "url": "https://www.videogameschronicle.com/news/capcom-reports-another-strong-quarter-as-resident-evil-requiem-passes-8-million-sold-and-pragmata-hits-2-5-million/" } }
       ],
-      "summary": "Resident Evil Requiem has passed 8 million copies sold, with five other Resident Evil titles each selling a million or more in Capcom's Q1 period."
+      "summary": "Resident Evil Requiem has passed 8 million copies sold, and five other Resident Evil back-catalogue titles each sold a million copies or more during Capcom's Q1 period."
     }
   ]
 }
