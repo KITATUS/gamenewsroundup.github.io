@@ -4082,6 +4082,19 @@
     "name": "Big Run",
     "type": "game"
   },
+  "big-walk": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-07-29",
+    "franchise": null,
+    "genres": [
+      "adventure"
+    ],
+    "last_seen": "2026-07-29",
+    "mentions": 1,
+    "name": "Big Walk",
+    "type": "game"
+  },
   "bigger-games": {
     "aliases": [],
     "fact_count": 1,
@@ -4521,8 +4534,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-07-28",
-    "mentions": 26,
+    "last_seen": "2026-07-29",
+    "mentions": 27,
     "name": "Blizzard Entertainment",
     "type": "studio"
   },
@@ -5870,10 +5883,10 @@
     "aliases": [
       "Capcomn"
     ],
-    "fact_count": 64,
+    "fact_count": 72,
     "first_seen": "2024-04-29",
-    "last_seen": "2026-06-24",
-    "mentions": 102,
+    "last_seen": "2026-07-29",
+    "mentions": 105,
     "name": "Capcom",
     "type": "publisher"
   },
@@ -10610,11 +10623,13 @@
     "type": "studio"
   },
   "double-fine": {
-    "aliases": [],
-    "fact_count": 0,
+    "aliases": [
+      "Double Fine Productions"
+    ],
+    "fact_count": 1,
     "first_seen": "2024-07-30",
-    "last_seen": "2026-07-07",
-    "mentions": 6,
+    "last_seen": "2026-07-29",
+    "mentions": 7,
     "name": "Double Fine",
     "type": "studio"
   },
@@ -11416,18 +11431,20 @@
   },
   "dying-light-2-stay-human": {
     "aliases": [
-      "Dying Light 2 Stay Human"
+      "Dying Light 2 Stay Human",
+      "Dying Light 2 Stay Human: Reloaded Edition"
     ],
     "fact_count": 0,
     "first_seen": "2024-11-14",
     "franchise": "dying-light",
     "genres": [
       "action-rpg",
+      "open-world",
       "survival-horror"
     ],
-    "last_seen": "2024-11-14",
-    "mentions": 1,
-    "name": "Dying Light 2: Stay Human",
+    "last_seen": "2026-07-29",
+    "mentions": 2,
+    "name": "Dying Light 2 Stay Human",
     "type": "game"
   },
   "dying-light-the-beast": {
@@ -18219,8 +18236,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-12-13",
-    "last_seen": "2024-12-13",
-    "mentions": 1,
+    "last_seen": "2026-07-29",
+    "mentions": 2,
     "name": "Hello Games",
     "type": "publisher"
   },
@@ -20888,11 +20905,13 @@
     "type": "person"
   },
   "john-hight": {
-    "aliases": [],
-    "fact_count": 0,
+    "aliases": [
+      "Hight"
+    ],
+    "fact_count": 1,
     "first_seen": "2024-06-17",
-    "last_seen": "2024-07-19",
-    "mentions": 2,
+    "last_seen": "2026-07-29",
+    "mentions": 3,
     "name": "John Hight",
     "type": "person"
   },
@@ -26541,8 +26560,8 @@
     ],
     "fact_count": 17,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-07-28",
-    "mentions": 115,
+    "last_seen": "2026-07-29",
+    "mentions": 116,
     "name": "Microsoft",
     "type": "publisher"
   },
@@ -30988,8 +31007,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-07-23",
-    "mentions": 226,
+    "last_seen": "2026-07-29",
+    "mentions": 227,
     "name": "PC",
     "type": "platform"
   },
@@ -32090,8 +32109,8 @@
     ],
     "fact_count": 21,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-07-02",
-    "mentions": 75,
+    "last_seen": "2026-07-29",
+    "mentions": 76,
     "name": "PlayStation Plus",
     "type": "platform"
   },
@@ -32712,7 +32731,7 @@
   },
   "pragmata": {
     "aliases": [],
-    "fact_count": 4,
+    "fact_count": 5,
     "first_seen": "2025-06-05",
     "franchise": null,
     "genres": [
@@ -32720,9 +32739,9 @@
       "puzzle",
       "shooter"
     ],
-    "last_seen": "2026-05-08",
-    "mentions": 9,
-    "name": "PRAGMATA",
+    "last_seen": "2026-07-29",
+    "mentions": 11,
+    "name": "Pragmata",
     "type": "game"
   },
   "predecessor": {
@@ -33482,8 +33501,8 @@
       "action-adventure",
       "platformer"
     ],
-    "last_seen": "2025-08-28",
-    "mentions": 2,
+    "last_seen": "2026-07-29",
+    "mentions": 3,
     "name": "Psychonauts 2",
     "type": "game"
   },
@@ -34714,17 +34733,19 @@
     "type": "game"
   },
   "resident-evil-2-remake": {
-    "aliases": [],
-    "fact_count": 1,
+    "aliases": [
+      "Resident Evil 2"
+    ],
+    "fact_count": 2,
     "first_seen": "2024-06-25",
     "franchise": "resident-evil",
     "genres": [
       "action-adventure",
       "survival-horror"
     ],
-    "last_seen": "2024-06-25",
-    "mentions": 1,
-    "name": "Resident Evil 2 Remake",
+    "last_seen": "2026-07-29",
+    "mentions": 2,
+    "name": "Resident Evil 2 remake",
     "type": "game"
   },
   "resident-evil-3": {
@@ -34758,6 +34779,21 @@
     "name": "Resident Evil 3: Nemesis",
     "type": "game"
   },
+  "resident-evil-3-remake": {
+    "aliases": [
+      "Resident Evil 3"
+    ],
+    "fact_count": 1,
+    "first_seen": "2026-07-29",
+    "franchise": "resident-evil",
+    "genres": [
+      "survival-horror"
+    ],
+    "last_seen": "2026-07-29",
+    "mentions": 1,
+    "name": "Resident Evil 3 remake",
+    "type": "game"
+  },
   "resident-evil-4": {
     "aliases": [
       "RE4",
@@ -34779,16 +34815,16 @@
     "aliases": [
       "Resident Evil 4"
     ],
-    "fact_count": 5,
+    "fact_count": 6,
     "first_seen": "2024-05-10",
     "franchise": "resident-evil",
     "genres": [
       "action-adventure",
       "survival-horror"
     ],
-    "last_seen": "2026-03-09",
-    "mentions": 5,
-    "name": "Resident Evil 4 Remake",
+    "last_seen": "2026-07-29",
+    "mentions": 6,
+    "name": "Resident Evil 4 remake",
     "type": "game"
   },
   "resident-evil-7": {
@@ -34814,16 +34850,16 @@
     "aliases": [
       "Resident Evil 7"
     ],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2024-06-11",
     "franchise": "resident-evil",
     "genres": [
       "fps",
       "survival-horror"
     ],
-    "last_seen": "2024-06-11",
-    "mentions": 1,
-    "name": "Resident Evil 7 Biohazard",
+    "last_seen": "2026-07-29",
+    "mentions": 2,
+    "name": "Resident Evil 7: Biohazard",
     "type": "game"
   },
   "resident-evil-9": {
@@ -34862,7 +34898,7 @@
       "Requiem",
       "Resident Evil 9"
     ],
-    "fact_count": 4,
+    "fact_count": 5,
     "first_seen": "2025-06-09",
     "franchise": "resident-evil",
     "genres": [
@@ -34870,8 +34906,8 @@
       "horror",
       "survival-horror"
     ],
-    "last_seen": "2026-05-14",
-    "mentions": 15,
+    "last_seen": "2026-07-29",
+    "mentions": 16,
     "name": "Resident Evil Requiem",
     "type": "game"
   },
@@ -34923,15 +34959,15 @@
     "aliases": [
       "Village"
     ],
-    "fact_count": 2,
+    "fact_count": 3,
     "first_seen": "2024-06-12",
     "franchise": "resident-evil",
     "genres": [
       "fps",
       "survival-horror"
     ],
-    "last_seen": "2026-01-15",
-    "mentions": 5,
+    "last_seen": "2026-07-29",
+    "mentions": 6,
     "name": "Resident Evil Village",
     "type": "game"
   },
@@ -36015,6 +36051,15 @@
     "mentions": 2,
     "name": "Ron Gilbert",
     "type": "person"
+  },
+  "rose-engine": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-07-29",
+    "last_seen": "2026-07-29",
+    "mentions": 1,
+    "name": "rose-engine",
+    "type": "studio"
   },
   "rosewater": {
     "aliases": [],
@@ -37681,6 +37726,19 @@
     "name": "Sifu",
     "type": "game"
   },
+  "signalis": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-07-29",
+    "franchise": null,
+    "genres": [
+      "survival-horror"
+    ],
+    "last_seen": "2026-07-29",
+    "mentions": 1,
+    "name": "Signalis",
+    "type": "game"
+  },
   "sigourney-weaver": {
     "aliases": [],
     "fact_count": 0,
@@ -38756,8 +38814,8 @@
     ],
     "fact_count": 23,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-07-28",
-    "mentions": 176,
+    "last_seen": "2026-07-29",
+    "mentions": 177,
     "name": "Sony Interactive Entertainment",
     "type": "publisher"
   },
@@ -42396,8 +42454,8 @@
     ],
     "fact_count": 3,
     "first_seen": "2024-07-15",
-    "last_seen": "2025-12-12",
-    "mentions": 4,
+    "last_seen": "2026-07-29",
+    "mentions": 5,
     "name": "Techland",
     "type": "studio"
   },
@@ -46653,8 +46711,8 @@
     ],
     "fact_count": 37,
     "first_seen": "2024-05-03",
-    "last_seen": "2026-07-27",
-    "mentions": 128,
+    "last_seen": "2026-07-29",
+    "mentions": 129,
     "name": "Ubisoft",
     "type": "publisher"
   },
@@ -46704,6 +46762,15 @@
     "mentions": 1,
     "name": "Ubisoft Bucharest",
     "type": "studio"
+  },
+  "ubisoft-connect": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-07-29",
+    "last_seen": "2026-07-29",
+    "mentions": 1,
+    "name": "Ubisoft Connect",
+    "type": "platform"
   },
   "ubisoft-france": {
     "aliases": [],
@@ -49134,11 +49201,13 @@
     "type": "game"
   },
   "wizards-of-the-coast": {
-    "aliases": [],
+    "aliases": [
+      "WOTC"
+    ],
     "fact_count": 1,
     "first_seen": "2024-07-03",
-    "last_seen": "2025-12-12",
-    "mentions": 6,
+    "last_seen": "2026-07-29",
+    "mentions": 7,
     "name": "Wizards of the Coast",
     "type": "publisher"
   },
@@ -49546,8 +49615,8 @@
     ],
     "fact_count": 7,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-07-28",
-    "mentions": 165,
+    "last_seen": "2026-07-29",
+    "mentions": 167,
     "name": "Xbox",
     "type": "platform"
   },
@@ -49616,8 +49685,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-07",
-    "last_seen": "2026-07-23",
-    "mentions": 23,
+    "last_seen": "2026-07-29",
+    "mentions": 24,
     "name": "Xbox Game Studios",
     "type": "publisher"
   },
