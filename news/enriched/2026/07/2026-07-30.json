@@ -1,0 +1,372 @@
+{
+  "date": "2026-07-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/after-dissolution-of-the-original-team-a-wuchang-fallen-feat",
+      "entities": {
+        "games": [
+          {
+            "id": "wuchang-fallen-feathers",
+            "name": "Wuchang: Fallen Feathers",
+            "aliases": [],
+            "genres": ["soulslike", "action-rpg"],
+            "franchise": "wuchang",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "leenzee",
+            "name": "Leenzee",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "xia-siyuan",
+            "name": "Xia Siyuan",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement", "layoffs", "leadership-change", "studio-opening"],
+      "facts": [],
+      "summary": "A sequel to Wuchang: Fallen Feathers has been confirmed with the original creative director leading it, following the dissolution of the original team at Leenzee."
+    },
+    {
+      "ref": "main_news/taleworlds-entertainment-co-founder-i-pek-yavuz-has-passed-a",
+      "entities": {
+        "games": [
+          {
+            "id": "mount-blade",
+            "name": "Mount & Blade",
+            "aliases": [],
+            "genres": ["action-rpg", "strategy", "open-world"],
+            "franchise": "mount-blade",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "taleworlds-entertainment",
+            "name": "TaleWorlds Entertainment",
+            "aliases": ["TaleWorlds"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "ipek-yavuz",
+            "name": "İpek Yavuz",
+            "aliases": ["I pek Yavuz"],
+            "inferred": false
+          },
+          {
+            "id": "armagan-yavuz",
+            "name": "Armagan Yavuz",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "İpek Yavuz, who co-founded Mount & Blade studio TaleWorlds Entertainment in 2005 with her husband Armagan Yavuz, has passed away."
+    },
+    {
+      "ref": "main_news/the-simpsons-reload-mode-in-fortnite-adds-a-simpson-ified-jo",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "tps", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "keanu-reeves",
+            "name": "Keanu Reeves",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["update-patch", "partnership"],
+      "facts": [],
+      "summary": "Fortnite's The Simpsons Reload mode has added a Simpsons-styled John Wick as an unlockable skin, obtainable through the current battle pass."
+    },
+    {
+      "ref": "business/krafton-q2-results",
+      "entities": {
+        "games": [
+          {
+            "id": "pubg",
+            "name": "PUBG",
+            "aliases": ["PUBG"],
+            "genres": ["battle-royale", "tps", "shooter"],
+            "franchise": "pubg",
+            "inferred": true
+          },
+          {
+            "id": "subnautica",
+            "name": "Subnautica",
+            "aliases": [],
+            "genres": ["survival", "adventure", "open-world"],
+            "franchise": "subnautica",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "krafton",
+            "name": "Krafton",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "console",
+            "name": "Console",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1290000000000,
+          "unit": "revenue",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue rose 94.9% to ₩1.29 trillion ($889.1 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 889100000,
+          "unit": "revenue",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue rose 94.9% to ₩1.29 trillion ($889.1 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 410900000000,
+          "unit": "operating_income",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit rose 67% to ₩410.9 billion ($283.1 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 283100000,
+          "unit": "operating_income",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit rose 67% to ₩410.9 billion ($283.1 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 500000000000,
+          "unit": "revenue",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "medium",
+          "quote": "PC revenue growth, which surpassed ₩500 billion ($344.4 million) for the first time",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 344400000,
+          "unit": "revenue",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "medium",
+          "quote": "PC revenue growth, which surpassed ₩500 billion ($344.4 million) for the first time",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 23800000000,
+          "unit": "revenue",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Console revenue rose 143.3% year-over-year to ₩23.8 billion ($16.3 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 16300000,
+          "unit": "revenue",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Console revenue rose 143.3% year-over-year to ₩23.8 billion ($16.3 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 451000000000,
+          "unit": "revenue",
+          "currency": "KRW",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "mobile revenue increased slightly by 5.5% to ₩451 billion ($310.7 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 310700000,
+          "unit": "revenue",
+          "currency": "USD",
+          "entity": "krafton",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-07-30",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "mobile revenue increased slightly by 5.5% to ₩451 billion ($310.7 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m"
+          }
+        }
+      ],
+      "summary": "Krafton reported Q2 revenue up 94.9% to ₩1.29 trillion ($889.1 million) and operating profit up 67% to ₩410.9 billion ($283.1 million), with Subnautica and PUBG driving record PC revenue."
+    }
+  ]
+}
