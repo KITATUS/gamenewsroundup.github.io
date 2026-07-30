@@ -1,6 +1,12 @@
 {
-  "day_count": 561,
+  "day_count": 562,
   "days": [
+    {
+      "date": "2026-07-31",
+      "entities": 17,
+      "facts": 0,
+      "items": 4
+    },
     {
       "date": "2026-07-30",
       "entities": 16,
@@ -3368,7 +3374,7 @@
       "items": 7
     }
   ],
-  "entity_count": 4187,
+  "entity_count": 4190,
   "fact_count": 2684,
   "generated_from": "enriched/",
   "genre_totals": {
@@ -3400,7 +3406,7 @@
     "moba": 27,
     "open-world": 388,
     "party": 93,
-    "platformer": 265,
+    "platformer": 266,
     "puzzle": 149,
     "racing": 165,
     "rhythm": 46,
@@ -3424,7 +3430,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3803,
+  "item_count": 3807,
   "metric_totals": {
     "acquisition_price": 33,
     "announce_date": 11,

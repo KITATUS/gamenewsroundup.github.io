@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/croc-2-kingdom-of-the-gobbos-is-getting-remastered-set-for-r",
+      "entities": {
+        "games": [
+          {
+            "id": "croc-2-kingdom-of-the-gobbos",
+            "name": "Croc 2: Kingdom of the Gobbos",
+            "aliases": ["Croc 2"],
+            "genres": ["platformer"],
+            "franchise": "croc",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "argonaut-games",
+            "name": "Argonaut Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement", "release-date"],
+      "facts": [],
+      "summary": "Croc 2: Kingdom of the Gobbos is being remastered for release in Q4 2026 on PS4, PS5, Xbox Series S/X, PC and Switch."
+    },
+    {
+      "ref": "main_news/unity-brings-dedicated-engine-support-to-netflix-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "unity",
+            "name": "Unity",
+            "aliases": ["Unity Technologies"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": ["Netflix Games"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Unity has added dedicated engine support for Netflix Games, making it easier for developers to build and ship games across Netflix's mobile and TV ecosystem."
+    },
+    {
+      "ref": "main_news/martin-keely-former-senior-vice-president-of-battle-net-and",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "blizzard-entertainment",
+            "name": "Blizzard Entertainment",
+            "aliases": ["Blizzard"],
+            "publisher": "activision-blizzard",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-store", "name": "Epic Games Store", "aliases": [], "inferred": false },
+          { "id": "battle-net", "name": "Battle.net", "aliases": ["Battle.net"], "inferred": false }
+        ],
+        "people": [
+          { "id": "martin-keely", "name": "Martin Keely", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Martin Keely, formerly senior vice president of Battle.net and technology services at Blizzard, has joined Epic Games as VP/GM of the Epic Games Store and Epic Online Services."
+    },
+    {
+      "ref": "business/xbox-revenue-fell-by-1-7bn-during-fy2026",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Xbox revenue fell by $1.7 billion (7%) during FY2026, with hardware revenue down 29% and content and services revenue down 5%."
+    }
+  ]
+}
