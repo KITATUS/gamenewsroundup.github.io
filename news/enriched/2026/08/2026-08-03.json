@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/xbox-uk-and-europe-console-price-increases-revealed-in-europ",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x", "name": "Xbox Series X", "aliases": ["Series X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["price-change", "hardware"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 799.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "xbox-series-x",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-08-03",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "in the US, the Series X (Disc version) is $799.99",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-console-price-increases-in-europe-and-uk-fully-revealed-with-series-x-now-costing-e200-more/"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 799.99,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "xbox-series-x",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-08-03",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "in Europe it's €799.99 (was €599.99)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-console-price-increases-in-europe-and-uk-fully-revealed-with-series-x-now-costing-e200-more/"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 669.99,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "xbox-series-x",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-08-03",
+          "period": "point_in_time",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "in the UK it is £669.99 (was £499.99)",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-console-price-increases-in-europe-and-uk-fully-revealed-with-series-x-now-costing-e200-more/"
+          }
+        }
+      ],
+      "summary": "Xbox console price increases for the UK and Europe were revealed in full, with the Series X disc model rising to $799.99 in the US, €799.99 in Europe and £669.99 in the UK."
+    },
+    {
+      "ref": "main_news/ubisoft-s-nft-rpg-champions-tactics-is-shutting-down-shortly",
+      "entities": {
+        "games": [
+          { "id": "champions-tactics", "name": "Champions Tactics", "aliases": [], "genres": ["rpg", "strategy"], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "champions-tactics",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The servers will be shut down in October",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisofts-nft-rpg-champions-tactics-is-shutting-down-shortly-after-it-scrapped-its-blockchain-use/"
+          }
+        }
+      ],
+      "summary": "Ubisoft is shutting down its NFT RPG Champions Tactics, with servers going offline in October, shortly after the game dropped its blockchain features."
+    },
+    {
+      "ref": "business/playstation-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Playstation", "PlayStation"], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": ["Playstation"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 937100000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Sales income: ¥937.1 billion ($5.8 billion), up 0.6% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 5800000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Sales income: ¥937.1 billion ($5.8 billion), up 0.6% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 202000000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥202 billion ($1.2 billion), up 37% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 1200000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "sony-interactive-entertainment",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥202 billion ($1.2 billion), up 37% year-on-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production"
+          }
+        }
+      ],
+      "summary": "PlayStation's Game & Network Services segment reported ¥937.1 billion ($5.8 billion) in sales income, up 0.6% year-on-year, and ¥202 billion ($1.2 billion) in operating income, up 37% year-on-year, for the three months ended 30 June 2026."
+    },
+    {
+      "ref": "business/roblox-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "publisher": null, "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1500000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "roblox-corporation",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-03",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $1.5 billion (up 36% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-q2-revenue-rises-36-to-15bn"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -185000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "roblox-corporation",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-03",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Net losses: $185 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-q2-revenue-rises-36-to-15bn"
+          }
+        }
+      ],
+      "summary": "Roblox reported $1.5 billion in revenue, up 36% year-on-year, alongside $1.6 billion in bookings and net losses of $185 million for the three months ended 30 June 2026."
+    }
+  ]
+}

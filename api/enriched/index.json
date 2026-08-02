@@ -1,6 +1,12 @@
 {
-  "day_count": 562,
+  "day_count": 563,
   "days": [
+    {
+      "date": "2026-08-03",
+      "entities": 9,
+      "facts": 10,
+      "items": 4
+    },
     {
       "date": "2026-07-31",
       "entities": 17,
@@ -3374,8 +3380,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4190,
-  "fact_count": 2684,
+  "entity_count": 4191,
+  "fact_count": 2694,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
@@ -3411,7 +3417,7 @@
     "racing": 165,
     "rhythm": 46,
     "roguelike": 157,
-    "rpg": 216,
+    "rpg": 217,
     "rts": 36,
     "sandbox": 91,
     "shooter": 449,
@@ -3420,7 +3426,7 @@
     "soulslike": 77,
     "sports": 150,
     "stealth": 96,
-    "strategy": 167,
+    "strategy": 168,
     "survival": 183,
     "survival-horror": 254,
     "tactical-shooter": 2,
@@ -3430,7 +3436,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 25
   },
-  "item_count": 3807,
+  "item_count": 3811,
   "metric_totals": {
     "acquisition_price": 33,
     "announce_date": 11,
@@ -3448,18 +3454,18 @@
     "layoffs_count": 114,
     "lifetime_unit_sales": 49,
     "metacritic": 1,
-    "operating_income": 126,
+    "operating_income": 128,
     "peak_concurrent_players": 15,
     "players_total": 73,
     "playtime_hours": 4,
-    "price": 236,
+    "price": 239,
     "price_change_pct": 18,
-    "profit": 131,
+    "profit": 132,
     "release_date": 673,
-    "revenue": 394,
+    "revenue": 397,
     "review_score": 2,
     "severance": 2,
-    "shutdown_date": 75,
+    "shutdown_date": 76,
     "studios_affected": 7,
     "subscriber_count": 2,
     "units_sold": 70,
