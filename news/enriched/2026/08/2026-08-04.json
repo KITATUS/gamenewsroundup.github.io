@@ -1,0 +1,418 @@
+{
+  "date": "2026-08-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/rpg-star-trek-legends-is-being-delisted-this-month-and-shutt",
+      "entities": {
+        "games": [
+          {
+            "id": "star-trek-legends",
+            "name": "Star Trek Legends",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": "star-trek",
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "emerald-city-games",
+            "name": "Emerald City Games",
+            "aliases": [],
+            "publisher": "tilting-point",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "tilting-point",
+            "name": "Tilting Point",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting", "shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "star-trek-legends",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will be unplayable after September 3rd 2026",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/rpg-star-trek-legends-is-being-delisted-this-month-and-shutting-down-in-september/"
+          }
+        }
+      ],
+      "summary": "The RPG Star Trek Legends is being delisted from sale on 20 August 2026 and will shut down, becoming unplayable, after 3 September 2026."
+    },
+    {
+      "ref": "main_news/palworld-online-is-a-new-mmorpg-coming-to-ios-and-android-la",
+      "entities": {
+        "games": [
+          {
+            "id": "palworld-online",
+            "name": "Palworld Online",
+            "aliases": [],
+            "genres": ["mmorpg"],
+            "franchise": "palworld",
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "pocketpair",
+            "name": "Pocketpair",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ios",
+            "name": "iOS",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "android",
+            "name": "Android",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Palworld Online, a new MMORPG in the Palworld series, was announced for iOS and Android later in 2026."
+    },
+    {
+      "ref": "business/atari-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "atari",
+            "name": "Atari",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "thunderful",
+            "name": "Thunderful",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "operating_income",
+          "value": -7700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "atari",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-04",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Current operating income:  Negative $7.7m (€6.7m) including Thunderful",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ataris-core-business-returns-to-profit-but-consolidated-group-posts-55m-net-loss-as-thunderful-drags-on-results"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": -6700000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "atari",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-04",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Current operating income:  Negative $7.7m (€6.7m) including Thunderful",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ataris-core-business-returns-to-profit-but-consolidated-group-posts-55m-net-loss-as-thunderful-drags-on-results"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -5500000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "atari",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-04",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Net income: Negative $5.5m (€4.8m) including Thunderful",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ataris-core-business-returns-to-profit-but-consolidated-group-posts-55m-net-loss-as-thunderful-drags-on-results"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -4800000,
+          "unit": "money",
+          "currency": "EUR",
+          "entity": "atari",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-04",
+          "period": "annual",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Net income: Negative $5.5m (€4.8m) including Thunderful",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/ataris-core-business-returns-to-profit-but-consolidated-group-posts-55m-net-loss-as-thunderful-drags-on-results"
+          }
+        }
+      ],
+      "summary": "Atari reported full-year results to 31 March 2026 with a negative current operating income of $7.7m and a net loss of $5.5m including Thunderful, both of which turn positive when Thunderful is excluded."
+    },
+    {
+      "ref": "business/midboss-developer-of-2064-read-only-memories-and-neurodiver",
+      "entities": {
+        "games": [
+          {
+            "id": "2064-read-only-memories",
+            "name": "2064: Read Only Memories",
+            "aliases": [],
+            "genres": ["adventure", "visual-novel"],
+            "franchise": "read-only-memories",
+            "inferred": true
+          },
+          {
+            "id": "neurodiver",
+            "name": "Neurodiver",
+            "aliases": ["Read Only Memories: Neurodiver"],
+            "genres": ["adventure", "visual-novel"],
+            "franchise": "read-only-memories",
+            "inferred": true
+          },
+          {
+            "id": "all-ai-must-die",
+            "name": "All AI Must Die",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "the-artificial-artist",
+            "name": "The Artificial Artist",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "midboss",
+            "name": "MidBoss",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "matt-conn",
+            "name": "Matt Conn",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-closure", "lawsuit-legal"],
+      "facts": [],
+      "summary": "MidBoss, the developer of 2064: Read Only Memories and Neurodiver, has filed for Chapter 7 bankruptcy, listing $2,560 in assets against $823,272 in debts."
+    },
+    {
+      "ref": "business/razer-acquires-streamelements-assets",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Razer has acquired the assets of streaming tools provider StreamElements, taking on the platform while prior debts remain with Live Momentum."
+    },
+    {
+      "ref": "business/last-sentinel-developer-lightspeed-la-conducts-layoffs-80-ro",
+      "entities": {
+        "games": [
+          {
+            "id": "last-sentinel",
+            "name": "Last Sentinel",
+            "aliases": [],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "lightspeed-la",
+            "name": "Lightspeed LA",
+            "aliases": [],
+            "publisher": "tencent",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "tencent",
+            "name": "Tencent",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 80,
+          "unit": "people",
+          "currency": null,
+          "entity": "lightspeed-la",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-08-04",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "conducts layoffs, 80 roles reportedly cut",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/last-sentinel-developer-lightspeed-la-conducts-layoffs-80-roles-reportedly-cut"
+          }
+        }
+      ],
+      "summary": "Lightspeed LA, the Tencent subsidiary developing Last Sentinel, has conducted layoffs with a reported 80 roles cut, citing changes in the creative and development direction of its debut title."
+    },
+    {
+      "ref": "rumours/fifa-world-cup-developer-refactor-games-reportedly-shuttered",
+      "entities": {
+        "games": [
+          {
+            "id": "fifa-world-cup",
+            "name": "FIFA World Cup",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "fifa",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "refactor-games",
+            "name": "Refactor Games",
+            "aliases": [],
+            "publisher": "delphi-interactive",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "delphi-interactive",
+            "name": "Delphi Interactive",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Refactor Games, the developer of FIFA World Cup, has reportedly been shut down by Delphi Interactive."
+    },
+    {
+      "ref": "rumours/microsoft-is-bringing-xbox-360-games-to-pc-according-to-leak",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox-360",
+            "name": "Xbox 360",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": ["Xbox PCs"],
+            "inferred": false
+          },
+          {
+            "id": "project-helix",
+            "name": "Project Helix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "hardware", "rumour"],
+      "facts": [],
+      "summary": "Leaked documents reportedly indicate Microsoft is bringing Xbox 360 games to PC, with the titles able to run on the next-gen Project Helix console, \"Xbox PCs\" and handheld devices."
+    }
+  ]
+}
