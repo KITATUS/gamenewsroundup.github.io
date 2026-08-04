@@ -1,0 +1,203 @@
+{
+  "date": "2026-08-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/firstlook-launches-content-creator-first-platform-creators-g",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "brain-jar-games", "name": "Brain Jar Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "creators-gg", "name": "Creators.gg", "aliases": [], "inferred": false },
+          { "id": "firstlook", "name": "FirstLook", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "FirstLook has launched Creators.gg, a creator-first platform connecting studios with content creators of any audience size, with IO Interactive and Brain Jar Games as launch partners."
+    },
+    {
+      "ref": "main_news/marvel-rivals-season-9-5-cuts-install-size-on-pc-and-console",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter", "tps", "shooter"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "netease-games", "name": "NetEase Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Marvel Rivals Season 9.5 reduces the game's install size on PC and consoles, cutting roughly 40 GB on PC and 15 GB on PS5 and Xbox Series S/X."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-update",
+      "entities": {
+        "games": [
+          { "id": "gears-of-war-e-day", "name": "Gears of War: E-Day", "aliases": [], "genres": ["tps", "shooter"], "franchise": "gears-of-war", "inferred": true },
+          { "id": "monsters-are-coming", "name": "Monsters are Coming!", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "powerwash-simulator-2", "name": "PowerWash Simulator 2", "aliases": [], "genres": ["simulation"], "franchise": "powerwash-simulator", "inferred": true },
+          { "id": "bounty-star", "name": "Bounty Star", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "date-everything", "name": "Date Everything!", "aliases": [], "genres": ["visual-novel", "life-sim"], "franchise": null, "inferred": true },
+          { "id": "grounded-2", "name": "Grounded 2", "aliases": [], "genres": ["survival", "adventure"], "franchise": "grounded", "inferred": true },
+          { "id": "ball-x-pit", "name": "Ball x Pit", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true },
+          { "id": "cricket-26", "name": "Cricket 26", "aliases": [], "genres": ["sports"], "franchise": null, "inferred": true },
+          { "id": "mio-memories-in-orbit", "name": "Mio: Memories in Orbit", "aliases": [], "genres": ["metroidvania", "platformer"], "franchise": null, "inferred": true },
+          { "id": "sandustry", "name": "Sandustry", "aliases": [], "genres": ["simulation", "sandbox"], "franchise": null, "inferred": true },
+          { "id": "egging-on", "name": "Egging On", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "menace", "name": "Menace", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": null, "inferred": true },
+          { "id": "atlas-fallen", "name": "Atlas Fallen", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true },
+          { "id": "aliens-fireteam-elite", "name": "Aliens: Fireteam Elite", "aliases": ["Aliens: Firesteam Elite"], "genres": ["tps", "shooter"], "franchise": "alien", "inferred": true },
+          { "id": "firewatch", "name": "Firewatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": ["Console"], "inferred": false },
+          { "id": "xbox-cloud-gaming", "name": "Xbox Cloud Gaming", "aliases": ["Cloud"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "beta-demo", "delisting"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-08-06", "unit": "date", "currency": null,
+          "entity": "gears-of-war-e-day", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Gears of War: E-Day Open Beta (August 6-10)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-06", "unit": "date", "currency": null,
+          "entity": "monsters-are-coming", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Monsters are Coming! (August 6)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-06", "unit": "date", "currency": null,
+          "entity": "powerwash-simulator-2", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "PowerWash Simulator 2 (August 6)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-11", "unit": "date", "currency": null,
+          "entity": "bounty-star", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Bounty Star (August 11)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-11", "unit": "date", "currency": null,
+          "entity": "date-everything", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Date Everything! (August 11)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-11", "unit": "date", "currency": null,
+          "entity": "grounded-2", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Grounded 2 (August 11)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-12", "unit": "date", "currency": null,
+          "entity": "ball-x-pit", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Ball x Pit (August 12)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-13", "unit": "date", "currency": null,
+          "entity": "cricket-26", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Cricket 26 (August 13)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-13", "unit": "date", "currency": null,
+          "entity": "mio-memories-in-orbit", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Mio: Memories in Orbit (August 13)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-13", "unit": "date", "currency": null,
+          "entity": "sandustry", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sandustry (August 13)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-18", "unit": "date", "currency": null,
+          "entity": "egging-on", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Egging On (August 18)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } },
+        { "metric": "event_date", "value": "2026-08-15", "unit": "date", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "platform", "scope": "event",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (August 15)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-11-game-pass-titles-including-the-gears-of-war-e-day-beta/" } }
+      ],
+      "summary": "Xbox has listed its next batch of Game Pass titles, with 11 games arriving between 6 and 18 August 2026 including the Gears of War: E-Day open beta, and four titles leaving the service on 15 August."
+    },
+    {
+      "ref": "business/ex-sumo-group-ceo-carl-cavers-joins-co-dev-studio-vertpaint",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "vertpaint", "name": "Vertpaint", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "carl-cavers", "name": "Carl Cavers", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former Sumo Group CEO Carl Cavers has joined co-development studio Vertpaint as a non-executive director and shareholder."
+    },
+    {
+      "ref": "business/update-fifa-world-cup-developer-refactor-games-cuts-85-of-st",
+      "entities": {
+        "games": [
+          { "id": "fifa-world-cup", "name": "FIFA World Cup", "aliases": [], "genres": ["sports"], "franchise": "fifa", "inferred": true }
+        ],
+        "studios": [
+          { "id": "refactor-games", "name": "Refactor Games", "aliases": [], "publisher": "delphi-interactive", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "delphi-interactive", "name": "Delphi Interactive", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "FIFA World Cup developer Refactor Games has cut 85% of its staff, updating earlier rumours that the entire studio had been shut down."
+    },
+    {
+      "ref": "business/ea-s-55-billion-deal-has-closed-and-ea-is-now-a-private-comp",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        { "metric": "acquisition_price", "value": 55000000000, "unit": "money", "currency": "USD",
+          "entity": "electronic-arts", "entity_type": "company", "scope": "company",
+          "as_of": "2026-08-05", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "EA's $55 billion deal has closed",
+          "source": { "name": "The Verge", "domain": "theverge.com", "url": "https://www.theverge.com/games/974736/ea-private-company-deal-closed" } }
+      ],
+      "summary": "Electronic Arts' $55 billion buyout deal has closed, taking the publisher private."
+    }
+  ]
+}
