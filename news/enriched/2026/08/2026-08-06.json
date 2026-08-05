@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/assassin-s-creed-valhalla-s-director-eric-baptizat-has-retur",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-valhalla", "name": "Assassin's Creed Valhalla", "aliases": ["Assassin’s Creed Valhalla"], "genres": ["action-rpg", "open-world", "action-adventure"], "franchise": "assassins-creed", "inferred": true },
+          { "id": "dead-space-remake", "name": "Dead Space remake", "aliases": ["Dead Space"], "genres": ["survival-horror"], "franchise": "dead-space", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "eric-baptizat", "name": "Eric Baptizat", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Eric Baptizat, director of Assassin's Creed Valhalla, has returned to Ubisoft as game director for the Assassin's Creed brand."
+    },
+    {
+      "ref": "business/yu-gi-oh-master-duel-tops-100-million-cumulative-downloads-w",
+      "entities": {
+        "games": [
+          { "id": "yu-gi-oh-master-duel", "name": "Yu-Gi-Oh! Master Duel", "aliases": [], "genres": ["card"], "franchise": "yu-gi-oh", "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "konami", "name": "Konami", "aliases": ["konami.com"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "downloads", "value": 100000000, "unit": "downloads", "currency": null,
+          "entity": "yu-gi-oh-master-duel", "entity_type": "game", "scope": "game",
+          "as_of": "2026-08-06", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Yu-Gi-Oh! Master Duel tops 100 million cumulative downloads worldwide",
+          "source": { "name": "konami.com", "domain": "konami.com", "url": "https://www.konami.com/games/eu/en/topics/19226/" } },
+        { "metric": "release_date", "value": "2022", "unit": "date", "currency": null,
+          "entity": "yu-gi-oh-master-duel", "entity_type": "game", "scope": "game",
+          "as_of": "2026-08-06", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "The free-to-play CCG, released in 2022",
+          "source": { "name": "konami.com", "domain": "konami.com", "url": "https://www.konami.com/games/eu/en/topics/19226/" } }
+      ],
+      "summary": "Yu-Gi-Oh! Master Duel has passed 100 million cumulative downloads worldwide."
+    },
+    {
+      "ref": "business/halo-studios-hit-by-layoffs-after-campaign-evolved-launch-un",
+      "entities": {
+        "games": [
+          { "id": "halo-campaign-evolved", "name": "Halo: Campaign Evolved", "aliases": ["Campaign Evolved"], "genres": ["fps"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "halo-studios", "name": "Halo Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Halo Studios has been hit by layoffs following the launch of Halo: Campaign Evolved, with the number of affected employees unknown."
+    },
+    {
+      "ref": "business/secret-mode-opens-new-sheffield-studio-to-support-internal-t",
+      "entities": {
+        "games": [
+          { "id": "escape-the-backrooms", "name": "Escape the Backrooms", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "chained-together", "name": "Chained Together", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "secret-mode", "name": "Secret Mode", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Indie publisher Secret Mode has opened a new studio in Sheffield to support its internal titles and reduce spend on external development."
+    },
+    {
+      "ref": "business/raptor-pr-launches-early-gaming-growth-platform-to-help-gami",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Raptor PR has launched a platform called Early Gaming Growth to help gaming startups with B2B communications."
+    }
+  ]
+}
