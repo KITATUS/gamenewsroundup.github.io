@@ -1,0 +1,548 @@
+{
+  "date": "2026-08-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/ghost-recon-wildlands-gets-free-update-adding-last-rites-mis",
+      "entities": {
+        "games": [
+          {
+            "id": "ghost-recon-wildlands",
+            "name": "Ghost Recon Wildlands",
+            "aliases": [],
+            "genres": ["tps", "shooter", "open-world"],
+            "franchise": "ghost-recon",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ubisoft-paris",
+            "name": "Ubisoft Paris",
+            "aliases": [],
+            "publisher": "ubisoft",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion"],
+      "facts": [],
+      "summary": "Ghost Recon Wildlands has received a free update that adds the Last Rites mission, 4K60 support, the Predator content removed in 2020, and hundreds of free in-game items."
+    },
+    {
+      "ref": "main_news/an-extended-look-at-gta-6-is-coming-to-netflix-on-august-27t",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-6",
+            "name": "Grand Theft Auto VI",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "youtube",
+            "name": "YouTube",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "trailer"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-08-27",
+          "unit": "date",
+          "currency": null,
+          "entity": "grand-theft-auto-6",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-08-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "is coming to Netflix on August 27th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/an-extended-look-at-gta-6-is-coming-to-netflix-later-this-month/"
+          }
+        }
+      ],
+      "summary": "An extended look at GTA 6 will premiere on Netflix on 27 August 2026, arriving on the Rockstar Games YouTube channel and the GTA 6 website six hours later."
+    },
+    {
+      "ref": "main_news/ps5-beta-firmware-update-replaces-pssr-with-pssr-2-0-by-defa",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "playstation-5-pro",
+            "name": "PlayStation 5 Pro",
+            "aliases": ["PS5 Pro"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "hardware"],
+      "facts": [],
+      "summary": "A PS5 beta firmware update makes PSSR 2.0 the default upscaler on PS5 Pro in place of the original PSSR, including in games that do not support 2.0."
+    },
+    {
+      "ref": "main_news/quake-dawn-of-the-machine-update-released-full-19-map-campai",
+      "entities": {
+        "games": [
+          {
+            "id": "quake",
+            "name": "Quake",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "quake",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "id-software",
+            "name": "id Software",
+            "aliases": [],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "bethesda-softworks",
+            "name": "Bethesda Softworks",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion"],
+      "facts": [],
+      "summary": "Quake's Dawn of the Machine update has been released as a free addition, bringing a full 19-map campaign, a new soundtrack and a new Deathmatch map."
+    },
+    {
+      "ref": "main_news/ball-x-pit-releases-final-free-update-with-new-characters-an",
+      "entities": {
+        "games": [
+          {
+            "id": "ball-x-pit",
+            "name": "BALL x PIT",
+            "aliases": [],
+            "genres": ["roguelike"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "devolver-digital",
+            "name": "Devolver Digital",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "BALL x PIT has released its final free update, adding new characters and balls while teasing further announcements for the game."
+    },
+    {
+      "ref": "business/tomodachi-life-living-the-dream-has-already-outsold-its-3ds",
+      "entities": {
+        "games": [
+          {
+            "id": "tomodachi-life-living-the-dream",
+            "name": "Tomodachi Life: Living the Dream",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": "tomodachi-life",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-3ds",
+            "name": "Nintendo 3DS",
+            "aliases": ["3DS"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 8000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "tomodachi-life-living-the-dream",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-07",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "it has sold over 8 million copies",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/tomodachi-life-living-the-dream-has-already-outsold-its-3ds-predecessor-nintendo-says/"
+          }
+        }
+      ],
+      "summary": "Nintendo says Tomodachi Life: Living the Dream has sold over 8 million copies, already outselling its 3DS predecessor."
+    },
+    {
+      "ref": "business/kudos-games-services-expands-leadership-team-with-testronic",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "kudos-games-services",
+            "name": "Kudos Games Services",
+            "aliases": ["Kudos"],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "testronic",
+            "name": "Testronic",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "silver-lining-interactive",
+            "name": "Silver Lining Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "team17",
+            "name": "Team17",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "bandai-namco",
+            "name": "Bandai Namco",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "warner-bros-games",
+            "name": "Warner Bros. Games",
+            "aliases": ["Warner Bros"],
+            "inferred": true
+          },
+          {
+            "id": "pqube",
+            "name": "PQube",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "curve-games",
+            "name": "Curve Games",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "antstream",
+            "name": "Antstream",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "michael-hanna",
+            "name": "Michael Hanna",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ann-hurley",
+            "name": "Ann Hurley",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "QA provider Kudos Games Services has expanded its leadership team with Testronic and Team17 executives, appointing Michael Hanna as chief operating officer and Ann Hurley as a board advisor."
+    },
+    {
+      "ref": "business/devolver-digital-intends-to-go-private-the-company-says-that",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "devolver-digital",
+            "name": "Devolver Digital",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Devolver Digital intends to go private, saying its share price does not reflect the company's true value, with shareholders due to vote on the move in September."
+    },
+    {
+      "ref": "business/nintendo-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 517800000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nintendo",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-07",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net sales: ¥517.8 billion ($3.2 billion), down 9.5%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 142500000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nintendo",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-07",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit: ¥142.5 billion ($902.7 million), up 150.5%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 147400000000,
+          "unit": "money",
+          "currency": "JPY",
+          "entity": "nintendo",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-07",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net profit: ¥147.4 billion ($925 million), up 53.3%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 156590000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nintendo-switch",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-08-07",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Nintendo Switch has reached 156.59 million units sold",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 23680000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nintendo-switch-2",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-08-07",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Nintendo Switch 2 has reached 23.68 million million units sold",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds"
+          }
+        }
+      ],
+      "summary": "Nintendo has reported results for the three months ending 30 June 2026, with net sales of ¥517.8 billion down 9.5% while operating profit rose 150.5% to ¥142.5 billion, alongside lifetime sales of 156.59 million Nintendo Switch and 23.68 million Nintendo Switch 2 units."
+    },
+    {
+      "ref": "business/unity-sells-supersonic-publishing-business-to-tripledot-for",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "unity",
+            "name": "Unity",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "supersonic",
+            "name": "Supersonic",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "tripledot-studios",
+            "name": "Tripledot Studios",
+            "aliases": ["Tripledot"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 40000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "supersonic",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Unity sells Supersonic publishing business to Tripledot for $40M",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/unity-sells-supersonic-publishing-biz-to-tripledot-for-40m"
+          }
+        }
+      ],
+      "summary": "Unity has sold its Supersonic publishing business to Tripledot for $40 million, with Tripledot citing better positioning for the age of AI in gaming and access to talent in Israel."
+    }
+  ]
+}
