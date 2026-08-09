@@ -1,0 +1,427 @@
+{
+  "date": "2026-08-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/evercade-announces-doom-collection-containing-new-gameplay-m",
+      "entities": {
+        "games": [
+          {
+            "id": "doom-collection",
+            "name": "Doom Collection",
+            "aliases": ["Doom"],
+            "genres": ["fps"],
+            "franchise": "doom",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "blaze-entertainment",
+            "name": "Blaze Entertainment",
+            "aliases": ["Evercade"],
+            "publisher": null,
+            "inferred": true
+          },
+          {
+            "id": "id-software",
+            "name": "id Software",
+            "aliases": [],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "evercade",
+            "name": "Evercade",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Evercade has announced a Doom Collection containing eight campaigns and new Evercade-exclusive gameplay modifiers."
+    },
+    {
+      "ref": "main_news/a-new-look-at-final-fantasy-7-revelation-hosted-by-its-direc",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-7-revelation",
+            "name": "Final Fantasy 7 Revelation",
+            "aliases": [],
+            "genres": ["jrpg", "action-rpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "showcase"],
+      "facts": [],
+      "summary": "A new look at Final Fantasy 7 Revelation, hosted by the game's director, will be shown at Gamescom's Opening Night Live."
+    },
+    {
+      "ref": "main_news/extraction-shooter-br1-infinite-is-paying-players-for-every",
+      "entities": {
+        "games": [
+          {
+            "id": "br1-infinite",
+            "name": "BR1 Infinite",
+            "aliases": [],
+            "genres": ["extraction-shooter"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "wages",
+          "value": 10,
+          "unit": "per hour",
+          "currency": "USD",
+          "entity": "br1-infinite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The game is offering $10 (£7.41) an hour",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/br1-infinite-extraction-pays-for-kills"
+          }
+        },
+        {
+          "metric": "wages",
+          "value": 7.41,
+          "unit": "per hour",
+          "currency": "GBP",
+          "entity": "br1-infinite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$10 (£7.41) an hour",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/br1-infinite-extraction-pays-for-kills"
+          }
+        },
+        {
+          "metric": "wages",
+          "value": 1,
+          "unit": "per kill",
+          "currency": "USD",
+          "entity": "br1-infinite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$1 (75p) for every kill",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/br1-infinite-extraction-pays-for-kills"
+          }
+        },
+        {
+          "metric": "wages",
+          "value": 0.75,
+          "unit": "per kill",
+          "currency": "GBP",
+          "entity": "br1-infinite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "(75p) for every kill",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/br1-infinite-extraction-pays-for-kills"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 1,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "br1-infinite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "it costs $1 to spawn into a match",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/br1-infinite-extraction-pays-for-kills"
+          }
+        }
+      ],
+      "summary": "Extraction shooter BR1 Infinite is paying players $10 an hour and $1 per in-game kill while charging $1 to spawn into a match, drawing concerns about gambling and cheating."
+    },
+    {
+      "ref": "main_news/freddy-fazbear-s-pizza-opening-permanent-location-featuring",
+      "entities": {
+        "games": [
+          {
+            "id": "five-nights-at-freddys",
+            "name": "Five Nights at Freddy's",
+            "aliases": ["Freddy Fazbear"],
+            "genres": ["survival-horror", "horror"],
+            "franchise": "five-nights-at-freddys",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "freddy-fazbears-pizza",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-08-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "at American Dream (New Jersey, US) in 2027",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com",
+            "url": "https://www.ign.com/articles/freddy-fazbears-pizza-opening-permanent-location-featuring-animatronic-stage-shows-in-2027"
+          }
+        }
+      ],
+      "summary": "A permanent Freddy Fazbear's Pizza location with animatronic stage shows will open at American Dream in New Jersey, US, in 2027."
+    },
+    {
+      "ref": "main_news/fortnite-confirms-sprites-will-remain-for-the-next-season-an",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "tps"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Fortnite has confirmed that Sprites will remain in the next season and has announced Sprite Garden, an island getaway where players can play with collected Sprites and visit friends' gardens."
+    },
+    {
+      "ref": "business/thq-nordic-says-it-has-12-unannounced-games-in-development",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "thq-nordic",
+            "name": "THQ Nordic",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "embracer-group",
+            "name": "Embracer Group",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "THQ Nordic has said it has 12 unannounced games in development."
+    },
+    {
+      "ref": "business/take-two-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-v",
+            "name": "Grand Theft Auto V",
+            "aliases": ["Grand Theft Auto V"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "take-two-interactive",
+            "name": "Take-Two Interactive",
+            "aliases": ["Take-Two"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1530000000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-08-10",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net revenue: $1.53 billion (up 2% YoY)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/take-two-q1-results-include-net-bookings-ahead-of-guidance-a-slight-increase-in-revenue-and-cancellation-of-unannounced-game"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -34100000,
+          "unit": "USD",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-08-10",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net loss: $34.1 million (up 186% YoY)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/take-two-q1-results-include-net-bookings-ahead-of-guidance-a-slight-increase-in-revenue-and-cancellation-of-unannounced-game"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 230000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "grand-theft-auto-v",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Grand Theft Auto V has now sold-in over 230 million units to-date",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/take-two-q1-results-include-net-bookings-ahead-of-guidance-a-slight-increase-in-revenue-and-cancellation-of-unannounced-game"
+          }
+        }
+      ],
+      "summary": "Take-Two reported net revenue of $1.53 billion, net bookings of $1.39 billion and a net loss of $34.1 million for the three months ending June 30, 2026."
+    },
+    {
+      "ref": "business/blizzard-is-now-the-top-performing-xbox-studio-says-internal",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "blizzard-entertainment",
+            "name": "Blizzard Entertainment",
+            "aliases": ["Blizzard"],
+            "publisher": "activision-blizzard",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Internal emails reportedly say Blizzard is now the top performing Xbox studio."
+    }
+  ]
+}
