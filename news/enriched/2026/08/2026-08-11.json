@@ -1,0 +1,484 @@
+{
+  "date": "2026-08-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/halloween-the-game-has-been-banned-in-australia-and-new-zeal",
+      "entities": {
+        "games": [
+          {
+            "id": "halloween-the-game",
+            "name": "Halloween The Game",
+            "aliases": [],
+            "genres": ["horror", "survival-horror"],
+            "franchise": "halloween",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "gun-interactive",
+            "name": "Gun Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Halloween The Game has been refused classification in Australia and New Zealand because players can smoke marijuana in it."
+    },
+    {
+      "ref": "main_news/valve-tells-steam-hardware-customers-in-europe-their-persona",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Valve has told Steam hardware customers in Europe that their personal data was likely compromised in a cyber attack on shipping partner CEVA Logistics."
+    },
+    {
+      "ref": "main_news/xbox-now-requires-australians-to-prove-their-age-to-access-g",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "Xbox now requires Australian users to verify their age before accessing games rated 18+, though games they already own are unaffected."
+    },
+    {
+      "ref": "main_news/cancelled-quake-4-expansion-gets-surprise-github-release-aft",
+      "entities": {
+        "games": [
+          {
+            "id": "quake-4",
+            "name": "Quake 4",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "quake",
+            "inferred": true
+          },
+          {
+            "id": "quake-4-awakening",
+            "name": "Quake 4: Awakening",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "quake",
+            "inferred": true
+          },
+          {
+            "id": "xcom-2",
+            "name": "XCOM 2",
+            "aliases": [],
+            "genres": ["turn-based-strategy", "strategy"],
+            "franchise": "xcom",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ritual-entertainment",
+            "name": "Ritual Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "raven-software",
+            "name": "Raven Software",
+            "aliases": [],
+            "publisher": "activision",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "dlc-expansion"],
+      "facts": [],
+      "summary": "A cancelled Quake 4 expansion, Quake 4: Awakening, has been released on GitHub after a former XCOM 2 developer found it on an old hard drive."
+    },
+    {
+      "ref": "main_news/the-game-awards-date-revealed-december-10th",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-12-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-game-awards",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-08-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "December 10th",
+          "source": {
+            "name": "Insider Gaming",
+            "domain": "insider-gaming.com",
+            "url": "https://insider-gaming.com/geoff-keighley-game-awards-2026-date/"
+          }
+        }
+      ],
+      "summary": "The Game Awards has been confirmed for December 10th."
+    },
+    {
+      "ref": "main_news/sonic-the-hedgehog-teased-for-upcoming-fortnite-season",
+      "entities": {
+        "games": [
+          {
+            "id": "sonic-the-hedgehog",
+            "name": "Sonic the Hedgehog",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "sonic-the-hedgehog",
+            "inferred": true
+          },
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": true
+          },
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser", "partnership"],
+      "facts": [],
+      "summary": "Sonic the Hedgehog has been teased for an upcoming Fortnite season."
+    },
+    {
+      "ref": "business/codedev-group-announces-launch-of-new-full-dev-studio-full-s",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "full-spectrum-interactive",
+            "name": "Full Spectrum Interactive",
+            "aliases": [],
+            "publisher": "codedev-group",
+            "inferred": false
+          },
+          {
+            "id": "codedev-group",
+            "name": "CodeDev Group",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "CodeDev Group has announced the launch of Full Spectrum Interactive, a new full-development studio led by UK industry veterans and focused on small-to-AA titles."
+    },
+    {
+      "ref": "business/handygames-rebrands-as-thq-nordic-mobile",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "handygames",
+            "name": "HandyGames",
+            "aliases": [],
+            "publisher": "thq-nordic",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "thq-nordic",
+            "name": "THQ Nordic",
+            "aliases": ["THQ Nordic Mobile"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "HandyGames has rebranded its publishing arm as THQ Nordic Mobile, leaning into console and PC adaptations while its development arm continues as HandyGames."
+    },
+    {
+      "ref": "business/sega-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": ["SEGA"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 95000000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "sega",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-11",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥95 billion ($600 million), up 17.3%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/sega-reports-173-rise-in-q3-net-sales-games-segment-exceeds-expectations"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 68400000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "sega",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-11",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Entertainment Contents net sales (including games): ¥68.4 billion ($432 million), up 1.1%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/sega-reports-173-rise-in-q3-net-sales-games-segment-exceeds-expectations"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 2300000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "sega",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-11",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥2.3 billion ($14.5 million, compared to operating loss of $3.5 million during the same period last year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/sega-reports-173-rise-in-q3-net-sales-games-segment-exceeds-expectations"
+          }
+        }
+      ],
+      "summary": "Sega reported net sales of ¥95 billion for the three months ended June 30, 2026, up 17.3%, with operating income of ¥2.3 billion after an operating loss in the same period last year."
+    },
+    {
+      "ref": "business/bandai-namco-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "bandai-namco",
+            "name": "Bandai Namco",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 328400000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "bandai-namco",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-11",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥328.4 billion ($2 billion), up 9.3%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 69200000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "bandai-namco",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-11",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit: ¥69.2 billion ($436.7 million), up 33.3%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 74400000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "bandai-namco",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-11",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Ordinary profit: ¥74.4 billion ($469.5 million), up 36.3%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309"
+          }
+        }
+      ],
+      "summary": "Bandai Namco reported net sales of ¥328.4 billion, up 9.3%, for the first three months of the fiscal year ending March 31, 2026, with operating profit up 33.3% to ¥69.2 billion."
+    },
+    {
+      "ref": "business/big-walk-sells-one-million-copies-in-less-than-a-week",
+      "entities": {
+        "games": [
+          {
+            "id": "big-walk",
+            "name": "Big Walk",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "house-house",
+            "name": "House House",
+            "aliases": [],
+            "publisher": "panic",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "big-walk",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Big Walk Sells One Million Copies In Less Than A Week",
+          "source": {
+            "name": "Game Informer",
+            "domain": "gameinformer.com",
+            "url": "https://gameinformer.com/2026/08/10/big-walk-sells-one-million-copies-in-less-than-a-week"
+          }
+        }
+      ],
+      "summary": "Big Walk has sold one million copies in less than a week."
+    }
+  ]
+}
