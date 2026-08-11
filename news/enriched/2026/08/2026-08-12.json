@@ -1,0 +1,374 @@
+{
+  "date": "2026-08-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/as-xbox-head-asha-sharma-apparently-visited-bethesda-hq-work",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "bethesda-softworks",
+            "name": "Bethesda Softworks",
+            "aliases": ["Bethesda"],
+            "inferred": true
+          },
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": [
+          {
+            "id": "asha-sharma",
+            "name": "Asha Sharma",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Workers reportedly marked an apparent visit by Xbox head Asha Sharma to Bethesda's HQ by putting up red flags representing laid off staff and a giant inflatable rat outside."
+    },
+    {
+      "ref": "business/alan-wake-2-has-reached-3-million-copies-sold",
+      "entities": {
+        "games": [
+          {
+            "id": "alan-wake-2",
+            "name": "Alan Wake 2",
+            "aliases": [],
+            "genres": ["survival-horror", "action-adventure"],
+            "franchise": "alan-wake",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": ["Remedy"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 3000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "alan-wake-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-12",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Alan Wake 2 has reached 3 million copies sold",
+          "source": {
+            "name": "storage.googleapis.com",
+            "domain": "storage.googleapis.com",
+            "url": "https://storage.googleapis.com/inderes-widgets-prod-assets/remedy/attachments/d9d408ef-5549-44b3-b384-7ac084760344/remedy-h1-2026-half-year-financial-report.pdf"
+          }
+        }
+      ],
+      "summary": "Alan Wake 2 has reached 3 million copies sold."
+    },
+    {
+      "ref": "business/dark-pictures-anthology-studio-supermassive-games-is-laying",
+      "entities": {
+        "games": [
+          {
+            "id": "the-dark-pictures-anthology",
+            "name": "The Dark Pictures Anthology",
+            "aliases": ["Dark Pictures Anthology"],
+            "genres": ["horror", "adventure"],
+            "franchise": "the-dark-pictures-anthology",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "supermassive-games",
+            "name": "Supermassive Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 75,
+          "unit": "people",
+          "currency": null,
+          "entity": "supermassive-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-08-12",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Supermassive Games is laying off up to 75 staff",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/dark-pictures-anthology-studio-supermassive-games-is-laying-off-up-to-75-staff-to-ensure-sustainability/"
+          }
+        }
+      ],
+      "summary": "The Dark Pictures Anthology studio Supermassive Games is laying off up to 75 staff in its third round of layoffs in three years, saying the cuts are to ensure sustainability."
+    },
+    {
+      "ref": "business/remedy-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "control-resonant",
+            "name": "Control Resonant",
+            "aliases": [],
+            "genres": ["action-adventure", "tps"],
+            "franchise": "control",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": ["Remedy"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 10200000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-08-12",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: €10.2 million (down 40%)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": -3900000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-08-12",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating loss: €3.9 million (compared to €0.5 million loss in the same quarter last year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 23300000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-08-12",
+          "period": null,
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Revenue: €23.3 million (down 23.1%)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": -2900000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-08-12",
+          "period": null,
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Operating loss: €2.9 million (compared to €0.8 million profit in 2023)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch"
+          }
+        }
+      ],
+      "summary": "Remedy reported Q2 2026 revenue of €10.2 million, down 40%, with an operating loss of €3.9 million, and H1 2026 revenue of €23.3 million, down 23.1%, with an operating loss of €2.9 million."
+    },
+    {
+      "ref": "business/square-enix-q1-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-7-rebirth",
+            "name": "Final Fantasy 7 Rebirth",
+            "aliases": ["Final Fantasy VII Rebirth"],
+            "genres": ["action-rpg", "jrpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": ["Switch 2"],
+            "inferred": true
+          },
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 78400000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-12",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net sales: ¥78.4 billion ($492.3 million), up 32.3%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 17000000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-12",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating income: ¥17 billion ($106.7 million), up 88.6%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 13200000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-12",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Profit: ¥13.2 billion ($82.9 million), up 175.7%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 49900000000,
+          "unit": "currency",
+          "currency": "JPY",
+          "entity": "square-enix",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-12",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Digital Entertainment net sales: ¥49.9 billion ($313.3 million), up 51.8%",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox"
+          }
+        }
+      ],
+      "summary": "Square Enix reported Q1 net sales of ¥78.4 billion, up 32.3%, with operating income of ¥17 billion, up 88.6%, and profit of ¥13.2 billion, up 175.7%."
+    }
+  ]
+}
