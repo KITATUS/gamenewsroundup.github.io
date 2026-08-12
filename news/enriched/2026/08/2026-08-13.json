@@ -1,0 +1,662 @@
+{
+  "date": "2026-08-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/ghost-of-yotei-is-getting-a-new-story-expansion-and-roguelik",
+      "entities": {
+        "games": [
+          {
+            "id": "ghost-of-yotei",
+            "name": "Ghost of Yotei",
+            "aliases": ["Ghosts of Yotei"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "ghost-of-tsushima",
+            "inferred": true
+          },
+          {
+            "id": "echoes-of-sekigahara",
+            "name": "Echoes of Sekigahara",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "ghost-of-tsushima",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "sucker-punch-productions",
+            "name": "Sucker Punch Productions",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-10-01",
+          "unit": "date",
+          "currency": null,
+          "entity": "echoes-of-sekigahara",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-08-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Both modes will be released on October 1",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ghost-of-yotei-is-getting-a-new-story-expansion-and-roguelike-mode-in-october-plus-a-complete-edition/"
+          }
+        },
+        {
+          "metric": "price",
+          "value": 14.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "echoes-of-sekigahara",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-08-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will be included together for $14.99 as DLC for players who already own Ghost of Yotei",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ghost-of-yotei-is-getting-a-new-story-expansion-and-roguelike-mode-in-october-plus-a-complete-edition/"
+          }
+        }
+      ],
+      "summary": "Ghost of Yotei is getting a story expansion called Echoes of Sekigahara and a combat survival mode called Most Wanted on 1 October 2026, sold together as $14.99 DLC for existing owners, alongside a Complete Edition available now."
+    },
+    {
+      "ref": "main_news/2011-action-rpg-the-lord-of-the-rings-war-in-the-north-gets",
+      "entities": {
+        "games": [
+          {
+            "id": "the-lord-of-the-rings-war-in-the-north",
+            "name": "The Lord of the Rings: War in the North",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "the-lord-of-the-rings",
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "snowblind-studios",
+            "name": "Snowblind Studios",
+            "aliases": [],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "warner-bros-games",
+            "name": "Warner Bros. Games",
+            "aliases": ["Warner Bros. Interactive Entertainment"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "announcement"],
+      "facts": [],
+      "summary": "The 2011 action RPG The Lord of the Rings: War in the North is getting a new Legacy Edition, with more classic releases said to be coming."
+    },
+    {
+      "ref": "free_games_subscription/august-s-ps-plus-game-catalog-titles",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          },
+          {
+            "id": "kingdom-come-deliverance-ii",
+            "name": "Kingdom Come: Deliverance II",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "kingdom-come-deliverance",
+            "inferred": true
+          },
+          {
+            "id": "vampire-survivors",
+            "name": "Vampire Survivors",
+            "aliases": [],
+            "genres": ["roguelike", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "hell-is-us",
+            "name": "Hell is Us",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "umamusume-pretty-derby",
+            "name": "Umamusume Pretty Derby",
+            "aliases": [],
+            "genres": ["simulation", "life-sim"],
+            "franchise": "umamusume",
+            "inferred": true
+          },
+          {
+            "id": "two-point-museum",
+            "name": "Two Point Museum",
+            "aliases": [],
+            "genres": ["simulation", "strategy"],
+            "franchise": "two-point",
+            "inferred": true
+          },
+          {
+            "id": "metro-exodus",
+            "name": "Metro Exodus",
+            "aliases": [],
+            "genres": ["fps", "survival"],
+            "franchise": "metro",
+            "inferred": true
+          },
+          {
+            "id": "dying-light-2",
+            "name": "Dying Light 2",
+            "aliases": [],
+            "genres": ["action-rpg", "survival-horror", "open-world"],
+            "franchise": "dying-light",
+            "inferred": true
+          },
+          {
+            "id": "onimusha-dawn-of-dreams",
+            "name": "Onimusha: Dawn of Dreams",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "onimusha",
+            "inferred": true
+          },
+          {
+            "id": "disneys-atlantis-the-lost-empire",
+            "name": "Disney's Atlantis: The Lost Empire",
+            "aliases": [],
+            "genres": ["action-adventure", "platformer"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-plus",
+            "name": "PlayStation Plus",
+            "aliases": ["PS Plus"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "August's PS Plus Game Catalog line-up includes Helldivers 2, Kingdom Come: Deliverance II, Vampire Survivors, Hell is Us, Umamusume Pretty Derby, Two Point Museum, Metro Exodus, Dying Light 2, Onimusha: Dawn of Dreams and Disney's Atlantis: The Lost Empire."
+    },
+    {
+      "ref": "business/city-builder-against-the-storm-hits-2-million-copies-sold-in",
+      "entities": {
+        "games": [
+          {
+            "id": "against-the-storm",
+            "name": "Against the Storm",
+            "aliases": [],
+            "genres": ["strategy", "simulation"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "eremite-games",
+            "name": "Eremite Games",
+            "aliases": [],
+            "publisher": "hooded-horse",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "hooded-horse",
+            "name": "Hooded Horse",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 2000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "against-the-storm",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-13",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "hits 2 million copies sold in less than three years",
+          "source": {
+            "name": "GamesPress",
+            "domain": "gamespress.com",
+            "url": "https://www.gamespress.com/against-the-storm-2-million-copies-sold-milestone"
+          }
+        }
+      ],
+      "summary": "City builder Against the Storm has sold 2 million copies in less than three years."
+    },
+    {
+      "ref": "business/meccha-chameleon-surpasses-20-million-units-sold-in-two-mont",
+      "entities": {
+        "games": [
+          {
+            "id": "meccha-chameleon",
+            "name": "Meccha Chameleon",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 20000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "meccha-chameleon",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-13",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "surpasses 20 million units sold in two months",
+          "source": {
+            "name": "Steam",
+            "domain": "store.steampowered.com",
+            "url": "https://store.steampowered.com/news/app/4704690/view/708906085669404690?l=english"
+          }
+        }
+      ],
+      "summary": "Meccha Chameleon has surpassed 20 million units sold two months after launch."
+    },
+    {
+      "ref": "business/epic-games-sells-artstation-and-sketchfab-to-kitbash",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "artstation",
+            "name": "ArtStation",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "sketchfab",
+            "name": "Sketchfab",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Epic Games has sold the ArtStation and Sketchfab platforms, which it purchased in 2021, to KitBash."
+    },
+    {
+      "ref": "business/amazon-game-studios-gives-lost-ark-and-throne-liberty-back-t",
+      "entities": {
+        "games": [
+          {
+            "id": "lost-ark",
+            "name": "Lost Ark",
+            "aliases": [],
+            "genres": ["mmorpg", "action-rpg"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "throne-and-liberty",
+            "name": "Throne & Liberty",
+            "aliases": ["Throne and Liberty"],
+            "genres": ["mmorpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "amazon-game-studios",
+            "name": "Amazon Game Studios",
+            "aliases": ["Amazon"],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "firstspark-games",
+            "name": "FirstSpark Games",
+            "aliases": [],
+            "publisher": "ncsoft",
+            "inferred": true
+          },
+          {
+            "id": "smilegate",
+            "name": "Smilegate",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "ncsoft",
+            "name": "NCSOFT",
+            "aliases": ["NC"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Amazon Game Studios is handing live operations of Throne & Liberty in the West to developer FirstSpark Games and Korean publisher NCSOFT in Q4, and of Lost Ark to Smilegate in early 2027, ending its MMO presence."
+    },
+    {
+      "ref": "business/multiplayer-witcher-spin-off-project-sirius-hit-by-layoffs-a",
+      "entities": {
+        "games": [
+          {
+            "id": "project-sirius",
+            "name": "Project Sirius",
+            "aliases": [],
+            "genres": [],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": false
+          },
+          {
+            "id": "the-molasses-flood",
+            "name": "The Molasses Flood",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "cd-projekt",
+            "name": "CD Projekt",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 9,
+          "unit": "people",
+          "currency": null,
+          "entity": "cd-projekt-red",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-08-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "18 developers have been affected. 9 have been laid off.",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/witcher-multiplayer-spin-off-project-sirius-hit-by-fresh-layoffs"
+          }
+        }
+      ],
+      "summary": "Multiplayer Witcher spin-off Project Sirius has been hit by fresh layoffs, with 18 developers affected, 9 of them laid off and 9 invited for redeployment, as part of a broader shift in development strategy at CD Projekt Red."
+    },
+    {
+      "ref": "business/pearl-abyss-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "crimson-desert",
+            "name": "Crimson Desert",
+            "aliases": [],
+            "genres": ["action-adventure", "action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "pearl-abyss",
+            "name": "Pearl Abyss",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 192600000000,
+          "unit": "money",
+          "currency": "KRW",
+          "entity": "pearl-abyss",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-13",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating revenue: ₩192.6 billion ($135.9 million), up 247.7% year-on-year but down 41.4% quarter-on-quarter",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 135900000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "pearl-abyss",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-13",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating revenue: ₩192.6 billion ($135.9 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 67600000000,
+          "unit": "money",
+          "currency": "KRW",
+          "entity": "pearl-abyss",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-13",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit: ₩67.6 billion ($47.7 million), up 7,411.1% year-on-year but down 68.1% quarter-on-quarter",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 47700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "pearl-abyss",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-13",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit: ₩67.6 billion ($47.7 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 70900000000,
+          "unit": "money",
+          "currency": "KRW",
+          "entity": "pearl-abyss",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-13",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net profit: ₩70.9 billion ($50 million), down 58.3% quarter-on-quarter",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 50000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "pearl-abyss",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-08-13",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net profit: ₩70.9 billion ($50 million)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 2110000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "crimson-desert",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-13",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Crimson Desert sold 2.11 million copies during the quarter",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides"
+          }
+        }
+      ],
+      "summary": "Pearl Abyss reported operating revenue of ₩192.6 billion, operating profit of ₩67.6 billion and net profit of ₩70.9 billion for the three months ended 30 June 2026, with Crimson Desert selling 2.11 million copies during the quarter."
+    }
+  ]
+}

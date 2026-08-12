@@ -887,7 +887,7 @@
   },
   "against-the-storm": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2024-10-16",
     "franchise": null,
     "genres": [
@@ -895,8 +895,8 @@
       "simulation",
       "strategy"
     ],
-    "last_seen": "2025-06-18",
-    "mentions": 2,
+    "last_seen": "2026-08-13",
+    "mentions": 3,
     "name": "Against the Storm",
     "type": "game"
   },
@@ -1483,12 +1483,13 @@
   },
   "amazon-game-studios": {
     "aliases": [
+      "Amazon",
       "Amazon Games"
     ],
     "fact_count": 0,
     "first_seen": "2025-12-16",
-    "last_seen": "2026-02-26",
-    "mentions": 3,
+    "last_seen": "2026-08-13",
+    "mentions": 4,
     "name": "Amazon Game Studios",
     "type": "studio"
   },
@@ -2516,6 +2517,15 @@
     "mentions": 2,
     "name": "Artex",
     "type": "studio"
+  },
+  "artstation": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "ArtStation",
+    "type": "platform"
   },
   "as-dusk-falls": {
     "aliases": [],
@@ -6260,8 +6270,8 @@
     ],
     "fact_count": 19,
     "first_seen": "2024-05-29",
-    "last_seen": "2026-06-29",
-    "mentions": 12,
+    "last_seen": "2026-08-13",
+    "mentions": 13,
     "name": "CD Projekt",
     "type": "publisher"
   },
@@ -6272,10 +6282,10 @@
       "CDPR",
       "the developer"
     ],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2024-05-08",
-    "last_seen": "2026-07-06",
-    "mentions": 27,
+    "last_seen": "2026-08-13",
+    "mentions": 28,
     "name": "CD Projekt Red",
     "type": "studio"
   },
@@ -8012,15 +8022,16 @@
   },
   "crimson-desert": {
     "aliases": [],
-    "fact_count": 6,
+    "fact_count": 7,
     "first_seen": "2025-09-25",
     "franchise": null,
     "genres": [
+      "action-adventure",
       "action-rpg",
       "open-world"
     ],
-    "last_seen": "2026-06-12",
-    "mentions": 7,
+    "last_seen": "2026-08-13",
+    "mentions": 8,
     "name": "Crimson Desert",
     "type": "game"
   },
@@ -10291,6 +10302,20 @@
     "name": "Disney+",
     "type": "platform"
   },
+  "disneys-atlantis-the-lost-empire": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "franchise": null,
+    "genres": [
+      "action-adventure",
+      "platformer"
+    ],
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "Disney's Atlantis: The Lost Empire",
+    "type": "game"
+  },
   "dispatch": {
     "aliases": [],
     "fact_count": 3,
@@ -11627,8 +11652,8 @@
       "open-world",
       "survival-horror"
     ],
-    "last_seen": "2024-07-15",
-    "mentions": 1,
+    "last_seen": "2026-08-13",
+    "mentions": 2,
     "name": "Dying Light 2",
     "type": "game"
   },
@@ -12025,6 +12050,19 @@
     "last_seen": "2026-04-23",
     "mentions": 1,
     "name": "Ecco the Dolphin Complete",
+    "type": "game"
+  },
+  "echoes-of-sekigahara": {
+    "aliases": [],
+    "fact_count": 2,
+    "first_seen": "2026-08-13",
+    "franchise": "ghost-of-tsushima",
+    "genres": [
+      "action-adventure"
+    ],
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "Echoes of Sekigahara",
     "type": "game"
   },
   "echoes-of-the-end": {
@@ -12636,8 +12674,8 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-05-15",
-    "last_seen": "2026-08-11",
-    "mentions": 106,
+    "last_seen": "2026-08-13",
+    "mentions": 107,
     "name": "Epic Games",
     "type": "studio"
   },
@@ -12676,6 +12714,15 @@
     "mentions": 1,
     "name": "Epic mobile store",
     "type": "platform"
+  },
+  "eremite-games": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "Eremite Games",
+    "type": "studio"
   },
   "eric-baptizat": {
     "aliases": [],
@@ -14731,6 +14778,15 @@
     "name": "FirstLook",
     "type": "platform"
   },
+  "firstspark-games": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "FirstSpark Games",
+    "type": "studio"
+  },
   "fist-forged-in-shadow-torch": {
     "aliases": [],
     "fact_count": 0,
@@ -16313,7 +16369,8 @@
   },
   "ghost-of-yotei": {
     "aliases": [
-      "A Ghost of Yotei"
+      "A Ghost of Yotei",
+      "Ghosts of Yotei"
     ],
     "fact_count": 3,
     "first_seen": "2024-09-25",
@@ -16322,8 +16379,8 @@
       "action-adventure",
       "open-world"
     ],
-    "last_seen": "2026-02-13",
-    "mentions": 9,
+    "last_seen": "2026-08-13",
+    "mentions": 10,
     "name": "Ghost of Yotei",
     "type": "game"
   },
@@ -18514,6 +18571,19 @@
     "name": "Heihachi Mishima",
     "type": "person"
   },
+  "hell-is-us": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "franchise": null,
+    "genres": [
+      "action-adventure"
+    ],
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "Hell is Us",
+    "type": "game"
+  },
   "hellblade-2-enhanced": {
     "aliases": [],
     "fact_count": 0,
@@ -18550,8 +18620,8 @@
       "shooter",
       "tps"
     ],
-    "last_seen": "2025-11-10",
-    "mentions": 25,
+    "last_seen": "2026-08-13",
+    "mentions": 26,
     "name": "Helldivers 2",
     "type": "game"
   },
@@ -19207,8 +19277,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-10-16",
-    "last_seen": "2024-10-16",
-    "mentions": 1,
+    "last_seen": "2026-08-13",
+    "mentions": 2,
     "name": "Hooded Horse",
     "type": "publisher"
   },
@@ -22396,8 +22466,8 @@
       "open-world",
       "rpg"
     ],
-    "last_seen": "2026-06-30",
-    "mentions": 6,
+    "last_seen": "2026-08-13",
+    "mentions": 7,
     "name": "Kingdom Come: Deliverance II",
     "type": "game"
   },
@@ -24419,8 +24489,8 @@
       "action-rpg",
       "mmorpg"
     ],
-    "last_seen": "2024-12-05",
-    "mentions": 1,
+    "last_seen": "2026-08-13",
+    "mentions": 2,
     "name": "Lost Ark",
     "type": "game"
   },
@@ -26028,14 +26098,14 @@
   },
   "meccha-chameleon": {
     "aliases": [],
-    "fact_count": 3,
+    "fact_count": 4,
     "first_seen": "2026-06-22",
     "franchise": null,
     "genres": [
       "party"
     ],
-    "last_seen": "2026-07-28",
-    "mentions": 4,
+    "last_seen": "2026-08-13",
+    "mentions": 5,
     "name": "Meccha Chameleon",
     "type": "game"
   },
@@ -26732,6 +26802,20 @@
     "last_seen": "2026-04-17",
     "mentions": 1,
     "name": "Metro 2039",
+    "type": "game"
+  },
+  "metro-exodus": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "franchise": "metro",
+    "genres": [
+      "fps",
+      "survival"
+    ],
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "Metro Exodus",
     "type": "game"
   },
   "metroid": {
@@ -28796,12 +28880,14 @@
     "type": "publisher"
   },
   "ncsoft": {
-    "aliases": [],
+    "aliases": [
+      "NC"
+    ],
     "fact_count": 0,
     "first_seen": "2024-10-09",
-    "last_seen": "2025-11-13",
-    "mentions": 3,
-    "name": "NCSoft",
+    "last_seen": "2026-08-13",
+    "mentions": 4,
+    "name": "NCSOFT",
     "type": "studio"
   },
   "ndreams": {
@@ -30447,8 +30533,8 @@
     "genres": [
       "action-adventure"
     ],
-    "last_seen": "2026-06-03",
-    "mentions": 1,
+    "last_seen": "2026-08-13",
+    "mentions": 2,
     "name": "Onimusha: Dawn of Dreams",
     "type": "game"
   },
@@ -31533,10 +31619,10 @@
   },
   "pearl-abyss": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 6,
     "first_seen": "2026-03-23",
-    "last_seen": "2026-06-12",
-    "mentions": 6,
+    "last_seen": "2026-08-13",
+    "mentions": 7,
     "name": "Pearl Abyss",
     "type": "studio"
   },
@@ -32546,8 +32632,8 @@
     ],
     "fact_count": 2,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-08-07",
-    "mentions": 103,
+    "last_seen": "2026-08-13",
+    "mentions": 104,
     "name": "PlayStation 5",
     "type": "platform"
   },
@@ -32614,8 +32700,8 @@
     ],
     "fact_count": 21,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-07-29",
-    "mentions": 76,
+    "last_seen": "2026-08-13",
+    "mentions": 77,
     "name": "PlayStation Plus",
     "type": "platform"
   },
@@ -33709,8 +33795,8 @@
     "genres": [
       "action-rpg"
     ],
-    "last_seen": "2025-04-10",
-    "mentions": 1,
+    "last_seen": "2026-08-13",
+    "mentions": 2,
     "name": "Project Sirius",
     "type": "game"
   },
@@ -38588,6 +38674,15 @@
     "name": "Skeleton Key",
     "type": "studio"
   },
+  "sketchfab": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "Sketchfab",
+    "type": "platform"
+  },
   "skull-and-bones": {
     "aliases": [],
     "fact_count": 0,
@@ -38881,8 +38976,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-12-05",
-    "last_seen": "2024-12-05",
-    "mentions": 1,
+    "last_seen": "2026-08-13",
+    "mentions": 2,
     "name": "Smilegate",
     "type": "publisher"
   },
@@ -39038,6 +39133,15 @@
     "mentions": 1,
     "name": "Snow Bros. Wonderland",
     "type": "game"
+  },
+  "snowblind-studios": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "Snowblind Studios",
+    "type": "studio"
   },
   "soccer-story": {
     "aliases": [],
@@ -39409,8 +39513,8 @@
     ],
     "fact_count": 27,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-08-07",
-    "mentions": 179,
+    "last_seen": "2026-08-13",
+    "mentions": 181,
     "name": "Sony Interactive Entertainment",
     "type": "publisher"
   },
@@ -41682,8 +41786,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-05-20",
-    "last_seen": "2026-02-13",
-    "mentions": 10,
+    "last_seen": "2026-08-13",
+    "mentions": 11,
     "name": "Sucker Punch Productions",
     "type": "studio"
   },
@@ -44848,6 +44952,19 @@
     "name": "The Lego Ninjago Video Game",
     "type": "game"
   },
+  "the-lord-of-the-rings-war-in-the-north": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-13",
+    "franchise": "the-lord-of-the-rings",
+    "genres": [
+      "action-rpg"
+    ],
+    "last_seen": "2026-08-13",
+    "mentions": 1,
+    "name": "The Lord of the Rings: War in the North",
+    "type": "game"
+  },
   "the-lost-vikings": {
     "aliases": [],
     "fact_count": 0,
@@ -44918,8 +45035,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2025-04-10",
-    "last_seen": "2025-04-10",
-    "mentions": 1,
+    "last_seen": "2026-08-13",
+    "mentions": 2,
     "name": "The Molasses Flood",
     "type": "studio"
   },
@@ -45835,16 +45952,18 @@
     "type": "studio"
   },
   "throne-and-liberty": {
-    "aliases": [],
+    "aliases": [
+      "Throne and Liberty"
+    ],
     "fact_count": 1,
     "first_seen": "2024-06-19",
     "franchise": null,
     "genres": [
       "mmorpg"
     ],
-    "last_seen": "2024-10-09",
-    "mentions": 2,
-    "name": "Throne and Liberty",
+    "last_seen": "2026-08-13",
+    "mentions": 3,
+    "name": "Throne & Liberty",
     "type": "game"
   },
   "through-the-darkest-of-times": {
@@ -47323,10 +47442,11 @@
     "first_seen": "2024-09-20",
     "franchise": "two-point",
     "genres": [
-      "simulation"
+      "simulation",
+      "strategy"
     ],
-    "last_seen": "2025-04-03",
-    "mentions": 2,
+    "last_seen": "2026-08-13",
+    "mentions": 3,
     "name": "Two Point Museum",
     "type": "game"
   },
@@ -47655,9 +47775,9 @@
       "life-sim",
       "simulation"
     ],
-    "last_seen": "2025-12-12",
-    "mentions": 2,
-    "name": "Umamusume: Pretty Derby",
+    "last_seen": "2026-08-13",
+    "mentions": 3,
+    "name": "Umamusume Pretty Derby",
     "type": "game"
   },
   "unbound": {
@@ -48194,8 +48314,8 @@
       "roguelike",
       "survival"
     ],
-    "last_seen": "2026-06-18",
-    "mentions": 18,
+    "last_seen": "2026-08-13",
+    "mentions": 19,
     "name": "Vampire Survivors",
     "type": "game"
   },
@@ -49223,12 +49343,13 @@
       "WB Games",
       "Warner Bros",
       "Warner Bros Games Division",
-      "Warner Bros."
+      "Warner Bros.",
+      "Warner Bros. Interactive Entertainment"
     ],
     "fact_count": 1,
     "first_seen": "2024-08-30",
-    "last_seen": "2026-08-07",
-    "mentions": 11,
+    "last_seen": "2026-08-13",
+    "mentions": 12,
     "name": "Warner Bros. Games",
     "type": "publisher"
   },
