@@ -1,0 +1,279 @@
+{
+  "date": "2026-08-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/pok-mon-bank-will-shut-down-in-february-2027-with-players-ad",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-bank",
+            "name": "Pokémon Bank",
+            "aliases": [],
+            "genres": [],
+            "franchise": "pokemon",
+            "inferred": true
+          },
+          {
+            "id": "pokemon-home",
+            "name": "Pokémon Home",
+            "aliases": [],
+            "genres": [],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "the-pokemon-company",
+            "name": "The Pokémon Company",
+            "aliases": ["Pokémon"],
+            "inferred": true
+          },
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-3ds",
+            "name": "Nintendo 3DS",
+            "aliases": ["3DS"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2027-02",
+          "unit": "date",
+          "currency": null,
+          "entity": "pokemon-bank",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-08-14",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Pokémon Bank will shut down in February 2027",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/pokemon-bank-will-shut-down-in-february-2027-with-players-advised-to-transfer-data-to-pokemon-home/"
+          }
+        }
+      ],
+      "summary": "Pokémon Bank will shut down in February 2027, and players are advised to transfer their data to Pokémon Home; the 3DS app was delisted in 2023 but has continued to run as a free service."
+    },
+    {
+      "ref": "main_news/hogwarts-legacy-2-is-officially-in-the-works-confirms-warner",
+      "entities": {
+        "games": [
+          {
+            "id": "hogwarts-legacy-2",
+            "name": "Hogwarts Legacy 2",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "hogwarts-legacy",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "avalanche-software",
+            "name": "Avalanche Software",
+            "aliases": [],
+            "publisher": "warner-bros-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "warner-bros-games",
+            "name": "Warner Bros. Games",
+            "aliases": ["Warner Bros."],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Warner Bros. has confirmed that Hogwarts Legacy 2 is officially in development."
+    },
+    {
+      "ref": "main_news/persona-5-is-officially-coming-to-fortnite",
+      "entities": {
+        "games": [
+          {
+            "id": "persona-5",
+            "name": "Persona 5",
+            "aliases": [],
+            "genres": ["jrpg", "rpg"],
+            "franchise": "persona",
+            "inferred": true
+          },
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter"],
+            "franchise": "fortnite",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "atlus",
+            "name": "Atlus",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": true
+          },
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "A Persona 5 crossover has officially been announced for Fortnite."
+    },
+    {
+      "ref": "free_games_subscription/super-mario-sunshine-has-now-been-added-to-switch-online-s-g",
+      "entities": {
+        "games": [
+          {
+            "id": "super-mario-sunshine",
+            "name": "Super Mario Sunshine",
+            "aliases": [],
+            "genres": ["platformer", "action-adventure"],
+            "franchise": "super-mario",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-online",
+            "name": "Nintendo Switch Online",
+            "aliases": ["Switch Online"],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-gamecube",
+            "name": "Nintendo GameCube",
+            "aliases": ["GameCube"],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-switch",
+            "name": "Nintendo Switch",
+            "aliases": ["Switch"],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Super Mario Sunshine has been added to the GameCube library on Nintendo Switch Online."
+    },
+    {
+      "ref": "business/netflix-closing-oxenfree-developer-night-school-studio-and-m",
+      "entities": {
+        "games": [
+          {
+            "id": "oxenfree",
+            "name": "Oxenfree",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": "oxenfree",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "night-school-studio",
+            "name": "Night School Studio",
+            "aliases": ["Nigh School Studio"],
+            "publisher": "netflix",
+            "inferred": false
+          },
+          {
+            "id": "moonloot-games",
+            "name": "Moonloot Games",
+            "aliases": [],
+            "publisher": "netflix",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Netflix is closing Night School Studio, the developer of Oxenfree, along with Moonloot Games."
+    },
+    {
+      "ref": "business/mattel-launches-new-global-studios-business-to-develop-games",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "mattel",
+            "name": "Mattel",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening"],
+      "facts": [],
+      "summary": "Mattel has launched a new global studios business to develop games based on its own IP."
+    }
+  ]
+}
