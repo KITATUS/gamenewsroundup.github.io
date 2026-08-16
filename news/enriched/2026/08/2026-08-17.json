@@ -1,0 +1,299 @@
+{
+  "date": "2026-08-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/kingdom-hearts-4-announced-for-2027-release",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-hearts-4",
+            "name": "Kingdom Hearts 4",
+            "aliases": [],
+            "genres": ["action-rpg", "jrpg"],
+            "franchise": "kingdom-hearts",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          },
+          {
+            "id": "disney",
+            "name": "Disney",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "kingdom-hearts-4",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Kingdom Hearts 4 announced for 2027 release",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/kingdom-hearts-d23-blowout-confirms-anime-series-release-window-and-more/"
+          }
+        }
+      ],
+      "summary": "Kingdom Hearts 4 has been announced for a 2027 release, with a Coco world shown off."
+    },
+    {
+      "ref": "main_news/kingdom-hearts-is-getting-its-own-anime-series-on-disney-and",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-hearts",
+            "name": "Kingdom Hearts",
+            "aliases": [],
+            "genres": ["action-rpg", "jrpg"],
+            "franchise": "kingdom-hearts",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "disney",
+            "name": "Disney",
+            "aliases": ["Disney+", "Disney Channel"],
+            "inferred": false
+          },
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Kingdom Hearts is getting its own anime series, airing on Disney+ and Disney Channel."
+    },
+    {
+      "ref": "main_news/simpsons-creator-matt-groening-seemingly-lets-slip-that-hit",
+      "entities": {
+        "games": [
+          {
+            "id": "the-simpsons-hit-run",
+            "name": "The Simpsons: Hit & Run",
+            "aliases": ["Hit & Run"],
+            "genres": ["action-adventure", "open-world", "racing"],
+            "franchise": "the-simpsons",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "radical-entertainment",
+            "name": "Radical Entertainment",
+            "aliases": [],
+            "publisher": "vivendi-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "matt-groening",
+            "name": "Matt Groening",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["teaser", "remaster-remake"],
+      "facts": [],
+      "summary": "Simpsons creator Matt Groening seemingly let slip that The Simpsons: Hit & Run is coming back."
+    },
+    {
+      "ref": "business/nintendo-announces-pok-mon-pokopia-has-sold-over-5m-copies",
+      "entities": {
+        "games": [
+          {
+            "id": "pokemon-pokopia",
+            "name": "Pokémon Pokopia",
+            "aliases": [],
+            "genres": ["life-sim", "simulation"],
+            "franchise": "pokemon",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "the-pokemon-company",
+            "name": "The Pokémon Company",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 5000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "pokemon-pokopia",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-17",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Pokémon Pokopia has sold over 5m copies",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/pokemon-pokopia-5m-sales"
+          }
+        }
+      ],
+      "summary": "Nintendo has announced that Pokémon Pokopia has sold over 5 million copies."
+    },
+    {
+      "ref": "business/2k-establishes-aaa-sports-developer-small-axe-studios",
+      "entities": {
+        "games": [
+          {
+            "id": "fifa",
+            "name": "FIFA",
+            "aliases": ["EA Sports FIFA"],
+            "genres": ["sports"],
+            "franchise": "fifa",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "small-axe-studios",
+            "name": "Small Axe Studios",
+            "aliases": [],
+            "publisher": "2k",
+            "inferred": false
+          },
+          {
+            "id": "ea-sports",
+            "name": "EA Sports",
+            "aliases": [],
+            "publisher": "electronic-arts",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "2k",
+            "name": "2K",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "aaron-mchardy",
+            "name": "Aaron McHardy",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["studio-opening", "leadership-change"],
+      "facts": [],
+      "summary": "2K has established Small Axe Studios, a new AAA sports developer headed by Aaron McHardy as head of studio, vice president and executive producer."
+    },
+    {
+      "ref": "business/disney-touts-core-pillar-games-like-kingdom-hearts-and-marve",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-hearts",
+            "name": "Kingdom Hearts",
+            "aliases": [],
+            "genres": ["action-rpg", "jrpg"],
+            "franchise": "kingdom-hearts",
+            "inferred": true
+          },
+          {
+            "id": "marvel-rivals",
+            "name": "Marvel Rivals",
+            "aliases": [],
+            "genres": ["hero-shooter", "tps"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "netease-games",
+            "name": "NetEase Games",
+            "aliases": [],
+            "publisher": "netease",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "disney",
+            "name": "Disney",
+            "aliases": ["Disney Games Group"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "discord",
+            "name": "Discord",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "twitch",
+            "name": "Twitch",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "earnings"],
+      "facts": [],
+      "summary": "Disney has described 'core pillar' games such as Kingdom Hearts and Marvel Rivals as crucial to its 'next chapter', and said the Disney Games Group accounts for $3.5 billion in annual consumer spending."
+    }
+  ]
+}

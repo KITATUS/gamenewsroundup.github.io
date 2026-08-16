@@ -159,8 +159,8 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-05-17",
-    "last_seen": "2026-07-02",
-    "mentions": 22,
+    "last_seen": "2026-08-17",
+    "mentions": 23,
     "name": "2K",
     "type": "publisher"
   },
@@ -502,6 +502,15 @@
     "last_seen": "2024-05-10",
     "mentions": 1,
     "name": "Aaron Greenberg",
+    "type": "person"
+  },
+  "aaron-mchardy": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "mentions": 1,
+    "name": "Aaron McHardy",
     "type": "person"
   },
   "aaron-paul": {
@@ -10207,8 +10216,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-06-14",
-    "last_seen": "2026-07-28",
-    "mentions": 7,
+    "last_seen": "2026-08-17",
+    "mentions": 8,
     "name": "Discord",
     "type": "platform"
   },
@@ -10227,11 +10236,15 @@
     "type": "game"
   },
   "disney": {
-    "aliases": [],
+    "aliases": [
+      "Disney Channel",
+      "Disney Games Group",
+      "Disney+"
+    ],
     "fact_count": 0,
     "first_seen": "2024-07-09",
-    "last_seen": "2026-04-13",
-    "mentions": 3,
+    "last_seen": "2026-08-17",
+    "mentions": 6,
     "name": "Disney",
     "type": "publisher"
   },
@@ -11807,6 +11820,15 @@
     "mentions": 3,
     "name": "EA Play",
     "type": "platform"
+  },
+  "ea-sports": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "mentions": 1,
+    "name": "EA Sports",
+    "type": "studio"
   },
   "ea-sports-college-football-26": {
     "aliases": [],
@@ -13905,15 +13927,17 @@
     "type": "game"
   },
   "fifa": {
-    "aliases": [],
+    "aliases": [
+      "EA Sports FIFA"
+    ],
     "fact_count": 0,
     "first_seen": "2024-10-11",
     "franchise": "fifa",
     "genres": [
       "sports"
     ],
-    "last_seen": "2025-12-18",
-    "mentions": 3,
+    "last_seen": "2026-08-17",
+    "mentions": 4,
     "name": "FIFA",
     "type": "game"
   },
@@ -22500,10 +22524,11 @@
     "first_seen": "2024-06-14",
     "franchise": "kingdom-hearts",
     "genres": [
-      "action-rpg"
+      "action-rpg",
+      "jrpg"
     ],
-    "last_seen": "2026-07-14",
-    "mentions": 2,
+    "last_seen": "2026-08-17",
+    "mentions": 4,
     "name": "Kingdom Hearts",
     "type": "game"
   },
@@ -22522,14 +22547,15 @@
   },
   "kingdom-hearts-4": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2024-09-20",
     "franchise": "kingdom-hearts",
     "genres": [
-      "action-rpg"
+      "action-rpg",
+      "jrpg"
     ],
-    "last_seen": "2026-06-10",
-    "mentions": 2,
+    "last_seen": "2026-08-17",
+    "mentions": 3,
     "name": "Kingdom Hearts 4",
     "type": "game"
   },
@@ -25624,8 +25650,8 @@
       "shooter",
       "tps"
     ],
-    "last_seen": "2026-08-05",
-    "mentions": 19,
+    "last_seen": "2026-08-17",
+    "mentions": 20,
     "name": "Marvel Rivals",
     "type": "game"
   },
@@ -25936,6 +25962,15 @@
     "last_seen": "2025-07-04",
     "mentions": 1,
     "name": "Matt Firor",
+    "type": "person"
+  },
+  "matt-groening": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "mentions": 1,
+    "name": "Matt Groening",
     "type": "person"
   },
   "matt-karch": {
@@ -29136,8 +29171,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2025-01-03",
-    "last_seen": "2026-08-05",
-    "mentions": 3,
+    "last_seen": "2026-08-17",
+    "mentions": 4,
     "name": "NetEase Games",
     "type": "studio"
   },
@@ -29726,8 +29761,8 @@
     ],
     "fact_count": 50,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-08-14",
-    "mentions": 222,
+    "last_seen": "2026-08-17",
+    "mentions": 223,
     "name": "Nintendo",
     "type": "publisher"
   },
@@ -32972,14 +33007,15 @@
   },
   "pokemon-pokopia": {
     "aliases": [],
-    "fact_count": 2,
+    "fact_count": 3,
     "first_seen": "2026-02-24",
     "franchise": "pokemon",
     "genres": [
-      "life-sim"
+      "life-sim",
+      "simulation"
     ],
-    "last_seen": "2026-06-10",
-    "mentions": 4,
+    "last_seen": "2026-08-17",
+    "mentions": 5,
     "name": "Pokémon Pokopia",
     "type": "game"
   },
@@ -34484,8 +34520,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-12-23",
-    "last_seen": "2026-02-25",
-    "mentions": 2,
+    "last_seen": "2026-08-17",
+    "mentions": 3,
     "name": "Radical Entertainment",
     "type": "studio"
   },
@@ -39004,6 +39040,15 @@
     "name": "Sly Cooper and the Thievius Raccoonus",
     "type": "game"
   },
+  "small-axe-studios": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-17",
+    "last_seen": "2026-08-17",
+    "mentions": 1,
+    "name": "Small Axe Studios",
+    "type": "studio"
+  },
   "small-radios-big-televisions": {
     "aliases": [],
     "fact_count": 0,
@@ -40290,8 +40335,8 @@
     ],
     "fact_count": 47,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-08-12",
-    "mentions": 72,
+    "last_seen": "2026-08-17",
+    "mentions": 74,
     "name": "Square Enix",
     "type": "publisher"
   },
@@ -45280,8 +45325,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-06-26",
-    "last_seen": "2026-08-14",
-    "mentions": 31,
+    "last_seen": "2026-08-17",
+    "mentions": 32,
     "name": "The Pokémon Company",
     "type": "publisher"
   },
@@ -45401,6 +45446,23 @@
     "last_seen": "2024-10-09",
     "mentions": 1,
     "name": "Sexy Brutale",
+    "type": "game"
+  },
+  "the-simpsons-hit-run": {
+    "aliases": [
+      "Hit & Run"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-08-17",
+    "franchise": "the-simpsons",
+    "genres": [
+      "action-adventure",
+      "open-world",
+      "racing"
+    ],
+    "last_seen": "2026-08-17",
+    "mentions": 1,
+    "name": "The Simpsons: Hit & Run",
     "type": "game"
   },
   "the-simpsons-tapped-out": {
@@ -47474,8 +47536,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-06-25",
-    "last_seen": "2025-09-19",
-    "mentions": 5,
+    "last_seen": "2026-08-17",
+    "mentions": 6,
     "name": "Twitch",
     "type": "platform"
   },
