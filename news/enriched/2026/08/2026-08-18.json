@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sony-still-hasn-t-chosen-a-playstation-6-release-date-says-c",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation-6",
+            "name": "PlayStation 6",
+            "aliases": ["PlayStation 6"],
+            "inferred": false
+          },
+          {
+            "id": "playstation",
+            "name": "PlayStation",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "hardware"],
+      "facts": [],
+      "summary": "Sony's CEO says the company has not yet chosen a PlayStation 6 release date as the RAM component shortage continues."
+    },
+    {
+      "ref": "main_news/fortnite-officially-reveals-sora-crash-spyro-mega-man-person",
+      "entities": {
+        "games": [
+          {
+            "id": "fortnite",
+            "name": "Fortnite",
+            "aliases": [],
+            "genres": ["battle-royale", "shooter", "tps"],
+            "franchise": "fortnite",
+            "inferred": true
+          },
+          {
+            "id": "kingdom-hearts",
+            "name": "Kingdom Hearts",
+            "aliases": ["Sora"],
+            "genres": ["action-rpg"],
+            "franchise": "kingdom-hearts",
+            "inferred": true
+          },
+          {
+            "id": "crash-bandicoot",
+            "name": "Crash Bandicoot",
+            "aliases": ["Crash"],
+            "genres": ["platformer"],
+            "franchise": "crash-bandicoot",
+            "inferred": true
+          },
+          {
+            "id": "spyro",
+            "name": "Spyro",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "spyro",
+            "inferred": true
+          },
+          {
+            "id": "mega-man",
+            "name": "Mega Man",
+            "aliases": [],
+            "genres": ["platformer"],
+            "franchise": "mega-man",
+            "inferred": true
+          },
+          {
+            "id": "persona",
+            "name": "Persona",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "persona",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal", "announcement", "update-patch"],
+      "facts": [],
+      "summary": "Fortnite has officially revealed Sora, Crash, Spyro, Mega Man, Persona and other video-game crossovers for its next season, Fortnite Override."
+    },
+    {
+      "ref": "business/matchmaking-platform-sail-game-launches-free-tier-for-devs-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sale-discount", "announcement"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 99,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "sail-game",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-08-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "developers can bypass the €99 fee and gain access to the platform's Entry Cruise tier",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/matchmaking-platform-sailgame-launches-free-tier-for-devs-ahead-of-gamescom"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-08-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "sail-game",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-08-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "From today until August 31",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/matchmaking-platform-sailgame-launches-free-tier-for-devs-ahead-of-gamescom"
+          }
+        }
+      ],
+      "summary": "Matchmaking platform Sail.game has launched a free tier for developers ahead of Gamescom, letting them bypass the €99 Entry Cruise fee with promo code SAILFREE until 31 August 2026."
+    }
+  ]
+}
