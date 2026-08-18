@@ -1,0 +1,179 @@
+{
+  "date": "2026-08-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/tekken-8-game-director-kohei-ikeda-has-joined-harada-s-snk-o",
+      "entities": {
+        "games": [
+          { "id": "tekken-8", "name": "Tekken 8", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true },
+          { "id": "tekken-tag-tournament", "name": "Tekken Tag Tournament", "aliases": [], "genres": ["fighting"], "franchise": "tekken", "inferred": true }
+        ],
+        "studios": [
+          { "id": "vs-studio", "name": "VS Studio", "aliases": [], "publisher": "snk", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "snk", "name": "SNK", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "kohei-ikeda", "name": "Kohei Ikeda", "aliases": [], "inferred": false },
+          { "id": "katsuhiro-harada", "name": "Katsuhiro Harada", "aliases": ["Harada"], "inferred": false },
+          { "id": "yuichi-yonemori", "name": "Yuichi Yonemori", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Tekken 8 game director Kohei Ikeda has joined VS Studio, the SNK-owned Tokyo studio led by Katsuhiro Harada as president and CEO with Tekken series veteran Yuichi Yonemori as chief creative officer."
+    },
+    {
+      "ref": "main_news/legendary-game-developer-warren-spector-announces-retirement",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "otherside-entertainment", "name": "OtherSide Entertainment", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "warren-spector", "name": "Warren Spector", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "leadership-change"],
+      "facts": [],
+      "summary": "Veteran game developer Warren Spector has announced his retirement."
+    },
+    {
+      "ref": "main_news/three-epic-veterans-arjan-brussee-sjoerd-de-jong-and-michal",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "arjan-brussee", "name": "Arjan Brussee", "aliases": [], "inferred": false },
+          { "id": "sjoerd-de-jong", "name": "Sjoerd De Jong", "aliases": [], "inferred": false },
+          { "id": "michal-valient", "name": "Michal Valient", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "studio-opening"],
+      "facts": [],
+      "summary": "Three Epic Games veterans, Arjan Brussee, Sjoerd De Jong and Michal Valient, are building an AI-powered game engine called Immens."
+    },
+    {
+      "ref": "free_games_subscription/xbox-lists-its-next-game-pass-titles",
+      "entities": {
+        "games": [
+          { "id": "egging-on", "name": "Egging On", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "vapor-world-over-the-mind", "name": "Vapor World: Over the Mind", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "blazblue-entropy-effect-x", "name": "BlazBlue Entropy Effect X", "aliases": [], "genres": ["roguelike", "fighting"], "franchise": "blazblue", "inferred": true },
+          { "id": "relooted", "name": "Relooted", "aliases": [], "genres": ["stealth", "strategy"], "franchise": null, "inferred": true },
+          { "id": "starsand-island", "name": "Starsand Island", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "aerial-knights-dropshot", "name": "Aerial_Knight's DropShot", "aliases": ["Aerial_Knight’s DropShot"], "genres": [], "franchise": null, "inferred": true },
+          { "id": "blood-dungeon", "name": "Blood Dungeon", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "resonance-a-plague-tale-legacy", "name": "Resonance: A Plague Tale Legacy", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "a-plague-tale", "inferred": true },
+          { "id": "young-suns", "name": "Young Suns", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "shelldiver", "name": "Shelldiver", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "another-crabs-treasure", "name": "Another Crab's Treasure", "aliases": ["Another Crab’s Treasure"], "genres": ["soulslike", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "i-am-your-beast", "name": "I Am Your Beast", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "neon-abyss", "name": "Neon Abyss", "aliases": [], "genres": ["roguelike", "platformer"], "franchise": null, "inferred": true },
+          { "id": "one-lonely-outpost", "name": "One Lonely Outpost", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": null, "inferred": true },
+          { "id": "the-witcher-3", "name": "The Witcher 3: The Wild Hunt", "aliases": ["The Witcher 3: The Wild Hunt – Remastered Edition"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-08-18", "unit": "date", "currency": null,
+          "entity": "egging-on", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Egging On (August 18)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-19", "unit": "date", "currency": null,
+          "entity": "vapor-world-over-the-mind", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Vapor World: Over the Mind (August 19)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-19", "unit": "date", "currency": null,
+          "entity": "blazblue-entropy-effect-x", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "BlazBlue Entropy Effect X (August 19)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-19", "unit": "date", "currency": null,
+          "entity": "relooted", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Relooted (August 19)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-20", "unit": "date", "currency": null,
+          "entity": "starsand-island", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Starsand Island (August 20)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-25", "unit": "date", "currency": null,
+          "entity": "aerial-knights-dropshot", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Aerial_Knight’s DropShot (August 25)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-25", "unit": "date", "currency": null,
+          "entity": "blood-dungeon", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Blood Dungeon (August 25)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-27", "unit": "date", "currency": null,
+          "entity": "resonance-a-plague-tale-legacy", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Resonance: A Plague Tale Legacy (August 27)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-31", "unit": "date", "currency": null,
+          "entity": "young-suns", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Young Suns (August 31)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-09-01", "unit": "date", "currency": null,
+          "entity": "shelldiver", "entity_type": "game", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Shelldiver (September 1)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } },
+        { "metric": "event_date", "value": "2026-08-31", "unit": "date", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "platform", "scope": "event",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (August 31)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-lists-its-next-10-game-pass-titles-including-resonance-a-plague-tale-legacy/" } }
+      ],
+      "summary": "Xbox has listed its next batch of Game Pass titles, with ten games arriving between 18 August and 1 September 2026 including Resonance: A Plague Tale Legacy, and five titles leaving the service on 31 August."
+    },
+    {
+      "ref": "business/gyld-raises-1m-to-fund-proprietary-games-research-system-tha",
+      "entities": {
+        "games": [
+          { "id": "clair-obscur-expedition-33", "name": "Clair Obscur: Expedition 33", "aliases": ["Clair Obscur"], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        { "metric": "funding_raised", "value": 1000000, "unit": "money", "currency": "USD",
+          "entity": "gyld", "entity_type": "company", "scope": "company",
+          "as_of": "2026-08-19", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "GYLD raises $1m to fund proprietary games research system",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/gyld-raises-1m-to-fund-proprietary-games-research-system-that-marked-clair-obscur-as-a-potential-hit" } }
+      ],
+      "summary": "Games research company GYLD has raised $1 million to fund its proprietary research system, which flagged Clair Obscur as a potential hit."
+    }
+  ]
+}

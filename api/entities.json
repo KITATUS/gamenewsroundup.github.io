@@ -816,13 +816,15 @@
     "type": "game"
   },
   "aerial-knights-dropshot": {
-    "aliases": [],
-    "fact_count": 0,
+    "aliases": [
+      "Aerial_Knight’s DropShot"
+    ],
+    "fact_count": 1,
     "first_seen": "2026-02-18",
     "franchise": null,
     "genres": [],
-    "last_seen": "2026-02-18",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "Aerial_Knight's DropShot",
     "type": "game"
   },
@@ -1915,16 +1917,19 @@
     "type": "studio"
   },
   "another-crabs-treasure": {
-    "aliases": [],
+    "aliases": [
+      "Another Crab’s Treasure"
+    ],
     "fact_count": 0,
     "first_seen": "2025-05-28",
     "franchise": null,
     "genres": [
+      "action-adventure",
       "action-rpg",
       "soulslike"
     ],
-    "last_seen": "2025-05-28",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "Another Crab's Treasure",
     "type": "game"
   },
@@ -2242,6 +2247,15 @@
     "last_seen": "2026-06-17",
     "mentions": 1,
     "name": "Ari Thrah",
+    "type": "person"
+  },
+  "arjan-brussee": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Arjan Brussee",
     "type": "person"
   },
   "ark-aquatica": {
@@ -4553,15 +4567,16 @@
   },
   "blazblue-entropy-effect-x": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2026-02-04",
     "franchise": "blazblue",
     "genres": [
       "action-adventure",
+      "fighting",
       "roguelike"
     ],
-    "last_seen": "2026-02-04",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "BlazBlue Entropy Effect X",
     "type": "game"
   },
@@ -4692,6 +4707,17 @@
     "last_seen": "2024-05-22",
     "mentions": 1,
     "name": "Blood & Truth",
+    "type": "game"
+  },
+  "blood-dungeon": {
+    "aliases": [],
+    "fact_count": 1,
+    "first_seen": "2026-08-19",
+    "franchise": null,
+    "genres": [],
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Blood Dungeon",
     "type": "game"
   },
   "blood-omen-2": {
@@ -6906,8 +6932,8 @@
       "rpg",
       "turn-based-strategy"
     ],
-    "last_seen": "2026-07-17",
-    "mentions": 19,
+    "last_seen": "2026-08-19",
+    "mentions": 20,
     "name": "Clair Obscur: Expedition 33",
     "type": "game"
   },
@@ -12171,14 +12197,14 @@
   },
   "egging-on": {
     "aliases": [],
-    "fact_count": 2,
+    "fact_count": 3,
     "first_seen": "2025-11-05",
     "franchise": null,
     "genres": [
       "platformer"
     ],
-    "last_seen": "2026-08-05",
-    "mentions": 2,
+    "last_seen": "2026-08-19",
+    "mentions": 3,
     "name": "Egging On",
     "type": "game"
   },
@@ -12706,8 +12732,8 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-05-15",
-    "last_seen": "2026-08-18",
-    "mentions": 109,
+    "last_seen": "2026-08-19",
+    "mentions": 110,
     "name": "Epic Games",
     "type": "studio"
   },
@@ -19812,10 +19838,11 @@
     "franchise": null,
     "genres": [
       "action-adventure",
-      "fps"
+      "fps",
+      "shooter"
     ],
-    "last_seen": "2025-09-03",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "I Am Your Beast",
     "type": "game"
   },
@@ -21867,8 +21894,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2025-01-21",
-    "last_seen": "2026-05-13",
-    "mentions": 4,
+    "last_seen": "2026-08-19",
+    "mentions": 5,
     "name": "Katsuhiro Harada",
     "type": "person"
   },
@@ -22783,6 +22810,15 @@
     "mentions": 5,
     "name": "Koei Tecmo",
     "type": "publisher"
+  },
+  "kohei-ikeda": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Kohei Ikeda",
+    "type": "person"
   },
   "kojima-productions": {
     "aliases": [
@@ -27088,6 +27124,15 @@
     "name": "Michał Kiciński",
     "type": "person"
   },
+  "michal-valient": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Michal Valient",
+    "type": "person"
+  },
   "michel-ancel": {
     "aliases": [],
     "fact_count": 0,
@@ -29097,6 +29142,20 @@
     "name": "Neo Geo",
     "type": "platform"
   },
+  "neon-abyss": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "franchise": null,
+    "genres": [
+      "platformer",
+      "roguelike"
+    ],
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Neon Abyss",
+    "type": "game"
+  },
   "neon-giant": {
     "aliases": [],
     "fact_count": 0,
@@ -30540,8 +30599,8 @@
       "life-sim",
       "simulation"
     ],
-    "last_seen": "2025-03-05",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "One Lonely Outpost",
     "type": "game"
   },
@@ -30745,8 +30804,8 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-12-13",
-    "last_seen": "2026-06-18",
-    "mentions": 2,
+    "last_seen": "2026-08-19",
+    "mentions": 3,
     "name": "OtherSide Entertainment",
     "type": "studio"
   },
@@ -35315,14 +35374,15 @@
   },
   "relooted": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2026-02-04",
     "franchise": null,
     "genres": [
-      "stealth"
+      "stealth",
+      "strategy"
     ],
-    "last_seen": "2026-02-04",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "Relooted",
     "type": "game"
   },
@@ -35773,15 +35833,15 @@
   },
   "resonance-a-plague-tale-legacy": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2026-06-08",
     "franchise": "a-plague-tale",
     "genres": [
       "action-adventure",
       "stealth"
     ],
-    "last_seen": "2026-06-08",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "Resonance: A Plague Tale Legacy",
     "type": "game"
   },
@@ -38212,6 +38272,17 @@
     "name": "Shawn Woods",
     "type": "person"
   },
+  "shelldiver": {
+    "aliases": [],
+    "fact_count": 1,
+    "first_seen": "2026-08-19",
+    "franchise": null,
+    "genres": [],
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Shelldiver",
+    "type": "game"
+  },
   "shenmue-3": {
     "aliases": [],
     "fact_count": 0,
@@ -38722,6 +38793,15 @@
     "name": "Sitara Shefta",
     "type": "person"
   },
+  "sjoerd-de-jong": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Sjoerd De Jong",
+    "type": "person"
+  },
   "skate": {
     "aliases": [
       "skate."
@@ -39211,8 +39291,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-09-24",
-    "last_seen": "2026-05-13",
-    "mentions": 7,
+    "last_seen": "2026-08-19",
+    "mentions": 8,
     "name": "SNK",
     "type": "studio"
   },
@@ -41018,15 +41098,15 @@
   },
   "starsand-island": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2026-02-04",
     "franchise": null,
     "genres": [
       "life-sim",
       "simulation"
     ],
-    "last_seen": "2026-02-04",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "Starsand Island",
     "type": "game"
   },
@@ -43461,8 +43541,8 @@
     "genres": [
       "fighting"
     ],
-    "last_seen": "2026-03-26",
-    "mentions": 10,
+    "last_seen": "2026-08-19",
+    "mentions": 11,
     "name": "Tekken 8",
     "type": "game"
   },
@@ -43477,6 +43557,19 @@
     "last_seen": "2026-03-12",
     "mentions": 1,
     "name": "Tekken Dark Resurrection",
+    "type": "game"
+  },
+  "tekken-tag-tournament": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "franchise": "tekken",
+    "genres": [
+      "fighting"
+    ],
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Tekken Tag Tournament",
     "type": "game"
   },
   "teleroboxer": {
@@ -45840,6 +45933,7 @@
   "the-witcher-3": {
     "aliases": [
       "The Witcher 3 REDkit",
+      "The Witcher 3: The Wild Hunt – Remastered Edition",
       "The Witcher 3: Wild Hunt",
       "Witcher 3"
     ],
@@ -45851,9 +45945,9 @@
       "open-world",
       "rpg"
     ],
-    "last_seen": "2026-05-28",
-    "mentions": 5,
-    "name": "The Witcher 3",
+    "last_seen": "2026-08-19",
+    "mentions": 6,
+    "name": "The Witcher 3: The Wild Hunt",
     "type": "game"
   },
   "the-witcher-3-wild-hunt": {
@@ -48526,6 +48620,19 @@
     "name": "Vantage Studios",
     "type": "studio"
   },
+  "vapor-world-over-the-mind": {
+    "aliases": [],
+    "fact_count": 1,
+    "first_seen": "2026-08-19",
+    "franchise": null,
+    "genres": [
+      "platformer"
+    ],
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Vapor World: Over the Mind",
+    "type": "game"
+  },
   "vassiliki-khonsari": {
     "aliases": [],
     "fact_count": 0,
@@ -48905,6 +49012,15 @@
     "last_seen": "2025-04-29",
     "mentions": 1,
     "name": "Volition",
+    "type": "studio"
+  },
+  "vs-studio": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "VS Studio",
     "type": "studio"
   },
   "walkabout-mini-golf": {
@@ -49521,8 +49637,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-12-13",
-    "last_seen": "2024-12-13",
-    "mentions": 1,
+    "last_seen": "2026-08-19",
+    "mentions": 2,
     "name": "Warren Spector",
     "type": "person"
   },
@@ -50535,8 +50651,8 @@
     ],
     "fact_count": 7,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-08-12",
-    "mentions": 174,
+    "last_seen": "2026-08-19",
+    "mentions": 175,
     "name": "Xbox",
     "type": "platform"
   },
@@ -50572,10 +50688,10 @@
       "XBox Game Pass'",
       "game pass"
     ],
-    "fact_count": 12,
+    "fact_count": 13,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-08-05",
-    "mentions": 81,
+    "last_seen": "2026-08-19",
+    "mentions": 82,
     "name": "Xbox Game Pass",
     "type": "platform"
   },
@@ -50605,8 +50721,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-07",
-    "last_seen": "2026-08-05",
-    "mentions": 25,
+    "last_seen": "2026-08-19",
+    "mentions": 26,
     "name": "Xbox Game Studios",
     "type": "publisher"
   },
@@ -51197,6 +51313,17 @@
     "name": "You Will Die Here Tonight",
     "type": "game"
   },
+  "young-suns": {
+    "aliases": [],
+    "fact_count": 1,
+    "first_seen": "2026-08-19",
+    "franchise": null,
+    "genres": [],
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Young Suns",
+    "type": "game"
+  },
   "youtube": {
     "aliases": [],
     "fact_count": 0,
@@ -51240,6 +51367,15 @@
     "last_seen": "2024-12-16",
     "mentions": 1,
     "name": "Yu Suzuki",
+    "type": "person"
+  },
+  "yuichi-yonemori": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-19",
+    "last_seen": "2026-08-19",
+    "mentions": 1,
+    "name": "Yuichi Yonemori",
     "type": "person"
   },
   "yusuke-miyata": {
