@@ -1,0 +1,157 @@
+{
+  "date": "2026-08-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/new-uk-indie-studio-pretty-cool-games-announced-led-by-forme",
+      "entities": {
+        "games": [
+          {
+            "id": "human-fall-flat",
+            "name": "Human: Fall Flat",
+            "aliases": [],
+            "genres": ["puzzle", "platformer"],
+            "franchise": "human-fall-flat",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "pretty-cool-games",
+            "name": "Pretty Cool Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "no-brakes-games",
+            "name": "No Brakes Games",
+            "aliases": [],
+            "publisher": "curve-games",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "A new UK indie studio, Pretty Cool Games, has been announced in Leeds, led by former Human: Fall Flat developers."
+    },
+    {
+      "ref": "main_news/konami-s-castlevania-grimoire-of-souls-to-be-taken-offline-n",
+      "entities": {
+        "games": [
+          {
+            "id": "castlevania-grimoire-of-souls",
+            "name": "Castlevania: Grimoire of Souls",
+            "aliases": [],
+            "genres": ["action-adventure", "platformer"],
+            "franchise": "castlevania",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "apple-arcade",
+            "name": "Apple Arcade",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "delisting"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-08-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "castlevania-grimoire-of-souls",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "delisted on August 20",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/konamis-castlevania-grimoire-of-souls-to-be-taken-offline-next-month"
+          }
+        },
+        {
+          "metric": "shutdown_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "castlevania-grimoire-of-souls",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "shut down on September 3rd",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/konamis-castlevania-grimoire-of-souls-to-be-taken-offline-next-month"
+          }
+        }
+      ],
+      "summary": "Konami's Apple Arcade-exclusive Castlevania: Grimoire of Souls will be delisted on 20 August 2026 and taken offline on 3 September 2026."
+    },
+    {
+      "ref": "rumours/playstation-reboots-horizon-hunters-gathering-as-live-servic",
+      "entities": {
+        "games": [
+          {
+            "id": "horizon-hunters-gathering",
+            "name": "Horizon Hunters Gathering",
+            "aliases": ["‘Horizon Hunters Gathering’"],
+            "genres": ["action-rpg"],
+            "franchise": "horizon",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "guerrilla-games",
+            "name": "Guerrilla Games",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["PlayStation"],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Report that PlayStation has rebooted the Horizon multiplayer project Horizon Hunters Gathering as its live-service strategy struggles."
+    }
+  ]
+}
