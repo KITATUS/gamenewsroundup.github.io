@@ -1,7 +1,7 @@
 {
   "007-first-light": {
     "aliases": [],
-    "fact_count": 4,
+    "fact_count": 5,
     "first_seen": "2025-06-03",
     "franchise": "james-bond",
     "genres": [
@@ -9,9 +9,9 @@
       "stealth",
       "tps"
     ],
-    "last_seen": "2026-06-08",
-    "mentions": 9,
-    "name": "007: First Light",
+    "last_seen": "2026-08-21",
+    "mentions": 10,
+    "name": "007 First Light",
     "type": "game"
   },
   "10-10-games": {
@@ -177,14 +177,14 @@
   },
   "2xko": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2024-07-11",
     "franchise": "league-of-legends",
     "genres": [
       "fighting"
     ],
-    "last_seen": "2026-02-10",
-    "mentions": 2,
+    "last_seen": "2026-08-21",
+    "mentions": 3,
     "name": "2XKO",
     "type": "game"
   },
@@ -3182,6 +3182,15 @@
     "name": "Atticus Ross",
     "type": "person"
   },
+  "audiomob": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-21",
+    "last_seen": "2026-08-21",
+    "mentions": 1,
+    "name": "AudioMob",
+    "type": "studio"
+  },
   "austin-wintory": {
     "aliases": [],
     "fact_count": 0,
@@ -5056,8 +5065,8 @@
     ],
     "fact_count": 2,
     "first_seen": "2025-02-25",
-    "last_seen": "2025-02-25",
-    "mentions": 1,
+    "last_seen": "2026-08-21",
+    "mentions": 2,
     "name": "Bossa Studios",
     "type": "studio"
   },
@@ -11411,6 +11420,15 @@
     "name": "DreadXP",
     "type": "studio"
   },
+  "dream-games": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-21",
+    "last_seen": "2026-08-21",
+    "mentions": 1,
+    "name": "Dream Games",
+    "type": "studio"
+  },
   "dreamcast": {
     "aliases": [],
     "fact_count": 0,
@@ -16984,14 +17002,16 @@
   },
   "golden-axe": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2026-05-12",
     "franchise": "golden-axe",
     "genres": [
-      "action"
+      "action",
+      "action-adventure",
+      "beat-em-up"
     ],
-    "last_seen": "2026-05-12",
-    "mentions": 1,
+    "last_seen": "2026-08-21",
+    "mentions": 2,
     "name": "Golden Axe",
     "type": "game"
   },
@@ -20498,8 +20518,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-06-05",
-    "last_seen": "2026-08-05",
-    "mentions": 17,
+    "last_seen": "2026-08-21",
+    "mentions": 18,
     "name": "IO Interactive",
     "type": "studio"
   },
@@ -31385,11 +31405,13 @@
     "type": "studio"
   },
   "paramount-plus": {
-    "aliases": [],
+    "aliases": [
+      "Paramount+"
+    ],
     "fact_count": 0,
     "first_seen": "2024-05-03",
-    "last_seen": "2024-05-03",
-    "mentions": 1,
+    "last_seen": "2026-08-21",
+    "mentions": 2,
     "name": "Paramount+",
     "type": "platform"
   },
@@ -35232,6 +35254,15 @@
     "name": "Redfall",
     "type": "game"
   },
+  "redhill-games": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-21",
+    "last_seen": "2026-08-21",
+    "mentions": 1,
+    "name": "Redhill Games",
+    "type": "studio"
+  },
   "redoctane": {
     "aliases": [],
     "fact_count": 0,
@@ -36163,12 +36194,13 @@
   },
   "riot-games": {
     "aliases": [
-      "Riot"
+      "Riot",
+      "riotgames.com"
     ],
     "fact_count": 4,
     "first_seen": "2024-06-10",
-    "last_seen": "2026-02-27",
-    "mentions": 17,
+    "last_seen": "2026-08-21",
+    "mentions": 18,
     "name": "Riot Games",
     "type": "studio"
   },
@@ -37882,8 +37914,8 @@
     ],
     "fact_count": 30,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-08-14",
-    "mentions": 80,
+    "last_seen": "2026-08-21",
+    "mentions": 81,
     "name": "Sega",
     "type": "publisher"
   },
@@ -39307,9 +39339,18 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-09-24",
-    "last_seen": "2026-08-19",
-    "mentions": 8,
+    "last_seen": "2026-08-21",
+    "mentions": 9,
     "name": "SNK",
+    "type": "studio"
+  },
+  "snk-entertainment": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-08-21",
+    "last_seen": "2026-08-21",
+    "mentions": 1,
+    "name": "SNK Entertainment",
     "type": "studio"
   },
   "snoop-dogg": {
@@ -46450,6 +46491,17 @@
     "mentions": 2,
     "name": "Tiny Tina's Wonderlands",
     "type": "game"
+  },
+  "tinybuild": {
+    "aliases": [
+      "TinyBuild"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-08-21",
+    "last_seen": "2026-08-21",
+    "mentions": 1,
+    "name": "tinyBuild",
+    "type": "publisher"
   },
   "titan-forge": {
     "aliases": [],

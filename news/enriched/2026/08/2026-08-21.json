@@ -1,0 +1,261 @@
+{
+  "date": "2026-08-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/animated-golden-axe-tv-show-launches-on-paramount-on-septemb",
+      "entities": {
+        "games": [
+          {
+            "id": "golden-axe",
+            "name": "Golden Axe",
+            "aliases": [],
+            "genres": ["beat-em-up", "action-adventure"],
+            "franchise": "golden-axe",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "paramount-plus",
+            "name": "Paramount+",
+            "aliases": ["Paramount+"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-09-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "golden-axe",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-08-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Animated Golden Axe TV show launches on Paramount+ on September 16th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/the-first-trailer-for-paramounts-golden-axe-cartoon-contains-magic-meta-humour-and-a-release-date/"
+          }
+        }
+      ],
+      "summary": "The animated Golden Axe TV show launches on Paramount+ on 16 September 2026."
+    },
+    {
+      "ref": "main_news/2xko-active-development-will-end-in-december-2026",
+      "entities": {
+        "games": [
+          {
+            "id": "2xko",
+            "name": "2XKO",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "league-of-legends",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "riot-games",
+            "name": "Riot Games",
+            "aliases": ["riotgames.com"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "2xko",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "2XKO Active Development Will End In December 2026",
+          "source": {
+            "name": "riotgames.com",
+            "domain": "riotgames.com",
+            "url": "https://www.riotgames.com/en/news/2xko-active-development-ends-december-2026"
+          }
+        }
+      ],
+      "summary": "Active development on the fighting game 2XKO will end in December 2026."
+    },
+    {
+      "ref": "business/007-first-light-has-sold-4-million-copies-since-launch",
+      "entities": {
+        "games": [
+          {
+            "id": "007-first-light",
+            "name": "007 First Light",
+            "aliases": [],
+            "genres": ["action-adventure", "stealth"],
+            "franchise": "james-bond",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "io-interactive",
+            "name": "IO Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 4000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "007-first-light",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-21",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "007 First Light has sold 4 million copies since launch",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/james-bond-007-first-light-sales"
+          }
+        }
+      ],
+      "summary": "007 First Light has sold 4 million copies since its launch."
+    },
+    {
+      "ref": "business/venture-capital-firm-makers-fund-has-closed-a-fourth-investm",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "bossa-studios",
+            "name": "Bossa Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "audiomob",
+            "name": "AudioMob",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "redhill-games",
+            "name": "Redhill Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "dream-games",
+            "name": "Dream Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "tinybuild",
+            "name": "tinyBuild",
+            "aliases": ["TinyBuild"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 250000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "makers-fund",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Makers Fund has closed a fourth investment round worth $250 million",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com",
+            "url": "https://www.gamedeveloper.com/business/makers-fund-expands-game-industry-footprint-after-closing-250-million-investment-round"
+          }
+        }
+      ],
+      "summary": "Venture capital firm Makers Fund has closed a fourth investment round worth $250 million, bringing its total assets under management to $1.5 billion."
+    },
+    {
+      "ref": "business/snk-entertainment-dissolved-after-10-years-most-of-its-busin",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "snk-entertainment",
+            "name": "SNK Entertainment",
+            "aliases": [],
+            "publisher": "snk",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "snk",
+            "name": "SNK",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "merger"],
+      "facts": [],
+      "summary": "SNK Entertainment has been dissolved after 10 years, with most of its businesses transferred to parent company SNK."
+    }
+  ]
+}
