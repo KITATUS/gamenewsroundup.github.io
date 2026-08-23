@@ -1,0 +1,220 @@
+{
+  "date": "2026-08-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/double-fine-announces-fans-will-be-able-to-vote-for-its-next",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "double-fine",
+            "name": "Double Fine",
+            "aliases": ["Double Fine Productions"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Double Fine has announced that fans will be able to vote for its next game, following its split from Xbox."
+    },
+    {
+      "ref": "main_news/dave-bautista-will-now-officially-play-kratos-in-the-god-of",
+      "entities": {
+        "games": [
+          {
+            "id": "god-of-war",
+            "name": "God of War",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "god-of-war",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "dave-bautista",
+            "name": "Dave Bautista",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "ryan-hurst",
+            "name": "Ryan Hurst",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Dave Bautista has officially been cast as Kratos in the God of War TV series, replacing the injured Ryan Hurst."
+    },
+    {
+      "ref": "main_news/roblox-makes-three-of-its-ai-safety-tools-open-source",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "roblox-corporation",
+            "name": "Roblox Corporation",
+            "aliases": ["Roblox"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "roblox",
+            "name": "Roblox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Roblox has made three of its AI safety tools open source."
+    },
+    {
+      "ref": "business/former-epic-games-leader-ben-board-joins-codedev-group-as-ce",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "ben-board",
+            "name": "Ben Board",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former Epic Games leader Ben Board has joined CodeDev Group as CEO of The Performance Guys."
+    },
+    {
+      "ref": "business/rover-s-tale-developer-observer-interactive-parts-ways-with",
+      "entities": {
+        "games": [
+          {
+            "id": "rovers-tale",
+            "name": "Rover's Tale",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "observer-interactive",
+            "name": "Observer Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "team17",
+            "name": "Team17",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Rover's Tale developer Observer Interactive has parted ways with Team17 and is moving to self-publishing."
+    },
+    {
+      "ref": "business/how-to-fish-sold-1-million-copies-in-2-days",
+      "entities": {
+        "games": [
+          {
+            "id": "how-to-fish",
+            "name": "How to Fish",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "how-to-fish",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-24",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "How to Fish sold 1 million copies in 2 days",
+          "source": {
+            "name": "Steam",
+            "domain": "store.steampowered.com",
+            "url": "https://store.steampowered.com/news/app/4001890/view/711158520539514065"
+          }
+        }
+      ],
+      "summary": "How to Fish has sold 1 million copies in two days."
+    }
+  ]
+}

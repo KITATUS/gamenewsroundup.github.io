@@ -1,6 +1,12 @@
 {
-  "day_count": 577,
+  "day_count": 578,
   "days": [
+    {
+      "date": "2026-08-24",
+      "entities": 15,
+      "facts": 1,
+      "items": 6
+    },
     {
       "date": "2026-08-21",
       "entities": 14,
@@ -3464,13 +3470,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4277,
-  "fact_count": 2785,
+  "entity_count": 4282,
+  "fact_count": 2786,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 918,
+    "action-adventure": 919,
     "action-platformer": 3,
     "action-rpg": 671,
     "adventure": 343,
@@ -3505,7 +3511,7 @@
     "rts": 36,
     "sandbox": 92,
     "shooter": 458,
-    "simulation": 313,
+    "simulation": 314,
     "social-deduction": 1,
     "soulslike": 78,
     "sports": 154,
@@ -3520,14 +3526,14 @@
     "twin-stick-shooter": 1,
     "visual-novel": 28
   },
-  "item_count": 3901,
+  "item_count": 3907,
   "metric_totals": {
     "acquisition_price": 35,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 12,
     "content_acquisition_cost": 2,
-    "copies_sold": 192,
+    "copies_sold": 193,
     "delay_to": 25,
     "development_budget": 13,
     "downloads": 26,
