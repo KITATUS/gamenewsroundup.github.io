@@ -1,0 +1,142 @@
+{
+  "date": "2026-08-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/hideo-kojima-celebrates-63rd-birthday-with-a-pledge-to-keep",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "kojima-productions",
+            "name": "Kojima Productions",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "hideo-kojima",
+            "name": "Hideo Kojima",
+            "aliases": ["Kojima"],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Hideo Kojima marked his 63rd birthday with a pledge to keep making games."
+    },
+    {
+      "ref": "main_news/cd-projekt-red-is-targeting-a-2028-release-date-for-the-witc",
+      "entities": {
+        "games": [
+          {
+            "id": "the-witcher-4",
+            "name": "The Witcher 4",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2028",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-witcher-4",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "CD Projekt Red is \"targeting\" a 2028 release date for The Witcher 4",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/the-witcher-4-release-date-2028"
+          }
+        }
+      ],
+      "summary": "CD Projekt Red said it is targeting a 2028 release date for The Witcher 4."
+    },
+    {
+      "ref": "main_news/take-two-interactive-files-subpoenas-against-microsoft-disco",
+      "entities": {
+        "games": [
+          {
+            "id": "gta-6",
+            "name": "GTA 6",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "take-two-interactive",
+            "name": "Take-Two Interactive",
+            "aliases": ["Take-Two"],
+            "inferred": false
+          },
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "discord",
+            "name": "Discord",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "x",
+            "name": "X",
+            "aliases": ["Twitter"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "Take-Two Interactive has filed subpoenas against Microsoft, Discord, and X in connection with ongoing GTA 6 leaks."
+    }
+  ]
+}
