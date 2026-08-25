@@ -1,0 +1,518 @@
+{
+  "date": "2026-08-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/the-witcher-3-remaster-announced-free-for-existing-owners-ex",
+      "entities": {
+        "games": [
+          {
+            "id": "the-witcher-3-remaster",
+            "name": "The Witcher 3 Remaster",
+            "aliases": ["The Witcher 3"],
+            "genres": ["action-rpg", "rpg", "open-world"],
+            "franchise": "the-witcher",
+            "inferred": true
+          },
+          {
+            "id": "songs-of-the-past",
+            "name": "Songs of the Past",
+            "aliases": ["Expansion Songs of the Past"],
+            "genres": ["action-rpg", "rpg"],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": [],
+            "publisher": "cd-projekt",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake", "dlc-expansion", "free-game", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "songs-of-the-past",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Expansion Songs of the Past announced for 2027 release",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/witcher-3-expansion-songs-of-the-past-trailer"
+          }
+        }
+      ],
+      "summary": "The Witcher 3 Remaster has been announced and will be free for existing owners, alongside an expansion called Songs of the Past set for release in 2027."
+    },
+    {
+      "ref": "main_news/snoop-dogg-is-coming-to-hitman-world-of-assassination",
+      "entities": {
+        "games": [
+          {
+            "id": "hitman-world-of-assassination",
+            "name": "Hitman: World of Assassination",
+            "aliases": [],
+            "genres": ["stealth", "action-adventure"],
+            "franchise": "hitman",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "io-interactive",
+            "name": "IO Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "snoop-dogg",
+            "name": "Snoop Dogg",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement", "dlc-expansion"],
+      "facts": [],
+      "summary": "Snoop Dogg has been announced as coming to Hitman: World of Assassination."
+    },
+    {
+      "ref": "main_news/pragmata-is-getting-mega-man-skins",
+      "entities": {
+        "games": [
+          {
+            "id": "pragmata",
+            "name": "Pragmata",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "mega-man",
+            "name": "Mega Man",
+            "aliases": [],
+            "genres": ["platformer", "action-adventure"],
+            "franchise": "mega-man",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion"],
+      "facts": [],
+      "summary": "Pragmata has been confirmed to be getting Mega Man skins."
+    },
+    {
+      "ref": "main_news/genshin-impact-creator-hoyoverse-announces-realistic-new-eld",
+      "entities": {
+        "games": [
+          {
+            "id": "nodus-fall",
+            "name": "Nodus Fall",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "genshin-impact",
+            "name": "Genshin Impact",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "genshin-impact",
+            "inferred": true
+          },
+          {
+            "id": "elden-ring",
+            "name": "Elden Ring",
+            "aliases": [],
+            "genres": ["action-rpg", "soulslike", "open-world"],
+            "franchise": "elden-ring",
+            "inferred": true
+          },
+          {
+            "id": "monster-hunter",
+            "name": "Monster Hunter",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "monster-hunter",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hoyoverse",
+            "name": "Hoyoverse",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Hoyoverse, the creator of Genshin Impact, has announced Nodus Fall, a realistic new game likened to Elden Ring and Monster Hunter."
+    },
+    {
+      "ref": "main_news/ubisoft-announces-rainbow-six-tactics-a-single-player-turn-b",
+      "entities": {
+        "games": [
+          {
+            "id": "rainbow-six-tactics",
+            "name": "Rainbow Six Tactics",
+            "aliases": [],
+            "genres": ["turn-based-strategy", "strategy"],
+            "franchise": "rainbow-six",
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x-s",
+            "name": "Xbox Series X|S",
+            "aliases": ["Xbox Series S/X"],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Ubisoft has announced Rainbow Six Tactics, a single-player turn-based game for PS5, Xbox Series S/X and PC, with no release date given."
+    },
+    {
+      "ref": "main_news/uk-comic-bob-mortimer-stars-in-murals-the-next-game-from-bat",
+      "entities": {
+        "games": [
+          {
+            "id": "murals",
+            "name": "Murals",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "battletoads",
+            "name": "Battletoads",
+            "aliases": [],
+            "genres": ["action-adventure", "fighting"],
+            "franchise": "battletoads",
+            "inferred": true
+          },
+          {
+            "id": "disney-illusion-island",
+            "name": "Disney Illusion Island",
+            "aliases": [],
+            "genres": ["platformer", "metroidvania"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "dlala-studios",
+            "name": "Dlala Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "bob-mortimer",
+            "name": "Bob Mortimer",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "murals",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Due for release in 2027",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/uk-comic-bob-mortimer-stars-in-murals-the-next-game-from-battletoads-and-disney-illusion-island-dev-dlala-studios/"
+          }
+        }
+      ],
+      "summary": "UK comedian Bob Mortimer stars in Murals, the next game from Dlala Studios, developer of Battletoads and Disney Illusion Island, due for release in 2027."
+    },
+    {
+      "ref": "main_news/stage-tour-alongside-drum-microphone-and-guitar-peripherals",
+      "entities": {
+        "games": [
+          {
+            "id": "stage-tour",
+            "name": "Stage Tour",
+            "aliases": [],
+            "genres": ["rhythm"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date", "hardware"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-12-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "stage-tour",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Stage Tour, alongside Drum, Microphone and Guitar peripherals releases December 10th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/new-rock-band-style-game-from-original-guitar-hero-developers-release-alongside-plastic-instruments-december-10/"
+          }
+        }
+      ],
+      "summary": "Stage Tour releases on 10 December 2026 alongside drum, microphone and guitar peripherals, and launches with 45 songs."
+    },
+    {
+      "ref": "main_news/lego-skylines-is-a-brick-based-spin-off-of-the-cities-skylin",
+      "entities": {
+        "games": [
+          {
+            "id": "lego-skylines",
+            "name": "Lego Skylines",
+            "aliases": [],
+            "genres": ["simulation", "strategy", "sandbox"],
+            "franchise": "cities-skylines",
+            "inferred": true
+          },
+          {
+            "id": "cities-skylines",
+            "name": "Cities: Skylines",
+            "aliases": [],
+            "genres": ["simulation", "strategy"],
+            "franchise": "cities-skylines",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "paradox-interactive",
+            "name": "Paradox Interactive",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Lego Skylines has been announced as a brick-based spin-off of the Cities: Skylines series, with no release date given."
+    },
+    {
+      "ref": "business/entity-raises-5-8-million-to-build-browser-based-console-qua",
+      "entities": {
+        "games": [
+          {
+            "id": "star-trek-fleet-command",
+            "name": "Star Trek Fleet Command",
+            "aliases": [],
+            "genres": ["strategy", "mmo"],
+            "franchise": "star-trek",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "entity",
+            "name": "Entity",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "studio-opening"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 5800000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "entity",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-08-26",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "raises $5.8 million to build browser-based \"console-quality\" gaming platform",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/entity-raises-58-million-to-build-browser-based-console-quality-gaming-platform"
+          }
+        }
+      ],
+      "summary": "Entity, a Dublin startup founded by veterans behind Star Trek Fleet Command, has raised $5.8 million to build a browser-based \"console-quality\" gaming platform, with a launch planned for early 2027."
+    },
+    {
+      "ref": "business/maverick-games-partners-with-focus-entertainment-to-publish",
+      "entities": {
+        "games": [
+          {
+            "id": "clutch",
+            "name": "Clutch",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "maverick-games",
+            "name": "Maverick Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "focus-entertainment",
+            "name": "Focus Entertainment",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Maverick Games has partnered with Focus Entertainment to publish its debut racing title Clutch."
+    },
+    {
+      "ref": "business/journey-studio-thatgamecompany-has-launched-a-publishing-arm",
+      "entities": {
+        "games": [
+          {
+            "id": "journey",
+            "name": "Journey",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "thatgamecompany",
+            "name": "Thatgamecompany",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "thatgamepublisher",
+            "name": "Thatgamepublisher",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "announcement"],
+      "facts": [],
+      "summary": "Thatgamecompany, the studio behind Journey, has launched a publishing arm called Thatgamepublisher."
+    }
+  ]
+}
