@@ -1,0 +1,293 @@
+{
+  "date": "2026-08-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/1047-games-ends-active-development-on-empulse-and-splitgate",
+      "entities": {
+        "games": [
+          {
+            "id": "empulse",
+            "name": "Empulse",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "splitgate-arena-reloaded",
+            "name": "Splitgate: Arena Reloaded",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "splitgate",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "1047-games",
+            "name": "1047 Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown", "update-patch"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "empulse",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Both titles move to peer-to-peer hosting from September 3",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/1047-games-ends-active-development-on-empulse-and-splitgate-arena-reloaded-says-its-moving-away-from-live-service-shooters"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "splitgate-arena-reloaded",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Both titles move to peer-to-peer hosting from September 3",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/1047-games-ends-active-development-on-empulse-and-splitgate-arena-reloaded-says-its-moving-away-from-live-service-shooters"
+          }
+        }
+      ],
+      "summary": "1047 Games has ended active development on Empulse and Splitgate: Arena Reloaded, saying it is moving away from live service shooters, with both titles moving to peer-to-peer hosting from 3 September 2026."
+    },
+    {
+      "ref": "main_news/igda-incubation-sig-to-unveil-first-global-census-of-game-in",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "igda",
+            "name": "International Game Developers Association",
+            "aliases": ["IGDA"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "The IGDA Incubation SIG will unveil the first global census of game incubators and accelerators at Gamescom."
+    },
+    {
+      "ref": "main_news/xbox-to-let-insiders-convert-physical-game-discs-into-digita",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-one",
+            "name": "Xbox One",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox-series-x",
+            "name": "Xbox Series X",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-08-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "xbox",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-08-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Starts August 31st",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/xbox-to-let-insiders-convert-physical-game-discs-into-digital-entitlements-later-this-month"
+          }
+        }
+      ],
+      "summary": "Xbox will let Insiders convert physical game discs into digital entitlements from 31 August 2026 by inserting a supported disc into an Xbox One or Xbox Series X console and launching the game."
+    },
+    {
+      "ref": "main_news/ubisoft-announces-playstest-platform-the-player-council",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "ubisoft",
+            "name": "Ubisoft",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ubisoft has announced a playtest platform called The Player Council, where participants can test early concepts and prototypes and give feedback directly to developers."
+    },
+    {
+      "ref": "main_news/path-of-exile-1-0-releases-11th-december",
+      "entities": {
+        "games": [
+          {
+            "id": "path-of-exile",
+            "name": "Path of Exile",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "path-of-exile",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "grinding-gear-games",
+            "name": "Grinding Gear Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-12-11",
+          "unit": "date",
+          "currency": null,
+          "entity": "path-of-exile",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Path of Exile 1.0 releases 11th December",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/path-of-exile-2-version-1-0-free-to-play-date"
+          }
+        }
+      ],
+      "summary": "Path of Exile version 1.0 will release on 11 December 2026."
+    },
+    {
+      "ref": "main_news/gta-6-leaks-have-been-heartbreaking-for-our-team-says-rockst",
+      "entities": {
+        "games": [
+          {
+            "id": "gta-6",
+            "name": "GTA 6",
+            "aliases": ["Grand Theft Auto 6", "Grand Theft Auto VI"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": ["Rockstar"],
+            "publisher": "take-two-interactive",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Rockstar Games has broken its silence on leaked GTA 6 gameplay videos, saying the leaks have been heartbreaking for its team."
+    },
+    {
+      "ref": "business/playdate-maker-panic-is-refunding-tariff-fees-to-customers",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "panic",
+            "name": "Panic",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "playdate",
+            "name": "Playdate",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Panic, the maker of the Playdate handheld, is refunding tariff fees to customers."
+    }
+  ]
+}
