@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/anime-rpg-ananta-gets-a-january-15th-release-date-pc-ps5-and",
+      "entities": {
+        "games": [
+          {
+            "id": "ananta",
+            "name": "Ananta",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "naked-rain",
+            "name": "Naked Rain",
+            "aliases": [],
+            "publisher": "netease",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "playstation-5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          },
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": ["mobile devices"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027-01-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "ananta",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Anime RPG Ananta gets a January 15th release date (PC, PS5 and mobile devices)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/anime-rpg-ananta-release-date-january-pre-registrations"
+          }
+        }
+      ],
+      "summary": "Anime RPG Ananta has been given a 15 January release date on PC, PS5 and mobile, with pre-registrations reaching 17 million sign-ups."
+    },
+    {
+      "ref": "main_news/konami-wants-annual-silent-hill-games-and-is-working-on-many",
+      "entities": {
+        "games": [
+          {
+            "id": "silent-hill",
+            "name": "Silent Hill",
+            "aliases": [],
+            "genres": ["survival-horror", "horror"],
+            "franchise": "silent-hill",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Konami has said it wants to release Silent Hill games annually and is working on many unannounced projects."
+    },
+    {
+      "ref": "business/manor-lords-surpasses-4-million-copies-sold",
+      "entities": {
+        "games": [
+          {
+            "id": "manor-lords",
+            "name": "Manor Lords",
+            "aliases": [],
+            "genres": ["strategy", "simulation", "rts"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "slavic-magic",
+            "name": "Slavic Magic",
+            "aliases": [],
+            "publisher": "hooded-horse",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "hooded-horse",
+            "name": "Hooded Horse",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 4000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "manor-lords",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Manor Lords surpasses 4 million copies sold",
+          "source": {
+            "name": "GamesPress",
+            "domain": "gamespress.com",
+            "url": "https://www.gamespress.com/en-US/manor-lords-sells-4-million-copies-major-update-weekend-deal"
+          }
+        }
+      ],
+      "summary": "Manor Lords has surpassed 4 million copies sold."
+    },
+    {
+      "ref": "business/where-winds-meet-reaches-100-million-players-worldwide",
+      "entities": {
+        "games": [
+          {
+            "id": "where-winds-meet",
+            "name": "Where Winds Meet",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "everstone-studio",
+            "name": "Everstone Studio",
+            "aliases": [],
+            "publisher": "netease",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "netease",
+            "name": "NetEase",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "players_total",
+          "value": 100000000,
+          "unit": "players",
+          "currency": null,
+          "entity": "where-winds-meet",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-08-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Where Winds Meet Reaches 100 Million Players Worldwide",
+          "source": {
+            "name": "GamesPress",
+            "domain": "gamespress.com",
+            "url": "https://www.gamespress.com/en-GB/Where-Winds-Meet-Reaches-100-Million-Players-Worldwide-and-Announces-H"
+          }
+        }
+      ],
+      "summary": "Where Winds Meet has reached 100 million players worldwide."
+    }
+  ]
+}
