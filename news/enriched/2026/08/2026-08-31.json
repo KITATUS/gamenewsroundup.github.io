@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-31",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/project-helix-will-be-a-family-of-devices-xbox-ceo-confirms",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "microsoft",
+            "name": "Microsoft",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "project-helix",
+            "name": "Project Helix",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "announcement"],
+      "facts": [],
+      "summary": "Xbox's CEO has confirmed that Project Helix will be a family of devices, with a focus on affordability amid rising costs."
+    },
+    {
+      "ref": "main_news/more-than-12-tb-of-steam-games-and-unreleased-betas-from-200",
+      "entities": {
+        "games": [
+          {
+            "id": "portal-2",
+            "name": "Portal 2",
+            "aliases": [],
+            "genres": ["puzzle", "platformer"],
+            "franchise": "portal",
+            "inferred": true
+          },
+          {
+            "id": "left-4-dead",
+            "name": "Left 4 Dead",
+            "aliases": [],
+            "genres": ["fps", "survival-horror"],
+            "franchise": "left-4-dead",
+            "inferred": true
+          },
+          {
+            "id": "counter-strike-global-offensive",
+            "name": "Counter-Strike: Global Offensive",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "counter-strike",
+            "inferred": true
+          },
+          {
+            "id": "f-stop",
+            "name": "F-Stop",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": "portal",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "More than 12 TB of Steam games and unreleased betas dating from 2003 to 2013 have leaked, including early Valve builds of Portal 2, Left 4 Dead, Counter-Strike: Global Offensive and the cancelled F-Stop."
+    },
+    {
+      "ref": "main_news/ea-confirms-iron-man-game-after-trailer-is-leaked",
+      "entities": {
+        "games": [
+          {
+            "id": "iron-man",
+            "name": "Iron Man",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "marvel",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "motive-studio",
+            "name": "Motive Studio",
+            "aliases": [],
+            "publisher": "electronic-arts",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "electronic-arts",
+            "name": "Electronic Arts",
+            "aliases": ["EA"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "trailer"],
+      "facts": [],
+      "summary": "EA has confirmed its Iron Man game after a trailer for it leaked."
+    }
+  ]
+}
