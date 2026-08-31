@@ -1,0 +1,283 @@
+{
+  "date": "2026-09-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sony-s-next-playstation-state-of-play-coming-this-thursday-f",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-vii-revelation",
+            "name": "Final Fantasy VII Revelation",
+            "aliases": [],
+            "genres": ["jrpg", "action-rpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": true
+          },
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "playstation",
+            "name": "PlayStation",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "playstation-state-of-play",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "6am PT / 9am ET / 2pm BST / 3pm CEST on Thursday, 3rd September",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/sony-playstation-state-of-play-september-date-time"
+          }
+        }
+      ],
+      "summary": "Sony will hold its next PlayStation State of Play on Thursday 3 September 2026, followed by a separate showcase dedicated to Japan and Asia."
+    },
+    {
+      "ref": "main_news/uk-preowned-retailer-cex-s-website-confirms-previous-reports",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "UK preowned retailer CeX's website lists a 'Retro Birmingham' store, confirming earlier reports that the chain is opening a retro-only shop."
+    },
+    {
+      "ref": "main_news/fable-s-main-quest-will-take-around-15-20-hours-to-beat-xbox",
+      "entities": {
+        "games": [
+          {
+            "id": "fable",
+            "name": "Fable",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "fable",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "playground-games",
+            "name": "Playground Games",
+            "aliases": [],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "xbox-game-studios",
+            "name": "Xbox Game Studios",
+            "aliases": ["Xbox"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "playtime_hours",
+          "value": 15,
+          "unit": "hours",
+          "currency": null,
+          "entity": "fable",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Fable’s main quest will take ‘around 15-20 hours’ to beat",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/fables-main-quest-will-take-around-15-20-hours-to-beat-xbox-says/"
+          }
+        },
+        {
+          "metric": "playtime_hours",
+          "value": 20,
+          "unit": "hours",
+          "currency": null,
+          "entity": "fable",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Fable’s main quest will take ‘around 15-20 hours’ to beat",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/fables-main-quest-will-take-around-15-20-hours-to-beat-xbox-says/"
+          }
+        },
+        {
+          "metric": "playtime_hours",
+          "value": 15,
+          "unit": "hours",
+          "currency": null,
+          "entity": "fable",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The game will also feature 15-20 hours of side quests",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/fables-main-quest-will-take-around-15-20-hours-to-beat-xbox-says/"
+          }
+        },
+        {
+          "metric": "playtime_hours",
+          "value": 20,
+          "unit": "hours",
+          "currency": null,
+          "entity": "fable",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-01",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The game will also feature 15-20 hours of side quests",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/fables-main-quest-will-take-around-15-20-hours-to-beat-xbox-says/"
+          }
+        }
+      ],
+      "summary": "Xbox says Fable's main quest takes around 15-20 hours to complete, with a further 15-20 hours of side quests."
+    },
+    {
+      "ref": "business/sega-s-rovio-copenhagen-studio-is-closing-after-its-mobile-g",
+      "entities": {
+        "games": [
+          {
+            "id": "sonic-blitz",
+            "name": "Sonic Blitz",
+            "aliases": [],
+            "genres": [],
+            "franchise": "sonic-the-hedgehog",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rovio-copenhagen",
+            "name": "Rovio Copenhagen",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": false
+          },
+          {
+            "id": "rovio",
+            "name": "Rovio",
+            "aliases": [],
+            "publisher": "sega",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "mobile",
+            "name": "Mobile",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Sega is closing its Rovio Copenhagen studio following the cancellation of the studio's mobile game Sonic Blitz."
+    },
+    {
+      "ref": "business/housemarque-co-founder-ilari-kuittinen-exits-from-studio",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "housemarque",
+            "name": "Housemarque",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "ilari-kuittinen",
+            "name": "Ilari Kuittinen",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Housemarque co-founder Ilari Kuittinen has left the studio."
+    }
+  ]
+}
