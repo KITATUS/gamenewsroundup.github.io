@@ -170,8 +170,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2025-11-21",
-    "last_seen": "2025-11-21",
-    "mentions": 1,
+    "last_seen": "2026-09-02",
+    "mentions": 2,
     "name": "2K Games",
     "type": "publisher"
   },
@@ -4348,8 +4348,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2025-04-15",
-    "last_seen": "2025-04-15",
-    "mentions": 1,
+    "last_seen": "2026-09-02",
+    "mentions": 2,
     "name": "Bit Reactor",
     "type": "studio"
   },
@@ -5383,6 +5383,15 @@
     "name": "Brian Raffel",
     "type": "person"
   },
+  "brian-ward": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "mentions": 1,
+    "name": "Brian Ward",
+    "type": "person"
+  },
   "brianna-knickerbocker": {
     "aliases": [],
     "fact_count": 0,
@@ -6066,8 +6075,8 @@
     ],
     "fact_count": 70,
     "first_seen": "2024-04-29",
-    "last_seen": "2026-08-26",
-    "mentions": 106,
+    "last_seen": "2026-09-02",
+    "mentions": 107,
     "name": "Capcom",
     "type": "publisher"
   },
@@ -16397,9 +16406,20 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-06-14",
-    "last_seen": "2025-01-07",
-    "mentions": 3,
-    "name": "GeForce Now",
+    "last_seen": "2026-09-02",
+    "mentions": 4,
+    "name": "GeForce NOW",
+    "type": "platform"
+  },
+  "geforce-rtx-50-series": {
+    "aliases": [
+      "GeForce RTX 50 Series GPUs"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "mentions": 1,
+    "name": "GeForce RTX 50 Series",
     "type": "platform"
   },
   "gemma-brown": {
@@ -17552,6 +17572,7 @@
     "aliases": [
       "GTA 5",
       "GTA V",
+      "GTA5",
       "Grand Theft Auto V"
     ],
     "fact_count": 2,
@@ -17561,8 +17582,8 @@
       "action-adventure",
       "open-world"
     ],
-    "last_seen": "2026-08-10",
-    "mentions": 7,
+    "last_seen": "2026-09-02",
+    "mentions": 8,
     "name": "Grand Theft Auto V",
     "type": "game"
   },
@@ -17931,7 +17952,9 @@
     "type": "game"
   },
   "gta-online": {
-    "aliases": [],
+    "aliases": [
+      "GTA Online"
+    ],
     "fact_count": 5,
     "first_seen": "2024-10-16",
     "franchise": "grand-theft-auto",
@@ -17939,8 +17962,8 @@
       "action-adventure",
       "open-world"
     ],
-    "last_seen": "2026-04-15",
-    "mentions": 2,
+    "last_seen": "2026-09-02",
+    "mentions": 3,
     "name": "GTA Online",
     "type": "game"
   },
@@ -23068,8 +23091,8 @@
     ],
     "fact_count": 14,
     "first_seen": "2024-05-28",
-    "last_seen": "2026-08-28",
-    "mentions": 42,
+    "last_seen": "2026-09-02",
+    "mentions": 43,
     "name": "Konami",
     "type": "publisher"
   },
@@ -29246,6 +29269,19 @@
     "name": "NBA 2K25",
     "type": "game"
   },
+  "nba-2k27": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-02",
+    "franchise": "nba-2k",
+    "genres": [
+      "sports"
+    ],
+    "last_seen": "2026-09-02",
+    "mentions": 1,
+    "name": "NBA 2K27",
+    "type": "game"
+  },
   "nbcuniversal": {
     "aliases": [],
     "fact_count": 0,
@@ -30646,9 +30682,9 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-11-08",
-    "last_seen": "2026-06-23",
-    "mentions": 4,
-    "name": "NVIDIA",
+    "last_seen": "2026-09-02",
+    "mentions": 5,
+    "name": "Nvidia",
     "type": "publisher"
   },
   "nvidia-geforce": {
@@ -36901,8 +36937,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-14",
-    "last_seen": "2026-08-27",
-    "mentions": 30,
+    "last_seen": "2026-09-02",
+    "mentions": 31,
     "name": "Rockstar Games",
     "type": "studio"
   },
@@ -37910,12 +37946,13 @@
   },
   "savvy-games-group": {
     "aliases": [
+      "Savvy",
       "Savvy Games"
     ],
     "fact_count": 0,
     "first_seen": "2024-09-09",
-    "last_seen": "2026-03-23",
-    "mentions": 3,
+    "last_seen": "2026-09-02",
+    "mentions": 4,
     "name": "Savvy Games Group",
     "type": "publisher"
   },
@@ -41314,6 +41351,20 @@
     "last_seen": "2024-06-05",
     "mentions": 2,
     "name": "Star Wars: The Clone Wars",
+    "type": "game"
+  },
+  "star-wars-zero-company": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-02",
+    "franchise": "star-wars",
+    "genres": [
+      "strategy",
+      "turn-based-strategy"
+    ],
+    "last_seen": "2026-09-02",
+    "mentions": 1,
+    "name": "Star Wars Zero Company",
     "type": "game"
   },
   "starbound": {
@@ -48017,6 +48068,15 @@
     "mentions": 1,
     "name": "Turok Origins",
     "type": "game"
+  },
+  "turqi-alnowaiser": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "mentions": 1,
+    "name": "Turqi Alnowaiser",
+    "type": "person"
   },
   "twin-sails-interactive": {
     "aliases": [],

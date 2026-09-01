@@ -1,6 +1,12 @@
 {
-  "day_count": 584,
+  "day_count": 585,
   "days": [
+    {
+      "date": "2026-09-02",
+      "entities": 15,
+      "facts": 4,
+      "items": 5
+    },
     {
       "date": "2026-09-01",
       "entities": 15,
@@ -3506,13 +3512,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4309,
-  "fact_count": 2803,
+  "entity_count": 4314,
+  "fact_count": 2807,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 926,
+    "action-adventure": 928,
     "action-platformer": 3,
     "action-rpg": 683,
     "adventure": 345,
@@ -3536,7 +3542,7 @@
     "mmo": 45,
     "mmorpg": 71,
     "moba": 27,
-    "open-world": 410,
+    "open-world": 412,
     "party": 93,
     "platformer": 283,
     "puzzle": 152,
@@ -3550,19 +3556,19 @@
     "simulation": 317,
     "social-deduction": 1,
     "soulslike": 79,
-    "sports": 154,
+    "sports": 155,
     "stealth": 100,
-    "strategy": 178,
+    "strategy": 179,
     "survival": 185,
     "survival-horror": 261,
     "tactical-shooter": 2,
     "tower-defense": 15,
     "tps": 159,
-    "turn-based-strategy": 78,
+    "turn-based-strategy": 79,
     "twin-stick-shooter": 1,
     "visual-novel": 28
   },
-  "item_count": 3940,
+  "item_count": 3945,
   "metric_totals": {
     "acquisition_price": 35,
     "announce_date": 11,
@@ -3574,7 +3580,7 @@
     "development_budget": 13,
     "downloads": 26,
     "equity_stake_pct": 21,
-    "event_date": 280,
+    "event_date": 282,
     "funding_raised": 65,
     "headcount": 28,
     "layoffs_count": 117,
@@ -3587,7 +3593,7 @@
     "price": 242,
     "price_change_pct": 18,
     "profit": 140,
-    "release_date": 683,
+    "release_date": 685,
     "revenue": 408,
     "review_score": 2,
     "severance": 2,

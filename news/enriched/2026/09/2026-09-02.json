@@ -1,0 +1,264 @@
+{
+  "date": "2026-09-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nvidia-s-controversial-dlss-5-officially-launches-this-week",
+      "entities": {
+        "games": [
+          {
+            "id": "nba-2k27",
+            "name": "NBA 2K27",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "nba-2k",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "nvidia",
+            "name": "Nvidia",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "2k-games",
+            "name": "2K Games",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "geforce-now",
+            "name": "GeForce NOW",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "geforce-rtx-50-series",
+            "name": "GeForce RTX 50 Series",
+            "aliases": ["GeForce RTX 50 Series GPUs"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "release-date", "hardware", "announcement"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "dlss-5",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-09-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "From September 3, DLSS 5 will be available in NBA 2K27 for all GeForce RTX 50 Series GPUs and GeForce NOW",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nvidias-controversial-dlss-5-officially-launches-this-week-via-nba-2k27/"
+          }
+        }
+      ],
+      "summary": "Nvidia's DLSS 5 launches on 3 September 2026 in NBA 2K27 for GeForce RTX 50 Series GPUs and GeForce NOW, following a leak of the technology."
+    },
+    {
+      "ref": "main_news/capcom-and-konami-have-both-announced-showcases-for-this-mon",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "konami",
+            "name": "Konami",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "konami-press-start",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Konami Press Start showcase will take place this Friday, September 3 at 8am PT / 11am ET / 4pm BST",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-and-konami-have-both-announced-showcases-for-this-month/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-16",
+          "unit": "date",
+          "currency": null,
+          "entity": "capcom-spotlight",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Capcom Spotlight will take place on September 16 at 7am PT / 10am ET / 3pm BST",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/capcom-and-konami-have-both-announced-showcases-for-this-month/"
+          }
+        }
+      ],
+      "summary": "Capcom and Konami have both announced showcases for September 2026, with Konami Press Start on 3 September and Capcom Spotlight on 16 September."
+    },
+    {
+      "ref": "main_news/rockstar-games-unveils-its-official-gta-online-rp-server-for",
+      "entities": {
+        "games": [
+          {
+            "id": "gta-online",
+            "name": "GTA Online",
+            "aliases": ["GTA Online"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          },
+          {
+            "id": "grand-theft-auto-v",
+            "name": "Grand Theft Auto V",
+            "aliases": ["GTA5"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "beta-demo"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-09-08",
+          "unit": "date",
+          "currency": null,
+          "entity": "nopixel-5",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-09-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Closed beta starts September 8th",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/rockstar-games-official-gta-online-rp-server-closed-beta"
+          }
+        }
+      ],
+      "summary": "Rockstar Games has unveiled an official GTA Online roleplay server for GTA5 called \"nopixel 5\", with a closed beta starting on 8 September 2026."
+    },
+    {
+      "ref": "business/brian-ward-steps-down-as-savvy-games-group-ceo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "savvy-games-group",
+            "name": "Savvy Games Group",
+            "aliases": ["Savvy"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "brian-ward",
+            "name": "Brian Ward",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "turqi-alnowaiser",
+            "name": "Turqi Alnowaiser",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Brian Ward has stepped down as CEO of Savvy Games Group, with PIF deputy governor Turqi Alnowaiser becoming interim acting CEO."
+    },
+    {
+      "ref": "rumours/around-80-of-star-wars-zero-company-studio-bit-reactor-was-r",
+      "entities": {
+        "games": [
+          {
+            "id": "star-wars-zero-company",
+            "name": "Star Wars Zero Company",
+            "aliases": [],
+            "genres": ["turn-based-strategy", "strategy"],
+            "franchise": "star-wars",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bit-reactor",
+            "name": "Bit Reactor",
+            "aliases": [],
+            "publisher": "electronic-arts",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour", "layoffs"],
+      "facts": [],
+      "summary": "A rumour claims that around 80% of the team at Star Wars Zero Company developer Bit Reactor was furloughed weeks before the game's release."
+    }
+  ]
+}
