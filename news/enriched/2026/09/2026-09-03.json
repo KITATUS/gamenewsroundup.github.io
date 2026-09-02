@@ -1,0 +1,693 @@
+{
+  "date": "2026-09-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/netflix-says-gta-6-an-extended-look-got-31-1-million-views-a",
+      "entities": {
+        "games": [
+          {
+            "id": "gta-6",
+            "name": "GTA 6",
+            "aliases": ["Grand Theft Auto VI"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "netflix",
+            "name": "Netflix",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "youtube",
+            "name": "YouTube",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["trailer"],
+      "facts": [
+        {
+          "metric": "viewers",
+          "value": 31100000,
+          "unit": "views",
+          "currency": null,
+          "entity": "gta-6-an-extended-look",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-09-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "GTA 6: An Extended Look got 31.1 million views",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/netflix-says-gta-6-an-extended-look-got-31-1-million-views-and-topped-its-charts-in-nearly-every-country/"
+          }
+        },
+        {
+          "metric": "viewers",
+          "value": 17000000,
+          "unit": "views",
+          "currency": null,
+          "entity": "gta-6-an-extended-look",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-09-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "it has since racked up a further 17 million views on the Rockstar Games YouTube channel",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/netflix-says-gta-6-an-extended-look-got-31-1-million-views-and-topped-its-charts-in-nearly-every-country/"
+          }
+        }
+      ],
+      "summary": "Netflix said GTA 6: An Extended Look drew 31.1 million views and topped its charts in nearly every country, with a further 17 million views on Rockstar Games' YouTube channel."
+    },
+    {
+      "ref": "main_news/mario-kart-8-deluxe-gets-a-surprise-switch-2-update-bringing",
+      "entities": {
+        "games": [
+          {
+            "id": "mario-kart-8-deluxe",
+            "name": "Mario Kart 8 Deluxe",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "mario-kart",
+            "inferred": false
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": ["Switch 2"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Mario Kart 8 Deluxe received a surprise Switch 2 update adding eight-player split-screen, improved image quality, faster loading, GameShare and CameraPlay support."
+    },
+    {
+      "ref": "free_games_subscription/nintendo-adds-three-more-nes-games-to-switch-online-ninja-ga",
+      "entities": {
+        "games": [
+          {
+            "id": "ninja-gaiden-3",
+            "name": "Ninja Gaiden 3",
+            "aliases": [],
+            "genres": ["platformer", "action-adventure"],
+            "franchise": "ninja-gaiden",
+            "inferred": true
+          },
+          {
+            "id": "ikari-warriors",
+            "name": "Ikari Warriors",
+            "aliases": [],
+            "genres": ["shooter"],
+            "franchise": "ikari-warriors",
+            "inferred": true
+          },
+          {
+            "id": "rc-pro-am-2",
+            "name": "RC Pro-AM 2",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "rc-pro-am",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-online",
+            "name": "Nintendo Switch Online",
+            "aliases": ["Switch Online"],
+            "inferred": false
+          },
+          {
+            "id": "nes",
+            "name": "NES",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Nintendo added three more NES games to Nintendo Switch Online: Ninja Gaiden 3, Ikari Warriors and RC Pro-AM 2."
+    },
+    {
+      "ref": "free_games_subscription/september-s-first-wave-of-xbox-game-pass-games-revealed",
+      "entities": {
+        "games": [
+          {
+            "id": "shelldiver",
+            "name": "Shelldiver",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "speedrunners-2-king-of-speed",
+            "name": "Speedrunners 2: King of Speed",
+            "aliases": [],
+            "genres": ["platformer", "party"],
+            "franchise": "speedrunners",
+            "inferred": true
+          },
+          {
+            "id": "dice-a-million",
+            "name": "Dice a Million",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "call-of-duty-black-ops-cold-war",
+            "name": "Call of Duty: Black Ops Cold War",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          },
+          {
+            "id": "the-royal-writ",
+            "name": "The Royal Writ",
+            "aliases": [],
+            "genres": [],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "virtua-fighter-5-revo-world-stage",
+            "name": "Virtua Fighter 5 REVO World Stage",
+            "aliases": [],
+            "genres": ["fighting"],
+            "franchise": "virtua-fighter",
+            "inferred": true
+          },
+          {
+            "id": "runescape-dragonwilds",
+            "name": "RuneScape: Dragonwilds",
+            "aliases": [],
+            "genres": ["survival"],
+            "franchise": "runescape",
+            "inferred": true
+          },
+          {
+            "id": "commandos-origins",
+            "name": "Commandos: Origins",
+            "aliases": [],
+            "genres": ["strategy", "stealth"],
+            "franchise": "commandos",
+            "inferred": true
+          },
+          {
+            "id": "cricket-24",
+            "name": "Cricket 24",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "cricket",
+            "inferred": true
+          },
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          },
+          {
+            "id": "dead-cells",
+            "name": "Dead Cells",
+            "aliases": [],
+            "genres": ["roguelike", "metroidvania"],
+            "franchise": "dead-cells",
+            "inferred": true
+          },
+          {
+            "id": "deep-rock-galactic-survivor",
+            "name": "Deep Rock Galactic Survivor",
+            "aliases": [],
+            "genres": ["roguelike"],
+            "franchise": "deep-rock-galactic",
+            "inferred": true
+          },
+          {
+            "id": "frostpunk-2",
+            "name": "Frostpunk 2",
+            "aliases": [],
+            "genres": ["strategy", "survival"],
+            "franchise": "frostpunk",
+            "inferred": true
+          },
+          {
+            "id": "mullet-madjack",
+            "name": "Mullet Madjack",
+            "aliases": [],
+            "genres": ["fps"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "spiritfarer",
+            "name": "Spiritfarer",
+            "aliases": [],
+            "genres": ["adventure", "simulation"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "superliminal",
+            "name": "Superliminal",
+            "aliases": [],
+            "genres": ["puzzle"],
+            "franchise": null,
+            "inferred": true
+          },
+          {
+            "id": "train-sim-world-5",
+            "name": "Train Sim World 5",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": "train-sim-world",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "xbox-game-pass",
+            "name": "Xbox Game Pass",
+            "aliases": ["Game Pass"],
+            "inferred": false
+          },
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-09-01",
+          "unit": "date",
+          "currency": null,
+          "entity": "shelldiver",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-09-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Shelldiver (1st September)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "speedrunners-2-king-of-speed",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-09-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Speedrunners 2: King of Speed (3rd September)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "dice-a-million",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-09-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dice a Million (4th September)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-08",
+          "unit": "date",
+          "currency": null,
+          "entity": "call-of-duty-black-ops-cold-war",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-09-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Call of Duty: Black Ops Cold War (8th September)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-royal-writ",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-09-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Royal Writ (10th September)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "virtua-fighter-5-revo-world-stage",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-09-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Virtua Fighter 5 REVO World Stage (10th September)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-15",
+          "unit": "date",
+          "currency": null,
+          "entity": "runescape-dragonwilds",
+          "entity_type": "game",
+          "scope": "event",
+          "as_of": "2026-09-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "RuneScape: Dragonwilds (15th September)",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+          }
+        }
+      ],
+      "summary": "Eurogamer detailed the first wave of September 2026 Xbox Game Pass additions, including Shelldiver, Call of Duty: Black Ops Cold War and RuneScape: Dragonwilds, alongside ten titles leaving the service on 15 September."
+    },
+    {
+      "ref": "business/cd-projekt-red-sees-profit-climb-37-in-h1-2026",
+      "entities": {
+        "games": [
+          {
+            "id": "cyberpunk-2077",
+            "name": "Cyberpunk 2077",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          },
+          {
+            "id": "cyberpunk-2077-phantom-liberty",
+            "name": "Cyberpunk 2077: Phantom Liberty",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "cyberpunk",
+            "inferred": true
+          },
+          {
+            "id": "the-witcher-3-wild-hunt",
+            "name": "The Witcher 3: Wild Hunt",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "the-witcher",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "cd-projekt-red",
+            "name": "CD Projekt Red",
+            "aliases": ["CD Projekt"],
+            "publisher": "cd-projekt",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 116500000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "cd-projekt-red",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-09-03",
+          "period": null,
+          "direction": "up",
+          "confidence": "high",
+          "quote": "CD Projekt Red generated $116.5 million (435 million PLN) in revenue during the first half of 2026, up 23% year-over-year",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        },
+        {
+          "metric": "revenue",
+          "value": 435000000,
+          "unit": "money",
+          "currency": "PLN",
+          "entity": "cd-projekt-red",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-09-03",
+          "period": null,
+          "direction": "up",
+          "confidence": "high",
+          "quote": "435 million PLN) in revenue during the first half of 2026",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 66700000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "cd-projekt-red",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-09-03",
+          "period": null,
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Net profit also rose 37% to $66.7 million (249 million PLN)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": 249000000,
+          "unit": "money",
+          "currency": "PLN",
+          "entity": "cd-projekt-red",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-09-03",
+          "period": null,
+          "direction": "up",
+          "confidence": "high",
+          "quote": "249 million PLN)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 40000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "cyberpunk-2077",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cyberpunk 2077 has crossed the 40 million copies sold",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 15000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "cyberpunk-2077-phantom-liberty",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Cyberpunk 2077: Phantom Liberty has sold 15 million copies",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 65000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "the-witcher-3-wild-hunt",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The Witcher 3: Wild Hunt has sold over 65 million copies",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        },
+        {
+          "metric": "copies_sold",
+          "value": 90000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "the-witcher",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-09-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Witcher series has surpassed 90 million copies to date",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026"
+          }
+        }
+      ],
+      "summary": "CD Projekt Red reported a 37% rise in net profit for the first half of 2026 on $116.5 million of revenue, alongside lifetime sales milestones for Cyberpunk 2077 and The Witcher."
+    },
+    {
+      "ref": "business/nexus-mods-acquires-steamdb",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Nexus Mods acquired SteamDB, which will keep operating under its own name and brand, with the terms of the deal undisclosed."
+    }
+  ]
+}
