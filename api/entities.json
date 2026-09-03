@@ -1998,10 +1998,11 @@
     "first_seen": "2025-02-13",
     "franchise": "ape-escape",
     "genres": [
+      "action-adventure",
       "platformer"
     ],
-    "last_seen": "2025-06-13",
-    "mentions": 2,
+    "last_seen": "2026-09-04",
+    "mentions": 3,
     "name": "Ape Escape",
     "type": "game"
   },
@@ -10345,8 +10346,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-07-09",
-    "last_seen": "2026-08-17",
-    "mentions": 6,
+    "last_seen": "2026-09-04",
+    "mentions": 7,
     "name": "Disney",
     "type": "publisher"
   },
@@ -14427,15 +14428,15 @@
   },
   "final-fantasy-7-revelation": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2026-07-03",
     "franchise": "final-fantasy",
     "genres": [
       "action-rpg",
       "jrpg"
     ],
-    "last_seen": "2026-08-10",
-    "mentions": 2,
+    "last_seen": "2026-09-04",
+    "mentions": 3,
     "name": "Final Fantasy 7 Revelation",
     "type": "game"
   },
@@ -15696,8 +15697,8 @@
     ],
     "fact_count": 3,
     "first_seen": "2024-07-12",
-    "last_seen": "2026-06-11",
-    "mentions": 2,
+    "last_seen": "2026-09-04",
+    "mentions": 3,
     "name": "Frontier Developments",
     "type": "studio"
   },
@@ -17389,6 +17390,20 @@
     "mentions": 1,
     "name": "Graffiti Games",
     "type": "studio"
+  },
+  "gran-turismo": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-04",
+    "franchise": "gran-turismo",
+    "genres": [
+      "racing",
+      "simulation"
+    ],
+    "last_seen": "2026-09-04",
+    "mentions": 1,
+    "name": "Gran Turismo",
+    "type": "game"
   },
   "gran-turismo-7": {
     "aliases": [],
@@ -27441,8 +27456,8 @@
     ],
     "fact_count": 17,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-08-31",
-    "mentions": 125,
+    "last_seen": "2026-09-04",
+    "mentions": 127,
     "name": "Microsoft",
     "type": "publisher"
   },
@@ -32832,6 +32847,20 @@
     "name": "Planet Centauri",
     "type": "game"
   },
+  "planet-coaster": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-04",
+    "franchise": "planet-coaster",
+    "genres": [
+      "simulation",
+      "strategy"
+    ],
+    "last_seen": "2026-09-04",
+    "mentions": 1,
+    "name": "Planet Coaster",
+    "type": "game"
+  },
   "planet-coaster-2": {
     "aliases": [],
     "fact_count": 1,
@@ -33065,8 +33094,8 @@
     ],
     "fact_count": 2,
     "first_seen": "2024-05-16",
-    "last_seen": "2026-09-01",
-    "mentions": 78,
+    "last_seen": "2026-09-04",
+    "mentions": 79,
     "name": "PlayStation",
     "type": "platform"
   },
@@ -40154,8 +40183,8 @@
     ],
     "fact_count": 27,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-09-01",
-    "mentions": 185,
+    "last_seen": "2026-09-04",
+    "mentions": 187,
     "name": "Sony Interactive Entertainment",
     "type": "publisher"
   },
@@ -40905,8 +40934,8 @@
     ],
     "fact_count": 47,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-01",
-    "mentions": 75,
+    "last_seen": "2026-09-04",
+    "mentions": 76,
     "name": "Square Enix",
     "type": "publisher"
   },
@@ -51233,8 +51262,8 @@
     ],
     "fact_count": 8,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-03",
-    "mentions": 180,
+    "last_seen": "2026-09-04",
+    "mentions": 181,
     "name": "Xbox",
     "type": "platform"
   },
@@ -51251,18 +51280,21 @@
   },
   "xbox-cloud-gaming": {
     "aliases": [
-      "Cloud"
+      "Cloud",
+      "cloud gaming"
     ],
     "fact_count": 0,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-08-05",
-    "mentions": 18,
+    "last_seen": "2026-09-04",
+    "mentions": 19,
     "name": "Xbox Cloud Gaming",
     "type": "platform"
   },
   "xbox-game-pass": {
     "aliases": [
       "Game Pass",
+      "Game Pass Essential",
+      "Game Pass Premium",
       "Game Pass Standard",
       "Game Pass Ultimate",
       "Game Pass for Console",
@@ -51272,8 +51304,8 @@
     ],
     "fact_count": 13,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-03",
-    "mentions": 83,
+    "last_seen": "2026-09-04",
+    "mentions": 84,
     "name": "Xbox Game Pass",
     "type": "platform"
   },
