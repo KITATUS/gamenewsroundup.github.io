@@ -1,0 +1,237 @@
+{
+  "date": "2026-09-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nintendo-confirms-2-nintendo-directs-including-zelda-40th-an",
+      "entities": {
+        "games": [
+          {
+            "id": "the-legend-of-zelda",
+            "name": "The Legend of Zelda",
+            "aliases": ["Zelda"],
+            "genres": ["action-adventure"],
+            "franchise": "the-legend-of-zelda",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-09-08",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-direct-zelda-40th-anniversary",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Zelda presentation will take place on September 8 at 7am PT / 10am ET / 3pm BST",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-confirms-zelda-40th-anniversary-direct/"
+          }
+        },
+        {
+          "metric": "event_date",
+          "value": "2026-09-09",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-direct",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-07",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The general Nintendo Direct will take place on September 9 at 7am PT/ 10am ET / 3pm BST",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-confirms-zelda-40th-anniversary-direct/"
+          }
+        }
+      ],
+      "summary": "Nintendo has confirmed two Nintendo Directs, a roughly 30-minute Zelda 40th Anniversary presentation on 8 September 2026 and a general Direct of around 45 minutes on 9 September 2026."
+    },
+    {
+      "ref": "main_news/valve-staged-its-own-left-4-dead-2-trailer-leak-to-get-aroun",
+      "entities": {
+        "games": [
+          {
+            "id": "left-4-dead-2",
+            "name": "Left 4 Dead 2",
+            "aliases": [],
+            "genres": ["fps", "survival-horror"],
+            "franchise": "left-4-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "chet-faliszek",
+            "name": "Chet Faliszek",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "Former Valve writer Chet Faliszek has said Valve staged its own Left 4 Dead 2 trailer \"leak\" in order to get around an ESRB ban."
+    },
+    {
+      "ref": "main_news/double-fine-s-first-game-since-leaving-xbox-is-a-comedy-bus",
+      "entities": {
+        "games": [
+          {
+            "id": "thank-you-bus-driver",
+            "name": "Thank You Bus Driver",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": null,
+            "inferred": false
+          }
+        ],
+        "studios": [
+          {
+            "id": "double-fine",
+            "name": "Double Fine",
+            "aliases": ["Double Fine Productions"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "xbox",
+            "name": "Xbox",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Double Fine's first game since leaving Xbox is a comedy bus-driving simulator called Thank You Bus Driver."
+    },
+    {
+      "ref": "main_news/square-enix-wants-to-turn-final-fantasy-7-into-an-ip-with-an",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-7",
+            "name": "Final Fantasy 7",
+            "aliases": ["FF7"],
+            "genres": ["jrpg", "rpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          },
+          {
+            "id": "final-fantasy-7-remake",
+            "name": "Final Fantasy 7 Remake",
+            "aliases": ["FF7 Remake"],
+            "genres": ["action-rpg", "jrpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Square Enix has said it wants to turn Final Fantasy 7 into \"an IP with an ever-evolving future\" that extends beyond the FF7 Remake trilogy."
+    },
+    {
+      "ref": "business/the-blood-of-dawnwalker-has-sold-1-million-copies-in-just-3",
+      "entities": {
+        "games": [
+          {
+            "id": "the-blood-of-dawnwalker",
+            "name": "The Blood of Dawnwalker",
+            "aliases": [],
+            "genres": ["action-rpg", "rpg", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rebel-wolves",
+            "name": "Rebel Wolves",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "the-blood-of-dawnwalker",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-07",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Blood of Dawnwalker has sold 1 million copies in just 3 days",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/blood-of-dawnwalker-1-million-sales-rebel-wolves"
+          }
+        }
+      ],
+      "summary": "The Blood of Dawnwalker has sold 1 million copies within three days of release."
+    }
+  ]
+}

@@ -6563,6 +6563,15 @@
     "name": "Chernobylite",
     "type": "game"
   },
+  "chet-faliszek": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-07",
+    "last_seen": "2026-09-07",
+    "mentions": 1,
+    "name": "Chet Faliszek",
+    "type": "person"
+  },
   "chibi-robo": {
     "aliases": [],
     "fact_count": 0,
@@ -11004,8 +11013,8 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-07-30",
-    "last_seen": "2026-08-24",
-    "mentions": 8,
+    "last_seen": "2026-09-07",
+    "mentions": 9,
     "name": "Double Fine",
     "type": "studio"
   },
@@ -14336,6 +14345,7 @@
   },
   "final-fantasy-7": {
     "aliases": [
+      "FF7",
       "Final Fantasy VII"
     ],
     "fact_count": 0,
@@ -14343,10 +14353,11 @@
     "franchise": "final-fantasy",
     "genres": [
       "action-rpg",
-      "jrpg"
+      "jrpg",
+      "rpg"
     ],
-    "last_seen": "2025-01-09",
-    "mentions": 3,
+    "last_seen": "2026-09-07",
+    "mentions": 4,
     "name": "Final Fantasy 7",
     "type": "game"
   },
@@ -14382,7 +14393,9 @@
     "type": "game"
   },
   "final-fantasy-7-remake": {
-    "aliases": [],
+    "aliases": [
+      "FF7 Remake"
+    ],
     "fact_count": 0,
     "first_seen": "2025-09-15",
     "franchise": "final-fantasy",
@@ -14390,8 +14403,8 @@
       "action-rpg",
       "jrpg"
     ],
-    "last_seen": "2026-01-27",
-    "mentions": 3,
+    "last_seen": "2026-09-07",
+    "mentions": 4,
     "name": "Final Fantasy 7 Remake",
     "type": "game"
   },
@@ -23556,6 +23569,20 @@
     "name": "Left 4 Dead",
     "type": "game"
   },
+  "left-4-dead-2": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-07",
+    "franchise": "left-4-dead",
+    "genres": [
+      "fps",
+      "survival-horror"
+    ],
+    "last_seen": "2026-09-07",
+    "mentions": 1,
+    "name": "Left 4 Dead 2",
+    "type": "game"
+  },
   "legacy-games": {
     "aliases": [],
     "fact_count": 0,
@@ -30153,8 +30180,8 @@
     ],
     "fact_count": 50,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-09-03",
-    "mentions": 225,
+    "last_seen": "2026-09-07",
+    "mentions": 226,
     "name": "Nintendo",
     "type": "publisher"
   },
@@ -35467,8 +35494,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-10-22",
-    "last_seen": "2024-10-22",
-    "mentions": 1,
+    "last_seen": "2026-09-07",
+    "mentions": 2,
     "name": "Rebel Wolves",
     "type": "studio"
   },
@@ -40934,8 +40961,8 @@
     ],
     "fact_count": 47,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-04",
-    "mentions": 76,
+    "last_seen": "2026-09-07",
+    "mentions": 77,
     "name": "Square Enix",
     "type": "publisher"
   },
@@ -44516,6 +44543,19 @@
     "name": "Thank Goodness You're Here",
     "type": "game"
   },
+  "thank-you-bus-driver": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-07",
+    "franchise": null,
+    "genres": [
+      "simulation"
+    ],
+    "last_seen": "2026-09-07",
+    "mentions": 1,
+    "name": "Thank You Bus Driver",
+    "type": "game"
+  },
   "thatgamecompany": {
     "aliases": [
       "Journey dev"
@@ -44678,6 +44718,21 @@
     "last_seen": "2026-06-30",
     "mentions": 1,
     "name": "The Binding of Isaac: Rebirth",
+    "type": "game"
+  },
+  "the-blood-of-dawnwalker": {
+    "aliases": [],
+    "fact_count": 1,
+    "first_seen": "2026-09-07",
+    "franchise": null,
+    "genres": [
+      "action-rpg",
+      "open-world",
+      "rpg"
+    ],
+    "last_seen": "2026-09-07",
+    "mentions": 1,
+    "name": "The Blood of Dawnwalker",
     "type": "game"
   },
   "the-bookwalker": {
@@ -45530,8 +45585,8 @@
     "genres": [
       "action-adventure"
     ],
-    "last_seen": "2025-11-18",
-    "mentions": 5,
+    "last_seen": "2026-09-07",
+    "mentions": 6,
     "name": "The Legend of Zelda",
     "type": "game"
   },
@@ -49098,8 +49153,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-08-31",
-    "mentions": 61,
+    "last_seen": "2026-09-07",
+    "mentions": 62,
     "name": "Valve",
     "type": "studio"
   },
@@ -51262,8 +51317,8 @@
     ],
     "fact_count": 8,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-04",
-    "mentions": 181,
+    "last_seen": "2026-09-07",
+    "mentions": 182,
     "name": "Xbox",
     "type": "platform"
   },
