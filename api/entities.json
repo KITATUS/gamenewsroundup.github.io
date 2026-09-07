@@ -6076,8 +6076,8 @@
     ],
     "fact_count": 70,
     "first_seen": "2024-04-29",
-    "last_seen": "2026-09-02",
-    "mentions": 107,
+    "last_seen": "2026-09-08",
+    "mentions": 108,
     "name": "Capcom",
     "type": "publisher"
   },
@@ -10817,12 +10817,13 @@
   },
   "dont-nod": {
     "aliases": [
+      "Don't Nod",
       "Don’t Nod"
     ],
-    "fact_count": 2,
+    "fact_count": 3,
     "first_seen": "2024-10-17",
-    "last_seen": "2025-10-31",
-    "mentions": 4,
+    "last_seen": "2026-09-08",
+    "mentions": 5,
     "name": "Don't Nod",
     "type": "studio"
   },
@@ -23146,6 +23147,15 @@
     "name": "Koshi Nakanishi",
     "type": "person"
   },
+  "kotake-create": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-08",
+    "last_seen": "2026-09-08",
+    "mentions": 1,
+    "name": "Kotake Create",
+    "type": "studio"
+  },
   "kotaku": {
     "aliases": [],
     "fact_count": 0,
@@ -24203,6 +24213,19 @@
     "last_seen": "2024-07-29",
     "mentions": 3,
     "name": "Life By You",
+    "type": "game"
+  },
+  "life-is-strange": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-08",
+    "franchise": "life-is-strange",
+    "genres": [
+      "adventure"
+    ],
+    "last_seen": "2026-09-08",
+    "mentions": 1,
+    "name": "Life is Strange",
     "type": "game"
   },
   "life-is-strange-2": {
@@ -31034,7 +31057,7 @@
   },
   "onimusha": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2024-12-16",
     "franchise": "onimusha",
     "genres": [
@@ -31060,15 +31083,15 @@
   },
   "onimusha-way-of-the-sword": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2024-12-13",
     "franchise": "onimusha",
     "genres": [
       "action-adventure"
     ],
-    "last_seen": "2025-01-31",
-    "mentions": 2,
-    "name": "Onimusha Way of the Sword",
+    "last_seen": "2026-09-08",
+    "mentions": 3,
+    "name": "Onimusha: Way of the Sword",
     "type": "game"
   },
   "ontos": {
@@ -45168,15 +45191,15 @@
   },
   "the-exit-8": {
     "aliases": [],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2026-01-15",
-    "franchise": null,
+    "franchise": "the-exit-8",
     "genres": [
       "horror",
       "puzzle"
     ],
-    "last_seen": "2026-01-15",
-    "mentions": 1,
+    "last_seen": "2026-09-08",
+    "mentions": 2,
     "name": "The Exit 8",
     "type": "game"
   },

@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/don-t-nod-warns-it-may-not-have-enough-funding-to-operate-be",
+      "entities": {
+        "games": [
+          {
+            "id": "life-is-strange",
+            "name": "Life is Strange",
+            "aliases": [],
+            "genres": ["adventure"],
+            "franchise": "life-is-strange",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "dont-nod",
+            "name": "Don't Nod",
+            "aliases": ["Don't Nod"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "funding-investment"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 90,
+          "unit": "jobs",
+          "currency": null,
+          "entity": "dont-nod",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-09-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "considering cutting up to 90 jobs in France as it restructures",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/dont-nod-warns-it-may-not-have-enough-funding-to-operate-beyond-january-2027"
+          }
+        }
+      ],
+      "summary": "Don't Nod has warned it may not have enough funding to keep operating beyond January 2027, and is considering cutting up to 90 jobs in France."
+    },
+    {
+      "ref": "business/onimusha-way-of-the-sword-sells-over-1-million-units-on-laun",
+      "entities": {
+        "games": [
+          {
+            "id": "onimusha-way-of-the-sword",
+            "name": "Onimusha: Way of the Sword",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "onimusha",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "onimusha-way-of-the-sword",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Onimusha: Way of the Sword Sells Over 1 Million Units on Launch Day",
+          "source": {
+            "name": "Capcom",
+            "domain": "capcom.co.jp",
+            "url": "https://www.capcom.co.jp/ir/english/news/html/e260907.html"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 10000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "onimusha",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-09-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Total series sales surpass 10 million units",
+          "source": {
+            "name": "Capcom",
+            "domain": "capcom.co.jp",
+            "url": "https://www.capcom.co.jp/ir/english/news/html/e260907.html"
+          }
+        }
+      ],
+      "summary": "Capcom has reported that Onimusha: Way of the Sword sold over 1 million units on its launch day, pushing total Onimusha series sales past 10 million units."
+    },
+    {
+      "ref": "business/the-exit-8-sales-top-three-million",
+      "entities": {
+        "games": [
+          {
+            "id": "the-exit-8",
+            "name": "The Exit 8",
+            "aliases": [],
+            "genres": ["horror", "puzzle"],
+            "franchise": "the-exit-8",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "kotake-create",
+            "name": "Kotake Create",
+            "aliases": [],
+            "publisher": "playism",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 3000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "the-exit-8",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-08",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The Exit 8 sales top three million",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2026/09/the-exit-8-sales-top-three-million"
+          }
+        }
+      ],
+      "summary": "Sales of The Exit 8 have topped three million."
+    }
+  ]
+}

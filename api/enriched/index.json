@@ -1,6 +1,12 @@
 {
-  "day_count": 588,
+  "day_count": 589,
   "days": [
+    {
+      "date": "2026-09-08",
+      "entities": 6,
+      "facts": 4,
+      "items": 3
+    },
     {
       "date": "2026-09-07",
       "entities": 13,
@@ -3530,16 +3536,16 @@
       "items": 7
     }
   ],
-  "entity_count": 4326,
-  "fact_count": 2832,
+  "entity_count": 4328,
+  "fact_count": 2836,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 932,
+    "action-adventure": 933,
     "action-platformer": 3,
     "action-rpg": 690,
-    "adventure": 346,
+    "adventure": 347,
     "arcade": 13,
     "battle-royale": 134,
     "beat-em-up": 2,
@@ -3551,7 +3557,7 @@
     "fps": 445,
     "grand-strategy": 1,
     "hero-shooter": 73,
-    "horror": 123,
+    "horror": 124,
     "jrpg": 132,
     "life-sim": 100,
     "looter-shooter": 1,
@@ -3563,7 +3569,7 @@
     "open-world": 418,
     "party": 94,
     "platformer": 286,
-    "puzzle": 153,
+    "puzzle": 154,
     "racing": 170,
     "rhythm": 47,
     "roguelike": 164,
@@ -3586,7 +3592,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 28
   },
-  "item_count": 3961,
+  "item_count": 3964,
   "metric_totals": {
     "acquisition_price": 35,
     "announce_date": 11,
@@ -3601,8 +3607,8 @@
     "event_date": 291,
     "funding_raised": 65,
     "headcount": 28,
-    "layoffs_count": 117,
-    "lifetime_unit_sales": 52,
+    "layoffs_count": 118,
+    "lifetime_unit_sales": 54,
     "metacritic": 1,
     "operating_income": 138,
     "peak_concurrent_players": 15,
@@ -3618,7 +3624,7 @@
     "shutdown_date": 80,
     "studios_affected": 7,
     "subscriber_count": 2,
-    "units_sold": 71,
+    "units_sold": 72,
     "viewers": 10,
     "wages": 12
   }
