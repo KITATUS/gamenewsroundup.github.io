@@ -1,0 +1,299 @@
+{
+  "date": "2026-09-09",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nintendo-is-touring-a-zelda-40th-anniversary-concert",
+      "entities": {
+        "games": [
+          {
+            "id": "zelda",
+            "name": "Zelda",
+            "aliases": ["Zelda"],
+            "genres": ["action-adventure"],
+            "franchise": "the-legend-of-zelda",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2027-01-23",
+          "unit": "date",
+          "currency": null,
+          "entity": "zelda-40th-anniversary-concert",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "starts in Tokyo on January 23rd",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-is-touring-a-zelda-40th-anniversary-concert-first-dates-and-venues-confirmed/"
+          }
+        }
+      ],
+      "summary": "Nintendo has announced a touring Zelda 40th Anniversary Concert visiting Japan, North America, Europe and Australia, beginning in Tokyo on 23 January."
+    },
+    {
+      "ref": "main_news/clair-obscur-expedition-33-a-painted-symphony-will-be-perfor",
+      "entities": {
+        "games": [
+          {
+            "id": "clair-obscur-expedition-33",
+            "name": "Clair Obscur: Expedition 33",
+            "aliases": [],
+            "genres": ["rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "sandfall-interactive",
+            "name": "Sandfall Interactive",
+            "aliases": [],
+            "publisher": "kepler-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2027-02-28",
+          "unit": "date",
+          "currency": null,
+          "entity": "clair-obscur-a-painted-symphony",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will be performed at London's O2 Arena on Sunday, February 28, 2027",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/clair-obscurs-world-tour-adds-24-more-dates-for-2027-28-including-the-first-ever-video-game-concert-at-londons-o2/"
+          }
+        }
+      ],
+      "summary": "Clair Obscur: Expedition 33 - A Painted Symphony will be performed at London's O2 Arena on 28 February 2027, the venue's first concert dedicated to a video game soundtrack."
+    },
+    {
+      "ref": "main_news/zelda-40th-anniversary-switch-2-console-and-pro-controller-a",
+      "entities": {
+        "games": [
+          {
+            "id": "zelda",
+            "name": "Zelda",
+            "aliases": ["Zelda"],
+            "genres": ["action-adventure"],
+            "franchise": "the-legend-of-zelda",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": ["Switch 2"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-10-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "nintendo-switch-2",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Releases October 29th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/the-zelda-40th-anniversary-switch-2-console-and-pro-controller-are-now-official-after-leaking-last-month/"
+          }
+        }
+      ],
+      "summary": "A Zelda 40th Anniversary Switch 2 console and Pro Controller have been announced, releasing on 29 October."
+    },
+    {
+      "ref": "main_news/nintendo-shares-the-first-gameplay-and-release-date-for-the",
+      "entities": {
+        "games": [
+          {
+            "id": "the-legend-of-zelda-ocarina-of-time",
+            "name": "The Legend of Zelda: Ocarina of Time",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "the-legend-of-zelda",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": ["Switch 2"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["gameplay", "release-date", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-11-05",
+          "unit": "date",
+          "currency": null,
+          "entity": "the-legend-of-zelda-ocarina-of-time",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The Legend of Zelda: Ocarina of Time releases on Switch 2 on November 5th",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-shares-the-first-gameplay-and-release-date-for-the-legend-of-zelda-ocarina-of-time-remake/"
+          }
+        }
+      ],
+      "summary": "Nintendo has shown the first gameplay for The Legend of Zelda: Ocarina of Time remake and confirmed it releases on Switch 2 on 5 November."
+    },
+    {
+      "ref": "business/star-stable-entertainment-reduces-workforce-by-20-to-secure",
+      "entities": {
+        "games": [
+          {
+            "id": "star-stable-online",
+            "name": "Star Stable Online",
+            "aliases": ["multiplayer horse adventure RPG"],
+            "genres": ["mmo", "rpg", "adventure"],
+            "franchise": "star-stable",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "star-stable-entertainment",
+            "name": "Star Stable Entertainment",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Star Stable Entertainment has cut 20% of its workforce, saying the reduction is intended to secure the long-term future of its multiplayer horse adventure RPG."
+    },
+    {
+      "ref": "business/futurlab-has-laid-off-seven-employees-following-the-cancella",
+      "entities": {
+        "games": [
+          {
+            "id": "powerwash-simulator",
+            "name": "PowerWash Simulator",
+            "aliases": [],
+            "genres": ["simulation"],
+            "franchise": "powerwash-simulator",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "futurlab",
+            "name": "FuturLab",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 7,
+          "unit": "people",
+          "currency": null,
+          "entity": "futurlab",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-09-09",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "FuturLab has laid off seven employees",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/futurlab-cuts-staff-after-cancelling-non-powerwash-simulator-title"
+          }
+        }
+      ],
+      "summary": "FuturLab has laid off seven employees after cancelling a project unrelated to PowerWash Simulator."
+    }
+  ]
+}

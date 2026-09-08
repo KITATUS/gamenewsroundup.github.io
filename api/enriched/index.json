@@ -1,6 +1,12 @@
 {
-  "day_count": 589,
+  "day_count": 590,
   "days": [
+    {
+      "date": "2026-09-09",
+      "entities": 10,
+      "facts": 5,
+      "items": 6
+    },
     {
       "date": "2026-09-08",
       "entities": 6,
@@ -3536,16 +3542,16 @@
       "items": 7
     }
   ],
-  "entity_count": 4328,
-  "fact_count": 2836,
+  "entity_count": 4330,
+  "fact_count": 2841,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 933,
+    "action-adventure": 936,
     "action-platformer": 3,
     "action-rpg": 690,
-    "adventure": 347,
+    "adventure": 348,
     "arcade": 13,
     "battle-royale": 134,
     "beat-em-up": 2,
@@ -3563,7 +3569,7 @@
     "looter-shooter": 1,
     "management": 1,
     "metroidvania": 56,
-    "mmo": 45,
+    "mmo": 46,
     "mmorpg": 71,
     "moba": 27,
     "open-world": 418,
@@ -3573,11 +3579,11 @@
     "racing": 170,
     "rhythm": 47,
     "roguelike": 164,
-    "rpg": 224,
+    "rpg": 226,
     "rts": 37,
     "sandbox": 93,
     "shooter": 462,
-    "simulation": 322,
+    "simulation": 323,
     "social-deduction": 1,
     "soulslike": 79,
     "sports": 156,
@@ -3592,7 +3598,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 28
   },
-  "item_count": 3964,
+  "item_count": 3970,
   "metric_totals": {
     "acquisition_price": 35,
     "announce_date": 11,
@@ -3604,10 +3610,10 @@
     "development_budget": 13,
     "downloads": 26,
     "equity_stake_pct": 21,
-    "event_date": 291,
+    "event_date": 293,
     "funding_raised": 65,
     "headcount": 28,
-    "layoffs_count": 118,
+    "layoffs_count": 119,
     "lifetime_unit_sales": 54,
     "metacritic": 1,
     "operating_income": 138,
@@ -3617,7 +3623,7 @@
     "price": 245,
     "price_change_pct": 18,
     "profit": 142,
-    "release_date": 687,
+    "release_date": 689,
     "revenue": 410,
     "review_score": 2,
     "severance": 2,
