@@ -1,0 +1,495 @@
+{
+  "date": "2026-09-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/mario-kart-world-gets-a-free-update-today-adding-10-classic",
+      "entities": {
+        "games": [
+          {
+            "id": "mario-kart-world",
+            "name": "Mario Kart World",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "mario-kart",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "snes",
+            "name": "SNES",
+            "aliases": ["SNES"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "dlc-expansion"],
+      "facts": [],
+      "summary": "Mario Kart World received a free update adding 10 classic SNES tracks and two additional Knockout Tours."
+    },
+    {
+      "ref": "main_news/nintendo-announces-metroid-ravenous-a-new-side-scrolling-adv",
+      "entities": {
+        "games": [
+          {
+            "id": "metroid-ravenous",
+            "name": "Metroid Ravenous",
+            "aliases": [],
+            "genres": ["metroidvania", "action-adventure", "platformer"],
+            "franchise": "metroid",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-2",
+            "name": "Nintendo Switch 2",
+            "aliases": ["Switch 2"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027-01-28",
+          "unit": "date",
+          "currency": null,
+          "entity": "metroid-ravenous",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Releases for Switch 2 on January 28th 2027",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nintendo-announces-metroid-ravenous-a-new-side-scrolling-adventure/"
+          }
+        }
+      ],
+      "summary": "Nintendo announced Metroid Ravenous, a new side-scrolling adventure releasing for Nintendo Switch 2 on 28 January 2027."
+    },
+    {
+      "ref": "main_news/sonic-racing-crossworlds-final-free-dlc-character-for-year-1",
+      "entities": {
+        "games": [
+          {
+            "id": "sonic-racing-crossworlds",
+            "name": "Sonic Racing CrossWorlds",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "sonic-the-hedgehog",
+            "inferred": true
+          },
+          {
+            "id": "samba-de-amigo",
+            "name": "Samba de Amigo",
+            "aliases": [],
+            "genres": ["rhythm", "party"],
+            "franchise": "samba-de-amigo",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "free-game"],
+      "facts": [],
+      "summary": "Amigo from Samba de Amigo is the final free DLC character in Sonic Racing CrossWorlds' first year of content, with a second season still to come."
+    },
+    {
+      "ref": "main_news/huge-steam-leak-shows-achievement-lists-for-hundreds-of-upco",
+      "entities": {
+        "games": [
+          {
+            "id": "kingdom-hearts-4",
+            "name": "Kingdom Hearts 4",
+            "aliases": [],
+            "genres": ["action-rpg"],
+            "franchise": "kingdom-hearts",
+            "inferred": true
+          },
+          {
+            "id": "persona-6",
+            "name": "Persona 6",
+            "aliases": [],
+            "genres": ["jrpg"],
+            "franchise": "persona",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "A large Steam leak exposed achievement lists for hundreds of upcoming games, including Kingdom Hearts 4 and Persona 6."
+    },
+    {
+      "ref": "free_games_subscription/star-fox-adventures-is-now-available-on-nso-s-gamecube-app",
+      "entities": {
+        "games": [
+          {
+            "id": "star-fox-adventures",
+            "name": "Star Fox Adventures",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "star-fox",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rare",
+            "name": "Rare",
+            "aliases": [],
+            "publisher": "nintendo",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "nintendo",
+            "name": "Nintendo",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "nintendo-switch-online",
+            "name": "Nintendo Switch Online",
+            "aliases": ["NSO"],
+            "inferred": false
+          },
+          {
+            "id": "nintendo-gamecube",
+            "name": "Nintendo GameCube",
+            "aliases": ["Gamecube"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port", "release"],
+      "facts": [],
+      "summary": "Star Fox Adventures is now playable through the GameCube app on Nintendo Switch Online."
+    },
+    {
+      "ref": "business/lego-digital-play-acquires-mobile-studio-offroad-games",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "offroad-games",
+            "name": "Offroad Games",
+            "aliases": [],
+            "publisher": "lego-digital-play",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "lego-digital-play",
+            "name": "Lego Digital Play",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Lego Digital Play has acquired mobile developer Offroad Games."
+    },
+    {
+      "ref": "business/epic-games-store-to-introduce-age-checks-for-r18-games-in-au",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": ["Epic"],
+            "inferred": true
+          }
+        ],
+        "platforms": [
+          {
+            "id": "epic-games-store",
+            "name": "Epic Games Store",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The Epic Games Store will introduce age verification for R18+ games in Australia, following Steam's credit-card age checks there."
+    },
+    {
+      "ref": "business/mark-cerny-and-geoff-keighley-launch-nova-games-foundation-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "mark-cerny",
+            "name": "Mark Cerny",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "geoff-keighley",
+            "name": "Geoff Keighley",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["funding-investment", "studio-opening"],
+      "facts": [],
+      "summary": "Mark Cerny and Geoff Keighley have launched the Nova Games Foundation, a fellowship offering grants to young game designers."
+    },
+    {
+      "ref": "business/keywords-studios-combines-multiple-marketing-businesses-into",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "keywords-studios",
+            "name": "Keywords Studios",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "freeanimal",
+            "name": "FreeAnimal",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          },
+          {
+            "id": "ichi",
+            "name": "Ichi",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          },
+          {
+            "id": "kwm",
+            "name": "KWM",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          },
+          {
+            "id": "fire-without-smoke",
+            "name": "Fire Without Smoke",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          },
+          {
+            "id": "gnet",
+            "name": "Gnet",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          },
+          {
+            "id": "trailerfarm",
+            "name": "TrailerFarm",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          },
+          {
+            "id": "maverick",
+            "name": "Maverick",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          },
+          {
+            "id": "big-farmer",
+            "name": "Big Farmer",
+            "aliases": [],
+            "publisher": "keywords-studios",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["merger"],
+      "facts": [],
+      "summary": "Keywords Studios has merged several of its marketing businesses into a single global creative agency called FreeAnimal."
+    },
+    {
+      "ref": "business/frontier-developments-fy26-adjusted-operating-profit-jumps-6",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "frontier-developments",
+            "name": "Frontier Developments",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "operating_income",
+          "value": 21400000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "frontier-developments",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-09-10",
+          "period": "annual",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Frontier Developments FY26 adjusted operating profit jumps 62% to £21.4m",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/frontier-developments-fy26-adjusted-operating-profit-jumps-62-to-214m"
+          }
+        }
+      ],
+      "summary": "Frontier Developments reported FY26 adjusted operating profit of £21.4 million, up 62 percent year on year."
+    },
+    {
+      "ref": "business/dave-the-diver-sales-top-10-million",
+      "entities": {
+        "games": [
+          {
+            "id": "dave-the-diver",
+            "name": "Dave The Diver",
+            "aliases": [],
+            "genres": ["adventure", "simulation", "rpg"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "mintrocket",
+            "name": "Mintrocket",
+            "aliases": [],
+            "publisher": "nexon",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 10000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "dave-the-diver",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-10",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dave The Diver sales top 10 million",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2026/09/dave-the-diver-sales-top-10-million"
+          }
+        }
+      ],
+      "summary": "Dave The Diver has surpassed 10 million cumulative sales."
+    }
+  ]
+}
