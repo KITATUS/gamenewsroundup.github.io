@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/ikea-has-released-a-skyrim-mod-where-players-are-accompanied",
+      "entities": {
+        "games": [
+          { "id": "the-elder-scrolls-v-skyrim", "name": "The Elder Scrolls V: Skyrim", "aliases": ["Skyrim"], "genres": ["action-rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "matt-berry", "name": "Matt Berry", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["release", "partnership"],
+      "facts": [],
+      "summary": "Ikea has released a Skyrim mod in which players are accompanied by a Kallax shelving unit voiced by Matt Berry."
+    },
+    {
+      "ref": "main_news/project-dream-rare-s-snes-prototype-which-evolved-into-banjo",
+      "entities": {
+        "games": [
+          { "id": "project-dream", "name": "Project Dream", "aliases": [], "genres": ["adventure"], "franchise": "banjo-kazooie", "inferred": true },
+          { "id": "banjo-kazooie", "name": "Banjo-Kazooie", "aliases": [], "genres": ["platformer"], "franchise": "banjo-kazooie", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rare", "name": "Rare", "aliases": ["Rare’s"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "snes", "name": "Super Nintendo Entertainment System", "aliases": ["SNES"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Project Dream, the Rare SNES prototype that evolved into Banjo-Kazooie, has leaked online as a protest against Microsoft's treatment of Rare and other studios."
+    },
+    {
+      "ref": "main_news/switch-2-system-update-adds-vrr-support-when-docked-switch-2",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "hardware"],
+      "facts": [],
+      "summary": "A Switch 2 system update adds VRR support when docked, Switch 2 to Switch 2 system transfer, game chat history and Virtual Game Card improvements."
+    },
+    {
+      "ref": "main_news/hideo-kojima-s-physint-has-jumped-from-playstation-to-xbox-a",
+      "entities": {
+        "games": [
+          { "id": "physint", "name": "Physint", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false },
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": ["Kojima"], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "Hideo Kojima's Physint has moved from PlayStation to Xbox after Kojima said Sony had told him it was cancelling the game."
+    },
+    {
+      "ref": "main_news/ubisoft-steam-games-to-no-longer-require-the-connect-launche",
+      "entities": {
+        "games": [
+          { "id": "prince-of-persia-the-lost-crown", "name": "Prince of Persia: The Lost Crown", "aliases": [], "genres": ["metroidvania", "platformer"], "franchise": "prince-of-persia", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "ubisoft-connect", "name": "Ubisoft Connect", "aliases": ["Connect", "Ubisoft Connect PC launcher"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Ubisoft's Steam games will no longer require the Ubisoft Connect launcher, starting with a test on Prince of Persia: The Lost Crown."
+    },
+    {
+      "ref": "business/wardogs-sells-a-million-copies-and-blows-past-300k-concurren",
+      "entities": {
+        "games": [
+          { "id": "wardogs", "name": "Wardogs", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "wardogs",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-11",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Wardogs Sells a Million Copies",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/wardogs-surpasses-1-million-copies-sold-on-day-one-blows-past-300k-peak-concurrent-players-on-steam" }
+        },
+        {
+          "metric": "peak_concurrent_players",
+          "value": 300000,
+          "unit": "players",
+          "currency": null,
+          "entity": "wardogs",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-11",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Blows Past 300k Concurrent Players on Launch Day",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/wardogs-surpasses-1-million-copies-sold-on-day-one-blows-past-300k-peak-concurrent-players-on-steam" }
+        }
+      ],
+      "summary": "Wardogs sold a million copies and passed 300,000 concurrent players on its launch day."
+    }
+  ]
+}
