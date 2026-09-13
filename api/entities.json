@@ -4683,8 +4683,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-08-10",
-    "mentions": 29,
+    "last_seen": "2026-09-14",
+    "mentions": 33,
     "name": "Blizzard Entertainment",
     "type": "studio"
   },
@@ -8751,6 +8751,15 @@
     "name": "Dan Forden",
     "type": "person"
   },
+  "dan-hay": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "mentions": 1,
+    "name": "Dan Hay",
+    "type": "person"
+  },
   "dan-hett": {
     "aliases": [],
     "fact_count": 0,
@@ -10046,8 +10055,8 @@
     "genres": [
       "action-rpg"
     ],
-    "last_seen": "2026-01-27",
-    "mentions": 3,
+    "last_seen": "2026-09-14",
+    "mentions": 4,
     "name": "Diablo",
     "type": "game"
   },
@@ -10066,6 +10075,21 @@
     "last_seen": "2025-06-26",
     "mentions": 5,
     "name": "Diablo 4",
+    "type": "game"
+  },
+  "diablo-5": {
+    "aliases": [
+      "Diablo V"
+    ],
+    "fact_count": 1,
+    "first_seen": "2026-09-14",
+    "franchise": "diablo",
+    "genres": [
+      "action-rpg"
+    ],
+    "last_seen": "2026-09-14",
+    "mentions": 1,
+    "name": "Diablo 5",
     "type": "game"
   },
   "diablo-iii": {
@@ -12563,6 +12587,15 @@
     "last_seen": "2025-10-08",
     "mentions": 2,
     "name": "Elon Musk",
+    "type": "person"
+  },
+  "emathiio": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "mentions": 1,
+    "name": "Emathiio",
     "type": "person"
   },
   "embark-studios": {
@@ -20832,8 +20865,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-06-11",
-    "last_seen": "2026-05-01",
-    "mentions": 4,
+    "last_seen": "2026-09-14",
+    "mentions": 5,
     "name": "iPhone",
     "type": "platform"
   },
@@ -29707,8 +29740,8 @@
     ],
     "fact_count": 2,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-09-03",
-    "mentions": 47,
+    "last_seen": "2026-09-14",
+    "mentions": 48,
     "name": "Netflix",
     "type": "platform"
   },
@@ -31480,8 +31513,8 @@
       "fps",
       "hero-shooter"
     ],
-    "last_seen": "2026-01-27",
-    "mentions": 6,
+    "last_seen": "2026-09-14",
+    "mentions": 7,
     "name": "Overwatch",
     "type": "game"
   },
@@ -37002,8 +37035,8 @@
       "mmo",
       "sandbox"
     ],
-    "last_seen": "2026-08-24",
-    "mentions": 47,
+    "last_seen": "2026-09-14",
+    "mentions": 48,
     "name": "Roblox",
     "type": "game"
   },
@@ -37014,8 +37047,8 @@
     ],
     "fact_count": 15,
     "first_seen": "2024-05-10",
-    "last_seen": "2026-08-24",
-    "mentions": 24,
+    "last_seen": "2026-09-14",
+    "mentions": 25,
     "name": "Roblox Corporation",
     "type": "publisher"
   },
@@ -49193,6 +49226,23 @@
     "name": "Until Dawn 2",
     "type": "game"
   },
+  "untitled-starcraft-shooter": {
+    "aliases": [
+      "StarCraft"
+    ],
+    "fact_count": 1,
+    "first_seen": "2026-09-14",
+    "franchise": "starcraft",
+    "genres": [
+      "open-world",
+      "shooter",
+      "tps"
+    ],
+    "last_seen": "2026-09-14",
+    "mentions": 1,
+    "name": "StarCraft open-world third-person shooter",
+    "type": "game"
+  },
   "unturned": {
     "aliases": [],
     "fact_count": 0,
@@ -49992,8 +50042,8 @@
     "genres": [
       "rts"
     ],
-    "last_seen": "2024-10-24",
-    "mentions": 1,
+    "last_seen": "2026-09-14",
+    "mentions": 2,
     "name": "Warcraft",
     "type": "game"
   },
@@ -51234,7 +51284,8 @@
   },
   "world-of-warcraft": {
     "aliases": [
-      "WoW"
+      "WoW",
+      "vanilla World of Warcraft"
     ],
     "fact_count": 1,
     "first_seen": "2024-05-08",
@@ -51242,9 +51293,37 @@
     "genres": [
       "mmorpg"
     ],
-    "last_seen": "2026-07-28",
-    "mentions": 8,
+    "last_seen": "2026-09-14",
+    "mentions": 9,
     "name": "World of Warcraft",
+    "type": "game"
+  },
+  "world-of-warcraft-classic": {
+    "aliases": [
+      "Classic"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-09-14",
+    "franchise": "warcraft",
+    "genres": [
+      "mmorpg"
+    ],
+    "last_seen": "2026-09-14",
+    "mentions": 1,
+    "name": "World of Warcraft Classic",
+    "type": "game"
+  },
+  "world-of-warcraft-forever": {
+    "aliases": [],
+    "fact_count": 1,
+    "first_seen": "2026-09-14",
+    "franchise": "warcraft",
+    "genres": [
+      "mmorpg"
+    ],
+    "last_seen": "2026-09-14",
+    "mentions": 1,
+    "name": "World of Warcraft: Forever",
     "type": "game"
   },
   "world-of-warcraft-midnight": {

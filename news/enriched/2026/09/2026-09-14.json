@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/blizzard-announced-diablo-5-for-2029-release",
+      "entities": {
+        "games": [
+          { "id": "diablo-5", "name": "Diablo 5", "aliases": ["Diablo V"], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2029", "unit": "date", "currency": null,
+          "entity": "diablo-5", "entity_type": "game", "scope": "game",
+          "as_of": "2026-09-14", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Diablo 5 for 2029 release",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/blizzard-announces-diablo-5-for-2029-release/" } }
+      ],
+      "summary": "Blizzard announced Diablo 5, planned for release in 2029."
+    },
+    {
+      "ref": "main_news/blizzard-revealed-open-world-third-person-starcraft-shooter",
+      "entities": {
+        "games": [
+          { "id": "untitled-starcraft-shooter", "name": "StarCraft open-world third-person shooter", "aliases": ["StarCraft"], "genres": ["tps", "shooter", "open-world"], "franchise": "starcraft", "inferred": false }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "dan-hay", "name": "Dan Hay", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["reveal", "release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2030", "unit": "date", "currency": null,
+          "entity": "untitled-starcraft-shooter", "entity_type": "game", "scope": "game",
+          "as_of": "2026-09-14", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Planned for release in 2030",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/blizzard-reveals-open-world-starcraft-shooter-from-ex-far-cry-boss/" } }
+      ],
+      "summary": "Blizzard revealed an open-world third-person StarCraft shooter led by former Far Cry head Dan Hay, planned for release in 2030."
+    },
+    {
+      "ref": "main_news/blizzard-announced-animated-netflix-diablo-series",
+      "entities": {
+        "games": [
+          { "id": "diablo", "name": "Diablo", "aliases": [], "genres": ["action-rpg"], "franchise": "diablo", "inferred": true },
+          { "id": "warcraft", "name": "Warcraft", "aliases": [], "genres": ["rts"], "franchise": "warcraft", "inferred": true },
+          { "id": "overwatch", "name": "Overwatch", "aliases": [], "genres": ["hero-shooter"], "franchise": "overwatch", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Blizzard announced an animated Diablo series for Netflix and said it is in discussions about Warcraft and Overwatch adaptations."
+    },
+    {
+      "ref": "main_news/blizzard-announced-world-of-warcraft-forever-a-remixed-versi",
+      "entities": {
+        "games": [
+          { "id": "world-of-warcraft-forever", "name": "World of Warcraft: Forever", "aliases": [], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true },
+          { "id": "world-of-warcraft", "name": "World of Warcraft", "aliases": ["vanilla World of Warcraft"], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true },
+          { "id": "world-of-warcraft-classic", "name": "World of Warcraft Classic", "aliases": ["Classic"], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "remaster-remake"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-11-04", "unit": "date", "currency": null,
+          "entity": "world-of-warcraft-forever", "entity_type": "game", "scope": "game",
+          "as_of": "2026-09-14", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "launching November 4",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/world-of-warcraft-forever-announced-blizzcon-2026-classic-plus" } }
+      ],
+      "summary": "Blizzard announced World of Warcraft: Forever, a remixed version of vanilla World of Warcraft launching on 4 November 2026 alongside Modern and Classic."
+    },
+    {
+      "ref": "main_news/youtuber-emathiio-was-tackled-on-stage-at-roblox-conference",
+      "entities": {
+        "games": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "emathiio", "name": "Emathiio", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["showcase"],
+      "facts": [],
+      "summary": "YouTuber Emathiio was tackled on stage at a Roblox conference while wearing a T-shirt reading 'Kids Deserve Better'."
+    },
+    {
+      "ref": "rumours/apple-is-reportedly-working-on-iphone-game-controllers",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "iphone", "name": "iPhone", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "rumour"],
+      "facts": [],
+      "summary": "Apple is reportedly working on iPhone game controllers that would be sold under the Beats brand."
+    }
+  ]
+}
