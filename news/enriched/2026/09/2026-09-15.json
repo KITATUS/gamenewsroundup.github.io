@@ -1,0 +1,270 @@
+{
+  "date": "2026-09-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/rayman-legends-retold-delayed-to-december-3rd",
+      "entities": {
+        "games": [
+          { "id": "rayman-legends-retold", "name": "Rayman Legends Retold", "aliases": [], "genres": ["platformer"], "franchise": "rayman", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date", "remaster-remake"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2026-12-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "rayman-legends-retold",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Delayed to December 3rd",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/rayman.ubisoft.com/post/3mvii5hjevq2u" }
+        }
+      ],
+      "summary": "Rayman Legends Retold has been delayed to 3 December 2026."
+    },
+    {
+      "ref": "main_news/roblox-creators-will-soon-be-able-to-publish-games-on-multip",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Roblox announced that creators will soon be able to publish their games on multiple platforms as standalone apps through its Roblox Everywhere initiative, starting with a select set of developers and storefronts."
+    },
+    {
+      "ref": "main_news/sega-and-netflix-partner-for-a-cute-yet-cool-sonic-tv-show-a",
+      "entities": {
+        "games": [
+          { "id": "sonic-the-hedgehog", "name": "Sonic", "aliases": ["Sonic"], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "crazy-taxi", "name": "Crazy Taxi", "aliases": [], "genres": ["racing"], "franchise": "crazy-taxi", "inferred": true },
+          { "id": "stranger-than-heaven", "name": "Stranger Than Heaven", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement"],
+      "facts": [],
+      "summary": "Sega and Netflix have partnered on a Sonic TV show, a Crazy Taxi film, and a Stranger Than Heaven adaptation."
+    },
+    {
+      "ref": "main_news/waiting-list-opens-up-for-valve-s-steam-frame-vr-headset",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-frame", "name": "Steam Frame", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 889,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "steam-frame",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "256GB version costs £889",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steam-frame-vr-price-where-how-to-buy" }
+        },
+        {
+          "metric": "price",
+          "value": 1049,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "steam-frame",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "€1,049",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steam-frame-vr-price-where-how-to-buy" }
+        },
+        {
+          "metric": "price",
+          "value": 1059,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "steam-frame",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$1,059 USD",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steam-frame-vr-price-where-how-to-buy" }
+        },
+        {
+          "metric": "price",
+          "value": 1089,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "steam-frame",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "1TB model costs £1,089",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steam-frame-vr-price-where-how-to-buy" }
+        },
+        {
+          "metric": "price",
+          "value": 1279,
+          "unit": "price",
+          "currency": "EUR",
+          "entity": "steam-frame",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "€1,279",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steam-frame-vr-price-where-how-to-buy" }
+        },
+        {
+          "metric": "price",
+          "value": 1299,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "steam-frame",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "$1,299",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/steam-frame-vr-price-where-how-to-buy" }
+        }
+      ],
+      "summary": "A waiting list has opened for Valve's Steam Frame VR headset, priced from £889/€1,049/$1,059 for 256GB and £1,089/€1,279/$1,299 for 1TB."
+    },
+    {
+      "ref": "main_news/marathon-s-permanent-pve-mode-and-next-major-update-delayed",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "update-patch"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2026-12-08",
+          "unit": "date",
+          "currency": null,
+          "entity": "marathon",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the PvE update will now release on December 8th",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update" }
+        }
+      ],
+      "summary": "Bungie has delayed Marathon's permanent PvE mode and next major update from 22 September to 8 December 2026 and is moving away from a strict season schedule."
+    },
+    {
+      "ref": "business/worker-run-studio-ko-op-confirms-layoffs",
+      "entities": {
+        "games": [
+          { "id": "goodbye-volcano-high", "name": "Goodbye Volcano High", "aliases": [], "genres": ["visual-novel", "adventure"], "franchise": null, "inferred": true },
+          { "id": "young-suns", "name": "Young Suns", "aliases": [], "genres": ["card", "strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "ko-op", "name": "KO_OP", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 13,
+          "unit": "employees",
+          "currency": null,
+          "entity": "ko-op",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-09-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "KO_OP has laid off 13 employees",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/worker-owned-studio-ko_op-confirms-layoffs" }
+        }
+      ],
+      "summary": "Worker-run studio KO_OP, developer of Goodbye Volcano High and Young Suns, has confirmed it laid off 13 employees."
+    },
+    {
+      "ref": "business/moss-developer-polyarc-games-announces-closure",
+      "entities": {
+        "games": [
+          { "id": "moss", "name": "Moss", "aliases": [], "genres": ["action-adventure", "puzzle"], "franchise": "moss", "inferred": true }
+        ],
+        "studios": [
+          { "id": "polyarc-games", "name": "Polyarc Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Polyarc Games, the developer of Moss, has announced its closure."
+    }
+  ]
+}
