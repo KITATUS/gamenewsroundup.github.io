@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/007-first-light-switch-2-edition-delayed-to-march-2027",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": ["007 First Light Switch 2 Edition"], "genres": ["action-adventure", "stealth"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay", "port"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2027-03",
+          "unit": "date",
+          "currency": null,
+          "entity": "007-first-light",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-16",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "007 First Light Switch 2 Edition Delayed to March 2027",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/007-first-light-switch-2-delay" }
+        }
+      ],
+      "summary": "The Switch 2 Edition of 007 First Light has been delayed to March 2027."
+    },
+    {
+      "ref": "main_news/kingdom-hearts-collaboration-with-fortnite-detailed",
+      "entities": {
+        "games": [
+          { "id": "kingdom-hearts", "name": "Kingdom Hearts", "aliases": [], "genres": ["action-rpg"], "franchise": "kingdom-hearts", "inferred": true },
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter", "sandbox"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-09-17",
+          "unit": "date",
+          "currency": null,
+          "entity": "fortnite",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-16",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Sora, Riku and Kairi skins announced to appear in the Item Store from September 17th",
+          "source": { "name": "Game Informer", "domain": "gameinformer.com", "url": "https://gameinformer.com/2026/09/15/kingdom-hearts-comes-to-fortnite-this-week" }
+        }
+      ],
+      "summary": "Details of the Kingdom Hearts collaboration with Fortnite have been revealed, including Sora, Riku and Kairi skins and two jam tracks arriving from 17 September 2026."
+    },
+    {
+      "ref": "business/wardogs-sells-over-2-million-units-in-five-days",
+      "entities": {
+        "games": [
+          { "id": "wardogs", "name": "Wardogs", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "bulkhead", "name": "Bulkhead", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 2000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "wardogs",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-16",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Wardogs sells over 2 million units in five days",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/were-not-transparent-and-were-not-honest-says-bulkhead-ceo-after-wardogs-sells-2-million-units/" }
+        }
+      ],
+      "summary": "Wardogs has sold over 2 million units in its first five days."
+    },
+    {
+      "ref": "business/dice-of-kalma-hits-a-million-downloads-across-mobile-devices",
+      "entities": {
+        "games": [
+          { "id": "dice-of-kalma", "name": "Dice of Kalma", "aliases": [], "genres": ["roguelike"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": ["mobile devices"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "downloads",
+          "value": 1000000,
+          "unit": "downloads",
+          "currency": null,
+          "entity": "dice-of-kalma",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-16",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Dice of Kalma hits a million downloads across mobile devices",
+          "source": { "name": "pocketgamer.com", "domain": "pocketgamer.com", "url": "https://www.pocketgamer.com/dice-of-kalma/one-million-downloads/" }
+        }
+      ],
+      "summary": "Dice of Kalma has reached one million downloads on mobile devices."
+    }
+  ]
+}
