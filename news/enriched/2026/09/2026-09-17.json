@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sega-confirms-that-sonic-racing-crossworlds-will-still-get-f",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing CrossWorlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sonic-team", "name": "Sonic Team", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "announcement"],
+      "facts": [],
+      "summary": "Sega has confirmed that Sonic Racing CrossWorlds will continue to receive free guest characters in its second year, beginning with Bayonetta."
+    },
+    {
+      "ref": "main_news/the-academy-of-interactive-arts-and-sciences-aias-has-announ",
+      "entities": {
+        "games": [
+          { "id": "resident-evil", "name": "Resident Evil", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "shinji-mikami", "name": "Shinji Mikami", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Academy of Interactive Arts and Sciences has announced that Resident Evil creator Shinji Mikami will be inducted into its Hall of Fame."
+    },
+    {
+      "ref": "business/1312-interactive-raises-1m-in-seed-funding-round",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "1312-interactive", "name": "1312 Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 1000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "1312-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-09-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "1312 Interactive raises $1m in seed funding round",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/1312-interactive-raises-1m-in-seed-funding-round"
+          }
+        }
+      ],
+      "summary": "Indian PC and console publisher 1312 Interactive has raised $1 million in a seed funding round to support its publishing infrastructure."
+    },
+    {
+      "ref": "business/bohemia-interactive-takes-minority-stake-in-everwind-develop",
+      "entities": {
+        "games": [
+          { "id": "everwind", "name": "Everwind", "aliases": [], "genres": ["survival", "sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "enjoy-studio", "name": "Enjoy Studio", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "bohemia-interactive", "name": "Bohemia Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "Bohemia Interactive has taken a minority stake in Enjoy Studio, the Polish developer of Everwind, which will keep its creative independence."
+    },
+    {
+      "ref": "rumours/mindseye-studio-build-a-rocket-boy-may-be-closing-down-accor",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build a Rocket Boy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "rumour"],
+      "facts": [],
+      "summary": "Reports suggest that MindsEye developer Build a Rocket Boy may be closing down."
+    }
+  ]
+}
