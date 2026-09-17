@@ -1,0 +1,343 @@
+{
+  "date": "2026-09-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/resident-evil-movie-debuts-as-highest-rated-video-game-adapt",
+      "entities": {
+        "games": [
+          {
+            "id": "resident-evil",
+            "name": "Resident Evil",
+            "aliases": [],
+            "genres": ["survival-horror"],
+            "franchise": "resident-evil",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "zach-cregger",
+            "name": "Zach Cregger",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["release"],
+      "facts": [
+        {
+          "metric": "review_score",
+          "value": 97,
+          "unit": "percent",
+          "currency": null,
+          "entity": "resident-evil",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-09-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "the horror film has reached a 97% rating on Rotten Tomatoes",
+          "source": {
+            "name": "rottentomatoes.com",
+            "domain": "rottentomatoes.com",
+            "url": "https://www.rottentomatoes.com/m/resident_evil_2026"
+          }
+        }
+      ],
+      "summary": "The Resident Evil film directed by Zach Cregger has debuted as the highest-rated video game adaptation, reaching a 97% rating on Rotten Tomatoes."
+    },
+    {
+      "ref": "main_news/pennywise-actor-bill-skarsg-rd-will-play-the-lead-role-in-hi",
+      "entities": {
+        "games": [
+          {
+            "id": "physint",
+            "name": "Physint",
+            "aliases": [],
+            "genres": ["action-adventure", "stealth"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "kojima-productions",
+            "name": "Kojima Productions",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": [
+          {
+            "id": "bill-skarsgard",
+            "name": "Bill Skarsgård",
+            "aliases": ["Bill Skarsgard"],
+            "inferred": false
+          },
+          {
+            "id": "hideo-kojima",
+            "name": "Hideo Kojima",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "charlee-fraser",
+            "name": "Charlee Fraser",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "don-lee",
+            "name": "Don Lee",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "minami-hamabe",
+            "name": "Minami Hamabe",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Bill Skarsgård will play the lead role in Hideo Kojima's Physint, joining a cast that already includes Charlee Fraser, Don Lee and Minami Hamabe."
+    },
+    {
+      "ref": "main_news/sony-acknowledges-pc-games-including-helldivers-2-disappear",
+      "entities": {
+        "games": [
+          {
+            "id": "helldivers-2",
+            "name": "Helldivers 2",
+            "aliases": [],
+            "genres": ["tps", "shooter"],
+            "franchise": "helldivers",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "valve",
+            "name": "Valve",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          },
+          {
+            "id": "arrowhead-game-studios",
+            "name": "Arrowhead Game Studios",
+            "aliases": [],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "sony-interactive-entertainment",
+            "name": "Sony Interactive Entertainment",
+            "aliases": ["Sony"],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "steam",
+            "name": "Steam",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Sony has acknowledged that several of its PC games, including Helldivers 2, have disappeared from the UK Steam storefront, saying it is working with Valve on the issue without explaining the cause."
+    },
+    {
+      "ref": "main_news/lollipop-chainsaw-2-back2back-announced-for-ps5-due-for-rele",
+      "entities": {
+        "games": [
+          {
+            "id": "lollipop-chainsaw-2-back2back",
+            "name": "Lollipop Chainsaw 2 Back2Back",
+            "aliases": [],
+            "genres": ["action-adventure"],
+            "franchise": "lollipop-chainsaw",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "dragami-games",
+            "name": "Dragami Games",
+            "aliases": [],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "ps5",
+            "name": "PlayStation 5",
+            "aliases": ["PS5"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "lollipop-chainsaw-2-back2back",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Due for release in 2027",
+          "source": {
+            "name": "Gematsu",
+            "domain": "gematsu.com",
+            "url": "https://www.gematsu.com/2026/09/lollipop-chainsaw-2-back2back-announced-for-ps5"
+          }
+        }
+      ],
+      "summary": "Lollipop Chainsaw 2 Back2Back has been announced for PS5 with a 2027 release window."
+    },
+    {
+      "ref": "business/nex-playground-announces-150m-in-new-funding-as-hardware-sal",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "nex",
+            "name": "Nex",
+            "aliases": ["Nex Playground"],
+            "publisher": null,
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "nex-playground",
+            "name": "Nex Playground",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "sales-milestone", "hardware"],
+      "facts": [
+        {
+          "metric": "funding_raised",
+          "value": 150000000,
+          "unit": "money",
+          "currency": "USD",
+          "entity": "nex-playground",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-09-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Nex Playground announces $150m in new funding",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nex-playground-announces-150m-in-new-funding-as-hardware-sales-pass-one-million"
+          }
+        },
+        {
+          "metric": "lifetime_unit_sales",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "nex-playground",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-18",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "hardware sales pass one million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/nex-playground-announces-150m-in-new-funding-as-hardware-sales-pass-one-million"
+          }
+        }
+      ],
+      "summary": "Nex Playground has announced $150 million in new funding as its hardware sales passed one million units."
+    },
+    {
+      "ref": "business/hyper-light-drifter-developer-heart-machine-has-laid-off-the",
+      "entities": {
+        "games": [
+          {
+            "id": "hyper-light-drifter",
+            "name": "Hyper Light Drifter",
+            "aliases": [],
+            "genres": ["action-adventure", "action-rpg"],
+            "franchise": "hyper-light",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "heart-machine",
+            "name": "Heart Machine",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Heart Machine, the developer of Hyper Light Drifter, has laid off the majority of its staff."
+    }
+  ]
+}
