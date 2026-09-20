@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/grand-theft-auto-6-is-getting-a-vinyl-cd-and-streaming-sound",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-6",
+            "name": "Grand Theft Auto 6",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": [],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Grand Theft Auto 6 is receiving a soundtrack release on vinyl, CD and streaming featuring 34 original tracks."
+    },
+    {
+      "ref": "main_news/call-of-duty-maker-activision-claims-video-game-cheating-is",
+      "entities": {
+        "games": [
+          {
+            "id": "call-of-duty",
+            "name": "Call of Duty",
+            "aliases": [],
+            "genres": ["fps", "shooter"],
+            "franchise": "call-of-duty",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "activision",
+            "name": "Activision",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Activision, the maker of Call of Duty, claims that video game cheating is now a £6.3 billion ($8.5 billion) a year industry."
+    },
+    {
+      "ref": "business/mihoyo-awarded-112-000-by-chinese-court-after-ai-voice-servi",
+      "entities": {
+        "games": [
+          {
+            "id": "genshin-impact",
+            "name": "Genshin Impact",
+            "aliases": [],
+            "genres": ["action-rpg", "open-world"],
+            "franchise": "genshin-impact",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "mihoyo",
+            "name": "MiHoYo",
+            "aliases": ["HoYoverse"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "A Chinese court awarded MiHoYo $112,000 after an AI voice service imitated Genshin Impact characters."
+    },
+    {
+      "ref": "business/phoenix-wright-ace-attorney-trilogy-has-sold-over-5-million",
+      "entities": {
+        "games": [
+          {
+            "id": "phoenix-wright-ace-attorney-trilogy",
+            "name": "Phoenix Wright: Ace Attorney Trilogy",
+            "aliases": [],
+            "genres": ["adventure", "visual-novel"],
+            "franchise": "ace-attorney",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "capcom",
+            "name": "Capcom",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 5000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "phoenix-wright-ace-attorney-trilogy",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-21",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Phoenix Wright: Ace Attorney Trilogy has sold over 5 million copies",
+          "source": {
+            "name": "Reddit",
+            "domain": "reddit.com",
+            "url": "https://www.reddit.com/r/Games/comments/1wl9wss/phoenix_wright_ace_attorney_trilogy_has_sold_over/"
+          }
+        }
+      ],
+      "summary": "Phoenix Wright: Ace Attorney Trilogy has sold over 5 million copies."
+    }
+  ]
+}

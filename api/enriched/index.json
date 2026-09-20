@@ -1,6 +1,12 @@
 {
-  "day_count": 597,
+  "day_count": 598,
   "days": [
+    {
+      "date": "2026-09-21",
+      "entities": 8,
+      "facts": 1,
+      "items": 4
+    },
     {
       "date": "2026-09-18",
       "entities": 23,
@@ -3585,15 +3591,15 @@
     }
   ],
   "entity_count": 4367,
-  "fact_count": 2867,
+  "fact_count": 2868,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 946,
+    "action-adventure": 947,
     "action-platformer": 3,
-    "action-rpg": 696,
-    "adventure": 351,
+    "action-rpg": 697,
+    "adventure": 352,
     "arcade": 13,
     "battle-royale": 135,
     "beat-em-up": 2,
@@ -3602,7 +3608,7 @@
     "crpg": 27,
     "extraction-shooter": 42,
     "fighting": 219,
-    "fps": 445,
+    "fps": 446,
     "grand-strategy": 1,
     "hero-shooter": 74,
     "horror": 124,
@@ -3614,7 +3620,7 @@
     "mmo": 46,
     "mmorpg": 74,
     "moba": 27,
-    "open-world": 421,
+    "open-world": 423,
     "party": 95,
     "platformer": 291,
     "puzzle": 155,
@@ -3624,7 +3630,7 @@
     "rpg": 227,
     "rts": 38,
     "sandbox": 96,
-    "shooter": 466,
+    "shooter": 467,
     "simulation": 324,
     "social-deduction": 1,
     "soulslike": 79,
@@ -3638,16 +3644,16 @@
     "tps": 161,
     "turn-based-strategy": 79,
     "twin-stick-shooter": 1,
-    "visual-novel": 29
+    "visual-novel": 30
   },
-  "item_count": 4015,
+  "item_count": 4019,
   "metric_totals": {
     "acquisition_price": 35,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 12,
     "content_acquisition_cost": 2,
-    "copies_sold": 200,
+    "copies_sold": 201,
     "delay_to": 28,
     "development_budget": 13,
     "downloads": 27,
