@@ -1,6 +1,12 @@
 {
-  "day_count": 598,
+  "day_count": 599,
   "days": [
+    {
+      "date": "2026-09-22",
+      "entities": 7,
+      "facts": 0,
+      "items": 3
+    },
     {
       "date": "2026-09-21",
       "entities": 8,
@@ -3590,15 +3596,15 @@
       "items": 7
     }
   ],
-  "entity_count": 4367,
+  "entity_count": 4368,
   "fact_count": 2868,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 947,
+    "action-adventure": 948,
     "action-platformer": 3,
-    "action-rpg": 697,
+    "action-rpg": 698,
     "adventure": 352,
     "arcade": 13,
     "battle-royale": 135,
@@ -3606,21 +3612,21 @@
     "card": 70,
     "creature-collector": 1,
     "crpg": 27,
-    "extraction-shooter": 42,
+    "extraction-shooter": 43,
     "fighting": 219,
-    "fps": 446,
+    "fps": 448,
     "grand-strategy": 1,
     "hero-shooter": 74,
     "horror": 124,
-    "jrpg": 133,
+    "jrpg": 134,
     "life-sim": 100,
     "looter-shooter": 1,
     "management": 1,
     "metroidvania": 58,
-    "mmo": 46,
+    "mmo": 47,
     "mmorpg": 74,
     "moba": 27,
-    "open-world": 423,
+    "open-world": 424,
     "party": 95,
     "platformer": 291,
     "puzzle": 155,
@@ -3630,7 +3636,7 @@
     "rpg": 227,
     "rts": 38,
     "sandbox": 96,
-    "shooter": 467,
+    "shooter": 468,
     "simulation": 324,
     "social-deduction": 1,
     "soulslike": 79,
@@ -3646,7 +3652,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 30
   },
-  "item_count": 4019,
+  "item_count": 4022,
   "metric_totals": {
     "acquisition_price": 35,
     "announce_date": 11,

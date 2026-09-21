@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/bungie-announces-plans-to-bring-back-destiny-2-and-improve-m",
+      "entities": {
+        "games": [
+          {
+            "id": "destiny-2",
+            "name": "Destiny 2",
+            "aliases": [],
+            "genres": ["fps", "mmo", "shooter"],
+            "franchise": "destiny",
+            "inferred": true
+          },
+          {
+            "id": "marathon",
+            "name": "Marathon",
+            "aliases": [],
+            "genres": ["extraction-shooter", "fps"],
+            "franchise": "marathon",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bungie",
+            "name": "Bungie",
+            "aliases": ["The studio"],
+            "publisher": "sony-interactive-entertainment",
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Bungie has announced plans to restore vaulted Destiny 2 content and improve Marathon, before moving on to new stories and games."
+    },
+    {
+      "ref": "main_news/rockstar-updates-its-policies-on-mods-ahead-of-the-gta-vi-la",
+      "entities": {
+        "games": [
+          {
+            "id": "gta-vi",
+            "name": "GTA VI",
+            "aliases": ["GTA VI"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": ["Rockstar"],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Rockstar has updated its mod policies ahead of the GTA VI launch, barring mods that expand or modify official storylines, missions or characters, banning crossover mods between Rockstar games, and limiting multiplayer mods to its official Creator Platform."
+    },
+    {
+      "ref": "main_news/final-fantasy-7-revelation-will-let-players-raise-their-char",
+      "entities": {
+        "games": [
+          {
+            "id": "final-fantasy-7-revelation",
+            "name": "Final Fantasy 7 Revelation",
+            "aliases": ["Final Fantasy 7 Revelation"],
+            "genres": ["jrpg", "action-rpg"],
+            "franchise": "final-fantasy",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "square-enix",
+            "name": "Square Enix",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "gameplay"],
+      "facts": [],
+      "summary": "Final Fantasy 7 Revelation will let players raise their character's level automatically to skip grinding, a feature aimed at players who want the main story rather than side content."
+    }
+  ]
+}
