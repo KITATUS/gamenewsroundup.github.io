@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/xbox-officially-announces-more-layoffs-and-widespread-change",
+      "entities": {
+        "games": [
+          { "id": "halo", "name": "Halo", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true },
+          { "id": "fallout", "name": "Fallout", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "fallout", "inferred": true },
+          { "id": "forza", "name": "Forza", "aliases": [], "genres": ["racing"], "franchise": "forza", "inferred": true },
+          { "id": "fable", "name": "Fable", "aliases": [], "genres": ["action-rpg"], "franchise": "fable", "inferred": true }
+        ],
+        "studios": [
+          { "id": "halo-studios", "name": "Halo Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "rare", "name": "Rare", "aliases": [], "publisher": "activision", "inferred": false },
+          { "id": "worlds-edge", "name": "World's Edge", "aliases": ["World’s Edge"], "publisher": "activision", "inferred": false },
+          { "id": "obsidian-entertainment", "name": "Obsidian Entertainment", "aliases": ["Obsidian"], "publisher": "bethesda-softworks", "inferred": false },
+          { "id": "bethesda-game-studios", "name": "Bethesda Game Studios", "aliases": [], "publisher": "bethesda-softworks", "inferred": true },
+          { "id": "microsoft-casual-games", "name": "Microsoft Casual Games", "aliases": [], "publisher": "king", "inferred": false },
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "turn-10-studios", "name": "Turn 10 Studios", "aliases": ["Turn 10"], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "xbox-game-studios", "inferred": true },
+          { "id": "arkane-studios", "name": "Arkane Studios", "aliases": ["Arkane"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false },
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false },
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false },
+          { "id": "bethesda-softworks", "name": "Bethesda Softworks", "aliases": ["Bethesda"], "inferred": false },
+          { "id": "king", "name": "King", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 268,
+          "unit": "roles",
+          "currency": null,
+          "entity": "microsoft",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-09-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Microsoft is cutting 268 roles",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/xbox-officially-announces-more-layoffs-and-widespread-changes-to-its-entire-studio-structure/"
+          }
+        }
+      ],
+      "summary": "Xbox announced further layoffs and a restructuring of its studio organisation, cutting 268 roles and moving several studios under Activision, Bethesda and King."
+    },
+    {
+      "ref": "main_news/sega-wanted-to-cancel-the-entire-sonic-series-but-the-first",
+      "entities": {
+        "games": [
+          { "id": "sonic-the-hedgehog", "name": "Sonic the Hedgehog", "aliases": ["Sonic"], "genres": ["platformer"], "franchise": "sonic-the-hedgehog", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sonic-team", "name": "Sonic Team", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "takashi-iizuka", "name": "Takashi Iizuka", "aliases": ["Iizuka"], "inferred": true }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Sonic Team head Takashi Iizuka said Sega had wanted to cancel the entire Sonic series until the first Sonic movie saved it."
+    },
+    {
+      "ref": "main_news/escape-from-tarkov-dev-wants-to-bet-on-risky-games-with-its",
+      "entities": {
+        "games": [
+          { "id": "escape-from-tarkov", "name": "Escape From Tarkov", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "escape-from-tarkov", "inferred": true }
+        ],
+        "studios": [
+          { "id": "battlestate-games", "name": "Battlestate Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "battlestate-games-publishing", "name": "Battlestate Games Publishing", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Escape From Tarkov developer Battlestate Games has launched a publishing arm, Battlestate Games Publishing, to support risky and hardcore games."
+    }
+  ]
+}
