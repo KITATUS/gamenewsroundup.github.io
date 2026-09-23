@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-24",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/star-wars-zero-company-surpasses-1-million-sales",
+      "entities": {
+        "games": [
+          { "id": "star-wars-zero-company", "name": "Star Wars Zero Company", "aliases": [], "genres": ["turn-based-strategy", "strategy"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bit-reactor", "name": "Bit Reactor", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 1000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "star-wars-zero-company",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-24",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Star Wars Zero Company surpasses 1 million sales",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/star-wars-zero-company-xcom-sales-furloughed-staff" }
+        }
+      ],
+      "summary": "Star Wars Zero Company has surpassed 1 million sales."
+    },
+    {
+      "ref": "main_news/quake-champions-removes-battle-pass-and-microtransactions-no",
+      "entities": {
+        "games": [
+          { "id": "quake-champions", "name": "Quake Champions", "aliases": [], "genres": ["fps", "hero-shooter"], "franchise": "quake", "inferred": true }
+        ],
+        "studios": [
+          { "id": "id-software", "name": "id Software", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "bethesda-softworks", "name": "Bethesda Softworks", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change", "update-patch"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 8.99,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "quake-champions",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-24",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "now £8.99",
+          "source": { "name": "Insider Gaming", "domain": "insider-gaming.com", "url": "https://insider-gaming.com/after-8-years-quake-champions-is-no-longer-free-to-play/" }
+        }
+      ],
+      "summary": "Quake Champions has removed its Battle Pass and microtransactions and is no longer free to play, now costing £8.99."
+    },
+    {
+      "ref": "business/age-of-empires-developer-world-s-edge-hit-with-layoffs-follo",
+      "entities": {
+        "games": [
+          { "id": "age-of-empires", "name": "Age of Empires", "aliases": [], "genres": ["rts"], "franchise": "age-of-empires", "inferred": true }
+        ],
+        "studios": [
+          { "id": "worlds-edge", "name": "World's Edge", "aliases": [], "publisher": "activision", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Age of Empires developer World's Edge has been hit with layoffs following its move to Activision, with the number of affected employees unknown."
+    }
+  ]
+}

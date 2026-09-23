@@ -1,6 +1,12 @@
 {
-  "day_count": 600,
+  "day_count": 601,
   "days": [
+    {
+      "date": "2026-09-24",
+      "entities": 9,
+      "facts": 2,
+      "items": 3
+    },
     {
       "date": "2026-09-23",
       "entities": 27,
@@ -3602,8 +3608,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4372,
-  "fact_count": 2869,
+  "entity_count": 4374,
+  "fact_count": 2871,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
@@ -3620,9 +3626,9 @@
     "crpg": 27,
     "extraction-shooter": 44,
     "fighting": 219,
-    "fps": 450,
+    "fps": 451,
     "grand-strategy": 1,
-    "hero-shooter": 74,
+    "hero-shooter": 75,
     "horror": 124,
     "jrpg": 134,
     "life-sim": 100,
@@ -3640,7 +3646,7 @@
     "rhythm": 48,
     "roguelike": 165,
     "rpg": 227,
-    "rts": 38,
+    "rts": 39,
     "sandbox": 96,
     "shooter": 468,
     "simulation": 324,
@@ -3648,24 +3654,24 @@
     "soulslike": 79,
     "sports": 156,
     "stealth": 104,
-    "strategy": 183,
+    "strategy": 184,
     "survival": 188,
     "survival-horror": 264,
     "tactical-shooter": 2,
     "tower-defense": 15,
     "tps": 161,
-    "turn-based-strategy": 79,
+    "turn-based-strategy": 80,
     "twin-stick-shooter": 1,
     "visual-novel": 30
   },
-  "item_count": 4025,
+  "item_count": 4028,
   "metric_totals": {
     "acquisition_price": 35,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 12,
     "content_acquisition_cost": 2,
-    "copies_sold": 201,
+    "copies_sold": 202,
     "delay_to": 28,
     "development_budget": 13,
     "downloads": 27,
@@ -3680,7 +3686,7 @@
     "peak_concurrent_players": 16,
     "players_total": 74,
     "playtime_hours": 8,
-    "price": 251,
+    "price": 252,
     "price_change_pct": 18,
     "profit": 142,
     "release_date": 695,
