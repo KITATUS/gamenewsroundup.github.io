@@ -1,0 +1,187 @@
+{
+  "date": "2026-09-25",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/bungie-outlines-major-marathon-overhaul-adding-permanent-pve",
+      "entities": {
+        "games": [
+          { "id": "marathon", "name": "Marathon", "aliases": [], "genres": ["extraction-shooter", "fps"], "franchise": "marathon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bungie", "name": "Bungie", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Bungie has outlined a major Marathon overhaul that adds permanent PvE, PvP and PvEvP experiences through updates running to March 2027."
+    },
+    {
+      "ref": "main_news/grand-theft-auto-6-is-getting-a-400-box-of-merch-with-11-ite",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 400,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "grand-theft-auto-6-merch-box",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-09-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Grand Theft Auto 6 is getting a $400 box of merch",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-is-getting-a-400-box-of-merch-with-11-items-including-a-figure-sunglasses-and-new-era-hat/" }
+        }
+      ],
+      "summary": "Grand Theft Auto 6 is getting a $400 merchandise box of 11 items, including a figure, a New Era hat and sunglasses, which does not include the game."
+    },
+    {
+      "ref": "main_news/capcom-announced-a-new-ace-attorney-game-a-vr-remake-of-phon",
+      "entities": {
+        "games": [
+          { "id": "phoenix-wright-ace-attorney-dual-destinies", "name": "Phoenix Wright: Ace Attorney - Dual Destinies", "aliases": ["Phoneix Wright: Dual Destinies", "Dual Destinies"], "genres": ["adventure", "visual-novel"], "franchise": "ace-attorney", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "meta-quest-3", "name": "Meta Quest 3", "aliases": [], "inferred": false },
+          { "id": "meta-quest-3s", "name": "Meta Quest 3S", "aliases": [], "inferred": false },
+          { "id": "meta-quest-2", "name": "Meta Quest 2", "aliases": [], "inferred": false },
+          { "id": "meta-quest-pro", "name": "Meta Quest Pro", "aliases": [], "inferred": false },
+          { "id": "meta-vr-glasses", "name": "Meta VR Glasses", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "Capcom has announced a VR remake of Phoenix Wright: Ace Attorney - Dual Destinies, due next year on Meta Quest headsets and the upcoming Meta VR Glasses."
+    },
+    {
+      "ref": "main_news/a-mixed-reality-reinvention-of-tetris-effect-is-coming-next",
+      "entities": {
+        "games": [
+          { "id": "tetris-effect-mixed-realities", "name": "Tetris Effect: Mixed Realities", "aliases": ["Tetris Effect"], "genres": ["puzzle", "rhythm"], "franchise": "tetris", "inferred": true }
+        ],
+        "studios": [
+          { "id": "enhance", "name": "Enhance", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "meta-quest-3", "name": "Meta Quest 3", "aliases": [], "inferred": false },
+          { "id": "meta-quest-3s", "name": "Meta Quest 3S", "aliases": [], "inferred": false },
+          { "id": "meta-vr-glasses", "name": "Meta VR Glasses", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "remaster-remake"],
+      "facts": [],
+      "summary": "A mixed reality reinvention of Tetris Effect, called Tetris Effect: Mixed Realities, is coming next year to Meta Quest 3, Meta Quest 3S and the upcoming Meta VR Glasses."
+    },
+    {
+      "ref": "main_news/meta-announces-new-vr-glasses-that-weigh-about-100-grams-and",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "meta", "name": "Meta", "aliases": ["Meta Platforms"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "meta-vr-glasses", "name": "Meta VR Glasses", "aliases": ["new VR glasses"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "hardware"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 1300,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "meta-vr-glasses",
+          "entity_type": "platform",
+          "scope": "product",
+          "as_of": "2026-09-25",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "cost $1,300",
+          "source": { "name": "Game Developer", "domain": "gamedeveloper.com", "url": "https://www.gamedeveloper.com/business/meta-announces-new-vr-glasses-that-weight-about-100-grams-and-cost-1-300" }
+        }
+      ],
+      "summary": "Meta has announced new VR glasses that weigh about 100 grams and cost $1,300."
+    },
+    {
+      "ref": "business/tinybuild-revenue-rises-18-to-20m-during-h1-2026-with-85-com",
+      "entities": {
+        "games": [
+          { "id": "hello-neighbor", "name": "Hello Neighbor", "aliases": [], "genres": ["horror", "stealth"], "franchise": "hello-neighbor", "inferred": true },
+          { "id": "graveyard-keeper", "name": "Graveyard Keeper", "aliases": [], "genres": ["simulation", "life-sim"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "tinybuild", "name": "tinyBuild", "aliases": ["TinyBuild"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 20000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "tinybuild",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-09-25",
+          "period": null,
+          "direction": "up",
+          "confidence": "high",
+          "quote": "TinyBuild revenue rises 18% to $20m during H1 2026",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/tinybuild-revenue-rises-18-to-20m-during-h1-2026-with-85-coming-from-first-and-second-party-owned-ip" }
+        }
+      ],
+      "summary": "tinyBuild's revenue rose 18% to $20 million in the first half of 2026, with 85% coming from first and second-party owned IP."
+    },
+    {
+      "ref": "business/former-avalanche-studios-chief-natalie-francis-joins-massive",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "avalanche-studios", "name": "Avalanche Studios", "aliases": ["Avalanche Studios Group"], "publisher": null, "inferred": true },
+          { "id": "massive-entertainment", "name": "Massive Entertainment", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "natalie-francis", "name": "Natalie Francis", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Former Avalanche Studios chief Natalie Francis has joined Massive Entertainment as managing director."
+    }
+  ]
+}
