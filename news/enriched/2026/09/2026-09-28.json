@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sony-patents-playstation-controller-that-accepts-credit-card",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Sony has patented a PlayStation controller that can read a phone or payment card and pass the payment details to the console."
+    },
+    {
+      "ref": "main_news/minecraft-is-officially-getting-its-first-new-dimension-in-1",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": ["Minecraft Java Edition", "Minecraft Bedrock Edition"], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true },
+          { "id": "minecraft-dungeons-2", "name": "Minecraft Dungeons 2", "aliases": [], "genres": ["action-rpg"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mojang-studios", "name": "Mojang Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-09-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "minecraft-dungeons-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Minecraft Dungeons 2, which releases on September 29",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/minecraft-is-officially-getting-its-first-new-dimension-in-15-years/" }
+        }
+      ],
+      "summary": "Minecraft is getting its first new dimension in 15 years, The Sift, which debuts in Minecraft Dungeons 2 before reaching the Java and Bedrock editions next year."
+    },
+    {
+      "ref": "main_news/five-nights-at-freddy-s-is-coming-to-fortnite-for-fortnitema",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "five-nights-at-freddys", "name": "Five Nights at Freddy's", "aliases": [], "genres": ["survival-horror"], "franchise": "five-nights-at-freddys", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2026-10-01",
+          "unit": "date",
+          "currency": null,
+          "entity": "fortnitemares",
+          "entity_type": "product",
+          "scope": "event",
+          "as_of": "2026-09-28",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Fortnitemares begins 1st October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/fortnite-five-nights-at-freddys-fortnitemares-collab" }
+        }
+      ],
+      "summary": "Five Nights at Freddy's is coming to Fortnite as part of the Fortnitemares event, which begins on 1 October."
+    },
+    {
+      "ref": "main_news/mobygames-video-game-database-now-lets-developers-claim-thei",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The MobyGames video game database now lets developers claim their game credits."
+    },
+    {
+      "ref": "business/asha-sharma-reveals-that-minecraft-gains-300-000-new-players",
+      "entities": {
+        "games": [
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "mojang-studios", "name": "Mojang Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 425000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "minecraft",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-09-28",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Minecraft has sold 425 million copies",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/minecraft-300000-new-players-daily-minecraft" }
+        }
+      ],
+      "summary": "Asha Sharma has said Minecraft gains an average of 300,000 new players a day, though it is unclear whether the figure covers the game or the wider ecosystem."
+    },
+    {
+      "ref": "business/trophy-games-acquires-airport-simulator-first-class-develope",
+      "entities": {
+        "games": [
+          { "id": "airport-simulator-first-class", "name": "Airport Simulator: First Class", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "playrion", "name": "Playrion", "aliases": [], "publisher": "trophy-games", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "trophy-games", "name": "Trophy Games", "aliases": [], "inferred": false },
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Trophy Games has acquired Playrion, the developer of Airport Simulator: First Class, from Paradox Interactive."
+    },
+    {
+      "ref": "business/build-a-rocket-boy-has-appointed-administrators",
+      "entities": {
+        "games": [
+          { "id": "mindseye", "name": "MindsEye", "aliases": [], "genres": ["action-adventure", "tps"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "build-a-rocket-boy", "name": "Build A Rocket Boy", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "MindsEye developer Build A Rocket Boy has appointed administrators, with the filing indicating the studio is insolvent."
+    }
+  ]
+}
