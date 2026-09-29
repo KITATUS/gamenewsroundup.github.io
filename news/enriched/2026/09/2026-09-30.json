@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/naughty-dog-will-fully-reveal-intergalactic-in-2027",
+      "entities": {
+        "games": [
+          { "id": "intergalactic-the-heretic-prophet", "name": "Intergalactic: The Heretic Prophet", "aliases": ["Intergalactic"], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["reveal"],
+      "facts": [],
+      "summary": "Naughty Dog has said it will fully reveal Intergalactic in 2027."
+    },
+    {
+      "ref": "main_news/naughty-dog-confirms-two-more-the-last-of-us-projects-are-in",
+      "entities": {
+        "games": [
+          { "id": "the-last-of-us", "name": "The Last of Us", "aliases": [], "genres": ["action-adventure", "survival-horror"], "franchise": "the-last-of-us", "inferred": true }
+        ],
+        "studios": [
+          { "id": "naughty-dog", "name": "Naughty Dog", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Naughty Dog has confirmed that two more The Last of Us projects are in development."
+    },
+    {
+      "ref": "main_news/xbox-s-platinum-trophy-equivalent-officially-revealed",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": ["Platinum Trophy"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "update-patch"],
+      "facts": [],
+      "summary": "Xbox has revealed Mythic Achievements, its equivalent of PlayStation's Platinum Trophy, now available to Xbox Insiders."
+    },
+    {
+      "ref": "main_news/fortnite-s-fortnitemares-collaborations-teased-in-new-fortni",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true },
+          { "id": "five-nights-at-freddys", "name": "Five Nights at Freddy's", "aliases": [], "genres": ["survival-horror"], "franchise": "five-nights-at-freddys", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser", "trailer", "partnership", "update-patch", "release-date"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-10-01", "unit": "date", "currency": null,
+          "entity": "fortnite", "entity_type": "game", "scope": "event",
+          "as_of": "2026-09-30", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Fortnitemares 2026 goes live on October 1, 2026",
+          "source": { "name": "vice.com", "domain": "vice.com",
+                      "url": "https://www.vice.com/en/article/all-fortnitemares-2026-collabs-and-skins-confirmed-fnaf-slender-man-obsession-and-more/" } }
+      ],
+      "summary": "A new Fortnitemares trailer has teased Fortnite's Halloween collaborations ahead of the event going live on 1 October 2026."
+    }
+  ]
+}
