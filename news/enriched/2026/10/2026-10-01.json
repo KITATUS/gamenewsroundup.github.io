@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-01",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/mario-kart-tour-has-officially-shut-down",
+      "entities": {
+        "games": [
+          { "id": "mario-kart-tour", "name": "Mario Kart Tour", "aliases": [], "genres": ["racing"], "franchise": "mario-kart", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ios", "name": "iOS", "aliases": [], "inferred": true },
+          { "id": "android", "name": "Android", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "revenue", "value": 268500000, "unit": "USD", "currency": "USD",
+          "entity": "mario-kart-tour", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-01", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "AppMagic numbers estimate that it earned $268.5 million over its lifetime",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mario-kart-tour-has-now-officially-shut-down-after-earning-nintendo-an-estimated-270-million/" }
+        },
+        {
+          "metric": "downloads", "value": 276000000, "unit": "downloads", "currency": null,
+          "entity": "mario-kart-tour", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-01", "period": "cumulative", "direction": null, "confidence": "medium",
+          "quote": "was downloaded more than 276 million times",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/mario-kart-tour-has-now-officially-shut-down-after-earning-nintendo-an-estimated-270-million/" }
+        }
+      ],
+      "summary": "Nintendo's mobile racing game Mario Kart Tour has officially shut down."
+    },
+    {
+      "ref": "main_news/ubisoft-renames-creative-house-2-home-of-the-division-ghost",
+      "entities": {
+        "games": [
+          { "id": "the-division", "name": "The Division", "aliases": [], "genres": ["tps", "shooter", "rpg"], "franchise": "the-division", "inferred": true },
+          { "id": "ghost-recon", "name": "Ghost Recon", "aliases": [], "genres": ["tps", "shooter"], "franchise": "ghost-recon", "inferred": true },
+          { "id": "splinter-cell", "name": "Splinter Cell", "aliases": [], "genres": ["stealth", "action-adventure"], "franchise": "splinter-cell", "inferred": true }
+        ],
+        "studios": [
+          { "id": "massive-entertainment", "name": "Massive Entertainment", "aliases": ["Creative House 2"], "publisher": "ubisoft", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Ubisoft has renamed its Creative House 2 business unit, home of The Division, Ghost Recon and Splinter Cell, as Massive Entertainment."
+    },
+    {
+      "ref": "main_news/final-fantasy-xi-has-raised-its-free-trial-level-cap-to-75-a",
+      "entities": {
+        "games": [
+          { "id": "final-fantasy-xi", "name": "Final Fantasy XI", "aliases": [], "genres": ["mmorpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Final Fantasy XI has raised its free trial level cap to 75 and removed the trial's time limit."
+    },
+    {
+      "ref": "main_news/xbox-s-disc-to-digital-feature-releases-to-general-xbox-audi",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Xbox's disc-to-digital feature, previously exclusive to Xbox Insiders, has been released to all Xbox users."
+    },
+    {
+      "ref": "free_games_subscription/october-s-free-playstation-plus-games-are-f1-25-hunt-showdow",
+      "entities": {
+        "games": [
+          { "id": "f1-25", "name": "F1 25", "aliases": [], "genres": ["racing", "sports"], "franchise": "f1", "inferred": true },
+          { "id": "hunt-showdown-1896", "name": "Hunt: Showdown 1896", "aliases": [], "genres": ["fps", "extraction-shooter"], "franchise": "hunt-showdown", "inferred": true },
+          { "id": "earth-defence-force-world-brothers-2", "name": "Earth Defence Force: World Brothers 2", "aliases": [], "genres": ["tps", "shooter"], "franchise": "earth-defense-force", "inferred": true }
+        ],
+        "studios": [
+          { "id": "codemasters", "name": "Codemasters", "aliases": [], "publisher": "electronic-arts", "inferred": true },
+          { "id": "crytek", "name": "Crytek", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": [], "inferred": true },
+          { "id": "d3-publisher", "name": "D3 Publisher", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "October's PlayStation Plus monthly games are F1 25, Hunt: Showdown 1896 and Earth Defence Force: World Brothers 2."
+    },
+    {
+      "ref": "business/wardogs-sells-3-million-copies-in-two-weeks",
+      "entities": {
+        "games": [
+          { "id": "wardogs", "name": "Wardogs", "aliases": [], "genres": [], "franchise": null, "inferred": false }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold", "value": 3000000, "unit": "copies", "currency": null,
+          "entity": "wardogs", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-01", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Wardogs sells 3 million copies in two weeks",
+          "source": { "name": "Steam", "domain": "store.steampowered.com", "url": "https://store.steampowered.com/news/app/1867240/view/712287592723252992" }
+        }
+      ],
+      "summary": "Wardogs has sold 3 million copies in its first two weeks."
+    },
+    {
+      "ref": "business/suda-51-s-grasshopper-manufacture-officially-regains-indepen",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "grasshopper-manufacture", "name": "Grasshopper Manufacture", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease", "name": "NetEase", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "suda-51", "name": "Suda 51", "aliases": ["Goichi Suda"], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Suda 51's Grasshopper Manufacture has officially regained its independence from NetEase."
+    }
+  ]
+}

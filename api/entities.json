@@ -1767,8 +1767,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-08-04",
-    "mentions": 23,
+    "last_seen": "2026-10-01",
+    "mentions": 24,
     "name": "Android",
     "type": "platform"
   },
@@ -7410,8 +7410,8 @@
     "aliases": [],
     "fact_count": 1,
     "first_seen": "2025-05-27",
-    "last_seen": "2025-09-10",
-    "mentions": 2,
+    "last_seen": "2026-10-01",
+    "mentions": 3,
     "name": "Codemasters",
     "type": "studio"
   },
@@ -8553,6 +8553,15 @@
     "name": "Crystal Dynamics",
     "type": "studio"
   },
+  "crytek": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "mentions": 1,
+    "name": "Crytek",
+    "type": "studio"
+  },
   "cult-of-the-lamb": {
     "aliases": [],
     "fact_count": 1,
@@ -8790,6 +8799,15 @@
     "mentions": 1,
     "name": "D-topia",
     "type": "game"
+  },
+  "d3-publisher": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "mentions": 1,
+    "name": "D3 Publisher",
+    "type": "publisher"
   },
   "d3t": {
     "aliases": [],
@@ -12312,6 +12330,20 @@
     "name": "EA Sports UFC 5",
     "type": "game"
   },
+  "earth-defence-force-world-brothers-2": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-01",
+    "franchise": "earth-defense-force",
+    "genres": [
+      "shooter",
+      "tps"
+    ],
+    "last_seen": "2026-10-01",
+    "mentions": 1,
+    "name": "Earth Defence Force: World Brothers 2",
+    "type": "game"
+  },
   "earth-defense-force-6": {
     "aliases": [],
     "fact_count": 0,
@@ -12647,8 +12679,8 @@
     ],
     "fact_count": 17,
     "first_seen": "2024-05-02",
-    "last_seen": "2026-09-24",
-    "mentions": 68,
+    "last_seen": "2026-10-01",
+    "mentions": 69,
     "name": "Electronic Arts",
     "type": "publisher"
   },
@@ -13634,6 +13666,20 @@
     "last_seen": "2025-02-19",
     "mentions": 1,
     "name": "F1 22",
+    "type": "game"
+  },
+  "f1-25": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-01",
+    "franchise": "f1",
+    "genres": [
+      "racing",
+      "sports"
+    ],
+    "last_seen": "2026-10-01",
+    "mentions": 1,
+    "name": "F1 25",
     "type": "game"
   },
   "f1-manager-2023": {
@@ -14906,6 +14952,19 @@
     "last_seen": "2026-09-01",
     "mentions": 2,
     "name": "Final Fantasy VII Revelation",
+    "type": "game"
+  },
+  "final-fantasy-xi": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-01",
+    "franchise": "final-fantasy",
+    "genres": [
+      "mmorpg"
+    ],
+    "last_seen": "2026-10-01",
+    "mentions": 1,
+    "name": "Final Fantasy XI",
     "type": "game"
   },
   "final-fantasy-xiv": {
@@ -16823,6 +16882,20 @@
     "name": "Ghost of Yotei",
     "type": "game"
   },
+  "ghost-recon": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-01",
+    "franchise": "ghost-recon",
+    "genres": [
+      "shooter",
+      "tps"
+    ],
+    "last_seen": "2026-10-01",
+    "mentions": 1,
+    "name": "Ghost Recon",
+    "type": "game"
+  },
   "ghost-recon-wildlands": {
     "aliases": [],
     "fact_count": 0,
@@ -17883,8 +17956,8 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-07-25",
-    "last_seen": "2025-12-05",
-    "mentions": 5,
+    "last_seen": "2026-10-01",
+    "mentions": 6,
     "name": "Grasshopper Manufacture",
     "type": "studio"
   },
@@ -20228,8 +20301,8 @@
       "extraction-shooter",
       "fps"
     ],
-    "last_seen": "2025-04-03",
-    "mentions": 1,
+    "last_seen": "2026-10-01",
+    "mentions": 2,
     "name": "Hunt: Showdown 1896",
     "type": "game"
   },
@@ -21039,8 +21112,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-08-04",
-    "mentions": 28,
+    "last_seen": "2026-10-01",
+    "mentions": 29,
     "name": "iOS",
     "type": "platform"
   },
@@ -26006,14 +26079,14 @@
   },
   "mario-kart-tour": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 3,
     "first_seen": "2025-07-21",
     "franchise": "mario-kart",
     "genres": [
       "racing"
     ],
-    "last_seen": "2026-07-09",
-    "mentions": 2,
+    "last_seen": "2026-10-01",
+    "mentions": 3,
     "name": "Mario Kart Tour",
     "type": "game"
   },
@@ -26545,12 +26618,13 @@
   },
   "massive-entertainment": {
     "aliases": [
+      "Creative House 2",
       "Massive"
     ],
     "fact_count": 1,
     "first_seen": "2024-06-06",
-    "last_seen": "2026-09-25",
-    "mentions": 4,
+    "last_seen": "2026-10-01",
+    "mentions": 5,
     "name": "Massive Entertainment",
     "type": "studio"
   },
@@ -27875,8 +27949,8 @@
     ],
     "fact_count": 18,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-09-30",
-    "mentions": 131,
+    "last_seen": "2026-10-01",
+    "mentions": 132,
     "name": "Microsoft",
     "type": "publisher"
   },
@@ -30025,8 +30099,8 @@
     ],
     "fact_count": 11,
     "first_seen": "2024-09-24",
-    "last_seen": "2026-08-28",
-    "mentions": 26,
+    "last_seen": "2026-10-01",
+    "mentions": 27,
     "name": "NetEase",
     "type": "publisher"
   },
@@ -30660,8 +30734,8 @@
     ],
     "fact_count": 50,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-09-11",
-    "mentions": 233,
+    "last_seen": "2026-10-01",
+    "mentions": 234,
     "name": "Nintendo",
     "type": "publisher"
   },
@@ -33851,8 +33925,8 @@
     ],
     "fact_count": 21,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-08-13",
-    "mentions": 77,
+    "last_seen": "2026-10-01",
+    "mentions": 78,
     "name": "PlayStation Plus",
     "type": "platform"
   },
@@ -40862,8 +40936,8 @@
     ],
     "fact_count": 27,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-09-30",
-    "mentions": 193,
+    "last_seen": "2026-10-01",
+    "mentions": 194,
     "name": "Sony Interactive Entertainment",
     "type": "publisher"
   },
@@ -41352,8 +41426,8 @@
       "action-adventure",
       "stealth"
     ],
-    "last_seen": "2026-02-20",
-    "mentions": 4,
+    "last_seen": "2026-10-01",
+    "mentions": 5,
     "name": "Splinter Cell",
     "type": "game"
   },
@@ -41613,8 +41687,8 @@
     ],
     "fact_count": 47,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-22",
-    "mentions": 79,
+    "last_seen": "2026-10-01",
+    "mentions": 80,
     "name": "Square Enix",
     "type": "publisher"
   },
@@ -42467,8 +42541,8 @@
     ],
     "fact_count": 4,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-09-18",
-    "mentions": 154,
+    "last_seen": "2026-10-01",
+    "mentions": 155,
     "name": "Steam",
     "type": "platform"
   },
@@ -43237,11 +43311,13 @@
     "type": "studio"
   },
   "suda-51": {
-    "aliases": [],
+    "aliases": [
+      "Goichi Suda"
+    ],
     "fact_count": 0,
     "first_seen": "2024-07-25",
-    "last_seen": "2025-06-05",
-    "mentions": 2,
+    "last_seen": "2026-10-01",
+    "mentions": 3,
     "name": "Suda 51",
     "type": "person"
   },
@@ -45644,11 +45720,12 @@
     "franchise": "the-division",
     "genres": [
       "action-rpg",
+      "rpg",
       "shooter",
       "tps"
     ],
-    "last_seen": "2026-01-14",
-    "mentions": 3,
+    "last_seen": "2026-10-01",
+    "mentions": 4,
     "name": "The Division",
     "type": "game"
   },
@@ -49082,8 +49159,8 @@
     ],
     "fact_count": 37,
     "first_seen": "2024-05-03",
-    "last_seen": "2026-09-15",
-    "mentions": 136,
+    "last_seen": "2026-10-01",
+    "mentions": 137,
     "name": "Ubisoft",
     "type": "publisher"
   },
@@ -50651,14 +50728,14 @@
   },
   "wardogs": {
     "aliases": [],
-    "fact_count": 3,
+    "fact_count": 4,
     "first_seen": "2026-09-11",
     "franchise": null,
     "genres": [
       "shooter"
     ],
-    "last_seen": "2026-09-16",
-    "mentions": 2,
+    "last_seen": "2026-10-01",
+    "mentions": 3,
     "name": "Wardogs",
     "type": "game"
   },
@@ -52126,8 +52203,8 @@
     ],
     "fact_count": 8,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-30",
-    "mentions": 185,
+    "last_seen": "2026-10-01",
+    "mentions": 186,
     "name": "Xbox",
     "type": "platform"
   },
