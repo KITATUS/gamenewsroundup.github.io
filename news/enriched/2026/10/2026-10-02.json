@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sega-is-teasing-a-new-house-of-the-dead-arcade-game-with-vr",
+      "entities": {
+        "games": [
+          {
+            "id": "house-of-the-dead-reawakened",
+            "name": "House Of The Dead: Reawakened",
+            "aliases": ["House of the Dead"],
+            "genres": ["shooter", "horror"],
+            "franchise": "the-house-of-the-dead",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "sega",
+            "name": "Sega",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "arcade",
+            "name": "Arcade",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "vr",
+            "name": "VR",
+            "aliases": ["VR headsets"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["teaser", "hardware"],
+      "facts": [],
+      "summary": "Sega is teasing House Of The Dead: Reawakened, a new arcade game using VR headsets and an 85-inch screen, with a cabinet designed to look like a gothic manor."
+    },
+    {
+      "ref": "main_news/krafton-pulls-the-plug-on-another-pubg-game-black-budget-les",
+      "entities": {
+        "games": [
+          {
+            "id": "black-budget",
+            "name": "Black Budget",
+            "aliases": [],
+            "genres": ["extraction-shooter"],
+            "franchise": "pubg",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          {
+            "id": "krafton",
+            "name": "Krafton",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Krafton has cancelled the PUBG game Black Budget less than a year after it was announced, saying its current direction would not deliver a lasting experience for players."
+    },
+    {
+      "ref": "business/consumer-protection-cooperation-network-launches-coordinated",
+      "entities": {
+        "games": [],
+        "studios": [
+          {
+            "id": "king",
+            "name": "King",
+            "aliases": [],
+            "publisher": "activision-blizzard",
+            "inferred": true
+          },
+          {
+            "id": "supercell",
+            "name": "Supercell",
+            "aliases": [],
+            "publisher": "tencent",
+            "inferred": true
+          },
+          {
+            "id": "mojang",
+            "name": "Mojang",
+            "aliases": [],
+            "publisher": "xbox-game-studios",
+            "inferred": true
+          },
+          {
+            "id": "riot-games",
+            "name": "Riot Games",
+            "aliases": [],
+            "publisher": "tencent",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "activision-blizzard",
+            "name": "Activision Blizzard",
+            "aliases": ["Activision Blizzard UK"],
+            "inferred": false
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "The EU's Consumer Protection Cooperation Network has launched coordinated actions against nine companies, including King, Supercell, Mojang, Riot Games and Activision Blizzard UK, over in-game virtual currencies."
+    }
+  ]
+}
