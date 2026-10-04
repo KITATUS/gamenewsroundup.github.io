@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/platinumgames-boss-atsushi-inaba-suggests-more-bayonetta-is",
+      "entities": {
+        "games": [
+          { "id": "bayonetta", "name": "Bayonetta", "aliases": [], "genres": ["action-adventure"], "franchise": "bayonetta", "inferred": true }
+        ],
+        "studios": [
+          { "id": "platinumgames", "name": "PlatinumGames", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "atsushi-inaba", "name": "Atsushi Inaba", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "PlatinumGames head Atsushi Inaba has suggested more Bayonetta is coming despite the departure of the series' lead developers."
+    },
+    {
+      "ref": "main_news/jagex-has-officially-announced-runescape-4",
+      "entities": {
+        "games": [
+          { "id": "runescape-4", "name": "RuneScape 4", "aliases": [], "genres": ["mmorpg"], "franchise": "runescape", "inferred": true }
+        ],
+        "studios": [
+          { "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Jagex has officially announced RuneScape 4, an Unreal Engine project in early development that is still several years from release."
+    },
+    {
+      "ref": "business/bose-corporation-announces-acquisition-of-firelight-technolo",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "firelight-technologies", "name": "Firelight Technologies", "aliases": ["FMOD"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Bose Corporation has acquired Firelight Technologies, the maker of the FMOD interactive audio software platform."
+    },
+    {
+      "ref": "business/reigns-developer-nerial-closes-following-significant-trading",
+      "entities": {
+        "games": [
+          { "id": "reigns", "name": "Reigns", "aliases": [], "genres": ["card", "strategy"], "franchise": "reigns", "inferred": true }
+        ],
+        "studios": [
+          { "id": "nerial", "name": "Nerial", "aliases": [], "publisher": "devolver-digital", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": ["Devolver"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [
+        {
+          "metric": "profit",
+          "value": -800000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "nerial",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-10-05",
+          "period": "annual",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "studio lost over £800,000 in 2025",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/reigns-developer-nerial-closes-following-significant-trading-losses-over-past-two-years" }
+        },
+        {
+          "metric": "profit",
+          "value": -1000000,
+          "unit": "money",
+          "currency": "GBP",
+          "entity": "nerial",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-10-05",
+          "period": "annual",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "nearly £1 million in 2024",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/reigns-developer-nerial-closes-following-significant-trading-losses-over-past-two-years" }
+        }
+      ],
+      "summary": "Reigns developer Nerial has closed following significant trading losses over the past two years, with parent company Devolver retaining rights to its existing games."
+    }
+  ]
+}
