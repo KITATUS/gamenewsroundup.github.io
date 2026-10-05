@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-06",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/disney-president-and-cco-dana-walden-dismisses-rumours-of-ep",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "inferred": false },
+          { "id": "the-walt-disney-company", "name": "The Walt Disney Company", "aliases": ["Disney"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "dana-walden", "name": "Dana Walden", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition", "partnership"],
+      "facts": [],
+      "summary": "Disney president and chief creative officer Dana Walden dismissed rumours that Disney is seeking to buy Epic Games, saying such conversations are not happening right now."
+    },
+    {
+      "ref": "main_news/nba-2k25-is-being-delisted-later-this-month-servers-includin",
+      "entities": {
+        "games": [
+          { "id": "nba-2k25", "name": "NBA 2K25", "aliases": [], "genres": ["sports"], "franchise": "nba-2k", "inferred": true }
+        ],
+        "studios": [
+          { "id": "visual-concepts", "name": "Visual Concepts", "aliases": [], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting", "shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2026-12-31",
+          "unit": "date",
+          "currency": null,
+          "entity": "nba-2k25",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-10-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "will shut down December 31st",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/nba-2k25-is-being-delisted-later-this-month-servers-including-single-player-story-mode-shut-down-at-the-end-of-the-year/"
+          }
+        }
+      ],
+      "summary": "NBA 2K25 is being delisted later this month, and its servers, including those for the single-player story mode, will shut down on 31 December 2026."
+    },
+    {
+      "ref": "main_news/arc-raiders-and-the-finals-are-getting-film-and-tv-adaptatio",
+      "entities": {
+        "games": [
+          { "id": "arc-raiders", "name": "Arc Raiders", "aliases": [], "genres": ["extraction-shooter"], "franchise": "arc-raiders", "inferred": true },
+          { "id": "the-finals", "name": "The Finals", "aliases": [], "genres": ["fps"], "franchise": "the-finals", "inferred": true }
+        ],
+        "studios": [
+          { "id": "embark-studios", "name": "Embark Studios", "aliases": [], "publisher": "nexon", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Arc Raiders and The Finals are getting film and TV adaptations in collaboration with Chernin Entertainment, the production company behind Backrooms."
+    },
+    {
+      "ref": "main_news/dead-by-daylight-studio-behaviour-interactive-is-hiring-for",
+      "entities": {
+        "games": [
+          { "id": "dead-by-daylight", "name": "Dead by Daylight", "aliases": [], "genres": ["horror"], "franchise": "dead-by-daylight", "inferred": true }
+        ],
+        "studios": [
+          { "id": "behaviour-interactive", "name": "Behaviour Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Dead by Daylight studio Behaviour Interactive is hiring for a triple-A sci-fi first-person shooter with a high realism bar."
+    },
+    {
+      "ref": "business/no-more-room-in-hell-2-surpasses-1m-units-sold-after-leaving",
+      "entities": {
+        "games": [
+          { "id": "no-more-room-in-hell-2", "name": "No More Room in Hell 2", "aliases": [], "genres": ["survival-horror", "fps"], "franchise": "no-more-room-in-hell", "inferred": true }
+        ],
+        "studios": [
+          { "id": "torn-banner-studios", "name": "Torn Banner Studios", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "early-access"],
+      "facts": [
+        {
+          "metric": "units_sold",
+          "value": 1000000,
+          "unit": "units",
+          "currency": null,
+          "entity": "no-more-room-in-hell-2",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-10-06",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "No More Room in Hell 2 surpasses 1m units sold",
+          "source": {
+            "name": "GamesPress",
+            "domain": "gamespress.com",
+            "url": "https://www.gamespress.com/NO-MORE-ROOM-IN-HELL-2-CROSSES-1-MILLION-PLAYERS-DOUBLING-PLAYER-BASE-"
+          }
+        }
+      ],
+      "summary": "No More Room in Hell 2 has surpassed 1 million units sold after leaving Early Access."
+    },
+    {
+      "ref": "business/hellblade-studio-ninja-theory-has-started-laying-off-staff-f",
+      "entities": {
+        "games": [
+          { "id": "hellblade", "name": "Hellblade", "aliases": [], "genres": ["action-adventure"], "franchise": "hellblade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ninja-theory", "name": "Ninja Theory", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "studio-closure"],
+      "facts": [],
+      "summary": "Hellblade studio Ninja Theory has started laying off staff following Xbox's announcement that the studio faces closure."
+    },
+    {
+      "ref": "business/supermassive-games-lays-off-over-70-members-of-staff",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "supermassive-games", "name": "Supermassive Games", "aliases": [], "publisher": "nordisk-games", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 70,
+          "unit": "people",
+          "currency": null,
+          "entity": "supermassive-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-10-06",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "lays off over 70 members of staff",
+          "source": {
+            "name": "Insider Gaming",
+            "domain": "insider-gaming.com",
+            "url": "https://insider-gaming.com/supermassive-games-layoffs-arrive-with-over-70-people-let-go/"
+          }
+        }
+      ],
+      "summary": "Supermassive Games has laid off more than 70 members of staff."
+    }
+  ]
+}
