@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-07",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/brazil-wants-to-be-in-the-top-five-game-producers-in-the-wor",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Brazil has stated an ambition to become one of the top five game-producing countries in the world within 10 years."
+    },
+    {
+      "ref": "main_news/star-wars-galactic-racer-launches-it-single-player-on-amazon",
+      "entities": {
+        "games": [
+          {
+            "id": "star-wars-galactic-racer",
+            "name": "Star Wars: Galactic Racer",
+            "aliases": [],
+            "genres": ["racing"],
+            "franchise": "star-wars",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "amazon-luna",
+            "name": "Amazon Luna",
+            "aliases": ["Luna"],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["release", "subscription", "port"],
+      "facts": [],
+      "summary": "Star Wars: Galactic Racer has launched its single-player campaign, plus Arcade and Scenario modes, on Amazon Luna as part of the Amazon Prime subscription."
+    },
+    {
+      "ref": "business/south-australian-government-makes-largest-investment-in-game",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment"],
+      "facts": [],
+      "summary": "The South Australian government has doubled its Digital Games Fund to $1m, its largest investment in game development."
+    }
+  ]
+}
