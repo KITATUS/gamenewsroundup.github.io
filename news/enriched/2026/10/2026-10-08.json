@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-08",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/google-officially-reveals-ai-game-creation-platform-playgrou",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "google", "name": "Google", "aliases": [], "inferred": false },
+          { "id": "unity-technologies", "name": "Unity Technologies", "aliases": ["Unity"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playground", "name": "Playground", "aliases": [], "inferred": false },
+          { "id": "unity-spark", "name": "Unity Spark", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "Google has officially revealed Playground, an AI platform that lets users generate simple games from text prompts, with a more complex Unity-powered version on the way."
+    },
+    {
+      "ref": "main_news/star-wars-zero-company-staff-returning-to-work-after-being-f",
+      "entities": {
+        "games": [
+          { "id": "star-wars-zero-company", "name": "Star Wars Zero Company", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bit-reactor", "name": "Bit Reactor", "aliases": [], "publisher": "electronic-arts", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Some Bit Reactor staff who were furloughed ahead of the release of Star Wars Zero Company are returning to work, though many workers remain without pay."
+    },
+    {
+      "ref": "main_news/xbox-restates-plans-for-next-gen-project-helix-to-be-a-famil",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "project-helix", "name": "Project Helix", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": true }
+        ]
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Xbox has restated that its next-generation Project Helix will be a family of devices, stressing that many players will be on the go."
+    },
+    {
+      "ref": "main_news/dispatch-officially-eligible-for-the-game-awards-for-a-secon",
+      "entities": {
+        "games": [
+          { "id": "dispatch", "name": "Dispatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "adhoc-studio", "name": "AdHoc Studio", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2025-11-12",
+          "unit": "date",
+          "currency": null,
+          "entity": "dispatch",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-10-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "all eight episodes of the game's first season were released by Nov. 12, 2025",
+          "source": { "name": "Polygon", "domain": "polygon.com", "url": "https://www.polygon.com/dispatch-game-awards-goty-eligible-2025-2026/" }
+        }
+      ],
+      "summary": "Dispatch is officially eligible for The Game Awards for a second year, despite its full first season releasing before the 2025 eligibility cutoff."
+    },
+    {
+      "ref": "business/paramount-and-warner-bros-combine-video-game-divisions-after",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "paramount-games-studio", "name": "Paramount Games Studio", "aliases": [], "publisher": "paramount", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "warner-bros-games", "name": "Warner Bros. Games", "aliases": ["Warner Bros.", "Warner Bros"], "inferred": false },
+          { "id": "paramount", "name": "Paramount", "aliases": [], "inferred": false },
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "tony-driscoll", "name": "Tony Driscoll", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["merger", "leadership-change"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 110000000000,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "warner-bros",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-10-08",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "$110bn Skydance merger",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/paramount-and-warner-bros-combine-video-game-divisions-after-110bn-skydance-merger/" }
+        }
+      ],
+      "summary": "Paramount and Warner Bros. are combining their video game divisions following a $110bn Skydance merger, with Paramount Games Studio boss Tony Driscoll leading the merged operation."
+    }
+  ]
+}

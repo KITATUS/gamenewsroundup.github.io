@@ -1,6 +1,12 @@
 {
-  "day_count": 610,
+  "day_count": 611,
   "days": [
+    {
+      "date": "2026-10-08",
+      "entities": 18,
+      "facts": 2,
+      "items": 5
+    },
     {
       "date": "2026-10-07",
       "entities": 2,
@@ -3662,8 +3668,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4408,
-  "fact_count": 2891,
+  "entity_count": 4411,
+  "fact_count": 2893,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
@@ -3671,7 +3677,7 @@
     "action-adventure": 956,
     "action-platformer": 3,
     "action-rpg": 701,
-    "adventure": 353,
+    "adventure": 354,
     "arcade": 13,
     "battle-royale": 138,
     "beat-em-up": 2,
@@ -3714,13 +3720,13 @@
     "tactical-shooter": 2,
     "tower-defense": 15,
     "tps": 166,
-    "turn-based-strategy": 80,
+    "turn-based-strategy": 81,
     "twin-stick-shooter": 1,
     "visual-novel": 31
   },
-  "item_count": 4074,
+  "item_count": 4079,
   "metric_totals": {
-    "acquisition_price": 35,
+    "acquisition_price": 36,
     "announce_date": 11,
     "chart_rank": 11,
     "concurrent_players": 12,
@@ -3743,7 +3749,7 @@
     "price": 254,
     "price_change_pct": 18,
     "profit": 144,
-    "release_date": 696,
+    "release_date": 697,
     "revenue": 412,
     "review_score": 3,
     "severance": 2,
