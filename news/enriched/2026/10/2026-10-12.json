@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sonic-racing-crossworlds-year-2-dlc-crossovers-revealed-incl",
+      "entities": {
+        "games": [
+          { "id": "sonic-racing-crossworlds", "name": "Sonic Racing Crossworlds", "aliases": [], "genres": ["racing"], "franchise": "sonic-the-hedgehog", "inferred": true },
+          { "id": "final-fantasy-7", "name": "Final Fantasy 7", "aliases": ["Final Fantasy VII"], "genres": ["jrpg"], "franchise": "final-fantasy", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sonic-team", "name": "Sonic Team", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": ["retro Sega"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["dlc-expansion", "reveal"],
+      "facts": [],
+      "summary": "Sonic Racing Crossworlds has revealed its Year 2 DLC crossovers, including Final Fantasy 7, Hello Kitty, retro Sega, Godzilla and Evangelion."
+    },
+    {
+      "ref": "main_news/sony-agrees-to-transfer-over-400-global-vr-patents-to-meta-f",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": true },
+          { "id": "meta", "name": "Meta", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["partnership", "hardware"],
+      "facts": [],
+      "summary": "Sony has agreed to transfer over 400 global VR patents to Meta following an agreement made in December 2025."
+    },
+    {
+      "ref": "business/ubisoft-announces-shutdown-of-rainbow-six-mobile-seven-month",
+      "entities": {
+        "games": [
+          { "id": "rainbow-six-mobile", "name": "Rainbow Six Mobile", "aliases": [], "genres": ["shooter", "fps"], "franchise": "rainbow-six", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2027-01-15", "unit": "date", "currency": null,
+          "entity": "rainbow-six-mobile", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-12", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "will remain available to play until January 15, 2027",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-announces-shutdown-of-rainbow-six-mobile-seven-months-after-global-launch" } }
+      ],
+      "summary": "Ubisoft has announced the shutdown of Rainbow Six Mobile seven months after its global launch, with the game playable until 15 January 2027."
+    },
+    {
+      "ref": "business/ace-combat-8-is-the-fastest-selling-entry-in-the-series-afte",
+      "entities": {
+        "games": [
+          { "id": "ace-combat-8", "name": "Ace Combat 8", "aliases": [], "genres": ["simulation", "shooter"], "franchise": "ace-combat", "inferred": true }
+        ],
+        "studios": [
+          { "id": "project-aces", "name": "Project Aces", "aliases": [], "publisher": "bandai-namco-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "bandai-namco-entertainment", "name": "Bandai Namco Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "ace-combat-8", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Ace Combat 8 is the fastest selling entry in the series after hitting 1 million sales",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ace-combat-8-is-the-fastest-selling-entry-in-the-series-after-hitting-1-million-sales/" } }
+      ],
+      "summary": "Ace Combat 8 has become the fastest-selling entry in the series after reaching 1 million sales."
+    },
+    {
+      "ref": "business/phasmophobia-confirms-30-million-sales",
+      "entities": {
+        "games": [
+          { "id": "phasmophobia", "name": "Phasmophobia", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "kinetic-games", "name": "Kinetic Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 30000000, "unit": "copies", "currency": null,
+          "entity": "phasmophobia", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-12", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Phasmophobia confirms 30 million sales",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/phasmophobia-30-million-sales-crimson-eye-event" } }
+      ],
+      "summary": "Phasmophobia has confirmed it has passed 30 million sales."
+    }
+  ]
+}
