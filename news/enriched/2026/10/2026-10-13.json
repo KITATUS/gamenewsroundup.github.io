@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nintendo-s-latin-america-vp-bill-van-zyll-says-there-are-no",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "bill-van-zyll", "name": "Bill van Zyll", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo's Latin America VP Bill van Zyll said the company has no plans to abandon physical games."
+    },
+    {
+      "ref": "main_news/game-developer-veteran-chris-kerr-launches-vertical-slice-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "chris-kerr", "name": "Chris Kerr", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 7.45,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "vertical-slice",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-10-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Subscriptions start at £7.45 per month",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/game-developer-veteran-chris-kerr-launches-vertical-slice-a-games-publication-giving-workers-a-voice-and-holding-power-to-account"
+          }
+        }
+      ],
+      "summary": "Former Game Developer journalist Chris Kerr has launched Vertical Slice, a reader-funded games publication focused on giving workers a voice and holding power to account."
+    },
+    {
+      "ref": "rumours/epic-games-delays-disney-extraction-shooter-game-and-tells-d",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "disney", "name": "Disney", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "rumour"],
+      "facts": [],
+      "summary": "Epic Games has reportedly delayed its Disney extraction shooter and told developers to adopt an \"AI first\" approach."
+    }
+  ]
+}

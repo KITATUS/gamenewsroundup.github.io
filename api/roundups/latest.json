@@ -1,11 +1,11 @@
 {
-  "id": "2026-10-12",
-  "date": "2026-10-12",
+  "id": "2026-10-13",
+  "date": "2026-10-13",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-10-11T21:18:26.280+01:00",
+  "published_at": "2026-10-12T21:34:55.286+01:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 12 October 2026.",
+  "summary": "Daily curated games-industry news digest for 13 October 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,24 +19,10 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "sonic-racing-crossworlds-year-2-dlc-crossovers-revealed-incl",
-          "title": "**Sonic Racing Crossworlds** Year 2 DLC crossovers revealed, including Final Fantasy 7, Hello Kitty, retro Sega, Godzilla and Evangelion",
+          "id": "nintendo-s-latin-america-vp-bill-van-zyll-says-there-are-no",
+          "title": "**Nintendo**'s Latin America VP Bill van Zyll says there are no plans to ditch physical games",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/sonic-racing-crossworlds-year-2-crossovers-revealed-including-final-fantasy-7-hello-kitty-and-retro-sega/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "sony-agrees-to-transfer-over-400-global-vr-patents-to-meta-f",
-          "title": "**Sony** agrees to transfer over 400 global VR patents to Meta following December 2025 agreement",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/sony-agrees-to-transfer-over-400-global-vr-patents-to-meta-following-december-2025-agreement",
+          "url": "https://www.gamesindustry.biz/nintendos-latin-america-vp-says-there-are-no-plans-to-ditch-physical-games",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
@@ -45,6 +31,24 @@
             "story_type": "confirmed",
             "importance": "normal"
           }
+        },
+        {
+          "id": "game-developer-veteran-chris-kerr-launches-vertical-slice-a",
+          "title": "Game Developer veteran Chris Kerr launches Vertical Slice, a games publication \"giving workers a voice and holding power to account\"",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/game-developer-veteran-chris-kerr-launches-vertical-slice-a-games-publication-giving-workers-a-voice-and-holding-power-to-account",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "The outlet, which is entirely funded by reader subscriptions, will also include a free repository of pitch and design documents",
+            "Subscriptions start at £7.45 per month"
+          ]
         }
       ]
     },
@@ -56,58 +60,31 @@
     {
       "id": "business",
       "label": "Business",
+      "items": []
+    },
+    {
+      "id": "rumours",
+      "label": "Rumours",
       "items": [
         {
-          "id": "ubisoft-announces-shutdown-of-rainbow-six-mobile-seven-month",
-          "title": "Ubisoft announces shutdown of **Rainbow Six Mobile** seven months after global launch",
+          "id": "epic-games-delays-disney-extraction-shooter-game-and-tells-d",
+          "title": "**Epic Games** delays Disney extraction shooter game and tells developers to go \"AI first\"",
           "body": null,
-          "url": "https://www.gamesindustry.biz/ubisoft-announces-shutdown-of-rainbow-six-mobile-seven-months-after-global-launch",
+          "url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
           },
           "metadata": {
-            "story_type": "confirmed",
+            "story_type": "rumour",
+            "rumour_status": "rumour",
             "importance": "normal"
           },
           "bullets": [
-            "The free-to-play tactical shooter will remain available to play until January 15, 2027"
+            "Apparently one of the game's directors told staff: \"No more hand-written code.\" and also said all of the game's art would be \"generated with full AI workflows.\""
           ]
-        },
-        {
-          "id": "ace-combat-8-is-the-fastest-selling-entry-in-the-series-afte",
-          "title": "**Ace Combat 8** is the fastest selling entry in the series after hitting 1 million sales",
-          "body": null,
-          "url": "https://www.videogameschronicle.com/news/ace-combat-8-is-the-fastest-selling-entry-in-the-series-after-hitting-1-million-sales/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "phasmophobia-confirms-30-million-sales",
-          "title": "**Phasmophobia** confirms 30 million sales",
-          "body": null,
-          "url": "https://www.eurogamer.net/phasmophobia-30-million-sales-crimson-eye-event",
-          "source": {
-            "name": "Eurogamer",
-            "domain": "eurogamer.net"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
         }
       ]
-    },
-    {
-      "id": "rumours",
-      "label": "Rumours",
-      "items": []
     }
   ]
 }

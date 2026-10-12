@@ -1,6 +1,12 @@
 {
-  "day_count": 612,
+  "day_count": 613,
   "days": [
+    {
+      "date": "2026-10-13",
+      "entities": 5,
+      "facts": 1,
+      "items": 3
+    },
     {
       "date": "2026-10-12",
       "entities": 14,
@@ -3674,8 +3680,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4413,
-  "fact_count": 2896,
+  "entity_count": 4415,
+  "fact_count": 2897,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
@@ -3730,7 +3736,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 31
   },
-  "item_count": 4084,
+  "item_count": 4087,
   "metric_totals": {
     "acquisition_price": 36,
     "announce_date": 11,
@@ -3752,7 +3758,7 @@
     "peak_concurrent_players": 16,
     "players_total": 74,
     "playtime_hours": 8,
-    "price": 254,
+    "price": 255,
     "price_change_pct": 18,
     "profit": 144,
     "release_date": 697,
