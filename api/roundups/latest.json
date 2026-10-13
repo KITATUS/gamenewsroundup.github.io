@@ -1,11 +1,11 @@
 {
-  "id": "2026-10-13",
-  "date": "2026-10-13",
+  "id": "2026-10-14",
+  "date": "2026-10-14",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-10-12T21:34:55.286+01:00",
+  "published_at": "2026-10-13T22:03:10.144+01:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 13 October 2026.",
+  "summary": "Daily curated games-industry news digest for 14 October 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,13 +19,13 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "nintendo-s-latin-america-vp-bill-van-zyll-says-there-are-no",
-          "title": "**Nintendo**'s Latin America VP Bill van Zyll says there are no plans to ditch physical games",
+          "id": "asha-sharma-forms-xbox-labs-in-response-to-explosion-of-ai-p",
+          "title": "Asha Sharma forms ‘**Xbox Labs**’ in response to explosion of AI-powered mods and ports , says AI mod explosion has changed assumptions around what is possible",
           "body": null,
-          "url": "https://www.gamesindustry.biz/nintendos-latin-america-vp-says-there-are-no-plans-to-ditch-physical-games",
+          "url": "https://www.videogameschronicle.com/news/asha-sharma-forms-xbox-labs-in-response-to-explosion-of-ai-powered-mods-and-ports/",
           "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
           },
           "metadata": {
             "story_type": "confirmed",
@@ -33,21 +33,34 @@
           }
         },
         {
-          "id": "game-developer-veteran-chris-kerr-launches-vertical-slice-a",
-          "title": "Game Developer veteran Chris Kerr launches Vertical Slice, a games publication \"giving workers a voice and holding power to account\"",
+          "id": "richard-levelord-gray-principal-level-designer-on-duke-nukem",
+          "title": "Richard “Levelord” Gray, principal level designer on Duke Nukem 3D and co-founder of Ritual Entertament, has passed away",
           "body": null,
-          "url": "https://www.gamesindustry.biz/game-developer-veteran-chris-kerr-launches-vertical-slice-a-games-publication-giving-workers-a-voice-and-holding-power-to-account",
+          "url": "https://bsky.app/profile/apogeeent.com/post/3mxrooxdr6k2v",
           "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
+            "name": "Bluesky",
+            "domain": "bsky.app"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "entertainment-software-association-requests-u-s-trade-invest",
+          "title": "Entertainment Software Association Requests U.S. Trade Investigate **Anbernic**'s 'Superfake' Handheld Emulator Market",
+          "body": null,
+          "url": "https://www.timeextension.com/news/2026/10/entertainment-software-association-requests-u-s-trade-investigate-anbernics-superfake-handheld-emulator-market",
+          "source": {
+            "name": "timeextension.com",
+            "domain": "timeextension.com"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           },
           "bullets": [
-            "The outlet, which is entirely funded by reader subscriptions, will also include a free repository of pitch and design documents",
-            "Subscriptions start at £7.45 per month"
+            "Their main issue with the fact their devices usually ship with a concealed memory card or internal drive loaded with unauthorised copies of copyright-protected games"
           ]
         }
       ]
@@ -65,26 +78,7 @@
     {
       "id": "rumours",
       "label": "Rumours",
-      "items": [
-        {
-          "id": "epic-games-delays-disney-extraction-shooter-game-and-tells-d",
-          "title": "**Epic Games** delays Disney extraction shooter game and tells developers to go \"AI first\"",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
-          "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
-          },
-          "metadata": {
-            "story_type": "rumour",
-            "rumour_status": "rumour",
-            "importance": "normal"
-          },
-          "bullets": [
-            "Apparently one of the game's directors told staff: \"No more hand-written code.\" and also said all of the game's art would be \"generated with full AI workflows.\""
-          ]
-        }
-      ]
+      "items": []
     }
   ]
 }

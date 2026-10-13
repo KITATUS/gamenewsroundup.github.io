@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-14",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/asha-sharma-forms-xbox-labs-in-response-to-explosion-of-ai-p",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "asha-sharma", "name": "Asha Sharma", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Asha Sharma has formed Xbox Labs in response to the explosion of AI-powered mods and ports, saying it has changed assumptions about what is possible."
+    },
+    {
+      "ref": "main_news/richard-levelord-gray-principal-level-designer-on-duke-nukem",
+      "entities": {
+        "games": [
+          { "id": "duke-nukem-3d", "name": "Duke Nukem 3D", "aliases": [], "genres": ["fps"], "franchise": "duke-nukem", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ritual-entertainment", "name": "Ritual Entertainment", "aliases": ["Ritual Entertament"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "richard-gray", "name": "Richard \"Levelord\" Gray", "aliases": ["Levelord"], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Richard \"Levelord\" Gray, principal level designer on Duke Nukem 3D and co-founder of Ritual Entertainment, has passed away."
+    },
+    {
+      "ref": "main_news/entertainment-software-association-requests-u-s-trade-invest",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "anbernic", "name": "Anbernic", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["regulation", "lawsuit-legal", "hardware"],
+      "facts": [],
+      "summary": "The Entertainment Software Association has asked U.S. trade authorities to investigate Anbernic's handheld emulator market over devices shipping with unauthorised copies of copyrighted games."
+    }
+  ]
+}

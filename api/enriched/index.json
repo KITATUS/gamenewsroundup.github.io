@@ -1,6 +1,12 @@
 {
-  "day_count": 613,
+  "day_count": 614,
   "days": [
+    {
+      "date": "2026-10-14",
+      "entities": 6,
+      "facts": 0,
+      "items": 3
+    },
     {
       "date": "2026-10-13",
       "entities": 5,
@@ -3680,7 +3686,7 @@
       "items": 7
     }
   ],
-  "entity_count": 4415,
+  "entity_count": 4418,
   "fact_count": 2897,
   "generated_from": "enriched/",
   "genre_totals": {
@@ -3698,7 +3704,7 @@
     "crpg": 27,
     "extraction-shooter": 48,
     "fighting": 221,
-    "fps": 458,
+    "fps": 459,
     "grand-strategy": 1,
     "hero-shooter": 75,
     "horror": 128,
@@ -3736,7 +3742,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 31
   },
-  "item_count": 4087,
+  "item_count": 4090,
   "metric_totals": {
     "acquisition_price": 36,
     "announce_date": 11,
