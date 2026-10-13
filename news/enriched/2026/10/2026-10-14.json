@@ -9,7 +9,9 @@
       "entities": {
         "games": [],
         "studios": [],
-        "publishers": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
         "platforms": [
           { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
         ],
@@ -19,7 +21,7 @@
       },
       "event_tags": ["announcement"],
       "facts": [],
-      "summary": "Asha Sharma has formed Xbox Labs in response to the explosion of AI-powered mods and ports, saying it has changed assumptions about what is possible."
+      "summary": "Asha Sharma has formed Xbox Labs in response to the rise of AI-powered mods and ports, saying it has changed assumptions about what is possible."
     },
     {
       "ref": "main_news/richard-levelord-gray-principal-level-designer-on-duke-nukem",
@@ -28,12 +30,13 @@
           { "id": "duke-nukem-3d", "name": "Duke Nukem 3D", "aliases": [], "genres": ["fps"], "franchise": "duke-nukem", "inferred": true }
         ],
         "studios": [
-          { "id": "ritual-entertainment", "name": "Ritual Entertainment", "aliases": ["Ritual Entertament"], "publisher": null, "inferred": false }
+          { "id": "ritual-entertainment", "name": "Ritual Entertainment", "aliases": ["Ritual Entertament"], "publisher": null, "inferred": false },
+          { "id": "3d-realms", "name": "3D Realms", "aliases": ["Apogee"], "publisher": null, "inferred": true }
         ],
         "publishers": [],
         "platforms": [],
         "people": [
-          { "id": "richard-gray", "name": "Richard \"Levelord\" Gray", "aliases": ["Levelord"], "inferred": false }
+          { "id": "richard-gray", "name": "Richard Gray", "aliases": ["Levelord", "Richard “Levelord” Gray"], "inferred": false }
         ]
       },
       "event_tags": [],
@@ -53,7 +56,7 @@
       },
       "event_tags": ["regulation", "lawsuit-legal", "hardware"],
       "facts": [],
-      "summary": "The Entertainment Software Association has asked U.S. trade authorities to investigate Anbernic's handheld emulator market over devices shipping with unauthorised copies of copyrighted games."
+      "summary": "The Entertainment Software Association has asked U.S. trade authorities to investigate Anbernic's handheld emulator market over devices shipped with unauthorised copies of copyrighted games."
     }
   ]
 }
