@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-15",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/epic-says-it-s-vibe-coded-its-new-epic-games-launcher-with-a",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": ["Epic"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "epic-games-launcher", "name": "Epic Games Launcher", "aliases": [], "inferred": false },
+          { "id": "linux", "name": "Linux", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Epic says it built its new Epic Games Launcher using AI-assisted 'vibe coding', and is also working on bringing Fortnite and Easy Anti-Cheat to specific Linux distributions."
+    },
+    {
+      "ref": "main_news/s-box-plans-to-go-free-to-play-and-embrace-human-curation-sa",
+      "entities": {
+        "games": [
+          { "id": "s-box", "name": "S&box", "aliases": [], "genres": ["sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "facepunch-studios", "name": "Facepunch Studios", "aliases": ["Facepunch"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": ["Steam Workshop"], "inferred": false }
+        ],
+        "people": [
+          { "id": "garry-newman", "name": "Garry Newman", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "price-change"],
+      "facts": [],
+      "summary": "Facepunch plans to make S&box free-to-play and shift to human curation, after acknowledging the platform has struggled with reviews and retention."
+    },
+    {
+      "ref": "main_news/casual-game-marketplace-legacy-games-to-close-online-store-t",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "legacy-games", "name": "Legacy Games", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        {
+          "metric": "shutdown_date",
+          "value": "2027-02-28",
+          "unit": "date",
+          "currency": null,
+          "entity": "legacy-games",
+          "entity_type": "platform",
+          "scope": "platform",
+          "as_of": "2026-10-15",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "From February 28, 2027, players will no longer able to re-download previous purchases",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/casual-game-marketplace-legacy-games-to-close-online-store-this-december" }
+        }
+      ],
+      "summary": "Casual game marketplace Legacy Games will close its online store in December 2026, with re-downloads of previous purchases ending on 28 February 2027."
+    },
+    {
+      "ref": "main_news/valve-has-sunset-the-valve-index",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "valve-index", "name": "Valve Index", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware", "delisting"],
+      "facts": [],
+      "summary": "Valve has discontinued its Valve Index VR headset."
+    },
+    {
+      "ref": "free_games_subscription/october-s-ps-plus-game-catalog-titles-announced",
+      "entities": {
+        "games": [
+          { "id": "mafia-the-old-country", "name": "Mafia: The Old Country", "aliases": [], "genres": ["action-adventure"], "franchise": "mafia", "inferred": true },
+          { "id": "horizon-forbidden-west", "name": "Horizon Forbidden West", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "horizon", "inferred": true },
+          { "id": "mycopunk", "name": "Mycopunk", "aliases": [], "genres": ["fps", "shooter"], "franchise": null, "inferred": true },
+          { "id": "poppy-playtime-chapter-2", "name": "Poppy Playtime: Chapter 2", "aliases": [], "genres": ["horror", "puzzle"], "franchise": "poppy-playtime", "inferred": true },
+          { "id": "the-midnight-walk", "name": "The Midnight Walk", "aliases": [], "genres": ["adventure", "horror"], "franchise": null, "inferred": true },
+          { "id": "tales-of-arise", "name": "Tales of Arise", "aliases": [], "genres": ["jrpg", "action-rpg"], "franchise": "tales-of", "inferred": true },
+          { "id": "monster-energy-supercross-25-the-official-video-game", "name": "Monster Energy Supercross 25 The Official Video Game", "aliases": [], "genres": ["racing", "sports"], "franchise": "monster-energy-supercross", "inferred": true },
+          { "id": "dino-crisis-2", "name": "Dino Crisis 2", "aliases": [], "genres": ["survival-horror", "action-adventure"], "franchise": "dino-crisis", "inferred": true },
+          { "id": "rollercoaster-tycoon-3", "name": "RollerCoaster Tycoon 3", "aliases": ["RollerCoaster Tycoon 3 Complete Edition"], "genres": ["simulation"], "franchise": "rollercoaster-tycoon", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["PS Plus"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "Sony has announced October's PS Plus Game Catalog titles, including Mafia: The Old Country, Horizon Forbidden West and Tales of Arise."
+    },
+    {
+      "ref": "free_games_subscription/three-more-gba-games-come-to-switch-online-metal-slug-advanc",
+      "entities": {
+        "games": [
+          { "id": "metal-slug-advance", "name": "Metal Slug Advance", "aliases": [], "genres": ["shooter", "platformer"], "franchise": "metal-slug", "inferred": true },
+          { "id": "monster-rancher-advance", "name": "Monster Rancher Advance", "aliases": [], "genres": ["simulation"], "franchise": "monster-rancher", "inferred": true },
+          { "id": "kururin-paradise", "name": "Kururin Paradise", "aliases": [], "genres": ["puzzle"], "franchise": "kururin", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-online", "name": "Nintendo Switch Online", "aliases": ["Switch Online"], "inferred": false },
+          { "id": "game-boy-advance", "name": "Game Boy Advance", "aliases": ["GBA"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "port"],
+      "facts": [],
+      "summary": "Three more Game Boy Advance games, Metal Slug Advance, Monster Rancher Advance and Kururin Paradise, have been added to Nintendo Switch Online."
+    },
+    {
+      "ref": "business/a-new-game-from-kotaro-uchikoshi-of-zero-escape-and-the-hund",
+      "entities": {
+        "games": [
+          { "id": "zero-escape", "name": "Zero Escape", "aliases": [], "genres": ["visual-novel", "puzzle", "adventure"], "franchise": "zero-escape", "inferred": true },
+          { "id": "the-hundred-line-last-defense-academy", "name": "The Hundred Line: Last Defense Academy", "aliases": [], "genres": ["visual-novel", "turn-based-strategy"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "crash-keys", "name": "Crash Keys", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "kotaro-uchikoshi", "name": "Kotaro Uchikoshi", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "A new game from Zero Escape creator Kotaro Uchikoshi has been cancelled, leaving the future of his studio Crash Keys in doubt."
+    },
+    {
+      "ref": "business/funcom-to-lay-off-staff-as-it-pivots-to-focusing-solely-on-c",
+      "entities": {
+        "games": [
+          { "id": "conan-exiles", "name": "Conan Exiles", "aliases": [], "genres": ["survival", "open-world"], "franchise": "conan", "inferred": true },
+          { "id": "dune-awakening", "name": "Dune: Awakening", "aliases": [], "genres": ["survival", "mmo", "open-world"], "franchise": "dune", "inferred": true }
+        ],
+        "studios": [
+          { "id": "funcom", "name": "Funcom", "aliases": [], "publisher": "tencent", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "tencent", "name": "Tencent", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "rui-casais", "name": "Rui Casais", "aliases": [], "inferred": false },
+          { "id": "scott-junior", "name": "Scott Junior", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["layoffs", "leadership-change"],
+      "facts": [],
+      "summary": "Tencent-owned Funcom will lay off staff as it narrows its focus to Conan Exiles and Dune: Awakening, with CEO Rui Casais set to be replaced by Scott Junior after the restructuring."
+    }
+  ]
+}
