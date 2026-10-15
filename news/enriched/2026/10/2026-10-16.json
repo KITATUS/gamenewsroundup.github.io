@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/sega-pulls-total-war-shogun-2-complete-edition-from-stores-o",
+      "entities": {
+        "games": [
+          { "id": "total-war-shogun-2", "name": "Total War: Shogun 2", "aliases": ["Total War: Shogun 2 Complete Edition"], "genres": ["strategy", "rts", "turn-based-strategy"], "franchise": "total-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "creative-assembly", "name": "Creative Assembly", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sega", "name": "Sega", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting", "remaster-remake"],
+      "facts": [],
+      "summary": "Sega has pulled Total War: Shogun 2 Complete Edition from sale over bugs and AI art, reinstating the original 2011 version while it and Creative Assembly investigate the problems."
+    },
+    {
+      "ref": "main_news/rockstar-has-revealed-the-official-launch-trailer-for-grand",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "justice", "name": "Justice", "aliases": [], "inferred": false },
+          { "id": "tame-impala", "name": "Tame Impala", "aliases": [], "inferred": false },
+          { "id": "sza", "name": "SZA", "aliases": [], "inferred": false },
+          { "id": "king-gizzard-the-lizard-wizard", "name": "King Gizzard & The Lizard Wizard", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["trailer"],
+      "facts": [],
+      "summary": "Rockstar has released the official launch trailer for Grand Theft Auto 6, featuring a new song by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard."
+    },
+    {
+      "ref": "main_news/the-switch-2-version-of-007-first-light-gets-a-new-release-d",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": "io-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch 2"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["release-date", "delay", "port"],
+      "facts": [
+        { "metric": "release_date", "value": "2027-03-18", "unit": "date", "currency": null,
+          "entity": "007-first-light", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "March 18, 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-switch-2-version-of-007-first-light-finally-gets-a-new-release-date/" } }
+      ],
+      "summary": "The Switch 2 version of 007 First Light has a new release date of 18 March 2027."
+    },
+    {
+      "ref": "main_news/xbox-reveals-the-nano-controller-a-smaller-and-cheaper-alter",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["reveal", "hardware", "release-date"],
+      "facts": [
+        { "metric": "price", "value": 50, "unit": "price", "currency": "USD",
+          "entity": "xbox-nano-controller", "entity_type": "product", "scope": "product",
+          "as_of": "2026-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The $50",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-reveals-the-nano-controller-a-smaller-and-cheaper-alternative-with-a-rechargeable-battery/" } },
+        { "metric": "price", "value": 44.99, "unit": "price", "currency": "GBP",
+          "entity": "xbox-nano-controller", "entity_type": "product", "scope": "product",
+          "as_of": "2026-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "£44.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-reveals-the-nano-controller-a-smaller-and-cheaper-alternative-with-a-rechargeable-battery/" } },
+        { "metric": "release_date", "value": "2026-11-04", "unit": "date", "currency": null,
+          "entity": "xbox-nano-controller", "entity_type": "product", "scope": "product",
+          "as_of": "2026-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "available from November 4th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/xbox-reveals-the-nano-controller-a-smaller-and-cheaper-alternative-with-a-rechargeable-battery/" } }
+      ],
+      "summary": "Xbox has revealed the Nano Controller, a smaller and cheaper controller with a rechargeable battery, priced at $50 (£44.99) and available from 4 November."
+    },
+    {
+      "ref": "main_news/riot-games-has-announced-the-end-of-league-of-legends-classi",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends-classic", "name": "League of Legends Classic", "aliases": [], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": [], "publisher": "tencent", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [],
+      "summary": "Riot Games has announced that League of Legends Classic will end as an ongoing mode, three months after its release."
+    },
+    {
+      "ref": "main_news/runescape-reignited-has-been-cancelled-due-to-fan-backlash",
+      "entities": {
+        "games": [
+          { "id": "runescape-reignited", "name": "RuneScape Reignited", "aliases": [], "genres": ["mmorpg"], "franchise": "runescape", "inferred": true }
+        ],
+        "studios": [
+          { "id": "jagex", "name": "Jagex", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "RuneScape Reignited has been cancelled after fan backlash over fears it would split the community and isolate players' progress."
+    },
+    {
+      "ref": "main_news/the-30th-anniversary-of-tomb-raider-is-this-month-and-a-new",
+      "entities": {
+        "games": [
+          { "id": "tomb-raider", "name": "Tomb Raider", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": "tomb-raider", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "daryl-baxter", "name": "Daryl Baxter", "aliases": [], "inferred": false },
+          { "id": "phil-chapman", "name": "Phil Chapman", "aliases": [], "inferred": false },
+          { "id": "andrea-cordella", "name": "Andrea Cordella", "aliases": [], "inferred": false },
+          { "id": "tom-scutt", "name": "Dr. Tom Scutt", "aliases": ["Tom Scutt"], "inferred": false }
+        ]
+      },
+      "event_tags": ["release-date"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-10-30", "unit": "date", "currency": null,
+          "entity": "the-making-of-tomb-raider-1997-2000", "entity_type": "product", "scope": "product",
+          "as_of": "2026-10-16", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "set to be released on October 30th",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/an-oral-history-of-the-tomb-raider-game-no-one-wanted-to-make" } }
+      ],
+      "summary": "For Tomb Raider's 30th anniversary, Daryl Baxter's book The Making of Tomb Raider: 1997-2000 will be released on 30 October."
+    },
+    {
+      "ref": "business/splash-damage-owned-gamepires-developer-of-survival-title-sc",
+      "entities": {
+        "games": [
+          { "id": "scum", "name": "SCUM", "aliases": [], "genres": ["survival"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "gamepires", "name": "Gamepires", "aliases": [], "publisher": "splash-damage", "inferred": false },
+          { "id": "splash-damage", "name": "Splash Damage", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "devolver-digital", "name": "Devolver Digital", "aliases": ["Devolver"], "inferred": false },
+          { "id": "jagex", "name": "Jagex", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "acquisition"],
+      "facts": [],
+      "summary": "Splash Damage-owned Gamepires, developer of survival game SCUM, is laying off an undisclosed number of staff to adapt to challenging market conditions."
+    },
+    {
+      "ref": "business/ubisoft-to-reduce-workforce-across-d-sseldorf-berlin-and-mai",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ubisoft-dusseldorf", "name": "Ubisoft Düsseldorf", "aliases": ["Düsseldorf"], "publisher": "ubisoft", "inferred": true },
+          { "id": "ubisoft-berlin", "name": "Ubisoft Berlin", "aliases": ["Berlin"], "publisher": "ubisoft", "inferred": true },
+          { "id": "ubisoft-mainz", "name": "Ubisoft Mainz", "aliases": ["Mainz"], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 100, "unit": "employees", "currency": null,
+          "entity": "ubisoft", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-10-16", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "Approximately 100 employees may be affected by the cuts",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/ubisoft-to-reduce-workforce-across-dusseldorf-berlin-and-mainz-as-part-of-proposed-voluntary-departure-plan" } }
+      ],
+      "summary": "Ubisoft plans to reduce its workforce across its Düsseldorf, Berlin and Mainz studios through a proposed voluntary departure plan affecting approximately 100 employees."
+    },
+    {
+      "ref": "business/control-resonant-has-reached-1-million-copies-sold",
+      "entities": {
+        "games": [
+          { "id": "control-resonant", "name": "Control Resonant", "aliases": [], "genres": ["action-adventure", "tps"], "franchise": "control", "inferred": true }
+        ],
+        "studios": [
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": ["Remedy"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "copies_sold", "value": 1000000, "unit": "copies", "currency": null,
+          "entity": "control-resonant", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-16", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Control Resonant has reached 1 million copies sold",
+          "source": { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/profile/remedygames.com/post/3mxwgoj4xwf2w" } }
+      ],
+      "summary": "Control Resonant has sold 1 million copies."
+    }
+  ]
+}
