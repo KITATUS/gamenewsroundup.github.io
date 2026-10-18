@@ -1,6 +1,12 @@
 {
-  "day_count": 616,
+  "day_count": 617,
   "days": [
+    {
+      "date": "2026-10-19",
+      "entities": 6,
+      "facts": 0,
+      "items": 3
+    },
     {
       "date": "2026-10-16",
       "entities": 32,
@@ -3698,13 +3704,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4447,
+  "entity_count": 4449,
   "fact_count": 2905,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 962,
+    "action-adventure": 963,
     "action-platformer": 3,
     "action-rpg": 703,
     "adventure": 356,
@@ -3754,7 +3760,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4108,
+  "item_count": 4111,
   "metric_totals": {
     "acquisition_price": 36,
     "announce_date": 11,

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/steam-is-introducing-achievement-sets-designed-to-improve-th",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Steam is introducing Achievement Sets, letting developers split up achievements and add seasonal ones."
+    },
+    {
+      "ref": "business/fishlabs-announces-layoffs-due-to-changing-project-requireme",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "fishlabs", "name": "Fishlabs", "aliases": [], "publisher": "plaion", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "plaion", "name": "Plaion", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Fishlabs has announced layoffs affecting an unspecified number of development and support staff, citing changing project requirements."
+    },
+    {
+      "ref": "rumours/samson-developer-liquid-swords-is-reportedly-facing-bankrupt",
+      "entities": {
+        "games": [
+          { "id": "samson", "name": "Samson", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "liquid-swords", "name": "Liquid Swords", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "Samson developer Liquid Swords is reportedly facing bankruptcy."
+    }
+  ]
+}
