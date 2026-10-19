@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/after-making-a-cameo-appearance-in-cyberpunk-2077-hideo-koji",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true },
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": ["Kojima"], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Hideo Kojima, who made a cameo in Cyberpunk 2077, reprises his role as braindance producer Hideyoshi Oshima in Cyberpunk Edgerunners 2."
+    },
+    {
+      "ref": "main_news/the-next-call-of-duty-will-introduce-a-new-sub-series-to-the",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-modern-warfare-4", "name": "Call of Duty: Modern Warfare 4", "aliases": ["Modern Warfare 4"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "infinity-ward", "name": "Infinity Ward", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The next Call of Duty game will introduce a new sub-series to the franchise, with this year's Modern Warfare 4 serving as the final chapter of its sub-franchise."
+    },
+    {
+      "ref": "main_news/pegi-begins-moving-existing-digital-only-games-with-loot-box",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "PEGI has begun re-rating existing digital-only games with loot boxes from PEGI 3, 7, or 12 up to PEGI 16, with updates rolling out through October."
+    },
+    {
+      "ref": "business/critical-reflex-s-buckshot-roulette-passes-10-5-million-sale",
+      "entities": {
+        "games": [
+          { "id": "buckshot-roulette", "name": "Buckshot Roulette", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "critical-reflex", "name": "Critical Reflex", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 10500000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "buckshot-roulette",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-10-20",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Buckshot Roulette passes 10.5 million sales on Steam",
+          "source": {
+            "name": "knowledge.edge-online.com",
+            "domain": "knowledge.edge-online.com",
+            "url": "https://knowledge.edge-online.com/p/crunch-is-subjective-but-if-people-work-overtime-they-should-be-rewarded-bulkhead-ceo-joe-brammer-cl-1731"
+          }
+        }
+      ],
+      "summary": "Critical Reflex's Buckshot Roulette has passed 10.5 million sales on Steam."
+    }
+  ]
+}
