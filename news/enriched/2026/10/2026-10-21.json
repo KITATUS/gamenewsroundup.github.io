@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-21",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/cod-black-ops-1-and-2-dev-gavin-goslin-says-it-s-hard-to-wat",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-black-ops", "name": "Call of Duty: Black Ops", "aliases": ["COD Black Ops", "Black Ops 1"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-black-ops-2", "name": "Call of Duty: Black Ops 2", "aliases": ["Black Ops 2"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "treyarch", "name": "Treyarch", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "gavin-goslin", "name": "Gavin Goslin", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["port"],
+      "facts": [],
+      "summary": "Call of Duty: Black Ops 1 and 2 developer Gavin Goslin said it is hard to watch the new ports sell well while the original creators receive no money from them."
+    },
+    {
+      "ref": "main_news/revamp-developer-cancels-public-playtest-in-case-ai-users-re",
+      "entities": {
+        "games": [
+          { "id": "revamp", "name": "ReVamp", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["beta-demo"],
+      "facts": [],
+      "summary": "The developer of ReVamp cancelled a public playtest over concerns that AI users could reverse engineer the game and publish a clone first."
+    },
+    {
+      "ref": "main_news/cyberpunk-2077-getting-a-substantial-update-to-coincide-with",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "cd-projekt", "name": "CD Projekt", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-10-22",
+          "unit": "date",
+          "currency": null,
+          "entity": "cyberpunk-2077",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-10-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The update is releasing on 22nd October",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/cyberpunk-2077-25-update-free-egerunners-2-release" }
+        }
+      ],
+      "summary": "Cyberpunk 2077 is getting a substantial update timed to the Netflix release of Edgerunners Season 2."
+    },
+    {
+      "ref": "main_news/japanese-acting-union-fights-back-against-ai-generated-voice",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "A Japanese acting union has proposed strict new guidelines on AI-generated voice use, particularly concerning the voices of deceased actors."
+    },
+    {
+      "ref": "main_news/shrek-2-remastered-releases-november-10th-for-pc-nintendo-sw",
+      "entities": {
+        "games": [
+          { "id": "shrek-2-remastered", "name": "Shrek 2 Remastered", "aliases": ["Shrek 2"], "genres": ["action-adventure", "platformer"], "franchise": "shrek", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch/2"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-11-10",
+          "unit": "date",
+          "currency": null,
+          "entity": "shrek-2-remastered",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-10-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "releases November 10th",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/shrek-2-remastered-reveal-trailer-parodies-gta-6-sets-november-release-date" }
+        }
+      ],
+      "summary": "Shrek 2 Remastered releases on 10 November 2026 for PC, Nintendo Switch and Switch 2, Xbox Series X|S and PS5."
+    },
+    {
+      "ref": "main_news/a-mouthwashing-console-port-has-been-announced-coming-to-ps4",
+      "entities": {
+        "games": [
+          { "id": "mouthwashing", "name": "Mouthwashing", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "wrong-organ", "name": "Wrong Organ", "aliases": [], "publisher": "critical-reflex", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "critical-reflex", "name": "Critical Reflex", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps4", "name": "PS4", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "ps5", "name": "PS5", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "announcement", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-10-29",
+          "unit": "date",
+          "currency": null,
+          "entity": "mouthwashing",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-10-21",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Switch on October 29",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/10/mouthwashing-coming-to-ps5-xbox-series-ps4-and-switch-on-october-29" }
+        }
+      ],
+      "summary": "A console port of Mouthwashing has been announced for PS4, PS5, Xbox Series X|S and Switch, launching on 29 October 2026."
+    },
+    {
+      "ref": "business/liquid-swords-founder-confirms-that-the-samson-studio-has-cl",
+      "entities": {
+        "games": [
+          { "id": "samson", "name": "Samson", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "liquid-swords", "name": "Liquid Swords", "aliases": ["Samson studio"], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "The founder of Liquid Swords, the studio behind Samson, has confirmed that the studio has closed."
+    }
+  ]
+}
