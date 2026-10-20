@@ -3,9 +3,9 @@
   "days": [
     {
       "date": "2026-10-21",
-      "entities": 21,
+      "entities": 25,
       "facts": 3,
-      "items": 7
+      "items": 8
     },
     {
       "date": "2026-10-20",
@@ -3716,7 +3716,7 @@
       "items": 7
     }
   ],
-  "entity_count": 4454,
+  "entity_count": 4456,
   "fact_count": 2909,
   "generated_from": "enriched/",
   "genre_totals": {
@@ -3772,7 +3772,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4122,
+  "item_count": 4123,
   "metric_totals": {
     "acquisition_price": 36,
     "announce_date": 11,

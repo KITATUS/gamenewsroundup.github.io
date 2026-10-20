@@ -9,7 +9,7 @@
       "entities": {
         "games": [
           { "id": "call-of-duty-black-ops", "name": "Call of Duty: Black Ops", "aliases": ["COD Black Ops", "Black Ops 1"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
-          { "id": "call-of-duty-black-ops-2", "name": "Call of Duty: Black Ops 2", "aliases": ["Black Ops 2"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+          { "id": "call-of-duty-black-ops-ii", "name": "Call of Duty: Black Ops II", "aliases": ["Black Ops 2"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
         ],
         "studios": [
           { "id": "treyarch", "name": "Treyarch", "aliases": [], "publisher": "activision", "inferred": true }
@@ -24,7 +24,7 @@
       },
       "event_tags": ["port"],
       "facts": [],
-      "summary": "Call of Duty: Black Ops 1 and 2 developer Gavin Goslin said it is hard to watch the new ports sell well while the original creators receive no money from them."
+      "summary": "Former Call of Duty: Black Ops 1 and 2 developer Gavin Goslin said it is hard to watch the new ports sell well while the original creators receive no money from them."
     },
     {
       "ref": "main_news/revamp-developer-cancels-public-playtest-in-case-ai-users-re",
@@ -55,31 +55,22 @@
         ],
         "platforms": [
           { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
-          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
           { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
-          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false }
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
         ],
         "people": []
       },
       "event_tags": ["update-patch", "release-date"],
       "facts": [
-        {
-          "metric": "release_date",
-          "value": "2026-10-22",
-          "unit": "date",
-          "currency": null,
-          "entity": "cyberpunk-2077",
-          "entity_type": "game",
-          "scope": "game",
-          "as_of": "2026-10-21",
-          "period": "point_in_time",
-          "direction": null,
-          "confidence": "high",
-          "quote": "The update is releasing on 22nd October",
-          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/cyberpunk-2077-25-update-free-egerunners-2-release" }
-        }
+        { "metric": "release_date", "value": "2026-10-22", "unit": "date", "currency": null,
+          "entity": "cyberpunk-2077", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The update is releasing on 22nd October for PC, PS5 and Xbox Series S/X",
+          "source": { "name": "Eurogamer", "domain": "eurogamer.net", "url": "https://www.eurogamer.net/cyberpunk-2077-25-update-free-egerunners-2-release" } }
       ],
-      "summary": "Cyberpunk 2077 is getting a substantial update timed to the Netflix release of Edgerunners Season 2."
+      "summary": "Cyberpunk 2077 is getting a substantial update on 22 October for PC, PS5 and Xbox Series X|S to coincide with Edgerunners Season 2 on Netflix, with a Nintendo Switch 2 patch to follow later."
     },
     {
       "ref": "main_news/japanese-acting-union-fights-back-against-ai-generated-voice",
@@ -98,38 +89,28 @@
       "ref": "main_news/shrek-2-remastered-releases-november-10th-for-pc-nintendo-sw",
       "entities": {
         "games": [
-          { "id": "shrek-2-remastered", "name": "Shrek 2 Remastered", "aliases": ["Shrek 2"], "genres": ["action-adventure", "platformer"], "franchise": "shrek", "inferred": true }
+          { "id": "shrek-2", "name": "Shrek 2", "aliases": ["Shrek 2 Remastered"], "genres": ["action-adventure", "platformer"], "franchise": "shrek", "inferred": true }
         ],
         "studios": [],
         "publishers": [],
         "platforms": [
           { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
-          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
           { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": ["Switch/2"], "inferred": false },
           { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
-          { "id": "ps5", "name": "PS5", "aliases": [], "inferred": false }
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false }
         ],
         "people": []
       },
       "event_tags": ["remaster-remake", "release-date"],
       "facts": [
-        {
-          "metric": "release_date",
-          "value": "2026-11-10",
-          "unit": "date",
-          "currency": null,
-          "entity": "shrek-2-remastered",
-          "entity_type": "game",
-          "scope": "game",
-          "as_of": "2026-10-21",
-          "period": "point_in_time",
-          "direction": null,
-          "confidence": "high",
-          "quote": "releases November 10th",
-          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/shrek-2-remastered-reveal-trailer-parodies-gta-6-sets-november-release-date" }
-        }
+        { "metric": "release_date", "value": "2026-11-10", "unit": "date", "currency": null,
+          "entity": "shrek-2", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Shrek 2 Remastered releases November 10th",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/shrek-2-remastered-reveal-trailer-parodies-gta-6-sets-november-release-date" } }
       ],
-      "summary": "Shrek 2 Remastered releases on 10 November 2026 for PC, Nintendo Switch and Switch 2, Xbox Series X|S and PS5."
+      "summary": "Shrek 2 Remastered releases on 10 November for PC, Nintendo Switch, Nintendo Switch 2, Xbox Series X|S and PS5."
     },
     {
       "ref": "main_news/a-mouthwashing-console-port-has-been-announced-coming-to-ps4",
@@ -144,8 +125,8 @@
           { "id": "critical-reflex", "name": "Critical Reflex", "aliases": [], "inferred": true }
         ],
         "platforms": [
-          { "id": "ps4", "name": "PS4", "aliases": ["PS4/5"], "inferred": false },
-          { "id": "ps5", "name": "PS5", "aliases": ["PS4/5"], "inferred": false },
+          { "id": "ps4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "ps5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
           { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false },
           { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": ["Switch"], "inferred": false }
         ],
@@ -153,23 +134,30 @@
       },
       "event_tags": ["port", "announcement", "release-date"],
       "facts": [
-        {
-          "metric": "release_date",
-          "value": "2026-10-29",
-          "unit": "date",
-          "currency": null,
-          "entity": "mouthwashing",
-          "entity_type": "game",
-          "scope": "game",
-          "as_of": "2026-10-21",
-          "period": "point_in_time",
-          "direction": null,
-          "confidence": "high",
-          "quote": "Switch on October 29",
-          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/10/mouthwashing-coming-to-ps5-xbox-series-ps4-and-switch-on-october-29" }
-        }
+        { "metric": "release_date", "value": "2026-10-29", "unit": "date", "currency": null,
+          "entity": "mouthwashing", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-21", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "coming to PS4/5, Xbox Series S/X and Switch on October 29",
+          "source": { "name": "Gematsu", "domain": "gematsu.com", "url": "https://www.gematsu.com/2026/10/mouthwashing-coming-to-ps5-xbox-series-ps4-and-switch-on-october-29" } }
       ],
-      "summary": "A console port of Mouthwashing has been announced for PS4, PS5, Xbox Series X|S and Switch, launching on 29 October 2026."
+      "summary": "A console port of Mouthwashing has been announced for PS4, PS5, Xbox Series X|S and Switch, launching on 29 October."
+    },
+    {
+      "ref": "main_news/my-penguin-friend-game-announced-planned-for-release-q2-2027",
+      "entities": {
+        "games": [
+          { "id": "my-penguin-friend", "name": "My Penguin Friend", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date"],
+      "facts": [],
+      "summary": "My Penguin Friend has been announced for release on Steam in Q2 2027."
     },
     {
       "ref": "business/liquid-swords-founder-confirms-that-the-samson-studio-has-cl",
@@ -178,11 +166,13 @@
           { "id": "samson", "name": "Samson", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true }
         ],
         "studios": [
-          { "id": "liquid-swords", "name": "Liquid Swords", "aliases": ["Samson studio"], "publisher": null, "inferred": false }
+          { "id": "liquid-swords", "name": "Liquid Swords", "aliases": [], "publisher": null, "inferred": false }
         ],
         "publishers": [],
         "platforms": [],
-        "people": []
+        "people": [
+          { "id": "christofer-sundberg", "name": "Christofer Sundberg", "aliases": [], "inferred": true }
+        ]
       },
       "event_tags": ["studio-closure"],
       "facts": [],
