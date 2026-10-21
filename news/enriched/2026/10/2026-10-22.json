@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-22",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/ea-is-closing-bioware-and-cancelling-the-next-mass-effect",
+      "entities": {
+        "games": [
+          { "id": "next-mass-effect", "name": "the next Mass Effect", "aliases": ["Mass Effect"], "genres": ["action-rpg"], "franchise": "mass-effect", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "EA is closing BioWare and cancelling the next Mass Effect game."
+    },
+    {
+      "ref": "main_news/a-permanent-pok-mon-retail-store-is-coming-to-london-the-fir",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A permanent Pokémon retail store is coming to London, expected to open by 2029 as the first of several planned outside Asia."
+    },
+    {
+      "ref": "main_news/hideo-kojima-says-walking-simulator-comments-about-death-str",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "hideo-kojima", "name": "Hideo Kojima", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Hideo Kojima says the 'walking simulator' comments about Death Stranding show how social media can form hivemind narratives."
+    },
+    {
+      "ref": "main_news/ea-cancels-unannounced-the-sims-project",
+      "entities": {
+        "games": [
+          { "id": "unannounced-the-sims-project", "name": "unannounced The Sims project", "aliases": [], "genres": ["life-sim", "simulation"], "franchise": "the-sims", "inferred": true }
+        ],
+        "studios": [
+          { "id": "maxis", "name": "Maxis", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "EA has cancelled an unannounced project in The Sims series."
+    },
+    {
+      "ref": "main_news/amd-s-fsr-4-1-upscaling-is-coming-to-xbox-series-s-x",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-series-x-s", "name": "Xbox Series X|S", "aliases": ["Xbox Series S/X"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "AMD's FSR 4.1 upscaling technology is coming to Xbox Series S and X consoles."
+    },
+    {
+      "ref": "main_news/ea-sports-fight-night-teases-return",
+      "entities": {
+        "games": [
+          { "id": "fight-night", "name": "Fight Night", "aliases": [], "genres": ["sports", "fighting"], "franchise": "fight-night", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA Sports"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["teaser"],
+      "facts": [],
+      "summary": "EA Sports has teased the return of its Fight Night boxing series."
+    },
+    {
+      "ref": "free_games_subscription/xbox-game-pass-update",
+      "entities": {
+        "games": [
+          { "id": "sandustry", "name": "Sandustry", "aliases": [], "genres": ["simulation", "sandbox"], "franchise": null, "inferred": true },
+          { "id": "dodo-duckie", "name": "Dodo Duckie", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "scramble-knights-online", "name": "Scramble Knights Online", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "the-seance-of-blake-manor", "name": "The Séance of Blake Manor", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "final-fantasy-vii-remake", "name": "Final Fantasy VII Remake", "aliases": ["Final Fantasy VII Remake Intergrade"], "genres": ["action-rpg", "jrpg"], "franchise": "final-fantasy", "inferred": true },
+          { "id": "mouthwashing", "name": "Mouthwashing", "aliases": [], "genres": ["horror", "adventure"], "franchise": null, "inferred": true },
+          { "id": "plants-vs-zombies-replanted", "name": "Plants vs. Zombies: Replanted", "aliases": [], "genres": ["tower-defense"], "franchise": "plants-vs-zombies", "inferred": true },
+          { "id": "terrible-lizards", "name": "Terrible Lizards", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "pit-of-goblin", "name": "Pit of Goblin", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "day-of-the-tentacle-remastered", "name": "Day of the Tentacle Remastered", "aliases": [], "genres": ["adventure"], "franchise": "maniac-mansion", "inferred": true },
+          { "id": "dead-static-drive", "name": "Dead Static Drive", "aliases": [], "genres": ["survival-horror", "horror"], "franchise": null, "inferred": true },
+          { "id": "deep-rock-galactic", "name": "Deep Rock Galactic", "aliases": [], "genres": ["fps", "shooter"], "franchise": "deep-rock-galactic", "inferred": true },
+          { "id": "full-throttle-remastered", "name": "Full Throttle Remastered", "aliases": [], "genres": ["adventure"], "franchise": "full-throttle", "inferred": true },
+          { "id": "grim-fandango-remastered", "name": "Grim Fandango Remastered", "aliases": [], "genres": ["adventure"], "franchise": "grim-fandango", "inferred": true },
+          { "id": "lara-croft-and-the-temple-of-osiris", "name": "Lara Croft and the Temple of Osiris", "aliases": [], "genres": ["action-adventure"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "lego-star-wars-the-skywalker-saga", "name": "Lego Star Wars: The Skywalker Saga", "aliases": [], "genres": ["action-adventure"], "franchise": "lego-star-wars", "inferred": true },
+          { "id": "wartales", "name": "Wartales", "aliases": [], "genres": ["rpg", "turn-based-strategy"], "franchise": null, "inferred": true },
+          { "id": "wildgate", "name": "Wildgate", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true },
+          { "id": "football-manager-26", "name": "Football Manager 26", "aliases": [], "genres": ["sports", "simulation"], "franchise": "football-manager", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription", "delisting"],
+      "facts": [
+        { "metric": "event_date", "value": "2026-10-21", "unit": "date", "currency": null,
+          "entity": "sandustry", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Sandustry (October 21st)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-22", "unit": "date", "currency": null,
+          "entity": "dodo-duckie", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Dodo Duckie (October 22nd)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-26", "unit": "date", "currency": null,
+          "entity": "scramble-knights-online", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Scramble Knights Online (October 26th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-27", "unit": "date", "currency": null,
+          "entity": "the-seance-of-blake-manor", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "The Séance of Blake Manor (October 27th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-29", "unit": "date", "currency": null,
+          "entity": "final-fantasy-vii-remake", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Final Fantasy VII Remake Intergrade (October 29th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-29", "unit": "date", "currency": null,
+          "entity": "mouthwashing", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Mouthwashing (October 29th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-29", "unit": "date", "currency": null,
+          "entity": "plants-vs-zombies-replanted", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Plants vs. Zombies: Replanted (October 29th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-29", "unit": "date", "currency": null,
+          "entity": "terrible-lizards", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Terrible Lizards (October 29th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-11-03", "unit": "date", "currency": null,
+          "entity": "pit-of-goblin", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Pit of Goblin (November 3rd)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-10-31", "unit": "date", "currency": null,
+          "entity": "xbox-game-pass", "entity_type": "platform", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Leaving (October 31st)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } },
+        { "metric": "event_date", "value": "2026-11-10", "unit": "date", "currency": null,
+          "entity": "football-manager-26", "entity_type": "game", "scope": "event",
+          "as_of": "2026-10-22", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Football Manager 26 (November 10th)",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-rest-of-octobers-xbox-game-pass-titles-have-been-revealed-including-final-fantasy-7-remake/" } }
+      ],
+      "summary": "Xbox has revealed the rest of October's Game Pass titles, with nine games arriving between 21 October and 3 November 2026 including Final Fantasy VII Remake Intergrade, and ten titles leaving the service."
+    },
+    {
+      "ref": "business/many-staff-gone-from-skate-studio-full-circle-as-part-of-ea",
+      "entities": {
+        "games": [
+          { "id": "skate", "name": "Skate", "aliases": [], "genres": ["sports"], "franchise": "skate", "inferred": true }
+        ],
+        "studios": [
+          { "id": "full-circle", "name": "Full Circle", "aliases": [], "publisher": "electronic-arts", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [],
+      "summary": "Many staff have left Skate developer Full Circle as part of EA's layoffs, though the number affected is unknown."
+    },
+    {
+      "ref": "business/first-person-soulslike-valor-mortis-breaks-even-in-seven-day",
+      "entities": {
+        "games": [
+          { "id": "valor-mortis", "name": "Valor Mortis", "aliases": [], "genres": ["soulslike", "action-rpg"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "one-more-level", "name": "One More Level", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [],
+      "summary": "First-person Soulslike Valor Mortis broke even within seven days of launch."
+    }
+  ]
+}
