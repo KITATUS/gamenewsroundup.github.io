@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/mass-effect-universe-trailer-leaks-online-showcases-what-bio",
+      "entities": {
+        "games": [
+          { "id": "mass-effect-universe", "name": "Mass Effect Universe", "aliases": [], "genres": ["action-rpg"], "franchise": "mass-effect", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "studio-closure"],
+      "facts": [],
+      "summary": "A trailer for Mass Effect Universe has leaked online, showing what BioWare was working on before the studio was shut down."
+    },
+    {
+      "ref": "main_news/mass-effect-tv-series-still-in-production-despite-bioware-cl",
+      "entities": {
+        "games": [
+          { "id": "mass-effect", "name": "Mass Effect", "aliases": [], "genres": ["action-rpg"], "franchise": "mass-effect", "inferred": true }
+        ],
+        "studios": [
+          { "id": "bioware", "name": "BioWare", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "The Mass Effect TV series is reportedly still in production despite the closure of BioWare."
+    },
+    {
+      "ref": "main_news/capcom-says-a-data-breach-affected-more-than-11-million-capc",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "capcom-id", "name": "Capcom ID", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Capcom says a data breach affected more than 11 million Capcom ID accounts, though credit card details were not affected."
+    },
+    {
+      "ref": "main_news/xbox-reveals-pricing-for-cloud-gaming-limits",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox-cloud-gaming", "name": "Xbox Cloud Gaming", "aliases": ["Xbox cloud gaming"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "subscription"],
+      "facts": [
+        {
+          "metric": "price", "value": 3.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-cloud-gaming", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "10 hours for $3.99",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours" }
+        },
+        {
+          "metric": "price", "value": 7.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-cloud-gaming", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "25 hours for $7.99",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours" }
+        },
+        {
+          "metric": "price", "value": 11.99, "unit": "price", "currency": "USD",
+          "entity": "xbox-cloud-gaming", "entity_type": "platform", "scope": "product",
+          "as_of": "2026-10-23", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "50 hours for $11.99",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours" }
+        }
+      ],
+      "summary": "Xbox has revealed pricing for cloud gaming time limits, starting at $3.99 for 10 hours."
+    },
+    {
+      "ref": "rumours/beyond-good-evil-2-is-still-in-pre-production-after-18-years",
+      "entities": {
+        "games": [
+          { "id": "beyond-good-evil-2", "name": "Beyond Good & Evil 2", "aliases": [], "genres": ["action-adventure"], "franchise": "beyond-good-evil", "inferred": true }
+        ],
+        "studios": [
+          { "id": "ubisoft-montpellier", "name": "Ubisoft Montpellier", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "A report claims Beyond Good & Evil 2 is still in pre-production after 18 years because its vision keeps changing."
+    }
+  ]
+}

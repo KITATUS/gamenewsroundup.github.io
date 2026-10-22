@@ -4258,12 +4258,12 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-10-25",
-    "franchise": "beyond-good-and-evil",
+    "franchise": "beyond-good-evil",
     "genres": [
       "action-adventure"
     ],
-    "last_seen": "2026-01-22",
-    "mentions": 2,
+    "last_seen": "2026-10-23",
+    "mentions": 3,
     "name": "Beyond Good & Evil 2",
     "type": "game"
   },
@@ -4470,8 +4470,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-05-02",
-    "last_seen": "2026-10-22",
-    "mentions": 10,
+    "last_seen": "2026-10-23",
+    "mentions": 12,
     "name": "BioWare",
     "type": "studio"
   },
@@ -6265,8 +6265,8 @@
     ],
     "fact_count": 70,
     "first_seen": "2024-04-29",
-    "last_seen": "2026-09-25",
-    "mentions": 111,
+    "last_seen": "2026-10-23",
+    "mentions": 112,
     "name": "Capcom",
     "type": "publisher"
   },
@@ -6295,6 +6295,15 @@
     "mentions": 1,
     "name": "Capcom Fighting Evolution",
     "type": "game"
+  },
+  "capcom-id": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-23",
+    "last_seen": "2026-10-23",
+    "mentions": 1,
+    "name": "Capcom ID",
+    "type": "platform"
   },
   "capcom-vs-snk-2-mark-of-the-millennium-2001": {
     "aliases": [],
@@ -26982,9 +26991,22 @@
     "genres": [
       "action-rpg"
     ],
-    "last_seen": "2025-06-10",
-    "mentions": 3,
+    "last_seen": "2026-10-23",
+    "mentions": 4,
     "name": "Mass Effect",
+    "type": "game"
+  },
+  "mass-effect-universe": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-10-23",
+    "franchise": "mass-effect",
+    "genres": [
+      "action-rpg"
+    ],
+    "last_seen": "2026-10-23",
+    "mentions": 1,
+    "name": "Mass Effect Universe",
     "type": "game"
   },
   "massive-entertainment": {
@@ -28334,8 +28356,8 @@
     ],
     "fact_count": 18,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-10-14",
-    "mentions": 134,
+    "last_seen": "2026-10-23",
+    "mentions": 135,
     "name": "Microsoft",
     "type": "publisher"
   },
@@ -49897,8 +49919,8 @@
     ],
     "fact_count": 38,
     "first_seen": "2024-05-03",
-    "last_seen": "2026-10-16",
-    "mentions": 139,
+    "last_seen": "2026-10-23",
+    "mentions": 140,
     "name": "Ubisoft",
     "type": "publisher"
   },
@@ -50045,8 +50067,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-10-23",
-    "last_seen": "2024-10-25",
-    "mentions": 2,
+    "last_seen": "2026-10-23",
+    "mentions": 3,
     "name": "Ubisoft Montpellier",
     "type": "studio"
   },
@@ -53086,12 +53108,13 @@
   "xbox-cloud-gaming": {
     "aliases": [
       "Cloud",
+      "Xbox cloud gaming",
       "cloud gaming"
     ],
-    "fact_count": 0,
+    "fact_count": 3,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-09-04",
-    "mentions": 19,
+    "last_seen": "2026-10-23",
+    "mentions": 20,
     "name": "Xbox Cloud Gaming",
     "type": "platform"
   },
