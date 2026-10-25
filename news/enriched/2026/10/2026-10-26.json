@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-26",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/a-free-officially-licensed-game-based-on-classic-uk-children",
+      "entities": {
+        "games": [
+          { "id": "knightmare", "name": "Knightmare", "aliases": [], "genres": ["adventure"], "franchise": "knightmare", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "free-game"],
+      "facts": [],
+      "summary": "A free, officially licensed point-and-click game based on the classic UK children's TV show Knightmare is in development, featuring voice acting by the original cast."
+    },
+    {
+      "ref": "main_news/cyberpunk-2-associate-director-pawe-sasko-says-half-the-ques",
+      "entities": {
+        "games": [
+          { "id": "cyberpunk-2", "name": "Cyberpunk 2", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "cyberpunk", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": ["CDPR"], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "pawel-sasko", "name": "Paweł Sasko", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Cyberpunk 2 associate director Paweł Sasko said half of the game's quest team were hired for their modding work on other CD Projekt Red games."
+    },
+    {
+      "ref": "business/xbox-s-first-chief-operating-officer-helen-chiang-is-fired-f",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "helen-chiang", "name": "Helen Chiang", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Helen Chiang, Xbox's first chief operating officer, has been fired from Microsoft for \"policy violations\" three months into the role."
+    },
+    {
+      "ref": "business/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gamemaker", "name": "GameMaker", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["price-change"],
+      "facts": [],
+      "summary": "GameMaker will make its next-generation runtime GMRT free for commercial use in January 2027, though console exports will still require an enterprise license and approved developer status."
+    },
+    {
+      "ref": "rumours/microsoft-wanted-800-million-from-streaming-giant-netflix-fo",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["partnership", "rumour"],
+      "facts": [],
+      "summary": "Microsoft reportedly sought $800 million from Netflix for seven years of exclusive shows and films based on Xbox characters."
+    }
+  ]
+}

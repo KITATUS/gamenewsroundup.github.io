@@ -1,11 +1,11 @@
 {
-  "id": "2026-10-23",
-  "date": "2026-10-23",
+  "id": "2026-10-26",
+  "date": "2026-10-26",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-10-22T21:53:13.365+01:00",
+  "published_at": "2026-10-25T21:03:08.680+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 23 October 2026.",
+  "summary": "Daily curated games-industry news digest for 26 October 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,63 +19,35 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "mass-effect-universe-trailer-leaks-online-showcases-what-bio",
-          "title": "**Mass Effect Universe** trailer leaks online, showcases what BioWare was working on before being shut down",
+          "id": "a-free-officially-licensed-game-based-on-classic-uk-children",
+          "title": "A free, officially licensed game based on classic UK children’s TV show **Knightmare** is in development",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/mass-effect-universe-trailer-leaks-online-showcases-what-bioware-was-working-on-before-being-shut-down/",
+          "url": "https://www.videogameschronicle.com/news/a-free-officially-licensed-game-based-on-classic-uk-childrens-tv-show-knightmare-is-in-development/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "mass-effect-tv-series-still-in-production-despite-bioware-cl",
-          "title": "**Mass Effect** TV series ‘still in production’ despite BioWare closure",
-          "body": null,
-          "url": "https://www.videogameschronicle.com/news/mass-effect-tv-series-still-in-production-despite-bioware-closure-as-game-director-writes-at-least-i-can-play-gta-6/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "capcom-says-a-data-breach-affected-more-than-11-million-capc",
-          "title": "**Capcom** says a data breach affected more than 11 million Capcom ID accounts, credit card details unaffected",
-          "body": null,
-          "url": "https://www.videogameschronicle.com/news/capcom-says-a-data-breach-affected-more-than-11-million-capcom-id-accounts-credit-card-details-unaffected/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "xbox-reveals-pricing-for-cloud-gaming-limits",
-          "title": "**Xbox** reveals pricing for cloud gaming limits",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours",
-          "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           },
           "bullets": [
-            "10 hours for $3.99, 25 hours for $7.99, and 50 hours for $11.99"
+            "The point-and-click game includes voice acting by the original cast"
           ]
+        },
+        {
+          "id": "cyberpunk-2-associate-director-pawe-sasko-says-half-the-ques",
+          "title": "**Cyberpunk 2** associate director Paweł Sasko says half the quest team were hired for their modding work on other CDPR games",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/cyberpunk-2-associate-director-says-half-the-quest-team-were-hired-for-their-modding-work-on-other-cdpr-games/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
         }
       ]
     },
@@ -87,24 +59,56 @@
     {
       "id": "business",
       "label": "Business",
-      "items": []
+      "items": [
+        {
+          "id": "xbox-s-first-chief-operating-officer-helen-chiang-is-fired-f",
+          "title": "**Xbox**'s first chief operating officer Helen Chiang is fired from Microsoft for \"policy violations\" just three months into the job",
+          "body": null,
+          "url": "https://www.eurogamer.net/xbox-coo-helen-chiang-leaves-microsoft",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "gamemaker-to-make-its-next-generation-runtime-gmrt-free-for",
+          "title": "**GameMaker** to make its \"next-generation runtime\" GMRT free for commercial use in January 2027",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for-commercial-use-in-january-2027",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "GameMaker emphasised that \"regardless of runtime, developers will still need an enterprise license and to be an approved developer to be able to export to consoles.\""
+          ]
+        }
+      ]
     },
     {
       "id": "rumours",
       "label": "Rumours",
       "items": [
         {
-          "id": "beyond-good-evil-2-is-still-in-pre-production-after-18-years",
-          "title": "**Beyond Good & Evil 2** is ‘still in pre-production’ after 18 years as its vision keeps changing",
+          "id": "microsoft-wanted-800-million-from-streaming-giant-netflix-fo",
+          "title": "**Microsoft** wanted $800 million from streaming giant Netflix for seven years of shows and films about Xbox characters, exclusively on Netflix, it’s claimed",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/beyond-good-evil-2-is-still-in-pre-production-after-18-years-as-its-vision-keeps-changing-report-claims/",
+          "url": "https://www.videogameschronicle.com/news/xbox-wanted-800-million-from-netflix-for-7-years-of-its-biggest-characters-its-claimed/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
           },
           "metadata": {
             "story_type": "rumour",
-            "rumour_status": "rumour_pending_sources",
+            "rumour_status": "rumour_verified_sources",
             "importance": "normal"
           }
         }
