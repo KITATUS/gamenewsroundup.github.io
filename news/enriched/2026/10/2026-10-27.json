@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-27",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/arkane-now-has-until-mid-december-to-find-a-buyer-as-microso",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "arkane-studios", "name": "Arkane Studios", "aliases": ["Arkane"], "publisher": "microsoft", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Microsoft has extended its deadline, giving Arkane until mid-December to find a buyer."
+    },
+    {
+      "ref": "main_news/epic-games-ceo-tim-sweeney-calls-steam-s-ai-disclosure-polic",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "tim-sweeney", "name": "Tim Sweeney", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Epic Games CEO Tim Sweeney criticised Steam's AI disclosure policies, calling them a political act."
+    },
+    {
+      "ref": "business/auroch-digital-creators-of-warhammer-40-000-boltgun-2-and-st",
+      "entities": {
+        "games": [
+          { "id": "warhammer-40000-boltgun-2", "name": "Warhammer 40,000: Boltgun 2", "aliases": [], "genres": ["fps"], "franchise": "warhammer-40000", "inferred": true },
+          { "id": "starship-troopers-ultimate-bug-war", "name": "Starship Troopers: Ultimate Bug War!", "aliases": [], "genres": ["fps"], "franchise": "starship-troopers", "inferred": true }
+        ],
+        "studios": [
+          { "id": "auroch-digital", "name": "Auroch Digital", "aliases": ["Auroch"], "publisher": "sumo-group", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "sumo-group", "name": "Sumo Group", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "acquisition_price",
+          "value": 8300000,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "auroch-digital",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-10-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "It was acquired by Sumo Group for $8.3m in 2021",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff" }
+        }
+      ],
+      "summary": "Auroch Digital, the studio behind Warhammer 40,000: Boltgun 2 and Starship Troopers: Ultimate Bug War!, has laid off a quarter of its staff."
+    },
+    {
+      "ref": "rumours/ghost-of-yotei-studio-sucker-punch-reportedly-lays-off-more",
+      "entities": {
+        "games": [
+          { "id": "ghost-of-yotei", "name": "Ghost of Yotei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true }
+        ],
+        "studios": [
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": ["Sucker Punch"], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "rumour"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 24,
+          "unit": "people",
+          "currency": null,
+          "entity": "sucker-punch-productions",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-10-27",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "lays off more than two dozen staff",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/ghost-of-yotei-studio-sucker-punch-reportedly-lays-off-more-than-two-dozen-staff-as-it-prepares-for-its-next-project/" }
+        }
+      ],
+      "summary": "Sucker Punch, the studio behind Ghost of Yotei, has reportedly laid off more than two dozen staff as it prepares for its next project."
+    }
+  ]
+}
