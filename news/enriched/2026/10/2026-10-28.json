@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-28",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/kingdom-come-deliverance-developer-warhorse-suffers-cyberatt",
+      "entities": {
+        "games": [
+          { "id": "kingdom-come-deliverance", "name": "Kingdom Come: Deliverance", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "kingdom-come", "inferred": true }
+        ],
+        "studios": [
+          { "id": "warhorse-studios", "name": "Warhorse Studios", "aliases": ["Warhorse"], "publisher": "embracer-group", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Kingdom Come: Deliverance developer Warhorse Studios has suffered a cyberattack."
+    },
+    {
+      "ref": "main_news/pok-mon-s-free-to-play-moba-pok-mon-unite-is-shutting-down-o",
+      "entities": {
+        "games": [
+          { "id": "pokemon-unite", "name": "Pokémon Unite", "aliases": [], "genres": ["moba"], "franchise": "pokemon", "inferred": false }
+        ],
+        "studios": [
+          { "id": "timi-studio-group", "name": "TiMi Studio Group", "aliases": [], "publisher": "tencent", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "the-pokemon-company", "name": "The Pokémon Company", "aliases": ["Pokémon"], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["shutdown"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2027-03-23", "unit": "date", "currency": null,
+          "entity": "pokemon-unite", "entity_type": "game", "scope": "game",
+          "as_of": "2026-10-28", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Pokémon Unite is shutting down on March 23rd 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com",
+                      "url": "https://www.videogameschronicle.com/news/pokemons-free-to-play-moba-pokemon-unite-is-shutting-down-the-pokemon-company-has-confirmed/" } }
+      ],
+      "summary": "The free-to-play Pokémon MOBA Pokémon Unite will shut down on 23 March 2027."
+    },
+    {
+      "ref": "main_news/capcom-has-temporarily-delisted-street-fighter-5-and-turned",
+      "entities": {
+        "games": [
+          { "id": "street-fighter-5", "name": "Street Fighter 5", "aliases": [], "genres": ["fighting"], "franchise": "street-fighter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Capcom has temporarily delisted Street Fighter 5 and taken its servers offline while it addresses a PHP security issue."
+    },
+    {
+      "ref": "business/call-of-duty-franchise-surpasses-40bn-in-lifetime-revenue-fo",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty", "name": "Call of Duty", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true },
+          { "id": "call-of-duty-modern-warfare-4", "name": "Call of Duty: Modern Warfare 4", "aliases": ["Modern Warfare 4"], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "release"],
+      "facts": [
+        { "metric": "revenue", "value": 40000000000, "unit": "money", "currency": "USD",
+          "entity": "call-of-duty", "entity_type": "game", "scope": "franchise",
+          "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Call of Duty franchise surpasses $40bn in lifetime revenue",
+          "source": { "name": "IGN", "domain": "ign.com",
+                      "url": "https://www.ign.com/articles/call-of-duty-franchise-surpasses-40-billion-lifetime-revenue-following-launch-of-modern-warfare-4" } }
+      ],
+      "summary": "The Call of Duty franchise has surpassed $40 billion in lifetime revenue following the launch of Modern Warfare 4."
+    },
+    {
+      "ref": "business/new-capcom-sales-report",
+      "entities": {
+        "games": [
+          { "id": "resident-evil-4", "name": "Resident Evil 4", "aliases": ["Resident Evil 4 (2023)"], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "pragmata", "name": "PRAGMATA", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "resident-evil-2", "name": "Resident Evil 2", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "devil-may-cry-5", "name": "Devil May Cry 5", "aliases": ["DMC5"], "genres": ["action-adventure"], "franchise": "devil-may-cry", "inferred": true },
+          { "id": "onimusha", "name": "Onimusha", "aliases": [], "genres": ["action-adventure"], "franchise": "onimusha", "inferred": true },
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-3", "name": "Resident Evil 3", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-7", "name": "Resident Evil 7", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "resident-evil-village", "name": "Resident Evil Village", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "monster-hunter-world", "name": "Monster Hunter World", "aliases": [], "genres": ["action-rpg"], "franchise": "monster-hunter", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings", "sales-milestone"],
+      "facts": [
+        { "metric": "units_sold", "value": 3500000, "unit": "units", "currency": null, "entity": "resident-evil-4", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Resident Evil 4 (2023): 3.5 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 17000000, "unit": "units", "currency": null, "entity": "resident-evil-4", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Resident Evil 4 (2023): 3.5 million sold (17 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 2700000, "unit": "units", "currency": null, "entity": "pragmata", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "PRAGMATA: 2.7 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 2700000, "unit": "units", "currency": null, "entity": "pragmata", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "PRAGMATA: 2.7 million sold (2.7 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 2000000, "unit": "units", "currency": null, "entity": "resident-evil-2", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Resident Evil 2: 2 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 20300000, "unit": "units", "currency": null, "entity": "resident-evil-2", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Resident Evil 2: 2 million sold (20.3 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 1800000, "unit": "units", "currency": null, "entity": "devil-may-cry-5", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "DMC5: 1.8 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 14700000, "unit": "units", "currency": null, "entity": "devil-may-cry-5", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "DMC5: 1.8 million sold (14.7 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 1700000, "unit": "units", "currency": null, "entity": "onimusha", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Onimusha: 1.7 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 1700000, "unit": "units", "currency": null, "entity": "onimusha", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Onimusha: 1.7 million sold (1.7 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 1500000, "unit": "units", "currency": null, "entity": "resident-evil-requiem", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Resident Evil Requiem: 1.5 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 8500000, "unit": "units", "currency": null, "entity": "resident-evil-requiem", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Resident Evil Requiem: 1.5 million sold (8.5 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 1500000, "unit": "units", "currency": null, "entity": "resident-evil-3", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Resident Evil 3: 1.5 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 14900000, "unit": "units", "currency": null, "entity": "resident-evil-3", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Resident Evil 3: 1.5 million sold (14.9 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 1400000, "unit": "units", "currency": null, "entity": "resident-evil-7", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Resident Evil 7: 1.4 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 18800000, "unit": "units", "currency": null, "entity": "resident-evil-7", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Resident Evil 7: 1.4 million sold (18.8 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 1300000, "unit": "units", "currency": null, "entity": "resident-evil-village", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Resident Evil Village: 1.3 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 16200000, "unit": "units", "currency": null, "entity": "resident-evil-village", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Resident Evil Village: 1.3 million sold (16.2 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "units_sold", "value": 1100000, "unit": "units", "currency": null, "entity": "monster-hunter-world", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": null, "direction": null, "confidence": "high", "quote": "Monster Hunter World: 1.1 million sold", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } },
+        { "metric": "lifetime_unit_sales", "value": 30000000, "unit": "units", "currency": null, "entity": "monster-hunter-world", "entity_type": "game", "scope": "game", "as_of": "2026-10-28", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Monster Hunter World: 1.1 million sold (30 million overall)", "source": { "name": "Capcom", "domain": "capcom.co.jp", "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf" } }
+      ],
+      "summary": "Capcom has published a new sales report listing period and lifetime unit sales for its top titles, led by Resident Evil 4 (2023) at 3.5 million sold."
+    },
+    {
+      "ref": "business/ukie-calls-on-government-to-modernise-video-games-expenditur",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["regulation"],
+      "facts": [],
+      "summary": "UK trade body UKIE has called on the government to modernise the Video Games Expenditure Credit ahead of the Autumn Budget."
+    },
+    {
+      "ref": "business/the-creator-of-crossy-road-matt-hall-co-founder-of-hipster-w",
+      "entities": {
+        "games": [
+          { "id": "crossy-road", "name": "Crossy Road", "aliases": [], "genres": [], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "hipster-whale", "name": "Hipster Whale", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "atari", "name": "Atari", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "matt-hall", "name": "Matt Hall", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [],
+      "summary": "Crossy Road creator and Hipster Whale co-founder Matt Hall is now leading Atari's mobile game division as Executive Vice President."
+    }
+  ]
+}

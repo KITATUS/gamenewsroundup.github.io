@@ -1,6 +1,12 @@
 {
-  "day_count": 623,
+  "day_count": 624,
   "days": [
+    {
+      "date": "2026-10-28",
+      "entities": 24,
+      "facts": 22,
+      "items": 7
+    },
     {
       "date": "2026-10-27",
       "entities": 12,
@@ -3740,15 +3746,15 @@
       "items": 7
     }
   ],
-  "entity_count": 4481,
-  "fact_count": 2925,
+  "entity_count": 4485,
+  "fact_count": 2947,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 970,
+    "action-adventure": 973,
     "action-platformer": 3,
-    "action-rpg": 711,
+    "action-rpg": 713,
     "adventure": 363,
     "arcade": 13,
     "battle-royale": 139,
@@ -3757,8 +3763,8 @@
     "creature-collector": 1,
     "crpg": 27,
     "extraction-shooter": 48,
-    "fighting": 222,
-    "fps": 467,
+    "fighting": 223,
+    "fps": 469,
     "grand-strategy": 1,
     "hero-shooter": 75,
     "horror": 134,
@@ -3769,8 +3775,8 @@
     "metroidvania": 59,
     "mmo": 48,
     "mmorpg": 77,
-    "moba": 28,
-    "open-world": 435,
+    "moba": 29,
+    "open-world": 436,
     "party": 95,
     "platformer": 295,
     "puzzle": 159,
@@ -3788,7 +3794,7 @@
     "stealth": 107,
     "strategy": 186,
     "survival": 193,
-    "survival-horror": 270,
+    "survival-horror": 276,
     "tactical-shooter": 2,
     "tower-defense": 16,
     "tps": 167,
@@ -3796,7 +3802,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4146,
+  "item_count": 4153,
   "metric_totals": {
     "acquisition_price": 37,
     "announce_date": 11,
@@ -3812,7 +3818,7 @@
     "funding_raised": 67,
     "headcount": 28,
     "layoffs_count": 124,
-    "lifetime_unit_sales": 58,
+    "lifetime_unit_sales": 68,
     "metacritic": 1,
     "operating_income": 139,
     "peak_concurrent_players": 16,
@@ -3822,13 +3828,13 @@
     "price_change_pct": 18,
     "profit": 144,
     "release_date": 703,
-    "revenue": 412,
+    "revenue": 413,
     "review_score": 3,
     "severance": 2,
-    "shutdown_date": 83,
+    "shutdown_date": 84,
     "studios_affected": 7,
     "subscriber_count": 2,
-    "units_sold": 74,
+    "units_sold": 84,
     "viewers": 10,
     "wages": 12
   }

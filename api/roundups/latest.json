@@ -1,11 +1,11 @@
 {
-  "id": "2026-10-27",
-  "date": "2026-10-27",
+  "id": "2026-10-28",
+  "date": "2026-10-28",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-10-26T21:03:30.265+00:00",
+  "published_at": "2026-10-27T20:54:43.196+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 27 October 2026.",
+  "summary": "Daily curated games-industry news digest for 28 October 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,24 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "arkane-now-has-until-mid-december-to-find-a-buyer-as-microso",
-          "title": "**Arkane** now has until mid-December to find a buyer as Microsoft extends its deadline",
+          "id": "kingdom-come-deliverance-developer-warhorse-suffers-cyberatt",
+          "title": "Kingdom Come: Deliverance developer **Warhorse** suffers cyberattack",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/arkane-now-has-until-mid-december-to-find-a-buyer-as-microsoft-extends-its-deadline/",
+          "url": "https://www.eurogamer.net/warhorse-cyberattack-kingdom-come-deliverance",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "pok-mon-s-free-to-play-moba-pok-mon-unite-is-shutting-down-o",
+          "title": "Pokémon’s free-to-play MOBA **Pokémon Unite** is shutting down on March 23rd 2027",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/pokemons-free-to-play-moba-pokemon-unite-is-shutting-down-the-pokemon-company-has-confirmed/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -33,21 +47,18 @@
           }
         },
         {
-          "id": "epic-games-ceo-tim-sweeney-calls-steam-s-ai-disclosure-polic",
-          "title": "**Epic Games** CEO Tim Sweeney calls Steam's AI disclosure policies \"a political act\"",
+          "id": "capcom-has-temporarily-delisted-street-fighter-5-and-turned",
+          "title": "**Capcom** has temporarily delisted Street Fighter 5 and turned off its servers as it works on PHP security issue",
           "body": null,
-          "url": "https://www.gamesindustry.biz/epic-games-ceo-calls-steams-ai-disclosure-policies-a-political-act",
+          "url": "https://www.videogameschronicle.com/news/capcom-has-temporarily-delisted-street-fighter-5-and-turned-off-its-servers-as-it-works-on-php-security-issue/",
           "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          },
-          "bullets": [
-            "Tim Sweeney said \"Forcing developers to write a political statement to be used against them by the hate mob they're helping organize is abhorrent\""
-          ]
+          }
         }
       ]
     },
@@ -61,10 +72,50 @@
       "label": "Business",
       "items": [
         {
-          "id": "auroch-digital-creators-of-warhammer-40-000-boltgun-2-and-st",
-          "title": "**Auroch Digital** (creators of Warhammer 40,000: Boltgun 2 and Starship Troopers: Ultimate Bug War!) lays off a quarter of its staff",
+          "id": "call-of-duty-franchise-surpasses-40bn-in-lifetime-revenue-fo",
+          "title": "**Call of Duty** franchise surpasses $40bn in lifetime revenue following Modern Warfare 4 launch",
           "body": null,
-          "url": "https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff",
+          "url": "https://www.ign.com/articles/call-of-duty-franchise-surpasses-40-billion-lifetime-revenue-following-launch-of-modern-warfare-4",
+          "source": {
+            "name": "IGN",
+            "domain": "ign.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "new-capcom-sales-report",
+          "title": "New **Capcom** Sales Report",
+          "body": null,
+          "url": "https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/2nd/explanation_2026_2nd_01.pdf",
+          "source": {
+            "name": "Capcom",
+            "domain": "capcom.co.jp"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Resident Evil 4 (2023): 3.5 million sold (17 million overall)",
+            "PRAGMATA: 2.7 million sold (2.7 million overall)",
+            "Resident Evil 2: 2 million sold (20.3 million overall)",
+            "DMC5: 1.8 million sold (14.7 million overall)",
+            "Onimusha: 1.7 million sold (1.7 million overall)",
+            "Resident Evil Requiem: 1.5 million sold (8.5 million overall)",
+            "Resident Evil 3: 1.5 million sold (14.9 million overall)",
+            "Resident Evil 7: 1.4 million sold (18.8 million overall)",
+            "Resident Evil Village: 1.3 million sold (16.2 million overall)",
+            "Monster Hunter World: 1.1 million sold (30 million overall)"
+          ]
+        },
+        {
+          "id": "ukie-calls-on-government-to-modernise-video-games-expenditur",
+          "title": "**UKIE** calls on government to modernise Video Games Expenditure Credit ahead of Autumn Budget",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/ukie-calls-on-government-to-modernise-video-games-expenditure-credit-ahead-of-autumn-budget",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
@@ -74,31 +125,29 @@
             "importance": "normal"
           },
           "bullets": [
-            "According to the Bristol-based studio's own LinkedIn page, Auroch employs between 51-200 staff. It was acquired by Sumo Group for $8.3m in 2021"
+            "\"Reforming VGEC is essential to ensuring the UK remains a competitive place to build and grow games businesses,\" says UKIE CEO"
           ]
+        },
+        {
+          "id": "the-creator-of-crossy-road-matt-hall-co-founder-of-hipster-w",
+          "title": "The creator of **Crossy Road** (Matt Hall, co-founder of Hipster Whale) is now leading Atari’s mobile game division  as Executive Vice President",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/the-creator-of-crossy-road-is-now-ataris-executive-vice-president-of-mobile-games/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
         }
       ]
     },
     {
       "id": "rumours",
       "label": "Rumours",
-      "items": [
-        {
-          "id": "ghost-of-yotei-studio-sucker-punch-reportedly-lays-off-more",
-          "title": "Ghost of Yotei studio **Sucker Punch** reportedly lays off more than two dozen staff as it prepares for its next project",
-          "body": null,
-          "url": "https://www.videogameschronicle.com/news/ghost-of-yotei-studio-sucker-punch-reportedly-lays-off-more-than-two-dozen-staff-as-it-prepares-for-its-next-project/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "rumour",
-            "rumour_status": "rumour_verified_sources",
-            "importance": "normal"
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
