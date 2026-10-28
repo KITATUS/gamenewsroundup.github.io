@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-29",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/bereaved-families-have-called-on-activision-to-edit-the-intr",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-modern-warfare-4", "name": "Call of Duty: Modern Warfare 4", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [
+          { "id": "infinity-ward", "name": "Infinity Ward", "aliases": [], "publisher": "activision", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Bereaved families have urged Activision to edit the intro of Call of Duty: Modern Warfare 4 after it emerged the sequence uses real news footage of a Seoul tragedy in which 159 people died." }
+    ,
+    {
+      "ref": "main_news/epic-games-doubles-down-on-gen-ai-tools-for-fortnite-unreal",
+      "entities": {
+        "games": [
+          { "id": "fortnite", "name": "Fortnite", "aliases": [], "genres": ["battle-royale", "shooter"], "franchise": "fortnite", "inferred": true }
+        ],
+        "studios": [
+          { "id": "epic-games", "name": "Epic Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Epic Games is expanding its use of generative AI tools across Fortnite, Unreal Engine 6 and other projects, saying its engineers are no longer writing the bulk of the code."
+    },
+    {
+      "ref": "free_games_subscription/november-s-three-free-ps-plus-essential-monthly-games-are-de",
+      "entities": {
+        "games": [
+          { "id": "dead-island-2", "name": "Dead Island 2", "aliases": [], "genres": ["action-rpg", "survival-horror"], "franchise": "dead-island", "inferred": true },
+          { "id": "tomb-raider-4-6-remastered", "name": "Tomb Raider 4-6 Remastered", "aliases": [], "genres": ["action-adventure", "platformer"], "franchise": "tomb-raider", "inferred": true },
+          { "id": "monster-train-2", "name": "Monster Train 2", "aliases": [], "genres": ["roguelike", "card", "strategy"], "franchise": "monster-train", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "ps-plus", "name": "PS Plus", "aliases": ["PS Plus Essential"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["free-game", "subscription"],
+      "facts": [],
+      "summary": "PS Plus Essential's three monthly games for November are Dead Island 2, Tomb Raider 4-6 Remastered and Monster Train 2."
+    },
+    {
+      "ref": "business/tom-clancy-s-the-division-franchise-tops-50-million-players",
+      "entities": {
+        "games": [
+          { "id": "tom-clancys-the-division", "name": "Tom Clancy's The Division", "aliases": ["The Division"], "genres": ["tps", "shooter", "action-rpg"], "franchise": "tom-clancys-the-division", "inferred": true }
+        ],
+        "studios": [
+          { "id": "massive-entertainment", "name": "Massive Entertainment", "aliases": [], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        { "metric": "players_total", "value": 50000000, "unit": "players", "currency": null,
+          "entity": "tom-clancys-the-division", "entity_type": "game", "scope": "franchise",
+          "as_of": "2026-10-29", "period": "cumulative", "direction": null, "confidence": "high",
+          "quote": "Tom Clancy's The Division franchise tops 50 million players",
+          "source": { "name": "IGN", "domain": "ign.com", "url": "https://www.ign.com/articles/the-division-series-50-million-players" } }
+      ],
+      "summary": "The Tom Clancy's The Division franchise has passed 50 million players."
+    },
+    {
+      "ref": "business/xbox-content-services-revenue-falls-2-in-latest-financial-qu",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": ["Xbox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
+          { "id": "xbox-game-pass", "name": "Xbox Game Pass", "aliases": ["Game Pass"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Xbox content and services revenue, covering games, downloadable content and subscriptions including Game Pass, fell 2% in Microsoft's latest financial quarter."
+    }
+  ]
+}
