@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-30",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/the-latest-episode-of-south-park-features-exclusive-gta-6-fo",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-vi", "name": "Grand Theft Auto VI", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["gameplay"],
+      "facts": [],
+      "summary": "The latest South Park episode features exclusive GTA 6 footage in which a man is hit in the head with dog poo."
+    },
+    {
+      "ref": "main_news/donald-glover-to-direct-and-star-in-netflix-adaptation-of-pu",
+      "entities": {
+        "games": [
+          { "id": "pubg-battlegrounds", "name": "PUBG: Battlegrounds", "aliases": ["PUBG Battlegrounds", "PUBG"], "genres": ["battle-royale", "shooter"], "franchise": "pubg", "inferred": true }
+        ],
+        "studios": [
+          { "id": "pubg-studios", "name": "PUBG Studios", "aliases": [], "publisher": "krafton", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": true },
+          { "id": "netflix", "name": "Netflix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "donald-glover", "name": "Donald Glover", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement", "partnership"],
+      "facts": [],
+      "summary": "Donald Glover will direct and star in a Netflix adaptation of PUBG: Battlegrounds."
+    },
+    {
+      "ref": "main_news/the-duskbloods-delayed-to-2027",
+      "entities": {
+        "games": [
+          { "id": "the-duskbloods", "name": "The Duskbloods", "aliases": [], "genres": ["action-rpg"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "fromsoftware", "name": "FromSoftware", "aliases": [], "publisher": "nintendo", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "nintendo-switch-2", "name": "Nintendo Switch 2", "aliases": [], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["delay"],
+      "facts": [],
+      "summary": "The Duskbloods has been delayed to 2027."
+    }
+  ]
+}
