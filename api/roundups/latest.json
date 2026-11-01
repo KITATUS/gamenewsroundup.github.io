@@ -1,11 +1,11 @@
 {
-  "id": "2026-10-30",
-  "date": "2026-10-30",
+  "id": "2026-11-02",
+  "date": "2026-11-02",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-10-29T21:17:05.529+00:00",
+  "published_at": "2026-11-01T20:33:47.308+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 30 October 2026.",
+  "summary": "Daily curated games-industry news digest for 2 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,10 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "the-latest-episode-of-south-park-features-exclusive-gta-6-fo",
-          "title": "The latest episode of South Park features exclusive **GTA 6** footage where a man is hit in the head with dog poo",
+          "id": "john-romero-confirms-his-axed-xbox-game-has-a-new-publisher",
+          "title": "**John Romero** confirms his axed Xbox game has a new publisher and he’s rehired some staff",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/the-latest-episode-of-south-park-features-exclusive-gta-6-footage-where-a-man-is-hit-in-the-head-with-dog-poo/",
+          "url": "https://www.videogameschronicle.com/news/john-romero-confirms-his-axed-xbox-game-has-a-new-publisher-and-hes-rehired-some-staff/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -30,16 +30,19 @@
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          }
+          },
+          "bullets": [
+            "The game has been respoced for a smaller team"
+          ]
         },
         {
-          "id": "donald-glover-to-direct-and-star-in-netflix-adaptation-of-pu",
-          "title": "**Donald Glover** to direct and star in Netflix adaptation of PUBG Battlegrounds",
+          "id": "activision-to-remove-itaewon-crowd-crush-footage-from-call-o",
+          "title": "Activision to remove Itaewon crowd crush footage from **Call of Duty: Modern Warfare 4** and apologises to victims' families",
           "body": null,
-          "url": "https://www.gamedeveloper.com/business/netflix-adapts-krafton-pubg-to-be-written-and-led-by-donald-glover",
+          "url": "https://www.eurogamer.net/modern-warfare-4-itaewon-footage-removed-activision-apology",
           "source": {
-            "name": "Game Developer",
-            "domain": "gamedeveloper.com"
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
           },
           "metadata": {
             "story_type": "confirmed",
@@ -47,18 +50,49 @@
           }
         },
         {
-          "id": "the-duskbloods-delayed-to-2027",
-          "title": "**The Duskbloods** delayed to 2027",
+          "id": "maddy-makes-games-removes-celeste-and-towerfall-from-xbox-in",
+          "title": "**Maddy Makes Games** removes Celeste and TowerFall from Xbox in support of pro-Palestinian BDS boycott",
           "body": null,
-          "url": "https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027",
+          "url": "https://www.gamesindustry.biz/maddy-makes-games-removes-celeste-and-towerfall-from-xbox-in-support-of-pro-palestinian-bds-boycott",
           "source": {
-            "name": "Gematsu",
-            "domain": "gematsu.com"
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           }
+        },
+        {
+          "id": "death-stranding-isolations-anime-tv-series-gets-first-traile",
+          "title": "**Death Stranding** Isolations Anime TV Series Gets First Trailer, Out in 2027",
+          "body": null,
+          "url": "https://www.pushsquare.com/news/2026/10/death-stranding-isolations-anime-tv-series-gets-first-trailer-out-in-2027",
+          "source": {
+            "name": "Push Square",
+            "domain": "pushsquare.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "pok-mon-go-style-geospatial-mobile-death-stranding-game-deat",
+          "title": "Pokémon Go style geospatial mobile **Death Stranding** game, Death Stranding Odradek, released as part of Death Stranding's Beyond the Strand Exhibition in Tokyo",
+          "body": null,
+          "url": "https://play.google.com/store/apps/details?id=com.nianticspatial.dsodradek",
+          "source": {
+            "name": "play.google.com",
+            "domain": "play.google.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Developed by Niantic Spatial, it is unclear if the game is a prototype or meant to be a small Tokyo-based app for the duration of the Exhibition"
+          ]
         }
       ]
     },
@@ -70,12 +104,48 @@
     {
       "id": "business",
       "label": "Business",
-      "items": []
+      "items": [
+        {
+          "id": "roblox-q3-results",
+          "title": "**Roblox** Q3 Results",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/roblox-q3-results-beat-expectations-despite-bookings-falling-12-to-17bn",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Revenue: $1.6 billion (up 16% year-on-year)",
+            "Bookings: $1.7 billion (down 12% year-on-year)",
+            "Net losses: $230 million"
+          ]
+        }
+      ]
     },
     {
       "id": "rumours",
       "label": "Rumours",
-      "items": []
+      "items": [
+        {
+          "id": "footage-of-a-persona-1-remake-has-seemingly-leaked-online",
+          "title": "Footage of a **Persona 1** remake has seemingly leaked online",
+          "body": null,
+          "url": "https://www.eurogamer.net/persona-1-remake-be-your-true-mind-leak",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "rumour",
+            "rumour_status": "rumour_pending_sources",
+            "importance": "normal"
+          }
+        }
+      ]
     }
   ]
 }

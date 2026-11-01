@@ -740,8 +740,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-05-24",
-    "last_seen": "2026-10-29",
-    "mentions": 31,
+    "last_seen": "2026-11-02",
+    "mentions": 32,
     "name": "Activision",
     "type": "publisher"
   },
@@ -1799,11 +1799,13 @@
     "type": "person"
   },
   "android": {
-    "aliases": [],
+    "aliases": [
+      "Google Play"
+    ],
     "fact_count": 0,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-10-01",
-    "mentions": 24,
+    "last_seen": "2026-11-02",
+    "mentions": 25,
     "name": "Android",
     "type": "platform"
   },
@@ -3210,8 +3212,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-09-29",
-    "mentions": 11,
+    "last_seen": "2026-11-02",
+    "mentions": 12,
     "name": "Atlus",
     "type": "studio"
   },
@@ -6118,8 +6120,8 @@
       "fps",
       "shooter"
     ],
-    "last_seen": "2026-10-29",
-    "mentions": 6,
+    "last_seen": "2026-11-02",
+    "mentions": 7,
     "name": "Call of Duty: Modern Warfare 4",
     "type": "game"
   },
@@ -6617,6 +6619,19 @@
     "mentions": 1,
     "name": "CDawgVA",
     "type": "person"
+  },
+  "celeste": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-02",
+    "franchise": null,
+    "genres": [
+      "platformer"
+    ],
+    "last_seen": "2026-11-02",
+    "mentions": 1,
+    "name": "Celeste",
+    "type": "game"
   },
   "centipede": {
     "aliases": [],
@@ -9895,8 +9910,8 @@
       "action-adventure",
       "open-world"
     ],
-    "last_seen": "2026-10-22",
-    "mentions": 11,
+    "last_seen": "2026-11-02",
+    "mentions": 12,
     "name": "Death Stranding",
     "type": "game"
   },
@@ -9940,6 +9955,19 @@
     "last_seen": "2026-01-21",
     "mentions": 1,
     "name": "Death Stranding Director's Cut",
+    "type": "game"
+  },
+  "death-stranding-odradek": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-02",
+    "franchise": "death-stranding",
+    "genres": [
+      "adventure"
+    ],
+    "last_seen": "2026-11-02",
+    "mentions": 1,
+    "name": "Death Stranding Odradek",
     "type": "game"
   },
   "deaths-door": {
@@ -22411,8 +22439,8 @@
     "aliases": [],
     "fact_count": 1,
     "first_seen": "2025-07-04",
-    "last_seen": "2025-12-11",
-    "mentions": 3,
+    "last_seen": "2026-11-02",
+    "mentions": 4,
     "name": "John Romero",
     "type": "person"
   },
@@ -23863,8 +23891,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-09-30",
-    "last_seen": "2026-10-22",
-    "mentions": 25,
+    "last_seen": "2026-11-02",
+    "mentions": 27,
     "name": "Kojima Productions",
     "type": "studio"
   },
@@ -26143,6 +26171,15 @@
     "mentions": 1,
     "name": "Madden NFL 26",
     "type": "game"
+  },
+  "maddy-makes-games": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-02",
+    "last_seen": "2026-11-02",
+    "mentions": 1,
+    "name": "Maddy Makes Games",
+    "type": "studio"
   },
   "mads-mikkelsen": {
     "aliases": [],
@@ -30887,8 +30924,8 @@
     "aliases": [],
     "fact_count": 1,
     "first_seen": "2025-05-28",
-    "last_seen": "2026-07-07",
-    "mentions": 3,
+    "last_seen": "2026-11-02",
+    "mentions": 4,
     "name": "Niantic Spatial",
     "type": "studio"
   },
@@ -33375,6 +33412,21 @@
     "name": "Persona",
     "type": "game"
   },
+  "persona-1-remake": {
+    "aliases": [
+      "Persona 1"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-11-02",
+    "franchise": "persona",
+    "genres": [
+      "jrpg"
+    ],
+    "last_seen": "2026-11-02",
+    "mentions": 1,
+    "name": "Persona 1 Remake",
+    "type": "game"
+  },
   "persona-3": {
     "aliases": [
       "Persona 3 FES",
@@ -34691,8 +34743,8 @@
     "genres": [
       "adventure"
     ],
-    "last_seen": "2025-03-13",
-    "mentions": 4,
+    "last_seen": "2026-11-02",
+    "mentions": 5,
     "name": "Pokémon Go",
     "type": "game"
   },
@@ -38247,15 +38299,15 @@
     "aliases": [
       "Roblox Corporation"
     ],
-    "fact_count": 22,
+    "fact_count": 23,
     "first_seen": "2024-05-10",
     "franchise": "roblox",
     "genres": [
       "mmo",
       "sandbox"
     ],
-    "last_seen": "2026-09-15",
-    "mentions": 49,
+    "last_seen": "2026-11-02",
+    "mentions": 50,
     "name": "Roblox",
     "type": "game"
   },
@@ -38700,8 +38752,8 @@
     "aliases": [],
     "fact_count": 1,
     "first_seen": "2024-10-28",
-    "last_seen": "2025-10-30",
-    "mentions": 4,
+    "last_seen": "2026-11-02",
+    "mentions": 5,
     "name": "Romero Games",
     "type": "studio"
   },
@@ -49499,6 +49551,19 @@
     "name": "Towerborne",
     "type": "game"
   },
+  "towerfall": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-02",
+    "franchise": "towerfall",
+    "genres": [
+      "party"
+    ],
+    "last_seen": "2026-11-02",
+    "mentions": 1,
+    "name": "TowerFall",
+    "type": "game"
+  },
   "toy-story-3": {
     "aliases": [],
     "fact_count": 0,
@@ -53246,8 +53311,8 @@
     ],
     "fact_count": 8,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-10-29",
-    "mentions": 192,
+    "last_seen": "2026-11-02",
+    "mentions": 194,
     "name": "Xbox",
     "type": "platform"
   },

@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-02",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/john-romero-confirms-his-axed-xbox-game-has-a-new-publisher",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "romero-games", "name": "Romero Games", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "john-romero", "name": "John Romero", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["partnership"],
+      "facts": [],
+      "summary": "John Romero has confirmed that his cancelled Xbox game has a new publisher and that he has rehired some staff, with the game rescoped for a smaller team."
+    },
+    {
+      "ref": "main_news/activision-to-remove-itaewon-crowd-crush-footage-from-call-o",
+      "entities": {
+        "games": [
+          { "id": "call-of-duty-modern-warfare-4", "name": "Call of Duty: Modern Warfare 4", "aliases": [], "genres": ["fps"], "franchise": "call-of-duty", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "activision", "name": "Activision", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Activision will remove Itaewon crowd crush footage from Call of Duty: Modern Warfare 4 and has apologised to the victims' families."
+    },
+    {
+      "ref": "main_news/maddy-makes-games-removes-celeste-and-towerfall-from-xbox-in",
+      "entities": {
+        "games": [
+          { "id": "celeste", "name": "Celeste", "aliases": [], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "towerfall", "name": "TowerFall", "aliases": [], "genres": ["party"], "franchise": "towerfall", "inferred": true }
+        ],
+        "studios": [
+          { "id": "maddy-makes-games", "name": "Maddy Makes Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["delisting"],
+      "facts": [],
+      "summary": "Maddy Makes Games has removed Celeste and TowerFall from Xbox in support of the pro-Palestinian BDS boycott."
+    },
+    {
+      "ref": "main_news/death-stranding-isolations-anime-tv-series-gets-first-traile",
+      "entities": {
+        "games": [
+          { "id": "death-stranding", "name": "Death Stranding", "aliases": [], "genres": ["action-adventure"], "franchise": "death-stranding", "inferred": true }
+        ],
+        "studios": [
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["trailer", "release-date"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2027",
+          "unit": "date",
+          "currency": null,
+          "entity": "death-stranding-isolations",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-11-02",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Death Stranding Isolations Anime TV Series Gets First Trailer, Out in 2027",
+          "source": {
+            "name": "Push Square",
+            "domain": "pushsquare.com",
+            "url": "https://www.pushsquare.com/news/2026/10/death-stranding-isolations-anime-tv-series-gets-first-trailer-out-in-2027"
+          }
+        }
+      ],
+      "summary": "The Death Stranding Isolations anime TV series has received its first trailer and is due out in 2027."
+    },
+    {
+      "ref": "main_news/pok-mon-go-style-geospatial-mobile-death-stranding-game-deat",
+      "entities": {
+        "games": [
+          { "id": "death-stranding-odradek", "name": "Death Stranding Odradek", "aliases": [], "genres": ["adventure"], "franchise": "death-stranding", "inferred": true },
+          { "id": "pokemon-go", "name": "Pokémon Go", "aliases": [], "genres": ["adventure"], "franchise": "pokemon", "inferred": true }
+        ],
+        "studios": [
+          { "id": "niantic-spatial", "name": "Niantic Spatial", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "kojima-productions", "name": "Kojima Productions", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "android", "name": "Android", "aliases": ["Google Play"], "inferred": true }
+        ],
+        "people": []
+      },
+      "event_tags": ["release"],
+      "facts": [],
+      "summary": "Death Stranding Odradek, a Pokémon Go style geospatial mobile game developed by Niantic Spatial, has been released as part of the Beyond the Strand Exhibition in Tokyo."
+    },
+    {
+      "ref": "business/roblox-q3-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1600000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "roblox",
+          "entity_type": "company",
+          "scope": "company",
+          "as_of": "2026-11-02",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: $1.6 billion (up 16% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/roblox-q3-results-beat-expectations-despite-bookings-falling-12-to-17bn"
+          }
+        }
+      ],
+      "summary": "Roblox reported Q3 revenue of $1.6 billion, up 16% year-on-year, with bookings of $1.7 billion and net losses of $230 million."
+    },
+    {
+      "ref": "rumours/footage-of-a-persona-1-remake-has-seemingly-leaked-online",
+      "entities": {
+        "games": [
+          { "id": "persona-1-remake", "name": "Persona 1 Remake", "aliases": ["Persona 1"], "genres": ["jrpg"], "franchise": "persona", "inferred": true }
+        ],
+        "studios": [
+          { "id": "atlus", "name": "Atlus", "aliases": [], "publisher": "sega", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["remaster-remake", "rumour"],
+      "facts": [],
+      "summary": "Footage of a Persona 1 remake has seemingly leaked online."
+    }
+  ]
+}
