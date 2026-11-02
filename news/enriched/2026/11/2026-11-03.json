@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-03",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nintendo-announces-zelda-ocarina-of-time-uk-midnight-launch",
+      "entities": {
+        "games": [
+          { "id": "zelda-ocarina-of-time", "name": "Zelda: Ocarina of Time", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "nintendo-64", "name": "Nintendo 64", "aliases": ["N64"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "release"],
+      "facts": [],
+      "summary": "Nintendo has announced a UK midnight launch event for Zelda: Ocarina of Time at the Nintendo store at Argos Tottenham Court Road in London, with free N64 boxes available."
+    },
+    {
+      "ref": "business/nagoshi-studio-officially-closes-after-netease-cuts-funding",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "nagoshi-studio", "name": "Nagoshi Studio", "aliases": [], "publisher": "netease-games", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "netease-games", "name": "NetEase Games", "aliases": ["NetEase"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "toshihiro-nagoshi", "name": "Toshihiro Nagoshi", "aliases": ["Nagoshi"], "inferred": true }
+        ]
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Nagoshi Studio has officially closed after NetEase cut its funding."
+    },
+    {
+      "ref": "business/the-borderlands-series-has-sold-over-100-million-copies",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "gearbox-software", "name": "Gearbox Software", "aliases": ["Gearbox"], "publisher": "2k", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 100000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "borderlands",
+          "entity_type": "game",
+          "scope": "franchise",
+          "as_of": "2026-11-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "The Borderlands series has sold over 100 million copies",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/borderlands-100-million-copies-gearbox"
+          }
+        }
+      ],
+      "summary": "The Borderlands series has sold over 100 million copies."
+    },
+    {
+      "ref": "business/phantom-blade-zero-has-sold-more-than-4-million-copies-in-72",
+      "entities": {
+        "games": [
+          { "id": "phantom-blade-zero", "name": "Phantom Blade Zero", "aliases": [], "genres": ["action-rpg"], "franchise": "phantom-blade", "inferred": true }
+        ],
+        "studios": [
+          { "id": "s-game", "name": "S-Game", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "copies_sold",
+          "value": 4000000,
+          "unit": "copies",
+          "currency": null,
+          "entity": "phantom-blade-zero",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-11-03",
+          "period": "cumulative",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Phantom Blade Zero has sold more than 4 million copies in 72 hours",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch"
+          }
+        }
+      ],
+      "summary": "Phantom Blade Zero has sold more than 4 million copies in its first 72 hours."
+    },
+    {
+      "ref": "business/astragon-closes-independent-arts-successor-studio-astragon-d",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "astragon-development", "name": "Astragon Development", "aliases": ["Independent Arts"], "publisher": "astragon", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "astragon", "name": "Astragon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 40,
+          "unit": "staff",
+          "currency": null,
+          "entity": "astragon-development",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-11-03",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "More than 40 staff are affected at the German studio",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development"
+          }
+        }
+      ],
+      "summary": "Astragon has closed its German studio Astragon Development, the successor to Independent Arts, affecting more than 40 staff."
+    }
+  ]
+}

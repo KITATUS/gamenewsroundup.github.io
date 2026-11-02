@@ -170,8 +170,8 @@
     ],
     "fact_count": 1,
     "first_seen": "2024-05-17",
-    "last_seen": "2026-10-06",
-    "mentions": 24,
+    "last_seen": "2026-11-03",
+    "mentions": 25,
     "name": "2K",
     "type": "publisher"
   },
@@ -3069,6 +3069,26 @@
     "name": "Asteroids",
     "type": "game"
   },
+  "astragon": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "mentions": 1,
+    "name": "Astragon",
+    "type": "publisher"
+  },
+  "astragon-development": {
+    "aliases": [
+      "Independent Arts"
+    ],
+    "fact_count": 1,
+    "first_seen": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "mentions": 1,
+    "name": "Astragon Development",
+    "type": "studio"
+  },
   "astro-bot": {
     "aliases": [],
     "fact_count": 1,
@@ -5178,7 +5198,7 @@
   },
   "borderlands": {
     "aliases": [],
-    "fact_count": 3,
+    "fact_count": 4,
     "first_seen": "2024-08-09",
     "franchise": "borderlands",
     "genres": [
@@ -16935,8 +16955,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-08-13",
-    "last_seen": "2026-05-07",
-    "mentions": 8,
+    "last_seen": "2026-11-03",
+    "mentions": 9,
     "name": "Gearbox Software",
     "type": "studio"
   },
@@ -30191,8 +30211,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2025-12-12",
-    "last_seen": "2026-04-24",
-    "mentions": 3,
+    "last_seen": "2026-11-03",
+    "mentions": 4,
     "name": "Nagoshi Studio",
     "type": "studio"
   },
@@ -30666,8 +30686,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2025-01-03",
-    "last_seen": "2026-08-17",
-    "mentions": 4,
+    "last_seen": "2026-11-03",
+    "mentions": 5,
     "name": "NetEase Games",
     "type": "studio"
   },
@@ -31305,8 +31325,8 @@
     ],
     "fact_count": 50,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-10-30",
-    "mentions": 237,
+    "last_seen": "2026-11-03",
+    "mentions": 238,
     "name": "Nintendo",
     "type": "publisher"
   },
@@ -31327,8 +31347,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-10-17",
-    "last_seen": "2025-09-04",
-    "mentions": 4,
+    "last_seen": "2026-11-03",
+    "mentions": 5,
     "name": "Nintendo 64",
     "type": "platform"
   },
@@ -33712,6 +33732,19 @@
     "last_seen": "2026-02-26",
     "mentions": 2,
     "name": "PGA Tour 2K25",
+    "type": "game"
+  },
+  "phantom-blade-zero": {
+    "aliases": [],
+    "fact_count": 1,
+    "first_seen": "2026-11-03",
+    "franchise": "phantom-blade",
+    "genres": [
+      "action-rpg"
+    ],
+    "last_seen": "2026-11-03",
+    "mentions": 1,
+    "name": "Phantom Blade Zero",
     "type": "game"
   },
   "phantom-liberty": {
@@ -39164,6 +39197,15 @@
     "mentions": 3,
     "name": "S&box",
     "type": "platform"
+  },
+  "s-game": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-03",
+    "last_seen": "2026-11-03",
+    "mentions": 1,
+    "name": "S-Game",
+    "type": "studio"
   },
   "saad-choudri": {
     "aliases": [],
@@ -49406,11 +49448,13 @@
     "type": "studio"
   },
   "toshihiro-nagoshi": {
-    "aliases": [],
+    "aliases": [
+      "Nagoshi"
+    ],
     "fact_count": 0,
     "first_seen": "2025-12-12",
-    "last_seen": "2025-12-12",
-    "mentions": 1,
+    "last_seen": "2026-11-03",
+    "mentions": 2,
     "name": "Toshihiro Nagoshi",
     "type": "person"
   },
@@ -54155,6 +54199,19 @@
     "last_seen": "2025-03-04",
     "mentions": 1,
     "name": "Zelda 64: Recompiled",
+    "type": "game"
+  },
+  "zelda-ocarina-of-time": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-03",
+    "franchise": "the-legend-of-zelda",
+    "genres": [
+      "action-adventure"
+    ],
+    "last_seen": "2026-11-03",
+    "mentions": 1,
+    "name": "Zelda: Ocarina of Time",
     "type": "game"
   },
   "zen-studios": {
