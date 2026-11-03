@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-03",
-  "date": "2026-11-03",
+  "id": "2026-11-04",
+  "date": "2026-11-04",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-02T21:29:36.063+00:00",
+  "published_at": "2026-11-03T22:35:12.394+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 3 November 2026.",
+  "summary": "Daily curated games-industry news digest for 4 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,24 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "nintendo-announces-zelda-ocarina-of-time-uk-midnight-launch",
-          "title": "Nintendo announces **Zelda: Ocarina of Time** UK midnight launch, with free N64 boxes up for grabs",
+          "id": "elder-scrolls-vi-officially-named-the-elder-scrolls-vi-senti",
+          "title": "**Elder Scrolls VI** officially named \"The Elder Scrolls VI: Sentinel\"",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/nintendo-announces-zelda-ocarina-of-time-uk-midnight-launch-with-free-n64-boxes-up-for-grabs/",
+          "url": "https://www.theverge.com/news/1025273/the-elder-scrolls-vi-sentinel-name-announcement",
+          "source": {
+            "name": "The Verge",
+            "domain": "theverge.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "a-new-retro-inspired-game-based-on-bill-ted-is-in-developmen",
+          "title": "A new retro-inspired game based on **Bill & Ted** is in development",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/a-new-retro-inspired-game-based-on-bill-ted-is-in-development/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -32,7 +46,8 @@
             "importance": "normal"
           },
           "bullets": [
-            "The event is exclusive to the Nintendo store at Argos Tottenham Court Road, London"
+            "Bill & Ted’s Excellent Adventure: Arcade is being developed by Australian studio Art of Play Interactive",
+            "The game features the voices of Keanu Reeves and Alex Winter"
           ]
         }
       ]
@@ -47,52 +62,10 @@
       "label": "Business",
       "items": [
         {
-          "id": "nagoshi-studio-officially-closes-after-netease-cuts-funding",
-          "title": "**Nagoshi Studio** officially closes after NetEase cuts funding",
+          "id": "remedy-q3-results",
+          "title": "**Remedy** Q3 Results",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/nagoshi-studio-officially-closes-after-netease-cuts-funding/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "the-borderlands-series-has-sold-over-100-million-copies",
-          "title": "The **Borderlands** series has sold over 100 million copies",
-          "body": null,
-          "url": "https://www.eurogamer.net/borderlands-100-million-copies-gearbox",
-          "source": {
-            "name": "Eurogamer",
-            "domain": "eurogamer.net"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "phantom-blade-zero-has-sold-more-than-4-million-copies-in-72",
-          "title": "**Phantom Blade Zero** has sold more than 4 million copies in 72 hours",
-          "body": null,
-          "url": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch",
-          "source": {
-            "name": "Eurogamer",
-            "domain": "eurogamer.net"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "astragon-closes-independent-arts-successor-studio-astragon-d",
-          "title": "**Astragon** closes Independent Arts successor studio Astragon Development",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development",
+          "url": "https://www.gamesindustry.biz/remedy-q3-revenue-triples-to-396m-following-launch-of-control-resonant",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
@@ -102,7 +75,25 @@
             "importance": "normal"
           },
           "bullets": [
-            "More than 40 staff are affected at the German studio, which worked on over 250 games in three decades"
+            "Revenue: €39.6 million (up 226%)",
+            "Operating profit: €0.6 million (compared to a €16.4 million loss in the same quarter last year)"
+          ]
+        },
+        {
+          "id": "ci-games-secures-32-million-loan-to-finish-and-self-publish",
+          "title": "**CI Games** secures $32 million loan to finish and self-publish Lords of the Fallen 2",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/ci-games-secures-32-million-loan-to-finish-and-self-publish-lords-of-the-fallen-2",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "The bank deal follows the end of CI Games' PC publishing agreement with Epic Games earlier this year"
           ]
         }
       ]

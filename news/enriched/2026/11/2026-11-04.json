@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-04",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/elder-scrolls-vi-officially-named-the-elder-scrolls-vi-senti",
+      "entities": {
+        "games": [
+          {
+            "id": "the-elder-scrolls-vi",
+            "name": "The Elder Scrolls VI: Sentinel",
+            "aliases": ["Elder Scrolls VI", "The Elder Scrolls VI: Sentinel"],
+            "genres": ["rpg", "action-rpg", "open-world"],
+            "franchise": "the-elder-scrolls",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "bethesda-game-studios",
+            "name": "Bethesda Game Studios",
+            "aliases": [],
+            "publisher": "bethesda-softworks",
+            "inferred": true
+          }
+        ],
+        "publishers": [
+          {
+            "id": "bethesda-softworks",
+            "name": "Bethesda Softworks",
+            "aliases": [],
+            "inferred": true
+          }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "reveal"],
+      "facts": [],
+      "summary": "The Elder Scrolls VI has been officially named The Elder Scrolls VI: Sentinel."
+    },
+    {
+      "ref": "main_news/a-new-retro-inspired-game-based-on-bill-ted-is-in-developmen",
+      "entities": {
+        "games": [
+          {
+            "id": "bill-teds-excellent-adventure-arcade",
+            "name": "Bill & Ted's Excellent Adventure: Arcade",
+            "aliases": ["Bill & Ted’s Excellent Adventure: Arcade", "Bill & Ted"],
+            "genres": [],
+            "franchise": "bill-and-ted",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "art-of-play-interactive",
+            "name": "Art of Play Interactive",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          {
+            "id": "keanu-reeves",
+            "name": "Keanu Reeves",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "alex-winter",
+            "name": "Alex Winter",
+            "aliases": [],
+            "inferred": false
+          }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "A retro-inspired Bill & Ted game, Bill & Ted's Excellent Adventure: Arcade, is in development at Australian studio Art of Play Interactive with Keanu Reeves and Alex Winter voicing their characters."
+    },
+    {
+      "ref": "business/remedy-q3-results",
+      "entities": {
+        "games": [
+          {
+            "id": "control-resonant",
+            "name": "Control Resonant",
+            "aliases": [],
+            "genres": ["action-adventure", "tps"],
+            "franchise": "control",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "remedy-entertainment",
+            "name": "Remedy Entertainment",
+            "aliases": ["Remedy"],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 39600000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-11-04",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Revenue: €39.6 million (up 226%)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-q3-revenue-triples-to-396m-following-launch-of-control-resonant"
+          }
+        },
+        {
+          "metric": "operating_income",
+          "value": 600000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "remedy-entertainment",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-11-04",
+          "period": "quarterly",
+          "direction": "up",
+          "confidence": "high",
+          "quote": "Operating profit: €0.6 million (compared to a €16.4 million loss in the same quarter last year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/remedy-q3-revenue-triples-to-396m-following-launch-of-control-resonant"
+          }
+        }
+      ],
+      "summary": "Remedy reported Q3 revenue of €39.6 million, up 226%, and an operating profit of €0.6 million versus a €16.4 million loss a year earlier."
+    },
+    {
+      "ref": "business/ci-games-secures-32-million-loan-to-finish-and-self-publish",
+      "entities": {
+        "games": [
+          {
+            "id": "lords-of-the-fallen-2",
+            "name": "Lords of the Fallen 2",
+            "aliases": [],
+            "genres": ["soulslike", "action-rpg"],
+            "franchise": "lords-of-the-fallen",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "ci-games",
+            "name": "CI Games",
+            "aliases": [],
+            "publisher": "ci-games",
+            "inferred": false
+          }
+        ],
+        "publishers": [
+          {
+            "id": "ci-games",
+            "name": "CI Games",
+            "aliases": [],
+            "inferred": false
+          },
+          {
+            "id": "epic-games",
+            "name": "Epic Games",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "platforms": [
+          {
+            "id": "pc",
+            "name": "PC",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "partnership"],
+      "facts": [],
+      "summary": "CI Games has secured a $32 million bank loan to finish and self-publish Lords of the Fallen 2 after its PC publishing agreement with Epic Games ended."
+    }
+  ]
+}
