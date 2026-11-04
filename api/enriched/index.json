@@ -1,6 +1,12 @@
 {
-  "day_count": 629,
+  "day_count": 630,
   "days": [
+    {
+      "date": "2026-11-05",
+      "entities": 11,
+      "facts": 1,
+      "items": 4
+    },
     {
       "date": "2026-11-04",
       "entities": 13,
@@ -3776,13 +3782,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4502,
-  "fact_count": 2955,
+  "entity_count": 4504,
+  "fact_count": 2956,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 978,
+    "action-adventure": 980,
     "action-platformer": 3,
     "action-rpg": 719,
     "adventure": 365,
@@ -3832,7 +3838,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4177,
+  "item_count": 4181,
   "metric_totals": {
     "acquisition_price": 37,
     "announce_date": 11,
@@ -3840,7 +3846,7 @@
     "concurrent_players": 12,
     "content_acquisition_cost": 2,
     "copies_sold": 210,
-    "delay_to": 28,
+    "delay_to": 29,
     "development_budget": 13,
     "downloads": 28,
     "equity_stake_pct": 21,

@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-05",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/the-union-representing-arkane-workers-has-accused-xbox-of-sa",
+      "entities": {
+        "games": [
+          { "id": "blade", "name": "Blade", "aliases": ["Marvel's Blade"], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "arkane", "name": "Arkane", "aliases": ["Arkane Lyon"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The union representing Arkane workers has accused Xbox of sabotaging Blade's development by blocking new hires for over a year, causing delays."
+    },
+    {
+      "ref": "main_news/gog-announces-first-ever-games-showcase-to-celebrate-it-s-18",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [],
+        "platforms": [
+          { "id": "gog", "name": "GOG", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "showcase"],
+      "facts": [],
+      "summary": "GOG has announced its first ever games showcase to celebrate its 18th anniversary, starting at 6pm UK time."
+    },
+    {
+      "ref": "main_news/god-of-war-laufey-has-officially-been-delayed-to-may-20th-20",
+      "entities": {
+        "games": [
+          { "id": "god-of-war-laufey", "name": "God of War Laufey", "aliases": [], "genres": ["action-adventure"], "franchise": "god-of-war", "inferred": true }
+        ],
+        "studios": [
+          { "id": "santa-monica-studio", "name": "Santa Monica Studio", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["delay", "release-date"],
+      "facts": [
+        {
+          "metric": "delay_to",
+          "value": "2027-05-20",
+          "unit": "date",
+          "currency": null,
+          "entity": "god-of-war-laufey",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-11-05",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "God of War Laufey has officially been delayed  to May 20th 2027",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/god-of-war-laufey-has-officially-been-delayed/" }
+        }
+      ],
+      "summary": "God of War Laufey has been officially delayed to 20 May 2027."
+    },
+    {
+      "ref": "main_news/accessible-games-initiative-tags-adopted-by-nintendo-xbox-ub",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false },
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
+          { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false },
+          { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot games"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo, Xbox, Ubisoft and EA have adopted the Accessible Games Initiative tags to make accessibility features easier to find, with Riot Games and Google also using them."
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-04",
-  "date": "2026-11-04",
+  "id": "2026-11-05",
+  "date": "2026-11-05",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-03T22:35:12.394+00:00",
+  "published_at": "2026-11-04T21:46:17.837+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 4 November 2026.",
+  "summary": "Daily curated games-industry news digest for 5 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,24 +19,10 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "elder-scrolls-vi-officially-named-the-elder-scrolls-vi-senti",
-          "title": "**Elder Scrolls VI** officially named \"The Elder Scrolls VI: Sentinel\"",
+          "id": "the-union-representing-arkane-workers-has-accused-xbox-of-sa",
+          "title": "The union representing **Arkane** workers has accused Xbox of \"sabotaging\" the development of Blade",
           "body": null,
-          "url": "https://www.theverge.com/news/1025273/the-elder-scrolls-vi-sentinel-name-announcement",
-          "source": {
-            "name": "The Verge",
-            "domain": "theverge.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "a-new-retro-inspired-game-based-on-bill-ted-is-in-developmen",
-          "title": "A new retro-inspired game based on **Bill & Ted** is in development",
-          "body": null,
-          "url": "https://www.videogameschronicle.com/news/a-new-retro-inspired-game-based-on-bill-ted-is-in-development/",
+          "url": "https://www.videogameschronicle.com/news/arkane-union-says-xbox-is-sabotaging-blade-development/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -46,8 +32,55 @@
             "importance": "normal"
           },
           "bullets": [
-            "Bill & Ted’s Excellent Adventure: Arcade is being developed by Australian studio Art of Play Interactive",
-            "The game features the voices of Keanu Reeves and Alex Winter"
+            "The union claims that the game has been artificially causing delays by preventing Arkane from hiring new developers for over a year"
+          ]
+        },
+        {
+          "id": "gog-announces-first-ever-games-showcase-to-celebrate-it-s-18",
+          "title": "**GOG** announces first ever games showcase to celebrate it's 18th anniversary",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/gog-announces-first-ever-games-showcase/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Showcase begins at 6pm UK time"
+          ]
+        },
+        {
+          "id": "god-of-war-laufey-has-officially-been-delayed-to-may-20th-20",
+          "title": "**God of War Laufey** has officially been delayed  to May 20th 2027",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/god-of-war-laufey-has-officially-been-delayed/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "accessible-games-initiative-tags-adopted-by-nintendo-xbox-ub",
+          "title": "Accessible Games Initiative tags adopted by Nintendo, Xbox, Ubisoft and EA, making it easier to find accessibility features",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/accessible-games-initiative-tags-adopted-by-nintendo-xbox-ubisoft-and-ea-making-it-easier-to-find-accessibility-features/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Riot games and google have also started using the tags"
           ]
         }
       ]
@@ -60,43 +93,7 @@
     {
       "id": "business",
       "label": "Business",
-      "items": [
-        {
-          "id": "remedy-q3-results",
-          "title": "**Remedy** Q3 Results",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/remedy-q3-revenue-triples-to-396m-following-launch-of-control-resonant",
-          "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          },
-          "bullets": [
-            "Revenue: €39.6 million (up 226%)",
-            "Operating profit: €0.6 million (compared to a €16.4 million loss in the same quarter last year)"
-          ]
-        },
-        {
-          "id": "ci-games-secures-32-million-loan-to-finish-and-self-publish",
-          "title": "**CI Games** secures $32 million loan to finish and self-publish Lords of the Fallen 2",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/ci-games-secures-32-million-loan-to-finish-and-self-publish-lords-of-the-fallen-2",
-          "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          },
-          "bullets": [
-            "The bank deal follows the end of CI Games' PC publishing agreement with Epic Games earlier this year"
-          ]
-        }
-      ]
+      "items": []
     },
     {
       "id": "rumours",
