@@ -14,14 +14,14 @@
           { "id": "arkane", "name": "Arkane", "aliases": ["Arkane Lyon"], "publisher": "bethesda-softworks", "inferred": true }
         ],
         "publishers": [
-          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false }
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false }
         ],
         "platforms": [],
         "people": []
       },
       "event_tags": [],
       "facts": [],
-      "summary": "The union representing Arkane workers has accused Xbox of sabotaging Blade's development by blocking new hires for over a year, causing delays."
+      "summary": "The union representing Arkane workers has accused Xbox of sabotaging Blade's development by preventing the studio from hiring new developers for over a year."
     },
     {
       "ref": "main_news/gog-announces-first-ever-games-showcase-to-celebrate-it-s-18",
@@ -80,7 +80,7 @@
         "studios": [],
         "publishers": [
           { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false },
-          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": ["Xbox"], "inferred": false },
+          { "id": "xbox", "name": "Xbox", "aliases": [], "inferred": false },
           { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false },
           { "id": "electronic-arts", "name": "Electronic Arts", "aliases": ["EA"], "inferred": false },
           { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot games"], "inferred": false }
@@ -88,9 +88,9 @@
         "platforms": [],
         "people": []
       },
-      "event_tags": [],
+      "event_tags": ["announcement"],
       "facts": [],
-      "summary": "Nintendo, Xbox, Ubisoft and EA have adopted the Accessible Games Initiative tags to make accessibility features easier to find, with Riot Games and Google also using them."
+      "summary": "Nintendo, Xbox, Ubisoft and EA have adopted the Accessible Games Initiative tags to make accessibility features easier to find."
     }
   ]
 }
