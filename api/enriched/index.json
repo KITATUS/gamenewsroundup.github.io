@@ -1,6 +1,12 @@
 {
-  "day_count": 631,
+  "day_count": 632,
   "days": [
+    {
+      "date": "2026-11-09",
+      "entities": 10,
+      "facts": 11,
+      "items": 5
+    },
     {
       "date": "2026-11-06",
       "entities": 41,
@@ -3788,8 +3794,8 @@
       "items": 7
     }
   ],
-  "entity_count": 4530,
-  "fact_count": 2982,
+  "entity_count": 4532,
+  "fact_count": 2993,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
@@ -3816,11 +3822,11 @@
     "management": 1,
     "metroidvania": 59,
     "mmo": 48,
-    "mmorpg": 77,
+    "mmorpg": 78,
     "moba": 29,
     "open-world": 439,
     "party": 96,
-    "platformer": 297,
+    "platformer": 298,
     "puzzle": 159,
     "racing": 181,
     "rhythm": 51,
@@ -3828,7 +3834,7 @@
     "rpg": 242,
     "rts": 40,
     "sandbox": 100,
-    "shooter": 490,
+    "shooter": 491,
     "simulation": 342,
     "social-deduction": 1,
     "soulslike": 81,
@@ -3844,7 +3850,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4185,
+  "item_count": 4190,
   "metric_totals": {
     "acquisition_price": 37,
     "announce_date": 11,
@@ -3862,18 +3868,18 @@
     "layoffs_count": 125,
     "lifetime_unit_sales": 69,
     "metacritic": 1,
-    "operating_income": 146,
+    "operating_income": 148,
     "peak_concurrent_players": 16,
     "players_total": 76,
     "playtime_hours": 8,
     "price": 260,
     "price_change_pct": 21,
-    "profit": 146,
+    "profit": 147,
     "release_date": 704,
-    "revenue": 421,
+    "revenue": 428,
     "review_score": 3,
     "severance": 2,
-    "shutdown_date": 85,
+    "shutdown_date": 86,
     "studios_affected": 7,
     "subscriber_count": 2,
     "units_sold": 90,

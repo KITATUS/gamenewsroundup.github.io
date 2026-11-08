@@ -4922,8 +4922,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-09-14",
-    "mentions": 33,
+    "last_seen": "2026-11-09",
+    "mentions": 34,
     "name": "Blizzard Entertainment",
     "type": "studio"
   },
@@ -21459,8 +21459,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-10-21",
-    "last_seen": "2026-02-25",
-    "mentions": 11,
+    "last_seen": "2026-11-09",
+    "mentions": 12,
     "name": "Insomniac Games",
     "type": "studio"
   },
@@ -29112,12 +29112,13 @@
   },
   "mobile": {
     "aliases": [
+      "mobile",
       "mobile devices"
     ],
     "fact_count": 0,
     "first_seen": "2024-07-08",
-    "last_seen": "2026-10-12",
-    "mentions": 38,
+    "last_seen": "2026-11-09",
+    "mentions": 39,
     "name": "Mobile",
     "type": "platform"
   },
@@ -32174,6 +32175,15 @@
     "name": "Offworld Trading Company",
     "type": "game"
   },
+  "oh-bibi": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-09",
+    "last_seen": "2026-11-09",
+    "mentions": 1,
+    "name": "Oh BiBi",
+    "type": "studio"
+  },
   "okami": {
     "aliases": [],
     "fact_count": 0,
@@ -34599,8 +34609,8 @@
     ],
     "fact_count": 3,
     "first_seen": "2024-05-16",
-    "last_seen": "2026-11-06",
-    "mentions": 83,
+    "last_seen": "2026-11-09",
+    "mentions": 84,
     "name": "PlayStation",
     "type": "platform"
   },
@@ -36771,16 +36781,18 @@
   },
   "ratchet-and-clank-ranger-rumble": {
     "aliases": [
+      "Ranger Rumble",
       "Ratchet & Clank"
     ],
-    "fact_count": 0,
+    "fact_count": 1,
     "first_seen": "2025-11-13",
     "franchise": "ratchet-and-clank",
     "genres": [
+      "platformer",
       "shooter"
     ],
-    "last_seen": "2025-11-13",
-    "mentions": 1,
+    "last_seen": "2026-11-09",
+    "mentions": 2,
     "name": "Ratchet and Clank: Ranger Rumble",
     "type": "game"
   },
@@ -40050,10 +40062,10 @@
       "SEGA",
       "retro Sega"
     ],
-    "fact_count": 30,
+    "fact_count": 34,
     "first_seen": "2024-05-09",
-    "last_seen": "2026-10-16",
-    "mentions": 89,
+    "last_seen": "2026-11-09",
+    "mentions": 90,
     "name": "Sega",
     "type": "publisher"
   },
@@ -41931,8 +41943,8 @@
     ],
     "fact_count": 35,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-11-06",
-    "mentions": 199,
+    "last_seen": "2026-11-09",
+    "mentions": 201,
     "name": "Sony Interactive Entertainment",
     "type": "publisher"
   },
@@ -50989,10 +51001,10 @@
     "aliases": [
       "Unity Technologies"
     ],
-    "fact_count": 34,
+    "fact_count": 36,
     "first_seen": "2024-05-02",
-    "last_seen": "2026-08-07",
-    "mentions": 18,
+    "last_seen": "2026-11-09",
+    "mentions": 19,
     "name": "Unity",
     "type": "publisher"
   },
@@ -53569,6 +53581,19 @@
     "last_seen": "2024-05-16",
     "mentions": 1,
     "name": "Worms Pinball",
+    "type": "game"
+  },
+  "wow-forever": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-09",
+    "franchise": "world-of-warcraft",
+    "genres": [
+      "mmorpg"
+    ],
+    "last_seen": "2026-11-09",
+    "mentions": 1,
+    "name": "WoW: Forever",
     "type": "game"
   },
   "wrc": {
