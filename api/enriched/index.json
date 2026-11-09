@@ -1,6 +1,12 @@
 {
-  "day_count": 632,
+  "day_count": 633,
   "days": [
+    {
+      "date": "2026-11-10",
+      "entities": 9,
+      "facts": 4,
+      "items": 4
+    },
     {
       "date": "2026-11-09",
       "entities": 10,
@@ -3794,13 +3800,13 @@
       "items": 7
     }
   ],
-  "entity_count": 4532,
-  "fact_count": 2993,
+  "entity_count": 4535,
+  "fact_count": 2997,
   "generated_from": "enriched/",
   "genre_totals": {
     "4x": 19,
     "action": 58,
-    "action-adventure": 983,
+    "action-adventure": 986,
     "action-platformer": 3,
     "action-rpg": 721,
     "adventure": 365,
@@ -3824,7 +3830,7 @@
     "mmo": 48,
     "mmorpg": 78,
     "moba": 29,
-    "open-world": 439,
+    "open-world": 442,
     "party": 96,
     "platformer": 298,
     "puzzle": 159,
@@ -3838,7 +3844,7 @@
     "simulation": 342,
     "social-deduction": 1,
     "soulslike": 81,
-    "sports": 162,
+    "sports": 163,
     "stealth": 107,
     "strategy": 188,
     "survival": 193,
@@ -3850,7 +3856,7 @@
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4190,
+  "item_count": 4194,
   "metric_totals": {
     "acquisition_price": 37,
     "announce_date": 11,
@@ -3865,18 +3871,18 @@
     "event_date": 309,
     "funding_raised": 67,
     "headcount": 28,
-    "layoffs_count": 125,
+    "layoffs_count": 126,
     "lifetime_unit_sales": 69,
     "metacritic": 1,
     "operating_income": 148,
     "peak_concurrent_players": 16,
     "players_total": 76,
     "playtime_hours": 8,
-    "price": 260,
+    "price": 261,
     "price_change_pct": 21,
-    "profit": 147,
+    "profit": 148,
     "release_date": 704,
-    "revenue": 428,
+    "revenue": 429,
     "review_score": 3,
     "severance": 2,
     "shutdown_date": 86,

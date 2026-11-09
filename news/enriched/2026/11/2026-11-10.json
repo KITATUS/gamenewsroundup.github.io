@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-10",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/rockstar-announces-grand-theft-auto-6-music-festival-taking",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-6",
+            "name": "Grand Theft Auto 6",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "rockstar-games",
+            "name": "Rockstar Games",
+            "aliases": ["Rockstar"],
+            "publisher": "take-two-interactive",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "travis-scott", "name": "Travis Scott", "aliases": [], "inferred": false },
+          { "id": "kodak-black", "name": "Kodak Black", "aliases": [], "inferred": false },
+          { "id": "cardi-b", "name": "Cardi B", "aliases": [], "inferred": false },
+          { "id": "justice", "name": "Justice", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "Rockstar has announced Grand Theft Auto 6: The Festival, a music festival at Mana Wynwood in Miami featuring acts including Travis Scott, Kodak Black, Cardi B and Justice."
+    },
+    {
+      "ref": "main_news/selfridges-london-has-launched-a-grand-theft-auto-6-store-wi",
+      "entities": {
+        "games": [
+          {
+            "id": "grand-theft-auto-6",
+            "name": "Grand Theft Auto 6",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 2500,
+          "unit": "price",
+          "currency": "GBP",
+          "entity": "grand-theft-auto-6-varsity-jacket",
+          "entity_type": "product",
+          "scope": "product",
+          "as_of": "2026-11-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "including a £2,500 varsity jacket",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/selfridges-london-gta6/"
+          }
+        }
+      ],
+      "summary": "Selfridges London has opened a Grand Theft Auto 6 merchandise store selling more than 60 items, including a £2,500 varsity jacket."
+    },
+    {
+      "ref": "business/take-two-q2-financial-results",
+      "entities": {
+        "games": [
+          {
+            "id": "nba-2k27",
+            "name": "NBA 2K27",
+            "aliases": [],
+            "genres": ["sports"],
+            "franchise": "nba-2k",
+            "inferred": true
+          },
+          {
+            "id": "grand-theft-auto-6",
+            "name": "Grand Theft Auto 6",
+            "aliases": ["GTA 6"],
+            "genres": ["action-adventure", "open-world"],
+            "franchise": "grand-theft-auto",
+            "inferred": true
+          }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 1500000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-11-10",
+          "period": "quarterly",
+          "direction": "down",
+          "confidence": "high",
+          "quote": "Net revenue: $1.50 billion (down 16% year-on-year)",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations"
+          }
+        },
+        {
+          "metric": "profit",
+          "value": -54000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "take-two-interactive",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-11-10",
+          "period": "quarterly",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Net loss: $54 million",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations"
+          }
+        }
+      ],
+      "summary": "Take-Two reported Q2 net revenue of $1.50 billion, down 16% year-on-year, with a net loss of $54 million and net bookings of $1.60 billion."
+    },
+    {
+      "ref": "business/tripwire-interactive-lays-off-36-employees",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "tripwire-interactive", "name": "Tripwire Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 36,
+          "unit": "employees",
+          "currency": null,
+          "entity": "tripwire-interactive",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-11-10",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Tripwire Interactive lays off 36 employees",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz",
+            "url": "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36"
+          }
+        }
+      ],
+      "summary": "Tripwire Interactive has laid off 36 employees."
+    }
+  ]
+}
