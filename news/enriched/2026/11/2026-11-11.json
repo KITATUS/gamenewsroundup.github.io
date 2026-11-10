@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-11",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable",
+      "entities": {
+        "games": [
+          { "id": "marvel-rivals", "name": "Marvel Rivals", "aliases": [], "genres": ["hero-shooter"], "franchise": "marvel", "inferred": true }
+        ],
+        "studios": [
+          { "id": "netease-games", "name": "NetEase Games", "aliases": [], "publisher": "netease", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "dlc-expansion", "update-patch"],
+      "facts": [
+        { "metric": "release_date", "value": "2026-11-13", "unit": "date", "currency": null,
+          "entity": "marvel-rivals", "entity_type": "game", "scope": "game",
+          "as_of": "2026-11-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "coming to Marvel Rivals when the new season goes live on November 13",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable-characters/" } }
+      ],
+      "summary": "Marvel Rivals has confirmed Nightcrawler and Dracula as playable characters, with Nightcrawler arriving in the new season on 13 November and Dracula in the December half-season update."
+    },
+    {
+      "ref": "main_news/playstation-announces-end-of-pc-streaming-in-december-as-pla",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation", "Sony"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": ["Playstation Plus", "Playstation Plus Premium"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["shutdown", "subscription"],
+      "facts": [
+        { "metric": "shutdown_date", "value": "2026-12-10", "unit": "date", "currency": null,
+          "entity": "playstation-plus-pc-app", "entity_type": "product", "scope": "product",
+          "as_of": "2026-11-11", "period": "point_in_time", "direction": null, "confidence": "high",
+          "quote": "Playstation Plus App for PC is being retired on December 10th",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-announces-end-of-pc-streaming-in-december/" } }
+      ],
+      "summary": "PlayStation is ending PC streaming by retiring the PlayStation Plus app for PC on 10 December 2026, saying fewer than 0.4% of Premium members used it."
+    },
+    {
+      "ref": "main_news/nintendo-of-america-is-hiring-a-digital-archivist-who-will-b",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": ["Nintendo of America"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Nintendo of America is hiring a Digital Archivist to document the history of the company and its games."
+    },
+    {
+      "ref": "main_news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusiv",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-vi", "name": "Grand Theft Auto VI", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": ["Rockstar"], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "ps5-pro", "name": "PS5 Pro", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Rockstar has confirmed that GTA 6 targets 30 FPS, with ray-tracing exclusive to the PS5 Pro."
+    },
+    {
+      "ref": "main_news/steam-now-shows-average-steam-deck-framerates-when-browsing",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam", "name": "Steam", "aliases": [], "inferred": false },
+          { "id": "steam-deck", "name": "Steam Deck", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["update-patch"],
+      "facts": [],
+      "summary": "Steam now displays average Steam Deck framerates when browsing games, and Valve is considering extending the feature to other hardware."
+    },
+    {
+      "ref": "free_games_subscription/games-incoming-to-playstation-plus",
+      "entities": {
+        "games": [
+          { "id": "death-stranding-2-on-the-beach", "name": "Death Stranding 2: On the Beach", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "death-stranding", "inferred": true },
+          { "id": "atomfall", "name": "Atomfall", "aliases": [], "genres": ["survival", "action-adventure"], "franchise": null, "inferred": true },
+          { "id": "dragon-quest-3-hd-2d-remake", "name": "Dragon Quest 3 HD-2D Remake", "aliases": [], "genres": ["jrpg"], "franchise": "dragon-quest", "inferred": true },
+          { "id": "hell-let-loose", "name": "Hell Let Loose", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "like-a-dragon-pirate-yakuza-in-hawaii", "name": "Like a Dragon: Pirate Yakuza in Hawaii", "aliases": [], "genres": ["action-adventure"], "franchise": "like-a-dragon", "inferred": true },
+          { "id": "trepang2", "name": "Trepang2", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": true },
+          { "id": "motogp-26", "name": "MotoGP 26", "aliases": [], "genres": ["racing", "sports"], "franchise": "motogp", "inferred": true },
+          { "id": "cricket-26", "name": "Cricket 26", "aliases": [], "genres": ["sports"], "franchise": "cricket", "inferred": true },
+          { "id": "soul-reaver-2", "name": "Soul Reaver 2", "aliases": [], "genres": ["action-adventure"], "franchise": "legacy-of-kain", "inferred": true },
+          { "id": "freedom-wars-remastered", "name": "Freedom Wars Remastered", "aliases": [], "genres": ["action-rpg"], "franchise": "freedom-wars", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation-plus", "name": "PlayStation Plus", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["subscription"],
+      "facts": [],
+      "summary": "A batch of games including Death Stranding 2: On the Beach, Atomfall and Dragon Quest 3 HD-2D Remake is coming to PlayStation Plus."
+    },
+    {
+      "ref": "business/krafton-q3-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "krafton", "name": "Krafton", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 971400000000, "unit": "currency", "currency": "KRW",
+          "entity": "krafton", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: ₩971.4 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "revenue", "value": 725900000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "($725.9 million), up 11.6% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "operating_income", "value": 225000000000, "unit": "currency", "currency": "KRW",
+          "entity": "krafton", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Operating profit: ₩225 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "operating_income", "value": 168100000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "publisher", "scope": "company",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "($168.1 million), down 35.5%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "revenue", "value": 238900000000, "unit": "currency", "currency": "KRW",
+          "entity": "krafton", "entity_type": "publisher", "scope": "platform",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "PC revenue: ₩238.9 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "revenue", "value": 178000000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "publisher", "scope": "platform",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "PC revenue: ₩238.9 billion ($178 million), down 32.5%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "revenue", "value": 8600000000, "unit": "currency", "currency": "KRW",
+          "entity": "krafton", "entity_type": "publisher", "scope": "platform",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Console revenue: ₩8.6 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "revenue", "value": 6400000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "publisher", "scope": "platform",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "down", "confidence": "high",
+          "quote": "Console revenue: ₩8.6 billion ($6.4 million), down 15.9%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "revenue", "value": 504300000000, "unit": "currency", "currency": "KRW",
+          "entity": "krafton", "entity_type": "publisher", "scope": "platform",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Mobile revenue: ₩504.3 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } },
+        { "metric": "revenue", "value": 375600000, "unit": "currency", "currency": "USD",
+          "entity": "krafton", "entity_type": "publisher", "scope": "platform",
+          "as_of": "2026-11-11", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Mobile revenue: ₩504.3 billion ($375.6 million), up 3.2%",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments" } }
+      ],
+      "summary": "Krafton reported Q3 revenue of ₩971.4 billion ($725.9 million), up 11.6% year-on-year, while operating profit fell 35.5% to ₩225 billion ($168.1 million)."
+    },
+    {
+      "ref": "business/bandai-namco-closes-reflector-entertainment-expects-to-post",
+      "entities": {
+        "games": [
+          { "id": "unknown-9-awakening", "name": "Unknown 9: Awakening", "aliases": ["The Unknown 9"], "genres": ["action-adventure"], "franchise": "unknown-9", "inferred": true }
+        ],
+        "studios": [
+          { "id": "reflector-entertainment", "name": "Reflector Entertainment", "aliases": [], "publisher": "bandai-namco", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "bandai-namco", "name": "Bandai Namco", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-closure"],
+      "facts": [],
+      "summary": "Bandai Namco has closed Unknown 9 developer Reflector Entertainment, which it acquired in 2020, and expects to post a €21m loss in Q3 as a result."
+    },
+    {
+      "ref": "business/skydance-announces-layoffs-to-games-division-following-111bn",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "skydance-games", "name": "Skydance Games", "aliases": ["Skydance"], "publisher": "skydance-media", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs", "merger"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 30, "unit": "people", "currency": null,
+          "entity": "skydance-games", "entity_type": "studio", "scope": "studio",
+          "as_of": "2026-11-11", "period": "point_in_time", "direction": null, "confidence": "medium",
+          "quote": "it is believed approximately 30 people are affected",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/skydance-announces-layoffs-to-games-division-following-111bn-merger" } }
+      ],
+      "summary": "Skydance has announced layoffs in its games division following a $111bn merger, reportedly affecting around 30 people."
+    },
+    {
+      "ref": "rumours/playstation-reportedly-cancels-fairgames-after-recent-playte",
+      "entities": {
+        "games": [
+          { "id": "fairgames", "name": "Fairgames", "aliases": [], "genres": ["shooter"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "haven-studios", "name": "Haven Studios", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["rumour"],
+      "facts": [],
+      "summary": "PlayStation has reportedly cancelled Fairgames after recent playtests, though Haven Studios is said to face no closure or layoffs."
+    }
+  ]
+}

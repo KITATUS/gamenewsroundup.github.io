@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-10",
-  "date": "2026-11-10",
+  "id": "2026-11-11",
+  "date": "2026-11-11",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-09T22:07:56.793+00:00",
+  "published_at": "2026-11-10T21:51:36.663+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 10 November 2026.",
+  "summary": "Daily curated games-industry news digest for 11 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,10 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "rockstar-announces-grand-theft-auto-6-music-festival-taking",
-          "title": "Rockstar announces **Grand Theft Auto 6** music festival taking place in Miami",
+          "id": "marvel-rivals-confirms-nightcrawler-and-dracula-as-playable",
+          "title": "**Marvel Rivals** confirms Nightcrawler and Dracula as playable characters",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/rockstar-announces-grand-theft-auto-6-music-festival-taking-place-in-miami/",
+          "url": "https://www.videogameschronicle.com/news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable-characters/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -32,17 +32,62 @@
             "importance": "normal"
           },
           "bullets": [
-            "Grand Theft Auto 6: The Festival will take place at Mana Wynwood in Miami, and will feature performances from such musical acts as Travis Scott, Kodak Black, Cardi B and Justice"
+            "Nightcrawler will join first, coming to Marvel Rivals when the new season goes live on November 13. Dracula will then be added in the half-season update, expected sometime in December"
           ]
         },
         {
-          "id": "selfridges-london-has-launched-a-grand-theft-auto-6-store-wi",
-          "title": "Selfridges London has launched a **Grand Theft Auto 6** store with 60+ items for sale, including a £2,500 varsity jacket",
+          "id": "playstation-announces-end-of-pc-streaming-in-december-as-pla",
+          "title": "PlayStation announces end of PC streaming in December  as **Playstation Plus** App for PC is being retired on December 10th",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/selfridges-london-gta6/",
+          "url": "https://www.videogameschronicle.com/news/playstation-announces-end-of-pc-streaming-in-december/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Sony claims less than 0.4% of Playstation Plus Premium members used the app"
+          ]
+        },
+        {
+          "id": "nintendo-of-america-is-hiring-a-digital-archivist-who-will-b",
+          "title": "**Nintendo of America** is hiring a “Digital Archivist” who will be tasked with documenting the company’s history, including the history of its games",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/nintendo-is-hiring-someone-to-document-the-history-of-its-games/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusiv",
+          "title": "Rockstar confirms **GTA 6** targets 30 FPS, with PS5 Pro-exclusive ray-tracing",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "steam-now-shows-average-steam-deck-framerates-when-browsing",
+          "title": "**Steam** now shows average Steam Deck framerates when browsing games, but Valve says it's considering expanding the feature to other hardware",
+          "body": null,
+          "url": "https://www.eurogamer.net/steam-deck-framerate-average-data-store-widget",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
           },
           "metadata": {
             "story_type": "confirmed",
@@ -54,17 +99,44 @@
     {
       "id": "free_games_subscription",
       "label": "Free Games / Subscription",
-      "items": []
+      "items": [
+        {
+          "id": "games-incoming-to-playstation-plus",
+          "title": "Games incoming to **PlayStation Plus**",
+          "body": null,
+          "url": "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Death Stranding 2: On the Beach",
+            "Atomfall",
+            "Dragon Quest 3 HD-2D Remake",
+            "Hell Let Loose",
+            "Like a Dragon: Pirate Yakuza in Hawaii",
+            "Trepang2",
+            "MotoGP 26",
+            "Cricket 26",
+            "Soul Reaver 2",
+            "Freedom Wars Remastered"
+          ]
+        }
+      ]
     },
     {
       "id": "business",
       "label": "Business",
       "items": [
         {
-          "id": "take-two-q2-financial-results",
-          "title": "**Take-Two** Q2 Financial Results",
+          "id": "krafton-q3-financial-results",
+          "title": "**Krafton** Q3 Financial Results",
           "body": null,
-          "url": "https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations",
+          "url": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
@@ -74,16 +146,19 @@
             "importance": "normal"
           },
           "bullets": [
-            "Net revenue: $1.50 billion (down 16% year-on-year)",
-            "Net loss: $54 million (compared to $133.9 million loss in the year-ago quarter)",
-            "Total net bookings: $1.60 billion (down 18% year-on-year)"
+            "Revenue: ₩971.4 billion ($725.9 million), up 11.6% year-on-year",
+            "Operating profit: ₩225 billion ($168.1 million), down 35.5%",
+            "PC revenue: ₩238.9 billion ($178 million), down 32.5%",
+            "Console revenue: ₩8.6 billion ($6.4 million), down 15.9%",
+            "Mobile revenue: ₩504.3 billion ($375.6 million), up 3.2%",
+            "Other revenue: ₩219.6 billion ($164 million), up 1,117.8%, largely driven by advertising and content revenue from ADK Group"
           ]
         },
         {
-          "id": "tripwire-interactive-lays-off-36-employees",
-          "title": "**Tripwire Interactive** lays off 36 employees",
+          "id": "bandai-namco-closes-reflector-entertainment-expects-to-post",
+          "title": "**Bandai Namco** closes Reflector Entertainment, expects to post €21m loss in Q3 as a result",
           "body": null,
-          "url": "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36",
+          "url": "https://www.gamesindustry.biz/bandai-namco-closes-reflector-entertainment-expects-to-post-21m-loss-in-q3-as-a-result",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
@@ -91,14 +166,53 @@
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          }
+          },
+          "bullets": [
+            "The Unknown 9 developer was acquired by Bandai Namco in 2020"
+          ]
+        },
+        {
+          "id": "skydance-announces-layoffs-to-games-division-following-111bn",
+          "title": "**Skydance** announces layoffs to games division following $111bn merger",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/skydance-announces-layoffs-to-games-division-following-111bn-merger",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Unknown amount of employees affected, though it is believed approximately 30 people are affected"
+          ]
         }
       ]
     },
     {
       "id": "rumours",
       "label": "Rumours",
-      "items": []
+      "items": [
+        {
+          "id": "playstation-reportedly-cancels-fairgames-after-recent-playte",
+          "title": "PlayStation reportedly cancels **Fairgames** after recent playtests",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/playstation-reportedly-cancels-fairgames-after-recent-playtests/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "rumour",
+            "rumour_status": "rumour_verified_sources",
+            "importance": "normal"
+          },
+          "bullets": [
+            "If true, the rumours claim that Haven Studios will not be closing down as a result of this decision, nor will there be any layoffs"
+          ]
+        }
+      ]
     }
   ]
 }
