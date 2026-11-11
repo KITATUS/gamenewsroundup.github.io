@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-12",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/golden-joystick-awards-2026-results",
+      "entities": {
+        "games": [
+          { "id": "dispatch", "name": "Dispatch", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "onimusha-way-of-the-sword", "name": "Onimusha: Way of the Sword", "aliases": [], "genres": ["action-adventure"], "franchise": "onimusha", "inferred": true },
+          { "id": "meccha-chameleon", "name": "Meccha Chameleon", "aliases": [], "genres": [], "franchise": null, "inferred": true },
+          { "id": "control-resonant", "name": "Control Resonant", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true },
+          { "id": "doom-the-dark-ages-revelations", "name": "Doom: The Dark Ages – Revelations", "aliases": [], "genres": ["fps"], "franchise": "doom", "inferred": true },
+          { "id": "valheim", "name": "Valheim", "aliases": [], "genres": ["survival", "sandbox"], "franchise": null, "inferred": true },
+          { "id": "subnautica-2", "name": "Subnautica 2", "aliases": [], "genres": ["survival"], "franchise": "subnautica", "inferred": true },
+          { "id": "balatro", "name": "Balatro", "aliases": [], "genres": ["card", "roguelike"], "franchise": null, "inferred": true },
+          { "id": "minecraft", "name": "Minecraft", "aliases": [], "genres": ["sandbox", "survival"], "franchise": "minecraft", "inferred": true },
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "the-witcher-3-wild-hunt", "name": "The Witcher 3: Wild Hunt", "aliases": ["The Witcher 3: Wild Hunt – Remastered"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true },
+          { "id": "iron-lung", "name": "Iron Lung", "aliases": [], "genres": ["horror"], "franchise": null, "inferred": true },
+          { "id": "pragmata", "name": "Pragmata", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "crimson-desert", "name": "Crimson Desert", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": null, "inferred": true },
+          { "id": "big-walk", "name": "Big Walk", "aliases": [], "genres": ["adventure"], "franchise": null, "inferred": true },
+          { "id": "the-witcher-4", "name": "The Witcher 4", "aliases": [], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-controller", "name": "Steam Controller", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "grace-saif", "name": "Grace Saif", "aliases": [], "inferred": false },
+          { "id": "angela-santalbano", "name": "Angela Sant’Albano", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "The Golden Joystick Awards 2026 winners were announced, with Resident Evil Requiem named Ultimate Game of the Year."
+    },
+    {
+      "ref": "main_news/the-witcher-3-expansion-uses-ai-to-adjust-geralt-s-polish-vo",
+      "entities": {
+        "games": [
+          { "id": "the-witcher-3-wild-hunt", "name": "The Witcher 3: Wild Hunt", "aliases": ["The Witcher 3"], "genres": ["action-rpg", "open-world"], "franchise": "the-witcher", "inferred": true }
+        ],
+        "studios": [
+          { "id": "cd-projekt-red", "name": "CD Projekt Red", "aliases": [], "publisher": "cd-projekt", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "jacek-rozenek", "name": "Jacek Rozenek", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["dlc-expansion"],
+      "facts": [],
+      "summary": "A Witcher 3 expansion uses AI, with the actor's consent, to adjust Geralt's Polish voiceover after voice actor Jacek Rozenek suffered a stroke."
+    },
+    {
+      "ref": "business/playstation-5-officially-clears-100-million-consoles-shipped",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["Sony"], "inferred": false },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "playstation-5", "name": "PlayStation 5", "aliases": ["PS5"], "inferred": false },
+          { "id": "playstation-4", "name": "PlayStation 4", "aliases": ["PS4"], "inferred": false },
+          { "id": "nintendo-wii", "name": "Nintendo Wii", "aliases": [], "inferred": false },
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false },
+          { "id": "game-boy", "name": "Game Boy", "aliases": [], "inferred": false },
+          { "id": "nintendo-ds", "name": "Nintendo DS", "aliases": [], "inferred": false },
+          { "id": "nintendo-switch", "name": "Nintendo Switch", "aliases": [], "inferred": false },
+          { "id": "playstation-2", "name": "PlayStation 2", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "hardware"],
+      "facts": [
+        { "metric": "lifetime_unit_sales", "value": 100000000, "unit": "units", "currency": null, "entity": "playstation-5", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "PlayStation 5 officially clears 100 million consoles shipped", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } },
+        { "metric": "lifetime_unit_sales", "value": 101000000, "unit": "units", "currency": null, "entity": "nintendo-wii", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Nintendo Wii (101m)", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } },
+        { "metric": "lifetime_unit_sales", "value": 102000000, "unit": "units", "currency": null, "entity": "playstation", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "PlayStation (102m)", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } },
+        { "metric": "lifetime_unit_sales", "value": 117000000, "unit": "units", "currency": null, "entity": "playstation-4", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "PS4 (117m)", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } },
+        { "metric": "lifetime_unit_sales", "value": 118000000, "unit": "units", "currency": null, "entity": "game-boy", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Game Boy (118m)", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } },
+        { "metric": "lifetime_unit_sales", "value": 154000000, "unit": "units", "currency": null, "entity": "nintendo-ds", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Nintendo DS (154m)", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } },
+        { "metric": "lifetime_unit_sales", "value": 157000000, "unit": "units", "currency": null, "entity": "nintendo-switch", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "Nintendo Switch (157m)", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } },
+        { "metric": "lifetime_unit_sales", "value": 160000000, "unit": "units", "currency": null, "entity": "playstation-2", "entity_type": "platform", "scope": "platform", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "PlayStation 2 (160m)", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/" } }
+      ],
+      "summary": "PlayStation 5 has officially surpassed 100 million consoles shipped, nearly six years after its November 2020 launch."
+    },
+    {
+      "ref": "business/the-legend-of-zelda-ocarina-of-time-remake-sold-5-2-million",
+      "entities": {
+        "games": [
+          { "id": "the-legend-of-zelda-ocarina-of-time", "name": "The Legend of Zelda: Ocarina of Time", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone", "remaster-remake"],
+      "facts": [
+        { "metric": "copies_sold", "value": 5200000, "unit": "units", "currency": null, "entity": "the-legend-of-zelda-ocarina-of-time", "entity_type": "game", "scope": "game", "as_of": "2026-11-12", "period": "cumulative", "direction": null, "confidence": "high", "quote": "remake sold 5.2 million in its first four days", "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/the-legend-of-zelda-ocarina-of-time-remake-sold-5-2-million-in-its-first-four-days-nintendo-says/" } }
+      ],
+      "summary": "Nintendo says The Legend of Zelda: Ocarina of Time remake sold 5.2 million copies in its first four days."
+    },
+    {
+      "ref": "business/destroy-all-humans-remake-developer-black-forest-games-goes",
+      "entities": {
+        "games": [
+          { "id": "destroy-all-humans", "name": "Destroy All Humans", "aliases": [], "genres": ["action-adventure"], "franchise": "destroy-all-humans", "inferred": true }
+        ],
+        "studios": [
+          { "id": "black-forest-games", "name": "Black Forest Games", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "third-signal", "name": "Third Signal", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "thq-nordic", "name": "THQ Nordic", "aliases": [], "inferred": false },
+          { "id": "embracer-group", "name": "Embracer Group", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "studio-opening"],
+      "facts": [],
+      "summary": "Destroy All Humans remake developer Black Forest Games has gone independent from THQ Nordic and Embracer Group through a management buy-out."
+    },
+    {
+      "ref": "business/lego-digital-play-acquires-forthstar-games-to-bring-lego-to",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "forthstar-games", "name": "ForthStar Games", "aliases": ["ForthStar"], "publisher": "lego-digital-play", "inferred": false },
+          { "id": "playdemic", "name": "Playdemic", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "lego-digital-play", "name": "Lego Digital Play", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": [
+          { "id": "paul-gouge", "name": "Paul Gouge", "aliases": [], "inferred": false },
+          { "id": "alex-rigby", "name": "Alex Rigby", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Lego Digital Play has acquired ForthStar Games, founded by Playdemic co-founders Paul Gouge and Alex Rigby, to grow Lego on mobile."
+    },
+    {
+      "ref": "business/mobile-publisher-fortis-games-shuts-down-up-to-440-workers-a",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "fortis-games", "name": "Fortis Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "mobile", "name": "Mobile", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["studio-closure", "layoffs"],
+      "facts": [
+        { "metric": "layoffs_count", "value": 440, "unit": "people", "currency": null, "entity": "fortis-games", "entity_type": "publisher", "scope": "company", "as_of": "2026-11-12", "period": "point_in_time", "direction": null, "confidence": "medium", "quote": "up to 440 workers affected", "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/mobile-publisher-fortis-games-shuts-down-up-to-440-workers-affected" } }
+      ],
+      "summary": "Mobile publisher Fortis Games has shut down, affecting up to 440 workers."
+    }
+  ]
+}
