@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-13",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/halo-campaign-evolved-is-getting-firefight-a-4v4-pve-mode-in",
+      "entities": {
+        "games": [
+          { "id": "halo-campaign-evolved", "name": "Halo: Campaign Evolved", "aliases": [], "genres": ["fps"], "franchise": "halo", "inferred": true }
+        ],
+        "studios": [
+          { "id": "halo-studios", "name": "Halo Studios", "aliases": [], "publisher": "xbox-game-studios", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "xbox-game-studios", "name": "Xbox Game Studios", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["update-patch", "announcement"],
+      "facts": [],
+      "summary": "Halo: Campaign Evolved will receive Firefight, a 4v4 PvE mode, in a free update this winter."
+    },
+    {
+      "ref": "main_news/laid-off-id-software-devs-form-employee-owned-studio-hidden",
+      "entities": {
+        "games": [
+          { "id": "danger-pay", "name": "Danger Pay", "aliases": [], "genres": ["fps"], "franchise": null, "inferred": false }
+        ],
+        "studios": [
+          { "id": "hidden-horses", "name": "Hidden Horses", "aliases": [], "publisher": null, "inferred": false },
+          { "id": "id-software", "name": "id Software", "aliases": ["Id Software"], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["studio-opening", "funding-investment", "announcement"],
+      "facts": [],
+      "summary": "Developers laid off from id Software have formed the employee-owned studio Hidden Horses, which is preparing a Kickstarter campaign for its first project, the FPS Danger Pay."
+    },
+    {
+      "ref": "main_news/the-game-awards-adds-disney-to-livestream-lineup-in-the-u-s",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "disney", "name": "Disney", "aliases": ["Disney+"], "inferred": false }
+        ],
+        "platforms": [
+          { "id": "disney-plus", "name": "Disney+", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["showcase", "partnership"],
+      "facts": [],
+      "summary": "The Game Awards has added Disney+ to its livestream lineup in the U.S. and select international markets."
+    },
+    {
+      "ref": "business/square-enix-h1-financial-results",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "square-enix", "name": "Square Enix", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [],
+      "summary": "Square Enix reported first-half FY2027 results with overall sales up 21.1% year-on-year and operating profit up 42.2%."
+    },
+    {
+      "ref": "business/fredrik-wester-steps-down-as-paradox-interactive-ceo-deputy",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "paradox-interactive", "name": "Paradox Interactive", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": [
+          { "id": "fredrik-wester", "name": "Fredrik Wester", "aliases": [], "inferred": false },
+          { "id": "mattias-lilja", "name": "Mattias Lilja", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["leadership-change"],
+      "facts": [
+        {
+          "metric": "event_date",
+          "value": "2027-01-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "paradox-interactive",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-11-13",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Deputy CEO Mattias Lilja will assume the role on January 4, 2027",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/fredrik-wester-steps-down-as-paradox-interactive-ceo" }
+        }
+      ],
+      "summary": "Fredrik Wester is stepping down as Paradox Interactive CEO, with Deputy CEO Mattias Lilja taking over on 4 January 2027 and Wester remaining on the board."
+    }
+  ]
+}
