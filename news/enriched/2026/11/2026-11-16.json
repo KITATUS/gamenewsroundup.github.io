@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-16",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/machinegames-has-finally-officially-confirmed-that-wolfenste",
+      "entities": {
+        "games": [
+          { "id": "wolfenstein-3", "name": "Wolfenstein 3", "aliases": [], "genres": ["fps"], "franchise": "wolfenstein", "inferred": true }
+        ],
+        "studios": [
+          { "id": "machinegames", "name": "MachineGames", "aliases": [], "publisher": "bethesda-softworks", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "MachineGames has officially confirmed that Wolfenstein 3 is in development."
+    },
+    {
+      "ref": "main_news/21-original-xbox-games-are-now-on-pc-via-backward-compatibil",
+      "entities": {
+        "games": [
+          { "id": "armed-and-dangerous", "name": "Armed and Dangerous", "aliases": [], "genres": ["tps"], "franchise": null, "inferred": true },
+          { "id": "disneys-chicken-little", "name": "Disney's Chicken Little", "aliases": ["Disney’s Chicken Little"], "genres": ["platformer"], "franchise": null, "inferred": true },
+          { "id": "the-elder-scrolls-3-morrowind", "name": "The Elder Scrolls 3: Morrowind", "aliases": [], "genres": ["rpg", "open-world"], "franchise": "the-elder-scrolls", "inferred": true },
+          { "id": "grabbed-by-the-ghoulies", "name": "Grabbed by the Ghoulies", "aliases": [], "genres": ["action-adventure"], "franchise": null, "inferred": true },
+          { "id": "indiana-jones-and-the-emperors-tomb", "name": "Indiana Jones and the Emperor's Tomb", "aliases": ["Indiana Jones and the Emperor’s Tomb"], "genres": ["action-adventure"], "franchise": "indiana-jones", "inferred": true },
+          { "id": "red-faction-2", "name": "Red Faction 2", "aliases": [], "genres": ["fps"], "franchise": "red-faction", "inferred": true },
+          { "id": "secret-weapons-over-normandy", "name": "Secret Weapons Over Normandy", "aliases": [], "genres": ["simulation"], "franchise": null, "inferred": true },
+          { "id": "star-wars-battlefront", "name": "Star Wars Battlefront", "aliases": [], "genres": ["shooter"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-battlefront-2", "name": "Star Wars Battlefront 2", "aliases": [], "genres": ["shooter"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-episode-3-revenge-of-the-sith", "name": "Star Wars Episode 3: Revenge of the Sith", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-jedi-knight-jedi-academy", "name": "Star Wars Jedi Knight: Jedi Academy", "aliases": [], "genres": ["action-adventure", "tps"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-jedi-knight-2-jedi-outcast", "name": "Star Wars Jedi Knight 2: Jedi Outcast", "aliases": ["Star Wars Jedi Knight 2 Jedi Outcast"], "genres": ["fps", "tps"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-jedi-starfighter", "name": "Star Wars: Jedi Starfighter", "aliases": [], "genres": ["simulation"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-knights-of-the-old-republic", "name": "Star Wars: Knights of the Old Republic", "aliases": [], "genres": ["rpg", "crpg"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-knights-of-the-old-republic-2-the-sith-lords", "name": "Star Wars: Knights of the Old Republic 2 – The Sith Lords", "aliases": [], "genres": ["rpg", "crpg"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-republic-commando", "name": "Star Wars: Republic Commando", "aliases": [], "genres": ["fps"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-starfighter", "name": "Star Wars: Starfighter", "aliases": ["Star Wars: Starfighter – Special Edition"], "genres": ["simulation"], "franchise": "star-wars", "inferred": true },
+          { "id": "star-wars-the-clone-wars", "name": "Star Wars: The Clone Wars", "aliases": [], "genres": ["action-adventure"], "franchise": "star-wars", "inferred": true },
+          { "id": "thrillville", "name": "Thrillville", "aliases": [], "genres": ["simulation"], "franchise": "thrillville", "inferred": true },
+          { "id": "timesplitters-2", "name": "TimeSplitters 2", "aliases": [], "genres": ["fps"], "franchise": "timesplitters", "inferred": true },
+          { "id": "timesplitters-future-perfect", "name": "TimeSplitters: Future Perfect", "aliases": [], "genres": ["fps"], "franchise": "timesplitters", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "microsoft", "name": "Microsoft", "aliases": [], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "xbox", "name": "Xbox", "aliases": ["original Xbox"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "microsoft-store", "name": "Microsoft Store", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["port", "release"],
+      "facts": [],
+      "summary": "Twenty-one original Xbox games are now playable on PC through backward compatibility via the Microsoft Store using emulation."
+    },
+    {
+      "ref": "business/nexon-q3-financial-results",
+      "entities": {
+        "games": [
+          { "id": "maplestory", "name": "MapleStory", "aliases": [], "genres": ["mmorpg"], "franchise": "maplestory", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "nexon", "name": "Nexon", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        { "metric": "revenue", "value": 138400000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-11-16", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Revenue: ¥138.4 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon" } },
+        { "metric": "revenue", "value": 865400000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-11-16", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "$865.4 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon" } },
+        { "metric": "operating_income", "value": 41800000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-11-16", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "Operating income: ¥41.8 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon" } },
+        { "metric": "operating_income", "value": 261300000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-11-16", "period": "quarterly", "direction": "up", "confidence": "high",
+          "quote": "$261.3 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon" } },
+        { "metric": "profit", "value": 38100000000, "unit": "currency", "currency": "JPY",
+          "entity": "nexon", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-11-16", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "Net income: ¥38.1 billion",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon" } },
+        { "metric": "profit", "value": 238200000, "unit": "currency", "currency": "USD",
+          "entity": "nexon", "entity_type": "publisher", "scope": "publisher",
+          "as_of": "2026-11-16", "period": "quarterly", "direction": null, "confidence": "high",
+          "quote": "$238.2 million",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/maplestory-franchise-q3-revenue-rises-72-drives-overall-growth-for-nexon" } }
+      ],
+      "summary": "Nexon reported Q3 revenue of ¥138.4 billion, up 17% year-on-year, with operating income up 11% and net income flat."
+    }
+  ]
+}
