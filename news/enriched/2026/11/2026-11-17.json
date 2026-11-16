@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-17",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/nba-2k27-is-getting-a-vice-city-edition-as-well-as-numerous",
+      "entities": {
+        "games": [
+          { "id": "nba-2k27", "name": "NBA 2K27", "aliases": [], "genres": ["sports"], "franchise": "nba-2k", "inferred": true },
+          { "id": "grand-theft-auto-vi", "name": "Grand Theft Auto VI", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "visual-concepts", "name": "Visual Concepts", "aliases": [], "publisher": "2k", "inferred": true },
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "2k", "name": "2K", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "release-date", "dlc-expansion"],
+      "facts": [
+        {
+          "metric": "price",
+          "value": 39.99,
+          "unit": "price",
+          "currency": "USD",
+          "entity": "nba-2k27",
+          "entity_type": "game",
+          "scope": "product",
+          "as_of": "2026-11-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "This version, which costs $39.99",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nba-2k27-is-getting-a-vice-city-edition-as-well-as-numerous-gta-6-themed-items-in-season-3/" }
+        },
+        {
+          "metric": "release_date",
+          "value": "2026-11-27",
+          "unit": "date",
+          "currency": null,
+          "entity": "nba-2k27",
+          "entity_type": "game",
+          "scope": "product",
+          "as_of": "2026-11-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The new Vice City Edition will be available from November 27",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/nba-2k27-is-getting-a-vice-city-edition-as-well-as-numerous-gta-6-themed-items-in-season-3/" }
+        }
+      ],
+      "summary": "NBA 2K27 is getting a $39.99 Vice City Edition available from 27 November to 15 January, alongside GTA 6 themed items in Season 3."
+    },
+    {
+      "ref": "main_news/this-year-s-video-game-soundtrack-grammy-nominations-have-be",
+      "entities": {
+        "games": [
+          { "id": "avatar-frontiers-of-pandora-from-the-ashes", "name": "Avatar: Frontiers of Pandora From the Ashes", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "avatar", "inferred": true },
+          { "id": "007-first-light", "name": "007: First Light", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "james-bond", "inferred": true },
+          { "id": "ghost-of-yotei", "name": "Ghost of Yōtei", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "ghost-of-tsushima", "inferred": true },
+          { "id": "marvels-wolverine", "name": "Marvel's Wolverine", "aliases": ["Marvel’s Wolverine"], "genres": ["action-adventure"], "franchise": "marvel", "inferred": true },
+          { "id": "star-wars-zero-company", "name": "Star Wars: Zero Company", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "star-wars", "inferred": true }
+        ],
+        "studios": [
+          { "id": "massive-entertainment", "name": "Massive Entertainment", "aliases": [], "publisher": "ubisoft", "inferred": true },
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": true },
+          { "id": "sucker-punch-productions", "name": "Sucker Punch Productions", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "insomniac-games", "name": "Insomniac Games", "aliases": [], "publisher": "sony-interactive-entertainment", "inferred": true },
+          { "id": "bit-reactor", "name": "Bit Reactor", "aliases": [], "publisher": "electronic-arts", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": [
+          { "id": "john-paesano", "name": "John Paesano", "aliases": [], "inferred": false },
+          { "id": "joe-henson", "name": "Joe Henson", "aliases": [], "inferred": false },
+          { "id": "alexis-leon-smith", "name": "Alexis Leon Smith", "aliases": [], "inferred": false },
+          { "id": "toma-otowa", "name": "Toma Otowa", "aliases": [], "inferred": false },
+          { "id": "david-fleming", "name": "David Fleming", "aliases": [], "inferred": false },
+          { "id": "gordy-haab", "name": "Gordy Haab", "aliases": [], "inferred": false }
+        ]
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "This year's Grammy nominations for video game soundtracks have been announced, including scores for 007: First Light, Ghost of Yōtei, Marvel's Wolverine, Star Wars: Zero Company and Avatar: Frontiers of Pandora From the Ashes."
+    },
+    {
+      "ref": "business/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-r",
+      "entities": {
+        "games": [
+          { "id": "chronicles-medieval", "name": "Chronicles: Medieval", "aliases": ["Chronicles: Medieval IP"], "genres": ["strategy", "simulation"], "franchise": null, "inferred": true },
+          { "id": "satisfactory", "name": "Satisfactory", "aliases": [], "genres": ["simulation", "sandbox"], "franchise": null, "inferred": true }
+        ],
+        "studios": [
+          { "id": "raw-power-games", "name": "Raw Power Games", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "coffee-stain", "name": "Coffee Stain", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition", "studio-opening"],
+      "facts": [
+        {
+          "metric": "equity_stake_pct",
+          "value": 75,
+          "unit": "percent",
+          "currency": null,
+          "entity": "coffee-stain",
+          "entity_type": "publisher",
+          "scope": "company",
+          "as_of": "2026-11-17",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "The Satisfactory publisher will own 75% of a new company formed with members of the game's original development team",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-raw-power-games" }
+        }
+      ],
+      "summary": "Coffee Stain has acquired the Chronicles: Medieval IP from bankrupt Raw Power Games and will own 75% of a new company formed with members of the original development team."
+    },
+    {
+      "ref": "business/riot-unveils-new-dawn-a-major-overhaul-for-league-of-legends",
+      "entities": {
+        "games": [
+          { "id": "league-of-legends", "name": "League of Legends", "aliases": [], "genres": ["moba"], "franchise": "league-of-legends", "inferred": true }
+        ],
+        "studios": [
+          { "id": "riot-games", "name": "Riot Games", "aliases": ["Riot"], "publisher": "tencent", "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement", "update-patch"],
+      "facts": [],
+      "summary": "Riot has unveiled New Dawn, a major overhaul for League of Legends, though details of the changes remain sparse."
+    },
+    {
+      "ref": "business/unity-launches-50-000-grant-for-indie-developers-with-no-equ",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "unity-technologies", "name": "Unity Technologies", "aliases": ["Unity"], "publisher": null, "inferred": true }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["funding-investment", "announcement"],
+      "facts": [],
+      "summary": "Unity has launched a $50,000 grant for indie developers requiring no equity or repayment, with ten studios to be selected."
+    }
+  ]
+}
