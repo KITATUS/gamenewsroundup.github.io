@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-18",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/the-game-awards-2026-nominees-announced",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "james-bond", "inferred": true },
+          { "id": "control-resonant", "name": "Control Resonant", "aliases": [], "genres": ["action-adventure"], "franchise": "control", "inferred": true },
+          { "id": "grand-theft-auto-6", "name": "Grand Theft Auto 6", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true },
+          { "id": "phantom-blade-zero", "name": "Phantom Blade Zero", "aliases": [], "genres": ["action-rpg"], "franchise": "phantom-blade", "inferred": true },
+          { "id": "resident-evil-requiem", "name": "Resident Evil Requiem", "aliases": [], "genres": ["survival-horror"], "franchise": "resident-evil", "inferred": true },
+          { "id": "the-legend-of-zelda-ocarina-of-time", "name": "The Legend of Zelda: Ocarina of Time", "aliases": [], "genres": ["action-adventure"], "franchise": "the-legend-of-zelda", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": true },
+          { "id": "remedy-entertainment", "name": "Remedy Entertainment", "aliases": [], "publisher": null, "inferred": true },
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true },
+          { "id": "s-game", "name": "S-Game", "aliases": [], "publisher": null, "inferred": true }
+        ],
+        "publishers": [
+          { "id": "capcom", "name": "Capcom", "aliases": [], "inferred": true },
+          { "id": "nintendo", "name": "Nintendo", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["announcement"],
+      "facts": [],
+      "summary": "The Game Awards 2026 nominees have been announced, with 007 First Light, Control Resonant, Grand Theft Auto 6, Phantom Blade Zero, Resident Evil Requiem and The Legend of Zelda: Ocarina of Time up for Game of the Year."
+    },
+    {
+      "ref": "main_news/roblox-launches-creator-program-for-devs-to-bring-games-to-i",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "roblox-corporation", "name": "Roblox Corporation", "aliases": ["Roblox"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "roblox", "name": "Roblox", "aliases": [], "inferred": false },
+          { "id": "mobile", "name": "Mobile", "aliases": ["mobile"], "inferred": false },
+          { "id": "pc", "name": "PC", "aliases": [], "inferred": false },
+          { "id": "console", "name": "Console", "aliases": ["console"], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["announcement", "port"],
+      "facts": [],
+      "summary": "Roblox has launched a creator program that converts developers' games from engines such as Unity and Unreal to its platform at no cost, with developers keeping ownership of their games and IP."
+    },
+    {
+      "ref": "main_news/unity-acquires-3d-asset-creator-synty-studios-artist-created",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "synty-studios", "name": "Synty Studios", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["acquisition"],
+      "facts": [],
+      "summary": "Unity has acquired 3D asset creator Synty Studios and will integrate its artist-created content into the AI game-creation platform Unity Spark, while packs remain available for engines including Unreal Engine and Godot."
+    },
+    {
+      "ref": "business/take-two-has-laid-off-a-third-of-staff-at-civilization-and-x",
+      "entities": {
+        "games": [
+          { "id": "civilization", "name": "Civilization", "aliases": [], "genres": ["4x", "turn-based-strategy"], "franchise": "civilization", "inferred": true },
+          { "id": "xcom", "name": "XCOM", "aliases": [], "genres": ["turn-based-strategy"], "franchise": "xcom", "inferred": true }
+        ],
+        "studios": [
+          { "id": "firaxis-games", "name": "Firaxis Games", "aliases": ["Firaxis"], "publisher": "take-two-interactive", "inferred": false }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": ["Take-Two"], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 60,
+          "unit": "employees",
+          "currency": null,
+          "entity": "firaxis-games",
+          "entity_type": "studio",
+          "scope": "studio",
+          "as_of": "2026-11-18",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "medium",
+          "quote": "Around 60 employees affected",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/" }
+        }
+      ],
+      "summary": "Take-Two has laid off around a third of the staff, roughly 60 employees, at Civilization and XCOM studio Firaxis."
+    },
+    {
+      "ref": "business/playstation-beats-2-6-billion-uk-lawsuit-over-its-game-price",
+      "entities": {
+        "games": [],
+        "studios": [],
+        "publishers": [
+          { "id": "sony-interactive-entertainment", "name": "Sony Interactive Entertainment", "aliases": ["PlayStation"], "inferred": true }
+        ],
+        "platforms": [
+          { "id": "playstation", "name": "PlayStation", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal"],
+      "facts": [],
+      "summary": "PlayStation has defeated a $2.6 billion UK lawsuit that alleged its 30% cut on game sales led to excessive and unfair prices."
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-17",
-  "date": "2026-11-17",
+  "id": "2026-11-18",
+  "date": "2026-11-18",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-16T21:43:40.809+00:00",
+  "published_at": "2026-11-17T21:02:27.010+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 17 November 2026.",
+  "summary": "Daily curated games-industry news digest for 18 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,41 +19,80 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "nba-2k27-is-getting-a-vice-city-edition-as-well-as-numerous",
-          "title": "**NBA 2K27** is getting a Vice City Edition, as well as numerous GTA 6 themed items in Season 3",
+          "id": "the-game-awards-2026-nominees-announced",
+          "title": "**The Game Awards** 2026 nominees announced",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/nba-2k27-is-getting-a-vice-city-edition-as-well-as-numerous-gta-6-themed-items-in-season-3/",
+          "url": "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6",
           "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           },
           "bullets": [
-            "The new Vice City Edition will be available from November 27 to January 15. This version, which costs $39.99, includes a Season 3 Pro Pass, Vice City T-Shirt, 30 Skill Boosts (5 Games), and 15 Gatorade Boosts (5 Games)"
+            "Game of the year nominees are:",
+            {
+              "text": "007 First Light",
+              "level": 1
+            },
+            {
+              "text": "Control Resonant",
+              "level": 1
+            },
+            {
+              "text": "Grand Theft Auto 6",
+              "level": 1
+            },
+            {
+              "text": "Phantom Blade Zero",
+              "level": 1
+            },
+            {
+              "text": "Resident Evil Requiem",
+              "level": 1
+            },
+            {
+              "text": "The Legend of Zelda: Ocarina of Time",
+              "level": 1
+            }
           ]
         },
         {
-          "id": "this-year-s-video-game-soundtrack-grammy-nominations-have-be",
-          "title": "This year’s video game soundtrack **Grammy** nominations have been announced",
+          "id": "roblox-launches-creator-program-for-devs-to-bring-games-to-i",
+          "title": "**Roblox** launches creator program for devs to bring games to its platform for free",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/this-years-video-game-soundtrack-grammy-nominations-include-bond-star-wars-and-wolverine/",
+          "url": "https://www.gamesindustry.biz/roblox-launches-creator-program-for-devs-to-bring-games-to-its-platform-for-free",
           "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           },
           "bullets": [
-            "Avatar: Frontiers of Pandora From the Ashes (John Paesano)",
-            "007: First Light (Joe Henson & Alexis Leon Smith)",
-            "Ghost of Yōtei (Toma Otowa)",
-            "Marvel’s Wolverine (David Fleming)",
-            "Star Wars: Zero Company (Gordy Haab)"
+            "Developers with games built on any engine, including Unity and Unreal, can apply to have Roblox convert their titles to the platform.",
+            "The program will initially include a limited group of developers and games across mobile, PC, and console. Approved developers will be asked to provide their source code and assets.",
+            "Roblox will handle the conversion at no cost, and developers will retain ownership of their game, intellectual property, and the Roblox version."
+          ]
+        },
+        {
+          "id": "unity-acquires-3d-asset-creator-synty-studios-artist-created",
+          "title": "**Unity** acquires 3D asset creator Synty Studios; artist-created content to be integrated into AI game-creation platform Unity Spark",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/unity-acquires-3d-asset-creator-synty-studios-artist-created-content-to-be-integrated-into-ai-game-creation-platform-unity-spark",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Packs will continue to be available for the \"engines and tools they support today\" including Unreal Engine and Godot"
           ]
         }
       ]
@@ -68,54 +107,37 @@
       "label": "Business",
       "items": [
         {
-          "id": "coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-r",
-          "title": "Coffee Stain acquires **Chronicles: Medieval IP** from bankrupt Raw Power Games",
+          "id": "take-two-has-laid-off-a-third-of-staff-at-civilization-and-x",
+          "title": "**Take-Two** has laid off a third of staff at Civilization and XCOM studio Firaxis",
           "body": null,
-          "url": "https://www.gamesindustry.biz/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-raw-power-games",
+          "url": "https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/",
           "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           },
           "bullets": [
-            "The Satisfactory publisher will own 75% of a new company formed with members of the game's original development team"
+            "Around 60 employees affected"
           ]
         },
         {
-          "id": "riot-unveils-new-dawn-a-major-overhaul-for-league-of-legends",
-          "title": "Riot unveils New Dawn, a major overhaul for **League of Legends**",
+          "id": "playstation-beats-2-6-billion-uk-lawsuit-over-its-game-price",
+          "title": "**PlayStation** beats $2.6 billion UK lawsuit over its game prices",
           "body": null,
-          "url": "https://www.gamedeveloper.com/pc/riot-unveils-new-dawn-the-next-evolution-of-league-of-legends",
+          "url": "https://www.videogameschronicle.com/news/playstation-beats-2-6-billion-lawsuit-over-its-game-prices/",
           "source": {
-            "name": "Game Developer",
-            "domain": "gamedeveloper.com"
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           },
           "bullets": [
-            "Details are currently sparse on what the overhaul will mean for the game and what specific changes are being made"
-          ]
-        },
-        {
-          "id": "unity-launches-50-000-grant-for-indie-developers-with-no-equ",
-          "title": "**Unity** launches $50,000 grant for indie developers with no equity or repayment",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment",
-          "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          },
-          "bullets": [
-            "Ten studios will be selected to receive the grant, in addition to direct support from Unity and expert guidance"
+            "The lawsuit argued that PlayStation’s 30% cut on all game sales led to games being sold for “excessive and unfair prices”"
           ]
         }
       ]

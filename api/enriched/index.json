@@ -1,6 +1,12 @@
 {
-  "day_count": 638,
+  "day_count": 639,
   "days": [
+    {
+      "date": "2026-11-18",
+      "entities": 24,
+      "facts": 1,
+      "items": 5
+    },
     {
       "date": "2026-11-17",
       "entities": 28,
@@ -3830,15 +3836,15 @@
       "items": 7
     }
   ],
-  "entity_count": 4585,
-  "fact_count": 3030,
+  "entity_count": 4586,
+  "fact_count": 3031,
   "generated_from": "enriched/",
   "genre_totals": {
-    "4x": 19,
+    "4x": 20,
     "action": 58,
-    "action-adventure": 1008,
+    "action-adventure": 1012,
     "action-platformer": 3,
-    "action-rpg": 725,
+    "action-rpg": 726,
     "adventure": 367,
     "arcade": 13,
     "battle-royale": 142,
@@ -3860,7 +3866,7 @@
     "mmo": 48,
     "mmorpg": 79,
     "moba": 30,
-    "open-world": 452,
+    "open-world": 453,
     "party": 96,
     "platformer": 299,
     "puzzle": 159,
@@ -3875,18 +3881,18 @@
     "social-deduction": 1,
     "soulslike": 81,
     "sports": 166,
-    "stealth": 108,
+    "stealth": 109,
     "strategy": 189,
     "survival": 197,
-    "survival-horror": 278,
+    "survival-horror": 279,
     "tactical-shooter": 2,
     "tower-defense": 16,
     "tps": 172,
-    "turn-based-strategy": 86,
+    "turn-based-strategy": 88,
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4224,
+  "item_count": 4229,
   "metric_totals": {
     "acquisition_price": 37,
     "announce_date": 11,
@@ -3901,7 +3907,7 @@
     "event_date": 310,
     "funding_raised": 67,
     "headcount": 28,
-    "layoffs_count": 128,
+    "layoffs_count": 129,
     "lifetime_unit_sales": 77,
     "metacritic": 1,
     "operating_income": 152,
