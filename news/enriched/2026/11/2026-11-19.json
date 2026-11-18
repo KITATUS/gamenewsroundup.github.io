@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-19",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/mindseye-studio-build-a-rocket-boy-wants-to-sue-saboteurs-to",
+      "entities": {
+        "games": [
+          {
+            "id": "mindseye",
+            "name": "MindsEye",
+            "aliases": [],
+            "genres": ["action-adventure", "tps", "open-world"],
+            "franchise": null,
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "build-a-rocket-boy",
+            "name": "Build A Rocket Boy",
+            "aliases": [],
+            "publisher": null,
+            "inferred": false
+          }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["lawsuit-legal", "funding-investment"],
+      "facts": [],
+      "summary": "MindsEye studio Build A Rocket Boy wants to sue people it calls saboteurs to help pay off £62 million of debt, and has sought further investor funding to cover the legal costs."
+    },
+    {
+      "ref": "main_news/arknights-endfield-named-google-play-s-best-game-of-2026",
+      "entities": {
+        "games": [
+          {
+            "id": "arknights-endfield",
+            "name": "Arknights: Endfield",
+            "aliases": [],
+            "genres": ["rpg", "strategy"],
+            "franchise": "arknights",
+            "inferred": true
+          }
+        ],
+        "studios": [
+          {
+            "id": "hypergryph",
+            "name": "Hypergryph",
+            "aliases": [],
+            "publisher": "gryphline",
+            "inferred": true
+          }
+        ],
+        "publishers": [],
+        "platforms": [
+          {
+            "id": "google-play",
+            "name": "Google Play",
+            "aliases": [],
+            "inferred": false
+          }
+        ],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "Arknights: Endfield has been named Google Play's best game of 2026."
+    }
+  ]
+}

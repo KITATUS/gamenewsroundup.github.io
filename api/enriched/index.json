@@ -1,6 +1,12 @@
 {
-  "day_count": 639,
+  "day_count": 640,
   "days": [
+    {
+      "date": "2026-11-19",
+      "entities": 5,
+      "facts": 0,
+      "items": 2
+    },
     {
       "date": "2026-11-18",
       "entities": 24,
@@ -3842,7 +3848,7 @@
   "genre_totals": {
     "4x": 20,
     "action": 58,
-    "action-adventure": 1012,
+    "action-adventure": 1013,
     "action-platformer": 3,
     "action-rpg": 726,
     "adventure": 367,
@@ -3866,14 +3872,14 @@
     "mmo": 48,
     "mmorpg": 79,
     "moba": 30,
-    "open-world": 453,
+    "open-world": 454,
     "party": 96,
     "platformer": 299,
     "puzzle": 159,
     "racing": 182,
     "rhythm": 51,
     "roguelike": 167,
-    "rpg": 245,
+    "rpg": 246,
     "rts": 40,
     "sandbox": 103,
     "shooter": 494,
@@ -3882,17 +3888,17 @@
     "soulslike": 81,
     "sports": 166,
     "stealth": 109,
-    "strategy": 189,
+    "strategy": 190,
     "survival": 197,
     "survival-horror": 279,
     "tactical-shooter": 2,
     "tower-defense": 16,
-    "tps": 172,
+    "tps": 173,
     "turn-based-strategy": 88,
     "twin-stick-shooter": 1,
     "visual-novel": 33
   },
-  "item_count": 4229,
+  "item_count": 4231,
   "metric_totals": {
     "acquisition_price": 37,
     "announce_date": 11,
