@@ -11,8 +11,8 @@
       "stealth",
       "tps"
     ],
-    "last_seen": "2026-11-18",
-    "mentions": 14,
+    "last_seen": "2026-11-20",
+    "mentions": 15,
     "name": "007 First Light",
     "type": "game"
   },
@@ -4977,8 +4977,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-26",
-    "last_seen": "2026-11-09",
-    "mentions": 34,
+    "last_seen": "2026-11-20",
+    "mentions": 35,
     "name": "Blizzard Entertainment",
     "type": "studio"
   },
@@ -11752,8 +11752,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2025-02-25",
-    "last_seen": "2026-06-17",
-    "mentions": 2,
+    "last_seen": "2026-11-20",
+    "mentions": 3,
     "name": "Dovetail Games",
     "type": "studio"
   },
@@ -21862,8 +21862,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-06-05",
-    "last_seen": "2026-11-18",
-    "mentions": 23,
+    "last_seen": "2026-11-20",
+    "mentions": 24,
     "name": "IO Interactive",
     "type": "studio"
   },
@@ -34924,8 +34924,8 @@
     "aliases": [],
     "fact_count": 0,
     "first_seen": "2024-06-10",
-    "last_seen": "2026-09-23",
-    "mentions": 12,
+    "last_seen": "2026-11-20",
+    "mentions": 13,
     "name": "Playground Games",
     "type": "studio"
   },
@@ -44173,8 +44173,8 @@
     "aliases": [],
     "fact_count": 9,
     "first_seen": "2025-11-19",
-    "last_seen": "2026-07-21",
-    "mentions": 5,
+    "last_seen": "2026-11-20",
+    "mentions": 6,
     "name": "Steam Machine",
     "type": "platform"
   },
@@ -50996,10 +50996,10 @@
       "Ubisoft Connect",
       "Ubisoft France"
     ],
-    "fact_count": 38,
+    "fact_count": 39,
     "first_seen": "2024-05-03",
-    "last_seen": "2026-11-05",
-    "mentions": 142,
+    "last_seen": "2026-11-20",
+    "mentions": 143,
     "name": "Ubisoft",
     "type": "publisher"
   },
@@ -51152,12 +51152,14 @@
     "type": "studio"
   },
   "ubisoft-montreal": {
-    "aliases": [],
+    "aliases": [
+      "Montréal"
+    ],
     "fact_count": 0,
     "first_seen": "2024-06-11",
-    "last_seen": "2025-12-16",
-    "mentions": 3,
-    "name": "Ubisoft Montreal",
+    "last_seen": "2026-11-20",
+    "mentions": 4,
+    "name": "Ubisoft Montréal",
     "type": "studio"
   },
   "ubisoft-paris": {
@@ -51167,6 +51169,17 @@
     "last_seen": "2026-08-07",
     "mentions": 1,
     "name": "Ubisoft Paris",
+    "type": "studio"
+  },
+  "ubisoft-quebec": {
+    "aliases": [
+      "Québec City"
+    ],
+    "fact_count": 0,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "mentions": 1,
+    "name": "Ubisoft Québec",
     "type": "studio"
   },
   "ubisoft-redlynx": {
@@ -52054,8 +52067,8 @@
     ],
     "fact_count": 0,
     "first_seen": "2024-04-25",
-    "last_seen": "2026-11-12",
-    "mentions": 71,
+    "last_seen": "2026-11-20",
+    "mentions": 72,
     "name": "Valve",
     "type": "studio"
   },
@@ -52597,6 +52610,15 @@
     "last_seen": "2026-08-19",
     "mentions": 1,
     "name": "VS Studio",
+    "type": "studio"
+  },
+  "wales-interactive": {
+    "aliases": [],
+    "fact_count": 0,
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "mentions": 1,
+    "name": "Wales Interactive",
     "type": "studio"
   },
   "walkabout-mini-golf": {
@@ -54137,8 +54159,8 @@
     "genres": [
       "mmorpg"
     ],
-    "last_seen": "2026-09-14",
-    "mentions": 9,
+    "last_seen": "2026-11-20",
+    "mentions": 10,
     "name": "World of Warcraft",
     "type": "game"
   },
@@ -54159,14 +54181,14 @@
   },
   "world-of-warcraft-forever": {
     "aliases": [],
-    "fact_count": 1,
+    "fact_count": 2,
     "first_seen": "2026-09-14",
     "franchise": "warcraft",
     "genres": [
       "mmorpg"
     ],
-    "last_seen": "2026-09-14",
-    "mentions": 1,
+    "last_seen": "2026-11-20",
+    "mentions": 2,
     "name": "World of Warcraft: Forever",
     "type": "game"
   },

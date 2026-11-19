@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-20",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/ubisoft-is-laying-off-166-staff-in-its-montr-al-and-qu-bec-c",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "ubisoft-montreal", "name": "Ubisoft Montréal", "aliases": ["Montréal"], "publisher": "ubisoft", "inferred": true },
+          { "id": "ubisoft-quebec", "name": "Ubisoft Québec", "aliases": ["Québec City"], "publisher": "ubisoft", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["layoffs"],
+      "facts": [
+        {
+          "metric": "layoffs_count",
+          "value": 166,
+          "unit": "people",
+          "currency": null,
+          "entity": "ubisoft",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Ubisoft is laying off 166 staff in its Montréal and Québec City offices",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com",
+            "url": "https://www.videogameschronicle.com/news/ubisoft-is-laying-off-166-staff-in-its-montreal-and-quebec-city-offices/"
+          }
+        }
+      ],
+      "summary": "Ubisoft is laying off 166 staff across its Montréal and Québec City offices, saying it is downsizing some teams to fit its current production priorities."
+    },
+    {
+      "ref": "main_news/world-of-warcraft-forever-has-more-weekly-players-than-wow-h",
+      "entities": {
+        "games": [
+          { "id": "world-of-warcraft-forever", "name": "World of Warcraft: Forever", "aliases": [], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true },
+          { "id": "world-of-warcraft", "name": "World of Warcraft", "aliases": ["WoW"], "genres": ["mmorpg"], "franchise": "warcraft", "inferred": true }
+        ],
+        "studios": [
+          { "id": "blizzard-entertainment", "name": "Blizzard Entertainment", "aliases": ["Blizzard"], "publisher": "microsoft", "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["sales-milestone"],
+      "facts": [
+        {
+          "metric": "release_date",
+          "value": "2026-11-04",
+          "unit": "date",
+          "currency": null,
+          "entity": "world-of-warcraft-forever",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-11-20",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "Since it launched on 4th November",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net",
+            "url": "https://www.eurogamer.net/wow-forever-weekly-players-15-years"
+          }
+        }
+      ],
+      "summary": "Blizzard says World of Warcraft: Forever has more weekly players than World of Warcraft has seen in 15 years."
+    },
+    {
+      "ref": "main_news/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games",
+      "entities": {
+        "games": [
+          { "id": "007-first-light", "name": "007 First Light", "aliases": [], "genres": ["action-adventure", "stealth"], "franchise": "james-bond", "inferred": true }
+        ],
+        "studios": [
+          { "id": "io-interactive", "name": "IO Interactive", "aliases": [], "publisher": null, "inferred": true },
+          { "id": "playground-games", "name": "Playground Games", "aliases": [], "publisher": "xbox-game-studios", "inferred": false },
+          { "id": "wales-interactive", "name": "Wales Interactive", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [
+          { "id": "dovetail-games", "name": "Dovetail Games", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": [],
+      "facts": [],
+      "summary": "007 First Light won Game of the Year at the 2026 TIGA Awards, while Dovetail Games took home four accolades including Best Publisher."
+    },
+    {
+      "ref": "main_news/valve-makes-steam-machine-512gb-available-for-direct-purchas",
+      "entities": {
+        "games": [],
+        "studios": [
+          { "id": "valve", "name": "Valve", "aliases": [], "publisher": null, "inferred": false }
+        ],
+        "publishers": [],
+        "platforms": [
+          { "id": "steam-machine", "name": "Steam Machine", "aliases": [], "inferred": false }
+        ],
+        "people": []
+      },
+      "event_tags": ["hardware"],
+      "facts": [],
+      "summary": "Valve has made the 512GB Steam Machine available for direct purchase and closed the waitlist for the 2TB model."
+    }
+  ]
+}

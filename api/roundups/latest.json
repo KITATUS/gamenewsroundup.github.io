@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-19",
-  "date": "2026-11-19",
+  "id": "2026-11-20",
+  "date": "2026-11-20",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-18T23:00:14.194+00:00",
+  "published_at": "2026-11-19T23:03:40.006+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 19 November 2026.",
+  "summary": "Daily curated games-industry news digest for 20 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,10 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "mindseye-studio-build-a-rocket-boy-wants-to-sue-saboteurs-to",
-          "title": "MindsEye studio **Build A Rocket Boy** wants to sue ‘saboteurs’ to pay off £62 million debt",
+          "id": "ubisoft-is-laying-off-166-staff-in-its-montr-al-and-qu-bec-c",
+          "title": "**Ubisoft** is laying off 166 staff in its Montréal and Québec City offices",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/mindseye-studio-wants-to-sue-saboteurs-to-pay-off-62-million-debt/",
+          "url": "https://www.videogameschronicle.com/news/ubisoft-is-laying-off-166-staff-in-its-montreal-and-quebec-city-offices/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -32,14 +32,31 @@
             "importance": "normal"
           },
           "bullets": [
-            "Build A Rocket Boy has sought even more financial support from investors to fund these legal costs"
+            "The company says it is downsizing some teams to fit its \"current production priorities\""
           ]
         },
         {
-          "id": "arknights-endfield-named-google-play-s-best-game-of-2026",
-          "title": "**Arknights: Endfield** named Google Play's best game of 2026",
+          "id": "world-of-warcraft-forever-has-more-weekly-players-than-wow-h",
+          "title": "**World of Warcraft: Forever** has more weekly players than WoW has seen in 15 years, says Blizzard",
           "body": null,
-          "url": "https://www.gamesindustry.biz/arknights-endfield-named-google-plays-best-game-of-2026",
+          "url": "https://www.eurogamer.net/wow-forever-weekly-players-15-years",
+          "source": {
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Since it launched on 4th November, players have created over 15,160,147 characters and over  140,764 guilds, completed over 1,480,343,357 quests, and defeated over 9,786,925,806 enemies"
+          ]
+        },
+        {
+          "id": "007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games",
+          "title": "007 First Light wins GOTY at 2026 **TIGA Awards**, Dovetail Games takes home four accolades including Best Publisher",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
@@ -47,7 +64,27 @@
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          }
+          },
+          "bullets": [
+            "Playground Games recognised as Best Large Studio and Wales Interactive won Best Small Studio"
+          ]
+        },
+        {
+          "id": "valve-makes-steam-machine-512gb-available-for-direct-purchas",
+          "title": "Valve Makes **Steam Machine** 512GB Available for Direct Purchase And Closes 2TB Waitlist",
+          "body": null,
+          "url": "https://steamdeckhq.com/news/steam-machine-512gb-direct-purchase/",
+          "source": {
+            "name": "steamdeckhq.com",
+            "domain": "steamdeckhq.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Once the 512gb units are gone it will show an out-of-stock notice rather than a waitlist"
+          ]
         }
       ]
     },
