@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-23",
+  "source_sha256": null,
+  "schema_version": 1,
+  "enricher": "claude-code/cli",
+  "items": [
+    {
+      "ref": "main_news/gta-6-earns-3-79-billion-in-one-day-as-the-biggest-entertain",
+      "entities": {
+        "games": [
+          { "id": "grand-theft-auto-vi", "name": "Grand Theft Auto VI", "aliases": ["GTA 6"], "genres": ["action-adventure", "open-world"], "franchise": "grand-theft-auto", "inferred": true }
+        ],
+        "studios": [
+          { "id": "rockstar-games", "name": "Rockstar Games", "aliases": [], "publisher": "take-two-interactive", "inferred": true }
+        ],
+        "publishers": [
+          { "id": "take-two-interactive", "name": "Take-Two Interactive", "aliases": [], "inferred": true }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["release", "sales-milestone"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 3790000000,
+          "unit": "currency",
+          "currency": "USD",
+          "entity": "grand-theft-auto-vi",
+          "entity_type": "game",
+          "scope": "game",
+          "as_of": "2026-11-23",
+          "period": "point_in_time",
+          "direction": null,
+          "confidence": "high",
+          "quote": "GTA 6 earns $3.79 billion in one day",
+          "source": { "name": "VGC", "domain": "videogameschronicle.com", "url": "https://www.videogameschronicle.com/news/gta-6-earns-3-79-billion-in-one-day-as-the-biggest-entertainment-launch-in-history/" }
+        }
+      ],
+      "summary": "GTA 6 earned $3.79 billion on its first day, billed as the biggest entertainment launch in history, after more than 32 million pre-orders."
+    },
+    {
+      "ref": "business/ubisoft-h1-2026-results",
+      "entities": {
+        "games": [
+          { "id": "assassins-creed-black-flag-resynced", "name": "Assassin's Creed Black Flag Resynced", "aliases": [], "genres": ["action-adventure", "open-world"], "franchise": "assassins-creed", "inferred": true }
+        ],
+        "studios": [],
+        "publishers": [
+          { "id": "ubisoft", "name": "Ubisoft", "aliases": [], "inferred": false }
+        ],
+        "platforms": [],
+        "people": []
+      },
+      "event_tags": ["earnings"],
+      "facts": [
+        {
+          "metric": "revenue",
+          "value": 644700000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "ubisoft",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-11-23",
+          "period": null,
+          "direction": "down",
+          "confidence": "medium",
+          "quote": "Net bookings: €644.7 million, down 16.5% year-on-year",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m" }
+        },
+        {
+          "metric": "operating_income",
+          "value": -189200000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "ubisoft",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-11-23",
+          "period": null,
+          "direction": "down",
+          "confidence": "high",
+          "quote": "IFRS operating income:  negative €189.2 million (vs  negative €120.2 million YoY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m" }
+        },
+        {
+          "metric": "operating_income",
+          "value": -155900000,
+          "unit": "currency",
+          "currency": "EUR",
+          "entity": "ubisoft",
+          "entity_type": "publisher",
+          "scope": "publisher",
+          "as_of": "2026-11-23",
+          "period": null,
+          "direction": "down",
+          "confidence": "medium",
+          "quote": "Non-IFRS operating income: negative €155.9 million (vs €27.1 million YoY)",
+          "source": { "name": "GamesIndustry.biz", "domain": "gamesindustry.biz", "url": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m" }
+        }
+      ],
+      "summary": "Ubisoft reported H1 2026 net bookings of €644.7 million, down 16.5% year-on-year, with negative IFRS operating income of €189.2 million."
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-20",
-  "date": "2026-11-20",
+  "id": "2026-11-23",
+  "date": "2026-11-23",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-19T23:03:40.006+00:00",
+  "published_at": "2026-11-22T20:47:42.101+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 20 November 2026.",
+  "summary": "Daily curated games-industry news digest for 23 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,10 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "ubisoft-is-laying-off-166-staff-in-its-montr-al-and-qu-bec-c",
-          "title": "**Ubisoft** is laying off 166 staff in its Montréal and Québec City offices",
+          "id": "gta-6-earns-3-79-billion-in-one-day-as-the-biggest-entertain",
+          "title": "**GTA 6** earns $3.79 billion in one day as ‘the biggest entertainment launch in history’",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/ubisoft-is-laying-off-166-staff-in-its-montreal-and-quebec-city-offices/",
+          "url": "https://www.videogameschronicle.com/news/gta-6-earns-3-79-billion-in-one-day-as-the-biggest-entertainment-launch-in-history/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -32,58 +32,7 @@
             "importance": "normal"
           },
           "bullets": [
-            "The company says it is downsizing some teams to fit its \"current production priorities\""
-          ]
-        },
-        {
-          "id": "world-of-warcraft-forever-has-more-weekly-players-than-wow-h",
-          "title": "**World of Warcraft: Forever** has more weekly players than WoW has seen in 15 years, says Blizzard",
-          "body": null,
-          "url": "https://www.eurogamer.net/wow-forever-weekly-players-15-years",
-          "source": {
-            "name": "Eurogamer",
-            "domain": "eurogamer.net"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          },
-          "bullets": [
-            "Since it launched on 4th November, players have created over 15,160,147 characters and over  140,764 guilds, completed over 1,480,343,357 quests, and defeated over 9,786,925,806 enemies"
-          ]
-        },
-        {
-          "id": "007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games",
-          "title": "007 First Light wins GOTY at 2026 **TIGA Awards**, Dovetail Games takes home four accolades including Best Publisher",
-          "body": null,
-          "url": "https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher",
-          "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          },
-          "bullets": [
-            "Playground Games recognised as Best Large Studio and Wales Interactive won Best Small Studio"
-          ]
-        },
-        {
-          "id": "valve-makes-steam-machine-512gb-available-for-direct-purchas",
-          "title": "Valve Makes **Steam Machine** 512GB Available for Direct Purchase And Closes 2TB Waitlist",
-          "body": null,
-          "url": "https://steamdeckhq.com/news/steam-machine-512gb-direct-purchase/",
-          "source": {
-            "name": "steamdeckhq.com",
-            "domain": "steamdeckhq.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          },
-          "bullets": [
-            "Once the 512gb units are gone it will show an out-of-stock notice rather than a waitlist"
+            "The game was pre-ordered over 32 million times"
           ]
         }
       ]
@@ -96,7 +45,29 @@
     {
       "id": "business",
       "label": "Business",
-      "items": []
+      "items": [
+        {
+          "id": "ubisoft-h1-2026-results",
+          "title": "**Ubisoft** H1 2026 Results",
+          "body": null,
+          "url": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m",
+          "source": {
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          },
+          "bullets": [
+            "Net bookings: €644.7 million, down 16.5% year-on-year",
+            "Digital net bookings: €548.2 million, down 20.1% year-on-year",
+            "Back-catalogue net bookings: €438.8 million, down 40.8% year-on-year",
+            "IFRS operating income:  negative €189.2 million (vs  negative €120.2 million YoY)",
+            "Non-IFRS operating income: negative €155.9 million (vs €27.1 million YoY)"
+          ]
+        }
+      ]
     },
     {
       "id": "rumours",
