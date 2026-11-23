@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-23",
-  "date": "2026-11-23",
+  "id": "2026-11-24",
+  "date": "2026-11-24",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-22T20:47:42.101+00:00",
+  "published_at": "2026-11-23T21:44:13.767+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 23 November 2026.",
+  "summary": "Daily curated games-industry news digest for 24 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,21 +19,32 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "gta-6-earns-3-79-billion-in-one-day-as-the-biggest-entertain",
-          "title": "**GTA 6** earns $3.79 billion in one day as ‘the biggest entertainment launch in history’",
+          "id": "god-of-war-laufey-s-faye-actor-jumps-from-games-to-live-acti",
+          "title": "**God of War Laufey**'s Faye actor jumps from games to live-action, as Amazon casts Deborah Ann Woll in upcoming series",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/gta-6-earns-3-79-billion-in-one-day-as-the-biggest-entertainment-launch-in-history/",
+          "url": "https://www.eurogamer.net/god-of-war-laufey-faye-amazon-series",
           "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
+          }
+        },
+        {
+          "id": "epic-games-no-longer-plans-to-include-blueprints-or-actor-ga",
+          "title": "Epic Games no longer plans to include Blueprints or Actor Gameplay Framework in **Unreal Engine 6**",
+          "body": null,
+          "url": "https://www.gamedeveloper.com/programming/unreal-engine-6-to-remove-blueprints-and-actor-gameplay-framework-from-the-beginning",
+          "source": {
+            "name": "Game Developer",
+            "domain": "gamedeveloper.com"
           },
-          "bullets": [
-            "The game was pre-ordered over 32 million times"
-          ]
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
         }
       ]
     },
@@ -47,10 +58,10 @@
       "label": "Business",
       "items": [
         {
-          "id": "ubisoft-h1-2026-results",
-          "title": "**Ubisoft** H1 2026 Results",
+          "id": "plug-in-digital-acquires-news-tower-publisher-twin-sails-int",
+          "title": "Plug in Digital acquires News Tower publisher **Twin Sails Interactive**, creating new publishing group to \"compete in a highly competitive market\"",
           "body": null,
-          "url": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m",
+          "url": "https://www.gamesindustry.biz/plug-in-digital-acquires-news-tower-publisher-twin-sails-interactive-creating-new-publishing-group-to-compete-in-a-highly-competitive-market",
           "source": {
             "name": "GamesIndustry.biz",
             "domain": "gamesindustry.biz"
@@ -60,11 +71,7 @@
             "importance": "normal"
           },
           "bullets": [
-            "Net bookings: €644.7 million, down 16.5% year-on-year",
-            "Digital net bookings: €548.2 million, down 20.1% year-on-year",
-            "Back-catalogue net bookings: €438.8 million, down 40.8% year-on-year",
-            "IFRS operating income:  negative €189.2 million (vs  negative €120.2 million YoY)",
-            "Non-IFRS operating income: negative €155.9 million (vs €27.1 million YoY)"
+            "\"Strategic combination\" of French firms will offer up to €500k funding along with distribution and publishing for indie developers, including presence in China"
           ]
         }
       ]
