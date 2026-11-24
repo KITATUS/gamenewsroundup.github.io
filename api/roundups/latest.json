@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-24",
-  "date": "2026-11-24",
+  "id": "2026-11-25",
+  "date": "2026-11-25",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-23T21:44:13.767+00:00",
-  "updated_at": "2026-11-23T21:45:17.877+00:00",
-  "summary": "Daily curated games-industry news digest for 24 November 2026.",
+  "published_at": "2026-11-24T21:37:03.025+00:00",
+  "updated_at": "2026-11-24T21:43:22.714+00:00",
+  "summary": "Daily curated games-industry news digest for 25 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,24 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "god-of-war-laufey-s-faye-actor-jumps-from-games-to-live-acti",
-          "title": "**God of War Laufey**'s Faye actor jumps from games to live-action, as Amazon casts Deborah Ann Woll in upcoming series",
+          "id": "cdpr-has-entered-a-marketing-agreement-with-sony-for-the-wit",
+          "title": "CDPR has entered a marketing agreement with Sony for **The Witcher 4**",
           "body": null,
-          "url": "https://www.eurogamer.net/god-of-war-laufey-faye-amazon-series",
+          "url": "https://www.videogameschronicle.com/news/cdpr-has-entered-a-marketing-agreement-with-sony-for-the-witcher-4/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "lords-of-the-fallen-2-delayed-to-april-2027-exact-release-da",
+          "title": "**Lords of the Fallen 2** delayed to April 2027, exact release date coming next month",
+          "body": null,
+          "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
           "source": {
             "name": "Eurogamer",
             "domain": "eurogamer.net"
@@ -33,13 +47,27 @@
           }
         },
         {
-          "id": "epic-games-no-longer-plans-to-include-blueprints-or-actor-ga",
-          "title": "Epic Games no longer plans to include Blueprints or Actor Gameplay Framework in **Unreal Engine 6**",
+          "id": "the-steam-awards-turn-10-with-throwback-categories-and-a-gam",
+          "title": "**The Steam Awards** turn 10 with throwback categories and a Game of the Year Hall of Fame",
           "body": null,
-          "url": "https://www.gamedeveloper.com/programming/unreal-engine-6-to-remove-blueprints-and-actor-gameplay-framework-from-the-beginning",
+          "url": "https://www.eurogamer.net/steam-awards-2026-nominations-open-hall-of-fame",
           "source": {
-            "name": "Game Developer",
-            "domain": "gamedeveloper.com"
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "namco-arcade-pioneer-and-ridge-racer-developer-koichi-tashir",
+          "title": "**Namco** Arcade Pioneer and Ridge Racer Developer Koichi Tashiro Has Passed Away",
+          "body": null,
+          "url": "https://www.reddit.com/r/Games/comments/1y4cjuq/namco_arcade_pioneer_and_ridge_racer_developer/",
+          "source": {
+            "name": "Reddit",
+            "domain": "reddit.com"
           },
           "metadata": {
             "story_type": "confirmed",
@@ -51,28 +79,40 @@
     {
       "id": "free_games_subscription",
       "label": "Free Games / Subscription",
-      "items": []
+      "items": [
+        {
+          "id": "wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-t",
+          "title": "**Wave Race Blue Storm** is the 12th GameCube game to be added to Switch Online’s library",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-to-switch-onlines-library/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        }
+      ]
     },
     {
       "id": "business",
       "label": "Business",
       "items": [
         {
-          "id": "plug-in-digital-acquires-news-tower-publisher-twin-sails-int",
-          "title": "Plug in Digital acquires News Tower publisher **Twin Sails Interactive**, creating new publishing group to \"compete in a highly competitive market\"",
+          "id": "gta-6-was-the-biggest-launch-in-playstation-history-with-ove",
+          "title": "**GTA 6** was the ‘biggest launch in PlayStation history’ with over 39 million players  on PlayStation alone",
           "body": null,
-          "url": "https://www.gamesindustry.biz/plug-in-digital-acquires-news-tower-publisher-twin-sails-interactive-creating-new-publishing-group-to-compete-in-a-highly-competitive-market",
+          "url": "https://www.videogameschronicle.com/news/gta-6-was-the-biggest-launch-in-playstation-history-with-over-39-million-players/",
           "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          },
-          "bullets": [
-            "\"Strategic combination\" of French firms will offer up to €500k funding along with distribution and publishing for indie developers, including presence in China"
-          ]
+          }
         }
       ]
     },
