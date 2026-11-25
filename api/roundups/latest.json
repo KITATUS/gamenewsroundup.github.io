@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-25",
-  "date": "2026-11-25",
+  "id": "2026-11-26",
+  "date": "2026-11-26",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-24T21:37:03.025+00:00",
-  "updated_at": "2026-11-24T21:43:22.714+00:00",
-  "summary": "Daily curated games-industry news digest for 25 November 2026.",
+  "published_at": "2026-11-25T23:27:53.644+00:00",
+  "updated_at": null,
+  "summary": "Daily curated games-industry news digest for 26 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,10 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "cdpr-has-entered-a-marketing-agreement-with-sony-for-the-wit",
-          "title": "CDPR has entered a marketing agreement with Sony for **The Witcher 4**",
+          "id": "capcom-s-online-dinosaur-shooter-exoprimal-is-officially-shu",
+          "title": "Capcom’s online dinosaur shooter **Exoprimal** is officially shutting down next year",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/cdpr-has-entered-a-marketing-agreement-with-sony-for-the-witcher-4/",
+          "url": "https://www.videogameschronicle.com/news/capcoms-online-dinosaur-shooter-exoprimal-is-officially-shutting-down-next-year/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -30,49 +30,28 @@
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          }
+          },
+          "bullets": [
+            "The game will no longer be playable when the servers shut down",
+            "The game will shut down on Wednesday, September 29, 2027"
+          ]
         },
         {
-          "id": "lords-of-the-fallen-2-delayed-to-april-2027-exact-release-da",
-          "title": "**Lords of the Fallen 2** delayed to April 2027, exact release date coming next month",
+          "id": "roblox-signs-licensing-deal-with-prs-for-music",
+          "title": "**Roblox** signs licensing deal with PRS for Music",
           "body": null,
-          "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
+          "url": "https://www.gamesindustry.biz/roblox-signs-licensing-deal-with-prs-for-music",
           "source": {
-            "name": "Eurogamer",
-            "domain": "eurogamer.net"
+            "name": "GamesIndustry.biz",
+            "domain": "gamesindustry.biz"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          }
-        },
-        {
-          "id": "the-steam-awards-turn-10-with-throwback-categories-and-a-gam",
-          "title": "**The Steam Awards** turn 10 with throwback categories and a Game of the Year Hall of Fame",
-          "body": null,
-          "url": "https://www.eurogamer.net/steam-awards-2026-nominations-open-hall-of-fame",
-          "source": {
-            "name": "Eurogamer",
-            "domain": "eurogamer.net"
           },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        },
-        {
-          "id": "namco-arcade-pioneer-and-ridge-racer-developer-koichi-tashir",
-          "title": "**Namco** Arcade Pioneer and Ridge Racer Developer Koichi Tashiro Has Passed Away",
-          "body": null,
-          "url": "https://www.reddit.com/r/Games/comments/1y4cjuq/namco_arcade_pioneer_and_ridge_racer_developer/",
-          "source": {
-            "name": "Reddit",
-            "domain": "reddit.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
+          "bullets": [
+            "Songwriters and composers will start receiving royalties next year"
+          ]
         }
       ]
     },
@@ -81,10 +60,10 @@
       "label": "Free Games / Subscription",
       "items": [
         {
-          "id": "wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-t",
-          "title": "**Wave Race Blue Storm** is the 12th GameCube game to be added to Switch Online’s library",
+          "id": "playstation-plus-games-for-december",
+          "title": "**PlayStation Plus** games for December",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-to-switch-onlines-library/",
+          "url": "https://www.videogameschronicle.com/news/playstation-plus-games-for-december-include-tony-hawks-pro-skater-34/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -92,29 +71,19 @@
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
-          }
+          },
+          "bullets": [
+            "Tony Hawk's Pro Skater 3+4",
+            "Dragon Ball Xenoverse 2",
+            "Amnesia: The Bunker"
+          ]
         }
       ]
     },
     {
       "id": "business",
       "label": "Business",
-      "items": [
-        {
-          "id": "gta-6-was-the-biggest-launch-in-playstation-history-with-ove",
-          "title": "**GTA 6** was the ‘biggest launch in PlayStation history’ with over 39 million players  on PlayStation alone",
-          "body": null,
-          "url": "https://www.videogameschronicle.com/news/gta-6-was-the-biggest-launch-in-playstation-history-with-over-39-million-players/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "rumours",
