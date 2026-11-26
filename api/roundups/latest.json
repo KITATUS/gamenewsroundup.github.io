@@ -1,11 +1,11 @@
 {
-  "id": "2026-11-26",
-  "date": "2026-11-26",
+  "id": "2026-11-27",
+  "date": "2026-11-27",
   "title": "Game News Round-Up",
   "status": "published",
-  "published_at": "2026-11-25T23:27:53.644+00:00",
+  "published_at": "2026-11-26T21:47:02.840+00:00",
   "updated_at": null,
-  "summary": "Daily curated games-industry news digest for 26 November 2026.",
+  "summary": "Daily curated games-industry news digest for 27 November 2026.",
   "video": {
     "status": "none",
     "url": null,
@@ -19,10 +19,24 @@
       "label": "Game News Round-Up",
       "items": [
         {
-          "id": "capcom-s-online-dinosaur-shooter-exoprimal-is-officially-shu",
-          "title": "Capcom’s online dinosaur shooter **Exoprimal** is officially shutting down next year",
+          "id": "75-of-rockstar-s-workers-have-voted-against-a-union-deal",
+          "title": "75% of **Rockstar**’s workers have voted against a union deal",
           "body": null,
-          "url": "https://www.videogameschronicle.com/news/capcoms-online-dinosaur-shooter-exoprimal-is-officially-shutting-down-next-year/",
+          "url": "https://www.videogameschronicle.com/news/75-of-rockstars-workers-have-voted-against-unionizing/",
+          "source": {
+            "name": "VGC",
+            "domain": "videogameschronicle.com"
+          },
+          "metadata": {
+            "story_type": "confirmed",
+            "importance": "normal"
+          }
+        },
+        {
+          "id": "despite-being-a-code-in-a-box-gta-6-s-physical-release-broke",
+          "title": "Despite being a code in a box, **GTA 6**’s physical release broke sales records",
+          "body": null,
+          "url": "https://www.videogameschronicle.com/news/despite-being-a-code-in-a-box-gta-6s-physical-release-broke-sales-records/",
           "source": {
             "name": "VGC",
             "domain": "videogameschronicle.com"
@@ -32,25 +46,27 @@
             "importance": "normal"
           },
           "bullets": [
-            "The game will no longer be playable when the servers shut down",
-            "The game will shut down on Wednesday, September 29, 2027"
+            "The physical edition earned £32 million in the UK in its first three days on the market",
+            "In Spain, it’s reported that GTA 6 is the most successful physical release in the country’s history",
+            "In France, one million physical copies were sold in three days"
           ]
         },
         {
-          "id": "roblox-signs-licensing-deal-with-prs-for-music",
-          "title": "**Roblox** signs licensing deal with PRS for Music",
+          "id": "ea-s-skate-removes-some-live-service-features-from-skate-and",
+          "title": "EA's **skate.** removes some live service features from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
           "body": null,
-          "url": "https://www.gamesindustry.biz/roblox-signs-licensing-deal-with-prs-for-music",
+          "url": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons",
           "source": {
-            "name": "GamesIndustry.biz",
-            "domain": "gamesindustry.biz"
+            "name": "Eurogamer",
+            "domain": "eurogamer.net"
           },
           "metadata": {
             "story_type": "confirmed",
             "importance": "normal"
           },
           "bullets": [
-            "Songwriters and composers will start receiving royalties next year"
+            "Seasons Are Battlepasses (skate.pass) Are Being Removed",
+            "Locations Will No Longer be Paywalled Behind the skate.pass"
           ]
         }
       ]
@@ -58,27 +74,7 @@
     {
       "id": "free_games_subscription",
       "label": "Free Games / Subscription",
-      "items": [
-        {
-          "id": "playstation-plus-games-for-december",
-          "title": "**PlayStation Plus** games for December",
-          "body": null,
-          "url": "https://www.videogameschronicle.com/news/playstation-plus-games-for-december-include-tony-hawks-pro-skater-34/",
-          "source": {
-            "name": "VGC",
-            "domain": "videogameschronicle.com"
-          },
-          "metadata": {
-            "story_type": "confirmed",
-            "importance": "normal"
-          },
-          "bullets": [
-            "Tony Hawk's Pro Skater 3+4",
-            "Dragon Ball Xenoverse 2",
-            "Amnesia: The Bunker"
-          ]
-        }
-      ]
+      "items": []
     },
     {
       "id": "business",
